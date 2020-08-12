@@ -1,2 +1,3 @@
 # repodata-shards
-repodata shards for conda-forge
+
+This repo holds repodata shards for conda-forge.
