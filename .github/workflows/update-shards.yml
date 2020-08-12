@@ -1,0 +1,22 @@
+on: [push, pull_request]
+
+jobs:
+  update_shards:
+    name: update repodata shards
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: actions/checkout@v2
+      - uses: goanpeca/setup-miniconda@v1
+        with:
+          python-version: 3.7
+          channels: conda-forge,defaults
+          channel-priority: strict
+          show-channel-urls: true
+      - shell: bash -l {0}
+        run: |
+          conda info
+          conda list
+          conda config --show-sources
+          conda config --show
+          
+          conda install -y -q python-rapidjson tqdm requests
