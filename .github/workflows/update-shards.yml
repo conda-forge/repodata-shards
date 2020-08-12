@@ -17,6 +17,22 @@ jobs:
           conda info
           conda list
           conda config --show-sources
-          conda config --show
+          conda config --show          
+          conda install -y -q python-rapidjson tqdm requests git
           
-          conda install -y -q python-rapidjson tqdm requests
+          pushd ${GITHUB_WORKSPACE}
+          python scripts/make_anaconda_shards.py
+          
+          if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
+            git config --global user.email 'becker.mr@gmail.com'
+            git config --global user.name 'beckermr'
+            repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+            git remote set-url --push origin ${repo_url}
+
+            git add *
+            tm="$(date +%FT%T%z)"
+            git commit -m "[ci skip] repodata shards ${tm}"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
