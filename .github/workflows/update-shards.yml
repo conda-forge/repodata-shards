@@ -32,7 +32,7 @@ jobs:
 
             git add *
             tm="$(date +%FT%T%z)"
-            git commit -m "[ci skip] repodata shards ${tm}"
+            git commit --allow-empty -am "[ci skip] repodata shards ${tm}"
             git push
           fi
         env:
