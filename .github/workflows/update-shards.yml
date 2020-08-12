@@ -1,4 +1,8 @@
-on: [push, pull_request]
+on: 
+  schedule:
+    - cron:  '0,20,40 * * * *'
+  pull_request:
+    types: ['opened', 'synchronize', 'reopened']
 
 jobs:
   update_shards:
