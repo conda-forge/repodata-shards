@@ -45,4 +45,4 @@ if __name__ == "__main__":
             os.makedirs(dir, exist_ok=True)
 
             with open(pth, "w") as fp:
-                json.dump(shard, fp)
+                json.dump(shard, fp, sort_keys=True)
