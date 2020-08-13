@@ -1,4 +1,4 @@
-on: 
+on:
   schedule:
     - cron:  '0,20,40 * * * *'
   pull_request:
@@ -23,21 +23,31 @@ jobs:
           conda list
           conda config --show-sources
           conda config --show
-          conda install -y -q python-rapidjson tqdm requests git
+          conda install -y -q git
+
+          git config --global user.email 'becker.mr@gmail.com'
+          git config --global user.name 'beckermr'
+
+          pushd ..
+          git clone --depth=1 https://github.com/regro/repodata-tools.git
+          rt_pth=`pwd`/repodata-tools
+          popd
+
+          conda install -y -q --file ${rt_pth}/requirements.txt
 
           pushd ${GITHUB_WORKSPACE}
-          python scripts/make_anaconda_shards.py
+          python ${rt_pth}/scripts/make_anaconda_shards.py
 
           if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
-            git config --global user.email 'becker.mr@gmail.com'
-            git config --global user.name 'beckermr'
-            repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-            git remote set-url --push origin ${repo_url}
+            if [[ -n $(git status -s) || $(git diff --stat) != '' ]]; then
+              repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+              git remote set-url --push origin ${repo_url}
 
-            git add *
-            tm="$(date +%FT%T%z)"
-            git commit --allow-empty -am "[ci skip] repodata shards ${tm}"
-            git push
+              git add *
+              tm="$(date +%FT%T%z)"
+              git commit -am "[ci skip] repodata shards ${tm}"
+              git push
+            fi
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
