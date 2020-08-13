@@ -39,16 +39,13 @@ jobs:
           python ${rt_pth}/scripts/make_anaconda_shards.py
 
           if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
+            repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+            git remote set-url --push origin ${repo_url}
+            tm="$(date +%FT%T%z)"
+            
             git add *
-            git diff --cached --no-ext-diff --quiet --exit-code
-            if [[ "$?" == "1" ]]; then
-              repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-              git remote set-url --push origin ${repo_url}
-
-              tm="$(date +%FT%T%z)"
-              git commit -am "[ci skip] repodata shards ${tm}"
-              git push
-            fi
+            git diff --cached --no-ext-diff --quiet --exit-code || git commit -am "[ci skip] repodata shards ${tm}"
+            git push
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
