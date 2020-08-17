@@ -20,7 +20,9 @@
     "run_exports": {
       "10.0.0": {
         "strong": [
-          "llvm-openmp >=10.0.0"
+          "llvm-openmp >=10.0.0",
+          "_openmp_mutex >=4.5",
+          "_openmp_mutex * *_llvm"
         ]
       },
       "10.0.1": {
@@ -45,7 +47,9 @@
       },
       "9.0.1": {
         "strong": [
-          "llvm-openmp >=9.0.1"
+          "llvm-openmp >=9.0.1",
+          "_openmp_mutex >=4.5",
+          "_openmp_mutex * *_llvm"
         ]
       }
     },
@@ -57,7 +61,7 @@
     "summary": "The OpenMP API supports multi-platform shared-memory parallel programming in C/C++ and Fortran.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1565638370,
+    "timestamp": 1595450325,
     "version": "8.0.0"
   },
   "channeldata_version": 1,
