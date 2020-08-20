@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Lossless conversion of raster images to PDF. You should use img2pdf if your priorities are (in this order):  1. always lossless: the image embedded in the PDF will always have the exact same color information for every pixel as the input 2. small: if possible, the difference in filesize between the input image and the output PDF will only be the overhead of the PDF container itself 3 fast: if possible, the input image is just pasted into the PDF document as-is without any CPU hungry re-encoding of the pixel data",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gitlab.mister-muffin.de/josch/img2pdf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/i/img2pdf/img2pdf-0.3.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Lossless conversion of raster images to PDF",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1572722234,
+    "version": "0.3.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "img2pdf-0.3.3-py27_0.tar.bz2",
+  "repodata": {
+    "build": "py27_0",
+    "build_number": 0,
+    "depends": [
+      "enum34",
+      "pillow",
+      "python >=2.7,<2.8.0a0"
+    ],
+    "license": "LGPL-3.0",
+    "license_family": "LGPL",
+    "md5": "f5143d3c59ac7d6a4b07c6293bb3220a",
+    "name": "img2pdf",
+    "sha256": "00668cd5178fc675b8f8cbbd1b572ed2325b3ce6006e1015a07c63fdb2287cb5",
+    "size": 53054,
+    "subdir": "linux-64",
+    "timestamp": 1572722234654,
+    "version": "0.3.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/img2pdf-0.3.3-py27_0.tar.bz2"
+}
