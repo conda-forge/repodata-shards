@@ -1,8 +1,6 @@
 on:
   schedule:
-    - cron:  '0,20,40 * * * *'
-  pull_request:
-    types: ['opened', 'synchronize', 'reopened']
+    - cron:  '0 * * * *'
 
 jobs:
   update_shards:
@@ -19,10 +17,6 @@ jobs:
       - name: get repodata shards
         shell: bash -l {0}
         run: |
-          conda info
-          conda list
-          conda config --show-sources
-          conda config --show
           conda install -y -q git
 
           git config --global user.email 'becker.mr@gmail.com'
@@ -36,16 +30,13 @@ jobs:
           conda install -y -q --file ${rt_pth}/requirements.txt
 
           pushd ${GITHUB_WORKSPACE}
+
+          repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git remote set-url --push origin ${repo_url}
+
           python ${rt_pth}/scripts/make_anaconda_shards.py
 
-          if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
-            repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-            git remote set-url --push origin ${repo_url}
-            tm="$(date +%FT%T%z)"
-            
-            git add *
-            git diff --cached --no-ext-diff --quiet --exit-code || git commit -am "[ci skip] repodata shards ${tm}"
-            git push
-          fi
+          popd
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BINSTAR_TOKEN: ${{ secrets.BINSTAR_TOKEN }}
