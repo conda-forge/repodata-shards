@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "To use this package in a normal conda environment, do the following     export CONDA_BUILD_WINSDK=/opt  To use this package in a conda-build environment, add the following     CONDA_BUILD_WINSDK:      - \"/opt\"  in $HOME/conda_build_config.yaml and use `clang_win-64` as the compiler.  By setting this variable, you are agreeing to the terms and conditions of the Windows SDK and the MSVC headers. If the Windows SDK and MSVC headers are not inside CONDA_BUILD_WINSDK, they would be automatically downloaded.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/clang-win-activation-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "9.0.1": {
+        "strong": [
+          "vc >=14.1",
+          "vs2015_runtime >=14.11.25547"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Cross compiler for windows with MSVC ABI compatbility",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1582829888,
+    "version": "9.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "clang_win-64-9.0.1-ha60ba70_2.tar.bz2",
+  "repodata": {
+    "build": "ha60ba70_2",
+    "build_number": 2,
+    "depends": [
+      "clangxx 9.0.1.*",
+      "compiler-rt 9.0.1.*",
+      "compiler-rt_win-64 9.0.1.*",
+      "lld 9.0.1.*",
+      "llvm-tools 9.0.1.*",
+      "msvc-headers-libs >=14.11.25547,<14.11.25548.0a0",
+      "winsdk >=10.0.17134.0,<10.0.17135.0a0"
+    ],
+    "license": "BSD-3-clause",
+    "license_family": "BSD",
+    "md5": "aba0b341cf5372b8dd679fb15a6c96f4",
+    "name": "clang_win-64",
+    "sha256": "433b171a9837e532a05ce69bdb17b6e83221c9a1643626a4857a40ecb027bb19",
+    "size": 21560,
+    "subdir": "linux-64",
+    "timestamp": 1582829888841,
+    "version": "9.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/clang_win-64-9.0.1-ha60ba70_2.tar.bz2"
+}
