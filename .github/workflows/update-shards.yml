@@ -8,6 +8,9 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - uses: actions/checkout@v2
+        with:
+          depth: 0
+          fetch-depth: 0
       - uses: goanpeca/setup-miniconda@v1
         with:
           python-version: 3.7
@@ -21,6 +24,7 @@ jobs:
 
           git config --global user.email 'becker.mr@gmail.com'
           git config --global user.name 'beckermr'
+          git config --global pull.rebase false
 
           pushd ..
           git clone --depth=1 https://github.com/regro/repodata-tools.git
