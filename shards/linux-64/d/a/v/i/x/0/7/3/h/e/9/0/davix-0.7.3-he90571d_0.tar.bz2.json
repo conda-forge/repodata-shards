@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The davix project aims to make file management over HTTP-based protocols simple. The focus is on high-performance remote I/O and data management of large collections of files. Currently, there is support for the WebDav, Amazon S3, Microsoft Azure, and HTTP protocols.",
+    "dev_url": "https://github.com/cern-it-sdc-id/davix",
+    "doc_source_url": null,
+    "doc_url": "https://dmc-docs.web.cern.ch/dmc-docs/versions/docs/davix-epel/html/",
+    "home": "https://dmc.web.cern.ch/projects/davix/home",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.7.3": {
+        "weak": [
+          "davix >=0.7.3,<0.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/cern-fts/davix/releases/download/R_0_7_3/davix-0.7.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "High-performance data access client for HTTP-based protocols. (WebDAV / S3 / Microsoft Azure / HTTP)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1557369675,
+    "version": "0.7.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "davix-0.7.3-he90571d_0.tar.bz2",
+  "repodata": {
+    "build": "he90571d_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "libxml2 >=2.9.9,<2.10.0a0",
+      "openssl >=1.1.1a,<1.1.2a"
+    ],
+    "license": "LGPL-2.1",
+    "license_family": "LGPL",
+    "md5": "a2489f9135501c552691b387d139cab1",
+    "name": "davix",
+    "sha256": "ca95ff9cccb686143bb232b86178d4f20a20bf48e15cf99025ff9eef66d778f5",
+    "size": 1231000,
+    "subdir": "linux-64",
+    "timestamp": 1557369675673,
+    "version": "0.7.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/davix-0.7.3-he90571d_0.tar.bz2"
+}
