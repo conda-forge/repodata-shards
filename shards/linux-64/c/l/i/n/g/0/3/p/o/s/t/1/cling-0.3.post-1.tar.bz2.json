@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Cling is an interactive C++ interpreter, built on top of Clang and LLVM compiler infrastructure. Cling realizes the read-eval-print loop (REPL) concept, in order to leverage rapid application development. Implemented as a small extension to LLVM and Clang, the interpreter reuses their strengths such as the praised concise and expressive compiler diagnostics.",
+    "dev_url": "https://github.com/root-mirror/cling",
+    "doc_source_url": null,
+    "doc_url": "https://root.cern.ch/cling",
+    "home": "https://root.cern.ch/cling",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "UI/NCSAOSL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/root-mirror/cling/archive/efd446871cfb077189bf3df7fbbad58de51ff7fa.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Cling - The Interactive C++ Interpreter",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 0,
+    "version": "0.3.post"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "cling-0.3.post-1.tar.bz2",
+  "repodata": {
+    "build": "1",
+    "build_number": 1,
+    "depends": [
+      "clangdev ==3.9.1",
+      "cling-patches",
+      "libcxx ==3.9.1",
+      "llvmdev ==3.9.1"
+    ],
+    "features": "cling",
+    "license": "UI/NCSAOSL",
+    "license_family": "BSD",
+    "md5": "54dabfb5c47a0834899390244d5c72b6",
+    "name": "cling",
+    "sha256": "8e8a1c31e9153f70252fd3344d3023485d33baf6508ac36575680437fdca4657",
+    "size": 49529005,
+    "subdir": "linux-64",
+    "version": "0.3.post"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/cling-0.3.post-1.tar.bz2"
+}
