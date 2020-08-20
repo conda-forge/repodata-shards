@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "FluidDyn project is an ecosystem of packages for research and teaching in fluid dynamics. The Python package fluiddyn contains basic utilities to manage File I/O for some esoteric formats, publication quality figures, job submission on clusters, MPI powerful classes to handle parameters, arrays, series of files simplified interfaces to calculate FFT, spherical harmonics and much more.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://fluiddyn.readthedocs.io",
+    "home": "https://bitbucket.org/fluiddyn/fluiddyn",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CeCILL-B",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.1": {
+        "weak": [
+          "fluiddyn*mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fluiddyn/fluiddyn-0.3.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Framework for studying fluid dynamics.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1563973189,
+    "version": "0.3.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "fluiddyn-0.3.1-mpi_openmpi_h3277127_2000.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h3277127_2000",
+    "build_number": 2000,
+    "depends": [
+      "h5netcdf",
+      "h5py",
+      "imageio",
+      "matplotlib",
+      "mpi4py",
+      "nbstripout",
+      "numpy",
+      "opencv",
+      "openmpi >=3.1,<3.2.0a0",
+      "psutil >=5.2.1",
+      "python >=3.7,<3.8.0a0",
+      "scikit-image",
+      "scipy",
+      "sip",
+      "six"
+    ],
+    "license": "CeCILL-B",
+    "md5": "8e126f2cb5b107eb7709c2674df89f2f",
+    "name": "fluiddyn",
+    "sha256": "348135b79b524ced1fd0b2b1fab359e249fe2ff8a1630a967e56ab3f42dac23e",
+    "size": 210203,
+    "subdir": "linux-64",
+    "timestamp": 1563973189012,
+    "version": "0.3.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/fluiddyn-0.3.1-mpi_openmpi_h3277127_2000.tar.bz2"
+}
