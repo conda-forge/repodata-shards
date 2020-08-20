@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Simple Authentication and Security Layer (SASL) is a specification that describes how authentication mechanisms can be plugged into an application protocol on the wire. Cyrus SASL is an implementation of SASL that makes it easy for application developers to integrate authentication mechanisms into their application in a generic way.",
+    "dev_url": "https://github.com/cyrusimap/cyrus-sasl",
+    "doc_source_url": null,
+    "doc_url": "https://www.cyrusimap.org/sasl/",
+    "home": "https://www.cyrusimap.org/sasl/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause-Attribution",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.1.26": {
+        "weak": [
+          "cyrus-sasl >=2.1.26,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "This is the Cyrus SASL API implementation. It can be used on the client or server side to provide authentication and authorization services. See RFC 4422 for more information.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1538531303,
+    "version": "2.1.26"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "cyrus-sasl-2.1.26-hc7fe25e_3.tar.bz2",
+  "repodata": {
+    "build": "hc7fe25e_3",
+    "build_number": 3,
+    "depends": [
+      "krb5 >=1.14.2,<1.15.0a0",
+      "libgcc-ng >=7.3.0",
+      "libntlm",
+      "openssl >=1.0.2p,<1.0.3a"
+    ],
+    "license": "BSD-3-Clause-Attribution",
+    "license_family": "BSD",
+    "md5": "50a1666c93dfe8fa640848d8bc170a46",
+    "name": "cyrus-sasl",
+    "sha256": "61fd60bc65ecf4df046dcac84aa8ac6d3750c940399f6be1e49d772a0b0c2a50",
+    "size": 247832,
+    "subdir": "linux-64",
+    "timestamp": 1538531303414,
+    "version": "2.1.26"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/cyrus-sasl-2.1.26-hc7fe25e_3.tar.bz2"
+}
