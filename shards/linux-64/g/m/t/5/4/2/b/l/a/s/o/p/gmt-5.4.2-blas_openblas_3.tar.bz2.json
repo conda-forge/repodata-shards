@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GMT is an open source collection of about 80 command-line tools for manipulating geographic and Cartesian data sets (including filtering, trend fitting, gridding, projecting, etc.) and producing PostScript illustrations ranging from simple x\u2013y plots via contour maps to artificially illuminated surfaces and 3D perspective views; the GMT supplements add another 40 more specialized and discipline-specific tools. GMT supports over 30 map projections and transformations",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://gmt.soest.hawaii.edu/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "ftp://ftp.soest.hawaii.edu/gmt/gmt-5.4.2-src.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The Generic Mapping Tools.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 0,
+    "version": "5.4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "gmt-5.4.2-blas_openblas_3.tar.bz2",
+  "repodata": {
+    "build": "blas_openblas_3",
+    "build_number": 3,
+    "depends": [
+      "blas 1.1 openblas",
+      "curl",
+      "dcw-gmt",
+      "fftw",
+      "gdal 2.2.*",
+      "ghostscript",
+      "gshhg-gmt",
+      "hdf5 1.8.18|1.8.18.*",
+      "libnetcdf 4.4.*",
+      "openblas 0.2.19|0.2.19.*",
+      "pcre",
+      "zlib 1.2.*"
+    ],
+    "features": "blas_openblas",
+    "license": "LGPL-3.0",
+    "md5": "3cd4fb66a3cb70c655a786364a7420bc",
+    "name": "gmt",
+    "sha256": "e347752baac5c374deb2f75a0ab578de1c2db30caf8c57129e811f82ecc63c3f",
+    "size": 81289928,
+    "subdir": "linux-64",
+    "version": "5.4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/gmt-5.4.2-blas_openblas_3.tar.bz2"
+}
