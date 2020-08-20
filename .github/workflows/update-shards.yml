@@ -1,6 +1,9 @@
 on:
-  schedule:
-    - cron:  '15 * * * *'
+#   schedule:
+#     - cron:  '15 * * * *'
+  push:
+    branches: 
+      - master
 
 jobs:
   update_shards:
