@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GooFit is split into GPU and CPU versions on Linux. If you want to install for gpus, you can do:  ```bash conda install goofit goofit-proc=*=gpu ```  You can add `cudatoolkit=10.0` or `9.2` if you want a specific toolkit version.  The OpenMP CPU version is default, but can be explicitly requested with:  ```bash conda install goofit goofit-proc=*=cpu ```",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/GooFit/GooFit",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/g/goofit/goofit-2.2.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A fitting package for GPU and CPU",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1580527645,
+    "version": "2.2.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "goofit-2.2.3-py36h7cc98d6_0.tar.bz2",
+  "repodata": {
+    "build": "py36h7cc98d6_0",
+    "build_number": 0,
+    "constrains": [
+      "goofit-proc * gpu"
+    ],
+    "depends": [
+      "cudatoolkit 9.2|9.2.*",
+      "libgcc-ng >=7.3.0",
+      "libgomp",
+      "libstdcxx-ng >=7.3.0",
+      "numpy >=1.11.1",
+      "python >=3.6,<3.7.0a0"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "LGPL",
+    "md5": "ff7f1ae6017402c5fa2e38c7bbc3dd35",
+    "name": "goofit",
+    "sha256": "57801272f544bb0a84e2b4d9e9c1a2c7d3352fd5de081efb9380f22b1aebfc42",
+    "size": 19812499,
+    "subdir": "linux-64",
+    "timestamp": 1580527645462,
+    "version": "2.2.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/goofit-2.2.3-py36h7cc98d6_0.tar.bz2"
+}
