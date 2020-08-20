@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GDB, the GNU Project debugger, allows you to see what is going on `inside' another program while it executes -- or what another program was doing at the moment it crashed. The program being debugged can be written in Ada, C, C++, Objective-C, Pascal (and many other languages). Those programs might be executing on the same machine as GDB (native) or on another machine (remote). GDB can run on most popular UNIX and Microsoft Windows variants.",
+    "dev_url": "git://sourceware.org/git/binutils-gdb.git",
+    "doc_source_url": null,
+    "doc_url": "https://sourceware.org/gdb/current/onlinedocs/gdb/",
+    "home": "https://www.gnu.org/software/gdb/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://ftp.gnu.org/gnu/gdb/gdb-7.12.1.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "GDB, the GNU Project debugger, allows you to see what is going on inside another program while it executes -- or what another program was doing at the moment it crashed.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 0,
+    "version": "7.12.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "gdb-7.12.1-py36_0.tar.bz2",
+  "repodata": {
+    "build": "py36_0",
+    "build_number": 0,
+    "depends": [
+      "ncurses 5.9*",
+      "python 3.6*",
+      "xz 5.2.*"
+    ],
+    "license": "GPL",
+    "md5": "faaef592336325b35e8895b443754d2b",
+    "name": "gdb",
+    "sha256": "c747137fdc70dc4ef1c5cf2b0be09ba280efa3215e161aca70f77334f1731b96",
+    "size": 5290828,
+    "subdir": "linux-64",
+    "version": "7.12.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/gdb-7.12.1-py36_0.tar.bz2"
+}

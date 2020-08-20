@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "GDB, the GNU Project debugger, allows you to see what is going on `inside' another program while it executes -- or what another program was doing at the moment it crashed. The program being debugged can be written in Ada, C, C++, Objective-C, Pascal (and many other languages). Those programs might be executing on the same machine as GDB (native) or on another machine (remote). GDB can run on most popular UNIX and Microsoft Windows variants.",
+    "dev_url": "git://sourceware.org/git/binutils-gdb.git",
+    "doc_source_url": null,
+    "doc_url": "https://sourceware.org/gdb/current/onlinedocs/gdb/",
+    "home": "https://www.gnu.org/software/gdb/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://ftp.gnu.org/gnu/gdb/gdb-7.11.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "GDB, the GNU Project debugger, allows you to see what is going on inside another program while it executes -- or what another program was doing at the moment it crashed.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "7.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "gdb-7.11-py35_0.tar.bz2",
+  "repodata": {
+    "build": "py35_0",
+    "build_number": 0,
+    "depends": [
+      "ncurses 5.9*",
+      "python 3.5*",
+      "xz 5.2.*"
+    ],
+    "license": "GPL",
+    "md5": "7969c723e14958c204f9c40c6c2f1432",
+    "name": "gdb",
+    "sha256": "a6d4716a6d4463535a4f8e4bd0698f617ce0dde9c260f8b319ade79ac21e70f3",
+    "size": 4997084,
+    "subdir": "linux-64",
+    "version": "7.11"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/gdb-7.11-py35_0.tar.bz2"
+}
