@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "ADIOS2 is the latest implementation of the ADaptable Input Output System, ADIOS. This brand new architecture was designed to continue supporting the performance legacy of ADIOS, and extend its current capabilities to address current and future input/output (IO) challenges in the scientific data lifecycle through effective research and development (R&D) activities.",
+    "dev_url": "https://github.com/ornladios/ADIOS2",
+    "doc_source_url": null,
+    "doc_url": "https://adios2.readthedocs.io",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.0": {
+        "weak": [
+          "adios2 * nompi_*",
+          "adios2 >=2.4,<2.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ornladios/ADIOS2/archive/v2.4.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Next generation of ADIOS developed in the Exascale Computing Program",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1562010497,
+    "version": "2.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "adios2-2.4.0-nompi_py37h2bcbe98_100.tar.bz2",
+  "repodata": {
+    "build": "nompi_py37h2bcbe98_100",
+    "build_number": 100,
+    "depends": [
+      "bzip2 >=1.0.6,<2.0a0",
+      "hdf5 >=1.10.5,<1.10.6.0a0",
+      "hdf5 >=1.8.13 nompi_*",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "numpy >=1.15.0",
+      "python >=3.7,<3.8.0a0",
+      "zeromq"
+    ],
+    "license": "Apache-2.0",
+    "md5": "1cfb166aa7445979fe2d475c9b4b5002",
+    "name": "adios2",
+    "sha256": "1cc7c1f610ca71c70d815ac670069f4bbba46b21a0aeec6132e41a4fb555ef98",
+    "size": 3639052,
+    "subdir": "linux-64",
+    "timestamp": 1562010497253,
+    "version": "2.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/adios2-2.4.0-nompi_py37h2bcbe98_100.tar.bz2"
+}
