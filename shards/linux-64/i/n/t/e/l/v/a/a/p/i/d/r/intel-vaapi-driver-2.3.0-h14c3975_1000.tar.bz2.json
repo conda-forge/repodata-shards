@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "VA-API is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and driver-specific acceleration backends for each supported hardware vendor.  The current video driver backend provides a bridge to the GEN GPUs through the packaging of buffers and commands to be sent to the i915 driver for exercising both hardware and shader functionality for video decode, encode, and processing.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/intel/intel-vaapi-driver",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.0": {
+        "weak": [
+          "intel-vaapi-driver >=2.3.0,<2.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/intel/intel-vaapi-driver/releases/download/2.3.0/intel-vaapi-driver-2.3.0.tar.bz2",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "VA-API (Video Acceleration API) user mode driver for Intel GEN Graphics family",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1547557034,
+    "version": "2.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "intel-vaapi-driver-2.3.0-h14c3975_1000.tar.bz2",
+  "repodata": {
+    "build": "h14c3975_1000",
+    "build_number": 1000,
+    "depends": [
+      "intel-hybrid-driver >=1.0.2,<1.1.0a0",
+      "libgcc-ng >=7.3.0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "dd1fa1e1079558df8da2176a8157bfe7",
+    "name": "intel-vaapi-driver",
+    "sha256": "92b0c6385439ae852117ee93dc8b47337f60f1bcda3dd7597600246e0f2532b9",
+    "size": 1395195,
+    "subdir": "linux-64",
+    "timestamp": 1547557034526,
+    "version": "2.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/intel-vaapi-driver-2.3.0-h14c3975_1000.tar.bz2"
+}
