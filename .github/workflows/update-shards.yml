@@ -20,11 +20,11 @@ jobs:
       - name: get repodata shards
         shell: bash -l {0}
         run: |
-          # conda install -y -q git
+          conda install -y -q git
 
-          git config --global user.email 'becker.mr@gmail.com'
-          git config --global user.name 'beckermr'
-          # git config --global pull.rebase false
+          git config --global user.email 'blah@fake.blah'
+          git config --global user.name 'conda-forge-daemon'
+          git config --global pull.rebase false
 
           pushd ..
           git clone --depth=1 https://github.com/regro/repodata-tools.git
