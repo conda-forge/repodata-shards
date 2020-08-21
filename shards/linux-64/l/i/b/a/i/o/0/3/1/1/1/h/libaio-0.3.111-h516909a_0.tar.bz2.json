@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Linux-native asynchronous I/O facility (\"async I/O\", or \"aio\") has a richer API and capability set than the simple POSIX async I/O facility. This library, libaio, provides the Linux-native API for async I/O. The POSIX async I/O facility requires this library in order to provide kernel-accelerated async I/O capabilities, as do applications which require the Linux-native async I/O API.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pagure.io/libaio",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.111": {
+        "weak": [
+          "libaio >=0.3.111,<0.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://pagure.io/libaio/archive/libaio-0.3.111/libaio-libaio-0.3.111.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Provides the Linux-native API for async I/O",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1559423239,
+    "version": "0.3.111"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "libaio-0.3.111-h516909a_0.tar.bz2",
+  "repodata": {
+    "build": "h516909a_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.3.0"
+    ],
+    "license": "LGPL-2.1",
+    "license_family": "LGPL",
+    "md5": "022683a067c8cf258af17f046d1a2797",
+    "name": "libaio",
+    "sha256": "478c12f64e8f9205f83be52346232a5462a35378e248c09867fc296503e53bde",
+    "size": 19207,
+    "subdir": "linux-64",
+    "timestamp": 1559423239892,
+    "version": "0.3.111"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/libaio-0.3.111-h516909a_0.tar.bz2"
+}
