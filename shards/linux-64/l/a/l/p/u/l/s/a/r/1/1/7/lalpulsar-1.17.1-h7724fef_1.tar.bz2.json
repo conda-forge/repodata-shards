@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Pulsar Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Pulsar library.  If you want to install the Python bindings, please install the associated python-lalpulsar package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalpulsar/",
+    "home": "https://wiki.ligo.org/Computing/DASWG/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv2+",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.17.1": {
+        "weak": [
+          "lalpulsar >=1.17.1,<1.18.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalpulsar-1.17.1.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Pulsar Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1552144103,
+    "version": "1.17.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "lalpulsar-1.17.1-h7724fef_1.tar.bz2",
+  "repodata": {
+    "build": "h7724fef_1",
+    "build_number": 1,
+    "depends": [
+      "cfitsio",
+      "fftw",
+      "gsl >=2.4,<2.5.0a0",
+      "lal >=6.19.2",
+      "lal >=6.19.2,<6.20.0a0",
+      "libgcc-ng >=7.3.0"
+    ],
+    "license": "GPLv2+",
+    "license_family": "GPL",
+    "md5": "d8ee7ee20abf21b467677e2d0510c401",
+    "name": "lalpulsar",
+    "sha256": "7cc873bae7fe92033db98cf97ba924ee2adb725a8854870f3be6383029f6e2a8",
+    "size": 94503463,
+    "subdir": "linux-64",
+    "timestamp": 1552144103236,
+    "version": "1.17.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/lalpulsar-1.17.1-h7724fef_1.tar.bz2"
+}
