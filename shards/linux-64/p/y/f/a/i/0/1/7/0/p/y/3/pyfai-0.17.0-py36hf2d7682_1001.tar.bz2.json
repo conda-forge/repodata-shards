@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "pyFAI is an azimuthal integration library that tries to be fast (as fast as C and even more using OpenCL and GPU). It is based on histogramming of the 2theta/Q positions of each (center of) pixel weighted by the intensity of each pixel, but parallel version uses a SparseMatrix-DenseVector multiplication. Neighboring output bins get also a contribution of pixels next to the border thanks to pixel splitting. Finally pyFAI provides also tools to calibrate the experimental setup using Debye-Scherrer rings of a reference compound.",
+    "dev_url": "https://github.com/silx-kit/pyFAI/",
+    "doc_source_url": null,
+    "doc_url": "http://pythonhosted.org/pyFAI/",
+    "home": "https://github.com/silx-kit/pyFAI/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/silx-kit/pyFAI/archive/v0.17.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python implementation of fast azimuthal integration",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1552758179,
+    "version": "0.17.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "pyfai-0.17.0-py36hf2d7682_1001.tar.bz2",
+  "repodata": {
+    "build": "py36hf2d7682_1001",
+    "build_number": 1001,
+    "depends": [
+      "fabio",
+      "h5py",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "lxml",
+      "matplotlib",
+      "numpy >=1.9.3,<2.0a0",
+      "pillow",
+      "python >=3.6,<3.7.0a0",
+      "scipy",
+      "silx"
+    ],
+    "license": "GPL-3",
+    "md5": "b84e4209bf9be00ab50f98c0a8eef212",
+    "name": "pyfai",
+    "sha256": "41fb2608604ffe945c351088286bddf9ca544cd670f5acbc84b699e257c29b20",
+    "size": 13212786,
+    "subdir": "linux-64",
+    "timestamp": 1552758179988,
+    "version": "0.17.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyfai-0.17.0-py36hf2d7682_1001.tar.bz2"
+}
