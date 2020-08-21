@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LLVM-Exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "9.0.0": {
+        "weak": [
+          "libllvm9 >=9.0.0,<9.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://releases.llvm.org/9.0.0/llvm-9.0.0.src.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1573152982,
+    "version": "9.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "llvm-9.0.0-3.tar.bz2",
+  "repodata": {
+    "build": "3",
+    "build_number": 3,
+    "constrains": [
+      "llvmdev   9.0.0"
+    ],
+    "depends": [
+      "libllvm9 9.0.0 hc9558a2_3"
+    ],
+    "license": "LLVM-Exception",
+    "license_family": "Apache",
+    "md5": "5e9554e82d09d7518ac7877c6d98651e",
+    "name": "llvm",
+    "sha256": "26b2eb8dbc8222f560fd8010020897e54bb4161c68fed620cd7e93359a092ec1",
+    "size": 48451,
+    "subdir": "linux-64",
+    "timestamp": 1573152982057,
+    "version": "9.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/llvm-9.0.0-3.tar.bz2"
+}
