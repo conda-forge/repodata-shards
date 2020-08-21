@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Connector/C is a client library that implements the C API for client/server communication. It is a standalone replacement for the MySQL client library shipped with MySQL Server distributions.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://dev.mysql.com/downloads/connector/c/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "6.1.11": {
+        "weak": [
+          "mysql-connector-c >=6.1.11,<6.1.12.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://dev.mysql.com/get/Downloads/Connector-C/mysql-connector-c-6.1.11-src.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "MySQL Connector/C, the C interface for communicating with MySQL servers.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1550758814,
+    "version": "6.1.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "mysql-connector-c-6.1.11-hab6429c_1002.tar.bz2",
+  "repodata": {
+    "build": "hab6429c_1002",
+    "build_number": 1002,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "openssl >=1.0.2p,<1.0.3a"
+    ],
+    "license": "LGPL",
+    "license_family": "LGPL",
+    "md5": "9a133db64096d47f8a281536f11d4988",
+    "name": "mysql-connector-c",
+    "sha256": "73cb3db4659e3236b19eb967b429b10b1e05f57a62bd5022fbe5c04192380253",
+    "size": 4627448,
+    "subdir": "linux-64",
+    "timestamp": 1550758814500,
+    "version": "6.1.11"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/mysql-connector-c-6.1.11-hab6429c_1002.tar.bz2"
+}
