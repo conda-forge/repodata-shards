@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OpenMC is a community-developed Monte Carlo neutron and photon transport simulation code. It is capable of performing fixed source, k-eigenvalue, and subcritical multiplication calculations on models built using either a constructive solid geometry or CAD representation. OpenMC supports both continuous-energy and multigroup transport. The continuous-energy particle interaction data is based on a native HDF5 format that can be generated from ACE files produced by NJOY. Parallelism is enabled via a hybrid MPI and OpenMP programming model.",
+    "dev_url": "https://github.com/openmc-dev/openmc",
+    "doc_source_url": null,
+    "doc_url": "https://docs.openmc.org",
+    "home": "https://openmc.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/openmc-dev/openmc/archive/v0.11.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "OpenMC Monte Carlo Code",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1573486402,
+    "version": "0.11.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "openmc-0.11.0-py38h61b9802_2.tar.bz2",
+  "repodata": {
+    "build": "py38h61b9802_2",
+    "build_number": 2,
+    "depends": [
+      "h5py",
+      "hdf5 >=1.10.5,<1.10.6.0a0",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "lxml",
+      "matplotlib",
+      "numpy >=1.14.6,<2.0a0",
+      "pandas",
+      "python >=3.8,<3.9.0a0",
+      "scipy",
+      "uncertainties"
+    ],
+    "license": "MIT",
+    "md5": "37d2d1f2eec9454ea92cb5a0f55d1548",
+    "name": "openmc",
+    "sha256": "75f8705353368b9f85ee0a2692ba80ee5ab847014f86841ff0e59e0abf7552c9",
+    "size": 3734924,
+    "subdir": "linux-64",
+    "timestamp": 1573486402983,
+    "version": "0.11.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/openmc-0.11.0-py38h61b9802_2.tar.bz2"
+}
