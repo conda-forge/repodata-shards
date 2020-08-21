@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/NVIDIA/apex",
+    "doc_source_url": null,
+    "doc_url": "https://nvidia.github.io/apex/",
+    "home": "https://nvidia.github.io/apex/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/apex/archive/088985936518be7e25795a30d8ab33affa9db6ed.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "a Pytorch extension with NVIDIA-maintained utilities to streamline mixed precision and distributed training.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1571337477,
+    "version": "0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "nvidia-apex-0.1-py36hed6fefa_1.tar.bz2",
+  "repodata": {
+    "build": "py36hed6fefa_1",
+    "build_number": 1,
+    "constrains": [
+      "nvidia-apex-proc * gpu"
+    ],
+    "depends": [
+      "cudatoolkit 10.1|10.1.*",
+      "cxxfilt",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "numpy",
+      "pytest",
+      "python >=3.6,<3.7.0a0",
+      "pytorch",
+      "pyyaml",
+      "tqdm"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "f47ee7ca94c08447ea2a177dfb934217",
+    "name": "nvidia-apex",
+    "sha256": "f23604d080ca26be62999a922ab7c40d3066f9cdc601197e5f8de0338019b295",
+    "size": 190061,
+    "subdir": "linux-64",
+    "timestamp": 1571337477223,
+    "version": "0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/nvidia-apex-0.1-py36hed6fefa_1.tar.bz2"
+}
