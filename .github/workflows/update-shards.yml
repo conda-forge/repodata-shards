@@ -1,9 +1,7 @@
 on:
-  # schedule:
-  #   - cron:  '30 * * * *'
-  push:
-    branches: 
-      - dev
+  schedule:
+    - cron:  '0 * * * *'
+
 jobs:
   update_shards:
     name: update repodata shards
