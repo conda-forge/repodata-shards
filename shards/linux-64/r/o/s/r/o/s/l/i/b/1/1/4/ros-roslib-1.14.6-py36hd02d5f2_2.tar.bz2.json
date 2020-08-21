@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Base dependencies and support libraries for ROS. roslib contains many of the common data structures and tools that are shared across ROS client library implementations.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://ros.org/wiki/roslib",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.14.6": {
+        "weak": [
+          "ros-roslib >=1.14,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ros-gbp/ros-release/archive/release/melodic/roslib/1.14.6-0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Base dependencies and support libraries for ROS.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1582272761,
+    "version": "1.14.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "ros-roslib-1.14.6-py36hd02d5f2_2.tar.bz2",
+  "repodata": {
+    "build": "py36hd02d5f2_2",
+    "build_number": 2,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "python >=3.6,<3.7.0a0",
+      "ros-catkin",
+      "ros-conda-base",
+      "ros-conda-mutex * melodic",
+      "ros-environment",
+      "ros-rospack >=2.5,<3.0a0",
+      "rospkg"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "73d0cbdcc50032d19441a2b944014329",
+    "name": "ros-roslib",
+    "sha256": "cfa40d52e0721b7ef8f66b3434bec1978dd40f864fb8c193c27a00e85cf2d6e8",
+    "size": 116138,
+    "subdir": "linux-64",
+    "timestamp": 1582272761762,
+    "version": "1.14.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/ros-roslib-1.14.6-py36hd02d5f2_2.tar.bz2"
+}
