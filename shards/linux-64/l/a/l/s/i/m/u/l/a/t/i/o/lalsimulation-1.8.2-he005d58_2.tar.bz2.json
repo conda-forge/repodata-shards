@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Simulation Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Simulation library. If you want to install the Python bindings, please install the associated python-lalsimulation package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalsimulation/",
+    "home": "https://wiki.ligo.org/Computing/DASWG/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.8.2": {
+        "weak": [
+          "lalsimulation >=1.8.2,<1.9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalsimulation-1.8.2.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Simulation Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1558452259,
+    "version": "1.8.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "lalsimulation-1.8.2-he005d58_2.tar.bz2",
+  "repodata": {
+    "build": "he005d58_2",
+    "build_number": 2,
+    "depends": [
+      "gsl >=2.4,<2.5.0a0",
+      "lal >=6.19.2",
+      "lal >=6.19.2,<6.20.0a0",
+      "libgcc-ng >=7.3.0"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "5371d8d42a2ed7d6cfec7611ceeb5ed6",
+    "name": "lalsimulation",
+    "sha256": "ba261dedb10186e91dfe9aae4202853a977549e22a8a6fb41112f4cf8cfe4179",
+    "size": 18697651,
+    "subdir": "linux-64",
+    "timestamp": 1558452259889,
+    "version": "1.8.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/lalsimulation-1.8.2-he005d58_2.tar.bz2"
+}
