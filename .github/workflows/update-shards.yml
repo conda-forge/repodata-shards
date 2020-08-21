@@ -3,7 +3,7 @@ on:
   #   - cron:  '30 * * * *'
   push:
     branches: 
-      - master
+      - dev
 jobs:
   update_shards:
     name: update repodata shards
