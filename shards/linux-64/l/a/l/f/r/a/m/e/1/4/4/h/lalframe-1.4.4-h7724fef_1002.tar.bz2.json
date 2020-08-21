@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Frame Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Frame library.  If you want to install the Python bindings, please install the associated python-lalframe package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalframe/",
+    "home": "https://wiki.ligo.org/Computing/DASWG/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.4.4": {
+        "weak": [
+          "lalframe >=1.4.4,<1.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalframe-1.4.4.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Frame Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1552078442,
+    "version": "1.4.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "lalframe-1.4.4-h7724fef_1002.tar.bz2",
+  "repodata": {
+    "build": "h7724fef_1002",
+    "build_number": 1002,
+    "depends": [
+      "gsl >=2.4,<2.5.0a0",
+      "lal >=6.19.2,<6.20.0a0",
+      "ldas-tools-framecpp >=2.5.5",
+      "libframe",
+      "libgcc-ng >=7.3.0"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "34f5f508a81c73999fe909aa3c843752",
+    "name": "lalframe",
+    "sha256": "ba1f3ee02806d903afd0d37cdcf9e864396652b250a3213176555b5edd190c50",
+    "size": 1008026,
+    "subdir": "linux-64",
+    "timestamp": 1552078442396,
+    "version": "1.4.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/lalframe-1.4.4-h7724fef_1002.tar.bz2"
+}
