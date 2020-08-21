@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Burst Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Burst library.  If you want to install the Python bindings, please install the associated python-lalburst package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalburst/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.2": {
+        "weak": [
+          "lalburst >=1.5.2,<1.6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalburst-1.5.2.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Burst Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1574168232,
+    "version": "1.5.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "lalburst-1.5.2-h88e4a8a_2.tar.bz2",
+  "repodata": {
+    "build": "h88e4a8a_2",
+    "build_number": 2,
+    "depends": [
+      "gsl >=2.5,<2.6.0a0",
+      "lal >=6.20.0",
+      "lal >=6.20.2,<6.21.0a0",
+      "lalmetaio >=1.5.0",
+      "lalmetaio >=1.5.1,<1.6.0a0",
+      "lalsimulation >=1.9.0",
+      "lalsimulation >=1.9.1,<1.10.0a0",
+      "libgcc-ng >=7.3.0",
+      "metaio"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "e8b1cd30c1e91c4817934969945646c7",
+    "name": "lalburst",
+    "sha256": "5cd2463d0679d07f0a512e889499f6d59e28509bf105e4f553e94ba96eb89a55",
+    "size": 204601,
+    "subdir": "linux-64",
+    "timestamp": 1574168232961,
+    "version": "1.5.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/lalburst-1.5.2-h88e4a8a_2.tar.bz2"
+}
