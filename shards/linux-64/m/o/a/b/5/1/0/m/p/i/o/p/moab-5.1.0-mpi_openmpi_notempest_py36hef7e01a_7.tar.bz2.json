@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Mesh-Oriented datABase (MOAB) is a component for representing and evaluating mesh data. MOAB can store structured and unstructured mesh, consisting of elements in the finite element zoo plus polygons and polyhedra.",
+    "dev_url": "https://bitbucket.org/fathomteam/moab.git",
+    "doc_source_url": null,
+    "doc_url": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "home": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL v2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.1.0": {
+        "weak": [
+          "moab * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/fathom/moab-5.1.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The Mesh-Oriented datABase",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1574082991,
+    "version": "5.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "moab-5.1.0-mpi_openmpi_notempest_py36hef7e01a_7.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_notempest_py36hef7e01a_7",
+    "build_number": 7,
+    "depends": [
+      "hdf5 * mpi_openmpi_*",
+      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_openmpi_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "numpy",
+      "openmpi >=4.0,<4.1.0a0",
+      "openssh",
+      "python >=3.6,<3.7.0a0",
+      "setuptools"
+    ],
+    "license": "LGPL v2.1",
+    "md5": "c224de8fd8ea3148b1bfdf18ec06a5a9",
+    "name": "moab",
+    "sha256": "6e2313ee0b8254bc09ea3f3d6ebdb193ef671247d82e859547ef872948fb7a89",
+    "size": 6398961,
+    "subdir": "linux-64",
+    "timestamp": 1574082991022,
+    "version": "5.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/moab-5.1.0-mpi_openmpi_notempest_py36hef7e01a_7.tar.bz2"
+}
