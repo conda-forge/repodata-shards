@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.mcs.anl.gov/petsc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.8.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 0,
+    "version": "3.8.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "petsc-3.8.1-blas_openblas_1.tar.bz2",
+  "repodata": {
+    "build": "blas_openblas_1",
+    "build_number": 1,
+    "depends": [
+      "blas 1.* openblas",
+      "mpich >=3.2",
+      "openblas 0.2.20|0.2.20.*",
+      "ptscotch",
+      "suitesparse 4.5.4"
+    ],
+    "features": "blas_openblas",
+    "license": "BSD 2-Clause",
+    "md5": "07159afbb166057973a8bd552be28b82",
+    "name": "petsc",
+    "sha256": "1dc2be946698a6a58ec7346ccb931c48c7d9d469fba5c148703635148e157615",
+    "size": 5377739,
+    "subdir": "linux-64",
+    "version": "3.8.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/petsc-3.8.1-blas_openblas_1.tar.bz2"
+}
