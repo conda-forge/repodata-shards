@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "rospy is a pure Python client library for ROS. The rospy client API enables Python programmers to quickly interface with ROS Topics, Services, and Parameters. The design of rospy favors implementation speed (i.e. developer time) over runtime performance so that algorithms can be quickly prototyped and tested within ROS. It is also ideal for non-critical-path code, such as configuration and initialization code. Many of the ROS tools are written in rospy to take advantage of the type introspection capabilities. Many of the ROS tools, such as rostopic and rosservice, are built on top of rospy.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://ros.org/wiki/rospy",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/ros-gbp/ros_comm-release/archive/release/melodic/rospy/1.14.3-0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "rospy is a pure Python client library for ROS.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1573314864,
+    "version": "1.14.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "ros-rospy-1.14.3-py38he1b5a44_0.tar.bz2",
+  "repodata": {
+    "build": "py38he1b5a44_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "numpy",
+      "python >=3.8,<3.9.0a0",
+      "pyyaml",
+      "ros-conda-base",
+      "ros-conda-mutex * melodic",
+      "ros-genpy",
+      "ros-roscpp",
+      "ros-rosgraph",
+      "ros-rosgraph-msgs",
+      "ros-roslib",
+      "ros-std-msgs",
+      "rospkg"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "31024d18259e410eaea971d9120aeab0",
+    "name": "ros-rospy",
+    "sha256": "4c82bed0c14df26f6d07e7682b6be58cc7f8960584018ecb254d28c725e3e749",
+    "size": 143363,
+    "subdir": "linux-64",
+    "timestamp": 1573314864147,
+    "version": "1.14.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/ros-rospy-1.14.3-py38he1b5a44_0.tar.bz2"
+}
