@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "nPth is a library to provide the GNU Pth API and thus a non-preemptive threads implementation.  In contrast to GNU Pth is is based on the system's standard threads implementation. This allows the use of libraries which are not compatible to GNU Pth. Experience with a Windows Pth emulation showed that this is a solid way to provide a co-routine based framework.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.gnupg.org/software/ntbtls/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.6": {
+        "weak": [
+          "npth >=1.6,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The New GNU Portable Threads Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1531732457,
+    "version": "1.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "npth-1.6-hfc679d8_0.tar.bz2",
+  "repodata": {
+    "build": "hfc679d8_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=4.9",
+      "libgpg-error >=1.32,<2.0a0",
+      "libstdcxx-ng >=4.9"
+    ],
+    "license": "LGPL-2",
+    "license_family": "GPL",
+    "md5": "60939f35530d80dd32c0b2d6f1fa1b0f",
+    "name": "npth",
+    "sha256": "169717218b2216f998016daebe7236445ff4b75287c856b7fd50c627c96653c8",
+    "size": 25608,
+    "subdir": "linux-64",
+    "timestamp": 1531732457127,
+    "version": "1.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/npth-1.6-hfc679d8_0.tar.bz2"
+}
