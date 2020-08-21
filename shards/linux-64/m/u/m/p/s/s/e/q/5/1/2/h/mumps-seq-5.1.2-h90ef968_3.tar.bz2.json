@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "MUMPS (MUltifrontal Massively Parallel Solver) is a package for solving systems of linear equations of the form Ax = b, where A is a square sparse matrix that can be either unsymmetric, symmetric positive definite, or general symmetric, on distributed memory computers. MUMPS implements a direct method based on a multifrontal approach which performs a Gaussian factorization.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "http://mumps.enseeiht.fr/index.php?page=doc",
+    "home": "http://mumps.enseeiht.fr/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CeCILL-C",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.1.2": {
+        "weak": [
+          "mumps-seq >=5.1.2,<5.1.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://mumps.enseeiht.fr/MUMPS_5.1.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "MUMPS: a parallel sparse direct solver",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1543525064,
+    "version": "5.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "mumps-seq-5.1.2-h90ef968_3.tar.bz2",
+  "repodata": {
+    "build": "h90ef968_3",
+    "build_number": 3,
+    "depends": [
+      "blas 1.1 openblas",
+      "libgcc-ng >=4.9",
+      "libgfortran >=3.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mumps-include >=5.1.2,<5.1.3.0a0",
+      "openblas >=0.3.3,<0.3.4.0a0",
+      "scotch >=6.0.6,<6.1.0a0"
+    ],
+    "license": "CeCILL-C",
+    "md5": "59c5189691303afcd241a6ec897648a1",
+    "name": "mumps-seq",
+    "sha256": "99473614bfc954f85ac473eee4fdf29b29963622671d239f4d7b92b1147f7c64",
+    "size": 2558807,
+    "subdir": "linux-64",
+    "timestamp": 1543525064738,
+    "version": "5.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/mumps-seq-5.1.2-h90ef968_3.tar.bz2"
+}
