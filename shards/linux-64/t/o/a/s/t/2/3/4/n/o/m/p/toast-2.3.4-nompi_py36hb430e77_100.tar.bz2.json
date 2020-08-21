@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "TOAST is a software framework for simulating and processing timestream data collected by microwave telescopes.",
+    "dev_url": "https://github.com/hpc4cmb/toast",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/hpc4cmb/toast",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.4": {
+        "weak": [
+          "toast * nompi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/hpc4cmb/toast/archive/2.3.4.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Time Ordered Astrophysics Scalable Tools",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1574088013,
+    "version": "2.3.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "toast-2.3.4-nompi_py36hb430e77_100.tar.bz2",
+  "repodata": {
+    "build": "nompi_py36hb430e77_100",
+    "build_number": 100,
+    "depends": [
+      "astropy",
+      "fftw >=3.3.8,<4.0a0",
+      "healpy",
+      "libaatm",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.3.0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "numpy",
+      "pyephem",
+      "python >=3.6,<3.7.0a0",
+      "scipy",
+      "suitesparse >=4.5.6,<5.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "f35e3401ea61dbc83d48918e53b20248",
+    "name": "toast",
+    "sha256": "95c0cfad282aa7dc8c72110e35875055f3d26301b2243228258618823776df46",
+    "size": 1358022,
+    "subdir": "linux-64",
+    "timestamp": 1574088013364,
+    "version": "2.3.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/toast-2.3.4-nompi_py36hb430e77_100.tar.bz2"
+}
