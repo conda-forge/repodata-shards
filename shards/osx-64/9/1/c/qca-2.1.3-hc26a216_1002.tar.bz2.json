@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Taking a hint from the similarly-named Java Cryptography Architecture, QCA aims to provide a straightforward and cross-platform crypto API, using Qt datatypes and conventions. QCA separates the API from the implementation, using plugins known as Providers. The advantage of this model is to allow applications to avoid linking to or explicitly depending on any particular cryptographic library. This allows one to easily change or upgrade crypto implementations without even needing to recompile the application! QCA should work everywhere Qt does, including Windows/Unix/MacOSX.",
+    "dev_url": "https://quickgit.kde.org/?p=qca.git",
+    "doc_source_url": null,
+    "doc_url": "http://delta.affinix.com/docs/qca/",
+    "home": "http://delta.affinix.com/qca/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/KDE/qca/archive/v2.1.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Qt Cryptographic Architecture (QCA) provides a straightforward and cross-platform crypto API, using Qt datatypes and conventions.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1542380242,
+    "version": "2.1.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "qca-2.1.3-hc26a216_1002.tar.bz2",
+  "repodata": {
+    "build": "hc26a216_1002",
+    "build_number": 1002,
+    "depends": [
+      "libcxx >=4.0.1",
+      "qt >=5.6.2,<5.7.0a0"
+    ],
+    "license": "LGPL-2.1",
+    "md5": "1c4846547d497dd08e3cb91663dad353",
+    "name": "qca",
+    "sha256": "09f6f41d2e55d755c08b578094fd1afccc20fa4240d7aa226aa21b7939a53256",
+    "size": 892296,
+    "subdir": "osx-64",
+    "timestamp": 1542380242387,
+    "version": "2.1.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/qca-2.1.3-hc26a216_1002.tar.bz2"
+}
