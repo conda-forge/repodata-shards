@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/HenrikBengtsson/R.rsp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL (>= 2.1)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/R.rsp/R.rsp_0.43.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/R.rsp_0.43.2.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "The RSP markup language makes any text-based document come alive.  RSP provides a powerful markup for controlling the content and output of LaTeX, HTML, Markdown, AsciiDoc, Sweave and knitr documents (and more), e.g. 'Today's date is <%=Sys.Date()%>'.  Contrary to many other literate programming languages, with RSP it is straightforward to loop over mixtures of code and text sections, e.g. in month-by-month summaries.  RSP has also several preprocessing directives for incorporating static and dynamic contents of external files (local or online) among other things.  Functions rstring() and rcat() make it easy to process RSP strings, rsource() sources an RSP file as it was an R script, while rfile() compiles it (even online) into its final output format, e.g. rfile('report.tex.rsp') generates 'report.pdf' and rfile('report.md.rsp') generates 'report.html'.  RSP is ideal for self-contained scientific reports and R package vignettes.  It's easy to use - if you know how to write an R script, you'll be up and running within minutes.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1588696338,
+    "version": "0.43.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-r.rsp-0.43.2-r40h6115d3f_1.tar.bz2",
+  "repodata": {
+    "build": "r40h6115d3f_1",
+    "build_number": 1,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-digest >=0.6.13",
+      "r-r.cache >=0.13.0",
+      "r-r.methodss3 >=1.7.1",
+      "r-r.oo >=1.22.0",
+      "r-r.utils"
+    ],
+    "license": "LGPL (>= 2.1)",
+    "license_family": "LGPL",
+    "md5": "3a65707483cc80075c10ee3c141d56d2",
+    "name": "r-r.rsp",
+    "noarch": "generic",
+    "sha256": "9edbeabf54a2c644bbf25bed3ce83197a95b201d85b67324a593ccc3c195e0ee",
+    "size": 1568865,
+    "subdir": "noarch",
+    "timestamp": 1588696338056,
+    "version": "0.43.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-r.rsp-0.43.2-r40h6115d3f_1.tar.bz2"
+}
