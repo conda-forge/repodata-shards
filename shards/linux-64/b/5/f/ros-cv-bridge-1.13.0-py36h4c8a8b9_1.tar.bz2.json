@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This contains CvBridge, which converts between ROS Image messages and OpenCV images.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wiki.ros.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.13.0": {
+        "weak": [
+          "ros-cv-bridge >=1.13.0,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ros-gbp/vision_opencv-release/archive/release/melodic/cv_bridge/1.13.0-0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A Python and C++ implementation to convert ROS Image messages and OpenCV images.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1590358675,
+    "version": "1.13.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "ros-cv-bridge-1.13.0-py36h4c8a8b9_1.tar.bz2",
+  "repodata": {
+    "build": "py36h4c8a8b9_1",
+    "build_number": 1,
+    "depends": [
+      "boost >=1.70.0,<1.70.1.0a0",
+      "boost-cpp >=1.70.0,<1.70.1.0a0",
+      "console_bridge 0.4.*",
+      "libgcc-ng >=7.5.0",
+      "libopencv >=4.2.0,<4.2.1.0a0",
+      "libstdcxx-ng >=7.5.0",
+      "opencv",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "ros-conda-base",
+      "ros-conda-mutex * melodic",
+      "ros-cpp-common >=0.6.12,<0.7.0a0",
+      "ros-rosconsole >=1.13,<2.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "676f25da30edc98ad1a76da0636973e0",
+    "name": "ros-cv-bridge",
+    "sha256": "e124d706fe89cac113e4b048e12b2aa56f9cdfcb3d41844d196e3babd4b1fe22",
+    "size": 123966,
+    "subdir": "linux-64",
+    "timestamp": 1590358675296,
+    "version": "1.13.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ros-cv-bridge-1.13.0-py36h4c8a8b9_1.tar.bz2"
+}
