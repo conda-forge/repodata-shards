@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "LZ4 is lossless compression algorithm, providing compression speed at 400 MB/s per core (0.16 Bytes/cycle). It features an extremely fast decoder, with speed in multiple GB/s per core (0.71 Bytes/cycle). A high compression derivative, called LZ4_HC, is available, trading customizable CPU time for compression ratio. LZ4 library is provided as open source software using a BSD license.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.lz4.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 2-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.8.3": {
+        "weak": [
+          "lz4-c >=1.8.3,<1.8.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/lz4/lz4/archive/v1.8.3.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Extremely Fast Compression algorithm",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1550461297,
+    "version": "1.8.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lz4-c-1.8.3-hf484d3e_1001.tar.bz2",
+  "repodata": {
+    "build": "hf484d3e_1001",
+    "build_number": 1001,
+    "depends": [
+      "libgcc-ng >=8.2.0",
+      "libstdcxx-ng >=8.2.0"
+    ],
+    "license": "BSD 2-clause",
+    "md5": "e7ee7d17eb395d1c6303f2d9f7d20214",
+    "name": "lz4-c",
+    "sha256": "e8496bd231a199a68465f0649bf238306fc7ffa4a8e3732ed8a8004d926d352d",
+    "size": 204408,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1550461297530,
+    "version": "1.8.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/lz4-c-1.8.3-hf484d3e_1001.tar.bz2"
+}
