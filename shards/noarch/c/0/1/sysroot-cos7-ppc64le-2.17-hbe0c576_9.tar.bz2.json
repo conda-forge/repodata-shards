@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The glibc package contains standard libraries which are used by multiple programs on the system. In order to save disk space and memory, as well as to make upgrading easier, common system code is kept in one place and shared between programs. This particular package contains the most important sets of shared libraries: the standard C library and the standard math library. Without these two libraries, a Linux system will not function.  Kernel-headers includes the C header files that specify the interface between the Linux kernel and userspace libraries and programs.  The header files define structures and constants that are needed for building most standard programs and are also needed for rebuilding the glibc package.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://sources.redhat.com/glibc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "(CDT) The GNU libc libraries and header files for the Linux kernel for use by glibc",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1595697314,
+    "version": "2.17"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "sysroot-cos7-ppc64le-2.17-hbe0c576_9.tar.bz2",
+  "repodata": {
+    "build": "hbe0c576_9",
+    "build_number": 9,
+    "depends": [
+      "sysroot_linux-ppc64le 2.17"
+    ],
+    "license": "LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "42241ccc0933bd0732dd93fb5130c8b5",
+    "name": "sysroot-cos7-ppc64le",
+    "noarch": "generic",
+    "sha256": "96d3acb5e51f84d8d35de97c67af454653429ed95a189198a5f1a679f66f5361",
+    "size": 5845,
+    "subdir": "noarch",
+    "timestamp": 1595697314799,
+    "version": "2.17"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sysroot-cos7-ppc64le-2.17-hbe0c576_9.tar.bz2"
+}
