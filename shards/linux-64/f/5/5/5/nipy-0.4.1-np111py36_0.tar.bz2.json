@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://nipy.org/nipy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/n/nipy/nipy-0.4.1.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Neuroimaging in Python FMRI analysis package",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.0.4"
+    "version": "0.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "s3fs-0.0.4-py27_0.tar.bz2",
+  "package": "nipy-0.4.1-np111py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "np111py36_0",
     "build_number": 0,
     "depends": [
-      "boto3",
-      "python 2.7*"
+      "ipython",
+      "matplotlib",
+      "nibabel >=1.2.0",
+      "numpy 1.11*",
+      "python 3.6*",
+      "scipy >=0.9.0",
+      "sympy >=0.7.0"
     ],
     "license": "BSD 3-Clause",
-    "md5": "0398ad2e6cb66a5170a08f13b7815a44",
-    "name": "s3fs",
-    "sha256": "b965779bce8aef8efb20c84eebcc823c75f52f44139e83d9871cc1255d664b34",
-    "size": 18850,
+    "md5": "8d60b46b3772725c0e81a884804c5705",
+    "name": "nipy",
+    "sha256": "b3669f146e217b3c5d911bb2fe48a214e223fbd5f8c80a552222b30476b4b64e",
+    "size": 4948101,
     "subdir": "linux-64",
-    "version": "0.0.4"
+    "version": "0.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/s3fs-0.0.4-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/nipy-0.4.1-np111py36_0.tar.bz2"
 }

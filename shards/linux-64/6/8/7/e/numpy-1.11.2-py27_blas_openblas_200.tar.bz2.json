@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://numpy.scipy.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/numpy/numpy/archive/v1.11.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "array processing for numbers, strings, records, and objects.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.0.4"
+    "version": "1.11.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "s3fs-0.0.4-py27_0.tar.bz2",
+  "package": "numpy-1.11.2-py27_blas_openblas_200.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "py27_blas_openblas_200",
+    "build_number": 200,
     "depends": [
-      "boto3",
+      "blas 1.1 openblas",
+      "openblas 0.2.18|0.2.18.*",
       "python 2.7*"
     ],
+    "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "md5": "0398ad2e6cb66a5170a08f13b7815a44",
-    "name": "s3fs",
-    "sha256": "b965779bce8aef8efb20c84eebcc823c75f52f44139e83d9871cc1255d664b34",
-    "size": 18850,
+    "md5": "a7ccf5bf1b8f3aa7c2c9c8230225a9ae",
+    "name": "numpy",
+    "sha256": "1c2624045aac94ef3b3e8fa987b9453a94ef7665cb1b5adee291a28693d5c43f",
+    "size": 7417527,
     "subdir": "linux-64",
-    "version": "0.0.4"
+    "version": "1.11.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/s3fs-0.0.4-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/numpy-1.11.2-py27_blas_openblas_200.tar.bz2"
 }
