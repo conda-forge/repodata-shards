@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Zstandard is a real-time compression algorithm, providing high compression ratios. It offers a very wide range of compression / speed trade-off, while being backed by a very fast decoder. It also offers a special mode for small data, called dictionary compression, and can create dictionaries from any sample set. Zstandard library is provided as open source software using a BSD license.",
+    "dev_url": "https://github.com/facebook/zstd",
+    "doc_source_url": null,
+    "doc_url": "https://facebook.github.io/zstd/zstd_manual.html",
+    "home": "http://www.zstd.net",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.4.4": {
+        "weak": [
+          "zstd >=1.4.4,<1.4.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/facebook/zstd/releases/download/v1.4.4/zstd-1.4.4.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Zstandard - Fast real-time compression algorithm",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1573061805,
+    "version": "1.4.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "zstd-1.4.4-h3b9ef0a_0.tar.bz2",
+  "repodata": {
+    "build": "h3b9ef0a_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "lz4-c >=1.8.3,<1.8.4.0a0",
+      "xz >=5.2.4,<5.3.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "md5": "92e5bf59e54cd2635aa923987d3d6457",
+    "name": "zstd",
+    "sha256": "9d4e533260742c3035a9afba05a8107824fdd5421dfabdf926655a62202b955a",
+    "size": 923883,
+    "subdir": "linux-aarch64",
+    "timestamp": 1573061805958,
+    "version": "1.4.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/zstd-1.4.4-h3b9ef0a_0.tar.bz2"
+}
