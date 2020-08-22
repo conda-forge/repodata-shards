@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/erichson/spca",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/sparsepca/sparsepca_0.1.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/sparsepca_0.1.2.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Sparse principal component analysis (SPCA) attempts to find sparse weight vectors (loadings), i.e., a weight vector with only a few 'active' (nonzero) values. This approach provides better interpretability for the principal components in high-dimensional data settings. This is, because the principal components are formed as a linear combination of only a few of the original variables. This package provides efficient routines to compute SPCA. Specifically, a variable projection solver is used to compute the sparse solution. In addition, a fast randomized accelerated SPCA routine and a robust SPCA routine is provided. Robust SPCA allows to capture grossly corrupted entries in the data. The methods are discussed in detail by N. Benjamin Erichson et al. (2018) <arXiv:1804.00341>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1589406299,
+    "version": "0.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-sparsepca-0.1.2-r36h6115d3f_1.tar.bz2",
+  "repodata": {
+    "build": "r36h6115d3f_1",
+    "build_number": 1,
+    "depends": [
+      "r-base >=3.6,<3.7.0a0",
+      "r-rsvd"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "2417be8a97ac470c6a270add7923b051",
+    "name": "r-sparsepca",
+    "noarch": "generic",
+    "sha256": "8bb672150801ba01f77c3e50e13c4f63104e60c88c62aa33f5babb988156f4f9",
+    "size": 67635,
+    "subdir": "noarch",
+    "timestamp": 1589406299050,
+    "version": "0.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-sparsepca-0.1.2-r36h6115d3f_1.tar.bz2"
+}
