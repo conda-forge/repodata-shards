@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Frame Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Frame library.  If you want to install the Python bindings, please install the associated python-lalframe package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalframe/",
+    "home": "https://wiki.ligo.org/Computing/DASWG/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.4.4": {
+        "weak": [
+          "lalframe >=1.4.4,<1.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalframe-1.4.4.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Frame Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1552079667,
+    "version": "1.4.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lalframe-1.4.4-h53c389d_1002.tar.bz2",
+  "repodata": {
+    "build": "h53c389d_1002",
+    "build_number": 1002,
+    "depends": [
+      "gsl >=2.4,<2.5.0a0",
+      "lal >=6.19.2,<6.20.0a0",
+      "ldas-tools-framecpp >=2.5.5",
+      "libframe"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "3782349fb6b6af7eb9d9d65df7bf30c1",
+    "name": "lalframe",
+    "sha256": "845ecef415cef8a39c0e8728708cee192f6c693850f28e61e005230cfc307ba5",
+    "size": 459059,
+    "subdir": "osx-64",
+    "timestamp": 1552079667904,
+    "version": "1.4.4"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lalframe-1.4.4-h53c389d_1002.tar.bz2"
+}
