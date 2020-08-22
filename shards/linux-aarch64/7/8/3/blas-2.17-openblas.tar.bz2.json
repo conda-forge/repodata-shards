@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1593288364,
+    "version": "2.17"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.17-openblas.tar.bz2",
+  "repodata": {
+    "build": "openblas",
+    "build_number": 17,
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "libblas 3.8.0 17_openblas",
+      "libcblas 3.8.0 17_openblas",
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "liblapack 3.8.0 17_openblas",
+      "liblapacke 3.8.0 17_openblas",
+      "llvm-openmp >=10.0.0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "6c122dcf4dee757784947b05bab6a235",
+    "name": "blas",
+    "sha256": "f8d58b0ad7c49ff00004321dee1e1afb7663a15af2ed43cfff5204a877043400",
+    "size": 11210,
+    "subdir": "linux-aarch64",
+    "timestamp": 1593288364207,
+    "version": "2.17"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/blas-2.17-openblas.tar.bz2"
+}
