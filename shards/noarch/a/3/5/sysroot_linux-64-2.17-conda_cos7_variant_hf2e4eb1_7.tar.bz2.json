@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The glibc package contains standard libraries which are used by multiple programs on the system. In order to save disk space and memory, as well as to make upgrading easier, common system code is kept in one place and shared between programs. This particular package contains the most important sets of shared libraries: the standard C library and the standard math library. Without these two libraries, a Linux system will not function.  Kernel-headers includes the C header files that specify the interface between the Linux kernel and userspace libraries and programs.  The header files define structures and constants that are needed for building most standard programs and are also needed for rebuilding the glibc package.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://sources.redhat.com/glibc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.17": {
+        "strong": [
+          "__glibc >=2.17,<3.0.a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "(CDT) The GNU libc libraries and header files for the Linux kernel for use by glibc",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1591470448,
+    "version": "2.17"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "sysroot_linux-64-2.17-conda_cos7_variant_hf2e4eb1_7.tar.bz2",
+  "repodata": {
+    "build": "conda_cos7_variant_hf2e4eb1_7",
+    "build_number": 7,
+    "depends": [
+      "_sysroot_linux-64_curr_repodata_hack 3.*",
+      "kernel-headers_linux-64 3.10.0 conda_cos7_variant_hf2e4eb1_7"
+    ],
+    "license": "LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "f7dfd201a49f99bb33f1c62cc88b6a02",
+    "name": "sysroot_linux-64",
+    "noarch": "generic",
+    "sha256": "94f53a78f8add4ad74638669e9bf4131b76c388e73499f65b0dfc644d88c39ba",
+    "size": 34040868,
+    "subdir": "noarch",
+    "timestamp": 1591470448125,
+    "track_features": "sysroot_linux-64_2.17",
+    "version": "2.17"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sysroot_linux-64-2.17-conda_cos7_variant_hf2e4eb1_7.tar.bz2"
+}
