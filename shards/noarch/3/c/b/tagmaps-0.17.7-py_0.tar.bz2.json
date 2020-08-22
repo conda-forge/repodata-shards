@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Perform tag clustering from spatially referenced and tagged records. TagMaps performs itemized or global clustering based on a list of records with multiple tags (or emoji) attached. Utilizes HDBSCAN for determining cluster results at specific (optional user defined) distance. Tags, Locations and Emoji are processed in descending order of global occurence, alpha shapes are generated for cluster point clouds. Produces two output shapefiles with cluster shapes that can be visualized, e.g. in ESRI ArcGIS.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/Sieboldianus/TagMaps",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/t/tagmaps/tagmaps-0.17.7.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Tag Clustering for Tag Maps",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1558525255,
+    "version": "0.17.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "tagmaps-0.17.7-py_0.tar.bz2",
+  "repodata": {
+    "build": "py_0",
+    "build_number": 0,
+    "depends": [
+      "attrs",
+      "cython",
+      "descartes",
+      "emoji >=0.5.1",
+      "fiona",
+      "gdal",
+      "hdbscan >=0.8.20",
+      "matplotlib",
+      "numpy",
+      "pandas >=0.24.2",
+      "pyproj >=1.9.6",
+      "python >=3.5",
+      "regex",
+      "scipy",
+      "seaborn",
+      "shapely"
+    ],
+    "license": "GPL-3.0",
+    "license_family": "GPL",
+    "md5": "7559081eed76f0d855d7ce36623d70f0",
+    "name": "tagmaps",
+    "noarch": "python",
+    "sha256": "1e1aebb1bfbaf829623a6a62631df3df80ce6cbe64f1a261c807b9572423d027",
+    "size": 79516,
+    "subdir": "noarch",
+    "timestamp": 1558525255949,
+    "version": "0.17.7"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/tagmaps-0.17.7-py_0.tar.bz2"
+}
