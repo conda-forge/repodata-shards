@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://openmp.llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "9.0.1": {
+        "strong": [
+          "llvm-openmp >=9.0.1",
+          "_openmp_mutex >=4.5",
+          "_openmp_mutex * *_llvm"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-9.0.1/openmp-9.0.1.src.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "The OpenMP API supports multi-platform shared-memory parallel programming in C/C++ and Fortran.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1582040652,
+    "version": "9.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "llvm-openmp-9.0.1-hc9558a2_2.tar.bz2",
+  "repodata": {
+    "build": "hc9558a2_2",
+    "build_number": 2,
+    "constrains": [
+      "clangdev 9.0.1|9.0.1.*",
+      "llvmdev 9.0.1|9.0.1.*",
+      "openmp 9.0.1|9.0.1.*"
+    ],
+    "depends": [],
+    "license": "NCSA",
+    "md5": "14e147593fd2202b6e349aa6052a5459",
+    "name": "llvm-openmp",
+    "sha256": "4d2669e905af50a9e2ce12bea3d1eed44517c8d02f77b15e579b7d5d8aef0ece",
+    "size": 788124,
+    "subdir": "linux-aarch64",
+    "timestamp": 1582040652754,
+    "version": "9.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/llvm-openmp-9.0.1-hc9558a2_2.tar.bz2"
+}
