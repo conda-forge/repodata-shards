@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This is an autotool- and libtoolized port of the NetBSD Editline library (libedit). This Berkeley-style licensed command line editor library provides generic line editing, history, and tokenization functions, similar to those found in GNU Readline",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://thrysoee.dk/editline/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.1.20191231": {
+        "weak": [
+          "libedit >=3.1.20191231,<3.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://thrysoee.dk/editline/libedit-20191231-3.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Editline Library (libedit)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1591110933,
+    "version": "3.1.20191231"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libedit-3.1.20191231-h46ee950_0.tar.bz2",
+  "repodata": {
+    "build": "h46ee950_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "ncurses >=6.1,<6.2.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "493fead4671bffc0d8581415e6cecc8e",
+    "name": "libedit",
+    "sha256": "d4cff98e47c3e600d4418462900275eef40f9beaf9f2d0dc28b2f15ed3965367",
+    "size": 191314,
+    "subdir": "linux-64",
+    "timestamp": 1591110933279,
+    "version": "3.1.20191231"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libedit-3.1.20191231-h46ee950_0.tar.bz2"
+}
