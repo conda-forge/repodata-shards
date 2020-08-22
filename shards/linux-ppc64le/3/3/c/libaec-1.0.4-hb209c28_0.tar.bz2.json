@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Libaec provides fast lossless compression of 1 up to 32 bit wide signed or unsigned integers (samples). The library achieves best results for low entropy data as often encountered in space imaging instrument data or numerical model output from weather or climate simulations. While floating point representations are not directly supported, they can also be efficiently coded by grouping exponents and mantissa. Libaec implements Golomb-Rice coding as defined in the Space Data System Standard documents 121.0-B-2 and 120.0-G-2.",
+    "dev_url": "https://gitlab.dkrz.de/k202009/libaec",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gitlab.dkrz.de/k202009/libaec",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.4": {
+        "weak": [
+          "libaec >=1.0.4,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gitlab.dkrz.de/k202009/libaec/-/archive/v1.0.4/libaec-v1.0.4.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Adaptive Entropy Coding library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1582726079,
+    "version": "1.0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libaec-1.0.4-hb209c28_0.tar.bz2",
+  "repodata": {
+    "build": "hb209c28_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=8.2.0",
+      "libstdcxx-ng >=8.2.0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "7b53dd6010ad81a8436ecfcb0e04df0e",
+    "name": "libaec",
+    "sha256": "63bc73fd204e980b8b2365d3eab6056c986e7df44b6b0fb50697a771ad567398",
+    "size": 40348,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1582726079418,
+    "version": "1.0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/libaec-1.0.4-hb209c28_0.tar.bz2"
+}
