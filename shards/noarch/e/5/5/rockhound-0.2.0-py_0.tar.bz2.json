@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "RockHound is a Python library to download geophysical models and datasets (PREM, CRUST1.0, ETOPO1) and load them into Python data structures (pandas, numpy, xarray). Many of these models use non-conventional file formats or can be tricky to find on the internet. RockHound knows how to download them if you don't already have them locally, read the file format, and return a nicely formatted data structure. Under the hood, it uses Pooch to manage the downloads.",
+    "dev_url": "https://github.com/fatiando/rockhound",
+    "doc_source_url": null,
+    "doc_url": "https://www.fatiando.org/rockhound",
+    "home": "http://github.com/fatiando/rockhound",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/r/rockhound/rockhound-0.2.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Download geophysical models/datasets and load them in Python",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1580399770,
+    "version": "0.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "rockhound-0.2.0-py_0.tar.bz2",
+  "repodata": {
+    "build": "py_0",
+    "build_number": 0,
+    "depends": [
+      "dask",
+      "netcdf4",
+      "pandas",
+      "pooch >=0.5",
+      "python >=3.5",
+      "rasterio",
+      "xarray"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "e99e21402a071fd977aeefa178bce744",
+    "name": "rockhound",
+    "noarch": "python",
+    "sha256": "d6903f893a816a9d3ed4ac1407a7353ea8cd000642b3651dec92cb02f1f6fce3",
+    "size": 29396,
+    "subdir": "noarch",
+    "timestamp": 1580399770086,
+    "version": "0.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/rockhound-0.2.0-py_0.tar.bz2"
+}
