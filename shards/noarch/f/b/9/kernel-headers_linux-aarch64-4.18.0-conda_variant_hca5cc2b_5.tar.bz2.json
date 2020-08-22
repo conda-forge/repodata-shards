@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The glibc package contains standard libraries which are used by multiple programs on the system. In order to save disk space and memory, as well as to make upgrading easier, common system code is kept in one place and shared between programs. This particular package contains the most important sets of shared libraries: the standard C library and the standard math library. Without these two libraries, a Linux system will not function.  Kernel-headers includes the C header files that specify the interface between the Linux kernel and userspace libraries and programs.  The header files define structures and constants that are needed for building most standard programs and are also needed for rebuilding the glibc package.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://sources.redhat.com/glibc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "(CDT) The GNU libc libraries and header files for the Linux kernel for use by glibc",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1591400437,
+    "version": "4.18.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "kernel-headers_linux-aarch64-4.18.0-conda_variant_hca5cc2b_5.tar.bz2",
+  "repodata": {
+    "build": "conda_variant_hca5cc2b_5",
+    "build_number": 5,
+    "constrains": [
+      "sysroot_linux-aarch64 ==2.17"
+    ],
+    "depends": [],
+    "license": "LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "011ca07a4de376a1aebb62b04430c860",
+    "name": "kernel-headers_linux-aarch64",
+    "noarch": "generic",
+    "sha256": "71bd70c4ef34fe8c4d9a113d2a1fafe1e5a43e6c990b29ed5acf84092b2728c8",
+    "size": 1129907,
+    "subdir": "noarch",
+    "timestamp": 1591400437981,
+    "track_features": "kernel-headers_linux-aarch64_2.17_conda",
+    "version": "4.18.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/kernel-headers_linux-aarch64-4.18.0-conda_variant_hca5cc2b_5.tar.bz2"
+}
