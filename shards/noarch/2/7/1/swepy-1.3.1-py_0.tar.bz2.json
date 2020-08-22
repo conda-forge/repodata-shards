@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "SWEpy is a Python library designed to simplify access to a passive microwave brightness temperature dataset available at the National Snow and Ice Data Center (NSIDC). This dataset contains Northern and Southern hemisphere imagery along with Equatorial imagery, and can be quite useful in analyzing snow water equivalent (SWE) over large spatial extents. SWEpy contains tools to web scrape, geographically subset, and concatenate files into time cubes. There is an automated workflow to scrape long time series while periodically stopping to geographically subset and concatenate files in order to reduce disk impact.",
+    "dev_url": "https://github.com/wino6687/SWEpy",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/wino6687/swepy",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/s/swepy/swepy-1.3.1.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A python package for obtaining and manipulating Tb files from the MEaSUREs database",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1563478379,
+    "version": "1.3.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "swepy-1.3.1-py_0.tar.bz2",
+  "repodata": {
+    "build": "py_0",
+    "build_number": 0,
+    "depends": [
+      "affine",
+      "gdal",
+      "matplotlib",
+      "netcdf4",
+      "pandas",
+      "pynco",
+      "pytest",
+      "python >=3.6",
+      "requests",
+      "scikit-image",
+      "tqdm"
+    ],
+    "license": "LGPLv3",
+    "license_family": "LGPL",
+    "md5": "9e03d95c32370b2b8362cd2efe4c78f0",
+    "name": "swepy",
+    "noarch": "python",
+    "sha256": "6998863c598ae9276bb05ee635e5756020d878b200b2ddfebc3bbeb0a9458e46",
+    "size": 27931,
+    "subdir": "noarch",
+    "timestamp": 1563478379296,
+    "version": "1.3.1"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/swepy-1.3.1-py_0.tar.bz2"
+}
