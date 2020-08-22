@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://cran.r-project.org/web/packages/PCIT/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/PCIT/PCIT_1.5-3.tar.gz",
+      "https://cran.r-project.org/src/contrib/PCIT_1.5-3.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Apply Partial Correlation coefficient with Information Theory (PCIT) to a correlation matrix. The PCIT algorithm identifies meaningful correlations to define edges in a weighted network. The algorithm can be applied to any correlation-based network including but not limited to gene co-expression networks. To reduce compute time by making use of multiple compute cores, simply run PCIT on a computer with has multiple cores and also has the Rmpi package installed. PCIT will then auto-detect the multicore environment and run in parallel mode without the need to rewrite your scripts. This makes scripts, using PCIT, portable across single core (or no Rmpi package installed) computers which will run in serial mode and multicore (with Rmpi package installed) computers which will run in parallel mode.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1533397185,
+    "version": "1.5_3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-pcit-1.5_3-r341h8933c1f_1.tar.bz2",
+  "repodata": {
+    "build": "r341h8933c1f_1",
+    "build_number": 1,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=3.4.1,<3.4.2.0a0"
+    ],
+    "license": "GPL-3",
+    "license_family": "GPL3",
+    "md5": "adccac84f00f67fcb7f705727ba792c4",
+    "name": "r-pcit",
+    "sha256": "d93e5de7c3448f5630816d5b933ed950f20bd7ab492d0e9791c2a1b8b8608794",
+    "size": 1516233,
+    "subdir": "win-64",
+    "timestamp": 1533397185206,
+    "version": "1.5_3"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-pcit-1.5_3-r341h8933c1f_1.tar.bz2"
+}
