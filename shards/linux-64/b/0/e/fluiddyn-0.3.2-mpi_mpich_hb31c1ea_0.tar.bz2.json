@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "FluidDyn project is an ecosystem of packages for research and teaching in fluid dynamics. The Python package fluiddyn contains basic utilities to manage File I/O for some esoteric formats, publication quality figures, job submission on clusters, MPI powerful classes to handle parameters, arrays, series of files simplified interfaces to calculate FFT, spherical harmonics and much more.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://fluiddyn.readthedocs.io",
+    "home": "https://bitbucket.org/fluiddyn/fluiddyn",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CECILL-B",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.2": {
+        "weak": [
+          "fluiddyn*mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fluiddyn/fluiddyn-0.3.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Framework for studying fluid dynamics.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1585726706,
+    "version": "0.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "fluiddyn-0.3.2-mpi_mpich_hb31c1ea_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hb31c1ea_0",
+    "build_number": 0,
+    "depends": [
+      "h5netcdf",
+      "h5py",
+      "imageio",
+      "matplotlib-base",
+      "mpi4py",
+      "mpich >=3.3,<3.4.0a0",
+      "nbstripout",
+      "numpy",
+      "psutil >=5.2.1",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "scikit-image",
+      "scipy",
+      "sip",
+      "six"
+    ],
+    "license": "CECILL-B",
+    "md5": "a74321a47a2ad37d162761d98af9351b",
+    "name": "fluiddyn",
+    "sha256": "7c3d884fb9a1d529fcaedbcc17051e6e1bfd30d776047ed45a615926b7f8c426",
+    "size": 213370,
+    "subdir": "linux-64",
+    "timestamp": 1585726706789,
+    "version": "0.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fluiddyn-0.3.2-mpi_mpich_hb31c1ea_0.tar.bz2"
+}
