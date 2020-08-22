@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "ADIOS2 is the latest implementation of the ADaptable Input Output System, ADIOS. This brand new architecture was designed to continue supporting the performance legacy of ADIOS, and extend its current capabilities to address current and future input/output (IO) challenges in the scientific data lifecycle through effective research and development (R&D) activities.",
+    "dev_url": "https://github.com/ornladios/ADIOS2",
+    "doc_source_url": null,
+    "doc_url": "https://adios2.readthedocs.io",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.6.0": {
+        "weak": [
+          "adios2 * mpi_mpich_*",
+          "adios2 >=2.6.0,<2.6.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ornladios/ADIOS2/archive/v2.6.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Next generation of ADIOS developed in the Exascale Computing Program",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1591141906,
+    "version": "2.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "adios2-2.6.0-mpi_mpich_py36hf3fe67e_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py36hf3fe67e_1",
+    "build_number": 1,
+    "depends": [
+      "blosc >=1.18.1,<2.0a0",
+      "bzip2 >=1.0.8,<2.0a0",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "libffi >=3.2.1,<3.3.0a0",
+      "libgcc-ng >=8.4.0",
+      "libgfortran-ng >=8,<9.0a0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "libstdcxx-ng >=8.4.0",
+      "mpi4py",
+      "mpich >=3.3,<3.4.0a0",
+      "numpy >=1.15.0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "zeromq >=4.3.2,<4.4.0a0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "43390c3cad47c22b2fd39d8536e274f1",
+    "name": "adios2",
+    "sha256": "b1fa79c5322d34c77144736ca87ee658785af39c512f9832785ef9be5e9e9e1b",
+    "size": 5105039,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1591141906856,
+    "version": "2.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/adios2-2.6.0-mpi_mpich_py36hf3fe67e_1.tar.bz2"
+}
