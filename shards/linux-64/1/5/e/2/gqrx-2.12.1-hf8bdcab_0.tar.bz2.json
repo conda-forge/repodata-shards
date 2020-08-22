@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Gqrx is an open source software defined radio (SDR) receiver implemented using GNU Radio and the Qt GUI toolkit. Currently it works on Linux and Mac with hardware supported by gr-osmosdr, including Funcube Dongle, RTL-SDR, Airspy, HackRF, BladeRF, RFSpace, USRP and SoapySDR.  Gqrx can operate as an AM/FM/SSB receiver with audio output or as an FFT-only instrument. There are also various hooks for interacting with external application using network sockets.",
+    "dev_url": "https://github.com/csete/gqrx",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gqrx.dk/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/csete/gqrx/archive/v2.12.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Software defined radio receiver powered by GNU Radio and Qt",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1591891674,
+    "version": "2.12.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "gqrx-2.12.1-hf8bdcab_0.tar.bz2",
+  "repodata": {
+    "build": "hf8bdcab_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.72.0,<1.72.1.0a0",
+      "gnuradio-core >=3.8.1.0,<3.8.2.0a0",
+      "gnuradio-osmosdr >=0.2.0,<0.3.0a0",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "libvorbis <1.3.6",
+      "libvorbis >=1.3.5,<1.4.0a0",
+      "log4cpp",
+      "pulseaudio >=13.0,<13.1.0a0",
+      "qt >=5.12.5,<5.13.0a0"
+    ],
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "license_family": "GPL",
+    "md5": "f61dd0af50f983964a8d25b9570c6658",
+    "name": "gqrx",
+    "sha256": "8e801b37227b94efb253a6ab6dc9eb88f936fe003f9bee21d89fdbaeddb1441b",
+    "size": 865849,
+    "subdir": "linux-64",
+    "timestamp": 1591891674218,
+    "version": "2.12.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gqrx-2.12.1-hf8bdcab_0.tar.bz2"
+}
