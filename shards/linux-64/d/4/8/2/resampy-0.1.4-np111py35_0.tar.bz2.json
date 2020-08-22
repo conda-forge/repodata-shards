@@ -7,51 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/HypothesisWorks/hypothesis-python",
+    "home": "https://github.com/bmcfee/resampy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MPL 2.0",
+    "license": "ISC",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hypothesis/hypothesis-3.4.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/resampy/resampy-0.1.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for property based testing",
+    "summary": "Efficient signal resampling",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.4.2"
+    "version": "0.1.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "hypothesis-3.4.2-py27_0.tar.bz2",
+  "package": "resampy-0.1.4-np111py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "np111py35_0",
     "build_number": 0,
     "depends": [
-      "enum34",
-      "python 2.7*"
+      "cython >=0.23",
+      "numpy 1.11*",
+      "python 3.5*",
+      "scipy >=0.13",
+      "setuptools",
+      "six >=1.3"
     ],
-    "license": "MPL 2.0",
-    "md5": "ef45ae4464a3beee0e2b97dc47e03681",
-    "name": "hypothesis",
-    "sha256": "88c630a3449aa25679357e359a8cf98991d8bf1841af59ba47d6283d2cbe9077",
-    "size": 122776,
+    "license": "ISC",
+    "md5": "3ea035d1f25e3c82883a648df8f99970",
+    "name": "resampy",
+    "sha256": "ba1aa81621a6da85cba415507c725dcf7f98c124e1cc1c889a698a46966d8da7",
+    "size": 677787,
     "subdir": "linux-64",
-    "version": "3.4.2"
+    "version": "0.1.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/hypothesis-3.4.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/resampy-0.1.4-np111py35_0.tar.bz2"
 }
