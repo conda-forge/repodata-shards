@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The River Avulsion and Floodplain Evolution Model (RAFEM) is a cellular model that simulates river and floodplain morphodynamics over large space and timescales. Cell size is larger than the channel belt width, and natural levees, which maintain a bankfull elevation above the channel bed, exist within a river cell. The river course is determined using a steepest-descent methodology, and erosion and deposition along the river profile are modeled as a linear diffusive process. An avulsion occurs when the riverbed becomes super-elevated relative to the surrounding floodplain, but only if the new steepest-descent path to sea level is shorter than the prior river course. If the new path to sea level is not shorter, then a crevasse splay is deposited in the adjacent river cells. The model has been designed to couple with the Coastline Evolution Model through the CSDMS Basic Model Interface.",
+    "dev_url": "https://github.com/katmratliff/rafem",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/katmratliff/rafem",
+    "home": "https://github.com/katmratliff/rafem",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/mcflugen/rafem/archive/v0.4.4.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "The River Avulsion and Floodplain Evolution Model",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1590020366,
+    "version": "0.4.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "rafem-0.4.4-py_0.tar.bz2",
+  "repodata": {
+    "build": "py_0",
+    "build_number": 0,
+    "depends": [
+      "bmipy",
+      "click",
+      "matplotlib-base",
+      "numpy",
+      "python >=3",
+      "pyyaml",
+      "scipy"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "1daf0acaf8a450b73641bf8c88989fa4",
+    "name": "rafem",
+    "noarch": "python",
+    "sha256": "6384752695156ca7c3e44b34d89bfa34ca9157d3caa66d78982a677bcad5fcbe",
+    "size": 28085,
+    "subdir": "noarch",
+    "timestamp": 1590020366855,
+    "version": "0.4.4"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/rafem-0.4.4-py_0.tar.bz2"
+}
