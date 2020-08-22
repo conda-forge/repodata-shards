@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "xeus is a library meant to facilitate the implementation of kernels for Jupyter. It takes the burden of implementing the Jupyter Kernel protocol so developers can focus on implementing the interpreter part of the Kernel.",
+    "dev_url": "https://github.com/jupyter-xeus/xeus",
+    "doc_source_url": null,
+    "doc_url": "http://xeus.readthedocs.io",
+    "home": "http://quantstack.net/xeus",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.23.6": {
+        "weak": [
+          "xeus >=0.23.6,<0.24.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/jupyter-xeus/xeus/archive/0.23.6.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "C++ implementation of the Jupyter Kernel protocol",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1583187620,
+    "version": "0.23.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "xeus-0.23.6-h4d8c418_0.tar.bz2",
+  "repodata": {
+    "build": "h4d8c418_0",
+    "build_number": 0,
+    "constrains": [
+      "xtl >=0.6.12,<0.7.0a0",
+      "nlohmann_json >=3.7.3,<3.8.0a0",
+      "cppzmq >=4.4.1,<4.5.0a0"
+    ],
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "libuuid >=2.32.1,<3.0a0",
+      "openssl >=1.1.1d,<1.1.2a",
+      "zeromq >=4.3.2,<4.4.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "1e2e4ce47d637e861226765e0271f71b",
+    "name": "xeus",
+    "sha256": "ef47c9983e387c5624d8ab975934333880eaf1b59e7a908519adf2761526ac34",
+    "size": 7362426,
+    "subdir": "linux-aarch64",
+    "timestamp": 1583187620801,
+    "version": "0.23.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/xeus-0.23.6-h4d8c418_0.tar.bz2"
+}
