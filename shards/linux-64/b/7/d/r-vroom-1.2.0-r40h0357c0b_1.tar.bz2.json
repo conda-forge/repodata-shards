@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/r-lib/vroom",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/vroom/vroom_1.2.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/vroom_1.2.0.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The goal of 'vroom' is to read and write data (like 'csv', 'tsv' and 'fwf') quickly. When reading it uses a quick initial indexing step, then reads the values lazily , so only the data you actually use needs to be read.  The writer formats the data in parallel and writes to disk asynchronously from formatting.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1588667863,
+    "version": "1.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-vroom-1.2.0-r40h0357c0b_1.tar.bz2",
+  "repodata": {
+    "build": "r40h0357c0b_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "r-base >=4.0,<4.1.0a0",
+      "r-bit64",
+      "r-crayon",
+      "r-glue",
+      "r-hms",
+      "r-lifecycle",
+      "r-progress >=1.2.1",
+      "r-rcpp >=0.12.18.3",
+      "r-rlang >=0.4.2",
+      "r-tibble >=2.0.0",
+      "r-tidyselect",
+      "r-withr"
+    ],
+    "license": "GPL-3",
+    "license_family": "GPL3",
+    "md5": "1eec485ee5ac2475da016bb93f7b0df7",
+    "name": "r-vroom",
+    "sha256": "9994605f8128e2d68ddaca8bfd681e662adba9cbb9dade2a6b653e68c3db122c",
+    "size": 898397,
+    "subdir": "linux-64",
+    "timestamp": 1588667863216,
+    "version": "1.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-vroom-1.2.0-r40h0357c0b_1.tar.bz2"
+}
