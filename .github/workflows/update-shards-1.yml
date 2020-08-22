@@ -1,0 +1,27 @@
+on:
+  schedule:
+    - cron:  '15 * * * *'
+
+jobs:
+  update_shards:
+    name: update repodata shards
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          depth: 0
+          fetch-depth: 0
+      - uses: goanpeca/setup-miniconda@v1
+        with:
+          python-version: 3.7
+          channels: conda-forge,defaults
+          channel-priority: strict
+          show-channel-urls: true
+      - name: get repodata shards
+        shell: bash -l {0}
+        run: |
+          export RANK=1
+          source index_shards.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BINSTAR_TOKEN: ${{ secrets.BINSTAR_TOKEN }}
