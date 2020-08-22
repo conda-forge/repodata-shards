@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This eliminates the need to check if the a file already exists with the same name. Checking incurs overhead. Removing the need to check boosts performance. Popular pacakges like django storages don't check if a file already exists with the same name by default. They instead overwrite the file. Using unique file names ensures that no file is over written.",
+    "dev_url": "https://github.com/agconti/django-unique-upload",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/agconti/django-unique-upload",
+    "home": "https://github.com/agconti/django-unique-upload",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/d/django-unique-upload/django-unique-upload-0.2.1.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A django utility that creates unique file names for uploaded files via uuids.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1531012015,
+    "version": "0.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "django-unique-upload-0.2.1-py_1.tar.bz2",
+  "repodata": {
+    "build": "py_1",
+    "build_number": 1,
+    "depends": [
+      "django >=1.8",
+      "python"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "d4b73aef64b85536b4dd1c4275187825",
+    "name": "django-unique-upload",
+    "noarch": "python",
+    "sha256": "f79af975f1e8746b90c3222aeea8e4935b8c0be3284f4756ece82af49bbe6d66",
+    "size": 4702,
+    "subdir": "noarch",
+    "timestamp": 1531012015528,
+    "version": "0.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/django-unique-upload-0.2.1-py_1.tar.bz2"
+}
