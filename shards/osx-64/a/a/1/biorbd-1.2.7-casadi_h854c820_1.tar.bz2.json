@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Biomechanical add-ons to the RigidBody Dynamics Library .",
+    "dev_url": "https://github.com/pyomeca/biorbd/",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/pyomeca/biorbd/",
+    "home": "http://github.com/pyomeca/biorbd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.2.7": {
+        "weak": [
+          "biorbd >=1.2.7,<1.3.0a0",
+          "biorbd * casadi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/pyomeca/biorbd/archive/Release_1.2.7.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Biomechanical add-ons to the RigidBody Dynamics Library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1590334469,
+    "version": "1.2.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "biorbd-1.2.7-casadi_h854c820_1.tar.bz2",
+  "repodata": {
+    "build": "casadi_h854c820_1",
+    "build_number": 1,
+    "depends": [
+      "ipopt >=3.13.2,<3.14.0a0",
+      "libcxx >=9.0.1",
+      "numpy >=1.14.6,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "rbdl * casadi*",
+      "rbdl >=2.6.0.7,<2.7.0a0",
+      "tinyxml"
+    ],
+    "license": "MIT",
+    "md5": "9ac0e926e8160d95554e46fc7fe97818",
+    "name": "biorbd",
+    "sha256": "22ec402f7a760397ecc31dd9538c98f8a4a551abd4bd0b30066fc0da8b1ff489",
+    "size": 1482683,
+    "subdir": "osx-64",
+    "timestamp": 1590334469661,
+    "track_features": "casadi",
+    "version": "1.2.7"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/biorbd-1.2.7-casadi_h854c820_1.tar.bz2"
+}

@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This package implements the louvain algorithm in C++ and exposes it to python. It relies on (python-)igraph for it to function. Besides the relative flexibility of the implementation, it also scales well, and can be run on graphs of millions of nodes (as long as they can fit in memory). The core function is find_partition which finds the optimal partition using the louvain algorithm for a number of different methods.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/vtraag/louvain-igraph",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/louvain/louvain-0.6.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Implementation of the Louvain algorithm for various methods for use with igraph in python.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1532878827,
+    "version": "0.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "louvain-0.6.1-py36hfc679d8_1.tar.bz2",
+  "repodata": {
+    "build": "py36hfc679d8_1",
+    "build_number": 1,
+    "depends": [
+      "igraph",
+      "python >=3.6,<3.7.0a0",
+      "python-igraph",
+      "setuptools"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "ecc0e3330ee314a2ac4a0f4081922559",
+    "name": "louvain",
+    "sha256": "afbde3d0aceed806b070f2866274cc9b8e07e74f132d9e9cdb529ac1ad090d32",
+    "size": 102285,
+    "subdir": "osx-64",
+    "timestamp": 1532878827907,
+    "version": "0.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/louvain-0.6.1-py36hfc679d8_1.tar.bz2"
+}
