@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "10.0.0": {
+        "weak": [
+          "libllvm10 >=10.0.0,<10.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/llvm-10.0.0.src.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1586361281,
+    "version": "10.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "llvm-10.0.0-0.tar.bz2",
+  "repodata": {
+    "build": "0",
+    "build_number": 0,
+    "constrains": [
+      "llvmdev   10.0.0"
+    ],
+    "depends": [
+      "libllvm10 10.0.0 hc9558a2_0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "eda4b9123f98892af31891930d6b1281",
+    "name": "llvm",
+    "sha256": "0e3c03b1d25b5df26195e7efd570f82828535bf15393dfd6657a28ea4a964163",
+    "size": 50012,
+    "subdir": "linux-aarch64",
+    "timestamp": 1586361281483,
+    "version": "10.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/llvm-10.0.0-0.tar.bz2"
+}
