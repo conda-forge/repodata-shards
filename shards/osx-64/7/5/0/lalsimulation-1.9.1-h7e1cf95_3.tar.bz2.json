@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Simulation Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Simulation library. If you want to install the Python bindings, please install the associated python-lalsimulation package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalsimulation/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.9.1": {
+        "weak": [
+          "lalsimulation >=1.9.1,<1.10.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalsimulation-1.9.1.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Simulation Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1573576314,
+    "version": "1.9.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lalsimulation-1.9.1-h7e1cf95_3.tar.bz2",
+  "repodata": {
+    "build": "h7e1cf95_3",
+    "build_number": 3,
+    "depends": [
+      "gsl >=2.5,<2.6.0a0",
+      "lal >=6.20.0",
+      "lal >=6.20.2,<6.21.0a0"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "5593a3b2b81ac8f80f11dcb555ccee4a",
+    "name": "lalsimulation",
+    "sha256": "99a1e34215d5297fbc26674af81d7107780f1c991a9be1c8c7530b54161360d9",
+    "size": 14248820,
+    "subdir": "osx-64",
+    "timestamp": 1573576314003,
+    "version": "1.9.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lalsimulation-1.9.1-h7e1cf95_3.tar.bz2"
+}
