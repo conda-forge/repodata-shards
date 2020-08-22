@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "By using libcf, a data producer can produce files that conform to the CF standards, without having to write netCDF code to create and decode all the attributes that the CF convention uses to store meta-data. A data consumer can use libcf to read any file which conforms to the CF conventions; the file does not need to be created with libcf to be read by libcf",
+    "dev_url": "https://sourceforge.net/projects/libcf/",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.unidata.ucar.edu/software/libcf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "UCAR/UNIDATA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://uvcdat.llnl.gov/cdat/resources/libcf-1.0.1-beta12.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LibCF library access data files in accordance with the CF Conventions.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "1.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libcf-1.0.1-py36_3.tar.bz2",
+  "repodata": {
+    "build": "py36_3",
+    "build_number": 3,
+    "depends": [
+      "clapack >=3.2.1",
+      "curl >=7.44.0,<8",
+      "hdf5 1.10.1",
+      "lapack >=3.4.2",
+      "libgcc",
+      "libgfortran",
+      "libnetcdf >=4.5",
+      "ossuuid",
+      "python 3.6*"
+    ],
+    "license": "UCAR/UNIDATA",
+    "md5": "bc24dc5edcf0693f917d365128dede2c",
+    "name": "libcf",
+    "sha256": "ad8671a0a251d8146ea0eef0dd0a098803850c9b83dbfb28f177238f4f37932e",
+    "size": 109162,
+    "subdir": "osx-64",
+    "version": "1.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libcf-1.0.1-py36_3.tar.bz2"
+}
