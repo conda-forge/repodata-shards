@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This module provides a pure-python version of the `LIGOTimeGPS` class, used to represent GPS times (number of seconds elapsed since GPS epoch) with nanoseconds precision.  This module is primarily for use as a drop-in replacement for the 'official' `LIGOTimeGPS` class (provided by `lal`) for use on those environments where LAL is not available (e.g. Windows), or when building LAL is unnecessary for the application (e.g. testing).  The code provided here is much slower than the C-implementation provided by LAL, so if you really care about performance, don't use this module.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pypi.org/project/ligotimegps/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/ligotimegps/ligotimegps-1.2.3.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A pure-python version of lal.LIGOTimeGPS",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1529073855,
+    "version": "1.2.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "ligotimegps-1.2.3-py_0.tar.bz2",
+  "repodata": {
+    "build": "py_0",
+    "build_number": 0,
+    "depends": [
+      "python",
+      "six"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "005cb3679f2ed6bf341865e988a3fc6c",
+    "name": "ligotimegps",
+    "noarch": "python",
+    "sha256": "2e7b7a208a8319fff0a9793a22cd301b239121cf51648655a6ed1652de6d5293",
+    "size": 19141,
+    "subdir": "noarch",
+    "timestamp": 1529073855066,
+    "version": "1.2.3"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ligotimegps-1.2.3-py_0.tar.bz2"
+}
