@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A S3 and GCS backed ContentsManager implementation for Jupyter.  It aims to a be a transparent, drop-in replacement for Jupyter standard filesystem-backed storage system. With this implementation of a Jupyter Contents Manager you can save all your notebooks, regular files, directories structure directly to a S3/GCS bucket, this could be on AWS/GCP or a self hosted S3 API compatible like minio.",
+    "dev_url": "https://github.com/danielfrg/s3contents",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/danielfrg/s3contents",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache 2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/s/s3contents/s3contents-0.1.13.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A S3-backed ContentsManager implementation for Jupyter",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1558151293,
+    "version": "0.1.13"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "s3contents-0.1.13-py_0.tar.bz2",
+  "repodata": {
+    "build": "py_0",
+    "build_number": 0,
+    "depends": [
+      "boto3",
+      "gcsfs",
+      "jupyter",
+      "python",
+      "requests",
+      "s3fs"
+    ],
+    "license": "Apache 2.0",
+    "license_family": "APACHE",
+    "md5": "19dba8cfdcc096e0292b5b37e7799257",
+    "name": "s3contents",
+    "noarch": "python",
+    "sha256": "73a49d1c3b30542cb53d9b036777342b56af88a40860a1bf5c26d49e40df1dd8",
+    "size": 19906,
+    "subdir": "noarch",
+    "timestamp": 1558151293343,
+    "version": "0.1.13"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/s3contents-0.1.13-py_0.tar.bz2"
+}
