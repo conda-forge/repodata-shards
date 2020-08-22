@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://neuron.yale.edu",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "7.7.2": {
+        "weak": [
+          "neuron  mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "NEURON is a simulator for models of neurons and networks of neuron.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1593693929,
+    "version": "7.7.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "neuron-7.7.2-mpi_mpich_py37h1ebe869_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py37h1ebe869_1",
+    "build_number": 1,
+    "depends": [
+      "gcc_linux-64 7.*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "mpich >=3.3.2,<3.4.0a0",
+      "ncurses >=6.1,<6.2.0a0",
+      "numpy",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "readline >=8.0,<9.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "md5": "955c8cfc45b76359b284dc39bf859116",
+    "name": "neuron",
+    "sha256": "813d59457664cb4d08f51bf5736ec45a61719a27bcfceecaeb01ebe9a986d51f",
+    "size": 3673453,
+    "subdir": "linux-64",
+    "timestamp": 1593693929827,
+    "version": "7.7.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/neuron-7.7.2-mpi_mpich_py37h1ebe869_1.tar.bz2"
+}
