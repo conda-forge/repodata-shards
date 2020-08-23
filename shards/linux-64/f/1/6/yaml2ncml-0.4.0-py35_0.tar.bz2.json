@@ -7,50 +7,52 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/HypothesisWorks/hypothesis-python",
+    "home": "https://github.com/usgs-cmg/yaml2ncml",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MPL 2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hypothesis/hypothesis-3.23.0.tar.gz",
+    "source_git_url": "https://github.com/usgs-cmg/yaml2ncml.git",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for property based testing",
+    "summary": "NcML aggregation from YAML specification",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.23.0"
+    "version": "0.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "cf202003"
   ],
-  "package": "hypothesis-3.23.0-py27_0.tar.bz2",
+  "package": "yaml2ncml-0.4.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "enum34",
-      "python 2.7*"
+      "docopt",
+      "netcdf4",
+      "python 3.5*",
+      "pyyaml"
     ],
-    "license": "MPL 2.0",
-    "md5": "41bc72589cd78ec1603c40e440a49b98",
-    "name": "hypothesis",
-    "sha256": "e1f1ca5c34896d988bde6be7b4c288ee3148de134d8a7981016e91e3dee55b80",
-    "size": 190990,
+    "license": "MIT",
+    "md5": "56ba310c9502998d17524670f32d8bfb",
+    "name": "yaml2ncml",
+    "sha256": "0ce020248e5155a0da7150ff9eb8e1252c1ee0b4d5bc581f7f42da6fbfe8ad84",
+    "size": 190744,
     "subdir": "linux-64",
-    "version": "3.23.0"
+    "version": "0.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/hypothesis-3.23.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/yaml2ncml-0.4.0-py35_0.tar.bz2"
 }
