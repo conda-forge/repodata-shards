@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://dxfile.readthedocs.org",
+    "home": "http://www.h5py.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/data-exchange/dxfile/archive/v0.5.tar.gz",
+    "source_url": "https://github.com/h5py/h5py/archive/2.6.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Reader/Writer for Data Exchange files.",
+    "summary": "Read and write HDF5 files from Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.5"
+    "version": "2.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "dxfile-0.5-py35_0.tar.bz2",
+  "package": "h5py-2.6.0-np110py34_5.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "np110py34_5",
+    "build_number": 5,
     "depends": [
-      "h5py",
-      "python 3.5*"
+      "hdf5 1.8.17|1.8.17.*",
+      "numpy 1.10*",
+      "python 3.4*",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "0b10bf191dd45122b60814ba7d6d2e13",
-    "name": "dxfile",
-    "sha256": "84e9b0f50b3370b217549e9e853a66b463dc5c461034594379d10b28f43a48b8",
-    "size": 16933,
+    "md5": "706ad2d8a527094840fd1a49d6ae198f",
+    "name": "h5py",
+    "sha256": "f780cda39908cdeeb43578a5136750f0d0b900c8d42588507258b57ff6667b75",
+    "size": 3179825,
     "subdir": "linux-64",
-    "version": "0.5"
+    "version": "2.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/dxfile-0.5-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.6.0-np110py34_5.tar.bz2"
 }
