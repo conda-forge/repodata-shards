@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/sassoftware/saspy",
+    "home": "http://github.com/blink1073/oct2py",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/saspy/saspy-2.2.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/o/oct2py/oct2py-4.0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Python interface module to the SAS System",
+    "summary": "Python to GNU Octave bridge --> run m-files from python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.2.3"
+    "version": "4.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,26 @@
     "main",
     "cf202003"
   ],
-  "package": "saspy-2.2.3-py36_0.tar.bz2",
+  "package": "oct2py-4.0.2-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "ipython >=4",
-      "pygments",
-      "python 3.6*"
+      "ipython",
+      "numpy",
+      "octave_kernel >=0.25.0",
+      "python 3.5*",
+      "scipy"
     ],
-    "license": "Apache 2.0",
-    "md5": "6f9340ab396585a20404a579c17e89c2",
-    "name": "saspy",
-    "sha256": "0450382e6700e53afb98a2baa88231d87a42d17543061cf540f8e6f670b80559",
-    "size": 144767,
+    "license": "MIT",
+    "md5": "0aa2b1e9bef7ddb91139bddc9b145675",
+    "name": "oct2py",
+    "sha256": "244fc823416715cd27bf83fa6d1007a3341fa8e2de08dcb1936103a20e333017",
+    "size": 62160,
     "subdir": "linux-64",
-    "version": "2.2.3"
+    "version": "4.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/saspy-2.2.3-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/oct2py-4.0.2-py35_0.tar.bz2"
 }
