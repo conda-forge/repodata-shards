@@ -20,48 +20,50 @@
     "run_exports": {},
     "source_git_url": null,
     "source_url": [
-      "https://cran.r-project.org/src/contrib/igraph_1.2.1.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/igraph/igraph_1.2.1.tar.gz"
+      "https://cran.r-project.org/src/contrib/Archive/igraph/igraph_1.2.5.tar.gz",
+      "https://cran.r-project.org/src/contrib/igraph_1.2.5.tar.gz"
     ],
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Routines for simple graphs and network analysis. It can handle large graphs very well and provides functions for generating random and regular graphs, graph visualization, centrality methods and much more.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.2.1"
+    "timestamp": 1588391275,
+    "version": "1.2.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "r-igraph-1.2.1-r3.4.1_0.tar.bz2",
+  "package": "r-igraph-1.2.5-r36h28033da_1.tar.bz2",
   "repodata": {
-    "build": "r3.4.1_0",
-    "build_number": 0,
+    "build": "r36h28033da_1",
+    "build_number": 1,
     "depends": [
-      "gmp >=5.0.1,<7",
-      "libgcc",
-      "r-base 3.4.1*",
-      "r-irlba",
+      "gmp >=6.2.0,<7.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=9.0.1",
+      "libgfortran >=4.0.0,<5.0.0.a0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libxml2 >=2.9.10,<2.10.0a0",
+      "r-base >=3.6,<3.7.0a0",
       "r-magrittr",
       "r-matrix",
-      "r-nmf",
-      "r-pkgconfig"
+      "r-pkgconfig >=2.0.0"
     ],
     "license": "GPL (>= 2)",
     "license_family": "GPL3",
-    "md5": "a59e06e2285becfcc8b4528a503dae81",
+    "md5": "ee5eb993710148d4008bac855408a7fd",
     "name": "r-igraph",
-    "sha256": "782f9cc01486c2a94a6e0724c759044680f6dc3e4401df06321051ab467057ba",
-    "size": 3018085,
-    "subdir": "linux-64",
-    "version": "1.2.1"
+    "sha256": "7d0823cd7319322067ba08c098c58a0378107cdaa3fb4c71b563cf37ee75d729",
+    "size": 3885904,
+    "subdir": "osx-64",
+    "timestamp": 1588391275484,
+    "version": "1.2.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-igraph-1.2.1-r3.4.1_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-igraph-1.2.5-r36h28033da_1.tar.bz2"
 }
