@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "ADIOS2 is the latest implementation of the ADaptable Input Output System, ADIOS. This brand new architecture was designed to continue supporting the performance legacy of ADIOS, and extend its current capabilities to address current and future input/output (IO) challenges in the scientific data lifecycle through effective research and development (R&D) activities.",
+    "dev_url": "https://github.com/ornladios/ADIOS2",
+    "doc_source_url": null,
+    "doc_url": "https://adios2.readthedocs.io",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.0": {
+        "weak": [
+          "adios2 * nompi_*",
+          "adios2 >=2.4,<2.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ornladios/ADIOS2/archive/v2.4.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Next generation of ADIOS developed in the Exascale Computing Program",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1562026812,
+    "version": "2.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "adios2-2.4.0-nompi_py36h2d824f4_102.tar.bz2",
+  "repodata": {
+    "build": "nompi_py36h2d824f4_102",
+    "build_number": 102,
+    "depends": [
+      "blosc >=1.16.3,<2.0a0",
+      "bzip2 >=1.0.6,<2.0a0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "numpy >=1.15.0",
+      "python >=3.6,<3.7.0a0",
+      "vc >=14,<15.0a0",
+      "zeromq"
+    ],
+    "license": "Apache-2.0",
+    "md5": "5143a8873a2a2c776ae99c69b498a674",
+    "name": "adios2",
+    "sha256": "93d7be1ee10ece932bf65890adda119866f454cd7215d67343d027ed4e24728a",
+    "size": 3808875,
+    "subdir": "win-64",
+    "timestamp": 1562026812429,
+    "version": "2.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/adios2-2.4.0-nompi_py36h2d824f4_102.tar.bz2"
+}
