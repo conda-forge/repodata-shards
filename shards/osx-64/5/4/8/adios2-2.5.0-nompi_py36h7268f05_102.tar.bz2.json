@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "ADIOS2 is the latest implementation of the ADaptable Input Output System, ADIOS. This brand new architecture was designed to continue supporting the performance legacy of ADIOS, and extend its current capabilities to address current and future input/output (IO) challenges in the scientific data lifecycle through effective research and development (R&D) activities.",
+    "dev_url": "https://github.com/ornladios/ADIOS2",
+    "doc_source_url": null,
+    "doc_url": "https://adios2.readthedocs.io",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.5.0": {
+        "weak": [
+          "adios2 * nompi_*",
+          "adios2 >=2.5,<2.6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ornladios/ADIOS2/archive/v2.5.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Next generation of ADIOS developed in the Exascale Computing Program",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1585165847,
+    "version": "2.5.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "adios2-2.5.0-nompi_py36h7268f05_102.tar.bz2",
+  "repodata": {
+    "build": "nompi_py36h7268f05_102",
+    "build_number": 102,
+    "depends": [
+      "blosc >=1.17.1,<2.0a0",
+      "bzip2 >=1.0.8,<2.0a0",
+      "hdf5 >=1.10.5,<1.10.6.0a0",
+      "libcxx >=9.0.1",
+      "libffi >=3.2.1,<3.3.0a0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "numpy >=1.15.0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "zeromq >=4.3.2,<4.4.0a0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "c76964e8676df100c296c0f9f9a4b23f",
+    "name": "adios2",
+    "sha256": "f1320e2c53009887e174083e8c1ddc95ba09189a2410be864e0062013cbe0128",
+    "size": 2977236,
+    "subdir": "osx-64",
+    "timestamp": 1585165847933,
+    "version": "2.5.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/adios2-2.5.0-nompi_py36h7268f05_102.tar.bz2"
+}
