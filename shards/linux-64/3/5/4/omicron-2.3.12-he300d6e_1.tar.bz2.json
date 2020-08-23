@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Omicron has been derived from a well-known 'burst-type' search pipeline called Q-pipeline (a.k.a Omega).  Q-pipeline is able to detect and characterize detector glitches with a very good efficiency and precision. So, the idea was to adapt it for detector characterization purposes, i.e. to run it over many auxiliary channels.  To achieve this, the original matlab code has been replaced by a C++ architecture and many steps have been removed to run faster.  The name Omicron was chosen to recall the Omega inheritance.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://virgo.in2p3.fr/GWOLLUM/v2r3/Friends/omicron.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/omicron-2.3.12.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "An algorithm to detect and characterize transient events in gravitational-wave detectors",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1583249894,
+    "version": "2.3.12"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "omicron-2.3.12-he300d6e_1.tar.bz2",
+  "repodata": {
+    "build": "he300d6e_1",
+    "build_number": 1,
+    "depends": [
+      "gwollum >=2.3.12,<2.3.13.0a0",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "root_base >=6.18.4,<6.18.5.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "3d322bed6ffbb1fdd61504a77bf02b0e",
+    "name": "omicron",
+    "sha256": "c2523ef09ba82aacfbf3ee66f5b7c9368d05f1f9675b3c0981a8ba47ac68baee",
+    "size": 2315085,
+    "subdir": "linux-64",
+    "timestamp": 1583249894145,
+    "version": "2.3.12"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/omicron-2.3.12-he300d6e_1.tar.bz2"
+}
