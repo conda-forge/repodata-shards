@@ -1,0 +1,56 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "There are projects that need to be able to create, modify, and delete Unix users. Others just switch user IDs to interact with the system on behalf of another user (e.g. a user space file server). To be able to test applications like these, you need to grant privileges to modify the passwd and group files. With nss_wrapper it is possible to define your own passwd and group files to be used the software while it is under test. The nss_wrapper also allows you to create a hosts file to set up name resolution for the addresses you use with socket_wrapper.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://cwrap.org/nss_wrapper.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://ftp.samba.org/pub/cwrap/nss_wrapper-1.1.11.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A wrapper for the user, group and hosts NSS API",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1590692367,
+    "version": "1.1.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "nss_wrapper-1.1.11-h516909a_0.tar.bz2",
+  "repodata": {
+    "build": "h516909a_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.5.0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "64ea46e3ff7549a3cf9a4c79d5547ee8",
+    "name": "nss_wrapper",
+    "sha256": "195c30a6586c924561706dd53c2b3f6c825c500e5c0b5ba09ab846155ab7b1c2",
+    "size": 46177,
+    "subdir": "linux-64",
+    "timestamp": 1590692367665,
+    "version": "1.1.11"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/nss_wrapper-1.1.11-h516909a_0.tar.bz2"
+}
