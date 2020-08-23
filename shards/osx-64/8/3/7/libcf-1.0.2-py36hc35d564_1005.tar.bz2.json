@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "By using libcf, a data producer can produce files that conform to the CF standards, without having to write netCDF code to create and decode all the attributes that the CF convention uses to store meta-data. A data consumer can use libcf to read any file which conforms to the CF conventions; the file does not need to be created with libcf to be read by libcf",
+    "dev_url": "https://sourceforge.net/projects/libcf/",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.unidata.ucar.edu/software/libcf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "UCAR/UNIDATA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/CDAT/libcf/archive/1.0.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LibCF library access data files in accordance with the CF Conventions.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1542672785,
+    "version": "1.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libcf-1.0.2-py36hc35d564_1005.tar.bz2",
+  "repodata": {
+    "build": "py36hc35d564_1005",
+    "build_number": 1005,
+    "depends": [
+      "blas 1.1 openblas",
+      "curl >=7.44.0,<8",
+      "libgfortran >=3.0.1",
+      "libnetcdf >=4.6.1,<4.7.0a0",
+      "ossuuid",
+      "python >=3.6,<3.7.0a0"
+    ],
+    "license": "UCAR/UNIDATA",
+    "md5": "ad0879f38bb52a9ed7712e33a091db2b",
+    "name": "libcf",
+    "sha256": "661adb1031a131bdb7dba981b29169aba23e2888fa698a635e1eb61971b6e569",
+    "size": 231198,
+    "subdir": "osx-64",
+    "timestamp": 1542672785597,
+    "version": "1.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libcf-1.0.2-py36hc35d564_1005.tar.bz2"
+}
