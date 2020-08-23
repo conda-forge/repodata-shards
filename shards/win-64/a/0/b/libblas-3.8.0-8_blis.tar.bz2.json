@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -20,49 +20,48 @@
     "run_exports": {
       "3.8.0": {
         "weak": [
-          "liblapack >=3.8.0,<3.9.0a0"
+          "libblas >=3.8.0,<4.0a0"
         ]
       }
     },
     "source_git_url": null,
     "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1584163876,
+    "timestamp": 1556666232,
     "version": "3.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "liblapack-3.8.0-16_openblas.tar.bz2",
+  "package": "libblas-3.8.0-8_blis.tar.bz2",
   "repodata": {
-    "build": "16_openblas",
-    "build_number": 16,
+    "build": "8_blis",
+    "build_number": 8,
     "constrains": [
-      "libcblas 3.8.0 16_openblas",
-      "liblapacke 3.8.0 16_openblas",
-      "blas * openblas"
+      "libcblas 3.8.0 8_blis",
+      "blas * blis"
     ],
     "depends": [
-      "libblas 3.8.0 16_openblas"
+      "blis >=0.5.2,<0.5.3.0a0"
     ],
-    "license": "BSD-3-Clause",
-    "md5": "01077121ad191fcb15bb5e258c19958f",
-    "name": "liblapack",
-    "sha256": "325d68430117ceb7c3e7bf1bde58eaf47755114dff2f8a800efb3602f98ef8e7",
-    "size": 10325,
-    "subdir": "linux-64",
-    "timestamp": 1584163876820,
+    "license": "BSD 3-clause",
+    "md5": "a1aea338ca2080561f7eca6381128301",
+    "name": "libblas",
+    "sha256": "8d4ec249f33c3ea422c1e2f6fd44ee7c3926b6ac3c3502d174785edec61adf98",
+    "size": 2293584,
+    "subdir": "win-64",
+    "timestamp": 1556666232355,
+    "track_features": "blas_blis",
     "version": "3.8.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblapack-3.8.0-16_openblas.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libblas-3.8.0-8_blis.tar.bz2"
 }
