@@ -19,49 +19,52 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/C/COMPAS/COMPAS-0.4.7.tar.gz",
+    "source_url": "https://pypi.io/packages/source/C/COMPAS/COMPAS-0.15.6.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "The COMPAS framework",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1548428658,
-    "version": "0.4.7"
+    "text_prefix": false,
+    "timestamp": 1587977762,
+    "version": "0.15.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "compas-0.4.7-py36_0.tar.bz2",
+  "package": "compas-0.15.6-py36h9f0ad1d_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py36h9f0ad1d_0",
     "build_number": 0,
     "depends": [
+      "binaryornot",
       "cython",
-      "matplotlib >=2.0",
+      "ezdxf",
+      "imageio >=2.7",
+      "matplotlib-base >=2.2,<3.1",
       "networkx",
       "numba",
-      "numpy",
+      "numpy >=1.15",
       "pillow",
       "python >=3.6,<3.7.0a0",
       "python-planarity",
-      "scipy",
+      "python_abi 3.6.* *_cp36m",
+      "scipy >=1.1",
       "sympy"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "84ab943aed16eabfeb917719c701c193",
+    "md5": "93af5d5cbef0c39c27c8058b3c40a014",
     "name": "compas",
-    "sha256": "84021274191a95fe3b7ec417b9f3049006d704c953ca761413e267fc9bb8c70c",
-    "size": 2092897,
-    "subdir": "linux-64",
-    "timestamp": 1548428658796,
-    "version": "0.4.7"
+    "sha256": "7cf4a77a065439b16a5258776b30cb89b3d0dbd832f7466ae7376544ac7f6805",
+    "size": 985393,
+    "subdir": "win-64",
+    "timestamp": 1587977762722,
+    "version": "0.15.6"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/compas-0.4.7-py36_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/compas-0.15.6-py36h9f0ad1d_0.tar.bz2"
 }
