@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/mewwts/addict",
+    "home": "http://www.h5py.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/mewwts/addict/archive/v1.0.0.tar.gz",
+    "source_url": "https://github.com/h5py/h5py/archive/2.6.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Addict is a dictionary whose items can be set using both attribute and item syntax.",
+    "summary": "Read and write HDF5 files from Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.0"
+    "version": "2.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "addict-1.0.0-py27_0.tar.bz2",
+  "package": "h5py-2.6.0-np110py36_7.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "np110py36_7",
+    "build_number": 7,
     "depends": [
-      "python 2.7*"
+      "hdf5 1.8.17|1.8.17.*",
+      "numpy 1.10*",
+      "python 3.6*",
+      "six"
     ],
-    "license": "MIT",
-    "md5": "828b0a4cfd197456c856672965fde235",
-    "name": "addict",
-    "sha256": "5eb20b4b4584c9eab50b10e917301b59ba17299da2fb2e08c0ec816efb5ed0d6",
-    "size": 6686,
+    "license": "BSD 3-Clause",
+    "md5": "38644346090bd3e536a1404fb810c29b",
+    "name": "h5py",
+    "sha256": "77f4651bdb34762f8c3cf2c0c85087eb6a516bce4e0c98f71d8523a9d4811cb2",
+    "size": 3371871,
     "subdir": "linux-64",
-    "version": "1.0.0"
+    "version": "2.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/addict-1.0.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.6.0-np110py36_7.tar.bz2"
 }
