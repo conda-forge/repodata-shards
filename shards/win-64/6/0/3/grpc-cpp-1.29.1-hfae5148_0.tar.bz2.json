@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "gRPC is a modern, open source, high-performance remote procedure call (RPC) framework that can run anywhere. gRPC enables client and server applications to communicate transparently, and simplifies the building of connected systems.  This package contains the gRPC C++ libraries and header files, as well as the code generation plugins.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://grpc.io/docs/",
+    "home": "https://grpc.io/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.29.1": {
+        "weak": [
+          "grpc-cpp >=1.29.1,<1.30.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/grpc/grpc/archive/v1.29.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "gRPC - A high-performance, open-source universal RPC framework",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1592301675,
+    "version": "1.29.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "grpc-cpp-1.29.1-hfae5148_0.tar.bz2",
+  "repodata": {
+    "build": "hfae5148_0",
+    "build_number": 0,
+    "depends": [
+      "abseil-cpp >=20200225.2,<20200225.3.0a0",
+      "gflags >=2.2.2,<2.3.0a0",
+      "libprotobuf >=3.12.3,<3.13.0a0",
+      "openssl >=1.1.1g,<1.1.2a",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "134906f443f9513746cc2cc878346fb2",
+    "name": "grpc-cpp",
+    "sha256": "d3d1bb73b19390a4307a0c2e97237cf7ea04623d94917e7366f3a9dc2b7f90c2",
+    "size": 13553550,
+    "subdir": "win-64",
+    "timestamp": 1592301675777,
+    "version": "1.29.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/grpc-cpp-1.29.1-hfae5148_0.tar.bz2"
+}
