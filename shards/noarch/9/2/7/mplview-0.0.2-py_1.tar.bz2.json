@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/ActivisionGameScience/assertpy",
+    "dev_url": "https://github.com/jakirkham/mplview",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/ActivisionGameScience/assertpy",
+    "doc_url": "https://mplview.readthedocs.io/",
+    "home": "https://github.com/jakirkham/mplview",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/assertpy/assertpy-0.13.tar.gz",
+    "source_url": "https://pypi.io/packages/source/m/mplview/mplview-0.0.2.tar.gz",
     "subdirs": [
       "noarch"
     ],
-    "summary": "Assertion library for python unit testing with a fluent API",
+    "summary": "A simple, embeddable Matplotlib-based image viewer.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.13"
+    "version": "0.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "assertpy-0.13-py_0.tar.bz2",
+  "package": "mplview-0.0.2-py_1.tar.bz2",
   "repodata": {
-    "build": "py_0",
-    "build_number": 0,
+    "build": "py_1",
+    "build_number": 1,
     "depends": [
+      "matplotlib",
+      "npctypes",
       "python"
     ],
     "license": "BSD 3-Clause",
-    "md5": "0f9e25586d4188cbff318d7410afcf10",
-    "name": "assertpy",
+    "license_family": "BSD",
+    "md5": "4071e584011fecdecc0a161fae10c482",
+    "name": "mplview",
     "noarch": "python",
-    "sha256": "5ee3a4c11f2926d0107cd31fbb4e3dc70c7d3d156134788479b46acc5903401f",
-    "size": 12740,
+    "sha256": "f2bf39a5d739f36c7963128b4854a7773f1bcad470a722886bdabd95fa3c25dc",
+    "size": 8611,
     "subdir": "noarch",
-    "version": "0.13"
+    "version": "0.0.2"
   },
   "repodata_version": 1,
   "subdir": "noarch",
-  "url": "https://conda.anaconda.org/conda-forge/noarch/assertpy-0.13-py_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/noarch/mplview-0.0.2-py_1.tar.bz2"
 }
