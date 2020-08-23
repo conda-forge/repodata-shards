@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "These are the python bindings for Adaptable IO System (ADIOS). ADIOS provides a simple, flexible way for scientists to describe the data in their code that may need to be written, read, or processed outside of the running simulation. By providing an external to the code XML file describing the various elements, their types, and how you wish to process them this run, the routines in the host code (either Fortran or C) can transparently change how they process the data.",
+    "dev_url": "https://github.com/ornladios/ADIOS",
+    "doc_source_url": null,
+    "doc_url": "https://users.nccs.gov/~pnorbert/ADIOS-UsersManual-1.13.1.pdf",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://users.nccs.gov/%7Epnorbert/adios-1.13.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Python bindings for the Adaptable IO System (ADIOS) for flexible and fast scientific data processing.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1542039227,
+    "version": "1.13.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "adios-python-1.13.1-py37h7cee5ec_1002.tar.bz2",
+  "repodata": {
+    "build": "py37h7cee5ec_1002",
+    "build_number": 1002,
+    "depends": [
+      "adios 1.13.1.*",
+      "libcxx >=4.0.1",
+      "libgfortran >=3.0.1",
+      "python >=3.7,<3.8.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "ff91be0779d604d385a9c122c6be37b1",
+    "name": "adios-python",
+    "sha256": "212758eba03a2d7125e3ba41643ddecdd113581ae26611ffc1d5a407c87eab0e",
+    "size": 475480,
+    "subdir": "osx-64",
+    "timestamp": 1542039227697,
+    "version": "1.13.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/adios-python-1.13.1-py37h7cee5ec_1002.tar.bz2"
+}
