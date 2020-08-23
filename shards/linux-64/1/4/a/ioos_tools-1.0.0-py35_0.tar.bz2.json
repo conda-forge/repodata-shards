@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://scikit-beam.github.io/scikit-beam/",
+    "home": "https://github.com/pyoceans/ioos_tools",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/scikit-beam/scikit-beam/archive/v0.0.12.tar.gz",
+    "source_url": "https://pypi.io/packages/source/i/ioos_tools/ioos_tools-1.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Data analysis algorithms for X-Ray, Neutron and Electron sciences",
+    "summary": "Misc functions for IOOS notebooks",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.0.12"
+    "version": "1.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,29 +35,35 @@
     "cf202003",
     "main"
   ],
-  "package": "scikit-beam-0.0.12-np112py35_0.tar.bz2",
+  "package": "ioos_tools-1.0.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "np112py35_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "lmfit 0.8.3",
-      "numpy 1.12*",
+      "beautifulsoup4",
+      "folium",
+      "iris",
+      "matplotlib",
+      "netcdf4",
+      "numpy",
+      "oceans",
+      "owslib",
+      "pandas",
       "python 3.5*",
-      "scikit-image",
-      "scipy",
-      "six",
-      "xraylib"
+      "pytz",
+      "requests",
+      "scikit-learn",
+      "scipy"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "aed446c4fe359911cb72a2bb7cd63e8a",
-    "name": "scikit-beam",
-    "sha256": "03a609d0ef68e6e82c76d54ffcd48184fe9f4ac0a708e790f2949cc1363e8c61",
-    "size": 2695324,
+    "md5": "3136788930e13e3c61662044083b0930",
+    "name": "ioos_tools",
+    "sha256": "897484eedb211a7217337eef10e907e7178700cc4bbac4865184282c4ee626a5",
+    "size": 46020,
     "subdir": "linux-64",
-    "version": "0.0.12"
+    "version": "1.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/scikit-beam-0.0.12-np112py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ioos_tools-1.0.0-py35_0.tar.bz2"
 }
