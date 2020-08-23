@@ -1,62 +1,59 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://www.pyamg.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.python.org/packages/2d/39/c074c618f605949b6f924f02c654f078cdca95f177d6a38ae1fe0c2f11ca/pyamg-3.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Algebraic Multigrid Solvers in Python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.4.12"
+    "version": "3.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "opencv-2.4.12-np110py27_0.tar.bz2",
+  "package": "pyamg-3.2.1-np112py27_0.tar.bz2",
   "repodata": {
-    "build": "np110py27_0",
+    "build": "np112py27_0",
     "build_number": 0,
     "depends": [
-      "jasper",
-      "jpeg",
-      "libpng",
-      "libtiff",
-      "numpy 1.10*",
+      "numpy 1.12*",
+      "pytest",
       "python 2.7*",
+      "scipy",
       "zlib"
     ],
-    "license": "BSD 3-clause",
-    "md5": "d05257d8d481b3bb45a30b4ba18d6cfa",
-    "name": "opencv",
-    "sha256": "5b0515c793b809fd69634501dfb01930ad16227bfb0f16fec4e956f8e605c095",
-    "size": 8198404,
+    "license": "MIT",
+    "md5": "7ad552bbb5a5afeaca3da7948e15efeb",
+    "name": "pyamg",
+    "sha256": "d1e6d66322cf40236ec5502d4e4aff98824f7d3df4732589771c1df9baaba18e",
+    "size": 1739169,
     "subdir": "linux-64",
-    "version": "2.4.12"
+    "version": "3.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/opencv-2.4.12-np110py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyamg-3.2.1-np112py27_0.tar.bz2"
 }
