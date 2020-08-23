@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -21,36 +21,40 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2016.3"
+    "version": "0.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "pytz-2016.3-py27_0.tar.bz2",
+  "package": "dec2-0.2.1-py34_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "boto3",
+      "click",
+      "paramiko",
+      "python 3.4*",
+      "pyyaml",
+      "six"
     ],
-    "license": "MIT",
-    "md5": "2ba7332126a5cbf083a0fa37986e3320",
-    "name": "pytz",
-    "sha256": "2aa49cfd4373a2c349d8bcb126b7b61a71121d86f831ff292290ef0b0f16a86d",
-    "size": 165274,
-    "subdir": "linux-64",
-    "version": "2016.3"
+    "license": "Apache 2.0",
+    "md5": "0267347626f53cf6c65892ed89dd38c6",
+    "name": "dec2",
+    "sha256": "c323038263bea3e482c571147ce1bb708c0ea9bcfb39183c145e30e72cfd5a35",
+    "size": 46994,
+    "subdir": "osx-64",
+    "version": "0.2.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytz-2016.3-py27_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/dec2-0.2.1-py34_0.tar.bz2"
 }
