@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://rpy.sourceforge.net",
+    "home": "https://github.com/NCAR/wrf-python",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-2.0",
+    "license": "UCAR",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/rpy2/rpy2-2.8.5.tar.gz",
+    "source_url": "https://github.com/NCAR/wrf-python/archive/1.1.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python interface to the R language (embedded R)",
+    "summary": "Diagnostic and interpolation routines for WRF-ARW data.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.8.5"
+    "version": "1.1.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "rpy2-2.8.5-py36r3.3.2_0.tar.bz2",
+  "package": "wrf-python-1.1.3-py36_0.tar.bz2",
   "repodata": {
-    "build": "py36r3.3.2_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
+      "libgcc",
+      "libgfortran",
+      "numpy >=1.11",
       "python 3.6*",
-      "r-base 3.3.2*",
-      "readline",
-      "singledispatch",
-      "six"
+      "setuptools",
+      "wrapt",
+      "xarray"
     ],
-    "license": "GPL-2.0",
-    "md5": "7bde29c36779160e3b0d1c7082c86026",
-    "name": "rpy2",
-    "sha256": "5b8326e1d03170f5ca32aeb96b98289043508863712edea82d497db6af081bfc",
-    "size": 400719,
+    "license": "UCAR",
+    "md5": "234f282027e02f2c69393cfa194999ba",
+    "name": "wrf-python",
+    "sha256": "b68fb4c0710bc0747b38d7bc08814516534bcbfb8ab80a168826a47f8eaf116b",
+    "size": 535068,
     "subdir": "linux-64",
-    "version": "2.8.5"
+    "version": "1.1.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/rpy2-2.8.5-py36r3.3.2_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wrf-python-1.1.3-py36_0.tar.bz2"
 }
