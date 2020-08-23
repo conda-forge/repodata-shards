@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/kalefranz/yaml",
+    "home": "https://github.com/ajdawson/gridfill",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,38 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://bitbucket.org/kalefranz/yaml/get/1CBC6A8.tar.gz",
+    "source_url": "https://github.com/ajdawson/gridfill/archive/v1.0.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
-    "summary": "A fork of ruamel.yaml.",
+    "summary": "Fill missing values in a grid by solving Poisson's equation via an iterative relaxation scheme",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.11.7"
+    "version": "1.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "ruamel_yaml-0.11.7-py34_0.tar.bz2",
+  "package": "gridfill-1.0.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*",
-      "setuptools",
-      "yaml"
+      "numpy >=1.11",
+      "python 3.5*"
     ],
     "license": "MIT",
-    "md5": "ad6590a02878fa020f59de7073f34fc3",
-    "name": "ruamel_yaml",
-    "sha256": "3034b3cb698f04dd72d7bc427dcf0afe5ec0f78363ce3291fd64a95da150c209",
-    "size": 582168,
-    "subdir": "linux-64",
-    "version": "0.11.7"
+    "md5": "e4aaf17a6fdb947eef5427f66654692a",
+    "name": "gridfill",
+    "sha256": "bf5138a7565e0ee5c1e466fd9ad556048271a83b9d02252a20c9377056ba3038",
+    "size": 491894,
+    "subdir": "win-64",
+    "version": "1.0.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel_yaml-0.11.7-py34_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/gridfill-1.0.1-py35_0.tar.bz2"
 }

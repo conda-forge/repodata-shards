@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "GNU LGPL",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -21,37 +21,47 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.4.1"
+    "version": "0.14.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "mahotas-1.4.1-np110py27_0.tar.bz2",
+  "package": "cartopy-0.14.2-np111py34_0.tar.bz2",
   "repodata": {
-    "build": "np110py27_0",
+    "build": "np111py34_0",
     "build_number": 0,
     "depends": [
-      "numpy 1.10*",
-      "python 2.7*"
+      "matplotlib",
+      "mock",
+      "nose",
+      "numpy 1.11*",
+      "owslib",
+      "pillow",
+      "proj.4",
+      "pyepsg",
+      "pyshp",
+      "python 3.4*",
+      "scipy",
+      "shapely >=1.5.6",
+      "six"
     ],
-    "license": "MIT",
-    "md5": "2f1bc08aed1c1a20d7a279969391c2d4",
-    "name": "mahotas",
-    "sha256": "57902cb21e64c6f4018e041557f8d3f5c48b200a0d01d3525281dcbee1dba63f",
-    "size": 4169781,
-    "subdir": "linux-64",
-    "version": "1.4.1"
+    "license": "GNU LGPL",
+    "md5": "363baabdcbb613ec5320a06cb7494042",
+    "name": "cartopy",
+    "sha256": "b7d903e8a6d14e956b3d52dddf8305b891b48b6bf42a65dc3b46f47f009dba21",
+    "size": 1853324,
+    "subdir": "win-64",
+    "version": "0.14.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/mahotas-1.4.1-np110py27_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cartopy-0.14.2-np111py34_0.tar.bz2"
 }

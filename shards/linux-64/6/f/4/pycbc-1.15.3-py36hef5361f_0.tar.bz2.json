@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "PyCBC is a software package used to explore astrophysical sources of gravitational waves. It contains algorithms that can detect coalescing compact binaries and measure the astrophysical parameters of detected sources. PyCBC was used in the first direct detection of gravitational waves (GW150914) by LIGO and is used in the ongoing analysis of LIGO and Virgo data.",
     "dev_url": "https://github.com/gwastro/pycbc/",
@@ -12,32 +12,31 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/PyCBC/PyCBC-1.14.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/P/PyCBC/PyCBC-1.15.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Core library to analyze gravitational-wave data, find signals, and study their parameters.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1560862445,
-    "version": "1.14.0"
+    "timestamp": 1577978860,
+    "version": "1.15.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pycbc-1.14.0-py36h516909a_0.tar.bz2",
+  "package": "pycbc-1.15.3-py36hef5361f_0.tar.bz2",
   "repodata": {
-    "build": "py36h516909a_0",
+    "build": "py36hef5361f_0",
     "build_number": 0,
     "depends": [
       "astropy >=2.0.3",
@@ -45,39 +44,42 @@
       "cython",
       "decorator >=3.4.2",
       "dqsegdb",
-      "dqsegdb2",
+      "dqsegdb2 >=1.0.1",
       "emcee 2.2.1.*",
       "h5py >=2.5",
       "jinja2",
       "kombine >=0.8.2",
       "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
       "ligo-gracedb",
       "ligo-segments",
       "lscsoft-glue >=1.59.3",
       "mako >=1.0.1",
       "matplotlib >=1.5.1",
       "mpld3 >=0.3",
-      "numpy >=1.13.0",
+      "numpy >=1.16.5,<2.0a0",
       "pillow",
       "pkg-config",
       "python >=3.6,<3.7.0a0",
       "python-lalframe",
       "python-lalsimulation",
+      "python-pegasus-wms",
       "requests >=1.2.1",
       "scipy >=0.16.0",
-      "six >=1.10.0"
+      "six >=1.10.0",
+      "tqdm"
     ],
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "54e78572bd5aaf44bcd7f45efc5d396c",
+    "md5": "11dbc37ce44acb6058ddea56ac3a8cd9",
     "name": "pycbc",
-    "sha256": "24a31387ee7989c2b98cd9827b291160b0a4eb54f7318a14817aa617850ebf55",
-    "size": 3885357,
+    "sha256": "c108dee0c47d5abb6706ff2c9910c2db7ae858eaf0db3ab56bcf57d72134c1b1",
+    "size": 4037217,
     "subdir": "linux-64",
-    "timestamp": 1560862445883,
-    "version": "1.14.0"
+    "timestamp": 1577978860170,
+    "version": "1.15.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pycbc-1.14.0-py36h516909a_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pycbc-1.15.3-py36hef5361f_0.tar.bz2"
 }
