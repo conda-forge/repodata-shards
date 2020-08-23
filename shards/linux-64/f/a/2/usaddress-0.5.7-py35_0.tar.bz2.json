@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/jdowner/gist",
+    "home": "https://github.com/datamade/usaddress",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,44 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/python-gist/python-gist-0.9.1.tar.gz",
+    "source_url": "https://pypi.python.org/packages/source/u/usaddress/usaddress-0.5.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Manage github gists",
+    "summary": "Parse US addresses using conditional random fields",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1573471778,
-    "version": "0.9.1"
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "0.5.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "python-gist-0.9.1-py37_0.tar.bz2",
+  "package": "usaddress-0.5.7-py35_0.tar.bz2",
   "repodata": {
-    "build": "py37_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "docopt",
-      "python >=3.7,<3.8.0a0",
-      "python-gnupg >=0.4.1",
-      "requests",
-      "simplejson"
+      "future",
+      "metafone",
+      "probableparsing",
+      "python 3.5*",
+      "python-crfsuite",
+      "requests"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "728625c5e5e0321799082778f7efc82a",
-    "name": "python-gist",
-    "sha256": "2258f94cbb4fe8fd2307a9957340e1f72f205e18c3610f0ab17d03d4126589fd",
-    "size": 27674,
+    "md5": "ab303302bd9c55a38127fac0956a2216",
+    "name": "usaddress",
+    "sha256": "90ae1c86e71794735cfb01733fe48c789c3e34dc377c7caf14e9666b972257f0",
+    "size": 58333,
     "subdir": "linux-64",
-    "timestamp": 1573471778885,
-    "version": "0.9.1"
+    "version": "0.5.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-gist-0.9.1-py37_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/usaddress-0.5.7-py35_0.tar.bz2"
 }
