@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "UHD is the free & open-source software driver and API for the Universal Software Radio Peripheral (USRP(TM)) SDR platform, created and sold by Ettus Research. UHD supports all Ettus Research USRP(TM) hardware, including all motherboards and daughterboards, and the combinations thereof.",
+    "dev_url": "https://github.com/EttusResearch/uhd",
+    "doc_source_url": null,
+    "doc_url": "https://files.ettus.com/manual/",
+    "home": "httsp://github.com/EttusResearch/uhd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.15.0.0": {
+        "weak": [
+          "uhd >=3.15.0,<3.15.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/EttusResearch/uhd/archive/v3.15.0.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Software driver and API for the Ettus Research USRP SDR platform",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1578337015,
+    "version": "3.15.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "uhd-3.15.0.0-py38h71b9f6b_0.tar.bz2",
+  "repodata": {
+    "build": "py38h71b9f6b_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.70.0,<1.70.1.0a0",
+      "libcxx >=9.0.1",
+      "libusb >=1.0.23,<2.0a0",
+      "ncurses >=6.1,<6.2.0a0",
+      "numpy >=1.14.6,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "requests"
+    ],
+    "license": "GPL-3.0",
+    "license_family": "GPL",
+    "md5": "291b39da9395c3a858d6cdd815b677dd",
+    "name": "uhd",
+    "sha256": "34636b312c61c1776bf10e12a2439e7db869f53a2d35ccce3e87562c27803a36",
+    "size": 8012926,
+    "subdir": "osx-64",
+    "timestamp": 1578337015861,
+    "version": "3.15.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/uhd-3.15.0.0-py38h71b9f6b_0.tar.bz2"
+}
