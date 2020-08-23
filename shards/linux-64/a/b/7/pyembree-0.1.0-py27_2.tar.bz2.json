@@ -4,54 +4,54 @@
     "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/scopatz/pyembree",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/nucleic/kiwi",
+    "home": "https://github.com/scopatz/pyembree",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "BSD 2-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/k/kiwisolver/kiwisolver-1.0.1.tar.gz",
+    "source_url": "https://github.com/scopatz/pyembree/archive/0.1.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A fast implementation of the Cassowary constraint solver",
+    "summary": "Python Wrapper for Embree",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.1"
+    "version": "0.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "kiwisolver-1.0.1-py27_1.tar.bz2",
+  "package": "pyembree-0.1.0-py27_2.tar.bz2",
   "repodata": {
-    "build": "py27_1",
-    "build_number": 1,
+    "build": "py27_2",
+    "build_number": 2,
     "depends": [
+      "embree",
+      "numpy >=1.8",
       "python 2.7*"
     ],
-    "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "4982b53e10aa25f6d6afd6bf937b6c26",
-    "name": "kiwisolver",
-    "sha256": "aaf98df7c4f2e23c6734ad2935fbd16c77b253a35b79cd2e15410061cac16fd4",
-    "size": 954327,
+    "license": "BSD 2-clause",
+    "md5": "a379d698f03369052932265e85c16cb6",
+    "name": "pyembree",
+    "sha256": "d8b0c8cf09a5e2a8cfc8572ee0755f7276e7b9aa3a87d12dbaf2c44ad4a249ae",
+    "size": 209763,
     "subdir": "linux-64",
-    "version": "1.0.1"
+    "version": "0.1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/kiwisolver-1.0.1-py27_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyembree-0.1.0-py27_2.tar.bz2"
 }
