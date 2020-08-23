@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The davix project aims to make file management over HTTP-based protocols simple. The focus is on high-performance remote I/O and data management of large collections of files. Currently, there is support for the WebDav, Amazon S3, Microsoft Azure, and HTTP protocols.",
+    "dev_url": "https://github.com/cern-it-sdc-id/davix",
+    "doc_source_url": null,
+    "doc_url": "https://dmc-docs.web.cern.ch/dmc-docs/versions/docs/davix-epel/html/",
+    "home": "https://dmc.web.cern.ch/projects/davix/home",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.7.3": {
+        "weak": [
+          "davix >=0.7.3,<0.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/cern-fts/davix/releases/download/R_0_7_3/davix-0.7.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "High-performance data access client for HTTP-based protocols. (WebDAV / S3 / Microsoft Azure / HTTP)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1557664960,
+    "version": "0.7.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "davix-0.7.3-h7232a33_2.tar.bz2",
+  "repodata": {
+    "build": "h7232a33_2",
+    "build_number": 2,
+    "depends": [
+      "libcxx >=4.0.1",
+      "libxml2 >=2.9.9,<2.10.0a0",
+      "openssl >=1.1.1a,<1.1.2a",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-2.1",
+    "license_family": "LGPL",
+    "md5": "0e617b139910db99ff6710e4b190932c",
+    "name": "davix",
+    "sha256": "19b30eae0c1d7d933790cce924e41270a6af0a821c6ad7c0b91f026d3e7e9396",
+    "size": 1525960,
+    "subdir": "osx-64",
+    "timestamp": 1557664960050,
+    "version": "0.7.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/davix-0.7.3-h7232a33_2.tar.bz2"
+}
