@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://jupyter.org",
+    "home": "https://www.statsmodels.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/jupyter/jupyter_console/archive/5.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/statsmodels/statsmodels-0.6.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Jupyter terminal console",
+    "summary": "Statistical computations and models for use with SciPy",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "5.0.0"
+    "version": "0.6.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "jupyter_console-5.0.0-py34_0.tar.bz2",
+  "package": "statsmodels-0.6.1-np111py35_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "np111py35_0",
     "build_number": 0,
     "depends": [
-      "ipykernel",
-      "ipython",
-      "jupyter_client",
-      "pexpect",
-      "prompt_toolkit",
-      "pygments",
-      "python 3.4*"
+      "numpy 1.11*",
+      "pandas",
+      "patsy",
+      "python 3.5*",
+      "scipy"
     ],
     "license": "BSD 3-Clause",
-    "md5": "25fe577e250cd90bf03daa4a0c3fd9b9",
-    "name": "jupyter_console",
-    "sha256": "c726d02f46a5fcbc1519d9d8a6885b52de0bc06f1e57aa5ff72cdb0af02616f9",
-    "size": 29804,
+    "md5": "0ee2119b85ed53e2ea2e7ca8b6745b4c",
+    "name": "statsmodels",
+    "sha256": "345f1c3c1645a37d4eb2da6e6f6e96dbe23ca550d4f5017267513e91646cc5b7",
+    "size": 5497457,
     "subdir": "linux-64",
-    "version": "5.0.0"
+    "version": "0.6.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/jupyter_console-5.0.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/statsmodels-0.6.1-np111py35_0.tar.bz2"
 }
