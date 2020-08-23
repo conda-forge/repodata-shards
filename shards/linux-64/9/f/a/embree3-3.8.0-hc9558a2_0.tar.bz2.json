@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://embree.github.io/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/embree/embree/archive/v3.8.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "High Performance Ray Tracing Kernels",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.0.0a4"
+    "timestamp": 1580908087,
+    "version": "3.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "github3.py-1.0.0a4-py34_0.tar.bz2",
+  "package": "embree3-3.8.0-hc9558a2_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "hc9558a2_0",
     "build_number": 0,
     "depends": [
-      "pyasn1",
-      "pyopenssl",
-      "python 3.4*",
-      "requests >=2.0",
-      "uritemplate.py >=0.2.0"
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "tbb >=2019.9"
     ],
-    "license": "BSD-3-Clause",
-    "md5": "c1b04e19f3a6d01eb7e0d40c1b00ac5d",
-    "name": "github3.py",
-    "sha256": "87580914e2e78e39f74e8793f464bef91bdef15e4f7c7e0e3b1a85e1174038b2",
-    "size": 118184,
+    "license": "Apache 2.0",
+    "md5": "057faccb19dae3742c58e485b9f453e5",
+    "name": "embree3",
+    "sha256": "9294336e807f458098758f9b3f69a9e284a2faac39fc1702c0cfd801a24b9547",
+    "size": 8545059,
     "subdir": "linux-64",
-    "version": "1.0.0a4"
+    "timestamp": 1580908087162,
+    "version": "3.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/github3.py-1.0.0a4-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/embree3-3.8.0-hc9558a2_0.tar.bz2"
 }
