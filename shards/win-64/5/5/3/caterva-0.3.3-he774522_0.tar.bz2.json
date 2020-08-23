@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Caterva is a C library for handling multi-dimensional, compressed datasets in an easy and convenient manner. It implements a thin metalayer on top of C-Blosc2 for specifying not only the dimensionality of a dataset, but also the dimensionality of the chunks inside the dataset. In addition, Caterva adds machinery for retrieving arbitrary multi-dimensional slices (aka hyper-slices) out of the multi-dimensional containers in the most efficient way. Hence, Caterva brings the convenience of multi-dimensional and compressed containers to your application very easily.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/Blosc/caterva",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.3": {
+        "weak": [
+          "caterva >=0.3.3,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Blosc/caterva/archive/v0.3.3.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A multidimensional data container on top of Blosc2",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1592860012,
+    "version": "0.3.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "caterva-0.3.3-he774522_0.tar.bz2",
+  "repodata": {
+    "build": "he774522_0",
+    "build_number": 0,
+    "depends": [
+      "c-blosc2",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "a7cb80bd26ad8bd462b9626d8753dc4b",
+    "name": "caterva",
+    "sha256": "fc6443553f2bcd2d248802d5e757686d359d6fe7bb5bdbd77eba7d4e3dc3cd2c",
+    "size": 39836,
+    "subdir": "win-64",
+    "timestamp": 1592860012581,
+    "version": "0.3.3"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/caterva-0.3.3-he774522_0.tar.bz2"
+}
