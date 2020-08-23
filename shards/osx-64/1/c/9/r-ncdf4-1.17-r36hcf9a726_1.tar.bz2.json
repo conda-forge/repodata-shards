@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://cirrus.ucsd.edu/~pierce/ncdf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/ncdf4/ncdf4_1.17.tar.gz",
+      "https://cran.r-project.org/src/contrib/ncdf4_1.17.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Provides a high-level R interface to data files written using Unidata's netCDF library (version 4 or earlier), which are binary data files that are portable across platforms and include metadata information in addition to the data sets.  Using this package, netCDF files (either version 4 or \"classic\" version 3) can be opened and data sets read in easily.  It is also easy to create new netCDF dimensions, variables, and files, in either version 3 or 4 format, and manipulate existing netCDF files.  This package replaces the former ncdf package, which only worked with netcdf version 3 files.  For various reasons the names of the functions have had to be changed from the names in the ncdf package.  The old ncdf package is still available at the URL given below, if you need to have backward compatibility.  It should be possible to have both the ncdf and ncdf4 packages installed simultaneously without a problem.  However, the ncdf package does not provide an interface for netcdf version 4 files.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1576512476,
+    "version": "1.17"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-ncdf4-1.17-r36hcf9a726_1.tar.bz2",
+  "repodata": {
+    "build": "r36hcf9a726_1",
+    "build_number": 1,
+    "depends": [
+      "hdf5 >=1.10.5,<1.10.6.0a0",
+      "libnetcdf >=4.7.3,<4.7.4.0a0",
+      "r-base >=3.6,<3.7.0a0"
+    ],
+    "license": "GPL-3",
+    "license_family": "GPL3",
+    "md5": "365e08a669d5f5a1d9b3b390721e4fda",
+    "name": "r-ncdf4",
+    "sha256": "7a836f9eaed71ba35b7ebf8e6b3206d9e1a6fcea69e2cbb639e1e6e93c58805a",
+    "size": 296630,
+    "subdir": "osx-64",
+    "timestamp": 1576512476712,
+    "version": "1.17"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-ncdf4-1.17-r36hcf9a726_1.tar.bz2"
+}
