@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The davix project aims to make file management over HTTP-based protocols simple. The focus is on high-performance remote I/O and data management of large collections of files. Currently, there is support for the WebDav, Amazon S3, Microsoft Azure, and HTTP protocols.",
+    "dev_url": "https://github.com/cern-it-sdc-id/davix",
+    "doc_source_url": null,
+    "doc_url": "https://dmc-docs.web.cern.ch/dmc-docs/versions/docs/davix-epel/html/",
+    "home": "https://dmc.web.cern.ch/projects/davix/home",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.6.7": {
+        "weak": [
+          "davix >=0.6.7,<0.6.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/cern-it-sdc-id/davix/archive/R_0_6_7.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "High-performance data access client for HTTP-based protocols. (WebDAV / S3 / Microsoft Azure / HTTP)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1555618153,
+    "version": "0.6.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "davix-0.6.7-h417212d_1.tar.bz2",
+  "repodata": {
+    "build": "h417212d_1",
+    "build_number": 1,
+    "depends": [
+      "libcxx >=4.0.1",
+      "libxml2 >=2.9.8,<2.10.0a0",
+      "openssl >=1.0.2r,<1.0.3a"
+    ],
+    "license": "LGPL-2.1",
+    "license_family": "LGPL",
+    "md5": "0f8a064125bddbe530aca608d2304a6a",
+    "name": "davix",
+    "sha256": "2f39e98c8a0b16a8f99878c9d69ef9aa14fd5dd2fce678371d3806a2469c726b",
+    "size": 791561,
+    "subdir": "osx-64",
+    "timestamp": 1555618153252,
+    "version": "0.6.7"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/davix-0.6.7-h417212d_1.tar.bz2"
+}
