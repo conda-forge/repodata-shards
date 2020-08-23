@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "pyFAI is an azimuthal integration library that tries to be fast (as fast as C and even more using OpenCL and GPU). It is based on histogramming of the 2theta/Q positions of each (center of) pixel weighted by the intensity of each pixel, but parallel version uses a SparseMatrix-DenseVector multiplication. Neighboring output bins get also a contribution of pixels next to the border thanks to pixel splitting. Finally pyFAI provides also tools to calibrate the experimental setup using Debye-Scherrer rings of a reference compound.",
+    "dev_url": "https://github.com/silx-kit/pyFAI/",
+    "doc_source_url": null,
+    "doc_url": "http://www.silx.org/doc/pyFAI/latest/",
+    "home": "https://github.com/silx-kit/pyFAI/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/silx-kit/pyFAI/archive/v0.19.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Python implementation of fast azimuthal integration",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1580724599,
+    "version": "0.19.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pyfai-0.19.0-py36he350917_0.tar.bz2",
+  "repodata": {
+    "build": "py36he350917_0",
+    "build_number": 0,
+    "depends": [
+      "fabio",
+      "h5py",
+      "lxml",
+      "matplotlib",
+      "numexpr",
+      "numpy >=1.14.6,<2.0a0",
+      "pillow",
+      "python >=3.6,<3.7.0a0",
+      "scipy",
+      "setuptools",
+      "silx",
+      "vc >=14,<15.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "c04f51e7483d0731b77d45a75a7fdd7a",
+    "name": "pyfai",
+    "sha256": "458795a312758fca4b7f5c8269d64c339500d3999eecec396f5cd0eef53cb6b6",
+    "size": 3768928,
+    "subdir": "win-64",
+    "timestamp": 1580724599882,
+    "version": "0.19.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pyfai-0.19.0-py36he350917_0.tar.bz2"
+}
