@@ -1,0 +1,78 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/stevengj/meep",
+    "doc_source_url": null,
+    "doc_url": "http://meep.readthedocs.io",
+    "home": "http:/github.com/stevengj/meep",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.8.0": {
+        "weak": [
+          "pymeep * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NanoComp/meep/releases/download/v1.8.0/meep-1.8.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Free finite-difference time-domain (FDTD) software for electromagnetic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1553179967,
+    "version": "1.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pymeep-1.8.0-mpi_mpich_py37hc680260_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py37hc680260_2",
+    "build_number": 2,
+    "depends": [
+      "gsl >=2.4,<2.5.0a0",
+      "h5py",
+      "h5utils",
+      "harminv",
+      "hdf5 >=1.10.4,<1.10.5.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libctl 4.2.*",
+      "libcxx >=4.0.1",
+      "libgfortran >=3.0.1,<4.0.0.a0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "mpb * mpi_mpich_*",
+      "mpi4py 3.0.*",
+      "mpich >=3.2,<3.3.0a0",
+      "numpy >=1.11.3,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "scipy"
+    ],
+    "license": "GPL-2.0",
+    "md5": "1d897951f6c49a8439ef4426081c0e8d",
+    "name": "pymeep",
+    "sha256": "f88b0cc0d532a986588dce60036ba5ec2418c02030a2c8a2a25e2653499e53ac",
+    "size": 3600342,
+    "subdir": "osx-64",
+    "timestamp": 1553179967715,
+    "version": "1.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/pymeep-1.8.0-mpi_mpich_py37hc680260_2.tar.bz2"
+}
