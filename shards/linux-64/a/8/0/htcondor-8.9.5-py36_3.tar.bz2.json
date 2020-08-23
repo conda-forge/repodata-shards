@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "HTCondor is a workload management system for high-throughput and high-performance jobs. Like other full-featured batch systems, HTCondor provides a job queuing mechanism, scheduling policy, priority scheme, resource monitoring, and resource management. Users submit their serial or parallel jobs to HTCondor, HTCondor places them into a queue, chooses when and where to run the jobs based upon a policy, carefully monitors their progress, and ultimately informs the user upon completion.",
+    "dev_url": "https://github.com/htcondor/htcondor",
+    "doc_source_url": null,
+    "doc_url": "https://htcondor.readthedocs.io/",
+    "home": "http://htcondor.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/htcondor/htcondor/archive/V8_9_5.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "HTCondor: High Throughput Computing",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1582386881,
+    "version": "8.9.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "htcondor-8.9.5-py36_3.tar.bz2",
+  "repodata": {
+    "build": "py36_3",
+    "build_number": 3,
+    "depends": [
+      "htcondor-classads 8.9.5 he1b5a44_3",
+      "htcondor-procd 8.9.5 he1b5a44_3",
+      "htcondor-utils 8.9.5 hf10cc52_3",
+      "libcondor_utils 8.9.5 ha92cf40_3",
+      "python >=3.6,<3.7.0a0",
+      "python-htcondor 8.9.5 py36hc000ea8_3"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "dcdadf6eb13bb1dbc1ab39700d9a19ab",
+    "name": "htcondor",
+    "sha256": "cbfd1429cb8010b55e6133b9b8d04cf62037ae733aaa96849d50b6330a599798",
+    "size": 10459,
+    "subdir": "linux-64",
+    "timestamp": 1582386881781,
+    "version": "8.9.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/htcondor-8.9.5-py36_3.tar.bz2"
+}
