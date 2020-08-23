@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/workhorsy/py-cpuinfo",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/workhorsy/py-cpuinfo",
+    "home": "https://github.com/schlamar/cov-core",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/py-cpuinfo/py-cpuinfo-0.2.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cov-core/cov-core-1.15.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A module for getting CPU info with Python 2 & 3",
+    "summary": "plugin core for use by pytest-cov, nose-cov and nose2-cov",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2.3"
+    "version": "1.15.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "py-cpuinfo-0.2.3-py35_1.tar.bz2",
+  "package": "cov-core-1.15.0-py34_0.tar.bz2",
   "repodata": {
-    "build": "py35_1",
-    "build_number": 1,
+    "build": "py34_0",
+    "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "coverage >=3.6",
+      "python 3.4*"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "c5e9eb750f2df9f908732d5f90e5aa5b",
-    "name": "py-cpuinfo",
-    "sha256": "eb3a8517a10b81aa0d4ececa26f382ad48670dbb21b8db3cbba38cdff6308546",
-    "size": 26182,
+    "md5": "815bac35055b41e7991e3d93d2a9d8a7",
+    "name": "cov-core",
+    "sha256": "fd8d51e727c9d9f78a5f6637c91d1b0d1151d3f7e4476ce09a6d1fdb03663551",
+    "size": 9513,
     "subdir": "linux-64",
-    "version": "0.2.3"
+    "version": "1.15.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/py-cpuinfo-0.2.3-py35_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cov-core-1.15.0-py34_0.tar.bz2"
 }
