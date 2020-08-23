@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/pytest-dev/pytest-forked",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/bebraw/pypandoc",
+    "home": "https://github.com/pytest-dev/pytest-forked",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,38 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/bebraw/pypandoc/archive/v1.2.0.zip",
+    "source_url": "https://pypi.io/packages/source/p/pytest-forked/pytest-forked-0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Thin wrapper for \"pandoc\"",
+    "summary": "run tests in isolated forked subprocesses",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.2.0"
+    "version": "0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pypandoc-1.2.0-py27_0.tar.bz2",
+  "package": "pytest-forked-0.2-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "pandoc",
-      "python 2.7*"
+      "pytest >=2.6.0",
+      "python 3.6*"
     ],
     "license": "MIT",
-    "md5": "ec9d5409ea1695be6b79c5fae457c0cf",
-    "name": "pypandoc",
-    "sha256": "e05839e59d9220b0a8c691a0edfdfe43304e0cc682bc3c5d30660f37929eccd5",
-    "size": 18695,
+    "md5": "3f61561e028de8301f787f0a7d6d6f40",
+    "name": "pytest-forked",
+    "sha256": "13f4bdeacf992f3ad09a3d5b1d9c66c4a9f8e9779c2d4b899a19eee4d7a4ccc0",
+    "size": 7782,
     "subdir": "linux-64",
-    "version": "1.2.0"
+    "version": "0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pypandoc-1.2.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pytest-forked-0.2-py36_0.tar.bz2"
 }

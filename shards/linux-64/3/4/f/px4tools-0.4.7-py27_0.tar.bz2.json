@@ -7,51 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/bebraw/pypandoc",
+    "home": "https://github.com/dronecrew/px4tools",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/bebraw/pypandoc/archive/v1.2.0.zip",
+    "source_url": "https://github.com/dronecrew/px4tools/archive/v0.4.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Thin wrapper for \"pandoc\"",
+    "summary": "Python log crunching for PX4.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.2.0"
+    "version": "0.4.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pypandoc-1.2.0-py27_0.tar.bz2",
+  "package": "px4tools-0.4.7-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "pandoc",
-      "python 2.7*"
+      "basemap",
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "python 2.7*",
+      "scipy"
     ],
-    "license": "MIT",
-    "md5": "ec9d5409ea1695be6b79c5fae457c0cf",
-    "name": "pypandoc",
-    "sha256": "e05839e59d9220b0a8c691a0edfdfe43304e0cc682bc3c5d30660f37929eccd5",
-    "size": 18695,
+    "license": "BSD 3-Clause",
+    "md5": "d58e0a4f84b313e24079c181b25af2f2",
+    "name": "px4tools",
+    "sha256": "aae0e0dffabee12159d949b079a613653f487cbcc3696061f0f5425bc1af627e",
+    "size": 24983,
     "subdir": "linux-64",
-    "version": "1.2.0"
+    "version": "0.4.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pypandoc-1.2.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/px4tools-0.4.7-py27_0.tar.bz2"
 }
