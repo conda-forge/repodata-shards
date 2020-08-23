@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://www.x.org/",
+    "home": "https://github.com/giampaolo/pysendfile",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,42 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/lib/libXext-1.3.3.tar.bz2",
+    "source_url": "https://pypi.io/packages/source/p/pysendfile/pysendfile-2.0.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The X.org extensions library.",
+    "summary": "A Python interface to sendfile(2)",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1531116806,
-    "version": "1.3.3"
+    "text_prefix": false,
+    "timestamp": 1545535857,
+    "version": "2.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "xorg-libxext-1.3.3-h470a237_3.tar.bz2",
+  "package": "pysendfile-2.0.1-py27h470a237_1.tar.bz2",
   "repodata": {
-    "build": "h470a237_3",
-    "build_number": 3,
+    "build": "py27h470a237_1",
+    "build_number": 1,
     "depends": [
       "libgcc-ng >=4.9",
-      "xorg-libx11 1.6.*",
-      "xorg-xextproto"
+      "python >=2.7,<2.8.0a0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "42e11f299c106740703f2fe0311a65ee",
-    "name": "xorg-libxext",
-    "sha256": "92982cf0f10b399bc19357bf1a4ab7ed0b63d26d4333905143d70b72f847f750",
-    "size": 45620,
+    "md5": "94a5689800e2eb58883e94cda7f6bbcf",
+    "name": "pysendfile",
+    "sha256": "0f93197261bdf4990167890482880549d5c5210cc59076e65d223fcf4d1f3aeb",
+    "size": 21195,
     "subdir": "linux-64",
-    "timestamp": 1531116806593,
-    "version": "1.3.3"
+    "timestamp": 1545535857064,
+    "version": "2.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxext-1.3.3-h470a237_3.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pysendfile-2.0.1-py27h470a237_1.tar.bz2"
 }
