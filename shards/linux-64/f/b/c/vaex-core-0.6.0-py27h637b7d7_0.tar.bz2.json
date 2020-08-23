@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://www.github.com/maartenbreddels/vaex",
@@ -19,49 +19,53 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/v/vaex-core/vaex-core-0.3.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/v/vaex-core/vaex-core-0.6.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Core of vaex",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "0.3.1"
+    "timestamp": 1544656478,
+    "version": "0.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "vaex-core-0.3.1-py35_0.tar.bz2",
+  "package": "vaex-core-0.6.0-py27h637b7d7_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27h637b7d7_0",
     "build_number": 0,
     "depends": [
       "aplus",
       "astropy >=1",
       "cloudpickle",
       "future >=0.15.2",
-      "numpy >=1.11",
+      "futures >=2.2.0",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "numpy >=1.9.3,<2.0a0",
       "progressbar2",
       "psutil >=1.2.1",
-      "python 3.5*",
+      "python >=2.7,<2.8.0a0",
       "pyyaml",
       "requests",
-      "six"
+      "six",
+      "tabulate"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "b1bf580400100632fef637b7b99a9818",
+    "md5": "115a3feb3633109418565c5015224116",
     "name": "vaex-core",
-    "sha256": "28d98cee60d846c4f955e4fe34d0740fe6b05df9136b4ea3bdbd389a1b4152ef",
-    "size": 763414,
+    "sha256": "cbdc49218679556b3a0c4f4e8d3279790c250ba3d079173eed59d64dcebb2f9b",
+    "size": 591035,
     "subdir": "linux-64",
-    "version": "0.3.1"
+    "timestamp": 1544656478018,
+    "version": "0.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/vaex-core-0.3.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/vaex-core-0.6.0-py27h637b7d7_0.tar.bz2"
 }
