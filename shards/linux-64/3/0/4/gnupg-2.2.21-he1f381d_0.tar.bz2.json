@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GnuPG is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP). GnuPG allows you to encrypt and sign your data and communications; it features a versatile key management system, along with access modules for all kinds of public key directories. GnuPG, also known as GPG, is a command line tool with features for easy integration with other applications. A wealth of frontend applications and libraries are available. GnuPG also provides support for S/MIME and Secure Shell (ssh).",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.gnupg.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.2.21": {
+        "weak": [
+          "gnupg >=2.2.21,<2.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.21.tar.bz2",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The New GNU Privacy Guard",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1594504548,
+    "version": "2.2.21"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "gnupg-2.2.21-he1f381d_0.tar.bz2",
+  "repodata": {
+    "build": "he1f381d_0",
+    "build_number": 0,
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "libassuan >=2.5.3,<3.0a0",
+      "libgcc-ng >=7.5.0",
+      "libgcrypt >=1.8.4,<2.0a0",
+      "libgpg-error >=1.36,<2.0a0",
+      "libiconv >=1.15,<1.16.0a0",
+      "libksba >=1.3.5,<1.4.0a0",
+      "libstdcxx-ng >=7.5.0",
+      "npth >=1.6,<2.0a0",
+      "ntbtls >=0.1.2,<1.0a0",
+      "readline >=8.0,<9.0a0",
+      "sqlite >=3.32.3,<4.0a0"
+    ],
+    "license": "LGPL-3",
+    "license_family": "GPL",
+    "md5": "136ec1fbbe8f974853dcfce78d2cc001",
+    "name": "gnupg",
+    "sha256": "b166bffb9e11a2949a33268459ace368d15f7493fb7ecd2b173b4db0819a5b39",
+    "size": 3001423,
+    "subdir": "linux-64",
+    "timestamp": 1594504548542,
+    "version": "2.2.21"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gnupg-2.2.21-he1f381d_0.tar.bz2"
+}
