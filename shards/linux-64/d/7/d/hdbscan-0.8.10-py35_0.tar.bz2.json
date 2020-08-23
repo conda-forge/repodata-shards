@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/soft-matter/pims",
+    "home": "http://github.com/lmcinnes/hdbscan",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/soft-matter/pims/archive/v0.3.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/hdbscan/hdbscan-0.8.10.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python Image Sequence. Load video and sequential images in many formats with a simple, consistent interface.",
+    "summary": "Clustering based on density with variable density clusters",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.3"
+    "version": "0.8.10"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "pims-0.3.3-py35_0.tar.bz2",
+  "package": "hdbscan-0.8.10-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "numpy >=1.7",
-      "pillow",
       "python 3.5*",
-      "scikit-image",
-      "six >=1.8",
-      "slicerator >=0.9.4"
+      "scikit-learn >=0.16"
     ],
     "license": "BSD 3-Clause",
-    "md5": "a82515ae50aee2fe76ce5292aaabd106",
-    "name": "pims",
-    "sha256": "e9d06c40572bd2bf56f2ee2fa446c23b73dc2ff72cbcc56b1b93b6836a5a20d6",
-    "size": 100779,
+    "md5": "297942a8d00581f5cb316232ec1113e6",
+    "name": "hdbscan",
+    "sha256": "c77a31c5d3324ee668590b0b461ac396fc305605b04764374056102e040d2b4d",
+    "size": 2532507,
     "subdir": "linux-64",
-    "version": "0.3.3"
+    "version": "0.8.10"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pims-0.3.3-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdbscan-0.8.10-py35_0.tar.bz2"
 }
