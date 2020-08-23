@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/inducer/pudb",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://coloredlogs.readthedocs.org",
+    "home": "http://pypi.python.org/pypi/pudb",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/coloredlogs/coloredlogs-9.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pudb/pudb-2017.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Colored terminal output for Python's logging module.",
+    "summary": "A full-screen, console-based Python debugger",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "9.0"
+    "version": "2017.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "coloredlogs-9.0-py35_0.tar.bz2",
+  "package": "pudb-2017.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "humanfriendly >=3.2",
-      "python 3.5*"
+      "pygments >=1.0",
+      "python 3.5*",
+      "setuptools",
+      "urwid >=1.1.1"
     ],
     "license": "MIT",
-    "md5": "68a95eb2c8436f91a7ceaaf65588471b",
-    "name": "coloredlogs",
-    "sha256": "8bdfeec43c41b48a294b02bf98e28fb4334c6c9f8e3d13db5d0fe940f266c313",
-    "size": 54241,
+    "md5": "adb857f8c6dfeafd400761243710effe",
+    "name": "pudb",
+    "sha256": "d518078c81075ee22e7e9af523d90627f944f5181596d6e7f5505614e86dd76b",
+    "size": 92318,
     "subdir": "linux-64",
-    "version": "9.0"
+    "version": "2017.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/coloredlogs-9.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pudb-2017.1-py35_0.tar.bz2"
 }
