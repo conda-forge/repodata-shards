@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "http://github.com/choderalab/pymbar",
@@ -19,41 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/choderalab/pymbar/archive/3.0.2.tar.gz",
+    "source_url": "https://github.com/choderalab/pymbar/archive/3.0.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Python implementation of the multistate Bennett acceptance ratio (MBAR) method.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "3.0.2"
+    "timestamp": 1531586592,
+    "version": "3.0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "pymbar-3.0.2-np111py35_0.tar.bz2",
+  "package": "pymbar-3.0.3-py27h7eb728f_2.tar.bz2",
   "repodata": {
-    "build": "np111py35_0",
-    "build_number": 0,
+    "build": "py27h7eb728f_2",
+    "build_number": 2,
     "depends": [
+      "libgcc-ng >=4.9",
       "numexpr",
-      "numpy 1.11*",
-      "python 3.5*",
+      "numpy >=1.9.3,<2.0a0",
+      "python >=2.7,<2.8.0a0",
       "scipy",
       "six"
     ],
     "license": "MIT",
-    "md5": "a4cb134a5b4e18e8e86f9cc1aaad3f60",
+    "md5": "4289d41be682dd2c9c821e57263a1116",
     "name": "pymbar",
-    "sha256": "9db266d4f1562a48361052dfee3c02d2681d680edab6beb20937a5590e604ce4",
-    "size": 625178,
+    "sha256": "eee636c4b8f8e5151fad766276772be7a8bc701fff3cad26b3c6f9b1db573481",
+    "size": 128357,
     "subdir": "linux-64",
-    "version": "3.0.2"
+    "timestamp": 1531586592913,
+    "version": "3.0.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pymbar-3.0.2-np111py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pymbar-3.0.3-py27h7eb728f_2.tar.bz2"
 }
