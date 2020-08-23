@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/dask/dask/",
+    "home": "http://dxchange.readthedocs.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,45 +19,46 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/dask/dask-0.14.3.tar.gz",
+    "source_url": "https://github.com/data-exchange/dxchange/archive/v0.1.5.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
-    "summary": "Parallel Python with task scheduling",
+    "summary": "Data I/O for tomography.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.14.3"
+    "version": "0.1.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "dask-0.14.3-py35_0.tar.bz2",
+  "package": "dxchange-0.1.5-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "bokeh",
-      "cloudpickle >=0.2.1",
-      "distributed >=1.16.0",
+      "dxfile",
+      "edffile",
+      "h5py",
+      "netcdf4",
       "numpy",
-      "pandas >=0.19.0",
-      "partd >=0.3.7",
       "python 3.5*",
-      "toolz >=0.7.2"
+      "scipy",
+      "six",
+      "spefile",
+      "tifffile"
     ],
     "license": "BSD 3-Clause",
-    "md5": "e3b016fe25af1db5e66b62102692b0b9",
-    "name": "dask",
-    "sha256": "4c0b3f5848278865ebbcd3714a4421db5e72e0e566e3d075d43f0b3233f722a8",
-    "size": 878828,
-    "subdir": "linux-64",
-    "version": "0.14.3"
+    "md5": "b0dd726c5e428654cbf6b78be571b42d",
+    "name": "dxchange",
+    "sha256": "0b4011c4883ac76f529f6a0e5479b8db695591d992f9856fc2741676bb2c846e",
+    "size": 38640,
+    "subdir": "osx-64",
+    "version": "0.1.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-0.14.3-py35_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/dxchange-0.1.5-py35_0.tar.bz2"
 }
