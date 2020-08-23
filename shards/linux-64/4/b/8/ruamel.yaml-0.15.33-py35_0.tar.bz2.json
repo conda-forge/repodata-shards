@@ -1,55 +1,57 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://bitbucket.org/ruamel/yaml",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD License",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/s/smmap/smmap-0.9.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.33.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.9.0"
+    "version": "0.15.33"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
+    "cf202003",
     "main"
   ],
-  "package": "smmap-0.9.0-py35_0.tar.bz2",
+  "package": "ruamel.yaml-0.15.33-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "python 3.5*",
+      "setuptools"
     ],
-    "license": "BSD License",
-    "md5": "b405d7a27894b0ae9cf43637fb5652c7",
-    "name": "smmap",
-    "sha256": "fe3e988d728138b3ce314cd47084006d4d0dca52e93696ee142ce9540d7c0a2f",
-    "size": 30477,
+    "license": "MIT",
+    "md5": "471c3d2cce562b0b27c9bcc5909f9183",
+    "name": "ruamel.yaml",
+    "sha256": "a954a9f82c7e8a332d8bbcde3044e829f953d368e6e42fdc84d7f5f9648a6c16",
+    "size": 618912,
     "subdir": "linux-64",
-    "version": "0.9.0"
+    "version": "0.15.33"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/smmap-0.9.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.15.33-py35_0.tar.bz2"
 }
