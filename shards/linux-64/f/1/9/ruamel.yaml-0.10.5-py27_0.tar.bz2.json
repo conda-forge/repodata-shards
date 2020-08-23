@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://cmake.org/files/v3.5/cmake-3.5.0-win32-x86.zip",
+    "source_url": "https://bitbucket.org/ruamel/yaml/get/0.10.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.5.0"
+    "version": "0.10.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,21 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "cmake-3.5.0-2.tar.bz2",
+  "package": "ruamel.yaml-0.10.5-py27_0.tar.bz2",
   "repodata": {
-    "build": "2",
-    "build_number": 2,
-    "depends": [],
-    "license": "BSD 3-clause",
-    "license_family": "BSD",
-    "md5": "d182e2f8540a088eb49f5b24931fc9c5",
-    "name": "cmake",
-    "sha256": "119a1b26582e3a39c5535dc745c6750d66588286dc658018e33969bcf962b86b",
-    "size": 10892168,
+    "build": "py27_0",
+    "build_number": 0,
+    "depends": [
+      "python 2.7*",
+      "ruamel.ordereddict"
+    ],
+    "license": "MIT",
+    "md5": "17aa17b636e4e26146ee4e3a81d2b991",
+    "name": "ruamel.yaml",
+    "sha256": "7620a0d3ab6027b2fdc0184d82d783f0b9a0cf2cc66649a6125d17c43e6ccb45",
+    "size": 105448,
     "subdir": "linux-64",
-    "version": "3.5.0"
+    "version": "0.10.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cmake-3.5.0-2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.10.5-py27_0.tar.bz2"
 }
