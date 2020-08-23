@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD",
+    "license": "GPL 3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": "https://github.com/pelson/conda-execute.git",
-    "source_url": null,
+    "source_git_url": null,
+    "source_url": "http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,33 +27,31 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.4.0"
+    "version": "2.69"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "conda-execute-0.4.0-py27_0.tar.bz2",
+  "package": "autoconf-2.69-pl5.20.3.1_3.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "pl5.20.3.1_3",
+    "build_number": 3,
     "depends": [
-      "conda",
-      "psutil",
-      "python 2.7*",
-      "setuptools",
-      "yaml"
+      "m4",
+      "perl 5.20.3.1*"
     ],
-    "license": "BSD",
-    "md5": "fbccc6ab896bbf033fbc608bf82a3708",
-    "name": "conda-execute",
-    "sha256": "02c8c55f405e2356486cf508d7ef818fafc4633ab4cdd3c7b8553c4687a9595b",
-    "size": 13709,
+    "license": "GPL 3",
+    "md5": "581a9fd97c1f0f0f0920e54aae54c6ff",
+    "name": "autoconf",
+    "sha256": "f33d298ef599c2a3d89c37f779a94e074253c31aedc49fe6809a6ef3c6d806f6",
+    "size": 687548,
     "subdir": "linux-64",
-    "version": "0.4.0"
+    "version": "2.69"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/conda-execute-0.4.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/autoconf-2.69-pl5.20.3.1_3.tar.bz2"
 }
