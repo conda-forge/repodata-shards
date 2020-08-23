@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://mvtnorm.R-forge.R-project.org",
+    "home": "https://CRAN.R-project.org/package=calibrate",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -20,41 +20,41 @@
     "run_exports": {},
     "source_git_url": null,
     "source_url": [
-      "https://cran.r-project.org/src/contrib/mvtnorm_1.0-6.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/mvtnorm/mvtnorm_1.0-6.tar.gz"
+      "https://cran.r-project.org/src/contrib/calibrate_1.7.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/calibrate/calibrate_1.7.2.tar.gz"
     ],
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Computes multivariate normal and t probabilities, quantiles, random deviates and densities.",
+    "summary": "Package for drawing calibrated scales with tick marks on (non-orthogonal)  variable vectors in scatterplots and biplots.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0_6"
+    "version": "1.7.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "r-mvtnorm-1.0_6-r3.4.1_0.tar.bz2",
+  "package": "r-calibrate-1.7.2-r3.3.2_0.tar.bz2",
   "repodata": {
-    "build": "r3.4.1_0",
+    "build": "r3.3.2_0",
     "build_number": 0,
     "depends": [
-      "r-base 3.4.1*"
+      "r-base 3.3.2*",
+      "r-mass"
     ],
     "license": "GPL-2",
     "license_family": "GPL2",
-    "md5": "ce5e5a39fa91d8e3a666fad68358fd6e",
-    "name": "r-mvtnorm",
-    "sha256": "eb76eb2906fa1e97145de08cde479ec91bfa01f960d730fbba21531258890f98",
-    "size": 195358,
+    "md5": "422446de6532f740bb85f9ae249fccb0",
+    "name": "r-calibrate",
+    "sha256": "c9600a0443ea9c0ae11ba62ec22c18d6626673b0a1f8be0b2f9de265e6833f03",
+    "size": 317769,
     "subdir": "linux-64",
-    "version": "1.0_6"
+    "version": "1.7.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-mvtnorm-1.0_6-r3.4.1_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/r-calibrate-1.7.2-r3.3.2_0.tar.bz2"
 }
