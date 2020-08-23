@@ -1,0 +1,78 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "TOAST is a software framework for simulating and processing timestream data collected by microwave telescopes.",
+    "dev_url": "https://github.com/hpc4cmb/toast",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/hpc4cmb/toast",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.6": {
+        "weak": [
+          "toast * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/hpc4cmb/toast/archive/2.3.6.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Time Ordered Astrophysics Scalable Tools",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1579433229,
+    "version": "2.3.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "toast-2.3.6-mpi_openmpi_py36h2cc9bed_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_py36h2cc9bed_0",
+    "build_number": 0,
+    "depends": [
+      "astropy",
+      "fftw >=3.3.8,<4.0a0",
+      "fftw >=3.3.8,<4.0a0 mpi_openmpi_*",
+      "healpy",
+      "libaatm",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.3.0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "mpi4py",
+      "numpy",
+      "openmpi >=4.0.2,<4.1.0a0",
+      "pyephem",
+      "python >=3.6,<3.7.0a0",
+      "scipy",
+      "suitesparse >=5.4.0,<6.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "a6886ba3717010d21fdac93fe47ea533",
+    "name": "toast",
+    "sha256": "6977a0b70800777d8d70b54aacc8c851b7b74687f8d8dbd8c6797a3e3cf729bd",
+    "size": 1557406,
+    "subdir": "linux-64",
+    "timestamp": 1579433229709,
+    "version": "2.3.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/toast-2.3.6-mpi_openmpi_py36h2cc9bed_0.tar.bz2"
+}
