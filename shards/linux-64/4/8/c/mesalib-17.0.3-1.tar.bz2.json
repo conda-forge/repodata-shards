@@ -7,55 +7,51 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.itk.org",
+    "home": "http://www.mesa3d.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/InsightSoftwareConsortium/ITK/archive/v4.11.1.tar.gz",
+    "source_url": "ftp://ftp.freedesktop.org/pub/mesa/mesa-17.0.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Runtime libraries and header files for the Insight Toolkit for segmentation and registration.",
+    "summary": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "4.11.1"
+    "version": "17.0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "itk-4.11.1-1.tar.bz2",
+  "package": "mesalib-17.0.3-1.tar.bz2",
   "repodata": {
     "build": "1",
     "build_number": 1,
     "depends": [
-      "expat 2.1.*",
-      "hdf5 1.8.18|1.8.18.*",
-      "jpeg 9*",
-      "libpng >=1.6.27,<1.7",
-      "libtiff 4.0.*",
-      "zlib 1.2.*"
+      "libgcc",
+      "pthread-stubs"
     ],
-    "license": "Apache 2.0",
-    "md5": "a15b940b1c302a5f03d877c39fda0ee4",
-    "name": "itk",
-    "sha256": "ab0d09671dd79ae85bd4ca05cd0025a4d950a56ad577aa79845c9c8cf59ca487",
-    "size": 13493296,
+    "license": "MIT",
+    "md5": "41b39f3a49ecea9ea6a44fbf910ee6fc",
+    "name": "mesalib",
+    "sha256": "7536cb78e6ca34741fe0e58db8dcff778c40919d8a510ac8b1627d57e849427c",
+    "size": 5162023,
     "subdir": "linux-64",
-    "version": "4.11.1"
+    "track_features": "mesalib",
+    "version": "17.0.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/itk-4.11.1-1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/mesalib-17.0.3-1.tar.bz2"
 }
