@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.mcs.anl.gov/petsc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.7.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "3.7.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "petsc-3.7.2-blas_openblas_1.tar.bz2",
+  "repodata": {
+    "build": "blas_openblas_1",
+    "build_number": 1,
+    "depends": [
+      "blas 1.* openblas",
+      "mpich >=3.2",
+      "ptscotch",
+      "suitesparse 4.5.*"
+    ],
+    "features": "blas_openblas",
+    "license": "BSD 2-Clause",
+    "md5": "c866993a6d7355f851d5e80206e29d4d",
+    "name": "petsc",
+    "sha256": "049b041dbfa9a332156e4f648201a39a01180fd0ea43203755f168fa33105966",
+    "size": 3912756,
+    "subdir": "osx-64",
+    "version": "3.7.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/petsc-3.7.2-blas_openblas_1.tar.bz2"
+}
