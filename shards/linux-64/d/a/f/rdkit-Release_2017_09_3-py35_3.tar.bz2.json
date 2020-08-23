@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/Toblerity/Fiona",
+    "home": "http://rdkit.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Toblerity/Fiona/archive/1.7.0.post2.tar.gz",
+    "source_url": "https://github.com/rdkit/rdkit/archive/Release_2017_09_3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fiona reads and writes spatial data files",
+    "summary": "RDKit is a collection of cheminformatics and machine-learning software written in C++ and Python.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.7.0"
+    "version": "Release_2017_09_3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,29 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "fiona-1.7.0-np111py35_0.tar.bz2",
+  "package": "rdkit-Release_2017_09_3-py35_3.tar.bz2",
   "repodata": {
-    "build": "np111py35_0",
-    "build_number": 0,
+    "build": "py35_3",
+    "build_number": 3,
     "depends": [
-      "click-plugins",
-      "cligj",
-      "gdal >=2.*",
-      "munch",
-      "numpy 1.11*",
+      "boost 1.66.0",
+      "cairo 1.14.*",
+      "numpy >=1.11",
       "python 3.5*",
-      "setuptools",
       "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "a498d29f6c98f5fcaeb42f27eb9e06f0",
-    "name": "fiona",
-    "sha256": "6bc5fba2cf58a88d3756b0defdb28d4c963cd7c9913d90ace936a693146f2752",
-    "size": 1194301,
+    "md5": "2bddf4d182d105da7683a8123614d90b",
+    "name": "rdkit",
+    "sha256": "40989cd114594ae03b676bf37f2fc6bb93c00aa3cb76089a6a8b3b6f3cd4fc54",
+    "size": 19848808,
     "subdir": "linux-64",
-    "version": "1.7.0"
+    "version": "Release_2017_09_3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.7.0-np111py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/rdkit-Release_2017_09_3-py35_3.tar.bz2"
 }
