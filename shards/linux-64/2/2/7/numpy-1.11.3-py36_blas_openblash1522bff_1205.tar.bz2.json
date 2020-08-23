@@ -1,12 +1,12 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "NumPy is the fundamental package needed for scientific computing with Python.",
     "dev_url": "https://github.com/numpy/numpy",
     "doc_source_url": "https://github.com/numpy/numpy/tree/master/doc",
-    "doc_url": "https://docs.scipy.org/doc/numpy-1.9.0/reference/",
+    "doc_url": "https://docs.scipy.org/doc/numpy-1.11.0/reference/",
     "home": "http://numpy.scipy.org/",
     "icon_hash": null,
     "icon_url": null,
@@ -19,45 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/numpy/numpy/archive/v1.9.3.tar.gz",
+    "source_url": "https://github.com/numpy/numpy/archive/v1.11.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Array processing for numbers, strings, records, and objects.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1533168620,
-    "version": "1.9.3"
+    "timestamp": 1539314497,
+    "version": "1.11.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "numpy-1.9.3-py27_blas_openblashd3ea46f_206.tar.bz2",
+  "package": "numpy-1.11.3-py36_blas_openblash1522bff_1205.tar.bz2",
   "repodata": {
-    "build": "py27_blas_openblashd3ea46f_206",
-    "build_number": 206,
+    "build": "py36_blas_openblash1522bff_1205",
+    "build_number": 1205,
     "depends": [
       "blas 1.1 openblas",
-      "libgcc-ng >=4.9",
-      "libgfortran >=3.0",
-      "libstdcxx-ng >=4.9",
-      "openblas >=0.2.20,<0.2.21.0a0",
-      "python >=2.7,<2.8.0a0"
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "openblas >=0.3.3,<0.3.4.0a0",
+      "python >=3.6,<3.7.0a0"
     ],
     "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "md5": "63285502c7455eab6b3abe994dc64875",
+    "md5": "239ea1a3598132cec72bdf5b6bc89856",
     "name": "numpy",
-    "sha256": "a287852c8fdf1b871bb2b11a2f99abae825f3c14ac69a99b1e7f56f954ddc4cd",
-    "size": 6847275,
+    "sha256": "edfcea2e8e2087c2b66d99c04dd15fc3d69c2e405d22535844289e2e1bae23a5",
+    "size": 3740679,
     "subdir": "linux-64",
-    "timestamp": 1533168620145,
-    "version": "1.9.3"
+    "timestamp": 1539314497060,
+    "version": "1.11.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/numpy-1.9.3-py27_blas_openblashd3ea46f_206.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/numpy-1.11.3-py36_blas_openblash1522bff_1205.tar.bz2"
 }
