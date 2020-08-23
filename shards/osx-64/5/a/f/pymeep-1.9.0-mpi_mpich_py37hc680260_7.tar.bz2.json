@@ -1,0 +1,82 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/NanoComp/meep",
+    "doc_source_url": null,
+    "doc_url": "http://meep.readthedocs.io",
+    "home": "http:/github.com/NanoComp/meep",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.9.0": {
+        "weak": [
+          "pymeep * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NanoComp/meep/releases/download/v1.9.0/meep-1.9.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Free finite-difference time-domain (FDTD) software for electromagnetic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1559585122,
+    "version": "1.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pymeep-1.9.0-mpi_mpich_py37hc680260_7.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py37hc680260_7",
+    "build_number": 7,
+    "depends": [
+      "ffmpeg",
+      "gsl >=2.4,<2.5.0a0",
+      "h5py",
+      "h5utils",
+      "harminv",
+      "hdf5 >=1.10.4,<1.10.5.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libctl >=4.2.0",
+      "libcxx >=4.0.1",
+      "libgdsii >=0.21",
+      "libgfortran >=3.0.1,<4.0.0.a0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "matplotlib",
+      "mayavi",
+      "mpb * mpi_mpich_*",
+      "mpi4py 3.0.*",
+      "mpich >=3.2,<3.3.0a0",
+      "numpy >=1.11.3,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "scipy"
+    ],
+    "license": "GPL-2.0",
+    "md5": "e99f319cbd519f3e507b5c2cff9677a2",
+    "name": "pymeep",
+    "sha256": "6cf4990e3331e4facba936d95afb01ef098064b569c00e235f791a5af4f22428",
+    "size": 3739976,
+    "subdir": "osx-64",
+    "timestamp": 1559585122445,
+    "version": "1.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/pymeep-1.9.0-mpi_mpich_py37hc680260_7.tar.bz2"
+}
