@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Adaptable IO System (ADIOS) provides a simple, flexible way for scientists to describe the data in their code that may need to be written, read, or processed outside of the running simulation. By providing an external to the code XML file describing the various elements, their types, and how you wish to process them this run, the routines in the host code (either Fortran or C) can transparently change how they process the data.",
+    "dev_url": "https://github.com/ornladios/ADIOS",
+    "doc_source_url": null,
+    "doc_url": "https://users.nccs.gov/~pnorbert/ADIOS-UsersManual-1.13.1.pdf",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.13.1": {
+        "weak": [
+          "adios * nompi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://users.nccs.gov/%7Epnorbert/adios-1.13.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Adaptable IO System (ADIOS) for flexible and fast scientific data processing.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1572836642,
+    "version": "1.13.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "adios-1.13.1-nompi_hb71ab41_1118.tar.bz2",
+  "repodata": {
+    "build": "nompi_hb71ab41_1118",
+    "build_number": 1118,
+    "depends": [
+      "blosc >=1.17.0,<2.0a0",
+      "bzip2 >=1.0.8,<2.0a0",
+      "libgfortran >=4.0.0,<5.0.0.a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "acbee8f83a321fe503db8895e6b2377e",
+    "name": "adios",
+    "sha256": "d2099f09a7b228218a5e5548143ec4341b4f6c274d68eff07ea8aff17f63e283",
+    "size": 2820514,
+    "subdir": "osx-64",
+    "timestamp": 1572836642905,
+    "version": "1.13.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/adios-1.13.1-nompi_hb71ab41_1118.tar.bz2"
+}
