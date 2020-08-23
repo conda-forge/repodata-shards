@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://pythonhosted.org/cssselect/",
+    "home": "http://openturns.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD3",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/scrapy/cssselect/archive/v0.9.2.tar.gz",
+    "source_url": "https://github.com/openturns/otsvm/archive/v0.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "CSS Selectors for Python",
+    "summary": "SVM module",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.9.2"
+    "version": "0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "cssselect-0.9.2-py27_0.tar.bz2",
+  "package": "otsvm-0.3-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "openturns",
+      "python 3.6*"
     ],
-    "license": "BSD3",
-    "md5": "c630212daf66d18b3a1aed9df3331981",
-    "name": "cssselect",
-    "sha256": "ae2cc9c0bef2b2232c7e5c1644e7b04c225f293bebc0c38e5d8f919e33bf8b8b",
-    "size": 42665,
+    "license": "LGPL3",
+    "md5": "cb80e89141a518b1ad1ae3d1b89622b6",
+    "name": "otsvm",
+    "sha256": "961010ea93c518d0315a9e058d99a024d7d8965b4ef6668049cdddc76f5666b9",
+    "size": 498844,
     "subdir": "linux-64",
-    "version": "0.9.2"
+    "version": "0.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cssselect-0.9.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/otsvm-0.3-py36_0.tar.bz2"
 }
