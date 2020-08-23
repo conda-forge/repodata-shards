@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Adaptable IO System (ADIOS) provides a simple, flexible way for scientists to describe the data in their code that may need to be written, read, or processed outside of the running simulation. By providing an external to the code XML file describing the various elements, their types, and how you wish to process them this run, the routines in the host code (either Fortran or C) can transparently change how they process the data.",
+    "dev_url": "https://github.com/ornladios/ADIOS",
+    "doc_source_url": null,
+    "doc_url": "https://users.nccs.gov/~pnorbert/ADIOS-UsersManual-1.13.1.pdf",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.13.1": {
+        "weak": [
+          "adios * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://users.nccs.gov/%7Epnorbert/adios-1.13.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Adaptable IO System (ADIOS) for flexible and fast scientific data processing.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1566178382,
+    "version": "1.13.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "adios-1.13.1-mpi_mpich_hee2bc1f_1017.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hee2bc1f_1017",
+    "build_number": 1017,
+    "depends": [
+      "blosc >=1.17.0,<2.0a0",
+      "bzip2 >=1.0.8,<2.0a0",
+      "libcxx >=4.0.1",
+      "libgfortran >=4.0.0,<5.0.0.a0",
+      "mpich >=3.2,<3.3.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "611bff0cfb3e2b9fc0e38e85291ce57f",
+    "name": "adios",
+    "sha256": "b58ac02c70781d85b09e5a3dea5b7c8a96e4b775322bab760d2bbef15e88f5b5",
+    "size": 5570355,
+    "subdir": "osx-64",
+    "timestamp": 1566178382307,
+    "version": "1.13.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/adios-1.13.1-mpi_mpich_hee2bc1f_1017.tar.bz2"
+}
