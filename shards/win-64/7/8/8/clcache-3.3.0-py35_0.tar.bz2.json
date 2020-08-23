@@ -1,0 +1,55 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "clcache.py is a little Python script which attempts to avoid unnecessary recompilation by reusing previously cached object files if possible. It is meant to be called instead of the original 'cl.exe' executable. The script analyses the command line to decide whether source code is to be compiled. If so, a cache will be queried for a previously stored object file.  If the script is called in an unsupported way (e.g. if the compiler is called for linking), the script will simply relay the invocation to the real 'cl.exe' program.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/frerich/clcache",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/frerich/clcache/archive/v3.3.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "a compiler cache for Microsoft Visual Studio",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "3.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "clcache-3.3.0-py35_0.tar.bz2",
+  "repodata": {
+    "build": "py35_0",
+    "build_number": 0,
+    "depends": [
+      "python 3.5*"
+    ],
+    "license": "BSD 3-Clause",
+    "md5": "be137cfc35e7b96ecccdeb744ff497e6",
+    "name": "clcache",
+    "sha256": "ecd46f66d75515318cfc8235f0738bb3f755f73ee4550b95340a85913d04f4b1",
+    "size": 55586,
+    "subdir": "win-64",
+    "version": "3.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/clcache-3.3.0-py35_0.tar.bz2"
+}
