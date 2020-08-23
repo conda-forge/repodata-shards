@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "The silx project aims at providing a collection of Python packages to support the development of data assessment, reduction and analysis applications at synchrotron radiation facilities. It aims at providing reading/writing different file formats, data reduction routines and a set of Qt widgets to browse and visualize data.",
     "dev_url": "https://github.com/silx-kit/silx",
@@ -19,49 +19,49 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/silx/silx-0.5.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/silx/silx-0.7.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "The silx project aims at providing a collection of Python packages to support the development of data assessment, reduction and analysis applications at synchrotron radiation facilities.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "0.5.0"
+    "timestamp": 1525127634,
+    "version": "0.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "silx-0.5.0-np113py27_0.tar.bz2",
+  "package": "silx-0.7.0-py35_1.tar.bz2",
   "repodata": {
-    "build": "np113py27_0",
-    "build_number": 0,
+    "build": "py35_1",
+    "build_number": 1,
     "depends": [
-      "fabio >=0.4",
+      "fabio",
       "h5py",
       "ipython",
       "mako",
-      "matplotlib >=1.2.0",
-      "numpy 1.13*",
-      "pyopencl",
+      "matplotlib",
+      "numpy",
       "pyopengl",
-      "python 2.7*",
+      "python >=3.5,<3.6.0a0",
       "qtconsole",
-      "setuptools"
+      "setuptools",
+      "vc >=14,<15.0a0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "663a97287739c22d4c1fb3aafdf9043a",
+    "md5": "dabc20f38d1d0f94bcadef30094638df",
     "name": "silx",
-    "sha256": "cb2825ee4509e0e9981527d59e81e66d624c6d65818f59aab9f5ec2cc47a6ecd",
-    "size": 6229750,
-    "subdir": "linux-64",
-    "version": "0.5.0"
+    "sha256": "474c82d3525f85eab166345d7d83a3400c09d5b6dcf3d121762162c12dd88e05",
+    "size": 3557549,
+    "subdir": "win-64",
+    "timestamp": 1525127634225,
+    "version": "0.7.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/silx-0.5.0-np113py27_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/silx-0.7.0-py35_1.tar.bz2"
 }
