@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.10": {
+        "weak": [
+          "libopenblas-ilp64 >=0.3.10,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.10.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "An optimized BLAS library (ILP64 interface) based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1594829019,
+    "version": "0.3.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libopenblas-ilp64-0.3.10-openmp_hdb29d8a_1.tar.bz2",
+  "repodata": {
+    "build": "openmp_hdb29d8a_1",
+    "build_number": 1,
+    "constrains": [
+      "openblas-ilp64 >=0.3.10,<0.3.11.0a0"
+    ],
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "llvm-openmp >=10.0.0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "efd99aa958b3b12e4c1a36f1e041ee6b",
+    "name": "libopenblas-ilp64",
+    "sha256": "6f3f7d7bd100aafd165441c8c827e0f4c2b29f03b3b6c2cc5f95585132c66d75",
+    "size": 7993280,
+    "subdir": "linux-64",
+    "timestamp": 1594829019622,
+    "track_features": "openblas_threading_openmp",
+    "version": "0.3.10"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libopenblas-ilp64-0.3.10-openmp_hdb29d8a_1.tar.bz2"
+}
