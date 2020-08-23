@@ -7,50 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/alecthomas/voluptuous",
+    "home": "https://github.com/channelcat/sanic",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD3",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/v/voluptuous/voluptuous-0.9.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/sanic/sanic-0.7.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Voluptuous is a Python data validation library",
+    "summary": "Async Python 3.5+ web server that's written to go fast",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.9.3"
+    "version": "0.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "voluptuous-0.9.3-py27_0.tar.bz2",
+  "package": "sanic-0.7.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "aiofiles >=0.3.0",
+      "httptools >=0.0.9",
+      "python 3.5*",
+      "ujson >=1.35",
+      "uvloop >=0.5.3",
+      "websockets >=4.0"
     ],
-    "license": "BSD3",
-    "md5": "e32fcd902f162084b6c7fc85ea5070c8",
-    "name": "voluptuous",
-    "sha256": "c37f39b59f2a2a1bb3ec49381c91f14f5434f4f0988f363fd182382aa32626d0",
-    "size": 33246,
+    "license": "MIT",
+    "md5": "507a0f83ebe3ec46dd7df115066c1aad",
+    "name": "sanic",
+    "sha256": "641ecbc27d1a500d23fb28cc29a098fcdd0eeaac3dfd7d4571f611e0775cfa2b",
+    "size": 75054,
     "subdir": "linux-64",
-    "version": "0.9.3"
+    "version": "0.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/voluptuous-0.9.3-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/sanic-0.7.0-py35_0.tar.bz2"
 }
