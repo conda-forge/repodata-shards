@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/django-debug-toolbar/django-debug-toolbar",
+    "home": "https://github.com/ODM2/WOFpy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/django-debug-toolbar/django-debug-toolbar-1.9.tar.gz",
+    "source_url": "https://pypi.io/packages/source/W/WOFpy/WOFpy-2.3.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A configurable set of panels that display various debug information about the current request/response.",
+    "summary": "Serve WaterOneFlow web services",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.9"
+    "version": "2.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,37 @@
     "cf202003",
     "main"
   ],
-  "package": "django-debug-toolbar-1.9-py27_0.tar.bz2",
+  "package": "wofpy-2.3.0-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "django >=1.8",
+      "configparser",
+      "docopt",
+      "flask >=0.10.0",
+      "geoalchemy-odm2",
+      "jinja2",
+      "lxml >=3.4.4",
+      "odm2api",
+      "pyodbc",
       "python 2.7*",
-      "sqlparse >=0.2.0"
+      "python-dateutil",
+      "pytz",
+      "requests",
+      "spyne >=2.12.8",
+      "sqlalchemy",
+      "suds-jurko",
+      "uwsgi"
     ],
     "license": "BSD 3-Clause",
-    "md5": "75f40267442aae2a63cc05a7e87a1a72",
-    "name": "django-debug-toolbar",
-    "sha256": "1f418cf48323f916988f94503ce3113a26458d2a5f7551d81a630dbe62483d09",
-    "size": 134157,
+    "md5": "8639543268105475b67ea22009142ea2",
+    "name": "wofpy",
+    "sha256": "f7d74d6bc38a3bcb920d55649fc58a43238f2c25534b2cc5344e7ac83b2a1828",
+    "size": 346215,
     "subdir": "linux-64",
-    "version": "1.9"
+    "version": "2.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-debug-toolbar-1.9-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wofpy-2.3.0-py27_0.tar.bz2"
 }
