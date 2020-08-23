@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/andrix/python-snappy",
+    "home": "https://github.com/zeromq/pyzmq",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/python-snappy/python-snappy-0.5.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyzmq/pyzmq-17.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python library for the snappy compression library from Google",
+    "summary": "Python bindings for zeromq",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.5.1"
+    "version": "17.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "python-snappy-0.5.1-py27_0.tar.bz2",
+  "package": "pyzmq-17.0.0-py27_3.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "py27_3",
+    "build_number": 3,
     "depends": [
+      "libsodium",
       "python 2.7*",
-      "snappy"
+      "zeromq >=4.2.3,<4.3"
     ],
     "license": "BSD 3-clause",
-    "md5": "ee84ab4089170886b6b7bc2b96964f5f",
-    "name": "python-snappy",
-    "sha256": "6a9fdf238de0d1b4ea499bc490c7d61268271049ff1e5f8e8ce6320d893cdb1f",
-    "size": 33523,
+    "md5": "047a3f98b7c18c3b74d8a996a1de1bb2",
+    "name": "pyzmq",
+    "sha256": "affae4de5a59ec400004987d7a093a1ba15a151249e72779987d3c4988cc3f02",
+    "size": 1014608,
     "subdir": "linux-64",
-    "version": "0.5.1"
+    "version": "17.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-snappy-0.5.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyzmq-17.0.0-py27_3.tar.bz2"
 }
