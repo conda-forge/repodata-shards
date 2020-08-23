@@ -20,50 +20,50 @@
     "run_exports": {
       "3.8.0": {
         "weak": [
-          "liblapack >=3.8.0,<3.9.0a0"
+          "libblas >=3.8.0,<4.0a0"
         ]
       }
     },
     "source_git_url": null,
     "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1582217916,
+    "timestamp": 1570152122,
     "version": "3.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "liblapack-3.8.0-15_mkl.tar.bz2",
+  "package": "libblas-3.8.0-13_openblas.tar.bz2",
   "repodata": {
-    "build": "15_mkl",
-    "build_number": 15,
+    "build": "13_openblas",
+    "build_number": 13,
     "constrains": [
-      "libcblas 3.8.0 15_mkl",
-      "liblapacke 3.8.0 15_mkl",
-      "blas * mkl"
+      "libcblas 3.8.0 13_openblas",
+      "liblapack 3.8.0 13_openblas",
+      "liblapacke 3.8.0 13_openblas",
+      "blas * openblas"
     ],
     "depends": [
-      "libblas 3.8.0 15_mkl"
+      "libopenblas >=0.3.7,<0.3.8.0a0",
+      "libopenblas >=0.3.7,<1.0a0"
     ],
     "license": "BSD-3-Clause",
-    "md5": "6e10d91d0aeb2b774c7e3844c0910415",
-    "name": "liblapack",
-    "sha256": "4e29c965b0e0a2343631df541ebb74817adda7057fc51bb298dd770618c2b4dc",
-    "size": 10203,
-    "subdir": "linux-64",
-    "timestamp": 1582217916138,
-    "track_features": "blas_mkl",
+    "md5": "17ff809342679b88530b216601c16caa",
+    "name": "libblas",
+    "sha256": "f351819904be58fc0cf88ab7e9979a329292aaebe3e9b410f13bffbaa2665a4d",
+    "size": 10084,
+    "subdir": "osx-64",
+    "timestamp": 1570152122515,
     "version": "3.8.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblapack-3.8.0-15_mkl.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libblas-3.8.0-13_openblas.tar.bz2"
 }
