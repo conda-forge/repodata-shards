@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -12,50 +12,49 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPLv3",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/66/60/26664b2b2cad4a7fae409214e2f8901177322d78bfb11ef61e580115c9b8/PyFMI-2.3.1.zip",
+    "source_url": "https://pypi.io/packages/source/P/PyFMI/PyFMI-2.4.0.zip",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "PyFMI is a package for loading and interacting with Functional Mock-Up Units",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.3.1"
+    "version": "2.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pyfmi-2.3.1-np110py34_0.tar.bz2",
+  "package": "pyfmi-2.4.0-py27_1.tar.bz2",
   "repodata": {
-    "build": "np110py34_0",
-    "build_number": 0,
+    "build": "py27_1",
+    "build_number": 1,
     "depends": [
       "assimulo",
       "fmilib",
       "lxml",
-      "numpy 1.10*",
-      "python 3.4*",
+      "numpy >=1.9",
+      "python 2.7*",
       "scipy"
     ],
-    "license": "LGPLv3",
-    "md5": "3d25be8e427eeb053a36dc2bd63fd994",
+    "license": "LGPL3",
+    "md5": "524675146328b2a0d9db6c0eaa3e2686",
     "name": "pyfmi",
-    "sha256": "c589a10002e4301ccdf62c6daa7f266d2d643c5922e1def5539d4bd65d958a8c",
-    "size": 5676574,
-    "subdir": "linux-64",
-    "version": "2.3.1"
+    "sha256": "a606b45c92ba7188cb49855e6d5a8e79308f379041c5264ba88a4adde2024351",
+    "size": 2418838,
+    "subdir": "osx-64",
+    "version": "2.4.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyfmi-2.3.1-np110py34_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/pyfmi-2.4.0-py27_1.tar.bz2"
 }
