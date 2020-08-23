@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "Apache-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pybind11/pybind11-1.8.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/azure-storage/azure-storage-0.32.0.zip",
     "subdirs": [
       "linux-64"
     ],
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.8"
+    "version": "0.32.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "pybind11-1.8-py35_0.tar.bz2",
+  "package": "azure-storage-0.32.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "azure-common",
+      "azure-nspkg",
+      "futures",
+      "python 2.7*",
+      "python-dateutil",
+      "requests"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "b1dced644ca24c5f075650593e97ba5e",
-    "name": "pybind11",
-    "sha256": "d2ced6999ab82f69a9728469cc6e75d8262e271048415bb29bbcfe5d68245536",
-    "size": 40062,
+    "license": "Apache-2.0",
+    "md5": "78ebc92e996d2753cfbdaa77aca60f46",
+    "name": "azure-storage",
+    "sha256": "a95039dc90203cba480f6c850dbb0bca1c1c93e9cc61ff25eb2fae95919ec2cf",
+    "size": 160790,
     "subdir": "linux-64",
-    "version": "1.8"
+    "version": "0.32.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pybind11-1.8-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/azure-storage-0.32.0-py27_0.tar.bz2"
 }

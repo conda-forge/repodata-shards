@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/jupyterlab/jupyterlab",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
     "license": "BSD 3-Clause",
-    "post_link": false,
+    "post_link": true,
     "pre_link": false,
-    "pre_unlink": false,
+    "pre_unlink": true,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pybind11/pybind11-1.8.tar.gz",
+    "source_url": "https://pypi.io/packages/source/j/jupyterlab/jupyterlab-0.28.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "A pre-alpha version of a computational environment for Jupyter.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.8"
+    "version": "0.28.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "pybind11-1.8-py35_0.tar.bz2",
+  "package": "jupyterlab-0.28.4-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "jupyterlab_launcher >=0.5.4",
+      "notebook >=4.3",
+      "python 3.6*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "b1dced644ca24c5f075650593e97ba5e",
-    "name": "pybind11",
-    "sha256": "d2ced6999ab82f69a9728469cc6e75d8262e271048415bb29bbcfe5d68245536",
-    "size": 40062,
+    "md5": "ebfe7f3a50c997f46e34f6bd5e0fe893",
+    "name": "jupyterlab",
+    "sha256": "9d95511676bc5d7c37221444f91eb0e7e49383aa03349361e57a75b7af80f81e",
+    "size": 6657032,
     "subdir": "linux-64",
-    "version": "1.8"
+    "version": "0.28.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pybind11-1.8-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/jupyterlab-0.28.4-py36_0.tar.bz2"
 }
