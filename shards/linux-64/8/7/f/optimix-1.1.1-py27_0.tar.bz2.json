@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/Horta/optimix",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": null,
+    "doc_url": "http://optimix.readthedocs.io/",
+    "home": "https://github.com/Horta/optimix",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/o/optimix/optimix-1.1.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Abstract function optimisation",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.5"
+    "version": "1.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "ckanapi-3.5-py27_0.tar.bz2",
+  "package": "optimix-1.1.1-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "docopt",
+      "brent_search",
+      "ndarray_listener",
+      "numpy",
       "python 2.7*",
-      "requests",
-      "simplejson"
+      "scipy"
     ],
     "license": "MIT",
-    "md5": "dd255f4793dd9f31bfd22f0545ddc478",
-    "name": "ckanapi",
-    "sha256": "7faf1a3c481cb6c53a4cf4964f41a0ec2a6426c612410382040497278dc83237",
-    "size": 37771,
+    "license_family": "MIT",
+    "md5": "818cfcca063ccb486091985680d87617",
+    "name": "optimix",
+    "sha256": "0ba2be52378dcfaa760776d5732a0b33a4457456febd47f9d0f609076a217748",
+    "size": 19021,
     "subdir": "linux-64",
-    "version": "3.5"
+    "version": "1.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/ckanapi-3.5-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/optimix-1.1.1-py27_0.tar.bz2"
 }
