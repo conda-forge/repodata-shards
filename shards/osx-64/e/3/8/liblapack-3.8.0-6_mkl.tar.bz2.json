@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -20,48 +20,49 @@
     "run_exports": {
       "3.8.0": {
         "weak": [
-          "libcblas >=3.8.0,<4.0a0"
+          "liblapack >=3.8.0,<3.9.0a0"
         ]
       }
     },
     "source_git_url": null,
     "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1565665415,
+    "timestamp": 1556066708,
     "version": "3.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "libcblas-3.8.0-12_blis.tar.bz2",
+  "package": "liblapack-3.8.0-6_mkl.tar.bz2",
   "repodata": {
-    "build": "12_blis",
-    "build_number": 12,
+    "build": "6_mkl",
+    "build_number": 6,
     "constrains": [
-      "blas * blis"
+      "libcblas 3.8.0 6_mkl",
+      "liblapacke 3.8.0 6_mkl",
+      "blas * mkl"
     ],
     "depends": [
-      "libblas 3.8.0 12_blis"
+      "libblas 3.8.0 6_mkl"
     ],
-    "license": "BSD-3-Clause",
-    "md5": "334e9c6b5634628ef28d767d0d8d4f7c",
-    "name": "libcblas",
-    "sha256": "c6e95b26ad87bcf282f45fbb123a1c13a1a2ef5b8e4bdef79865df1f3bd4cf0e",
-    "size": 10096,
-    "subdir": "linux-64",
-    "timestamp": 1565665415757,
-    "track_features": "blas_blis",
+    "license": "BSD 3-clause",
+    "md5": "e1d698ec9a9459e74ed408e8de97560a",
+    "name": "liblapack",
+    "sha256": "b841252960b7a3b44e2f35314b6542bd0ed3caff1f67336b299e3c7ab6ea70ae",
+    "size": 6295,
+    "subdir": "osx-64",
+    "timestamp": 1556066708419,
+    "track_features": "blas_mkl",
     "version": "3.8.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libcblas-3.8.0-12_blis.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/liblapack-3.8.0-6_mkl.tar.bz2"
 }
