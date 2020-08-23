@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://rioshome.org/",
+    "home": "https://www.x.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-3.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://bitbucket.org/chchrsc/rios/downloads/rios-1.4.5.tar.gz",
+    "source_url": "https://www.x.org/releases/individual/lib/libXft-2.3.2.tar.bz2",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Raster I/O simplification, a set of Python modules built on top of GDAL to simplify processing raster data, including data with Raster Attribute Tables.",
+    "summary": "The X.org FreeType library.",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "1.4.5"
+    "version": "2.3.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,26 @@
     "main",
     "cf202003"
   ],
-  "package": "rios-1.4.5-py35_0.tar.bz2",
+  "package": "xorg-libxft-2.3.2-0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "0",
     "build_number": 0,
     "depends": [
-      "gdal",
-      "numpy",
-      "python 3.5*"
+      "fontconfig 2.12.*",
+      "freetype 2.7|2.7.*",
+      "xorg-libx11 1.6.*",
+      "xorg-libxrender 0.9.*"
     ],
-    "license": "GPL-3.0",
-    "md5": "efc70fbb822001ca05d3d534900f656b",
-    "name": "rios",
-    "sha256": "788e6c001f4cd4d57d7e39abed4998139dd415d9f17cdd383ed21748062ab3ee",
-    "size": 164941,
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "7fce9fd4b4bfb6b6b7806d72052eecf8",
+    "name": "xorg-libxft",
+    "sha256": "7b183962d42c6c7dfedbb801c638da3f48f93c501c415961911db1d569dd3a9b",
+    "size": 64464,
     "subdir": "linux-64",
-    "version": "1.4.5"
+    "version": "2.3.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/rios-1.4.5-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxft-2.3.2-0.tar.bz2"
 }
