@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/ultrajson/ultrajson",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ultrajson/ultrajson",
+    "home": "http://scikit-learn.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/u/ujson/ujson-2.0.2.tar.gz",
+    "source_url": "https://github.com/scikit-learn/scikit-learn/archive/0.20.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Ultra fast JSON decoder and encoder written in C with Python bindings",
+    "summary": "A set of python modules for machine learning and data mining",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1584281348,
-    "version": "2.0.2"
+    "timestamp": 1564451515,
+    "version": "0.20.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "ujson-2.0.2-py36h90709c0_0.tar.bz2",
+  "package": "scikit-learn-0.20.4-py36_blas_openblashebff5e3_0.tar.bz2",
   "repodata": {
-    "build": "py36h90709c0_0",
+    "build": "py36_blas_openblashebff5e3_0",
     "build_number": 0,
     "depends": [
+      "blas 1.1 openblas",
       "libgcc-ng >=7.3.0",
       "libstdcxx-ng >=7.3.0",
+      "numpy >=1.9.3,<2.0a0",
+      "openblas >=0.3.3,<0.3.4.0a0",
       "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73"
+      "scipy"
     ],
+    "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "md5": "15803ff8afe5847fb95c861f2f914ec4",
-    "name": "ujson",
-    "sha256": "71073599e6fe451af2940a2be6557fd5784ec40a3b2f7c023849da2cc722c806",
-    "size": 48652,
+    "md5": "65bd561eb85902ea5975bddd7bc4b2ed",
+    "name": "scikit-learn",
+    "sha256": "739080885f10225b8242fc756c6dad0ac1f22b6c4b03f074986036888acabab7",
+    "size": 6056538,
     "subdir": "linux-64",
-    "timestamp": 1584281348689,
-    "version": "2.0.2"
+    "timestamp": 1564451515025,
+    "version": "0.20.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ujson-2.0.2-py36h90709c0_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/scikit-learn-0.20.4-py36_blas_openblashebff5e3_0.tar.bz2"
 }
