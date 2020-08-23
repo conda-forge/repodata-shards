@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Geant4 is a toolkit for the simulation of the passage of particles through matter. Its areas of application include high energy, nuclear and accelerator physics, as well as studies in medical and space science. The three main reference papers for Geant4 are published in Nuclear Instruments and Methods in Physics Research [A 506 (2003) 250-303](http://www.sciencedirect.com/science/article/pii/S0168900203013688), IEEE Transactions on Nuclear Science [53 No. 1 (2006) 270-278](https://ieeexplore.ieee.org/xpls/abs_all.jsp?isnumber=33833&amp;arnumber=1610988&amp;count=33&amp;index=7) and Nuclear Instruments and Methods in Physics Research [A 835 (2016) 186-225](http://www.sciencedirect.com/science/article/pii/S0168900216306957).",
+    "dev_url": "https://github.com/Geant4/geant4",
+    "doc_source_url": null,
+    "doc_url": "https://geant4.web.cern.ch/support",
+    "home": "https://geant4.web.cern.ch/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Geant4",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "10.5.1": {
+        "weak": [
+          "geant4 >=10.5.1,<10.6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://geant4-data.web.cern.ch/geant4-data/releases/geant4.10.05.p01.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Geant4 is a toolkit for the simulation of the passage of particles through matter.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1566305758,
+    "version": "10.5.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "geant4-10.5.1-custom_default_h1234567_3.tar.bz2",
+  "repodata": {
+    "build": "custom_default_h1234567_3",
+    "build_number": 3,
+    "depends": [
+      "geant4-base 10.5.1 default_h5e99b8e_3",
+      "geant4-data-abla",
+      "geant4-data-emlow",
+      "geant4-data-ensdfstate",
+      "geant4-data-incl",
+      "geant4-data-ndl",
+      "geant4-data-particlexs",
+      "geant4-data-photonevaporation",
+      "geant4-data-pii",
+      "geant4-data-radioactivedecay",
+      "geant4-data-saiddata",
+      "geant4_data_variant * custom",
+      "geant4_visualisation_variant * default",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0"
+    ],
+    "license": "Geant4",
+    "md5": "6cc098a902b0a397e26f3f77f293f62b",
+    "name": "geant4",
+    "sha256": "66c1e0c637156025532a588d33e8ee578498d903755e1a9fdd5007c186b65e45",
+    "size": 7937,
+    "subdir": "linux-64",
+    "timestamp": 1566305758970,
+    "version": "10.5.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/geant4-10.5.1-custom_default_h1234567_3.tar.bz2"
+}

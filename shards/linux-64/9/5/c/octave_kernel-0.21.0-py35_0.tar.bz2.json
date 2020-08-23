@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/conda/libconda",
+    "home": "http://github.com/calsto/octave_kernel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "BSD",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/libconda/archive/4.0.0.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "conda 4.0 based library",
+    "summary": "A Jupyter kernel for Octave.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.0.0"
+    "version": "0.21.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "libconda-4.0.0-py34_0.tar.bz2",
+  "package": "octave_kernel-0.21.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "pycosat >=0.6.1",
-      "python 3.4*",
-      "pyyaml",
-      "requests"
+      "ipykernel",
+      "jupyter_client >=4.3",
+      "metakernel >=0.17.4",
+      "python 3.5*"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "38c22fea88d4a18d0c07ef3cbb70199f",
-    "name": "libconda",
-    "sha256": "86164f17471456f5520fdc293d6a1418a6a2e1cad85903ec2edd8fb028afe731",
-    "size": 77315,
+    "license": "BSD",
+    "license_family": "BSD",
+    "md5": "94ea453527555cc54627040d3ff1ad7a",
+    "name": "octave_kernel",
+    "sha256": "cfeb9648b382e6cbdc9f102818bdc2df9e66195256a01a50da4459c74d8a526e",
+    "size": 14235,
     "subdir": "linux-64",
-    "version": "4.0.0"
+    "version": "0.21.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libconda-4.0.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/octave_kernel-0.21.0-py35_0.tar.bz2"
 }

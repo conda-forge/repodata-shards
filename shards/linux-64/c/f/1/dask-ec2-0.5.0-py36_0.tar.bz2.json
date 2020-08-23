@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/conda/libconda",
+    "home": "https://github.com/dask/dask-ec2",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/libconda/archive/4.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/dask-ec2/dask-ec2-0.5.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "conda 4.0 based library",
+    "summary": "Start a cluster in EC2 for dask.distributed",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "4.0.0"
+    "version": "0.5.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "libconda-4.0.0-py34_0.tar.bz2",
+  "package": "dask-ec2-0.5.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "pycosat >=0.6.1",
-      "python 3.4*",
+      "boto3",
+      "click",
+      "paramiko",
+      "python 3.6*",
       "pyyaml",
-      "requests"
+      "six"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "38c22fea88d4a18d0c07ef3cbb70199f",
-    "name": "libconda",
-    "sha256": "86164f17471456f5520fdc293d6a1418a6a2e1cad85903ec2edd8fb028afe731",
-    "size": 77315,
+    "license": "Apache 2.0",
+    "md5": "9c0422323fbf8435a095634faf22cc31",
+    "name": "dask-ec2",
+    "sha256": "7f791171eb3b283aa841b25b19f2afa7924863a6846e80cb601ab2163bfb8a05",
+    "size": 57942,
     "subdir": "linux-64",
-    "version": "4.0.0"
+    "version": "0.5.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libconda-4.0.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-ec2-0.5.0-py36_0.tar.bz2"
 }
