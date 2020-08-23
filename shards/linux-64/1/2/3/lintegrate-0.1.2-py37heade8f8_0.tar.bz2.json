@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "lintegrate provides Python functions for numerical integration of functions in log-space. This is useful for functions that have a very large dynamic range, or intrinsically would include very large or small numbers, and therefore it is more practical to work with the natural logarithm of the function. In these cases it is useful to also stay within log-space when integrating the function, which is what this package enables.  The functions provided by lintegrate are equivalent to, and based on, several numerical integration routines provided within the GNU Scientific Library (GSL).",
+    "dev_url": "https://github.com/mattpitkin/lintegrate",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/mattpitkin/lintegrate",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/lintegrate/lintegrate-0.1.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python functions implementing numerical integration of functions in log-space.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1569843219,
+    "version": "0.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "lintegrate-0.1.2-py37heade8f8_0.tar.bz2",
+  "repodata": {
+    "build": "py37heade8f8_0",
+    "build_number": 0,
+    "depends": [
+      "gsl >=2.5,<2.6.0a0",
+      "libgcc-ng >=7.3.0",
+      "numpy",
+      "python >=3.7,<3.8.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "474cc0b47f390d2289433d9d5cb6b74f",
+    "name": "lintegrate",
+    "sha256": "c1714224c7e0a13fd929d5b6cd15ccb5b0ce7a60b69c92f7cb5eeda9450b157a",
+    "size": 145834,
+    "subdir": "linux-64",
+    "timestamp": 1569843219714,
+    "version": "0.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/lintegrate-0.1.2-py37heade8f8_0.tar.bz2"
+}
