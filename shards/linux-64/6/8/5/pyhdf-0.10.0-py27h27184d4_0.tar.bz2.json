@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/tobgu/pyrsistent/",
+    "home": "https://github.com/fhs/pyhdf",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,42 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pyrsistent/pyrsistent-0.15.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyhdf/pyhdf-0.10.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Persistent/Functional/Immutable data structures",
+    "summary": "Python interface to the NCSA HDF4 library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1564258147,
-    "version": "0.15.4"
+    "timestamp": 1552496309,
+    "version": "0.10.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pyrsistent-0.15.4-py37h516909a_0.tar.bz2",
+  "package": "pyhdf-0.10.0-py27h27184d4_0.tar.bz2",
   "repodata": {
-    "build": "py37h516909a_0",
+    "build": "py27h27184d4_0",
     "build_number": 0,
     "depends": [
+      "hdf4 >=4.2.13,<4.3.0a0",
       "libgcc-ng >=7.3.0",
-      "python >=3.7,<3.8.0a0",
-      "six"
+      "libstdcxx-ng >=7.3.0",
+      "numpy >=1.9.3,<2.0a0",
+      "python >=2.7,<2.8.0a0"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "da90b48a706792a40547ac0380ecb7b1",
-    "name": "pyrsistent",
-    "sha256": "6b2b99bfd91a79f053b2ee73cb040f19c3eeedd0732d8e454f00393c258b338e",
-    "size": 91114,
+    "md5": "3e97a548e20f531acd23a207e92a160d",
+    "name": "pyhdf",
+    "sha256": "22d2b2de051895aeae20e9436dc5180ce07db7240e5c59e381817d41b5b14547",
+    "size": 148678,
     "subdir": "linux-64",
-    "timestamp": 1564258147359,
-    "version": "0.15.4"
+    "timestamp": 1552496309858,
+    "version": "0.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyrsistent-0.15.4-py37h516909a_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyhdf-0.10.0-py27h27184d4_0.tar.bz2"
 }
