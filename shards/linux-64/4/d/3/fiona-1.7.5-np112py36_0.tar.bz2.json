@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pyomo.org",
+    "home": "http://github.com/Toblerity/Fiona",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/Pyomo/Pyomo-5.6.8.tar.gz",
+    "source_url": "https://github.com/Toblerity/Fiona/archive/1.7.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Pyomo: Python Optimization Modeling Objects",
+    "summary": "Fiona reads and writes spatial data files.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1576263324,
-    "version": "5.6.8"
+    "timestamp": 0,
+    "version": "1.7.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,29 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "pyomo-5.6.8-py36_0.tar.bz2",
+  "package": "fiona-1.7.5-np112py36_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "np112py36_0",
     "build_number": 0,
     "depends": [
-      "appdirs",
-      "ply",
-      "python >=3.6,<3.7.0a0",
-      "pyutilib >=5.7.3",
+      "click-plugins",
+      "cligj",
+      "gdal 2.1.*",
+      "munch",
+      "numpy 1.12*",
+      "python 3.6*",
       "setuptools",
-      "six >=1.4"
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "ebfa1a0662e4135b22416c9914a35123",
-    "name": "pyomo",
-    "sha256": "1fce4704a3c730cfc1991665f0b93a121c82271a6de7d1fbc23b5f4f0efe6a8b",
-    "size": 3637601,
+    "md5": "95785945dcb6277f04d0a50f3aa58edf",
+    "name": "fiona",
+    "sha256": "c33625e2840a8e9c0019f082843202c597e10e8e7afd5f3a442f5443b0f6c8d9",
+    "size": 1371557,
     "subdir": "linux-64",
-    "timestamp": 1576263324521,
-    "version": "5.6.8"
+    "version": "1.7.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyomo-5.6.8-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.7.5-np112py36_0.tar.bz2"
 }
