@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/giampaolo/psutil",
+    "home": "http://github.com/ericmjl/hiveplot",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/psutil/psutil-5.1.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/hiveplot/hiveplot-0.1.8.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A cross-platform process and system utilities module for Python",
+    "summary": "Hive plots in Python!",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "5.1.3"
+    "version": "0.1.8.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "psutil-5.1.3-py27_0.tar.bz2",
+  "package": "hiveplot-0.1.8.4-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
+      "matplotlib",
+      "numpy",
       "python 2.7*"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "0a54fb342be6b40f1dcaeaa03eca2052",
-    "name": "psutil",
-    "sha256": "466ee36415df91377ee7ecfe21e53ef0cb959284d52313e34d31fc48521665be",
-    "size": 268404,
+    "license": "MIT",
+    "md5": "d6140315b288bcb86b243ad2114c2882",
+    "name": "hiveplot",
+    "sha256": "5fa0196dc393e3c50e910d26b4f7ad6ac73e0fbca1a8a322788106c8a5aa3972",
+    "size": 8045,
     "subdir": "linux-64",
-    "version": "5.1.3"
+    "version": "0.1.8.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/psutil-5.1.3-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/hiveplot-0.1.8.4-py27_0.tar.bz2"
 }

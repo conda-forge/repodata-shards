@@ -7,51 +7,52 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/ericmjl/hiveplot",
+    "home": "https://github.com/nvie/rq/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 2-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hiveplot/hiveplot-0.1.8.4.tar.gz",
+    "source_url": "https://github.com/nvie/rq/archive/0.6.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Hive plots in Python!",
+    "summary": "RQ is a simple, lightweight, library for creating background jobs, and processing them.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1.8.4"
+    "version": "0.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "hiveplot-0.1.8.4-py27_0.tar.bz2",
+  "package": "rq-0.6.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "matplotlib",
-      "numpy",
-      "python 2.7*"
+      "click >=3.0",
+      "python 3.5*",
+      "redis-py >=2.7.0",
+      "setuptools"
     ],
-    "license": "MIT",
-    "md5": "d6140315b288bcb86b243ad2114c2882",
-    "name": "hiveplot",
-    "sha256": "5fa0196dc393e3c50e910d26b4f7ad6ac73e0fbca1a8a322788106c8a5aa3972",
-    "size": 8045,
+    "license": "BSD 2-Clause",
+    "md5": "2b02754fe84f611c2710dd3d9ea86500",
+    "name": "rq",
+    "sha256": "c24b4dc62e122fc9fe5b6ee17924006a0efc0af6b64e32dfc18215c920576892",
+    "size": 69639,
     "subdir": "linux-64",
-    "version": "0.1.8.4"
+    "version": "0.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/hiveplot-0.1.8.4-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/rq-0.6.0-py35_0.tar.bz2"
 }
