@@ -1,55 +1,57 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://www.x.org/",
+    "home": "http://openturns.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/proto/xcmiscproto-1.2.2.tar.bz2",
+    "source_url": "https://github.com/openturns/otfftw/archive/v0.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Print extension headers",
+    "summary": "FFTW module",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "1.2.2"
+    "version": "0.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "xorg-xcmiscproto-1.2.2-0.tar.bz2",
+  "package": "otfftw-0.4-py27_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py27_0",
     "build_number": 0,
-    "depends": [],
-    "license": "MIT",
-    "license_family": "MIT",
-    "md5": "7c0e5c75b2a5506fe7d1c4bf3b5ba936",
-    "name": "xorg-xcmiscproto",
-    "sha256": "e8951e053f784be98480971191fa3e39b0dbe93f346e3108387c1151fa45b7ae",
-    "size": 7461,
+    "depends": [
+      "fftw",
+      "openturns",
+      "python 2.7*"
+    ],
+    "license": "LGPL3",
+    "md5": "e38505b92b2c4ee322ffeb8219f92cc0",
+    "name": "otfftw",
+    "sha256": "6de314b9a44e2cfadd37e0d6e087c0455a1fbee83766e063284b679c3ab2e74d",
+    "size": 135197,
     "subdir": "linux-64",
-    "version": "1.2.2"
+    "version": "0.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-xcmiscproto-1.2.2-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/otfftw-0.4-py27_0.tar.bz2"
 }

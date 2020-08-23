@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Spglib is a library for finding and handling crystal symmetries.",
     "dev_url": "https://github.com/atztogo/spglib",
@@ -19,43 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/atztogo/spglib/archive/v1.11.1.tar.gz",
+    "source_url": "https://github.com/atztogo/spglib/archive/v1.11.1.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Space symmetry groups spglib module/library.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1542619360,
-    "version": "1.11.1.1"
+    "timestamp": 1542763964,
+    "version": "1.11.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "spglib-1.11.1.1-py27h3010b51_5.tar.bz2",
+  "package": "spglib-1.11.1.2-py36h7eb728f_0.tar.bz2",
   "repodata": {
-    "build": "py27h3010b51_5",
-    "build_number": 5,
+    "build": "py36h7eb728f_0",
+    "build_number": 0,
     "depends": [
       "blas 1.1 openblas",
-      "libgcc-ng >=7.3.0",
+      "libgcc-ng >=4.9",
       "numpy >=1.9.3,<2.0a0",
-      "python >=2.7,<2.8.0a0"
+      "python >=3.6,<3.7.0a0"
     ],
     "license": "BSD-3-clause",
     "license_family": "BSD",
-    "md5": "0b49dcfe732dfc6b2d31c8bff5da07ca",
+    "md5": "ef8ab571ff989cb8499d6bc398c708ca",
     "name": "spglib",
-    "sha256": "25ef9f83c8cc159161df4398d52f5c5b54198b4d7fefb128113b69f308d25994",
-    "size": 596018,
+    "sha256": "c41463d15021a8970693035cbd148db24fd5d94b45029b854d924cbc5117f0c9",
+    "size": 10054428,
     "subdir": "linux-64",
-    "timestamp": 1542619360252,
-    "version": "1.11.1.1"
+    "timestamp": 1542763964854,
+    "version": "1.11.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/spglib-1.11.1.1-py27h3010b51_5.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/spglib-1.11.1.2-py36h7eb728f_0.tar.bz2"
 }

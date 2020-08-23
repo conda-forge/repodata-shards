@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ribozz/sphinx-argparse",
+    "home": "https://github.com/usgs-cmg/yaml2ncml",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -18,40 +18,41 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/sphinx-argparse/sphinx-argparse-0.1.15.tar.gz",
+    "source_git_url": "https://github.com/usgs-cmg/yaml2ncml.git",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Sphinx extension that automatically document argparse commands and options",
+    "summary": "NcML aggregation from YAML specification",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1.15"
+    "version": "0.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "sphinx-argparse-0.1.15-py27_0.tar.bz2",
+  "package": "yaml2ncml-0.4.0-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
+      "docopt",
+      "netcdf4",
       "python 2.7*",
-      "sphinx"
+      "pyyaml"
     ],
     "license": "MIT",
-    "md5": "c6f00f2fab8de116988e686f0e563095",
-    "name": "sphinx-argparse",
-    "sha256": "1ac37c4bfde396dfa730e41c2df429f57b70892d14c740c4df42523f6bfb3f36",
-    "size": 10862,
+    "md5": "6d1a816eed0a64a3fab5241af2fc2f19",
+    "name": "yaml2ncml",
+    "sha256": "d645c7dbadc2f37ac2ae549ad7ef828dc757772b3b3c8e84ddb50dbf7e6dbed7",
+    "size": 8639,
     "subdir": "linux-64",
-    "version": "0.1.15"
+    "version": "0.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/sphinx-argparse-0.1.15-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/yaml2ncml-0.4.0-py27_0.tar.bz2"
 }
