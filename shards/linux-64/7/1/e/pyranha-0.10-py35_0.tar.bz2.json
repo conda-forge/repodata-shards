@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ryanhiebert/backports.csv/",
+    "home": "https://github.com/bluescarni/piranha",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "PSFL 2",
+    "license": "GPL v3 and LGPL v3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/backports.csv/backports.csv-1.0.4.tar.gz",
+    "source_url": "https://github.com/bluescarni/piranha/archive/v0.10.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Backport of Python 3's csv module for Python 2",
+    "summary": "Python bindings to Piranha computer algebra system.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.4"
+    "version": "0.10"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "backports.csv-1.0.4-py35_0.tar.bz2",
+  "package": "pyranha-0.10-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "boost 1.63.*",
+      "bzip2 1.0.*",
+      "gmp >=5.0.1,<7",
+      "mpfr 3.*",
+      "mpmath",
+      "numpy",
+      "python 3.5*",
+      "zlib 1.2.*"
     ],
-    "license": "PSFL 2",
-    "md5": "29aa8d6623e2d5ce7f31294762326445",
-    "name": "backports.csv",
-    "sha256": "f53385d3262091882e323e5e2de52fcb2002e2ec2ce505906616bfd99ae28638",
-    "size": 22844,
+    "license": "GPL v3 and LGPL v3",
+    "md5": "83d4b283f57a09c4e4f658d08fe42e78",
+    "name": "pyranha",
+    "sha256": "9c5763521f5abfee784b61900eece28cbd891529500633fb2b59ced8ff67db4a",
+    "size": 6859273,
     "subdir": "linux-64",
-    "version": "1.0.4"
+    "version": "0.10"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/backports.csv-1.0.4-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyranha-0.10-py35_0.tar.bz2"
 }
