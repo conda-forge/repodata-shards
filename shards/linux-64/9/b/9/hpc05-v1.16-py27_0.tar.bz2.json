@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/Horta/build-capi",
+    "dev_url": "https://github.com/basnijholt/hpc05",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Horta/build-capi",
+    "home": "http://github.com/basnijholt/hpc05",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/build_capi/build_capi-1.1.0.tar.gz",
+    "source_url": "https://github.com/basnijholt/hpc05/archive/v1.16.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Build and distribute C/C++ static libraries",
+    "summary": "ipyparallel Client package for PBS cluster with headnode (as on the TU Delft).",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.1.0"
+    "version": "v1.16"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "build_capi-1.1.0-py27_0.tar.bz2",
+  "package": "hpc05-v1.16-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "ipyparallel",
+      "ipython",
+      "paramiko",
+      "pexpect",
+      "psutil",
+      "python 2.7*",
+      "pyzmq",
+      "sshtunnel",
+      "tornado"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "896c1b420fe1e33b9501ad6e1f8a1afb",
-    "name": "build_capi",
-    "sha256": "a8c343c42fb93c6eacccf312ef0f1349cf9b1fc99892f4b76286eeaa3f15a302",
-    "size": 9817,
+    "md5": "24bb8601c2c0309e9b3c3c470d197274",
+    "name": "hpc05",
+    "sha256": "e3d6397ce81b947a1e5f4069c3ea17f4206fecbb7b5d449bfe104f29d456a904",
+    "size": 12491,
     "subdir": "linux-64",
-    "version": "1.1.0"
+    "version": "v1.16"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/build_capi-1.1.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/hpc05-v1.16-py27_0.tar.bz2"
 }
