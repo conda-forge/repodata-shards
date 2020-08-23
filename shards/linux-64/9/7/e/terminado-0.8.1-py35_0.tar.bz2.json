@@ -3,54 +3,56 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": "Clyent is a python command line utility library for binstar, binstar-build, and chalmers.",
+    "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Anaconda-Server/clyent",
+    "home": "http://github.com/mitsuhiko/markupsafe",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/clyent/clyent-1.2.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/t/terminado/terminado-0.8.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Command line client library for windows and posix",
+    "summary": "Terminals served by tornado websockets",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.2.1"
+    "version": "0.8.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "clyent-1.2.1-py35_0.tar.bz2",
+  "package": "terminado-0.8.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
+      "ptyprocess",
       "python 3.5*",
-      "setuptools"
+      "tornado >=4"
     ],
-    "license": "BSD",
-    "md5": "ba5dd347aaaa44eb7a6e7d553cda2d1e",
-    "name": "clyent",
-    "sha256": "caed887e6f304ec5923258dd0364774ed5923e704fe6cca85364f3f9355eab88",
-    "size": 13839,
+    "license": "BSD 3-clause",
+    "md5": "1e8913fa55e5dfacbe7c85269ab7147f",
+    "name": "terminado",
+    "sha256": "870a4a6ede2fb176f8a7125e4f350772df1abb5cb3fb8b3622f00e23f4723cfa",
+    "size": 20322,
     "subdir": "linux-64",
-    "version": "1.2.1"
+    "version": "0.8.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/clyent-1.2.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/terminado-0.8.1-py35_0.tar.bz2"
 }
