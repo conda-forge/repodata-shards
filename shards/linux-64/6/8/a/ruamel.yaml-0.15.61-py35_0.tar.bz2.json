@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/timothycrosley/pies",
+    "home": "https://bitbucket.org/ruamel/yaml",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pies/pies-2.6.7.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.61.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The simplest way to write one program that runs on both Python 2 and Python 3.",
+    "summary": "A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "2.6.7"
+    "timestamp": 1535040460,
+    "version": "0.15.61"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "pies-2.6.7-py35_0.tar.bz2",
+  "package": "ruamel.yaml-0.15.61-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "python >=3.5,<3.6.0a0",
+      "setuptools"
     ],
     "license": "MIT",
-    "md5": "8947caa4f32a6cccb00cfb97bc35223e",
-    "name": "pies",
-    "sha256": "df23cc44e3c5052644831c5b2cff6cb74f16159cb459bfb9a59fce5adfb0c969",
-    "size": 192957,
+    "md5": "02ecc3df2bff9cbd1825ac610fa8495e",
+    "name": "ruamel.yaml",
+    "sha256": "78cb3ef30c3d167c1d4f148dc73dfef26f36d9a8bf03999be6aa2f165490b408",
+    "size": 695917,
     "subdir": "linux-64",
-    "version": "2.6.7"
+    "timestamp": 1535040460963,
+    "version": "0.15.61"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pies-2.6.7-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.15.61-py35_0.tar.bz2"
 }
