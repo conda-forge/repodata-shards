@@ -3,31 +3,31 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": null,
+    "description": "Apache Spark is a fast and general engine for large-scale data processing.",
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/HypothesisWorks/hypothesis-python",
+    "home": "http://spark.apache.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MPL 2.0",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hypothesis/hypothesis-3.55.4.tar.gz",
+    "source_url": "http://apache.mirrors.hoobly.com/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for property based testing",
+    "summary": "Apache Spark",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "3.55.4"
+    "version": "2.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "hypothesis-3.55.4-py36_0.tar.bz2",
+  "package": "pyspark-2.3.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "attrs",
-      "coverage",
+      "numpy >=1.7",
+      "pandas >=0.13.0",
+      "py4j 0.10.6",
       "python 3.6*"
     ],
-    "license": "MPL 2.0",
-    "md5": "e42841153d18751b69459d71b331d4c0",
-    "name": "hypothesis",
-    "sha256": "34feab2e24b9504b9ee80ce8af71419e29f252bc22d2161afaacdb16e1685c05",
-    "size": 263826,
+    "license": "Apache 2.0",
+    "md5": "214ad0f8430375d04b6587a31fb9e9ce",
+    "name": "pyspark",
+    "sha256": "6c6eebb49c18f4a01c193e33fa96eaa802e5f9734b049218ebe476908a4226ca",
+    "size": 211927600,
     "subdir": "linux-64",
-    "version": "3.55.4"
+    "version": "2.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hypothesis-3.55.4-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyspark-2.3.0-py36_0.tar.bz2"
 }
