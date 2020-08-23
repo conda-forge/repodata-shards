@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Zstandard is a real-time compression algorithm, providing high compression ratios. It offers a very wide range of compression / speed trade-off, while being backed by a very fast decoder. It also offers a special mode for small data, called dictionary compression, and can create dictionaries from any sample set. Zstandard library is provided as open source software using a BSD license.",
+    "dev_url": "https://github.com/facebook/zstd",
+    "doc_source_url": null,
+    "doc_url": "https://facebook.github.io/zstd/zstd_manual.html",
+    "home": "http://www.zstd.net",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.3.8": {
+        "weak": [
+          "zstd >=1.3.8,<1.3.9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/facebook/zstd/releases/download/v1.3.8/zstd-1.3.8.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Zstandard - Fast real-time compression algorithm",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1548519302,
+    "version": "1.3.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "zstd-1.3.8-h1b99e65_1002.tar.bz2",
+  "repodata": {
+    "build": "h1b99e65_1002",
+    "build_number": 1002,
+    "depends": [
+      "lz4-c >=1.8.1.2,<1.8.2.0a0",
+      "vc >=14,<15.0a0",
+      "xz >=5.2.4,<5.3.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "md5": "92af580bd75e841514127e1df53f6b18",
+    "name": "zstd",
+    "sha256": "33135a68f0571eeccdda94dfd9d6e6ed3461451bb91c975782753d48708c0210",
+    "size": 1625752,
+    "subdir": "win-64",
+    "timestamp": 1548519302185,
+    "version": "1.3.8"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/zstd-1.3.8-h1b99e65_1002.tar.bz2"
+}
