@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://slepc.upv.es/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.1": {
+        "weak": [
+          "slepc >=3.9,<3.10.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://slepc.upv.es/download/distrib/slepc-3.9.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "SLEPc: Scalable Library for Eigenvalue Problem Computations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1530446828,
+    "version": "3.9.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "slepc-3.9.1-blas_openblashe63b0ae_1.tar.bz2",
+  "repodata": {
+    "build": "blas_openblashe63b0ae_1",
+    "build_number": 1,
+    "depends": [
+      "libgfortran-ng >=3.0",
+      "mpich >=3.2,<3.3.0a0",
+      "openblas >=0.2.20,<0.2.21.0a0",
+      "petsc >=3.9.2,<3.10.0a0",
+      "suitesparse >=4.5.6,<4.5.7.0a0"
+    ],
+    "features": "blas_openblas",
+    "license": "BSD 2-Clause",
+    "license_family": "BSD",
+    "md5": "b0e849c06e6af5c09fe0dd7522039f1e",
+    "name": "slepc",
+    "sha256": "7f26c351b26d81f4249431c669d35b6d545217f32c1921082f0cbd8156684e87",
+    "size": 2457904,
+    "subdir": "osx-64",
+    "timestamp": 1530446828848,
+    "version": "3.9.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/slepc-3.9.1-blas_openblashe63b0ae_1.tar.bz2"
+}
