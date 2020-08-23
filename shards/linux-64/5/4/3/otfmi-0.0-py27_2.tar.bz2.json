@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.boost.org/",
+    "home": "http://openturns.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Boost-1.0",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "http://sourceforge.net/projects/boost/files/boost/1.63.0/boost_1_63_0.tar.bz2",
+    "source_git_url": "/recipe_root/https:/github.com/openturns/otfmi.git",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Free peer-reviewed portable C++ source libraries.",
+    "summary": "FMI models manipulation module",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.63.0"
+    "version": "0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "boost-1.63.0-py35_5.tar.bz2",
+  "package": "otfmi-0.0-py27_2.tar.bz2",
   "repodata": {
-    "build": "py35_5",
-    "build_number": 5,
+    "build": "py27_2",
+    "build_number": 2,
     "depends": [
-      "boost-cpp 1.63.0",
-      "python 3.5*"
+      "openturns",
+      "pyfmi",
+      "python 2.7*"
     ],
-    "license": "Boost-1.0",
-    "md5": "b3706a595f9f8d58bacd403ef77a353b",
-    "name": "boost",
-    "sha256": "55cc5ca9659532474ee6b5e4e1ac0f2ab2e922fb48b159758a50b570a2f9a444",
-    "size": 482593,
+    "license": "LGPL3",
+    "md5": "46589d9848d21d19d8a38c88e8145945",
+    "name": "otfmi",
+    "sha256": "7cc2d81210cbd87b544dc3c1ea2badb61fdab638c1b9677b6fa08c267fe554e2",
+    "size": 2975443,
     "subdir": "linux-64",
-    "version": "1.63.0"
+    "version": "0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/boost-1.63.0-py35_5.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/otfmi-0.0-py27_2.tar.bz2"
 }
