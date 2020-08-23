@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "RapidSim is a fast Monte Carlo generator for simulation of heavy-quark hadron decays. It can be useful for generating background or toy data sets for acceptance studies.  * It uses [`TGenPhaseSpace`](https://root.cern.ch/doc/master/classTGenPhaseSpace.html) to generate b/c quark hadron decays. * [FONLL](http://cacciari.web.cern.ch/cacciari/fonll/) is used to give the b/c the correct production kinematics for the LHC. * The daughter particle momenta are smeared correctly using user-defined resolutions. * Cuts can be made on daughter particle properties (pT, eta, etc). * Particle mass hypotheses can be swapped to investigate effect of mis-identification.  A more detailed description can be found here https://arxiv.org/abs/1612.07489",
+    "dev_url": "https://github.com/gcowan/RapidSim",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/gcowan/RapidSim",
+    "home": "https://github.com/gcowan/RapidSim",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/gcowan/RapidSim/archive/v1.5.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A fast Monte Carlo generator for simulation of heavy-quark hadron decays",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1592303239,
+    "version": "1.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "rapidsim-1.5-h23af3c1_5.tar.bz2",
+  "repodata": {
+    "build": "h23af3c1_5",
+    "build_number": 5,
+    "constrains": [
+      "__osx >=10.13"
+    ],
+    "depends": [
+      "libcxx >=9.0.1",
+      "root_base >=6.22.0,<6.23.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "fe9e339cb11532e295a92125608c77f5",
+    "name": "rapidsim",
+    "sha256": "a2ac1187053d22d5de4711dbdf7442de08117f5e82a96e470aa5ff223efddb81",
+    "size": 1065689,
+    "subdir": "osx-64",
+    "timestamp": 1592303239811,
+    "version": "1.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/rapidsim-1.5-h23af3c1_5.tar.bz2"
+}
