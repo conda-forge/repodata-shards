@@ -7,50 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://github.com/liam2/larray",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD or GPL 2",
+    "license": "GPL-3.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pyFFTW/pyFFTW-0.10.4.tar.gz",
+    "source_url": "https://github.com/liam2/larray/archive/0.27.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Labeled N-dimensional array.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.10.4"
+    "version": "0.27"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "pyfftw-0.10.4-np111py34_0.tar.bz2",
+  "package": "larray-0.27-py27_0.tar.bz2",
   "repodata": {
-    "build": "np111py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "numpy 1.11*",
-      "python 3.4*"
+      "numpy >=1.10",
+      "pandas",
+      "pytest-runner",
+      "python 2.7*"
     ],
-    "license": "BSD or GPL 2",
-    "md5": "bb8839c4c057be2569d2c79589a59beb",
-    "name": "pyfftw",
-    "sha256": "8149ff37991f86f26e5e35b903ddb0eb5624d3612fe04b25f9d5902f2c5f3163",
-    "size": 2864560,
+    "license": "GPL-3.0",
+    "license_family": "GPL",
+    "md5": "2a7d2fda526e879daf47b5530add0ab4",
+    "name": "larray",
+    "sha256": "70d2af0424ebe705e06dd754f4aeb9bb745b864fcd507e12c549e1307f49aa15",
+    "size": 2326088,
     "subdir": "linux-64",
-    "version": "0.10.4"
+    "version": "0.27"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyfftw-0.10.4-np111py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/larray-0.27-py27_0.tar.bz2"
 }
