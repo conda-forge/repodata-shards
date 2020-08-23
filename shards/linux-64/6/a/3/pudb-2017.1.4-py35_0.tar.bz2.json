@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/inducer/pudb",
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://pypi.python.org/pypi/pudb",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,37 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/axiom-data-science/assetid/archive/0.0.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pudb/pudb-2017.1.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "A full-screen, console-based Python debugger",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.0.4"
+    "version": "2017.1.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "assetid-0.0.4-py35_0.tar.bz2",
+  "package": "pudb-2017.1.4-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "pygments >=1.0",
+      "python 3.5*",
+      "setuptools",
+      "urwid >=1.1.1"
     ],
     "license": "MIT",
-    "md5": "94377a3525a98df9e3aa11963d4cecf6",
-    "name": "assetid",
-    "sha256": "7c81719762a9e720153808cea1e00b4e28fe041dd35f2d4c5385f9bcf40fa2bb",
-    "size": 12459,
+    "md5": "b5f5c724fd4c2cf8c81dbb4d192d5d51",
+    "name": "pudb",
+    "sha256": "9dfa3bc77e88d573453d7e6d7a57301224c27001aae41f182f6527c703dab715",
+    "size": 94458,
     "subdir": "linux-64",
-    "version": "0.0.4"
+    "version": "2017.1.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/assetid-0.0.4-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pudb-2017.1.4-py35_0.tar.bz2"
 }
