@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Cygrid allows to resample a number of spectra (or data points) to a regular grid - a data cube - using any valid astronomical FITS/WCS projection. The method is a based on serialized convolution with finite gridding kernels. Currently, only Gaussian (radial-symmetric or elliptical) kernels are provided (which has the drawback of slight degradation of the effective resolution). The algorithm has very small memory footprint, allows easy parallelization, and is very fast.",
+    "dev_url": "https://github.com/bwinkel/cygrid",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/bwinkel/cygrid",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/c/cygrid/cygrid-1.0.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Cygrid is a cython-powered convolution-based gridding module for astronomy",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1548011649,
+    "version": "1.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "cygrid-1.0.1-py36h04f5b5a_0.tar.bz2",
+  "repodata": {
+    "build": "py36h04f5b5a_0",
+    "build_number": 0,
+    "depends": [
+      "astropy >=2.1",
+      "libcxx >=4.0.1",
+      "llvm-openmp",
+      "numpy >=1.16.0,<2.0a0",
+      "python >=3.6,<3.7.0a0"
+    ],
+    "license": "GPL-3.0",
+    "license_family": "GPL",
+    "md5": "0ab0986d0ad85d2204e3b830a443d54c",
+    "name": "cygrid",
+    "sha256": "67cb9d77b598433cf0ae0d65ecd98ba561b453284beb43b8551d9a6afb8d288f",
+    "size": 366642,
+    "subdir": "osx-64",
+    "timestamp": 1548011649491,
+    "version": "1.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cygrid-1.0.1-py36h04f5b5a_0.tar.bz2"
+}
