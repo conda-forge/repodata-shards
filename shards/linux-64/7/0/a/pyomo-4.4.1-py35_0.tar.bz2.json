@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/blink1073/tifffile",
+    "home": "http://pyomo.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/t/tifffile/tifffile-0.15.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/P/Pyomo/Pyomo-4.4.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Read and write image data from and to TIFF files.",
+    "summary": "Pyomo: Python Optimization Modeling Objects",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1530959932,
-    "version": "0.15.0"
+    "timestamp": 0,
+    "version": "4.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "tifffile-0.15.0-py35_0.tar.bz2",
+  "package": "pyomo-4.4.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "numpy >=1.8",
-      "python >=3.5,<3.6.0a0"
+      "appdirs",
+      "ply",
+      "python 3.5*",
+      "pyutilib >=5.4",
+      "setuptools",
+      "six >=1.4"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "6f4688ca5896bd08c7e95a01d2b7cfb4",
-    "name": "tifffile",
-    "sha256": "b990cb21b0d147bf5f7d9f4e85ad6c7f82d74bf2510a498f86a06f0f0b9cee6d",
-    "size": 212010,
+    "md5": "f19e36de3837285dd53b70aaf20dede8",
+    "name": "pyomo",
+    "sha256": "25a857ead0100322bf13934db2f5c5c29512cc8c7e9be7306242510108d0275d",
+    "size": 2017918,
     "subdir": "linux-64",
-    "timestamp": 1530959932784,
-    "version": "0.15.0"
+    "version": "4.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/tifffile-0.15.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyomo-4.4.1-py35_0.tar.bz2"
 }
