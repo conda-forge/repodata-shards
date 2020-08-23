@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The GWOLLUM package contains a set of software tools designed to perform GW analyses.  Most of the code source is written with the C++ language and it also heavily relies on the CERN ROOT libraries (also C++).",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://virgo.in2p3.fr/GWOLLUM/v2r4/index.html?Main",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.0": {
+        "weak": [
+          "gwollum >=2.4.0,<2.4.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/gwollum-2.4.0.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Tools for gravitational-wave analyses",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1593602232,
+    "version": "2.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "gwollum-2.4.0-h4c1f761_1.tar.bz2",
+  "repodata": {
+    "build": "h4c1f761_1",
+    "build_number": 1,
+    "depends": [
+      "fftw >=3.3.8,<4.0a0",
+      "gsl >=2.6,<2.7.0a0",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "libframel >=8.40.1,<9.0a0",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "root_base >=6.22.0,<6.23.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "153a2b8748f1338caa8d1a2fe5bab7d0",
+    "name": "gwollum",
+    "sha256": "048a13ae8881437f6a8de216f28c858edb601d22caa503cd6ee95e70e42f801b",
+    "size": 5591009,
+    "subdir": "linux-64",
+    "timestamp": 1593602232768,
+    "version": "2.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gwollum-2.4.0-h4c1f761_1.tar.bz2"
+}
