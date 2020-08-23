@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.h5py.org/",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/h5py/h5py/archive/2.6.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/scipy/scipy-0.17.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Read and write HDF5 files from Python.",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.6.0"
+    "version": "0.17.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main"
+    "cf202003"
   ],
-  "package": "h5py-2.6.0-np111py34_7.tar.bz2",
+  "package": "scipy-0.17.1-np110py34_blas_openblas_200.tar.bz2",
   "repodata": {
-    "build": "np111py34_7",
-    "build_number": 7,
+    "build": "np110py34_blas_openblas_200",
+    "build_number": 200,
     "depends": [
-      "hdf5 1.8.17|1.8.17.*",
-      "numpy 1.11*",
-      "python 3.4*",
-      "six"
+      "blas 1.1 openblas",
+      "libgcc",
+      "numpy 1.10*",
+      "openblas 0.2.18*",
+      "python 3.4*"
     ],
+    "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "md5": "1f71991fd71a6dbb61638a8ad995fd08",
-    "name": "h5py",
-    "sha256": "5f0619fe1c2ab86f4efbad0730446be89f120637c05974a90192ef077991151d",
-    "size": 3348245,
+    "md5": "d7194554690de0c4c348518b223ba2e9",
+    "name": "scipy",
+    "sha256": "5a533b1e5a34c7d34f4badd183d49d204a74b142c506f564fcee500d0049e5bb",
+    "size": 31912840,
     "subdir": "linux-64",
-    "version": "2.6.0"
+    "version": "0.17.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.6.0-np111py34_7.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/scipy-0.17.1-np110py34_blas_openblas_200.tar.bz2"
 }
