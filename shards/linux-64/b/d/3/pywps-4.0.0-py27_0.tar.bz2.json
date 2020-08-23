@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/hickford/primesieve-python",
+    "home": "http://pywps.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/p/primesieve/primesieve-1.0.0.zip",
+    "source_url": "https://github.com/geopython/pywps/archive/4.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fast prime number generator. Python bindings for primesieve C/C++ library",
+    "summary": "PyWPS (Python Web Processing Service) is an implementation of the Web processing Service standard from Open Geospatial Consortium.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.0"
+    "version": "4.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "python-primesieve-1.0.0-np111py27_2.tar.bz2",
+  "package": "pywps-4.0.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "np111py27_2",
-    "build_number": 2,
+    "build": "py27_0",
+    "build_number": 0,
     "depends": [
-      "libgcc",
-      "numpy 1.11*",
-      "primesieve",
-      "python 2.7*"
+      "flufl.enum",
+      "jsonschema",
+      "lxml",
+      "owslib",
+      "python 2.7*",
+      "python-dateutil",
+      "sqlalchemy",
+      "werkzeug"
     ],
     "license": "MIT",
-    "md5": "119cf5d1bec2b8bb3fc64f48052df140",
-    "name": "python-primesieve",
-    "sha256": "ee89cc2e646a7d48c81cc83c037280848df38e7b302cf43877b4f2a5dc3d4fae",
-    "size": 202584,
+    "md5": "fb5eecc4c3b79f23e6d5925ea9e84f5c",
+    "name": "pywps",
+    "sha256": "69fda250fb7e79d4c7ee84ce4c1b551a48a611312d8cb8af06f234efb1df8b5c",
+    "size": 72912,
     "subdir": "linux-64",
-    "version": "1.0.0"
+    "version": "4.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-primesieve-1.0.0-np111py27_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pywps-4.0.0-py27_0.tar.bz2"
 }

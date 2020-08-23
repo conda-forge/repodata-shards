@@ -7,51 +7,58 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.atnf.csiro.au/people/mcalabre/WCS/wcslib/",
+    "home": "http://www.cistools.net",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "ftp://ftp.atnf.csiro.au/pub/software/wcslib/wcslib-5.18.tar.bz2",
+    "source_url": "https://github.com/cedadev/cis/archive/1.5.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Library for World Coordinate System computations",
+    "summary": "Community Inter-comparison Suite",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "5.18"
+    "version": "1.5.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
+    "cf202003",
     "main"
   ],
-  "package": "wcslib-5.18-0.tar.bz2",
+  "package": "cis-1.5.2-py35_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "cfitsio",
-      "giza 0.9.*",
-      "libgfortran"
+      "iris >=1.8.0",
+      "matplotlib >=1.2.0",
+      "netcdf4 >=1.0",
+      "numpy",
+      "pandas",
+      "psutil",
+      "pyhdf",
+      "python 3.5*",
+      "scipy"
     ],
-    "license": "LGPL",
-    "md5": "57898d111c542d11212b37240334aded",
-    "name": "wcslib",
-    "sha256": "b16797656809c029f8a2692f84e81d48a251bb3b3c5f3ec51202183e6952ff26",
-    "size": 801036,
+    "license": "LGPL3",
+    "md5": "bf6a44a7c629abe8d3c76bdbba21f289",
+    "name": "cis",
+    "sha256": "a2bf2c97a2dee80c1fe585a629ff2c54e5abf23c5c1c19a8aa9128a55abb5ca1",
+    "size": 22503349,
     "subdir": "linux-64",
-    "version": "5.18"
+    "version": "1.5.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/wcslib-5.18-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cis-1.5.2-py35_0.tar.bz2"
 }
