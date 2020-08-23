@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/pytest-dev/pytest-xdist",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-xdist",
+    "home": "https://github.com/fchollet/keras",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-xdist/pytest-xdist-1.15.0.tar.gz",
+    "source_url": "https://github.com/fchollet/keras/archive/1.0.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "py.test xdist plugin for distributed testing and loop-on-failing modes",
+    "summary": "Deep Learning for Python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.15.0"
+    "version": "1.0.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "pytest-xdist-1.15.0-py34_0.tar.bz2",
+  "package": "keras-1.0.7-py34_0.tar.bz2",
   "repodata": {
     "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "execnet >=1.1",
-      "py >=1.4.22",
-      "pytest >=2.4.2",
+      "h5py",
+      "numpy",
       "python 3.4*",
-      "setuptools"
+      "pyyaml",
+      "scipy",
+      "setuptools",
+      "six",
+      "tensorflow",
+      "theano"
     ],
     "license": "MIT",
-    "md5": "331dc815eb4143be9e31208b797e1c37",
-    "name": "pytest-xdist",
-    "sha256": "d9a3e5395127bf1d386c0129d8e00d8ca897288a7e8d61ec85c1d7a5b1195184",
-    "size": 38305,
+    "md5": "376be2faeba82bf313c31e08d1df395d",
+    "name": "keras",
+    "sha256": "cecfe1a224c58574ca3f4e3909db3eec6c70646418356bbc8460a0ea58bfe470",
+    "size": 239016,
     "subdir": "linux-64",
-    "version": "1.15.0"
+    "version": "1.0.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pytest-xdist-1.15.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/keras-1.0.7-py34_0.tar.bz2"
 }
