@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/bluescarni/piranha",
+    "home": "http://github.com/blink1073/oct2py",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL v3 and LGPL v3",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/bluescarni/piranha/archive/v0.8.tar.gz",
+    "source_url": "https://pypi.io/packages/source/o/oct2py/oct2py-4.0.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python bindings to Piranha computer algebra system.",
+    "summary": "Python to GNU Octave bridge --> run m-files from python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.8"
+    "version": "4.0.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,29 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "pyranha-0.8-py27_1.tar.bz2",
+  "package": "oct2py-4.0.4-py27_0.tar.bz2",
   "repodata": {
-    "build": "py27_1",
-    "build_number": 1,
+    "build": "py27_0",
+    "build_number": 0,
     "depends": [
-      "boost 1.62.*",
-      "bzip2 1.0.*",
-      "gmp",
-      "mpfr",
-      "mpmath",
+      "ipython",
       "numpy",
+      "octave_kernel >=0.25.0",
       "python 2.7*",
-      "zlib 1.2.*"
+      "scipy"
     ],
-    "license": "GPL v3 and LGPL v3",
-    "md5": "91fa5e3b93d0dbf28eab91f0c0f1edca",
-    "name": "pyranha",
-    "sha256": "347745df51a3bc5b34ea511f869be100c594c2a627c4fc60dc84eb0bff93ffb0",
-    "size": 8834858,
+    "license": "MIT",
+    "md5": "980cd8875145c7b9ebbf4377fab7b79a",
+    "name": "oct2py",
+    "sha256": "7a815eddaf994124dafe55d979351a528f3acd5b8b5fc2bf636591a86c2b4500",
+    "size": 60670,
     "subdir": "linux-64",
-    "version": "0.8"
+    "version": "4.0.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyranha-0.8-py27_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/oct2py-4.0.4-py27_0.tar.bz2"
 }

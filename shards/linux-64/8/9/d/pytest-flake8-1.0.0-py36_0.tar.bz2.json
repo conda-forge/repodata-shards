@@ -7,23 +7,23 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/testing-cabal/extras",
+    "home": "https://github.com/tholo/pytest-flake8",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT License",
+    "license": "BSD 2-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/e/extras/extras-1.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pytest-flake8/pytest-flake8-1.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Useful extra bits for Python - things that shold be in the standard library",
+    "summary": "pytest plugin to check FLAKE8 requirements",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
@@ -32,25 +32,28 @@
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "extras-1.0.0-py34_0.tar.bz2",
+  "package": "pytest-flake8-1.0.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*"
+      "flake8 >=3.5",
+      "pytest >=3.2",
+      "python 3.6*",
+      "setuptools"
     ],
-    "license": "MIT License",
-    "md5": "5d1899a9a209b76f28b142b7e4b8d0c1",
-    "name": "extras",
-    "sha256": "fc69a65a2abe977175007ee51db341b2a0cf4346420c55d40a94452956e3a209",
-    "size": 8586,
+    "license": "BSD 2-Clause",
+    "license_family": "BSD",
+    "md5": "a4fdd7f6be17a8958f391d0133a191e4",
+    "name": "pytest-flake8",
+    "sha256": "0a4e28247c935dd3231faf25b579ba317a9bcad019772478484b2333594845c9",
+    "size": 11092,
     "subdir": "linux-64",
     "version": "1.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/extras-1.0.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-flake8-1.0.0-py36_0.tar.bz2"
 }
