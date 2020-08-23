@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GTK is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK is suitable for projects ranging from small one-off projects to complete application suites.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/gtk",
+    "doc_source_url": null,
+    "doc_url": "https://developer.gnome.org/gtk3/",
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.24.22": {
+        "weak": [
+          "gtk3 >=3.24.22,<4.0a0",
+          "adwaita-icon-theme"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.22.tar.xz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Version 3 of the Gtk+ graphical toolkit",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1597127788,
+    "version": "3.24.22"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "gtk3-3.24.22-h2af1af7_0.tar.bz2",
+  "repodata": {
+    "build": "h2af1af7_0",
+    "build_number": 0,
+    "depends": [
+      "atk-1.0 >=2.36.0",
+      "cairo >=1.16.0,<1.17.0a0",
+      "epoxy >=1.5.4,<1.6.0a0",
+      "fribidi >=1.0.10,<2.0a0",
+      "gdk-pixbuf >=2.38.2,<3.0a0",
+      "glib >=2.58.3,<3.0a0",
+      "hicolor-icon-theme",
+      "libiconv >=1.15,<1.16.0a0",
+      "pango >=1.42.4,<1.43.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "LGPL-2.0-or-later",
+    "license_family": "LGPL",
+    "md5": "3dfba2562b265c2f12d5ba396baa267a",
+    "name": "gtk3",
+    "sha256": "c084076b1b570012c262acde598713eba3c7c591e9cf8bd98d229d04bf6a4874",
+    "size": 10033498,
+    "subdir": "win-64",
+    "timestamp": 1597127788447,
+    "version": "3.24.22"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/gtk3-3.24.22-h2af1af7_0.tar.bz2"
+}
