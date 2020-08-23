@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "3.8.0": {
+        "weak": [
+          "liblapack >=3.8.0,<3.9.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
     "subdirs": [
@@ -25,36 +31,35 @@
     ],
     "summary": "Linear Algebra PACKage",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1563980982,
-    "version": "2.6"
+    "text_prefix": true,
+    "timestamp": 1566012348,
+    "version": "3.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "blas-2.6-netlib.tar.bz2",
+  "package": "liblapack-3.8.0-7_h6e990d7_netlib.tar.bz2",
   "repodata": {
-    "build": "netlib",
-    "build_number": 6,
+    "build": "7_h6e990d7_netlib",
+    "build_number": 7,
     "depends": [
-      "libblas 3.8.0 6_h6e990d7_netlib",
-      "libcblas 3.8.0 6_h6e990d7_netlib",
-      "liblapack 3.8.0 6_h6e990d7_netlib",
-      "liblapacke 3.8.0 6_h6e990d7_netlib"
+      "libblas 3.8.0.*",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0"
     ],
     "license": "BSD 3-Clause",
-    "md5": "1210e2ebd7f8f91e2442ec8fd28b7124",
-    "name": "blas",
-    "sha256": "580e107ff13a468ffd1954cb318825cfd372b0a2b9f80b5f27520abd2cbe0de9",
-    "size": 6752,
+    "md5": "1002f06a72e7b4a40ff885863c605bc0",
+    "name": "liblapack",
+    "sha256": "1b9c36756d5e5b8a8b4d1e65c550c2fb074b474bc205c8ea1f44d7ba84193647",
+    "size": 3008097,
     "subdir": "linux-64",
-    "timestamp": 1563980982435,
-    "version": "2.6"
+    "timestamp": 1566012348463,
+    "track_features": "blas_netlib",
+    "version": "3.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/blas-2.6-netlib.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblapack-3.8.0-7_h6e990d7_netlib.tar.bz2"
 }
