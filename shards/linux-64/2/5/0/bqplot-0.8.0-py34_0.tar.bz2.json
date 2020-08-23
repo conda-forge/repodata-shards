@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://nipy.org/nitime",
+    "home": "https://github.com/bloomberg/bqplot",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "Apache License 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/n/nitime/nitime-0.7.tar.gz",
+    "source_url": "https://pypi.io/packages/source/b/bqplot/bqplot-0.8.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Timeseries analysis for neuroscience data",
+    "summary": "Plotting library for Jupyter",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.7"
+    "version": "0.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "nitime-0.7-np110py27_0.tar.bz2",
+  "package": "bqplot-0.8.0-py34_0.tar.bz2",
   "repodata": {
-    "build": "np110py27_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "matplotlib",
-      "networkx",
-      "nibabel",
-      "numpy 1.10*",
-      "python 2.7*",
-      "scipy",
-      "setuptools"
+      "ipywidgets >=5.2.2",
+      "numpy >=1.10.4",
+      "pandas",
+      "python 3.4*",
+      "pyzmq >=15.2.0"
     ],
-    "license": "BSD-3-Clause",
-    "md5": "6c95d87ec73d380c47e228db378dc785",
-    "name": "nitime",
-    "sha256": "f5f4784b77551564d215bc6faa6fca98a2fc38fefad47741ff7440164812c8da",
-    "size": 3995687,
+    "license": "Apache License 2.0",
+    "md5": "37adc573d7b7c3c4e750e52b6d9fa005",
+    "name": "bqplot",
+    "sha256": "160ed221c3219c4c4b5aa8fbf74ea3116c20eb672e0e3390a861b337c6acd7a6",
+    "size": 905048,
     "subdir": "linux-64",
-    "version": "0.7"
+    "version": "0.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/nitime-0.7-np110py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/bqplot-0.8.0-py34_0.tar.bz2"
 }
