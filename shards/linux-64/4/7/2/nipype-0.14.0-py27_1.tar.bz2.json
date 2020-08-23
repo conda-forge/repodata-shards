@@ -19,7 +19,7 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/nipy/nipype/archive/0.13.1.tar.gz",
+    "source_url": "https://github.com/nipy/nipype/archive/v0.14.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,47 +27,48 @@
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "0.13.1"
+    "version": "0.14.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "nipype-0.13.1-py36_0.tar.bz2",
+  "package": "nipype-0.14.0-py27_1.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "py27_1",
+    "build_number": 1,
     "depends": [
       "click >=6.6.0",
+      "configparser",
       "funcsigs",
       "future >=0.16.0",
       "matplotlib",
       "mock",
-      "networkx >=1.7",
+      "networkx >=1.9",
       "nibabel >=2.1.0",
-      "numpy >=1.6.2",
-      "prov >=1.5.0",
+      "numpy >=1.9.0",
+      "packaging",
+      "prov ==1.5.0",
       "psutil",
       "pydotplus",
       "pytest >=3.0",
-      "python 3.6*",
-      "python-dateutil >=1.5",
-      "scipy >=0.11",
+      "python 2.7*",
+      "python-dateutil >=2.2",
+      "scipy >=0.14",
       "simplejson >=3.8.0",
       "traits >=4.6",
       "xvfbwrapper"
     ],
     "license": "Apache 2.0",
-    "md5": "dd594305cf3b7972cfd71a95f997d034",
+    "md5": "e8edf6820a63c16d9d39a71087ebfbb2",
     "name": "nipype",
-    "sha256": "6fd1952ac09939ecb4c30d842f63f8bd748161b803f2706c340b1dfc1235872e",
-    "size": 3435037,
+    "sha256": "5d398a08b266a1f129cd5b1639154c617022e66c84d2b9133bda69a4c26b3a9a",
+    "size": 3549850,
     "subdir": "linux-64",
-    "version": "0.13.1"
+    "version": "0.14.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/nipype-0.13.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/nipype-0.14.0-py27_1.tar.bz2"
 }
