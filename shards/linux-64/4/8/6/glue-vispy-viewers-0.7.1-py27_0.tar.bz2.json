@@ -7,23 +7,23 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/bloomberg/bqplot",
+    "home": "https://github.com/glue-viz/glue-vispy-viewers",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache License 2.0",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/bqplot/bqplot-0.7.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/glue-vispy-viewers/glue-vispy-viewers-0.7.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Plotting library for Jupyter",
+    "summary": "3D viewers for Glue",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
@@ -32,28 +32,32 @@
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "bqplot-0.7.1-py34_0.tar.bz2",
+  "package": "glue-vispy-viewers-0.7.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "ipywidgets >=5.2.2",
+      "glueviz >=0.10",
+      "matplotlib",
       "numpy",
-      "pandas",
-      "python 3.4*",
-      "pyzmq >=15.2.0"
+      "pyopengl",
+      "pyqt 4.11.*",
+      "python 2.7*",
+      "qtpy",
+      "scikit-image"
     ],
-    "license": "Apache License 2.0",
-    "md5": "1431a35650e9f920b571a87e02f0e555",
-    "name": "bqplot",
-    "sha256": "5acf62dfca1e8e1b0ea6803bb752aebb86751c5c40dbdf97c4901c7057603753",
-    "size": 1164008,
+    "license": "BSD 3-Clause",
+    "md5": "edc0a49bb012c7705209afe25051238e",
+    "name": "glue-vispy-viewers",
+    "sha256": "8192c38c1da964f1369cbcd8e4c4fc768b4e68e2dd6ed990bf3fe11f418fb8cf",
+    "size": 1170041,
     "subdir": "linux-64",
     "version": "0.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/bqplot-0.7.1-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/glue-vispy-viewers-0.7.1-py27_0.tar.bz2"
 }
