@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Pulsar Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Pulsar library.  If you want to install the Python bindings, please install the associated python-lalpulsar package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalpulsar/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv2+",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.17.1": {
+        "weak": [
+          "lalpulsar >=1.17.1,<1.18.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalpulsar-1.17.1.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Pulsar Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1559034426,
+    "version": "1.17.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lalpulsar-1.17.1-h8572b48_2.tar.bz2",
+  "repodata": {
+    "build": "h8572b48_2",
+    "build_number": 2,
+    "depends": [
+      "cfitsio",
+      "fftw",
+      "gsl >=2.4,<2.5.0a0",
+      "lal >=6.19.2",
+      "lal >=6.19.2,<6.20.0a0"
+    ],
+    "license": "GPLv2+",
+    "license_family": "GPL",
+    "md5": "72261ed5172cc5183e04cf9ed2d9dc42",
+    "name": "lalpulsar",
+    "sha256": "4f71a434c213b19fce7609436db687dce1a938922a99f7c28cdcf567fbeafde4",
+    "size": 92454590,
+    "subdir": "osx-64",
+    "timestamp": 1559034426716,
+    "version": "1.17.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lalpulsar-1.17.1-h8572b48_2.tar.bz2"
+}
