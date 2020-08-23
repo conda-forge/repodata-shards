@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,30 +19,30 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/scikit-beam/scikit-beam/archive/v0.0.12.tar.gz",
+    "source_url": "https://github.com/scikit-beam/scikit-beam/archive/v0.0.15.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Data analysis algorithms for X-Ray, Neutron and Electron sciences",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.0.12"
+    "timestamp": 1562207673,
+    "version": "0.0.15"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "scikit-beam-0.0.12-np111py36_0.tar.bz2",
+  "package": "scikit-beam-0.0.15-py36hc1659b7_0.tar.bz2",
   "repodata": {
-    "build": "np111py36_0",
+    "build": "py36hc1659b7_0",
     "build_number": 0,
     "depends": [
-      "lmfit 0.8.3",
-      "numpy 1.11*",
-      "python 3.6*",
+      "libgcc-ng >=7.3.0",
+      "lmfit 0.8.3.*",
+      "numpy >=1.14.6,<2.0a0",
+      "python >=3.6,<3.7.0a0",
       "scikit-image",
       "scipy",
       "six",
@@ -50,14 +50,15 @@
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "6be60a5b6f6759e6c8bf2d9fd6914226",
+    "md5": "6a5ec8b96477acb01a6b1b10f7a6a5b8",
     "name": "scikit-beam",
-    "sha256": "a20eab58d7f8d1fc17e1acd27fabc6cf6a931f648783885af57c7e13d3432e4b",
-    "size": 2704872,
+    "sha256": "f7200ada7306d652750a70805bf50653a2fa0ee4bfc81c4412411442b836a40c",
+    "size": 759934,
     "subdir": "linux-64",
-    "version": "0.0.12"
+    "timestamp": 1562207673263,
+    "version": "0.0.15"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/scikit-beam-0.0.12-np111py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/scikit-beam-0.0.15-py36hc1659b7_0.tar.bz2"
 }
