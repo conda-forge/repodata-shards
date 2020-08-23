@@ -7,55 +7,58 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/adamhajari/spyre",
+    "home": "http://pypi.python.org/pypi/oceans/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/D/DataSpyre/DataSpyre-0.2.6.tar.gz",
+    "source_url": "https://github.com/pyoceans/python-oceans/archive/v0.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Web Application Framework for simple user interface.",
+    "summary": "Misc functions for oceanographic data analysis.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2.6"
+    "version": "0.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "dataspyre-0.2.6-py36_0.tar.bz2",
+  "package": "oceans-0.4.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "cherrypy",
-      "jinja2",
+      "ctd",
+      "gsw",
       "matplotlib",
+      "netcdf4",
       "numpy",
       "pandas",
-      "python 3.6*"
+      "python 3.5*",
+      "scipy",
+      "seawater",
+      "shapely"
     ],
-    "license": "MIT",
-    "md5": "ad7ff535b68eb237c92db3649c48769c",
-    "name": "dataspyre",
-    "sha256": "b52e6e8cf524d85c283618854b17e455711501555609130281754def40a5b08e",
-    "size": 128284,
+    "license": "BSD 3-Clause",
+    "md5": "bb625c6fcee648075605f66a6abc4410",
+    "name": "oceans",
+    "sha256": "8f0b0bd470e2a386f01c205712a465bf508079be3b1a60e4d680011d5286f5f0",
+    "size": 302743,
     "subdir": "linux-64",
-    "version": "0.2.6"
+    "version": "0.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/dataspyre-0.2.6-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/oceans-0.4.0-py35_0.tar.bz2"
 }

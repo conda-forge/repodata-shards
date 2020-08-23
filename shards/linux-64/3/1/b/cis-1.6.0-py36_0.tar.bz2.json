@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/adamhajari/spyre",
+    "home": "http://www.cistools.net",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/D/DataSpyre/DataSpyre-0.2.6.tar.gz",
+    "source_url": "https://github.com/cedadev/cis/archive/1.6.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Web Application Framework for simple user interface.",
+    "summary": "Community Inter-comparison Suite",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.2.6"
+    "version": "1.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "dataspyre-0.2.6-py36_0.tar.bz2",
+  "package": "cis-1.6.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "cherrypy",
-      "jinja2",
-      "matplotlib",
+      "iris >=1.8.0",
+      "matplotlib >=1.2.0",
+      "netcdf4 >=1.0",
       "numpy",
       "pandas",
-      "python 3.6*"
+      "psutil",
+      "pyhdf",
+      "python 3.6*",
+      "scipy"
     ],
-    "license": "MIT",
-    "md5": "ad7ff535b68eb237c92db3649c48769c",
-    "name": "dataspyre",
-    "sha256": "b52e6e8cf524d85c283618854b17e455711501555609130281754def40a5b08e",
-    "size": 128284,
+    "license": "LGPL3",
+    "md5": "7c29fc374a5d1598b66d293de903a621",
+    "name": "cis",
+    "sha256": "cde2c62d59bb7059999aa595c6caa1909a139615c63b7187e88f0995dee9a99c",
+    "size": 22505338,
     "subdir": "linux-64",
-    "version": "0.2.6"
+    "version": "1.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/dataspyre-0.2.6-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cis-1.6.0-py36_0.tar.bz2"
 }

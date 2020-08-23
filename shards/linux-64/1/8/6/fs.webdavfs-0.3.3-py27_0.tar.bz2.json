@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Usage: ======  > from webdavfs.webdavfs import WebDAVFS > url = 'http://zopyx.com:22082' > creds = dict(login='admin', password='admin') > root = '/exist/webdav/db' > handle = WebDAVFS(url, cred, root) > handle.makedir('foo') > print(handle.listdir('.')) ....",
+    "dev_url": "https://github.com/PyFilesystem/webdavfs",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/PyFilesystem/webdavfs",
+    "home": "https://github.com/PyFilesystem/webdavfs",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.python.org/packages/b6/2c/4eb38309d71218e0ca4364db52240695497f488fee60563e37f46a8736d8/fs.webdavfs-0.3.3.zip",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "fs.webdavfs is a WebDAV driver for PyFileSystem2.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "0.3.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "fs.webdavfs-0.3.3-py27_0.tar.bz2",
+  "repodata": {
+    "build": "py27_0",
+    "build_number": 0,
+    "depends": [
+      "fs",
+      "furl",
+      "python 2.7*",
+      "python-dateutil",
+      "webdavclient2"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "c61fc07dc58471bc1c61ea41fa306dca",
+    "name": "fs.webdavfs",
+    "sha256": "f4f85f77fbdffb75d38ce28614835471e19887da331d48cda5cb2eec0b0e73cd",
+    "size": 16855,
+    "subdir": "linux-64",
+    "version": "0.3.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fs.webdavfs-0.3.3-py27_0.tar.bz2"
+}
