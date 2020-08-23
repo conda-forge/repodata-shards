@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://esa.github.io/pykep/",
+    "home": "https://github.com/pydata/xarray",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL v3 and LGPL v3",
+    "license": "Apache-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/esa/pykep/archive/v2.0.tar.gz",
+    "source_url": "https://github.com/pydata/xarray/archive/v0.9.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "pykep is a scientific library providing basic tools for interplanetary trajectory design.",
+    "summary": "N-D labeled arrays and datasets in Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.0"
+    "version": "0.9.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,29 @@
     "main",
     "cf202003"
   ],
-  "package": "pykep-2.0-py36_0.tar.bz2",
+  "package": "xarray-0.9.5-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "boost 1.65.1",
-      "python 3.6*"
+      "bottleneck",
+      "dask >=0.6",
+      "h5netcdf",
+      "netcdf4",
+      "numpy",
+      "pandas",
+      "python 3.5*",
+      "scipy"
     ],
-    "license": "GPL v3 and LGPL v3",
-    "md5": "0b385aa573496ef1d9715f1e27356b30",
-    "name": "pykep",
-    "sha256": "db88962343428b6372c0383cba4bc7240630a927b4e52b50d1c9cbda4e68fb30",
-    "size": 2707569,
+    "license": "Apache-2.0",
+    "md5": "9d101639f17e00ec1901c4efe85990bc",
+    "name": "xarray",
+    "sha256": "e48672bcb76bfac0b99fc28cc0ffd88ebcbb32a3844a4273ff30cc1e57e6b628",
+    "size": 492339,
     "subdir": "linux-64",
-    "version": "2.0"
+    "version": "0.9.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pykep-2.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xarray-0.9.5-py35_0.tar.bz2"
 }
