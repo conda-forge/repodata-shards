@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -23,11 +23,11 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Multi-dimensional linked data exploration",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.5"
+    "version": "0.7.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,39 @@
     "cf202003",
     "main"
   ],
-  "package": "pytest-mpl-0.5-py27_0.tar.bz2",
+  "package": "glueviz-0.7.3-py27_0.tar.bz2",
   "repodata": {
+    "app_entry": "glue",
+    "app_type": "desk",
     "build": "py27_0",
     "build_number": 0,
     "depends": [
+      "astropy",
+      "h5py",
+      "ipykernel",
+      "ipython",
       "matplotlib",
-      "pytest",
+      "numpy",
+      "pandas",
+      "pyqt",
       "python 2.7*",
-      "setuptools"
+      "qtconsole",
+      "scikit-image",
+      "scipy",
+      "xlrd"
     ],
-    "license": "BSD",
-    "md5": "43213c8874a178108577b3f5fbd0ae8f",
-    "name": "pytest-mpl",
-    "sha256": "8f1c37c643ae92e5cfe245c3c661a0ae299aa973ec3d7752fb09e8353b3eef28",
-    "size": 8097,
+    "icon": "c124cb3a3bf9bb32f258a6e6f9b5c187.png",
+    "license": "BSD 3-Clause",
+    "md5": "1f9690a48fbf62b7c8e5d6ca68b88bc6",
+    "name": "glueviz",
+    "sha256": "8a5c738dc639d228f88127d03406be81df350bdcb78c7be7d8a08f9a01306e2c",
+    "size": 1173218,
     "subdir": "linux-64",
-    "version": "0.5"
+    "summary": "Multi-dimensional linked data exploration",
+    "type": "app",
+    "version": "0.7.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-mpl-0.5-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/glueviz-0.7.3-py27_0.tar.bz2"
 }
