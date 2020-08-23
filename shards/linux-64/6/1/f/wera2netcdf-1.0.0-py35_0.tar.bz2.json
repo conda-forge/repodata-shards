@@ -7,52 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pyugrid/pyugrid",
+    "home": "https://github.com/axiom-data-science/wera2netcdf",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/pyugrid/pyugrid/archive/v0.2.3.tar.gz",
+    "source_url": "https://github.com/axiom-data-science/wera2netcdf/archive/1.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Python API to utilize data written using the unstructured grid UGRID conventions.",
+    "summary": "A utility to convert WERA total ASCII files into CF NetCDF files.",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2.3"
+    "version": "1.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pyugrid-0.2.3-py35_0.tar.bz2",
+  "package": "wera2netcdf-1.0.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
       "netcdf4",
-      "numpy",
-      "python 3.5*"
+      "pandas",
+      "pygc",
+      "python 3.5*",
+      "python-dateutil",
+      "pytz"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "449390f615a30771b4e0b61c51466810",
-    "name": "pyugrid",
-    "sha256": "5a037c7ef3d10e19c24f6852a3c7258cfee9a447f62b4aba4cea80707b8aa1b6",
-    "size": 33595,
+    "license": "MIT",
+    "md5": "31b49cbe4b0a252c4438150245a54d78",
+    "name": "wera2netcdf",
+    "sha256": "3233bf43ea75bc5302642532076b3d4e350aad8722fceec14a3d4a6990075188",
+    "size": 14010,
     "subdir": "linux-64",
-    "version": "0.2.3"
+    "version": "1.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyugrid-0.2.3-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/wera2netcdf-1.0.0-py35_0.tar.bz2"
 }
