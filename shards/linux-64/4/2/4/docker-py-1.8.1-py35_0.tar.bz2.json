@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/docker/docker-py/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/d/docker-py/docker-py-1.8.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Python client for Docker.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.2.1"
+    "version": "1.8.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "widgetsnbextension-1.2.1-py35_0.tar.bz2",
+  "package": "docker-py-1.8.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "notebook >=4.2.0",
-      "python 3.5*"
+      "python 3.5*",
+      "requests >=2.5.2",
+      "six >=1.4.0",
+      "websocket-client >=0.32.0"
     ],
-    "license": "BSD 3-clause",
-    "md5": "8ff7035d40acf450a21347719c3cc28e",
-    "name": "widgetsnbextension",
-    "sha256": "7372637fa99ba389ffe3d138265498f21b1e45aadba9e9a9ae1836671c68a9b9",
-    "size": 1163823,
+    "license": "Apache 2.0",
+    "md5": "355bf723480ba71790392585963dc6e7",
+    "name": "docker-py",
+    "sha256": "f0c8c01b14f7a5e968493445ab84611f7b44c91a42e4472397880409248e0950",
+    "size": 54243,
     "subdir": "linux-64",
-    "version": "1.2.1"
+    "version": "1.8.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/widgetsnbextension-1.2.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/docker-py-1.8.1-py35_0.tar.bz2"
 }
