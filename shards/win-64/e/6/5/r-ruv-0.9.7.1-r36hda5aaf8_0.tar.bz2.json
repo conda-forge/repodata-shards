@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www-personal.umich.edu/~johanngb/ruv/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/ruv/ruv_0.9.7.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/ruv_0.9.7.1.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Implements the 'RUV' (Remove Unwanted Variation) algorithms.  These algorithms attempt to adjust for systematic errors of unknown origin in high-dimensional data.  The algorithms were originally developed for use with genomic data, especially microarray data, but may be useful with other types of high-dimensional data as well.  These algorithms were proposed in Gagnon-Bartsch and Speed (2012) <doi:10.1093/nar/gkz433>, Gagnon-Bartsch, Jacob and Speed (2013), and Molania, et. al. (2019) <doi:10.1093/nar/gkz433>.  The algorithms require the user to specify a set of negative control variables, as described in the references.  The algorithms included in this package are 'RUV-2', 'RUV-4', 'RUV-inv', 'RUV-rinv', 'RUV-I', and RUV-III', along with various supporting algorithms.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1569849637,
+    "version": "0.9.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-ruv-0.9.7.1-r36hda5aaf8_0.tar.bz2",
+  "repodata": {
+    "build": "r36hda5aaf8_0",
+    "build_number": 0,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=3.6,<3.7.0a0",
+      "r-ggplot2",
+      "r-gridextra",
+      "r-scales"
+    ],
+    "license": "GPL-3",
+    "license_family": "GPL3",
+    "md5": "b7a6c3f126641177d903d87e1a328b44",
+    "name": "r-ruv",
+    "sha256": "cd4ad5fccc197069ba5cc855fcf076e487f40829d3864253a5a28e1ae58fe2f3",
+    "size": 332865,
+    "subdir": "win-64",
+    "timestamp": 1569849637335,
+    "version": "0.9.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-ruv-0.9.7.1-r36hda5aaf8_0.tar.bz2"
+}
