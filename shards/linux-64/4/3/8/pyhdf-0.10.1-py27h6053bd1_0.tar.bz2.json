@@ -7,53 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://pypi.python.org/pypi/pykdtree",
+    "home": "https://github.com/fhs/pyhdf",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL-3.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pykdtree/pykdtree-1.3.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyhdf/pyhdf-0.10.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fast kd-tree implementation with OpenMP-enabled queries",
+    "summary": "Python interface to the NCSA HDF4 library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1539540484,
-    "version": "1.3.1"
+    "timestamp": 1552916441,
+    "version": "0.10.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pykdtree-1.3.1-py27h3010b51_1002.tar.bz2",
+  "package": "pyhdf-0.10.1-py27h6053bd1_0.tar.bz2",
   "repodata": {
-    "build": "py27h3010b51_1002",
-    "build_number": 1002,
+    "build": "py27h6053bd1_0",
+    "build_number": 0,
     "depends": [
+      "hdf4 >=4.2.13,<4.3.0a0",
       "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
       "numpy >=1.9.3,<2.0a0",
       "python >=2.7,<2.8.0a0"
     ],
-    "license": "LGPL-3.0",
-    "md5": "c2356a75adfb9c4ce337a8c66e531bdf",
-    "name": "pykdtree",
-    "sha256": "05351fe6f0ffb7fbd37d257dd7af4c01d53511bf4cdd08a5a45f85618ffef1d3",
-    "size": 69181,
+    "license": "MIT",
+    "md5": "818cf42a4136652d035d11caf3d11136",
+    "name": "pyhdf",
+    "sha256": "00935323aa8b69b093e6830d56c634cb5d7e16fd2c31a6dbbc8f8f08117903df",
+    "size": 148545,
     "subdir": "linux-64",
-    "timestamp": 1539540484114,
-    "version": "1.3.1"
+    "timestamp": 1552916441683,
+    "version": "0.10.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pykdtree-1.3.1-py27h3010b51_1002.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyhdf-0.10.1-py27h6053bd1_0.tar.bz2"
 }
