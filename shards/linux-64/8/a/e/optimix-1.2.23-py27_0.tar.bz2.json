@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/jsocol/pystatsd",
+    "dev_url": "https://github.com/limix/optimix",
     "doc_source_url": null,
-    "doc_url": "http://statsd.readthedocs.io",
-    "home": "https://github.com/jsocol/pystatsd",
+    "doc_url": "https://optimix.readthedocs.io/",
+    "home": "https://github.com/limix/optimix",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/statsd/statsd-3.2.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/o/optimix/optimix-1.2.23.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Python client for statsd",
+    "summary": "Abstract function optimisation",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.2.2"
+    "version": "1.2.23"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "statsd-3.2.2-py27_0.tar.bz2",
+  "package": "optimix-1.2.23-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "brent-search",
+      "ndarray-listener",
+      "numpy",
+      "python 2.7*",
+      "scipy",
+      "tqdm"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "1e983748ea6c35b1ee8ad152c2f959f1",
-    "name": "statsd",
-    "sha256": "748c1aa0b619b98be127395194f3d23b6e237637ed3aaec06cb02a5384c341fe",
-    "size": 22410,
+    "md5": "195f8fbed47e247ecf2ef2a70168585a",
+    "name": "optimix",
+    "sha256": "b5a87e481aca7944b849537ac999e35a6d6dfe4834ee9f8d42587d28b832b6da",
+    "size": 31962,
     "subdir": "linux-64",
-    "version": "3.2.2"
+    "version": "1.2.23"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/statsd-3.2.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/optimix-1.2.23-py27_0.tar.bz2"
 }
