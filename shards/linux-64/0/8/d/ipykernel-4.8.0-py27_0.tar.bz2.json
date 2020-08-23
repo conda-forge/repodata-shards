@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/zeromq/pyzmq",
+    "home": "http://ipython.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pyzmq/pyzmq-18.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/i/ipykernel/ipykernel-4.8.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python bindings for zeromq",
+    "summary": "IPython Kernel for Jupyter",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1550612700,
-    "version": "18.0.0"
+    "timestamp": 0,
+    "version": "4.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "pyzmq-18.0.0-py37h6afc9c9_0.tar.bz2",
+  "package": "ipykernel-4.8.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py37h6afc9c9_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=7.3.0",
-      "libsodium >=1.0.16,<1.0.17.0a0",
-      "libstdcxx-ng >=7.3.0",
-      "python >=3.7,<3.8.0a0",
-      "zeromq >=4.2.5,<4.3.0a0"
+      "ipython >=4.0",
+      "jupyter_client",
+      "python 2.7*",
+      "tornado >=4.0",
+      "traitlets >=4.1"
     ],
     "license": "BSD 3-clause",
-    "md5": "df71dfb39e260a18016b956bc7391f99",
-    "name": "pyzmq",
-    "sha256": "19b70e21672d86be1cb6c3497ac89bd9d1186342f39e661bcc045732da5a29fe",
-    "size": 528146,
+    "md5": "3b4148e86a5a4512b65e5b65a45e5809",
+    "name": "ipykernel",
+    "sha256": "8fcffc759aa3835012f4e27b57f2722a464fd628e9c1102f6c802d6b4c4a146b",
+    "size": 149711,
     "subdir": "linux-64",
-    "timestamp": 1550612700758,
-    "version": "18.0.0"
+    "version": "4.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyzmq-18.0.0-py37h6afc9c9_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipykernel-4.8.0-py27_0.tar.bz2"
 }
