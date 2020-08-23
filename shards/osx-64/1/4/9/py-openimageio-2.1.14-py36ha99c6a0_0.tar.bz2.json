@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "OpenImageIO consists of: - Simple but powerful ImageInput and ImageOutput APIs that provide an abstraction   for reading and writing image files of nearly any format, without the calling   application needing to know any of the details of these file formats, and indeed   without the calling application needing to be aware of which formats are available. - Plugins implementing I/O for several popular image file formats, including TIFF,   JPEG/JFIF, OpenEXR, PNG, HDR/RGBE, ICO, BMP, Targa, JPEG-2000, RMan Zfile, FITS, DDS,   Softimage PIC, PNM, DPX, Cineon, IFF, Field3D, Ptex, Photoshop PSD, Wavefront RLA, SGI,   WebP, GIF, DICOM, many \\\"RAW\\\" digital camera formats, and a variety of movie formats   (readable as individual frames). More are being developed all the time. - An ImageCache class that transparently manages a cache so that it can access truly   vast amounts of image data (tens of thousands of image files totaling multiple TB)   very efficiently using only a tiny amount (tens of megabytes at most) of runtime memory.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://sites.google.com/site/openimageio/home",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/OpenImageIO/oiio/archive/Release-2.1.14.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Simple but powerful APIs for reading & writing many image formats",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1588510822,
+    "version": "2.1.14"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "py-openimageio-2.1.14-py36ha99c6a0_0.tar.bz2",
+  "repodata": {
+    "build": "py36ha99c6a0_0",
+    "build_number": 0,
+    "depends": [
+      "ffmpeg >=4.2,<4.3.0a0",
+      "giflib >=5.2.1,<5.3.0a0",
+      "jpeg >=9c,<10a",
+      "libcxx >=9.0.1",
+      "libpng >=1.6.37,<1.7.0a0",
+      "libtiff >=4.1.0,<5.0a0",
+      "libwebp-base >=1.1.0,<2.0a0",
+      "openexr >=2.4.1,<2.5.0a0",
+      "openimageio 2.1.14 ha99c6a0_0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "46e4d04e79efaed7ea718008737978fb",
+    "name": "py-openimageio",
+    "sha256": "1f34552f06a3491e8ce9b2809470f3646738e32f8c607e5983d6558d0761d2fe",
+    "size": 516803,
+    "subdir": "osx-64",
+    "timestamp": 1588510822665,
+    "version": "2.1.14"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/py-openimageio-2.1.14-py36ha99c6a0_0.tar.bz2"
+}
