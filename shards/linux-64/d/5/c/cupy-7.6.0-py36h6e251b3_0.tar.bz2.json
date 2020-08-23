@@ -1,8 +1,8 @@
 {
   "channeldata": {
-    "activate.d": false,
+    "activate.d": true,
     "binary_prefix": false,
-    "deactivate.d": false,
+    "deactivate.d": true,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
@@ -19,49 +19,50 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/cupy/cupy/archive/v6.6.0.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
     "summary": "CuPy is an implementation of a NumPy-compatible multi-dimensional array on CUDA.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1575680383,
-    "version": "6.6.0"
+    "timestamp": 1593103929,
+    "version": "7.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "cupy-6.6.0-py38h809cb0f_1.tar.bz2",
+  "package": "cupy-7.6.0-py36h6e251b3_0.tar.bz2",
   "repodata": {
-    "build": "py38h809cb0f_1",
-    "build_number": 1,
+    "build": "py36h6e251b3_0",
+    "build_number": 0,
     "depends": [
       "cudatoolkit 10.0|10.0.*",
       "cudnn >=7.6,<8.0a0",
       "fastrlock >=0.3",
-      "libgcc-ng >=7.3.0",
-      "libstdcxx-ng >=7.3.0",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
       "nccl >=2.4.6.1,<3.0a0",
       "numpy >=1.9.0",
-      "python >=3.8,<3.9.0a0",
+      "pypy3.6 >=7.3.1",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6 *_pypy36_pp73",
       "setuptools",
       "six >=1.9.0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "f3fbb176e9ed92ce542788f1746b3f12",
+    "md5": "f9033f2c7b30ec3c8ad2dca1aa72d60a",
     "name": "cupy",
-    "sha256": "a740069cb1dd4aa9522ea4763f8c371c6fea4c379c41c4599445593c018cc3d4",
-    "size": 15418699,
+    "sha256": "b9bd9123392d991aadbd70a93fae95418f6152eb6e532c5169ad56f2cbd90e21",
+    "size": 20722937,
     "subdir": "linux-64",
-    "timestamp": 1575680383702,
-    "version": "6.6.0"
+    "timestamp": 1593103929161,
+    "version": "7.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cupy-6.6.0-py38h809cb0f_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cupy-7.6.0-py36h6e251b3_0.tar.bz2"
 }
