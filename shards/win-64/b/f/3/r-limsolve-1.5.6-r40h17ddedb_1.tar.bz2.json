@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=limSolve",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/limSolve/limSolve_1.5.6.tar.gz",
+      "https://cran.r-project.org/src/contrib/limSolve_1.5.6.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Functions that (1) find the minimum/maximum of a linear or quadratic function: min or max (f(x)), where f(x) = ||Ax-b||^2 or f(x) = sum(a_i*x_i) subject to equality constraints Ex=f and/or inequality constraints Gx>=h, (2) sample an underdetermined- or overdetermined system Ex=f subject to Gx>=h, and if applicable Ax~=b,       (3) solve a linear system Ax=B for the unknown x. It includes banded and tridiagonal linear systems.  The package calls Fortran functions from 'LINPACK'.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1588585997,
+    "version": "1.5.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-limsolve-1.5.6-r40h17ddedb_1.tar.bz2",
+  "repodata": {
+    "build": "r40h17ddedb_1",
+    "build_number": 1,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=4.0,<4.1.0a0",
+      "r-lpsolve",
+      "r-mass",
+      "r-quadprog"
+    ],
+    "license": "GPL",
+    "license_family": "GPL",
+    "md5": "df19c3ea9281c3d9cc8be5dd816a80f7",
+    "name": "r-limsolve",
+    "sha256": "908ba68336e54e63030e0721c12a9abddbbd15116d5a354abe9302521698607e",
+    "size": 1050902,
+    "subdir": "win-64",
+    "timestamp": 1588585997667,
+    "version": "1.5.6"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-limsolve-1.5.6-r40h17ddedb_1.tar.bz2"
+}
