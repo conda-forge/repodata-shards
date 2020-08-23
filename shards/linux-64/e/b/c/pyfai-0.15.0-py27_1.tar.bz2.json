@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "pyFAI is an azimuthal integration library that tries to be fast (as fast as C and even more using OpenCL and GPU). It is based on histogramming of the 2theta/Q positions of each (center of) pixel weighted by the intensity of each pixel, but parallel version uses a SparseMatrix-DenseVector multiplication. Neighboring output bins get also a contribution of pixels next to the border thanks to pixel splitting. Finally pyFAI provides also tools to calibrate the experimental setup using Debye-Scherrer rings of a reference compound.",
+    "dev_url": "https://github.com/silx-kit/pyFAI/",
+    "doc_source_url": null,
+    "doc_url": "http://pythonhosted.org/pyFAI/",
+    "home": "https://github.com/silx-kit/pyFAI/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/silx-kit/pyFAI/archive/v0.15.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python implementation of fast azimuthal integration",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1525209131,
+    "version": "0.15.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pyfai-0.15.0-py27_1.tar.bz2",
+  "repodata": {
+    "build": "py27_1",
+    "build_number": 1,
+    "depends": [
+      "fabio",
+      "h5py",
+      "lxml",
+      "matplotlib",
+      "numpy >=1.11",
+      "pillow",
+      "python >=2.7,<2.8.0a0",
+      "scipy",
+      "silx"
+    ],
+    "license": "GPL-3",
+    "md5": "42c6b069d6a59c2d9e603418b5e3f71b",
+    "name": "pyfai",
+    "sha256": "e0bf02373e57a90666f0424798f3bf6ec9776257aa5c7c9903a617339444c82b",
+    "size": 12108130,
+    "subdir": "linux-64",
+    "timestamp": 1525209131189,
+    "version": "0.15.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyfai-0.15.0-py27_1.tar.bz2"
+}
