@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/danheck/MCMCprecision",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/MCMCprecision/MCMCprecision_0.3.9.tar.gz",
+      "https://cran.r-project.org/src/contrib/MCMCprecision_0.3.9.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Estimates the precision of transdimensional Markov chain Monte Carlo  (MCMC) output, which is often used for Bayesian analysis of models with different  dimensionality (e.g., model selection). Transdimensional MCMC (e.g., reversible  jump MCMC) relies on sampling a discrete model-indicator variable to estimate  the posterior model probabilities. If only few switches occur between the models,  precision may be low and assessment based on the assumption of independent  samples misleading. Based on the observed transition matrix of the indicator  variable, the method of Heck, Overstall, Gronau, & Wagenmakers (2018,  Statistics & Computing) <doi:10.1007/s11222-018-9828-0> draws posterior samples  of the stationary distribution to (a) assess the uncertainty in the estimated  posterior model probabilities and (b) estimate the effective sample size of  the MCMC output.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1565424753,
+    "version": "0.3.9"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-mcmcprecision-0.3.9-r35h796a38f_0.tar.bz2",
+  "repodata": {
+    "build": "r35h796a38f_0",
+    "build_number": 0,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=3.5,<3.6.0a0",
+      "r-combinat",
+      "r-matrix",
+      "r-rcpp",
+      "r-rcpparmadillo",
+      "r-rcppeigen",
+      "r-rcppprogress"
+    ],
+    "license": "GPL-3",
+    "license_family": "GPL3",
+    "md5": "b50dd7800e1669f6b600422637f7442a",
+    "name": "r-mcmcprecision",
+    "sha256": "fd3cfd24cbe3ccb77c06d28f35793f7fb9f78afdb4c41589b48a958ff7659152",
+    "size": 650429,
+    "subdir": "win-64",
+    "timestamp": 1565424753121,
+    "version": "0.3.9"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-mcmcprecision-0.3.9-r35h796a38f_0.tar.bz2"
+}
