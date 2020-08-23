@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/r-lib/gh#readme",
+    "home": "http://ferret.pmel.noaa.gov/Ferret",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,45 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": [
-      "https://cran.r-project.org/src/contrib/gh_1.0.1.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/gh/gh_1.0.1.tar.gz"
-    ],
+    "source_url": "https://github.com/NOAA-PMEL/PyFerret/archive/67aed0fa29f2d3f28e624030d746d23d146fc387.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Minimal client to access the 'GitHub' 'API'.",
+    "summary": "An Analysis Tool for Gridded and Non-Gridded Data.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.1"
+    "version": "7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "r-gh-1.0.1-r3.4.1_0.tar.bz2",
+  "package": "pyferret-7.0-np111_3.tar.bz2",
   "repodata": {
-    "build": "r3.4.1_0",
-    "build_number": 0,
+    "build": "np111_3",
+    "build_number": 3,
     "depends": [
-      "r-base 3.4.1*",
-      "r-httr",
-      "r-ini",
-      "r-jsonlite"
+      "cairo",
+      "libgcc",
+      "netcdf-fortran 4.4.*",
+      "numpy 1.11*",
+      "pango",
+      "pyqt"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "d75f1bde76dbedf46aa229987e05746b",
-    "name": "r-gh",
-    "sha256": "b9a681003191a5d058d920e130d2527c5c8937c84a61775c1ecbc2999e895343",
-    "size": 36397,
+    "md5": "eac8dd1c6e98982a50c72550fa5c769a",
+    "name": "pyferret",
+    "sha256": "1051fe6314ded5a00ef33c8c6ae62caf1c01a5558e226c286a86229034244e62",
+    "size": 3983639,
     "subdir": "linux-64",
-    "version": "1.0.1"
+    "version": "7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-gh-1.0.1-r3.4.1_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyferret-7.0-np111_3.tar.bz2"
 }
