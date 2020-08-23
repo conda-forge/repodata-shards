@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "StitchM stitches together mosaic images taken in Cockpit (Micron) into a universally readable format, currently .ome.tiff. The current output is an 16bit greyscale image when stitching the mosaic. Markers exported from Cockpit can be added as rectangular ROIs within the OME metadata stored in the image header. ROIs can be imported and displayed using bioformats in FIJI/ImageJ. Mainly for command-line use.",
+    "dev_url": "https://github.com/DiamondLightSource/StitchM",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/DiamondLightSource/StitchM/blob/master/README.md",
+    "home": "https://github.com/DiamondLightSource/StitchM",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/DiamondLightSource/StitchM/archive/v1.0.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Stitches mosaic images from Cockpit (Micron)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1593301740,
+    "version": "1.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "stitchm-1.0.1-py37hc8dfbb8_2.tar.bz2",
+  "repodata": {
+    "build": "py37hc8dfbb8_2",
+    "build_number": 2,
+    "depends": [
+      "mrcfile >=1.1.2",
+      "numpy >=1.17.4",
+      "omexml-dls >=1.0.3",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "pywin32",
+      "tifffile >=2019.7.26"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "26556729c88c76b5bc014cd78f58622a",
+    "name": "stitchm",
+    "sha256": "ec3ac80f700185cb38a0e5da431e998510b54c1830704233dbe31fd3fe96c76e",
+    "size": 58550,
+    "subdir": "win-64",
+    "timestamp": 1593301740174,
+    "version": "1.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/stitchm-1.0.1-py37hc8dfbb8_2.tar.bz2"
+}
