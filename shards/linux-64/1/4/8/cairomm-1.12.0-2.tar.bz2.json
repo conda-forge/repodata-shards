@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/eisensheng/pytest-catchlog",
+    "home": "http://cairographics.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "LGPL 2.1 and MPL 1.1",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-catchlog/pytest-catchlog-1.2.2.zip",
+    "source_url": "https://www.cairographics.org/releases/cairomm-1.12.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "py.test plugin to catch log messages. This is a fork of pytest-capturelog.",
+    "summary": "cairomm is a C++ wrapper for the cairo graphics library",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.2.2"
+    "version": "1.12.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "pytest-catchlog-1.2.2-py27_0.tar.bz2",
+  "package": "cairomm-1.12.0-2.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "2",
+    "build_number": 2,
     "depends": [
-      "pytest",
-      "python 2.7*"
+      "cairo",
+      "libpng >=1.6.23,<1.7",
+      "libsigcpp"
     ],
-    "license": "MIT",
-    "md5": "9276486dcf6177bc2d6ef393bdfbaacd",
-    "name": "pytest-catchlog",
-    "sha256": "f4b5f70122a09cc79b49bf0d2f4b1d03b16160f183183706e081b25bd68c1025",
-    "size": 10804,
+    "license": "LGPL 2.1 and MPL 1.1",
+    "md5": "5e340c288c1d013728d9cea214dd0ee0",
+    "name": "cairomm",
+    "sha256": "40b7d88b01461165339e3b9e63006836f37a38e58817d14a36444536491df97f",
+    "size": 228259,
     "subdir": "linux-64",
-    "version": "1.2.2"
+    "version": "1.12.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-catchlog-1.2.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cairomm-1.12.0-2.tar.bz2"
 }

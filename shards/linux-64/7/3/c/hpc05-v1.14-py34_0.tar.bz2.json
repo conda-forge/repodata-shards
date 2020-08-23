@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/basnijholt/hpc05",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/eisensheng/pytest-catchlog",
+    "home": "http://github.com/basnijholt/hpc05",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-catchlog/pytest-catchlog-1.2.2.zip",
+    "source_url": "https://github.com/basnijholt/hpc05/archive/v1.14.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "py.test plugin to catch log messages. This is a fork of pytest-capturelog.",
+    "summary": "ipyparallel Client package for PBS cluster with headnode (as on the TU Delft).",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.2.2"
+    "version": "v1.14"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "pytest-catchlog-1.2.2-py27_0.tar.bz2",
+  "package": "hpc05-v1.14-py34_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "pytest",
-      "python 2.7*"
+      "ipyparallel",
+      "ipython",
+      "paramiko",
+      "pexpect",
+      "psutil",
+      "python 3.4*",
+      "pyzmq",
+      "sshtunnel",
+      "tornado"
     ],
     "license": "MIT",
-    "md5": "9276486dcf6177bc2d6ef393bdfbaacd",
-    "name": "pytest-catchlog",
-    "sha256": "f4b5f70122a09cc79b49bf0d2f4b1d03b16160f183183706e081b25bd68c1025",
-    "size": 10804,
+    "md5": "36b238ef1fe25a71d5c5898305e9a711",
+    "name": "hpc05",
+    "sha256": "1dfd2b8dc89f8f7e9a42524b86adaf5fd4ee8542789a82a51f3200438316f4f3",
+    "size": 12485,
     "subdir": "linux-64",
-    "version": "1.2.2"
+    "version": "v1.14"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-catchlog-1.2.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/hpc05-v1.14-py34_0.tar.bz2"
 }

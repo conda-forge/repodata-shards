@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/jupyterlab/jupyterlab_launcher",
+    "home": "https://github.com/tschoonj/xraylib/wiki",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/j/jupyterlab_launcher/jupyterlab_launcher-0.5.4.tar.gz",
+    "source_url": "http://lvserver.ugent.be/xraylib/xraylib-3.3.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Launcher for JupyterLab based applications.",
+    "summary": "A library for X-ray matter interaction cross sections for X-ray fluorescence applications",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.5.4"
+    "version": "3.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "jupyterlab_launcher-0.5.4-py36_0.tar.bz2",
+  "package": "xraylib-3.3.0-np112py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "np112py27_0",
     "build_number": 0,
     "depends": [
-      "notebook",
-      "python 3.6*"
+      "numpy 1.12*",
+      "python 2.7*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "39472ae587274632f33002fb3c7b13c3",
-    "name": "jupyterlab_launcher",
-    "sha256": "bd7407b73f896256919b38c0ca49817854fa64f2b78c3d4ba65a85be14bc2617",
-    "size": 18011,
+    "md5": "920ea2fbe5ae017a2d7fd408c2740def",
+    "name": "xraylib",
+    "sha256": "ef0e6ef3f32d29256bfc44e910269853941cb6c3aac46f1a5cf7aadb0b468769",
+    "size": 15622636,
     "subdir": "linux-64",
-    "version": "0.5.4"
+    "version": "3.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/jupyterlab_launcher-0.5.4-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xraylib-3.3.0-np112py27_0.tar.bz2"
 }
