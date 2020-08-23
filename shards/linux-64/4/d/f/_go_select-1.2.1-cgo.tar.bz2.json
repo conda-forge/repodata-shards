@@ -1,0 +1,55 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "We support three different variants of the golang compiler, `precompiled`, which is a repackage of the builds available from golang.org; `cgo`, which is compiled from source by conda-forge with CGO_ENABLED=1; `nocgo`, which is compiled from source by conda-forge with CGO_ENABLED=0. In version 1 `conda` will prefer the `go-nocgo` version by default, followed by `go-cgo` and then `go-precompiled`.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/_go_select-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The golang select package.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1586066228,
+    "version": "1.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "_go_select-1.2.1-cgo.tar.bz2",
+  "repodata": {
+    "build": "cgo",
+    "build_number": 0,
+    "depends": [],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "1f6b2b431d952db9ad94de97aa828a44",
+    "name": "_go_select",
+    "sha256": "8563ad66f347bce69a4573422ed6b0521fb034624e176c8412ae543eebb5d6aa",
+    "size": 4858,
+    "subdir": "linux-64",
+    "timestamp": 1586066228274,
+    "version": "1.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/_go_select-1.2.1-cgo.tar.bz2"
+}
