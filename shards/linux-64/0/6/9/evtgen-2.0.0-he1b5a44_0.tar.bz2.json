@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "EvtGen is a Monte Carlo event generator that simulates the decays of heavy flavour particles, primarily B and D mesons. It contains a range of decay models for intermediate and final states containing scalar, vector and tensor mesons or resonances, as well as leptons, photons and baryons. Decay amplitudes are used to generate each branch of a given full decay tree, taking into account angular and time-dependent correlations which allows for the simulation of CP-violating processes.",
+    "dev_url": "https://phab.hepforge.org/source/evtgen/",
+    "doc_source_url": null,
+    "doc_url": "https://evtgen.hepforge.org/doc/",
+    "home": "https://evtgen.hepforge.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.0": {
+        "weak": [
+          "evtgen >=2.0.0,<2.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://evtgen.hepforge.org/downloads?f=EvtGen-02.00.00.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A Monte Carlo event generator that simulates the decays of heavy flavour particles",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1593306906,
+    "version": "2.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "evtgen-2.0.0-he1b5a44_0.tar.bz2",
+  "repodata": {
+    "build": "he1b5a44_0",
+    "build_number": 0,
+    "depends": [
+      "hepmc3 >=3.2.2,<4.0a0",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "pythia8 >=8.244,<8.300.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "md5": "c2a8dda0dd1fe48e6da24360ae1ff53e",
+    "name": "evtgen",
+    "sha256": "74574c7705215162bd5d78527af46f39372da6332619e0522ed03f6eb74552af",
+    "size": 5193773,
+    "subdir": "linux-64",
+    "timestamp": 1593306906189,
+    "version": "2.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/evtgen-2.0.0-he1b5a44_0.tar.bz2"
+}
