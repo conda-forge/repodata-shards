@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://hadoop.apache.org/avro",
+    "home": "https://ninja-build.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,11 +19,11 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://archive.apache.org/dist/avro/avro-1.8.2/cpp/avro-cpp-1.8.2.tar.gz",
+    "source_url": "https://github.com/ninja-build/ninja/archive/v1.8.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Avro is a serialization and RPC framework.",
+    "summary": "A small build system with a focus on speed",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
@@ -32,28 +32,24 @@
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "avrocpp-1.8.2-0.tar.bz2",
+  "package": "ninja-1.8.2-1.tar.bz2",
   "repodata": {
-    "build": "0",
-    "build_number": 0,
-    "depends": [
-      "boost 1.66.*",
-      "snappy",
-      "xz 5.2.*",
-      "zlib 1.2.*"
-    ],
+    "build": "1",
+    "build_number": 1,
+    "depends": [],
     "license": "Apache 2.0",
     "license_family": "Apache",
-    "md5": "41e551d7c3a49380557438ade447448e",
-    "name": "avrocpp",
-    "sha256": "6f190fb9458009bc23b7342a2160ccc454bfcd849e36ea0a4279b964448e18d7",
-    "size": 14429788,
+    "md5": "476680e18115f590ea5c8eea3c0cb7f7",
+    "name": "ninja",
+    "sha256": "be8fae9b85c1a08845fb0dbb8ac68f7c812400914025cd27bd8c7b587825fba3",
+    "size": 1194428,
     "subdir": "linux-64",
     "version": "1.8.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/avrocpp-1.8.2-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ninja-1.8.2-1.tar.bz2"
 }
