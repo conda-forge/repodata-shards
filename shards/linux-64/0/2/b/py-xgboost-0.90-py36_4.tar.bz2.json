@@ -26,40 +26,36 @@
     "summary": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1572315966,
+    "timestamp": 1572316729,
     "version": "0.90"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "r-xgboost-0.90-r35he1b5a44_4.tar.bz2",
+  "package": "py-xgboost-0.90-py36_4.tar.bz2",
   "repodata": {
-    "build": "r35he1b5a44_4",
+    "build": "py36_4",
     "build_number": 4,
     "depends": [
-      "_r-xgboost-mutex 2.0 cpu_0",
-      "libgcc-ng >=7.3.0",
-      "libstdcxx-ng >=7.3.0",
+      "_py-xgboost-mutex 2.0 cpu_0",
       "libxgboost 0.90 he1b5a44_4",
-      "r-base >=3.5,<3.6.0a0",
-      "r-data.table",
-      "r-magrittr",
-      "r-matrix",
-      "r-stringi"
+      "numpy",
+      "python >=3.6,<3.7.0a0",
+      "scikit-learn",
+      "scipy"
     ],
     "license": "Apache-2.0",
-    "md5": "880f87957f86b22bb11f48933e2122a4",
-    "name": "r-xgboost",
-    "sha256": "c6de26c869c7bbc4f4fd23f812a1e5a7e1d7e98906389060ab33b8f3f9da2731",
-    "size": 1124554,
+    "md5": "0fd00257f3468630a31e941a1057655c",
+    "name": "py-xgboost",
+    "sha256": "4d5949403ee8d32f87353baebeeeb7da6cf4c444a5bf586a037563a92356afa5",
+    "size": 74900,
     "subdir": "linux-64",
-    "timestamp": 1572315966803,
+    "timestamp": 1572316729526,
     "version": "0.90"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-xgboost-0.90-r35he1b5a44_4.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/py-xgboost-0.90-py36_4.tar.bz2"
 }
