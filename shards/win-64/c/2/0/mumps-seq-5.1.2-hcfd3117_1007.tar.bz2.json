@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "MUMPS (MUltifrontal Massively Parallel Solver) is a package for solving systems of linear equations of the form Ax = b, where A is a square sparse matrix that can be either unsymmetric, symmetric positive definite, or general symmetric, on distributed memory computers. MUMPS implements a direct method based on a multifrontal approach which performs a Gaussian factorization.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "http://mumps.enseeiht.fr/index.php?page=doc",
+    "home": "http://mumps.enseeiht.fr/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CeCILL-C",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://mumps.enseeiht.fr/MUMPS_5.1.2.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "MUMPS: a parallel sparse direct solver",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1553869968,
+    "version": "5.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "mumps-seq-5.1.2-hcfd3117_1007.tar.bz2",
+  "repodata": {
+    "build": "hcfd3117_1007",
+    "build_number": 1007,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "m2w64-gcc-libs"
+    ],
+    "license": "CeCILL-C",
+    "md5": "f7264893a53da09daf7bb9d38e4fd7b9",
+    "name": "mumps-seq",
+    "sha256": "77c864b7a012d379bcce351ef1eaee6324921c234a1ed4b11e2d238e08ab8455",
+    "size": 3823771,
+    "subdir": "win-64",
+    "timestamp": 1553869968245,
+    "version": "5.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/mumps-seq-5.1.2-hcfd3117_1007.tar.bz2"
+}
