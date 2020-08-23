@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -21,38 +21,41 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.7"
+    "version": "0.13.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "feedgenerator-1.7-py27_0.tar.bz2",
+  "package": "conda-build-all-0.13.1-py34_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*",
-      "pytz",
-      "six"
+      "anaconda-client",
+      "conda >4",
+      "conda-build >=1.20.2",
+      "gitpython",
+      "mock",
+      "python 3.4*",
+      "setuptools"
     ],
-    "license": "BSD-3-Clause",
-    "md5": "8fbc008e4078abfae39f78fba427c840",
-    "name": "feedgenerator",
-    "sha256": "fbaf71bc179eb7f5a0fa3a5c0428dc46adda0cdca6b0f5db8949afcfaabee0c7",
-    "size": 33920,
-    "subdir": "linux-64",
-    "version": "1.7"
+    "license": "BSD 3-clause",
+    "md5": "95c5130418f2601261b5251cdefeae3b",
+    "name": "conda-build-all",
+    "sha256": "176768e546f669dd2b2c3163a57938758c83eff08c2d34ffa0e24db6e06924f6",
+    "size": 94163,
+    "subdir": "win-64",
+    "version": "0.13.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/feedgenerator-1.7-py27_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/conda-build-all-0.13.1-py34_0.tar.bz2"
 }
