@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://www.netlib.org/lapack",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/scikit-learn/scikit-learn-0.17.1.tar.gz",
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Linear Algebra PACKage",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.17.1"
+    "timestamp": 1554043724,
+    "version": "2.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "scikit-learn-0.17.1-np110py34_blas_openblas_200.tar.bz2",
+  "package": "blas-2.5-netlib.tar.bz2",
   "repodata": {
-    "build": "np110py34_blas_openblas_200",
-    "build_number": 200,
+    "build": "netlib",
+    "build_number": 5,
     "depends": [
-      "blas 1.1 openblas",
-      "numpy 1.10*",
-      "openblas 0.2.18*",
-      "python 3.4*",
-      "scipy"
+      "libblas 3.8.0 5_h6e990d7_netlib",
+      "libcblas 3.8.0 5_h6e990d7_netlib",
+      "liblapack 3.8.0 5_h6e990d7_netlib",
+      "liblapacke 3.8.0 5_h6e990d7_netlib"
     ],
-    "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "md5": "795b7a7a0d6463dc7d478668d7fba70e",
-    "name": "scikit-learn",
-    "sha256": "40b05d5de35a7265e749886ecc8aab3736fb13e2595c947934a7840dcdf1d901",
-    "size": 9587771,
+    "md5": "ce4e8227e822835b68d39ce7012d66d5",
+    "name": "blas",
+    "sha256": "6f1c1784fdc47712e5764162ef6cf6d0f3a0510363be56a0b5b68e2d0923517b",
+    "size": 6631,
     "subdir": "linux-64",
-    "version": "0.17.1"
+    "timestamp": 1554043724981,
+    "version": "2.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/scikit-learn-0.17.1-np110py34_blas_openblas_200.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/blas-2.5-netlib.tar.bz2"
 }
