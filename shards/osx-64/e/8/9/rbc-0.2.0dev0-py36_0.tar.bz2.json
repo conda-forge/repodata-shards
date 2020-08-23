@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The aim of the Remote Backend Compiler project is to distribute the tasks of a program JIT compilation process to separate computer systems using the client-server model. The frontend of the compiler runs on the client computer and the backend runs on the server computer. The compiler frontend will send the program code to compiler backend in LLVM IR form where it will be compiled to machine code.",
+    "dev_url": "https://github.com/xnd-project/rbc",
+    "doc_source_url": null,
+    "doc_url": "https://rbc.readthedocs.io/",
+    "home": "https://github.com/xnd-project/rbc",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/xnd-project/rbc/archive/v0.2.0dev0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "RBC - Remote Backend Compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1578919595,
+    "version": "0.2.0dev0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "rbc-0.2.0dev0-py36_0.tar.bz2",
+  "repodata": {
+    "build": "py36_0",
+    "build_number": 0,
+    "depends": [
+      "llvmlite >=0.29",
+      "netifaces",
+      "numba",
+      "python >=3.6,<3.7.0a0",
+      "tblib",
+      "thriftpy2"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "dce8b1ee0d0ffff8bfb43281d9b8bd38",
+    "name": "rbc",
+    "sha256": "f56de97ea80b4557930bf8286c79b6fc00f79d72ef75953263c93248dbbc860f",
+    "size": 103816,
+    "subdir": "osx-64",
+    "timestamp": 1578919595066,
+    "version": "0.2.0dev0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/rbc-0.2.0dev0-py36_0.tar.bz2"
+}
