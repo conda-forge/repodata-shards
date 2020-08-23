@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/wakatime/wakatime",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://wakatime.com",
+    "home": "https://developers.google.com/protocol-buffers/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/w/wakatime/wakatime-10.2.0.tar.gz",
+    "source_url": "https://github.com/google/protobuf/archive/v3.5.1/protobuf-v3.5.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Common interface to the WakaTime api.",
+    "summary": "Protocol Buffers - Google's data interchange format.",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "10.2.0"
+    "version": "3.5.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "wakatime-10.2.0-py27_0.tar.bz2",
+  "package": "protobuf-3.5.1-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "python 3.6*",
+      "setuptools",
+      "six",
+      "zlib 1.2.11"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "3de647acd790b4140758267c3e6fb6b9",
-    "name": "wakatime",
-    "sha256": "81c7337dda15e4b916d0021d278e2ebea39e883e43182a0342cecf92946fe572",
-    "size": 2510233,
+    "md5": "5865e28421e77b9f9ff2f7c05d3f3bc7",
+    "name": "protobuf",
+    "sha256": "fd6267ecef398dec0c188722d05a4755c03732f2e5805e89155115ee5033a7fa",
+    "size": 6142898,
     "subdir": "linux-64",
-    "version": "10.2.0"
+    "version": "3.5.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/wakatime-10.2.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/protobuf-3.5.1-py36_0.tar.bz2"
 }
