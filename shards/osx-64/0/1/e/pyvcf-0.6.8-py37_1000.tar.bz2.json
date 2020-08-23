@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The intent of this module is to mimic the csv module in the Python stdlib, as opposed to more flexible serialization formats like JSON or YAML. vcf will attempt to parse the content of each record based on the data types specified in the meta-information lines -- specifically the \\##INFO and \\##FORMAT lines. If these lines are missing or incomplete, it will check against the reserved types mentioned in the spec. Failing that, it will just return strings.",
+    "dev_url": "https://github.com/jamescasbon/PyVCF",
+    "doc_source_url": null,
+    "doc_url": "http://pyvcf.readthedocs.io",
+    "home": "https://github.com/jamescasbon/PyVCF",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/P/PyVCF/PyVCF-0.6.8.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A Variant Call Format (VCF) v4.0 and v4.1 parser for Python.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1538672641,
+    "version": "0.6.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pyvcf-0.6.8-py37_1000.tar.bz2",
+  "repodata": {
+    "build": "py37_1000",
+    "build_number": 1000,
+    "depends": [
+      "python >=3.7,<3.8.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "932915a86d0ed25ea951c3a64b489d6b",
+    "name": "pyvcf",
+    "sha256": "4143f6ce9f5a78efc0dd7ecdd31de21165389735bd2b14e90aa3d51f6a602db1",
+    "size": 66132,
+    "subdir": "osx-64",
+    "timestamp": 1538672641557,
+    "version": "0.6.8"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/pyvcf-0.6.8-py37_1000.tar.bz2"
+}
