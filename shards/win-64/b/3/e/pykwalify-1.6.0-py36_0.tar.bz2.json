@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-mock",
+    "home": "http://github.com/grokzen/pykwalify",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-mock/pytest-mock-1.9.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pykwalify/pykwalify-1.6.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
-    "summary": "Thin-wrapper around the mock package for easier use with py.test",
+    "summary": "Python lib/cli for JSON/YAML schema validation",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.9.0"
+    "version": "1.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "pytest-mock-1.9.0-py36_0.tar.bz2",
+  "package": "pykwalify-1.6.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "pytest",
-      "python 3.6*"
+      "docopt >=0.6.2",
+      "python 3.6*",
+      "python-dateutil >=2.4.2",
+      "pyyaml >=3.11"
     ],
     "license": "MIT",
-    "md5": "10f5077ddf342832782e86e683d0a942",
-    "name": "pytest-mock",
-    "sha256": "5c81e3b81bbb3e5917cb6f888d2fcbcb24294a8f8e5cd33903815eeacffabcdf",
-    "size": 14941,
-    "subdir": "linux-64",
-    "version": "1.9.0"
+    "md5": "af605b7bfea74b83cb4fbe6bcf46eca4",
+    "name": "pykwalify",
+    "sha256": "0a9b58d0c09e1df1a216b9e343e93bd199399041c2c0084a833e0c23402da5b1",
+    "size": 66401,
+    "subdir": "win-64",
+    "version": "1.6.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-mock-1.9.0-py36_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pykwalify-1.6.0-py36_0.tar.bz2"
 }

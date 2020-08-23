@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-mock",
+    "home": "https://github.com/CamDavidsonPilon/lifelines",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-mock/pytest-mock-1.9.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/l/lifelines/lifelines-0.9.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Thin-wrapper around the mock package for easier use with py.test",
+    "summary": "Survival analysis in Python, including Kaplan Meier, Nelson Aalen and regression",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.9.0"
+    "version": "0.9.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pytest-mock-1.9.0-py36_0.tar.bz2",
+  "package": "lifelines-0.9.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "pytest",
-      "python 3.6*"
+      "numpy",
+      "pandas >=0.18",
+      "python 2.7*",
+      "scipy",
+      "setuptools"
     ],
     "license": "MIT",
-    "md5": "10f5077ddf342832782e86e683d0a942",
-    "name": "pytest-mock",
-    "sha256": "5c81e3b81bbb3e5917cb6f888d2fcbcb24294a8f8e5cd33903815eeacffabcdf",
-    "size": 14941,
+    "md5": "9401cd15701524e68246a12a3f4a79ec",
+    "name": "lifelines",
+    "sha256": "fe674047ebcb1b39cc5a6311a73098fb17204184157a2d19a36d267dfd5a99f1",
+    "size": 180131,
     "subdir": "linux-64",
-    "version": "1.9.0"
+    "version": "0.9.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-mock-1.9.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/lifelines-0.9.2-py27_0.tar.bz2"
 }
