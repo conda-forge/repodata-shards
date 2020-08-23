@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/stephens999/ashr",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL (>= 3)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/ashr/ashr_2.2-39.tar.gz",
+      "https://cran.r-project.org/src/contrib/ashr_2.2-39.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The R package 'ashr' implements an Empirical Bayes approach for large-scale hypothesis testing and false discovery rate (FDR) estimation based on the methods proposed in M. Stephens, 2016, \"False discovery rates: a new deal\", <DOI:10.1093/biostatistics/kxw041>. These methods can be applied whenever two sets of summary statistics---estimated effects and standard errors---are available, just as 'qvalue' can be applied to previously computed p-values. Two main interfaces are provided: ash(), which is more user-friendly; and ash.workhorse(), which has more options and is geared toward advanced users. The ash() and ash.workhorse() also provides a flexible modeling interface that can accomodate a variety of likelihoods (e.g., normal, Poisson) and mixture priors (e.g., uniform, normal).",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1577141738,
+    "version": "2.2_39"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-ashr-2.2_39-r36h0357c0b_0.tar.bz2",
+  "repodata": {
+    "build": "r36h0357c0b_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "r-assertthat",
+      "r-base >=3.6,<3.7.0a0",
+      "r-doparallel",
+      "r-etrunct",
+      "r-foreach",
+      "r-matrix",
+      "r-mixsqp",
+      "r-pscl",
+      "r-rcpp >=0.10.5",
+      "r-squarem",
+      "r-truncnorm"
+    ],
+    "license": "GPL (>= 3)",
+    "license_family": "GPL3",
+    "md5": "1c8b2b1f30d0fad6cf5a911876109887",
+    "name": "r-ashr",
+    "sha256": "2349b5f999ff54d46f74e5a21759206aa2653336e194a62a4e5125038b8c1eb2",
+    "size": 1205424,
+    "subdir": "linux-64",
+    "timestamp": 1577141738045,
+    "version": "2.2_39"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-ashr-2.2_39-r36h0357c0b_0.tar.bz2"
+}
