@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "gRPC is a modern, open source, high-performance remote procedure call (RPC) framework that can run anywhere. gRPC enables client and server applications to communicate transparently, and simplifies the building of connected systems.  This package contains the gRPC C++ libraries and header files, as well as the code generation plugins.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://grpc.io/docs/",
+    "home": "https://grpc.io/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.30.1": {
+        "weak": [
+          "grpc-cpp >=1.30.1,<1.31.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/grpc/grpc/archive/v1.30.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "gRPC - A high-performance, open-source universal RPC framework",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1594243785,
+    "version": "1.30.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "grpc-cpp-1.30.1-h6dd9d94_0.tar.bz2",
+  "repodata": {
+    "build": "h6dd9d94_0",
+    "build_number": 0,
+    "depends": [
+      "abseil-cpp >=20200225.2,<20200225.3.0a0",
+      "gflags >=2.2.2,<2.3.0a0",
+      "libcxx >=9.0.1",
+      "libprotobuf >=3.12.3,<3.13.0a0",
+      "openssl >=1.1.1g,<1.1.2a",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "568cfb2ebbcbecb1e96ddf6b5f663812",
+    "name": "grpc-cpp",
+    "sha256": "8a87cd5c7a14b550f0dd7f4b1857d81ab7f6185bfecf84ab5d918427c1383683",
+    "size": 2902592,
+    "subdir": "osx-64",
+    "timestamp": 1594243785840,
+    "version": "1.30.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/grpc-cpp-1.30.1-h6dd9d94_0.tar.bz2"
+}
