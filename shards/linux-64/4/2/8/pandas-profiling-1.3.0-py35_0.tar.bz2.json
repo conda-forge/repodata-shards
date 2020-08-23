@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/erikrose/more-itertools",
+    "dev_url": "http://github.com/jospolfliet/pandas-profiling",
     "doc_source_url": null,
-    "doc_url": "https://more-itertools.readthedocs.io/en/latest/api.html",
-    "home": "https://github.com/erikrose/more-itertools",
+    "doc_url": null,
+    "home": "http://github.com/jospolfliet/pandas-profiling",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/m/more-itertools/more-itertools-3.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pandas-profiling/pandas-profiling-1.3.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "More routines for operating on iterables, beyond itertools",
+    "summary": "Generate profile report for pandas DataFrame",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.0.0"
+    "version": "1.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "more-itertools-3.0.0-py35_0.tar.bz2",
+  "package": "pandas-profiling-1.3.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
+      "jinja2 >=2.8",
+      "matplotlib >=1.4",
+      "pandas >=0.16",
       "python 3.5*",
-      "six >=1.0.0,<2.0.0"
+      "six >=1.9"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "dfd47e9036dbfd83a980f4a0cb422e0f",
-    "name": "more-itertools",
-    "sha256": "5e2ec69fc16e29c0beddd04f7b89cdbb130e9fd2db94077a22e76c311594b82d",
-    "size": 55983,
+    "md5": "a00d9fab0150a53d8c6c234bf9cb5d22",
+    "name": "pandas-profiling",
+    "sha256": "b19aaca483749cdae03388af5eaf10b2374cc8eea38b698ed9b1f3647f8f148c",
+    "size": 228756,
     "subdir": "linux-64",
-    "version": "3.0.0"
+    "version": "1.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/more-itertools-3.0.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandas-profiling-1.3.0-py35_0.tar.bz2"
 }
