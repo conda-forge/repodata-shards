@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://bitbucket.org/astanin/python-tabulate",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/astanin/python-tabulate",
+    "home": "https://github.com/ropensci/taxizesoap/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/t/tabulate/tabulate-0.7.7.tar.gz",
+    "source_url": "https://github.com/ropensci/taxizesoap/releases/download/v0.1.0.99/taxizesoap_0.1.0.99.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Pretty-print tabular data in Python, a library and a command-line utility.",
+    "summary": "taxize but for SOAP data sources",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.7.7"
+    "version": "0.1.0.99"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "tabulate-0.7.7-py27_0.tar.bz2",
+  "package": "r-taxizesoap-0.1.0.99-r3.4.1_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "r3.4.1_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "r-base 3.4.1*",
+      "r-data.table",
+      "r-httr",
+      "r-plyr",
+      "r-rcurl",
+      "r-ssoap",
+      "r-xml",
+      "r-xmlschema"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "8de30fb4789ff606b5298156772c84b8",
-    "name": "tabulate",
-    "sha256": "a15c8dd8592f378288e0f3da64e6dd9eb38a2ecaf75d1ced98ea25e9cb9aebee",
-    "size": 31251,
+    "md5": "1f944ab91d176c0bb4666ea9c630cfdc",
+    "name": "r-taxizesoap",
+    "sha256": "98c5cb322b738c86a4b74a96af4148fc3001c2f0ca8dd5099a56649067d0d282",
+    "size": 194946,
     "subdir": "linux-64",
-    "version": "0.7.7"
+    "version": "0.1.0.99"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/tabulate-0.7.7-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/r-taxizesoap-0.1.0.99-r3.4.1_0.tar.bz2"
 }

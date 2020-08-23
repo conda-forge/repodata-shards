@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://www.x.org/",
+    "home": "https://github.com/asottile/pyupgrade",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/lib/libXcursor-1.1.15.tar.bz2",
+    "source_url": "https://pypi.io/packages/source/p/pyupgrade/pyupgrade-1.24.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The X.org mouse cursor control library.",
+    "summary": "A tool to automatically upgrade syntax for newer versions.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "1.1.15"
+    "timestamp": 1570567215,
+    "version": "1.24.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "xorg-libxcursor-1.1.15-0.tar.bz2",
+  "package": "pyupgrade-1.24.1-py37_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py37_0",
     "build_number": 0,
     "depends": [
-      "xorg-libx11 1.6.*",
-      "xorg-libxfixes 5.0.*",
-      "xorg-libxrender 0.9.*"
+      "python >=3.7,<3.8.0a0",
+      "tokenize-rt >=3.2.0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "5b85bcff4adcf31f33bf74bc6f2ccfe3",
-    "name": "xorg-libxcursor",
-    "sha256": "ad2f7d42360b2ba22a7097e735f9850b93aa1e92e2df3fc23147faf3eebcf301",
-    "size": 38579,
+    "md5": "fb10425663114aaf7a27086ed3dfb08a",
+    "name": "pyupgrade",
+    "sha256": "b769d4ace672ed286bbf37451ed25a1324772817ebb3fb098cef584bc84c8762",
+    "size": 43490,
     "subdir": "linux-64",
-    "version": "1.1.15"
+    "timestamp": 1570567215218,
+    "version": "1.24.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxcursor-1.1.15-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyupgrade-1.24.1-py37_0.tar.bz2"
 }
