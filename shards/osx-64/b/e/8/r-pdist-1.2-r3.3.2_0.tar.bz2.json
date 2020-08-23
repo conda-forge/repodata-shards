@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://cran.r-project.org/web/packages/pdist/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/pdist_1.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/pdist/pdist_1.2.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Computes the euclidean distance between rows of a matrix X and rows of another matrix Y.  Previously, this could be done by binding the two matrices together and calling 'dist', but this creates unnecessary computation by computing the distances between a row of X and another row of X, and likewise for Y. pdist strictly computes distances across the two matrices, not within the same matrix, making computations significantly faster for certain use cases.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-pdist-1.2-r3.3.2_0.tar.bz2",
+  "repodata": {
+    "build": "r3.3.2_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc",
+      "r-base 3.3.2*"
+    ],
+    "license": "GPL",
+    "license_family": "GPL",
+    "md5": "c41665ea29649d6d0f1730500bdd774c",
+    "name": "r-pdist",
+    "sha256": "5b6647927f8644ba7c38d352ee1b03d2e6a1a917d24423abab5a2425683335ab",
+    "size": 21443,
+    "subdir": "osx-64",
+    "version": "1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-pdist-1.2-r3.3.2_0.tar.bz2"
+}
