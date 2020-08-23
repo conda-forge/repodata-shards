@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "SIESTA is both a method and its computer program implementation, to perform efficient electronic structure calculations and ab initio molecular dynamics simulations of molecules and solids. SIESTA's efficiency stems from the use of strictly localized basis sets and from the implementation of linear-scaling algorithms which can be applied to suitable systems. A very important feature of the code is that its accuracy and cost can be tuned in a wide range, from quick exploratory calculations to highly accurate simulations matching the quality of other approaches, such as plane-wave and all-electron methods.",
+    "dev_url": "https://launchpad.net/siesta/",
+    "doc_source_url": null,
+    "doc_url": "https://launchpad.net/siesta/4.0/4.0.2/+download/siesta.pdf",
+    "home": "https://launchpad.net/siesta/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://launchpad.net/siesta/4.0/4.0.2/+download/siesta-4.0.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A first-principles materials simulation code using DFT",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1554373772,
+    "version": "4.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "siesta-4.0.2-nompi_h3261db7_1004.tar.bz2",
+  "repodata": {
+    "build": "nompi_h3261db7_1004",
+    "build_number": 1004,
+    "depends": [
+      "libblas * *openblas",
+      "libgfortran >=3.0.1,<4.0.0.a0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "netcdf-fortran >=4.4.5,<4.5.0a0",
+      "openblas",
+      "ssh"
+    ],
+    "license": "GPL-3",
+    "license_family": "GPL",
+    "md5": "46fcca651b7ba713af6302e9e8d68c40",
+    "name": "siesta",
+    "sha256": "806ad5ca25cf2ae3b76f634f999f02be0283e6987dee8d4641b2356f428b2dfc",
+    "size": 6997422,
+    "subdir": "osx-64",
+    "timestamp": 1554373772451,
+    "version": "4.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/siesta-4.0.2-nompi_h3261db7_1004.tar.bz2"
+}
