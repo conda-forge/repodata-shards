@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/nanshe-org/rank_filter",
+    "home": "http://sgpp.sparsegrids.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/rank_filter/rank_filter-0.4.14.tar.gz",
+    "source_url": "https://github.com/SGpp/SGpp/archive/v3.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A simple python module containing an in-place linear rank filter optimized in C++.",
+    "summary": "A numerical library for adaptive Sparse Grids",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.4.14"
+    "timestamp": 1562527759,
+    "version": "3.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "rank_filter-0.4.14-np113py35_0.tar.bz2",
+  "package": "sgpp-3.2.0-py37hb3f55d8_0.tar.bz2",
   "repodata": {
-    "build": "np113py35_0",
+    "build": "py37hb3f55d8_0",
     "build_number": 0,
     "depends": [
-      "boost-cpp 1.64.*",
-      "numpy 1.13*",
-      "numpy >=1.7",
-      "python 3.5*"
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "numpy >=1.14.6,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "scipy"
     ],
     "license": "BSD 3-Clause",
-    "md5": "3957d6c0f6f23f8a0ffbbe83ea4434cf",
-    "name": "rank_filter",
-    "sha256": "96f4097c7065f9db269bc3a79f39e8f23a32b6939dfef8763c6ca2b3dba9ee9d",
-    "size": 566088,
+    "md5": "7a6a8535d4f9052dd57909d843889b96",
+    "name": "sgpp",
+    "sha256": "ebb91f86a3144ca6f0a13361de13b05a99168acb879f3be854690b9d03f7eb07",
+    "size": 80400504,
     "subdir": "linux-64",
-    "version": "0.4.14"
+    "timestamp": 1562527759762,
+    "version": "3.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/rank_filter-0.4.14-np113py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/sgpp-3.2.0-py37hb3f55d8_0.tar.bz2"
 }

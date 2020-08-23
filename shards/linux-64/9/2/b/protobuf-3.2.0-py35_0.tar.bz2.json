@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/alex/pretend",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/alex/pretend",
+    "home": "https://developers.google.com/protocol-buffers/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pretend/pretend-1.0.8.tar.gz",
+    "source_url": "https://github.com/google/protobuf/archive/v3.2.0/protobuf-v3.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for stubbing in Python",
+    "summary": "Protocol Buffers - Google's data interchange format.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.0.8"
+    "version": "3.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pretend-1.0.8-py35_0.tar.bz2",
+  "package": "protobuf-3.2.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "python 3.5*",
+      "setuptools",
+      "six",
+      "zlib 1.2.*"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "2efc7194a323d9bdd718e7e0fc44ff1e",
-    "name": "pretend",
-    "sha256": "b8d20bc7d832878038b4d1e9555c630629509ed64ebb98be47276c110a0a6b7c",
-    "size": 186896,
+    "md5": "da643e097e46407dae4d2aab89665764",
+    "name": "protobuf",
+    "sha256": "ced3801ed939c630f1b14c4deac303000f553db9d3110b779c9c248487085b80",
+    "size": 7628472,
     "subdir": "linux-64",
-    "version": "1.0.8"
+    "version": "3.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pretend-1.0.8-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/protobuf-3.2.0-py35_0.tar.bz2"
 }
