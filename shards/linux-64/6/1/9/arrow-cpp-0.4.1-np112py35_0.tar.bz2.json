@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://docs.pyinvoke.org",
+    "home": "http://github.com/apache/arrow",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-2-Clause",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/invoke/invoke-0.18.1.tar.gz",
+    "source_url": "https://github.com/apache/arrow/archive/46315431aeda3b6968b3ac4c1087f6d41052b99d.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Pythonic task execution",
+    "summary": "C++ libraries for Apache Arrow",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "0.18.1"
+    "version": "0.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "invoke-0.18.1-py27_0.tar.bz2",
+  "package": "arrow-cpp-0.4.1-np112py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "np112py35_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "jemalloc",
+      "numpy 1.12*",
+      "python 3.5*"
     ],
-    "license": "BSD-2-Clause",
-    "md5": "22563322a440c9832113dbf3b764810e",
-    "name": "invoke",
-    "sha256": "f55db6044712c8729629ba5f69b9a54b303b29465d38e4e2739f9fac6829eaef",
-    "size": 206546,
+    "license": "Apache 2.0",
+    "md5": "487bd30ec32cfeb7ea4a97c62f232075",
+    "name": "arrow-cpp",
+    "sha256": "33ffe9f8f8e24e53936424673f7150fdd65e8a5bcb53952a2baa881bc01a0eda",
+    "size": 1345038,
     "subdir": "linux-64",
-    "version": "0.18.1"
+    "version": "0.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/invoke-0.18.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/arrow-cpp-0.4.1-np112py35_0.tar.bz2"
 }
