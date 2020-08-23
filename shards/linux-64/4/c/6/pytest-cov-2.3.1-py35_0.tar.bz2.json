@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/martinblech/xmltodict",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/martinblech/xmltodict",
+    "home": "https://github.com/pytest-dev/pytest-cov",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/x/xmltodict/xmltodict-0.10.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pytest-cov/pytest-cov-2.3.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Makes working with XML feel like you are working with JSON",
+    "summary": "Pytest plugin for measuring coverage",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.10.2"
+    "version": "2.3.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "xmltodict-0.10.2-py27_0.tar.bz2",
+  "package": "pytest-cov-2.3.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "coverage",
+      "pytest",
+      "python 3.5*",
+      "setuptools"
     ],
     "license": "MIT",
-    "md5": "ecd6a7178376fc6774c894ddb5e59e1b",
-    "name": "xmltodict",
-    "sha256": "c3efc910f39fa232a294e4654a76c3832ba80f04daa54d158490789a69946c0c",
-    "size": 10556,
+    "md5": "16f7cbb39449b13d42ea3046a943eeb8",
+    "name": "pytest-cov",
+    "sha256": "8b9fa0d080820d38a06063fed46e8bb86c93778381156cb11f5c9b84f01e5b81",
+    "size": 200020,
     "subdir": "linux-64",
-    "version": "0.10.2"
+    "version": "2.3.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xmltodict-0.10.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pytest-cov-2.3.1-py35_0.tar.bz2"
 }
