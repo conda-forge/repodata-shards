@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Adaptive scheduler solves the following problem, you need to run a few 100 learners and can use >1k cores. You can't use a centrally managed place that is responsible for all the workers (like with dask or ipyparallel) because >1k cores is too many for them to handle. You also don't want to use dask or ipyparallel inside a job script because they write job scripts on their own. Having a job script that runs code that creates job scripts... With adaptive-scheduler you only need to define the learners and then it takes care of the running (and restarting) of the jobs on the cluster.",
+    "dev_url": "https://github.com/basnijholt/adaptive-scheduler",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/basnijholt/adaptive-scheduler",
+    "home": "http://github.com/basnijholt/adaptive-scheduler",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/a/adaptive-scheduler/adaptive_scheduler-0.2.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "An asynchronous scheduler using MPI for Adaptive",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1559771865,
+    "version": "0.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "adaptive-scheduler-0.2.1-py37_0.tar.bz2",
+  "repodata": {
+    "build": "py37_0",
+    "build_number": 0,
+    "depends": [
+      "adaptive",
+      "mpi4py",
+      "python >=3.7,<3.8.0a0",
+      "pyzmq",
+      "structlog",
+      "tinydb",
+      "toolz",
+      "tqdm"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "51122e1b1729cced6b84689609e8daa4",
+    "name": "adaptive-scheduler",
+    "sha256": "554ff7f1c453373649ccf85c7f7c6bf477bf52971ad933913351004b2ebe34f6",
+    "size": 35947,
+    "subdir": "linux-64",
+    "timestamp": 1559771865341,
+    "version": "0.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/adaptive-scheduler-0.2.1-py37_0.tar.bz2"
+}
