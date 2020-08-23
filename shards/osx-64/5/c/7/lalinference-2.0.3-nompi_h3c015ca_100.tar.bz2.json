@@ -1,0 +1,78 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Inference Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Inference library.  If you want to install the Python bindings, please install the associated python-lalinference package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalinference/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.3": {
+        "weak": [
+          "lalinference >=2.0.3,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalinference-2.0.3.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Inference Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1596833486,
+    "version": "2.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lalinference-2.0.3-nompi_h3c015ca_100.tar.bz2",
+  "repodata": {
+    "build": "nompi_h3c015ca_100",
+    "build_number": 100,
+    "depends": [
+      "gsl >=2.6,<2.7.0a0",
+      "lal >=7.0.0",
+      "lal >=7.0.0,<8.0a0",
+      "lalburst >=1.5.3",
+      "lalburst >=1.5.5,<1.6.0a0",
+      "lalframe >=1.5.0",
+      "lalframe >=1.5.1,<2.0a0",
+      "lalinspiral >=1.10.0",
+      "lalinspiral >=1.10.1,<1.11.0a0",
+      "lalmetaio >=1.6.0",
+      "lalmetaio >=1.6.1,<2.0a0",
+      "lalpulsar >=2.0.0",
+      "lalpulsar >=2.0.0,<2.1.0a0",
+      "lalsimulation >=2.1.0",
+      "lalsimulation >=2.2.0,<3.0a0",
+      "llvm-openmp >=10.0.1"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "f54e685c485ec569646cdb8d93fa140b",
+    "name": "lalinference",
+    "sha256": "dbbad92ad8164907e8053dce425917afe970b4b1987cf5fe88bb1afc138a788f",
+    "size": 1209262,
+    "subdir": "osx-64",
+    "timestamp": 1596833486521,
+    "version": "2.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lalinference-2.0.3-nompi_h3c015ca_100.tar.bz2"
+}
