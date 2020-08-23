@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "http://github.com/cloudera/python-sasl",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/mobiusklein/pynumpress",
+    "home": "http://github.com/cloudera/python-sasl",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,42 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pynumpress/pynumpress-0.0.3.tar.gz",
+    "source_url": "https://github.com/cloudera/python-sasl/archive/v0.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A thin, more convenient wrapper around MSNumpress",
+    "summary": "Python wrapper for Cyrus SASL",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1546710656,
-    "version": "0.0.3"
+    "timestamp": 1538619111,
+    "version": "0.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
+    "cf202003",
     "main"
   ],
-  "package": "pynumpress-0.0.3-py37hf8a1672_0.tar.bz2",
+  "package": "sasl-0.2.1-py37hfc679d8_1.tar.bz2",
   "repodata": {
-    "build": "py37hf8a1672_0",
-    "build_number": 0,
+    "build": "py37hfc679d8_1",
+    "build_number": 1,
     "depends": [
+      "cyrus-sasl >=2.1.26,<3.0a0",
       "libgcc-ng >=4.9",
       "libstdcxx-ng >=4.9",
-      "numpy",
-      "python >=3.7,<3.8.0a0"
+      "python >=3.7,<3.8.0a0",
+      "six"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "b49c586edda4c9473930ea0880db603b",
-    "name": "pynumpress",
-    "sha256": "bb16d7173656365d063f25fe450704984250fdfc54db8e4af4febf022c3ccdfc",
-    "size": 93534,
+    "md5": "6a170ec3df1a8562ba8dc25133ff46cf",
+    "name": "sasl",
+    "sha256": "d38df0cac3441399ecf157e66c7e56e586e50aa789e4a41baf9fca49872562bc",
+    "size": 56486,
     "subdir": "linux-64",
-    "timestamp": 1546710656276,
-    "version": "0.0.3"
+    "timestamp": 1538619111161,
+    "version": "0.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pynumpress-0.0.3-py37hf8a1672_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sasl-0.2.1-py37hfc679d8_1.tar.bz2"
 }
