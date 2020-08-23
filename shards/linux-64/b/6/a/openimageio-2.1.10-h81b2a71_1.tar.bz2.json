@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "OpenImageIO consists of: - Simple but powerful ImageInput and ImageOutput APIs that provide an abstraction   for reading and writing image files of nearly any format, without the calling   application needing to know any of the details of these file formats, and indeed   without the calling application needing to be aware of which formats are available. - Plugins implementing I/O for several popular image file formats, including TIFF,   JPEG/JFIF, OpenEXR, PNG, HDR/RGBE, ICO, BMP, Targa, JPEG-2000, RMan Zfile, FITS, DDS,   Softimage PIC, PNM, DPX, Cineon, IFF, Field3D, Ptex, Photoshop PSD, Wavefront RLA, SGI,   WebP, GIF, DICOM, many \\\"RAW\\\" digital camera formats, and a variety of movie formats   (readable as individual frames). More are being developed all the time. - An ImageCache class that transparently manages a cache so that it can access truly   vast amounts of image data (tens of thousands of image files totaling multiple TB)   very efficiently using only a tiny amount (tens of megabytes at most) of runtime memory.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://sites.google.com/site/openimageio/home",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.1.10": {
+        "weak": [
+          "openimageio >=2.1.10,<2.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/OpenImageIO/oiio/archive/Release-2.1.10.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Simple but powerful APIs for reading & writing many image formats",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1582365908,
+    "version": "2.1.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "openimageio-2.1.10-h81b2a71_1.tar.bz2",
+  "repodata": {
+    "build": "h81b2a71_1",
+    "build_number": 1,
+    "depends": [
+      "boost >=1.72.0,<1.72.1.0a0",
+      "ffmpeg >=4.1.3,<4.2.0a0",
+      "giflib >=5.2.1,<5.3.0a0",
+      "jpeg >=9c,<10a",
+      "libgcc-ng >=7.3.0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "libtiff >=4.1.0,<5.0a0",
+      "libwebp >=1.0.2,<1.1.0a0",
+      "openexr >=2.4.1,<2.5.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "c36d7fb81f3bf31db4a493309adfe788",
+    "name": "openimageio",
+    "sha256": "676795561160495410f2c523e1eed6e702948f0dd06274abb784187bf8488ac9",
+    "size": 3881215,
+    "subdir": "linux-64",
+    "timestamp": 1582365908557,
+    "version": "2.1.10"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/openimageio-2.1.10-h81b2a71_1.tar.bz2"
+}
