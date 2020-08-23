@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/conda/constructor",
+    "home": "http://salib.github.io/SALib/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/constructor/archive/1.5.5.tar.gz",
+    "source_url": "https://github.com/SALib/SALib/archive/v1.0.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "create installer from conda packages",
+    "summary": "Sensitivity Analysis Library",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "1.5.5"
+    "version": "1.0.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "constructor-1.5.5-py35_0.tar.bz2",
+  "package": "salib-1.0.7-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "libconda",
-      "pycosat >=0.6.1",
+      "matplotlib",
+      "numpy",
       "python 3.5*",
-      "pyyaml"
+      "scipy"
     ],
-    "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "12828ed6571ef8c3fa52d34b1219533f",
-    "name": "constructor",
-    "sha256": "c044ed260f0704ec236a1f218acd82243bd56489cce849f864a2d07a9f22470a",
-    "size": 43879,
+    "license": "MIT",
+    "md5": "79681b9d0b4c4c7c049c1afdc6c555c4",
+    "name": "salib",
+    "sha256": "11cfd9befd8c43f0f478814d7c734a07bf5dc170c09f09a91b40b37e5c154dc8",
+    "size": 1178191,
     "subdir": "linux-64",
-    "version": "1.5.5"
+    "version": "1.0.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/constructor-1.5.5-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/salib-1.0.7-py35_0.tar.bz2"
 }
