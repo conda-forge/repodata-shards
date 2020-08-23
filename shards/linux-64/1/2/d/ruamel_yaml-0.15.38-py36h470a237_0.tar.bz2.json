@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/parrt/random-forest-importances",
+    "home": "https://bitbucket.org/ruamel/yaml",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,44 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/rfpimp/rfpimp-1.1.1.tar.gz",
+    "source_url": "https://bitbucket.org/ruamel/yaml/get/0.15.38.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Code to compute permutation and drop-column importances in Python scikit-learn random forests",
+    "summary": "A patched copy of ruamel.yaml.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1525742573,
-    "version": "1.1.1"
+    "timestamp": 1528917701,
+    "version": "0.15.38"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "rfpimp-1.1.1-py36_0.tar.bz2",
+  "package": "ruamel_yaml-0.15.38-py36h470a237_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py36h470a237_0",
     "build_number": 0,
     "depends": [
-      "matplotlib",
-      "numpy",
-      "pandas",
+      "libgcc-ng >=4.9",
       "python >=3.6,<3.7.0a0",
-      "scikit-learn"
+      "yaml"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "739db1932698eb78026118cee6927d77",
-    "name": "rfpimp",
-    "sha256": "11356cbc88367ec7bef6874eddd3a142de64bd779f06392d9e657577c927cbea",
-    "size": 13156,
+    "md5": "87d9a9f760028a783fc9b8668c1b38fb",
+    "name": "ruamel_yaml",
+    "sha256": "567fc27bebe80c6e9277326f55e9cdead0a796367c8e5192f54b8e97f0ed24a2",
+    "size": 549829,
     "subdir": "linux-64",
-    "timestamp": 1525742573873,
-    "version": "1.1.1"
+    "timestamp": 1528917701762,
+    "version": "0.15.38"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/rfpimp-1.1.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/ruamel_yaml-0.15.38-py36h470a237_0.tar.bz2"
 }
