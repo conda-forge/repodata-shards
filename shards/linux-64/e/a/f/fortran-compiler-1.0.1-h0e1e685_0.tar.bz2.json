@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the Fortran compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('fortran') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A metapackage to obtain a Fortran compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1549965090,
+    "version": "1.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "fortran-compiler-1.0.1-h0e1e685_0.tar.bz2",
+  "repodata": {
+    "build": "h0e1e685_0",
+    "build_number": 0,
+    "depends": [
+      "binutils 1.0.1 0",
+      "gfortran_linux-64",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0"
+    ],
+    "license": "BSD",
+    "md5": "9c4496e4623c90ff6b30b112908682f1",
+    "name": "fortran-compiler",
+    "sha256": "3adc81b320f29415405302c417d24d17c58b1eecf0ad7efbae418706d5bf4dbc",
+    "size": 5387,
+    "subdir": "linux-64",
+    "timestamp": 1549965090738,
+    "version": "1.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fortran-compiler-1.0.1-h0e1e685_0.tar.bz2"
+}
