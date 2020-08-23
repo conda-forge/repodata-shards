@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": null,
+    "license": "GPL-2.0 and FreeType (http://freetype.sourceforge.net/FTL.TXT)",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -21,36 +21,37 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "noarch"
+      "win-64"
     ],
     "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0"
+    "version": "2.6.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
-    "cf201901"
+    "main"
   ],
-  "package": "futures-compat-1.0-py3_0.tar.bz2",
+  "package": "freetype-2.6.3-vc10_0.tar.bz2",
   "repodata": {
-    "build": "py3_0",
+    "build": "vc10_0",
     "build_number": 0,
     "depends": [
-      "python 3.*"
+      "libpng 1.6*",
+      "zlib 1.2*"
     ],
-    "md5": "e3d52c397a27973bc694e31f41768154",
-    "name": "futures-compat",
-    "sha256": "277dfa274d324fbecb4ce2dac4fbfe670812d30b051447d0e69c500ff8623030",
-    "size": 313,
-    "subdir": "noarch",
-    "version": "1.0"
+    "features": "vc10",
+    "license": "GPL-2.0 and FreeType (http://freetype.sourceforge.net/FTL.TXT)",
+    "md5": "abfe597d5858ab5ff4e87d66cc0188e9",
+    "name": "freetype",
+    "sha256": "79a6d9a23a4c77c7eeb77da7c5a892c31a5279a4523551614c4c6757187c4720",
+    "size": 449440,
+    "subdir": "win-64",
+    "version": "2.6.3"
   },
   "repodata_version": 1,
-  "subdir": "noarch",
-  "url": "https://conda.anaconda.org/conda-forge/noarch/futures-compat-1.0-py3_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/freetype-2.6.3-vc10_0.tar.bz2"
 }
