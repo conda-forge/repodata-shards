@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/alexeckert/parallelDist, https://www.alexandereckert.com/R",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/parallelDist/parallelDist_0.2.4.tar.gz",
+      "https://cran.r-project.org/src/contrib/parallelDist_0.2.4.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A fast parallelized alternative to R's native 'dist' function to calculate distance matrices for continuous, binary, and multi-dimensional input matrices, which supports a broad variety of 41 predefined distance functions from the 'stats', 'proxy' and 'dtw' R packages, as well as user- defined functions written in C++. For ease of use, the 'parDist' function extends the signature of the 'dist' function and uses the same parameter naming conventions as distance methods of existing R packages. The package is mainly implemented in C++ and leverages the 'RcppParallel' package to parallelize the distance computations with the help of the 'TinyThread' library. Furthermore, the 'Armadillo' linear algebra library is used for optimized matrix operations during distance calculations. The curiously recurring template pattern (CRTP) technique is applied to avoid virtual functions, which improves the Dynamic Time Warping calculations while the implementation stays flexible enough to support different DTW step patterns and normalization methods.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1588751538,
+    "version": "0.2.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-paralleldist-0.2.4-r36hc5da6b9_1.tar.bz2",
+  "repodata": {
+    "build": "r36hc5da6b9_1",
+    "build_number": 1,
+    "depends": [
+      "libcxx >=9.0.1",
+      "libopenblas",
+      "r-base >=3.6,<3.7.0a0",
+      "r-rcpp >=0.12.6",
+      "r-rcpparmadillo",
+      "r-rcppparallel >=4.3.20"
+    ],
+    "license": "GPL-2",
+    "license_family": "GPL2",
+    "md5": "dc7b626eff774bf2a2f23ba4f56de5ed",
+    "name": "r-paralleldist",
+    "sha256": "ce53b8dffba3f036291e3330970b11f1946a5fa6c71d7f74dd9f145bdef9c558",
+    "size": 343312,
+    "subdir": "osx-64",
+    "timestamp": 1588751538930,
+    "version": "0.2.4"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-paralleldist-0.2.4-r36hc5da6b9_1.tar.bz2"
+}
