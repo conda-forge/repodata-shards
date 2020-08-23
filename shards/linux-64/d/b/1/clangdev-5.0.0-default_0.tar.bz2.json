@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://jupyter.org",
+    "home": "http://llvm.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "NCSA",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/j/jupyter_core/jupyter_core-4.3.0.tar.gz",
+    "source_url": "http://llvm.org/releases/5.0.0/cfe-5.0.0.src.tar.xz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Core common functionality of Jupyter projects.",
+    "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "4.3.0"
+    "version": "5.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "jupyter_core-4.3.0-py35_0.tar.bz2",
+  "package": "clangdev-5.0.0-default_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "default_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*",
-      "traitlets"
+      "libxml2 2.9.*",
+      "llvmdev ==5.0.0",
+      "system"
     ],
-    "license": "BSD 3-clause",
-    "md5": "e4ebdb2d2fefabfe71f70c6bc28f5cdd",
-    "name": "jupyter_core",
-    "sha256": "c59c2a9a17ccaf1798cef2f077833b8e4e511bfbb601c5ff8872af4803d0acc8",
-    "size": 535536,
+    "license": "NCSA",
+    "md5": "a6f156b7c5d8be787de1fe9ddc8f596a",
+    "name": "clangdev",
+    "sha256": "7496fcdc29b7a28f189ee5979ff284523d0fd23fe61a9e6cf47a3af8f138b9cf",
+    "size": 86934266,
     "subdir": "linux-64",
-    "version": "4.3.0"
+    "version": "5.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/jupyter_core-4.3.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/clangdev-5.0.0-default_0.tar.bz2"
 }
