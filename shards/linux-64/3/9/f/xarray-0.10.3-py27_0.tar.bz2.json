@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/amoffat/sh",
+    "home": "https://github.com/pydata/xarray",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "Apache-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/sh/sh-1.12.14.tar.gz",
+    "source_url": "https://pypi.io/packages/source/x/xarray/xarray-0.10.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python subprocess interface",
+    "summary": "N-D labeled arrays and datasets in Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.12.14"
+    "version": "0.10.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "sh-1.12.14-py27_0.tar.bz2",
+  "package": "xarray-0.10.3-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "bottleneck",
+      "cyordereddict",
+      "dask >=0.9",
+      "h5netcdf",
+      "netcdf4",
+      "numpy >=1.11",
+      "pandas >=0.18",
+      "python 2.7*",
+      "scipy"
     ],
-    "license": "MIT",
-    "license_family": "MIT",
-    "md5": "fa5b40d53c10c64fde42bfe61e60f57a",
-    "name": "sh",
-    "sha256": "1af6f9a68583d28118bb6c7878ec1e0d5bbc31dfd203686f9b90fcc5e56e08ec",
-    "size": 58567,
+    "license": "Apache-2.0",
+    "md5": "cbd48399b5075f1b315276eb824a3eb4",
+    "name": "xarray",
+    "sha256": "3051e9c9c12d19dda16ad1165da5b16960d5d233d862e73c9ad910ebca703585",
+    "size": 673636,
     "subdir": "linux-64",
-    "version": "1.12.14"
+    "version": "0.10.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/sh-1.12.14-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xarray-0.10.3-py27_0.tar.bz2"
 }

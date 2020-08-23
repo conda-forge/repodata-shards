@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/amoffat/sh",
+    "home": "http://giflib.sourceforge.net",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -17,17 +17,23 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "5.2.1": {
+        "weak": [
+          "giflib >=5.2.1,<5.2.2.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/sh/sh-1.12.14.tar.gz",
+    "source_url": "http://downloads.sourceforge.net/project/giflib/giflib-5.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python subprocess interface",
+    "summary": "Library for reading and writing gif images",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.12.14"
+    "timestamp": 1573081848,
+    "version": "5.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +41,23 @@
     "cf202003",
     "main"
   ],
-  "package": "sh-1.12.14-py27_0.tar.bz2",
+  "package": "giflib-5.2.1-h516909a_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "h516909a_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "libgcc-ng >=7.3.0"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "fa5b40d53c10c64fde42bfe61e60f57a",
-    "name": "sh",
-    "sha256": "1af6f9a68583d28118bb6c7878ec1e0d5bbc31dfd203686f9b90fcc5e56e08ec",
-    "size": 58567,
+    "md5": "b0b195c3e3b12c2e860a4e2aa62b2df4",
+    "name": "giflib",
+    "sha256": "e87f3e686438455bfa9261e01e22491497d9fc82bd40d559fc0abae95718115c",
+    "size": 72710,
     "subdir": "linux-64",
-    "version": "1.12.14"
+    "timestamp": 1573081848609,
+    "version": "5.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/sh-1.12.14-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/giflib-5.2.1-h516909a_0.tar.bz2"
 }
