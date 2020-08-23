@@ -1,0 +1,91 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/erdc/proteus",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://proteustoolkit.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.7.1": {
+        "weak": [
+          "proteus * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/erdc/proteus/archive/1.7.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Proteus is a Python package for rapidly developing computer models and numerical methods.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1577484097,
+    "version": "1.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "proteus-1.7.1-mpi_mpich_hd2c6b24_5.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hd2c6b24_5",
+    "build_number": 5,
+    "depends": [
+      "cython >=0.29.14,<0.30.0a0",
+      "daetk * mpi_mpich_*",
+      "future",
+      "h5py * *mpich*",
+      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_mpich_*",
+      "ipyparallel",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "matplotlib",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpi4py",
+      "mpich >=3.3.2,<3.4.0a0",
+      "ncurses",
+      "nose",
+      "openblas >=0.3.6,<0.3.7.0a0",
+      "petsc >=3.12.2,<3.13.0a0",
+      "petsc4py >=3.12.0,<3.13.0a0",
+      "pillow",
+      "pychrono",
+      "pytables",
+      "pytest",
+      "pytest-xdist",
+      "python >=3.7,<3.8.0a0",
+      "recordtype",
+      "scipy",
+      "scorec * mpi_mpich_*",
+      "tetgen",
+      "triangle"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "58fc2b759b3f7783fa628bc80ebe30d1",
+    "name": "proteus",
+    "sha256": "a95c9a53bc2515cc7b13c7cc14a855a9c984ed4e25aa90d9edfa2f3a590cb1c7",
+    "size": 44895134,
+    "subdir": "linux-64",
+    "timestamp": 1577484097239,
+    "version": "1.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/proteus-1.7.1-mpi_mpich_hd2c6b24_5.tar.bz2"
+}
