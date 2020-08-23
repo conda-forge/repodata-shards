@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.mcs.anl.gov/petsc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.11.4": {
+        "weak": [
+          "petsc >=3.11.4,<3.12.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.11.4.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1571651977,
+    "version": "3.11.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "petsc-3.11.4-h6322da9_2.tar.bz2",
+  "repodata": {
+    "build": "h6322da9_2",
+    "build_number": 2,
+    "depends": [
+      "hypre >=2.15.1,<2.16.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.3.1,<3.4.0a0",
+      "mumps-mpi >=5.2.1,<5.2.2.0a0",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "ptscotch >=6.0.8,<6.0.9.0a0",
+      "scalapack >=2.0.2,<2.1.0a0",
+      "scotch >=6.0.8,<6.0.9.0a0",
+      "suitesparse >=4.5.6,<4.6.0a0"
+    ],
+    "license": "BSD 2-Clause",
+    "license_family": "BSD",
+    "md5": "d39155bce4887b5f89bc0194671ac3e1",
+    "name": "petsc",
+    "sha256": "7ab087e0ddf221fae193b4a37388c66151f22c248530c5bc26a94b0f4102a72f",
+    "size": 9543228,
+    "subdir": "linux-64",
+    "timestamp": 1571651977662,
+    "version": "3.11.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/petsc-3.11.4-h6322da9_2.tar.bz2"
+}
