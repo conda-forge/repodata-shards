@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/yixuan/RSpectra",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL (>= 2)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/RSpectra/RSpectra_0.12-0.tar.gz",
+      "https://cran.r-project.org/src/contrib/RSpectra_0.12-0.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "R interface to the 'Spectra' library <http://yixuan.cos.name/spectra/> for large scale eigenvalue and SVD problems. It is typically used to compute a few eigenvalues/vectors of an n by n matrix, e.g., the k largest eigenvalues, which is usually more efficient than eigen() if k << n. This package provides the 'eigs()' function which does the similar job as in 'Matlab', 'Octave', 'Python SciPy' and 'Julia'. It also provides the 'svds()' function to calculate the largest k singular values and corresponding singular vectors of a real matrix. Matrices can be given in either dense or sparse form.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1533337909,
+    "version": "0.12_0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-rspectra-0.12_0-r341hca4a3dc_1.tar.bz2",
+  "repodata": {
+    "build": "r341hca4a3dc_1",
+    "build_number": 1,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=3.4.1,<3.4.2.0a0",
+      "r-matrix >=1.1_0",
+      "r-rcpp >=0.11.5",
+      "r-rcppeigen >=0.3.2.2.0",
+      "spectra"
+    ],
+    "license": "MPL (>= 2)",
+    "license_family": "OTHER",
+    "md5": "14513b8b6bef407ef689566dd02e3951",
+    "name": "r-rspectra",
+    "sha256": "c2f1618b3bdb685a2ae63aedf6e50a6593e60590c384db41ede8f4163dfdc923",
+    "size": 735086,
+    "subdir": "win-64",
+    "timestamp": 1533337909204,
+    "version": "0.12_0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-rspectra-0.12_0-r341hca4a3dc_1.tar.bz2"
+}
