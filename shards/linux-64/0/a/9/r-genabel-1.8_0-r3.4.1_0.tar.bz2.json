@@ -7,12 +7,12 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.gamlss.org/",
+    "home": "http",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-2 | GPL-3",
+    "license": "GPL (>= 2)",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -20,17 +20,17 @@
     "run_exports": {},
     "source_git_url": null,
     "source_url": [
-      "https://cran.r-project.org/src/contrib/gamlss_5.0-2.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/gamlss/gamlss_5.0-2.tar.gz"
+      "https://cran.r-project.org/src/contrib/GenABEL_1.8-0.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/GenABEL/GenABEL_1.8-0.tar.gz"
     ],
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Functions for fitting Generalized Additive Models for Location Scale and Shape.",
+    "summary": "a package for genome-wide association analysis between  quantitative or binary traits and single-nucleotide polymorphisms (SNPs).",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "5.0_2"
+    "version": "1.8_0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -38,29 +38,26 @@
     "cf202003",
     "main"
   ],
-  "package": "r-gamlss-5.0_2-r3.4.1_0.tar.bz2",
+  "package": "r-genabel-1.8_0-r3.4.1_0.tar.bz2",
   "repodata": {
     "build": "r3.4.1_0",
     "build_number": 0,
     "depends": [
       "libgcc",
       "r-base 3.4.1*",
-      "r-gamlss.data >=5.0_0",
-      "r-gamlss.dist >=4.3.1",
-      "r-mass",
-      "r-nlme",
-      "r-survival"
+      "r-genabel.data",
+      "r-mass"
     ],
-    "license": "GPL-2 | GPL-3",
+    "license": "GPL (>= 2)",
     "license_family": "GPL3",
-    "md5": "6308cf50a41720183e33278ed4658081",
-    "name": "r-gamlss",
-    "sha256": "656ca4fa90fcaef9f0604a828d3440ab1df27e576bb9a3dbf93581b97cc34e15",
-    "size": 3192469,
+    "md5": "6fd67a4affc13d9e922e236c2a5d12ff",
+    "name": "r-genabel",
+    "sha256": "c96fa1b76c7e3f9598e8c5c967c2e066658d38260ab6f98252471b00584512be",
+    "size": 3033748,
     "subdir": "linux-64",
-    "version": "5.0_2"
+    "version": "1.8_0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-gamlss-5.0_2-r3.4.1_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-genabel-1.8_0-r3.4.1_0.tar.bz2"
 }
