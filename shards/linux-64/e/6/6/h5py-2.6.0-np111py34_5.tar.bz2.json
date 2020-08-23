@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-mock",
+    "home": "http://www.h5py.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-mock/pytest-mock-1.8.0.tar.gz",
+    "source_url": "https://github.com/h5py/h5py/archive/2.6.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Thin-wrapper around the mock package for easier use with py.test",
+    "summary": "Read and write HDF5 files from Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.8.0"
+    "version": "2.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "pytest-mock-1.8.0-py36_0.tar.bz2",
+  "package": "h5py-2.6.0-np111py34_5.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "np111py34_5",
+    "build_number": 5,
     "depends": [
-      "pytest",
-      "python 3.6*"
+      "hdf5 1.8.17|1.8.17.*",
+      "numpy 1.11*",
+      "python 3.4*",
+      "six"
     ],
-    "license": "MIT",
-    "md5": "c024c6c9637b96f02a88982ab0a4e114",
-    "name": "pytest-mock",
-    "sha256": "85e73f2e1450dbe105d9c0451a3f8b4f58374b643eb772b6ee6524b77174e13e",
-    "size": 14910,
+    "license": "BSD 3-Clause",
+    "md5": "1e527b79938bed58d9fcb5bbdb3d5e2a",
+    "name": "h5py",
+    "sha256": "417fb07d07dfea9c444b080f4d156fb73d1b50e0e193c8b93b3f1c7b156a9000",
+    "size": 3180294,
     "subdir": "linux-64",
-    "version": "1.8.0"
+    "version": "2.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-mock-1.8.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.6.0-np111py34_5.tar.bz2"
 }

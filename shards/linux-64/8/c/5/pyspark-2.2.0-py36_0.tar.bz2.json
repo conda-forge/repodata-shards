@@ -3,31 +3,31 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": null,
+    "description": "Apache Spark is a fast and general engine for large-scale data processing.",
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-mock",
+    "home": "http://spark.apache.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-mock/pytest-mock-1.8.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyspark/pyspark-2.2.0.post0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Thin-wrapper around the mock package for easier use with py.test",
+    "summary": "Apache Spark",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.8.0"
+    "version": "2.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "pytest-mock-1.8.0-py36_0.tar.bz2",
+  "package": "pyspark-2.2.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "pytest",
+      "numpy >=1.7",
+      "pandas >=0.13.0",
+      "py4j 0.10.6",
       "python 3.6*"
     ],
-    "license": "MIT",
-    "md5": "c024c6c9637b96f02a88982ab0a4e114",
-    "name": "pytest-mock",
-    "sha256": "85e73f2e1450dbe105d9c0451a3f8b4f58374b643eb772b6ee6524b77174e13e",
-    "size": 14910,
+    "license": "Apache 2.0",
+    "md5": "db25bf1f6fddaf3e00ec18a18b81df58",
+    "name": "pyspark",
+    "sha256": "0131e59bf6c38bfd5a51c1191b5d60b3d349c56e11a74c15d687197e30e483a4",
+    "size": 188343414,
     "subdir": "linux-64",
-    "version": "1.8.0"
+    "version": "2.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-mock-1.8.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyspark-2.2.0-py36_0.tar.bz2"
 }
