@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This library provides a common high-level API for openPMD writing and reading. It provides a common interface to I/O libraries and file formats such as HDF5, ADIOS and JSON. Language bindings are provided for C++11 (or newer) and Python 3. This conda-forge package only provides serial I/O, please build from source for MPI parallel I/O on HPC systems. Window support is limited to HDF5 and JSON.",
+    "dev_url": "https://github.com/openPMD/openPMD-api",
+    "doc_source_url": null,
+    "doc_url": "https://openpmd-api.readthedocs.io",
+    "home": "https://www.openPMD.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL 3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.9.0a": {
+        "weak": [
+          "openpmd-api * mpi_mpich_*",
+          "openpmd-api >=0.9,<0.10.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/openPMD/openPMD-api/archive/0.9.0-alpha.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "C++ & Python API for writing & reading (.h5, .bp, .json, ...), serial & MPI parallel openPMD files.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1565100763,
+    "version": "0.9.0a"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "openpmd-api-0.9.0a-mpi_mpich_py37h833b28a_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py37h833b28a_1",
+    "build_number": 1,
+    "depends": [
+      "adios * mpi_mpich_*",
+      "blosc",
+      "bzip2",
+      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_mpich_*",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "mpich >=3.2,<3.3.0a0",
+      "numpy >=1.15.0",
+      "python >=3.7,<3.8.0a0",
+      "zlib"
+    ],
+    "license": "LGPL 3",
+    "license_family": "LGPL",
+    "md5": "ab319ba94cdc410047b88a34491483fe",
+    "name": "openpmd-api",
+    "sha256": "e63a3a56de6f10bd0475cbd92ce2dd51e1a7770216e2d62156f2c3e12845205a",
+    "size": 1368160,
+    "subdir": "linux-64",
+    "timestamp": 1565100763002,
+    "version": "0.9.0a"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/openpmd-api-0.9.0a-mpi_mpich_py37h833b28a_1.tar.bz2"
+}

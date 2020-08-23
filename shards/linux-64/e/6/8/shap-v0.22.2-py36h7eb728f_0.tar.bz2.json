@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "SHAP (SHapley Additive exPlanations) is a unified approach to explain the output of any machine learning model. SHAP connects game theory with local explanations, uniting several previous methods and representing the only possible consistent and locally accurate additive feature attribution method based on expectations.",
     "dev_url": "https://github.com/slundberg/shap",
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/slundberg/shap/archive/0.32.1.tar.gz",
+    "source_url": "https://github.com/slundberg/shap/archive/v0.22.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "A unified approach to explain the output of any machine learning model.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1576103087,
-    "version": "0.32.1"
+    "timestamp": 1533917166,
+    "version": "v0.22.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,34 +35,32 @@
     "cf202003",
     "main"
   ],
-  "package": "shap-0.32.1-py36hb3f55d8_0.tar.bz2",
+  "package": "shap-v0.22.2-py36h7eb728f_0.tar.bz2",
   "repodata": {
-    "build": "py36hb3f55d8_0",
+    "build": "py36h7eb728f_0",
     "build_number": 0,
     "depends": [
       "ipython",
-      "libgcc-ng >=7.3.0",
-      "libstdcxx-ng >=7.3.0",
+      "libgcc-ng >=4.9",
       "matplotlib",
       "numpy",
       "pandas",
       "python >=3.6,<3.7.0a0",
-      "scikit-image",
       "scikit-learn",
       "scipy",
       "tqdm"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "ed2a1764b24a917454595190c70855c7",
+    "md5": "3c15d315fdf0c85b706092d292f0711a",
     "name": "shap",
-    "sha256": "7cfdfe2baf5ffbbb1f9e7df7476fd9376495104cabd46c8a24f69de1b09de91b",
-    "size": 384778,
+    "sha256": "d25ea8bbae7943d49e7f4a43394c42e4b0ef3d71764de55174ae31843fa6fb42",
+    "size": 265391,
     "subdir": "linux-64",
-    "timestamp": 1576103087142,
-    "version": "0.32.1"
+    "timestamp": 1533917166215,
+    "version": "v0.22.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/shap-0.32.1-py36hb3f55d8_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/shap-v0.22.2-py36h7eb728f_0.tar.bz2"
 }
