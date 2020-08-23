@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://mercurial-scm.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "GPL2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://www.hdfgroup.org/ftp/HDF/HDF_Current/src/hdf-4.2.11.tar.bz2",
+    "source_url": "https://mercurial-scm.org/release/mercurial-4.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Source control management tool",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "4.2.11"
+    "version": "4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,22 @@
     "cf202003",
     "main"
   ],
-  "package": "hdf4-4.2.11-4.tar.bz2",
+  "package": "mercurial-4.1-py27_1.tar.bz2",
   "repodata": {
-    "build": "4",
-    "build_number": 4,
+    "build": "py27_1",
+    "build_number": 1,
     "depends": [
-      "jpeg 9*",
-      "zlib 1.2.*"
+      "python 2.7*"
     ],
-    "license": "BSD-3-Clause",
-    "license_family": "BSD",
-    "md5": "149edaae895bde7a065d34f183447fe3",
-    "name": "hdf4",
-    "sha256": "e8eb573c15080c004fbaa687b61ed81c53d347c780f51ec1ce125ef039205b59",
-    "size": 984278,
+    "license": "GPL2",
+    "md5": "1cec0acdeca99571dcf7087d261a3f67",
+    "name": "mercurial",
+    "sha256": "b44a2fecad728c3b66a45ad41689f391e1490dde589f95f44a2063dfeee176c5",
+    "size": 2856075,
     "subdir": "linux-64",
-    "version": "4.2.11"
+    "version": "4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdf4-4.2.11-4.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mercurial-4.1-py27_1.tar.bz2"
 }
