@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "To use this package in a normal conda environment, do the following     export CONDA_BUILD_WINSDK=/opt  To use this package in a conda-build environment, add the following     CONDA_BUILD_WINSDK:      - \"/opt\"  in $HOME/conda_build_config.yaml and use `clang_win-64` as the compiler.  By setting this variable, you are agreeing to the terms and conditions of the Windows SDK and the MSVC headers. If the Windows SDK and MSVC headers are not inside CONDA_BUILD_WINSDK, they would be automatically downloaded.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/clang-win-activation-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "9.0.1": {
+        "strong": [
+          "vc >=14.1",
+          "vs2015_runtime >=14.14.26423"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "clang (cross) compiler for windows with MSVC ABI compatbility",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1589350063,
+    "version": "9.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "clang_win-64-9.0.1-hbfc7cb3_5.tar.bz2",
+  "repodata": {
+    "build": "hbfc7cb3_5",
+    "build_number": 5,
+    "depends": [
+      "clangxx 9.0.1.*",
+      "compiler-rt 9.0.1.*",
+      "compiler-rt_win-64 9.0.1.*",
+      "lld 9.0.1.*",
+      "llvm-tools 9.0.1.*",
+      "vs2017_win-64 19.16.27038.*",
+      "vswhere"
+    ],
+    "license": "BSD-3-clause",
+    "license_family": "BSD",
+    "md5": "727ecd9f2a4182649879fea3f6ef5e73",
+    "name": "clang_win-64",
+    "sha256": "18b638e6386e5359e0ff63d3d07aac074b39871752afa3c4f73cf996c4c70bc3",
+    "size": 21956,
+    "subdir": "win-64",
+    "timestamp": 1589350063475,
+    "version": "9.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/clang_win-64-9.0.1-hbfc7cb3_5.tar.bz2"
+}
