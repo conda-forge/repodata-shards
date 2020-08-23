@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://dirk.eddelbuettel.com/code/rinside.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL (>= 2)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/RInside/RInside_0.2.16.tar.gz",
+      "https://cran.r-project.org/src/contrib/RInside_0.2.16.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "C++ classes to embed R in C++ applications A C++ class providing the R interpreter is offered by this package making it easier to have \"R inside\" your C++ application. As R itself is embedded into your application, a shared library build of R is required. This works on Linux, OS X and even on Windows provided you use the same tools used to build R itself. d Numerous examples are provided in the eight subdirectories of the examples/ directory of the installed package: standard, 'mpi' (for parallel computing), 'qt' (showing how to embed 'RInside' inside a Qt GUI application), 'wt' (showing how to build a \"web-application\" using the Wt toolkit), 'armadillo' (for 'RInside' use with 'RcppArmadillo') and 'eigen' (for 'RInside' use with 'RcppEigen').  The examples use 'GNUmakefile(s)' with GNU extensions, so a GNU make is required (and will use the 'GNUmakefile' automatically). 'Doxygen'-generated documentation of the C++ classes is available at the 'RInside' website as well.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1588690836,
+    "version": "0.2.16"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-rinside-0.2.16-r40h796a38f_1.tar.bz2",
+  "repodata": {
+    "build": "r40h796a38f_1",
+    "build_number": 1,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=4.0,<4.1.0a0",
+      "r-rcpp >=0.11.0"
+    ],
+    "license": "GPL (>= 2)",
+    "license_family": "GPL3",
+    "md5": "00b36da1727b4ad5d02996e98e4fcecf",
+    "name": "r-rinside",
+    "sha256": "f68ef49d2a38ce7ef00d25f849b2933da74f47349b74695e2b5c5fa36ea410dc",
+    "size": 280301,
+    "subdir": "win-64",
+    "timestamp": 1588690836455,
+    "version": "0.2.16"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-rinside-0.2.16-r40h796a38f_1.tar.bz2"
+}
