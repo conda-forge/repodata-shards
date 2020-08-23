@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.cherrypy.org",
+    "home": "https://github.com/CATIA-Systems/FMPy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "BSD-3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/C/CherryPy/CherryPy-6.0.1.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Object-Oriented HTTP framework",
+    "summary": "Simulate Functional Mockup Units (FMUs) in Python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "6.0.1"
+    "version": "0.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "cherrypy-6.0.1-py34_0.tar.bz2",
+  "package": "fmpy-0.1.1-py36_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*",
-      "six"
+      "dask",
+      "lxml",
+      "matplotlib",
+      "numpy",
+      "pathlib",
+      "python 3.6*",
+      "requests"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "3e0e4d303ec95439a6d9311d366d82a7",
-    "name": "cherrypy",
-    "sha256": "7e4776237ae63b770e29a5347b4d96f01efb3b2894851d054a822e04114dddf9",
-    "size": 602592,
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "ce2f612fbceaac76033771f33567fff1",
+    "name": "fmpy",
+    "sha256": "585d02e6eb129ab9a100f90ab8aa9352fc21a718f5b6334885ad61c9df54112f",
+    "size": 653249,
     "subdir": "linux-64",
-    "version": "6.0.1"
+    "version": "0.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cherrypy-6.0.1-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fmpy-0.1.1-py36_0.tar.bz2"
 }
