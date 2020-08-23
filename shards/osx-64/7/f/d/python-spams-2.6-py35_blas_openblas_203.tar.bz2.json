@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,44 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "http://spams-devel.gforge.inria.fr/hitcounter2.php?file=36644/spams-python3-v2.6-svn2017-03-28.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "An optimization toolbox for solving various sparse estimation problems.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.5"
+    "version": "2.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "python-spams-2.5-np110py27_blas_openblas_203.tar.bz2",
+  "package": "python-spams-2.6-py35_blas_openblas_203.tar.bz2",
   "repodata": {
-    "build": "np110py27_blas_openblas_203",
+    "build": "py35_blas_openblas_203",
     "build_number": 203,
     "depends": [
       "blas 1.1 openblas",
       "libgcc",
-      "numpy 1.10*",
-      "openblas 0.2.18|0.2.18.*",
-      "python 2.7*",
+      "numpy >=1.9",
+      "openblas 0.2.20|0.2.20.*",
+      "python 3.5*",
       "scipy"
     ],
     "features": "blas_openblas",
     "license": "GPL 3",
-    "md5": "a2412004828a75bb03074398855ae116",
+    "md5": "2a73fb96c64e78e2ef4a04224f7c956d",
     "name": "python-spams",
-    "sha256": "cbf89e131636ffbf603eb7c28466f702beec435ad59595c22267409bc2cb549b",
-    "size": 3062766,
-    "subdir": "linux-64",
-    "version": "2.5"
+    "sha256": "9a1946024b57d7f7a3920835b7adc299889d1f7d74485aaef69ece5df0f9d5d0",
+    "size": 805642,
+    "subdir": "osx-64",
+    "version": "2.6"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-spams-2.5-np110py27_blas_openblas_203.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/python-spams-2.6-py35_blas_openblas_203.tar.bz2"
 }
