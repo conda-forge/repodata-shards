@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.mcs.anl.gov/petsc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.10.4": {
+        "weak": [
+          "petsc >=3.10.4,<3.11.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.10.4.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1551374153,
+    "version": "3.10.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "petsc-3.10.4-blas_openblash14459d0_0.tar.bz2",
+  "repodata": {
+    "build": "blas_openblash14459d0_0",
+    "build_number": 0,
+    "depends": [
+      "hypre >=2.15.1,<2.16.0a0",
+      "libcxx >=4.0.1",
+      "libgfortran >=3.0.1,<4.0.0.a0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.2,<3.3.0a0",
+      "mumps-mpi >=5.1.2,<5.1.3.0a0",
+      "openblas >=0.3.3,<0.3.4.0a0",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "ptscotch >=6.0.6,<6.0.7.0a0",
+      "scalapack >=2.0.2,<2.1.0a0",
+      "scotch >=6.0.6,<6.0.7.0a0",
+      "suitesparse >=4.5.6,<4.5.7.0a0"
+    ],
+    "features": "blas_openblas",
+    "license": "BSD 2-Clause",
+    "license_family": "BSD",
+    "md5": "b33fbda323d2c775f88b9913dc3e5121",
+    "name": "petsc",
+    "sha256": "36da82c76762b104feef0e96af9a67bcd875b428f77b5e5e99843f5d9aae7c4d",
+    "size": 7036356,
+    "subdir": "osx-64",
+    "timestamp": 1551374153161,
+    "version": "3.10.4"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/petsc-3.10.4-blas_openblash14459d0_0.tar.bz2"
+}
