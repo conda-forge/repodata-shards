@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/shin-/docker-pycreds/",
+    "home": "https://github.com/muhrin/topika",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/shin-/dockerpy-creds/archive/0.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/t/topika/topika-0.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python bindings for the docker credentials store API",
+    "summary": "A python remote communications library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1528372057,
-    "version": "0.3.0"
+    "timestamp": 1576170348,
+    "version": "0.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "docker-pycreds-0.3.0-py35_0.tar.bz2",
+  "package": "topika-0.2.1-py37_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py37_0",
     "build_number": 0,
     "depends": [
-      "python >=3.5,<3.6.0a0",
-      "six >=1.4.0"
+      "furl",
+      "pika >=1.0.0b2",
+      "python >=3.7,<3.8.0a0",
+      "pyyaml >=3.0,<4.0",
+      "shortuuid",
+      "six",
+      "tornado >=4.0,<6.0"
     ],
     "license": "Apache-2.0",
-    "license_family": "Apache",
-    "md5": "bfa94a8f4f248c5172b90b06d8eb8240",
-    "name": "docker-pycreds",
-    "sha256": "78537d015b6d363481545f3ed3fd168966e6b4ea74968ec7a5779fde2e0edcd5",
-    "size": 12025,
+    "license_family": "APACHE",
+    "md5": "24a9f8d6883105a47c69b16e5e2f446e",
+    "name": "topika",
+    "sha256": "32313e8ecf56cc0dfa009dc4fb089aa1cbf4b1a3761b22697f5037b7c36bdc71",
+    "size": 52892,
     "subdir": "linux-64",
-    "timestamp": 1528372057492,
-    "version": "0.3.0"
+    "timestamp": 1576170348562,
+    "version": "0.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/docker-pycreds-0.3.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/topika-0.2.1-py37_0.tar.bz2"
 }
