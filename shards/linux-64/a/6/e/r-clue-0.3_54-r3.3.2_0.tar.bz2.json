@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://CRAN.R-project.org/package=diffr",
+    "home": "https://CRAN.R-project.org/package=clue",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -20,17 +20,17 @@
     "run_exports": {},
     "source_git_url": null,
     "source_url": [
-      "https://cran.r-project.org/src/contrib/diffr_0.1.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/diffr/diffr_0.1.tar.gz"
+      "https://cran.r-project.org/src/contrib/clue_0.3-54.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/clue/clue_0.3-54.tar.gz"
     ],
     "subdirs": [
       "linux-64"
     ],
-    "summary": "An R interface to the 'codediff' JavaScript library (a copy of which is included in the package, see <https",
+    "summary": "CLUster Ensembles.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1"
+    "version": "0.3_54"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -38,24 +38,25 @@
     "cf202003",
     "main"
   ],
-  "package": "r-diffr-0.1-r3.3.2_0.tar.bz2",
+  "package": "r-clue-0.3_54-r3.3.2_0.tar.bz2",
   "repodata": {
     "build": "r3.3.2_0",
     "build_number": 0,
     "depends": [
+      "libgcc",
       "r-base 3.3.2*",
-      "r-htmlwidgets"
+      "r-cluster"
     ],
     "license": "GPL-2",
     "license_family": "GPL2",
-    "md5": "20eb4f6db510afe50386369837e40f5e",
-    "name": "r-diffr",
-    "sha256": "af8cde292185be947ab40110bcd0ad098565e7cef1ca516971eb1d5d6a7d9d14",
-    "size": 84250,
+    "md5": "6873e40cb786513eefc8ba0a31d49913",
+    "name": "r-clue",
+    "sha256": "ec902e4912ede6bf622dc6ac65705589d358fd2d1cfbfdb70bf54db8d2a0737a",
+    "size": 830639,
     "subdir": "linux-64",
-    "version": "0.1"
+    "version": "0.3_54"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-diffr-0.1-r3.3.2_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-clue-0.3_54-r3.3.2_0.tar.bz2"
 }
