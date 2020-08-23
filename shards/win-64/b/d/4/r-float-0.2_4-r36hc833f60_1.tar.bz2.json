@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/wrathematics/float",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD_2_clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/float/float_0.2-4.tar.gz",
+      "https://cran.r-project.org/src/contrib/float_0.2-4.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "R comes with a suite of utilities for linear algebra with \"numeric\" (double precision) vectors/matrices. However, sometimes single precision (or less!) is more than enough for a particular task.  This package extends R's linear algebra facilities to include 32-bit float (single precision) data. Float vectors/matrices have half the precision of their \"numeric\"-type counterparts but are generally faster to numerically operate on, for a performance vs accuracy trade-off.  The internal representation is an S4 class, which allows us to keep the syntax identical to that of base R's. Interaction between floats and base types for binary operators is generally possible; in these cases, type promotion always defaults to the higher precision.  The package ships with copies of the single precision 'BLAS' and 'LAPACK', which are automatically built in the event they are not available on the system.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1588572124,
+    "version": "0.2_4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-float-0.2_4-r36hc833f60_1.tar.bz2",
+  "repodata": {
+    "build": "r36hc833f60_1",
+    "build_number": 1,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "m2w64-gcc-libs",
+      "r-base >=3.6,<3.7.0a0"
+    ],
+    "license": "BSD_2_clause",
+    "license_family": "BSD",
+    "md5": "2c406661fad605342f15595688af35c9",
+    "name": "r-float",
+    "sha256": "c0eadc6908e1dc469e2d37f0484bc47fcfb09a2b715052dda6928fa8c0823125",
+    "size": 2191472,
+    "subdir": "win-64",
+    "timestamp": 1588572124882,
+    "version": "0.2_4"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-float-0.2_4-r36hc833f60_1.tar.bz2"
+}
