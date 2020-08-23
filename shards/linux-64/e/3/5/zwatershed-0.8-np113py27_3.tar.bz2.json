@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "http://github.com/inducer/pymbolic",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pypi.python.org/pypi/pymbolic",
+    "home": "https://github.com/TuragaLab/zwatershed",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pymbolic/pymbolic-2016.2.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/z/zwatershed/zwatershed-0.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A package for symbolic computation",
+    "summary": "Code for fast watersheds.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2016.2.3"
+    "version": "0.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "pymbolic-2016.2.3-py34_0.tar.bz2",
+  "package": "zwatershed-0.8-np113py27_3.tar.bz2",
   "repodata": {
-    "build": "py34_0",
-    "build_number": 0,
+    "build": "np113py27_3",
+    "build_number": 3,
     "depends": [
-      "numpy",
-      "python 3.4*",
-      "pytools",
-      "six"
+      "boost 1.64.*",
+      "h5py",
+      "numpy 1.13*",
+      "numpy >=1.7",
+      "python 2.7*"
     ],
     "license": "MIT",
-    "md5": "975de9d7965d797631144df3eaf90789",
-    "name": "pymbolic",
-    "sha256": "aa61b078a3349479caf592f64a31e35ef9a7a91dc41e3a8288fca01fc314c549",
-    "size": 117659,
+    "md5": "5b21bbd98b44dea968a39bd26801c4ff",
+    "name": "zwatershed",
+    "sha256": "09eee1d8d406e46c50f9e8ff8246b25ceec6612ed9e580653c11224cda551d46",
+    "size": 885354,
     "subdir": "linux-64",
-    "version": "2016.2.3"
+    "version": "0.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pymbolic-2016.2.3-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/zwatershed-0.8-np113py27_3.tar.bz2"
 }
