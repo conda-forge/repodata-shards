@@ -7,50 +7,52 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/jupyter/jupyterlab",
+    "home": "https://esa.github.io/pagmo2/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "GPL v3 and LGPL v3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/j/jupyterlab/jupyterlab-0.9.1.tar.gz",
+    "source_url": "https://github.com/esa/pagmo2/archive/v2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A pre-alpha version of a computational environment for Jupyter.",
+    "summary": "A C++ / Python platform to perform parallel computations of optimisation tasks (global and local) via the asynchronous generalized island model",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.9.1"
+    "version": "2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
+    "cf202003",
     "main"
   ],
-  "package": "jupyterlab-0.9.1-py27_0.tar.bz2",
+  "package": "pagmo-2.1-0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "0",
     "build_number": 0,
     "depends": [
-      "notebook >=4.2",
-      "python 2.7*"
+      "boost-cpp 1.63.*",
+      "eigen",
+      "nlopt"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "7c4e19d8192d670d4d17fb0a93349193",
-    "name": "jupyterlab",
-    "sha256": "724f3be73788a2e995232f659195521450b7cf8c61c23c58e75af6f5627c9ef9",
-    "size": 3259923,
+    "license": "GPL v3 and LGPL v3",
+    "md5": "250fa934f9111a138d62d671cb592f09",
+    "name": "pagmo",
+    "sha256": "864a58eac052fb6017e32e5f8b445b2d1da3fdd3f766639b03132c7595ea00cf",
+    "size": 1756926,
     "subdir": "linux-64",
-    "version": "0.9.1"
+    "version": "2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/jupyterlab-0.9.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pagmo-2.1-0.tar.bz2"
 }
