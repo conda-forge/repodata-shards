@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/stefankoegl/python-json-pointer",
+    "home": "https://github.com/nanshe-org/rank_filter",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/j/jsonpointer/jsonpointer-1.10.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/rank_filter/rank_filter-0.4.13.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Identify specific nodes in a JSON document (RFC 6901)",
+    "summary": "A simple python module containing an in-place linear rank filter optimized in C++.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.10"
+    "version": "0.4.13"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "jsonpointer-1.10-py34_0.tar.bz2",
+  "package": "rank_filter-0.4.13-np111py27_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "np111py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*"
+      "boost 1.63.*",
+      "numpy 1.11*",
+      "numpy >=1.7",
+      "python 2.7*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "f69ce84c94b83fba7a2d5aa63167fadc",
-    "name": "jsonpointer",
-    "sha256": "0f180e16cb125b428259d16482e4444664a80939b365479e6f27c6dbcdb44cac",
-    "size": 8704,
+    "md5": "24910093acf6d252b224f4a67ae7bbd2",
+    "name": "rank_filter",
+    "sha256": "7e5a7e3cb1f526e123e0370d90c5ceaed816f330a082bb0217b3a4a9634fd9ae",
+    "size": 488902,
     "subdir": "linux-64",
-    "version": "1.10"
+    "version": "0.4.13"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/jsonpointer-1.10-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/rank_filter-0.4.13-np111py27_0.tar.bz2"
 }
