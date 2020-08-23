@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/pypa/pip",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://bitbucket.org/ruamel/yaml",
+    "doc_url": "https://pip.pypa.io/en/stable/",
+    "home": "https://pip.pypa.io/en/stable/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.16.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pip/pip-9.0.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1",
+    "summary": "PyPA recommended tool for installing Python packages",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.15.16"
+    "version": "9.0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "ruamel.yaml-0.15.16-py27_0.tar.bz2",
+  "package": "pip-9.0.3-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
       "python 2.7*",
-      "ruamel.ordereddict",
       "setuptools",
-      "typing"
+      "wheel"
     ],
     "license": "MIT",
-    "md5": "6306f8c74e49b864c6eb50a7c3409b83",
-    "name": "ruamel.yaml",
-    "sha256": "29e516db9828958e7aa88dfcc48cebcf5ec2e7e050ea65396972dfd50c20e894",
-    "size": 581804,
+    "license_family": "MIT",
+    "md5": "03971978fcbb3b2b34b201205ce8d37d",
+    "name": "pip",
+    "sha256": "95f713de3e457cc2064bbecf780baf28ccf81d9f9efd471a2a51608e3dda2e4f",
+    "size": 1864657,
     "subdir": "linux-64",
-    "version": "0.15.16"
+    "version": "9.0.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.15.16-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pip-9.0.3-py27_0.tar.bz2"
 }
