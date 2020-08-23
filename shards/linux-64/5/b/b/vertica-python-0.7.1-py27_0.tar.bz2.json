@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/uber/vertica-python/",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://CRAN.R-project.org/package=default",
+    "home": "https://github.com/uber/vertica-python/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,42 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": [
-      "https://cran.r-project.org/src/contrib/default_1.0.0.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/default/default_1.0.0.tar.gz"
-    ],
+    "source_url": "https://pypi.io/packages/source/v/vertica-python/vertica-python-0.7.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A simple syntax to change the default values for function arguments, whether they are in packages or defined locally.",
+    "summary": "A native Python client for the Vertica database.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.0"
+    "version": "0.7.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "r-default-1.0.0-r3.4.1_0.tar.bz2",
+  "package": "vertica-python-0.7.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "r3.4.1_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "r-base 3.4.1*"
+      "future",
+      "psycopg2 >=2.5.1",
+      "python 2.7*",
+      "python-dateutil >=1.5",
+      "pytz",
+      "six >=1.10.0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "3ee416676bcad8ff21f7ccc7c1942ab0",
-    "name": "r-default",
-    "sha256": "744c4be9f5f0886a43a3c29ddc39e663c354aecba22cb30fa92b646b0214376c",
-    "size": 16068,
+    "md5": "1f653065bca40496b5650360d9880f48",
+    "name": "vertica-python",
+    "sha256": "03ee04d1f6171d10ec4056249fa8f6473374aeee07ba85eaef604ed0b9955c14",
+    "size": 56427,
     "subdir": "linux-64",
-    "version": "1.0.0"
+    "version": "0.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-default-1.0.0-r3.4.1_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/vertica-python-0.7.1-py27_0.tar.bz2"
 }
