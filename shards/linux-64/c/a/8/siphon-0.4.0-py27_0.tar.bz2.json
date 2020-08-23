@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache License 2.0",
+    "license": "MIT License",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://apache.osuosl.org/libcloud/apache-libcloud-0.18.0.tar.bz2",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.18.0"
+    "version": "0.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "apache-libcloud-0.18.0-py27_0.tar.bz2",
+  "package": "siphon-0.4.0-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "enum34",
+      "netcdf4",
+      "numpy",
+      "protobuf >=3.0.0a3",
+      "python 2.7*",
+      "requests"
     ],
-    "license": "Apache License 2.0",
-    "md5": "75fd0971bfdea77c9dd6c30254c72574",
-    "name": "apache-libcloud",
-    "sha256": "fefaedb05887c66a926832a87570de954efa079b630e2538711a429cbe5adbd6",
-    "size": 1440786,
+    "license": "MIT License",
+    "md5": "24481dfc2b6f1a33e545fabe23fd6770",
+    "name": "siphon",
+    "sha256": "fd8a134d21a2cb982e0aa8550eb382452f2e6c26f4c81e3c70743d731c7248ad",
+    "size": 67199,
     "subdir": "linux-64",
-    "version": "0.18.0"
+    "version": "0.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/apache-libcloud-0.18.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/siphon-0.4.0-py27_0.tar.bz2"
 }
