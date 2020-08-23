@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://eventlet.net",
+    "home": "https://github.com/kevinushey/rex",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/e/eventlet/eventlet-0.19.0.tar.gz",
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/rex_1.1.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/rex/rex_1.1.1.tar.gz"
+    ],
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Highly concurrent networking library",
+    "summary": "A friendly interface for the construction of regular expressions.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.19.0"
+    "version": "1.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "eventlet-0.19.0-py35_0.tar.bz2",
+  "package": "r-rex-1.1.1-r3.4.1_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "r3.4.1_0",
     "build_number": 0,
     "depends": [
-      "greenlet >=0.3",
-      "pyopenssl",
-      "python 3.5*"
+      "r-base 3.4.1*",
+      "r-lazyeval",
+      "r-magrittr"
     ],
     "license": "MIT",
-    "md5": "97b8d079791f18f1645d255a98ded194",
-    "name": "eventlet",
-    "sha256": "276457a4c1265bfc370137d089021bff573a8816ea070cf6c42bb64a73ef68b2",
-    "size": 364299,
+    "license_family": "MIT",
+    "md5": "025bea9a76682a75e78d2f76cc9d520e",
+    "name": "r-rex",
+    "sha256": "38b748ae756de94105afd5d932280b00f4d2f3ebf92840ffeee25277c5961268",
+    "size": 91064,
     "subdir": "linux-64",
-    "version": "0.19.0"
+    "version": "1.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/eventlet-0.19.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rex-1.1.1-r3.4.1_0.tar.bz2"
 }
