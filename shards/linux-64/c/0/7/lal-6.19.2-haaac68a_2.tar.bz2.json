@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL library.  If you want to install the Python bindings, please install the associated python-lal package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lal/",
+    "home": "https://wiki.ligo.org/DASWG/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "6.19.2": {
+        "weak": [
+          "lal >=6.19.2,<6.20.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lal-6.19.2.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1553485457,
+    "version": "6.19.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "lal-6.19.2-haaac68a_2.tar.bz2",
+  "repodata": {
+    "build": "haaac68a_2",
+    "build_number": 2,
+    "depends": [
+      "fftw",
+      "gsl >=2.4,<2.5.0a0",
+      "hdf5 >=1.10.4,<1.10.5.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.3.0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "8066821432b116d8767b1bf113f03e21",
+    "name": "lal",
+    "sha256": "b76730115c3b72e565ba4273b0e9e275b40575fdf1d551da48a0650f523e37e8",
+    "size": 5900418,
+    "subdir": "linux-64",
+    "timestamp": 1553485457550,
+    "version": "6.19.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/lal-6.19.2-haaac68a_2.tar.bz2"
+}
