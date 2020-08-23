@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "MUMPS (\u201CMUltifrontal Massively Parallel Solver\u201D) is a package for solving systems of linear equations of the form Ax = b, where A is a square sparse matrix that can be either unsymmetric, symmetric positive definite, or general symmetric, on distributed memory computers. MUMPS implements a direct method based on a multifrontal approach which performs a Gaussian factorization.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "http://mumps.enseeiht.fr/index.php?page=doc",
+    "home": "http://mumps.enseeiht.fr/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CeCILL-C",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://mumps.enseeiht.fr/MUMPS_5.0.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "MUMPS: a parallel sparse direct solver",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "5.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "mumps-5.0.2-blas_openblas_207.tar.bz2",
+  "repodata": {
+    "build": "blas_openblas_207",
+    "build_number": 207,
+    "depends": [
+      "blas 1.1 openblas",
+      "libgfortran",
+      "metis 5.1.*",
+      "openblas 0.2.20|0.2.20.*",
+      "scotch"
+    ],
+    "features": "blas_openblas",
+    "license": "CeCILL-C",
+    "md5": "43b3930dd453adcae65b0eccd7b07ef4",
+    "name": "mumps",
+    "sha256": "072d96ee55045059ffc27e60a173e29a1e33313320ea289c875cf6a572232804",
+    "size": 2483265,
+    "subdir": "linux-64",
+    "version": "5.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/mumps-5.0.2-blas_openblas_207.tar.bz2"
+}
