@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/yixuan/RSpectra",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/RSpectra/RSpectra_0.16-0.tar.gz",
+      "https://cran.r-project.org/src/contrib/RSpectra_0.16-0.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "R interface to the 'Spectra' library <https://spectralib.org/> for large-scale eigenvalue and SVD problems. It is typically used to compute a few eigenvalues/vectors of an n by n matrix, e.g., the k largest eigenvalues, which is usually more efficient than eigen() if k << n. This package provides the 'eigs()' function that does the similar job as in 'Matlab', 'Octave', 'Python SciPy' and 'Julia'. It also provides the 'svds()' function to calculate the largest k singular values and corresponding singular vectors of a real matrix. The matrix to be computed on can be dense, sparse, or in the form of an operator defined by the user.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1589141021,
+    "version": "0.16_0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-rspectra-0.16_0-r36h0357c0b_2.tar.bz2",
+  "repodata": {
+    "build": "r36h0357c0b_2",
+    "build_number": 2,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "r-base >=3.6,<3.7.0a0",
+      "r-matrix >=1.1_0",
+      "r-rcpp >=0.11.5",
+      "r-rcppeigen >=0.3.3.3.0",
+      "spectra"
+    ],
+    "license": "MPL-2.0",
+    "license_family": "OTHER",
+    "md5": "5172d4269a92eb6af3cd55f0d8c729b3",
+    "name": "r-rspectra",
+    "sha256": "ee1587a678d38fc4ae767d1637d92367fd9f1ec3c37be58552f46729e73c8480",
+    "size": 511960,
+    "subdir": "linux-64",
+    "timestamp": 1589141021857,
+    "version": "0.16_0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rspectra-0.16_0-r36h0357c0b_2.tar.bz2"
+}
