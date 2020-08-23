@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Shenfun is a high performance computing platform for solving partial differential equations (PDEs) by the spectral Galerkin method. The platform can be used for any PDE, but applications are limited to multidimensional tensor product grids. The code is parallelized with MPI through the mpi4py-fft package.",
+    "dev_url": "https://github.com/spectralDNS/shenfun",
+    "doc_source_url": null,
+    "doc_url": "https://shenfun.readthedocs.io",
+    "home": "https://github.com/spectralDNS/shenfun",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 2-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/spectralDNS/shenfun/archive/2.0.4.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "High performance computational platform for the spectral Galerkin method",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1558432670,
+    "version": "2.0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "shenfun-2.0.4-py27h051e8ed_0.tar.bz2",
+  "repodata": {
+    "build": "py27h051e8ed_0",
+    "build_number": 0,
+    "depends": [
+      "fftw",
+      "h5py * mpi_*",
+      "hdf5 * mpi_*",
+      "libcxx >=4.0.1",
+      "mpi4py",
+      "mpi4py-fft >=2.0.2",
+      "numpy >=1.9.3,<2.0a0",
+      "python >=2.7,<2.8.0a0",
+      "scipy",
+      "sympy"
+    ],
+    "license": "BSD 2-clause",
+    "license_family": "BSD",
+    "md5": "0ac7c06ed624d2e1dc345649417cdf6c",
+    "name": "shenfun",
+    "sha256": "d2942235fb9b5516775c4f6c636c28d9d61bebb11525f934fc7555fbc8857f35",
+    "size": 1265102,
+    "subdir": "osx-64",
+    "timestamp": 1558432670143,
+    "version": "2.0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/shenfun-2.0.4-py27h051e8ed_0.tar.bz2"
+}
