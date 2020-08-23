@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "SSTP is Microsofts Remote Access Solution (RAS) for PPP over SSL. It can be used instead of PPTP or L2TP, and is only available with Windows Vista/7 connecting to a Windows 2008 Server. The advantage of SSTP compared to PPTP and L2TP is that it cannot be easily blocked by firewalls since the traffic is transmitted over HTTPS on port 443. Windows Vista/7 uses SSTP if PPTP or L2TP cannot be established. For further information on SSTP check out wikipedia's article on Secure Socket Tunneling Protocol.  http://en.wikipedia.org/wiki/Secure_Socket_Tunneling_Protocol",
+    "dev_url": "https://sourceforge.net/projects/sstp-client/",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://sstp-client.sourceforge.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://sourceforge.net/projects/sstp-client/files/sstp-client/sstp-client-1.0.13.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "SSTP (Microsofts Remote Access Solution for PPP over SSL) client",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1574043124,
+    "version": "1.0.13"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "sstp-client-1.0.13-h530c9cb_0.tar.bz2",
+  "repodata": {
+    "build": "h530c9cb_0",
+    "build_number": 0,
+    "depends": [
+      "libevent >=2.1.10,<2.1.11.0a0",
+      "openssl >=1.1.1a,<1.1.2a"
+    ],
+    "license": "GPL-2.0",
+    "license_family": "GPL",
+    "md5": "27cf4648d878a1c7153bddc033c16f8c",
+    "name": "sstp-client",
+    "sha256": "6221bb4f2d6d6fd6c7e106a61cd57042b0a31371fabe05f84bfa5f57da827746",
+    "size": 52456,
+    "subdir": "osx-64",
+    "timestamp": 1574043124594,
+    "version": "1.0.13"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/sstp-client-1.0.13-h530c9cb_0.tar.bz2"
+}
