@@ -7,52 +7,58 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/theatlantic/django-nested-admin",
+    "home": "https://github.com/geopython/pycsw",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 2-Clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/theatlantic/django-nested-admin/archive/v3.0.12.tar.gz",
+    "source_url": "https://github.com/geopython/pycsw/archive/2.0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Django admin classes that allow for nested inlines",
+    "summary": "OGC Catalog Service for the Web (CSW) implementation in python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.0.12"
+    "version": "2.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "django-nested-admin-3.0.12-py35_0.tar.bz2",
+  "package": "pycsw-2.0.2-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "django",
+      "geolinks",
+      "lxml 3.6.2",
+      "owslib",
+      "psycopg2",
+      "pyproj",
       "python 3.5*",
-      "python-monkey-business >=1.0.0"
+      "shapely",
+      "six",
+      "sqlalchemy",
+      "xmltodict"
     ],
-    "license": "BSD 2-Clause",
-    "license_family": "BSD",
-    "md5": "026538daf0e59662477de699cd20cc84",
-    "name": "django-nested-admin",
-    "sha256": "ec90fa45387b5ef6bc97487e0915c8b01b356eda92111640ff02fd00e78b03b2",
-    "size": 216962,
+    "license": "MIT",
+    "md5": "ea340d3650122d82e0647d5019a394e6",
+    "name": "pycsw",
+    "sha256": "1a2a341b6e87a4dd306a0ab99f090ebf0a08ac470ab9de54f67bada6295a3b36",
+    "size": 387670,
     "subdir": "linux-64",
-    "version": "3.0.12"
+    "version": "2.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/django-nested-admin-3.0.12-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pycsw-2.0.2-py35_0.tar.bz2"
 }
