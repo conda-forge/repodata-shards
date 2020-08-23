@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "By using libcf, a data producer can produce files that conform to the CF standards, without having to write netCDF code to create and decode all the attributes that the CF convention uses to store meta-data. A data consumer can use libcf to read any file which conforms to the CF conventions; the file does not need to be created with libcf to be read by libcf",
+    "dev_url": "https://sourceforge.net/projects/libcf/",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.unidata.ucar.edu/software/libcf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "UCAR/UNIDATA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/CDAT/libcf/archive/1.0.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LibCF library access data files in accordance with the CF Conventions.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1554939080,
+    "version": "1.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "libcf-1.0.2-py37h6d95edf_1007.tar.bz2",
+  "repodata": {
+    "build": "py37h6d95edf_1007",
+    "build_number": 1007,
+    "depends": [
+      "blas 1.1 openblas",
+      "curl >=7.44.0,<8",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "libnetcdf >=4.6.2,<4.6.3.0a0",
+      "libuuid >=2.32.1,<3.0a0",
+      "python >=3.7,<3.8.0a0"
+    ],
+    "license": "UCAR/UNIDATA",
+    "md5": "3913733b5d619f35c0c933a5aa3ea6bc",
+    "name": "libcf",
+    "sha256": "9f05b96fb2cd46c924aa93ac3366551cf99526882cb851a3eae0830958a4f299",
+    "size": 284780,
+    "subdir": "linux-64",
+    "timestamp": 1554939080694,
+    "version": "1.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/libcf-1.0.2-py37h6d95edf_1007.tar.bz2"
+}
