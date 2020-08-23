@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/sgillies/mercantile",
+    "home": "https://github.com/Toblerity/Shapely",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/mapbox/mercantile/archive/0.9.0.tar.gz",
+    "source_url": "https://github.com/Toblerity/Shapely/archive/1.5.17.post1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Spherical mercator and XYZ tile utilities.",
+    "summary": "Python package for manipulation and analysis of geometric objects in the Cartesian plane.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.9.0"
+    "version": "1.5.17"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "mercantile-0.9.0-py34_0.tar.bz2",
+  "package": "shapely-1.5.17-py27_4.tar.bz2",
   "repodata": {
-    "build": "py34_0",
-    "build_number": 0,
+    "build": "py27_4",
+    "build_number": 4,
     "depends": [
-      "click >=3.0",
-      "python 3.4*",
-      "setuptools"
+      "geos 3.5.1",
+      "numpy >=1.7",
+      "python 2.7*"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "61e0c1d6254f7193a26183125160a9bd",
-    "name": "mercantile",
-    "sha256": "db66c69043b2e60115f15af7c041898298d466b5f3b088de95d4d7fe09aa273d",
-    "size": 14252,
+    "md5": "b583691e4d82c2579c3c2f43b3782c8a",
+    "name": "shapely",
+    "sha256": "8b64e292bdcb9e188877da99031d8bc355fcf82621af6f22c90afc9e1e843072",
+    "size": 616364,
     "subdir": "linux-64",
-    "version": "0.9.0"
+    "version": "1.5.17"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/mercantile-0.9.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/shapely-1.5.17-py27_4.tar.bz2"
 }
