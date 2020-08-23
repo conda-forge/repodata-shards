@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://pypi.python.org/pypi/pykdtree",
+    "home": "https://iris-grib.readthedocs.io",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pykdtree/pykdtree-1.2.2.tar.gz",
+    "source_url": "https://github.com/SciTools/iris-grib/archive/v0.14.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fast kd-tree implementation with OpenMP-enabled queries.",
+    "summary": "Iris GRIB interface",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.2.2"
+    "timestamp": 1560367779,
+    "version": "0.14.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
+    "cf202003",
     "main"
   ],
-  "package": "pykdtree-1.2.2-np111py27_0.tar.bz2",
+  "package": "iris-grib-0.14.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "np111py27_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "libgcc",
-      "numpy 1.11*",
-      "python 2.7*"
+      "iris >=2",
+      "python >=2.7,<2.8.0a0",
+      "python-eccodes"
     ],
     "license": "LGPL-3.0",
-    "md5": "de3a14f82bb6f100ce35cbbd12e5e15b",
-    "name": "pykdtree",
-    "sha256": "68ad0bc082ebf2c53a7a13cb27bea9b543d6405f0b1f55c4c33d6706a739b420",
-    "size": 165880,
+    "license_family": "LGPL",
+    "md5": "11c5d603cf89e8783e20abbb57d3cfc2",
+    "name": "iris-grib",
+    "sha256": "398cf41dd67db88b1efb0759c92b615d75d2a3fc0478b7b1dbcbdb103d99b9d0",
+    "size": 210218,
     "subdir": "linux-64",
-    "version": "1.2.2"
+    "timestamp": 1560367779563,
+    "version": "0.14.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pykdtree-1.2.2-np111py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/iris-grib-0.14.1-py27_0.tar.bz2"
 }
