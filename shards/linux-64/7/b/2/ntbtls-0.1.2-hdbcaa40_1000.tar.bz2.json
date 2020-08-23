@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "ntbTLS is a tiny TLS 1.2 only implementation designed to be used with Libgcrypt and LibKSBA. In particular, this library has no certificate verification code - this need to be done by the caller. For example the GnuPG component dirmngr already has code to verify certificates (for CRL and OCSP checking) and thus ntbTLS is a good fit for accessing objects over the network.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.gnupg.org/software/ntbtls/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.1.2": {
+        "weak": [
+          "ntbtls >=0.1.2,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.gnupg.org/ftp/gcrypt/ntbtls/ntbtls-0.1.2.tar.bz2",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Not Too Bad TLS",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1537074960,
+    "version": "0.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "ntbtls-0.1.2-hdbcaa40_1000.tar.bz2",
+  "repodata": {
+    "build": "hdbcaa40_1000",
+    "build_number": 1000,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libgcrypt >=1.8.3,<2.0a0",
+      "libgpg-error >=1.32,<2.0a0",
+      "libksba >=1.3.5,<1.4.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-3",
+    "license_family": "GPL",
+    "md5": "1973d8beeead66bf860c24c1900a89ca",
+    "name": "ntbtls",
+    "sha256": "02874b029a9d6654e0e2c89215b90b55e08ea21bdf56338f069bc7a76f9d1f97",
+    "size": 58742,
+    "subdir": "linux-64",
+    "timestamp": 1537074960279,
+    "version": "0.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/ntbtls-0.1.2-hdbcaa40_1000.tar.bz2"
+}
