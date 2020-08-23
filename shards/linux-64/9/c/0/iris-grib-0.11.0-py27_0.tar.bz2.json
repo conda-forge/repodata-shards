@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://ipython.org",
+    "home": "https://iris-grib.readthedocs.io",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "LGPL-3.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ipykernel/ipykernel-4.5.0.tar.gz",
+    "source_url": "https://github.com/SciTools/iris-grib/archive/v0.11.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "IPython Kernel for Jupyter",
+    "summary": "Iris GRIB interface.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.5.0"
+    "version": "0.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "ipykernel-4.5.0-py35_0.tar.bz2",
+  "package": "iris-grib-0.11.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "ipython >=4.0",
-      "jupyter_client",
-      "python 3.5*",
-      "tornado >=4.0",
-      "traitlets"
+      "iris >=2",
+      "python 2.7*",
+      "python-ecmwf_grib"
     ],
-    "license": "BSD 3-clause",
-    "md5": "0b7c5fdd414a0b495de43b93c2e4b18d",
-    "name": "ipykernel",
-    "sha256": "a9d05a078188630c35afd3b4226e43b835b7d7e1ef5b2f19b856dfbddebece40",
-    "size": 789089,
+    "license": "LGPL-3.0",
+    "license_family": "LGPL",
+    "md5": "452a1ac386596529e7e358fe3c757661",
+    "name": "iris-grib",
+    "sha256": "4ca2dc9d52b87a32f55aa3d24965df6e9dc9411e0228634d6f2b9447cea016b2",
+    "size": 177509,
     "subdir": "linux-64",
-    "version": "4.5.0"
+    "version": "0.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipykernel-4.5.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/iris-grib-0.11.0-py27_0.tar.bz2"
 }
