@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/ruamel/yaml",
+    "home": "https://github.com/axiom-data-science/pocean-core",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,47 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.37.tar.gz",
+    "source_url": "https://github.com/pyoceans/pocean-core/archive/1.2.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1",
+    "summary": "A python framework for working with met-ocean data.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.15.37"
+    "version": "1.2.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "ruamel.yaml-0.15.37-py27_0.tar.bz2",
+  "package": "pocean-core-1.2.4-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
+      "netcdf4",
+      "numpy",
+      "pandas >=0.21.0",
+      "pygc >=1.2.0",
       "python 2.7*",
-      "ruamel.ordereddict",
-      "setuptools",
-      "typing"
+      "python-dateutil",
+      "pytz",
+      "shapely",
+      "simplejson",
+      "six"
     ],
     "license": "MIT",
-    "md5": "1edb8295d07d1ae7cf1c07a798ba1657",
-    "name": "ruamel.yaml",
-    "sha256": "4fba0d10bc61b8f9e1e493bfec8726b2801ff3552948546a2f5e33fcd0ed3871",
-    "size": 649013,
+    "md5": "94cb72a314ecbcb00f66338fe2c81d05",
+    "name": "pocean-core",
+    "sha256": "89d1a9dacfbe32f46175d8b8006c484a7319475f09eb20725c77acacbf0ce97f",
+    "size": 47898,
     "subdir": "linux-64",
-    "version": "0.15.37"
+    "version": "1.2.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/ruamel.yaml-0.15.37-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pocean-core-1.2.4-py27_0.tar.bz2"
 }
