@@ -1,0 +1,55 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "If you are an administrator running a Kubernetes cluster on AWS, you already need to manage AWS IAM credentials to provision and update the cluster. By using AWS IAM Authenticator for Kubernetes, you avoid having to manage a separate credential for Kubernetes access. AWS IAM also provides a number of nice properties such as an out of band audit trail (via CloudTrail) and 2FA/MFA enforcement.  If you are building a Kubernetes installer on AWS, AWS IAM Authenticator for Kubernetes can simplify your bootstrap process. You won't need to somehow smuggle your initial admin credential securely out of your newly installed cluster. Instead, you can create a dedicated KubernetesAdmin role at cluster provisioning time and set up Authenticator to allow cluster administrator logins.",
+    "dev_url": "https://github.com/kubernetes-sigs/aws-iam-authenticator",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/kubernetes-sigs/aws-iam-authenticator",
+    "home": "https://github.com/kubernetes-sigs/aws-iam-authenticator",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache 2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://amazon-eks.s3-us-west-2.amazonaws.com/1.11.5/2018-12-06/bin/darwin/amd64/aws-iam-authenticator",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A tool to use AWS IAM credentials to authenticate to a Kubernetes cluster",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1550708270,
+    "version": "1.11.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "aws-iam-authenticator-1.11.5-0.tar.bz2",
+  "repodata": {
+    "build": "0",
+    "build_number": 0,
+    "depends": [],
+    "license": "Apache 2.0",
+    "license_family": "Apache",
+    "md5": "10d8dab61689f48f61297bb317c592c7",
+    "name": "aws-iam-authenticator",
+    "sha256": "3b52fce98fa83ef85f25b57c736dc3b56f23808b6043ffa8adf791cd5b327beb",
+    "size": 5844096,
+    "subdir": "osx-64",
+    "timestamp": 1550708270845,
+    "version": "1.11.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/aws-iam-authenticator-1.11.5-0.tar.bz2"
+}
