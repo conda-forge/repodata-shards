@@ -7,23 +7,23 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/gqmelo/exec-wrappers",
+    "home": "https://github.com/theatlantic/python-monkey-business",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 2-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/theatlantic/python-monkey-business/archive/v1.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Simple package to execute exec-wrappers as a post-link action",
+    "summary": "Utility functions for monkey-patching python code",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
@@ -32,25 +32,27 @@
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "conda-wrappers-1.0.0-py27_0.tar.bz2",
+  "package": "python-monkey-business-1.0.0-py34_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "exec-wrappers 1.*",
-      "python 2.7*"
+      "python 3.4*",
+      "setuptools",
+      "six >=1.7.0"
     ],
-    "license": "MIT",
-    "md5": "e1ed4deabe6f0d869b35296fb018ad70",
-    "name": "conda-wrappers",
-    "sha256": "db9bf35ceb26a1dde13a1b30a4f4946feda826e07e3fc7e5445537707e4dadf5",
-    "size": 2209,
+    "license": "BSD 2-Clause",
+    "license_family": "BSD",
+    "md5": "6e081ef0bff83675686e29c3926a648a",
+    "name": "python-monkey-business",
+    "sha256": "75c6311b2afc01881e8081057f6355508da2f2c74aa740151fb3bfdc1fed776b",
+    "size": 4924,
     "subdir": "linux-64",
     "version": "1.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/conda-wrappers-1.0.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-monkey-business-1.0.0-py34_0.tar.bz2"
 }
