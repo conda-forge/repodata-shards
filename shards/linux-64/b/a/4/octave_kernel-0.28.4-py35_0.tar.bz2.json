@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pika.readthedocs.org",
+    "home": "https://github.com/Calysto/octave_kernel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pika/pika-0.11.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/o/octave_kernel/octave_kernel-0.28.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Pure Python RabbitMQ/AMQP 0-9-1 client library",
+    "summary": "A Jupyter kernel for Octave.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.11.0"
+    "timestamp": 1528767864,
+    "version": "0.28.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pika-0.11.0-py35_0.tar.bz2",
+  "package": "octave_kernel-0.28.4-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "ipykernel",
+      "jupyter_client >=4.3.0",
+      "metakernel >=0.20.7",
+      "python >=3.5,<3.6.0a0"
     ],
     "license": "BSD 3-clause",
-    "md5": "731350670fc103f25e02d2d3af437730",
-    "name": "pika",
-    "sha256": "d38763d785e819d2f4bc0634885d6432803461de38659c772ce8b97ac4196795",
-    "size": 148154,
+    "license_family": "BSD",
+    "md5": "02ca8b5903e0bb345c2da28f6952b599",
+    "name": "octave_kernel",
+    "sha256": "d49ec72b4184c348502c73b8249d456b00afa36c53b4f010200b48d15c321357",
+    "size": 30115,
     "subdir": "linux-64",
-    "version": "0.11.0"
+    "timestamp": 1528767864020,
+    "version": "0.28.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pika-0.11.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/octave_kernel-0.28.4-py35_0.tar.bz2"
 }
