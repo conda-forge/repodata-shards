@@ -1,29 +1,29 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Calysto/octave_kernel",
+    "home": "https://github.com/explosion/murmurhash/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/o/octave_kernel/octave_kernel-0.28.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/m/murmurhash/murmurhash-0.28.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Jupyter kernel for Octave.",
+    "summary": "Cython bindings for MurmurHash2",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
@@ -32,29 +32,24 @@
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "octave_kernel-0.28.0-py27_0.tar.bz2",
+  "package": "murmurhash-0.28.0-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "ipykernel",
-      "jupyter_client >=4.3",
-      "metakernel >=0.18.0",
       "python 2.7*"
     ],
-    "license": "BSD 3-clause",
-    "license_family": "BSD",
-    "md5": "d6825aaf531271e4563db5ae5ea3c772",
-    "name": "octave_kernel",
-    "sha256": "ce202770b6e6fda06e3d06b8561f354add14fbbcc3e3e9882428963441312c52",
-    "size": 25373,
+    "license": "MIT",
+    "md5": "f46f8e8147bfa893bf7cb901e99ba070",
+    "name": "murmurhash",
+    "sha256": "fecd0c79c071e5c83e8c759b39aee1285c3133fe9b05e3b2e8998b25b1555b11",
+    "size": 38284,
     "subdir": "linux-64",
     "version": "0.28.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/octave_kernel-0.28.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/murmurhash-0.28.0-py27_0.tar.bz2"
 }
