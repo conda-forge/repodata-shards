@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.",
+    "dev_url": "https://wiki.mpich.org/mpich/index.php/Main_Page",
+    "doc_source_url": null,
+    "doc_url": "http://www.mpich.org/documentation/guides",
+    "home": "http://www.mpich.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPICH",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.2.1": {
+        "weak": [
+          "mpich >=3.2,<3.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.mpich.org/static/downloads/3.2.1/mpich-3.2.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A high performance widely portable implementation of the MPI standard.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1542631239,
+    "version": "3.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "mpich-3.2.1-h1c2f66e_1006.tar.bz2",
+  "repodata": {
+    "build": "h1c2f66e_1006",
+    "build_number": 1006,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "mpi 1.0 mpich"
+    ],
+    "license": "MPICH",
+    "license_family": "Other",
+    "md5": "815d50ff4c5e5ce8d38b68ea3f0e9c5a",
+    "name": "mpich",
+    "sha256": "7d49ac433d640eb91ffd24c7141a28c5a37c67f58e583059630fee5f58931afe",
+    "size": 6083858,
+    "subdir": "linux-64",
+    "timestamp": 1542631239460,
+    "version": "3.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/mpich-3.2.1-h1c2f66e_1006.tar.bz2"
+}
