@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "8.0.1": {
+        "weak": [
+          "libllvm8 8.0.1 hc9558a2_0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-8.0.1/llvm-8.0.1.src.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1566113660,
+    "version": "8.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "llvm-8.0.1-0.tar.bz2",
+  "repodata": {
+    "build": "0",
+    "build_number": 0,
+    "constrains": [
+      "llvmdev   8.0.1"
+    ],
+    "depends": [
+      "libllvm8 8.0.1 hc9558a2_0"
+    ],
+    "license": "NCSA",
+    "md5": "ede7b4ec0d39a97180fe8aeaaf63f39c",
+    "name": "llvm",
+    "sha256": "6db040cc12b79c7a11a4abb001a0cce0e507a259e87f88722806129a6736d1cf",
+    "size": 23040,
+    "subdir": "linux-64",
+    "timestamp": 1566113660685,
+    "version": "8.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/llvm-8.0.1-0.tar.bz2"
+}
