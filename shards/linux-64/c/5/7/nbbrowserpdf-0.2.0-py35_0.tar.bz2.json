@@ -4,54 +4,55 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/LEMS/pylems",
+    "dev_url": "https://github.com/Anaconda-Server/nbbrowserpdf",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/LEMS/pylems",
+    "home": "https://github.com/Anaconda-Server/nbbrowserpdf",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL-3.0",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/PyLEMS/PyLEMS-0.4.9.tar.gz",
+    "source_url": "https://pypi.io/packages/source/n/nbbrowserpdf/nbbrowserpdf-0.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Python library for working with the Low Entropy Model Specification language (LEMS)",
+    "summary": "LaTeX-free PDF generation from Jupyter Notebooks",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "0.4.9"
+    "version": "0.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pylems-0.4.9-py35_0.tar.bz2",
+  "package": "nbbrowserpdf-0.2.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
+      "ghost.py",
+      "pypdf2",
       "python 3.5*"
     ],
-    "license": "LGPL-3.0",
-    "license_family": "LGPL",
-    "md5": "0e681d2dcd29ed1d8c1703ff4099f703",
-    "name": "pylems",
-    "sha256": "b7e9569f1736cc8b297e45cea38f3810ca54c95a04db27718ce9352219ddf41a",
-    "size": 96504,
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "2a4c2d701bd85afaf1c3df6e81d948d9",
+    "name": "nbbrowserpdf",
+    "sha256": "4007c1e8186346fd299fe209dbb9ee9df87df0aeec18c9f9974044c51450d89f",
+    "size": 16011,
     "subdir": "linux-64",
-    "version": "0.4.9"
+    "version": "0.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pylems-0.4.9-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/nbbrowserpdf-0.2.0-py35_0.tar.bz2"
 }
