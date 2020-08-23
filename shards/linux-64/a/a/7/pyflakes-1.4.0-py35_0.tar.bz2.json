@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/PyCQA/pyflakes",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.lua.org/",
+    "home": "https://github.com/PyCQA/pyflakes",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://www.lua.org/ftp/lua-5.3.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyflakes/pyflakes-1.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Lua is a powerful, fast, lightweight, embeddable scripting language",
+    "summary": "Pyflakes analyzes programs and detects various errors.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "5.3.4"
+    "version": "1.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,23 @@
     "main",
     "cf202003"
   ],
-  "package": "lua-5.3.4-0.tar.bz2",
+  "package": "pyflakes-1.4.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "ncurses 5.9*",
-      "readline 6.2*"
+      "python 3.5*"
     ],
     "license": "MIT",
-    "md5": "a53eba8fc13b6aa31f5121ba74683818",
-    "name": "lua",
-    "sha256": "2014953dba96fbf6aa4d71e361c4fd766acd840aab9fea498d74454c4e249a5d",
-    "size": 225132,
+    "license_family": "MIT",
+    "md5": "53a867bff6724a807997e7e39a8fe192",
+    "name": "pyflakes",
+    "sha256": "3fa97978ccfc3833716c4add8f5e83e58337adff4857a094490efdfa81926b95",
+    "size": 83549,
     "subdir": "linux-64",
-    "version": "5.3.4"
+    "version": "1.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/lua-5.3.4-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyflakes-1.4.0-py35_0.tar.bz2"
 }
