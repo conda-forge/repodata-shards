@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/limix/scipy-sugar",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/spyder-ide/qtpy",
+    "doc_url": "https://scipy-sugar.readthedocs.io/",
+    "home": "https://github.com/limix/scipy-sugar",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/q/qtpy/QtPy-1.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/scipy-sugar/scipy-sugar-1.0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A uniform layer to support PyQt5, PyQt4 and PySide with a single codebase",
+    "summary": "Missing SciPy functionalities",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.3.0"
+    "version": "1.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "qtpy-1.3.0-py27_0.tar.bz2",
+  "package": "scipy-sugar-1.0.2-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "numpy",
+      "python 3.6*",
+      "scipy"
     ],
     "license": "MIT",
-    "md5": "91f0d65ff777527d06bb3df64239ca05",
-    "name": "qtpy",
-    "sha256": "1132beb4a24dae083689c593429f5d8cc5fcc4be0001f99b4d6171dd6ed6ae9d",
-    "size": 39940,
+    "license_family": "MIT",
+    "md5": "b68450f7d76afd1b17a0ab7ff5beb61e",
+    "name": "scipy-sugar",
+    "sha256": "3c38f9012dc96dfdb3828608edbd27196e03607c9eb3bb55948c8e8b192a8835",
+    "size": 7247,
     "subdir": "linux-64",
-    "version": "1.3.0"
+    "version": "1.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/qtpy-1.3.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/scipy-sugar-1.0.2-py36_0.tar.bz2"
 }

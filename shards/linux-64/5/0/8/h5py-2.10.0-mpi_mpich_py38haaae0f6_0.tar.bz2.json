@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://www.lfd.uci.edu/~gohlke",
+    "home": "http://www.h5py.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/imagecodecs-lite/imagecodecs-lite-2019.12.2.tar.gz",
+    "source_url": "https://github.com/h5py/h5py/archive/2.10.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Subset of image transformation, compression, and decompression codecs",
+    "summary": "Read and write HDF5 files from Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1575379638,
-    "version": "2019.12.2"
+    "timestamp": 1572906617,
+    "version": "2.10.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "imagecodecs-lite-2019.12.2-py36h516909a_0.tar.bz2",
+  "package": "h5py-2.10.0-mpi_mpich_py38haaae0f6_0.tar.bz2",
   "repodata": {
-    "build": "py36h516909a_0",
+    "build": "mpi_mpich_py38haaae0f6_0",
     "build_number": 0,
     "depends": [
+      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_mpich_*",
       "libgcc-ng >=7.3.0",
+      "mpi4py",
+      "mpich >=3.3.1,<3.4.0a0",
       "numpy >=1.14.6,<2.0a0",
-      "python >=3.6,<3.7.0a0"
+      "python >=3.8,<3.9.0a0",
+      "six"
     ],
     "license": "BSD-3-Clause",
-    "license_family": "BSD",
-    "md5": "bbb201de563b9155ae1a9683830beb96",
-    "name": "imagecodecs-lite",
-    "sha256": "4d019ffdf2222f093908b4451d66f34c6cbe99911a42079e75bfb0683017a627",
-    "size": 193550,
+    "md5": "c80271e371911c0fafda363adc2d8e31",
+    "name": "h5py",
+    "sha256": "7bc623f132afa88f237d78ca18f894877eecbbe09ea30ab2e7746d7b365f342d",
+    "size": 1340569,
     "subdir": "linux-64",
-    "timestamp": 1575379638370,
-    "version": "2019.12.2"
+    "timestamp": 1572906617929,
+    "version": "2.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/imagecodecs-lite-2019.12.2-py36h516909a_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.10.0-mpi_mpich_py38haaae0f6_0.tar.bz2"
 }
