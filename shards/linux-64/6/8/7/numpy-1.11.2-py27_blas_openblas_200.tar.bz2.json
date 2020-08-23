@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/blink1073/tifffile",
+    "home": "http://numpy.scipy.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/t/tifffile/tifffile-0.12.1.tar.gz",
+    "source_url": "https://github.com/numpy/numpy/archive/v1.11.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Read and write image data from and to TIFF files.",
+    "summary": "array processing for numbers, strings, records, and objects.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.12.1"
+    "version": "1.11.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,25 @@
     "main",
     "cf202003"
   ],
-  "package": "tifffile-0.12.1-np113py35_0.tar.bz2",
+  "package": "numpy-1.11.2-py27_blas_openblas_200.tar.bz2",
   "repodata": {
-    "build": "np113py35_0",
-    "build_number": 0,
+    "build": "py27_blas_openblas_200",
+    "build_number": 200,
     "depends": [
-      "numpy 1.13*",
-      "python 3.5*"
+      "blas 1.1 openblas",
+      "openblas 0.2.18|0.2.18.*",
+      "python 2.7*"
     ],
+    "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "3d63c32284e939293f1b2533de1e0ae2",
-    "name": "tifffile",
-    "sha256": "2dec3b167431a02cc0cfd2c337384aad137f5ab5d6e3c413e08338215faeb726",
-    "size": 156964,
+    "md5": "a7ccf5bf1b8f3aa7c2c9c8230225a9ae",
+    "name": "numpy",
+    "sha256": "1c2624045aac94ef3b3e8fa987b9453a94ef7665cb1b5adee291a28693d5c43f",
+    "size": 7417527,
     "subdir": "linux-64",
-    "version": "0.12.1"
+    "version": "1.11.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/tifffile-0.12.1-np113py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/numpy-1.11.2-py27_blas_openblas_200.tar.bz2"
 }
