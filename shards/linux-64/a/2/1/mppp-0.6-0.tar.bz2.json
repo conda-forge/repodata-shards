@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ellisonbg/ipyleaflet",
+    "home": "https://bluescarni.github.io/mppp/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
-    "post_link": true,
+    "license": "MPL2",
+    "post_link": false,
     "pre_link": false,
-    "pre_unlink": true,
+    "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ipyleaflet/ipyleaflet-0.5.0.tar.gz",
+    "source_url": "https://github.com/bluescarni/mppp/archive/v0.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Jupyter widget for dynamic Leaflet maps",
+    "summary": "A C++11 header-only library for multiprecision arithmetic",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.5.0"
+    "version": "0.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "ipyleaflet-0.5.0-py27_0.tar.bz2",
+  "package": "mppp-0.6-0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "0",
     "build_number": 0,
     "depends": [
-      "ipywidgets >=7.0.0,<8.0.0",
-      "python 2.7*"
+      "gmp 6.1.*",
+      "libgfortran",
+      "mpfr 3.1.*"
     ],
-    "license": "MIT",
-    "md5": "9451467aa63bcb9f410c2afb1f55805a",
-    "name": "ipyleaflet",
-    "sha256": "f2fcc1385c258779edcbde5c262b078923f1aa865d03b5438b03dcd04e8fdcae",
-    "size": 464984,
+    "license": "MPL2",
+    "md5": "201072dc92fe3ce24ca9bb99b573045f",
+    "name": "mppp",
+    "sha256": "24976defa04cab61c5b4f82574f4c97f840a387609df9263c0cae2b0e6d03f96",
+    "size": 104792,
     "subdir": "linux-64",
-    "version": "0.5.0"
+    "version": "0.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipyleaflet-0.5.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mppp-0.6-0.tar.bz2"
 }
