@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://www.ffmpeg.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT License",
+    "license": "GPL 2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://ffmpeg.org/releases/ffmpeg-2.8.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Cross-platform solution to record, convert and stream audio and video.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.9.6"
+    "version": "2.8.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "pyinotify-0.9.6-py34_0.tar.bz2",
+  "package": "ffmpeg-2.8.6-3.tar.bz2",
   "repodata": {
-    "build": "py34_0",
-    "build_number": 0,
+    "build": "3",
+    "build_number": 3,
     "depends": [
-      "python 3.4*"
+      "x264",
+      "zlib 1.2.*"
     ],
-    "license": "MIT License",
-    "md5": "d92cd5dd49669ffb22cbabb39f016264",
-    "name": "pyinotify",
-    "sha256": "066b2fe9113b56cbb0e1c9e233bfc145715c2ee2e007552254ec23a61f6cb102",
-    "size": 40980,
+    "license": "GPL 2",
+    "md5": "04c7d7a37aab7c5b06db0e1ea559fe5c",
+    "name": "ffmpeg",
+    "sha256": "a6d66e504120683dea976b7ae41f468af5273080e83c3952bb18c6cd880e8f4c",
+    "size": 57836834,
     "subdir": "linux-64",
-    "version": "0.9.6"
+    "version": "2.8.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyinotify-0.9.6-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ffmpeg-2.8.6-3.tar.bz2"
 }
