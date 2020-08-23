@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The aim of the Remote Backend Compiler project is to distribute the tasks of a program JIT compilation process to separate computer systems using the client-server model. The frontend of the compiler runs on the client computer and the backend runs on the server computer. The compiler frontend will send the program code to compiler backend in LLVM IR form where it will be compiled to machine code.",
+    "dev_url": "https://github.com/xnd-project/rbc",
+    "doc_source_url": null,
+    "doc_url": "https://rbc.readthedocs.io/",
+    "home": "https://github.com/xnd-project/rbc",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/xnd-project/rbc/archive/v0.2.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "RBC - Remote Backend Compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1585316154,
+    "version": "0.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "rbc-0.2.1-py38h32f6830_0.tar.bz2",
+  "repodata": {
+    "build": "py38h32f6830_0",
+    "build_number": 0,
+    "depends": [
+      "llvmlite >=0.29",
+      "netifaces",
+      "numba",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "tblib",
+      "thriftpy2"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "0c119219ddc124e1ab307da8c88cbfd4",
+    "name": "rbc",
+    "sha256": "25a013c489c161059b09c5ac2b6fcf69280a050856c2258b8e9af32b4d7e15d3",
+    "size": 116379,
+    "subdir": "win-64",
+    "timestamp": 1585316154059,
+    "version": "0.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/rbc-0.2.1-py38h32f6830_0.tar.bz2"
+}
