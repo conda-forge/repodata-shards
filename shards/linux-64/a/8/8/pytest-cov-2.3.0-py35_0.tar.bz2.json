@@ -4,30 +4,30 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/ua-parser/uap-python",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ua-parser/uap-python",
+    "home": "https://github.com/pytest-dev/pytest-cov",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/u/ua-parser/ua-parser-0.7.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pytest-cov/pytest-cov-2.3.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python port of Browserscope's user agent parser",
+    "summary": "Pytest plugin for measuring coverage",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.7.3"
+    "version": "2.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "ua-parser-0.7.3-py35_0.tar.bz2",
+  "package": "pytest-cov-2.3.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "coverage",
+      "pytest",
+      "python 3.5*",
+      "setuptools"
     ],
-    "license": "Apache 2.0",
-    "license_family": "Apache",
-    "md5": "1db0afaf78252c3fc16d9c51bd234c23",
-    "name": "ua-parser",
-    "sha256": "dabfdbbf3fb019facd70dcf478cc2f78bcdc09da6ba550f7550aab6d2b40c1bb",
-    "size": 53204,
+    "license": "MIT",
+    "md5": "d24086db4ae229bf7bbd8b041e23bcfd",
+    "name": "pytest-cov",
+    "sha256": "0a0a2b80634f7f2b80bea112963d278e32b24757f544f4ce1c90d3f4d82a6505",
+    "size": 19313,
     "subdir": "linux-64",
-    "version": "0.7.3"
+    "version": "2.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ua-parser-0.7.3-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-cov-2.3.0-py35_0.tar.bz2"
 }

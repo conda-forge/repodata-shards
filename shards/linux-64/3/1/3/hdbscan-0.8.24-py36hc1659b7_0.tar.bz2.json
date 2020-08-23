@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/conda/libconda",
+    "home": "http://github.com/lmcinnes/hdbscan",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/libconda/archive/4.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/hdbscan/hdbscan-0.8.24.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "conda 4.0 based library",
+    "summary": "Clustering based on density with variable density clusters",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "4.0.0"
+    "timestamp": 1575860420,
+    "version": "0.8.24"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "libconda-4.0.0-py35_0.tar.bz2",
+  "package": "hdbscan-0.8.24-py36hc1659b7_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36hc1659b7_0",
     "build_number": 0,
     "depends": [
-      "pycosat >=0.6.1",
-      "python 3.5*",
-      "pyyaml",
-      "requests"
+      "joblib",
+      "libgcc-ng >=7.3.0",
+      "numpy >=1.14.6,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "scikit-learn >=0.16",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "24681d6ad125987655da52c53049d3b2",
-    "name": "libconda",
-    "sha256": "0bfca2b84f1a2df335cbca38492db8a96db26e5fa9bb1159df897b1e50f6c814",
-    "size": 77046,
+    "md5": "f32f51e3d437a7491c6f33d0a7e69442",
+    "name": "hdbscan",
+    "sha256": "911a1211d549f976afbb478328b3eceab5985e0c115e193f5009ec13322ffea6",
+    "size": 682391,
     "subdir": "linux-64",
-    "version": "4.0.0"
+    "timestamp": 1575860420124,
+    "version": "0.8.24"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libconda-4.0.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdbscan-0.8.24-py36hc1659b7_0.tar.bz2"
 }
