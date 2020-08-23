@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.8.0": {
+        "weak": [
+          "libcblas >=3.8.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1556066431,
+    "version": "3.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "libcblas-3.8.0-6_blis.tar.bz2",
+  "repodata": {
+    "build": "6_blis",
+    "build_number": 6,
+    "constrains": [
+      "blas * blis"
+    ],
+    "depends": [
+      "libblas 3.8.0 6_blis"
+    ],
+    "license": "BSD 3-clause",
+    "md5": "9d1716e27d1d99922d9faa5650ded851",
+    "name": "libcblas",
+    "sha256": "565bcb0ba54d8b4494486198c3e3444b7062c4b299c3d0669ed3df04e35e9d0d",
+    "size": 6241,
+    "subdir": "linux-64",
+    "timestamp": 1556066431576,
+    "track_features": "blas_blis",
+    "version": "3.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/libcblas-3.8.0-6_blis.tar.bz2"
+}
