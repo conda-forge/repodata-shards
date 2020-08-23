@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This package includes the protocol definitions for the new D-Bus at-spi.  Also included is the daemon necessary for forwarding device events and registering accessible applicaitions.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/at-spi2-core",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.36.0": {
+        "weak": [
+          "at-spi2-core >=2.36.0,<2.37.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.gnome.org/pub/gnome/sources/at-spi2-core/2.36/at-spi2-core-2.36.0.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "D-Bus-based implementation of AT-SPI accessibility framework",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1595568516,
+    "version": "2.36.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "at-spi2-core-2.36.0-hd4d3fcc_1.tar.bz2",
+  "repodata": {
+    "build": "hd4d3fcc_1",
+    "build_number": 1,
+    "depends": [
+      "dbus >=1.13.6,<2.0a0",
+      "gettext >=0.19.8.1,<1.0a0",
+      "glib >=2.58.3,<3.0a0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "LGPL",
+    "md5": "ff4852ef41905d445f1ac13ceea5bc98",
+    "name": "at-spi2-core",
+    "sha256": "e4188caf8b75de6ed0bc46f81ded36f1a6d3e07c342ec962f564e0aebd32ae7f",
+    "size": 202317,
+    "subdir": "osx-64",
+    "timestamp": 1595568516093,
+    "version": "2.36.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/at-spi2-core-2.36.0-hd4d3fcc_1.tar.bz2"
+}
