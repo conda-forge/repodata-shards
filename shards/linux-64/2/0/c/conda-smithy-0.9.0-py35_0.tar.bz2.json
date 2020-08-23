@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://llvm.org/",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "NCSA",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://releases.llvm.org/9.0.0/cfe-9.0.0.src.tar.xz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Development headers and libraries for Clang",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1569192113,
-    "version": "9.0.0"
+    "timestamp": 0,
+    "version": "0.9.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,32 @@
     "cf202003",
     "main"
   ],
-  "package": "libclang-9.0.0-hc9558a2_0.tar.bz2",
+  "package": "conda-smithy-0.9.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "hc9558a2_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=7.3.0",
-      "libllvm9 9.0.0 hc9558a2_2",
-      "libstdcxx-ng >=7.3.0"
+      "conda",
+      "conda-build",
+      "conda-build-all",
+      "gitpython",
+      "jinja2",
+      "pycrypto",
+      "pygithub <2",
+      "python 3.5*",
+      "requests",
+      "ruamel.yaml",
+      "setuptools"
     ],
-    "license": "NCSA",
-    "md5": "566abf70da0beffa4b63738c961e9a5a",
-    "name": "libclang",
-    "sha256": "633d028497c4073f94ef424f7fcb499cb096c96b9a191d17a6a0ea25eb1c6b27",
-    "size": 15387949,
+    "license": "BSD 3-clause",
+    "md5": "2f5e5384853fe8be73a91ceb1fe6b4c9",
+    "name": "conda-smithy",
+    "sha256": "a029120828d7d9e9fd7b5cc2d4f711d78d91de2d078a4e939315e7b5d5b61ed4",
+    "size": 37215,
     "subdir": "linux-64",
-    "timestamp": 1569192113392,
-    "version": "9.0.0"
+    "version": "0.9.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libclang-9.0.0-hc9558a2_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-smithy-0.9.0-py35_0.tar.bz2"
 }
