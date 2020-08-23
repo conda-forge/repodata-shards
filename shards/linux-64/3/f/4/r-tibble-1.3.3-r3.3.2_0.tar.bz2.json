@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/MangoTheCat/rematch",
+    "home": "https://github.com/tidyverse/tibble",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -20,17 +20,17 @@
     "run_exports": {},
     "source_git_url": null,
     "source_url": [
-      "https://cran.r-project.org/src/contrib/rematch_1.0.1.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/rematch/rematch_1.0.1.tar.gz"
+      "https://cran.r-project.org/src/contrib/tibble_1.3.3.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/tibble/tibble_1.3.3.tar.gz"
     ],
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A small wrapper on 'regexpr' to extract the matches and captured groups from the match of a regular expression to a character vector.",
+    "summary": "Provides a 'tbl_df' class that offers better checking and printing capabilities than traditional data frames.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.1"
+    "version": "1.3.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -38,23 +38,26 @@
     "cf202003",
     "main"
   ],
-  "package": "r-rematch-1.0.1-r3.3.2_0.tar.bz2",
+  "package": "r-tibble-1.3.3-r3.3.2_0.tar.bz2",
   "repodata": {
     "build": "r3.3.2_0",
     "build_number": 0,
     "depends": [
-      "r-base 3.3.2*"
+      "libgcc",
+      "r-base 3.3.2*",
+      "r-rcpp >=0.12.3",
+      "r-rlang"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "b9c97fe846ebb1f86f59d1d006d16e47",
-    "name": "r-rematch",
-    "sha256": "03afd0e6a0b5450ad288425a87243b54de5f48b93bf40ebff81113fe6bbea7e4",
-    "size": 14908,
+    "md5": "e7def50cf0839d8bf0f81ed945ad9893",
+    "name": "r-tibble",
+    "sha256": "ab2e0e259fd9441b3a7370c076068612f83a4692ead064daff5de3ce10ade731",
+    "size": 203272,
     "subdir": "linux-64",
-    "version": "1.0.1"
+    "version": "1.3.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rematch-1.0.1-r3.3.2_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-tibble-1.3.3-r3.3.2_0.tar.bz2"
 }
