@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://www.x.org/",
+    "home": "http://github.com/jdowner/gist",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/util/util-macros-1.19.2.tar.bz2",
+    "source_url": "https://pypi.io/packages/source/p/python-gist/python-gist-0.7.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Development utility macros for X.org software.",
+    "summary": "Manage github gists",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1530543433,
-    "version": "1.19.2"
+    "timestamp": 1572788169,
+    "version": "0.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "xorg-util-macros-1.19.2-h470a237_1.tar.bz2",
+  "package": "python-gist-0.7.0-py38_0.tar.bz2",
   "repodata": {
-    "build": "h470a237_1",
-    "build_number": 1,
+    "build": "py38_0",
+    "build_number": 0,
     "depends": [
-      "libgcc-ng >=4.9"
+      "docopt",
+      "python >=3.8,<3.9.0a0",
+      "python-gnupg >=0.4.1",
+      "requests",
+      "simplejson"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "85abe1778b969c510b24082a0817d0fc",
-    "name": "xorg-util-macros",
-    "sha256": "11991f6aa18c08843092c4221739269e4a057bfb6532bd05671a9e91a83070ad",
-    "size": 51304,
+    "md5": "d2f3061e10e226e49dc9f23b55962943",
+    "name": "python-gist",
+    "sha256": "5901794a34d46d5d78d65373a864ba5cf3053dfedd9ff6789e86f82a2783e68f",
+    "size": 21653,
     "subdir": "linux-64",
-    "timestamp": 1530543433692,
-    "version": "1.19.2"
+    "timestamp": 1572788169173,
+    "version": "0.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-util-macros-1.19.2-h470a237_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/python-gist-0.7.0-py38_0.tar.bz2"
 }
