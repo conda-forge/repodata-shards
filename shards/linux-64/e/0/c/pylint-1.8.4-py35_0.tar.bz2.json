@@ -7,52 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/PyCQA/pylint",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD License",
+    "license": "GPL 2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/q/qimage2ndarray/qimage2ndarray-1.5.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pylint/pylint-1.8.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "python code static checker",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.5.1"
+    "version": "1.8.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "qimage2ndarray-1.5.1-py35_0.tar.bz2",
+  "package": "pylint-1.8.4-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "numpy",
-      "pyqt",
+      "astroid >=1.6,<2.0",
+      "isort >=4.2.5",
+      "mccabe",
       "python 3.5*",
-      "sip"
+      "six"
     ],
-    "license": "BSD License",
-    "md5": "c621cd884952bc7ac5ab632fcca6fdef",
-    "name": "qimage2ndarray",
-    "sha256": "5428c0f83855fe90d72976abbc4cc395398d6bb034fec250440923a0629ac0d1",
-    "size": 20423,
+    "license": "GPL 2",
+    "md5": "828d97146ec0da337a57153ada877f79",
+    "name": "pylint",
+    "sha256": "2bda0450d515b35a17e863f01ee479ca160c61d271d1d0606d22b43d0685801f",
+    "size": 803065,
     "subdir": "linux-64",
-    "version": "1.5.1"
+    "version": "1.8.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/qimage2ndarray-1.5.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pylint-1.8.4-py35_0.tar.bz2"
 }
