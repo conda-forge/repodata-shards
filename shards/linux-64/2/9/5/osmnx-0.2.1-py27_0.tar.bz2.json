@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/datamade/usaddress",
+    "home": "https://github.com/gboeing/osmnx",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/u/usaddress/usaddress-0.5.7.tar.gz",
+    "source_url": "https://pypi.io/packages/source/o/osmnx/osmnx-0.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Parse US addresses using conditional random fields",
+    "summary": "Retrieve, construct, analyze, and visualize street networks from OpenStreetMap",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.5.7"
+    "version": "0.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,33 @@
     "main",
     "cf202003"
   ],
-  "package": "usaddress-0.5.7-py35_1.tar.bz2",
+  "package": "osmnx-0.2.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_1",
-    "build_number": 1,
+    "build": "py27_0",
+    "build_number": 0,
     "depends": [
-      "future",
-      "metaphone",
-      "probableparsing",
-      "python 3.5*",
-      "python-crfsuite",
-      "requests"
+      "descartes",
+      "geopandas >=0.2",
+      "geopy >=1.11",
+      "matplotlib",
+      "networkx",
+      "numpy",
+      "pandas >=0.19",
+      "python 2.7*",
+      "requests",
+      "rtree >=0.8.3",
+      "shapely"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "3877664e4e469b4e97fdae53f55c25ca",
-    "name": "usaddress",
-    "sha256": "a132688f9907cbad08863de3e283007ac149700f2d499bc245fe58db8fbcc31d",
-    "size": 59986,
+    "md5": "e62efbca329f85163309d3153cd23823",
+    "name": "osmnx",
+    "sha256": "8d0eb5e13175a2bce92128eb9f5c9a996bc34c190bdd230ba7314a2cc3c5538e",
+    "size": 58909,
     "subdir": "linux-64",
-    "version": "0.5.7"
+    "version": "0.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/usaddress-0.5.7-py35_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/osmnx-0.2.1-py27_0.tar.bz2"
 }
