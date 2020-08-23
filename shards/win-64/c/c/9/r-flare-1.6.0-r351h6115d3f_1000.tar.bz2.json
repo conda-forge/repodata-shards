@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=flare",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/flare/flare_1.6.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/flare_1.6.0.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Provide the implementation of a family of Lasso variants including Dantzig Selector, LAD Lasso, SQRT Lasso, Lq Lasso for estimating high dimensional sparse linear model. We adopt the alternating direction method of multipliers and convert the original optimization problem into a sequential L1 penalized least square minimization problem, which can be efficiently solved by linearization algorithm. A multi-stage screening approach is adopted for further acceleration. Besides the sparse linear model estimation, we also provide the extension of these Lasso variants to sparse Gaussian graphical model estimation including TIGER and CLIME using either L1 or adaptive penalty. Missing values can be tolerated for Dantzig selector and CLIME. The computation is memory-optimized using the sparse matrix output.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1546186348,
+    "version": "1.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-flare-1.6.0-r351h6115d3f_1000.tar.bz2",
+  "repodata": {
+    "build": "r351h6115d3f_1000",
+    "build_number": 1000,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=3.5.1,<3.5.2.0a0",
+      "r-igraph",
+      "r-lattice",
+      "r-mass",
+      "r-matrix"
+    ],
+    "license": "GPL-2",
+    "license_family": "GPL2",
+    "md5": "0343c7e90cd4a64f81f6bbdf0bbf8ccc",
+    "name": "r-flare",
+    "sha256": "cf14edd0be84d1b0daf0f8f3edc36f7b96fa6772c0eb4af4daf6a70757f77f2f",
+    "size": 1044050,
+    "subdir": "win-64",
+    "timestamp": 1546186348262,
+    "version": "1.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-flare-1.6.0-r351h6115d3f_1000.tar.bz2"
+}
