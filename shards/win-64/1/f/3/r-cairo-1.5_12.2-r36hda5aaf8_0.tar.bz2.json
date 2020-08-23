@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.rforge.net/Cairo/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/Cairo/Cairo_1.5-12.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/Cairo_1.5-12.2.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "R graphics device using cairographics library that can be used to create high-quality vector (PDF, PostScript and SVG) and bitmap output (PNG,JPEG,TIFF), and high-quality rendering in displays (X11 and Win32). Since it uses the same back-end for all output, copying across formats is WYSIWYG. Files are created without the dependence on X11 or other external programs. This device supports alpha channel (semi-transparent drawing) and resulting images can contain transparent and semi-transparent regions. It is ideal for use in server environments (file output) and as a replacement for other devices that don't have Cairo's capabilities such as alpha support or anti-aliasing. Backends are modular such that any subset of backends is supported.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1594267082,
+    "version": "1.5_12.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-cairo-1.5_12.2-r36hda5aaf8_0.tar.bz2",
+  "repodata": {
+    "build": "r36hda5aaf8_0",
+    "build_number": 0,
+    "depends": [
+      "cairo >=1.16.0,<2.0a0",
+      "cairo >=1.2",
+      "m2w64-gcc-libs",
+      "r-base >=3.6,<3.7.0a0"
+    ],
+    "license": "GPL-2.0",
+    "license_family": "GPL2",
+    "md5": "0b91928a19ca5cabca7d43f7e44898be",
+    "name": "r-cairo",
+    "sha256": "279bdc673275a74761bac85b145120524672464ea7602db9a23ec5c482fa8cc5",
+    "size": 556956,
+    "subdir": "win-64",
+    "timestamp": 1594267082631,
+    "version": "1.5_12.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-cairo-1.5_12.2-r36hda5aaf8_0.tar.bz2"
+}
