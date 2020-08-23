@@ -19,52 +19,49 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/conda/archive/4.6.10.tar.gz",
+    "source_url": "https://github.com/conda/conda/archive/4.5.10.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "OS-agnostic, system-level binary package and environment manager.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1554239814,
-    "version": "4.6.10"
+    "timestamp": 1534186059,
+    "version": "4.5.10"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "conda-4.6.10-py27_0.tar.bz2",
+  "package": "conda-4.5.10-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "constrains": [
-      "conda-build >=3",
-      "conda-env >=2.6",
+      "conda-build >=2.1",
       "cytoolz >=0.8.1",
       "setuptools >=31.0.1"
     ],
     "depends": [
-      "enum34",
-      "futures >=3.0.0",
+      "conda-env >=2.6",
+      "menuinst",
       "pycosat >=0.6.3",
       "pyopenssl >=16.2.0",
-      "python >=2.7,<2.8.0a0",
-      "requests >=2.18.4,<3",
-      "ruamel_yaml >=0.11.14,<0.16",
-      "setuptools >=31.0.1"
+      "python >=3.5,<3.6.0a0",
+      "requests >=2.12.4,<3",
+      "ruamel_yaml >=0.11.14"
     ],
     "license": "BSD 3-Clause",
-    "md5": "4dc1df283d5bac10ac6ca248ad4778b0",
+    "md5": "266331b25270c77749c970ce689a76b3",
     "name": "conda",
-    "sha256": "b43d361cf23b6c980a326e9dbcac42e743bb1e97646fc8cc4e8f4aa14484238c",
-    "size": 918939,
-    "subdir": "linux-64",
-    "timestamp": 1554239814890,
-    "version": "4.6.10"
+    "sha256": "a0d43baea6c10dee9a03e120ae1e263a910b317b94d0dcad1fe19fa300ed44f5",
+    "size": 681101,
+    "subdir": "win-64",
+    "timestamp": 1534186059809,
+    "version": "4.5.10"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-4.6.10-py27_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/conda-4.5.10-py35_0.tar.bz2"
 }
