@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/timothycrosley/pies",
+    "home": "https://github.com/channelcat/sanic",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,37 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pies/pies-2.6.7.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/sanic/sanic-0.7.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The simplest way to write one program that runs on both Python 2 and Python 3.",
+    "summary": "Async Python 3.5+ web server that's written to go fast",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.6.7"
+    "version": "0.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main"
+    "cf202003"
   ],
-  "package": "pies-2.6.7-py36_0.tar.bz2",
+  "package": "sanic-0.7.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "aiofiles >=0.3.0",
+      "httptools >=0.0.9",
+      "python 3.5*",
+      "ujson >=1.35",
+      "uvloop >=0.5.3",
+      "websockets >=4.0"
     ],
     "license": "MIT",
-    "md5": "2893a19c1e2df1a690c5687b494ddf58",
-    "name": "pies",
-    "sha256": "3f4ca5436a59692b4da155842d5dcb3e154fc09496e2ca76792d2b11beeb3e99",
-    "size": 16458,
+    "md5": "507a0f83ebe3ec46dd7df115066c1aad",
+    "name": "sanic",
+    "sha256": "641ecbc27d1a500d23fb28cc29a098fcdd0eeaac3dfd7d4571f611e0775cfa2b",
+    "size": 75054,
     "subdir": "linux-64",
-    "version": "2.6.7"
+    "version": "0.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pies-2.6.7-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/sanic-0.7.0-py35_0.tar.bz2"
 }
