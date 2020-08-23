@@ -7,50 +7,52 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/giampaolo/psutil",
+    "home": "https://code.zmaw.de/projects/cdo/wiki/Cdo%7Brbpy%7D",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "GPL-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/psutil/psutil-4.2.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cdo/cdo-1.3.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A cross-platform process and system utilities module for Python",
+    "summary": "Use CDO in the context of Python as if it would be a native library.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.2.0"
+    "version": "1.3.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "psutil-4.2.0-py34_0.tar.bz2",
+  "package": "python-cdo-1.3.3-py35_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*"
+      "cdo",
+      "python 3.5*",
+      "setuptools",
+      "six"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "01c5dd4a8c61038b8e70431cfd999de0",
-    "name": "psutil",
-    "sha256": "a1e87b214ee88ae51f4bcccdee9398c5afe65f0751398081e710fd1f06a25ecf",
-    "size": 232802,
+    "license": "GPL-2.0",
+    "md5": "f9063bcc56925816474477162131878d",
+    "name": "python-cdo",
+    "sha256": "7db9179446c7361b04032636113ecf56c82d5203c424019ff88b8e7a39f150f0",
+    "size": 14922,
     "subdir": "linux-64",
-    "version": "4.2.0"
+    "version": "1.3.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/psutil-4.2.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/python-cdo-1.3.3-py35_0.tar.bz2"
 }
