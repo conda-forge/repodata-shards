@@ -7,25 +7,25 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/dask/dask-ec2",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/d/django-typed-models/django-typed-models-0.5.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/dask-ec2/dask-ec2-0.5.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
-    "summary": null,
+    "summary": "Start a cluster in EC2 for dask.distributed",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
     "version": "0.5.0"
   },
@@ -34,23 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "django-typed-models-0.5.0-py35_0.tar.bz2",
+  "package": "dask-ec2-0.5.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "django",
-      "python 3.5*"
+      "boto3",
+      "click",
+      "paramiko",
+      "python 3.5*",
+      "pyyaml",
+      "six"
     ],
-    "license": "BSD-3-Clause",
-    "md5": "7f63b0c78190b5f8a1cefd9592674029",
-    "name": "django-typed-models",
-    "sha256": "6519ed187ebb2d85a4b32f2cd6df0a218c9d5ae99fb81de040131a63b45f83f1",
-    "size": 21980,
-    "subdir": "linux-64",
+    "license": "Apache 2.0",
+    "md5": "5d9a1bc353a2bf217bd32bd8cef2009c",
+    "name": "dask-ec2",
+    "sha256": "0952aaadca8cb57c972a12a0a611d41da011887313dc9c042118f3adb6b41d0f",
+    "size": 58459,
+    "subdir": "osx-64",
     "version": "0.5.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-typed-models-0.5.0-py35_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/dask-ec2-0.5.0-py35_0.tar.bz2"
 }
