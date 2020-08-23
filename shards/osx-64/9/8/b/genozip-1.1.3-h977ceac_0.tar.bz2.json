@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "genozip is a compressor for VCF genomic files (it compresses .vcf or .vcf.gz or .vcf.bz2 files). It is very easy to use - in fact, if you're familiar with gzip, it works pretty much the same. It achieves x2 to x5 better compression ratios than gzip because it leverages some properties of the genomic data, such as linkage disequilibrium, to compress better. It is also a lot faster than gzip. The compression is lossless - the decompressed file is identical to the original file. Contact: info@genozip.com",
+    "dev_url": "https://github.com/divonlan/genozip",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/divonlan/genozip",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CUSTOM",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/divonlan/genozip/archive/genozip-1.1.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Compressor for VCF genomic files, up to 5x better than gzip and faster too",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1581064748,
+    "version": "1.1.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "genozip-1.1.3-h977ceac_0.tar.bz2",
+  "repodata": {
+    "build": "h977ceac_0",
+    "build_number": 0,
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "CUSTOM",
+    "license_family": "OTHER",
+    "md5": "92d43d6663fe7adacb60253f46db6b34",
+    "name": "genozip",
+    "sha256": "74483462efecad5f5880b78e31982eca50ec693e680d49c72696463e99f40053",
+    "size": 91970,
+    "subdir": "osx-64",
+    "timestamp": 1581064748374,
+    "version": "1.1.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/genozip-1.1.3-h977ceac_0.tar.bz2"
+}
