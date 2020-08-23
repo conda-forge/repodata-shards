@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=interp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/interp/interp_1.0-33.tar.gz",
+      "https://cran.r-project.org/src/contrib/interp_1.0-33.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Bivariate data interpolation on regular and irregular grids, either linear or using splines are the main part of this package.  It is intended to provide FOSS replacement functions for the ACM licensed akima::interp and tripack::tri.mesh functions. Currently the piecewise linear interpolation part of akima::interp (and also akima::interpp) is implemented in interp::interp, this corresponds to the call akima::interp(..., linear=TRUE) which is the default setting and covers most of akima::interp use cases in depending packages.  A re-implementation of Akimas spline interpolation (akima::interp(..., linear=FALSE)) is currently under development and will complete this package in a later version. Estimators for partial derivatives are already available, these are a prerequisite for the spline interpolation.  The basic part is currently a GPLed triangulation algorithm (sweep hull algorithm by David Sinclair) providing the starting point for the piecewise linear interpolator. As side effect this algorithm is also used to provide replacements for the basic functions of the tripack package which also suffer from the ACM restrictions.  All functions are designed to be backward compatible with their akima / tripack counterparts.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1591790502,
+    "version": "1.0_33"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-interp-1.0_33-r40h0357c0b_1.tar.bz2",
+  "repodata": {
+    "build": "r40h0357c0b_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "r-base >=4.0,<4.1.0a0",
+      "r-deldir",
+      "r-rcpp >=0.12.9",
+      "r-rcppeigen"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "638d23fa61bb0c751e697d40ff6811c8",
+    "name": "r-interp",
+    "sha256": "b7e5b89ab23eb4b1848528c00bab907a07231f67dac0674393fe51f93fcb4f71",
+    "size": 411252,
+    "subdir": "linux-64",
+    "timestamp": 1591790502638,
+    "version": "1.0_33"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-interp-1.0_33-r40h0357c0b_1.tar.bz2"
+}

@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/tdsmith/ijroi",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/tdsmith/ijroi",
+    "doc_url": "http://cffi.readthedocs.org",
+    "home": "https://bitbucket.org/cffi/cffi",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ijroi/ijroi-0.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cffi/cffi-1.10.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Reads ImageJ ROIs.",
+    "summary": "Foreign Function Interface for Python calling C code.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3"
+    "version": "1.10.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "ijroi-0.3-py36_0.tar.bz2",
+  "package": "cffi-1.10.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "numpy",
+      "libffi",
+      "pycparser",
       "python 3.6*"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "2321272857a27ea6a37834672caef645",
-    "name": "ijroi",
-    "sha256": "7802f12765fd93d96a4ec8fb67952031013842472feba7c972d4e82bbaeb5f1f",
-    "size": 10535,
+    "md5": "1e23978bed83563fdcbc7b1e884e9053",
+    "name": "cffi",
+    "sha256": "af7da18bcb5bc6d7adba4fce052c869de98bdcaf187cf72b46ed3dc9c836c55e",
+    "size": 397570,
     "subdir": "linux-64",
-    "version": "0.3"
+    "version": "1.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/ijroi-0.3-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cffi-1.10.0-py36_0.tar.bz2"
 }
