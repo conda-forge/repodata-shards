@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/jcrist/crick",
+    "home": "http://github.com/Toblerity/Fiona",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/crick/crick-0.0.3.tar.gz",
+    "source_url": "https://github.com/Toblerity/Fiona/archive/1.7.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "High performance approximate and streaming algorithms.",
+    "summary": "Fiona reads and writes spatial data files.",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1531348503,
-    "version": "0.0.3"
+    "text_prefix": true,
+    "timestamp": 0,
+    "version": "1.7.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "crick-0.0.3-py35h7eb728f_0.tar.bz2",
+  "package": "fiona-1.7.6-np111py35_0.tar.bz2",
   "repodata": {
-    "build": "py35h7eb728f_0",
+    "build": "np111py35_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=4.9",
-      "numpy >=1.9.3,<2.0a0",
-      "python >=3.5,<3.6.0a0"
+      "click-plugins",
+      "cligj",
+      "gdal 2.1.*",
+      "munch",
+      "numpy 1.11*",
+      "python 3.5*",
+      "setuptools",
+      "shapely",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "2be29a0c716aab61873e0acbdecad5d8",
-    "name": "crick",
-    "sha256": "7e2a815d52574a64b93ec31efc5a2ac706586cd91161cd80d2ad63644df235ba",
-    "size": 824433,
+    "md5": "5ef7ae3fb7705c9176f88ee1a6a1032e",
+    "name": "fiona",
+    "sha256": "57820ce161ee47509da1d0c4554d449d7bebd81c7edd62161be254da491f269e",
+    "size": 1401151,
     "subdir": "linux-64",
-    "timestamp": 1531348503270,
-    "version": "0.0.3"
+    "version": "1.7.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/crick-0.0.3-py35h7eb728f_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.7.6-np111py35_0.tar.bz2"
 }

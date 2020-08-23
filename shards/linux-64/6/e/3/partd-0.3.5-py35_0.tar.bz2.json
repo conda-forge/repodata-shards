@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/jcrist/crick",
+    "home": "https://github.com/dask/partd",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/crick/crick-0.0.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/partd/partd-0.3.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "High performance approximate and streaming algorithms.",
+    "summary": "Concurrent appendable key-value storage",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1531348503,
-    "version": "0.0.3"
+    "timestamp": 0,
+    "version": "0.3.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "crick-0.0.3-py35h7eb728f_0.tar.bz2",
+  "package": "partd-0.3.5-py35_0.tar.bz2",
   "repodata": {
-    "build": "py35h7eb728f_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=4.9",
-      "numpy >=1.9.3,<2.0a0",
-      "python >=3.5,<3.6.0a0"
+      "locket",
+      "python 3.5*",
+      "toolz"
     ],
     "license": "BSD 3-Clause",
-    "md5": "2be29a0c716aab61873e0acbdecad5d8",
-    "name": "crick",
-    "sha256": "7e2a815d52574a64b93ec31efc5a2ac706586cd91161cd80d2ad63644df235ba",
-    "size": 824433,
+    "md5": "fba6e65afaded25c1bef158d53b837d9",
+    "name": "partd",
+    "sha256": "40b77e8bb323291bdd79596d43881cadccacba4246bbb10a753c2fefc3687acf",
+    "size": 26333,
     "subdir": "linux-64",
-    "timestamp": 1531348503270,
-    "version": "0.0.3"
+    "version": "0.3.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/crick-0.0.3-py35h7eb728f_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/partd-0.3.5-py35_0.tar.bz2"
 }
