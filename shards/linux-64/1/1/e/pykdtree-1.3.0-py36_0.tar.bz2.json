@@ -1,57 +1,59 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/minrk/findspark",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/minrk/findspark",
+    "home": "https://pypi.python.org/pypi/pykdtree",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "LGPL-3.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/f/findspark/findspark-1.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pykdtree/pykdtree-1.3.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Find pyspark to make it importable.",
+    "summary": "Fast kd-tree implementation with OpenMP-enabled queries.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1528893778,
+    "timestamp": 1527856721,
     "version": "1.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
+    "cf202003",
     "main"
   ],
-  "package": "findspark-1.3.0-py36_0.tar.bz2",
+  "package": "pykdtree-1.3.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
+      "libgcc",
+      "numpy >=1.11",
       "python >=3.6,<3.7.0a0"
     ],
-    "license": "BSD 3-clause",
-    "license_family": "BSD",
-    "md5": "a5d8aff391b2e919844b322c1ec83f42",
-    "name": "findspark",
-    "sha256": "4cb82656679556aee13371a9e1b781f8f2145d1254988d72aac3c6217b4e584f",
-    "size": 6875,
+    "license": "LGPL-3.0",
+    "md5": "39dc81e0c3448ec614c3f6adc5161f9e",
+    "name": "pykdtree",
+    "sha256": "06b735cdf4e303d1702d7ef9ef90f6a0e38bedf1bc94910b1714df5565ec8c03",
+    "size": 184057,
     "subdir": "linux-64",
-    "timestamp": 1528893778205,
+    "timestamp": 1527856721768,
     "version": "1.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/findspark-1.3.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pykdtree-1.3.0-py36_0.tar.bz2"
 }
