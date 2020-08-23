@@ -6,8 +6,8 @@
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://docs.vaex.io/",
-    "home": "https://www.github.com/maartenbreddels/vaex",
+    "doc_url": null,
+    "home": "https://github.com/asascience-open/thredds_crawler",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/v/vaex-astro/vaex-astro-0.1.5.tar.gz",
+    "source_url": "https://github.com/ioos/thredds_crawler/archive/1.5.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Astronomy related transformations and FITS file support for vaex",
+    "summary": "A Python library for crawling THREDDS servers.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1.5"
+    "version": "1.5.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "vaex-astro-0.1.5-py36_0.tar.bz2",
+  "package": "thredds_crawler-1.5.3-py34_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "kapteyn",
-      "python 3.6*",
-      "vaex-core >=0.1"
+      "lxml",
+      "netcdf4",
+      "python 3.4*",
+      "pytz",
+      "requests"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "87c637724ceafda63e147307fc9de421",
-    "name": "vaex-astro",
-    "sha256": "f4a676224b35f1a0c280f826eb99b3ca0e39e41dfb7bd75d40e772a93e05ddc0",
-    "size": 18076,
+    "md5": "43cfe2c505506180e46ada6690c96fad",
+    "name": "thredds_crawler",
+    "sha256": "4a90974c3f0401857fdb40e4cd5164f180c713dfec27ae6142cdd8be27a91de2",
+    "size": 15927,
     "subdir": "linux-64",
-    "version": "0.1.5"
+    "version": "1.5.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/vaex-astro-0.1.5-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/thredds_crawler-1.5.3-py34_0.tar.bz2"
 }
