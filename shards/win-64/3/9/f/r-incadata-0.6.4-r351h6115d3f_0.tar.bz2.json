@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.bitbucket.org/cancercentrum/incadata",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/incadata/incadata_0.6.4.tar.gz",
+      "https://cran.r-project.org/src/contrib/incadata_0.6.4.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Handle data in formats used by cancer centers in Sweden, both from 'INCA'  (the current register platform, (see <http://rcc.incanet.se> for more  information) and  by the older register platform 'Rockan' (used in the Western and Northern part  of the country).  All variables are coerced to suitable classes based on their  format.  Dates (from various formats such as with missing month or day, with or  without century prefix or with just a week number) are all recognized as dates and coerced to the ISO 8601 standard (Y-m-d). Boolean variables (internally stored either as 0/1 or \"True\"/\"False\"/blanks  when exported) are coerced to logical.  Variable names ending in '_Beskrivning' and '_Varde' will be character,  and 'PERSNR' will be coerced (if possible) to a valid personal identification  number 'pin' (by the 'sweidnumbr' package). The package also allow the user to interactively choose if a variable should  be coerced into a potential format even though not all of its values might  conform to the recognized pattern. It also contain a caching mechanism in order to temporarily store data sets  with its newly decided formats in order to not rerun the identification  process each time.  And finally, it also include a mechanism to aid the documentation process  connected to projects build on data from 'INCA'.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1537829448,
+    "version": "0.6.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-incadata-0.6.4-r351h6115d3f_0.tar.bz2",
+  "repodata": {
+    "build": "r351h6115d3f_0",
+    "build_number": 0,
+    "depends": [
+      "r-backports",
+      "r-base >=3.5.1,<3.5.2.0a0",
+      "r-decoder",
+      "r-dplyr",
+      "r-rccmisc",
+      "r-rvest",
+      "r-sweidnumbr",
+      "r-xml2"
+    ],
+    "license": "GPL-2",
+    "license_family": "GPL2",
+    "md5": "69a096a47202787403b3b9bc1646137d",
+    "name": "r-incadata",
+    "sha256": "6a7237e6872dcf8d0e895d2df6f67b9ba32d5d1f02a1f8b49316b73e233b7cf3",
+    "size": 243270,
+    "subdir": "win-64",
+    "timestamp": 1537829448399,
+    "version": "0.6.4"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-incadata-0.6.4-r351h6115d3f_0.tar.bz2"
+}
