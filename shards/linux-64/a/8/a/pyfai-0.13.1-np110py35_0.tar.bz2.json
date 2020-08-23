@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "pyFAI is an azimuthal integration library that tries to be fast (as fast as C and even more using OpenCL and GPU). It is based on histogramming of the 2theta/Q positions of each (center of) pixel weighted by the intensity of each pixel, but parallel version uses a SparseMatrix-DenseVector multiplication. Neighboring output bins get also a contribution of pixels next to the border thanks to pixel splitting. Finally pyFAI provides also tools to calibrate the experimental setup using Debye-Scherrer rings of a reference compound.",
+    "dev_url": "https://github.com/kif/pyFAI",
+    "doc_source_url": null,
+    "doc_url": "http://pythonhosted.org/pyFAI/",
+    "home": "https://github.com/kif/pyFAI",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/silx-kit/pyFAI/archive/v0.13.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python implementation of fast azimuthal integration",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 0,
+    "version": "0.13.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main",
+    "cf202003"
+  ],
+  "package": "pyfai-0.13.1-np110py35_0.tar.bz2",
+  "repodata": {
+    "build": "np110py35_0",
+    "build_number": 0,
+    "depends": [
+      "fabio",
+      "h5py",
+      "lxml",
+      "matplotlib",
+      "numpy 1.10*",
+      "pillow",
+      "python 3.5*",
+      "scipy"
+    ],
+    "license": "GPL-3",
+    "md5": "09a70260f3490b641621960cc2a6d6db",
+    "name": "pyfai",
+    "sha256": "261ab69e4422caed9713d923c20530da936689b80ace4cd003068802a00231cf",
+    "size": 10146253,
+    "subdir": "linux-64",
+    "version": "0.13.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyfai-0.13.1-np110py35_0.tar.bz2"
+}
