@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The libevent API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached. Furthermore, libevent also supports callbacks due to signals or regular timeouts.",
+    "dev_url": "https://github.com/libevent/libevent",
+    "doc_source_url": null,
+    "doc_url": "http://www.wangafu.net/~nickm/libevent-1.4/doxygen/html/",
+    "home": "http://libevent.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.1.10": {
+        "weak": [
+          "libevent >=2.1.10,<2.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/libevent/libevent/archive/release-2.1.10-stable.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "An event notification library.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1560738956,
+    "version": "2.1.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libevent-2.1.10-h30b5f01_0.tar.bz2",
+  "repodata": {
+    "build": "h30b5f01_0",
+    "build_number": 0,
+    "depends": [
+      "openssl >=1.1.1a,<1.1.2a",
+      "vc >=14.1,<15.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "7382f94d5e5ec6b32741bd1274e05225",
+    "name": "libevent",
+    "sha256": "134d57bf2dcc34f742e627e4480c2fb8e8dd00995b86141c72b87fb379d7709a",
+    "size": 503891,
+    "subdir": "win-64",
+    "timestamp": 1560738956742,
+    "version": "2.1.10"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libevent-2.1.10-h30b5f01_0.tar.bz2"
+}
