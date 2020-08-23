@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.hdfgroup.org/HDF4/",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "BSD-3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "http://www.hdfgroup.org/ftp/HDF/HDF_Current/src/hdf-4.2.12.tar.bz2",
+    "source_git_url": "https://github.com/SciTools/conda-build-all.git",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Library and multi-object file format for storing and managing data between machines.",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.2.12"
+    "version": "0.7.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "hdf4-4.2.12-0.tar.bz2",
+  "package": "conda-build-all-0.7.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "jpeg 9*",
-      "zlib 1.2.*"
+      "anaconda-client",
+      "conda",
+      "conda-build",
+      "gitpython",
+      "python 3.5*",
+      "setuptools"
     ],
-    "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "d6e7ba6311014f8cb105c3f054050d3c",
-    "name": "hdf4",
-    "sha256": "f6a1254133a569936fb8110abf1c03fd4a0eeb93fb134772a38ef7fcc925b847",
-    "size": 991133,
+    "license": "BSD-3",
+    "md5": "b95a0e4fee50c052caeabf12474b03e1",
+    "name": "conda-build-all",
+    "sha256": "54428a08cf72ba171ab0246cf75519f180ea332e051c8f5d26ac3c5ecf8965e0",
+    "size": 37005,
     "subdir": "linux-64",
-    "version": "4.2.12"
+    "version": "0.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdf4-4.2.12-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-build-all-0.7.1-py35_0.tar.bz2"
 }
