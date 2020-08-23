@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/andrie/miniCRAN",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/miniCRAN_0.2.10.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/miniCRAN/miniCRAN_0.2.10.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Makes it possible to create an internally consistent repository consisting of selected packages from CRAN-like repositories. The user specifies a set of desired packages, and 'miniCRAN' recursively reads the dependency tree for these packages, then downloads only this subset. The user can then install packages from this repository directly, rather than from CRAN.  This is useful in production settings, e.g. server behind a firewall, or remote locations with slow (or zero) Internet access.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "0.2.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "r-minicran-0.2.10-r3.4.1_0.tar.bz2",
+  "repodata": {
+    "build": "r3.4.1_0",
+    "build_number": 0,
+    "depends": [
+      "r-base 3.4.1*",
+      "r-httr",
+      "r-igraph",
+      "r-magrittr",
+      "r-xml"
+    ],
+    "license": "GPL-2",
+    "license_family": "GPL2",
+    "md5": "07139e4a2c3e86b7ed4376723dce0745",
+    "name": "r-minicran",
+    "sha256": "22c6b576de56f392dca02cbf2aa3024f15a74749125d8df0b88d480964e1ae80",
+    "size": 913541,
+    "subdir": "linux-64",
+    "version": "0.2.10"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/r-minicran-0.2.10-r3.4.1_0.tar.bz2"
+}
