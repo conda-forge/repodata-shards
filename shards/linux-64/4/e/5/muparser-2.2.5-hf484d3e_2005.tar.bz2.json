@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://stedolan.github.io/jq/",
+    "home": "http://muparser.beltoforion.de/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/stedolan/jq/releases/download/jq-1.5/jq-1.5.tar.gz",
+    "source_url": "https://github.com/beltoforion/muparser/archive/v2.2.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A command-line JSON processor.",
+    "summary": "A fast math parser library",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "1.5"
+    "timestamp": 1535467856,
+    "version": "2.2.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "jq-1.5-3.tar.bz2",
+  "package": "muparser-2.2.5-hf484d3e_2005.tar.bz2",
   "repodata": {
-    "build": "3",
-    "build_number": 3,
+    "build": "hf484d3e_2005",
+    "build_number": 2005,
     "depends": [
-      "oniguruma 6.1.*"
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0"
     ],
     "license": "MIT",
-    "md5": "19d3fb3fbc733486a64702bdac80d9b6",
-    "name": "jq",
-    "sha256": "2b0d072cfd51402b559f0b7f7565791e2301deaddea5e314d97f152e6e92d200",
-    "size": 1484449,
+    "md5": "f5638694bc57666f45a90eefd7aa6db6",
+    "name": "muparser",
+    "sha256": "5b32c8c1f9fd8dbc724d2b512bee017993277086b6381d69fed3120d4a085600",
+    "size": 155158,
     "subdir": "linux-64",
-    "version": "1.5"
+    "timestamp": 1535467856952,
+    "version": "2.2.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/jq-1.5-3.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/muparser-2.2.5-hf484d3e_2005.tar.bz2"
 }

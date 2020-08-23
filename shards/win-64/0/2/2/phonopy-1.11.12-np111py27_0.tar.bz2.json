@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "Phonopy is an open source package for phonon calculations at harmonic and quasi-harmonic levels. It works with multiple DFT programs (VASP, VASP DFPT, Abinit, Pwscf, Siesta, Elk, FHI-aims, Wien2k) as sources of inter-atomic forces and uses finite displacement method and symmetry relations for calculating elements of dynamical matrix. It works for all crystal symmetries and provides (among others)  phonon band structure, phonon DOS and partial-DOS, phonon thermal properties (free energy, heat capacity, and entropy), phonon group velocity, mean square displacements, irreducible representations of normal modes, quasi-harmonic approximation (thermal expansion, heat capacity at constant pressure), mode Gr\u00FCneisen parameters, non-analytical-term correction (LO-TO splitting). It also provides Python API for use as a library.",
     "dev_url": "https://github.com/atztogo/phonopy/",
@@ -19,44 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/phonopy/phonopy-1.13.0.28.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/phonopy/phonopy-1.11.12.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Phonopy is an open source package for phonon calculations at harmonic and quasi-harmonic levels.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1526574390,
-    "version": "1.13.0.28"
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "1.11.12"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "phonopy-1.13.0.28-py35_0.tar.bz2",
+  "package": "phonopy-1.11.12-np111py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np111py27_0",
     "build_number": 0,
     "depends": [
       "ase",
-      "numpy >=1.11",
-      "python >=3.5,<3.6.0a0",
+      "numpy 1.11*",
+      "python 2.7*",
       "pyyaml",
       "scipy"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "f71654ca29a1b4ace35bab56d81c3a1e",
+    "md5": "8ff9f375b6043e40ac39144967fe6bd5",
     "name": "phonopy",
-    "sha256": "a3de32ecb99c516c2628ac180ae554f0ef977bf03d1691dc923ca81e858df986",
-    "size": 959177,
-    "subdir": "linux-64",
-    "timestamp": 1526574390510,
-    "version": "1.13.0.28"
+    "sha256": "26d7c6a9042ab7bb16cf995728ee0870787209854ed8b99aa4d6ae9e39a9cd33",
+    "size": 437000,
+    "subdir": "win-64",
+    "version": "1.11.12"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/phonopy-1.13.0.28-py35_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/phonopy-1.11.12-np111py27_0.tar.bz2"
 }
