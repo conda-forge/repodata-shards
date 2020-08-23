@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/python-cmd2/cmd2",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/cole/aiosmtplib",
+    "doc_url": "https://cmd2.readthedocs.io/",
+    "home": "https://github.com/python-cmd2/cmd2",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/aiosmtplib/aiosmtplib-1.0.5.tar.gz",
+    "source_url": "https://pypi.org/packages/source/c/cmd2/cmd2-0.8.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Asynchronous SMTP client for use with asyncio.",
+    "summary": "Extra features for standard library's cmd module",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1556014757,
-    "version": "1.0.5"
+    "timestamp": 0,
+    "version": "0.8.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "aiosmtplib-1.0.5-py36_0.tar.bz2",
+  "package": "cmd2-0.8.2-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python >=3.6,<3.7.0a0"
+      "pyparsing >=2.0.1",
+      "pyperclip",
+      "python 3.6*",
+      "six",
+      "wcwidth"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "0ad40549a26bc7560ee4be0ac84aaf30",
-    "name": "aiosmtplib",
-    "sha256": "f19a2ae88d1d0aa28fae15bfae4a8581bc8340ad157bf20421d3ba9664d1b20c",
-    "size": 37433,
+    "md5": "23eae653ec32b73221382ca30c1c77f5",
+    "name": "cmd2",
+    "sha256": "b372116a21e0d1c0d60fe264f50f1b29b91f87440afb8d2f60723ee66aa63413",
+    "size": 67245,
     "subdir": "linux-64",
-    "timestamp": 1556014757362,
-    "version": "1.0.5"
+    "version": "0.8.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/aiosmtplib-1.0.5-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cmd2-0.8.2-py36_0.tar.bz2"
 }
