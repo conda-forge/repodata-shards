@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "http://github.com/mrocklin/zict",
+    "doc_url": "https://refnx.github.io",
+    "home": "https://github.com/refnx/refnx",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/z/zict/zict-0.1.1.tar.gz",
+    "source_url": "https://github.com/refnx/refnx/archive/v0.0.13.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Composable Dictionary Classes",
+    "summary": "Neutron and X-ray Reflectometry Analysis",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1.1"
+    "version": "0.0.13"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "zict-0.1.1-py27_0.tar.bz2",
+  "package": "refnx-0.0.13-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "heapdict",
-      "python 2.7*"
+      "h5py",
+      "numpy >=1.11",
+      "pandas",
+      "python 2.7*",
+      "scipy",
+      "uncertainties",
+      "xlrd"
     ],
     "license": "BSD 3-Clause",
-    "md5": "87d148aa4bed708440b00a8425fc0d47",
-    "name": "zict",
-    "sha256": "dc7accc61440e83647cb6d71b397e7834aa6a5f852cb22d6ea063cd05635021e",
-    "size": 13148,
+    "md5": "04506f53d659e56091ed09a3ead02bfe",
+    "name": "refnx",
+    "sha256": "21d78b2fadd108574fa51eeb9bf2a117a8ff33736c0d57b30fbc80217f0eb9fd",
+    "size": 10855305,
     "subdir": "linux-64",
-    "version": "0.1.1"
+    "version": "0.0.13"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/zict-0.1.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/refnx-0.0.13-py27_0.tar.bz2"
 }
