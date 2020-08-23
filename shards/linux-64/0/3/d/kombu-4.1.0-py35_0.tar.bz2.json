@@ -4,53 +4,54 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/celery/kombu",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/bcj/AttrDict/",
+    "doc_url": "https://kombu.readthedocs.org",
+    "home": "https://kombu.readthedocs.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/attrdict/attrdict-2.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/k/kombu/kombu-4.1.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A dict with attribute-style access",
+    "summary": "Messaging library for Python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.0.0"
+    "version": "4.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "attrdict-2.0.0-py35_0.tar.bz2",
+  "package": "kombu-4.1.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
+      "amqp >=2.1.4,<3.0",
       "python 3.5*",
-      "six"
+      "simplejson"
     ],
-    "license": "MIT",
-    "md5": "90b7a4c2e9eceadb8a7d3e7e5ba5f7c8",
-    "name": "attrdict",
-    "sha256": "1bb6891854606a00d8226b3fb206f8be5c4b5b52cbfbe1157be36d40aa93e666",
-    "size": 190854,
+    "license": "BSD 3-Clause",
+    "md5": "0e9f252b5c0cd30af3b1fb06b06add12",
+    "name": "kombu",
+    "sha256": "7a49e2cdf81274b14f7068b022aac76a849ff4b6929f5eb567c4dde6b2bd293b",
+    "size": 254822,
     "subdir": "linux-64",
-    "version": "2.0.0"
+    "version": "4.1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/attrdict-2.0.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/kombu-4.1.0-py35_0.tar.bz2"
 }
