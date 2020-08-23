@@ -19,40 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://www.earthsystemmodeling.org/esmf_releases/public/ESMF_7_1_0r/esmf_7_1_0r_src.tar.gz",
+    "source_url": "https://github.com/esmf-org/esmf/archive/ESMF_8_0_1/esmf_8_0_1_src.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "ESMPy is a Python interface to the Earth System Modeling Framework (ESMF) regridding utility.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1548521366,
-    "version": "7.1.0r"
+    "timestamp": 1590574324,
+    "version": "8.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "esmpy-7.1.0r-py36h24bf2e0_2.tar.bz2",
+  "package": "esmpy-8.0.1-mpi_mpich_py37hef66020_100.tar.bz2",
   "repodata": {
-    "build": "py36h24bf2e0_2",
-    "build_number": 2,
+    "build": "mpi_mpich_py37hef66020_100",
+    "build_number": 100,
     "depends": [
-      "esmf 7.1.0r.*",
+      "esmf 8.0.1 mpi_mpich_*",
+      "mpi4py",
+      "mpich >=3.3,<3.4.0a0",
       "numpy",
-      "python >=3.6,<3.7.0a0"
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
     ],
     "license": "The University of Illinois/NCSA",
-    "md5": "4a9c331a1b67db637d828043596d4ec2",
+    "md5": "8fac966b1bc9bd4789f5553434c40306",
     "name": "esmpy",
-    "sha256": "b852b33a619576f3117d2896fe0484e80081c70a3b87bda0e163e8ac1195b470",
-    "size": 164185,
+    "sha256": "758a30d10259cd701511361bb9a0b26f10250c2d73ef564ce68a03349442c2da",
+    "size": 173237,
     "subdir": "linux-64",
-    "timestamp": 1548521366917,
-    "version": "7.1.0r"
+    "timestamp": 1590574324723,
+    "version": "8.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/esmpy-7.1.0r-py36h24bf2e0_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/esmpy-8.0.1-mpi_mpich_py37hef66020_100.tar.bz2"
 }
