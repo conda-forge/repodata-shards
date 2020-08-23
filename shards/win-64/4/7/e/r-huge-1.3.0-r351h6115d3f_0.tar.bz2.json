@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=huge",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/huge/huge_1.3.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/huge_1.3.0.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Provides a general framework for high-dimensional undirected graph estimation. It integrates data preprocessing, neighborhood screening, graph estimation, and model selection techniques into a pipeline. In preprocessing stage, the nonparanormal(npn) transformation is applied to help relax the normality assumption. In the graph estimation stage, the graph structure is estimated by Meinshausen-Buhlmann graph estimation or the graphical lasso, and both methods can be further accelerated by the lossy screening rule preselecting the neighborhood of each variable by correlation thresholding. We target on high-dimensional data analysis usually d >> n, and the computation is memory-optimized using the sparse matrix output. We also provide a computationally efficient approach, correlation thresholding graph estimation. Three regularization/thresholding parameter selection methods are included in this package: (1)stability approach for regularization selection (2) rotation information criterion (3) extended Bayesian information criterion which is only available for the graphical lasso.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1550865129,
+    "version": "1.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-huge-1.3.0-r351h6115d3f_0.tar.bz2",
+  "repodata": {
+    "build": "r351h6115d3f_0",
+    "build_number": 0,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=3.5.1,<3.5.2.0a0",
+      "r-igraph",
+      "r-mass",
+      "r-matrix",
+      "r-rcpp",
+      "r-rcppeigen"
+    ],
+    "license": "GPL-2",
+    "license_family": "GPL2",
+    "md5": "0fa44edc50fb46a05c5de47bac8d6e37",
+    "name": "r-huge",
+    "sha256": "0ef5ffd63668644d848539d6ef7478e5f1aa675570c0a885a3d284e1feaac2af",
+    "size": 1713068,
+    "subdir": "win-64",
+    "timestamp": 1550865129532,
+    "version": "1.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-huge-1.3.0-r351h6115d3f_0.tar.bz2"
+}
