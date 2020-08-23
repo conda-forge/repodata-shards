@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/cgat-developers/conda-deps",
+    "home": "https://github.com/mymarilyn/clickhouse-driver",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/conda_deps/conda_deps-0.0.9.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/clickhouse-driver/clickhouse-driver-0.0.20.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Generate conda environment files from Python source code",
+    "summary": "Python driver with native interface for ClickHouse",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1572957843,
-    "version": "0.0.9"
+    "text_prefix": false,
+    "timestamp": 1559575025,
+    "version": "0.0.20"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "conda_deps-0.0.9-py38_0.tar.bz2",
+  "package": "clickhouse-driver-0.0.20-py37_0.tar.bz2",
   "repodata": {
-    "build": "py38_0",
+    "build": "py37_0",
     "build_number": 0,
     "depends": [
-      "ipython",
-      "nbconvert",
-      "python >=3.8,<3.9.0a0"
+      "python >=3.7,<3.8.0a0",
+      "pytz",
+      "six"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "3fbd0889d60d499c945f8142d6783f4c",
-    "name": "conda_deps",
-    "sha256": "5bbf3a8278c1ea8da3e333d6e745d5c4c3637ded87279f01d5efc23f7cf3cbbc",
-    "size": 18230,
+    "md5": "8c9ebc0c84de7621732373cbb07313bb",
+    "name": "clickhouse-driver",
+    "sha256": "bda00a531ec3d45c9234dcd0f27e545144a6f373507e68b026b11c3731296ce9",
+    "size": 78304,
     "subdir": "linux-64",
-    "timestamp": 1572957843553,
-    "version": "0.0.9"
+    "timestamp": 1559575025246,
+    "version": "0.0.20"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda_deps-0.0.9-py38_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/clickhouse-driver-0.0.20-py37_0.tar.bz2"
 }
