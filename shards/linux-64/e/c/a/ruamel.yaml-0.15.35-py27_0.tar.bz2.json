@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://entrypoints.readthedocs.org/en/latest/",
+    "home": "https://bitbucket.org/ruamel/yaml",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/takluyver/entrypoints/archive/0.2.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.35.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Discover and load entry points from installed packages",
+    "summary": "A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2.2"
+    "version": "0.15.35"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "entrypoints-0.2.2-py34_0.tar.bz2",
+  "package": "ruamel.yaml-0.15.35-py27_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "configparser",
-      "python 3.4*"
+      "python 2.7*",
+      "ruamel.ordereddict",
+      "setuptools",
+      "typing"
     ],
     "license": "MIT",
-    "md5": "d777f228404c7e8d0ff1398f64ef8827",
-    "name": "entrypoints",
-    "sha256": "0a5659bc840d4779c81eaba094f56bc819153806c8acb486e4eb40128a92ca5f",
-    "size": 3129,
+    "md5": "cd2a0211bfb632855425299ae1d6c03e",
+    "name": "ruamel.yaml",
+    "sha256": "9235245fbf977dcfa600ce69a740d6cbe09b70811c32f35838331a41238a7f76",
+    "size": 590650,
     "subdir": "linux-64",
-    "version": "0.2.2"
+    "version": "0.15.35"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/entrypoints-0.2.2-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.15.35-py27_0.tar.bz2"
 }
