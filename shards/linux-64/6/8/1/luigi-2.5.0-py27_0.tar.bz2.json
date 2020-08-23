@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Azure/azure-sdk-for-python",
+    "home": "https://github.com/spotify/luigi",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/azure-mgmt-compute/azure-mgmt-compute-0.20.1.zip",
+    "source_url": "https://pypi.io/packages/source/l/luigi/luigi-2.5.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Microsoft Azure Client Libraries for Python",
+    "summary": "Workflow mgmgt + task scheduling + dependency resolution.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.20.1"
+    "version": "2.5.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "azure-mgmt-compute-0.20.1-py27_0.tar.bz2",
+  "package": "luigi-2.5.0-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "azure-mgmt-common",
-      "python 2.7*"
+      "pyparsing",
+      "python 2.7*",
+      "python-daemon <3.0",
+      "setuptools",
+      "tornado >=4.0,<5"
     ],
     "license": "Apache-2.0",
-    "md5": "ff9c4fa2f4a487cbcc3eb2fa08c056b9",
-    "name": "azure-mgmt-compute",
-    "sha256": "e307592ecb6947da1a503a0803ff79ca40306c3a9000e91ebf42df5bf22cbe42",
-    "size": 80506,
+    "md5": "08d9d7f644fa3b7a0845b2c8f23f4a8d",
+    "name": "luigi",
+    "sha256": "6dad0622d7b7aea27fb5af74408868cd972631ab2e37d49560d02edcdd407c96",
+    "size": 1107542,
     "subdir": "linux-64",
-    "version": "0.20.1"
+    "version": "2.5.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/azure-mgmt-compute-0.20.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/luigi-2.5.0-py27_0.tar.bz2"
 }
