@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.8.0": {
+        "weak": [
+          "liblapack >=3.8.0,<3.9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1570152307,
+    "version": "3.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "liblapack-3.8.0-13_mkl.tar.bz2",
+  "repodata": {
+    "build": "13_mkl",
+    "build_number": 13,
+    "constrains": [
+      "libcblas 3.8.0 13_mkl",
+      "liblapacke 3.8.0 13_mkl",
+      "blas * mkl"
+    ],
+    "depends": [
+      "libblas 3.8.0 13_mkl"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "d465570ab031787dd699a8ccb5f270f8",
+    "name": "liblapack",
+    "sha256": "333233b9ea11aa47168452806b817e7eb0f9dd27bb097fbf486fe016f00006a0",
+    "size": 3699404,
+    "subdir": "win-64",
+    "timestamp": 1570152307735,
+    "version": "3.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/liblapack-3.8.0-13_mkl.tar.bz2"
+}
