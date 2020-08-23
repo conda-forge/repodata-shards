@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/andrix/python-snappy",
+    "home": "http://yt-project.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/python-snappy/python-snappy-0.5.1.tar.gz",
+    "source_url": "http://yt-project.org/sdist/yt-3.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python library for the snappy compression library from Google",
+    "summary": "Analysis and visualization toolkit for volumetric data",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.5.1"
+    "version": "3.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "python-snappy-0.5.1-py27_1.tar.bz2",
+  "package": "yt-3.4.0-np111py27_0.tar.bz2",
   "repodata": {
-    "build": "py27_1",
-    "build_number": 1,
+    "build": "np111py27_0",
+    "build_number": 0,
     "depends": [
+      "h5py",
+      "ipython",
+      "libgcc",
+      "matplotlib",
+      "numpy 1.11*",
+      "pyembree",
       "python 2.7*",
-      "snappy"
+      "setuptools",
+      "sympy"
     ],
     "license": "BSD 3-clause",
-    "md5": "92ba7a26615d23e34eee9f1cda54686c",
-    "name": "python-snappy",
-    "sha256": "dfb8adaafb003fad811d8c89883f55e1ecec74ce3182b06c527f79f4462dfac7",
-    "size": 34220,
+    "md5": "686a0f455b4344666e7e16c979efc548",
+    "name": "yt",
+    "sha256": "52209ce9e2d8a7262fcf8904fc993fbaccdf5cc99f5cd0aa16c38bd33227ff4e",
+    "size": 21283935,
     "subdir": "linux-64",
-    "version": "0.5.1"
+    "version": "3.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-snappy-0.5.1-py27_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/yt-3.4.0-np111py27_0.tar.bz2"
 }
