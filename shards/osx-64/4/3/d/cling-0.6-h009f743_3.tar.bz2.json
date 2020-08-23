@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Cling is an interactive C++ interpreter, built on top of Clang and LLVM compiler infrastructure. Cling realizes the read-eval-print loop (REPL) concept, in order to leverage rapid application development. Implemented as a small extension to LLVM and Clang, the interpreter reuses their strengths such as the praised concise and expressive compiler diagnostics.",
+    "dev_url": "https://github.com/root-project/cling",
+    "doc_source_url": null,
+    "doc_url": "https://root.cern.ch/cling",
+    "home": "https://root.cern.ch/cling",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA OR LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.6": {
+        "weak": [
+          "cling >=0.6,<0.7.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/root-project/cling/archive/v0.6.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Cling - The Interactive C++ Interpreter",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1596095049,
+    "version": "0.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "cling-0.6-h009f743_3.tar.bz2",
+  "repodata": {
+    "build": "h009f743_3",
+    "build_number": 3,
+    "depends": [
+      "clang_variant * cling_v0.6",
+      "clangdev 5.0.0.*",
+      "libcxx >=10.0.1",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "NCSA OR LGPL-2.1-only",
+    "md5": "8fe5b1b0417daeb884206c2b9d822f53",
+    "name": "cling",
+    "sha256": "c062b2bfe90491779643d4616989bfde9333931f94e579793ec730552f1e8bfd",
+    "size": 44659736,
+    "subdir": "osx-64",
+    "timestamp": 1596095049823,
+    "version": "0.6"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cling-0.6-h009f743_3.tar.bz2"
+}

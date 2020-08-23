@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Pulsar Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Pulsar library.  If you want to install the Python bindings, please install the associated python-lalpulsar package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalpulsar/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv2+",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.18.0": {
+        "weak": [
+          "lalpulsar >=1.18.0,<1.19.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalpulsar-1.18.0.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Pulsar Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1563263681,
+    "version": "1.18.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lalpulsar-1.18.0-h607212f_6.tar.bz2",
+  "repodata": {
+    "build": "h607212f_6",
+    "build_number": 6,
+    "depends": [
+      "cfitsio >=3.470,<3.471.0a0",
+      "fftw",
+      "gsl >=2.5,<2.6.0a0",
+      "lal >=6.20.0",
+      "lal >=6.20.2,<6.21.0a0",
+      "libblas >=3.8.0,<4.0a0"
+    ],
+    "license": "GPLv2+",
+    "license_family": "GPL",
+    "md5": "b833ecebbd0cd30a890e74cf9655af2c",
+    "name": "lalpulsar",
+    "sha256": "cf58869180abfc0965ad5e95136ab85369967fa6251f7222accbce1dd5d77415",
+    "size": 92456534,
+    "subdir": "osx-64",
+    "timestamp": 1563263681112,
+    "version": "1.18.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lalpulsar-1.18.0-h607212f_6.tar.bz2"
+}
