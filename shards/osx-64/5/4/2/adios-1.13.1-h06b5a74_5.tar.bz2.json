@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Adaptable IO System (ADIOS) provides a simple, flexible way for scientists to describe the data in their code that may need to be written, read, or processed outside of the running simulation. By providing an external to the code XML file describing the various elements, their types, and how you wish to process them this run, the routines in the host code (either Fortran or C) can transparently change how they process the data.",
+    "dev_url": "https://github.com/ornladios/ADIOS",
+    "doc_source_url": null,
+    "doc_url": "https://users.nccs.gov/~pnorbert/ADIOS-UsersManual-1.13.1.pdf",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://users.nccs.gov/%7Epnorbert/adios-1.13.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Adaptable IO System (ADIOS) for flexible and fast scientific data processing.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1541000498,
+    "version": "1.13.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "adios-1.13.1-h06b5a74_5.tar.bz2",
+  "repodata": {
+    "build": "h06b5a74_5",
+    "build_number": 5,
+    "depends": [
+      "blosc",
+      "bzip2 >=1.0.6,<2.0a0",
+      "hdf5 >=1.10.3,<1.10.4.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "4fd7f5d02b38b13efe78144287d4d3c5",
+    "name": "adios",
+    "sha256": "94a49250707061f74b01695db8b4a58d385bc20d139ebd0c119c5e0df1913a28",
+    "size": 1958876,
+    "subdir": "osx-64",
+    "timestamp": 1541000498818,
+    "version": "1.13.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/adios-1.13.1-h06b5a74_5.tar.bz2"
+}
