@@ -19,47 +19,51 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest/pytest-3.7.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pytest/pytest-5.3.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Simple and powerful testing with Python.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1533006108,
-    "version": "3.7.0"
+    "text_prefix": false,
+    "timestamp": 1574782850,
+    "version": "5.3.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "pytest-3.7.0-py35_0.tar.bz2",
+  "package": "pytest-5.3.1-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
+    "constrains": [
+      "pytest-faulthanlder >=2"
+    ],
     "depends": [
       "atomicwrites >=1.0",
       "attrs >=17.4.0",
+      "colorama",
+      "importlib_metadata >=0.12",
       "more-itertools >=4.0",
-      "pathlib2",
-      "pluggy >=0.7",
+      "packaging",
+      "pluggy >=0.12,<1.0",
       "py >=1.5.0",
-      "python >=3.5,<3.6.0a0",
-      "setuptools",
-      "six >=1.10.0"
+      "python >=3.6,<3.7.0a0",
+      "setuptools >=40.0",
+      "wcwidth"
     ],
     "license": "MIT",
-    "md5": "6b7ef5029475283d7ca0f4f273458f3f",
+    "md5": "f093b78c5769bc001e27e7e935411fe3",
     "name": "pytest",
-    "sha256": "149bce13344bdda865e857a6773566a9510357af994aeebb0aa833d4bb87ce3c",
-    "size": 316648,
-    "subdir": "linux-64",
-    "timestamp": 1533006108894,
-    "version": "3.7.0"
+    "sha256": "fd8071a7298f09d6272e778a4a9a030e158ce114fcd5943d21075921fb845fc8",
+    "size": 398705,
+    "subdir": "win-64",
+    "timestamp": 1574782850376,
+    "version": "5.3.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-3.7.0-py35_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pytest-5.3.1-py36_0.tar.bz2"
 }
