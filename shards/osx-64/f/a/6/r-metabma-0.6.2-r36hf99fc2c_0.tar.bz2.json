@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/danheck/metaBMA",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/metaBMA/metaBMA_0.6.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/metaBMA_0.6.2.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Computes the posterior model probabilities for standard meta-analysis models  (null model vs. alternative model assuming either fixed- or random-effects, respectively). These posterior probabilities are used to estimate the overall mean effect size  as the weighted average of the mean effect size estimates of the random- and  fixed-effect model as proposed by Gronau, Van Erp, Heck, Cesario, Jonas, &  Wagenmakers (2017, <doi:10.1080/23743603.2017.1326760>). The user can define  a wide range of non-informative or informative priors for the mean effect size  and the heterogeneity coefficient. Moreover, using pre-compiled Stan models,  meta-analysis with continuous and discrete moderators with Jeffreys-Zellner-Siow (JZS)  priors can be fitted and tested. This allows to compute Bayes factors and  perform Bayesian model averaging across random- and fixed-effects meta-analysis  with and without moderators.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1568658424,
+    "version": "0.6.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-metabma-0.6.2-r36hf99fc2c_0.tar.bz2",
+  "repodata": {
+    "build": "r36hf99fc2c_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=4.0.1",
+      "r-base >=3.6,<3.7.0a0",
+      "r-bh >=1.69.0_1",
+      "r-bridgesampling",
+      "r-coda",
+      "r-laplacesdemon",
+      "r-logspline",
+      "r-mvtnorm",
+      "r-rcpp >=1.0.0",
+      "r-rcppeigen >=0.3.3.5.0",
+      "r-rstan >=2.18.1",
+      "r-rstantools >=1.5.1",
+      "r-stanheaders >=2.18.0"
+    ],
+    "license": "GPL-3",
+    "license_family": "GPL3",
+    "md5": "bac75b2f327ca7edce5782b04b521832",
+    "name": "r-metabma",
+    "sha256": "5d32812d25095880d99eed905b7859a43110ce4d54b6a02c4444959b2d18845a",
+    "size": 1806214,
+    "subdir": "osx-64",
+    "timestamp": 1568658424995,
+    "version": "0.6.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-metabma-0.6.2-r36hf99fc2c_0.tar.bz2"
+}
