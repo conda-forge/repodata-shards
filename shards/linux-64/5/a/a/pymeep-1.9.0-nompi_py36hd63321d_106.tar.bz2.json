@@ -1,0 +1,82 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/NanoComp/meep",
+    "doc_source_url": null,
+    "doc_url": "http://meep.readthedocs.io",
+    "home": "http:/github.com/NanoComp/meep",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.9.0": {
+        "weak": [
+          "pymeep * nompi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NanoComp/meep/releases/download/v1.9.0/meep-1.9.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Free finite-difference time-domain (FDTD) software for electromagnetic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1559580805,
+    "version": "1.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "pymeep-1.9.0-nompi_py36hd63321d_106.tar.bz2",
+  "repodata": {
+    "build": "nompi_py36hd63321d_106",
+    "build_number": 106,
+    "depends": [
+      "ffmpeg",
+      "gsl >=2.4,<2.5.0a0",
+      "h5py",
+      "h5utils",
+      "harminv",
+      "hdf5 >=1.10.4,<1.10.5.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libctl >=4.2.0",
+      "libgcc-ng >=7.3.0",
+      "libgdsii >=0.21",
+      "libgfortran-ng >=7,<8.0a0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "matplotlib",
+      "mayavi",
+      "mpb * nompi_*",
+      "numpy >=1.11.3,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "scipy"
+    ],
+    "license": "GPL-2.0",
+    "md5": "86881f4dc84622db59de9522010e37ce",
+    "name": "pymeep",
+    "sha256": "6769e96bf28208494c22d40920a4d6d7074cde5964300a3568fa7ecf35203771",
+    "size": 3747223,
+    "subdir": "linux-64",
+    "timestamp": 1559580805934,
+    "version": "1.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pymeep-1.9.0-nompi_py36hd63321d_106.tar.bz2"
+}
