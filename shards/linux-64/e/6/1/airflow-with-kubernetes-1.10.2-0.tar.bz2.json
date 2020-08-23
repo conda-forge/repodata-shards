@@ -19,39 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/apache/incubator-airflow/archive/1.10.8.tar.gz",
+    "source_url": "https://github.com/apache/incubator-airflow/archive/1.10.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Airflow is a platform to programmatically author, schedule and monitor workflows",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1581128208,
-    "version": "1.10.8"
+    "timestamp": 1555722250,
+    "version": "1.10.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "airflow-with-qds-1.10.8-0.tar.bz2",
+  "package": "airflow-with-kubernetes-1.10.2-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
     "depends": [
-      "airflow >=1.10.8,<1.10.9.0a0",
-      "qds-sdk >=1.10.4"
+      "airflow >=1.10.2,<1.10.3.0a0",
+      "cryptography >=2.0.0",
+      "python-kubernetes >=3.0.0"
     ],
     "license": "Apache 2.0",
-    "md5": "1a127846e52590b83c82d673d261afc4",
-    "name": "airflow-with-qds",
-    "sha256": "79b73f6cdd1caf4b9db2f6aa4d7757884fa07cd4c8bc678dfcd63f29db3ad241",
-    "size": 11815,
+    "md5": "c3da617efa00302b1fc381125293050d",
+    "name": "airflow-with-kubernetes",
+    "sha256": "b36d60740513eecedb280b5a355fca16aa2ef488f57e03a52535989231f31b35",
+    "size": 11290,
     "subdir": "linux-64",
-    "timestamp": 1581128208700,
-    "version": "1.10.8"
+    "timestamp": 1555722250576,
+    "version": "1.10.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/airflow-with-qds-1.10.8-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-kubernetes-1.10.2-0.tar.bz2"
 }
