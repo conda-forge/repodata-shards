@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "When you run retype, it goes through all files you passed as SRC, finds the corresponding .pyi files in the types/ directory, and re-applies typing annotations from .pyi to the sources, using the Python 3 function and variable annotation syntax. The resulting combined sources are saved in typed-src/.  You can also pass directories as sources, in which case retype will look for .py files in them recursively.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/ambv/retype",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/r/retype/retype-17.12.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Re-apply type annotations from .pyi stubs to your codebase.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1541901920,
+    "version": "17.12.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "retype-17.12.0-py37_1000.tar.bz2",
+  "repodata": {
+    "build": "py37_1000",
+    "build_number": 1000,
+    "depends": [
+      "click",
+      "python >=3.7,<3.8.0a0",
+      "typed-ast"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "05c6dc3b4d287b76b8696280d6111528",
+    "name": "retype",
+    "sha256": "41dfdb0cf18506bf0beaeff991f34bc2259a3bc9a650a0f96c18c9797061c51f",
+    "size": 42872,
+    "subdir": "linux-64",
+    "timestamp": 1541901920353,
+    "version": "17.12.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/retype-17.12.0-py37_1000.tar.bz2"
+}
