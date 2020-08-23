@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.scorec.rpi.edu/software.php",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.2.2": {
+        "weak": [
+          "scorec * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/SCOREC/core/archive/v2.2.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The SCOREC Core is a set of C/C++ libraries for unstructured mesh simulations on supercomputers.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1580510355,
+    "version": "2.2.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "scorec-2.2.2-mpi_mpich_h9f7b9cf_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h9f7b9cf_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.3.2,<3.4.0a0",
+      "zoltan * mpi_mpich_*"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "814feec443559324322a476622d13a93",
+    "name": "scorec",
+    "sha256": "c92f2347df084b9169f0cefc9e4eb66eead21bfca582d50e6c97d575d57e4865",
+    "size": 11224362,
+    "subdir": "linux-64",
+    "timestamp": 1580510355386,
+    "version": "2.2.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/scorec-2.2.2-mpi_mpich_h9f7b9cf_0.tar.bz2"
+}
