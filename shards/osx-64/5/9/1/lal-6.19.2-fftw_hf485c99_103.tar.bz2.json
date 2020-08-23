@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL library.  If you want to install the Python bindings, please install the associated python-lal package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lal/",
+    "home": "https://wiki.ligo.org/DASWG/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "6.19.2": {
+        "weak": [
+          "lal >=6.19.2,<6.20.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lal-6.19.2.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1553626093,
+    "version": "6.19.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lal-6.19.2-fftw_hf485c99_103.tar.bz2",
+  "repodata": {
+    "build": "fftw_hf485c99_103",
+    "build_number": 103,
+    "depends": [
+      "fftw",
+      "gsl >=2.4,<2.5.0a0",
+      "hdf5 >=1.10.4,<1.10.5.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "e1b6ac5126351e37d7263acbbcfbd47e",
+    "name": "lal",
+    "sha256": "2129e766fbffb7875e960d197f3043b14061779d127a5b8f3063ebbf7bc40516",
+    "size": 3017910,
+    "subdir": "osx-64",
+    "timestamp": 1553626093334,
+    "version": "6.19.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lal-6.19.2-fftw_hf485c99_103.tar.bz2"
+}
