@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://openturns.org/",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPLv3",
+    "license": "BSD",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "https://github.com/openturns/otmorris/archive/v0.1.tar.gz",
+    "source_git_url": "https://github.com/pelson/conda-execute.git",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Morris screening module",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1"
+    "version": "0.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "otmorris-0.1-py34_0.tar.bz2",
+  "package": "conda-execute-0.4.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "openturns",
-      "python 3.4*"
+      "conda",
+      "psutil",
+      "python 3.5*",
+      "pyyaml",
+      "setuptools"
     ],
-    "license": "LGPLv3",
-    "md5": "bea223b7002308e55a101151a7c5f884",
-    "name": "otmorris",
-    "sha256": "6ab4141c75f2d687f7f66f30443e8532048b012113deaddcd7438dc130497969",
-    "size": 258907,
+    "license": "BSD",
+    "md5": "1fb0146bbbf14e57aa9c4fe5b2788135",
+    "name": "conda-execute",
+    "sha256": "75a270af4601ce3647feb3ccf4146bf12f2369477cdabdc96a528c5be09d69eb",
+    "size": 14127,
     "subdir": "linux-64",
-    "version": "0.1"
+    "version": "0.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/otmorris-0.1-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-execute-0.4.1-py35_0.tar.bz2"
 }
