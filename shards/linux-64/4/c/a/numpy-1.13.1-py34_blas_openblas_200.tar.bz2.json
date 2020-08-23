@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/conda/constructor",
+    "home": "http://numpy.scipy.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,42 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/constructor/archive/1.5.5.tar.gz",
+    "source_url": "https://github.com/numpy/numpy/archive/v1.13.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "create installer from conda packages",
+    "summary": "Array processing for numbers, strings, records, and objects.",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "1.5.5"
+    "version": "1.13.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "constructor-1.5.5-py35_0.tar.bz2",
+  "package": "numpy-1.13.1-py34_blas_openblas_200.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "py34_blas_openblas_200",
+    "build_number": 200,
     "depends": [
-      "libconda",
-      "pycosat >=0.6.1",
-      "python 3.5*",
-      "pyyaml"
+      "blas 1.1 openblas",
+      "openblas 0.2.19|0.2.19.*",
+      "python 3.4*"
     ],
+    "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "12828ed6571ef8c3fa52d34b1219533f",
-    "name": "constructor",
-    "sha256": "c044ed260f0704ec236a1f218acd82243bd56489cce849f864a2d07a9f22470a",
-    "size": 43879,
+    "md5": "e4bafb9e8ca2027b2ccf31147b96f042",
+    "name": "numpy",
+    "sha256": "81f21fea70c7db8557669a8d7be1541098367eac61e26b51c1cc1e4bc0a0df08",
+    "size": 9182763,
     "subdir": "linux-64",
-    "version": "1.5.5"
+    "version": "1.13.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/constructor-1.5.5-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/numpy-1.13.1-py34_blas_openblas_200.tar.bz2"
 }
