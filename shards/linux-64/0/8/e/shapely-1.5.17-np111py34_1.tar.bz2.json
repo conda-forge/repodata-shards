@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Blosc/c-blosc",
+    "home": "https://github.com/Toblerity/Shapely",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,35 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Blosc/c-blosc/archive/v1.14.0.tar.gz",
+    "source_url": "https://github.com/Toblerity/Shapely/archive/1.5.17.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`",
+    "summary": "Python package for manipulation and analysis of geometric objects in the Cartesian plane.",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "1.14.0"
+    "version": "1.5.17"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "blosc-1.14.0-1.tar.bz2",
+  "package": "shapely-1.5.17-np111py34_1.tar.bz2",
   "repodata": {
-    "build": "1",
+    "build": "np111py34_1",
     "build_number": 1,
-    "depends": [],
+    "depends": [
+      "geos 3.5.*",
+      "numpy 1.11*",
+      "python 3.4*"
+    ],
     "license": "BSD 3-Clause",
-    "md5": "988a18750de0651011652c5cf4651208",
-    "name": "blosc",
-    "sha256": "5d541d8483edfa6e7430159545c6866d304bb559cdd178e561fa7442c9e78e8f",
-    "size": 613672,
+    "md5": "a76bec9666bc8746cac3fad33669505b",
+    "name": "shapely",
+    "sha256": "8d263fc44bb2c3777dfb54856f7a9e8a1a16342ef024b6387827f59f71e774b4",
+    "size": 614835,
     "subdir": "linux-64",
-    "version": "1.14.0"
+    "version": "1.5.17"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/blosc-1.14.0-1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/shapely-1.5.17-np111py34_1.tar.bz2"
 }
