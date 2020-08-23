@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/uiri/toml",
+    "home": "https://github.com/spulec/freezegun",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "Apache-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/t/toml/toml-0.9.2.tar.gz",
+    "source_url": "https://github.com/spulec/freezegun/archive/0.3.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python lib for TOML.",
+    "summary": "Let your Python tests travel through time.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.9.2"
+    "version": "0.3.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "toml-0.9.2-py35_0.tar.bz2",
+  "package": "freezegun-0.3.8-py34_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "python 3.4*",
+      "python-dateutil >=1.0,!=2.0",
+      "six"
     ],
-    "license": "MIT",
-    "license_family": "MIT",
-    "md5": "a406bb9b2bc00374178df76984b0d52f",
-    "name": "toml",
-    "sha256": "26ca97e07822fd8b53137c99e84096f7e7a8981f0523499361d5d8980b8cb427",
-    "size": 16759,
+    "license": "Apache-2.0",
+    "md5": "21b61d2637a5a76ec7d0e293904a7762",
+    "name": "freezegun",
+    "sha256": "90810b838af3a53255f04f32fe3f30afa5e4bc380f32f75bd8aa04f6b9ed615d",
+    "size": 11581,
     "subdir": "linux-64",
-    "version": "0.9.2"
+    "version": "0.3.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/toml-0.9.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/freezegun-0.3.8-py34_0.tar.bz2"
 }
