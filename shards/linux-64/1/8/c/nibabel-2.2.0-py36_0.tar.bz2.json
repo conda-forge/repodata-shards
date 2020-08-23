@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/avakar/pytoml",
+    "home": "https://nipy.org/nibabel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.org/packages/source/p/pytoml/pytoml-0.1.11.zip",
+    "source_url": "https://github.com/nipy/nibabel/archive/2.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A TOML-0.4.0 parser/writer for Python.",
+    "summary": "Python package to access a cacophony of neuro-imaging file formats",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.1.11"
+    "version": "2.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pytoml-0.1.11-py35_0.tar.bz2",
+  "package": "nibabel-2.2.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "h5py",
+      "numpy",
+      "pydicom",
+      "python 3.6*",
+      "scipy"
     ],
     "license": "MIT",
-    "md5": "a66c277d8600f35c3461f6e81f860048",
-    "name": "pytoml",
-    "sha256": "59700877d920671d342ac67c2705fb31bced131a30c03c82bb1ff5e0b53e53b1",
-    "size": 13536,
+    "md5": "b4f9b1feaca34cdf2c43407ae154eae4",
+    "name": "nibabel",
+    "sha256": "aee12894c27a879b6de906fe90c9c4b3815176c7fccddba15a10ec61d563213e",
+    "size": 2916052,
     "subdir": "linux-64",
-    "version": "0.1.11"
+    "version": "2.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytoml-0.1.11-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/nibabel-2.2.0-py36_0.tar.bz2"
 }
