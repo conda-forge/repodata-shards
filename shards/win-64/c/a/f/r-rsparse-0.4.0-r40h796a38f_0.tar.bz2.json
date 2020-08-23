@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/dselivanov/rsparse",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/rsparse/rsparse_0.4.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/rsparse_0.4.0.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Implements many algorithms for statistical learning on sparse matrices - matrix factorizations, matrix completion, elastic net regressions, factorization machines. Also 'rsparse' enhances 'Matrix' package by providing methods for multithreaded <sparse, dense> matrix products and native slicing of the sparse matrices in Compressed Sparse Row (CSR) format. List of the algorithms for regression problems: 1) Elastic Net regression via Follow The Proximally-Regularized Leader (FTRL) Stochastic Gradient Descent (SGD), as per McMahan et al(, <doi:10.1145/2487575.2488200>) 2) Factorization Machines via SGD, as per Rendle (2010, <doi:10.1109/ICDM.2010.127>) List of algorithms for matrix factorization and matrix completion: 1) Weighted Regularized Matrix Factorization (WRMF) via Alternating Least Squares (ALS) - paper by Hu, Koren, Volinsky (2008, <doi:10.1109/ICDM.2008.22>) 2) Maximum-Margin Matrix Factorization via ALS, paper by Rennie, Srebro (2005, <doi:10.1145/1102351.1102441>) 3) Fast Truncated Singular Value Decomposition (SVD), Soft-Thresholded SVD, Soft-Impute matrix completion via ALS - paper by Hastie, Mazumder et al. (2014, <arXiv:1410.2596>) 4) Linear-Flow matrix factorization, from 'Practical linear models for large-scale one-class collaborative filtering' by Sedhain, Bui, Kawale et al (2016, ISBN:978-1-57735-770-4) 5) GlobalVectors (GloVe) matrix factorization via SGD, paper by Pennington, Socher, Manning (2014, <https://www.aclweb.org/anthology/D14-1162>) Package is reasonably fast and memory efficient - it allows to work with large datasets - millions of rows and millions of columns. This is particularly useful for practitioners working on recommender systems.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1589315087,
+    "version": "0.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-rsparse-0.4.0-r40h796a38f_0.tar.bz2",
+  "repodata": {
+    "build": "r40h796a38f_0",
+    "build_number": 0,
+    "depends": [
+      "libopenblas >=0.3.9,<1.0a0",
+      "m2w64-gcc-libs",
+      "r-base >=4.0,<4.1.0a0",
+      "r-data.table >=1.10.0",
+      "r-float >=0.2_2",
+      "r-lgr >=0.2",
+      "r-matrix >=1.2",
+      "r-mlapi >=0.1.0",
+      "r-rcpp >=0.11",
+      "r-rcpparmadillo >=0.9.100.5.0",
+      "r-rhpcblasctl"
+    ],
+    "license": "GPL-2",
+    "license_family": "GPL2",
+    "md5": "2ea6792645d7a35255a0710a5aa7cb8d",
+    "name": "r-rsparse",
+    "sha256": "494699c7b5359466dbc14fca25bfa2b367af8dac2adb14c35bf008cc3917bb6c",
+    "size": 1613868,
+    "subdir": "win-64",
+    "timestamp": 1589315087839,
+    "version": "0.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-rsparse-0.4.0-r40h796a38f_0.tar.bz2"
+}
