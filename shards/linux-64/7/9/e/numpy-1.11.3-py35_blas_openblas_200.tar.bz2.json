@@ -4,9 +4,9 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/numpy/numpy",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://docs.scipy.org/doc/numpy/reference/",
+    "doc_url": null,
     "home": "http://numpy.scipy.org/",
     "icon_hash": null,
     "icon_url": null,
@@ -19,43 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/numpy/numpy/releases/download/v1.16.5/numpy-1.16.5.tar.gz",
+    "source_url": "https://github.com/numpy/numpy/archive/v1.11.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Array processing for numbers, strings, records, and objects.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1572795305,
-    "version": "1.16.5"
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "1.11.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "numpy-1.16.5-py38h95a1406_0.tar.bz2",
+  "package": "numpy-1.11.3-py35_blas_openblas_200.tar.bz2",
   "repodata": {
-    "build": "py38h95a1406_0",
-    "build_number": 0,
+    "build": "py35_blas_openblas_200",
+    "build_number": 200,
     "depends": [
-      "libblas >=3.8.0,<4.0a0",
-      "libcblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=7.3.0",
-      "liblapack >=3.8.0,<3.9.0a0",
-      "python >=3.8,<3.9.0a0"
+      "blas 1.1 openblas",
+      "openblas 0.2.19|0.2.19.*",
+      "python 3.5*"
     ],
+    "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "md5": "fb5f345656e3072b1c53a1b0a80e167d",
+    "md5": "9caba65c4c98fc990f741b71cc96015b",
     "name": "numpy",
-    "sha256": "5d20a01019c11e43de3f3217b61dc98b65da89d714880175757b5bac2aa00ee0",
-    "size": 4545885,
+    "sha256": "3891ff718d01650c41986e5f6db14f8524faf9f7d61d1927d4511cb1f0c70834",
+    "size": 8202925,
     "subdir": "linux-64",
-    "timestamp": 1572795305204,
-    "version": "1.16.5"
+    "version": "1.11.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/numpy-1.16.5-py38h95a1406_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/numpy-1.11.3-py35_blas_openblas_200.tar.bz2"
 }
