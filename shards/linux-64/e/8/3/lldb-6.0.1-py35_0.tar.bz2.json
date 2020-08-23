@@ -7,52 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-html",
+    "home": "http://llvm.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MPL 2.0",
+    "license": "NCSA",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-html/pytest-html-1.14.2.tar.gz",
+    "source_url": "http://releases.llvm.org/6.0.1/lldb-6.0.1.src.tar.xz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "pytest plugin for generating HTML reports",
+    "summary": "The LLVM Debugger",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.14.2"
+    "timestamp": 1534047328,
+    "version": "6.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main"
+    "cf202003"
   ],
-  "package": "pytest-html-1.14.2-py35_0.tar.bz2",
+  "package": "lldb-6.0.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "pytest >=2.3",
-      "pytest-metadata",
-      "python 3.5*"
+      "clangdev 6.0.1",
+      "libedit",
+      "llvmdev 6.0.1",
+      "python >=3.5,<3.6.0a0"
     ],
-    "license": "MPL 2.0",
-    "license_family": "OTHER",
-    "md5": "26ce160b8d826f2640dd9b4f851179a2",
-    "name": "pytest-html",
-    "sha256": "b69945877dcdf403ab763554b3c3d2137a5a1e671e20c59740beb797596e611b",
-    "size": 20406,
+    "license": "NCSA",
+    "md5": "a183715420290435a506a3293a943b12",
+    "name": "lldb",
+    "sha256": "e839ba6454fc76a85bf287ba19a4e4cb7d449ceb5861e7d15207ca88b37ebd63",
+    "size": 48035442,
     "subdir": "linux-64",
-    "version": "1.14.2"
+    "timestamp": 1534047328557,
+    "version": "6.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-html-1.14.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/lldb-6.0.1-py35_0.tar.bz2"
 }
