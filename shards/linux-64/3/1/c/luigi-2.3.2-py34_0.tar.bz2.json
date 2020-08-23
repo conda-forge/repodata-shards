@@ -7,53 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pythonpaste.org",
+    "home": "https://github.com/spotify/luigi",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "Apache-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/Paste/Paste-3.1.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/l/luigi/luigi-2.3.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Tools for using a Web Server Gateway Interface stack",
+    "summary": "Workflow mgmgt + task scheduling + dependency resolution",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1566789706,
-    "version": "3.1.1"
+    "timestamp": 0,
+    "version": "2.3.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "paste-3.1.1-py36_0.tar.bz2",
+  "package": "luigi-2.3.2-py34_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python >=3.6,<3.7.0a0",
+      "pyparsing",
+      "python 3.4*",
+      "python-daemon",
       "setuptools",
-      "six >=1.4.0"
+      "tornado"
     ],
-    "license": "MIT",
-    "md5": "a36b1319afdab88969b7c84b3f0e5865",
-    "name": "paste",
-    "sha256": "d52bc0716e006a6a9afbc58a0b979ac74b8ce8862e4e8a50e5e1e67719252e93",
-    "size": 750481,
+    "license": "Apache-2.0",
+    "md5": "11fb89af62ed0889c5db75f125fb09f3",
+    "name": "luigi",
+    "sha256": "7679f9f80c90b478c9d7169ac5b6d24f7255d841a50e0b2af8ae2f8783ac1ff2",
+    "size": 1087635,
     "subdir": "linux-64",
-    "timestamp": 1566789706220,
-    "version": "3.1.1"
+    "version": "2.3.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/paste-3.1.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/luigi-2.3.2-py34_0.tar.bz2"
 }
