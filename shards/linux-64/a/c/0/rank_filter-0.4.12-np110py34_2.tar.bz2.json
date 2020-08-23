@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/giampaolo/psutil",
+    "home": "https://github.com/nanshe-org/rank_filter",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/psutil/psutil-4.2.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/rank_filter/rank_filter-0.4.12.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A cross-platform process and system utilities module for Python",
+    "summary": "A simple python module containing an in-place linear rank filter optimized in C++.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.2.0"
+    "version": "0.4.12"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "psutil-4.2.0-py27_0.tar.bz2",
+  "package": "rank_filter-0.4.12-np110py34_2.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "np110py34_2",
+    "build_number": 2,
     "depends": [
-      "python 2.7*"
+      "boost 1.63.*",
+      "numpy 1.10*",
+      "numpy >=1.7",
+      "python 3.4*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "1d42631af3f691d5988fe911cc64315b",
-    "name": "psutil",
-    "sha256": "d3b8d5059c35cc5a1846a1c6ab67c73d3c544d91bd5ec5a963d177cb11cabc25",
-    "size": 230983,
+    "md5": "b5628e1b4a94211a1a92c61943ecb573",
+    "name": "rank_filter",
+    "sha256": "af4c35d8e384c6f83ce2555c32bf545acedfa345c24dd3fd25bf82350e9c6a85",
+    "size": 512568,
     "subdir": "linux-64",
-    "version": "4.2.0"
+    "version": "0.4.12"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/psutil-4.2.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/rank_filter-0.4.12-np110py34_2.tar.bz2"
 }
