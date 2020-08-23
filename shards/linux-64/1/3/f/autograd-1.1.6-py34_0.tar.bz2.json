@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/trevorld/findpython",
+    "home": "https://github.com/HIPS/autograd",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,42 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": [
-      "https://cran.r-project.org/src/contrib/findpython_1.0.2.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/findpython/findpython_1.0.2.tar.gz"
-    ],
+    "source_url": "https://pypi.io/packages/source/a/autograd/autograd-1.1.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Package designed to find an acceptable python binary.",
+    "summary": "Efficiently computes derivatives of numpy code.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.2"
+    "version": "1.1.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "r-findpython-1.0.2-r3.3.2_0.tar.bz2",
+  "package": "autograd-1.1.6-py34_0.tar.bz2",
   "repodata": {
-    "build": "r3.3.2_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "r-base 3.3.2*"
+      "future >=0.15.2",
+      "numpy >=1.10",
+      "python 3.4*",
+      "scipy >=0.17"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "3b78958d77abc9d0316601160f2e6585",
-    "name": "r-findpython",
-    "sha256": "28e61b81839a08c3de03f84ba9d7d74fb3fcf9edeb919a98fa5b93851e712fd1",
-    "size": 18902,
+    "md5": "20b7ff98684bd8e2ad25f2f7e69edd5f",
+    "name": "autograd",
+    "sha256": "f16ab2d76a929b3fa751c46a278cc8f1e85a699210ca911e8449d249fb57fc12",
+    "size": 58184,
     "subdir": "linux-64",
-    "version": "1.0.2"
+    "version": "1.1.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-findpython-1.0.2-r3.3.2_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/autograd-1.1.6-py34_0.tar.bz2"
 }

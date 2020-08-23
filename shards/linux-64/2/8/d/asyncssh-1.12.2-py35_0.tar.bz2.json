@@ -7,53 +7,51 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://llvm.org/",
+    "home": "https://github.com/ronf/asyncssh",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "NCSA",
+    "license": "EPL-1.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://releases.llvm.org/6.0.1/lldb-6.0.1.src.tar.xz",
+    "source_url": "https://github.com/ronf/asyncssh/archive/v1.12.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The LLVM Debugger",
+    "summary": "AsyncSSH: Asynchronous SSHv2 client and server library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1534047328,
-    "version": "6.0.1"
+    "timestamp": 0,
+    "version": "1.12.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
+    "cf202003",
     "main"
   ],
-  "package": "lldb-6.0.1-py35_0.tar.bz2",
+  "package": "asyncssh-1.12.2-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "clangdev 6.0.1",
-      "libedit",
-      "llvmdev 6.0.1",
-      "python >=3.5,<3.6.0a0"
+      "cryptography",
+      "python 3.5*"
     ],
-    "license": "NCSA",
-    "md5": "a183715420290435a506a3293a943b12",
-    "name": "lldb",
-    "sha256": "e839ba6454fc76a85bf287ba19a4e4cb7d449ceb5861e7d15207ca88b37ebd63",
-    "size": 48035442,
+    "license": "EPL-1.0",
+    "md5": "77159a63f72c3b18c0bae2ff63c4e00b",
+    "name": "asyncssh",
+    "sha256": "d725ed2693c8c940dc83f45ed5660325127c0edb65635cc7a6d81cb6a90175b5",
+    "size": 342734,
     "subdir": "linux-64",
-    "timestamp": 1534047328557,
-    "version": "6.0.1"
+    "version": "1.12.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/lldb-6.0.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/asyncssh-1.12.2-py35_0.tar.bz2"
 }
