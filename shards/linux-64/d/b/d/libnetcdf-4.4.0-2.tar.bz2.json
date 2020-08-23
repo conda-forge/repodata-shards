@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/TuragaLab/zwatershed",
+    "home": "http://www.unidata.ucar.edu/software/netcdf/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/z/zwatershed/zwatershed-0.8.tar.gz",
+    "source_url": "https://github.com/Unidata/netcdf-c/archive/v4.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Code for fast watersheds.",
+    "summary": "libraries and data formats that support array-oriented scientific data",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.8"
+    "version": "4.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main"
+    "cf202003"
   ],
-  "package": "zwatershed-0.8-np111py27_2.tar.bz2",
+  "package": "libnetcdf-4.4.0-2.tar.bz2",
   "repodata": {
-    "build": "np111py27_2",
+    "build": "2",
     "build_number": 2,
     "depends": [
-      "boost 1.63.*",
-      "h5py",
-      "numpy 1.11*",
-      "numpy >=1.7",
-      "python 2.7*"
+      "curl",
+      "hdf4",
+      "hdf5 1.8.17|1.8.17.*",
+      "zlib 1.2.*"
     ],
     "license": "MIT",
-    "md5": "85a25aa9bdc4f02ed42b70fdb003a734",
-    "name": "zwatershed",
-    "sha256": "2160c1a851d14bc331fd1810675bc41f8cf8a9f7d0bd3e2ce1322e476ba764a6",
-    "size": 880636,
+    "md5": "88a287bcbc8caae96203c24241f9acd2",
+    "name": "libnetcdf",
+    "sha256": "1772e7c4cd7e45044fd2a69271fa5478851d16cb5c3d952b86c2bb4dfc2592ca",
+    "size": 1964873,
     "subdir": "linux-64",
-    "version": "0.8"
+    "version": "4.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/zwatershed-0.8-np111py27_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/libnetcdf-4.4.0-2.tar.bz2"
 }

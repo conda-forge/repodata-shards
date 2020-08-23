@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pybind/pybind11/",
+    "home": "https://github.com/pvlib/pvlib-python",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/pybind/pybind11/archive/v2.4.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pvlib/pvlib-0.4.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Seamless operability between C++11 and Python",
+    "summary": "A set functions and classes for simulating the performance of photovoltaic energy systems.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1571099059,
-    "version": "2.4.3"
+    "timestamp": 0,
+    "version": "0.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pybind11-2.4.3-py36hc9558a2_0.tar.bz2",
+  "package": "pvlib-python-0.4.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36hc9558a2_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=7.3.0",
-      "libstdcxx-ng >=7.3.0",
-      "python >=3.6,<3.7.0a0"
+      "numpy >=1.9.0",
+      "pandas >=0.14.0",
+      "python 3.5*",
+      "pytz",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "799257bcecd34aa464454f1d8f3dfa80",
-    "name": "pybind11",
-    "sha256": "dd056657d4d20ff15c0b484e145ae1d6c081ca097b8b64f0d062a3c2223781ca",
-    "size": 122007,
+    "md5": "9a09773e74b26ca29b41e3f545ece31b",
+    "name": "pvlib-python",
+    "sha256": "c50ae3d1086bd3b122e981cec71c8dbea9fdc7e8612ea4dd6aad2e21877b2276",
+    "size": 21058809,
     "subdir": "linux-64",
-    "timestamp": 1571099059497,
-    "version": "2.4.3"
+    "version": "0.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pybind11-2.4.3-py36hc9558a2_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pvlib-python-0.4.1-py35_0.tar.bz2"
 }
