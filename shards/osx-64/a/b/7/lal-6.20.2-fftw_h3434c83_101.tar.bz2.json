@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL library.  If you want to install the Python bindings, please install the associated python-lal package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lal/",
+    "home": "https://wiki.ligo.org/DASWG/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "6.20.2": {
+        "weak": [
+          "lal >=6.20.2,<6.21.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lal-6.20.2.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1561807953,
+    "version": "6.20.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lal-6.20.2-fftw_h3434c83_101.tar.bz2",
+  "repodata": {
+    "build": "fftw_h3434c83_101",
+    "build_number": 101,
+    "depends": [
+      "fftw * mpi_mpich_*",
+      "gsl >=2.5,<2.6.0a0",
+      "hdf5 >=1.10.4,<1.10.5.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "9991685eab583a5e4992f414c9e70d4c",
+    "name": "lal",
+    "sha256": "56ea7216189a338b518f6b37f2e040a3323fe2fe81b9edb243f5bf1b02c08213",
+    "size": 3008970,
+    "subdir": "osx-64",
+    "timestamp": 1561807953953,
+    "version": "6.20.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lal-6.20.2-fftw_h3434c83_101.tar.bz2"
+}
