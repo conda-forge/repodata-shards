@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "By using libcf, a data producer can produce files that conform to the CF standards, without having to write netCDF code to create and decode all the attributes that the CF convention uses to store meta-data. A data consumer can use libcf to read any file which conforms to the CF conventions; the file does not need to be created with libcf to be read by libcf",
+    "dev_url": "https://sourceforge.net/projects/libcf/",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.unidata.ucar.edu/software/libcf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "UCAR/UNIDATA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://uvcdat.llnl.gov/cdat/resources/libcf-1.0-beta11.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LibCF library access data files in accordance with the CF Conventions.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libcf-1.0-py27_0.tar.bz2",
+  "repodata": {
+    "build": "py27_0",
+    "build_number": 0,
+    "depends": [
+      "clapack >=3.2.1",
+      "curl",
+      "hdf5 1.8.17|1.8.17.*",
+      "lapack >=3.4.2",
+      "libgfortran",
+      "libnetcdf 4.4.*",
+      "ossuuid",
+      "python 2.7*"
+    ],
+    "license": "UCAR/UNIDATA",
+    "md5": "ebe90bb6813d58a85ad05586355efcaa",
+    "name": "libcf",
+    "sha256": "80d239c461f6806ccf71a7bdac29b0e99d3e49973f9490f520018a1747794a42",
+    "size": 279450,
+    "subdir": "linux-64",
+    "version": "1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libcf-1.0-py27_0.tar.bz2"
+}
