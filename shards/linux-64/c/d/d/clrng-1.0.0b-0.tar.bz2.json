@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/jupyter/jupyterlab",
+    "home": "https://github.com/clMathLibraries/clRNG",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/j/jupyterlab/jupyterlab-0.9.0.tar.gz",
+    "source_url": "https://github.com/clMathLibraries/clRNG/archive/v1.0.0-beta.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A pre-alpha version of a computational environment for Jupyter.",
+    "summary": "A library for uniform random number generation in OpenCL",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.9.0"
+    "version": "1.0.0b"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,22 @@
     "cf202003",
     "main"
   ],
-  "package": "jupyterlab-0.9.0-py27_0.tar.bz2",
+  "package": "clrng-1.0.0b-0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "0",
     "build_number": 0,
     "depends": [
-      "notebook >=4.2",
-      "python 2.7*"
+      "ocl-icd"
     ],
     "license": "BSD 3-Clause",
-    "md5": "748010499c53eebb391d03bc3248be0e",
-    "name": "jupyterlab",
-    "sha256": "10286a0a8fcabcea839390afba8cdd11f6a07be25c039fdf49cfc20fe43a5d27",
-    "size": 3259614,
+    "md5": "401a88493f21ec7c99bee3242033c580",
+    "name": "clrng",
+    "sha256": "f5ee7c0b38a17d5c6ebec2233f48c7d6eaf8798d8a2a989d0e238c51c00577a8",
+    "size": 65298,
     "subdir": "linux-64",
-    "version": "0.9.0"
+    "version": "1.0.0b"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/jupyterlab-0.9.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/clrng-1.0.0b-0.tar.bz2"
 }
