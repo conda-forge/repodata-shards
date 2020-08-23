@@ -1,0 +1,80 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/stevengj/meep",
+    "doc_source_url": null,
+    "doc_url": "http://meep.readthedocs.io",
+    "home": "http:/github.com/stevengj/meep",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.8.0": {
+        "weak": [
+          "pymeep * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NanoComp/meep/releases/download/v1.8.0/meep-1.8.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Free finite-difference time-domain (FDTD) software for electromagnetic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1553200580,
+    "version": "1.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "pymeep-1.8.0-mpi_mpich_py27hce2baca_3.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py27hce2baca_3",
+    "build_number": 3,
+    "depends": [
+      "gsl >=2.4,<2.5.0a0",
+      "h5py",
+      "h5utils",
+      "harminv",
+      "hdf5 >=1.10.4,<1.10.5.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libctl 4.2.*",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "matplotlib",
+      "mpb * mpi_mpich_*",
+      "mpi4py 3.0.*",
+      "mpich >=3.2,<3.3.0a0",
+      "numpy >=1.11.3,<2.0a0",
+      "python >=2.7,<2.8.0a0",
+      "scipy"
+    ],
+    "license": "GPL-2.0",
+    "md5": "e60de6dea38c14bf3efc1ca7f5e611f4",
+    "name": "pymeep",
+    "sha256": "c58e0fd724e62dd4a49214b073f2ca85e3ee6fad71e5a76f88aaf400496df5fe",
+    "size": 3687428,
+    "subdir": "linux-64",
+    "timestamp": 1553200580435,
+    "version": "1.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pymeep-1.8.0-mpi_mpich_py27hce2baca_3.tar.bz2"
+}
