@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.unidata.ucar.edu/downloads/netcdf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "http://www.unidata.ucar.edu/software/netcdf/copyright.html",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.2": {
+        "weak": [
+          "netcdf-cxx-legacy * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-cxx-4.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Legacy Unidata NetCDF C++ Library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1579808865,
+    "version": "4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "netcdf-cxx-legacy-4.2-mpi_openmpi_hf278915_3.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_hf278915_3",
+    "build_number": 3,
+    "constrains": [
+      "netcdf-cxx4 >=9999"
+    ],
+    "depends": [
+      "hdf5 * mpi_openmpi_*",
+      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_openmpi_*",
+      "libcxx >=9.0.1",
+      "libnetcdf * mpi_openmpi_*",
+      "libnetcdf >=4.7.3,<5.0a0 mpi_openmpi_*",
+      "openmpi >=4.0,<4.1.0a0",
+      "openssh"
+    ],
+    "license": "http://www.unidata.ucar.edu/software/netcdf/copyright.html",
+    "md5": "be38ee365ae9e1c295e211bdd503bdf6",
+    "name": "netcdf-cxx-legacy",
+    "sha256": "db223ca2acbf2c710f23f8c3f7378a69717f5ba26b51b2b8426e1a5374a34f8c",
+    "size": 85506,
+    "subdir": "osx-64",
+    "timestamp": 1579808865650,
+    "version": "4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/netcdf-cxx-legacy-4.2-mpi_openmpi_hf278915_3.tar.bz2"
+}

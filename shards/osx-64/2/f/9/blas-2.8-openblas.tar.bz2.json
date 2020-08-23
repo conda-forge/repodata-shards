@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1556666553,
+    "version": "2.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.8-openblas.tar.bz2",
+  "repodata": {
+    "build": "openblas",
+    "build_number": 8,
+    "depends": [
+      "libblas 3.8.0 8_openblas",
+      "libcblas 3.8.0 8_openblas",
+      "libgfortran >=3.0.1,<4.0.0.a0",
+      "liblapack 3.8.0 8_openblas",
+      "liblapacke 3.8.0 8_openblas"
+    ],
+    "license": "BSD 3-clause",
+    "md5": "54cb75b18d6dc992497275c2ef14187e",
+    "name": "blas",
+    "sha256": "9680b6b4a7bbbb6e664ff77cd1cafe0467b666ad59316ab80e776e1846488648",
+    "size": 6616,
+    "subdir": "osx-64",
+    "timestamp": 1556666553356,
+    "version": "2.8"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/blas-2.8-openblas.tar.bz2"
+}
