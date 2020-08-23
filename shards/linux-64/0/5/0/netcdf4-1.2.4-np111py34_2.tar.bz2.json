@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "HDF5",
+    "license": "OSI Approved",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8.16/src/hdf5-1.8.16.tar.gz",
+    "source_url": "https://pypi.python.org/packages/source/n/netCDF4/netCDF4-1.2.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,31 +27,33 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.8.16"
+    "version": "1.2.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "hdf5-1.8.16-3.tar.bz2",
+  "package": "netcdf4-1.2.4-np111py34_2.tar.bz2",
   "repodata": {
-    "build": "3",
-    "build_number": 3,
+    "build": "np111py34_2",
+    "build_number": 2,
     "depends": [
-      "zlib 1.2*"
+      "hdf5 1.8.17|1.8.17.*",
+      "libnetcdf 4.4.*",
+      "numpy 1.11*",
+      "python 3.4*",
+      "setuptools"
     ],
-    "license": "HDF5",
-    "license_family": "BSD",
-    "md5": "d47426e93aad0a95f7679ee0fef6d4e2",
-    "name": "hdf5",
-    "sha256": "c85b173b9a0fdeaedd68c6ca12a8d2c7e299e0a3330973b2235f8768c760d787",
-    "size": 3414934,
+    "license": "OSI Approved",
+    "md5": "489b943bd903783483593b19aa3fef2e",
+    "name": "netcdf4",
+    "sha256": "1e9c5a2d5b340b45a266cdda42406b2775aafea9a5acdb09d1154657df793da3",
+    "size": 1983431,
     "subdir": "linux-64",
-    "version": "1.8.16"
+    "version": "1.2.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdf5-1.8.16-3.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/netcdf4-1.2.4-np111py34_2.tar.bz2"
 }

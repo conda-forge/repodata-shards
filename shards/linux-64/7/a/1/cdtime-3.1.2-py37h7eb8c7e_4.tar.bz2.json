@@ -1,60 +1,64 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "The cdtime module contains functions for converting between these forms, based on the common calendars used in climate simulation. Basic arithmetic and comparison operators are also available.",
-    "dev_url": "https://github.com/UV-CDAT/cdtime",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://uvcdat.llnl.gov/documentation/cdms/cdms_3.html",
+    "home": "http://gitub.com/CDAT/cdtime",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "CCLRC",
+    "license": "3-Clause BSD",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/cdat/cdtime/archive/V3.0.tar.gz",
+    "source_url": "https://github.com/cdat/cdtime/archive/v3.1.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Climate calendar manipulation tools",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "3.0"
+    "timestamp": 1568927765,
+    "version": "3.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "cdtime-3.0-py36_0.tar.bz2",
+  "package": "cdtime-3.1.2-py37h7eb8c7e_4.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "py37h7eb8c7e_4",
+    "build_number": 4,
     "depends": [
-      "cdat_info",
+      "cdat_info >=8.1.1",
       "libcdms",
       "libdrs_f",
-      "numpy >=1.11",
-      "python 3.6*",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "numpy >=1.14.6,<2.0a0",
+      "python >=3.7,<3.8.0a0",
       "setuptools"
     ],
-    "license": "CCLRC",
-    "md5": "dc1d6dc7023290d9dd13bca142b2adb5",
+    "license": "3-Clause BSD",
+    "md5": "8b346ca7017838d1775f072210d96fbe",
     "name": "cdtime",
-    "sha256": "34b0e22681c19a06cf49fde204aae8067481106c8d7ad2ab6ebbcc0a7ff19754",
-    "size": 619733,
+    "sha256": "21ef1e9a4901652a68238809ab6af2da42dd4b5efba8cca7f1055c09aa684dec",
+    "size": 55735,
     "subdir": "linux-64",
-    "version": "3.0"
+    "timestamp": 1568927765557,
+    "version": "3.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/cdtime-3.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cdtime-3.1.2-py37h7eb8c7e_4.tar.bz2"
 }
