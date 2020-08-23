@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://bitbucket.org/btubbs/sseclient/src",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-mock",
+    "home": "https://bitbucket.org/btubbs/sseclient/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-mock/pytest-mock-1.6.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/sseclient/sseclient-0.0.18.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Thin-wrapper around the mock package for easier use with py.test",
+    "summary": "Python client library for reading Server Sent Event streams.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.6.2"
+    "version": "0.0.18"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pytest-mock-1.6.2-py35_0.tar.bz2",
+  "package": "sseclient-0.0.18-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "pytest",
-      "python 3.5*"
+      "python 3.5*",
+      "requests >=2.0.0",
+      "six"
     ],
     "license": "MIT",
-    "md5": "128f465b172ad73442c81c59e2851c6f",
-    "name": "pytest-mock",
-    "sha256": "036c4d048bbbaccf744762bcbbe196a723f5a31435a0d59842f7bdbb00cd1415",
-    "size": 13762,
+    "md5": "18b68d94eea975f3540fcd081dc4dd15",
+    "name": "sseclient",
+    "sha256": "fa913b80688e11e6c5ce109cdc8d6703a0af621d5efdb9bef0c130417b9a260b",
+    "size": 7979,
     "subdir": "linux-64",
-    "version": "1.6.2"
+    "version": "0.0.18"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-mock-1.6.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/sseclient-0.0.18-py35_0.tar.bz2"
 }

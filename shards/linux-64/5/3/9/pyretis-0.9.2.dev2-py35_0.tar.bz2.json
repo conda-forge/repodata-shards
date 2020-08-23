@@ -7,53 +7,57 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/MaxPoint/spylon",
+    "home": "http://www.pyretis.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "LGPLv2.1+",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/spylon/spylon-0.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyretis/pyretis-0.9.2.dev2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Utilities to work with Scala/Java code with py4j",
+    "summary": "PyRETIS: A well-done, medium-sized python library for rare events",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "0.3.0"
+    "version": "0.9.2.dev2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "spylon-0.3.0-py35_0.tar.bz2",
+  "package": "pyretis-0.9.2.dev2-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "findspark",
+      "colorama",
+      "docutils",
+      "jinja2",
+      "matplotlib",
+      "mdtraj",
+      "numpy",
       "python 3.5*",
-      "pyyaml",
-      "six"
+      "scipy",
+      "tqdm"
     ],
-    "license": "BSD 3-clause",
-    "md5": "8881d4b4e90cfeeff82c7c738e6316f7",
-    "name": "spylon",
-    "sha256": "34b73a9c33bc78c44e29e4cad13f6049675120140882d5cad12cb7b457b12298",
-    "size": 69542,
+    "license": "LGPLv2.1+",
+    "md5": "eced221553a4c4199680adc05f55e305",
+    "name": "pyretis",
+    "sha256": "4f9c2e612ac2b29daf2e5da16e199015c5e9fa4b7814dd1e1e53a76a88e067e5",
+    "size": 351774,
     "subdir": "linux-64",
-    "version": "0.3.0"
+    "version": "0.9.2.dev2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/spylon-0.3.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyretis-0.9.2.dev2-py35_0.tar.bz2"
 }

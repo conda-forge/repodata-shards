@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-mock",
+    "home": "http://wradlib.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-mock/pytest-mock-1.6.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-0.11.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Thin-wrapper around the mock package for easier use with py.test",
+    "summary": "Open Source Library for Weather Radar Data Processing",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.6.2"
+    "version": "0.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pytest-mock-1.6.2-py35_0.tar.bz2",
+  "package": "wradlib-0.11.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "pytest",
-      "python 3.5*"
+      "gdal 2.1.*",
+      "h5py",
+      "matplotlib",
+      "netcdf4",
+      "numpy",
+      "python 3.6*",
+      "scipy"
     ],
     "license": "MIT",
-    "md5": "128f465b172ad73442c81c59e2851c6f",
-    "name": "pytest-mock",
-    "sha256": "036c4d048bbbaccf744762bcbbe196a723f5a31435a0d59842f7bdbb00cd1415",
-    "size": 13762,
+    "md5": "9ba58e667d4863ea2f2dfccb977edfd7",
+    "name": "wradlib",
+    "sha256": "afb15130e8545e72e705f5360172b2b81f0902d637e403e890fbb460f03aea8e",
+    "size": 250850,
     "subdir": "linux-64",
-    "version": "1.6.2"
+    "version": "0.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-mock-1.6.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/wradlib-0.11.0-py36_0.tar.bz2"
 }
