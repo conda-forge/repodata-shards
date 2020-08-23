@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Tools for directing, throttling, selecting, and otherwise messing with ROS topics at a meta level. None of the programs in this package actually know about the topics whose streams they are altering; instead, these tools deal with messages as generic binary blobs. This means they can be applied to any ROS topic.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://ros.org/wiki/topic_tools",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.14.3": {
+        "weak": [
+          "ros-topic-tools >=1.14,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ros-gbp/ros_comm-release/archive/release/melodic/topic_tools/1.14.3-0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Tools for directing, throttling, selecting, and otherwise messing with ROS topics at a meta level.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1571737175,
+    "version": "1.14.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "ros-topic-tools-1.14.3-py37he1b5a44_0.tar.bz2",
+  "repodata": {
+    "build": "py37he1b5a44_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "python >=3.7,<3.8.0a0",
+      "ros-conda-base",
+      "ros-conda-mutex * melodic",
+      "ros-cpp-common >=0.6.12,<0.7.0a0",
+      "ros-message-runtime",
+      "ros-rosconsole >=1.13,<2.0a0",
+      "ros-roscpp >=1.14,<2.0a0",
+      "ros-roscpp-serialization",
+      "ros-rostime >=0.6.12,<0.7.0a0",
+      "ros-std-msgs",
+      "ros-xmlrpcpp >=1.14,<2.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "2ad56fb64fe6dd21943734fac87133c7",
+    "name": "ros-topic-tools",
+    "sha256": "1485893c7d220b358a3539f4754b619c849a0ce20e91dd0093736db6cfe632d9",
+    "size": 284743,
+    "subdir": "linux-64",
+    "timestamp": 1571737175730,
+    "version": "1.14.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/ros-topic-tools-1.14.3-py37he1b5a44_0.tar.bz2"
+}
