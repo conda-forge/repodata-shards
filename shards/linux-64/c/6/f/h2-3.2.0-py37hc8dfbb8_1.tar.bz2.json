@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/python-hyper/hyper-h2",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pythonpaste.org",
+    "home": "http://python-hyper.org/h2/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,14 +19,14 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/Paste/Paste-3.2.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/h2/h2-3.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Tools for using a Web Server Gateway Interface stack",
+    "summary": "HTTP/2 State-Machine based protocol implementation",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1567685904,
+    "timestamp": 1584188932,
     "version": "3.2.0"
   },
   "channeldata_version": 1,
@@ -35,25 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "paste-3.2.0-py27_0.tar.bz2",
+  "package": "h2-3.2.0-py37hc8dfbb8_1.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "py37hc8dfbb8_1",
+    "build_number": 1,
     "depends": [
-      "python >=2.7,<2.8.0a0",
-      "setuptools",
-      "six >=1.4.0"
+      "hpack >=2.3,<4",
+      "hyperframe >=5.1.0,<6",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
     ],
     "license": "MIT",
-    "md5": "f703ec122beee0e26c16a849156b2ac7",
-    "name": "paste",
-    "sha256": "8d5877c187df2a87e45cec9f828ccef666c84f041fec3ed99c72a9583604fc6d",
-    "size": 765969,
+    "license_family": "MIT",
+    "md5": "016b1e1eaf37cead2e74c21e3b7eedbf",
+    "name": "h2",
+    "sha256": "06728fbee4bb76d692cf0db185d208bea43c0135ac5b34b0bd49b0ba1863d752",
+    "size": 83296,
     "subdir": "linux-64",
-    "timestamp": 1567685904024,
+    "timestamp": 1584188932411,
     "version": "3.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/paste-3.2.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h2-3.2.0-py37hc8dfbb8_1.tar.bz2"
 }

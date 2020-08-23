@@ -4,7 +4,7 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": "Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.  When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.",
-    "dev_url": "https://github.com/apache/incubating-airflow",
+    "dev_url": "https://github.com/apache/airflow",
     "doc_source_url": null,
     "doc_url": "http://pythonhosted.org/airflow/profiling.html",
     "home": "http://airflow.apache.org",
@@ -19,40 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/apache/incubator-airflow/archive/1.10.0.tar.gz",
+    "source_url": "https://github.com/apache/incubator-airflow/archive/1.10.10.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Airflow is a platform to programmatically author, schedule and monitor workflows",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1538094943,
-    "version": "1.10.0"
+    "timestamp": 1588162227,
+    "version": "1.10.10"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "airflow-with-dask-1.10.0-1.tar.bz2",
+  "package": "airflow-with-postgres-1.10.10-0.tar.bz2",
   "repodata": {
-    "build": "1",
-    "build_number": 1,
+    "build": "0",
+    "build_number": 0,
     "depends": [
-      "airflow >=1.10.0,<1.10.1.0a0",
-      "distributed >=1.17.1,<2"
+      "airflow >=1.10.10,<1.10.11.0a0",
+      "psycopg2 >=2.7.4"
     ],
     "license": "Apache 2.0",
-    "md5": "5db076b98bd368282a32f345625c1e84",
-    "name": "airflow-with-dask",
-    "sha256": "e58f090cc9def7134bacc04425fce035cf180aa73f2df12a005c78261b2872ba",
-    "size": 10961,
+    "md5": "717022d76fbd515f28dc0eb7d75232ef",
+    "name": "airflow-with-postgres",
+    "sha256": "f615aaa175663ee641fa01fd298fac5040222b4119d4661976b68ca04c1ceab1",
+    "size": 11921,
     "subdir": "linux-64",
-    "timestamp": 1538094943250,
-    "version": "1.10.0"
+    "timestamp": 1588162227448,
+    "version": "1.10.10"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-dask-1.10.0-1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-postgres-1.10.10-0.tar.bz2"
 }
