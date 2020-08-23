@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "====== Numina ======  |zenodo| |docs|   .. image:: https://travis-ci.org/guaix-ucm/numina.svg?branch=master     :target: https://travis-ci.org/guaix-ucm/numina  .. image:: https://coveralls.io/repos/guaix-ucm/numina/badge.svg?branch=master&service=github      :target: https://coveralls.io/github/guaix-ucm/numina?branch=master   This is Numina, the data reduction package used by the following GTC instruments: EMIR, FRIDA, MEGARA and MIRADAS.  Numina is distributed under GNU GPL, either version 3 of the License,  or (at your option) any later version. See the file LICENSE.txt for  details.  Requirements ------------  Python 2.7 or Python >= 3.4 is required. Numina requires the following packages installed in order to work properly:   - setuptools (http://pythonhosted.org/setuptools/)  - six >= 1.7 (https://pythonhosted.org/six/)  - numpy >= 1.6 (http://numpy.scipy.org/)   - scipy (http://www.scipy.org)  - astropy >= 1.0 (http://www.astropy.org/)  - PyYaml (http://pyyaml.org/)  - dateutil (https://pypi.org/project/python-dateutil/)  For Python 2.7, the following compatibility packages are required:   - singledispatch (https://pypi.python.org/pypi/singledispatch)   - enum34 (https://pypi.org/project/enum34/)  The documentation of the project is generated using Sphinx (http://sphinx.pocoo.org/)  Additional packages are optionally required:  - sphinx (http://sphinx-doc.org) to build the documentation  - pytest (http://pytest.org) for testing  - pytest-benchmark (https://github.com/ionelmc/pytest-benchmark/) for     benchmarks of certain algorithms  Webpage: https://guaix.fis.ucm.es/projects/numina Maintainer: sergiopr@fis.ucm.es   Stable version --------------  The latest stable version of Numina can be downloaded from   https://pypi.python.org/pypi/numina  To install numina, use the standard installation procedure:::      $ tar zxvf numina-X.Y.Z.tar.gz     $ cd numina-X.Y.Z     $ python setup.py install   The `install` command provides options to change the target directory. By default installation requires administrative privileges. The different installation options can be checked with:::      $ python setup.py install --help  Development version -------------------  The development version can be checked out with:::      $ git clone https://github.com/guaix-ucm/numina.git  And then installed following the standard procedure:::      $ cd numina     $ python setup.py install  Building the documentation -------------------------- The Numina documentation is based on `sphinx`_. With the package installed, the html documentation can be built from the `doc` directory::    $ cd doc   $ make html  The documentation will be copied to a directory under `build/sphinx`.   The documentation can be built in different formats. The complete list will appear if you type `make`   .. _virtualenv: http://pypi.python.org/pypi/virtualenv .. _sphinx: http://sphinx.pocoo.org  .. |docs| image:: https://readthedocs.org/projects/numina/badge/?version=latest     :alt: Documentation Status     :target: http://numina.readthedocs.org/en/latest/?badge=latest  .. |zenodo| image:: https://zenodo.org/badge/13088/guaix-ucm/numina.svg    :target: https://doi.org/10.5281/zenodo.17986",
+    "dev_url": "https://github.com/guaix-ucm/numina",
+    "doc_source_url": null,
+    "doc_url": "http://numina.readthedocs.io/",
+    "home": "http://guaix.fis.ucm.es/projects/numina",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/n/numina/numina-0.16.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Numina reduction package",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1526473731,
+    "version": "0.16.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "numina-0.16.2-py27_0.tar.bz2",
+  "repodata": {
+    "build": "py27_0",
+    "build_number": 0,
+    "depends": [
+      "astropy >=1.3",
+      "enum34",
+      "matplotlib",
+      "numpy >=1.11",
+      "python >=2.7,<2.8.0a0",
+      "python-dateutil",
+      "pyyaml",
+      "scipy",
+      "setuptools",
+      "six >=1.7"
+    ],
+    "license": "GPL-3.0",
+    "license_family": "GPL",
+    "md5": "146d9d38f19537516027b593e5b363c5",
+    "name": "numina",
+    "sha256": "454e526c2658e6b70ba914f9f3c7e8ca25cbc6ec1659ffa5f30e010a66ddd78d",
+    "size": 947952,
+    "subdir": "osx-64",
+    "timestamp": 1526473731859,
+    "version": "0.16.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/numina-0.16.2-py27_0.tar.bz2"
+}
