@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/ing-bank/sparse_dot_topn",
+    "doc_source_url": null,
+    "doc_url": "https://pypi.org/project/sparse-dot-topn/",
+    "home": "https://github.com/ing-bank/sparse_dot_topn",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/s/sparse_dot_topn/sparse_dot_topn-0.2.6.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Sparse_dot_topn provides a fast way to performing a sparse matrix multiplication followed by top-n multiplication result selections. Comparing very large feature vectors and picking the best matches, in practice often results in performing a sparse matrix multiplication followed by selecting the top-n multiplication results. In this package, we implement a customized Cython function for this purpose. When comparing our Cythonic approach to doing the same use with SciPy and NumPy functions, our approach improves the speed by about 40% and reduces memory consumption.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1573585288,
+    "version": "0.2.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "sparse_dot_topn-0.2.6-py38hbf1eeb5_0.tar.bz2",
+  "repodata": {
+    "build": "py38hbf1eeb5_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=9.0.0",
+      "numpy >=1.14.6,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "scipy",
+      "setuptools"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "d6514e7d4b3c90f1c92124633869854a",
+    "name": "sparse_dot_topn",
+    "sha256": "d167266489bdb99feebfb174052e70cdfb219cfd24ac8df09f6d3546535fb87c",
+    "size": 54687,
+    "subdir": "osx-64",
+    "timestamp": 1573585288070,
+    "version": "0.2.6"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/sparse_dot_topn-0.2.6-py38hbf1eeb5_0.tar.bz2"
+}
