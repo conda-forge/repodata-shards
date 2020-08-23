@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/robingenuer/VSURF",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL (>= 2)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/VSURF/VSURF_1.1.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/VSURF_1.1.0.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Three steps variable selection procedure based on random forests. Initially developed to handle high dimensional data (for which number of variables largely exceeds number of observations), the package is very versatile and can treat most dimensions of data, for regression and supervised classification problems. First step is dedicated to eliminate irrelevant variables from the dataset. Second step aims to select all variables related to the response for interpretation purpose. Third step refines the selection by eliminating redundancy in the set of variables selected by the second step, for prediction purpose. Genuer, R. Poggi, J.-M. and Tuleau-Malot, C. (2015) <https://journal.r-project.org/archive/2015-2/genuer-poggi-tuleaumalot.pdf>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1580302254,
+    "version": "1.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-vsurf-1.1.0-r36h6115d3f_0.tar.bz2",
+  "repodata": {
+    "build": "r36h6115d3f_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=3.6,<3.7.0a0",
+      "r-doparallel",
+      "r-foreach",
+      "r-randomforest",
+      "r-ranger",
+      "r-rborist",
+      "r-rpart"
+    ],
+    "license": "GPL (>= 2)",
+    "license_family": "GPL3",
+    "md5": "d8ffbb1fceff73bc6d0750a34cb3ff2c",
+    "name": "r-vsurf",
+    "sha256": "5ac9c8aee4b9ba81f3a65cbb5fc0949719c943e300b9e4480b328684445a2724",
+    "size": 494877,
+    "subdir": "osx-64",
+    "timestamp": 1580302254540,
+    "version": "1.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-vsurf-1.1.0-r36h6115d3f_0.tar.bz2"
+}
