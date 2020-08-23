@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/twisted/ldaptor",
+    "home": "https://bitbucket.org/ruamel/yaml",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,43 +19,38 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/l/ldaptor/ldaptor-16.0.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.14.9.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Pure-Python Twisted library for LDAP",
+    "summary": "A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "16.0.1"
+    "version": "0.14.9"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main"
+    "cf202003"
   ],
-  "package": "ldaptor-16.0.1-py36_0.tar.bz2",
+  "package": "ruamel.yaml-0.14.9-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "pycrypto",
-      "pyopenssl",
-      "pyparsing",
       "python 3.6*",
-      "twisted <17.1.0",
-      "zope.interface"
+      "setuptools"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "fd27b43001b9c48f76862d638ddbe40b",
-    "name": "ldaptor",
-    "sha256": "d228663108a6b713aaecda83499b58982b7c01699b0ae0b2e875b6252432bfa4",
-    "size": 192264,
+    "md5": "b8d3eb071f183f2ab5efcab44da140d3",
+    "name": "ruamel.yaml",
+    "sha256": "c91db2681cf363a329d827ddaaebbc577fd871bfffa3d5cdc90f59eb50652a20",
+    "size": 591902,
     "subdir": "linux-64",
-    "version": "16.0.1"
+    "version": "0.14.9"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ldaptor-16.0.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/ruamel.yaml-0.14.9-py36_0.tar.bz2"
 }
