@@ -4,7 +4,7 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": "Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.  When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.",
-    "dev_url": "https://github.com/apache/incubating-airflow",
+    "dev_url": "https://github.com/apache/airflow",
     "doc_source_url": null,
     "doc_url": "http://pythonhosted.org/airflow/profiling.html",
     "home": "http://airflow.apache.org",
@@ -19,39 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/apache/incubator-airflow/archive/1.9.0.tar.gz",
+    "source_url": "https://github.com/apache/incubator-airflow/archive/1.10.3post2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Airflow is a platform to programmatically author, schedule and monitor workflows",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1531957172,
-    "version": "1.9.0"
+    "timestamp": 1563961261,
+    "version": "1.10.3post2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "airflow-with-vertica-1.9.0-3.tar.bz2",
+  "package": "airflow-with-mysql-1.10.3post2-1.tar.bz2",
   "repodata": {
-    "build": "3",
-    "build_number": 3,
+    "build": "1",
+    "build_number": 1,
     "depends": [
-      "airflow 1.9.0 py36_3",
-      "vertica-python >=0.5.1"
+      "airflow >=1.10.3inf.2,<1.10.3inf.3.0a0",
+      "mysqlclient >=1.3.6,<1.4"
     ],
     "license": "Apache 2.0",
-    "md5": "cf2863dc0d2b57b894c4ae676155644d",
-    "name": "airflow-with-vertica",
-    "sha256": "48111f69d6abec3e2f983d7656c8f1c874df3ec60ff44fb2680343373058f1bb",
-    "size": 9541,
+    "md5": "89c150ae8e75aad4f6294f464ae60a65",
+    "name": "airflow-with-mysql",
+    "sha256": "7255c0212f8b62ff788038391cf6491ae599874300bbcf7b2ecb5a15384fad3e",
+    "size": 11451,
     "subdir": "linux-64",
-    "timestamp": 1531957172876,
-    "version": "1.9.0"
+    "timestamp": 1563961261985,
+    "version": "1.10.3post2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/airflow-with-vertica-1.9.0-3.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-mysql-1.10.3post2-1.tar.bz2"
 }
