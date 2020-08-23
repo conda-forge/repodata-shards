@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://sourceforge.net/p/gdcm/gdcm/",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-2-Clause",
+    "license": "3-clause BSD license",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/malaterre/GDCM/archive/v2.8.4.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Grassroots DICOM, cross-platform DICOM implementation.",
+    "summary": null,
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "2.8.4"
+    "version": "0.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "gdcm-2.8.4-py36_0.tar.bz2",
+  "package": "dipy-0.11.0-np111py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "np111py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "libgcc",
+      "matplotlib",
+      "nibabel",
+      "numpy 1.11*",
+      "python 2.7*",
+      "scikit-learn",
+      "scipy",
+      "vtk"
     ],
-    "license": "BSD-2-Clause",
-    "md5": "2437d61c78c00b84f09f4e26b4fa5ef6",
-    "name": "gdcm",
-    "sha256": "52cf727789afd7e4b3d8a6e19075e90db3a0d22a63c7f589e29e706f498143fd",
-    "size": 3795159,
+    "license": "3-clause BSD license",
+    "md5": "33967d5ee316617537f77c8d18c800f7",
+    "name": "dipy",
+    "sha256": "4cd333c946b7f461d157917776ef07e2e4c28bcfd0bde6a55179e5849c5ada35",
+    "size": 13882269,
     "subdir": "linux-64",
-    "version": "2.8.4"
+    "version": "0.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/gdcm-2.8.4-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dipy-0.11.0-np111py27_0.tar.bz2"
 }
