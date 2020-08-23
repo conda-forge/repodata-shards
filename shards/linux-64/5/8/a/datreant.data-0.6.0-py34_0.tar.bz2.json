@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/wakatime/wakatime",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://wakatime.com",
+    "home": "http://datreant.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/w/wakatime/wakatime-10.1.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/datreant.data/datreant.data-0.6.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Common interface to the WakaTime api.",
+    "summary": "persistent, pythonic trees for heterogeneous data",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "10.1.0"
+    "version": "0.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "wakatime-10.1.0-py36_0.tar.bz2",
+  "package": "datreant.data-0.6.0-py34_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "datreant",
+      "datreant.core",
+      "h5py",
+      "numpy",
+      "pandas",
+      "pytables",
+      "python 3.4*",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "8475e9227087da6f9056c7e2277dbfb8",
-    "name": "wakatime",
-    "sha256": "beb0c3cfc898297245184482dc7d326b53022baded22ca02accbbfa74d832527",
-    "size": 2522233,
+    "md5": "4faa03e1d821aaffdf7bf44d41ebd634",
+    "name": "datreant.data",
+    "sha256": "4246e28d1342afa466c32ab9860082876016ef4bb12396d6aaf120ed748f0d05",
+    "size": 23598,
     "subdir": "linux-64",
-    "version": "10.1.0"
+    "version": "0.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/wakatime-10.1.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/datreant.data-0.6.0-py34_0.tar.bz2"
 }
