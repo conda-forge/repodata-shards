@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "LIBXSMM is a library for specialized dense and sparse matrix operations as well as for deep learning primitives such as small convolutions targeting Intel Architecture.",
+    "dev_url": "https://github.com/hfp/libxsmm",
+    "doc_source_url": null,
+    "doc_url": "https://libxsmm.readthedocs.io",
+    "home": "https://github.com/hfp/libxsmm",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.13": {
+        "weak": [
+          "libxsmm >=1.13,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/hfp/libxsmm/archive/1.13.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Library targeting Intel Architecture for specialized dense and sparse matrix operations, and deep learning primitives.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1567094660,
+    "version": "1.13"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libxsmm-1.13-hc845acd_2.tar.bz2",
+  "repodata": {
+    "build": "hc845acd_2",
+    "build_number": 2,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "libstdcxx-ng >=7.3.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "8b6c30e32a8b0c28dcdc69c9a1e8e58d",
+    "name": "libxsmm",
+    "sha256": "cc67e7cb563912c0b45476c46828dc4e674e53ca2fb012cd5ec4111d68db926f",
+    "size": 2539041,
+    "subdir": "linux-64",
+    "timestamp": 1567094660318,
+    "version": "1.13"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libxsmm-1.13-hc845acd_2.tar.bz2"
+}
