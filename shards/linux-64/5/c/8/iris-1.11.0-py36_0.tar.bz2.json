@@ -7,57 +7,61 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pydata/xarray",
+    "home": "http://www.scitools.org.uk/iris",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache-2.0",
+    "license": "GPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/pydata/xarray/archive/v0.8.2.tar.gz",
+    "source_url": "https://github.com/SciTools/iris/archive/v1.11.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "N-D labeled arrays and datasets in Python.",
+    "summary": "Analyse and visualise meteorological and oceanographic data sets.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.8.2"
+    "version": "1.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "xarray-0.8.2-py36_0.tar.bz2",
+  "package": "iris-1.11.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "bottleneck",
-      "dask >=0.6",
-      "h5netcdf",
+      "biggus >=0.14",
+      "cartopy >=0.14",
+      "cf_units",
+      "matplotlib",
+      "mo_pack",
+      "nc_time_axis",
       "netcdf4",
       "numpy",
-      "pandas",
+      "pyke",
       "python 3.6*",
       "scipy"
     ],
-    "license": "Apache-2.0",
-    "md5": "903b0b3b92b9ab4c19192f26bc41892f",
-    "name": "xarray",
-    "sha256": "f14ba52ad157a64a991f99e21e5eea40236c154cf87e92e5e4fd0137670e0fe7",
-    "size": 377340,
+    "license": "GPL3",
+    "license_family": "GPL3",
+    "md5": "f420fc8c93a620870816dddd87c18114",
+    "name": "iris",
+    "sha256": "a89c7bd343bd4e9bc30ea78a2a2824c74c62935b9a3da3ca7fcad5cf44a8e893",
+    "size": 1726290,
     "subdir": "linux-64",
-    "version": "0.8.2"
+    "version": "1.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xarray-0.8.2-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/iris-1.11.0-py36_0.tar.bz2"
 }
