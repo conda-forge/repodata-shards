@@ -7,54 +7,56 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Imgur/imgurpython",
+    "home": "https://geopython.github.io/OWSLib",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD-3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/imgurpython/imgurpython-1.1.7.tar.gz",
+    "source_url": "https://pypi.io/packages/source/O/OWSLib/OWSLib-0.16.0.tar.gz",
     "subdirs": [
       "noarch"
     ],
-    "summary": "Official Imgur python library with OAuth2 and samples",
+    "summary": "OGC Web Service utility library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1541536667,
-    "version": "1.1.7"
+    "timestamp": 1535498980,
+    "version": "0.16.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "imgurpython-1.1.7-py_1.tar.bz2",
+  "package": "owslib-0.16.0-py_1.tar.bz2",
   "repodata": {
     "build": "py_1",
     "build_number": 1,
     "depends": [
+      "lxml",
+      "pyproj",
       "python",
+      "python-dateutil",
+      "pytz",
       "requests"
     ],
-    "license": "MIT",
-    "md5": "823a89f9d410ff3ea4d9c00189f9f21d",
-    "name": "imgurpython",
+    "license": "BSD-3-Clause",
+    "md5": "a5870e60942a5597d444eb43738dd50f",
+    "name": "owslib",
     "noarch": "python",
-    "sha256": "a09003b252175c0be28449b1557530dbb6193de5211943cf266993740badb934",
-    "size": 11825,
+    "sha256": "ace4eef60d705b667755ade0d77cefa58815d2318def462a155839dddcc1ec81",
+    "size": 102818,
     "subdir": "noarch",
-    "timestamp": 1541536667791,
-    "version": "1.1.7"
+    "timestamp": 1535498980638,
+    "version": "0.16.0"
   },
   "repodata_version": 1,
   "subdir": "noarch",
-  "url": "https://conda.anaconda.org/conda-forge/noarch/imgurpython-1.1.7-py_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/noarch/owslib-0.16.0-py_1.tar.bz2"
 }

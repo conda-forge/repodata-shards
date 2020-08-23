@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ipython/ipywidgets",
+    "home": "http://jupyter.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,46 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ipywidgets/ipywidgets-7.3.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/j/jupyter_client/jupyter_client-5.2.4.tar.gz",
     "subdirs": [
       "noarch"
     ],
-    "summary": "Jupyter Interactive Widgets",
+    "summary": "jupyter_client contains the reference implementation of the Jupyter protocol.",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1532671677,
-    "version": "7.3.1"
+    "text_prefix": true,
+    "timestamp": 1544456408,
+    "version": "5.2.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "ipywidgets-7.3.1-py_0.tar.bz2",
+  "package": "jupyter_client-5.2.4-py_0.tar.bz2",
   "repodata": {
     "build": "py_0",
     "build_number": 0,
     "depends": [
-      "ipykernel >=4.5.1",
-      "ipython >=4.0.0",
-      "nbformat >=4.2.0",
+      "jupyter_core",
       "python",
-      "traitlets >=4.3.1,<5.0.0",
-      "widgetsnbextension >=3.3.0,<3.4.0"
+      "python-dateutil >=2.1",
+      "pyzmq >=13",
+      "tornado",
+      "traitlets"
     ],
     "license": "BSD 3-clause",
-    "md5": "06723f7fed821d4475819d798592bc71",
-    "name": "ipywidgets",
+    "md5": "1264bd4f286e54cc9aa4b7938800636f",
+    "name": "jupyter_client",
     "noarch": "python",
-    "sha256": "78307970ca78b1ae33749029fb96725bbd570e26cfb08f5ad8e3baa6f2f6f17f",
-    "size": 92450,
+    "sha256": "49efbd2311b14ebec09fc4f3347e9a7c35f5b9ee2797b33bfa4b8458918caf46",
+    "size": 64285,
     "subdir": "noarch",
-    "timestamp": 1532671677424,
-    "version": "7.3.1"
+    "timestamp": 1544456408217,
+    "version": "5.2.4"
   },
   "repodata_version": 1,
   "subdir": "noarch",
-  "url": "https://conda.anaconda.org/conda-forge/noarch/ipywidgets-7.3.1-py_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/noarch/jupyter_client-5.2.4-py_0.tar.bz2"
 }
