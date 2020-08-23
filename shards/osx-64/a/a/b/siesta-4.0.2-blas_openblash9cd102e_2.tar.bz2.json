@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "SIESTA is both a method and its computer program implementation, to perform efficient electronic structure calculations and ab initio molecular dynamics simulations of molecules and solids. SIESTA's efficiency stems from the use of strictly localized basis sets and from the implementation of linear-scaling algorithms which can be applied to suitable systems. A very important feature of the code is that its accuracy and cost can be tuned in a wide range, from quick exploratory calculations to highly accurate simulations matching the quality of other approaches, such as plane-wave and all-electron methods.",
+    "dev_url": "https://launchpad.net/siesta/",
+    "doc_source_url": null,
+    "doc_url": "https://launchpad.net/siesta/4.0/4.0.2/+download/siesta.pdf",
+    "home": "https://launchpad.net/siesta/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://launchpad.net/siesta/4.0/4.0.2/+download/siesta-4.0.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A first-principles materials simulation code using DFT",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1534561404,
+    "version": "4.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "siesta-4.0.2-blas_openblash9cd102e_2.tar.bz2",
+  "repodata": {
+    "build": "blas_openblash9cd102e_2",
+    "build_number": 2,
+    "depends": [
+      "blas 1.1 openblas",
+      "libgfortran >=3.0",
+      "mpich >=3.2,<3.3.0a0",
+      "netcdf-fortran >=4.4.4,<4.5.0a0",
+      "openblas >=0.2.20,<0.2.21.0a0",
+      "scalapack",
+      "ssh"
+    ],
+    "features": "blas_openblas",
+    "license": "GPL-3",
+    "license_family": "GPL",
+    "md5": "18461143903ed1bdf87bca8b4865b115",
+    "name": "siesta",
+    "sha256": "582989983c820e5aa6739a5e29d674479dd33810b83c5782726693ff21c1b263",
+    "size": 7554077,
+    "subdir": "osx-64",
+    "timestamp": 1534561404674,
+    "version": "4.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/siesta-4.0.2-blas_openblash9cd102e_2.tar.bz2"
+}
