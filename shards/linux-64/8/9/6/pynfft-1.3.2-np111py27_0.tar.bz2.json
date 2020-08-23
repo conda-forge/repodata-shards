@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "GPLv3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Anaconda-Platform/nb_conda_kernels/archive/1.0.3.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
@@ -27,31 +27,32 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.3"
+    "version": "1.3.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "nb_conda_kernels-1.0.3-py35_0.tar.bz2",
+  "package": "pynfft-1.3.2-np111py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np111py27_0",
     "build_number": 0,
     "depends": [
-      "notebook >=4.2.0",
-      "python 3.5*"
+      "libgcc",
+      "nfft >=3.2,<3.3",
+      "numpy 1.11*",
+      "python 2.7*"
     ],
-    "license": "BSD-3-Clause",
-    "md5": "b500dda2498663a3b2b9a68eed67ce6d",
-    "name": "nb_conda_kernels",
-    "sha256": "6cc4ae44388a9a3c6029bba4d523a12460a99a618c68150150985facb5da01ad",
-    "size": 29024,
+    "license": "GPLv3",
+    "md5": "3b30c9918386fd79e12869248a33b550",
+    "name": "pynfft",
+    "sha256": "0daf17ac08b83110610d4a58c0fa5f614b2c8db6d25e09100d475c9e6214356a",
+    "size": 314776,
     "subdir": "linux-64",
-    "version": "1.0.3"
+    "version": "1.3.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/nb_conda_kernels-1.0.3-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pynfft-1.3.2-np111py27_0.tar.bz2"
 }

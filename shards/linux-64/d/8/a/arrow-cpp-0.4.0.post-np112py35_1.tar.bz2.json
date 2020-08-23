@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/apache/arrow/archive/79344b335849c2eb43954b0751018051814019d6.tar.gz",
+    "source_url": "https://github.com/apache/arrow/archive/a81aefbd8cdcc081dbe8669cdaaf459a1c8127b4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python libraries for Apache Arrow",
+    "summary": "C++ libraries for Apache Arrow",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.1.post"
+    "version": "0.4.0.post"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "pyarrow-0.1.post-np110py27_2.tar.bz2",
+  "package": "arrow-cpp-0.4.0.post-np112py35_1.tar.bz2",
   "repodata": {
-    "build": "np110py27_2",
-    "build_number": 2,
+    "build": "np112py35_1",
+    "build_number": 1,
     "depends": [
-      "arrow-cpp",
-      "numpy 1.10*",
-      "pandas",
-      "parquet-cpp",
-      "python 2.7*",
-      "six"
+      "jemalloc",
+      "numpy 1.12*",
+      "python 3.5*"
     ],
     "license": "Apache 2.0",
-    "md5": "6f901d8a20d38e9f0e0c9d639d9ce796",
-    "name": "pyarrow",
-    "sha256": "5b2b31cb2672827c882919ea5009dd0724b8b869d8ae656132135ab9f329264b",
-    "size": 2412463,
+    "md5": "f49f505451bd3549ca806f4f6834adf7",
+    "name": "arrow-cpp",
+    "sha256": "76f7138c2fd605ecfddc9695558886d1bfc031695ad3529344160ca24f63a34c",
+    "size": 1345198,
     "subdir": "linux-64",
-    "version": "0.1.post"
+    "version": "0.4.0.post"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyarrow-0.1.post-np110py27_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/arrow-cpp-0.4.0.post-np112py35_1.tar.bz2"
 }
