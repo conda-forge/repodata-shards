@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/django-debug-toolbar/django-debug-toolbar",
+    "home": "https://github.com/conda/conda-verify",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/jazzband/django-debug-toolbar/archive/1.7.tar.gz",
+    "source_url": "https://github.com/conda/conda-verify/archive/3.1.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A configurable set of panels that display various debug information about the current request/response.",
+    "summary": "tool for validating conda recipes and conda packages",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.7"
+    "text_prefix": true,
+    "timestamp": 1538192851,
+    "version": "3.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "django-debug-toolbar-1.7-py27_0.tar.bz2",
+  "package": "conda-verify-3.1.1-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "django >=1.8",
-      "python 2.7*",
-      "sqlparse >=0.2.0"
+      "backports.functools_lru_cache",
+      "click",
+      "future",
+      "jinja2",
+      "python >=2.7,<2.8.0a0",
+      "pyyaml",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "2946835964a7e12011e7179dd1c325be",
-    "name": "django-debug-toolbar",
-    "sha256": "fc199d413ac76d8534a1629a89ad2c781beaa2a4b028206ffa4a420e68eee3e0",
-    "size": 131488,
+    "md5": "0912dc71b8bf2aad53744ac0f46edc93",
+    "name": "conda-verify",
+    "sha256": "a7fb58ecc2601430eb6df43d54a11f346b8f49cc5aac304332c2d3aea24e98dc",
+    "size": 31854,
     "subdir": "linux-64",
-    "version": "1.7"
+    "timestamp": 1538192851933,
+    "version": "3.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-debug-toolbar-1.7-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-verify-3.1.1-py27_0.tar.bz2"
 }
