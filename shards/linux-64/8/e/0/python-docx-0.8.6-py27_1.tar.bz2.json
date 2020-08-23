@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://site.icu-project.org/",
+    "home": "https://github.com/python-openxml/python-docx",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,36 +19,38 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://download.icu-project.org/files/icu4c/58.2/icu4c-58_2-src.tgz",
+    "source_url": "https://pypi.io/packages/source/p/python-docx/python-docx-0.8.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "International Components for Unicode.",
+    "summary": "Create and update Microsoft Word .docx files.",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "58.2"
+    "version": "0.8.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "icu-58.2-0.tar.bz2",
+  "package": "python-docx-0.8.6-py27_1.tar.bz2",
   "repodata": {
-    "build": "0",
-    "build_number": 0,
-    "depends": [],
+    "build": "py27_1",
+    "build_number": 1,
+    "depends": [
+      "lxml >=2.3.2",
+      "python 2.7*"
+    ],
     "license": "MIT",
-    "md5": "c52602b125d146ad9e68b4d75d2585e5",
-    "name": "icu",
-    "sha256": "9b038d44d77a292fcb33e17d00f60d2aa44486df4fdf849291c09ef149cde588",
-    "size": 23812643,
+    "md5": "1a14289d9fd36da0a63719c7ca4c5aa3",
+    "name": "python-docx",
+    "sha256": "39f4f8a6ae56b383910ee158c2da6bfe1bd96c9092f836def90d0ce8d8af57d0",
+    "size": 283833,
     "subdir": "linux-64",
-    "version": "58.2"
+    "version": "0.8.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/icu-58.2-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-docx-0.8.6-py27_1.tar.bz2"
 }
