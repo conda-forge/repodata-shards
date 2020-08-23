@@ -7,51 +7,51 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://llvm.org/",
+    "home": "http://initd.org/psycopg/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "NCSA",
+    "license": "LGPL, BSD-like, ZPL",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://releases.llvm.org/5.0.0/lld-5.0.0.src.tar.xz",
+    "source_url": "https://pypi.io/packages/source/p/psycopg2/psycopg2-2.7.4.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
-    "summary": "The LLVM Linker",
+    "summary": "Python-PostgreSQL Database Adapter",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "5.0.0"
+    "version": "2.7.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "lld-5.0.0-py27_0.tar.bz2",
+  "package": "psycopg2-2.7.4-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "llvmdev ==5.0.0",
+      "libpq",
+      "openssl 1.0.*",
       "python 2.7*"
     ],
-    "license": "NCSA",
-    "md5": "b69d7a36801419a1a5111942dcb38a62",
-    "name": "lld",
-    "sha256": "5c708a3bc0c8b9da4f4a03bfdee5b559d53c50cce9a3b75c7034b5f4b86894ed",
-    "size": 11417850,
-    "subdir": "linux-64",
-    "version": "5.0.0"
+    "license": "LGPL, BSD-like, ZPL",
+    "md5": "d277897afe6d94627e96edd89db70554",
+    "name": "psycopg2",
+    "sha256": "019ef566b34c26388a12e4b160064ffc59d2f1628faf87b0899e555a5baccd45",
+    "size": 293674,
+    "subdir": "win-64",
+    "version": "2.7.4"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/lld-5.0.0-py27_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/psycopg2-2.7.4-py27_0.tar.bz2"
 }
