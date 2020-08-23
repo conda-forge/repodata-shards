@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.daqana.org/dqrng, https://github.com/daqana/dqrng",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "AGPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/dqrng/dqrng_0.2.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/dqrng_0.2.1.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Several fast random number generators are provided as C++ header only libraries: The PCG family by O'Neill (2014 <https://www.cs.hmc.edu/tr/hmc-cs-2014-0905.pdf>) as well as Xoroshiro128+ and Xoshiro256+ by Blackman and Vigna (2018 <arXiv:1805.01407>). In addition fast functions for generating random numbers according to a uniform, normal and exponential distribution are included. The latter two use the Ziggurat algorithm originally proposed by Marsaglia and Tsang (2000, <doi:10.18637/jss.v005.i08>). These functions are exported to R and as a C++ interface and are enabled for use with the default 64 bit generator from the PCG family, Xoroshiro128+ and Xoshiro256+ as well as the 64 bit version of the 20 rounds Threefry engine (Salmon et al., 2011 <doi:10.1145/2063384.2063405>) as provided by the package 'sitmo'.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1559920415,
+    "version": "0.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-dqrng-0.2.1-r35hf99fc2c_0.tar.bz2",
+  "repodata": {
+    "build": "r35hf99fc2c_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=4.0.1",
+      "r-base >=3.5.1,<3.5.2.0a0",
+      "r-bh >=1.64.0_1",
+      "r-rcpp >=0.12.16",
+      "r-sitmo >=2.0.0"
+    ],
+    "license": "AGPL-3",
+    "license_family": "AGPL",
+    "md5": "26a1babfac905e4c2f59e0927e8e90a1",
+    "name": "r-dqrng",
+    "sha256": "528455807d5caca96eeeb486daacc54229d6f1d9e0459d47e84bb09d77fcdc0d",
+    "size": 196355,
+    "subdir": "osx-64",
+    "timestamp": 1559920415135,
+    "version": "0.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-dqrng-0.2.1-r35hf99fc2c_0.tar.bz2"
+}
