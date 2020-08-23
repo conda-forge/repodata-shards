@@ -1,58 +1,58 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://initd.org/psycopg/",
+    "home": "http://llvm.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL, BSD-like, ZPL",
+    "license": "NCSA",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/psycopg2/psycopg2-2.7.3.1.tar.gz",
+    "source_url": "http://releases.llvm.org/6.0.0/lldb-6.0.0.src.tar.xz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python-PostgreSQL Database Adapter",
+    "summary": "The LLVM Debugger",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.7.3.1"
+    "version": "6.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "psycopg2-2.7.3.1-py35_0.tar.bz2",
+  "package": "lldb-6.0.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "libpq",
-      "openssl 1.0.*",
-      "python 3.5*"
+      "clangdev ==6.0.0",
+      "libedit",
+      "llvmdev ==6.0.0",
+      "python 2.7*"
     ],
-    "license": "LGPL, BSD-like, ZPL",
-    "md5": "bc5805f891a8be5231bcd6e0deb38e39",
-    "name": "psycopg2",
-    "sha256": "29e0362e48d6aae621c349fad4ea1d1ab84a96d658ff00335b8465cb80dc3f92",
-    "size": 512592,
+    "license": "NCSA",
+    "md5": "bbf75040771fb92bd11144ea30877322",
+    "name": "lldb",
+    "sha256": "1df45a3d39a2dc5a5b9fd198be3129fdc7d0fbe16bb7055f3d58cb66759c2b8d",
+    "size": 47556669,
     "subdir": "linux-64",
-    "version": "2.7.3.1"
+    "version": "6.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/psycopg2-2.7.3.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/lldb-6.0.0-py27_0.tar.bz2"
 }
