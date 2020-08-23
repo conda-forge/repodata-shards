@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This library provides a common high-level API for openPMD writing and reading. It provides a common interface to I/O libraries and file formats such as HDF5, ADIOS and JSON. This conda-forge package only provides serial I/O, please build from source for MPI parallel I/O on HPC systems. Window support is limited to HDF5, JSON and Python 3.",
+    "dev_url": "https://github.com/openPMD/openPMD-api",
+    "doc_source_url": null,
+    "doc_url": "https://openpmd-api.readthedocs.io",
+    "home": "https://www.openPMD.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL 3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.7.1a": {
+        "weak": [
+          "openpmd-api >=0.7,<0.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/openPMD/openPMD-api/archive/0.7.1-alpha.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "C++ & Python API for writing & reading (.h5, .bp, .json, ...), serial & MPI parallel openPMD files.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1548592163,
+    "version": "0.7.1a"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "openpmd-api-0.7.1a-py36h1532aa0_0.tar.bz2",
+  "repodata": {
+    "build": "py36h1532aa0_0",
+    "build_number": 0,
+    "depends": [
+      "blosc",
+      "bzip2",
+      "hdf5 >=1.10.4,<1.10.5.0a0",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "numpy >=1.15.0",
+      "python >=3.6,<3.7.0a0",
+      "zlib"
+    ],
+    "license": "LGPL 3",
+    "license_family": "LGPL",
+    "md5": "fb9cb542baa5824d311b07fc5abe6499",
+    "name": "openpmd-api",
+    "sha256": "b3c7acacd44baaa18f092697e4362cc5eae2425a3768616de04bca8cff720231",
+    "size": 1870881,
+    "subdir": "linux-64",
+    "timestamp": 1548592163992,
+    "version": "0.7.1a"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/openpmd-api-0.7.1a-py36h1532aa0_0.tar.bz2"
+}
