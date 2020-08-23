@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/apache/arrow",
+    "home": "http://tensorflow.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/apache/arrow/archive/928b63f40d4d8234644acca36d41bed9390f5f3a.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python libraries for Apache Arrow",
+    "summary": "TensorFlow helps the tensors flow",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.3.pre"
+    "version": "1.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,31 @@
     "main",
     "cf202003"
   ],
-  "package": "pyarrow-0.3.pre-np111py36_1.tar.bz2",
+  "package": "tensorflow-1.2.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "np111py36_1",
-    "build_number": 1,
+    "build": "py36_0",
+    "build_number": 0,
     "depends": [
-      "arrow-cpp 0.3.*",
-      "numpy 1.11*",
-      "pandas",
-      "parquet-cpp 1.1.*",
+      "backports.weakref ==1.0rc1",
+      "bleach ==1.5.0",
+      "html5lib ==0.9999999",
+      "markdown >=2.6.8",
+      "mock >=2.0.0",
+      "numpy >=1.11.0",
+      "protobuf >=3.2.0",
       "python 3.6*",
-      "setuptools",
-      "six"
+      "six >=1.10.0",
+      "werkzeug >=0.11.10"
     ],
     "license": "Apache 2.0",
-    "md5": "f8567bc18319f88d29ec9584fd281df5",
-    "name": "pyarrow",
-    "sha256": "f93038ca01e85315aa6a3a04dcd9ebcd5e87624d73660d1f5d3b5ef0dab8bce6",
-    "size": 601638,
+    "md5": "7134f5d1ba2012afb745b0598dedb30f",
+    "name": "tensorflow",
+    "sha256": "a8da16d575afac06563314a1a3fa2b1fece91b490ce89d39caeb1029a7c193d7",
+    "size": 30079117,
     "subdir": "linux-64",
-    "version": "0.3.pre"
+    "version": "1.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyarrow-0.3.pre-np111py36_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/tensorflow-1.2.0-py36_0.tar.bz2"
 }
