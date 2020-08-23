@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Fluidfft provides C++ classes and their Python wrapper classes written in Cython useful to perform Fast Fourier Transform (FFT) with different libraries",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://fluidfft.readthedocs.io",
+    "home": "https://bitbucket.org/fluiddyn/fluidfft",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CeCILL-B",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.2.9": {
+        "weak": [
+          "fluidfft * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fluidfft/fluidfft-0.2.9.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1556799595,
+    "version": "0.2.9"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "fluidfft-0.2.9-mpi_openmpi_hbc9d949_1000.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_hbc9d949_1000",
+    "build_number": 1000,
+    "depends": [
+      "fftw * mpi_openmpi_*",
+      "fluiddyn * mpi_openmpi_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "openmpi >=3.1.4,<3.2.0a0",
+      "openssh",
+      "pandas",
+      "pyfftw",
+      "transonic"
+    ],
+    "license": "CeCILL-B",
+    "md5": "d3ad2fa17d05c63691dc60dfdacd0811",
+    "name": "fluidfft",
+    "sha256": "5b693430fc084c2ec23448c8bce35bcd810e89fc1832733dad913fac7a06b362",
+    "size": 1375513,
+    "subdir": "linux-64",
+    "timestamp": 1556799595966,
+    "version": "0.2.9"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fluidfft-0.2.9-mpi_openmpi_hbc9d949_1000.tar.bz2"
+}
