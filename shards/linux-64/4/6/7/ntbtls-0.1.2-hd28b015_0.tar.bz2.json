@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "ntbTLS is a tiny TLS 1.2 only implementation designed to be used with Libgcrypt and LibKSBA. In particular, this library has no certificate verification code - this need to be done by the caller. For example the GnuPG component dirmngr already has code to verify certificates (for CRL and OCSP checking) and thus ntbTLS is a good fit for accessing objects over the network.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.gnupg.org/software/ntbtls/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.1.2": {
+        "weak": [
+          "ntbtls >=0.1.2,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.gnupg.org/ftp/gcrypt/ntbtls/ntbtls-0.1.2.tar.bz2",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Not Too Bad TLS",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1525738033,
+    "version": "0.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "ntbtls-0.1.2-hd28b015_0.tar.bz2",
+  "repodata": {
+    "build": "hd28b015_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=4.9",
+      "libgcrypt >=1.8.2,<2.0a0",
+      "libgpg-error >=1.31,<2.0a0",
+      "libksba >=1.3.5,<1.4.0a0",
+      "libstdcxx-ng >=4.9",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-3",
+    "license_family": "GPL",
+    "md5": "70b96c0ead18e41c2eba70b1ee73c88b",
+    "name": "ntbtls",
+    "sha256": "cb8a7afff11020fd827cd9f5ce76bb43f7550634290ed9c56b347441255b95a3",
+    "size": 61043,
+    "subdir": "linux-64",
+    "timestamp": 1525738033335,
+    "version": "0.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ntbtls-0.1.2-hd28b015_0.tar.bz2"
+}
