@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This package implements the Leiden algorithm in C++ and exposes it to python. It relies on (python-)igraph for it to function. Besides the relative flexibility of the implementation, it also scales well, and can be run on graphs of millions of nodes (as long as they can fit in memory). The core function is find_partition which is able to optimize a variety of quality functions using the Leiden algorithm.",
+    "dev_url": "https://github.com/vtraag/leidenalg",
+    "doc_source_url": null,
+    "doc_url": "http://leidenalg.readthedocs.io/",
+    "home": "https://github.com/vtraag/leidenalg",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/leidenalg/leidenalg-0.7.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Implementation of the Leiden algorithm for various methods for use with igraph in python.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1547834063,
+    "version": "0.7.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "leidenalg-0.7.0-py37h0a44026_0.tar.bz2",
+  "repodata": {
+    "build": "py37h0a44026_0",
+    "build_number": 0,
+    "depends": [
+      "igraph >=0.7.1,<0.8.0a0",
+      "libcxx >=4.0.1",
+      "python >=3.7,<3.8.0a0",
+      "python-igraph",
+      "setuptools"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "3a8ae545e4a9d66755df76d12c5187a3",
+    "name": "leidenalg",
+    "sha256": "81393e48a7c2bf416f8889088016940c893280a1c37f129bcf29f63141a5cf52",
+    "size": 116036,
+    "subdir": "osx-64",
+    "timestamp": 1547834063401,
+    "version": "0.7.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/leidenalg-0.7.0-py37h0a44026_0.tar.bz2"
+}
