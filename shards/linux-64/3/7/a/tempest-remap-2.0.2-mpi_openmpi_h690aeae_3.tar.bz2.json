@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "TempestRemap is a conservative, consistent and monotone remapping package for arbitrary grid geometry with support for finite volumes and finite elements. There is still quite a bit of work to be done, but any feedback is appreciated on the software in its current form.  If you choose to use this software in your work, please cite our papers:  Paul A. Ullrich and Mark A. Taylor, 2015: Arbitrary-Order Conservative and Consistent Remapping and a Theory of Linear Maps: Part 1. Mon. Wea. Rev., 143, 2419\u20132440, doi: 10.1175/MWR-D-14-00343.1  Paul A. Ullrich, Darshi Devendran and Hans Johansen, 2016: Arbitrary-Order Conservative and Consistent Remapping and a Theory of Linear Maps, Part 2. Mon. Weather Rev., 144, 1529-1549, doi: 10.1175/MWR-D-15-0301.1.",
+    "dev_url": "https://github.com/ClimateGlobalChange/tempestremap",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/ClimateGlobalChange/tempestremap",
+    "home": "https://github.com/ClimateGlobalChange/tempestremap",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.2": {
+        "weak": [
+          "tempest-remap * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ClimateGlobalChange/tempestremap/archive/v2.0.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Remapping software for climate applications",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1587117836,
+    "version": "2.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "tempest-remap-2.0.2-mpi_openmpi_h690aeae_3.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h690aeae_3",
+    "build_number": 3,
+    "depends": [
+      "hdf5 * mpi_openmpi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.3.0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libnetcdf * mpi_openmpi_*",
+      "libnetcdf >=4.7.4,<4.7.5.0a0 mpi_openmpi_*",
+      "libstdcxx-ng >=7.3.0",
+      "netcdf-cxx-legacy * mpi_openmpi_*",
+      "openmpi >=4.0,<4.1.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "c4a927b4fbfaba260d883a51b5d6a618",
+    "name": "tempest-remap",
+    "sha256": "7076c3208000c2c686f1fcc24a645572b116b7cc86407d79744b95a95227c4c2",
+    "size": 988754,
+    "subdir": "linux-64",
+    "timestamp": 1587117836327,
+    "version": "2.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/tempest-remap-2.0.2-mpi_openmpi_h690aeae_3.tar.bz2"
+}

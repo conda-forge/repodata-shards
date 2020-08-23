@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/peterjc/backports.lzma",
+    "home": "http://github.com/healpy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "GPL-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/backports.lzma/backports.lzma-0.0.8.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/healpy/healpy-1.11.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Backport of Python 3.3's 'lzma' module for XZ/LZMA compressed files.",
+    "summary": "Healpix tools package for Python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.0.8"
+    "version": "1.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "backports.lzma-0.0.8-py35_0.tar.bz2",
+  "package": "healpy-1.11.0-np113py35_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np113py35_0",
     "build_number": 0,
     "depends": [
+      "astropy",
+      "matplotlib",
+      "numpy 1.13*",
+      "pytest-runner",
       "python 3.5*",
-      "xz 5.2.*"
+      "six"
     ],
-    "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "3f773e7b16cd0f1e34495d4e64455ca4",
-    "name": "backports.lzma",
-    "sha256": "e4a43cacd1fc7cf51afb83c55ec50069ac6eff85fef6b8c4401e3367b0407d6a",
-    "size": 49495,
+    "license": "GPL-2.0",
+    "md5": "a88b2130d9d734256a8563f0de063cdd",
+    "name": "healpy",
+    "sha256": "e12d2fe6df1838389a4b3a6fb6f06c2a127ae029cef2c443bb7b7cf34f37ab29",
+    "size": 13536780,
     "subdir": "linux-64",
-    "version": "0.0.8"
+    "version": "1.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/backports.lzma-0.0.8-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/healpy-1.11.0-np113py35_0.tar.bz2"
 }
