@@ -4,7 +4,7 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
     "home": "http://llvm.org/",
@@ -19,38 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://llvm.org/releases/3.9.1/llvm-3.9.1.src.tar.xz",
+    "source_url": "http://releases.llvm.org/5.0.0/lldb-5.0.0.src.tar.xz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Development headers and libraries for LLVM",
+    "summary": "The LLVM Debugger",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "3.9.1"
+    "version": "5.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "llvmdev-3.9.1-0.tar.bz2",
+  "package": "lldb-5.0.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "system"
+      "clangdev ==5.0.0",
+      "libedit",
+      "llvmdev ==5.0.0",
+      "python 3.6*"
     ],
     "license": "NCSA",
-    "md5": "c893a3addc36a2b42a26601a39f0ee85",
-    "name": "llvmdev",
-    "sha256": "308506c7d626d13468dcc7a052f03c718c9e44f4cf6f4c612083290de9c2de7c",
-    "size": 92978231,
+    "md5": "d17f2ed7240ee1f96e01d5c9cd725594",
+    "name": "lldb",
+    "sha256": "d01cd6a38e5e5ba5b1e70556243ddaf0db0d57023166be17181e8f2f11b2f7f4",
+    "size": 28767558,
     "subdir": "linux-64",
-    "version": "3.9.1"
+    "version": "5.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/llvmdev-3.9.1-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/lldb-5.0.0-py36_0.tar.bz2"
 }
