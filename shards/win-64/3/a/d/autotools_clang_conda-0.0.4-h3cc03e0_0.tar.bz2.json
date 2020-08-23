@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package installs clang compiler, lld linker, tools like llvm-ranlib, llvm-ar, bash, autoconf to compiler autotools on windows. Resulting packages will be MSVC compatible. To use this package, in meta.yaml    build:     skip: True   requirements:     build:       - vs2008_win-64       - autotools_clang_conda       - llvm-openmp  In bld.bat    call %BUILD_PREFIX%\\Library\\bin\\run_autotools_clang_conda_build.bat   if errorlevel 1 exit 1  In build.sh    ./configure --prefix=$PREFIX   [[ \"$target_platform\" == \"win-64\" ]] && patch_libtool   make -j${CPU_COUNT}   make install",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/conda-forge/autotools_clang_conda-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Scripts to compile autotools projects on windows using clang and llvm tools",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1566493605,
+    "version": "0.0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "autotools_clang_conda-0.0.4-h3cc03e0_0.tar.bz2",
+  "repodata": {
+    "build": "h3cc03e0_0",
+    "build_number": 0,
+    "depends": [
+      "clang",
+      "clangxx",
+      "cmake",
+      "lld",
+      "llvm-tools",
+      "m2-autoconf",
+      "m2-automake-wrapper",
+      "m2-findutils",
+      "m2-libtool",
+      "m2-m4",
+      "m2-make",
+      "posix"
+    ],
+    "license": "BSD-3-clause",
+    "license_family": "BSD",
+    "md5": "09165e43297af222d80b94c8f4258088",
+    "name": "autotools_clang_conda",
+    "sha256": "725426596e9d0cda28a28254f7366c13ba8caaee4c1ac5c24d873e8ed338aa7d",
+    "size": 6605,
+    "subdir": "win-64",
+    "timestamp": 1566493605269,
+    "version": "0.0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/autotools_clang_conda-0.0.4-h3cc03e0_0.tar.bz2"
+}
