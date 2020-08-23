@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://mc-stan.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/StanHeaders/StanHeaders_2.21.0-6.tar.gz",
+      "https://cran.r-project.org/src/contrib/StanHeaders_2.21.0-6.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The C++ header files of the Stan project are provided by this package, but it contains little R code or documentation. The main reference is the vignette. There is a shared object containing part of the 'CVODES' library, but its functionality is not accessible from R. 'StanHeaders' is only useful for developers who want to utilize the 'LinkingTo' directive of their package's DESCRIPTION file to build on the Stan library without incurring unnecessary dependencies. The Stan project develops a probabilistic programming language that implements full or approximate Bayesian statistical inference via Markov Chain Monte Carlo or 'variational' methods and implements (optionally penalized) maximum likelihood estimation via optimization. The Stan library includes an advanced automatic differentiation scheme, 'templated' statistical and linear algebra functions that can handle the automatically 'differentiable' scalar types (and doubles, 'ints', etc.), and a parser for the Stan language. The 'rstan' package provides user-facing R functions to parse, compile, test, estimate, and analyze Stan models.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1597597328,
+    "version": "2.21.0_6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-stanheaders-2.21.0_6-r36h6786f55_0.tar.bz2",
+  "repodata": {
+    "build": "r36h6786f55_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "libstdcxx-ng >=7.5.0",
+      "r-base >=3.6,<3.7.0a0",
+      "r-rcppeigen",
+      "r-rcppparallel"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "2c23b0177bfded376a22d1fb8482b7e4",
+    "name": "r-stanheaders",
+    "sha256": "d41e81f79a556a8b7ebe01ed03d582b14d582daad05bc5e351665b8a8f9c7a74",
+    "size": 1027822,
+    "subdir": "linux-64",
+    "timestamp": 1597597328069,
+    "version": "2.21.0_6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-stanheaders-2.21.0_6-r36h6786f55_0.tar.bz2"
+}
