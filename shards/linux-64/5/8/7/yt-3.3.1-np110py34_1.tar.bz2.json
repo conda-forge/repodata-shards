@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pypi.python.org/pypi/termcolor",
+    "home": "http://yt-project.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT License",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/t/termcolor/termcolor-1.1.0.tar.gz",
+    "source_url": "https://files.pythonhosted.org/packages/source/y/yt/yt-3.3.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "ANSII Color formatting for output in terminal.",
+    "summary": "Analysis and visualization toolkit for volumetric data",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.1.0"
+    "version": "3.3.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "termcolor-1.1.0-py34_1.tar.bz2",
+  "package": "yt-3.3.1-np110py34_1.tar.bz2",
   "repodata": {
-    "build": "py34_1",
+    "build": "np110py34_1",
     "build_number": 1,
     "depends": [
-      "python 3.4*"
+      "h5py",
+      "ipython",
+      "matplotlib",
+      "numpy 1.10*",
+      "pyembree",
+      "python 3.4*",
+      "setuptools",
+      "sympy"
     ],
-    "license": "MIT License",
-    "md5": "8270e83ca59ab9d28f2042df402ea0ab",
-    "name": "termcolor",
-    "sha256": "42d00a226122cbec8b56f31f34cc00d4dbf7f1cc1493867e0c4a8439c278bdb1",
-    "size": 5302,
+    "license": "BSD 3-clause",
+    "md5": "dfe1e653a9b8a6d771339e402c482928",
+    "name": "yt",
+    "sha256": "ec8b3a442b99664d1b0248914656a0883a18e441f0dc62ffe2a2c5f1788ff069",
+    "size": 14182627,
     "subdir": "linux-64",
-    "version": "1.1.0"
+    "version": "3.3.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/termcolor-1.1.0-py34_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/yt-3.3.1-np110py34_1.tar.bz2"
 }
