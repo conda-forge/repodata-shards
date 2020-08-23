@@ -7,54 +7,51 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/liam2/larray",
+    "home": "http://www.remotesensing.org/libtiff/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-3.0",
+    "license": "HPND",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/liam2/larray/archive/0.22.tar.gz",
+    "source_url": "ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Labeled N-dimensional array.",
+    "summary": "Support for the Tag Image File Format (TIFF)",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.22"
+    "version": "4.0.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "larray-0.22-py36_0.tar.bz2",
+  "package": "libtiff-4.0.6-6.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "6",
+    "build_number": 6,
     "depends": [
-      "numpy >=1.10",
-      "pandas",
-      "pytest-runner",
-      "python 3.6*"
+      "jpeg 9*",
+      "xz 5.2.*",
+      "zlib 1.2*"
     ],
-    "license": "GPL-3.0",
-    "license_family": "GPL",
-    "md5": "72320cfe97d850b6674070d0f46a30a5",
-    "name": "larray",
-    "sha256": "4548168198a414862a9bc10e96ba44ee34b88f1a47a95a84e235f1033e3bab1b",
-    "size": 2315746,
+    "license": "HPND",
+    "md5": "cf390e2daf86cdd8b157dc84a890584b",
+    "name": "libtiff",
+    "sha256": "10d759ef68467a877942a6df24ae265e4b4f59487fc8cc0185d7d56807b9569e",
+    "size": 519225,
     "subdir": "linux-64",
-    "version": "0.22"
+    "version": "4.0.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/larray-0.22-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/libtiff-4.0.6-6.tar.bz2"
 }
