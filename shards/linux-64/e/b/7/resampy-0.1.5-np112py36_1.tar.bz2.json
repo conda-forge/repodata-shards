@@ -7,53 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://developers.google.com/protocol-buffers/",
+    "home": "https://github.com/bmcfee/resampy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "ISC",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/google/protobuf/archive/v3.4.0/protobuf-v3.4.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/resampy/resampy-0.1.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Protocol Buffers - Google's data interchange format.",
+    "summary": "Efficient signal resampling",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "3.4.0"
+    "version": "0.1.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "protobuf-3.4.0-py36_1.tar.bz2",
+  "package": "resampy-0.1.5-np112py36_1.tar.bz2",
   "repodata": {
-    "build": "py36_1",
+    "build": "np112py36_1",
     "build_number": 1,
     "depends": [
+      "cython >=0.23",
+      "numpy 1.12*",
       "python 3.6*",
+      "scipy >=0.13",
       "setuptools",
-      "six",
-      "zlib 1.2.11"
+      "six >=1.3"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "7a5059857de1318170950d887f4a066d",
-    "name": "protobuf",
-    "sha256": "3866d93c2d8f8cbc1867b739fde64d6cbfdbc59ea95215efeb193ca99925d3a5",
-    "size": 5891799,
+    "license": "ISC",
+    "md5": "32fa854ffa4b9d5a6455c09792f410c7",
+    "name": "resampy",
+    "sha256": "36104cae4552340a5f08c0ea2a64eaba357847cc34854cd1d85fb5be38cfec8e",
+    "size": 680586,
     "subdir": "linux-64",
-    "version": "3.4.0"
+    "version": "0.1.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/protobuf-3.4.0-py36_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/resampy-0.1.5-np112py36_1.tar.bz2"
 }
