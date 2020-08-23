@@ -7,12 +7,12 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/junegunn/fzf",
+    "home": "http://chemfiles.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "MPL-v2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -23,11 +23,11 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A command-line fuzzy finder",
+    "summary": "Modern library for chemistry file reading and writing",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1583992601,
-    "version": "0.21.0"
+    "timestamp": 0,
+    "version": "0.7.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "fzf-0.21.0-h375a9b1_0.tar.bz2",
+  "package": "chemfiles-0.7.4-0.tar.bz2",
   "repodata": {
-    "build": "h375a9b1_0",
+    "build": "0",
     "build_number": 0,
-    "depends": [],
-    "license": "MIT",
-    "license_family": "MIT",
-    "md5": "552007c851e6d4e991b4fd0ebde93164",
-    "name": "fzf",
-    "sha256": "05ada522b37f267f0fd2e345573b4aceb06049e676f5b43631ef831679229f80",
-    "size": 2014016,
+    "depends": [
+      "chemfiles-lib 0.7.*",
+      "chemfiles-python 0.7.*"
+    ],
+    "license": "MPL-v2.0",
+    "md5": "d71639d9a526def0eeb39d19e29595ef",
+    "name": "chemfiles",
+    "sha256": "eefa642cdcef9d9b32db578760e570efe855a734534132c292f02089fa434415",
+    "size": 2434,
     "subdir": "linux-64",
-    "timestamp": 1583992601153,
-    "version": "0.21.0"
+    "version": "0.7.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fzf-0.21.0-h375a9b1_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/chemfiles-0.7.4-0.tar.bz2"
 }
