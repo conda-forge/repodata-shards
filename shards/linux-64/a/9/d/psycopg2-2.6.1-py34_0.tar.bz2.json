@@ -7,50 +7,52 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.gnu.org/software/parallel/",
+    "home": "http://initd.org/psycopg/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-3",
+    "license": "LGPL, BSD-like, ZPL",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://ftpmirror.gnu.org/parallel/parallel-20180522.tar.bz2",
+    "source_url": "https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.6.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "GNU parallel is a shell tool for executing jobs in parallel using one or more computers.",
+    "summary": "Python-PostgreSQL Database Adapter",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "20180522"
+    "version": "2.6.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "parallel-20180522-0.tar.bz2",
+  "package": "psycopg2-2.6.1-py34_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "perl >5.0.0"
+      "libpq",
+      "openssl 1.0.*",
+      "python 3.4*"
     ],
-    "license": "GPL-3",
-    "license_family": "GPL",
-    "md5": "bcb732053ffb0e3960b7b25553fbfebe",
-    "name": "parallel",
-    "sha256": "d054d11a7a45acd9cf07b06140cdcdd30f8491e533d64582a17d3503638b907e",
-    "size": 1414760,
+    "license": "LGPL, BSD-like, ZPL",
+    "md5": "f716037d5ec2df8923808af54f03b962",
+    "name": "psycopg2",
+    "sha256": "4e0806d1af6755294bf4c995192bbaedcf46a39f4f53ab4649687c7369f0b7f2",
+    "size": 416616,
     "subdir": "linux-64",
-    "version": "20180522"
+    "version": "2.6.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/parallel-20180522-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/psycopg2-2.6.1-py34_0.tar.bz2"
 }
