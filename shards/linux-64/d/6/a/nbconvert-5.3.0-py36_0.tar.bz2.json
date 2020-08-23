@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://developers.google.com/protocol-buffers/",
+    "home": "http://jupyter.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/google/protobuf/archive/v3.3.0/protobuf-v3.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/n/nbconvert/nbconvert-5.3.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Protocol Buffers - Google's data interchange format.",
+    "summary": "Converting Jupyter Notebooks",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "3.3.0"
+    "version": "5.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,34 @@
     "cf202003",
     "main"
   ],
-  "package": "protobuf-3.3.0-py36_0.tar.bz2",
+  "package": "nbconvert-5.3.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
+      "bleach",
+      "entrypoints >=0.2.2",
+      "jinja2",
+      "jupyter_client >=4.2",
+      "jupyter_core",
+      "mistune >=0.7.4",
+      "nbformat >=4.4",
+      "pandoc",
+      "pandocfilters >=1.4.1",
+      "pygments",
       "python 3.6*",
-      "setuptools",
-      "six",
-      "zlib 1.2.*"
+      "testpath",
+      "traitlets"
     ],
     "license": "BSD 3-Clause",
-    "md5": "f3f0fe2483d818235aed8b2cb4167d4e",
-    "name": "protobuf",
-    "sha256": "9cd890c9deb76ab408b636e6aed4be8aed1ae3287b2aa7493bd3a214a9a84d69",
-    "size": 7644682,
+    "md5": "deb98e1e929ca1156c4b7594637b95ae",
+    "name": "nbconvert",
+    "sha256": "055c6c40bf6910711a2a8890e3b831988b5200940d1dba66779af638d8b9e75e",
+    "size": 413929,
     "subdir": "linux-64",
-    "version": "3.3.0"
+    "version": "5.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/protobuf-3.3.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/nbconvert-5.3.0-py36_0.tar.bz2"
 }
