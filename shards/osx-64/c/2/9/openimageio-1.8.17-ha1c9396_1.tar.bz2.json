@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "OpenImageIO consists of: - Simple but powerful ImageInput and ImageOutput APIs that provide an abstraction   for reading and writing image files of nearly any format, without the calling   application needing to know any of the details of these file formats, and indeed   without the calling application needing to be aware of which formats are available. - Plugins implementing I/O for several popular image file formats, including TIFF,   JPEG/JFIF, OpenEXR, PNG, HDR/RGBE, ICO, BMP, Targa, JPEG-2000, RMan Zfile, FITS, DDS,   Softimage PIC, PNM, DPX, Cineon, IFF, Field3D, Ptex, Photoshop PSD, Wavefront RLA, SGI,   WebP, GIF, DICOM, many \\\"RAW\\\" digital camera formats, and a variety of movie formats   (readable as individual frames). More are being developed all the time. - An ImageCache class that transparently manages a cache so that it can access truly   vast amounts of image data (tens of thousands of image files totaling multiple TB)   very efficiently using only a tiny amount (tens of megabytes at most) of runtime memory.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://sites.google.com/site/openimageio/home",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.8.17": {
+        "weak": [
+          "openimageio >=1.8.17,<1.9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/OpenImageIO/oiio/archive/Release-1.8.17.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Simple but powerful APIs for reading & writing many image formats",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1549292140,
+    "version": "1.8.17"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "openimageio-1.8.17-ha1c9396_1.tar.bz2",
+  "repodata": {
+    "build": "ha1c9396_1",
+    "build_number": 1,
+    "depends": [
+      "boost >=1.69.0,<1.69.1.0a0",
+      "ffmpeg >=3.4.2,<3.5.0a0",
+      "giflib >=5.1.4,<5.2.0a0",
+      "jpeg >=9c,<10a",
+      "libcxx >=4.0.1",
+      "libpng >=1.6.36,<1.7.0a0",
+      "libtiff >=4.0.10,<5.0a0",
+      "libwebp >=1.0.1,<1.1.0a0",
+      "openexr >=2.3.0,<2.4.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "2f562c373c422fda0f9e07da73357768",
+    "name": "openimageio",
+    "sha256": "049ee6407190b9afb644784fb3c6557afd276de9b2d0d735d9d5bb88cd0f45e3",
+    "size": 6014483,
+    "subdir": "osx-64",
+    "timestamp": 1549292140567,
+    "version": "1.8.17"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/openimageio-1.8.17-ha1c9396_1.tar.bz2"
+}
