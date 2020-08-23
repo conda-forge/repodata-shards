@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Given a byte stream with a minimum length of 50 bytes TLSH generates a hash value which can be used for similarity comparisons. Similar objects will have similar hash values which allows for the detection of similar objects by comparing their hash values. Note that the byte stream should have a sufficient amount of complexity. For example, a byte stream of identical bytes will not generate a hash value.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/trendmicro/tlsh",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.17.0": {
+        "weak": [
+          "python-tlsh >=3.17.0,<3.18.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/trendmicro/tlsh/archive/3.17.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "TLSH is a fuzzy matching library.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1572702669,
+    "version": "3.17.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "python-tlsh-3.17.0-py37h4a8c4bd_0.tar.bz2",
+  "repodata": {
+    "build": "py37h4a8c4bd_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=9.0.0",
+      "libtlsh 3.17.0 h4a8c4bd_0",
+      "python >=3.7,<3.8.0a0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "a2e86719fcfe04e2f60eb997b6588ab8",
+    "name": "python-tlsh",
+    "sha256": "04ae606d379c77803265bf13ad582a1695eec0391e92feeaad8bf4f1db31f6a4",
+    "size": 27827,
+    "subdir": "osx-64",
+    "timestamp": 1572702669030,
+    "version": "3.17.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/python-tlsh-3.17.0-py37h4a8c4bd_0.tar.bz2"
+}
