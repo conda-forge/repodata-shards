@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://www.x.org/",
+    "home": "https://github.com/hishamhm/htop/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "GPL-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/proto/xf86driproto-2.1.1.tar.bz2",
+    "source_url": "https://github.com/hishamhm/htop/archive/2.0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Print extension headers",
+    "summary": "htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "2.1.1"
+    "version": "2.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,21 +35,22 @@
     "cf202003",
     "main"
   ],
-  "package": "xorg-xf86driproto-2.1.1-0.tar.bz2",
+  "package": "htop-2.0.2-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
-    "depends": [],
-    "license": "MIT",
-    "license_family": "MIT",
-    "md5": "5fa37ee4018423974e25761521f6be5f",
-    "name": "xorg-xf86driproto",
-    "sha256": "a79247b61799b3ce5aca8762761470cbd1a98dbf839352f9c6b03772d18811fc",
-    "size": 6421,
+    "depends": [
+      "ncurses 5.9*"
+    ],
+    "license": "GPL-2.0",
+    "md5": "963ccbe97416a45aab56f80d31e98e09",
+    "name": "htop",
+    "sha256": "c62e316aacac4873ab0d0907bb8c53f47cbe700bb0cd15fcb0b6c8a4dff235e8",
+    "size": 90445,
     "subdir": "linux-64",
-    "version": "2.1.1"
+    "version": "2.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-xf86driproto-2.1.1-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/htop-2.0.2-0.tar.bz2"
 }
