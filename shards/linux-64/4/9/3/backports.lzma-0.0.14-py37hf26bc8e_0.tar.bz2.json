@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/conda/constructor",
+    "home": "https://github.com/peterjc/backports.lzma",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/constructor/archive/1.3.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/b/backports.lzma/backports.lzma-0.0.14.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "create installer from conda packages",
+    "summary": "Backport of Python 3.3's 'lzma' module for XZ/LZMA compressed files.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.3.3"
+    "timestamp": 1568306681,
+    "version": "0.0.14"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "constructor-1.3.3-py34_0.tar.bz2",
+  "package": "backports.lzma-0.0.14-py37hf26bc8e_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py37hf26bc8e_0",
     "build_number": 0,
     "depends": [
-      "libconda",
-      "python 3.4*"
+      "backports",
+      "libgcc-ng >=7.3.0",
+      "python >=3.7,<3.8.0a0",
+      "xz >=5.2.4,<5.3.0a0"
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "17d9c686cf8322078f2032fd1574e60e",
-    "name": "constructor",
-    "sha256": "efda76ab7cc3a1501391b03a3b7bf3a97d01b799aa95fa9cf394d7cca450d890",
-    "size": 38102,
+    "md5": "e623f68bded0e7647ee92e5235a8c850",
+    "name": "backports.lzma",
+    "sha256": "55cde9b30d22a5c7dd7d701d5bf0170b7714a9b9a9a7a48b4b207c5ec058a105",
+    "size": 50652,
     "subdir": "linux-64",
-    "version": "1.3.3"
+    "timestamp": 1568306681790,
+    "version": "0.0.14"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/constructor-1.3.3-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/backports.lzma-0.0.14-py37hf26bc8e_0.tar.bz2"
 }
