@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/jcgregorio/httplib2",
+    "home": "http://www.openjpeg.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 2-clauses",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/httplib2/httplib2-0.10.3.tar.gz",
+    "source_url": "https://github.com/uclouvain/openjpeg/archive/v2.1.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A comprehensive HTTP client library",
+    "summary": "An open-source JPEG 2000 codec written in C",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.10.3"
+    "version": "2.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "httplib2-0.10.3-py36_0.tar.bz2",
+  "package": "openjpeg-2.1.2-1.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "1",
+    "build_number": 1,
     "depends": [
-      "python 3.6*"
+      "libpng >=1.6.21,<1.7",
+      "libtiff 4.0.*",
+      "zlib 1.2.*"
     ],
-    "license": "MIT",
-    "md5": "031cc4147d20369f86bc7aee08df441d",
-    "name": "httplib2",
-    "sha256": "cacc966c2e60fc6b6807322af9ce80750b3b232c0124d60421165d722184ab8f",
-    "size": 101338,
+    "license": "BSD 2-clauses",
+    "md5": "84096d20bd01d0d44852934a90431f40",
+    "name": "openjpeg",
+    "sha256": "509dfdaf8fbd8d0016c142c9794754a032bc869cd8c6ef4b1bf582a3dbe93298",
+    "size": 227693,
     "subdir": "linux-64",
-    "version": "0.10.3"
+    "version": "2.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/httplib2-0.10.3-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/openjpeg-2.1.2-1.tar.bz2"
 }
