@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libdrs is suitable for the data generated and used in climate model research. It is oriented toward use with models generating very large datasets on supercomputers, as well as with graphics workstations used for analysis and display of smaller subsets of data.",
+    "dev_url": "http://github.com/CDAT/libdrs",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://cdat.llnl.gov",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/CDAT/libdrs/archive/v3.1.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Data Retrieval and Storage DRS software Fortran library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1587745045,
+    "version": "3.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libdrs_f-3.1.2-mpi_mpich_hd3898a1_9.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hd3898a1_9",
+    "build_number": 9,
+    "depends": [
+      "g2clib",
+      "libcdms * mpi_mpich_*",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "libnetcdf * mpi_mpich_*",
+      "libnetcdf >=4.7.4,<4.7.5.0a0 mpi_mpich_*",
+      "libpng >=1.6.37,<1.7.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "362dab93758c46979084bca9cbcb99be",
+    "name": "libdrs_f",
+    "sha256": "8cd21ff3a577158af2cf99637b4e9570cfbc79a8f554210c890c5b413fb487b3",
+    "size": 546338,
+    "subdir": "linux-64",
+    "timestamp": 1587745045541,
+    "version": "3.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libdrs_f-3.1.2-mpi_mpich_hd3898a1_9.tar.bz2"
+}
