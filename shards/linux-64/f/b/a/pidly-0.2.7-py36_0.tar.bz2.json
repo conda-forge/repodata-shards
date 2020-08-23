@@ -3,11 +3,11 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": null,
+    "description": "Control ITT's IDL (Interactive Data Language) from within Python",
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://danfm.ca/emcee/",
+    "home": "https://github.com/anthonyjsmith/pIDLy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/e/emcee/emcee-2.2.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pIDLy/pIDLy-0.2.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Kick ass affine-invariant ensemble MCMC sampling",
+    "summary": "IDL within Python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.2.1"
+    "version": "0.2.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "emcee-2.2.1-py27_0.tar.bz2",
+  "package": "pidly-0.2.7-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
       "numpy",
-      "python 2.7*"
+      "pexpect",
+      "python 3.6*",
+      "scipy"
     ],
     "license": "MIT",
-    "md5": "9259e0e21c06d148e691e4d476608145",
-    "name": "emcee",
-    "sha256": "15425eaf5b59232b19ee091a30bda7254029d052557a9310f0344202ec0b33f5",
-    "size": 37626,
+    "license_family": "MIT",
+    "md5": "a2359d4394c02b0cfb62e354277b5e4a",
+    "name": "pidly",
+    "sha256": "c80b12e663355cca86930b20b731e5b1a62578cf324047e5d743cc48c9d19bbd",
+    "size": 28757,
     "subdir": "linux-64",
-    "version": "2.2.1"
+    "version": "0.2.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/emcee-2.2.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pidly-0.2.7-py36_0.tar.bz2"
 }
