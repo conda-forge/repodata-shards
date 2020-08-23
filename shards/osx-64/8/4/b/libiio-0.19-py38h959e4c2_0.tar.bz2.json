@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "libiio is used to interface to the Linux Industrial Input/Output (IIO) Subsystem. The Linux IIO subsystem is intended to provide support for devices that in some sense are analog to digital or digital to analog converters (ADCs, DACs). This includes, but is not limited to ADCs, Accelerometers, Gyros, IMUs, Capacitance to Digital Converters (CDCs), Pressure Sensors, Color, Light and Proximity Sensors, Temperature Sensors, Magnetometers, DACs, DDS (Direct Digital Synthesis), PLLs (Phase Locked Loops), Variable/Programmable Gain Amplifiers (VGA, PGA), and RF transceivers. You can use libiio natively on an embedded Linux target (local mode), or use libiio to communicate remotely to that same target from a host Linux, Windows or MAC over USB or Ethernet or Serial.",
+    "dev_url": "https://github.com/analogdevicesinc/libiio",
+    "doc_source_url": null,
+    "doc_url": "https://analogdevicesinc.github.io/libiio/",
+    "home": "https://github.com/analogdevicesinc/libiio",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later AND GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.19": {
+        "weak": [
+          "libiio >=0.19,<0.20.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Library for interfacing with Linux IIO devices",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1591885229,
+    "version": "0.19"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libiio-0.19-py38h959e4c2_0.tar.bz2",
+  "repodata": {
+    "build": "py38h959e4c2_0",
+    "build_number": 0,
+    "depends": [
+      "icu >=64.2,<65.0a0",
+      "libiconv >=1.15,<1.16.0a0",
+      "libusb >=1.0.23,<2.0a0",
+      "libxml2 >=2.9.10,<2.10.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "xz >=5.2.5,<5.3.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-2.1-or-later AND GPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "bcf2668845ad9215c0f5e352ac1ae76c",
+    "name": "libiio",
+    "sha256": "b2235969c0fd1e35fc7e89387fe0658258c0b8557ebde2bc0f1526192dedf1cc",
+    "size": 101765,
+    "subdir": "osx-64",
+    "timestamp": 1591885229213,
+    "version": "0.19"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libiio-0.19-py38h959e4c2_0.tar.bz2"
+}
