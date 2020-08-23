@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Mesh-Oriented datABase (MOAB) is a component for representing and evaluating mesh data. MOAB can store structured and unstructured mesh, consisting of elements in the finite element zoo plus polygons and polyhedra.",
+    "dev_url": "https://bitbucket.org/fathomteam/moab.git",
+    "doc_source_url": null,
+    "doc_url": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "home": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL v2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.1.0": {
+        "weak": [
+          "moab * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/fathom/moab-5.1.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Mesh-Oriented datABase",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1574956923,
+    "version": "5.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "moab-5.1.0-mpi_mpich_notempest_py36hb5daa37_9.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_notempest_py36hb5daa37_9",
+    "build_number": 9,
+    "depends": [
+      "hdf5 * mpi_mpich_*",
+      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=9.0.0",
+      "libgfortran >=4.0.0,<5.0.0.a0",
+      "mpich >=3.3,<3.4.0a0",
+      "numpy",
+      "python >=3.6,<3.7.0a0",
+      "setuptools"
+    ],
+    "license": "LGPL v2.1",
+    "md5": "08db47d3548e50be0c6315a49333e328",
+    "name": "moab",
+    "sha256": "8015af73518d8e9452777f7ca1ae2cae552e5bf914cf04c94ef92614dee2bade",
+    "size": 5474657,
+    "subdir": "osx-64",
+    "timestamp": 1574956923772,
+    "version": "5.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/moab-5.1.0-mpi_mpich_notempest_py36hb5daa37_9.tar.bz2"
+}
