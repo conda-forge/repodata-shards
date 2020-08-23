@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/FND/markdown-checklist",
+    "home": "https://github.com/amueller/word_cloud",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/FND/markdown-checklist/archive/v0.4.1.tar.gz",
+    "source_url": "https://github.com/amueller/word_cloud/archive/1.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python Markdown extension for task lists with checkboxes",
+    "summary": "A little word cloud generator in Python",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.4.1"
+    "version": "1.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "markdown-checklist-0.4.1-py34_0.tar.bz2",
+  "package": "wordcloud-1.4-py35_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "markdown",
-      "python 3.4*"
+      "numpy",
+      "pillow",
+      "python 3.5*"
     ],
     "license": "MIT",
-    "md5": "dc3d92223979a2238c3c1d4abd03ef40",
-    "name": "markdown-checklist",
-    "sha256": "82c6074ec5b105207a71c919e69b008c47c632673081491df09d45e7b6162229",
-    "size": 4683,
+    "md5": "92f4e1ab4b9d5860f6d9eb116e5618c2",
+    "name": "wordcloud",
+    "sha256": "c890a9dec3fe8d78b58674118c534ac301bd08103edd6ac6ff2ac1dde35c28da",
+    "size": 332202,
     "subdir": "linux-64",
-    "version": "0.4.1"
+    "version": "1.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/markdown-checklist-0.4.1-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wordcloud-1.4-py35_0.tar.bz2"
 }
