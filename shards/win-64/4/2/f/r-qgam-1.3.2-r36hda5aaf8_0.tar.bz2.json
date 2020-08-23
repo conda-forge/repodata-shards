@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=qgam",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/qgam/qgam_1.3.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/qgam_1.3.2.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Smooth additive quantile regression models, fitted using the methods of Fasiolo et al. (2017) <arXiv:1707.03307>. Differently from 'quantreg', the smoothing parameters are estimated automatically by marginal loss minimization, while the regression coefficients are estimated using either PIRLS or Newton algorithm. The learning rate is determined so that the Bayesian credible intervals of the estimated effects have approximately the correct coverage. The main function is qgam() which is similar to gam() in 'mgcv', but fits non-parametric quantile regression models.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1593703918,
+    "version": "1.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-qgam-1.3.2-r36hda5aaf8_0.tar.bz2",
+  "repodata": {
+    "build": "r36hda5aaf8_0",
+    "build_number": 0,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=3.6,<3.7.0a0",
+      "r-doparallel",
+      "r-mgcv >=1.8_28",
+      "r-plyr",
+      "r-shiny"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "7f5c8523d7cac6a658c0a8d516559269",
+    "name": "r-qgam",
+    "sha256": "ac89efd763774281f6eb9bc7fcf1f731b837a5d69f6c965127a568b8ec5b3ced",
+    "size": 3429998,
+    "subdir": "win-64",
+    "timestamp": 1593703918713,
+    "version": "1.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-qgam-1.3.2-r36hda5aaf8_0.tar.bz2"
+}
