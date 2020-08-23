@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL library.  If you want to install the Python bindings, please install the associated python-lal package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lal/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "6.21.0": {
+        "weak": [
+          "lal >=6.21.0,<6.22.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lal-6.21.0.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1576062388,
+    "version": "6.21.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lal-6.21.0-mkl_h140296b_0.tar.bz2",
+  "repodata": {
+    "build": "mkl_h140296b_0",
+    "build_number": 0,
+    "depends": [
+      "gsl >=2.5,<2.6.0a0",
+      "hdf5 >=1.10.5,<1.10.6.0a0",
+      "mkl >=2019.4,<2020.0a0",
+      "mkl-service >=2,<3.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "4384ac88b7ae53ef068b4154e49aced9",
+    "name": "lal",
+    "sha256": "a4cb7ddff2ae225d6609c85f56674409285d3c813b87ba08125f67a39254c1c0",
+    "size": 946106,
+    "subdir": "osx-64",
+    "timestamp": 1576062388120,
+    "version": "6.21.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lal-6.21.0-mkl_h140296b_0.tar.bz2"
+}
