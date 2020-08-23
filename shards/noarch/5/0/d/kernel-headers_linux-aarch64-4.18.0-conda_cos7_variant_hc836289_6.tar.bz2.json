@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The glibc package contains standard libraries which are used by multiple programs on the system. In order to save disk space and memory, as well as to make upgrading easier, common system code is kept in one place and shared between programs. This particular package contains the most important sets of shared libraries: the standard C library and the standard math library. Without these two libraries, a Linux system will not function.  Kernel-headers includes the C header files that specify the interface between the Linux kernel and userspace libraries and programs.  The header files define structures and constants that are needed for building most standard programs and are also needed for rebuilding the glibc package.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://sources.redhat.com/glibc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "(CDT) The GNU libc libraries and header files for the Linux kernel for use by glibc",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1591451922,
+    "version": "4.18.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "kernel-headers_linux-aarch64-4.18.0-conda_cos7_variant_hc836289_6.tar.bz2",
+  "repodata": {
+    "build": "conda_cos7_variant_hc836289_6",
+    "build_number": 6,
+    "constrains": [
+      "sysroot_linux-aarch64 ==2.17"
+    ],
+    "depends": [],
+    "license": "LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "be98e914dac3be9f11a2890fb62110e8",
+    "name": "kernel-headers_linux-aarch64",
+    "noarch": "generic",
+    "sha256": "56adce0d46ed5a4e460a2bc9682b454098ab2b1236c13f037f2b83e26c576849",
+    "size": 1131308,
+    "subdir": "noarch",
+    "timestamp": 1591451922980,
+    "version": "4.18.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/kernel-headers_linux-aarch64-4.18.0-conda_cos7_variant_hc836289_6.tar.bz2"
+}
