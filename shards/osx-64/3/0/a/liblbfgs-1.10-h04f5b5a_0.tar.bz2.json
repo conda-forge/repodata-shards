@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libLBFGS is a C port of the implementation of Limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS) method written by Jorge Nocedal. The original FORTRAN source code is available at: http://www.ece.northwestern.edu/~nocedal/lbfgs.html The L-BFGS method solves the unconstrainted minimization problem: minimize F(x), x = (x1, x2, ..., xN), only if the objective function F(x) and its gradient G(x) are computable.",
+    "dev_url": "https://github.com/chokkan/liblbfgs/",
+    "doc_source_url": null,
+    "doc_url": "http://www.chokkan.org/software/liblbfgs/",
+    "home": "http://www.chokkan.org/software/liblbfgs/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.10": {
+        "weak": [
+          "liblbfgs >=1.10,<1.11.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/downloads/chokkan/liblbfgs/liblbfgs-1.10.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "implementation of Limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS) method",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1551247702,
+    "version": "1.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "liblbfgs-1.10-h04f5b5a_0.tar.bz2",
+  "repodata": {
+    "build": "h04f5b5a_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=4.0.1"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "68e025f04cbdad04e74e7ebd830986c1",
+    "name": "liblbfgs",
+    "sha256": "2f694b25507a845232ac8a87969127a8fef428d4e16b9f1f7de601533538b01c",
+    "size": 31947,
+    "subdir": "osx-64",
+    "timestamp": 1551247702477,
+    "version": "1.10"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/liblbfgs-1.10-h04f5b5a_0.tar.bz2"
+}
