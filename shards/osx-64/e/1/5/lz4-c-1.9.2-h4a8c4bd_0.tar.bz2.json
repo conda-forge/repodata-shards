@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "LZ4 is lossless compression algorithm, providing compression speed at 400 MB/s per core (0.16 Bytes/cycle). It features an extremely fast decoder, with speed in multiple GB/s per core (0.71 Bytes/cycle). A high compression derivative, called LZ4_HC, is available, trading customizable CPU time for compression ratio. LZ4 library is provided as open source software using a BSD license.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.lz4.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.9.2": {
+        "weak": [
+          "lz4-c >=1.9.2,<1.9.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/lz4/lz4/archive/v1.9.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Extremely Fast Compression algorithm",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1586425126,
+    "version": "1.9.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lz4-c-1.9.2-h4a8c4bd_0.tar.bz2",
+  "repodata": {
+    "build": "h4a8c4bd_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=9.0.1"
+    ],
+    "license": "BSD-2-Clause",
+    "md5": "1f6862001e17b4c7853a4a0d225ffced",
+    "name": "lz4-c",
+    "sha256": "91cdea236c58f250a1d08cb4e29a18f16a6ad467c0852d2f682829c1615aa4f0",
+    "size": 168058,
+    "subdir": "osx-64",
+    "timestamp": 1586425126436,
+    "version": "1.9.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lz4-c-1.9.2-h4a8c4bd_0.tar.bz2"
+}
