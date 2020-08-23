@@ -7,50 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/spyder-ide/qtpy",
+    "home": "https://github.com/jdonaldson/rtsne/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "GPL",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/q/qtpy/QtPy-1.4.0.tar.gz",
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/tsne_0.1-3.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/tsne/tsne_0.1-3.tar.gz"
+    ],
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A uniform layer to support PyQt5, PyQt4 and PySide with a single codebase",
+    "summary": "A \"pure R\" implementation of the t-SNE algorithm.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.4.0"
+    "version": "0.1_3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "qtpy-1.4.0-py27_0.tar.bz2",
+  "package": "r-tsne-0.1_3-r3.3.2_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "r3.3.2_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "r-base 3.3.2*"
     ],
-    "license": "MIT",
-    "md5": "b407938d3dd46df121a6e08e4a71e26c",
-    "name": "qtpy",
-    "sha256": "72edb95bdc898a1a46bda6fc4501f148433dc25be3672dd9c5ed4c692d504f2b",
-    "size": 43032,
+    "license": "GPL",
+    "license_family": "GPL",
+    "md5": "22f93daec24a0a5e4c27645a2c609441",
+    "name": "r-tsne",
+    "sha256": "c7df0dac954da482a6a94e52d35cfe7cb4f14f141e169e6a85604dcf11d56c20",
+    "size": 18892,
     "subdir": "linux-64",
-    "version": "1.4.0"
+    "version": "0.1_3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/qtpy-1.4.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-tsne-0.1_3-r3.3.2_0.tar.bz2"
 }
