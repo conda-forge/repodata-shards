@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/chambm/AhoCorasickTrie",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache 2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/AhoCorasickTrie_0.1.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/AhoCorasickTrie/AhoCorasickTrie_0.1.0.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Aho-Corasick is an optimal algorithm for finding many keywords in a text. It can locate all matches in a text in O(N+M) time; i.e., the time needed scales linearly with the number of keywords (N) and the size of the text (M). Compare this to the naive approach which takes O(N*M) time to loop through each pattern and scan for it in the text. This implementation builds the trie (the generic name of the data structure) and runs the search in a single function call. If you want to search multiple texts with the same trie, the function will take a list or vector of texts and return a list of matches to each text. By default, all 128 ASCII characters are allowed in both the keywords and the text. A more efficient trie is possible if the alphabet size can be reduced. For example, DNA sequences use at most 19 distinct characters and usually only 4; protein sequences use at most 26 distinct characters and usually only 20. UTF-8 (Unicode) matching is not currently supported.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "0.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-ahocorasicktrie-0.1.0-r3.3.2_0.tar.bz2",
+  "repodata": {
+    "build": "r3.3.2_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc",
+      "r-base 3.3.2*",
+      "r-rcpp >=0.12.5"
+    ],
+    "license": "Apache 2.0",
+    "license_family": "APACHE",
+    "md5": "a85717df643054ca44756ee5e2a73103",
+    "name": "r-ahocorasicktrie",
+    "sha256": "3645f09f891da441bdf095ec9873714fd303ab37c333e4bfd51e6ff40bce75da",
+    "size": 92500,
+    "subdir": "osx-64",
+    "version": "0.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-ahocorasicktrie-0.1.0-r3.3.2_0.tar.bz2"
+}
