@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "C/C++ wrapper around Cling, the LLVM-based interactive C++ interpreter, for use by cppyy, providing stable C and C++ Reflection APIs.",
     "dev_url": "https://bitbucket.org/wlav/cppyy-backend/src",
@@ -19,43 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/cppyy-backend/cppyy-backend-1.9.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cppyy-backend/cppyy-backend-1.10.3.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Automatic Python-C++ bindings",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1562597915,
-    "version": "1.9.0"
+    "timestamp": 1568617965,
+    "version": "1.10.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "cppyy-backend-1.9.0-py36hc9558a2_0.tar.bz2",
+  "package": "cppyy-backend-1.10.3-py37h770b8ee_0.tar.bz2",
   "repodata": {
-    "build": "py36hc9558a2_0",
+    "build": "py37h770b8ee_0",
     "build_number": 0,
     "depends": [
-      "cppyy-cling 6.15.2.9.*",
-      "libgcc-ng >=7.3.0",
-      "libstdcxx-ng >=7.3.0",
-      "python >=3.6,<3.7.0a0"
+      "cppyy-cling 6.18.2.2.*",
+      "libcxx >=4.0.1",
+      "python >=3.7,<3.8.0a0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "b50506f42a3e749b90b8f31bb2a28525",
+    "md5": "9b084e0531025e7f67ef535cd4916c07",
     "name": "cppyy-backend",
-    "sha256": "2c78ed325a4002b1320661faf5a5fa13bae58d55866ab4da180b884c97c6c91c",
-    "size": 60610,
-    "subdir": "linux-64",
-    "timestamp": 1562597915857,
-    "version": "1.9.0"
+    "sha256": "1b54dcbbec41ed930eca9e9b0ee6a1563b9addd9365c3a1a0b506e46a068bd95",
+    "size": 63112,
+    "subdir": "osx-64",
+    "timestamp": 1568617965234,
+    "version": "1.10.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cppyy-backend-1.9.0-py36hc9558a2_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cppyy-backend-1.10.3-py37h770b8ee_0.tar.bz2"
 }

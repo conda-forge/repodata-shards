@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/stoneleaf/aenum",
+    "home": "https://developers.google.com/protocol-buffers/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/aenum/aenum-2.0.8.tar.gz",
+    "source_url": "https://github.com/google/protobuf/archive/v3.5.2/protobuf-v3.5.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples,",
+    "summary": "Protocol Buffers - Google's data interchange format.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.0.8"
+    "version": "3.5.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "aenum-2.0.8-py36_0.tar.bz2",
+  "package": "protobuf-3.5.2-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "libprotobuf 3.5.2",
+      "python 3.6*",
+      "setuptools",
+      "six",
+      "zlib 1.2.11"
     ],
-    "license": "BSD-3-Clause",
-    "license_family": "BSD",
-    "md5": "29d2c8bedde4bef7dcf2215bc36d1892",
-    "name": "aenum",
-    "sha256": "6e36b3cabb2a38e7e0e76ed0a91dadfaee40a3b304a7640dc378d44b20c35e45",
-    "size": 135004,
+    "license": "BSD 3-Clause",
+    "md5": "297dcb341fc0f0d9e5f9a52b2abf6872",
+    "name": "protobuf",
+    "sha256": "90b41673a184083eed3a4420f7948848469ca11c902cf582d933a0dbed5a7c36",
+    "size": 1420908,
     "subdir": "linux-64",
-    "version": "2.0.8"
+    "version": "3.5.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/aenum-2.0.8-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/protobuf-3.5.2-py36_0.tar.bz2"
 }

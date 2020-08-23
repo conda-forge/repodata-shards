@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/stoneleaf/aenum",
+    "home": "https://github.com/dask/hdfs3",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/aenum/aenum-2.0.8.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/hdfs3/hdfs3-0.3.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples,",
+    "summary": "Python wrapper for libhdfs3",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "2.0.8"
+    "timestamp": 1564758082,
+    "version": "0.3.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "aenum-2.0.8-py36_0.tar.bz2",
+  "package": "hdfs3-0.3.1-py37_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py37_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "libhdfs3 >=2.3",
+      "python >=3.7,<3.8.0a0"
     ],
-    "license": "BSD-3-Clause",
+    "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "29d2c8bedde4bef7dcf2215bc36d1892",
-    "name": "aenum",
-    "sha256": "6e36b3cabb2a38e7e0e76ed0a91dadfaee40a3b304a7640dc378d44b20c35e45",
-    "size": 135004,
+    "md5": "150f78e01c0155221d206a55719bff7c",
+    "name": "hdfs3",
+    "sha256": "928f2ce604569a3bb58f7c4d2322c5b6725b5f29f8e916ef900194578a1dd9b2",
+    "size": 40321,
     "subdir": "linux-64",
-    "version": "2.0.8"
+    "timestamp": 1564758082749,
+    "version": "0.3.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/aenum-2.0.8-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdfs3-0.3.1-py37_0.tar.bz2"
 }
