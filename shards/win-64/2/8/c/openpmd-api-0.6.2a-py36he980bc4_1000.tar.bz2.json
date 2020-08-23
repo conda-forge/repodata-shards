@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This library provides a common high-level API for openPMD writing and reading. It provides a common interface to I/O libraries and file formats such as HDF5 and ADIOS. This conda-forge package only provides serial I/O, please build from source for MPI parallel I/O on HPC systems. Window support is limited to HDF5 and Python 3.",
+    "dev_url": "https://github.com/openPMD/openPMD-api",
+    "doc_source_url": null,
+    "doc_url": "https://openpmd-api.readthedocs.io",
+    "home": "https://www.openPMD.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL 3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/openPMD/openPMD-api/archive/0.6.2-alpha.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "C++ & Python API for writing & reading (H5, BP, ...), serial & MPI parallel openPMD files.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1541006532,
+    "version": "0.6.2a"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "openpmd-api-0.6.2a-py36he980bc4_1000.tar.bz2",
+  "repodata": {
+    "build": "py36he980bc4_1000",
+    "build_number": 1000,
+    "depends": [
+      "hdf5 >=1.8.13",
+      "numpy >=1.15.0",
+      "python >=3.6,<3.7.0a0",
+      "vc 14.*"
+    ],
+    "license": "LGPL 3",
+    "license_family": "LGPL",
+    "md5": "176ffa5d2c82eebbea8238d80a47a851",
+    "name": "openpmd-api",
+    "sha256": "218f4bcb964b8d2cda1da635fdf7a9a7ed5538a09053bac0c37dd306bac889ca",
+    "size": 34889943,
+    "subdir": "win-64",
+    "timestamp": 1541006532144,
+    "version": "0.6.2a"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/openpmd-api-0.6.2a-py36he980bc4_1000.tar.bz2"
+}
