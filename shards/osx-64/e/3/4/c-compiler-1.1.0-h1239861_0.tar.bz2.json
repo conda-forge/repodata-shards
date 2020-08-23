@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the C compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('c') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A metapackage to obtain a C compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1594583508,
+    "version": "1.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "c-compiler-1.1.0-h1239861_0.tar.bz2",
+  "repodata": {
+    "build": "h1239861_0",
+    "build_number": 0,
+    "depends": [
+      "cctools >=949.0.1",
+      "clang_osx-64 9.0.*",
+      "ld64 >=530",
+      "llvm-openmp"
+    ],
+    "license": "BSD",
+    "md5": "fc3ca653052ef0c2c3f88dae9150c17f",
+    "name": "c-compiler",
+    "sha256": "2f962a1756d24d9066f4d8654458013243f6074d91f693bf1428e2af527fca61",
+    "size": 5387,
+    "subdir": "osx-64",
+    "timestamp": 1594583508387,
+    "version": "1.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/c-compiler-1.1.0-h1239861_0.tar.bz2"
+}
