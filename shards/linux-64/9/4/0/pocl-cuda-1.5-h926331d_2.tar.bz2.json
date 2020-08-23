@@ -4,15 +4,15 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/pocl/pocl",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://llvm.org/",
+    "home": "http://portablecl.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "NCSA",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -23,36 +23,34 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": "C++ standard library",
+    "summary": "Portable Computing Language -- a CPU OpenCL implementation",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1540670941,
-    "version": "7.0.0"
+    "timestamp": 1590450422,
+    "version": "1.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "libcxx-7.0.0-h2d50403_1.tar.bz2",
+  "package": "pocl-cuda-1.5-h926331d_2.tar.bz2",
   "repodata": {
-    "build": "h2d50403_1",
-    "build_number": 1,
+    "build": "h926331d_2",
+    "build_number": 2,
     "depends": [
-      "libstdcxx-ng >=4.9",
-      "llvm-meta 7.0.0"
+      "pocl 1.5 hb5afada_2"
     ],
-    "license": "NCSA",
-    "md5": "0205a41de0eb997ddee3f4e690d7e6ed",
-    "name": "libcxx",
-    "sha256": "f6c9e4825bb646e31c230734160c71528e3026904b9c95acad229a7cc9d197bb",
-    "size": 1296341,
+    "license": "MIT",
+    "md5": "6285f356206314db15d45896d5716c2f",
+    "name": "pocl-cuda",
+    "sha256": "4f6b95c75ef4539b8f00d96902a56a69225867d91418c7523d506764e0ea0fad",
+    "size": 70805,
     "subdir": "linux-64",
-    "timestamp": 1540670941961,
-    "version": "7.0.0"
+    "timestamp": 1590450422981,
+    "version": "1.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libcxx-7.0.0-h2d50403_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pocl-cuda-1.5-h926331d_2.tar.bz2"
 }
