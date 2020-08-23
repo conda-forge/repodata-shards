@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The XROOTD project aims at giving high performance, scalable fault tolerant access to data repositories of many kinds. The typical usage is to give access to file-based ones. It is based on a scalable architecture, a communication protocol, and a set of plugins and tools based on those. The freedom to configure it and to make it scale (for size and performance) allows the deployment of data access clusters of virtually any size, which can include sophisticated features, like authentication/authorization, integrations with other systems, WAN data distribution, etc.",
+    "dev_url": "https://github.com/xrootd/xrootd",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://xrootd.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.8.5": {
+        "weak": [
+          "xrootd >=4.8.5,<4.8.6.0a0"
+        ]
+      }
+    },
+    "source_git_url": "https://github.com/xrootd/xrootd.git",
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "High performance, scalable fault tolerant access to data",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1547538446,
+    "version": "4.8.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "xrootd-4.8.5-py37h09375b9_1002.tar.bz2",
+  "repodata": {
+    "build": "py37h09375b9_1002",
+    "build_number": 1002,
+    "depends": [
+      "curl >=7.59.0,<8.0a0",
+      "krb5 >=1.16.3,<1.17.0a0",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "libxml2 >=2.9.8,<2.10.0a0",
+      "ncurses >=6.1,<6.2.0a0",
+      "openssl >=1.0.2p,<1.0.3a",
+      "python >=3.7,<3.8.0a0",
+      "readline >=7.0,<8.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-3.0",
+    "license_family": "LGPL",
+    "md5": "c3821262deb46d1904656af2c15e414e",
+    "name": "xrootd",
+    "sha256": "308e43d8533ec6696e73966c9d768bdf62a6327245edc455a95cdc19071ec69f",
+    "size": 3916920,
+    "subdir": "linux-64",
+    "timestamp": 1547538446394,
+    "version": "4.8.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xrootd-4.8.5-py37h09375b9_1002.tar.bz2"
+}
