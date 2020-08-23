@@ -26,30 +26,37 @@
     "summary": "MUMPS: a parallel sparse direct solver",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1543525049,
+    "timestamp": 1541668573,
     "version": "5.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003"
+    "main"
   ],
-  "package": "mumps-include-5.1.2-ha5050ec_1003.tar.bz2",
+  "package": "mumps-5.1.2-blas_openblash613969f_0.tar.bz2",
   "repodata": {
-    "build": "ha5050ec_1003",
-    "build_number": 1003,
-    "depends": [],
+    "build": "blas_openblash613969f_0",
+    "build_number": 0,
+    "depends": [
+      "blas 1.1 openblas",
+      "libgcc-ng >=4.9",
+      "libgfortran >=3.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "openblas >=0.2.20,<0.2.21.0a0",
+      "scotch"
+    ],
+    "features": "blas_openblas",
     "license": "CeCILL-C",
-    "md5": "5c1fed048c807cc9f11dc02ed026aad2",
-    "name": "mumps-include",
-    "sha256": "a13740d3139c23d2f486d6fa651f4a57fa838caa84811d6e6eb74ca438fcd0ca",
-    "size": 21973,
+    "md5": "317da7ba58cc2fce356760ece9d23e17",
+    "name": "mumps",
+    "sha256": "61a05d6155e02b8d242a313feaed5f4fd605de398b178b26d3c6e8bd9d309ac4",
+    "size": 2575161,
     "subdir": "linux-64",
-    "timestamp": 1543525049577,
+    "timestamp": 1541668573382,
     "version": "5.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/mumps-include-5.1.2-ha5050ec_1003.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mumps-5.1.2-blas_openblash613969f_0.tar.bz2"
 }
