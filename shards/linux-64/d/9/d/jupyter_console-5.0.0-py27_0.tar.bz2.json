@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pybind/pybind11/",
+    "home": "http://jupyter.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pybind11/pybind11-2.0.0.tar.gz",
+    "source_url": "https://github.com/jupyter/jupyter_console/archive/5.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Seamless operability between C++11 and Python",
+    "summary": "Jupyter terminal console",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.0.0"
+    "version": "5.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pybind11-2.0.0-py35_0.tar.bz2",
+  "package": "jupyter_console-5.0.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "ipykernel",
+      "ipython",
+      "jupyter_client",
+      "pexpect",
+      "prompt_toolkit",
+      "pygments",
+      "python 2.7*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "06e81e7edf50408f360bce0e6370ff52",
-    "name": "pybind11",
-    "sha256": "fa8c834260780c54d5e31e5947b59759fe95ec1e71916e54c60dfe03ec2fbb05",
-    "size": 283243,
+    "md5": "627191a5b502d97172ff50fc6e3cf711",
+    "name": "jupyter_console",
+    "sha256": "ad4aa2a80b0fd1e99d5fb6a84c311e6000635d21f3100c0e80cfb84eb9f83bd6",
+    "size": 28838,
     "subdir": "linux-64",
-    "version": "2.0.0"
+    "version": "5.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pybind11-2.0.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/jupyter_console-5.0.0-py27_0.tar.bz2"
 }
