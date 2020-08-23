@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "parse_type extends the parse module (opposite of string.format()) with the following features:   * build type converters for common use cases (enum/mapping, choice)   * build a type converter with a cardinality constraint (0..1, 0..*, 1..*) from the type converter with cardinality=1.   * compose a type converter from other type converters   * an extended parser that supports the CardinalityField naming schema and creates missing type variants (0..1, 0..*, 1..*) from the primary type converter dev_url: https://github.com/jenisys/parse_type",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/jenisys/parse_type",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/parse_type/parse_type-0.5.2.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Simplifies to build parse types based on the parse module",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1564953673,
+    "version": "0.5.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "parse_type-0.5.2-py27_0.tar.bz2",
+  "repodata": {
+    "build": "py27_0",
+    "build_number": 0,
+    "depends": [
+      "enum34",
+      "parse >=1.6",
+      "python >=2.7,<2.8.0a0",
+      "six"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "e65859f9bb5c9c3875e755bd4f95f1be",
+    "name": "parse_type",
+    "sha256": "8750250fd1d7f228f8f64497e5fedf26bde84edadcc66425ec5c118bf794d8c4",
+    "size": 44673,
+    "subdir": "win-64",
+    "timestamp": 1564953673588,
+    "version": "0.5.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/parse_type-0.5.2-py27_0.tar.bz2"
+}
