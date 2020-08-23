@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/RevolutionAnalytics/checkpoint",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/checkpoint_0.4.3.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/checkpoint/checkpoint_0.4.3.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The goal of checkpoint is to solve the problem of package reproducibility in R. Specifically, checkpoint allows you to install packages as they existed on CRAN on a specific snapshot date as if you had a CRAN time machine. To achieve reproducibility, the checkpoint() function installs the packages required or called by your project and scripts to a local library exactly as they existed at the specified point in time. Only those packages are available to your project, thereby avoiding any package updates that came later and may have altered your results. In this way, anyone using checkpoint's checkpoint() can ensure the reproducibility of your scripts or projects at any time. To create the snapshot archives, once a day (at midnight UTC) Microsoft refreshes the Austria CRAN mirror on the \"Microsoft R Archived Network\" server (<https://mran.microsoft.com/>). Immediately after completion of the rsync mirror process, the process takes a snapshot, thus creating the archive. Snapshot archives exist starting from 2014-09-17.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "0.4.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-checkpoint-0.4.3-r3.4.1_0.tar.bz2",
+  "repodata": {
+    "build": "r3.4.1_0",
+    "build_number": 0,
+    "depends": [
+      "r-base 3.4.1*"
+    ],
+    "license": "GPL-2",
+    "license_family": "GPL2",
+    "md5": "c192712d3413b3c4db5c6b4952e82d90",
+    "name": "r-checkpoint",
+    "sha256": "a4de1f547f28db415a72bccbf76cc947cedac5b14fdad79a4c46e160aa42825b",
+    "size": 150173,
+    "subdir": "osx-64",
+    "version": "0.4.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-checkpoint-0.4.3-r3.4.1_0.tar.bz2"
+}
