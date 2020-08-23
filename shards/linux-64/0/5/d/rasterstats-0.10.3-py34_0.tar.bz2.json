@@ -7,54 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pydy.org",
+    "home": "https://github.com/perrygeo/python-raster-stats",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/p/pydy/pydy-0.3.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/rasterstats/rasterstats-0.10.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python tool kit for multi-body dynamics.",
+    "summary": "Summarize geospatial raster datasets based on vector geometries.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.1"
+    "version": "0.10.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pydy-0.3.1-py34_0.tar.bz2",
+  "package": "rasterstats-0.10.3-py34_0.tar.bz2",
   "repodata": {
     "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "numpy >=1.8.1",
+      "fiona",
+      "gdal 2.1.*",
+      "numpy >=1.9",
       "python 3.4*",
-      "scipy >=0.13.3",
-      "setuptools >=8.0",
-      "sympy >=0.7.4.1"
+      "rasterio >=0.27",
+      "shapely"
     ],
-    "license": "BSD-3-Clause",
-    "md5": "694e0a8059826632b2bba9fce74b4c9f",
-    "name": "pydy",
-    "sha256": "7e95c238709ff4675af01d92f1ca535251537ba90342f86cfce674f4a234735c",
-    "size": 5185475,
+    "license": "BSD 3-Clause",
+    "md5": "dad12146e8f3962158bcfff0a2ff0576",
+    "name": "rasterstats",
+    "sha256": "5d59ebd1f7108f599ddda67d9c4b862ff77365352faf65042bfef91a90e65175",
+    "size": 21855,
     "subdir": "linux-64",
-    "version": "0.3.1"
+    "version": "0.10.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pydy-0.3.1-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/rasterstats-0.10.3-py34_0.tar.bz2"
 }
