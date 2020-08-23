@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/wesleybowman/UTide",
+    "home": "https://pypi.python.org/pypi/ipython-sql",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/U/UTide/UTide-0.1.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/i/ipython-sql/ipython-sql-0.3.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python distribution of the MatLab package UTide",
+    "summary": "RDBMS access via IPython",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1.0"
+    "version": "0.3.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "utide-0.1.0-py36_0.tar.bz2",
+  "package": "ipython-sql-0.3.8-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "numpy",
-      "python 3.6*",
-      "scipy"
+      "ipython >=1.0",
+      "prettytable",
+      "python 2.7*",
+      "six",
+      "sqlalchemy >=0.6.7",
+      "sqlparse"
     ],
     "license": "MIT",
-    "md5": "d6f5f3a126f4705ed450a8ab51db1531",
-    "name": "utide",
-    "sha256": "3d81e0f818ef9cc5064aef592e0ddc3830307f96c20c95a6908f956346b49cc0",
-    "size": 101068,
+    "md5": "ff83f029b7c00fc611efc1c0c4829dbd",
+    "name": "ipython-sql",
+    "sha256": "9002cdf7be55009e0773a89459fb5aa79d7fcce563c2fe1e7d2bbaf2027ad875",
+    "size": 21725,
     "subdir": "linux-64",
-    "version": "0.1.0"
+    "version": "0.3.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/utide-0.1.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipython-sql-0.3.8-py27_0.tar.bz2"
 }

@@ -19,42 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/scikit-learn/scikit-learn/archive/0.18.1.tar.gz",
+    "source_url": "https://github.com/scikit-learn/scikit-learn/archive/0.20.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "A set of python modules for machine learning and data mining",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 0,
-    "version": "0.18.1"
+    "text_prefix": false,
+    "timestamp": 1537968368,
+    "version": "0.20.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "scikit-learn-0.18.1-np111py27_blas_openblas_200.tar.bz2",
+  "package": "scikit-learn-0.20.0-py35_blas_openblasha84fab4_201.tar.bz2",
   "repodata": {
-    "build": "np111py27_blas_openblas_200",
-    "build_number": 200,
+    "build": "py35_blas_openblasha84fab4_201",
+    "build_number": 201,
     "depends": [
       "blas 1.1 openblas",
-      "numpy 1.11*",
-      "openblas 0.2.19|0.2.19.*",
-      "python 2.7*",
+      "libgcc-ng >=4.9",
+      "libstdcxx-ng >=4.9",
+      "numpy >=1.9.3,<2.0a0",
+      "openblas >=0.2.20,<0.2.21.0a0",
+      "python >=3.5,<3.6.0a0",
       "scipy"
     ],
     "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "md5": "1a68e31c231b79eaa5bb31943bb7978e",
+    "md5": "1d397f2f7fa71fb217509e7fef45748f",
     "name": "scikit-learn",
-    "sha256": "f155f32d5fc2021bca74f9a2a0885bfc58430b2f5f81aa94c63f517fd7f6d266",
-    "size": 12576566,
+    "sha256": "a5e59187df73212e769ab40c5b68374728c4022d5a019a258784f7e683fcb539",
+    "size": 14110005,
     "subdir": "linux-64",
-    "version": "0.18.1"
+    "timestamp": 1537968368374,
+    "version": "0.20.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/scikit-learn-0.18.1-np111py27_blas_openblas_200.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/scikit-learn-0.20.0-py35_blas_openblasha84fab4_201.tar.bz2"
 }
