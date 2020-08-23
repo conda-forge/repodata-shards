@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://cirrus.ucsd.edu/~pierce/ncdf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/ncdf4_1.16.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/ncdf4/ncdf4_1.16.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Provides a high-level R interface to  data files written using Unidata's netCDF library (version 4 or earlier), which are binary data files that are portable  across platforms and include metadata information in addition to the data sets.   Using this package, netCDF files (either version 4  or 'classic' version 3) can be opened and data sets read in easily. It is also easy to create new netCDF dimensions, variables, and files, in either version 3 or 4 format, and manipulate existing netCDF files. This package replaces the former ncdf package, which only worked with netcdf version 3 files.  For various reasons the names of the functions have had to be changed from the names in the ncdf package.  The old ncdf package is still available at the URL given below, if you need to have backward compatibility. It should be possible to have both the ncdf and ncdf4 packages installed simultaneously without a problem. However, the ncdf package does not provide an interface for netcdf version 4 files.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "1.16"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-ncdf4-1.16-r3.4.1_0.tar.bz2",
+  "repodata": {
+    "build": "r3.4.1_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc",
+      "libnetcdf 4.4.*",
+      "r-base 3.4.1*"
+    ],
+    "license": "GPL-3.0",
+    "md5": "d0727e42081be1a3d6b037b43de1442d",
+    "name": "r-ncdf4",
+    "sha256": "8af47e512fffd06b108536194420335af18cc924fef173027ea151e390001170",
+    "size": 164045,
+    "subdir": "linux-64",
+    "version": "1.16"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-ncdf4-1.16-r3.4.1_0.tar.bz2"
+}
