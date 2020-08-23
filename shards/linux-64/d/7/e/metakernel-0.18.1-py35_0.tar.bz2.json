@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/NSLS-II/event-model",
+    "home": "https://github.com/Calysto/metakernel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/NSLS-II/event-model/archive/v1.5.0.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "data model for event-based data collection and analysis",
+    "summary": "Metakernel for Jupyter.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1526435427,
-    "version": "1.5.0"
+    "timestamp": 0,
+    "version": "0.18.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "event-model-1.5.0-py35_0.tar.bz2",
+  "package": "metakernel-0.18.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python >=3.5,<3.6.0a0",
-      "setuptools"
+      "ipykernel",
+      "pexpect >=4.2",
+      "python 3.5*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "dce8783c01b51eb90a7b239de584f114",
-    "name": "event-model",
-    "sha256": "59e6d43094bc8745dd52397af002e4f37447b516e09b1f54594996fae4167f4f",
-    "size": 15106,
+    "md5": "88808b0036b94735bb4ea222bc42d467",
+    "name": "metakernel",
+    "sha256": "c6d0e04ce8ac04e906e2ddecec265642e0e6b0c2e7007613187c31f8759e7e53",
+    "size": 118494,
     "subdir": "linux-64",
-    "timestamp": 1526435427148,
-    "version": "1.5.0"
+    "version": "0.18.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/event-model-1.5.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/metakernel-0.18.1-py35_0.tar.bz2"
 }
