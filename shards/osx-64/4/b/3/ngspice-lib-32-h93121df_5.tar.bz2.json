@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "ngspice is the open source spice simulator for electric and electronic circuits.  Such a circuit may comprise of JFETs, bipolar and MOS transistors, passive elements like R, L, or C, diodes, transmission lines and other devices, all interconnected in a netlist. Digital circuits are simulated as well, event driven and fast, from single gates to complex circuits. And you may enter the combination of both analog and digital as a mixed-signal circuit.  ngspice offers a wealth of device models for active, passive, analog, and digital elements. Model parameters are provided by the semiconductor manufacturers. The user add her circuits as a netlist, and the output is one or more graphs of currents, voltages and other electrical quantities or is saved in a data file.  Note:   This build was configured with `--enable-xspice --enable-cider --enable=openmp`   See the [build script](https://git.io/JfVZX) for more specifics.",
+    "dev_url": "http://ngspice.sourceforge.net/devel.html",
+    "doc_source_url": null,
+    "doc_url": "http://ngspice.sourceforge.net/docs.html",
+    "home": "http://ngspice.sourceforge.net",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://ayera.dl.sourceforge.net/project/ngspice/ng-spice-rework/32/ngspice-32.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The open source spice simulator for electric and electronic circuits",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1591669921,
+    "version": "32"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "ngspice-lib-32-h93121df_5.tar.bz2",
+  "repodata": {
+    "build": "h93121df_5",
+    "build_number": 5,
+    "depends": [
+      "llvm-openmp >=10.0.0",
+      "ncurses >=6.1,<6.2.0a0",
+      "readline >=8.0,<9.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "ea2670f2c553de2a54b9feb90918eb16",
+    "name": "ngspice-lib",
+    "sha256": "a2f8d41793ce7b50499db49a17ff2c51ff00d672e2c614ee14e67e8d41e3c4b0",
+    "size": 2402054,
+    "subdir": "osx-64",
+    "timestamp": 1591669921081,
+    "version": "32"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ngspice-lib-32-h93121df_5.tar.bz2"
+}
