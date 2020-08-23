@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "socat is a relay for bidirectional data transfer between two independent data channels. Each of these data channels may be a file, pipe, device (serial line etc. or a pseudo terminal), a socket (UNIX, IP4, IP6 - raw, UDP, TCP), an SSL socket, proxy CONNECT connection, a file descriptor (stdin etc.), the GNU line editor (readline), a program, or a combination of two of these. These modes include generation of \"listening\" sockets, named pipes, and pseudo terminals.  socat can be used, e.g., as TCP port forwarder (one-shot or daemon), as an external socksifier, for attacking weak firewalls, as a shell interface to UNIX sockets, IP6 relay, for redirecting TCP oriented programs to a serial line, to logically connect serial lines on different computers, or to establish a relatively secure environment (su and  chroot) for running client or server shell scripts with network connections.",
+    "dev_url": "http://repo.or.cz/r/socat.git",
+    "doc_source_url": null,
+    "doc_url": "http://www.dest-unreach.org/socat/doc/README",
+    "home": "http://www.dest-unreach.org/socat/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://www.dest-unreach.org/socat/download/socat-1.7.3.2.tar.bz2",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A relay for bidirectional transfer between data channels (netcat++)",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "1.7.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "socat-1.7.3.2-0.tar.bz2",
+  "repodata": {
+    "build": "0",
+    "build_number": 0,
+    "depends": [
+      "openssl 1.0.2*",
+      "readline 6.*"
+    ],
+    "license": "GPL-2.0",
+    "license_family": "GPL",
+    "md5": "69a350ac4069f2338027f8eb3f1e43b0",
+    "name": "socat",
+    "sha256": "8b7516d80ec61d91848343e4a7fb1458fe3ec6b6d4ca3042833e607a628b2a07",
+    "size": 231318,
+    "subdir": "osx-64",
+    "version": "1.7.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/socat-1.7.3.2-0.tar.bz2"
+}
