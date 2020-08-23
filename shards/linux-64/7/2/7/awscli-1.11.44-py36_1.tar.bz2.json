@@ -6,8 +6,8 @@
     "description": null,
     "dev_url": "https://github.com/aws/aws-cli",
     "doc_source_url": null,
-    "doc_url": "https://aws.amazon.com/cli/",
-    "home": "https://aws.amazon.com/cli/",
+    "doc_url": "http://aws.amazon.com/cli/",
+    "home": "http://aws.amazon.com/cli/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.org/packages/source/a/awscli/awscli-1.16.218.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/awscli/awscli-1.11.44.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Universal Command Line Environment for AWS.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1565818323,
-    "version": "1.16.218"
+    "timestamp": 0,
+    "version": "1.11.44"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,30 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "awscli-1.16.218-py36_0.tar.bz2",
+  "package": "awscli-1.11.44-py36_1.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "py36_1",
+    "build_number": 1,
     "depends": [
-      "botocore 1.12.208",
-      "colorama >=0.2.5,<=0.3.9",
-      "docutils >=0.10,<0.15",
-      "python >=3.6,<3.7.0a0",
-      "pyyaml >=3.10,<=5.1",
+      "botocore ==1.5.7",
+      "colorama >=0.2.5,<=0.3.7",
+      "docutils >=0.10",
+      "python 3.6*",
+      "pyyaml >=3.10,<=3.12",
       "rsa >=3.1.2,<=3.5.0",
-      "s3transfer >=0.2.0,<0.3.0"
+      "s3transfer >=0.1.9,<0.2.0"
     ],
     "license": "Apache 2.0",
     "license_family": "Apache",
-    "md5": "4ec9edb4076b34c4f489baa88a1803e7",
+    "md5": "1c47b422a0cd2e938851dc391f5d7767",
     "name": "awscli",
-    "sha256": "86983ab16b7d8e60969325e32f369e08d667c5a879e3a988e2c7cd0248f74606",
-    "size": 1175508,
+    "sha256": "958513d35fb139418e996e755a667fda344f8affa94e7a55f5af7e92b96efd37",
+    "size": 712753,
     "subdir": "linux-64",
-    "timestamp": 1565818323722,
-    "version": "1.16.218"
+    "version": "1.11.44"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/awscli-1.16.218-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/awscli-1.11.44-py36_1.tar.bz2"
 }
