@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/enthought/sat-solver",
+    "home": "https://github.com/ScientificDataFormat/SDF-Python",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,43 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/simplesat/simplesat-0.8.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/sdf/SDF-0.3.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "SAT solver for use in Enstaller, based on the MiniSat implementation",
+    "summary": "Work with the Scientific Data Format in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1570904397,
-    "version": "0.8.2"
+    "timestamp": 0,
+    "version": "0.3.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "simplesat-0.8.2-py27_0.tar.bz2",
+  "package": "sdf-0.3.3-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "attrs >=17.4.0",
-      "enum34",
-      "okonomiyaki >=0.16.6",
-      "python >=2.7,<2.8.0a0",
-      "six >=1.10.0"
+      "h5py",
+      "matplotlib",
+      "numpy",
+      "python 3.6*",
+      "scipy"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "606c372f34755c2aa84a428f7692b365",
-    "name": "simplesat",
-    "sha256": "976db6d0189f4deae838adcc339e668ebcf0e6b1d9ed82c2037e0e578edbffee",
-    "size": 230530,
+    "md5": "b4004058f6d6658a569c43099692237b",
+    "name": "sdf",
+    "sha256": "f29206c4352e1afe5603bd727cb0c621cc98576c83676e2fc30ca29e1991aca5",
+    "size": 156916,
     "subdir": "linux-64",
-    "timestamp": 1570904397133,
-    "version": "0.8.2"
+    "version": "0.3.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/simplesat-0.8.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sdf-0.3.3-py36_0.tar.bz2"
 }
