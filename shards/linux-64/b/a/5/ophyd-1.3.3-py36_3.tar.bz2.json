@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pybind/pybind11/",
+    "home": "https://github.com/NSLS-II/ophyd",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/pybind/pybind11/archive/v2.1.0.tar.gz",
+    "source_url": "https://github.com/NSLS-II/ophyd/archive/v1.3.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Seamless operability between C++11 and Python",
+    "summary": "Ophyd - EPICS Client Abstractions",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "2.1.0"
+    "timestamp": 1564673850,
+    "version": "1.3.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pybind11-2.1.0-py27_1.tar.bz2",
+  "package": "ophyd-1.3.3-py36_3.tar.bz2",
   "repodata": {
-    "build": "py27_1",
-    "build_number": 1,
+    "build": "py36_3",
+    "build_number": 3,
     "depends": [
-      "python 2.7*"
+      "networkx",
+      "numpy",
+      "python >=3.6,<3.7.0a0"
     ],
     "license": "BSD 3-Clause",
-    "md5": "8bbf2ffe6f994c8d7d4cff02f676e1ef",
-    "name": "pybind11",
-    "sha256": "7162e2620b6b4eef836fa9cbfcf57090f0580e9b235f5272b1d23b9bac24f35a",
-    "size": 12830,
+    "license_family": "BSD",
+    "md5": "a76bdbaf4cd3327a5ad0751116cffd11",
+    "name": "ophyd",
+    "sha256": "4295252b369eb46ca5eacdbf41032a818b7416999e433c9782320eea813be1f1",
+    "size": 349068,
     "subdir": "linux-64",
-    "version": "2.1.0"
+    "timestamp": 1564673850374,
+    "version": "1.3.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pybind11-2.1.0-py27_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ophyd-1.3.3-py36_3.tar.bz2"
 }
