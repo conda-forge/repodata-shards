@@ -7,12 +7,12 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://pyomo.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL-3.0",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -23,35 +23,37 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Optimizers that enhance the functionality of Pyomo",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.1.1"
+    "timestamp": 1526642365,
+    "version": "1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "pykdtree-1.1.1-np110py27_0.tar.bz2",
+  "package": "pyomo.solvers-1.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "np110py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "numpy 1.10*",
-      "python 2.7*"
+      "coincbc",
+      "glpk",
+      "ipopt",
+      "python >=3.6,<3.7.0a0"
     ],
-    "license": "LGPL-3.0",
-    "md5": "3172d845f802360dc265594096bc38db",
-    "name": "pykdtree",
-    "sha256": "224fa750ac0ead60c5f25cc0c8f50f711c145610c8fa8da71666ac27f6870028",
-    "size": 147337,
+    "license": "BSD 3-clause",
+    "md5": "a5460dffa97e3d7623ff7a541f00d60f",
+    "name": "pyomo.solvers",
+    "sha256": "dc425056a998aa9a7fdf5a816e8aedd790979f1075f59d1da508725c0622c117",
+    "size": 2105,
     "subdir": "linux-64",
-    "version": "1.1.1"
+    "timestamp": 1526642365064,
+    "version": "1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pykdtree-1.1.1-np110py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyomo.solvers-1.0-py36_0.tar.bz2"
 }
