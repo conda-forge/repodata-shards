@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Fast, compiled object-oriented algorithms and enabling technologies that support the solution of large-scale, complex multi-physics engineering and scientific problems.",
+    "dev_url": "https://github.com/trilinos/Trilinos",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://trilinos.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/trilinos/Trilinos/archive/trilinos-release-12-18-1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Sandia's suite of HPC solvers and enabling technologies",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1582251607,
+    "version": "12.18.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "trilinos-12.18.1-h023beb5_3.tar.bz2",
+  "repodata": {
+    "build": "h023beb5_3",
+    "build_number": 3,
+    "constrains": [
+      "pytrilinos ==999999999"
+    ],
+    "depends": [
+      "boost-cpp >=1.72.0,<1.72.1.0a0",
+      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_openmpi_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.3.0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "openmpi >=4.0.2,<4.1.0a0",
+      "scikit-umfpack"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "7bf219fab6c845dd0a9e5213edc6e053",
+    "name": "trilinos",
+    "sha256": "93086cd13309bfd4c70e13860d5f40e5fc8d9bf9fc04678345ee8da01b80eae9",
+    "size": 53218874,
+    "subdir": "linux-64",
+    "timestamp": 1582251607325,
+    "version": "12.18.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/trilinos-12.18.1-h023beb5_3.tar.bz2"
+}
