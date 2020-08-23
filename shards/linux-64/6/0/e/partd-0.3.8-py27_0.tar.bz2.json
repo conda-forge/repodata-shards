@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://code.google.com/p/prettytable",
+    "home": "https://github.com/dask/partd",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,37 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/prettytable/prettytable-0.7.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/partd/partd-0.3.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A simple Python library for easily displaying tabular data in a visually appealing ASCII table format",
+    "summary": "Data structure for on-disk shuffle operations",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.7.2"
+    "version": "0.3.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "prettytable-0.7.2-py27_0.tar.bz2",
+  "package": "partd-0.3.8-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "locket",
+      "python 2.7*",
+      "toolz"
     ],
     "license": "BSD 3-Clause",
-    "md5": "2f029c18c52aed914dad597403735794",
-    "name": "prettytable",
-    "sha256": "7a42595c02766f56ff079cc01d3bd9913d7d6919d857f733b6cf0bafb88f3a12",
-    "size": 24052,
+    "md5": "804d95c9d8830c2c28173f18576eb736",
+    "name": "partd",
+    "sha256": "e73904dc99dfea048287757187bfb2af8c5c7402f8294721cbf3c9752f362c36",
+    "size": 28379,
     "subdir": "linux-64",
-    "version": "0.7.2"
+    "version": "0.3.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/prettytable-0.7.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/partd-0.3.8-py27_0.tar.bz2"
 }
