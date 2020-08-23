@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Intel Math Kernel Library is a BLAS implementation tuned for high performance on Intel CPUs. This package is a repackaged set of binaries obtained directly from Intel\\'s anaconda.org channel.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://software.intel.com/en-us/mkl/documentation",
+    "home": "https://software.intel.com/en-us/mkl",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "proprietary - Intel",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Math library for Intel and compatible processors",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1582171921,
+    "version": "2020.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "mkl-2020.0-166.tar.bz2",
+  "repodata": {
+    "build": "166",
+    "build_number": 166,
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "llvm-openmp >=9.0.1"
+    ],
+    "license": "proprietary - Intel",
+    "license_family": "Proprietary",
+    "md5": "b2dfdf126dcabe0dbd3e1025f7907b51",
+    "name": "mkl",
+    "sha256": "f11a4e21eaad104568f90790366e6590bf11b358054fcbffdf1622a5299cd401",
+    "size": 211859501,
+    "subdir": "linux-64",
+    "timestamp": 1582171921599,
+    "version": "2020.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mkl-2020.0-166.tar.bz2"
+}
