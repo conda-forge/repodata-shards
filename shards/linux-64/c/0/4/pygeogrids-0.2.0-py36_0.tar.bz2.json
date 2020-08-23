@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/zzzeek/dogpile.cache",
+    "home": "https://github.com/TUW-GEO/pygeogrids",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/dogpile.cache/dogpile.cache-0.6.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pygeogrids/pygeogrids-0.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A caching front-end based on the Dogpile lock.",
+    "summary": "Creation and handling of Discrete Global Grids or Point collections.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.6.4"
+    "version": "0.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "dogpile.cache-0.6.4-py36_0.tar.bz2",
+  "package": "pygeogrids-0.2.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
+      "netcdf4",
+      "numpy",
+      "pyproj",
       "python 3.6*",
-      "six"
+      "scipy"
     ],
-    "license": "BSD",
-    "md5": "324a39396a24cad6f487413053b4337b",
-    "name": "dogpile.cache",
-    "sha256": "3f5e9d8e2b7a10b4ba8c4c8f993feeb5357b1c25c4a10d34227812790a8bace6",
-    "size": 57289,
+    "license": "BSD 3-Clause",
+    "md5": "0d161312e19285d4a7bf298c2b517906",
+    "name": "pygeogrids",
+    "sha256": "211a1bcb21b78ceda1b206245bc4bbf964e683118114be74cfd2af971cb1abdd",
+    "size": 33462,
     "subdir": "linux-64",
-    "version": "0.6.4"
+    "version": "0.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/dogpile.cache-0.6.4-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pygeogrids-0.2.0-py36_0.tar.bz2"
 }

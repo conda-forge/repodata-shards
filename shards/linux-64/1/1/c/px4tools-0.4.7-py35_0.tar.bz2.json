@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ellisonbg/ipyleaflet",
+    "home": "https://github.com/dronecrew/px4tools",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
-    "post_link": true,
+    "license": "BSD 3-Clause",
+    "post_link": false,
     "pre_link": false,
-    "pre_unlink": true,
+    "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ipyleaflet/ipyleaflet-0.6.9.tar.gz",
+    "source_url": "https://github.com/dronecrew/px4tools/archive/v0.4.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Jupyter widget for dynamic Leaflet maps",
+    "summary": "Python log crunching for PX4.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.6.9"
+    "version": "0.4.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "ipyleaflet-0.6.9-py35_0.tar.bz2",
+  "package": "px4tools-0.4.7-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "ipywidgets >=7.0.0,<8.0.0",
-      "python 3.5*"
+      "basemap",
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "python 3.5*",
+      "scipy"
     ],
-    "license": "MIT",
-    "md5": "927c0c00b21874e807c0ac6424cda2d1",
-    "name": "ipyleaflet",
-    "sha256": "9fe270d1408be960228696e4df04e183f222a4e9f65402d8f0f1bc0ab0904658",
-    "size": 601496,
+    "license": "BSD 3-Clause",
+    "md5": "6827ba346dc57562831eda1072b2e0bd",
+    "name": "px4tools",
+    "sha256": "9e3b960132274f4c506276c2db8275e9d4805308f95197dbc2e653ec886268c7",
+    "size": 225476,
     "subdir": "linux-64",
-    "version": "0.6.9"
+    "version": "0.4.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipyleaflet-0.6.9-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/px4tools-0.4.7-py35_0.tar.bz2"
 }
