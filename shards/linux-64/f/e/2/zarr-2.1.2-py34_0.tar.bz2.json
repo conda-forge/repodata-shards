@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://freeglut.sourceforge.net/",
+    "home": "https://github.com/alimanfoo/zarr",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -18,16 +18,16 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "http://sourceforge.net/projects/freeglut/files/freeglut/3.0.0/freeglut-3.0.0.tar.gz",
+    "source_git_url": "https://github.com/alimanfoo/zarr.git",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A GUI based on OpenGL.",
+    "summary": "An implementation of chunked, compressed, N-dimensional arrays for Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.0.0"
+    "version": "2.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,20 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "freeglut-3.0.0-3.tar.bz2",
+  "package": "zarr-2.1.2-py34_0.tar.bz2",
   "repodata": {
-    "build": "3",
-    "build_number": 3,
-    "depends": [],
+    "build": "py34_0",
+    "build_number": 0,
+    "depends": [
+      "fasteners",
+      "numpy",
+      "python 3.4*"
+    ],
     "license": "MIT",
-    "md5": "895e36b28c6da606d9860268c3fcbe77",
-    "name": "freeglut",
-    "sha256": "e236d9c90d0a49de5d0e04550280aa2815456f4af6df96b127261de47f45da6e",
-    "size": 261905,
+    "md5": "05edf4c2edfc13befa79a9c6a09c152b",
+    "name": "zarr",
+    "sha256": "af3ce7803398ef51f7a0aee0dd4d6c1bc0f990e0801423f12b69659aa89e1c0e",
+    "size": 1034278,
     "subdir": "linux-64",
-    "version": "3.0.0"
+    "version": "2.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/freeglut-3.0.0-3.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/zarr-2.1.2-py34_0.tar.bz2"
 }
