@@ -1,57 +1,59 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://pypi.python.org/pypi/pykdtree",
+    "home": "https://github.com/HypothesisWorks/hypothesis-python",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL-3.0",
+    "license": "MPL 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pykdtree/pykdtree-1.2.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/hypothesis/hypothesis-3.55.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fast kd-tree implementation with OpenMP-enabled queries.",
+    "summary": "A library for property based testing",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.2.2"
+    "version": "3.55.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
+    "cf202003",
     "main"
   ],
-  "package": "pykdtree-1.2.2-np111py27_0.tar.bz2",
+  "package": "hypothesis-3.55.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "np111py27_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "libgcc",
-      "numpy 1.11*",
+      "attrs",
+      "coverage",
+      "enum34",
       "python 2.7*"
     ],
-    "license": "LGPL-3.0",
-    "md5": "de3a14f82bb6f100ce35cbbd12e5e15b",
-    "name": "pykdtree",
-    "sha256": "68ad0bc082ebf2c53a7a13cb27bea9b543d6405f0b1f55c4c33d6706a739b420",
-    "size": 165880,
+    "license": "MPL 2.0",
+    "md5": "034573389dfd79671826ec6a8ac2bfb3",
+    "name": "hypothesis",
+    "sha256": "ae660dd8ae59597f9ab13c0e737f9d02e0b1b0f4ee5a6b1cfa13f2d9d4ec98c6",
+    "size": 259287,
     "subdir": "linux-64",
-    "version": "1.2.2"
+    "version": "3.55.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pykdtree-1.2.2-np111py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/hypothesis-3.55.2-py27_0.tar.bz2"
 }
