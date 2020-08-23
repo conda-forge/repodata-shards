@@ -7,50 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Azure/azure-sdk-for-python",
+    "home": "https://github.com/pypa/auditwheel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache-2.0",
+    "license": "MIT License",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/azure-mgmt-nspkg/azure-mgmt-nspkg-1.0.0.zip",
+    "source_url": "https://pypi.io/packages/source/a/auditwheel/auditwheel-1.3.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Microsoft Azure Resource Management Namespace Package",
+    "summary": "Linux wheel verification tool to ensure compatibility",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.0"
+    "version": "1.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "azure-mgmt-nspkg-1.0.0-py27_0.tar.bz2",
+  "package": "auditwheel-1.3.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "azure-nspkg",
-      "python 2.7*"
+      "pip",
+      "pyelftools",
+      "python 3.5*",
+      "setuptools"
     ],
-    "license": "Apache-2.0",
-    "md5": "2122ab6115bc56be514206e1e43cb946",
-    "name": "azure-mgmt-nspkg",
-    "sha256": "2d3725c87653f187a4f089aa5414b68b8bc8ce0dffa9ab3c3e179877b82174e5",
-    "size": 2118,
+    "license": "MIT License",
+    "md5": "3ed074a8f635b62e7b996aa035a98eb8",
+    "name": "auditwheel",
+    "sha256": "f4653fcb71da2710ec19a5524ebc5bad9cee05d3815177c303bc01d9736c1f36",
+    "size": 38521,
     "subdir": "linux-64",
-    "version": "1.0.0"
+    "version": "1.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/azure-mgmt-nspkg-1.0.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/auditwheel-1.3.0-py35_0.tar.bz2"
 }
