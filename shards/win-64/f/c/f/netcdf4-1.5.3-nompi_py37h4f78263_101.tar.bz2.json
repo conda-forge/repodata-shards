@@ -19,45 +19,46 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Unidata/netcdf4-python/archive/v1.5.1.2rel.tar.gz",
+    "source_url": "https://pypi.io/packages/source/n/netCDF4/netCDF4-1.5.3.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Provides an object-oriented python interface to the netCDF version 4 library",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1571143128,
-    "version": "1.5.1.2"
+    "text_prefix": false,
+    "timestamp": 1574538941,
+    "version": "1.5.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "netcdf4-1.5.1.2-py37hf3213d6_2.tar.bz2",
+  "package": "netcdf4-1.5.3-nompi_py37h4f78263_101.tar.bz2",
   "repodata": {
-    "build": "py37hf3213d6_2",
-    "build_number": 2,
+    "build": "nompi_py37h4f78263_101",
+    "build_number": 101,
     "depends": [
       "cftime",
+      "hdf5 * nompi_*",
       "hdf5 >=1.10.5,<1.10.6.0a0",
-      "libgcc-ng >=7.3.0",
       "libnetcdf >=4.7.1,<4.7.2.0a0",
+      "libnetcdf >=4.7.1,<4.7.2.0a0 nompi_*",
       "numpy >=1.14.6,<2.0a0",
       "python >=3.7,<3.8.0a0",
-      "setuptools"
+      "setuptools",
+      "vc >=14.1,<15.0a0"
     ],
     "license": "OSI Approved and MIT",
-    "md5": "ace3431e60228e966bf41ce6ee0db0e7",
+    "md5": "37cddf92e3a1569eb4378806f9032e80",
     "name": "netcdf4",
-    "sha256": "4f18125ccaddbd3dbd774345894b02fc933fa823f8b913f65f59033d344bfc06",
-    "size": 553592,
-    "subdir": "linux-64",
-    "timestamp": 1571143128878,
-    "version": "1.5.1.2"
+    "sha256": "0fa1dab353a0b93ba8681740599b6fde0549e56f97d4776c4ae2f85550ae2343",
+    "size": 400147,
+    "subdir": "win-64",
+    "timestamp": 1574538941200,
+    "version": "1.5.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/netcdf4-1.5.1.2-py37hf3213d6_2.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/netcdf4-1.5.3-nompi_py37h4f78263_101.tar.bz2"
 }
