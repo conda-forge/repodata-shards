@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/edenhill/librdkafka",
+    "home": "https://github.com/scikit-sparse/scikit-sparse",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,42 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/edenhill/librdkafka/archive/v0.9.4.tar.gz",
+    "source_url": "https://github.com/scikit-sparse/scikit-sparse/archive/v0.4.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The Apache Kafka C/C++ client library",
+    "summary": "A companion to the scipy.sparse library for sparse matrix manipulation in Python.",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "0.9.4"
+    "version": "0.4.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "librdkafka-0.9.4-0.tar.bz2",
+  "package": "scikit-sparse-0.4.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "libgsasl",
-      "lz4-c",
-      "openssl 1.0.*",
-      "zlib 1.2.*"
+      "numpy >=1.11",
+      "python 2.7*",
+      "scipy",
+      "suitesparse"
     ],
     "license": "BSD 2-clause",
-    "license_family": "BSD",
-    "md5": "cd94ff14c865c2c0f16ad6b7bc5174f6",
-    "name": "librdkafka",
-    "sha256": "570d235f115515119f2bb4da0919bc675cf2e4eeb079512e52077f7b227b8b7c",
-    "size": 4235264,
+    "md5": "fd9cae0bf6a75fe61ec1932a13832a76",
+    "name": "scikit-sparse",
+    "sha256": "5f55aa51805a0367ad3eab3909609ac23d9751497caf793fee39fc0aa9d8b9c5",
+    "size": 603512,
     "subdir": "linux-64",
-    "version": "0.9.4"
+    "version": "0.4.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/librdkafka-0.9.4-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/scikit-sparse-0.4.2-py27_0.tar.bz2"
 }
