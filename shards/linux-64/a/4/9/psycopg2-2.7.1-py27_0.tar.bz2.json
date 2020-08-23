@@ -1,58 +1,57 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://initd.org/psycopg/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPLv3",
+    "license": "LGPL, BSD-like, ZPL",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/p/psycopg2/psycopg2-2.7.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Python-PostgreSQL Database Adapter",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.4.2"
+    "version": "2.7.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "rios-1.4.2-py34_0.tar.bz2",
+  "package": "psycopg2-2.7.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "gdal 2.0.2",
-      "numpy",
-      "python 3.4*"
+      "libpq",
+      "openssl 1.0.*",
+      "python 2.7*"
     ],
-    "license": "GPLv3",
-    "md5": "c8ebcf60ee1e04aafa8d1dbc2c0fc345",
-    "name": "rios",
-    "sha256": "3bff680ad004453da154cc955b5d050b61ec64fb3e0057eedf9d2423447458c1",
-    "size": 137645,
+    "license": "LGPL, BSD-like, ZPL",
+    "md5": "7b0fd8752ee47c395f7d5b66aa9f605a",
+    "name": "psycopg2",
+    "sha256": "d5e2519ac1e059911c2488ac09ffa91ef3e4df9efe9f05a6636b7104269c07ba",
+    "size": 481447,
     "subdir": "linux-64",
-    "version": "1.4.2"
+    "version": "2.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/rios-1.4.2-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/psycopg2-2.7.1-py27_0.tar.bz2"
 }
