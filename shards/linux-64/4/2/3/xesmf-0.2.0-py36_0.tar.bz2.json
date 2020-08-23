@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/marcelm/xopen/",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://github.com/marcelm/xopen/",
-    "home": "https://github.com/marcelm/xopen/",
+    "doc_url": null,
+    "home": "https://github.com/JiaweiZhuang/xESMF",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/x/xopen/xopen-0.8.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/x/xesmf/xesmf-0.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Open compressed files transparently in Python",
+    "summary": "Universal Regridder for Geospatial Data",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1572247604,
-    "version": "0.8.4"
+    "timestamp": 1565008456,
+    "version": "0.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "xopen-0.8.4-py27_0.tar.bz2",
+  "package": "xesmf-0.2.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "bz2file",
-      "python >=2.7,<2.8.0a0"
+      "esmpy",
+      "numpy",
+      "python >=3.6,<3.7.0a0",
+      "scipy",
+      "xarray"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "853e4191cffbd02384a1750427255466",
-    "name": "xopen",
-    "sha256": "660be0bb7ca92f63e96d633c63537a61f8c194492e88c5d2247b2c3f649c89e0",
-    "size": 15603,
+    "md5": "37b7ff310b61930bc0b9106b062550ea",
+    "name": "xesmf",
+    "sha256": "e511bc015857978e462df66db953164ea5cf0cedefd5fa2166ee9e60da92303f",
+    "size": 28492,
     "subdir": "linux-64",
-    "timestamp": 1572247604053,
-    "version": "0.8.4"
+    "timestamp": 1565008456147,
+    "version": "0.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xopen-0.8.4-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/xesmf-0.2.0-py36_0.tar.bz2"
 }
