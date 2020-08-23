@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The space MetPy aims for is GEMPAK (and maybe NCL)-like functionality, in a way that plugs easily into the existing scientific Python ecosystem (numpy, scipy, matplotlib). So, if you take the average GEMPAK script for a weather map, you need to: read data, calculate a derived field, and show on a map/skew-T. One of the benefits hoped to achieve over GEMPAK is to make it easier to use these routines for any meteorological Python application; this means making it easy to pull out the LCL calculation and just use that, or re-use the Skew-T with your own data code. MetPy also prides itself on being well-documented and well-tested, so that on-going maintenance is easily manageable.",
+    "dev_url": "https://github.com/Unidata/MetPy",
+    "doc_source_url": null,
+    "doc_url": "https://unidata.github.io/MetPy",
+    "home": "https://github.com/Unidata/MetPy",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/M/MetPy/MetPy-0.10.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "MetPy is a collection of tools in Python for reading, visualizing and performing calculations with weather data.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1546749906,
+    "version": "0.10.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "metpy-0.10.0-py37_1001.tar.bz2",
+  "repodata": {
+    "build": "py37_1001",
+    "build_number": 1001,
+    "depends": [
+      "cartopy >=0.15.0",
+      "matplotlib >=1.4.0",
+      "numpy >=1.11",
+      "pint >=0.8",
+      "pooch >=0.1,<0.3",
+      "pyproj >=1.9.4",
+      "python >=3.7,<3.8.0a0",
+      "scipy >=0.14.0",
+      "traitlets >=4.3.0",
+      "xarray >=0.10.7"
+    ],
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "7e3c6b6de96f8a05584b315888e07297",
+    "name": "metpy",
+    "sha256": "255c4a08ec257e1222d216dc1bd75e29b15ca16169eff305a698336332087519",
+    "size": 416036,
+    "subdir": "linux-64",
+    "timestamp": 1546749906708,
+    "version": "0.10.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/metpy-0.10.0-py37_1001.tar.bz2"
+}
