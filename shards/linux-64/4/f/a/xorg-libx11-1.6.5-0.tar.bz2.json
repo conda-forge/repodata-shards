@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://www.x.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,37 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://www.x.org/releases/individual/lib/libX11-1.6.5.tar.bz2",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "The main client library for X Windows version 11.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "2.0.1"
+    "version": "1.6.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "ordered-set-2.0.1-py35_0.tar.bz2",
+  "package": "xorg-libx11-1.6.5-0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "libxcb 1.*",
+      "xorg-kbproto",
+      "xorg-xproto"
     ],
     "license": "MIT",
-    "md5": "1b3b0961cc5567e7e91fe20f2ae20ae6",
-    "name": "ordered-set",
-    "sha256": "c0c5e3d3301bd01bc75d903ee9ae390d613d3a4bc9268c3c56eb5aadf97f20f2",
-    "size": 5911,
+    "license_family": "MIT",
+    "md5": "116be5ddb7ce9d5fa51cb8da92da2545",
+    "name": "xorg-libx11",
+    "sha256": "56a56cdd669ef642b5760fd1065a7dc6416097f64033cef350c5fd295acb9343",
+    "size": 1647782,
     "subdir": "linux-64",
-    "version": "2.0.1"
+    "version": "1.6.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/ordered-set-2.0.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libx11-1.6.5-0.tar.bz2"
 }
