@@ -12,45 +12,46 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "NCSA",
+    "license": "Apache-2.0 WITH LLVM-exception",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://llvm.org/releases/8.0.0/cfe-8.0.0.src.tar.xz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Development headers and libraries for Clang",
+    "summary": "LLVM C++ standard library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1565125800,
-    "version": "8.0.0"
+    "timestamp": 1586212702,
+    "version": "9.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "clangxx-8.0.0-4.tar.bz2",
+  "package": "libcxx-9.0.1-2.tar.bz2",
   "repodata": {
-    "build": "4",
-    "build_number": 4,
+    "build": "2",
+    "build_number": 2,
     "depends": [
-      "clang 8.0.0 hc9558a2_4"
+      "libcxxabi 9.0.1 2"
     ],
-    "license": "NCSA",
-    "md5": "024ec91f3a78e0e32a98786d0d093467",
-    "name": "clangxx",
-    "sha256": "765eaa9003522b83829505809475960ad9940f426dd6e2cad73d8e42f505ccbc",
-    "size": 9567,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "d86ba7ef41e6780c4784adfaff619655",
+    "name": "libcxx",
+    "sha256": "86bd4ec826a30ee51031569d00c65fb153e324b144351e9280dd3566a0d7e1ce",
+    "size": 1168072,
     "subdir": "linux-64",
-    "timestamp": 1565125800957,
-    "version": "8.0.0"
+    "timestamp": 1586212702235,
+    "version": "9.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/clangxx-8.0.0-4.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libcxx-9.0.1-2.tar.bz2"
 }
