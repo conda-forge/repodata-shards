@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/PyCQA/astroid",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD License",
+    "license": "LGPL 2.1",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/g/geojson/geojson-1.3.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/astroid/astroid-1.4.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "A abstract syntax tree for Python with inference support.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.3.2"
+    "version": "1.4.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "geojson-1.3.2-py34_0.tar.bz2",
+  "package": "astroid-1.4.8-py36_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*"
+      "lazy-object-proxy",
+      "python 3.6*",
+      "setuptools",
+      "six",
+      "wrapt"
     ],
-    "license": "BSD License",
-    "md5": "391a71558bba9cab9dc66f1263055853",
-    "name": "geojson",
-    "sha256": "7da4515e74bcd6283c8b590d23f1e9689891fb2427bc0d4341a8640208a99bba",
-    "size": 17772,
+    "license": "LGPL 2.1",
+    "md5": "8ec738c37bbd549298e1441b2f74c969",
+    "name": "astroid",
+    "sha256": "3639ab4d73917f83613fd855ce98254a11ac3a565b9d81f7a43e8b441634110c",
+    "size": 283611,
     "subdir": "linux-64",
-    "version": "1.3.2"
+    "version": "1.4.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/geojson-1.3.2-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/astroid-1.4.8-py36_0.tar.bz2"
 }
