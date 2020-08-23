@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Simulation Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Simulation library. If you want to install the Python bindings, please install the associated python-lalsimulation package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalsimulation/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.10.0": {
+        "weak": [
+          "lalsimulation >=1.10.0,<1.11.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalsimulation-1.10.0.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Simulation Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1576083705,
+    "version": "1.10.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lalsimulation-1.10.0-h7e1cf95_1.tar.bz2",
+  "repodata": {
+    "build": "h7e1cf95_1",
+    "build_number": 1,
+    "depends": [
+      "gsl >=2.5,<2.6.0a0",
+      "lal >=6.21.0",
+      "lal >=6.21.0,<6.22.0a0",
+      "llvm-openmp >=9.0.0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "874a3a665d8a9ed68652e66f768e55c3",
+    "name": "lalsimulation",
+    "sha256": "e49639d0c50e76af346e3fa3139df06a327d0cc5b57699dad92b06a2011b2b09",
+    "size": 14974901,
+    "subdir": "osx-64",
+    "timestamp": 1576083705967,
+    "version": "1.10.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lalsimulation-1.10.0-h7e1cf95_1.tar.bz2"
+}
