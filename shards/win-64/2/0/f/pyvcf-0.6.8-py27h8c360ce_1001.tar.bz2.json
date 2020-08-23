@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The intent of this module is to mimic the csv module in the Python stdlib, as opposed to more flexible serialization formats like JSON or YAML. vcf will attempt to parse the content of each record based on the data types specified in the meta-information lines -- specifically the \\##INFO and \\##FORMAT lines. If these lines are missing or incomplete, it will check against the reserved types mentioned in the spec. Failing that, it will just return strings.",
+    "dev_url": "https://github.com/jamescasbon/PyVCF",
+    "doc_source_url": null,
+    "doc_url": "http://pyvcf.readthedocs.io",
+    "home": "https://github.com/jamescasbon/PyVCF",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/P/PyVCF/PyVCF-0.6.8.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A Variant Call Format (VCF) v4.0 and v4.1 parser for Python.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1584622583,
+    "version": "0.6.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pyvcf-0.6.8-py27h8c360ce_1001.tar.bz2",
+  "repodata": {
+    "build": "py27h8c360ce_1001",
+    "build_number": 1001,
+    "depends": [
+      "python >=2.7,<2.8.0a0",
+      "python_abi 2.7.* *_cp27m"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "a3c05886a94cb1a0e22c5df7c4523bbe",
+    "name": "pyvcf",
+    "sha256": "17f51c7d68694da84a9efe07a2733a497a9f6f829dc3aa02551b3101f33c5c0d",
+    "size": 85933,
+    "subdir": "win-64",
+    "timestamp": 1584622583345,
+    "version": "0.6.8"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pyvcf-0.6.8-py27h8c360ce_1001.tar.bz2"
+}
