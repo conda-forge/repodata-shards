@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Lossless conversion of raster images to PDF. You should use img2pdf if your priorities are (in this order):  1. always lossless: the image embedded in the PDF will always have the exact same color information for every pixel as the input 2. small: if possible, the difference in filesize between the input image and the output PDF will only be the overhead of the PDF container itself 3 fast: if possible, the input image is just pasted into the PDF document as-is without any CPU hungry re-encoding of the pixel data",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gitlab.mister-muffin.de/josch/img2pdf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/i/img2pdf/img2pdf-0.3.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Lossless conversion of raster images to PDF",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1572722255,
+    "version": "0.3.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003",
+    "main"
+  ],
+  "package": "img2pdf-0.3.3-py38_0.tar.bz2",
+  "repodata": {
+    "build": "py38_0",
+    "build_number": 0,
+    "depends": [
+      "pillow",
+      "python >=3.8,<3.9.0a0"
+    ],
+    "license": "LGPL-3.0",
+    "license_family": "LGPL",
+    "md5": "754ea43d04af71c1b3595168fffbf73d",
+    "name": "img2pdf",
+    "sha256": "d20d20c47698dbb91ef8d33e6f1c39ec5fa7c78b8f4c356eb64b9304bf86fe52",
+    "size": 53765,
+    "subdir": "linux-64",
+    "timestamp": 1572722255388,
+    "version": "0.3.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/img2pdf-0.3.3-py38_0.tar.bz2"
+}
