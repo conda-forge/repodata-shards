@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "VOLK is the Vector-Optimized Library of Kernels. It is a free library, currently offered under the GPLv3, that contains kernels of hand-written SIMD code for different mathematical operations. Since each SIMD architecture can be very different and no compiler has yet come along to handle vectorization properly or highly efficiently, VOLK approaches the problem differently.  For each architecture or platform that a developer wishes to vectorize for, a new proto-kernel is added to VOLK. At runtime, VOLK will select the correct proto-kernel. In this way, the users of VOLK call a kernel for performing the operation that is platform/architecture agnostic. This allows us to write portable SIMD code that is optimized for a variety of platforms.",
+    "dev_url": "https://github.com/gnuradio/volk",
+    "doc_source_url": null,
+    "doc_url": "http://libvolk.org/doxygen/index.html",
+    "home": "https://github.com/gnuradio/volk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.2.1+boost170": {
+        "weak": [
+          "volk >=2.2.1,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/gnuradio/volk/archive/v2.2.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The Vector Optimized Library of Kernels",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1590093564,
+    "version": "2.2.1+boost170"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "volk-2.2.1+boost170-py36h831f99a_1.tar.bz2",
+  "repodata": {
+    "build": "py36h831f99a_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
+    ],
+    "license": "GPL-3.0",
+    "license_family": "GPL",
+    "md5": "baa2ff3636e15afb066058c5ef314f01",
+    "name": "volk",
+    "sha256": "03bcaca3ebd8b223c11c64f03fab4d541dfd9111a40ed98bf486260b219bfbed",
+    "size": 1424066,
+    "subdir": "linux-64",
+    "timestamp": 1590093564499,
+    "version": "2.2.1+boost170"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/volk-2.2.1+boost170-py36h831f99a_1.tar.bz2"
+}
