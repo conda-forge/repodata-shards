@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://faculty.cse.tamu.edu/davis/suitesparse.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL v2 (AMD, BTF, etc), BSD 3-clause (UFget), GPL v2 (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache 2.0 (Metis)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://faculty.cse.tamu.edu/davis/SuiteSparse/SuiteSparse-4.5.4.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A suite of sparse matrix algorithms",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "4.5.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf202003"
+  ],
+  "package": "suitesparse-4.5.4-blas_openblas_201.tar.bz2",
+  "repodata": {
+    "build": "blas_openblas_201",
+    "build_number": 201,
+    "depends": [
+      "blas 1.1 openblas",
+      "metis 5.1.*",
+      "openblas 0.2.20|0.2.20.*",
+      "tbb"
+    ],
+    "features": "blas_openblas",
+    "license": "LGPL v2 (AMD, BTF, etc), BSD 3-clause (UFget), GPL v2 (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache 2.0 (Metis)",
+    "md5": "d45ac9780ff901aab36958f69dc2071e",
+    "name": "suitesparse",
+    "sha256": "aeecf7eeefbd4de5350950f853f30da4dbf83aeeb0ed6e0ff194dbbe9a2562be",
+    "size": 2227338,
+    "subdir": "linux-64",
+    "version": "4.5.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/suitesparse-4.5.4-blas_openblas_201.tar.bz2"
+}
