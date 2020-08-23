@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/jjhelmus/pyfive",
+    "home": "https://github.com/SMTorg/smt",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pyfive/pyfive-0.2.0.tar.gz",
+    "source_url": "https://github.com/SMTorg/smt/archive/v0.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A pure Python HDF5 file reader",
+    "summary": "surrogate model toolbox",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.2.0"
+    "timestamp": 1540884038,
+    "version": "0.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "cf202003"
   ],
-  "package": "pyfive-0.2.0-py27_0.tar.bz2",
+  "package": "smt-0.2.1-py37hf8a1672_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py37hf8a1672_0",
     "build_number": 0,
     "depends": [
-      "numpy",
-      "python 2.7*"
+      "libgcc-ng >=4.9",
+      "libstdcxx-ng >=4.9",
+      "numpy >=1.9.3,<2.0a0",
+      "pydoe2",
+      "python >=3.7,<3.8.0a0",
+      "scikit-learn",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "400ab4141924870ddfbd7222e22daa20",
-    "name": "pyfive",
-    "sha256": "448c7d4df244ce9abd29580d8ebfdd7b9965607dc4e81809a0ed7f4fd2bcc010",
-    "size": 23652,
+    "md5": "214d65728412ee238fe6a641cbf56a39",
+    "name": "smt",
+    "sha256": "ad1f4961c7d6b591f2864fa46500b391a85edde1e8b0ad9cbc1e290935659436",
+    "size": 164877,
     "subdir": "linux-64",
-    "version": "0.2.0"
+    "timestamp": 1540884038104,
+    "version": "0.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyfive-0.2.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/smt-0.2.1-py37hf8a1672_0.tar.bz2"
 }
