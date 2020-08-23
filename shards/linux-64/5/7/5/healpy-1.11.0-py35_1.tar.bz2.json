@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/PyWavelets/pywt",
+    "home": "http://github.com/healpy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "GPL-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/PyWavelets/pywt/archive/v0.5.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/healpy/healpy-1.11.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Discrete Wavelet Transforms in Python.",
+    "summary": "Healpix tools package for Python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.5.2"
+    "version": "1.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "pywavelets-0.5.2-np112py36_0.tar.bz2",
+  "package": "healpy-1.11.0-py35_1.tar.bz2",
   "repodata": {
-    "build": "np112py36_0",
-    "build_number": 0,
+    "build": "py35_1",
+    "build_number": 1,
     "depends": [
-      "numpy 1.12*",
-      "python 3.6*"
+      "astropy",
+      "matplotlib",
+      "numpy >=1.9",
+      "pytest-runner",
+      "python 3.5*",
+      "six"
     ],
-    "license": "MIT",
-    "md5": "f6ecc14251e0442d64a4f2812150999c",
-    "name": "pywavelets",
-    "sha256": "4ab4d1283b4178b568b31bff0b784953802c57f49215738cb6f0cb47f0fd26e0",
-    "size": 5780625,
+    "license": "GPL-2.0",
+    "md5": "52d3fb8f494421b11837df6ef929af6c",
+    "name": "healpy",
+    "sha256": "2f60cd42070f91b918bebcf9de34ec45aec37d3290cde9fc2e7bfc18f74c5171",
+    "size": 13543746,
     "subdir": "linux-64",
-    "version": "0.5.2"
+    "version": "1.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pywavelets-0.5.2-np112py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/healpy-1.11.0-py35_1.tar.bz2"
 }
