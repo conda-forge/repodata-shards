@@ -1,0 +1,56 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This library implements the SPAKE2 password-authenticated key exchange (\"PAKE\") algorithm. This allows two parties, who share a weak password, to safely derive a strong shared secret (and therefore build an encrypted+authenticated channel). A passive attacker who eavesdrops on the connection learns no information about the password or the generated secret. An active attacker (man-in-the-middle) gets exactly one guess at the password, and unless they get it right, they learn no information about the password or the generated secret. Each execution of the protocol enables one guess. The use of a weak password is made safer by the rate-limiting of guesses: no off-line dictionary attack is available to the network-level attacker, and the protocol does not depend upon having previously-established confidentiality of the network (unlike e.g. sending a plaintext password over TLS). The protocol requires the exchange of one pair of messages, so only one round trip is necessary to establish the session key. If key-confirmation is necessary, that will require a second round trip. All messages are bytestrings. For the default security level (using the Ed25519 elliptic curve, roughly equivalent to an 128-bit symmetric key), the message is 33 bytes long.",
+    "dev_url": "https://github.com/warner/python-spake2",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/warner/python-spake2",
+    "home": "hhttps://github.com/warner/python-spake2",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/warner/python-spake2/archive/v0.7.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "This library implements the SPAKE2 password-authenticated key exchange (\"PAKE\") algorithm.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "0.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "python-spake2-0.7-0.tar.bz2",
+  "repodata": {
+    "build": "0",
+    "build_number": 0,
+    "depends": [
+      "hkdf"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "8bfb162bff045d3d28c85a320efff3fc",
+    "name": "python-spake2",
+    "sha256": "cd60177d1ef8b33cc3905db5fb195ca814b50d2ffe7439d71dd67dd3db1fed5d",
+    "size": 64215,
+    "subdir": "osx-64",
+    "version": "0.7"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/python-spake2-0.7-0.tar.bz2"
+}
