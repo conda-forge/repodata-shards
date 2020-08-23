@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/flame/blis",
+    "home": "https://github.com/openucx/ucx",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/flame/blis/archive/0.5.1.tar.gz",
+    "source_url": "https://github.com/openucx/ucx/archive/v1.6.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "BLAS-like Library Instantiation Software Framework",
+    "summary": "Unified Communication X.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1546060690,
-    "version": "0.5.1"
+    "timestamp": 1576043237,
+    "version": "1.6.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "blis-0.5.1-h14c3975_0.tar.bz2",
+  "package": "ucx-1.6.1-ha5db111_5.tar.bz2",
   "repodata": {
-    "build": "h14c3975_0",
-    "build_number": 0,
+    "build": "ha5db111_5",
+    "build_number": 5,
+    "constrains": [
+      "ucx-proc * cpu"
+    ],
     "depends": [
-      "libgcc-ng >=7.3.0"
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "3387d798446e3be3b6a02d1527d57fa0",
-    "name": "blis",
-    "sha256": "3666a8d535db856e9ea6e3d3bdd8c11e9aa63b43bebb7e4c4a002ecdebd238fa",
-    "size": 5629694,
+    "md5": "ea590458c62359e79837cf4c221abbeb",
+    "name": "ucx",
+    "sha256": "fb1b8d4196d12d671cd0ccbf5af2f8605e40fbfbb8131bec12d0c1e21a929e23",
+    "size": 7165749,
     "subdir": "linux-64",
-    "timestamp": 1546060690357,
-    "version": "0.5.1"
+    "timestamp": 1576043237730,
+    "version": "1.6.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/blis-0.5.1-h14c3975_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ucx-1.6.1-ha5db111_5.tar.bz2"
 }
