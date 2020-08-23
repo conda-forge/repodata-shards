@@ -7,50 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/PyCQA/pylint",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache License Version 2.0",
+    "license": "GPL 2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pylint/pylint-1.8.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "python code static checker",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.1"
+    "version": "1.8.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "monotonic-1.1-py35_0.tar.bz2",
+  "package": "pylint-1.8.2-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "astroid >=1.5.1",
+      "isort >=4.2.5",
+      "mccabe",
+      "python 3.5*",
+      "six"
     ],
-    "license": "Apache License Version 2.0",
-    "md5": "a52383686b857218323b363467519aeb",
-    "name": "monotonic",
-    "sha256": "53f5f3f1ae29233e0d43c43309c5497bbd297ac1d8d75972436cb73919afa02a",
-    "size": 5706,
+    "license": "GPL 2",
+    "md5": "824052e6fab8f1b97334b5b5c6c77706",
+    "name": "pylint",
+    "sha256": "ff881177b4e5ef08765a585b37adab8935030658c5b5d5f3f832b5c4b2831e49",
+    "size": 802789,
     "subdir": "linux-64",
-    "version": "1.1"
+    "version": "1.8.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/monotonic-1.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pylint-1.8.2-py35_0.tar.bz2"
 }

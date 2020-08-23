@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://CRAN.R-project.org/package=lazyeval",
+    "home": "https://github.com/markvanderloo/gower",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -20,41 +20,41 @@
     "run_exports": {},
     "source_git_url": null,
     "source_url": [
-      "https://cran.r-project.org/src/contrib/lazyeval_0.2.0.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/lazyeval/lazyeval_0.2.0.tar.gz"
+      "https://cran.r-project.org/src/contrib/gower_0.1.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/gower/gower_0.1.2.tar.gz"
     ],
     "subdirs": [
       "linux-64"
     ],
-    "summary": "An alternative approach to non-standard evaluation using formulas. Provides a full implementation of LISP style 'quasiquotation', making it easier to generate code with other code.",
+    "summary": "Compute Gower's distance (or similarity) coefficient between records. Compute the top-n matches between records. Core algorithms are executed in parallel on systems supporting OpenMP.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2.0"
+    "version": "0.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "r-lazyeval-0.2.0-r3.3.2_0.tar.bz2",
+  "package": "r-gower-0.1.2-r3.4.1_0.tar.bz2",
   "repodata": {
-    "build": "r3.3.2_0",
+    "build": "r3.4.1_0",
     "build_number": 0,
     "depends": [
-      "r-base 3.3.2*"
+      "libgcc",
+      "r-base 3.4.1*"
     ],
     "license": "GPL-3",
     "license_family": "GPL3",
-    "md5": "8c767285b3369c9654f1a6c06e4ceec3",
-    "name": "r-lazyeval",
-    "sha256": "4b3226eb745d3796baed30568883257125272e95c857cb23deb8f57156b29cdd",
-    "size": 122559,
+    "md5": "a964b4d1e5b7ed9c70723a9c0697382a",
+    "name": "r-gower",
+    "sha256": "28ec0e3379df5f206856c44fdbb3f30f4f834274dfe525dc81ec0519f54e96cf",
+    "size": 48109,
     "subdir": "linux-64",
-    "version": "0.2.0"
+    "version": "0.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-lazyeval-0.2.0-r3.3.2_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/r-gower-0.1.2-r3.4.1_0.tar.bz2"
 }

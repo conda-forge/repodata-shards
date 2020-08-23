@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/rasbt/watermark",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/rasbt/watermark",
+    "home": "https://github.com/blink1073/tifffile",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/w/watermark/watermark-1.4.0.tar.gz",
+    "source_url": "https://github.com/blink1073/tifffile/archive/v0.10.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "IPython magic function to print date/time stamps andvarious system information.",
+    "summary": "Read and write image data from and to TIFF files.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.4.0"
+    "version": "0.10.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "watermark-1.4.0-py36_0.tar.bz2",
+  "package": "tifffile-0.10.0-np112py36_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "np112py36_0",
     "build_number": 0,
     "depends": [
-      "certifi",
-      "ipython",
+      "numpy 1.12*",
       "python 3.6*"
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "b175ad95b5255b5d90b115a890dad9d2",
-    "name": "watermark",
-    "sha256": "b9906f0de292edd00c03f39069f032b065a733e3372185b4fa85df88478ba087",
-    "size": 9050,
+    "md5": "22b59cb3d841d6cee3486556618f79e0",
+    "name": "tifffile",
+    "sha256": "544ac0f4d42b765aef27b8952c20092075833fabd02f713a3c26b63078c797a2",
+    "size": 151346,
     "subdir": "linux-64",
-    "version": "1.4.0"
+    "version": "0.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/watermark-1.4.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/tifffile-0.10.0-np112py36_0.tar.bz2"
 }
