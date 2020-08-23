@@ -1,0 +1,56 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Taking a hint from the similarly-named Java Cryptography Architecture, QCA aims to provide a straightforward and cross-platform crypto API, using Qt datatypes and conventions. QCA separates the API from the implementation, using plugins known as Providers. The advantage of this model is to allow applications to avoid linking to or explicitly depending on any particular cryptographic library. This allows one to easily change or upgrade crypto implementations without even needing to recompile the application! QCA should work everywhere Qt does, including Windows/Unix/MacOSX.",
+    "dev_url": "https://quickgit.kde.org/?p=qca.git",
+    "doc_source_url": null,
+    "doc_url": "http://delta.affinix.com/docs/qca/",
+    "home": "http://delta.affinix.com/qca/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/KDE/qca/archive/v2.1.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Qt Cryptographic Architecture (QCA) provides a straightforward and cross-platform crypto API, using Qt datatypes and conventions.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1531427544,
+    "version": "2.1.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "qca-2.1.3-h8210e8a_2.tar.bz2",
+  "repodata": {
+    "build": "h8210e8a_2",
+    "build_number": 2,
+    "depends": [
+      "qt >=5.6.2,<5.7.0a0"
+    ],
+    "license": "LGPL-2.1",
+    "md5": "9db8aa2c195b2241c8f03246f9604efb",
+    "name": "qca",
+    "sha256": "e1f5943a98a3f1e1a8dfb7610acc59dd88d307afd77e272ae25459394287f6c3",
+    "size": 1100206,
+    "subdir": "osx-64",
+    "timestamp": 1531427544885,
+    "version": "2.1.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/qca-2.1.3-h8210e8a_2.tar.bz2"
+}
