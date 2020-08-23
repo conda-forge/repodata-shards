@@ -3,11 +3,11 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": "Python API library for common path and pattern functionality.",
+    "description": null,
     "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "http://pythonhosted.org/pathtools",
-    "home": "https://github.com/gorakhargosh/pathtools",
+    "doc_url": null,
+    "home": "https://github.com/CamDavidsonPilon/lifelines",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pathtools/pathtools-0.1.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/l/lifelines/lifelines-0.9.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Path utilities for Python.",
+    "summary": "Survival analysis in Python, including Kaplan Meier, Nelson Aalen and regression",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1.2"
+    "version": "0.9.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "pathtools-0.1.2-py27_0.tar.bz2",
+  "package": "lifelines-0.9.4-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "numpy",
+      "pandas >=0.18",
+      "python 3.5*",
+      "scipy",
+      "setuptools"
     ],
     "license": "MIT",
-    "md5": "09d8652b801b0ac0766a46ea20bcc022",
-    "name": "pathtools",
-    "sha256": "6b21f419ba1c8feefa227d3d8f7da528a607d467276cc62ed26d4ecb06332b81",
-    "size": 8272,
+    "md5": "9d5bc34b26fd627a0d354f84d6c682a7",
+    "name": "lifelines",
+    "sha256": "6db621543f2cedff5c2165cbdef223969796bca8b99427385374cd0a7220ae79",
+    "size": 188708,
     "subdir": "linux-64",
-    "version": "0.1.2"
+    "version": "0.9.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pathtools-0.1.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/lifelines-0.9.4-py35_0.tar.bz2"
 }

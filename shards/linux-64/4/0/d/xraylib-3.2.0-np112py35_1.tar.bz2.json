@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/shoyer/h5netcdf",
+    "home": "https://github.com/tschoonj/xraylib/wiki",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/h5netcdf/h5netcdf-0.3.0.tar.gz",
+    "source_url": "https://github.com/tschoonj/xraylib/archive/xraylib-3.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "netCDF4 via h5py.",
+    "summary": "A library for X-ray matter interaction cross sections for X-ray fluorescence applications",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.3.0"
+    "version": "3.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "h5netcdf-0.3.0-py35_0.tar.bz2",
+  "package": "xraylib-3.2.0-np112py35_1.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "np112py35_1",
+    "build_number": 1,
     "depends": [
-      "h5py",
+      "numpy 1.12*",
       "python 3.5*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "b3133142dc8e4e58b4a1f28d69a56482",
-    "name": "h5netcdf",
-    "sha256": "cc34a82eb50fa16252ea3a0ee6590130b59bc64811cb9768907df40412bbe072",
-    "size": 18758,
+    "md5": "d804a156699627deb57f01e530378d86",
+    "name": "xraylib",
+    "sha256": "a400cbdecc1e26241ff5cd9a595c10bb50057b2e7aed39879e587127bf3849bf",
+    "size": 41646617,
     "subdir": "linux-64",
-    "version": "0.3.0"
+    "version": "3.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5netcdf-0.3.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xraylib-3.2.0-np112py35_1.tar.bz2"
 }
