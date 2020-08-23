@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/sassoftware/saspy",
+    "home": "http://github.com/apache/arrow",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/saspy/saspy-2.2.1.tar.gz",
+    "source_url": "https://github.com/apache/arrow/archive/1d689e5a3e417d3a4b3de16fea7a6fe195c8f8df.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Python interface module to the SAS System",
+    "summary": "Python libraries for Apache Arrow",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.2.1"
+    "version": "0.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "saspy-2.2.1-py35_0.tar.bz2",
+  "package": "pyarrow-0.8.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "ipython >=4",
-      "pygments",
-      "python 3.5*"
+      "arrow-cpp 0.8.0",
+      "futures",
+      "numpy >=1.10",
+      "pandas",
+      "parquet-cpp 1.4.*",
+      "python 2.7*",
+      "setuptools",
+      "six"
     ],
     "license": "Apache 2.0",
-    "md5": "6ec22566b7a0b04ac2b99d7444e57c73",
-    "name": "saspy",
-    "sha256": "7cd974c9f7d4d5e5c60db42e41bbb58f5d5b5c79320c0fbcf89301c3a771063f",
-    "size": 128157,
+    "md5": "043d34597603935540146e7a5cc4c335",
+    "name": "pyarrow",
+    "sha256": "23a17ff8c47bc500b0d0e344c013553753b44b4208fe79a20cb240219337b115",
+    "size": 1130030,
     "subdir": "linux-64",
-    "version": "2.2.1"
+    "version": "0.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/saspy-2.2.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyarrow-0.8.0-py27_0.tar.bz2"
 }
