@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The space MetPy aims for is GEMPAK (and maybe NCL)-like functionality, in a way that plugs easily into the existing scientific Python ecosystem (numpy, scipy, matplotlib). So, if you take the average GEMPAK script for a weather map, you need to: read data, calculate a derived field, and show on a map/skew-T. One of the benefits hoped to achieve over GEMPAK is to make it easier to use these routines for any meteorological Python application; this means making it easy to pull out the LCL calculation and just use that, or re-use the Skew-T with your own data code. MetPy also prides itself on being well-documented and well-tested, so that on-going maintenance is easily manageable.",
+    "dev_url": "https://github.com/Unidata/MetPy",
+    "doc_source_url": null,
+    "doc_url": "https://unidata.github.io/MetPy",
+    "home": "https://github.com/Unidata/MetPy",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/M/MetPy/MetPy-0.4.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "MetPy is a collection of tools in Python for reading, visualizing and performing calculations with weather data.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "0.4.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "metpy-0.4.3-py27_0.tar.bz2",
+  "repodata": {
+    "build": "py27_0",
+    "build_number": 0,
+    "depends": [
+      "enum34",
+      "matplotlib >=1.4.0",
+      "numpy >=1.9.1",
+      "pint >=0.7",
+      "python 2.7*",
+      "scipy >=0.13.3"
+    ],
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "945e591e66673504ea37ce8bd615d249",
+    "name": "metpy",
+    "sha256": "7750dbcbe90a907ea0e65698869a894f8752a6527652b26216c3fafd569c3ea0",
+    "size": 194723,
+    "subdir": "osx-64",
+    "version": "0.4.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/metpy-0.4.3-py27_0.tar.bz2"
+}
