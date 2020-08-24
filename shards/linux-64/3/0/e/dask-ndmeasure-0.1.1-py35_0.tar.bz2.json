@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/celery/celery",
+    "dev_url": "https://github.com/dask-image/dask-ndmeasure",
     "doc_source_url": null,
-    "doc_url": "http://docs.celeryproject.org/en/latest/index.html",
-    "home": "http://celeryproject.org",
+    "doc_url": "https://dask-ndmeasure.readthedocs.io/",
+    "home": "https://github.com/dask-image/dask-ndmeasure",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/celery/celery-4.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/dask-ndmeasure/dask-ndmeasure-0.1.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Distributed Task Queue",
+    "summary": "A library for computing N-D measurements on labeled Dask Arrays",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "4.0.0"
+    "version": "0.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "celery-4.0.0-py35_0.tar.bz2",
+  "package": "dask-ndmeasure-0.1.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "billiard >=3.5.0.2,<3.6",
-      "kombu >=4.0,<5.0",
+      "dask",
+      "numpy",
       "python 3.5*",
-      "pytz",
-      "sqlalchemy"
+      "scipy"
     ],
     "license": "BSD 3-Clause",
-    "md5": "db3705cad6c80e707d42b5da1b76973a",
-    "name": "celery",
-    "sha256": "f88e320606009999c165b4f0fec1676d0d57e1f45c016f2ce91c939b81d1c6ff",
-    "size": 576306,
+    "md5": "9a00bb7a908912d67789d78aa584efce",
+    "name": "dask-ndmeasure",
+    "sha256": "a4316e602edddeda1ff8930ec7257b141876d479429ffe4381037f6672eddb51",
+    "size": 15451,
     "subdir": "linux-64",
-    "version": "4.0.0"
+    "version": "0.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/celery-4.0.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-ndmeasure-0.1.1-py35_0.tar.bz2"
 }
