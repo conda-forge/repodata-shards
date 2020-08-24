@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://openmp.llvm.org/",
+    "home": "https://github.com/MaxPoint/spylon",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "NCSA",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://releases.llvm.org/8.0.0/openmp-8.0.0.src.tar.xz",
+    "source_url": "https://pypi.io/packages/source/s/spylon/spylon-0.1.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The OpenMP API supports multi-platform shared-memory parallel programming in C/C++ and Fortran.",
+    "summary": "Utilities to work with Scala/Java code with py4j",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1554920188,
-    "version": "8.0.0"
+    "timestamp": 0,
+    "version": "0.1.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "openmp-8.0.0-0.tar.bz2",
+  "package": "spylon-0.1.4-py27_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "llvm-openmp 8.0.0 hc9558a2_0"
+      "findspark",
+      "pandas",
+      "python 2.7*"
     ],
-    "license": "NCSA",
-    "md5": "fcc44e2032c55c720e02b57d2db287ab",
-    "name": "openmp",
-    "sha256": "8648179a57ad36e3813a313a67895bf33542c0b0ef56b14d57fb00f3ad449318",
-    "size": 7024,
+    "license": "BSD 3-clause",
+    "md5": "636fea3daa7c87cf22c8abc229f995bb",
+    "name": "spylon",
+    "sha256": "4cb69e525a6248c6cc17256143e56f80d82e5704b00b6d5d32ffe19c8b594576",
+    "size": 42977,
     "subdir": "linux-64",
-    "timestamp": 1554920188264,
-    "version": "8.0.0"
+    "version": "0.1.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/openmp-8.0.0-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/spylon-0.1.4-py27_0.tar.bz2"
 }
