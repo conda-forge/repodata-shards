@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/scikit-sparse/scikit-sparse",
+    "home": "https://github.com/ponty/EasyProcess",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/scikit-sparse/scikit-sparse/archive/v0.4.2.tar.gz",
+    "source_url": "https://github.com/ponty/EasyProcess/archive/0.2.9.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A companion to the scipy.sparse library for sparse matrix manipulation in Python.",
+    "summary": "Easy to use python subprocess interface",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.4.2"
+    "timestamp": 1581071888,
+    "version": "0.2.9"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "scikit-sparse-0.4.2-np113py35_0.tar.bz2",
+  "package": "easyprocess-0.2.9-py37_0.tar.bz2",
   "repodata": {
-    "build": "np113py35_0",
+    "build": "py37_0",
     "build_number": 0,
     "depends": [
-      "numpy 1.13*",
-      "python 3.5*",
-      "scipy",
-      "suitesparse"
+      "python >=3.7,<3.8.0a0"
     ],
     "license": "BSD 2-clause",
-    "md5": "022b1437d4668e7fdd391f8444685a80",
-    "name": "scikit-sparse",
-    "sha256": "7b60515fcc55f661f22baaa6381c9b2a6d045c638699206302bad1bfb52c00dc",
-    "size": 625951,
+    "md5": "1da896bdfd24f31934c25cac09329da2",
+    "name": "easyprocess",
+    "sha256": "d09aa242a1a055d1a63c290bfb436921897ddb79e9b76adb88f9435498ea360a",
+    "size": 16314,
     "subdir": "linux-64",
-    "version": "0.4.2"
+    "timestamp": 1581071888410,
+    "version": "0.2.9"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/scikit-sparse-0.4.2-np113py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/easyprocess-0.2.9-py37_0.tar.bz2"
 }
