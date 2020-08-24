@@ -4,30 +4,30 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/sunpy/ndcube",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://yt-project.org/",
+    "home": "http://sunpy.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "BSD-2-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://files.pythonhosted.org/packages/source/y/yt/yt-3.3.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/n/ndcube/ndcube-1.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Analysis and visualization toolkit for volumetric data",
+    "summary": "A base package for multi-dimensional contiguious and non-contiguious spatially aware arrays.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.3.1"
+    "version": "1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "yt-3.3.1-np111py27_0.tar.bz2",
+  "package": "ndcube-1.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "np111py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "h5py",
-      "ipython",
+      "astropy",
       "matplotlib",
-      "numpy 1.11*",
-      "python 2.7*",
-      "setuptools",
-      "sympy"
+      "python 3.5*",
+      "sunpy >=0.8"
     ],
-    "license": "BSD 3-clause",
-    "md5": "6e0b3ffc46a87a7d23bf0e67ead721d7",
-    "name": "yt",
-    "sha256": "c04c099a825736b6d2d27d171b62bb9fa87d074aca76cc203546d690c6b55bd3",
-    "size": 13488906,
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "07580222099e4f1b33b5528878f12cfb",
+    "name": "ndcube",
+    "sha256": "b59b1d09ac6dd3566ea178a40deedf0c0b84ed54f8306048397caf88503ea993",
+    "size": 70321,
     "subdir": "linux-64",
-    "version": "3.3.1"
+    "version": "1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/yt-3.3.1-np111py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ndcube-1.0-py35_0.tar.bz2"
 }
