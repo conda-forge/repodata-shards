@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0-rc1/compiler-rt-11.0.0rc1.src.tar.xz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1596990183,
+    "version": "11.0.0.rc1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "llvm_rc"
+  ],
+  "package": "compiler-rt_osx-64-11.0.0.rc1-h2a69e3a_0.tar.bz2",
+  "repodata": {
+    "build": "h2a69e3a_0",
+    "build_number": 0,
+    "constrains": [
+      "compiler-rt 11.0.0.rc1"
+    ],
+    "depends": [
+      "clang 11.0.0.rc1.*",
+      "clangxx 11.0.0.rc1.*",
+      "libcxx >=10.0.1"
+    ],
+    "license": "NCSA",
+    "md5": "ec05fcdfa996f396b422db0e909f5464",
+    "name": "compiler-rt_osx-64",
+    "noarch": "generic",
+    "sha256": "bc4f718f1cd1d5a942801e59cfb35762446ca85ac74dcbb4e2340e318cb682d7",
+    "size": 3187950,
+    "subdir": "noarch",
+    "timestamp": 1596990183023,
+    "version": "11.0.0.rc1"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/label/llvm_rc/noarch/compiler-rt_osx-64-11.0.0.rc1-h2a69e3a_0.tar.bz2"
+}
