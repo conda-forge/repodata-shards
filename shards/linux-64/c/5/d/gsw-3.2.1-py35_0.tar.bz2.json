@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/TEOS-10/GSW-Python/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/p/pygrib/pygrib-2.0.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/gsw/gsw-3.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Gibbs SeaWater Oceanographic Package of TEOS-10",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "2.0.1"
+    "timestamp": 1527707688,
+    "version": "3.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "pygrib-2.0.1-py34_2.tar.bz2",
+  "package": "gsw-3.2.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py34_2",
-    "build_number": 2,
+    "build": "py35_0",
+    "build_number": 0,
     "depends": [
-      "ecmwf_grib",
-      "jasper",
-      "libpng >=1.6.21,<1.7",
-      "numpy",
-      "pyproj",
-      "python 3.4*"
+      "numpy >=1.11",
+      "python >=3.5,<3.6.0a0"
     ],
     "license": "MIT",
-    "md5": "ffcb65c6c67cd4d1631f57b01edff782",
-    "name": "pygrib",
-    "sha256": "c6e74be87bdb79c4d7350a804249664a0c3678e559702b249cd4bc4ea2d37321",
-    "size": 1126193,
+    "md5": "424092b7667603a4ac2c1bf9b3325c9c",
+    "name": "gsw",
+    "sha256": "c5f238fed3c9646c9a17b31a53172bc87669d8f5aee4d153599093c0a65ac025",
+    "size": 2074347,
     "subdir": "linux-64",
-    "version": "2.0.1"
+    "timestamp": 1527707688071,
+    "version": "3.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pygrib-2.0.1-py34_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gsw-3.2.1-py35_0.tar.bz2"
 }
