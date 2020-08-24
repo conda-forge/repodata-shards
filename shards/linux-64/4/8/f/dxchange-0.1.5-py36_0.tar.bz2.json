@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://aarongarrett.github.io/inspyred/",
+    "home": "http://dxchange.readthedocs.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/inspyred/inspyred-1.0.1.tar.gz",
+    "source_url": "https://github.com/data-exchange/dxchange/archive/v0.1.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A framework for creating bio-inspired computational intelligence algorithms",
+    "summary": "Data I/O for tomography.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.1"
+    "version": "0.1.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,31 @@
     "cf202003",
     "main"
   ],
-  "package": "inspyred-1.0.1-py36_0.tar.bz2",
+  "package": "dxchange-0.1.5-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "dxfile",
+      "edffile",
+      "h5py",
+      "netcdf4",
+      "numpy",
+      "python 3.6*",
+      "scipy",
+      "six",
+      "spefile",
+      "tifffile"
     ],
-    "license": "MIT",
-    "md5": "6686bae5e824e686474be38928dd7c92",
-    "name": "inspyred",
-    "sha256": "851f0528e54310ecc86902d7f9862d365580f23d5727f10621609fd909add461",
-    "size": 104049,
+    "license": "BSD 3-Clause",
+    "md5": "4e5619520619d4f23daf47205a9c9533",
+    "name": "dxchange",
+    "sha256": "108edadf67da6d41ead6c858efd5c8bd35f85f9a1644688ac45e199d587ccbda",
+    "size": 38251,
     "subdir": "linux-64",
-    "version": "1.0.1"
+    "version": "0.1.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/inspyred-1.0.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dxchange-0.1.5-py36_0.tar.bz2"
 }

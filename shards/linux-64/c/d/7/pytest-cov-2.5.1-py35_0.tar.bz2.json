@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/pytest-dev/pytest-cov",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://aarongarrett.github.io/inspyred/",
+    "home": "https://github.com/pytest-dev/pytest-cov",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/inspyred/inspyred-1.0.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pytest-cov/pytest-cov-2.5.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A framework for creating bio-inspired computational intelligence algorithms",
+    "summary": "Pytest plugin for measuring coverage",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.1"
+    "version": "2.5.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "inspyred-1.0.1-py36_0.tar.bz2",
+  "package": "pytest-cov-2.5.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "coverage",
+      "pytest",
+      "python 3.5*",
+      "setuptools"
     ],
     "license": "MIT",
-    "md5": "6686bae5e824e686474be38928dd7c92",
-    "name": "inspyred",
-    "sha256": "851f0528e54310ecc86902d7f9862d365580f23d5727f10621609fd909add461",
-    "size": 104049,
+    "license_family": "MIT",
+    "md5": "a6a68c79f7865978c78ef787506f9d6c",
+    "name": "pytest-cov",
+    "sha256": "0a1887ce87196ec76209aaa193e7e462de9a98e1b99acc33fe99035483553f15",
+    "size": 23747,
     "subdir": "linux-64",
-    "version": "1.0.1"
+    "version": "2.5.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/inspyred-1.0.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-cov-2.5.1-py35_0.tar.bz2"
 }
