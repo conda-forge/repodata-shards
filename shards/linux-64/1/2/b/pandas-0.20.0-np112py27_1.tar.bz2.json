@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://pandas.pydata.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,37 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/pydata/pandas/archive/v0.20.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "High-performance, easy-to-use data structures and data analysis tools.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.7.2"
+    "version": "0.20.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "mistune-0.7.2-py35_0.tar.bz2",
+  "package": "pandas-0.20.0-np112py27_1.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "np112py27_1",
+    "build_number": 1,
     "depends": [
-      "python 3.5*"
+      "numpy 1.12*",
+      "python 2.7*",
+      "python-dateutil",
+      "pytz"
     ],
     "license": "BSD 3-clause",
-    "md5": "ddad7c01879740aea69c21ebd89b5c86",
-    "name": "mistune",
-    "sha256": "8433200a0f01283cd4e61b2c84254acac164b39126427799c65239d765be48e8",
-    "size": 22242,
+    "md5": "c2466762662d9ab019d70fb946ae6a51",
+    "name": "pandas",
+    "sha256": "ccf200351b4ffc7dd25c5c54f40a8e36abaf71e130488603ce581b3685403495",
+    "size": 22959049,
     "subdir": "linux-64",
-    "version": "0.7.2"
+    "version": "0.20.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/mistune-0.7.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandas-0.20.0-np112py27_1.tar.bz2"
 }
