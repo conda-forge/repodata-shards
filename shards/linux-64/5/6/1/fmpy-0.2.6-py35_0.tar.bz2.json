@@ -7,52 +7,59 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/scanny/python-pptx",
+    "home": "https://github.com/CATIA-Systems/FMPy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD-3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/python-pptx/python-pptx-0.5.8.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Generate and manipulate Open XML PowerPoint (.pptx) files",
+    "summary": "Simulate Functional Mockup Units (FMUs) in Python",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.5.8"
+    "version": "0.2.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "python-pptx-0.5.8-py35_0.tar.bz2",
+  "package": "fmpy-0.2.6-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "lxml >=3.1.0",
-      "pillow >=2.6.1",
+      "dask",
+      "lxml",
+      "matplotlib",
+      "numpy",
+      "pathlib",
+      "pyqt",
+      "pyqtgraph",
       "python 3.5*",
-      "xlsxwriter >=0.5.7"
+      "requests"
     ],
-    "license": "MIT",
-    "md5": "1a8ff27e3bf08b62d055b867825b6b65",
-    "name": "python-pptx",
-    "sha256": "c0e4232d9c406c56134338897810bd3641d5eeed1eafef6cf3512c2c68d85acd",
-    "size": 448967,
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "abe5ce3980a7560ddb89e1f2360186c0",
+    "name": "fmpy",
+    "sha256": "a1179004701ba9d59234bcc5b2552896e4b589d38f47c507a603f5b5a706bb3a",
+    "size": 934855,
     "subdir": "linux-64",
-    "version": "0.5.8"
+    "version": "0.2.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/python-pptx-0.5.8-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fmpy-0.2.6-py35_0.tar.bz2"
 }
