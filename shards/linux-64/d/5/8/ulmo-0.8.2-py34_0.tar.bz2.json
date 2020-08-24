@@ -7,23 +7,23 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ioos/pyoos",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-3.0",
+    "license": "BSD License",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/ioos/pyoos/archive/v0.8.2.tar.gz",
+    "source_url": "https://pypi.python.org/packages/source/u/ulmo/ulmo-0.8.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Python library for collecting Met/Ocean observations.",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
@@ -32,31 +32,36 @@
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "pyoos-0.8.2-py35_0.tar.bz2",
+  "package": "ulmo-0.8.2-py34_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
+      "appdirs",
       "beautifulsoup4",
-      "fiona",
+      "future",
+      "geojson",
+      "isodate",
       "lxml",
+      "mock",
       "numpy",
-      "owslib",
-      "paegan",
-      "python 3.5*",
-      "requests"
+      "pandas",
+      "pytables",
+      "python 3.4*",
+      "requests",
+      "suds-jurko"
     ],
-    "license": "GPL-3.0",
-    "md5": "2f2605f712d18d6b1ad0c08053cfa6b0",
-    "name": "pyoos",
-    "sha256": "5ba69cd972aa514465b919669a4a75f58e8f250d028b0a8856bddd5293ce7b8c",
-    "size": 239840,
+    "license": "BSD License",
+    "md5": "d82ae7ec834d91e6b7f53574c03e9cb0",
+    "name": "ulmo",
+    "sha256": "da416a1ca33248c8c8d1c02f7f541144ad4cb6d8857ce9fe382a43655d58884f",
+    "size": 112108,
     "subdir": "linux-64",
     "version": "0.8.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pyoos-0.8.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ulmo-0.8.2-py34_0.tar.bz2"
 }
