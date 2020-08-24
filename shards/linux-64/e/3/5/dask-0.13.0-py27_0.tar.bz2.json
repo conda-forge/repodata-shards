@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/dask-image/dask-ndfourier",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://dask-ndfourier.readthedocs.io/",
-    "home": "https://github.com/dask-image/dask-ndfourier",
+    "doc_url": null,
+    "home": "http://github.com/dask/dask/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/dask-ndfourier/dask-ndfourier-0.1.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/dask/dask-0.13.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for using N-D Fourier filter with Dask Arrays",
+    "summary": "Parallel PyData with task scheduling",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1.0"
+    "version": "0.13.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "dask-ndfourier-0.1.0-py36_0.tar.bz2",
+  "package": "dask-0.13.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "dask",
+      "bokeh",
+      "cloudpickle >=0.2.1",
       "numpy",
-      "python 3.6*",
-      "scipy"
+      "pandas >=0.18.0",
+      "partd >=0.3.6",
+      "python 2.7*",
+      "toolz >=0.7.2"
     ],
     "license": "BSD 3-Clause",
-    "md5": "5828543ea126f936381b6b73e269879a",
-    "name": "dask-ndfourier",
-    "sha256": "82f2fa377a65c453146af1763193317e8e2214d5e51b7a16023855291527515d",
-    "size": 10468,
+    "md5": "a5a8e74f6b854d56b7776faa690f0859",
+    "name": "dask",
+    "sha256": "a7d2c62c60288b689976763cb5a8929c151005b223eb1cd8d570c78ca8821b05",
+    "size": 723837,
     "subdir": "linux-64",
-    "version": "0.1.0"
+    "version": "0.13.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-ndfourier-0.1.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-0.13.0-py27_0.tar.bz2"
 }
