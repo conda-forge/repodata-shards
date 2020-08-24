@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "GPL-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/h/healpy/healpy-1.9.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,34 +27,34 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.6.0"
+    "version": "1.9.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "arm_pyart-1.6.0-np111py35_0.tar.bz2",
+  "package": "healpy-1.9.1-np111py34_0.tar.bz2",
   "repodata": {
-    "build": "np111py35_0",
+    "build": "np111py34_0",
     "build_number": 0,
     "depends": [
+      "astropy",
       "matplotlib",
-      "netcdf4",
       "numpy 1.11*",
-      "python 3.5*",
-      "scipy",
-      "trmm_rsl"
+      "python 3.4*",
+      "six"
     ],
-    "license": "BSD-3-Clause",
-    "md5": "666b8994a753b38b78988d849c8ee9c9",
-    "name": "arm_pyart",
-    "sha256": "d4d287d5504d1e0a61ad5e92b41facc6a04c36b0e56319be0bcb4226fe5a8314",
-    "size": 4796536,
+    "license": "GPL-2.0",
+    "md5": "b5e07fb587c93891ba75675a6afe8e61",
+    "name": "healpy",
+    "sha256": "10b20ca40d28cc57655af230e2c50d116eea2b08926145577c95fdadf6a4f11e",
+    "size": 15551069,
     "subdir": "linux-64",
-    "version": "1.6.0"
+    "version": "1.9.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/arm_pyart-1.6.0-np111py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/healpy-1.9.1-np111py34_0.tar.bz2"
 }
