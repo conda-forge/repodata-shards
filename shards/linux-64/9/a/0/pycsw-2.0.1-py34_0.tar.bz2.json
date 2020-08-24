@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/explosion/murmurhash/",
+    "home": "https://github.com/geopython/pycsw",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/m/murmurhash/murmurhash-0.28.0.tar.gz",
+    "source_url": "https://github.com/geopython/pycsw/archive/2.0.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Cython bindings for MurmurHash2",
+    "summary": "OGC Catalog Service for the Web (CSW) implementation in python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.28.0"
+    "version": "2.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,31 @@
     "cf202003",
     "main"
   ],
-  "package": "murmurhash-0.28.0-py27_0.tar.bz2",
+  "package": "pycsw-2.0.1-py34_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "geolinks",
+      "lxml 3.6.2",
+      "owslib",
+      "psycopg2",
+      "pyproj",
+      "python 3.4*",
+      "shapely",
+      "six",
+      "sqlalchemy",
+      "xmltodict"
     ],
     "license": "MIT",
-    "md5": "f46f8e8147bfa893bf7cb901e99ba070",
-    "name": "murmurhash",
-    "sha256": "fecd0c79c071e5c83e8c759b39aee1285c3133fe9b05e3b2e8998b25b1555b11",
-    "size": 38284,
+    "md5": "da48ac162340a204113cb4e5e913bb69",
+    "name": "pycsw",
+    "sha256": "2b246fcc4013f3ec5ed4506656f33520d0d6edae3fd8ba88cc33b76c23dffe0b",
+    "size": 391033,
     "subdir": "linux-64",
-    "version": "0.28.0"
+    "version": "2.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/murmurhash-0.28.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pycsw-2.0.1-py34_0.tar.bz2"
 }
