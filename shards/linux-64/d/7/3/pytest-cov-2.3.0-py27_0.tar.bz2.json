@@ -7,51 +7,52 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pandoc.org/",
+    "home": "https://github.com/pytest-dev/pytest-cov",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/jgm/pandoc/releases/download/2.2/pandoc-2.2-1-amd64.deb",
+    "source_url": "https://pypi.io/packages/source/p/pytest-cov/pytest-cov-2.3.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Universal markup converter (repackaged binaries).",
+    "summary": "Pytest plugin for measuring coverage",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1525216363,
-    "version": "2.2"
+    "timestamp": 0,
+    "version": "2.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "pandoc-2.2-0.tar.bz2",
+  "package": "pytest-cov-2.3.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "gmp",
-      "zlib 1.2.11.*"
+      "coverage",
+      "pytest",
+      "python 2.7*",
+      "setuptools"
     ],
-    "license": "GPL-2.0",
-    "md5": "0ab9136974f490e65eaf484f87c0039e",
-    "name": "pandoc",
-    "sha256": "dc7a51a1e3b1bf372e37986485213806693458135eddd2a648a1f689a837c2ad",
-    "size": 22104588,
+    "license": "MIT",
+    "md5": "e9e3f2ceef1442fb13eff8232baf4b0c",
+    "name": "pytest-cov",
+    "sha256": "e9ddcd3c5124b188a9ad74af8341bde93c172833e43d62aac1a51c46ba771f9b",
+    "size": 18959,
     "subdir": "linux-64",
-    "timestamp": 1525216363236,
-    "version": "2.2"
+    "version": "2.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pandoc-2.2-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-cov-2.3.0-py27_0.tar.bz2"
 }
