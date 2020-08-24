@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/pydata/xarray",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD License",
+    "license": "Apache-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/x/xarray/xarray-0.10.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "N-D labeled arrays and datasets in Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2.2"
+    "version": "0.10.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "h5netcdf-0.2.2-py35_0.tar.bz2",
+  "package": "xarray-0.10.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "h5py",
-      "python 3.5*"
+      "bottleneck",
+      "dask >=0.9",
+      "h5netcdf",
+      "netcdf4",
+      "numpy >=1.11",
+      "pandas >=0.18",
+      "python 3.5*",
+      "scipy"
     ],
-    "license": "BSD License",
-    "md5": "4e9c58b194fabf7f42c366cbee27f963",
-    "name": "h5netcdf",
-    "sha256": "4bbd2a6ef68e890c58186340c81b75cb8c904c7f0e5f346dd9ce34d6e2e9a703",
-    "size": 18051,
+    "license": "Apache-2.0",
+    "md5": "0ed3193489e89df24eee3a717f065316",
+    "name": "xarray",
+    "sha256": "71e7422378bf18e869f03a19cd4d884036eb16ebf8b9066424e70cc0ce9842d1",
+    "size": 652946,
     "subdir": "linux-64",
-    "version": "0.2.2"
+    "version": "0.10.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5netcdf-0.2.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xarray-0.10.1-py35_0.tar.bz2"
 }
