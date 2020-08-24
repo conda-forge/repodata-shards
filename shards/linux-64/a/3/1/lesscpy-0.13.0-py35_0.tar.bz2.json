@@ -4,30 +4,30 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/lesscpy/lesscpy",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://django-grappelli.readthedocs.org",
+    "home": "https://github.com/lesscpy/lesscpy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/django-grappelli/django-grappelli-2.10.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/l/lesscpy/lesscpy-0.13.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A jazzy skin for the Django Admin-Interface.",
+    "summary": "Python LESS compiler",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "2.10.1"
+    "version": "0.13.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "django-grappelli-2.10.1-py35_0.tar.bz2",
+  "package": "lesscpy-0.13.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "django",
-      "python 3.5*"
+      "ply",
+      "python 3.5*",
+      "six"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "bc5a15fe3d0136f3885676a8bf3d5543",
-    "name": "django-grappelli",
-    "sha256": "8a2ab4523eef5f3209445ae2c83f33df4eadccb0f0267fa721ea492ff33c8c2d",
-    "size": 1203839,
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "5b0603b9509808cf3814b166949b062a",
+    "name": "lesscpy",
+    "sha256": "acf5ccab51b702940fa60bc43eace4dbd1ac2813257547477c6618e91d40c6e8",
+    "size": 74656,
     "subdir": "linux-64",
-    "version": "2.10.1"
+    "version": "0.13.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-grappelli-2.10.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/lesscpy-0.13.0-py35_0.tar.bz2"
 }
