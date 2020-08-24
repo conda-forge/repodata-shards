@@ -7,12 +7,12 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://tensorflow.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -23,34 +23,37 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "TensorFlow helps the tensors flow",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "3.5.0b2"
+    "version": "1.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "configparser-3.5.0b2-py27_0.tar.bz2",
+  "package": "tensorflow-1.4.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "numpy >=1.12.1",
+      "protobuf >=3.3.0",
+      "python 3.5*",
+      "six >=1.10.0",
+      "tensorboard >=0.4.0rc1,<0.5.0"
     ],
-    "license": "MIT",
-    "md5": "be76f37dc66da774acad0d7f141919f9",
-    "name": "configparser",
-    "sha256": "33b1f806865222153a537ec08fedf0d55db3e4f26c4abe2ed78a4e71c43858ee",
-    "size": 30874,
+    "license": "Apache 2.0",
+    "md5": "cd527144de611759dead69b4fae4ad4e",
+    "name": "tensorflow",
+    "sha256": "8569df275c95a8898f7681afcce7ea716b76aa7206a6a6df0b206152c5984a66",
+    "size": 36411281,
     "subdir": "linux-64",
-    "version": "3.5.0b2"
+    "version": "1.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/configparser-3.5.0b2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/tensorflow-1.4.0-py35_0.tar.bz2"
 }
