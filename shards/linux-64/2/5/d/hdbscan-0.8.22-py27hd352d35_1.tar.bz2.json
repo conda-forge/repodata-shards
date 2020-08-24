@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/jcrist/crick",
+    "home": "http://github.com/lmcinnes/hdbscan",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/crick/crick-0.0.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/hdbscan/hdbscan-0.8.22.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "High performance approximate and streaming algorithms.",
+    "summary": "Clustering based on density with variable density clusters",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1539700651,
-    "version": "0.0.3"
+    "timestamp": 1557868406,
+    "version": "0.8.22"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "crick-0.0.3-py37h3010b51_1000.tar.bz2",
+  "package": "hdbscan-0.8.22-py27hd352d35_1.tar.bz2",
   "repodata": {
-    "build": "py37h3010b51_1000",
-    "build_number": 1000,
+    "build": "py27hd352d35_1",
+    "build_number": 1,
     "depends": [
+      "joblib",
       "libgcc-ng >=7.3.0",
       "numpy >=1.9.3,<2.0a0",
-      "python >=3.7,<3.8.0a0"
+      "python >=2.7,<2.8.0a0",
+      "scikit-learn >=0.16"
     ],
     "license": "BSD 3-Clause",
-    "md5": "12d6bbee4e8fe84f2887856f1d559d66",
-    "name": "crick",
-    "sha256": "4ee0315f71618b0be62e46a8764062e62d956fae16a349b5cbe11443fde66e81",
-    "size": 231236,
+    "md5": "cb35d1b9b0149d29d6dfa193a9b213fb",
+    "name": "hdbscan",
+    "sha256": "8132e7f62b19a6fa152ab05773b44de82dd80a5a8690f6f26cdffc67acf2028f",
+    "size": 676873,
     "subdir": "linux-64",
-    "timestamp": 1539700651334,
-    "version": "0.0.3"
+    "timestamp": 1557868406473,
+    "version": "0.8.22"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/crick-0.0.3-py37h3010b51_1000.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdbscan-0.8.22-py27hd352d35_1.tar.bz2"
 }
