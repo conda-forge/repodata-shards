@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/SciTools-incubator/python-stratify",
+    "home": "https://github.com/Calysto/metakernel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/SciTools-incubator/python-stratify/archive/v0.1a2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/m/metakernel/metakernel-0.19.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Vectorized interpolators that are especially useful for Nd vertical interpolation/stratification of atmospheric and oceanographic datasets.",
+    "summary": "Metakernel for Jupyter.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1a2"
+    "version": "0.19.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "python-stratify-0.1a2-np113py27_0.tar.bz2",
+  "package": "metakernel-0.19.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "np113py27_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "numpy 1.13*",
+      "ipykernel",
+      "pexpect >=4.2",
       "python 2.7*"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "c83036c83e1869b4b1bafd4108355824",
-    "name": "python-stratify",
-    "sha256": "e599bfa5b83d85da229dc863f50082dbd965dfdd8b5853d339b1cc2ad1113d3e",
-    "size": 437909,
+    "md5": "7217ccf87c43698476386609111f0cda",
+    "name": "metakernel",
+    "sha256": "343047bff108ed3a7be3ec78e6471efdd10641f64744bfcb5371a610b80e783e",
+    "size": 115493,
     "subdir": "linux-64",
-    "version": "0.1a2"
+    "version": "0.19.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-stratify-0.1a2-np113py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/metakernel-0.19.1-py27_0.tar.bz2"
 }
