@@ -7,51 +7,55 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/lmcinnes/hdbscan",
+    "home": "http://wradlib.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hdbscan/hdbscan-0.8.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-0.10.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Clustering based on density with variable density clusters",
+    "summary": "Open Source Library for Weather Radar Data Processing",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.8.4"
+    "version": "0.10.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "hdbscan-0.8.4-py34_0.tar.bz2",
+  "package": "wradlib-0.10.1-py36_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*",
-      "scikit-learn >=0.16"
+      "gdal 2.2.*",
+      "h5py",
+      "matplotlib",
+      "netcdf4",
+      "numpy",
+      "python 3.6*",
+      "scipy"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "b52c844e84121fd971f4400c7399c493",
-    "name": "hdbscan",
-    "sha256": "7eaf8189c5c0560558319be7c9542c7657a6330a6c173d207dc5901aa15937bb",
-    "size": 2110998,
+    "license": "MIT",
+    "md5": "76d2c37435b33088a61c9fa02c606d9d",
+    "name": "wradlib",
+    "sha256": "57c32deb30df483a4730ee891145123eafa54d8edbc0d841011d9562d481d1b9",
+    "size": 219705,
     "subdir": "linux-64",
-    "version": "0.8.4"
+    "version": "0.10.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdbscan-0.8.4-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-0.10.1-py36_0.tar.bz2"
 }

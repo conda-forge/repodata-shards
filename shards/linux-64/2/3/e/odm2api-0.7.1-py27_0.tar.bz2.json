@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/lmcinnes/hdbscan",
+    "home": "https://github.com/ODM2/ODM2PythonAPI",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hdbscan/hdbscan-0.8.4.tar.gz",
+    "source_url": "https://github.com/ODM2/ODM2PythonAPI/archive/v0.7.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Clustering based on density with variable density clusters",
+    "summary": "A Python-based application programmer's interface for the Observations Data Model 2 (ODM2).",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.8.4"
+    "version": "0.7.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "hdbscan-0.8.4-py34_0.tar.bz2",
+  "package": "odm2api-0.7.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*",
-      "scikit-learn >=0.16"
+      "geoalchemy-odm2",
+      "pandas",
+      "psycopg2",
+      "pymysql",
+      "pyodbc",
+      "python 2.7*",
+      "shapely",
+      "six",
+      "sqlalchemy"
     ],
     "license": "BSD 3-Clause",
-    "md5": "b52c844e84121fd971f4400c7399c493",
-    "name": "hdbscan",
-    "sha256": "7eaf8189c5c0560558319be7c9542c7657a6330a6c173d207dc5901aa15937bb",
-    "size": 2110998,
+    "md5": "6c70537ac33b8a78b10b31827ae40e1f",
+    "name": "odm2api",
+    "sha256": "78fd9186031553f229aca2052c5c672609bff4514ffcff2bb34e231e7270c882",
+    "size": 58233,
     "subdir": "linux-64",
-    "version": "0.8.4"
+    "version": "0.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdbscan-0.8.4-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/odm2api-0.7.1-py27_0.tar.bz2"
 }
