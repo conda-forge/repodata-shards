@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ubernostrum/webcolors",
+    "home": "http://jupyter.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,37 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/w/webcolors/webcolors-1.7.tar.gz",
+    "source_url": "https://pypi.io/packages/source/q/qtconsole/qtconsole-4.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Library for working with HTML/CSS color formats in Python.",
+    "summary": "Jupyter Qt console",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.7"
+    "version": "4.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "webcolors-1.7-py35_0.tar.bz2",
+  "package": "qtconsole-4.2.1-py34_1.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "py34_1",
+    "build_number": 1,
     "depends": [
-      "python 3.5*"
+      "ipykernel >=4.1",
+      "jupyter_client >=4.1",
+      "jupyter_core",
+      "pygments",
+      "pyqt 4.11.*",
+      "python 3.4*",
+      "traitlets"
     ],
     "license": "BSD 3-Clause",
-    "md5": "ffe1928eb1d7b45e04126984bdeae481",
-    "name": "webcolors",
-    "sha256": "8c9915e2b7549fb4f6db126b8978206dc1e33e684de024c866fa27c684f89adf",
-    "size": 16833,
+    "md5": "acb24fdb70a228a703213698bccf4281",
+    "name": "qtconsole",
+    "sha256": "c06c237ba48afb4054450132779ee464594d7d2f10feda5e343f31ffe4c4ff92",
+    "size": 144959,
     "subdir": "linux-64",
-    "version": "1.7"
+    "version": "4.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/webcolors-1.7-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/qtconsole-4.2.1-py34_1.tar.bz2"
 }
