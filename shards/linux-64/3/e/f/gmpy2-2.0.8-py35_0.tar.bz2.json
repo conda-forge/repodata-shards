@@ -7,51 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://pypi.python.org/pypi/gmpy2",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Boost-1.0",
+    "license": "LGPL 3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://sourceforge.net/projects/boost/files/boost/1.61.0/boost_1_61_0.tar.bz2",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "GMP/MPIR, MPFR, and MPC interface to Python 2.6+ and 3.x",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.61.0"
+    "version": "2.0.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "boost-1.61.0-py34_0.tar.bz2",
+  "package": "gmpy2-2.0.8-py35_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "icu 56.*",
-      "python 3.4*",
-      "zlib 1.2*"
+      "gmp",
+      "mpc",
+      "mpfr",
+      "python 3.5*"
     ],
-    "license": "Boost-1.0",
-    "md5": "8d893d91d37685b2dbd5d69e9ef4db32",
-    "name": "boost",
-    "sha256": "fe2f4447b7d3e6a6e8dfd1ff688a7befc7587a5d44ff25439738569071d5a7bb",
-    "size": 18460877,
+    "license": "LGPL 3",
+    "md5": "4bd0f6fbfa73e338d28c1ba843988a14",
+    "name": "gmpy2",
+    "sha256": "0b94a054778829d81191f3bac5f1cf26991e04637175641227a43b13a11d65e9",
+    "size": 642228,
     "subdir": "linux-64",
-    "version": "1.61.0"
+    "version": "2.0.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/boost-1.61.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gmpy2-2.0.8-py35_0.tar.bz2"
 }
