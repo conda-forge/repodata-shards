@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "GPL2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pvlib/pvlib-0.3.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/u/uWSGI/uwsgi-2.0.12.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,33 +27,34 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.2"
+    "version": "2.0.12"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "pvlib-python-0.3.2-py35_0.tar.bz2",
+  "package": "uwsgi-2.0.12-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "numpy >=1.8.2",
-      "pandas >=0.13.1",
+      "libxml2",
+      "openssl 1.0.*",
+      "pcre",
       "python 3.5*",
-      "pytz",
-      "six"
+      "yaml",
+      "zlib 1.2*"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "263c230ffa42eab98c7a7b39be01df3b",
-    "name": "pvlib-python",
-    "sha256": "ccdc02ea2289bfe4a5f3344b98dba240907f08f884a350ff03657fd40ae49873",
-    "size": 20536931,
+    "license": "GPL2",
+    "md5": "5dde2b6451265e0fe012ae46f8d7edd4",
+    "name": "uwsgi",
+    "sha256": "80b05204c976f2dcf789c9e98206021fd2f2b1a468b93f5391e706d52d82fb50",
+    "size": 508730,
     "subdir": "linux-64",
-    "version": "0.3.2"
+    "version": "2.0.12"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pvlib-python-0.3.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/uwsgi-2.0.12-py35_0.tar.bz2"
 }
