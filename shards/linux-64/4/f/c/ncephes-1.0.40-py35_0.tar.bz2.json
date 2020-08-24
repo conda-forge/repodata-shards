@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/MongoEngine/mongoengine",
+    "dev_url": "https://github.com/limix/ncephes",
     "doc_source_url": null,
-    "doc_url": "https://mongoengine-odm.readthedocs.io/",
-    "home": "http://mongoengine.org/",
+    "doc_url": "https://ncephes.readthedocs.io",
+    "home": "https://github.com/limix/ncephes",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/m/mongoengine/mongoengine-0.10.6.tar.gz",
+    "source_url": "https://pypi.io/packages/source/n/ncephes/ncephes-1.0.40.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "MongoEngine is a Python Object-Document Mapper for working with MongoDB.",
+    "summary": "Python interface for the Cephes library",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.10.6"
+    "version": "1.0.40"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "mongoengine-0.10.6-py35_0.tar.bz2",
+  "package": "ncephes-1.0.40-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "pymongo >=2.7.1",
+      "cffi >=1.7",
       "python 3.5*"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "0c1b59ce5a920c37cbdb410dd080d85d",
-    "name": "mongoengine",
-    "sha256": "0fe73eb62975659d3faa80f88450b0bbe8dd5dabb7995b2292725da5ac3fadf0",
-    "size": 344076,
+    "md5": "46cae74a8bd1234b212e88bd79d51597",
+    "name": "ncephes",
+    "sha256": "9b655b7b0a63cc95c9ae7d20dfb1a7e7ebe02925e4f8255d328ca0b793004da0",
+    "size": 513154,
     "subdir": "linux-64",
-    "version": "0.10.6"
+    "version": "1.0.40"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/mongoengine-0.10.6-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ncephes-1.0.40-py35_0.tar.bz2"
 }
