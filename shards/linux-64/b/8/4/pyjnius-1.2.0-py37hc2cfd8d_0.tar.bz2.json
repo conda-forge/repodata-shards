@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": true,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": true,
     "description": null,
     "dev_url": null,
@@ -18,45 +18,44 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": "https://github.com/kivy/pyjnius.git",
-    "source_url": null,
+    "source_git_url": null,
+    "source_url": "https://github.com/kivy/pyjnius/archive/1.2.0.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Python module to access Java classes as Python classes using JNI (shared memory).",
+    "summary": "A Python module to access Java classes as Python classes using JNI (shared memory)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1532100724,
-    "version": "1.1.1.post54"
+    "timestamp": 1549801477,
+    "version": "1.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pyjnius-1.1.1.post54-py36hfc679d8_0.tar.bz2",
+  "package": "pyjnius-1.2.0-py37hc2cfd8d_0.tar.bz2",
   "repodata": {
-    "build": "py36hfc679d8_0",
+    "build": "py37hc2cfd8d_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=4.9",
-      "libstdcxx-ng >=4.9",
-      "openjdk >=8",
-      "python >=3.6,<3.7.0a0",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "openjdk >=9.0.7,<9.1.0a0",
+      "python >=3.7,<3.8.0a0",
       "setuptools",
       "six >=1.7.0"
     ],
     "license": "MIT",
-    "md5": "ddc1d23fa59deb506517024abf3453b9",
+    "md5": "3bb6aaef1b80d027a7b9c4dbb2c8c715",
     "name": "pyjnius",
-    "sha256": "9dde79031045071b8523ce9518dbb21708c70c9a21164c374baf42ecf6a06836",
-    "size": 953600,
+    "sha256": "1cf3ab063cc2861bbe00bb00137dc0a5b8b99597c691df5b264be6c1e36b224a",
+    "size": 253448,
     "subdir": "linux-64",
-    "timestamp": 1532100724581,
-    "version": "1.1.1.post54"
+    "timestamp": 1549801477457,
+    "version": "1.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyjnius-1.1.1.post54-py36hfc679d8_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyjnius-1.2.0-py37hc2cfd8d_0.tar.bz2"
 }
