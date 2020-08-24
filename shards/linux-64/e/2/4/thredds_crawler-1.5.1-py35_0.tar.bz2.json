@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/cgat-developers/conda-deps",
+    "home": "https://github.com/asascience-open/thredds_crawler",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/conda_deps/conda_deps-0.0.6.tar.gz",
+    "source_url": "https://github.com/ioos/thredds_crawler/archive/1.5.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Generate conda environment files from Python source code",
+    "summary": "A Python library for crawling THREDDS servers.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1556174411,
-    "version": "0.0.6"
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "1.5.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "conda_deps-0.0.6-py37_0.tar.bz2",
+  "package": "thredds_crawler-1.5.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py37_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python >=3.7,<3.8.0a0"
+      "lxml",
+      "netcdf4",
+      "python 3.5*",
+      "pytz",
+      "requests"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "239a4de78f4ecf751f4810225acd1a38",
-    "name": "conda_deps",
-    "sha256": "fcde7dc9a5facff5aeb92f9e119946e85b6046cddfa6b11131dc528fac7cc48f",
-    "size": 16090,
+    "md5": "ebcbb567981c37db990730345fcb790c",
+    "name": "thredds_crawler",
+    "sha256": "66c96662d057c0f033217345613a6ae03fe2eeaa0bbdb7c2b088dad4aa79d539",
+    "size": 214367,
     "subdir": "linux-64",
-    "timestamp": 1556174411614,
-    "version": "0.0.6"
+    "version": "1.5.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda_deps-0.0.6-py37_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/thredds_crawler-1.5.1-py35_0.tar.bz2"
 }
