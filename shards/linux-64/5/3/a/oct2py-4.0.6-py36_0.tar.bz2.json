@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/mymarilyn/clickhouse-driver",
+    "home": "http://github.com/blink1073/oct2py",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/clickhouse-driver/clickhouse-driver-0.0.14.tar.gz",
+    "source_url": "https://pypi.io/packages/source/o/oct2py/oct2py-4.0.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python driver with native interface for ClickHouse",
+    "summary": "Python to GNU Octave bridge --> run m-files from python.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1535061718,
-    "version": "0.0.14"
+    "timestamp": 0,
+    "version": "4.0.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "clickhouse-driver-0.0.14-py36_0.tar.bz2",
+  "package": "oct2py-4.0.6-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python >=3.6,<3.7.0a0",
-      "six"
+      "ipython",
+      "numpy",
+      "octave_kernel >=0.25.0",
+      "python 3.6*",
+      "scipy"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "ca44fe2ca5a97e40e75fe685481283e0",
-    "name": "clickhouse-driver",
-    "sha256": "02cfa2bf8881665989bf81558afeaca78b4e30cda9cd6a1667cbdb12bac2c46b",
-    "size": 64573,
+    "md5": "7dd7cb2271667ca9d6768f2ee3224f2c",
+    "name": "oct2py",
+    "sha256": "48f9a1c8db85e15adbaa7e54ae5245388b4e6a112c2aa486f5765c76ae24ecc6",
+    "size": 61880,
     "subdir": "linux-64",
-    "timestamp": 1535061718311,
-    "version": "0.0.14"
+    "version": "4.0.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/clickhouse-driver-0.0.14-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/oct2py-4.0.6-py36_0.tar.bz2"
 }
