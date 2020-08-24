@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.gnu.org/software/parallel/",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-3",
+    "license": "GNU Lesser General Public License",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://ftpmirror.gnu.org/parallel/parallel-20171222.tar.bz2",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "GNU parallel is a shell tool for executing jobs in parallel using one or more computers.",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "20171222"
+    "version": "1.9.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,32 @@
     "cf202003",
     "main"
   ],
-  "package": "parallel-20171222-pl5.22.2.1_1.tar.bz2",
+  "package": "iris-1.9.2-py27_1.tar.bz2",
   "repodata": {
-    "build": "pl5.22.2.1_1",
+    "build": "py27_1",
     "build_number": 1,
     "depends": [
-      "perl 5.22.2.1*"
+      "biggus",
+      "cartopy",
+      "cf_units",
+      "matplotlib",
+      "mo_pack",
+      "netcdf4",
+      "numpy",
+      "pyke",
+      "python 2.7*",
+      "python-ecmwf_grib >=1.12.1",
+      "scipy"
     ],
-    "license": "GPL-3",
-    "license_family": "GPL",
-    "md5": "ec91ce5a8aa72f4eb0988264d2af884b",
-    "name": "parallel",
-    "sha256": "be898649babb8588c4c0605505687dc9cfaf8e9005a08cf090a368fddfee0738",
-    "size": 1362800,
+    "license": "GNU Lesser General Public License",
+    "md5": "66dbc77c5a576f6c39ec9745c733cf6d",
+    "name": "iris",
+    "sha256": "03c486c3117429e29f70dcb3038e3c570ebe60d22dca1855ca7524799a176230",
+    "size": 1443839,
     "subdir": "linux-64",
-    "version": "20171222"
+    "version": "1.9.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/parallel-20171222-pl5.22.2.1_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/iris-1.9.2-py27_1.tar.bz2"
 }
