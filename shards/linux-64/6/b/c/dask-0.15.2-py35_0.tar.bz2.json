@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://reproject.readthedocs.io",
+    "home": "http://github.com/dask/dask/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/reproject/reproject-0.3.2.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The reproject package implements image reprojection (resampling) methods for astronomical data.",
+    "summary": "Parallel Python with task scheduling",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.2"
+    "version": "0.15.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "reproject-0.3.2-py35_0.tar.bz2",
+  "package": "dask-0.15.2-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "astropy >=1.0",
+      "bokeh",
+      "cloudpickle >=0.2.1",
+      "dask-core 0.15.2",
+      "distributed >=1.16.0",
       "numpy",
+      "pandas >=0.19.0",
+      "partd >=0.3.8",
       "python 3.5*",
-      "scipy"
+      "toolz >=0.7.3"
     ],
     "license": "BSD 3-Clause",
-    "md5": "24722d4e32809d243a7b91e2fa46b8b6",
-    "name": "reproject",
-    "sha256": "2dc15eeab8e2721d8c92624e26cfaf8676b093a88f35b04f324c1e7b9b7f8adf",
-    "size": 394446,
+    "md5": "9bd73dbb6b4b9bb2e7d41a1711036c5c",
+    "name": "dask",
+    "sha256": "6dab933d2e5c2deb3478f041ec8de27e462bf135ec916ea745acfb09d04ac7f8",
+    "size": 2650,
     "subdir": "linux-64",
-    "version": "0.3.2"
+    "version": "0.15.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/reproject-0.3.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-0.15.2-py35_0.tar.bz2"
 }
