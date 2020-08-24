@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://humanfriendly.readthedocs.org",
+    "home": "https://github.com/asottile/pyupgrade",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/humanfriendly/humanfriendly-7.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyupgrade/pyupgrade-1.25.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Human friendly output for text interfaces using Python.",
+    "summary": "A tool to automatically upgrade syntax for newer versions.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1583091574,
-    "version": "7.2"
+    "timestamp": 1575560496,
+    "version": "1.25.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "humanfriendly-7.2-py37_0.tar.bz2",
+  "package": "pyupgrade-1.25.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "py37_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python >=3.7,<3.8.0a0"
+      "python >=2.7,<2.8.0a0",
+      "tokenize-rt >=3.2.0",
+      "typing"
     ],
     "license": "MIT",
-    "md5": "e29c0e29276081d4a4c744af099fdffd",
-    "name": "humanfriendly",
-    "sha256": "e558e2959df50a5df17c0ae3b6008c364996c7727f1366acf90c047bb83b135e",
-    "size": 113211,
+    "license_family": "MIT",
+    "md5": "5900cc311085b29b60807208b5dfd66e",
+    "name": "pyupgrade",
+    "sha256": "5136fd2369b6ba18b5110eb5f1b99e43d4e6e5a33c53259ee379237f8b777ea2",
+    "size": 43238,
     "subdir": "linux-64",
-    "timestamp": 1583091574334,
-    "version": "7.2"
+    "timestamp": 1575560496160,
+    "version": "1.25.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/humanfriendly-7.2-py37_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyupgrade-1.25.2-py27_0.tar.bz2"
 }
