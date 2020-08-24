@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://git-lfs.github.com/",
+    "home": "https://github.com/symengine/symengine",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,37 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/git-lfs/git-lfs/releases/download/v2.7.0/git-lfs-linux-amd64-v2.7.0.tar.gz",
+    "source_url": "https://github.com/symengine/symengine/archive/v0.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "An open source Git extension for versioning large files",
+    "summary": "SymEngine is a fast symbolic manipulation library, written in C++",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1550304052,
-    "version": "2.7.0"
+    "timestamp": 0,
+    "version": "0.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "git-lfs-2.7.0-0.tar.bz2",
+  "package": "symengine-0.2.0-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
-    "depends": [],
+    "depends": [
+      "gmp",
+      "mpc",
+      "mpfr"
+    ],
     "license": "MIT",
-    "md5": "58e17c883382be9a18f0df363a0292dd",
-    "name": "git-lfs",
-    "sha256": "5373ebd9939986a573b94c5c00c37a0b0ee1165fd5fb68d8f3e258b68bd8ee0a",
-    "size": 3354299,
+    "md5": "7704c79068d146b55b318e11ee78ae6e",
+    "name": "symengine",
+    "sha256": "a1c5e9b47ba41c3bdcbff2aca041dfe37731e2613109098758af817d780680bd",
+    "size": 832874,
     "subdir": "linux-64",
-    "timestamp": 1550304052649,
-    "version": "2.7.0"
+    "version": "0.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/git-lfs-2.7.0-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/symengine-0.2.0-0.tar.bz2"
 }
