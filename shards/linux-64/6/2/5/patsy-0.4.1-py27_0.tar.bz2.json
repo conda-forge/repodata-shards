@@ -1,56 +1,59 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/explosion/murmurhash/",
+    "home": "https://github.com/pydata/patsy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD-2-Clause, PSF2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/m/murmurhash/murmurhash-0.28.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/patsy/patsy-0.4.1.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Cython bindings for MurmurHash2",
+    "summary": "Describing statistical models in Python using symbolic formulas",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.28.0"
+    "version": "0.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "murmurhash-0.28.0-py27_0.tar.bz2",
+  "package": "patsy-0.4.1-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "numpy >=1.4.0",
+      "python 2.7*",
+      "scipy",
+      "six"
     ],
-    "license": "MIT",
-    "md5": "f46f8e8147bfa893bf7cb901e99ba070",
-    "name": "murmurhash",
-    "sha256": "fecd0c79c071e5c83e8c759b39aee1285c3133fe9b05e3b2e8998b25b1555b11",
-    "size": 38284,
+    "license": "BSD-2-Clause, PSF2",
+    "license_family": "BSD",
+    "md5": "ee876d2f0171d2f90c4edcc280880b1b",
+    "name": "patsy",
+    "sha256": "bc6c3e699cebf8544a642d6423182b7fa0d06b7a77333da7a70c9b968b1c4b38",
+    "size": 298180,
     "subdir": "linux-64",
-    "version": "0.28.0"
+    "version": "0.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/murmurhash-0.28.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/patsy-0.4.1-py27_0.tar.bz2"
 }
