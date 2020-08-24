@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/nucleic/kiwi",
+    "home": "https://github.com/modflowpy/flopy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/nucleic/kiwi/archive/1.0.0.tar.gz",
+    "source_url": "https://github.com/modflowpy/flopy/archive/3.2.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A fast implementation of the Cassowary constraint solver",
+    "summary": "FloPy is a Python package for developing, running, and post-processing MODFLOW-based models.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.0"
+    "version": "3.2.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "kiwisolver-1.0.0-py27_0.tar.bz2",
+  "package": "flopy-3.2.7-py27_1.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "py27_1",
+    "build_number": 1,
     "depends": [
+      "enum34",
+      "matplotlib",
+      "numpy",
       "python 2.7*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "92bc734bcad110379b11b0d5ced58365",
-    "name": "kiwisolver",
-    "sha256": "91c822feb13746c0de9c7524b34ab9c2ad84b2e19c1308aaf77f42fb3971aa52",
-    "size": 946463,
+    "md5": "dde077ff1608b43f6383f5fceac5e095",
+    "name": "flopy",
+    "sha256": "130157b861413d638d66fcbdcb2dafecc35b3f2a6b00bd5d16ee29113b25e5d3",
+    "size": 1050267,
     "subdir": "linux-64",
-    "version": "1.0.0"
+    "version": "3.2.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/kiwisolver-1.0.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/flopy-3.2.7-py27_1.tar.bz2"
 }
