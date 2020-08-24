@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/hadim/read_roi/",
+    "home": "https://github.com/ResidentMario/geoplot",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/read-roi/read-roi-1.1.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/geoplot/geoplot-0.0.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Read ROI files .zip or .roi generated with ImageJ.",
+    "summary": "High-level geospatial plotting for Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.1.0"
+    "version": "0.0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "read-roi-1.1.0-py36_0.tar.bz2",
+  "package": "geoplot-0.0.3-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "cartopy",
+      "geopandas",
+      "matplotlib",
+      "pandas",
+      "python 3.6*",
+      "seaborn"
     ],
-    "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "ca6941e8ce0b48203fb39e908a09a2ab",
-    "name": "read-roi",
-    "sha256": "81bf40b1a35e1c90c9b17b16a8982bf77ec4036d1314acbdefdf7a5b67dc67a4",
-    "size": 10049,
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "5fd4f7786656d3877214d0dbcca6961a",
+    "name": "geoplot",
+    "sha256": "d6ed586dfd369e016950a97195683944da0ac53c52b17628848ff1039dbec3f0",
+    "size": 45625,
     "subdir": "linux-64",
-    "version": "1.1.0"
+    "version": "0.0.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/read-roi-1.1.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/geoplot-0.0.3-py36_0.tar.bz2"
 }
