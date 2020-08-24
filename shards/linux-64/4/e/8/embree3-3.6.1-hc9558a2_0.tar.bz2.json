@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pyomo.org",
+    "home": "https://embree.github.io/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/embree/embree/archive/v3.6.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Optimizers that enhance the functionality of Pyomo",
+    "summary": "High Performance Ray Tracing Kernels",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1526642365,
-    "version": "1.0"
+    "timestamp": 1567620769,
+    "version": "3.6.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "pyomo.solvers-1.0-py36_0.tar.bz2",
+  "package": "embree3-3.6.1-hc9558a2_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "hc9558a2_0",
     "build_number": 0,
     "depends": [
-      "coincbc",
-      "glpk",
-      "ipopt",
-      "python >=3.6,<3.7.0a0"
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "tbb >=2019.8"
     ],
-    "license": "BSD 3-clause",
-    "md5": "a5460dffa97e3d7623ff7a541f00d60f",
-    "name": "pyomo.solvers",
-    "sha256": "dc425056a998aa9a7fdf5a816e8aedd790979f1075f59d1da508725c0622c117",
-    "size": 2105,
+    "license": "Apache 2.0",
+    "md5": "b76bd9b615d18a3f0ea5e86595c6ed49",
+    "name": "embree3",
+    "sha256": "1f85e392fe131c85a32a534a53ae4b2627c03ca349c285f1b53ba5d82781e512",
+    "size": 8123651,
     "subdir": "linux-64",
-    "timestamp": 1526642365064,
-    "version": "1.0"
+    "timestamp": 1567620769415,
+    "version": "3.6.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyomo.solvers-1.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/embree3-3.6.1-hc9558a2_0.tar.bz2"
 }
