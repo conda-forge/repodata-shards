@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/pescadores/pescador",
+    "home": "http://github.com/dask/dask/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "ISC",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pescador/pescador-2.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/dask/dask-0.15.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Multiplex generators for incremental learning",
+    "summary": "Parallel Python with task scheduling",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.0.0"
+    "version": "0.15.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "pescador-2.0.0-py35_0.tar.bz2",
+  "package": "dask-0.15.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "decorator >=4.0",
-      "joblib >=0.9",
-      "numpy >=1.9",
+      "bokeh",
+      "cloudpickle >=0.2.1",
+      "distributed >=1.16.0",
+      "numpy",
+      "pandas >=0.19.0",
+      "partd >=0.3.7",
       "python 3.5*",
-      "pyzmq >=15.0",
-      "six >=1.8"
+      "toolz >=0.7.2"
     ],
-    "license": "ISC",
-    "license_family": "OTHER",
-    "md5": "62b48def689e1124c6c4d0433b061116",
-    "name": "pescador",
-    "sha256": "8356b3a4efc783240dbc65b7ca47387f4b36dd43ac4be44921438e4df86c2df1",
-    "size": 31049,
+    "license": "BSD 3-Clause",
+    "md5": "10d38db5eeef29f10efd879d23112fe9",
+    "name": "dask",
+    "sha256": "15c15f0c9ad8fc3c686dba528acb74fa3d91c34b0922dd5c2f8fe4aff7e05c88",
+    "size": 903985,
     "subdir": "linux-64",
-    "version": "2.0.0"
+    "version": "0.15.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pescador-2.0.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-0.15.0-py35_0.tar.bz2"
 }

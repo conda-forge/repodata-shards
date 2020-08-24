@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/openturns/otpmml/archive/v1.5.tar.gz",
+    "source_url": "https://github.com/openturns/openturns/archive/v1.9.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Meta-modeling exchange module",
+    "summary": "Uncertainty treatment library",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1533895942,
-    "version": "1.5"
+    "timestamp": 0,
+    "version": "1.9"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "otpmml-1.5-py35h1a43927_1.tar.bz2",
+  "package": "openturns-1.9-py36_blas_openblas_202.tar.bz2",
   "repodata": {
-    "build": "py35h1a43927_1",
-    "build_number": 1,
+    "build": "py36_blas_openblas_202",
+    "build_number": 202,
     "depends": [
-      "libgcc-ng >=4.9",
-      "libstdcxx-ng >=4.9",
-      "openturns >=1.11,<1.12.0a0",
-      "python >=3.5,<3.6.0a0"
+      "blas 1.1 openblas",
+      "hmat-oss",
+      "libxml2 2.9.*",
+      "muparser",
+      "nlopt",
+      "openblas 0.2.19|0.2.19.*",
+      "python 3.6*",
+      "tbb"
     ],
+    "features": "blas_openblas",
     "license": "LGPL3",
-    "md5": "a274df4ea16e02730be215ad592e1541",
-    "name": "otpmml",
-    "sha256": "a839b4fa21a305a34b1fb56ee2e6380176e3b17aeff1461a0e5e8e99dec22792",
-    "size": 273865,
+    "md5": "0af32f94e4ccd63e20639ddf30f2d9c6",
+    "name": "openturns",
+    "sha256": "ca7554201fdbf8269f07c92f1aae2a082333216882ebe806ab9cd68947479399",
+    "size": 19670203,
     "subdir": "linux-64",
-    "timestamp": 1533895942391,
-    "version": "1.5"
+    "version": "1.9"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/otpmml-1.5-py35h1a43927_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/openturns-1.9-py36_blas_openblas_202.tar.bz2"
 }
