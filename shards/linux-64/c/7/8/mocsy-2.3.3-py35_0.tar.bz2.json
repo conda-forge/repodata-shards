@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://nodejs.org/",
+    "home": "https://github.com/jamesorr/mocsy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,37 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://nodejs.org/dist/v6.11.0/node-v6.11.0.tar.gz",
+    "source_url": "https://github.com/jamesorr/mocsy/archive/v2.3.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "a platform for easily building fast, scalable network applications",
+    "summary": "Routines to model ocean carbonate system thermodynamics.",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "6.11.0"
+    "version": "2.3.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "nodejs-6.11.0-0.tar.bz2",
+  "package": "mocsy-2.3.3-py35_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "libgcc"
+      "libgcc",
+      "numpy >=1.9",
+      "python 3.5*"
     ],
     "license": "MIT",
-    "md5": "72b165c7e90ae3c80c5e6368b2b6958a",
-    "name": "nodejs",
-    "sha256": "d5a8faee62dbbf88a6def96e62ea49dab12e1e2c44cab595675b9bce00734447",
-    "size": 12391633,
+    "md5": "0b4e1c63616abe101b75bad73074087b",
+    "name": "mocsy",
+    "sha256": "d309138ea8a5901914b6324e5bbf1664d745631b24a770b3a821155952d3ba5a",
+    "size": 303119,
     "subdir": "linux-64",
-    "version": "6.11.0"
+    "version": "2.3.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/nodejs-6.11.0-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mocsy-2.3.3-py35_0.tar.bz2"
 }
