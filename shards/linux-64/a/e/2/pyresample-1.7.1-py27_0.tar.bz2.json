@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,47 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pyresample/pyresample-1.11.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyresample/pyresample-1.7.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Resampling of remote sensing data in Python",
+    "summary": "Resampling of remote sensing data in Python.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1552995681,
-    "version": "1.11.2"
+    "timestamp": 0,
+    "version": "1.7.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pyresample-1.11.2-py27hf2d7682_0.tar.bz2",
+  "package": "pyresample-1.7.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "py27hf2d7682_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
       "configobj",
-      "libgcc-ng >=7.3.0",
-      "libstdcxx-ng >=7.3.0",
-      "numpy >=1.9.3,<2.0a0",
-      "pykdtree >=1.3.1",
-      "pyproj >=1.9.5.1",
-      "python >=2.7,<2.8.0a0",
+      "numexpr",
+      "numpy >=1.8",
+      "pykdtree",
+      "pyproj",
+      "python 2.7*",
       "pyyaml",
-      "six"
+      "scipy"
     ],
     "license": "LGPL-3.0",
-    "md5": "d5c1bfca0020dea8f5e05dae2ec8d05e",
+    "md5": "ce94ec9b64948a4f0c086b701ae11abd",
     "name": "pyresample",
-    "sha256": "ac1460c740725657a18082166203a7c2f18bc779d6a5f5c435c7c223ec8b316d",
-    "size": 443719,
+    "sha256": "1f83a8467528fbbba00ea31c07024f4c4d32c3f736a62a3ae9754f7aa7206c9c",
+    "size": 978168,
     "subdir": "linux-64",
-    "timestamp": 1552995681713,
-    "version": "1.11.2"
+    "version": "1.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyresample-1.11.2-py27hf2d7682_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyresample-1.7.1-py27_0.tar.bz2"
 }
