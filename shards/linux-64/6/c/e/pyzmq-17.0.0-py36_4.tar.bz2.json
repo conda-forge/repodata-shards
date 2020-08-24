@@ -7,50 +7,51 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://sourceforge.net/p/gdcm/gdcm/",
+    "home": "https://github.com/zeromq/pyzmq",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-2-Clause",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/malaterre/GDCM/archive/v2.8.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyzmq/pyzmq-17.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Grassroots DICOM, cross-platform DICOM implementation.",
+    "summary": "Python bindings for zeromq",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "2.8.4"
+    "version": "17.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "gdcm-2.8.4-py35_0.tar.bz2",
+  "package": "pyzmq-17.0.0-py36_4.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "py36_4",
+    "build_number": 4,
     "depends": [
-      "python 3.5*"
+      "libsodium",
+      "python 3.6*",
+      "zeromq >=4.2.5,<4.3"
     ],
-    "license": "BSD-2-Clause",
-    "md5": "33b2d1f9c6842644a1a085bbfaf60873",
-    "name": "gdcm",
-    "sha256": "375340236c80adcfacdd25ae49a776cad80d72ac2a1c6fbe4c1fad243b5f5ac3",
-    "size": 3795578,
+    "license": "BSD 3-clause",
+    "md5": "fba033c392a9d41100ca86339ffafb89",
+    "name": "pyzmq",
+    "sha256": "f5c498a50695fa4c3b14496c7c1774f8c3b90647c4cc12d9457b592e764df6bb",
+    "size": 1122576,
     "subdir": "linux-64",
-    "version": "2.8.4"
+    "version": "17.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/gdcm-2.8.4-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyzmq-17.0.0-py36_4.tar.bz2"
 }

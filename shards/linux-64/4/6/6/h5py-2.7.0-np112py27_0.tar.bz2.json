@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://sourceforge.net/p/gdcm/gdcm/",
+    "home": "http://www.h5py.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-2-Clause",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/malaterre/GDCM/archive/v2.8.4.tar.gz",
+    "source_url": "https://github.com/h5py/h5py/archive/2.7.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Grassroots DICOM, cross-platform DICOM implementation.",
+    "summary": "Read and write HDF5 files from Python.",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "2.8.4"
+    "version": "2.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "gdcm-2.8.4-py35_0.tar.bz2",
+  "package": "h5py-2.7.0-np112py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np112py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "hdf5 1.8.17|1.8.17.*",
+      "numpy 1.12*",
+      "python 2.7*",
+      "six"
     ],
-    "license": "BSD-2-Clause",
-    "md5": "33b2d1f9c6842644a1a085bbfaf60873",
-    "name": "gdcm",
-    "sha256": "375340236c80adcfacdd25ae49a776cad80d72ac2a1c6fbe4c1fad243b5f5ac3",
-    "size": 3795578,
+    "license": "BSD 3-Clause",
+    "md5": "a55cee462a5548c5960c39ba1b0094c8",
+    "name": "h5py",
+    "sha256": "b78cb647e809fada0c8ee299cc86f39a0f3d3f74a62a790018ef8c5a1d018662",
+    "size": 2915535,
     "subdir": "linux-64",
-    "version": "2.8.4"
+    "version": "2.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/gdcm-2.8.4-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.7.0-np112py27_0.tar.bz2"
 }
