@@ -3,10 +3,10 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": "Dagster is a system for building modern data applications. Combining an elegant programming model and beautiful tools, Dagster allows infrastructure engineers, data engineers, and data scientists to seamlessly collaborate to process and produce the trusted, reliable data needed in today's world.",
+    "description": null,
     "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://dagster.readthedocs.io",
+    "doc_url": null,
     "home": "https://github.com/dagster-io/dagster",
     "icon_hash": null,
     "icon_url": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/d/dagster/dagster-0.6.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Dagster is an opinionated programming model for data pipelines.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1581838262,
-    "version": "0.7.0"
+    "timestamp": 1574945844,
+    "version": "0.6.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,41 +35,39 @@
     "cf202003",
     "main"
   ],
-  "package": "dagster-0.7.0-py36_0.tar.bz2",
+  "package": "dagster-0.6.4-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "alembic",
       "click >=5.0",
       "coloredlogs >=6.1",
       "contextlib2 >=0.5.4",
       "enum-compat >=0.0.1",
       "funcsigs",
       "future",
-      "gevent",
+      "gevent 1.3.7.*",
       "pyrsistent >=0.14.8",
       "python >=3.6,<3.7.0a0",
-      "python-dateutil",
       "python-graphviz >=0.8.4",
       "pyyaml >=3.10,<5",
       "rx 1.6.1.*",
-      "six",
+      "six >=1.11.0",
       "sqlalchemy >=1.0",
       "toposort >=1.0",
       "watchdog >=0.8.3"
     ],
     "license": "Apache-2.0",
     "license_family": "APACHE",
-    "md5": "488ad031e07809177524a5de229b13ed",
+    "md5": "529a1517b826e882d2205812fe6b0f97",
     "name": "dagster",
-    "sha256": "9fe3120c7f56ce231f24eb57a46d4f520aa52eb5756219aa09cbbc5649d769ec",
-    "size": 411453,
+    "sha256": "c775494b31750e69a42739811296ee871983a78917c8f6749afd6030ffafc9a0",
+    "size": 333343,
     "subdir": "linux-64",
-    "timestamp": 1581838262186,
-    "version": "0.7.0"
+    "timestamp": 1574945844339,
+    "version": "0.6.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/dagster-0.7.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dagster-0.6.4-py36_0.tar.bz2"
 }
