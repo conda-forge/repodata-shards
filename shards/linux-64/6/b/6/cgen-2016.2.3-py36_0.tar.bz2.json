@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "http://github.com/inducer/cgen",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "http://github.com/kiorky/croniter",
+    "doc_url": "https://documen.tician.de/cgen",
+    "home": "http://pypi.python.org/pypi/cgen",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/croniter/croniter-0.3.12.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cgen/cgen-2016.2.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "croniter provides iteration for datetime object with cron like format",
+    "summary": "C/C++ source generation from an AST",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.12"
+    "version": "2016.2.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "croniter-0.3.12-py35_0.tar.bz2",
+  "package": "cgen-2016.2.3-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*",
-      "python-dateutil"
+      "numpy",
+      "python 3.6*",
+      "pytools",
+      "six"
     ],
     "license": "MIT",
-    "md5": "33163759b74b2f4907dd62bed6b1b4a0",
-    "name": "croniter",
-    "sha256": "c8e4ecb3b088847adb760e724f314e5c96ad013bd93baba13c416daea4a8e51f",
-    "size": 19396,
+    "md5": "42caef6144c2729363fcc23c33229b52",
+    "name": "cgen",
+    "sha256": "c41d66473628f41a4a1ed55706b234df978719b411d0ab09b9056e848577fab6",
+    "size": 27955,
     "subdir": "linux-64",
-    "version": "0.3.12"
+    "version": "2016.2.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/croniter-0.3.12-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cgen-2016.2.3-py36_0.tar.bz2"
 }
