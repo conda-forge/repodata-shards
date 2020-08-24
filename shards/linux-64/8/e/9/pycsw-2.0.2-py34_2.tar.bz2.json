@@ -7,12 +7,12 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/geopython/pycsw",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT License",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -23,37 +23,44 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "OGC Catalog Service for the Web (CSW) implementation in python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.0.2"
+    "version": "2.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "codar2netcdf-0.0.2-py34_0.tar.bz2",
+  "package": "pycsw-2.0.2-py34_2.tar.bz2",
   "repodata": {
-    "build": "py34_0",
-    "build_number": 0,
+    "build": "py34_2",
+    "build_number": 2,
     "depends": [
-      "netcdf4",
-      "pandas",
+      "geolinks",
+      "libxml2 2.9.*",
+      "lxml",
+      "owslib",
+      "psycopg2",
+      "pyproj",
       "python 3.4*",
-      "python-dateutil",
-      "pytz"
+      "shapely",
+      "six",
+      "sqlalchemy",
+      "xmltodict"
     ],
-    "license": "MIT License",
-    "md5": "0dbe39bc53ac0c2fb06868d9982527c7",
-    "name": "codar2netcdf",
-    "sha256": "becceb6ac30c775155de67c62868d257f5663a1308b27852027de79307e21276",
-    "size": 9423,
+    "license": "MIT",
+    "md5": "2bc7c07cbc0eb03da85d155e2ff31d70",
+    "name": "pycsw",
+    "sha256": "2f0fcad29c16d29644d4d2524597d19944ac37d39de7339b46375d198689ab04",
+    "size": 401438,
     "subdir": "linux-64",
-    "version": "0.0.2"
+    "version": "2.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/codar2netcdf-0.0.2-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pycsw-2.0.2-py34_2.tar.bz2"
 }
