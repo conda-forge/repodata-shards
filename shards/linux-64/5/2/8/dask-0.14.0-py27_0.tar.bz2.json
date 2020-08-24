@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/micheles/decorator",
+    "home": "http://github.com/dask/dask/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/decorator/decorator-4.1.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/dask/dask-0.14.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Better living through Python with decorators.",
+    "summary": "Parallel PyData with task scheduling",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.1.2"
+    "version": "0.14.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "decorator-4.1.2-py36_0.tar.bz2",
+  "package": "dask-0.14.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "bokeh",
+      "cloudpickle >=0.2.1",
+      "distributed >=1.15.0",
+      "numpy",
+      "pandas >=0.19.0",
+      "partd >=0.3.7",
+      "python 2.7*",
+      "toolz >=0.7.2"
     ],
     "license": "BSD 3-Clause",
-    "md5": "15491c7d2894120933bba3bc38696a11",
-    "name": "decorator",
-    "sha256": "0eb7a4476afb34daf19ff33f456d96ce1489ed2a7ae338c29f7e0ba62a4bdd3d",
-    "size": 15702,
+    "md5": "8797269a188633a61d6ac722cb420742",
+    "name": "dask",
+    "sha256": "f2e01f9536ff6ab800771a801564bbd0919f37a1b18146daa36dbb0d9f80408f",
+    "size": 790655,
     "subdir": "linux-64",
-    "version": "4.1.2"
+    "version": "0.14.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/decorator-4.1.2-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-0.14.0-py27_0.tar.bz2"
 }
