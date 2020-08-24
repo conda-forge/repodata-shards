@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/conda/constructor",
+    "home": "https://developers.google.com/protocol-buffers/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/constructor/archive/1.3.1.tar.gz",
+    "source_url": "https://github.com/google/protobuf/archive/v3.5.1/protobuf-v3.5.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "create installer from conda packages",
+    "summary": "Protocol Buffers - Google's data interchange format.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.3.1"
+    "version": "3.5.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "constructor-1.3.1-py34_1.tar.bz2",
+  "package": "protobuf-3.5.1-py27_1.tar.bz2",
   "repodata": {
-    "build": "py34_1",
+    "build": "py27_1",
     "build_number": 1,
     "depends": [
-      "libconda",
-      "python 3.4*"
+      "python 2.7*",
+      "setuptools",
+      "six",
+      "zlib 1.2.11"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "5c0ffd4f65c34b5069e3e09c29cdadf9",
-    "name": "constructor",
-    "sha256": "c5a758629dd2deb6aced4ff79d3fa2cd76caeb690cb162201d7942de0b174b38",
-    "size": 38003,
+    "md5": "08d645cd0b4cc4156620a444de142738",
+    "name": "protobuf",
+    "sha256": "95fd37daf3e9c736c261f3e6182aaaebcde6f06aabb4d778c9456b4f128667b3",
+    "size": 6120433,
     "subdir": "linux-64",
-    "version": "1.3.1"
+    "version": "3.5.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/constructor-1.3.1-py34_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/protobuf-3.5.1-py27_1.tar.bz2"
 }
