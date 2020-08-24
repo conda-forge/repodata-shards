@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/seb-m/pyinotify",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "GPLv2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/p/pyinotify/pyinotify-0.9.6.tar.gz",
+    "source_git_url": "https://github.com/nco/pynco.git",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Monitoring filesystems events with inotify on Linux. http://github.com/seb-m/pyinotify/wiki",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.9.6"
+    "version": "0.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "pyinotify-0.9.6-py36_0.tar.bz2",
+  "package": "pynco-0.0.2-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "h5py",
+      "nco",
+      "netcdf4",
+      "numpy",
+      "python 3.5*",
+      "python-dateutil",
+      "scipy"
     ],
-    "license": "MIT",
-    "md5": "80f7b4cfe9d451529c7f7233f0421c70",
-    "name": "pyinotify",
-    "sha256": "0388d2155d396b9a594fbf3235732391d202fd0ad86b2afc402c92a555af3b8f",
-    "size": 41900,
+    "license": "GPLv2",
+    "md5": "8e7ac759d27385a30ba0382ef9412bdd",
+    "name": "pynco",
+    "sha256": "c61a6e3e5667a68a7f6e6bca6dc840a4a82f75e2b8aeb7625c34ccf56bc1bc60",
+    "size": 11189,
     "subdir": "linux-64",
-    "version": "0.9.6"
+    "version": "0.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyinotify-0.9.6-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pynco-0.0.2-py35_0.tar.bz2"
 }
