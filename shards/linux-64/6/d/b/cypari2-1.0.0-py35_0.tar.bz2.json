@@ -1,56 +1,58 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://pythonhosted.org/pyspec/",
+    "home": "https://github.com/defeo/cypari2",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL v3.0",
+    "license": "GPLv2+",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/defeo/cypari2/archive/1.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Reader for SPE files part of pyspec a set of python routines for data analysis of x-ray scattering experiments",
+    "summary": "An interface to the number theory library libpari",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.6"
+    "version": "1.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "spefile-1.6-py27_0.tar.bz2",
+  "package": "cypari2-1.0.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "numpy",
-      "python 2.7*"
+      "cysignals",
+      "pari >=2.9",
+      "python 3.5*"
     ],
-    "license": "GPL v3.0",
-    "md5": "27ac125114c7a6e7676b3759c35ad607",
-    "name": "spefile",
-    "sha256": "cd1243669aaf81e8807ead340d37b9cfe300f06c37a8c76fb1c3b76e16b071d4",
-    "size": 7713,
+    "license": "GPLv2+",
+    "md5": "36d0d2f8fc2236cf0601fa83fb18ac00",
+    "name": "cypari2",
+    "sha256": "585cd08bb57c8f2abb48549e561a2b7f2d4cd840d721805a6840ca4189a0d5c0",
+    "size": 2340638,
     "subdir": "linux-64",
-    "version": "1.6"
+    "version": "1.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/spefile-1.6-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cypari2-1.0.0-py35_0.tar.bz2"
 }
