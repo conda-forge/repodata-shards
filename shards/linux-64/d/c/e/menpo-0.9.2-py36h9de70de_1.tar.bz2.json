@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.h5py.org/",
+    "home": "https://github.com/menpo/menpo",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,44 +19,48 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/h5py/h5py/archive/2.10.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/m/menpo/menpo-0.9.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Read and write HDF5 files from Python",
+    "summary": "The Menpo Project Python package for handling annotated data",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1568126690,
-    "version": "2.10.0"
+    "timestamp": 1571140349,
+    "version": "0.9.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "h5py-2.10.0-mpi_openmpi_py36h8f0990d_0.tar.bz2",
+  "package": "menpo-0.9.2-py36h9de70de_1.tar.bz2",
   "repodata": {
-    "build": "mpi_openmpi_py36h8f0990d_0",
-    "build_number": 0,
+    "build": "py36h9de70de_1",
+    "build_number": 1,
     "depends": [
-      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_openmpi_*",
+      "cyvlfeat",
+      "ffmpeg",
       "libgcc-ng >=7.3.0",
-      "mpi4py",
+      "libstdcxx-ng >=7.3.0",
+      "matplotlib",
       "numpy >=1.14.6,<2.0a0",
-      "openmpi >=4.0.1,<4.1.0a0",
+      "pillow",
       "python >=3.6,<3.7.0a0",
-      "six"
+      "scipy"
     ],
     "license": "BSD-3-Clause",
-    "md5": "0fa48708e9770d8c08058544718d248c",
-    "name": "h5py",
-    "sha256": "1e1ee1e334da52e471fc9a136107a44230f8c0bc89b0079f961e821675fe1472",
-    "size": 1262512,
+    "license_family": "BSD",
+    "md5": "0ca495b05e8e175805fbf15809632846",
+    "name": "menpo",
+    "sha256": "9db3b405af8a34f068c30bf77f51b48cf4f335dc88f19cb4a12e0e3e1e27483a",
+    "size": 2210368,
     "subdir": "linux-64",
-    "timestamp": 1568126690858,
-    "version": "2.10.0"
+    "timestamp": 1571140349880,
+    "version": "0.9.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/h5py-2.10.0-mpi_openmpi_py36h8f0990d_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/menpo-0.9.2-py36h9de70de_1.tar.bz2"
 }
