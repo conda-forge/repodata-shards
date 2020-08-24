@@ -4,52 +4,54 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/tebeka/fastavro",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/tebeka/fastavro",
+    "home": "https://github.com/ClinicalGraphics/pyopcode",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "LGPL-3.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://files.pythonhosted.org/packages/source/f/fastavro/fastavro-0.11.1.tar.gz",
+    "source_url": "https://github.com/ClinicalGraphics/pyopcode/archive/0.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fast read/write of AVRO files",
+    "summary": "OPCODE collision detection wrapped library with numpy bindings",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.11.1"
+    "version": "0.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "fastavro-0.11.1-py35_0.tar.bz2",
+  "package": "pyopcode-0.2.0-np110py35_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np110py35_0",
     "build_number": 0,
     "depends": [
+      "boost 1.61.*",
+      "numpy 1.10*",
       "python 3.5*"
     ],
-    "license": "MIT",
-    "md5": "ea3871fdfed4432d628dd614ae74ea03",
-    "name": "fastavro",
-    "sha256": "3902a3f3dd8de7f0adb781fde8c8d6e1b21df5a0c2efd07f6ac5989f6291b5ee",
-    "size": 928237,
+    "license": "LGPL-3.0",
+    "md5": "f56f21f2cb91a6cf3df0791239e1bb4a",
+    "name": "pyopcode",
+    "sha256": "4c43eb6c70d2090e30f67f47cdddc4c5a5fd3daa2189d3b28ffe2ad829222fbd",
+    "size": 201330,
     "subdir": "linux-64",
-    "version": "0.11.1"
+    "version": "0.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/fastavro-0.11.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyopcode-0.2.0-np110py35_0.tar.bz2"
 }
