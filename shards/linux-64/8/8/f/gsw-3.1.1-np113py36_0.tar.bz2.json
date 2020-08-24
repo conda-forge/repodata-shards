@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/alekstorm/backports.ssl",
+    "home": "https://github.com/TEOS-10/GSW-Python/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/backports.ssl/backports.ssl-0.0.9.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/gsw/gsw-3.1.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The Python 3.4 standard `ssl` module API implemented on top of pyOpenSSL",
+    "summary": "Gibbs SeaWater Oceanographic Package of TEOS-10.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.0.9"
+    "version": "3.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "backports.ssl-0.0.9-py36_1.tar.bz2",
+  "package": "gsw-3.1.1-np113py36_0.tar.bz2",
   "repodata": {
-    "build": "py36_1",
-    "build_number": 1,
+    "build": "np113py36_0",
+    "build_number": 0,
     "depends": [
-      "backports",
-      "pyasn1 >=0.1.7",
-      "pyopenssl >=0.14",
+      "numpy 1.13*",
       "python 3.6*"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "f04779e5900c3b5299dfd8a250d3c9e5",
-    "name": "backports.ssl",
-    "sha256": "90b05b372c90bbe0fdd0e42c38351f37f654a55fc38e7080c6b397ad76f16345",
-    "size": 22902,
+    "md5": "d62575fe12318ef371b475167b6a4385",
+    "name": "gsw",
+    "sha256": "590e4c00af9135c0626f6c1e21f90aadbb385f12356ff13c5c50d6729b08f42b",
+    "size": 2059546,
     "subdir": "linux-64",
-    "version": "0.0.9"
+    "version": "3.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/backports.ssl-0.0.9-py36_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gsw-3.1.1-np113py36_0.tar.bz2"
 }
