@@ -4,53 +4,57 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/erikrose/blessings",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/erikrose/blessings",
+    "home": "https://github.com/PyCQA/astroid",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "LGPL 2.1",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/blessings/blessings-1.6.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/astroid/astroid-1.6.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A thin, practical wrapper around terminal capabilities in Python",
+    "summary": "A abstract syntax tree for Python with inference support.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.6"
+    "version": "1.6.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "blessings-1.6-py36_0.tar.bz2",
+  "package": "astroid-1.6.2-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "lazy-object-proxy",
+      "python 3.6*",
+      "setuptools",
+      "six",
+      "wrapt"
     ],
-    "license": "MIT",
-    "license_family": "MIT",
-    "md5": "489f7307a2aec96ac35ef5812bf51a2c",
-    "name": "blessings",
-    "sha256": "a9b5a6affae1c62d1552e9ff1fcec01578e91baf0f47551e6c431f9719d151d7",
-    "size": 25495,
+    "license": "LGPL 2.1",
+    "md5": "3d9ccac92a6039a58f98543d61948738",
+    "name": "astroid",
+    "sha256": "61cc8bdcf1110204eed9841359890fe86a79dfc71569a46efdbd1e02ec87b4d4",
+    "size": 426954,
     "subdir": "linux-64",
-    "version": "1.6"
+    "version": "1.6.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/blessings-1.6-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/astroid-1.6.2-py36_0.tar.bz2"
 }
