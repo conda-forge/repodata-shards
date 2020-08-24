@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pelson/conda-execute",
+    "home": "http://www.h5py.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/pelson/conda-execute/archive/v0.8.0.tar.gz",
+    "source_url": "https://github.com/h5py/h5py/archive/2.7.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Execute scripts in isolated temporary environments.",
+    "summary": "Read and write HDF5 files from Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.8.0"
+    "version": "2.7.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "conda-execute-0.8.0-py35_0.tar.bz2",
+  "package": "h5py-2.7.1-np112py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np112py27_0",
     "build_number": 0,
     "depends": [
-      "conda >=4.1.0",
-      "psutil",
-      "python 3.5*",
-      "pyyaml",
-      "setuptools"
+      "hdf5 1.8.18|1.8.18.*",
+      "numpy 1.12*",
+      "python 2.7*",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "8be7078a50e7bdc51b7961f1f91faf51",
-    "name": "conda-execute",
-    "sha256": "6382a84aaec67f450186482baaaaa770d091e640b02be3fa4a916c47a47b209c",
-    "size": 224498,
+    "md5": "d90938b85c760e17de33671ec06649a2",
+    "name": "h5py",
+    "sha256": "97098d1a536234bd39796d049438d03c92e38e2207f0374755f4b947f3c14ced",
+    "size": 3430321,
     "subdir": "linux-64",
-    "version": "0.8.0"
+    "version": "2.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/conda-execute-0.8.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.7.1-np112py27_0.tar.bz2"
 }
