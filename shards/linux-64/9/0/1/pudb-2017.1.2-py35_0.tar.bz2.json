@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/tebeka/fastavro",
+    "dev_url": "https://github.com/inducer/pudb",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/tebeka/fastavro",
+    "home": "http://pypi.python.org/pypi/pudb",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://files.pythonhosted.org/packages/source/f/fastavro/fastavro-0.14.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pudb/pudb-2017.1.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fast read/write of AVRO files",
+    "summary": "A full-screen, console-based Python debugger",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "0.14.2"
+    "version": "2017.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "fastavro-0.14.2-py27_0.tar.bz2",
+  "package": "pudb-2017.1.2-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "pygments >=1.0",
+      "python 3.5*",
+      "setuptools",
+      "urwid >=1.1.1"
     ],
     "license": "MIT",
-    "md5": "caa0f8fd7e3f55867241200079a50239",
-    "name": "fastavro",
-    "sha256": "a53b582639841c61489da6bc0a02ca459f763c31528efb70cabb64b042f7a85e",
-    "size": 1005014,
+    "md5": "aabcf843f0bdfd1e25dddb164dcd5cf6",
+    "name": "pudb",
+    "sha256": "20daaafa226949fa3325e79756b9fbe7f300d69d9c30c893ee621a1db6db2cb4",
+    "size": 92889,
     "subdir": "linux-64",
-    "version": "0.14.2"
+    "version": "2017.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fastavro-0.14.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pudb-2017.1.2-py35_0.tar.bz2"
 }
