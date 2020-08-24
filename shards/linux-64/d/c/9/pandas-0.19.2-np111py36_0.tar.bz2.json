@@ -7,50 +7,52 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/seb-m/pyinotify",
+    "home": "http://pandas.pydata.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/p/pyinotify/pyinotify-0.9.6.tar.gz",
+    "source_url": "https://github.com/pydata/pandas/archive/v0.19.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Monitoring filesystems events with inotify on Linux. http://github.com/seb-m/pyinotify/wiki",
+    "summary": "high-performance, easy-to-use data structures and data analysis tools.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.9.6"
+    "version": "0.19.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pyinotify-0.9.6-py36_0.tar.bz2",
+  "package": "pandas-0.19.2-np111py36_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "np111py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "numpy 1.11*",
+      "python 3.6*",
+      "python-dateutil",
+      "pytz"
     ],
-    "license": "MIT",
-    "md5": "80f7b4cfe9d451529c7f7233f0421c70",
-    "name": "pyinotify",
-    "sha256": "0388d2155d396b9a594fbf3235732391d202fd0ad86b2afc402c92a555af3b8f",
-    "size": 41900,
+    "license": "BSD 3-clause",
+    "md5": "c3993ba8af60b0f612ee087339d41491",
+    "name": "pandas",
+    "sha256": "7b520bfa3f7b1238df6505bd8ed7c5ab349537f85b91dbc14ab1665d04b7de07",
+    "size": 19890717,
     "subdir": "linux-64",
-    "version": "0.9.6"
+    "version": "0.19.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyinotify-0.9.6-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandas-0.19.2-np111py36_0.tar.bz2"
 }
