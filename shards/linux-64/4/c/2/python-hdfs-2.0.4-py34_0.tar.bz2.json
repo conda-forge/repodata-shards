@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/tebeka/fastavro",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/tebeka/fastavro",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://files.pythonhosted.org/packages/source/f/fastavro/fastavro-0.17.9.tar.gz",
+    "source_url": "https://pypi.python.org/packages/source/h/hdfs/hdfs-2.0.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fast read/write of AVRO files",
+    "summary": null,
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "0.17.9"
+    "version": "2.0.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "fastavro-0.17.9-py35_1.tar.bz2",
+  "package": "python-hdfs-2.0.4-py34_0.tar.bz2",
   "repodata": {
-    "build": "py35_1",
-    "build_number": 1,
+    "build": "py34_0",
+    "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "docopt",
+      "python 3.4*",
+      "requests >=2.7.0",
+      "six >=1.9.0"
     ],
     "license": "MIT",
-    "md5": "ed91e6aea9870123f1a32d8eed79a691",
-    "name": "fastavro",
-    "sha256": "24fde59ba75bfa1aef47e82fcceb9bb4fb12cbd4d997b94233000eeeb4263c6a",
-    "size": 1252560,
+    "md5": "afb087935b4ec5d73fb566da70c8571f",
+    "name": "python-hdfs",
+    "sha256": "93bf0e346f45e5755ec09efbe50f85922d7ef38318379a277ba228b13f133e3c",
+    "size": 42501,
     "subdir": "linux-64",
-    "version": "0.17.9"
+    "version": "2.0.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fastavro-0.17.9-py35_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-hdfs-2.0.4-py34_0.tar.bz2"
 }
