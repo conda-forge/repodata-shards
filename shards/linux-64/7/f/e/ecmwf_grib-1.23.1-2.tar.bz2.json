@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://software.ecmwf.int/wiki/display/GRIB/Home",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://software.ecmwf.int/wiki/download/attachments/3473437/grib_api-1.23.1-Source.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "The ECMWF API for encoding and decoding WMO FM-92 GRIB edition 1 and edition 2 messages.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.14.7"
+    "version": "1.23.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "ecmwf_grib-1.14.7-2.tar.bz2",
+  "package": "ecmwf_grib-1.23.1-2.tar.bz2",
   "repodata": {
     "build": "2",
     "build_number": 2,
     "depends": [
+      "hdf5 1.10.1",
       "jasper",
-      "libnetcdf",
-      "libpng"
+      "libgcc",
+      "libnetcdf 4.4.*",
+      "libpng >=1.6.32,<1.6.35"
     ],
     "license": "Apache-2.0",
-    "md5": "0a0ccb467190644e2adc3fe80727908e",
+    "md5": "59300b3adb239279079eaa211916617b",
     "name": "ecmwf_grib",
-    "sha256": "39004e68a4c0381038d2dd7a403598061681d35b0e1bfbc4916791f59776cf8e",
-    "size": 2018106,
+    "sha256": "e147862e28ad43c880aa48d70db5d455ecff49a5e8eb3c0f47ae4807da81e488",
+    "size": 3198551,
     "subdir": "linux-64",
-    "version": "1.14.7"
+    "version": "1.23.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ecmwf_grib-1.14.7-2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ecmwf_grib-1.23.1-2.tar.bz2"
 }
