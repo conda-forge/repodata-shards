@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.h5py.org/",
+    "home": "http://github.com/Toblerity/Fiona",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/h5py/h5py/archive/2.6.0.tar.gz",
+    "source_url": "https://github.com/Toblerity/Fiona/archive/1.7.0.post2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Read and write HDF5 files from Python.",
+    "summary": "Fiona reads and writes spatial data files.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.6.0"
+    "version": "1.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "h5py-2.6.0-np110py27_5.tar.bz2",
+  "package": "fiona-1.7.0-np111py27_4.tar.bz2",
   "repodata": {
-    "build": "np110py27_5",
-    "build_number": 5,
+    "build": "np111py27_4",
+    "build_number": 4,
     "depends": [
-      "hdf5 1.8.17|1.8.17.*",
-      "numpy 1.10*",
+      "click-plugins",
+      "cligj",
+      "gdal 2.1.*",
+      "munch",
+      "numpy 1.11*",
       "python 2.7*",
+      "setuptools",
       "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "5e7d61e109cdc4dc059121f36434e0ca",
-    "name": "h5py",
-    "sha256": "2e4aaeb09ac0343427ed4985c7efc60e240708bf11d39471b3c180155d5de4b3",
-    "size": 2712552,
+    "md5": "78d1f02949b4e8012642000de179f60f",
+    "name": "fiona",
+    "sha256": "27e145dc5c984e8c4ab89a12010febb7740e0f13e12040b1d75bc1ec52be77c3",
+    "size": 1118257,
     "subdir": "linux-64",
-    "version": "2.6.0"
+    "version": "1.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/h5py-2.6.0-np110py27_5.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.7.0-np111py27_4.tar.bz2"
 }
