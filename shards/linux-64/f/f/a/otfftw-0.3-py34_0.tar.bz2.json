@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://bitbucket.org/gsakkis/pytrie/",
+    "home": "http://openturns.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "LGPLv3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytrie/PyTrie-0.2.tar.gz",
+    "source_url": "https://github.com/openturns/otfftw/archive/v0.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A pure Python implementation of the trie data structure.",
+    "summary": "FFTW module",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2"
+    "version": "0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "pytrie-0.2-py35_0.tar.bz2",
+  "package": "otfftw-0.3-py34_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "fftw",
+      "openturns",
+      "python 3.4*"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "c689d3f6e51b22570423415a4907b25b",
-    "name": "pytrie",
-    "sha256": "eee37cdab6bfb4cb450f2a5e76ce542e1dada4cf37db7a2b9f00b1328572833f",
-    "size": 9300,
+    "license": "LGPLv3",
+    "md5": "66eaab1d0a4d917b04de1131187b62be",
+    "name": "otfftw",
+    "sha256": "9df5f024a21527258fb9797f53609ee7177b6d9898e24fb11f33e862c541c796",
+    "size": 124259,
     "subdir": "linux-64",
-    "version": "0.2"
+    "version": "0.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytrie-0.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/otfftw-0.3-py34_0.tar.bz2"
 }
