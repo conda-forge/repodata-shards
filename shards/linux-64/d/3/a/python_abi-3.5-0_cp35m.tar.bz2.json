@@ -7,12 +7,12 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/conda-forge/python_abi-feedstock",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT License",
+    "license": "BSD-3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -23,33 +23,38 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Metapackage to select python implementation",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.5.4"
+    "timestamp": 1581442794,
+    "version": "3.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "pystache-0.5.4-py35_0.tar.bz2",
+  "package": "python_abi-3.5-0_cp35m.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "0_cp35m",
     "build_number": 0,
-    "depends": [
-      "python 3.5*"
+    "constrains": [
+      "pypy <0a0"
     ],
-    "license": "MIT License",
-    "md5": "2bd43e0160761bc2ef5e0debb0c37d72",
-    "name": "pystache",
-    "sha256": "e9b9c9664501c68abec4b970206224f33f3056be6d25c0d71e688b2f689759df",
-    "size": 88043,
+    "depends": [
+      "python 3.5.*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "f79dc77e68727a0f0aee02319585b099",
+    "name": "python_abi",
+    "sha256": "c8097317b286b55373f2be3deae7c48ce8dd89e282a6c9fcee81c600b8596bc9",
+    "size": 3671,
     "subdir": "linux-64",
-    "version": "0.5.4"
+    "timestamp": 1581442794480,
+    "version": "3.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/pystache-0.5.4-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python_abi-3.5-0_cp35m.tar.bz2"
 }
