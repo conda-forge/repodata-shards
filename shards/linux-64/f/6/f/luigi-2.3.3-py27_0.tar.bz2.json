@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://thrift.apache.org",
+    "home": "https://github.com/spotify/luigi",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "Apache-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/t/thrift/thrift-0.11.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/l/luigi/luigi-2.3.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python bindings for the Apache Thrift RPC system",
+    "summary": "Workflow mgmgt + task scheduling + dependency resolution",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.11.0"
+    "version": "2.3.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "thrift-0.11.0-py36_0.tar.bz2",
+  "package": "luigi-2.3.3-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*",
-      "six >=1.7.2"
+      "pyparsing",
+      "python 2.7*",
+      "python-daemon",
+      "setuptools",
+      "tornado"
     ],
-    "license": "Apache 2.0",
-    "md5": "6ec4fb7cf0f92f51a3d2530935186829",
-    "name": "thrift",
-    "sha256": "77c838b7b7a482b4fbc7da2b3ffa143ab09b2ee18ccec371e47ff195dd538f36",
-    "size": 317051,
+    "license": "Apache-2.0",
+    "md5": "d9850555b0c13435482b959847945198",
+    "name": "luigi",
+    "sha256": "7b5f5f12ea37c421f2b3b0d0f1d3a1d2f240be08d6ba88fad7fa6b6d1cbf19ab",
+    "size": 1079669,
     "subdir": "linux-64",
-    "version": "0.11.0"
+    "version": "2.3.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/thrift-0.11.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/luigi-2.3.3-py27_0.tar.bz2"
 }
