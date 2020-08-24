@@ -6,8 +6,8 @@
     "description": "Scrapy is an open source and collaborative framework for extracting the data you need from websites in a fast, simple, yet extensible way.",
     "dev_url": "https://github.com/scrapy/scrapy",
     "doc_source_url": null,
-    "doc_url": "http://scrapy.org/doc/",
-    "home": "http://scrapy.org/",
+    "doc_url": "https://docs.scrapy.org",
+    "home": "https://scrapy.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,47 +19,51 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/S/Scrapy/Scrapy-1.2.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/S/Scrapy/Scrapy-2.0.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "A high-level Python Screen Scraping framework",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.2.1"
+    "timestamp": 1584556210,
+    "version": "2.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "scrapy-1.2.1-py34_0.tar.bz2",
+  "package": "scrapy-2.0.1-py37hc8dfbb8_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py37hc8dfbb8_0",
     "build_number": 0,
     "depends": [
+      "cryptography >=2",
       "cssselect >=0.9",
       "lxml",
-      "parsel >=0.9.3",
+      "parsel >=1.5.0",
+      "protego",
       "pydispatcher >=2.0.5",
-      "pyopenssl",
-      "python 3.4*",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "pywin32",
       "queuelib",
       "service_identity",
-      "six >=1.5.2",
-      "twisted >=10.0.0",
-      "w3lib >=1.15.0"
+      "setuptools",
+      "twisted >=17.9.0",
+      "w3lib >=1.17.0"
     ],
     "license": "BSD 3-Clauses",
-    "md5": "0db1987906c41b96ed4664d86ecb8421",
+    "md5": "f97c97a9054e2ec1feee17011a96c250",
     "name": "scrapy",
-    "sha256": "78d0f8ccf1ab83782ca934b19296c3ad7c1c50a880791b1f7462e0b8c2b8d832",
-    "size": 352254,
-    "subdir": "linux-64",
-    "version": "1.2.1"
+    "sha256": "a5e56b5bbc4a65f1f9ed373b8aaed4294cf1d147fee8851a2fd4287a62fe3f38",
+    "size": 403663,
+    "subdir": "win-64",
+    "timestamp": 1584556210983,
+    "version": "2.0.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/scrapy-1.2.1-py34_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/scrapy-2.0.1-py37hc8dfbb8_0.tar.bz2"
 }
