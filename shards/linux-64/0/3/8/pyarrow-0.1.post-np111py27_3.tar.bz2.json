@@ -7,56 +7,55 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://github.com/apache/arrow",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD License",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/apache/arrow/archive/268ffbeffb1cd0617e52d381d500a2d10f61124c.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Python libraries for Apache Arrow",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.6.3"
+    "version": "0.1.post"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "fiona-1.6.3-np111py27_2.tar.bz2",
+  "package": "pyarrow-0.1.post-np111py27_3.tar.bz2",
   "repodata": {
-    "build": "np111py27_2",
-    "build_number": 2,
+    "build": "np111py27_3",
+    "build_number": 3,
     "depends": [
-      "click-plugins",
-      "cligj",
-      "gdal 1.11.4",
-      "munch",
+      "arrow-cpp",
       "numpy 1.11*",
+      "pandas",
+      "parquet-cpp",
       "python 2.7*",
       "setuptools",
       "six"
     ],
-    "license": "BSD License",
-    "md5": "f9bab610dd2183fd6ed88e8cd9cae9f9",
-    "name": "fiona",
-    "sha256": "25883114f4465800072c555aca03008875cecab381b29cc97509ead8ed019a11",
-    "size": 901824,
+    "license": "Apache 2.0",
+    "md5": "0fb74722f5125b6869ad24fd76fb738f",
+    "name": "pyarrow",
+    "sha256": "b861ba17196f2a4c8ee9bc5fb64c72ff966aa2acc1300a38545db7d244accc9e",
+    "size": 2557971,
     "subdir": "linux-64",
-    "version": "1.6.3"
+    "version": "0.1.post"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/fiona-1.6.3-np111py27_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyarrow-0.1.post-np111py27_3.tar.bz2"
 }
