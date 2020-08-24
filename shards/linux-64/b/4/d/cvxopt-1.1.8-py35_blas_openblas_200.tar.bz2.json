@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pexpect.sourceforge.net/",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "ISC",
+    "license": "GPL 3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pexpect/pexpect-4.3.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cvxopt/cvxopt-1.1.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Pexpect makes Python a better tool for controlling other applications.",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.3.1"
+    "version": "1.1.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "pexpect-4.3.1-py35_0.tar.bz2",
+  "package": "cvxopt-1.1.8-py35_blas_openblas_200.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "py35_blas_openblas_200",
+    "build_number": 200,
     "depends": [
-      "ptyprocess",
+      "blas 1.1 openblas",
+      "fftw",
+      "glpk",
+      "gsl",
+      "openblas 0.2.18*",
       "python 3.5*"
     ],
-    "license": "ISC",
-    "md5": "505d75b5f52198f01e33d38f2bbbd1db",
-    "name": "pexpect",
-    "sha256": "dc0700ad9634c66ad34dc465eac48f39c258813fe6a66ffbdfbe45570cb9cb7f",
-    "size": 548252,
+    "features": "blas_openblas",
+    "license": "GPL 3",
+    "md5": "a5bc130f4a62053161392cc49b2dee14",
+    "name": "cvxopt",
+    "sha256": "f527a5a9b03d46b3b7a226931260a81288975700a1034d1933935a95d1d35745",
+    "size": 1833265,
     "subdir": "linux-64",
-    "version": "4.3.1"
+    "version": "1.1.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pexpect-4.3.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cvxopt-1.1.8-py35_blas_openblas_200.tar.bz2"
 }
