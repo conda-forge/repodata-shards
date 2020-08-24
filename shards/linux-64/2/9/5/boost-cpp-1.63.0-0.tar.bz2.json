@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/clMathLibraries/clBLAS",
+    "home": "http://www.boost.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "Boost-1.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/clMathLibraries/clBLAS/archive/v2.12.tar.gz",
+    "source_url": "http://sourceforge.net/projects/boost/files/boost/1.63.0/boost_1_63_0.tar.bz2",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A software library containing BLAS functions written in OpenCL",
+    "summary": "Free peer-reviewed portable C++ source libraries.",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "2.12"
+    "version": "1.63.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "clblas-2.12-0.tar.bz2",
+  "package": "boost-cpp-1.63.0-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
     "depends": [
-      "ocl-icd"
+      "bzip2 1.0.*",
+      "icu 56.*",
+      "zlib 1.2.*"
     ],
-    "license": "Apache 2.0",
-    "md5": "125758137b714c75adbb161e021a7879",
-    "name": "clblas",
-    "sha256": "6213ff116125847565df7d05ef69592f7d923525c77f6bf7ffab916c042233f9",
-    "size": 1628062,
+    "license": "Boost-1.0",
+    "md5": "2a5d38a73091291fcd496b369b43ba6e",
+    "name": "boost-cpp",
+    "sha256": "20d01a633d3280f56db158c3d07cb49bdcc92bb597ab8d2843ae154a805361a5",
+    "size": 18147174,
     "subdir": "linux-64",
-    "version": "2.12"
+    "version": "1.63.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/clblas-2.12-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/boost-cpp-1.63.0-0.tar.bz2"
 }
