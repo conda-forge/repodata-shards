@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://conda-forge.org/docs/meta.html#pinning-packages",
+    "home": "https://github.com/NSLS-II/event-model",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/NSLS-II/event-model/archive/v1.8.2.tar.gz",
     "subdirs": [
       "noarch"
     ],
-    "summary": "The baseline versions of software for the conda-forge ecosystem",
+    "summary": "data model for event-based data collection and analysis",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1542808662,
-    "version": "2018.11.21"
+    "timestamp": 1552160367,
+    "version": "1.8.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf201901",
     "broken"
   ],
-  "package": "conda-forge-pinning-2018.11.21-0.tar.bz2",
+  "package": "event-model-1.8.2-py_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py_0",
     "build_number": 0,
-    "depends": [],
+    "depends": [
+      "jsonschema",
+      "numpy",
+      "python >=3",
+      "setuptools"
+    ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "b3d14452016b8fc20fb2ab80a25f9c6e",
-    "name": "conda-forge-pinning",
-    "noarch": "generic",
-    "sha256": "79e09bf3626b11b1e09d9b6b09dfc26f4783b2b8f09f7c6ca728092119dd3030",
-    "size": 5392,
+    "md5": "e69658e50bb316641cfe7e45a6ffce62",
+    "name": "event-model",
+    "noarch": "python",
+    "sha256": "2dfdc66e5f6e605722167ff49c1f6ec1c07a1490f2991fba46928ff6fc37e353",
+    "size": 17882,
     "subdir": "noarch",
-    "timestamp": 1542808662274,
-    "version": "2018.11.21"
+    "timestamp": 1552160367192,
+    "version": "1.8.2"
   },
   "repodata_version": 1,
   "subdir": "noarch",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/noarch/conda-forge-pinning-2018.11.21-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/noarch/event-model-1.8.2-py_0.tar.bz2"
 }
