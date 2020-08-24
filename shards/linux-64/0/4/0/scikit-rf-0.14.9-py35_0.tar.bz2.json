@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "http://github.com/sunlightlabs/census",
+    "dev_url": "https://github.com/scikit-rf/scikit-rf",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "http://github.com/sunlightlabs/census",
+    "doc_url": "http://scikit-rf.readthedocs.io/",
+    "home": "http://www.scikit-rf.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/census/census-0.8.2.tar.gz",
+    "source_url": "https://github.com/scikit-rf/scikit-rf/archive/v0.14.9.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A wrapper for the US Census Bureau's API",
+    "summary": "Object Oriented Microwave Engineering.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.8.2"
+    "version": "0.14.9"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "census-0.8.2-py35_0.tar.bz2",
+  "package": "scikit-rf-0.14.9-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
+      "future",
+      "ipython",
+      "matplotlib",
+      "numpy",
+      "pandas",
       "python 3.5*",
-      "requests >=1.1.0"
+      "scipy",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "5628b92f224c0febf853025d904f4a2e",
-    "name": "census",
-    "sha256": "41341c912d30d17bd6946244c71f92b2900a4b00af1f876cebdd250f85537593",
-    "size": 16361,
+    "md5": "18b1f76eb207f9d5a8b876300c97e97f",
+    "name": "scikit-rf",
+    "sha256": "cefbb3e766c16adc64a709c07325a5f67853ee619448a1bd237890c7a65f7f48",
+    "size": 1878569,
     "subdir": "linux-64",
-    "version": "0.8.2"
+    "version": "0.14.9"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/census-0.8.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/scikit-rf-0.14.9-py35_0.tar.bz2"
 }
