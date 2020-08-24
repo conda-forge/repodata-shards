@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/jakirkham/kenjutsu",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://kenjutsu.readthedocs.io/",
-    "home": "https://github.com/jakirkham/kenjutsu",
+    "doc_url": null,
+    "home": "https://github.com/kennethreitz/grequests",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,11 +19,11 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/k/kenjutsu/kenjutsu-0.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/grequests/grequests-0.3.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
-    "summary": "Python utility functions for slices.",
+    "summary": "Requests + Gevent",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
@@ -32,26 +32,27 @@
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "kenjutsu-0.3.0-py35_0.tar.bz2",
+  "package": "grequests-0.3.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "gevent",
+      "python 3.6*",
+      "requests"
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "3b81082eb0184ecc4850af83a584dc66",
-    "name": "kenjutsu",
-    "sha256": "e661c3bc3863c14271fb6196c5bcdfd08c8f154fe61442f2229f7b3b383d05eb",
-    "size": 15148,
-    "subdir": "linux-64",
+    "md5": "2932d12a85daea7c531fd84205f32ab1",
+    "name": "grequests",
+    "sha256": "29582c1626854ce359752c30c9166e28f154e42e0d5c35b0006833250fc108af",
+    "size": 7881,
+    "subdir": "win-64",
     "version": "0.3.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/kenjutsu-0.3.0-py35_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/grequests-0.3.0-py36_0.tar.bz2"
 }
