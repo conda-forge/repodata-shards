@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/epsy/sigtools",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://sigtools.readthedocs.io/",
+    "home": "https://github.com/python-visualization/folium",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/sigtools/sigtools-2.0.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/f/folium/folium-0.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Utilities for working with inspect.Signature objects.",
+    "summary": "Make beautiful maps with Leaflet.js and Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1582151467,
-    "version": "2.0.2"
+    "timestamp": 0,
+    "version": "0.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "sigtools-2.0.2-py37_0.tar.bz2",
+  "package": "folium-0.4.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py37_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python >=3.7,<3.8.0a0",
-      "six"
+      "altair",
+      "branca",
+      "jinja2",
+      "numpy",
+      "pandas",
+      "python 3.6*",
+      "requests",
+      "vincent"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "f45242f9f16c82a073e9d5d1a41052c1",
-    "name": "sigtools",
-    "sha256": "f02c7357e2a360e70d677fcfc729862c0fcb936908c55c7771c1634728eb371f",
-    "size": 92572,
+    "md5": "de50be1daee2952a85d9998300e47490",
+    "name": "folium",
+    "sha256": "f608f5860e67673b98644b801519db84e14e7ed9a99b021159c6c1b00e4125b0",
+    "size": 74942,
     "subdir": "linux-64",
-    "timestamp": 1582151467144,
-    "version": "2.0.2"
+    "version": "0.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/sigtools-2.0.2-py37_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/folium-0.4.0-py36_0.tar.bz2"
 }
