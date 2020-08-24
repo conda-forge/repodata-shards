@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://s3fs.readthedocs.io/en/latest/",
+    "home": "http://distributed.readthedocs.io/en/latest/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/s3fs/s3fs-0.0.8.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/distributed/distributed-1.11.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Convenient Filesystem interface over S3",
+    "summary": "Distributed computing",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.0.8"
+    "version": "1.11.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,35 @@
     "cf202003",
     "main"
   ],
-  "package": "s3fs-0.0.8-py34_0.tar.bz2",
+  "package": "distributed-1.11.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
+      "bokeh",
       "boto3",
-      "python 3.4*"
+      "click",
+      "cloudpickle >=0.2.1",
+      "dask >=0.10.0",
+      "locket",
+      "msgpack-python",
+      "psutil",
+      "python 2.7*",
+      "s3fs",
+      "six",
+      "tblib",
+      "toolz",
+      "tornado >=4.2"
     ],
     "license": "BSD 3-Clause",
-    "md5": "5775808096138b933f5f8a17b15cfc84",
-    "name": "s3fs",
-    "sha256": "d5d1a23afba1850d8aa5203c5adaeb67a6e9925720a8381921b5e357b17dcf28",
-    "size": 25034,
+    "md5": "2429b76f09467580e36dd8143d1a0e09",
+    "name": "distributed",
+    "sha256": "3c6b7fda2cad077e68108f326f706295df1e200ecdc22bdf6a2df3cf181ca7a5",
+    "size": 282136,
     "subdir": "linux-64",
-    "version": "0.0.8"
+    "version": "1.11.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/s3fs-0.0.8-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/distributed-1.11.2-py27_0.tar.bz2"
 }
