@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/openid/python-openid",
+    "home": "http://github.com/apache/arrow",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/python-openid/python-openid-2.2.5.tar.gz",
+    "source_url": "https://github.com/apache/arrow/archive/b17333482ea1da3728538bc912b1053ba70ed2e7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "OpenID support for servers and consumers.",
+    "summary": "C++ libraries for Apache Arrow",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "2.2.5"
+    "version": "0.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "python-openid-2.2.5-py27_0.tar.bz2",
+  "package": "arrow-cpp-0.6.0-np111py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "np111py35_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "numpy 1.11*",
+      "python 3.5*"
     ],
     "license": "Apache 2.0",
-    "license_family": "Apache",
-    "md5": "0cb87b93a616b8874f70070490c9f7e3",
-    "name": "python-openid",
-    "sha256": "e5e06585f8076a934714069b36b86bbffabf1096f57f5d337cf52a6840f05123",
-    "size": 161384,
+    "md5": "f56f5b968dad5f4ce002bdd7a7de1aac",
+    "name": "arrow-cpp",
+    "sha256": "1c34383abb0007236229d7c3cb0e62420fedc0bd6d132e0123d42e86018fbe13",
+    "size": 2436895,
     "subdir": "linux-64",
-    "version": "2.2.5"
+    "version": "0.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-openid-2.2.5-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/arrow-cpp-0.6.0-np111py35_0.tar.bz2"
 }
