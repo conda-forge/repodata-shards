@@ -4,56 +4,57 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/xpdAcq/xpdSim",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/SimonSapin/cairocffi",
+    "doc_url": "http://xpdacq.github.io/xpdSim/",
+    "home": "https://github.com/xpdAcq/xpdSim",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "BSD-3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/cairocffi/cairocffi-0.7.2.tar.gz",
+    "source_url": "https://github.com/xpdAcq/xpdsim/archive/0.1.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "cffi-based cairo bindings for Python",
+    "summary": "A simulation environment for experiments at the XPD beamline at NSLS-II",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.7.2"
+    "version": "0.1.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "cairocffi-0.7.2-py35_0.tar.bz2",
+  "package": "xpdsim-0.1.5-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "cairo",
-      "cffi >=1.1.0",
+      "bluesky",
+      "databroker",
+      "ophyd",
+      "pyfai",
       "python 3.5*"
     ],
-    "license": "BSD 3-Clause",
+    "license": "BSD-3-clause",
     "license_family": "BSD",
-    "md5": "d75d52d174c781d386445d8b0f3780fa",
-    "name": "cairocffi",
-    "sha256": "a48550b54cd164ca4ebf932e16063d144812ad5b79cd1083a83e3e28c35f4d1d",
-    "size": 196570,
+    "md5": "ce2bf76eff5e018e85ab93689ac2aa43",
+    "name": "xpdsim",
+    "sha256": "389824bb74cda699fc4efb6148357ad6077397a9e36627d3b57b9a2916f12343",
+    "size": 5417444,
     "subdir": "linux-64",
-    "version": "0.7.2"
+    "version": "0.1.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cairocffi-0.7.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xpdsim-0.1.5-py35_0.tar.bz2"
 }
