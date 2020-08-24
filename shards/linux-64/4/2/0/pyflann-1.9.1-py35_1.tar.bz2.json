@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/Toblerity/Fiona",
+    "home": "http://www.cs.ubc.ca/research/flann/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,46 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/F/Fiona/Fiona-1.7.8.tar.gz",
+    "source_url": "https://github.com/mariusmuja/flann/archive/1.9.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fiona reads and writes spatial data files.",
+    "summary": "Python wrapper for FLANN",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 0,
-    "version": "1.7.8"
+    "text_prefix": false,
+    "timestamp": 1525193507,
+    "version": "1.9.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "fiona-1.7.8-py35_1.tar.bz2",
+  "package": "pyflann-1.9.1-py35_1.tar.bz2",
   "repodata": {
     "build": "py35_1",
     "build_number": 1,
     "depends": [
-      "click-plugins",
-      "cligj",
-      "libgdal 2.1.4",
-      "munch",
-      "numpy >=1.9",
-      "python 3.5*",
-      "setuptools",
-      "shapely",
-      "six"
+      "flann 1.9.1.*",
+      "numpy",
+      "python >=3.5,<3.6.0a0"
     ],
     "license": "BSD 3-Clause",
-    "md5": "b1ca86f4079a1f08857d0d68b853d33c",
-    "name": "fiona",
-    "sha256": "68b3ae7920b5eda871e06e5cc32cec595f2d51b6a2c87c0896ff86371f424640",
-    "size": 1402491,
+    "md5": "48d83093ec5f85f372f789b61c71bff7",
+    "name": "pyflann",
+    "sha256": "e99b4a574e10b2e45153ccae832a9dd848e139c86f66ad4d24becfd0e75d84a9",
+    "size": 9145216,
     "subdir": "linux-64",
-    "version": "1.7.8"
+    "timestamp": 1525193507319,
+    "version": "1.9.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.7.8-py35_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyflann-1.9.1-py35_1.tar.bz2"
 }
