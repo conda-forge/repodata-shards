@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/nucleic/kiwi",
+    "home": "https://pypi.python.org/pypi/pykdtree",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "LGPL-3.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/nucleic/kiwi/archive/1.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pykdtree/pykdtree-1.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A fast implementation of the Cassowary constraint solver",
+    "summary": "Fast kd-tree implementation with OpenMP-enabled queries.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.0"
+    "version": "1.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "kiwisolver-1.0.0-py27_0.tar.bz2",
+  "package": "pykdtree-1.2.1-np112py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "np112py35_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "libgcc",
+      "numpy 1.12*",
+      "python 3.5*"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "92bc734bcad110379b11b0d5ced58365",
-    "name": "kiwisolver",
-    "sha256": "91c822feb13746c0de9c7524b34ab9c2ad84b2e19c1308aaf77f42fb3971aa52",
-    "size": 946463,
+    "license": "LGPL-3.0",
+    "md5": "d3eeb4cecea06640e304dbe6861a5980",
+    "name": "pykdtree",
+    "sha256": "c89ce84b65707c9e73b06ad8daa3afb8176c9cd02a09f1c6aa28e83b1b959fe2",
+    "size": 159645,
     "subdir": "linux-64",
-    "version": "1.0.0"
+    "version": "1.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/kiwisolver-1.0.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pykdtree-1.2.1-np112py35_0.tar.bz2"
 }
