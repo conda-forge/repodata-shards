@@ -26,8 +26,8 @@
     "summary": "Fireworks is the event display application for the CMS Experiment",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1560915085,
-    "version": "10.6.0.patch2"
+    "timestamp": 1581265875,
+    "version": "11.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "fwlite-10.6.0.patch2-py37h80a2d98_1.tar.bz2",
+  "package": "fwlite-11.0.0-py37had94431_1.tar.bz2",
   "repodata": {
-    "build": "py37h80a2d98_1",
+    "build": "py37had94431_1",
     "build_number": 1,
     "depends": [
-      "boost >=1.68.0,<1.69.0a0",
+      "boost-cpp >=1.70.0,<1.70.1.0a0",
       "clhep >=2.4.0.2,<2.4.0.3.0a0",
       "cms-md5",
       "hepmc2",
       "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "libjpeg-turbo >=2.0.3,<3.0a0",
       "libsigcpp",
       "libstdcxx-ng >=7.3.0",
       "libuuid >=2.32.1,<3.0a0",
       "python >=3.7,<3.8.0a0",
-      "root >=6.16.0,<6.16.1.0a0",
-      "tbb",
+      "root-binaries",
+      "root-dependencies >=6.18.4,<6.18.5.0a0",
+      "root_base >=6.18.4,<6.18.5.0a0",
+      "tbb >=2019.9",
+      "tbb-devel",
       "tinyxml2",
-      "xerces-c >=3.2.2,<3.2.3.0a0",
       "xorg-libx11",
       "xorg-libxau",
       "xorg-libxcursor",
@@ -64,15 +68,15 @@
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "dad0ead736097d3195e1c393789155af",
+    "md5": "b6c51daa7fd9cc358d214a8b7ab24235",
     "name": "fwlite",
-    "sha256": "679623a1951ad981082b2fc2f2dad3e0af38833968b36961aed27e3364a094fa",
-    "size": 83065133,
+    "sha256": "826b7b0057ca1f2641175f2f0981afd88016fe32ebeaffb62d133927e6453e7a",
+    "size": 81683499,
     "subdir": "linux-64",
-    "timestamp": 1560915085809,
-    "version": "10.6.0.patch2"
+    "timestamp": 1581265875062,
+    "version": "11.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fwlite-10.6.0.patch2-py37h80a2d98_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fwlite-11.0.0-py37had94431_1.tar.bz2"
 }
