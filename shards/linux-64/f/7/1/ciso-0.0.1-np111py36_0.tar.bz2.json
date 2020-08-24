@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://kealib.org/",
+    "home": "https://github.com/ioos/ciso",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://bitbucket.org/chchrsc/kealib/downloads/kealib-1.4.7.tar.gz",
+    "source_url": "https://github.com/ioos/ciso/archive/v0.0.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The KEA format provides an implementation of the GDAL specification within the the HDF5 file format.",
+    "summary": "Cythonized Iso Surfaces (CISO).",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "1.4.7"
+    "version": "0.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "kealib-1.4.7-3.tar.bz2",
+  "package": "ciso-0.0.1-np111py36_0.tar.bz2",
   "repodata": {
-    "build": "3",
-    "build_number": 3,
+    "build": "np111py36_0",
+    "build_number": 0,
     "depends": [
-      "hdf5 1.8.18|1.8.18.*"
+      "numpy 1.11*",
+      "python 3.6*"
     ],
     "license": "MIT",
-    "md5": "5c2e0cf557afe97f9d349615fcf35752",
-    "name": "kealib",
-    "sha256": "6bd5b8d55c3c40d2d84ef4b39039fed0708d543fca6238038c7398b019510640",
-    "size": 177949,
+    "md5": "72be4695c4f18659783f44f261cbf7a9",
+    "name": "ciso",
+    "sha256": "e5c0071a77e68f5185f52cf48b638204c89e7980e72edcfcb563b773fa975fd1",
+    "size": 254602,
     "subdir": "linux-64",
-    "version": "1.4.7"
+    "version": "0.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/kealib-1.4.7-3.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ciso-0.0.1-np111py36_0.tar.bz2"
 }
