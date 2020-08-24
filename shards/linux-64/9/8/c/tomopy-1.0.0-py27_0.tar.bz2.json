@@ -7,52 +7,56 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/blink1073/oct2py",
+    "home": "http://tomopy.readthedocs.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/o/oct2py/oct2py-3.6.5.tar.gz",
+    "source_url": "https://github.com/tomopy/tomopy/archive/1.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python to GNU Octave bridge --> run m-files from python",
+    "summary": "Tomographic reconstruction in Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.6.5"
+    "version": "1.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "oct2py-3.6.5-py27_0.tar.bz2",
+  "package": "tomopy-1.0.0-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "ipython",
+      "dxchange",
       "numpy",
+      "pyfftw",
       "python 2.7*",
-      "scipy"
+      "pywavelets",
+      "scikit-image",
+      "scipy",
+      "six"
     ],
-    "license": "MIT",
-    "md5": "317b781ca7c62b67eaab2867debc698d",
-    "name": "oct2py",
-    "sha256": "34d898df605353f7be779f1ed46bc1e6d18dc5ae527b5a19b866abc3539a8964",
-    "size": 56209,
+    "license": "BSD 3-Clause",
+    "md5": "e05b8319d00c1f14ca496274cb50e53b",
+    "name": "tomopy",
+    "sha256": "9e01a6f0e2923562194e6154f2efc18199205b41a1360fdd91a48ddb741ad1f0",
+    "size": 1610347,
     "subdir": "linux-64",
-    "version": "3.6.5"
+    "version": "1.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/oct2py-3.6.5-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/tomopy-1.0.0-py27_0.tar.bz2"
 }
