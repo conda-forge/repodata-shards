@@ -1,56 +1,58 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/mrabarnett/mrab-regex",
+    "home": "https://github.com/pytest-dev/pytest-cov",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Python-2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/regex/regex-2017.04.29.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pytest-cov/pytest-cov-2.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Alternative regular expression module, to replace re.",
+    "summary": "Pytest plugin for measuring coverage",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2017.04.29"
+    "version": "2.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "regex-2017.04.29-py27_0.tar.bz2",
+  "package": "pytest-cov-2.4.0-py34_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "coverage",
+      "pytest",
+      "python 3.4*",
+      "setuptools"
     ],
-    "license": "Python-2.0",
-    "md5": "bbc590ddd8b6702ba7ab723583e6f0db",
-    "name": "regex",
-    "sha256": "cbca3a694cc5d193efc43ec1e6f1739cce4668730997895f75e68ff4c594aef5",
-    "size": 659431,
+    "license": "MIT",
+    "md5": "c7301da2b73e7fc8e692585f8406bc86",
+    "name": "pytest-cov",
+    "sha256": "ac72f56193b934cc4a2beceda99dfd921f7e2b602db091587422152ddfe47c83",
+    "size": 20208,
     "subdir": "linux-64",
-    "version": "2017.04.29"
+    "version": "2.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/regex-2017.04.29-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-cov-2.4.0-py34_0.tar.bz2"
 }
