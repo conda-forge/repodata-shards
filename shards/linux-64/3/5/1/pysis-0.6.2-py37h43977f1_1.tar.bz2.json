@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ScientificDataFormat/SDF-Python",
+    "home": "https://github.com/wtolson/pysis",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,43 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/ScientificDataFormat/SDF-Python/archive/v0.3.4.tar.gz",
+    "source_url": "https://github.com/USGS-Astrogeology/pysis/archive/0.6.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Work with the Scientific Data Format in Python",
+    "summary": "Toolkit for using USGS Isis in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1550150546,
-    "version": "0.3.4"
+    "timestamp": 1591810948,
+    "version": "0.6.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "sdf-0.3.4-py27_1.tar.bz2",
+  "package": "pysis-0.6.2-py37h43977f1_1.tar.bz2",
   "repodata": {
-    "build": "py27_1",
+    "build": "py37h43977f1_1",
     "build_number": 1,
     "depends": [
-      "h5py",
-      "matplotlib",
       "numpy",
-      "python >=2.7,<2.8.0a0",
-      "scipy"
+      "pvl",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "six"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "a2e28bff644dd6988a1e6b2854774862",
-    "name": "sdf",
-    "sha256": "dcafec564c3c3a9e73702831dd35c0e6aa9f1ab5787d79d2572165fe8dedbea6",
-    "size": 158366,
+    "md5": "3b503ca9e634928faf5a475f5a1379f5",
+    "name": "pysis",
+    "sha256": "07a0687807fcb2b4bec67aa3b9250fd3664c5fee0d5c935fb13e0f025ca947af",
+    "size": 25406,
     "subdir": "linux-64",
-    "timestamp": 1550150546626,
-    "version": "0.3.4"
+    "timestamp": 1591810948275,
+    "version": "0.6.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/sdf-0.3.4-py27_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pysis-0.6.2-py37h43977f1_1.tar.bz2"
 }

@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://humanfriendly.readthedocs.org",
+    "home": "http://toblerity.github.com/rtree/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/humanfriendly/humanfriendly-4.18.tar.gz",
+    "source_url": "https://pypi.io/packages/source/R/Rtree/Rtree-0.9.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Human friendly output for text interfaces using Python.",
+    "summary": "R-Tree spatial index for Python GIS",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1578756909,
-    "version": "4.18"
+    "text_prefix": false,
+    "timestamp": 1574679212,
+    "version": "0.9.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "humanfriendly-4.18-py38_1.tar.bz2",
+  "package": "rtree-0.9.0-py38h7b0cdae_0.tar.bz2",
   "repodata": {
-    "build": "py38_1",
-    "build_number": 1,
+    "build": "py38h7b0cdae_0",
+    "build_number": 0,
     "depends": [
+      "libspatialindex >=1.9.3,<1.9.4.0a0",
       "python >=3.8,<3.9.0a0"
     ],
     "license": "MIT",
-    "md5": "e078ac1c080fb541dead8bb471992d07",
-    "name": "humanfriendly",
-    "sha256": "beae4a9277e3eb010c614fca523fa27d9b0925313fc4538af9849c33da6b57ed",
-    "size": 105771,
+    "md5": "8373f5f6ad5e51392c5b160635119daf",
+    "name": "rtree",
+    "sha256": "c204c1ab258e0a237c7398112ddfbb2034f66bf5582d97f99105a035abe6c5df",
+    "size": 43977,
     "subdir": "linux-64",
-    "timestamp": 1578756909545,
-    "version": "4.18"
+    "timestamp": 1574679212991,
+    "version": "0.9.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/humanfriendly-4.18-py38_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/rtree-0.9.0-py38h7b0cdae_0.tar.bz2"
 }
