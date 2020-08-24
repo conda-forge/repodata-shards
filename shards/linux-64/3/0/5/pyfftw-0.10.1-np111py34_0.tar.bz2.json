@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL 3",
+    "license": "BSD or GPL 2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.10"
+    "version": "0.10.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,20 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "libblitz-0.10-0.tar.bz2",
+  "package": "pyfftw-0.10.1-np111py34_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "np111py34_0",
     "build_number": 0,
-    "depends": [],
-    "license": "LGPL 3",
-    "md5": "c2e42c7f80f54497153d3e96fe5cbdfa",
-    "name": "libblitz",
-    "sha256": "e4ece0b72572c5c2115d7a1a2360706b7165ae88bbd7cc2bc3eb64470a1adea7",
-    "size": 173490,
+    "depends": [
+      "fftw",
+      "numpy 1.11*",
+      "python 3.4*"
+    ],
+    "license": "BSD or GPL 2",
+    "md5": "250affaadac085da3bca171af7aa7239",
+    "name": "pyfftw",
+    "sha256": "6c58b662be32e69dac581054b93c77759677482339896cb8de1cbe6e063be897",
+    "size": 336910,
     "subdir": "linux-64",
-    "version": "0.10"
+    "version": "0.10.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libblitz-0.10-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyfftw-0.10.1-np111py34_0.tar.bz2"
 }
