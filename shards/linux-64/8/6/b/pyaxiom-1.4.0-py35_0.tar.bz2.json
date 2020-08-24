@@ -7,50 +7,57 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/axiom-data-science/pyaxiom",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD License",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/t/tifffile/tifffile-0.3.1.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "An ocean data toolkit developed and used by Axiom Data Science.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.1"
+    "version": "1.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "tifffile-0.3.1-np110py27_0.tar.bz2",
+  "package": "pyaxiom-1.4.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "np110py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "numpy 1.10*",
-      "python 2.7*"
+      "netcdf4",
+      "numpy",
+      "pandas",
+      "pyncml",
+      "pynco",
+      "python 3.5*",
+      "python-dateutil",
+      "pytz",
+      "simplejson"
     ],
-    "license": "BSD License",
-    "md5": "e5040617123ba76244321f454eb0af26",
-    "name": "tifffile",
-    "sha256": "bfee969949a87ee11cbbd041fe4a9057078f5a301a9fcf4f391180400ba49c77",
-    "size": 112854,
+    "license": "MIT",
+    "md5": "13985093204f28910ea91bbd0573cf61",
+    "name": "pyaxiom",
+    "sha256": "83b453fb0724adc224cacaac08cbcb9402db98d31245645060c123e1ca1ec4fd",
+    "size": 85941,
     "subdir": "linux-64",
-    "version": "0.3.1"
+    "version": "1.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/tifffile-0.3.1-np110py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyaxiom-1.4.0-py35_0.tar.bz2"
 }
