@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/basnijholt/hpc05",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/basnijholt/hpc05",
+    "home": "https://github.com/agronholm/apscheduler",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -18,16 +18,16 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "https://github.com/basnijholt/hpc05/archive/v1.14.zip",
+    "source_git_url": "https://github.com/agronholm/apscheduler.git",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "ipyparallel Client package for PBS cluster with headnode (as on the TU Delft).",
+    "summary": "In-process task scheduler with Cron-like capabilities",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "v1.14"
+    "version": "3.0.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,30 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "hpc05-v1.14-py27_0.tar.bz2",
+  "package": "apscheduler-3.0.5-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "ipyparallel",
-      "ipython",
-      "paramiko",
-      "pexpect",
-      "psutil",
+      "futures",
       "python 2.7*",
-      "pyzmq",
-      "sshtunnel",
-      "tornado"
+      "pytz",
+      "six",
+      "tzlocal"
     ],
     "license": "MIT",
-    "md5": "0cfd884d3538af9d416b621deff6c2e9",
-    "name": "hpc05",
-    "sha256": "55edc226944b857b5b700648e0f44d80069c4eb63a21113a0d133d9d3bd37c2a",
-    "size": 12128,
+    "md5": "30ecf02208129366a047cd0570366047",
+    "name": "apscheduler",
+    "sha256": "f77d3d809f4c0e41e914418bdafc2c57c58e3eff4adf9ec2b55241e4076b2e5a",
+    "size": 56138,
     "subdir": "linux-64",
-    "version": "v1.14"
+    "version": "3.0.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hpc05-v1.14-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/apscheduler-3.0.5-py27_0.tar.bz2"
 }
