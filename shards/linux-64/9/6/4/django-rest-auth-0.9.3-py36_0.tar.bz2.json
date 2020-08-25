@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/schlamar/cov-core",
+    "home": "http://github.com/Tivix/django-rest-auth",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/cov-core/cov-core-1.15.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/django-rest-auth/django-rest-auth-0.9.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "plugin core for use by pytest-cov, nose-cov and nose2-cov",
+    "summary": "Create a set of REST API endpoints for Authentication and Registration",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.15.0"
+    "timestamp": 1542107067,
+    "version": "0.9.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "cov-core-1.15.0-py35_0.tar.bz2",
+  "package": "django-rest-auth-0.9.3-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "coverage >=3.6",
-      "python 3.5*"
+      "django >=1.8.0",
+      "djangorestframework >=3.1.3",
+      "python >=3.6,<3.7.0a0",
+      "six >=1.9.0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "cd1dfe62c0370c7d5be9c056d22a8d18",
-    "name": "cov-core",
-    "sha256": "9b77fbc4b1cc1663b76f2880a35f799f1b54563f8c651378f6d407c578718af1",
-    "size": 209269,
+    "md5": "26ea93e256b4123181b8880bec1e5ebd",
+    "name": "django-rest-auth",
+    "sha256": "75a75946f3492e42db92394303ea9c284ea67542e8048255e797a76c8cb96f4f",
+    "size": 47981,
     "subdir": "linux-64",
-    "version": "1.15.0"
+    "timestamp": 1542107067931,
+    "version": "0.9.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cov-core-1.15.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-rest-auth-0.9.3-py36_0.tar.bz2"
 }

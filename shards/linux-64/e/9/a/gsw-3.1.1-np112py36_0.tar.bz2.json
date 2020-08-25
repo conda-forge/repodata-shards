@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/schlamar/cov-core",
+    "home": "https://github.com/TEOS-10/GSW-Python/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/cov-core/cov-core-1.15.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/gsw/gsw-3.1.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "plugin core for use by pytest-cov, nose-cov and nose2-cov",
+    "summary": "Gibbs SeaWater Oceanographic Package of TEOS-10.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.15.0"
+    "version": "3.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "cov-core-1.15.0-py35_0.tar.bz2",
+  "package": "gsw-3.1.1-np112py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np112py36_0",
     "build_number": 0,
     "depends": [
-      "coverage >=3.6",
-      "python 3.5*"
+      "numpy 1.12*",
+      "python 3.6*"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "cd1dfe62c0370c7d5be9c056d22a8d18",
-    "name": "cov-core",
-    "sha256": "9b77fbc4b1cc1663b76f2880a35f799f1b54563f8c651378f6d407c578718af1",
-    "size": 209269,
+    "md5": "c957f83bc100aa6d84334a625ad18311",
+    "name": "gsw",
+    "sha256": "c9ba5a53758256f1470ae068f82a27445c8bc65a0c9726dc3874195dbc5edd8b",
+    "size": 2060586,
     "subdir": "linux-64",
-    "version": "1.15.0"
+    "version": "3.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cov-core-1.15.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gsw-3.1.1-np112py36_0.tar.bz2"
 }
