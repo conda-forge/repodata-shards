@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://scikit-image.org/",
+    "home": "http://jupyter.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/scikit-image/scikit-image-0.12.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/q/qtconsole/qtconsole-4.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Image processing routines for SciPy",
+    "summary": "Jupyter Qt console",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "0.12.3"
+    "version": "4.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,29 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "scikit-image-0.12.3-np112py36_1.tar.bz2",
+  "package": "qtconsole-4.2.1-py36_1.tar.bz2",
   "repodata": {
-    "build": "np112py36_1",
+    "build": "py36_1",
     "build_number": 1,
     "depends": [
-      "dask >=0.5",
-      "matplotlib >=1.1",
-      "networkx >=1.8",
-      "numpy 1.12*",
-      "pillow >=1.7.8",
+      "ipykernel >=4.1",
+      "jupyter_client >=4.1",
+      "jupyter_core",
+      "pygments",
+      "pyqt 4.11.*",
       "python 3.6*",
-      "scipy >=0.9",
-      "six >=1.4"
+      "traitlets"
     ],
     "license": "BSD 3-Clause",
-    "md5": "913ea24f16c8852e9462f85fc80ab368",
-    "name": "scikit-image",
-    "sha256": "5d19b00616dc6cb608602ad0902dc5b9677fb143e095f848ba9efa522ce5e114",
-    "size": 28699316,
+    "md5": "a268a4ddd1110259898984a8e49c3a3b",
+    "name": "qtconsole",
+    "sha256": "6d1e0e3fe46c60fd2c63b879bf2017e5156dbfae35f3e6e6f1e5f8a029cb1d14",
+    "size": 144093,
     "subdir": "linux-64",
-    "version": "0.12.3"
+    "version": "4.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/scikit-image-0.12.3-np112py36_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/qtconsole-4.2.1-py36_1.tar.bz2"
 }
