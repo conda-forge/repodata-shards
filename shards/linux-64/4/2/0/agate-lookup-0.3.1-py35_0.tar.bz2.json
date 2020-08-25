@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/wireservice/agate-lookup",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": null,
+    "doc_url": "http://agate-lookup.readthedocs.org/",
+    "home": "http://agate-lookup.readthedocs.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/a/agate-lookup/agate-lookup-0.3.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "agate-lookup adds remote lookup tables to agate.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.5"
+    "version": "0.3.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "ckanapi-3.5-py35_0.tar.bz2",
+  "package": "agate-lookup-0.3.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "docopt",
+      "agate >=1.5.0",
       "python 3.5*",
-      "requests",
-      "simplejson"
+      "pyyaml >=3.11",
+      "requests >=2.9.1"
     ],
     "license": "MIT",
-    "md5": "11f3ab787a087342b67cffc8da7a9315",
-    "name": "ckanapi",
-    "sha256": "9625de82004c9bef0be5e3e711a4113e0d14cc98df6f1df997c5ef6752ae40a6",
-    "size": 38575,
+    "license_family": "MIT",
+    "md5": "64f11dce49a4066d95480db87fbc83f1",
+    "name": "agate-lookup",
+    "sha256": "00f2c7e43239713898066909bad4ff417232601ccb7fd910407fca30b666e0fc",
+    "size": 8467,
     "subdir": "linux-64",
-    "version": "3.5"
+    "version": "0.3.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ckanapi-3.5-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/agate-lookup-0.3.1-py35_0.tar.bz2"
 }
