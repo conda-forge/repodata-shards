@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://scitools.org.uk/cartopy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/SciTools/cartopy/archive/v0.15.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "A library providing cartographic tools for python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.14.0"
+    "version": "0.15.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,34 +35,33 @@
     "cf202003",
     "main"
   ],
-  "package": "cartopy-0.14.0-np19py34_1.tar.bz2",
+  "package": "cartopy-0.15.1-np112py36_2.tar.bz2",
   "repodata": {
-    "build": "np19py34_1",
-    "build_number": 1,
+    "build": "np112py36_2",
+    "build_number": 2,
     "depends": [
+      "geos 3.5.1",
       "matplotlib",
-      "mock",
-      "nose",
-      "numpy 1.9*",
+      "numpy 1.12*",
       "owslib",
       "pillow",
-      "proj.4",
+      "proj4 4.9.3",
       "pyepsg",
       "pyshp",
-      "python 3.4*",
+      "python 3.6*",
       "scipy",
-      "shapely >=1.5.6",
+      "shapely",
       "six"
     ],
     "license": "GNU LGPL",
-    "md5": "f90f4b59dc1109647d7365c262e20bf9",
+    "md5": "752a1cf87c933014c8d0cbdf4820c63f",
     "name": "cartopy",
-    "sha256": "daf09aa3830c1f376a70b5aeab11af3334eeb74c32ce345fb18e9ac21ba476c7",
-    "size": 2247176,
+    "sha256": "d09cdf90f7973edd9b777bd9765961dc3d4512365564a182d7d30640f66fabde",
+    "size": 2350094,
     "subdir": "linux-64",
-    "version": "0.14.0"
+    "version": "0.15.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cartopy-0.14.0-np19py34_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cartopy-0.15.1-np112py36_2.tar.bz2"
 }
