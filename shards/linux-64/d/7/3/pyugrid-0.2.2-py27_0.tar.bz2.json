@@ -7,51 +7,51 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.boost.org/",
+    "home": "https://github.com/pyugrid/pyugrid",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Boost-1.0",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://dl.bintray.com/boostorg/release/1.65.0/source/boost_1_65_0.tar.bz2",
+    "source_url": "https://github.com/pyugrid/pyugrid/archive/v0.2.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Free peer-reviewed portable C++ source libraries.",
+    "summary": "A Python API to utilize data written using the unstructured grid UGRID conventions.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.65.0"
+    "version": "0.2.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "boost-cpp-1.65.0-0.tar.bz2",
+  "package": "pyugrid-0.2.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "bzip2 1.0.*",
-      "icu 58.*",
-      "zlib 1.2.*"
+      "netcdf4",
+      "numpy",
+      "python 2.7*"
     ],
-    "license": "Boost-1.0",
-    "md5": "c8f1d77328efdc5f65e8d276fc5c9d46",
-    "name": "boost-cpp",
-    "sha256": "44acd0c1f990d1e05f91852f6bb7dc190af710558136cfc2e164a63b27f632a5",
-    "size": 18897636,
+    "license": "BSD 3-Clause",
+    "md5": "4a5ae2aa32126d7c79d5e3b1b2d2ca9f",
+    "name": "pyugrid",
+    "sha256": "2187ed1a8f64d0c58ab856e13cbc669b7dbd3b07682f00ab59808022cf883ce4",
+    "size": 30625,
     "subdir": "linux-64",
-    "version": "1.65.0"
+    "version": "0.2.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/boost-cpp-1.65.0-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyugrid-0.2.2-py27_0.tar.bz2"
 }
