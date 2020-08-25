@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/zillow/ctds",
+    "home": "http://github.com/healpy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "GPL-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/ctds/ctds-1.7.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/healpy/healpy-1.11.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "DB API 2.0-compliant Linux driver for SQL Server",
+    "summary": "Healpix tools package for Python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.7.0"
+    "version": "1.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "ctds-1.7.0-py35_0.tar.bz2",
+  "package": "healpy-1.11.0-py27_1.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "py27_1",
+    "build_number": 1,
     "depends": [
-      "freetds",
-      "python 3.5*",
-      "setuptools"
+      "astropy",
+      "matplotlib",
+      "numpy >=1.7",
+      "pytest-runner",
+      "python 2.7*",
+      "six"
     ],
-    "license": "MIT",
-    "license_family": "MIT",
-    "md5": "5d93336220625c900017e92c8762b514",
-    "name": "ctds",
-    "sha256": "d0a3c0e24216b444227bfc40b544e2dea96e0e6c5284c4a904b29187f9fba318",
-    "size": 154052,
+    "license": "GPL-2.0",
+    "md5": "902d9189bc646523decd5fca9b3a317c",
+    "name": "healpy",
+    "sha256": "50628e67e5e573507dcd40310c3520f80f8688bea3bf71bb4c00520d2b83e378",
+    "size": 13610556,
     "subdir": "linux-64",
-    "version": "1.7.0"
+    "version": "1.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ctds-1.7.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/healpy-1.11.0-py27_1.tar.bz2"
 }

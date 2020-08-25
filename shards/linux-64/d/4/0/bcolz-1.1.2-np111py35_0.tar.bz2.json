@@ -4,10 +4,10 @@
     "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "http://github.com/Blosc/bcolz",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/zillow/ctds",
+    "doc_url": "http://bcolz.blosc.org/",
+    "home": "http://github.com/Blosc/bcolz",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/ctds/ctds-1.7.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/b/bcolz/bcolz-1.1.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "DB API 2.0-compliant Linux driver for SQL Server",
+    "summary": "A columnar data container that can be compressed",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.7.0"
+    "version": "1.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "ctds-1.7.0-py35_0.tar.bz2",
+  "package": "bcolz-1.1.2-np111py35_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np111py35_0",
     "build_number": 0,
     "depends": [
-      "freetds",
-      "python 3.5*",
-      "setuptools"
+      "dask",
+      "numexpr",
+      "numpy 1.11*",
+      "pandas",
+      "pytables",
+      "python 3.5*"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "5d93336220625c900017e92c8762b514",
-    "name": "ctds",
-    "sha256": "d0a3c0e24216b444227bfc40b544e2dea96e0e6c5284c4a904b29187f9fba318",
-    "size": 154052,
+    "md5": "f8a32f41f6b1133c97dcbe6273f343f5",
+    "name": "bcolz",
+    "sha256": "10933f31a7693236653ee1fee8b38d5e82f1dceb95f0e203665fb47660c05003",
+    "size": 2865114,
     "subdir": "linux-64",
-    "version": "1.7.0"
+    "version": "1.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ctds-1.7.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/bcolz-1.1.2-np111py35_0.tar.bz2"
 }

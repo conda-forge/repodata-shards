@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://hdfeos.org/software/pyhdf",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD License",
+    "license": "Public Domain",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "http://hdfeos.org/software/pyhdf/pyhdf-0.9.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Python interface to the NCSA HDF4 library.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.6.3"
+    "version": "0.9.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,29 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "fiona-1.6.3-np111py35_4.tar.bz2",
+  "package": "pyhdf-0.9.0-py27_2.tar.bz2",
   "repodata": {
-    "build": "np111py35_4",
-    "build_number": 4,
+    "build": "py27_2",
+    "build_number": 2,
     "depends": [
-      "click-plugins",
-      "cligj",
-      "gdal 1.11.4",
-      "munch",
-      "numpy 1.11*",
-      "python 3.5*",
-      "setuptools",
-      "six"
+      "hdf4",
+      "numpy >=1.8",
+      "python 2.7*"
     ],
-    "license": "BSD License",
-    "md5": "46385f09e9f6e652a401316574351214",
-    "name": "fiona",
-    "sha256": "959f66bf6ff7a395f757875d878159b8b93d959a76527a9b36b72c8884c76221",
-    "size": 1044420,
+    "license": "Public Domain",
+    "md5": "16638c6e14861811d343671092454424",
+    "name": "pyhdf",
+    "sha256": "c139520f90af74ea1e2d8e5baafe36c6c3ce4accf838e6dd814b21fb31629f12",
+    "size": 301044,
     "subdir": "linux-64",
-    "version": "1.6.3"
+    "version": "0.9.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.6.3-np111py35_4.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyhdf-0.9.0-py27_2.tar.bz2"
 }
