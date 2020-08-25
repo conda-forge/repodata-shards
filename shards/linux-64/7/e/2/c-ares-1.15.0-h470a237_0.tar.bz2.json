@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.lua.org/",
+    "home": "https://c-ares.haxx.se/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://www.lua.org/ftp/lua-5.2.4.tar.gz",
+    "source_url": "https://c-ares.haxx.se/download/c-ares-1.15.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Lua is a powerful, fast, lightweight, embeddable scripting language",
+    "summary": "This is c-ares, an asynchronous resolver library",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 0,
-    "version": "5.2.4"
+    "text_prefix": true,
+    "timestamp": 1540337938,
+    "version": "1.15.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "lua-5.2.4-2.tar.bz2",
+  "package": "c-ares-1.15.0-h470a237_0.tar.bz2",
   "repodata": {
-    "build": "2",
-    "build_number": 2,
+    "build": "h470a237_0",
+    "build_number": 0,
     "depends": [
-      "ncurses 5.9*",
-      "readline 6.2*"
+      "libgcc-ng >=4.9"
     ],
     "license": "MIT",
-    "md5": "ab34c24d0478e93788f7ae5d58bfde4e",
-    "name": "lua",
-    "sha256": "889769fb7bc0e14954178131d015987d03df8521232ae7933a8257ba926f4d38",
-    "size": 198302,
+    "license_family": "MIT",
+    "md5": "172ae9a70d09371bb3fa8ba94952ee8e",
+    "name": "c-ares",
+    "sha256": "73c57fc8cf5670bbebec6c43f829e4c5697b4136b8047130f7d1453a45ef824d",
+    "size": 92690,
     "subdir": "linux-64",
-    "version": "5.2.4"
+    "timestamp": 1540337938016,
+    "version": "1.15.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/lua-5.2.4-2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/c-ares-1.15.0-h470a237_0.tar.bz2"
 }
