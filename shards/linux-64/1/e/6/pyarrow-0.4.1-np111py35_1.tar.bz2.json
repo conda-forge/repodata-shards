@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/WebAssembly/binaryen",
+    "home": "http://github.com/apache/arrow",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/WebAssembly/binaryen/archive/1.38.18.tar.gz",
+    "source_url": "https://github.com/apache/arrow/archive/46315431aeda3b6968b3ac4c1087f6d41052b99d.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Compiler infrastructure and toolchain library for WebAssembly, in C++",
+    "summary": "Python libraries for Apache Arrow",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1542768717,
-    "version": "1.38.18"
+    "timestamp": 0,
+    "version": "0.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "binaryen-1.38.18-hfc679d8_0.tar.bz2",
+  "package": "pyarrow-0.4.1-np111py35_1.tar.bz2",
   "repodata": {
-    "build": "hfc679d8_0",
-    "build_number": 0,
+    "build": "np111py35_1",
+    "build_number": 1,
     "depends": [
-      "libgcc-ng >=4.9",
-      "libstdcxx-ng >=4.9"
+      "arrow-cpp 0.4.1",
+      "numpy 1.11*",
+      "pandas",
+      "parquet-cpp 1.1.0.post",
+      "python 3.5*",
+      "setuptools",
+      "six"
     ],
     "license": "Apache 2.0",
-    "md5": "1b583de5a03f1b4556fc752e7e9ac6e5",
-    "name": "binaryen",
-    "sha256": "4bcea2e36adebe06181409a3840e0e0e5486be18ea5107ea42d0e6aa24cd8d17",
-    "size": 15076254,
+    "md5": "a142b14fca616d3f45c2ef351fa5b9d1",
+    "name": "pyarrow",
+    "sha256": "fa3ee64314fb62381fe2cd6ef46e5bd08e20e211c0bfbb859ab71a3084ae92bb",
+    "size": 1013918,
     "subdir": "linux-64",
-    "timestamp": 1542768717461,
-    "version": "1.38.18"
+    "version": "0.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/binaryen-1.38.18-hfc679d8_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyarrow-0.4.1-np111py35_1.tar.bz2"
 }
