@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "http://github.com/jospolfliet/pandas-profiling",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/goulu/pdfminer",
+    "home": "http://github.com/jospolfliet/pandas-profiling",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pdfminer.six/pdfminer.six-20160614.zip",
+    "source_url": "https://pypi.io/packages/source/p/pandas-profiling/pandas-profiling-1.3.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "PDF parser and analyzer",
+    "summary": "Generate profile report for pandas DataFrame",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "20160614"
+    "version": "1.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "pdfminer.six-20160614-py27_0.tar.bz2",
+  "package": "pandas-profiling-1.3.0-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "chardet",
+      "jinja2 >=2.8",
+      "matplotlib >=1.4",
+      "pandas >=0.16",
       "python 2.7*",
-      "six"
+      "six >=1.9"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "dda131ce0f8b5aa519e959581d2084de",
-    "name": "pdfminer.six",
-    "sha256": "8e134bf70c9860ce2d283f69b3934cb5a3b0f7161b06271d986a07f8f2a1d7c7",
-    "size": 5249974,
+    "md5": "a7a2a6ef13981cfb2224fd788059a3fa",
+    "name": "pandas-profiling",
+    "sha256": "e2fb316f476f196e04e44e81cbcff58d7747bf3d47fc44a6cbe8f62b5be1229d",
+    "size": 28657,
     "subdir": "linux-64",
-    "version": "20160614"
+    "version": "1.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pdfminer.six-20160614-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandas-profiling-1.3.0-py27_0.tar.bz2"
 }
