@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://wradlib.org/",
+    "home": "www.holoviews.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-0.11.0.tar.gz",
+    "source_url": "https://github.com/ioam/holoviews/archive/v1.9.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Open Source Library for Weather Radar Data Processing",
+    "summary": "Stop plotting your data - annotate your data and let it visualize itself.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.11.0"
+    "version": "1.9.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "wradlib-0.11.0-py27_0.tar.bz2",
+  "package": "holoviews-1.9.0-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "gdal 2.1.*",
-      "h5py",
+      "bokeh",
+      "ipython",
+      "jupyter",
+      "lancet",
       "matplotlib",
-      "netcdf4",
+      "notebook",
       "numpy",
-      "python 2.7*",
-      "scipy"
+      "param",
+      "python 2.7*"
     ],
-    "license": "MIT",
-    "md5": "7010504969ec810d778bf93bb76f9006",
-    "name": "wradlib",
-    "sha256": "170ea594acc6d3c357890dd0075a45d0e13eb396e15e91f7fc10b48f70c0460a",
-    "size": 245014,
+    "license": "BSD 3-Clause",
+    "md5": "6a43b4b50362d53dbb24efef445c3625",
+    "name": "holoviews",
+    "sha256": "7721264bbd9b8bbf8c6ba589b0d3f25eb8caefb18ff5936d8a13fce43245ccf7",
+    "size": 3374947,
     "subdir": "linux-64",
-    "version": "0.11.0"
+    "version": "1.9.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-0.11.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/holoviews-1.9.0-py27_0.tar.bz2"
 }

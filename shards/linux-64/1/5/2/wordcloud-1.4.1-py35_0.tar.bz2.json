@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://wradlib.org/",
+    "home": "https://github.com/amueller/word_cloud",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,44 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-0.11.0.tar.gz",
+    "source_url": "https://github.com/amueller/word_cloud/archive/1.4.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Open Source Library for Weather Radar Data Processing",
+    "summary": "A little word cloud generator in Python",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.11.0"
+    "version": "1.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "wradlib-0.11.0-py27_0.tar.bz2",
+  "package": "wordcloud-1.4.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "gdal 2.1.*",
-      "h5py",
-      "matplotlib",
-      "netcdf4",
       "numpy",
-      "python 2.7*",
-      "scipy"
+      "pillow",
+      "python 3.5*"
     ],
     "license": "MIT",
-    "md5": "7010504969ec810d778bf93bb76f9006",
-    "name": "wradlib",
-    "sha256": "170ea594acc6d3c357890dd0075a45d0e13eb396e15e91f7fc10b48f70c0460a",
-    "size": 245014,
+    "md5": "2b39c6b556f6862460f8c1c9f21fee69",
+    "name": "wordcloud",
+    "sha256": "fd6046bc118cc9269589abfc39bed16a0a6134d26cce8745048199324aa6b97c",
+    "size": 332168,
     "subdir": "linux-64",
-    "version": "0.11.0"
+    "version": "1.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-0.11.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wordcloud-1.4.1-py35_0.tar.bz2"
 }
