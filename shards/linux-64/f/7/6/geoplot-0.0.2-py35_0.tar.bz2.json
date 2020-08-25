@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/beniz/libcmaes",
+    "home": "https://github.com/ResidentMario/geoplot",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL3",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/beniz/libcmaes/archive/0.9.5.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/geoplot/geoplot-0.0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "High performance blackbox stochastic optimization using the CMA-ES algorithm",
+    "summary": "High-level geospatial plotting for Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.9.5"
+    "version": "0.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "libcmaes-0.9.5-np110py27_0.tar.bz2",
+  "package": "geoplot-0.0.2-py35_0.tar.bz2",
   "repodata": {
-    "build": "np110py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "boost 1.62.*",
-      "numpy 1.10*",
-      "python 2.7*"
+      "cartopy",
+      "geopandas",
+      "matplotlib",
+      "pandas",
+      "python 3.5*",
+      "seaborn"
     ],
-    "license": "LGPL3",
-    "md5": "98b75014a81c72f825d097467ad297a0",
-    "name": "libcmaes",
-    "sha256": "b5a4e3b273842e1a21b993ece7f3ba34b142507bcc1823788793e12ad7a201ce",
-    "size": 40003299,
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "b23b83c68befe4a334b22ad440b91eca",
+    "name": "geoplot",
+    "sha256": "66bc74e83056b972194c6c6b4fdf7eadf4ee091ee2bd99ca3a7f628c9e23cf39",
+    "size": 45815,
     "subdir": "linux-64",
-    "version": "0.9.5"
+    "version": "0.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libcmaes-0.9.5-np110py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/geoplot-0.0.2-py35_0.tar.bz2"
 }
