@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/pydata/xarray",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD License",
+    "license": "Apache-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/setproctitle/setproctitle-1.1.10.tar.gz",
+    "source_url": "https://pypi.io/packages/source/x/xarray/xarray-0.10.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "N-D labeled arrays and datasets in Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.1.10"
+    "version": "0.10.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "setproctitle-1.1.10-py34_0.tar.bz2",
+  "package": "xarray-0.10.6-py35_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*"
+      "bottleneck",
+      "dask >=0.9",
+      "h5netcdf",
+      "netcdf4",
+      "numpy >=1.11",
+      "pandas >=0.18",
+      "python 3.5*",
+      "scipy"
     ],
-    "license": "BSD License",
-    "md5": "3107fa5a55d22d72ab639f4246a50b8c",
-    "name": "setproctitle",
-    "sha256": "49aa6f74213480ca2f54b808981d042d12a633d85fc419a37ac82906df209e0b",
-    "size": 26309,
+    "license": "Apache-2.0",
+    "md5": "6c768fff932c53a7c9247f95f844c77a",
+    "name": "xarray",
+    "sha256": "9ea6c661967fc0c3b45e31b29eead15f5a40230494a192120ad1dac3deb522c4",
+    "size": 742674,
     "subdir": "linux-64",
-    "version": "1.1.10"
+    "version": "0.10.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/setproctitle-1.1.10-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xarray-0.10.6-py35_0.tar.bz2"
 }
