@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/wbond/asn1crypto",
+    "home": "https://github.com/axiom-data-science/pyaxiom",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/asn1crypto/asn1crypto-1.3.0.tar.gz",
+    "source_url": "https://github.com/axiom-data-science/pyaxiom/archive/1.3.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python ASN.1 library with a focus on performance and a pythonic API",
+    "summary": "An ocean data toolkit developed and used by Axiom Data Science.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1578156686,
-    "version": "1.3.0"
+    "timestamp": 0,
+    "version": "1.3.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "asn1crypto-1.3.0-py38_0.tar.bz2",
+  "package": "pyaxiom-1.3.4-py34_0.tar.bz2",
   "repodata": {
-    "build": "py38_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python >=3.8,<3.9.0a0"
+      "netcdf4",
+      "numpy",
+      "pandas",
+      "pyncml",
+      "pynco",
+      "python 3.4*",
+      "python-dateutil",
+      "pytz",
+      "simplejson"
     ],
     "license": "MIT",
-    "md5": "2b380241afa7eb2eb05db8920433ec9a",
-    "name": "asn1crypto",
-    "sha256": "9b9593faa4021a9db7a04d4d92f9ecdd9564cbc7da733297f2024f3ae0e69938",
-    "size": 163356,
+    "md5": "76cf111164a1875b7ea52475afa2613c",
+    "name": "pyaxiom",
+    "sha256": "5cea2c4781ba0f2b3730530d297357df35ea2cfadd5c22c61c1981fc46b81c7a",
+    "size": 80085,
     "subdir": "linux-64",
-    "timestamp": 1578156686352,
-    "version": "1.3.0"
+    "version": "1.3.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/asn1crypto-1.3.0-py38_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyaxiom-1.3.4-py34_0.tar.bz2"
 }
