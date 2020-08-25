@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/cedadev/MyProxyClient",
+    "home": "https://github.com/Blosc/bloscpack",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/M/MyProxyClient/MyProxyClient-1.4.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/b/bloscpack/bloscpack-0.11.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "MyProxy Client",
+    "summary": "Command line interface to and serialization format for Blosc",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.4.4"
+    "version": "0.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "myproxyclient-1.4.4-py27_0.tar.bz2",
+  "package": "bloscpack-0.11.0-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "pyopenssl",
-      "python 2.7*"
+      "blosc",
+      "numpy",
+      "python 2.7*",
+      "python-blosc",
+      "six"
     ],
-    "license": "BSD 3-clause",
-    "md5": "d7b85d3d83afd8f18c682c5587d8b5af",
-    "name": "myproxyclient",
-    "sha256": "3c1b3170f1958c26334b2b47bdbc53306c0845baa674712afbeee2b4c7f674bc",
-    "size": 48353,
+    "license": "Apache 2.0",
+    "md5": "8dafababb6e6165b1fcef20d4a70d0b6",
+    "name": "bloscpack",
+    "sha256": "5e31b3c1b15acc229dcc90eb7227bb8b30cdae97026e8cd75540c943c8826039",
+    "size": 67327,
     "subdir": "linux-64",
-    "version": "1.4.4"
+    "version": "0.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/myproxyclient-1.4.4-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/bloscpack-0.11.0-py27_0.tar.bz2"
 }
