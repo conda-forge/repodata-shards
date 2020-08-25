@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.djangoproject.com/",
+    "home": "https://github.com/jupyter-incubator/traittypes",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/D/Django/Django-1.8.18.tar.gz",
+    "source_url": "https://pypi.io/packages/source/t/traittypes/traittypes-0.0.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
+    "summary": "Trait types for NumPy, SciPy and friends",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "1.8.18"
+    "version": "0.0.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "django-1.8.18-py27_0.tar.bz2",
+  "package": "traittypes-0.0.5-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "gdal 2.1.*",
-      "python 2.7*"
+      "numpy",
+      "python 3.5*",
+      "traitlets >=4.2.2"
     ],
     "license": "BSD 3-Clause",
-    "md5": "26f25cf0aacc0a149e0f63f0a28c4c3e",
-    "name": "django",
-    "sha256": "7026caf52f8ea8529cc9c28237f34cf559e6ecd91bbfef6eb894612119e9cb9c",
-    "size": 4192009,
+    "md5": "8a3aae01ef25b96abe62221357e30920",
+    "name": "traittypes",
+    "sha256": "c8f9373f7ff367f3191f93f0247b8037112129d522a5d75bc5fc67e79456c4bf",
+    "size": 6710,
     "subdir": "linux-64",
-    "version": "1.8.18"
+    "version": "0.0.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-1.8.18-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/traittypes-0.0.5-py35_0.tar.bz2"
 }

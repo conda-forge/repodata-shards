@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.djangoproject.com/",
+    "home": "https://github.com/dask/partd",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/D/Django/Django-1.8.18.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/partd/partd-0.3.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
+    "summary": "Concurrent appendable key-value storage",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "1.8.18"
+    "version": "0.3.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "django-1.8.18-py27_0.tar.bz2",
+  "package": "partd-0.3.7-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "gdal 2.1.*",
-      "python 2.7*"
+      "locket",
+      "python 3.5*",
+      "toolz"
     ],
     "license": "BSD 3-Clause",
-    "md5": "26f25cf0aacc0a149e0f63f0a28c4c3e",
-    "name": "django",
-    "sha256": "7026caf52f8ea8529cc9c28237f34cf559e6ecd91bbfef6eb894612119e9cb9c",
-    "size": 4192009,
+    "md5": "d717be0cbe8a3b0b0c2e6f7afe412e3a",
+    "name": "partd",
+    "sha256": "7349311682edcec99b5632d0c8d87d848db81f4c01e1251e0ff5d76faa618c8c",
+    "size": 31533,
     "subdir": "linux-64",
-    "version": "1.8.18"
+    "version": "0.3.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-1.8.18-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/partd-0.3.7-py35_0.tar.bz2"
 }
