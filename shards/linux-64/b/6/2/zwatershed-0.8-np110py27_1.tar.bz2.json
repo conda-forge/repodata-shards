@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/TuragaLab/zwatershed",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT License",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/M/M2Crypto/M2Crypto-0.23.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/z/zwatershed/zwatershed-0.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Code for fast watersheds.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.23.0"
+    "version": "0.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "m2crypto-0.23.0-py27_0.tar.bz2",
+  "package": "zwatershed-0.8-np110py27_1.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "np110py27_1",
+    "build_number": 1,
     "depends": [
-      "distribute",
-      "openssl 1.0*",
+      "boost 1.62.*",
+      "h5py",
+      "numpy 1.10*",
+      "numpy >=1.7",
       "python 2.7*"
     ],
-    "license": "MIT License",
-    "md5": "9f37e0f9fc7252bb400dd5ab4f1c9772",
-    "name": "m2crypto",
-    "sha256": "c4cece4cd330907c9133c032eefa85076188b92c41f2200ded3452dcaa956d6e",
-    "size": 688469,
+    "license": "MIT",
+    "md5": "660ca3d5deeefc41691290296cbb6c1c",
+    "name": "zwatershed",
+    "sha256": "1a8cd8c215150bbd2b3f0c02214f129abd5b94bfad2d1d6a2072192b1ed00155",
+    "size": 877507,
     "subdir": "linux-64",
-    "version": "0.23.0"
+    "version": "0.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/m2crypto-0.23.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/zwatershed-0.8-np110py27_1.tar.bz2"
 }
