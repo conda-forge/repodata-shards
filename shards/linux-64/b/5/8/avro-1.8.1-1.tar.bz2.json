@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.djangoproject.com/",
+    "home": "http://hadoop.apache.org/avro",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/D/Django/Django-1.9.8.tar.gz",
+    "source_url": "https://www-us.apache.org/dist/avro/avro-1.8.1/c/avro-c-1.8.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
+    "summary": "Avro is a serialization and RPC framework.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.9.8"
+    "version": "1.8.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "django-1.9.8-py35_0.tar.bz2",
+  "package": "avro-1.8.1-1.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "1",
+    "build_number": 1,
     "depends": [
-      "gdal 1.11.*",
-      "python 3.5*"
+      "jansson",
+      "snappy",
+      "xz 5.2.*",
+      "zlib 1.2.*"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "fe1c92159529bb9c889599e5a051ce97",
-    "name": "django",
-    "sha256": "20402ae2a73d07c3aa1e1f6d7e75979fa39a7e23f6ba111b95aaf6a758889592",
-    "size": 4470247,
+    "license": "Apache 2.0",
+    "md5": "06fffb44c2e7f2c0ccd38295f7fe237d",
+    "name": "avro",
+    "sha256": "63c4a5225dd82131662afbb06076e7789eddcc0e5427db18ff8ff9d15fafc66e",
+    "size": 2002945,
     "subdir": "linux-64",
-    "version": "1.9.8"
+    "version": "1.8.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-1.9.8-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/avro-1.8.1-1.tar.bz2"
 }

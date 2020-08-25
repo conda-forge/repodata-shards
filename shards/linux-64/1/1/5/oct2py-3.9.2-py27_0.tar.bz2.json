@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.djangoproject.com/",
+    "home": "http://github.com/blink1073/oct2py",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/D/Django/Django-1.9.8.tar.gz",
+    "source_url": "https://pypi.io/packages/source/o/oct2py/oct2py-3.9.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
+    "summary": "Python to GNU Octave bridge --> run m-files from python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.9.8"
+    "version": "3.9.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "django-1.9.8-py35_0.tar.bz2",
+  "package": "oct2py-3.9.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "gdal 1.11.*",
-      "python 3.5*"
+      "ipython",
+      "numpy",
+      "octave_kernel >=0.25.0",
+      "python 2.7*",
+      "scipy"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "fe1c92159529bb9c889599e5a051ce97",
-    "name": "django",
-    "sha256": "20402ae2a73d07c3aa1e1f6d7e75979fa39a7e23f6ba111b95aaf6a758889592",
-    "size": 4470247,
+    "license": "MIT",
+    "md5": "e9642bbe5a8891275cf32ab04625c57e",
+    "name": "oct2py",
+    "sha256": "12c987239dcc8f0158b4752b4e5c55fe403a89109fce7a46247f9109ddca773d",
+    "size": 56102,
     "subdir": "linux-64",
-    "version": "1.9.8"
+    "version": "3.9.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-1.9.8-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/oct2py-3.9.2-py27_0.tar.bz2"
 }
