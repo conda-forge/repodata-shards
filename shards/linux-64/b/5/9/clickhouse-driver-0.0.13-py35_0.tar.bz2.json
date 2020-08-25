@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://pypi.python.org/pypi/jplephem",
+    "home": "https://github.com/mymarilyn/clickhouse-driver",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/j/jplephem/jplephem-2.7.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/clickhouse-driver/clickhouse-driver-0.0.13.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python version of NASA DE4xx ephemerides, the basis for the Astronomical Alamanac",
+    "summary": "Python driver with native interface for ClickHouse",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "2.7"
+    "timestamp": 1534189559,
+    "version": "0.0.13"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "jplephem-2.7-py36_0.tar.bz2",
+  "package": "clickhouse-driver-0.0.13-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "numpy",
-      "python 3.6*"
+      "python >=3.5,<3.6.0a0",
+      "six"
     ],
     "license": "MIT",
-    "md5": "1d7ca34eabdc4b13b00a09f1fba8eee0",
-    "name": "jplephem",
-    "sha256": "7e0670fde4c4e6650ecdc2c858b60068efb662f076301acd47c6821fb7c6b79c",
-    "size": 57762,
+    "license_family": "MIT",
+    "md5": "44e50b5c9a98582abfc4a49c04c9feca",
+    "name": "clickhouse-driver",
+    "sha256": "e7798024fa391f49e39940f27b10d5c37141d31649d073f82c4f80fa93bdd7c0",
+    "size": 64103,
     "subdir": "linux-64",
-    "version": "2.7"
+    "timestamp": 1534189559062,
+    "version": "0.0.13"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/jplephem-2.7-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/clickhouse-driver-0.0.13-py35_0.tar.bz2"
 }
