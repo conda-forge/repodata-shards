@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/zillow/ctds",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/ctds/ctds-1.8.0.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "DB API 2.0-compliant Linux driver for SQL Server",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1538453934,
-    "version": "1.8.0"
+    "timestamp": 0,
+    "version": "0.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "ctds-1.8.0-py36_0.tar.bz2",
+  "package": "wradlib-0.8.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "freetds",
-      "python >=3.6,<3.7.0a0",
-      "setuptools"
+      "gdal",
+      "h5py >=2.0.1",
+      "matplotlib >=1.1.0",
+      "netcdf4 >=1.0",
+      "numpy >=1.7.0",
+      "python 2.7*",
+      "scipy >=0.9"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "89614491e7c78b0f51d7491c441b00f0",
-    "name": "ctds",
-    "sha256": "8e02f5eb809e054e96b4cb4e3a27a6d44a9b1e2833342710abe1cbaa071ce50b",
-    "size": 155653,
+    "md5": "1d2ad47930ab22fb32abfc1924cce20d",
+    "name": "wradlib",
+    "sha256": "52a641ecaf6532e133ad7cd0f21a6cd70872818493209b47d9aae1ef3f6902bc",
+    "size": 190274,
     "subdir": "linux-64",
-    "timestamp": 1538453934897,
-    "version": "1.8.0"
+    "version": "0.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ctds-1.8.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-0.8.0-py27_0.tar.bz2"
 }

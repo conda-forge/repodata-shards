@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Blosc/c-blosc",
+    "home": "http://github.com/Toblerity/Fiona",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Blosc/c-blosc/archive/v1.14.1.tar.gz",
+    "source_url": "https://github.com/Toblerity/Fiona/archive/1.7.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`",
+    "summary": "Fiona reads and writes spatial data files.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1533003480,
-    "version": "1.14.1"
+    "timestamp": 0,
+    "version": "1.7.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "blosc-1.14.1-hfc679d8_0.tar.bz2",
+  "package": "fiona-1.7.2-np112py36_0.tar.bz2",
   "repodata": {
-    "build": "hfc679d8_0",
+    "build": "np112py36_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=4.9",
-      "libstdcxx-ng >=4.9"
+      "click-plugins",
+      "cligj",
+      "gdal 2.1.*",
+      "munch",
+      "numpy 1.12*",
+      "python 3.6*",
+      "setuptools",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "a4497b96f0462f48781330b6e1b987b6",
-    "name": "blosc",
-    "sha256": "55814aa62e7cf6cbd37af3211eff2037a5163930b517340a678f5a54f6def15a",
-    "size": 608988,
+    "md5": "cb836f3f87ad91d2bba2544118cce6bf",
+    "name": "fiona",
+    "sha256": "bc1f05f760c27916ef8bfcdaf5522a7c64d0452efdc874d0f2ae7c1848aa2a45",
+    "size": 1330009,
     "subdir": "linux-64",
-    "timestamp": 1533003480165,
-    "version": "1.14.1"
+    "version": "1.7.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/blosc-1.14.1-hfc679d8_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.7.2-np112py36_0.tar.bz2"
 }
