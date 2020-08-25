@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/gflags/gflags",
+    "home": "https://github.com/dronecrew/px4tools",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/gflags/gflags/archive/v2.2.2.tar.gz",
+    "source_url": "https://github.com/dronecrew/px4tools/archive/v0.4.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A C++ library that implements commandline flags processing.",
+    "summary": "Python log crunching for PX4.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1549433760,
-    "version": "2.2.2"
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "0.4.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "gflags-2.2.2-hf484d3e_1001.tar.bz2",
+  "package": "px4tools-0.4.5-py34_0.tar.bz2",
   "repodata": {
-    "build": "hf484d3e_1001",
-    "build_number": 1001,
+    "build": "py34_0",
+    "build_number": 0,
     "depends": [
-      "libgcc-ng >=7.3.0",
-      "libstdcxx-ng >=7.3.0"
+      "basemap",
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "python 3.4*",
+      "scipy"
     ],
     "license": "BSD 3-Clause",
-    "md5": "615a3d80aada7d2754860fba3b38b3bc",
-    "name": "gflags",
-    "sha256": "5151ee60253ae2165e02b233c23f787aa455522a5a0b48f88417680cdf76fc23",
-    "size": 163220,
+    "md5": "79dde464db40ec2997538550dbca4d0f",
+    "name": "px4tools",
+    "sha256": "800a5ce49acc70624100c63466129b7d80272603a1527bb4fe638bf65e7a8414",
+    "size": 25697,
     "subdir": "linux-64",
-    "timestamp": 1549433760918,
-    "version": "2.2.2"
+    "version": "0.4.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/gflags-2.2.2-hf484d3e_1001.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/px4tools-0.4.5-py34_0.tar.bz2"
 }
