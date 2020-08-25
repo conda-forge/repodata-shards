@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/miguelgrinberg/python-socketio/",
+    "dev_url": "https://github.com/kevin1024/vcrpy",
     "doc_source_url": null,
-    "doc_url": "https://python-socketio.readthedocs.io/",
-    "home": "https://github.com/miguelgrinberg/python-socketio/",
+    "doc_url": "https://vcrpy.readthedocs.io/",
+    "home": "https://github.com/kevin1024/vcrpy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/python-socketio/python-socketio-1.8.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/v/vcrpy/vcrpy-2.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Socket.IO server",
+    "summary": "Automatically mock your HTTP interactions to simplify and speed up testing",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.8.0"
+    "timestamp": 1537478049,
+    "version": "2.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "python-socketio-1.8.0-py35_0.tar.bz2",
+  "package": "vcrpy-2.0.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*",
-      "python-engineio >=1.2.1",
-      "six >=1.9.0"
+      "python >=3.5,<3.6.0a0",
+      "pyyaml",
+      "six >=1.5",
+      "wrapt"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "26ded6e3f6fff6d987d2a97f008fc8bf",
-    "name": "python-socketio",
-    "sha256": "2065d9339ffad19c6274c44b38860987d1ddef3838e18f332337b6aab415f7c3",
-    "size": 37854,
+    "md5": "b1d64b8c2e75013d1f57d77907583863",
+    "name": "vcrpy",
+    "sha256": "f6773d13c573206a4a34e2b570d1be87da22c710b1db7c116834ca2cdd563c4d",
+    "size": 53742,
     "subdir": "linux-64",
-    "version": "1.8.0"
+    "timestamp": 1537478049177,
+    "version": "2.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-socketio-1.8.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/vcrpy-2.0.0-py35_0.tar.bz2"
 }
