@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/circus-tent/circus",
+    "home": "http://wradlib.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/circus-tent/circus/archive/0.14.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-0.10.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Circus is a program that will let you run and watch multiple processes and sockets.",
+    "summary": "Open Source Library for Weather Radar Data Processing",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.14.0"
+    "version": "0.10.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "circus-0.14.0-py35_0.tar.bz2",
+  "package": "wradlib-0.10.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "iowait",
-      "psutil",
-      "python 3.5*",
-      "pyzmq >=13.1.0",
-      "tornado >=3.0"
+      "gdal 2.1.*",
+      "h5py",
+      "matplotlib",
+      "netcdf4",
+      "numpy",
+      "python 2.7*",
+      "scipy"
     ],
-    "license": "Apache 2.0",
-    "md5": "d9b84bf166d17321da2a224c8f7061ed",
-    "name": "circus",
-    "sha256": "00d5e02c88aee176adecd6b69b0eac3db9a2d120295a5e58d9c0e45684754bc8",
-    "size": 471017,
+    "license": "MIT",
+    "md5": "4e416b70561a80946caa31e68278ef33",
+    "name": "wradlib",
+    "sha256": "f6ca94c14f1f909fe9656ac58c02586eb15a0a8ba554b42412f549038034ab71",
+    "size": 217554,
     "subdir": "linux-64",
-    "version": "0.14.0"
+    "version": "0.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/circus-0.14.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-0.10.0-py27_0.tar.bz2"
 }

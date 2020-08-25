@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/obp/zopfli",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/circus-tent/circus",
+    "home": "https://github.com/obp/zopfli",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/circus-tent/circus/archive/0.14.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/z/zopfli/zopfli-0.1.3.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Circus is a program that will let you run and watch multiple processes and sockets.",
+    "summary": "Zopfli module for python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.14.0"
+    "version": "0.1.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "circus-0.14.0-py35_0.tar.bz2",
+  "package": "zopfli-0.1.3-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "iowait",
-      "psutil",
-      "python 3.5*",
-      "pyzmq >=13.1.0",
-      "tornado >=3.0"
+      "python 3.6*"
     ],
     "license": "Apache 2.0",
-    "md5": "d9b84bf166d17321da2a224c8f7061ed",
-    "name": "circus",
-    "sha256": "00d5e02c88aee176adecd6b69b0eac3db9a2d120295a5e58d9c0e45684754bc8",
-    "size": 471017,
+    "license_family": "Apache",
+    "md5": "8bce51fed29da118f1d0a8e48f4705ed",
+    "name": "zopfli",
+    "sha256": "d0808632a11b8a9507a3f196baa46b76c72c0e21c3e6fe77b3e50af0ebdde29c",
+    "size": 113097,
     "subdir": "linux-64",
-    "version": "0.14.0"
+    "version": "0.1.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/circus-0.14.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/zopfli-0.1.3-py36_0.tar.bz2"
 }
