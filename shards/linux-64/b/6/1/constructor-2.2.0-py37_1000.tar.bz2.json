@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Blosc/c-blosc",
+    "home": "http://github.com/conda/constructor",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Blosc/c-blosc/archive/v1.14.3.tar.gz",
+    "source_url": "https://github.com/conda/constructor/archive/2.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`",
+    "summary": "create installer from conda packages",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1533012353,
-    "version": "1.14.3"
+    "timestamp": 1539476767,
+    "version": "2.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "blosc-1.14.3-hfc679d8_0.tar.bz2",
+  "package": "constructor-2.2.0-py37_1000.tar.bz2",
   "repodata": {
-    "build": "hfc679d8_0",
-    "build_number": 0,
+    "build": "py37_1000",
+    "build_number": 1000,
     "depends": [
-      "libgcc-ng >=4.9",
-      "libstdcxx-ng >=4.9"
+      "conda >=4.5",
+      "python >=3.7,<3.8.0a0",
+      "ruamel_yaml"
     ],
     "license": "BSD 3-Clause",
-    "md5": "6eadb923060ac70a8b3bd6fa175a36f9",
-    "name": "blosc",
-    "sha256": "e4887d95bdab9a9d4bef217a10f6ac49f489592885634007783614da635f9572",
-    "size": 669064,
+    "license_family": "BSD",
+    "md5": "1edceeacfda4f75aadc74e12986f6721",
+    "name": "constructor",
+    "sha256": "ab17152bfd314a7d369a2dc76cd4cf7c1bc7c6a4854264e23861d63d8d8cba50",
+    "size": 64682,
     "subdir": "linux-64",
-    "timestamp": 1533012353871,
-    "version": "1.14.3"
+    "timestamp": 1539476767517,
+    "version": "2.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/blosc-1.14.3-hfc679d8_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/constructor-2.2.0-py37_1000.tar.bz2"
 }
