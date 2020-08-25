@@ -7,52 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://initd.org/psycopg/",
+    "home": "https://github.com/NCAR/wrf-python",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL, BSD-like, ZPL",
+    "license": "UCAR",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/psycopg2/psycopg2-2.7.3.2.tar.gz",
+    "source_url": "https://github.com/NCAR/wrf-python/archive/1.0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python-PostgreSQL Database Adapter",
+    "summary": "Diagnostic and interpolation routines for WRF-ARW data.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.7.3.2"
+    "version": "1.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "psycopg2-2.7.3.2-py35_0.tar.bz2",
+  "package": "wrf-python-1.0.2-np112py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np112py36_0",
     "build_number": 0,
     "depends": [
-      "libpq",
-      "openssl 1.0.*",
-      "python 3.5*"
+      "libgcc",
+      "libgfortran",
+      "numpy 1.12*",
+      "python 3.6*",
+      "wrapt",
+      "xarray"
     ],
-    "license": "LGPL, BSD-like, ZPL",
-    "md5": "42d6bb7cca39227dffa32d58abbe9c70",
-    "name": "psycopg2",
-    "sha256": "edbef5656e00d7bd61f4d2149be7500729f47f78d1c72220883e8633bc952b55",
-    "size": 512641,
+    "license": "UCAR",
+    "md5": "cfad4604d956236ffea3db1fc9e118e5",
+    "name": "wrf-python",
+    "sha256": "8da5dd9f0d06bf8e9d81beea716ee1d8a45aa1ea8797a043cab7742fc875388c",
+    "size": 452150,
     "subdir": "linux-64",
-    "version": "2.7.3.2"
+    "version": "1.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/psycopg2-2.7.3.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wrf-python-1.0.2-np112py36_0.tar.bz2"
 }
