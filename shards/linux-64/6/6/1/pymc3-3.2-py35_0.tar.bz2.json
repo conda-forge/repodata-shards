@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/shin-/docker-pycreds/",
+    "home": "http://github.com/pymc-devs/pymc3",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,49 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/shin-/dockerpy-creds/archive/0.2.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pymc3/pymc3-3.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python bindings for the docker credentials store API",
+    "summary": "Probabilistic Programming in Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2.1"
+    "version": "3.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "cf202003",
+    "main"
   ],
-  "package": "docker-pycreds-0.2.1-py34_0.tar.bz2",
+  "package": "pymc3-3.2-py35_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*",
-      "six >=1.4.0"
+      "h5py >=2.7.0",
+      "joblib >=0.9",
+      "matplotlib >=1.5.0",
+      "numpy >=1.11.0",
+      "pandas >=0.18.0",
+      "patsy >=0.4.0",
+      "python 3.5*",
+      "scipy >=0.12.0",
+      "six >=1.10.0",
+      "theano >=0.9",
+      "tqdm >=4.8.4"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "f96a0d6d058bd883d54867c6167a2a1b",
-    "name": "docker-pycreds",
-    "sha256": "2614710790ab1ba288139f8ca76ae08624276a67656fcc7295c80f0c5c47638b",
-    "size": 8546,
+    "md5": "c1563b464f4d061e4d3c51618fa23968",
+    "name": "pymc3",
+    "sha256": "b84ca7121d079edbadb601b1e2083bc1d8a0627e1b9a2d454b114ef56a911d12",
+    "size": 1229982,
     "subdir": "linux-64",
-    "version": "0.2.1"
+    "version": "3.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/docker-pycreds-0.2.1-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pymc3-3.2-py35_0.tar.bz2"
 }
