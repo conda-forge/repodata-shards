@@ -17,50 +17,42 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {
-      "7.3.0": {
-        "strong": [
-          "libgfortran-ng >=7,<8.0a0",
-          "libgcc-ng >=7.3.0"
-        ]
-      }
-    },
+    "run_exports": {},
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "GNU Fortran Compiler (activation scripts)",
+    "summary": "The GNU Binutils are a collection of binary tools (activation scripts)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1573777669,
-    "version": "7.3.0"
+    "timestamp": 1596780341,
+    "version": "2.34"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "gfortran_linux-64-7.3.0-h553295d_13.tar.bz2",
+  "package": "binutils_linux-aarch64-2.34-hfcdf779_27.tar.bz2",
   "repodata": {
-    "build": "h553295d_13",
-    "build_number": 13,
+    "build": "hfcdf779_27",
+    "build_number": 27,
     "depends": [
-      "binutils_linux-64 2.31.1 h6176602_13",
-      "gcc_linux-64 7.3.0 h553295d_13",
-      "gfortran_impl_linux-64 7.3.0.*"
+      "binutils_impl_linux-aarch64 2.34.*",
+      "sysroot_linux-64",
+      "sysroot_linux-aarch64"
     ],
     "license": "BSD-3-Clause",
-    "md5": "99e125fa4f8b454181fe1178f4c37e4a",
-    "name": "gfortran_linux-64",
-    "sha256": "2537784c99c449b6233c04da21a8567afc4adb62429820fefa80a53cc7edf94c",
-    "size": 21845,
+    "md5": "fdd6f9b7d15fff11a1add02ae2c7cc9d",
+    "name": "binutils_linux-aarch64",
+    "sha256": "7f7f7a471cb1c355ee39bad88e9b518c1406882e7a36fb55b0afa763389f3b0e",
+    "size": 22532,
     "subdir": "linux-64",
-    "timestamp": 1573777669283,
-    "version": "7.3.0"
+    "timestamp": 1596780341267,
+    "version": "2.34"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/gfortran_linux-64-7.3.0-h553295d_13.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/binutils_linux-aarch64-2.34-hfcdf779_27.tar.bz2"
 }
