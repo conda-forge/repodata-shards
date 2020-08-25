@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/shoyer/h5netcdf",
+    "home": "http://llvm.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "NCSA",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/shoyer/h5netcdf/archive/v0.4.0.tar.gz",
+    "source_url": "http://llvm.org/releases/8.0.0/cfe-8.0.0.src.tar.xz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "netCDF4 via h5py.",
+    "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.4.0"
+    "timestamp": 1565136739,
+    "version": "8.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "h5netcdf-0.4.0-py36_0.tar.bz2",
+  "package": "libclang-8.0.0-hc9558a2_5.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "hc9558a2_5",
+    "build_number": 5,
     "depends": [
-      "h5py",
-      "python 3.6*"
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "30a6e51511f5b1b48d89ad3abf55da7b",
-    "name": "h5netcdf",
-    "sha256": "0497b95db68dab3f03f33aa0adc44b74165260125fca687cd074b8319e22ef09",
-    "size": 24574,
+    "license": "NCSA",
+    "md5": "9456a31a08984ec2554a5c6cf4b1fbbc",
+    "name": "libclang",
+    "sha256": "71b2876bed0783a89d6c85fc32507976ec5e8389911e938f32e76f05135bca87",
+    "size": 24141645,
     "subdir": "linux-64",
-    "version": "0.4.0"
+    "timestamp": 1565136739332,
+    "version": "8.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5netcdf-0.4.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libclang-8.0.0-hc9558a2_5.tar.bz2"
 }
