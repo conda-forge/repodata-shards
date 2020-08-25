@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ESSS/barril",
+    "home": "https://github.com/pytest-dev/pytest-services",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,43 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/barril/barril-1.1.0.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python package to manage units for physical quantities",
+    "summary": "Collection of fixtures and utility functions to run service processes for your tests",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1537842037,
-    "version": "1.1.0"
+    "timestamp": 1579318365,
+    "version": "2.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "barril-1.1.0-py27_0.tar.bz2",
+  "package": "pytest-services-2.0.1-py37_1.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "py37_1",
+    "build_number": 1,
     "depends": [
-      "attrs >=18.1.0",
-      "numpy >=1.11.0",
-      "python >=2.7,<2.8.0a0",
-      "ruamel.ordereddict >=0.4.6"
+      "psutil",
+      "pytest",
+      "python >=3.7,<3.8.0a0",
+      "requests",
+      "setuptools",
+      "zc.lockfile >=2.0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "c429723499e8f919871d54e00cf84d20",
-    "name": "barril",
-    "sha256": "7d535d8cab0dc697520f7347adb422c68a06aa53346fc588abec9b486b72b610",
-    "size": 216793,
+    "md5": "8b8384d8805b43f81263c3ead8776cc9",
+    "name": "pytest-services",
+    "sha256": "d77e0a5c32b82d69e32d212ced0ac92c06a76d8f0a6b876b7b1ebf3000af8c54",
+    "size": 27381,
     "subdir": "linux-64",
-    "timestamp": 1537842037949,
-    "version": "1.1.0"
+    "timestamp": 1579318365319,
+    "version": "2.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/barril-1.1.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-services-2.0.1-py37_1.tar.bz2"
 }
