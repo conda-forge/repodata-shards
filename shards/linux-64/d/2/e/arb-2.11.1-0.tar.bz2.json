@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/agoragames/chai",
+    "home": "http://arblib.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "GPL v2+",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/chai/chai-1.1.1.tar.gz",
+    "source_url": "https://github.com/fredrik-johansson/arb/archive/2.11.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Easy to use mocking, stubbing and spying framework.",
+    "summary": "A C library for arbitrary-precision interval arithmetic",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.1.1"
+    "version": "2.11.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "chai-1.1.1-py35_0.tar.bz2",
+  "package": "arb-2.11.1-0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "gmp >=5.0.1,<7",
+      "libflint 2.5.*",
+      "mpfr 3.*"
     ],
-    "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "149d9b24808bd9bf2230e8e62411fd8c",
-    "name": "chai",
-    "sha256": "acfbb6a1171b7a6edd80d0f1225b4270f730cd990048e99b80b078c1ae0059a2",
-    "size": 243125,
+    "license": "GPL v2+",
+    "md5": "1b3de8b9cb65d8182183f1167cbad1c4",
+    "name": "arb",
+    "sha256": "d56870b44314cc2da0912b65763575d5f438bdf207acfb9c8950995d6c2f062a",
+    "size": 1892263,
     "subdir": "linux-64",
-    "version": "1.1.1"
+    "version": "2.11.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/chai-1.1.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/arb-2.11.1-0.tar.bz2"
 }
