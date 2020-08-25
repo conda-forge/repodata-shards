@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/ruamel/yaml",
+    "home": "https://github.com/mariusvniekerk/spylon-kernel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://bitbucket.org/ruamel/yaml/get/0.15.41.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/spylon-kernel/spylon-kernel-0.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A patched copy of ruamel.yaml.",
+    "summary": "Scala magics and kernel for jupyter",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1530635027,
-    "version": "0.15.41"
+    "timestamp": 0,
+    "version": "0.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "ruamel_yaml-0.15.41-py36h470a237_0.tar.bz2",
+  "package": "spylon-kernel-0.4.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36h470a237_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=4.9",
-      "python >=3.6,<3.7.0a0",
-      "yaml"
+      "ipykernel",
+      "jedi >=0.10",
+      "metakernel",
+      "python 3.5*",
+      "spylon",
+      "tornado"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "e12e1048ab5446ea63f2be4aff78cb1f",
-    "name": "ruamel_yaml",
-    "sha256": "b304a1763b9630710c9ed4a6049704ce2f7f4c56f14971585708640abbab9155",
-    "size": 550725,
+    "md5": "10794bfe161cc04f5d9593d2ee1bdd9f",
+    "name": "spylon-kernel",
+    "sha256": "1ebb8e9d3d4a7198f3760d9cefd375bc57f447106375763b3685ba58fe592dc3",
+    "size": 25827,
     "subdir": "linux-64",
-    "timestamp": 1530635027775,
-    "version": "0.15.41"
+    "version": "0.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel_yaml-0.15.41-py36h470a237_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/spylon-kernel-0.4.0-py35_0.tar.bz2"
 }

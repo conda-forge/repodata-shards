@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/ruamel/yaml",
+    "home": "http://www.h5py.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://bitbucket.org/ruamel/yaml/get/0.15.41.tar.gz",
+    "source_url": "https://github.com/h5py/h5py/archive/2.8.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A patched copy of ruamel.yaml.",
+    "summary": "Read and write HDF5 files from Python.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1530635027,
-    "version": "0.15.41"
+    "timestamp": 1538739176,
+    "version": "2.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "ruamel_yaml-0.15.41-py36h470a237_0.tar.bz2",
+  "package": "h5py-2.8.0-py36h7eb728f_3.tar.bz2",
   "repodata": {
-    "build": "py36h470a237_0",
-    "build_number": 0,
+    "build": "py36h7eb728f_3",
+    "build_number": 3,
     "depends": [
+      "hdf5 1.10.2.*",
       "libgcc-ng >=4.9",
+      "numpy >=1.9.3,<2.0a0",
       "python >=3.6,<3.7.0a0",
-      "yaml"
+      "six"
     ],
-    "license": "MIT",
-    "license_family": "MIT",
-    "md5": "e12e1048ab5446ea63f2be4aff78cb1f",
-    "name": "ruamel_yaml",
-    "sha256": "b304a1763b9630710c9ed4a6049704ce2f7f4c56f14971585708640abbab9155",
-    "size": 550725,
+    "license": "BSD 3-Clause",
+    "md5": "bcc6f92291db599b064d6abad370e11e",
+    "name": "h5py",
+    "sha256": "0ce747762f5ca8e0af50c9af2bc72b7e33d1be9c1222138a7760c2f1cb276d4f",
+    "size": 3865199,
     "subdir": "linux-64",
-    "timestamp": 1530635027775,
-    "version": "0.15.41"
+    "timestamp": 1538739176380,
+    "version": "2.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel_yaml-0.15.41-py36h470a237_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.8.0-py36h7eb728f_3.tar.bz2"
 }
