@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pandas.pydata.org",
+    "home": "https://github.com/conda-forge/conda-forge-build-setup-feedstock",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/pandas-dev/pandas/releases/download/v0.21.1/pandas-0.21.1.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "High-performance, easy-to-use data structures and data analysis tools.",
+    "summary": "A package installed by conda-forge each time a build is run on CI. This package has side-effects to your conda config.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.21.1"
+    "version": "4.4.14"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,20 @@
     "cf202003",
     "main"
   ],
-  "package": "pandas-0.21.1-py35_0.tar.bz2",
+  "package": "conda-forge-build-setup-4.4.14-0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "0",
     "build_number": 0,
-    "depends": [
-      "numpy >=1.9.*",
-      "python 3.5*",
-      "python-dateutil",
-      "pytz"
-    ],
+    "depends": [],
     "license": "BSD 3-clause",
-    "md5": "fa266e0d0b2a35bc97047800005561d3",
-    "name": "pandas",
-    "sha256": "0caa0398f5b8975501f58e53d044a15eced135426649987f91e0c00178b498b9",
-    "size": 26879604,
+    "md5": "e69b8640557f08f4dea2cc9f6456a51e",
+    "name": "conda-forge-build-setup",
+    "sha256": "7faac8c56aa4b55592c977533f521cb98acc8dc285d90e46f144e67ab7aaf789",
+    "size": 7947,
     "subdir": "linux-64",
-    "version": "0.21.1"
+    "version": "4.4.14"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandas-0.21.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-forge-build-setup-4.4.14-0.tar.bz2"
 }
