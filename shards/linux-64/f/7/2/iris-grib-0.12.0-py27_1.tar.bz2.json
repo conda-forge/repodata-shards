@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ronf/asyncssh",
+    "home": "https://iris-grib.readthedocs.io",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "EPL-1.0",
+    "license": "LGPL-3.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/ronf/asyncssh/archive/v1.12.1.tar.gz",
+    "source_url": "https://github.com/SciTools/iris-grib/archive/v0.12.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "AsyncSSH: Asynchronous SSHv2 client and server library",
+    "summary": "Iris GRIB interface.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.12.1"
+    "version": "0.12.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "asyncssh-1.12.1-py36_0.tar.bz2",
+  "package": "iris-grib-0.12.0-py27_1.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "py27_1",
+    "build_number": 1,
     "depends": [
-      "cryptography",
-      "python 3.6*"
+      "iris >=2",
+      "python 2.7*",
+      "python-eccodes"
     ],
-    "license": "EPL-1.0",
-    "md5": "9663edb02143af5c4bddd503fae44d8d",
-    "name": "asyncssh",
-    "sha256": "ad8dfba27afad461cb195d09069859a4fe3ddfb3fdaa9f152de08941aff30c7d",
-    "size": 337843,
+    "license": "LGPL-3.0",
+    "license_family": "LGPL",
+    "md5": "474d649bdce9b8fd58878010e5d8b1ec",
+    "name": "iris-grib",
+    "sha256": "6eab3edee0b5ac4d957ba5f419590284f159de70f610f3c360af5023073c06f8",
+    "size": 177529,
     "subdir": "linux-64",
-    "version": "1.12.1"
+    "version": "0.12.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/asyncssh-1.12.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/iris-grib-0.12.0-py27_1.tar.bz2"
 }
