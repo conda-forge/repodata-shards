@@ -4,10 +4,10 @@
     "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/glimix/ncephes",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "http://ncephes.readthedocs.io",
-    "home": "https://github.com/glimix/ncephes",
+    "doc_url": null,
+    "home": "https://www.x.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/n/ncephes/ncephes-1.0.18.tar.gz",
+    "source_url": "https://www.x.org/releases/individual/lib/libX11-1.6.4.tar.bz2",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python interface for the Cephes library",
+    "summary": "The main client library for X Windows version 11.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.0.18"
+    "version": "1.6.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "ncephes-1.0.18-py36_3.tar.bz2",
+  "package": "xorg-libx11-1.6.4-3.tar.bz2",
   "repodata": {
-    "build": "py36_3",
+    "build": "3",
     "build_number": 3,
     "depends": [
-      "cffi >=1.7",
-      "python 3.6*"
+      "xorg-kbproto",
+      "xorg-libxcb",
+      "xorg-xproto"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "fe445025c23c9a26eef86726cf703841",
-    "name": "ncephes",
-    "sha256": "f4b9a486f416acab0614eadd5ececc0c6d9e1ca95c619bdb9ffab8c95a2b8d2c",
-    "size": 442953,
+    "md5": "8252bb8a18ccd80a3712ae65fa5cfe57",
+    "name": "xorg-libx11",
+    "sha256": "aa1cfc634d398465d51def820aa7b0e419e779085f82df4ec0bd4cd807603205",
+    "size": 908188,
     "subdir": "linux-64",
-    "version": "1.0.18"
+    "version": "1.6.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ncephes-1.0.18-py36_3.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libx11-1.6.4-3.tar.bz2"
 }
