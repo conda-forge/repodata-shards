@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
-    "description": null,
+    "description": "Simple but high performance Cython hash table mapping pre-randomized keys to void* values.",
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://nuitka.net",
+    "home": "https://github.com/explosion/preshed",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/N/Nuitka/Nuitka-0.5.24.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/preshed/preshed-0.46.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python compiler with full language support and CPython compatibility",
+    "summary": "Cython Hash Table for Pre-Hashed Keys",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.5.24.4"
+    "version": "0.46.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "nuitka-0.5.24.4-py35_0.tar.bz2",
+  "package": "preshed-0.46.4-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
+      "cymem >=1.30,<1.32",
       "python 3.5*"
     ],
-    "license": "Apache 2.0",
-    "md5": "3d90a250b1d4c7654b4e7e2cbfb47c0e",
-    "name": "nuitka",
-    "sha256": "8c236870771a7142377567d8dbd43b7b5757fe980b267f34be08cbf3c61c45f9",
-    "size": 1409579,
+    "license": "MIT",
+    "md5": "ada7e43196744f5755f300d1ce5b25b5",
+    "name": "preshed",
+    "sha256": "3fcb8c049fd0dfc5ded8a0f2645df031b97e4382ee429e9a5b11eb62b536728a",
+    "size": 228298,
     "subdir": "linux-64",
-    "version": "0.5.24.4"
+    "version": "0.46.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/nuitka-0.5.24.4-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/preshed-0.46.4-py35_0.tar.bz2"
 }
