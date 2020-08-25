@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://gitub.com/CDAT/genutil",
+    "home": "http://github.com/CDAT/genutil",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "CCLRC",
+    "license": "BSD",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/cdat/genutil/archive/v8.1.tar.gz",
+    "source_url": "https://github.com/cdat/genutil/archive/v8.1.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "General Utitilites for the Community Data Analysys Tools",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1531849460,
-    "version": "8.1.np1.14"
+    "timestamp": 1550869808,
+    "version": "8.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "genutil-8.1.np1.14-py36he59b558_0.tar.bz2",
+  "package": "genutil-8.1.1-py27h3010b51_0.tar.bz2",
   "repodata": {
-    "build": "py36he59b558_0",
+    "build": "py27h3010b51_0",
     "build_number": 0,
     "depends": [
-      "cdms2",
-      "libgcc-ng >=4.9",
-      "numpy >=1.14.5,<2.0a0",
-      "python >=3.6,<3.7.0a0",
+      "cdat_info >=8.1.1",
+      "cdms2 >=3.1.2",
+      "libcdms >=3.1.2",
+      "libgcc-ng >=7.3.0",
+      "numpy >=1.9.3,<2.0a0",
+      "python >=2.7,<2.8.0a0",
       "udunits2"
     ],
-    "license": "CCLRC",
-    "md5": "ba14dcd5ebe4b6ee38cf7097b19eb11b",
+    "license": "BSD",
+    "md5": "7c10c1bcc5ec26ef5ae235cce0611878",
     "name": "genutil",
-    "sha256": "a0bd978f7ca8f2e81fb8234beb4a742785af16e233ef9d9cd86018cf275ac246",
-    "size": 123769,
+    "sha256": "e56edd560c4b7a13855ef9e67378f0f0d545219e94392f29be6b6cf286653c93",
+    "size": 133511,
     "subdir": "linux-64",
-    "timestamp": 1531849460918,
-    "version": "8.1.np1.14"
+    "timestamp": 1550869808271,
+    "version": "8.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/genutil-8.1.np1.14-py36he59b558_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/genutil-8.1.1-py27h3010b51_0.tar.bz2"
 }
