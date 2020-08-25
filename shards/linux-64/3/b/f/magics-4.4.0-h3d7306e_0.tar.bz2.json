@@ -12,61 +12,60 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "Apache-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://confluence.ecmwf.int/download/attachments/3473464/Magics-4.1.2-Source.tar.gz",
+    "source_url": "https://confluence.ecmwf.int/download/attachments/3473464/Magics-4.4.0-Source.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "ECMWF's Meteorological plotting software",
+    "summary": "ECMWF's Meteorological plotting software.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1563896057,
-    "version": "4.1.2"
+    "timestamp": 1593080787,
+    "version": "4.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "magics-4.1.2-py36h518aa39_0.tar.bz2",
+  "package": "magics-4.4.0-h3d7306e_0.tar.bz2",
   "repodata": {
-    "build": "py36h518aa39_0",
+    "build": "h3d7306e_0",
     "build_number": 0,
+    "constrains": [
+      "magics-metview ==9999999999"
+    ],
     "depends": [
       "cairo >=1.16.0,<1.17.0a0",
       "eccodes",
-      "expat >=2.2.5,<2.3.0a0",
+      "expat >=2.2.9,<2.3.0a0",
       "glib >=2.58.3,<3.0a0",
-      "libgcc-ng >=7.3.0",
-      "libnetcdf >=4.6.2,<4.6.3.0a0",
-      "libstdcxx-ng >=7.3.0",
+      "libgcc-ng >=7.5.0",
+      "libnetcdf >=4.7.4,<4.7.5.0a0",
+      "libstdcxx-ng >=7.5.0",
       "magics-python",
-      "numpy",
       "pango >=1.42.4,<1.43.0a0",
-      "proj4 >=6.1.0,<6.1.1.0a0",
-      "python >=3.6,<3.7.0a0",
-      "qt >=5.9.7,<5.10.0a0",
+      "proj >=7.0.0,<7.0.1.0a0",
       "simplejson",
       "zlib >=1.2.11,<1.3.0a0"
     ],
-    "license": "Apache 2.0",
+    "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "7cdd9f5d8de9fe7520edc078b78fec33",
+    "md5": "bf54c73e022805553cd6fbf00494938f",
     "name": "magics",
-    "sha256": "b47667322b0d17a6b6c4587df2a66303e57be18fc00551d5efdc5f91f3b84528",
-    "size": 180166935,
+    "sha256": "fa62fd7c1f3ed5e451f683c326790e306cd67c0a2476932b898d6762a9538f64",
+    "size": 29526685,
     "subdir": "linux-64",
-    "timestamp": 1563896057756,
-    "version": "4.1.2"
+    "timestamp": 1593080787968,
+    "version": "4.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/magics-4.1.2-py36h518aa39_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/magics-4.4.0-h3d7306e_0.tar.bz2"
 }

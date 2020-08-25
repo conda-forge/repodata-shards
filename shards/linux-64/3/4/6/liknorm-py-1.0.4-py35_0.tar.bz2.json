@@ -4,10 +4,10 @@
     "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/limix/liknorm-py",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.lua.org/",
+    "home": "https://github.com/limix/liknorm-py",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://www.lua.org/ftp/lua-5.3.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/l/liknorm-py/liknorm-py-1.0.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Lua is a powerful, fast, lightweight, embeddable scripting language",
+    "summary": "Liknorm Python wrapper",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "5.3.3"
+    "version": "1.0.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "lua-5.3.3-1.tar.bz2",
+  "package": "liknorm-py-1.0.4-py35_0.tar.bz2",
   "repodata": {
-    "build": "1",
-    "build_number": 1,
+    "build": "py35_0",
+    "build_number": 0,
     "depends": [
-      "ncurses 5.9*",
-      "readline 6.2*"
+      "cffi >=1.7",
+      "liknorm >=1.2.3",
+      "numpy >=1.9",
+      "python 3.5*"
     ],
     "license": "MIT",
-    "md5": "2c33de05b5a72a1e9d13e65484a01d18",
-    "name": "lua",
-    "sha256": "28a13febf225ad32d16e46383898b5cb7bd9ca9efdbed11312725a5d7bda97f3",
-    "size": 222641,
+    "license_family": "MIT",
+    "md5": "1e3533a8ece867a695b8dadc809b6b0a",
+    "name": "liknorm-py",
+    "sha256": "caab6c966f79a67420d63f61452e0d1235d74b79f555fe764d9d5d08424ce97e",
+    "size": 102706,
     "subdir": "linux-64",
-    "version": "5.3.3"
+    "version": "1.0.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/lua-5.3.3-1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/liknorm-py-1.0.4-py35_0.tar.bz2"
 }

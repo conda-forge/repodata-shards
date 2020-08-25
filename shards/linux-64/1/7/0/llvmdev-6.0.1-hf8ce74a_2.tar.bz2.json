@@ -4,7 +4,7 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
     "doc_source_url": null,
     "doc_url": null,
     "home": "http://llvm.org/",
@@ -19,41 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://releases.llvm.org/6.0.0/lldb-6.0.0.src.tar.xz",
+    "source_url": "http://llvm.org/releases/6.0.1/llvm-6.0.1.src.tar.xz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The LLVM Debugger",
+    "summary": "Development headers and libraries for LLVM",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "6.0.0"
+    "timestamp": 1534039971,
+    "version": "6.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "lldb-6.0.0-py27_0.tar.bz2",
+  "package": "llvmdev-6.0.1-hf8ce74a_2.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "hf8ce74a_2",
+    "build_number": 2,
     "depends": [
-      "clangdev ==6.0.0",
-      "libedit",
-      "llvmdev ==6.0.0",
-      "python 2.7*"
+      "libstdcxx-ng >=4.9",
+      "llvm-meta 6.0.1.*"
     ],
     "license": "NCSA",
-    "md5": "bbf75040771fb92bd11144ea30877322",
-    "name": "lldb",
-    "sha256": "1df45a3d39a2dc5a5b9fd198be3129fdc7d0fbe16bb7055f3d58cb66759c2b8d",
-    "size": 47556669,
+    "md5": "eb173c8971478b1f06d1d01572cf2d0f",
+    "name": "llvmdev",
+    "sha256": "71c601a02f9633c38ad7a82914cdccefbc0e296a1a890fc5fcef5bf00b343501",
+    "size": 144925117,
     "subdir": "linux-64",
-    "version": "6.0.0"
+    "timestamp": 1534039971069,
+    "version": "6.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/lldb-6.0.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/llvmdev-6.0.1-hf8ce74a_2.tar.bz2"
 }
