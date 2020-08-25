@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://ipython.org",
+    "home": "http://www.h5py.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ipyparallel/ipyparallel-5.1.1.tar.gz",
+    "source_url": "https://github.com/h5py/h5py/archive/2.7.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Interactive Parallel Computing with IPython",
+    "summary": "Read and write HDF5 files from Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "5.1.1"
+    "version": "2.7.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,30 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "ipyparallel-5.1.1-py27_1.tar.bz2",
+  "package": "h5py-2.7.1-py36_1.tar.bz2",
   "repodata": {
-    "build": "py27_1",
+    "build": "py36_1",
     "build_number": 1,
     "depends": [
-      "decorator",
-      "futures",
-      "ipykernel",
-      "ipython >=4",
-      "ipython_genutils",
-      "jupyter_client",
-      "python 2.7*",
-      "pyzmq >=13",
-      "tornado >=4"
+      "hdf5 1.8.18|1.8.18.*",
+      "numpy >=1.8",
+      "python 3.6*",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "daec7c53caf7d83b7ddbcd82ec131c86",
-    "name": "ipyparallel",
-    "sha256": "cc9d95b1b30c8d4412c05761eea0c64ceec6dd3809cddcf84604f9dc8258c9ea",
-    "size": 280825,
+    "md5": "de29207f3b9f6c0bfb28ec55afc4a67a",
+    "name": "h5py",
+    "sha256": "982ab842763ec566169569d0a6b59959bbee8c5f97f411f6622d4442e66bfde6",
+    "size": 4065910,
     "subdir": "linux-64",
-    "version": "5.1.1"
+    "version": "2.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipyparallel-5.1.1-py27_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.7.1-py36_1.tar.bz2"
 }

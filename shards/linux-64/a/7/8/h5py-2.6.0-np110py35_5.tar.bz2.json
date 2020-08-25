@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://ipython.org",
+    "home": "http://www.h5py.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ipyparallel/ipyparallel-5.1.1.tar.gz",
+    "source_url": "https://github.com/h5py/h5py/archive/2.6.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Interactive Parallel Computing with IPython",
+    "summary": "Read and write HDF5 files from Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "5.1.1"
+    "version": "2.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,30 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "ipyparallel-5.1.1-py27_1.tar.bz2",
+  "package": "h5py-2.6.0-np110py35_5.tar.bz2",
   "repodata": {
-    "build": "py27_1",
-    "build_number": 1,
+    "build": "np110py35_5",
+    "build_number": 5,
     "depends": [
-      "decorator",
-      "futures",
-      "ipykernel",
-      "ipython >=4",
-      "ipython_genutils",
-      "jupyter_client",
-      "python 2.7*",
-      "pyzmq >=13",
-      "tornado >=4"
+      "hdf5 1.8.17|1.8.17.*",
+      "numpy 1.10*",
+      "python 3.5*",
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "daec7c53caf7d83b7ddbcd82ec131c86",
-    "name": "ipyparallel",
-    "sha256": "cc9d95b1b30c8d4412c05761eea0c64ceec6dd3809cddcf84604f9dc8258c9ea",
-    "size": 280825,
+    "md5": "dc5dcc8fbc9296373cbc1fa738690ca3",
+    "name": "h5py",
+    "sha256": "8a3be9c15d1865837ec1b886738f02933a1d0df27303b8e19c0891263684618c",
+    "size": 3289048,
     "subdir": "linux-64",
-    "version": "5.1.1"
+    "version": "2.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipyparallel-5.1.1-py27_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.6.0-np110py35_5.tar.bz2"
 }
