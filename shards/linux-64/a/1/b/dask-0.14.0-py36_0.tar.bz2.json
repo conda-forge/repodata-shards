@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://github.com/dask/dask/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/scipy/scipy-0.17.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/dask/dask-0.14.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Parallel PyData with task scheduling",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.17.1"
+    "version": "0.14.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "scipy-0.17.1-np110py35_blas_openblas_200.tar.bz2",
+  "package": "dask-0.14.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "np110py35_blas_openblas_200",
-    "build_number": 200,
+    "build": "py36_0",
+    "build_number": 0,
     "depends": [
-      "blas 1.1 openblas",
-      "libgcc",
-      "numpy 1.10*",
-      "openblas 0.2.18*",
-      "python 3.5*"
+      "bokeh",
+      "cloudpickle >=0.2.1",
+      "distributed >=1.15.0",
+      "numpy",
+      "pandas >=0.19.0",
+      "partd >=0.3.7",
+      "python 3.6*",
+      "toolz >=0.7.2"
     ],
-    "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "md5": "6c1959b02d7a551b46faf2b9bb84cab1",
-    "name": "scipy",
-    "sha256": "0f90c864cbf51ee2e96728535ba58e015779aa15e3b5c02c120ac05967813b1f",
-    "size": 31825122,
+    "md5": "88f385e41e2efff16a60ce6d58f1446f",
+    "name": "dask",
+    "sha256": "a561e047a99cf7c6fbef06285c847fdebaa1d66de51266e363bb774f389afaf4",
+    "size": 788414,
     "subdir": "linux-64",
-    "version": "0.17.1"
+    "version": "0.14.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/scipy-0.17.1-np110py35_blas_openblas_200.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-0.14.0-py36_0.tar.bz2"
 }
