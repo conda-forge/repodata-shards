@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/broadinstitute/cromwell",
+    "home": "http://hadoop.apache.org/avro",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3-Clause",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://www-us.apache.org/dist/avro/avro-1.8.1/c/avro-c-1.8.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Workflow Management System geared towards scientific workflows described in WDL",
+    "summary": "Avro is a serialization and RPC framework.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1557776027,
-    "version": "41"
+    "timestamp": 0,
+    "version": "1.8.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "cromwell-41-0.tar.bz2",
+  "package": "avro-1.8.1-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
     "depends": [
-      "findutils",
-      "openjdk >=8,<9",
-      "python"
+      "jansson",
+      "snappy",
+      "xz",
+      "zlib 1.2.*"
     ],
-    "license": "BSD-3-Clause",
-    "md5": "c263c0ea78637b60ce396ed970187319",
-    "name": "cromwell",
-    "sha256": "b46bb385dd7b13c15c3948dee4ab80321ae31c07927764cc2a79f7d1a2cd4a53",
-    "size": 276103243,
+    "license": "Apache 2.0",
+    "md5": "378459b7af71cc9e6bd5f46f3a719c72",
+    "name": "avro",
+    "sha256": "59a585edfb5556cb940bdf072bc7ef8b7f50a5b5efc3c022f5164d2589f5f94c",
+    "size": 2003229,
     "subdir": "linux-64",
-    "timestamp": 1557776027804,
-    "version": "41"
+    "version": "1.8.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cromwell-41-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/avro-1.8.1-0.tar.bz2"
 }
