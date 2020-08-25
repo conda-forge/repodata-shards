@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pypa/setuptools_scm/",
+    "home": "http://llvm.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "NCSA",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/setuptools_scm/setuptools_scm-2.0.0.tar.gz",
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-8.0.1/cfe-8.0.1.src.tar.xz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The blessed package to manage your versions by scm tags.",
+    "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "2.0.0"
+    "timestamp": 1566202986,
+    "version": "8.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "setuptools_scm-2.0.0-py35_0.tar.bz2",
+  "package": "clangxx-8.0.1-0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "0",
     "build_number": 0,
     "depends": [
-      "python 3.5*",
-      "setuptools"
+      "clang 8.0.1 hc9558a2_0"
     ],
-    "license": "MIT",
-    "md5": "6040d9bd8a85d8ff6f13530c5481cc2a",
-    "name": "setuptools_scm",
-    "sha256": "3ecc3e0cab030fb8bec3e8c501257ec02c6feae1fc5550e2f49ab4a1e186aaa9",
-    "size": 28716,
+    "license": "NCSA",
+    "md5": "64f416fcb1487d32a64812a83a63069f",
+    "name": "clangxx",
+    "sha256": "8ba7523e238862aaf41a450d234c37227d71fa6bf1e9dc14de0a04bc60ac9852",
+    "size": 9668,
     "subdir": "linux-64",
-    "version": "2.0.0"
+    "timestamp": 1566202986150,
+    "version": "8.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/setuptools_scm-2.0.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/clangxx-8.0.1-0.tar.bz2"
 }

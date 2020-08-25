@@ -7,51 +7,55 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pypa/setuptools_scm/",
+    "home": "https://rejected.readthedocs.io",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/setuptools_scm/setuptools_scm-2.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/rejected/rejected-3.19.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The blessed package to manage your versions by scm tags.",
+    "summary": "An AMQP (RabbitMQ) consumer daemon and message processing framework",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "2.0.0"
+    "version": "3.19.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "setuptools_scm-2.0.0-py35_0.tar.bz2",
+  "package": "rejected-3.19.6-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
+      "helper",
+      "pika >=0.10.0",
+      "psutil",
       "python 3.5*",
-      "setuptools"
+      "pyyaml",
+      "setuptools",
+      "tornado >=4.2,<4.3"
     ],
-    "license": "MIT",
-    "md5": "6040d9bd8a85d8ff6f13530c5481cc2a",
-    "name": "setuptools_scm",
-    "sha256": "3ecc3e0cab030fb8bec3e8c501257ec02c6feae1fc5550e2f49ab4a1e186aaa9",
-    "size": 28716,
+    "license": "BSD 3-clause",
+    "md5": "cf8fbcc9faf5801bc562c99f98ed4045",
+    "name": "rejected",
+    "sha256": "e8de1f78aff69c7ccac9dceccbadf8344d82f31f133e4149319f562707bcecec",
+    "size": 69248,
     "subdir": "linux-64",
-    "version": "2.0.0"
+    "version": "3.19.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/setuptools_scm-2.0.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/rejected-3.19.6-py35_0.tar.bz2"
 }
