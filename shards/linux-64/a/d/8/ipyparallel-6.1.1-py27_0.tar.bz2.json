@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/conda/conda-build",
+    "home": "http://ipython.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
     "license": "BSD 3-Clause",
-    "post_link": false,
+    "post_link": true,
     "pre_link": false,
-    "pre_unlink": false,
+    "pre_unlink": true,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/conda-build/archive/2.0.12.tar.gz",
+    "source_url": "https://pypi.io/packages/source/i/ipyparallel/ipyparallel-6.1.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "tools for building conda packages",
+    "summary": "Interactive Parallel Computing with IPython",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "2.0.12"
+    "version": "6.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,32 +35,31 @@
     "cf202003",
     "main"
   ],
-  "package": "conda-build-2.0.12-py27_0.tar.bz2",
+  "package": "ipyparallel-6.1.1-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "conda >=4.1",
-      "conda-verify",
-      "contextlib2",
-      "enum34",
-      "filelock",
-      "jinja2",
-      "patchelf",
-      "pkginfo",
-      "pycrypto",
+      "decorator",
+      "futures",
+      "ipykernel",
+      "ipython >=4",
+      "ipython_genutils",
+      "jupyter_client",
       "python 2.7*",
-      "pyyaml"
+      "python-dateutil >=2.1",
+      "pyzmq >=13",
+      "tornado >=4"
     ],
     "license": "BSD 3-Clause",
-    "md5": "a5854f5ca68f73d3debbaff6300f3ee7",
-    "name": "conda-build",
-    "sha256": "b54ff68972cc77f2d58fa0ea8a9011855ff063756f80c8cafd035189a0ac25cc",
-    "size": 282088,
+    "md5": "57747103bdec717b4240b91c7c96e8fe",
+    "name": "ipyparallel",
+    "sha256": "63859d19f107ed353c7234c48013875c4057e62126c5099e72fec157cbf7bd70",
+    "size": 304725,
     "subdir": "linux-64",
-    "version": "2.0.12"
+    "version": "6.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-build-2.0.12-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipyparallel-6.1.1-py27_0.tar.bz2"
 }
