@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/marshallward/f90nml",
+    "home": "http://pyomo.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache-2.0",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/f/f90nml/f90nml-0.21.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fortran 90 namelist parser",
+    "summary": "Optimizers that enhance the functionality of Pyomo",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.21"
+    "timestamp": 1545596109,
+    "version": "1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "f90nml-0.21-py27_0.tar.bz2",
+  "package": "pyomo.solvers-1.0-py27_1000.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "py27_1000",
+    "build_number": 1000,
     "depends": [
-      "python 2.7*"
+      "coincbc",
+      "glpk",
+      "ipopt",
+      "python >=2.7,<2.8.0a0"
     ],
-    "license": "Apache-2.0",
-    "license_family": "APACHE",
-    "md5": "62dc3bfc7098f8f99f79c2fe268b3439",
-    "name": "f90nml",
-    "sha256": "5c6fd455a40c40f08facee0b5211db0a78b26ac728c77796972e5b71da5580af",
-    "size": 36163,
+    "license": "BSD 3-clause",
+    "md5": "aef5957d598a1198d74a71d10cc3ec88",
+    "name": "pyomo.solvers",
+    "sha256": "5ab451211c5b094d0980fc19779ecc88fb3c32a0a8a98ab3dd0d5e3d465db32c",
+    "size": 2579,
     "subdir": "linux-64",
-    "version": "0.21"
+    "timestamp": 1545596109407,
+    "version": "1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/f90nml-0.21-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyomo.solvers-1.0-py27_1000.tar.bz2"
 }
