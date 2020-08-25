@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/python-cmd2/cmd2",
+    "dev_url": "https://github.com/limix/numpy-sugar",
     "doc_source_url": null,
-    "doc_url": "https://cmd2.readthedocs.io/",
-    "home": "https://github.com/python-cmd2/cmd2",
+    "doc_url": "https://numpy-sugar.readthedocs.io",
+    "home": "https://github.com/limix/numpy-sugar",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/cmd2/cmd2-0.7.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/n/numpy-sugar/numpy-sugar-1.1.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Extra features for standard library's cmd module",
+    "summary": "Missing NumPy functionalities",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.7.3"
+    "version": "1.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "cmd2-0.7.3-py35_0.tar.bz2",
+  "package": "numpy-sugar-1.1.2-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "pyparsing >=2.0.1",
-      "python 3.5*",
-      "six"
+      "dask >=0.15",
+      "numpy >=1.10",
+      "python 3.6*",
+      "scipy >=0.18.1"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "be33864b6b4a365dda312ef632df27ef",
-    "name": "cmd2",
-    "sha256": "a8b1c83fe1d14a94edaeaa0183c5e8f6b81e8b0118084689904210f4e4120d3f",
-    "size": 51571,
+    "md5": "9dab061f942d863467eed07495ed77cd",
+    "name": "numpy-sugar",
+    "sha256": "b279267c067f85888dfd4ed5150d33fd655be69c2310306c63fc0786be071a71",
+    "size": 18855,
     "subdir": "linux-64",
-    "version": "0.7.3"
+    "version": "1.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cmd2-0.7.3-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/numpy-sugar-1.1.2-py36_0.tar.bz2"
 }
