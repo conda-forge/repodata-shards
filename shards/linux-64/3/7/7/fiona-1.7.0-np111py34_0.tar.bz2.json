@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/HypothesisWorks/hypothesis-python",
+    "home": "http://github.com/Toblerity/Fiona",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MPL 2.0",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hypothesis/hypothesis-3.53.0.tar.gz",
+    "source_url": "https://github.com/Toblerity/Fiona/archive/1.7.0.post2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for property based testing",
+    "summary": "Fiona reads and writes spatial data files",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.53.0"
+    "version": "1.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "hypothesis-3.53.0-py36_0.tar.bz2",
+  "package": "fiona-1.7.0-np111py34_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "np111py34_0",
     "build_number": 0,
     "depends": [
-      "attrs",
-      "coverage",
-      "python 3.6*"
+      "click-plugins",
+      "cligj",
+      "gdal >=2.*",
+      "munch",
+      "numpy 1.11*",
+      "python 3.4*",
+      "setuptools",
+      "six"
     ],
-    "license": "MPL 2.0",
-    "md5": "d40c5b66fd281ae7b3d1acfd124a26e6",
-    "name": "hypothesis",
-    "sha256": "7fe3b1774bdafc521cc550122d075025b07413a6d4e2546fe10b77fac7657061",
-    "size": 261831,
+    "license": "BSD 3-Clause",
+    "md5": "eeb12a9fcccbb188deca4b5aea4034d6",
+    "name": "fiona",
+    "sha256": "ee00861052297846b497387a3dc93b209bbbab56ed8c58621a17bd23cde189ef",
+    "size": 1222344,
     "subdir": "linux-64",
-    "version": "3.53.0"
+    "version": "1.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hypothesis-3.53.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.7.0-np111py34_0.tar.bz2"
 }
