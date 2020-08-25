@@ -7,54 +7,57 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Blosc/bloscpack",
+    "home": "https://github.com/axiom-data-science/pyaxiom",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/bloscpack/bloscpack-0.11.0.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Command line interface to and serialization format for Blosc",
+    "summary": "An ocean data toolkit developed and used by Axiom Data Science.",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "0.11.0"
+    "version": "1.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "bloscpack-0.11.0-py36_0.tar.bz2",
+  "package": "pyaxiom-1.4.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "blosc",
+      "netcdf4",
       "numpy",
+      "pandas",
+      "pyncml",
+      "pynco",
       "python 3.6*",
-      "python-blosc",
-      "six"
+      "python-dateutil",
+      "pytz",
+      "simplejson"
     ],
-    "license": "Apache 2.0",
-    "md5": "35a1f02769eaa569775b47d26d2121d3",
-    "name": "bloscpack",
-    "sha256": "44041592e49812f606b4368e29373d311c78a720326697d3dd00adf6d7657445",
-    "size": 68634,
+    "license": "MIT",
+    "md5": "d009873e7384c3bbc6209b30c6770367",
+    "name": "pyaxiom",
+    "sha256": "72cb8d75012714fb7712a2971dcbbbabc849cddabd7206ed3af0bc69ed744bf2",
+    "size": 85130,
     "subdir": "linux-64",
-    "version": "0.11.0"
+    "version": "1.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/bloscpack-0.11.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyaxiom-1.4.0-py36_0.tar.bz2"
 }
