@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pyyaml.org/wiki/PyYAML",
+    "home": "https://github.com/FlorianRhiem/pyGLFW",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/PyYAML/PyYAML-3.11.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/glfw/glfw-1.8.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "YAML parser and emitter for Python",
+    "summary": "This module provides Python bindings for GLFW",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "3.11"
+    "timestamp": 1576176697,
+    "version": "1.8.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "pyyaml-3.11-py36_0.tar.bz2",
+  "package": "pyglfw-1.8.7-py37_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py37_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*",
-      "yaml"
+      "glfw",
+      "python >=3.7,<3.8.0a0"
     ],
     "license": "MIT",
-    "md5": "677e5bdeb8b08892f2d2dbd9a260b094",
-    "name": "pyyaml",
-    "sha256": "158e68d64bdbbca58a2fa11b71ec33c4832c1da223404f8efb06ea7ddcba79e3",
-    "size": 376535,
+    "license_family": "MIT",
+    "md5": "6c0915260990498c8815941d8611a0fe",
+    "name": "pyglfw",
+    "sha256": "41a9209e11d3559f3b6e90218b91fffc2ccdfc00f95163b2a85e33c04e62401c",
+    "size": 46957,
     "subdir": "linux-64",
-    "version": "3.11"
+    "timestamp": 1576176697612,
+    "version": "1.8.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyyaml-3.11-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyglfw-1.8.7-py37_0.tar.bz2"
 }

@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pyyaml.org/wiki/PyYAML",
+    "home": "https://github.com/html5lib/html5lib-python",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/PyYAML/PyYAML-3.11.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/html5lib/html5lib-0.999999999.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "YAML parser and emitter for Python",
+    "summary": "HTML parser based on the WHATWG HTML specification",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.11"
+    "version": "0.999999999"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "pyyaml-3.11-py36_0.tar.bz2",
+  "package": "html5lib-0.999999999-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*",
-      "yaml"
+      "python 2.7*",
+      "six >=1.9",
+      "webencodings"
     ],
     "license": "MIT",
-    "md5": "677e5bdeb8b08892f2d2dbd9a260b094",
-    "name": "pyyaml",
-    "sha256": "158e68d64bdbbca58a2fa11b71ec33c4832c1da223404f8efb06ea7ddcba79e3",
-    "size": 376535,
+    "license_family": "MIT",
+    "md5": "622da45cb7e279c19ef4bffa8e072cc6",
+    "name": "html5lib",
+    "sha256": "9e2b2a16bd305cf1324ba59d4988bcc514223026208963b2c4d40dd553de6061",
+    "size": 190816,
     "subdir": "linux-64",
-    "version": "3.11"
+    "version": "0.999999999"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyyaml-3.11-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/html5lib-0.999999999-py27_0.tar.bz2"
 }

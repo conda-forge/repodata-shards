@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/TvoroG/pytest-lazy-fixture",
+    "dev_url": "https://github.com/basnijholt/hpc05",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/TvoroG/pytest-lazy-fixture",
+    "home": "http://github.com/basnijholt/hpc05",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-lazy-fixture/pytest-lazy-fixture-0.3.0.tar.gz",
+    "source_url": "https://github.com/basnijholt/hpc05/archive/v1.17.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "It helps to use fixtures in pytest.mark.parametrize",
+    "summary": "ipyparallel Client package for PBS cluster with headnode (as on the TU Delft).",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.0"
+    "version": "v1.17"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "pytest-lazy-fixture-0.3.0-py36_0.tar.bz2",
+  "package": "hpc05-v1.17-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "pytest >=2.9.2",
-      "python 3.6*"
+      "ipyparallel",
+      "ipython",
+      "paramiko",
+      "pexpect",
+      "psutil",
+      "python 2.7*",
+      "pyzmq",
+      "sshtunnel",
+      "tornado"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "8a03c859150b9239101e88fb785bcb5a",
-    "name": "pytest-lazy-fixture",
-    "sha256": "ebe836415fa14027b764e12ad525194538f50f6a2d712e7db9fb8065c39300f3",
-    "size": 9402,
+    "md5": "32542d3a49488b405d835dfb91b807a9",
+    "name": "hpc05",
+    "sha256": "ee2640fc4e067609eaaadf6ab69979396cf3a8ffaad1bcf61d94b6c241eed636",
+    "size": 15031,
     "subdir": "linux-64",
-    "version": "0.3.0"
+    "version": "v1.17"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-lazy-fixture-0.3.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/hpc05-v1.17-py27_0.tar.bz2"
 }
