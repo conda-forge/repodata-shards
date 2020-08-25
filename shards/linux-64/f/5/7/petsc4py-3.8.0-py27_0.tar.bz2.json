@@ -7,51 +7,52 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.mesa3d.org/",
+    "home": "https://bitbucket.org/petsc/petsc4py",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 2-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "ftp://ftp.freedesktop.org/pub/mesa/mesa-17.0.3.tar.gz",
+    "source_url": "https://bitbucket.org/petsc/petsc4py/downloads/petsc4py-3.8.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.",
+    "summary": "Python bindings for PETSc",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "17.0.3"
+    "version": "3.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003"
+    "main"
   ],
-  "package": "mesalib-17.0.3-0.tar.bz2",
+  "package": "petsc4py-3.8.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "libgcc",
-      "pthread-stubs"
+      "mpich",
+      "numpy",
+      "petsc 3.8*",
+      "python 2.7*"
     ],
-    "license": "MIT",
-    "md5": "8647eef5ab31cc9e178e472bf3d4f0b5",
-    "name": "mesalib",
-    "sha256": "a79b58567d9d1caf13971a641dc96af4f8c26697d3a16d02ea873b74431cd0fa",
-    "size": 5161895,
+    "license": "BSD 2-Clause",
+    "md5": "fa0c109e49c039401049762af679eb30",
+    "name": "petsc4py",
+    "sha256": "860cd47cd87614f968df19e720d389990424d74b27b78605f689a2f229a9b405",
+    "size": 1125776,
     "subdir": "linux-64",
-    "track_features": "mesalib",
-    "version": "17.0.3"
+    "version": "3.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-64/mesalib-17.0.3-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/petsc4py-3.8.0-py27_0.tar.bz2"
 }
