@@ -7,53 +7,56 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/blink1073/oct2py",
+    "home": "http://yt-project.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/o/oct2py/oct2py-3.5.10.tar.gz",
+    "source_url": "https://files.pythonhosted.org/packages/source/y/yt/yt-3.3.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python to GNU Octave bridge --> run m-files from python",
+    "summary": "Analysis and visualization toolkit for volumetric data",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.5.10"
+    "version": "3.3.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "oct2py-3.5.10-py34_0.tar.bz2",
+  "package": "yt-3.3.1-np111py34_2.tar.bz2",
   "repodata": {
-    "build": "py34_0",
-    "build_number": 0,
+    "build": "np111py34_2",
+    "build_number": 2,
     "depends": [
+      "h5py",
       "ipython",
-      "numpy",
+      "matplotlib",
+      "numpy 1.11*",
+      "pyembree",
       "python 3.4*",
-      "scipy"
+      "setuptools",
+      "sympy"
     ],
-    "license": "MIT",
-    "md5": "5c7d0cd49c676276b63752083e213ec1",
-    "name": "oct2py",
-    "sha256": "074bd97819bd7ce8671f8ee8050174e24f48f0d8579eef36722b1f84c0b2f795",
-    "size": 57350,
+    "license": "BSD 3-clause",
+    "md5": "e48ab94857fba5220cb1bcf93b19777d",
+    "name": "yt",
+    "sha256": "8582db7fc9d972bacea57c7065fb858c36d5b4a53d4f3e7f8a79c6b7928a1738",
+    "size": 14185436,
     "subdir": "linux-64",
-    "version": "3.5.10"
+    "version": "3.3.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/oct2py-3.5.10-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/yt-3.3.1-np111py34_2.tar.bz2"
 }
