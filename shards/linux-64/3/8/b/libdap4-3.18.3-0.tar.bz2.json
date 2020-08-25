@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ivmai/libatomic_ops",
+    "home": "http://www.opendap.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Custom",
+    "license": "GNU LGPL",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/ivmai/libatomic_ops/releases/download/v7.6.4/libatomic_ops-7.6.4.tar.gz",
+    "source_url": "https://github.com/OPENDAP/libdap4/archive/version-3.18.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Implementations for atomic memory update operations.",
+    "summary": "A C++ SDK which contains an implementation of both DAP2 and DAP4.",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "7.6.4"
+    "version": "3.18.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,20 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "libatomic_ops-7.6.4-0.tar.bz2",
+  "package": "libdap4-3.18.3-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
-    "depends": [],
-    "license": "Custom",
-    "md5": "e02d72978c2c6ae5f615f51a5e39fda3",
-    "name": "libatomic_ops",
-    "sha256": "eb8334f42c39b510102fce65a649cc943899aa4da303a2d8b29b306d955ed109",
-    "size": 75013,
+    "depends": [
+      "curl",
+      "libxml2",
+      "util-linux"
+    ],
+    "license": "GNU LGPL",
+    "md5": "5c2742b3a44790c62732a19235bd4230",
+    "name": "libdap4",
+    "sha256": "e3164508746f43ff8569d12c5836bf818c16903b36cb66a9708e9834f39b28af",
+    "size": 15986829,
     "subdir": "linux-64",
-    "version": "7.6.4"
+    "version": "3.18.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libatomic_ops-7.6.4-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libdap4-3.18.3-0.tar.bz2"
 }
