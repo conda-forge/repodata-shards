@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/python-cmd2/cmd2",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://cmd2.readthedocs.io/",
-    "home": "https://github.com/python-cmd2/cmd2",
+    "doc_url": null,
+    "home": "http://pypi.python.org/pypi/ctd/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/cmd2/cmd2-0.7.3.tar.gz",
+    "source_url": "https://github.com/pyoceans/python-ctd/releases/download/v0.2.2/ctd-0.2.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Extra features for standard library's cmd module",
+    "summary": "Tools to load hydrographic data formats as pandas DataFrames.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.7.3"
+    "version": "0.2.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "cmd2-0.7.3-py27_0.tar.bz2",
+  "package": "ctd-0.2.2-py34_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "pyparsing >=2.0.1",
-      "python 2.7*",
-      "six"
+      "gsw",
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "python 3.4*",
+      "scipy"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "c99c5ed6d4036ded0fcd709d513c7dad",
-    "name": "cmd2",
-    "sha256": "9ac8e570216d206d70b273d5f86302b0c6c63d856d9e45bfb15881272e7070a6",
-    "size": 50506,
+    "md5": "763fb2d57050524e6849e322480bf56e",
+    "name": "ctd",
+    "sha256": "a53b93aed6d0d986722efb2e79b0e62c45bedd9eae68b71c9e8abc27e57f5d6f",
+    "size": 31156,
     "subdir": "linux-64",
-    "version": "0.7.3"
+    "version": "0.2.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cmd2-0.7.3-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ctd-0.2.2-py34_0.tar.bz2"
 }
