@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://pypi.python.org/pypi/pyshp",
+    "home": "http://www.remotesensing.org/libtiff/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "HPND",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/GeospatialPython/pyshp/archive/1.2.10.tar.gz",
+    "source_url": "http://download.osgeo.org/libtiff/tiff-4.0.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Pure Python read/write support for ESRI Shapefile format.",
+    "summary": "Support for the Tag Image File Format (TIFF).",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.2.10"
+    "version": "4.0.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "pyshp-1.2.10-py35_0.tar.bz2",
+  "package": "libtiff-4.0.7-1.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "1",
+    "build_number": 1,
     "depends": [
-      "python 3.5*"
+      "jpeg 9*",
+      "xz 5.2.*",
+      "zlib 1.2.11"
     ],
-    "license": "MIT",
-    "md5": "e995292c6bd92edea923b4da40c3143a",
-    "name": "pyshp",
-    "sha256": "da945168dd3190d7449f8cbbb1672988d76c5e869963d40edf0dc37f965ca7a6",
-    "size": 229054,
+    "license": "HPND",
+    "md5": "df6c8d6e9aec39f2eb8c6e7bfee810ac",
+    "name": "libtiff",
+    "sha256": "e874bd706687016dcedfe0fe1f7aa594d023dc6726a40166755a9f61d3235450",
+    "size": 499846,
     "subdir": "linux-64",
-    "version": "1.2.10"
+    "version": "4.0.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyshp-1.2.10-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libtiff-4.0.7-1.tar.bz2"
 }

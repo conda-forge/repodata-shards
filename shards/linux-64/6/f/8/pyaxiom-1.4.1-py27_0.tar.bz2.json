@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://pypi.python.org/pypi/pyshp",
+    "home": "https://github.com/axiom-data-science/pyaxiom",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/GeospatialPython/pyshp/archive/1.2.10.tar.gz",
+    "source_url": "https://github.com/axiom-data-science/pyaxiom/archive/1.4.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Pure Python read/write support for ESRI Shapefile format.",
+    "summary": "An ocean data toolkit developed and used by Axiom Data Science.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.2.10"
+    "version": "1.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pyshp-1.2.10-py35_0.tar.bz2",
+  "package": "pyaxiom-1.4.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "netcdf4",
+      "numpy",
+      "pandas",
+      "pyncml",
+      "pynco",
+      "python 2.7*",
+      "python-dateutil",
+      "pytz",
+      "simplejson"
     ],
     "license": "MIT",
-    "md5": "e995292c6bd92edea923b4da40c3143a",
-    "name": "pyshp",
-    "sha256": "da945168dd3190d7449f8cbbb1672988d76c5e869963d40edf0dc37f965ca7a6",
-    "size": 229054,
+    "md5": "9a94b640d20d208943209cf1a76fd153",
+    "name": "pyaxiom",
+    "sha256": "5176097cf4f5d3a496516e1e441b3a12a43e6053d01b2a32c9277319a3201a41",
+    "size": 84428,
     "subdir": "linux-64",
-    "version": "1.2.10"
+    "version": "1.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyshp-1.2.10-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyaxiom-1.4.1-py27_0.tar.bz2"
 }
