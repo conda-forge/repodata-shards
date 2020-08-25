@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/MaxPoint/spylon",
+    "home": "https://github.com/zeromq/pyzmq",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/spylon/spylon-0.2.12.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyzmq/pyzmq-17.1.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Utilities to work with Scala/Java code with py4j",
+    "summary": "Python bindings for zeromq",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "0.2.12"
+    "timestamp": 1531506352,
+    "version": "17.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "spylon-0.2.12-py36_0.tar.bz2",
+  "package": "pyzmq-17.1.0-py27hae99301_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27hae99301_0",
     "build_number": 0,
     "depends": [
-      "findspark",
-      "python 3.6*",
-      "pyyaml",
-      "six"
+      "libgcc-ng >=4.9",
+      "libsodium",
+      "libstdcxx-ng >=4.9",
+      "python >=2.7,<2.8.0a0",
+      "zeromq >=4.2.5,<4.3.0a0"
     ],
     "license": "BSD 3-clause",
-    "md5": "4bc592f43b1b83e00886437dbc68a40d",
-    "name": "spylon",
-    "sha256": "bd5a454e9de9eb37dec3ea5326382597da7665963a5336578316321d8bb77ae6",
-    "size": 67821,
+    "md5": "c27bb32f75b7b836285d241e25e69373",
+    "name": "pyzmq",
+    "sha256": "3c123e862e12054e6f747d3c26e3ae17b1b9ff3e91223e6f7ff31933129e32a4",
+    "size": 1006994,
     "subdir": "linux-64",
-    "version": "0.2.12"
+    "timestamp": 1531506352181,
+    "version": "17.1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/spylon-0.2.12-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyzmq-17.1.0-py27hae99301_0.tar.bz2"
 }
