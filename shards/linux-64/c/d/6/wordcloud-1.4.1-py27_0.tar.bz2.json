@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pygithub.github.io/PyGithub/v1/",
+    "home": "https://github.com/amueller/word_cloud",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL-3.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/PyGithub/PyGithub/archive/v1.29.tar.gz",
+    "source_url": "https://github.com/amueller/word_cloud/archive/1.4.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python library implementing the GitHub API v3",
+    "summary": "A little word cloud generator in Python",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.29"
+    "version": "1.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "pygithub-1.29-py36_0.tar.bz2",
+  "package": "wordcloud-1.4.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "numpy",
+      "pillow",
+      "python 2.7*"
     ],
-    "license": "LGPL-3.0",
-    "md5": "e1e0c4f7bcc546539dbc6c5882326808",
-    "name": "pygithub",
-    "sha256": "9555bf27037d930e0756da759e07f90ca681c0bab049850a312c3c9f17a87eb0",
-    "size": 1939240,
+    "license": "MIT",
+    "md5": "a4855faeaa7cdb1309fc4f389ed4d933",
+    "name": "wordcloud",
+    "sha256": "2599cf1f816cde046d11fb3bba7a44aa7c43ffdd3c99c3cd459f54d68e3d197d",
+    "size": 324762,
     "subdir": "linux-64",
-    "version": "1.29"
+    "version": "1.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pygithub-1.29-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wordcloud-1.4.1-py27_0.tar.bz2"
 }
