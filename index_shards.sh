@@ -8,16 +8,17 @@ git config --global pull.rebase false
 
 pushd ..
 git clone --depth=1 https://github.com/regro/repodata-tools.git
-rt_pth=`pwd`/repodata-tools
+pushd repodata-tools
+conda install -y -q --file requirements.txt
+pip install -e .
 popd
-
-conda install -y -q --file ${rt_pth}/requirements.txt
+popd
 
 pushd ${GITHUB_WORKSPACE}
 
 repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 git remote set-url --push origin ${repo_url}
 
-python ${rt_pth}/scripts/make_anaconda_shards.py ${RANK}
+sync-anaconda-data --rank=${RANK} --n-ranks=4
 
 popd
