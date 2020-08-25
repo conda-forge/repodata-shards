@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GNU General Public License v3 (GPLv3)",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/p/pygc/pygc-0.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/n/numpy/numpy-1.11.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2"
+    "version": "1.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "pygc-0.2-py35_0.tar.bz2",
+  "package": "numpy-1.11.0-py34_blas_openblas_200.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "py34_blas_openblas_200",
+    "build_number": 200,
     "depends": [
-      "numpy",
-      "python 3.5*"
+      "blas 1.1 openblas",
+      "openblas 0.2.18*",
+      "python 3.4*"
     ],
-    "license": "GNU General Public License v3 (GPLv3)",
-    "md5": "77f3a858c01ce66837ebd0f99448698f",
-    "name": "pygc",
-    "sha256": "f7658f33775b777b07ed1535bc7b15b4b7fc24081c5c01ad5fa09edff440c2fd",
-    "size": 8129,
+    "features": "blas_openblas",
+    "license": "BSD 3-clause",
+    "md5": "e3dfa620c83167350346c74cfd33fa48",
+    "name": "numpy",
+    "sha256": "f0890b2bea1679c6ad54346500b4ca72cd2ed0dc955f2ccdeeee6299389f9f3c",
+    "size": 7180351,
     "subdir": "linux-64",
-    "version": "0.2"
+    "version": "1.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pygc-0.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/numpy-1.11.0-py34_blas_openblas_200.tar.bz2"
 }
