@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://wradlib.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD or GPL 2",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pyFFTW/pyFFTW-0.10.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-0.11.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Open Source Library for Weather Radar Data Processing",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.10.3"
+    "version": "0.11.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "pyfftw-0.10.3-np111py35_0.tar.bz2",
+  "package": "wradlib-0.11.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "np111py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "numpy 1.11*",
-      "python 3.5*"
+      "gdal 2.2.*",
+      "h5py",
+      "matplotlib",
+      "netcdf4",
+      "numpy",
+      "python 2.7*",
+      "scipy"
     ],
-    "license": "BSD or GPL 2",
-    "md5": "54b119007374bbc73361900b6966e718",
-    "name": "pyfftw",
-    "sha256": "afa591e19c1a7b9764c006fd651af688f87f9632fa6ad2106ce10a86594bb1ca",
-    "size": 2858970,
+    "license": "MIT",
+    "md5": "143e867471b3021bc16dd13a3bb2135f",
+    "name": "wradlib",
+    "sha256": "8c62f54a7c695a004ae1d445d4227090817eb3a75a19a7c17a99907c770866fe",
+    "size": 245335,
     "subdir": "linux-64",
-    "version": "0.10.3"
+    "version": "0.11.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyfftw-0.10.3-np111py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-0.11.2-py27_0.tar.bz2"
 }

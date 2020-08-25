@@ -1,57 +1,58 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://www.astro.caltech.edu/~tjp/pgplot/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD or GPL 2",
+    "license": "non-commercial use only",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pyFFTW/pyFFTW-0.10.3.tar.gz",
+    "source_url": "http://fossies.org/unix/misc/old/pgplot5.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "A FORTRAN plotting library",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.10.3"
+    "version": "5.2.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pyfftw-0.10.3-np111py35_0.tar.bz2",
+  "package": "pgplot-5.2.2-0.tar.bz2",
   "repodata": {
-    "build": "np111py35_0",
+    "build": "0",
     "build_number": 0,
     "depends": [
-      "numpy 1.11*",
-      "python 3.5*"
+      "libgfortran",
+      "libpng",
+      "xorg-libx11",
+      "zlib"
     ],
-    "license": "BSD or GPL 2",
-    "md5": "54b119007374bbc73361900b6966e718",
-    "name": "pyfftw",
-    "sha256": "afa591e19c1a7b9764c006fd651af688f87f9632fa6ad2106ce10a86594bb1ca",
-    "size": 2858970,
+    "license": "non-commercial use only",
+    "md5": "ad90285151c14cf475b81b1bf2e9d204",
+    "name": "pgplot",
+    "sha256": "296fb7b7d29a9a1ccdac046f9984ff34d34d3f5676c101e1a68f1db3af83d9cf",
+    "size": 283528,
     "subdir": "linux-64",
-    "version": "0.10.3"
+    "version": "5.2.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyfftw-0.10.3-np111py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pgplot-5.2.2-0.tar.bz2"
 }
