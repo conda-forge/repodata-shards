@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/coleifer/peewee/",
+    "dev_url": "https://github.com/joke2k/faker",
     "doc_source_url": null,
-    "doc_url": "http://docs.peewee-orm.com/en/latest/",
-    "home": "https://github.com/coleifer/peewee/",
+    "doc_url": null,
+    "home": "https://github.com/joke2k/faker",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/peewee/peewee-2.9.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/f/fake-factory/fake-factory-0.7.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A little ORM",
+    "summary": "Faker is a Python package that generates fake data for you.",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "2.9.2"
+    "version": "0.7.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "peewee-2.9.2-py36_0.tar.bz2",
+  "package": "fake-factory-0.7.4-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "python 3.6*",
+      "python-dateutil >=2.4",
+      "six"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "e7ab638bf266dc89951d2613a059b95c",
-    "name": "peewee",
-    "sha256": "51c5b343fed4d3ff87b9e03fcc13867369b5bd00673b3907d1d8195d41fe9f38",
-    "size": 598047,
+    "md5": "4da519b01644d527bed33a855133c99d",
+    "name": "fake-factory",
+    "sha256": "09e6cfb07b905b62d551f73d066e352be0df8549435bdbe229781560af93fe95",
+    "size": 953119,
     "subdir": "linux-64",
-    "version": "2.9.2"
+    "version": "0.7.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/peewee-2.9.2-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fake-factory-0.7.4-py36_0.tar.bz2"
 }
