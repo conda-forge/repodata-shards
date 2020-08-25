@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/apache/incubator-airflow/archive/1.10.9.tar.gz",
+    "source_url": "https://github.com/apache/incubator-airflow/archive/1.10.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Airflow is a platform to programmatically author, schedule and monitor workflows",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1581129108,
-    "version": "1.10.9"
+    "timestamp": 1572348682,
+    "version": "1.10.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "airflow-with-dask-1.10.9-0.tar.bz2",
+  "package": "airflow-with-async-1.10.6-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
     "depends": [
-      "airflow >=1.10.9,<1.10.10.0a0",
-      "distributed >=1.17.1,<2"
+      "airflow >=1.10.6,<1.10.7.0a0",
+      "eventlet >=0.9.7",
+      "gevent >=0.13",
+      "greenlet >=0.4.9"
     ],
     "license": "Apache 2.0",
-    "md5": "5f07327760116738ade1ebefe0cb94a8",
-    "name": "airflow-with-dask",
-    "sha256": "58f9419adacef852fca2b6f5fea21b614d0eb37c2f0dcc2e602082ab0969a24d",
-    "size": 11830,
+    "md5": "b5c6edf7bfe7e170617a9e7e2a327d6a",
+    "name": "airflow-with-async",
+    "sha256": "6d99cf43ca058c8b886cca791d8fb47d499872ab68583dd427b6bd1836e1ac05",
+    "size": 11557,
     "subdir": "linux-64",
-    "timestamp": 1581129108509,
-    "version": "1.10.9"
+    "timestamp": 1572348682447,
+    "version": "1.10.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-dask-1.10.9-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-async-1.10.6-0.tar.bz2"
 }

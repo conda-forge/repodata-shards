@@ -1,11 +1,11 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/aio-libs/aiohttp",
-    "doc_source_url": null,
+    "doc_source_url": "https://github.com/aio-libs/aiohttp/tree/master/docs",
     "doc_url": "http://aiohttp.readthedocs.io/",
     "home": "https://github.com/aio-libs/aiohttp",
     "icon_hash": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/aiohttp/aiohttp-3.1.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/aiohttp/aiohttp-3.6.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Async http client/server framework (asyncio)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "3.1.2"
+    "timestamp": 1567824524,
+    "version": "3.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,32 @@
     "cf202003",
     "main"
   ],
-  "package": "aiohttp-3.1.2-py36_0.tar.bz2",
+  "package": "aiohttp-3.6.0-py36h516909a_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py36h516909a_0",
     "build_number": 0,
     "depends": [
-      "async-timeout >=1.2,<3.0",
+      "async-timeout >=3.0,<4.0",
       "attrs >=17.3.0",
       "chardet >=2.0,<4.0",
       "idna_ssl >=1,<2",
+      "libgcc-ng >=7.3.0",
       "multidict >=4.0,<5.0",
-      "python 3.6*",
+      "python >=3.6,<3.7.0a0",
+      "typing_extensions >=3.6.5",
       "yarl >=1.0,<2.0"
     ],
     "license": "Apache 2.0",
-    "md5": "85e9d7df96ddb4675bd9a5a6d44d3b39",
+    "license_family": "Apache",
+    "md5": "02071995fc37b2e450f16808e4de0f4b",
     "name": "aiohttp",
-    "sha256": "31770aed3daa19e998c9ae8a5f12a3bc3b564f7f3c7dc5ba22085c6d125d3c99",
-    "size": 685440,
+    "sha256": "2da8afedad2114e9902821615b7eca3f0d6b1e066673479eceef9c6c368865ed",
+    "size": 642071,
     "subdir": "linux-64",
-    "version": "3.1.2"
+    "timestamp": 1567824524248,
+    "version": "3.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/aiohttp-3.1.2-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/aiohttp-3.6.0-py36h516909a_0.tar.bz2"
 }
