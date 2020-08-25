@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/nicolaiarocci/cerberus",
+    "home": "https://github.com/jupyter-incubator/traittypes",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "ISC",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/C/Cerberus/Cerberus-1.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/t/traittypes/traittypes-0.1.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Lightweight, extensible schema and data validation tool for Python dictionaries.",
+    "summary": "Trait types for NumPy, SciPy and friends",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.1"
+    "timestamp": 1524854499,
+    "version": "0.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "cerberus-1.1-py35_0.tar.bz2",
+  "package": "traittypes-0.1.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "numpy",
+      "pandas",
+      "python >=3.5,<3.6.0a0",
+      "traitlets"
     ],
-    "license": "ISC",
-    "md5": "f0254c5e35c32d2a256cdbbb71b3bf7f",
-    "name": "cerberus",
-    "sha256": "7a2a1aed59edf373434aea17739b3ff1c6b64e7d77ef941c190864f4beb95a0a",
-    "size": 76989,
+    "license": "BSD 3-Clause",
+    "md5": "7ca1a4b1e43ee15592e0e549f00e98a4",
+    "name": "traittypes",
+    "sha256": "8d33676a0dc9b6ced30ebbc2d9bec44cba7febfa1bc5be75aa866bf5e0ace990",
+    "size": 11501,
     "subdir": "linux-64",
-    "version": "1.1"
+    "timestamp": 1524854499140,
+    "version": "0.1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cerberus-1.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/traittypes-0.1.0-py35_0.tar.bz2"
 }

@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/conda/conda-verify",
+    "home": "https://github.com/conda/conda-build",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/conda-verify/archive/3.1.1.tar.gz",
+    "source_url": "https://github.com/conda/conda-build/archive/2.1.15.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "tool for validating conda recipes and conda packages",
+    "summary": "tools for building conda packages",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1572717504,
-    "version": "3.1.1"
+    "timestamp": 0,
+    "version": "2.1.15"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,34 @@
     "cf202003",
     "main"
   ],
-  "package": "conda-verify-3.1.1-py38_1000.tar.bz2",
+  "package": "conda-build-2.1.15-py36_0.tar.bz2",
   "repodata": {
-    "build": "py38_1000",
-    "build_number": 1000,
+    "build": "py36_0",
+    "build_number": 0,
     "depends": [
-      "click",
-      "future",
+      "beautifulsoup4",
+      "chardet",
+      "conda >=4.1,<4.4",
+      "conda-verify",
+      "filelock",
       "jinja2",
-      "python >=3.8,<3.9.0a0",
+      "patchelf",
+      "pkginfo",
+      "pycrypto",
+      "python 3.6*",
       "pyyaml",
       "six"
     ],
     "license": "BSD 3-Clause",
-    "md5": "b870a0272c66a0fbfc06692fdcd383a9",
-    "name": "conda-verify",
-    "sha256": "a064a018a52df4640b58654f9b45fbeede39f92e811a3205c21887138391a8fc",
-    "size": 32604,
+    "license_family": "BSD",
+    "md5": "88fbe8d4d7069ec8038b1ed1b9a60a63",
+    "name": "conda-build",
+    "sha256": "3ac4a447ccc838734d288af3fda3cbfbaf466b376e5dc63ebde6af641490fe7f",
+    "size": 277695,
     "subdir": "linux-64",
-    "timestamp": 1572717504514,
-    "version": "3.1.1"
+    "version": "2.1.15"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-verify-3.1.1-py38_1000.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-build-2.1.15-py36_0.tar.bz2"
 }
