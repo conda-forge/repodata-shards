@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/mrabarnett/mrab-regex",
+    "home": "https://bitbucket.org/kalefranz/yaml",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Python-2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/regex/regex-2016.06.24.tar.gz",
+    "source_url": "https://bitbucket.org/kalefranz/yaml/get/1CBC6A8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Alternative regular expression module, to replace re.",
+    "summary": "A fork of ruamel.yaml.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2016.06.24"
+    "version": "0.11.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "regex-2016.06.24-py27_0.tar.bz2",
+  "package": "ruamel_yaml-0.11.7-py34_1.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "py34_1",
+    "build_number": 1,
     "depends": [
-      "python 2.7*"
+      "python 3.4*",
+      "yaml"
     ],
-    "license": "Python-2.0",
-    "md5": "d1cd34f1f56ff6d5c8c73aeff77540dd",
-    "name": "regex",
-    "sha256": "a91285ecac7cdddae3b2bdc3d3275726ff32244056c5694ab0b9b5f2057970ec",
-    "size": 653581,
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "ff177b7d508e78dff6c4dfec8d433ada",
+    "name": "ruamel_yaml",
+    "sha256": "971250a71f6db52a0440b49a48a00b48e5ae52012a3acd6a89400243307ff9aa",
+    "size": 586349,
     "subdir": "linux-64",
-    "version": "2016.06.24"
+    "version": "0.11.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/regex-2016.06.24-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel_yaml-0.11.7-py34_1.tar.bz2"
 }
