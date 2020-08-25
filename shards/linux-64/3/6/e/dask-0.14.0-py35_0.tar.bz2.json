@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://ipython.org/",
+    "home": "http://github.com/dask/dask/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ipython/ipython-5.1.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/dask/dask-0.14.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "IPython: Productive Interactive Computing",
+    "summary": "Parallel PyData with task scheduling",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "5.1.0"
+    "version": "0.14.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,30 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "ipython-5.1.0-py35_0.tar.bz2",
+  "package": "dask-0.14.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "backports.shutil_get_terminal_size",
-      "decorator",
-      "pexpect",
-      "pickleshare",
-      "prompt_toolkit >=1.0.3,<2.0.0",
-      "pygments",
+      "bokeh",
+      "cloudpickle >=0.2.1",
+      "distributed >=1.15.0",
+      "numpy",
+      "pandas >=0.19.0",
+      "partd >=0.3.7",
       "python 3.5*",
-      "simplegeneric >0.8",
-      "traitlets"
+      "toolz >=0.7.2"
     ],
-    "license": "BSD 3-clause",
-    "md5": "5c30fcb0d9be5d298b41839e3c391ba5",
-    "name": "ipython",
-    "sha256": "78e76fcf5e8ccb7ce309fb41c966474203653a7a2b2ab7a8cb93e1b757687013",
-    "size": 1223872,
+    "license": "BSD 3-Clause",
+    "md5": "b5ca47288b12aea191fb114e94d9a255",
+    "name": "dask",
+    "sha256": "4d067c31beafa3a9a2b036245d45e6135505afbeca98fb46ec35f6495088be7e",
+    "size": 792550,
     "subdir": "linux-64",
-    "version": "5.1.0"
+    "version": "0.14.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipython-5.1.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-0.14.0-py35_0.tar.bz2"
 }
