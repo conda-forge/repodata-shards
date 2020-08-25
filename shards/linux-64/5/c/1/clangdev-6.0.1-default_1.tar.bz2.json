@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/HypothesisWorks/hypothesis-python",
+    "home": "http://llvm.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MPL 2.0",
+    "license": "NCSA",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hypothesis/hypothesis-3.36.1.tar.gz",
+    "source_url": "http://llvm.org/releases/6.0.1/cfe-6.0.1.src.tar.xz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for property based testing",
+    "summary": "Development headers and libraries for Clang",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "3.36.1"
+    "version": "6.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "hypothesis-3.36.1-py35_1.tar.bz2",
+  "package": "clangdev-6.0.1-default_1.tar.bz2",
   "repodata": {
-    "build": "py35_1",
+    "build": "default_1",
     "build_number": 1,
     "depends": [
-      "attrs",
-      "coverage",
-      "python 3.5*"
+      "libxml2 2.9.*",
+      "llvmdev ==6.0.1",
+      "system"
     ],
-    "license": "MPL 2.0",
-    "md5": "af5b2efa38c262feea6caea4c625bae3",
-    "name": "hypothesis",
-    "sha256": "8b7449ad8dd5d4a4c1a8e45d88b0f514d9393ca7d830adfc63723d318207cb7a",
-    "size": 229048,
+    "license": "NCSA",
+    "md5": "5930288fa7532d87e249a087502ccc0d",
+    "name": "clangdev",
+    "sha256": "a909fba23b7dddcf5bac59ee6c31bc29fb9c9c3b2e273b42324a501cf7dbb238",
+    "size": 105113525,
     "subdir": "linux-64",
-    "version": "3.36.1"
+    "version": "6.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hypothesis-3.36.1-py35_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/clangdev-6.0.1-default_1.tar.bz2"
 }
