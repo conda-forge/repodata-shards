@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/geoalchemy/geoalchemy2",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/jayclassless/setoptconf",
+    "doc_url": "https://geoalchemy-2.readthedocs.io/en/latest/",
+    "home": "http://geoalchemy.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/setoptconf/setoptconf-0.2.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/G/GeoAlchemy2/GeoAlchemy2-0.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A module for retrieving program settings from various sources in a consistant method.",
+    "summary": "Using SQLAlchemy with Spatial Databases",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2.0"
+    "version": "0.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "setoptconf-0.2.0-py27_1.tar.bz2",
+  "package": "geoalchemy2-0.4.0-py27_1.tar.bz2",
   "repodata": {
     "build": "py27_1",
     "build_number": 1,
     "depends": [
       "python 2.7*",
-      "pyyaml"
+      "setuptools",
+      "sqlalchemy >=0.8"
     ],
     "license": "MIT",
-    "md5": "db074fe769872666a02d1f6ab43cebf8",
-    "name": "setoptconf",
-    "sha256": "1e04109ca4862952c357c844a040a9d398ef60744ea26d7a337b9d0810771928",
-    "size": 15548,
+    "license_family": "MIT",
+    "md5": "7ef6136600112d99bd351283b9212e81",
+    "name": "geoalchemy2",
+    "sha256": "3bc5a1d85bdab686127f1c59e79edee4c9a6f94608e100f6314a2db179ab14d7",
+    "size": 23090,
     "subdir": "linux-64",
-    "version": "0.2.0"
+    "version": "0.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/setoptconf-0.2.0-py27_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/geoalchemy2-0.4.0-py27_1.tar.bz2"
 }
