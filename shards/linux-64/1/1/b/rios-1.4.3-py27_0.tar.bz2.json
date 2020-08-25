@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/dask/dask/",
+    "home": "http://rioshome.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "GPLv3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/dask/dask-0.14.1.tar.gz",
+    "source_url": "https://bitbucket.org/chchrsc/rios/downloads/rios-1.4.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Parallel PyData with task scheduling",
+    "summary": "Raster I/O simplification, a set of Python modules built on top of GDAL to simplify processing raster data, including data with Raster Attribute Tables.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.14.1"
+    "version": "1.4.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,29 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "dask-0.14.1-py36_0.tar.bz2",
+  "package": "rios-1.4.3-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "bokeh",
-      "cloudpickle >=0.2.1",
-      "distributed >=1.16.0",
+      "gdal 2.1.*",
       "numpy",
-      "pandas >=0.19.0",
-      "partd >=0.3.7",
-      "python 3.6*",
-      "toolz >=0.7.2"
+      "python 2.7*"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "a19e7fb030d348cf3aff6ee0b6f38b69",
-    "name": "dask",
-    "sha256": "a0f93f21f68048f37d645315849174724449783b44201666e2bf8a103dc13ac0",
-    "size": 815534,
+    "license": "GPLv3",
+    "md5": "0cff5e1bc7f9dcc8b0bddf2d75a650ed",
+    "name": "rios",
+    "sha256": "5660d904e168ca31251d3801930623890a8aecbf5b11555fa1cc3d71d21cf1c6",
+    "size": 141620,
     "subdir": "linux-64",
-    "version": "0.14.1"
+    "version": "1.4.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-0.14.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/rios-1.4.3-py27_0.tar.bz2"
 }

@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ioos/ciso",
+    "home": "http://pywps.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/ioos/ciso/archive/v0.0.1.tar.gz",
+    "source_url": "https://github.com/geopython/pywps/archive/4.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Cythonized Iso Surfaces (CISO).",
+    "summary": "PyWPS (Python Web Processing Service) is an implementation of the Web processing Service standard from Open Geospatial Consortium.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.0.1"
+    "version": "4.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "ciso-0.0.1-np113py27_0.tar.bz2",
+  "package": "pywps-4.0.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "np113py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "numpy 1.13*",
-      "python 2.7*"
+      "jsonschema",
+      "lxml",
+      "owslib",
+      "python 3.5*",
+      "python-dateutil",
+      "sqlalchemy",
+      "werkzeug"
     ],
     "license": "MIT",
-    "md5": "4f1dc97579acd4f45bd9293078edf13f",
-    "name": "ciso",
-    "sha256": "931fb18db15ee64c6fb7d48ac5c45cb2e5bf79b63c5d62bf6a2a207603e8fdf3",
-    "size": 262014,
+    "md5": "6f86940f4b4b8fdf4f5323e7cd5e9c1f",
+    "name": "pywps",
+    "sha256": "6015d3e18b3020ade04483f52d915c531bfadbecf93540baf8d9fb5cc07a859d",
+    "size": 74512,
     "subdir": "linux-64",
-    "version": "0.0.1"
+    "version": "4.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ciso-0.0.1-np113py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pywps-4.0.0-py35_0.tar.bz2"
 }

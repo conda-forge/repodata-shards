@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ioos/ciso",
+    "home": "http://www.jmodelica.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/ioos/ciso/archive/v0.0.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/P/PyFMI/PyFMI-2.4.0.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Cythonized Iso Surfaces (CISO).",
+    "summary": "PyFMI is a package for loading and interacting with Functional Mock-Up Units",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.0.1"
+    "version": "2.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "ciso-0.0.1-np113py27_0.tar.bz2",
+  "package": "pyfmi-2.4.0-py27_2.tar.bz2",
   "repodata": {
-    "build": "np113py27_0",
-    "build_number": 0,
+    "build": "py27_2",
+    "build_number": 2,
     "depends": [
-      "numpy 1.13*",
-      "python 2.7*"
+      "assimulo",
+      "fmilib",
+      "lxml",
+      "numpy >=1.9",
+      "python 2.7*",
+      "scipy"
     ],
-    "license": "MIT",
-    "md5": "4f1dc97579acd4f45bd9293078edf13f",
-    "name": "ciso",
-    "sha256": "931fb18db15ee64c6fb7d48ac5c45cb2e5bf79b63c5d62bf6a2a207603e8fdf3",
-    "size": 262014,
+    "license": "LGPL3",
+    "md5": "b70c7128ded603e98091ec49b167cd94",
+    "name": "pyfmi",
+    "sha256": "90765077e8e8b21ee4378f65e23a929a81d2d9c9ff5d16b4f230d5665acf2278",
+    "size": 5231236,
     "subdir": "linux-64",
-    "version": "0.0.1"
+    "version": "2.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ciso-0.0.1-np113py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyfmi-2.4.0-py27_2.tar.bz2"
 }
