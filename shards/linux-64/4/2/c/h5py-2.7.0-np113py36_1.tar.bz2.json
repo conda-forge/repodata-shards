@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/maxpoint/conda-mirror",
+    "home": "http://www.h5py.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/conda_mirror/conda_mirror-0.6.6.tar.gz",
+    "source_url": "https://github.com/h5py/h5py/archive/2.7.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "mirror an upstream conda channel to a local directory",
+    "summary": "Read and write HDF5 files from Python.",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "0.6.6"
+    "version": "2.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "conda-mirror-0.6.6-py36_0.tar.bz2",
+  "package": "h5py-2.7.0-np113py36_1.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "np113py36_1",
+    "build_number": 1,
     "depends": [
+      "hdf5 1.8.18|1.8.18.*",
+      "numpy 1.13*",
       "python 3.6*",
-      "pyyaml",
-      "requests"
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "ad8a51b25f455cf28c85e0907afac3dd",
-    "name": "conda-mirror",
-    "sha256": "63ba022ac2472dacd1142b93f7f26a489780b4ed8fe0e0c1292c93d9eb20df2b",
-    "size": 15188,
+    "md5": "5e49560dd27559c41ba0530567dd2423",
+    "name": "h5py",
+    "sha256": "3fa22389d4ded69285b88160659afaf7e47ba0fe4d59c5017139e377a569d91b",
+    "size": 3441520,
     "subdir": "linux-64",
-    "version": "0.6.6"
+    "version": "2.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-mirror-0.6.6-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/h5py-2.7.0-np113py36_1.tar.bz2"
 }
