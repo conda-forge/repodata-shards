@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,41 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.67.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.84.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1537441188,
-    "version": "0.15.67"
+    "timestamp": 1546905204,
+    "version": "0.15.84"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "ruamel.yaml-0.15.67-py37h470a237_0.tar.bz2",
+  "package": "ruamel.yaml-0.15.84-py27h14c3975_0.tar.bz2",
   "repodata": {
-    "build": "py37h470a237_0",
+    "build": "py27h14c3975_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=4.9",
-      "python >=3.7,<3.8.0a0",
-      "setuptools"
+      "libgcc-ng >=7.3.0",
+      "python >=2.7,<2.8.0a0",
+      "ruamel.ordereddict",
+      "setuptools",
+      "typing"
     ],
     "license": "MIT",
-    "md5": "a4be852d9c8add1e7012b28bc7d8b1da",
+    "md5": "a05caee87f071dac02e7d2014adee66a",
     "name": "ruamel.yaml",
-    "sha256": "b49d0adc26ea36cf4abc72012172067498ee52ce9b4c09cf592ca1f32f60c568",
-    "size": 711890,
+    "sha256": "b367aacb4a53043bd82c2d1380aadad940558c17dfcfefd9f6fe90f9ac3292eb",
+    "size": 338023,
     "subdir": "linux-64",
-    "timestamp": 1537441188381,
-    "version": "0.15.67"
+    "timestamp": 1546905204683,
+    "version": "0.15.84"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.15.67-py37h470a237_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.15.84-py27h14c3975_0.tar.bz2"
 }
