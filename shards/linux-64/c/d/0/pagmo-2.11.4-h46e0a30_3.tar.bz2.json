@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,47 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/esa/pagmo2/archive/v2.12.0.tar.gz",
+    "source_url": "https://github.com/esa/pagmo2/archive/v2.11.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "A C++ / Python platform to perform parallel computations of optimisation tasks (global and local) via the asynchronous generalized island model",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1576682713,
-    "version": "2.12.0"
+    "timestamp": 1576372862,
+    "version": "2.11.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pygmo-2.12.0-py27h7aeab5a_0.tar.bz2",
+  "package": "pagmo-2.11.4-h46e0a30_3.tar.bz2",
   "repodata": {
-    "build": "py27h7aeab5a_0",
-    "build_number": 0,
+    "build": "h46e0a30_3",
+    "build_number": 3,
     "depends": [
-      "boost >=1.70.0,<1.70.1.0a0",
       "boost-cpp >=1.70.0,<1.70.1.0a0",
-      "cloudpickle",
-      "ipyparallel",
+      "ipopt",
       "libgcc-ng >=7.3.0",
       "libstdcxx-ng >=7.3.0",
-      "numpy >=1.14.6,<2.0a0",
-      "pagmo >=2.12.0,<2.13.0a0",
-      "python >=2.7,<2.8.0a0"
+      "nlopt >=2.6.1,<2.6.2.0a0",
+      "tbb >=2019.9"
     ],
     "license": "GPL v3 and LGPL v3",
-    "md5": "db8e664849ca10a1ffee82a30ba8c8e0",
-    "name": "pygmo",
-    "sha256": "1e877ff596325a03a86b56fc5c0432fc97fc972b3b50a505ca200df30ec8b023",
-    "size": 1220500,
+    "md5": "43bb52d41848679593f367f9280a9185",
+    "name": "pagmo",
+    "sha256": "ff7ece015fdd969a06c6c41c3e408ae9bbb028c4a03cb41d36f38d37dc1ae81a",
+    "size": 5023351,
     "subdir": "linux-64",
-    "timestamp": 1576682713346,
-    "version": "2.12.0"
+    "timestamp": 1576372862593,
+    "version": "2.11.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pygmo-2.12.0-py27h7aeab5a_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pagmo-2.11.4-h46e0a30_3.tar.bz2"
 }
