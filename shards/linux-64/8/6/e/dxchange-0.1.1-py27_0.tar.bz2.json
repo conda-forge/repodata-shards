@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pybind/pybind11/",
+    "home": "http://dxchange.readthedocs.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/pybind/pybind11/archive/v2.4.0.tar.gz",
+    "source_url": "https://github.com/data-exchange/dxchange/archive/v0.1.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Seamless operability between C++11 and Python",
+    "summary": "Data I/O for tomography.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1568928899,
-    "version": "2.4.0"
+    "timestamp": 0,
+    "version": "0.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "pybind11-2.4.0-py27hc9558a2_0.tar.bz2",
+  "package": "dxchange-0.1.1-py27_0.tar.bz2",
   "repodata": {
-    "build": "py27hc9558a2_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=7.3.0",
-      "libstdcxx-ng >=7.3.0",
-      "python >=2.7,<2.8.0a0"
+      "dxfile",
+      "edffile",
+      "h5py",
+      "netcdf4",
+      "numpy",
+      "python 2.7*",
+      "six",
+      "spefile",
+      "tifffile"
     ],
     "license": "BSD 3-Clause",
-    "md5": "bebadffe955bf4a64592d722e564f712",
-    "name": "pybind11",
-    "sha256": "57cc15137700f3f24c6452d00de58555f93e6c355ebefdfee68c7147f350ccbf",
-    "size": 121869,
+    "md5": "40f3b2e6f9e026c1020c8e48549ab406",
+    "name": "dxchange",
+    "sha256": "3fb6017a3b2627e9236d0c42a697bc6202a871e0f659388c5c630c3d1c5cc2a2",
+    "size": 25492,
     "subdir": "linux-64",
-    "timestamp": 1568928899103,
-    "version": "2.4.0"
+    "version": "0.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pybind11-2.4.0-py27hc9558a2_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dxchange-0.1.1-py27_0.tar.bz2"
 }
