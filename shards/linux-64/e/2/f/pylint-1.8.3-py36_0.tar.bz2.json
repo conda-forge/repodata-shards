@@ -7,51 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/PyCQA/pylint",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD",
+    "license": "GPL 2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pylint/pylint-1.8.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "python code static checker",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.7.1"
+    "version": "1.8.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pint-0.7.1-py34_0.tar.bz2",
+  "package": "pylint-1.8.3-py36_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*",
-      "setuptools"
+      "astroid >=1.6,<2.0",
+      "isort >=4.2.5",
+      "mccabe",
+      "python 3.6*",
+      "six"
     ],
-    "license": "BSD",
-    "md5": "d3fee15a63ea58aaade48705b068f40d",
-    "name": "pint",
-    "sha256": "c62d9a1897b32ddd091ffca28657ba6e09f363378332890109200d573d0264c3",
-    "size": 189110,
+    "license": "GPL 2",
+    "md5": "36df656155d7b1fd7b7c38c1404eda88",
+    "name": "pylint",
+    "sha256": "6c8df174289d3ff04f142f26ddf49652eac202bd09e865124ef810c97675447c",
+    "size": 805000,
     "subdir": "linux-64",
-    "version": "0.7.1"
+    "version": "1.8.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pint-0.7.1-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pylint-1.8.3-py36_0.tar.bz2"
 }

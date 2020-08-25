@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/ukoethe/vigra/archive/Version-1-11-0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.7.1"
+    "version": "1.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "pint-0.7.1-py34_0.tar.bz2",
+  "package": "vigra-1.11.0-np111py35_6.tar.bz2",
   "repodata": {
-    "build": "py34_0",
-    "build_number": 0,
+    "build": "np111py35_6",
+    "build_number": 6,
     "depends": [
-      "python 3.4*",
-      "setuptools"
+      "boost 1.60.*",
+      "fftw",
+      "hdf5 1.8.17|1.8.17.*",
+      "jpeg 9*",
+      "libpng 1.6*",
+      "libtiff 4.0.*",
+      "numpy 1.11*",
+      "python 3.5*",
+      "zlib 1.2*"
     ],
-    "license": "BSD",
-    "md5": "d3fee15a63ea58aaade48705b068f40d",
-    "name": "pint",
-    "sha256": "c62d9a1897b32ddd091ffca28657ba6e09f363378332890109200d573d0264c3",
-    "size": 189110,
+    "license": "MIT",
+    "md5": "cd7be5a8842db0bc0934a54078400100",
+    "name": "vigra",
+    "sha256": "f61a6806289ab09af5b96f509172439ff12f4be1e829432ff398561d77c5b497",
+    "size": 7849639,
     "subdir": "linux-64",
-    "version": "0.7.1"
+    "version": "1.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pint-0.7.1-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/vigra-1.11.0-np111py35_6.tar.bz2"
 }
