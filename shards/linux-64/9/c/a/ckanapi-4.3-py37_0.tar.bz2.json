@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://wradlib.org/",
+    "home": "https://github.com/ckan/ckanapi",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-1.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/ckanapi/ckanapi-4.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Open Source Library for Weather Radar Data Processing",
+    "summary": "A command line interface and Python module for accessing the CKAN Action API",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "1.0.0"
+    "timestamp": 1558964746,
+    "version": "4.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,30 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "wradlib-1.0.0-py36_0.tar.bz2",
+  "package": "ckanapi-4.3-py37_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py37_0",
     "build_number": 0,
     "depends": [
-      "deprecation",
-      "gdal 2.2.*",
-      "h5py",
-      "matplotlib",
-      "netcdf4",
-      "numpy",
-      "python 3.6*",
-      "scipy",
-      "xmltodict"
+      "docopt",
+      "python >=3.7,<3.8.0a0",
+      "python-slugify >=1.0,<2.0",
+      "requests",
+      "setuptools",
+      "six >=1.9,<2.0"
     ],
     "license": "MIT",
-    "md5": "2c94e5c8423f4b992ef86a09e5d79c30",
-    "name": "wradlib",
-    "sha256": "1c324daed2307224ce5289008dbbd80e7468885385272d6852108195a546f3b3",
-    "size": 314558,
+    "md5": "a3050ffb033ea26e44c2d92d6df9641f",
+    "name": "ckanapi",
+    "sha256": "2ffb059a172160bb27679fd338ebf8d6a4398234b0fc0eaea0c0008b43335a99",
+    "size": 61262,
     "subdir": "linux-64",
-    "version": "1.0.0"
+    "timestamp": 1558964746567,
+    "version": "4.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-1.0.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ckanapi-4.3-py37_0.tar.bz2"
 }
