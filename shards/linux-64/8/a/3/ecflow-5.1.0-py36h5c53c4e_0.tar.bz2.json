@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://software.ecmwf.int/wiki/display/GRIB/Home",
+    "home": "https://confluence.ecmwf.int/display/ECFLOW",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://software.ecmwf.int/wiki/download/attachments/3473437/grib_api-1.23.1-Source.tar.gz",
+    "source_url": "https://confluence.ecmwf.int/download/attachments/8650755/ecFlow-5.1.0-Source.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The ECMWF API for encoding and decoding WMO FM-92 GRIB edition 1 and edition 2 messages.",
+    "summary": "ECMWF ecFlow",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "1.23.1"
+    "timestamp": 1575931548,
+    "version": "5.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "ecmwf_grib-1.23.1-0.tar.bz2",
+  "package": "ecflow-5.1.0-py36h5c53c4e_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py36h5c53c4e_0",
     "build_number": 0,
     "depends": [
-      "jasper",
-      "libgcc",
-      "libnetcdf 4.4.*",
-      "libpng >=1.6.28,<1.7"
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "python >=3.6,<3.7.0a0",
+      "qt >=5.12.5,<5.13.0a0"
     ],
     "license": "Apache-2.0",
-    "md5": "a0a9e5aceecf399b945848f011514b38",
-    "name": "ecmwf_grib",
-    "sha256": "4a92f9bcca0f566e8db3bfa90c7548b06f387fb95b34910dd22401c659324488",
-    "size": 3197587,
+    "license_family": "Apache",
+    "md5": "40c13d9a5ae791cbae14eb0189384d5f",
+    "name": "ecflow",
+    "sha256": "db9c9aa9c4d9e69517eac05da32851fad26f1b2f3c880deced172acfbd728814",
+    "size": 12186363,
     "subdir": "linux-64",
-    "version": "1.23.1"
+    "timestamp": 1575931548314,
+    "version": "5.1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ecmwf_grib-1.23.1-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ecflow-5.1.0-py36h5c53c4e_0.tar.bz2"
 }
