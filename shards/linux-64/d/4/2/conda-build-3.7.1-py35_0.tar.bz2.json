@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pyomo.org",
+    "home": "https://github.com/conda/conda-build",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/Pyomo/Pyomo-5.4.3.tar.gz",
+    "source_url": "https://github.com/conda/conda-build/archive/3.7.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Pyomo: Python Optimization Modeling Objects",
+    "summary": "tools for building conda packages",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "5.4.3"
+    "version": "3.7.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,35 @@
     "cf202003",
     "main"
   ],
-  "package": "pyomo-5.4.3-py27_0.tar.bz2",
+  "package": "conda-build-3.7.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "appdirs",
-      "ply",
-      "python 2.7*",
-      "pyutilib >=5.6.2",
-      "setuptools",
-      "six >=1.4"
+      "beautifulsoup4",
+      "chardet",
+      "conda >=4.3",
+      "conda-verify",
+      "filelock",
+      "glob2",
+      "jinja2",
+      "patchelf",
+      "pkginfo",
+      "psutil",
+      "python 3.5*",
+      "pyyaml",
+      "six"
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "31b457f55db3e1a366f3052ca198d353",
-    "name": "pyomo",
-    "sha256": "0960949a5f8b6eec851f465d16659243b4fda95c7bf86191d55353485b711d25",
-    "size": 2704949,
+    "md5": "ad0d901567f5642ffc1673695b1bada4",
+    "name": "conda-build",
+    "sha256": "7fdf9cdaa901bdf504344fd207e4d3c68d228ff55796ec5c488dc3ed1d0d8e05",
+    "size": 434122,
     "subdir": "linux-64",
-    "version": "5.4.3"
+    "version": "3.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyomo-5.4.3-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-build-3.7.1-py35_0.tar.bz2"
 }

@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/coleifer/peewee/",
+    "dev_url": "https://github.com/python-cmd2/cmd2",
     "doc_source_url": null,
-    "doc_url": "http://docs.peewee-orm.com/en/latest/",
-    "home": "https://github.com/coleifer/peewee/",
+    "doc_url": "https://cmd2.readthedocs.io/",
+    "home": "https://github.com/python-cmd2/cmd2",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/peewee/peewee-2.9.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cmd2/cmd2-0.7.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A little ORM",
+    "summary": "Extra features for standard library's cmd module",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "2.9.1"
+    "version": "0.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "peewee-2.9.1-py36_0.tar.bz2",
+  "package": "cmd2-0.7.0-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "pyparsing >=2.0.1",
+      "python 3.6*",
+      "six"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "7afb2445f01f3aa3a23aeaac7e724912",
-    "name": "peewee",
-    "sha256": "5223d39066c5a4f46a302d0e3c9b26bc1034fa78f284702e980097099439a785",
-    "size": 597533,
+    "md5": "d38116b10e916afee184a8d595b76466",
+    "name": "cmd2",
+    "sha256": "f6b08078127818c265cd04d104fea62a8256991adcb48113cbfa00e04f6a3954",
+    "size": 40744,
     "subdir": "linux-64",
-    "version": "2.9.1"
+    "version": "0.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/peewee-2.9.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cmd2-0.7.0-py36_0.tar.bz2"
 }
