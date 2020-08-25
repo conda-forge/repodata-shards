@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "BSD-3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -26,8 +26,8 @@
     "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1556066826,
-    "version": "2.6"
+    "timestamp": 1582217901,
+    "version": "3.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "blas-2.6-mkl.tar.bz2",
+  "package": "blas-devel-3.8.0-15_blis.tar.bz2",
   "repodata": {
-    "build": "mkl",
-    "build_number": 6,
+    "build": "15_blis",
+    "build_number": 15,
     "depends": [
-      "libblas 3.8.0 6_mkl",
-      "libcblas 3.8.0 6_mkl",
-      "libgcc-ng >=7.3.0",
-      "libgfortran-ng >=7,<8.0a0",
-      "liblapack 3.8.0 6_mkl",
-      "liblapacke 3.8.0 6_mkl"
+      "blas 2.15 blis"
     ],
-    "license": "BSD 3-clause",
-    "md5": "0c70dc945c804e7fa26d3d8bb1491f97",
-    "name": "blas",
-    "sha256": "78f7b838577a88172b3b4324f7857e2910561832c9795e4c3a70f076451d0b78",
-    "size": 6472,
+    "license": "BSD-3-Clause",
+    "md5": "868c1b394207d6b7ed568d1eebbd7cf8",
+    "name": "blas-devel",
+    "sha256": "a3c211f778c215fee4c5c5e850e1ee6349642b8d8de3fa8abddfe2645c2e92fe",
+    "size": 9864,
     "subdir": "linux-64",
-    "timestamp": 1556066826410,
-    "version": "2.6"
+    "timestamp": 1582217901837,
+    "version": "3.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/blas-2.6-mkl.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/blas-devel-3.8.0-15_blis.tar.bz2"
 }
