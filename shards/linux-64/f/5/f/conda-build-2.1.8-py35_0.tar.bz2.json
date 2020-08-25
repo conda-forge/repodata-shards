@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ioos/compliance-checker",
+    "home": "https://github.com/conda/conda-build",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/ioos/compliance-checker/archive/3.0.3.tar.gz",
+    "source_url": "https://github.com/conda/conda-build/archive/2.1.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Checks Datasets and SOS endpoints for standards compliance.",
+    "summary": "tools for building conda packages",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "3.0.3"
+    "version": "2.1.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,31 +35,34 @@
     "cf202003",
     "main"
   ],
-  "package": "compliance-checker-3.0.3-py35_0.tar.bz2",
+  "package": "conda-build-2.1.8-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "arrow",
-      "cf_units",
-      "isodate",
+      "beautifulsoup4",
+      "chardet",
+      "conda >=4.1,<4.4",
+      "conda-verify",
+      "filelock",
       "jinja2",
-      "lxml",
-      "owslib",
-      "pygeoif",
+      "patchelf",
+      "pkginfo",
+      "pycrypto",
       "python 3.5*",
-      "requests",
-      "setuptools"
+      "pyyaml",
+      "six"
     ],
-    "license": "Apache 2.0",
-    "md5": "c833bce9856a40f9244e7d630b956e45",
-    "name": "compliance-checker",
-    "sha256": "49af07adab844f1eb8603e814f95985124a887fdbee4a8f4fa70c2edde9e3d37",
-    "size": 327627,
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "ccecceaf1e15b1994042969939b3b834",
+    "name": "conda-build",
+    "sha256": "7f5fce16b9daa57332a63e02bb1738ff3c69c702669e66f17c8ac157737d057b",
+    "size": 318492,
     "subdir": "linux-64",
-    "version": "3.0.3"
+    "version": "2.1.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/compliance-checker-3.0.3-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-build-2.1.8-py35_0.tar.bz2"
 }

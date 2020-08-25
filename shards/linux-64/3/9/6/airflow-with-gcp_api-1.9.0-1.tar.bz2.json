@@ -4,7 +4,7 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": "Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.  When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.",
-    "dev_url": "https://github.com/apache/airflow",
+    "dev_url": "https://github.com/apache/incubating-airflow",
     "doc_source_url": null,
     "doc_url": "http://pythonhosted.org/airflow/profiling.html",
     "home": "http://airflow.apache.org",
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/apache/incubator-airflow/archive/1.10.4.tar.gz",
+    "source_url": "https://github.com/apache/incubator-airflow/archive/1.9.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Airflow is a platform to programmatically author, schedule and monitor workflows",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1565406851,
-    "version": "1.10.4"
+    "timestamp": 1527114979,
+    "version": "1.9.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "airflow-with-postgres-1.10.4-0.tar.bz2",
+  "package": "airflow-with-gcp_api-1.9.0-1.tar.bz2",
   "repodata": {
-    "build": "0",
-    "build_number": 0,
+    "build": "1",
+    "build_number": 1,
     "depends": [
-      "airflow >=1.10.4,<1.10.5.0a0",
-      "psycopg2 >=2.7.4,<2.8"
+      "airflow 1.9.0 py27_1",
+      "google-api-python-client >=1.5.0,<1.6.0",
+      "google-cloud-dataflow",
+      "httplib2",
+      "oauth2client >=2.0.2,<2.1.0",
+      "pandas-gbq",
+      "pyopenssl"
     ],
     "license": "Apache 2.0",
-    "md5": "29a00a16dc1459ce45f39915a8f925f2",
-    "name": "airflow-with-postgres",
-    "sha256": "ad26448c56b878d00cccd7ade538e5c660fc0f7b16f77d529d4e727d5810f25d",
-    "size": 11490,
+    "md5": "eb336fd87121f4760423277c703d2410",
+    "name": "airflow-with-gcp_api",
+    "sha256": "eaaad42fc3ca2f29e664983c80dd5ffb5476f969e1ea28da726022ede90ffd9a",
+    "size": 9472,
     "subdir": "linux-64",
-    "timestamp": 1565406851402,
-    "version": "1.10.4"
+    "timestamp": 1527114979033,
+    "version": "1.9.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-postgres-1.10.4-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-gcp_api-1.9.0-1.tar.bz2"
 }
