@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/krlmlr/bindr, https://krlmlr.github.io/bindr",
+    "home": "https://github.com/landscapeio/requirements-detector",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,18 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": [
-      "https://cran.r-project.org/src/contrib/bindr_0.1.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/bindr/bindr_0.1.tar.gz"
-    ],
+    "source_url": "https://pypi.io/packages/source/r/requirements-detector/requirements-detector-0.5.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Provides a simple interface for creating active bindings where the bound function accepts additional arguments.",
+    "summary": "Python tool to find and list requirements of a Python project",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1"
+    "version": "0.5.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -38,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "r-bindr-0.1-r3.4.1_0.tar.bz2",
+  "package": "requirements-detector-0.5.2-py35_0.tar.bz2",
   "repodata": {
-    "build": "r3.4.1_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "r-base 3.4.1*"
+      "astroid >=1.4",
+      "python 3.5*",
+      "setuptools"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "8ddae6d21f4f37d44ccf6b368d0ac561",
-    "name": "r-bindr",
-    "sha256": "00db720967cd89051769355e2021e4bab476b09ee77ab706675b6f35f83bf649",
-    "size": 17083,
+    "md5": "ad8056d3f45e6627604a49f1c61d7b46",
+    "name": "requirements-detector",
+    "sha256": "3f692adff364a1d8e1e2a378271d9928776a3a0f388947b6c15af3999ac3c5ab",
+    "size": 191175,
     "subdir": "linux-64",
-    "version": "0.1"
+    "version": "0.5.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-bindr-0.1-r3.4.1_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/requirements-detector-0.5.2-py35_0.tar.bz2"
 }
