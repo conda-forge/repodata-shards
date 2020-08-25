@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ribozz/sphinx-argparse",
+    "home": "http://pydap.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,48 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/sphinx-argparse/sphinx-argparse-0.2.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/P/Pydap/Pydap-3.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Sphinx extension that automatically documents argparse commands and options",
+    "summary": "Pure Python Opendap/DODS client and server.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.2.1"
+    "version": "3.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "sphinx-argparse-0.2.1-py35_1.tar.bz2",
+  "package": "pydap-3.2.0-py35_2.tar.bz2",
   "repodata": {
-    "build": "py35_1",
-    "build_number": 1,
+    "build": "py35_2",
+    "build_number": 2,
     "depends": [
-      "commonmark >=0.5.6",
+      "docopt",
+      "gsw",
+      "gunicorn",
+      "jinja2",
+      "mechanicalsoup",
+      "numpy",
       "python 3.5*",
-      "sphinx"
+      "requests",
+      "scipy",
+      "singledispatch",
+      "six >=1.4.0",
+      "webob"
     ],
     "license": "MIT",
-    "md5": "603aee44daf086320ab0819568d54ea7",
-    "name": "sphinx-argparse",
-    "sha256": "01d423e727d9f5afa4fdc9714b4f1f7e2d1d6160a887d0c73b1b0f2810144797",
-    "size": 21673,
+    "md5": "1fc2b029fff5e467b20524ebb0094c96",
+    "name": "pydap",
+    "sha256": "835974627a1795c95cc63dc268a10fb559d79579d634e8f1c1a5a10b2e8e70cf",
+    "size": 130432,
     "subdir": "linux-64",
-    "version": "0.2.1"
+    "version": "3.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/sphinx-argparse-0.2.1-py35_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pydap-3.2.0-py35_2.tar.bz2"
 }
