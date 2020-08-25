@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pysal.org",
+    "home": "http://github.com/conda/constructor",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/PySAL/PySAL-1.14.2.tar.gz",
+    "source_url": "https://github.com/conda/constructor/archive/2.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Library of spatial analysis functions.",
+    "summary": "create installer from conda packages",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.14.2"
+    "text_prefix": true,
+    "timestamp": 1539476521,
+    "version": "2.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "pysal-1.14.2-py35_1.tar.bz2",
+  "package": "constructor-2.2.0-py27_1000.tar.bz2",
   "repodata": {
-    "build": "py35_1",
-    "build_number": 1,
+    "build": "py27_1000",
+    "build_number": 1000,
     "depends": [
-      "python 3.5*",
-      "scipy"
+      "conda >=4.5",
+      "python >=2.7,<2.8.0a0",
+      "ruamel_yaml"
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "f8f70c5fc51b016a974ca84bb13bbeef",
-    "name": "pysal",
-    "sha256": "41a8f67f6d6ac69ee966015586e521670ab3b2c02242eb1cb7cabb75856fa273",
-    "size": 15577811,
+    "md5": "14bf1ef0def43fb9969f3cea551e3890",
+    "name": "constructor",
+    "sha256": "93dc5c963dc2861f979b67b421f7977d5a52c11d2987adc75bef96902a43a3cb",
+    "size": 64295,
     "subdir": "linux-64",
-    "version": "1.14.2"
+    "timestamp": 1539476521864,
+    "version": "2.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pysal-1.14.2-py35_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/constructor-2.2.0-py27_1000.tar.bz2"
 }

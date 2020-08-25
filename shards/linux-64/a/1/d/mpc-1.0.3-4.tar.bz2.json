@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pysal.org",
+    "home": "http://www.multiprecision.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "LGPL 3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/PySAL/PySAL-1.14.2.tar.gz",
+    "source_url": "http://www.multiprecision.org/mpc/download/mpc-1.0.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Library of spatial analysis functions.",
+    "summary": "A C library for the arithmetic of complex numbers with arbitrarily high precision.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.14.2"
+    "version": "1.0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "pysal-1.14.2-py35_1.tar.bz2",
+  "package": "mpc-1.0.3-4.tar.bz2",
   "repodata": {
-    "build": "py35_1",
-    "build_number": 1,
+    "build": "4",
+    "build_number": 4,
     "depends": [
-      "python 3.5*",
-      "scipy"
+      "gmp",
+      "mpfr 3.*"
     ],
-    "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "f8f70c5fc51b016a974ca84bb13bbeef",
-    "name": "pysal",
-    "sha256": "41a8f67f6d6ac69ee966015586e521670ab3b2c02242eb1cb7cabb75856fa273",
-    "size": 15577811,
+    "license": "LGPL 3",
+    "md5": "ea07921452893fe5f960006bf44d2b07",
+    "name": "mpc",
+    "sha256": "4dbffa7cc61e9f99ac09429e553b44530b761751a2406f77854762dd36ff2736",
+    "size": 88967,
     "subdir": "linux-64",
-    "version": "1.14.2"
+    "version": "1.0.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pysal-1.14.2-py35_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mpc-1.0.3-4.tar.bz2"
 }
