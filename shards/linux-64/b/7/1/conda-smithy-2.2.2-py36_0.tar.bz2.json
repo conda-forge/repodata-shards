@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/conda-forge/conda-build-all",
+    "home": "https://github.com/conda-forge/conda-smithy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda-forge/conda-build-all/archive/v1.0.4.tar.gz",
+    "source_url": "https://github.com/conda-forge/conda-smithy/archive/v2.2.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "conda build-all is a conda subcommand which allows multiple distributions to be built (and uploaded) in a single command",
+    "summary": "The tool for managing conda-forge feedstocks",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "1.0.4"
+    "version": "2.2.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,32 @@
     "cf202003",
     "main"
   ],
-  "package": "conda-build-all-1.0.4-py35_0.tar.bz2",
+  "package": "conda-smithy-2.2.2-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "anaconda-client",
-      "conda >4",
-      "conda-build >=1.21.7",
+      "conda",
+      "conda-build >=1.21.12,!=2.0.9",
+      "conda-build-all >=1.0.3",
       "gitpython",
-      "mock",
-      "python 3.5*"
+      "jinja2",
+      "pycrypto",
+      "pygithub <2",
+      "python 3.6*",
+      "requests",
+      "ruamel.yaml"
     ],
     "license": "BSD 3-clause",
-    "md5": "3ae757934ad301bd36e4df4efe1d6a63",
-    "name": "conda-build-all",
-    "sha256": "5153bc00e70defcc0eeac2c75141425c5e60582c028630dc529151f0264d8d5e",
-    "size": 50663,
+    "license_family": "BSD",
+    "md5": "802331dbba3ffafbd4c242f469631c32",
+    "name": "conda-smithy",
+    "sha256": "bc9ff4ab27f4ee7ea5971e8e31d831d5af034fd8cf15ceabf7570d5867905279",
+    "size": 57309,
     "subdir": "linux-64",
-    "version": "1.0.4"
+    "version": "2.2.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-build-all-1.0.4-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-smithy-2.2.2-py36_0.tar.bz2"
 }

@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/conda/conda",
+    "home": "https://github.com/conda/conda-build",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/conda/archive/4.1.12.tar.gz",
+    "source_url": "https://github.com/conda/conda-build/archive/2.0.12.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "OS-agnostic, system-level binary package manager.",
+    "summary": "tools for building conda packages",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "4.1.12"
+    "version": "2.0.12"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "conda-4.1.12-py27_0.tar.bz2",
+  "package": "conda-build-2.0.12-py34_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "conda-env >=2.5",
-      "pycosat",
-      "python 2.7*",
-      "pyyaml",
-      "requests",
-      "ruamel_yaml"
+      "conda >=4.1",
+      "conda-verify",
+      "filelock",
+      "jinja2",
+      "patchelf",
+      "pkginfo",
+      "pycrypto",
+      "python 3.4*",
+      "pyyaml"
     ],
     "license": "BSD 3-Clause",
-    "md5": "62a74491304443220d45d68d93a2d583",
-    "name": "conda",
-    "sha256": "ede33b252d6e5cd745466722663ea47c940d044dc580035d0294c9fd29830f1c",
-    "size": 205303,
+    "md5": "8af74e63087b01c206b7dd77b4b434ab",
+    "name": "conda-build",
+    "sha256": "0576f614507c3e55a5d438da4621a070fdf5ea40b7955a291133e05612357380",
+    "size": 287517,
     "subdir": "linux-64",
-    "version": "4.1.12"
+    "version": "2.0.12"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-4.1.12-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-build-2.0.12-py34_0.tar.bz2"
 }

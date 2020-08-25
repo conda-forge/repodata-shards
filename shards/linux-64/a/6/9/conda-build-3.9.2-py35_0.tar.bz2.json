@@ -3,10 +3,10 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": "Conda-build contains commands and tools to allow you to build your own packages for conda.",
-    "dev_url": "https://github.com/conda/conda-build",
+    "description": null,
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "http://conda.pydata.org/docs/",
+    "doc_url": null,
     "home": "https://github.com/conda/conda-build",
     "icon_hash": null,
     "icon_url": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/conda-build/archive/3.16.3.tar.gz",
+    "source_url": "https://github.com/conda/conda-build/archive/3.9.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "tools for building conda packages",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1542856587,
-    "version": "3.16.3"
+    "timestamp": 0,
+    "version": "3.9.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,41 +35,35 @@
     "cf202003",
     "main"
   ],
-  "package": "conda-build-3.16.3-py36_0.tar.bz2",
+  "package": "conda-build-3.9.2-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
-    "constrains": [
-      "conda-verify  >=3.1.0"
-    ],
     "depends": [
       "beautifulsoup4",
       "chardet",
       "conda >=4.3",
+      "conda-verify",
       "filelock",
-      "glob2 >=0.6",
+      "glob2",
       "jinja2",
       "patchelf",
       "pkginfo",
       "psutil",
-      "python >=3.6,<3.7.0a0",
-      "python-libarchive-c",
-      "pytz",
+      "python 3.5*",
       "pyyaml",
-      "six",
-      "tqdm"
+      "six"
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "b9d9d60038ea52dd5393909a7cf2775f",
+    "md5": "b02f0df419eb15677f1b01f64a969645",
     "name": "conda-build",
-    "sha256": "c92ac6f31d3581c3e51722ca24f880b623a15aafbab9aaa8f1d15d47d65fd0f4",
-    "size": 479185,
+    "sha256": "f861a7e7b0f484f89c2479d3c9569c286f38b147209347dab39d78ff74d548ce",
+    "size": 440375,
     "subdir": "linux-64",
-    "timestamp": 1542856587474,
-    "version": "3.16.3"
+    "version": "3.9.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-build-3.16.3-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-build-3.9.2-py35_0.tar.bz2"
 }
