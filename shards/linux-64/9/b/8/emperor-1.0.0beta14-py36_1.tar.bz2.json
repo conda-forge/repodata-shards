@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pythonhosted.org/Pyro4/",
+    "home": "http://emperor.microbio.me",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/Pyro4/Pyro4-4.62.tar.gz",
+    "source_url": "https://pypi.io/packages/source/e/emperor/emperor-1.0.0beta14.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Distributed object middleware for Python (RPC)",
+    "summary": "Emperor a tool for the analysis and visualization of large microbial ecology datasets",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "4.62"
+    "version": "1.0.0beta14"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "pyro4-4.62-py36_1.tar.bz2",
+  "package": "emperor-1.0.0beta14-py36_1.tar.bz2",
   "repodata": {
     "build": "py36_1",
     "build_number": 1,
     "depends": [
+      "click",
+      "future",
+      "jinja2",
+      "numpy >=1.7",
+      "pandas",
       "python 3.6*",
-      "serpent >=1.23"
+      "scikit-bio >=0.4.1",
+      "scipy >=0.17.0"
     ],
-    "license": "MIT",
-    "md5": "049d25203519531ea5800579b94d3dfc",
-    "name": "pyro4",
-    "sha256": "bbf969a89862dd9ca7393e5540f62cee227d9934275ac9c7200b9abaf7951f74",
-    "size": 133409,
+    "license": "BSD 3-Clause",
+    "md5": "4a99363bd2949f82f9045abc5cd08505",
+    "name": "emperor",
+    "sha256": "650a0cd84cd0243c93b586cf011ace0c09af8c7a159f503bbe955b2fafb094df",
+    "size": 526824,
     "subdir": "linux-64",
-    "version": "4.62"
+    "version": "1.0.0beta14"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyro4-4.62-py36_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/emperor-1.0.0beta14-py36_1.tar.bz2"
 }
