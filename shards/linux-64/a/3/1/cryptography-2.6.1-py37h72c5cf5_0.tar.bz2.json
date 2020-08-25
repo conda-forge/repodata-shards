@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "Cryptography is a package which provides cryptographic recipes and primitives to Python developers. Our goal is for it to be your \"cryptographic standard library\". It supports Python 2.6-2.7, Python 3.3+, and PyPy 2.6+. Cryptography includes both high level recipes, and low level interfaces to common cryptographic algorithms such as symmetric ciphers, message digests and key derivation functions.",
     "dev_url": "https://github.com/pyca/cryptography",
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/cryptography/cryptography-2.3.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cryptography/cryptography-2.6.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Provides cryptographic recipes and primitives to Python developers",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1534279351,
-    "version": "2.3.1"
+    "timestamp": 1553571435,
+    "version": "2.6.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,33 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "cryptography-2.3.1-py27hdffb7b8_0.tar.bz2",
+  "package": "cryptography-2.6.1-py37h72c5cf5_0.tar.bz2",
   "repodata": {
-    "build": "py27hdffb7b8_0",
+    "build": "py37h72c5cf5_0",
     "build_number": 0,
     "depends": [
       "asn1crypto >=0.21.0",
       "cffi >=1.7",
-      "cryptography-vectors 2.3.1.*",
-      "enum34",
       "idna >=2.1",
-      "ipaddress",
-      "libgcc-ng >=4.9",
-      "openssl >=1.0.2o,<1.0.3a",
-      "python >=2.7,<2.8.0a0",
+      "libgcc-ng >=7.3.0",
+      "openssl >=1.1.1a,<1.1.2a",
+      "python >=3.7,<3.8.0a0",
       "six >=1.4.1"
     ],
     "license": "Apache 2.0 or BSD 3-Clause, PSF 2",
     "license_family": "BSD",
-    "md5": "2de6d5e1ab0cc6933ea859dfda4fe8e2",
+    "md5": "2434e9c6d103f32c2b0c2bde76882b7f",
     "name": "cryptography",
-    "sha256": "97f842232bc6e4de680213b0c8810d0d0694406f8c6fb7ad493a203e9b4240d2",
-    "size": 987184,
+    "sha256": "765030e85e6e58223eba688f8e2196259d6aba019ab264f02ec79af38ed31599",
+    "size": 621266,
     "subdir": "linux-64",
-    "timestamp": 1534279351108,
-    "version": "2.3.1"
+    "timestamp": 1553571435402,
+    "version": "2.6.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cryptography-2.3.1-py27hdffb7b8_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cryptography-2.6.1-py37h72c5cf5_0.tar.bz2"
 }

@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/jcrist/crick",
+    "home": "http://github.com/conda/constructor",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/crick/crick-0.0.3.tar.gz",
+    "source_url": "https://github.com/conda/constructor/archive/1.5.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "High performance approximate and streaming algorithms.",
+    "summary": "create installer from conda packages",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.0.3"
+    "version": "1.5.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "crick-0.0.3-np111py27_0.tar.bz2",
+  "package": "constructor-1.5.5-py36_0.tar.bz2",
   "repodata": {
-    "build": "np111py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "numpy 1.11*",
-      "python 2.7*"
+      "libconda",
+      "pycosat >=0.6.1",
+      "python 3.6*",
+      "pyyaml"
     ],
     "license": "BSD 3-Clause",
-    "md5": "2eff4566f3798c7dcd0769708f9d4639",
-    "name": "crick",
-    "sha256": "21672950b319a3263929c3d546093c01539fd288927e16767374c16bdaae4860",
-    "size": 739992,
+    "license_family": "BSD",
+    "md5": "fc3d6c8bdb4f51776c718b38f3dc7df3",
+    "name": "constructor",
+    "sha256": "bb340da1afeefb4ec40003c210d8b61da0d6805e44f8be0192e178614c0b3684",
+    "size": 43633,
     "subdir": "linux-64",
-    "version": "0.0.3"
+    "version": "1.5.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/crick-0.0.3-np111py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/constructor-1.5.5-py36_0.tar.bz2"
 }
