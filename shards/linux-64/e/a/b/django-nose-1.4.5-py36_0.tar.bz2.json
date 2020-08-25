@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "http://github.com/django-nose/django-nose",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://htmlmin.readthedocs.org/en/latest/",
+    "doc_url": "https://django-nose.readthedocs.io/",
+    "home": "http://github.com/django-nose/django-nose",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/htmlmin/htmlmin-0.1.10.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/django-nose/django-nose-1.4.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A configurable HTML Minifier with safety features",
+    "summary": "Makes your Django tests simple and snappy",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1.10"
+    "version": "1.4.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "htmlmin-0.1.10-py36_0.tar.bz2",
+  "package": "django-nose-1.4.5-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
+      "django >=1.8",
+      "nose >=1.2.1",
       "python 3.6*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "7a5a068b11ee5cb854ee6380c01c2fa2",
-    "name": "htmlmin",
-    "sha256": "699f4aa448f6d0150d2a10b7591a4771db270a6ed91a3aa0b2bc2be86fc208c0",
-    "size": 22405,
+    "license_family": "BSD",
+    "md5": "f5bc919422bf5cc31507222e96f4cba5",
+    "name": "django-nose",
+    "sha256": "4125c59b683e53c9979b31840b2a987c5b910231ea60db709d58a79f2b40c29d",
+    "size": 35401,
     "subdir": "linux-64",
-    "version": "0.1.10"
+    "version": "1.4.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/htmlmin-0.1.10-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-nose-1.4.5-py36_0.tar.bz2"
 }
