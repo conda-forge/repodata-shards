@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pyomo.org",
+    "home": "http://github.com/Toblerity/Fiona",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/Pyomo/Pyomo-5.4.3.tar.gz",
+    "source_url": "https://github.com/Toblerity/Fiona/archive/1.7.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Pyomo: Python Optimization Modeling Objects",
+    "summary": "Fiona reads and writes spatial data files.",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "5.4.3"
+    "version": "1.7.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "pyomo-5.4.3-py35_0.tar.bz2",
+  "package": "fiona-1.7.2-np111py35_1.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "np111py35_1",
+    "build_number": 1,
     "depends": [
-      "appdirs",
-      "ply",
+      "click-plugins",
+      "cligj",
+      "gdal 2.1.*",
+      "munch",
+      "numpy 1.11*",
       "python 3.5*",
-      "pyutilib >=5.6.2",
       "setuptools",
-      "six >=1.4"
+      "six"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "d358bc6c216ee4d72a608b4eb684a3ba",
-    "name": "pyomo",
-    "sha256": "d003df8c1e02ef4777c7977a6f0ac3e4ef775a397aa172af4fb2ec89b6758149",
-    "size": 2758369,
+    "md5": "90e9a46680efce05802ba38be86961ce",
+    "name": "fiona",
+    "sha256": "6f229dc782d597c9a70b2def116689d7f4f040a351c60560438256ed0aa4ec80",
+    "size": 1373176,
     "subdir": "linux-64",
-    "version": "5.4.3"
+    "version": "1.7.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyomo-5.4.3-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.7.2-np111py35_1.tar.bz2"
 }

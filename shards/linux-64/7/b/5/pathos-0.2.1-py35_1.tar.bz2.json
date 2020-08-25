@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pyomo.org",
+    "home": "http://trac.mystic.cacr.caltech.edu/project/pathos/wiki.html",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/Pyomo/Pyomo-5.4.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pathos/pathos-0.2.1.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Pyomo: Python Optimization Modeling Objects",
+    "summary": "parallel graph management and execution in heterogeneous computing",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "5.4.3"
+    "version": "0.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "pyomo-5.4.3-py35_0.tar.bz2",
+  "package": "pathos-0.2.1-py35_1.tar.bz2",
   "repodata": {
-    "build": "py35_0",
-    "build_number": 0,
+    "build": "py35_1",
+    "build_number": 1,
     "depends": [
-      "appdirs",
-      "ply",
-      "python 3.5*",
-      "pyutilib >=5.6.2",
-      "setuptools",
-      "six >=1.4"
+      "dill >=0.2.5",
+      "multiprocess >=0.70.4",
+      "pox >=0.2.2",
+      "ppft >=1.6.4.5",
+      "python 3.5*"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "d358bc6c216ee4d72a608b4eb684a3ba",
-    "name": "pyomo",
-    "sha256": "d003df8c1e02ef4777c7977a6f0ac3e4ef775a397aa172af4fb2ec89b6758149",
-    "size": 2758369,
+    "md5": "a84d50a91d9c12c87f587c66f3329183",
+    "name": "pathos",
+    "sha256": "10737ba934d055e8c9cba12f2b25c7cd23d1f68588f5da23cf9de02813f3f5f9",
+    "size": 81492,
     "subdir": "linux-64",
-    "version": "5.4.3"
+    "version": "0.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyomo-5.4.3-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pathos-0.2.1-py35_1.tar.bz2"
 }
