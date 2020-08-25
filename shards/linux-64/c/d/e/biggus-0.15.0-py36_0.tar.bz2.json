@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/gqmelo/exec-wrappers",
+    "home": "https://pypi.python.org/pypi/Biggus",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "LGPL-3.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/SciTools/biggus/archive/v0.15.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Simple package to execute exec-wrappers as a post-link action",
+    "summary": "Virtual large arrays and lazy evaluation.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.1"
+    "version": "0.15.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "conda-wrappers-1.0.1-py34_0.tar.bz2",
+  "package": "biggus-0.15.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "exec-wrappers 1.*",
-      "python 3.4*"
+      "numpy",
+      "python 3.6*",
+      "six"
     ],
-    "license": "MIT",
-    "md5": "d006c13f524dbda058ef693b3fd66827",
-    "name": "conda-wrappers",
-    "sha256": "24e8775bea41861d3ba637717b68eaf8ca17afe95328b91db94bab42a672bc85",
-    "size": 2201,
+    "license": "LGPL-3.0",
+    "md5": "98f66f7dda4cf1111b6f293c2ce681f0",
+    "name": "biggus",
+    "sha256": "49af6588bcf5fcfb5cfdcbab560e5ea859056460ff3679acef0adc71dd390e16",
+    "size": 115082,
     "subdir": "linux-64",
-    "version": "1.0.1"
+    "version": "0.15.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-wrappers-1.0.1-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/biggus-0.15.0-py36_0.tar.bz2"
 }
