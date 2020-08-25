@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Unidata/netcdf-c/archive/v4.4.1.tar.gz",
+    "source_url": "https://github.com/Unidata/netcdf-c/archive/v4.5.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Libraries and data formats that support array-oriented scientific data.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "4.4.1"
+    "version": "4.5.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "libnetcdf-4.4.1-0.tar.bz2",
+  "package": "libnetcdf-4.5.0-3.tar.bz2",
   "repodata": {
-    "build": "0",
-    "build_number": 0,
+    "build": "3",
+    "build_number": 3,
     "depends": [
-      "curl",
+      "curl >=7.44.0,<8",
       "hdf4",
-      "hdf5 1.8.17|1.8.17.*",
-      "zlib 1.2.*"
+      "hdf5 1.10.1",
+      "zlib 1.2.11"
     ],
     "license": "MIT",
-    "md5": "d2fbd2998e3f83f59164075be1eeadde",
+    "md5": "a4edb23d0a28ee5f2c595896414dd8ab",
     "name": "libnetcdf",
-    "sha256": "340b19668a35f3f9942bd01fb5fc7af6c5d1a671ace6924e85f1da4e33dac774",
-    "size": 1990979,
+    "sha256": "ec3dac471615d0b11087e1ebd683f3ed4ed8bc18b22a37eb5dedb8d6dbd09e88",
+    "size": 2356435,
     "subdir": "linux-64",
-    "version": "4.4.1"
+    "version": "4.5.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libnetcdf-4.4.1-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libnetcdf-4.5.0-3.tar.bz2"
 }

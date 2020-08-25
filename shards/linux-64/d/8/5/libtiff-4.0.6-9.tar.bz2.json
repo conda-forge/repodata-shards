@@ -7,50 +7,51 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://developers.google.com/protocol-buffers/",
+    "home": "http://www.remotesensing.org/libtiff/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "HPND",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/google/protobuf/archive/v3.5.2/protobuf-v3.5.2.tar.gz",
+    "source_url": "http://download.osgeo.org/libtiff/tiff-4.0.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Protocol Buffers - Google's data interchange format. C++ Libraries",
+    "summary": "Support for the Tag Image File Format (TIFF).",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "3.5.2"
+    "version": "4.0.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "libprotobuf-3.5.2-0.tar.bz2",
+  "package": "libtiff-4.0.6-9.tar.bz2",
   "repodata": {
-    "build": "0",
-    "build_number": 0,
+    "build": "9",
+    "build_number": 9,
     "depends": [
-      "zlib 1.2.11"
+      "jpeg 9*",
+      "xz 5.2.*",
+      "zlib 1.2.8"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "4d16fa5e46c3b842edddb919036dd0e8",
-    "name": "libprotobuf",
-    "sha256": "23c04b6ec9a5f871dc4c9fc431e69070b4bed195653737e4a4b65346688ca6aa",
-    "size": 4701944,
+    "license": "HPND",
+    "md5": "92af7687189e2de82496d122f12a9734",
+    "name": "libtiff",
+    "sha256": "fb0274d4f86dd506bbed37aaf1e507d09801f4832453d9db2c998037ce940aa6",
+    "size": 524192,
     "subdir": "linux-64",
-    "version": "3.5.2"
+    "version": "4.0.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libprotobuf-3.5.2-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libtiff-4.0.6-9.tar.bz2"
 }
