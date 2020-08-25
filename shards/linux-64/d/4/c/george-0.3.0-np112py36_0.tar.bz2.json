@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/dfm/george",
     "doc_source_url": null,
-    "doc_url": "https://docs.vaex.io/",
-    "home": "https://www.github.com/maartenbreddels/vaex",
+    "doc_url": "http://george.readthedocs.io/",
+    "home": "https://github.com/dfm/george",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/v/vaex-astro/vaex-astro-0.2.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/george/george-0.3.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Astronomy related transformations and FITS file support for vaex",
+    "summary": "Fast and flexible Gaussian Process regression in Python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "vaex-astro-0.2.0-py36_0.tar.bz2",
+  "package": "george-0.3.0-np112py36_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "np112py36_0",
     "build_number": 0,
     "depends": [
-      "kapteyn",
+      "numpy 1.12*",
       "python 3.6*",
-      "vaex-core >=0.1"
+      "scipy"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "74108d4704056c39b7f9f4c1b7aa90b6",
-    "name": "vaex-astro",
-    "sha256": "e391d7efb5e4c9ae2d81ea3250ef5c19530dbb211f08261b7cbc07c05fa158c1",
-    "size": 15889,
+    "md5": "8d661bc6c20fb4e9747417ea27792d05",
+    "name": "george",
+    "sha256": "35a8dc0e97ffe1e1990222878c6bfaeb9167f891c74112018956d9d74144dc7d",
+    "size": 3111141,
     "subdir": "linux-64",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/vaex-astro-0.2.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/george-0.3.0-np112py36_0.tar.bz2"
 }
