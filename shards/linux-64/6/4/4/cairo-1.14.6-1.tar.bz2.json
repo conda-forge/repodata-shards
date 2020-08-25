@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.djangoproject.com/",
+    "home": "http://cairographics.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "LGPL 2.1 or MPL 1.1",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/django/django/archive/1.10.4.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
+    "summary": "Cairo is a 2D graphics library with support for multiple output devices.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.10.4"
+    "version": "1.14.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "django-1.10.4-py27_0.tar.bz2",
+  "package": "cairo-1.14.6-1.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "1",
+    "build_number": 1,
     "depends": [
-      "gdal 2.1.*",
-      "python 2.7*"
+      "fontconfig 2.12.*",
+      "freetype 2.6.*",
+      "icu 56.*",
+      "libpng >=1.6.23,<1.7",
+      "pixman 0.34.*",
+      "zlib 1.2.*"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "a00ff061ccec39510dd20e22297ded07",
-    "name": "django",
-    "sha256": "cf6205a7c3eb55a20181ab3fa7db767547a471a8bba59a69adbca0cffa368ea2",
-    "size": 4543234,
+    "license": "LGPL 2.1 or MPL 1.1",
+    "md5": "682a7bf583442e520a657c7cdfce2763",
+    "name": "cairo",
+    "sha256": "2ecb89d40b7832b15548e67ad13098124674fa9a28e38ec8b6bcdb7f5ca2856c",
+    "size": 1293596,
     "subdir": "linux-64",
-    "version": "1.10.4"
+    "version": "1.14.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/django-1.10.4-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cairo-1.14.6-1.tar.bz2"
 }
