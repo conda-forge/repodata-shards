@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/zorro3/ConfigArgParse",
+    "dev_url": "http://bitbucket.org/leafstorm/flask-couchdb/",
     "doc_source_url": null,
-    "doc_url": "https://github.com/zorro3/ConfigArgParse",
-    "home": "https://github.com/zorro3/ConfigArgParse",
+    "doc_url": "https://pythonhosted.org/Flask-CouchDB/",
+    "home": "http://bitbucket.org/leafstorm/flask-couchdb/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/C/ConfigArgParse/ConfigArgParse-0.12.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/F/Flask-CouchDB/Flask-CouchDB-0.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "replacement for argparse allowing options to be set via config files and/or env vars",
+    "summary": "Provides utilities for using CouchDB with Flask",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.12.0"
+    "version": "0.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "configargparse-0.12.0-py36_0.tar.bz2",
+  "package": "flask-couchdb-0.2.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "flask",
+      "python 3.5*",
+      "python-couchdb >=0.7"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "209e58353190ae1b4269389c5cc8ebce",
-    "name": "configargparse",
-    "sha256": "e26de2150a592e6749ad1a96096deb2d0fa8a2daf65933c174d175f686330014",
-    "size": 27348,
+    "md5": "cbbcf0ec34e8902ee05d669feb6bfa3c",
+    "name": "flask-couchdb",
+    "sha256": "692bc5228fbbee94b9d2e1b63f71cb47b9e548518ad8c88e8b9b3ab26ff5ccec",
+    "size": 209520,
     "subdir": "linux-64",
-    "version": "0.12.0"
+    "version": "0.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/configargparse-0.12.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/flask-couchdb-0.2.1-py35_0.tar.bz2"
 }
