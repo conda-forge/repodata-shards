@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/HypothesisWorks/hypothesis-python",
+    "home": "https://github.com/mariusvniekerk/spylon-kernel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MPL 2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hypothesis/hypothesis-3.50.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/spylon-kernel/spylon-kernel-0.3.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for property based testing",
+    "summary": "Scala magics and kernel for jupyter",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.50.2"
+    "version": "0.3.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "hypothesis-3.50.2-py35_0.tar.bz2",
+  "package": "spylon-kernel-0.3.2-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "attrs",
-      "coverage",
-      "python 3.5*"
+      "ipykernel",
+      "jedi >=0.10",
+      "metakernel",
+      "python 3.5*",
+      "spylon",
+      "tornado"
     ],
-    "license": "MPL 2.0",
-    "md5": "546de392a0f3f8ea71301c75afa1fb4c",
-    "name": "hypothesis",
-    "sha256": "ead566cfe264b1151dc3ed1e670bd97305a6cc8463cf7f6399daf8f258a72965",
-    "size": 260617,
+    "license": "MIT",
+    "md5": "107c45dd739d6970548c0b68c4ef7030",
+    "name": "spylon-kernel",
+    "sha256": "31de4eb62bf8cdcf6bb3f2538ad9cb7b20e0b9b54d585343af49d06fa9f913a5",
+    "size": 25521,
     "subdir": "linux-64",
-    "version": "3.50.2"
+    "version": "0.3.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hypothesis-3.50.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/spylon-kernel-0.3.2-py35_0.tar.bz2"
 }
