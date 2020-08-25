@@ -12,22 +12,22 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/j/jupyter_client/jupyter_client-4.4.0.tar.gz",
+    "source_url": "https://pypi.python.org/packages/source/j/jupyter/jupyter-1.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "jupyter_client contains the reference implementation of the Jupyter protocol.",
+    "summary": "Jupyter metapackage. Install all the Jupyter components in one go.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.4.0"
+    "version": "1.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "jupyter_client-4.4.0-py35_0.tar.bz2",
+  "package": "jupyter-1.0.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "jupyter_core",
-      "python 3.5*",
-      "pyzmq >=13",
-      "traitlets"
+      "ipykernel",
+      "ipywidgets",
+      "jupyter_console",
+      "nbconvert",
+      "notebook",
+      "python 3.6*",
+      "qtconsole"
     ],
-    "license": "BSD 3-clause",
-    "md5": "ec2c7465788c2342edba594c257d5376",
-    "name": "jupyter_client",
-    "sha256": "d8332f46f1aa9ddb1315a9fe43ab2408467356b07776f3823ae1f9ecdaf24d9c",
-    "size": 310682,
+    "license": "BSD 3-Clause",
+    "md5": "4751a1212da8b9898ddf9b36ba34b588",
+    "name": "jupyter",
+    "sha256": "cac5634f79cd3e4a8b807d87203d7493a5f6cb85152069417e9ca2ffa76ee5d8",
+    "size": 2717,
     "subdir": "linux-64",
-    "version": "4.4.0"
+    "version": "1.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/jupyter_client-4.4.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/jupyter-1.0.0-py36_0.tar.bz2"
 }
