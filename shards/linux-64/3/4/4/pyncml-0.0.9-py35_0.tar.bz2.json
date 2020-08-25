@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/mbr/asciitree",
+    "home": "https://github.com/axiom-data-science/pyncml",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/asciitree/asciitree-0.3.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyncml/pyncml-0.0.9.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Draws ASCII trees.",
+    "summary": "A simple python library to apply NcML logic to NetCDF files.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.3"
+    "version": "0.0.9"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "asciitree-0.3.3-py35_0.tar.bz2",
+  "package": "pyncml-0.0.9-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "netcdf4",
+      "numpy",
+      "python 3.5*",
+      "pytz"
     ],
     "license": "MIT",
-    "md5": "16069b4aa165443c3498ee5fa42d7873",
-    "name": "asciitree",
-    "sha256": "2ab968365427706b365ffed5ab4db0d308cbb301a05eb08959012cf61d60c127",
-    "size": 213465,
+    "md5": "4f141e68956803a6821cd4a732881938",
+    "name": "pyncml",
+    "sha256": "ba962de8b848012ea033b35da93e82739dd38ad2cf28f6bd0fb8eaad9cbde0ca",
+    "size": 14732,
     "subdir": "linux-64",
-    "version": "0.3.3"
+    "version": "0.0.9"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/asciitree-0.3.3-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyncml-0.0.9-py35_0.tar.bz2"
 }
