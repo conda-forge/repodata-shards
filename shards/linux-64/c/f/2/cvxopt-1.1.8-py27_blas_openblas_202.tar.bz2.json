@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://cvxopt.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/c/cvxopt/cvxopt-1.1.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Convex optimization package",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.14"
+    "version": "1.1.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "automake-1.14-1.tar.bz2",
+  "package": "cvxopt-1.1.8-py27_blas_openblas_202.tar.bz2",
   "repodata": {
-    "build": "1",
-    "build_number": 1,
+    "build": "py27_blas_openblas_202",
+    "build_number": 202,
     "depends": [
-      "autoconf",
-      "m4"
+      "blas 1.1 openblas",
+      "fftw",
+      "glpk",
+      "gsl",
+      "openblas 0.2.18*",
+      "python 2.7*"
     ],
+    "features": "blas_openblas",
     "license": "GPL 3",
-    "md5": "77bfdd03fbfc3ea8487fb5c71294ea0c",
-    "name": "automake",
-    "sha256": "32e424f60d31da94e3968183276f82814b46e20e0d15addaf6d9eb8d1254b87e",
-    "size": 556608,
+    "md5": "964e6e8f40cce13f7473645d20a9586a",
+    "name": "cvxopt",
+    "sha256": "2da1336183eb4001d353563c8fa65430dfa20916f3cd133ae0ad485203421af6",
+    "size": 1015400,
     "subdir": "linux-64",
-    "version": "1.14"
+    "version": "1.1.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/automake-1.14-1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cvxopt-1.1.8-py27_blas_openblas_202.tar.bz2"
 }
