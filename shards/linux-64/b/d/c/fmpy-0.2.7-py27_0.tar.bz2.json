@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/CATIA-Systems/FMPy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "BSD-3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/scikit-image/scikit-image-0.12.3.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Simulate Functional Mockup Units (FMUs) in Python",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.12.3"
+    "version": "0.2.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,31 @@
     "cf202003",
     "main"
   ],
-  "package": "scikit-image-0.12.3-np110py34_0.tar.bz2",
+  "package": "fmpy-0.2.7-py27_0.tar.bz2",
   "repodata": {
-    "build": "np110py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
+      "dask",
+      "lxml",
       "matplotlib",
-      "networkx",
-      "numpy 1.10*",
-      "pillow",
-      "python 3.4*",
-      "scipy",
-      "six"
+      "numpy",
+      "pathlib",
+      "pyqt",
+      "pyqtgraph",
+      "python 2.7*",
+      "requests"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "e9ddd071cd27bfc3642844d1a0d35dd0",
-    "name": "scikit-image",
-    "sha256": "b07919a2ea42528cb3ada5cd131836033ac3b66081e8b6621b71890009582430",
-    "size": 28850356,
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "b65094d70e655f3daca42adfe99fc2d1",
+    "name": "fmpy",
+    "sha256": "76650c264a5b49682037e89270f2ba758bc8bbe03181d759c6f7346366ab271e",
+    "size": 919249,
     "subdir": "linux-64",
-    "version": "0.12.3"
+    "version": "0.2.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/scikit-image-0.12.3-np110py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fmpy-0.2.7-py27_0.tar.bz2"
 }
