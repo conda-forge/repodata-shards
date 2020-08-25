@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://scikit-beam.github.io/scikit-beam/",
+    "home": "https://github.com/peterjc/backports.lzma",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/scikit-beam/scikit-beam/archive/v0.0.9.tar.gz",
+    "source_url": "https://pypi.io/packages/source/b/backports.lzma/backports.lzma-0.0.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Data analysis algorithms for X-Ray, Neutron and Electron sciences",
+    "summary": "Backport of Python 3.3's 'lzma' module for XZ/LZMA compressed files.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.0.9"
+    "version": "0.0.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,29 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "scikit-beam-0.0.9-np111py34_0.tar.bz2",
+  "package": "backports.lzma-0.0.8-py36_2.tar.bz2",
   "repodata": {
-    "build": "np111py34_0",
-    "build_number": 0,
+    "build": "py36_2",
+    "build_number": 2,
     "depends": [
-      "lmfit 0.8.3",
-      "numpy 1.11*",
-      "python 3.4*",
-      "scikit-image",
-      "scipy",
-      "six",
-      "xraylib"
+      "backports",
+      "python 3.6*",
+      "xz 5.2.*"
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "ee0c4da3297beb51d737d92f3a38d1f5",
-    "name": "scikit-beam",
-    "sha256": "6d5db6071b98a7913b14c47a65afa2f8bd32a83cac1509dc3dd0cf64bf7f6393",
-    "size": 2589457,
+    "md5": "12888434e77e1fc1674ba852553bcf05",
+    "name": "backports.lzma",
+    "sha256": "9acd1793c6367b3168c41151262bec3ab7eca7615ce3c2da453ecc65f066341b",
+    "size": 51503,
     "subdir": "linux-64",
-    "version": "0.0.9"
+    "version": "0.0.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/scikit-beam-0.0.9-np111py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/backports.lzma-0.0.8-py36_2.tar.bz2"
 }
