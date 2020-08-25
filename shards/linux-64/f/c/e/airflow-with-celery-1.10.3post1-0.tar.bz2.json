@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/apache/incubator-airflow/archive/1.10.9.tar.gz",
+    "source_url": "https://github.com/apache/incubator-airflow/archive/1.10.3post1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Airflow is a platform to programmatically author, schedule and monitor workflows",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1581129134,
-    "version": "1.10.9"
+    "timestamp": 1555769317,
+    "version": "1.10.3post1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "airflow-with-password-1.10.9-0.tar.bz2",
+  "package": "airflow-with-celery-1.10.3post1-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
     "depends": [
-      "airflow >=1.10.9,<1.10.10.0a0",
-      "bcrypt >=2.0.0",
-      "flask-bcrypt >=0.7.1"
+      "airflow >=1.10.3inf.1,<1.10.3inf.2.0a0",
+      "celery >=4.1.1,<4.2.0",
+      "flower >=0.7.3,<1.0",
+      "tornado >=4.2.0,<6.0"
     ],
     "license": "Apache 2.0",
-    "md5": "98543f5f68c8e7916c41361dbe4e72ba",
-    "name": "airflow-with-password",
-    "sha256": "51025c71c79138e93afdf7f828b78d29cd49277a9a5e94c40735dfed4e27b444",
-    "size": 11850,
+    "md5": "6c9640d1e26a36665d46ea97304a0567",
+    "name": "airflow-with-celery",
+    "sha256": "d4e6934c2bd2cbc4390e5da16a8674f10584cc624b4dd45894831385a90e5a3a",
+    "size": 11363,
     "subdir": "linux-64",
-    "timestamp": 1581129134829,
-    "version": "1.10.9"
+    "timestamp": 1555769317642,
+    "version": "1.10.3post1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-password-1.10.9-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-celery-1.10.3post1-0.tar.bz2"
 }
