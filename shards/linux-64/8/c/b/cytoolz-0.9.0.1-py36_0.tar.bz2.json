@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/cloudpipe/cloudpickle",
+    "home": "https://github.com/pytoolz/cytoolz",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/cloudpickle/cloudpickle-0.4.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cytoolz/cytoolz-0.9.0.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Extended pickling support for Python objects",
+    "summary": "Cython implementation of Toolz. High performance functional utilities.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.4.0"
+    "version": "0.9.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "cloudpickle-0.4.0-py36_0.tar.bz2",
+  "package": "cytoolz-0.9.0.1-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "python 3.6*",
+      "toolz >=0.8.0"
     ],
     "license": "BSD 3-Clause",
-    "md5": "bf09b6a782a40d2e0af9531860458911",
-    "name": "cloudpickle",
-    "sha256": "222877499abb39a7928918ed842b472e528e971e74df6aa2e87c47c3674cbbbc",
-    "size": 24402,
+    "md5": "fc6e888432620d7b0f320e4207c30e22",
+    "name": "cytoolz",
+    "sha256": "e8441ff92eeef64010cc40f8d14c70a157b2961739eb713bda6eb84d2f136f1e",
+    "size": 1366330,
     "subdir": "linux-64",
-    "version": "0.4.0"
+    "version": "0.9.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cloudpickle-0.4.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cytoolz-0.9.0.1-py36_0.tar.bz2"
 }

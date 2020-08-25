@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/cloudpipe/cloudpickle",
+    "home": "https://github.com/google/googletest",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,38 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/cloudpickle/cloudpickle-0.4.0.tar.gz",
+    "source_url": "https://github.com/google/googletest/archive/release-1.10.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Extended pickling support for Python objects",
+    "summary": "Google's C++ test framework",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.4.0"
+    "timestamp": 1596224121,
+    "version": "1.10.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "cloudpickle-0.4.0-py36_0.tar.bz2",
+  "package": "gtest-1.10.0-hc9558a2_3.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "hc9558a2_3",
+    "build_number": 3,
+    "constrains": [
+      "gmock 1.10.0"
+    ],
     "depends": [
-      "python 3.6*"
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0"
     ],
     "license": "BSD 3-Clause",
-    "md5": "bf09b6a782a40d2e0af9531860458911",
-    "name": "cloudpickle",
-    "sha256": "222877499abb39a7928918ed842b472e528e971e74df6aa2e87c47c3674cbbbc",
-    "size": 24402,
+    "license_family": "BSD",
+    "md5": "3a2dc69b5215904c8ba3998670753a65",
+    "name": "gtest",
+    "sha256": "0ee3a6d2d862426e224c6f388ff870d1eead2528274db2cda1c0c6a789799b8f",
+    "size": 411401,
     "subdir": "linux-64",
-    "version": "0.4.0"
+    "timestamp": 1596224121727,
+    "version": "1.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cloudpickle-0.4.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gtest-1.10.0-hc9558a2_3.tar.bz2"
 }
