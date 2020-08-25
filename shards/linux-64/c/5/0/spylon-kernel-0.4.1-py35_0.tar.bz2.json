@@ -6,8 +6,8 @@
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://dystroy.org/broot/",
-    "home": "https://github.com/Canop/broot",
+    "doc_url": null,
+    "home": "https://github.com/mariusvniekerk/spylon-kernel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Canop/broot/archive/v0.10.5.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/spylon-kernel/spylon-kernel-0.4.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Balanced tree view + fuzzy search + BFS + customizable launcher",
+    "summary": "Scala magics and kernel for jupyter",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1576870494,
-    "version": "0.10.5"
+    "timestamp": 0,
+    "version": "0.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "broot-0.10.5-h516909a_0.tar.bz2",
+  "package": "spylon-kernel-0.4.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "h516909a_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=7.3.0"
+      "ipykernel",
+      "jedi >=0.10",
+      "metakernel",
+      "python 3.5*",
+      "spylon",
+      "tornado"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "b615c616514c8c9e513c04017e329e13",
-    "name": "broot",
-    "sha256": "70d8692494f9adabf12e3c144a3529ea10e25344152aa086c604cd25baa2443a",
-    "size": 1154813,
+    "md5": "6e9bf154e44734cc3d4b9a9e3d4e4301",
+    "name": "spylon-kernel",
+    "sha256": "7e7bb30b3aec5f9da32b831b0ebfd6715725a93b29be4561f707acb7a4819e62",
+    "size": 26464,
     "subdir": "linux-64",
-    "timestamp": 1576870494591,
-    "version": "0.10.5"
+    "version": "0.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/broot-0.10.5-h516909a_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/spylon-kernel-0.4.1-py35_0.tar.bz2"
 }
