@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/axiom-data-science/wera2netcdf",
+    "home": "https://github.com/PyWavelets/pywt",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/axiom-data-science/wera2netcdf/archive/1.0.0.tar.gz",
+    "source_url": "https://github.com/PyWavelets/pywt/archive/v0.5.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A utility to convert WERA total ASCII files into CF NetCDF files.",
+    "summary": "Discrete Wavelet Transforms in Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.0"
+    "version": "0.5.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "wera2netcdf-1.0.0-py35_0.tar.bz2",
+  "package": "pywavelets-0.5.1-np112py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np112py27_0",
     "build_number": 0,
     "depends": [
-      "netcdf4",
-      "pandas",
-      "pygc",
-      "python 3.5*",
-      "python-dateutil",
-      "pytz"
+      "numpy 1.12*",
+      "python 2.7*"
     ],
     "license": "MIT",
-    "md5": "31b49cbe4b0a252c4438150245a54d78",
-    "name": "wera2netcdf",
-    "sha256": "3233bf43ea75bc5302642532076b3d4e350aad8722fceec14a3d4a6990075188",
-    "size": 14010,
+    "md5": "1d8eda437635e4fbbb4df9bc104bc54d",
+    "name": "pywavelets",
+    "sha256": "1f7ca0c4df23f98e4e20e8667ca763c9368b4a20cb4ce295c5b47b2bf550c32d",
+    "size": 2685568,
     "subdir": "linux-64",
-    "version": "1.0.0"
+    "version": "0.5.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/wera2netcdf-1.0.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pywavelets-0.5.1-np112py27_0.tar.bz2"
 }
