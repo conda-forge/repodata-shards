@@ -7,12 +7,12 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/conda-forge/python_abi-feedstock",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "BSD-3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -23,35 +23,38 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Metapackage to select python implementation",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.0.4"
+    "timestamp": 1583344663,
+    "version": "3.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "s3fs-0.0.4-py27_0.tar.bz2",
+  "package": "python_abi-3.5-1_cp35m.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
-    "depends": [
-      "boto3",
-      "python 2.7*"
+    "build": "1_cp35m",
+    "build_number": 1,
+    "constrains": [
+      "pypy <0a0"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "0398ad2e6cb66a5170a08f13b7815a44",
-    "name": "s3fs",
-    "sha256": "b965779bce8aef8efb20c84eebcc823c75f52f44139e83d9871cc1255d664b34",
-    "size": 18850,
+    "depends": [
+      "python 3.5.*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "dff688578e830a9dcd3918f2d054b9c4",
+    "name": "python_abi",
+    "sha256": "f79d0c10834b37b94f87a18172c4a5229b11ef598a214d8347a787a270ad9213",
+    "size": 3817,
     "subdir": "linux-64",
-    "version": "0.0.4"
+    "timestamp": 1583344663888,
+    "version": "3.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/s3fs-0.0.4-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python_abi-3.5-1_cp35m.tar.bz2"
 }

@@ -1,57 +1,56 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://openturns.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/openturns/otmorris/archive/v0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Morris screening module",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.0.4"
+    "version": "0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "s3fs-0.0.4-py27_0.tar.bz2",
+  "package": "otmorris-0.2-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "boto3",
-      "python 2.7*"
+      "openturns",
+      "python 3.6*"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "0398ad2e6cb66a5170a08f13b7815a44",
-    "name": "s3fs",
-    "sha256": "b965779bce8aef8efb20c84eebcc823c75f52f44139e83d9871cc1255d664b34",
-    "size": 18850,
+    "license": "LGPL3",
+    "md5": "a26bb63313abd8b8133c21c170c8849d",
+    "name": "otmorris",
+    "sha256": "8dedc8c9f31395dac98d41af094df63e83942c576b78053e935cf8d77b9c469c",
+    "size": 267703,
     "subdir": "linux-64",
-    "version": "0.0.4"
+    "version": "0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/s3fs-0.0.4-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/otmorris-0.2-py36_0.tar.bz2"
 }
