@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/fwilliams/point-cloud-utils",
+    "home": "http://qutip.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-2.0",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/fwilliams/point-cloud-utils/archive/0.10.1.tar.gz",
+    "source_url": "http://qutip.org/downloads/4.4.0/qutip-4.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Python library for common tasks on 3D point clouds",
+    "summary": "QuTiP is open-source software for simulating the dynamics of open quantum systems and optimal quantum control",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1574055983,
-    "version": "0.10.1"
+    "text_prefix": true,
+    "timestamp": 1562667072,
+    "version": "4.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "point_cloud_utils-0.10.1-py36h9de70de_0.tar.bz2",
+  "package": "qutip-4.4.0-py36h9de70de_0.tar.bz2",
   "repodata": {
     "build": "py36h9de70de_0",
     "build_number": 0,
     "depends": [
+      "cython >=0.21",
       "libgcc-ng >=7.3.0",
       "libstdcxx-ng >=7.3.0",
       "numpy >=1.14.6,<2.0a0",
       "python >=3.6,<3.7.0a0",
-      "scipy"
+      "scipy >=0.15",
+      "setuptools"
     ],
-    "license": "GPL-2.0",
-    "license_family": "GPL",
-    "md5": "54b1f4c66c29092a4e0040d387acfd02",
-    "name": "point_cloud_utils",
-    "sha256": "a76b5f6d9bfc1e1f2a039200678c86922f48424526188ec7f7748e50c5afbb33",
-    "size": 1972844,
+    "license": "BSD 3-clause",
+    "md5": "2c6044a1e94b3260bc7b89912de1e0be",
+    "name": "qutip",
+    "sha256": "3ec288555ed0d4e5bb4e544d6d655e9593c98ded589664f6d7bf8f83a7c1633e",
+    "size": 5414202,
     "subdir": "linux-64",
-    "timestamp": 1574055983236,
-    "version": "0.10.1"
+    "timestamp": 1562667072418,
+    "version": "4.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/point_cloud_utils-0.10.1-py36h9de70de_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/qutip-4.4.0-py36h9de70de_0.tar.bz2"
 }

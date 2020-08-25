@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/dronecrew/px4tools",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache-2.0",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/dronecrew/px4tools/archive/v0.4.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Python log crunching for PX4.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.7.0"
+    "version": "0.4.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "arrow-0.7.0-py34_0.tar.bz2",
+  "package": "px4tools-0.4.6-py27_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.4*",
-      "python-dateutil"
+      "basemap",
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "python 2.7*",
+      "scipy"
     ],
-    "license": "Apache-2.0",
-    "md5": "a4dfa4af100dbb02b53ddeed8b44b8ae",
-    "name": "arrow",
-    "sha256": "05ca6e0623f7aaf7d70e6b7f200e0bd1832f2643d19435bb0fb6705372a5e74a",
-    "size": 50340,
+    "license": "BSD 3-Clause",
+    "md5": "036906e591886dbd514792ec46ef7019",
+    "name": "px4tools",
+    "sha256": "c3a564324d80b274d7132f5a4e46e3621c5b1e92f1b32f1676caaa02fa676515",
+    "size": 24974,
     "subdir": "linux-64",
-    "version": "0.7.0"
+    "version": "0.4.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/arrow-0.7.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/px4tools-0.4.6-py27_0.tar.bz2"
 }
