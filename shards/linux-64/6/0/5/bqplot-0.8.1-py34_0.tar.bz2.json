@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pallets/click",
+    "home": "https://github.com/bloomberg/bqplot",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "Apache License 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/click/click-6.6.tar.gz",
+    "source_url": "https://pypi.io/packages/source/b/bqplot/bqplot-0.8.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A simple wrapper around optparse for powerful command line utilities.",
+    "summary": "Plotting library for Jupyter",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "6.6"
+    "version": "0.8.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "click-6.6-py35_0.tar.bz2",
+  "package": "bqplot-0.8.1-py34_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "ipywidgets >=5.2.2",
+      "numpy >=1.10.4",
+      "pandas",
+      "python 3.4*",
+      "pyzmq >=15.2.0"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "fae043435655ef66fbbd801d4a5a2826",
-    "name": "click",
-    "sha256": "be5b3ed703d66bc55eeb9f6ea1d7244b6b35cfc9451e05da5846493592b109ea",
-    "size": 101946,
+    "license": "Apache License 2.0",
+    "md5": "219a66d847f68800505ac046fe3cdc8d",
+    "name": "bqplot",
+    "sha256": "e2e8c789c91123540ccf2a9e9795c0461613c841910cea10de2b834a5b6994d8",
+    "size": 905116,
     "subdir": "linux-64",
-    "version": "6.6"
+    "version": "0.8.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/click-6.6-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/bqplot-0.8.1-py34_0.tar.bz2"
 }

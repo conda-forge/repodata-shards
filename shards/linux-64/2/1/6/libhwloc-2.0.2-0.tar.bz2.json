@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pallets/click",
+    "home": "https://www.open-mpi.org/projects/hwloc/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/click/click-6.6.tar.gz",
+    "source_url": "https://www.open-mpi.org/software/hwloc/v2.0/downloads/hwloc-2.0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A simple wrapper around optparse for powerful command line utilities.",
+    "summary": "Portable Hardware Locality (hwloc)",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 0,
-    "version": "6.6"
+    "text_prefix": true,
+    "timestamp": 1535987213,
+    "version": "2.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "click-6.6-py35_0.tar.bz2",
+  "package": "libhwloc-2.0.2-0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "libxml2 2.9.*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "fae043435655ef66fbbd801d4a5a2826",
-    "name": "click",
-    "sha256": "be5b3ed703d66bc55eeb9f6ea1d7244b6b35cfc9451e05da5846493592b109ea",
-    "size": 101946,
+    "md5": "f957b636698a9ab43d2b73c4d905599d",
+    "name": "libhwloc",
+    "sha256": "536cfaef5ff1946afd9d4db769a6cdab8128d388deb9268bafc08340dce53207",
+    "size": 3371170,
     "subdir": "linux-64",
-    "version": "6.6"
+    "timestamp": 1535987213047,
+    "version": "2.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/click-6.6-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libhwloc-2.0.2-0.tar.bz2"
 }
