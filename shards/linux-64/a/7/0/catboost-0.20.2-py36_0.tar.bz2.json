@@ -6,8 +6,8 @@
     "description": "General purpose gradient boosting on decision trees library with categorical features support out of the box. It is easy to install, contains fast inference implementation and supports CPU and GPU (even multi-GPU) computation.",
     "dev_url": "https://github.com/catboost/catboost",
     "doc_source_url": null,
-    "doc_url": "https://tech.yandex.com/catboost/doc/dg/concepts/about-docpage/",
-    "home": "http://catboost.yandex",
+    "doc_url": "https://catboost.ai/docs/concepts/about.html",
+    "home": "http://catboost.ai",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -26,8 +26,8 @@
     "summary": "Gradient boosting on decision trees library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1555167589,
-    "version": "0.14.1"
+    "timestamp": 1577333451,
+    "version": "0.20.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "catboost-0.14.1-py27_0.tar.bz2",
+  "package": "catboost-0.20.2-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "enum34",
-      "numpy",
-      "pandas",
-      "python >=2.7,<2.8.0a0",
+      "numpy >=1.16.0",
+      "pandas >=0.24.0",
+      "python >=3.6,<3.7.0a0",
+      "scipy",
       "six"
     ],
     "license": "Apache 2.0",
     "license_family": "MIT",
-    "md5": "6e18382e02cfa754a8fa7aaae887bc1e",
+    "md5": "60da4ec268eae27fd2d764698a6de79d",
     "name": "catboost",
-    "sha256": "339a7cea20301f337585be92f04d98c3d5b39de4515ffa79a3daf3d17dc3665d",
-    "size": 52222593,
+    "sha256": "a279ed5e9bfee21665db54fe4d514c7a6c0a5fac18a56acd1385bd88bcb363ef",
+    "size": 54893617,
     "subdir": "linux-64",
-    "timestamp": 1555167589004,
-    "version": "0.14.1"
+    "timestamp": 1577333451199,
+    "version": "0.20.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/catboost-0.14.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/catboost-0.20.2-py36_0.tar.bz2"
 }
