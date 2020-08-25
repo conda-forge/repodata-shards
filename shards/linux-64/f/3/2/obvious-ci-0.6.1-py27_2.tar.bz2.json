@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/Toblerity/Fiona",
+    "home": "https://github.com/pelson/Obvious-CI",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/F/Fiona/Fiona-1.7.9.tar.gz",
+    "source_url": "https://github.com/pelson/Obvious-CI/archive/v0.6.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fiona reads and writes spatial data files.",
+    "summary": "Tools to simplify Continuous Integration, particularly for conda building.",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "1.7.9"
+    "version": "0.6.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,30 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "fiona-1.7.9-py36_0.tar.bz2",
+  "package": "obvious-ci-0.6.1-py27_2.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "py27_2",
+    "build_number": 2,
     "depends": [
-      "click-plugins",
-      "cligj",
-      "libgdal 2.1.4",
-      "munch",
-      "numpy >=1.8",
-      "python 3.6*",
-      "setuptools",
-      "shapely",
-      "six"
+      "anaconda-client",
+      "conda",
+      "conda-build",
+      "python 2.7*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "cbe45f9d041694cb1c87a7e184eaa45f",
-    "name": "fiona",
-    "sha256": "2384f0ad38c855dba44360496d0c04a5239e88c147ac0777f15445771e50aa7d",
-    "size": 1567096,
+    "license_family": "BSD",
+    "md5": "1529c3ebc2e80410dfaba45bdcf9585c",
+    "name": "obvious-ci",
+    "sha256": "0abe4bfa67bec1061f99fc546eaca12186b4b6e7e9206c72723a8e04ca34819e",
+    "size": 22529,
     "subdir": "linux-64",
-    "version": "1.7.9"
+    "version": "0.6.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.7.9-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/obvious-ci-0.6.1-py27_2.tar.bz2"
 }
