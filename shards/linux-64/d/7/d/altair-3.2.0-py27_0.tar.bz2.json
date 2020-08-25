@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.openmesh.org/",
+    "home": "http://altair-viz.github.io",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://www.openmesh.org/media/Releases/6.2/OpenMesh-6.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/altair/altair-3.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "OpenMesh is a generic and efficient data structure for representing and manipulating polygonal meshes.",
+    "summary": "Altair: A declarative statistical visualization library for Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "6.2"
+    "timestamp": 1565090072,
+    "version": "3.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,31 @@
     "cf202003",
     "main"
   ],
-  "package": "openmesh-6.2-py34_0.tar.bz2",
+  "package": "altair-3.2.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "boost 1.61.*",
-      "python 3.4*"
+      "entrypoints",
+      "jinja2",
+      "jsonschema",
+      "numpy",
+      "pandas",
+      "python >=2.7,<2.8.0a0",
+      "six",
+      "toolz",
+      "typing >=3.6"
     ],
     "license": "BSD-3-Clause",
-    "md5": "ab978ba264b5295d5fad40f4c970269e",
-    "name": "openmesh",
-    "sha256": "35f9d2d383810f7b8272821f775becedcb6e690c8240d5e666ad0089a294e4d9",
-    "size": 1603273,
+    "md5": "121461d9148fa7e15244ac7f8ab6d978",
+    "name": "altair",
+    "sha256": "e2738a3014808f4001723e356226f2456367e727b37c3246b1468575b66ff770",
+    "size": 757321,
     "subdir": "linux-64",
-    "version": "6.2"
+    "timestamp": 1565090072864,
+    "version": "3.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/openmesh-6.2-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/altair-3.2.0-py27_0.tar.bz2"
 }
