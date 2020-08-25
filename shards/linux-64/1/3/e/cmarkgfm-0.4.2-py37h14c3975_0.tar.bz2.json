@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/xzkostyan/python-cityhash",
+    "home": "https://github.com/jonparrott/cmarkgfm",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/clickhouse-cityhash/clickhouse-cityhash-1.0.2.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cmarkgfm/cmarkgfm-0.4.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python-bindings for CityHash, a fast non-cryptographic hash algorithm",
+    "summary": "Minimal bindings to GitHub's fork of cmark",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.0.2.1"
+    "timestamp": 1550244941,
+    "version": "0.4.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "clickhouse-cityhash-1.0.2.1-py36_0.tar.bz2",
+  "package": "cmarkgfm-0.4.2-py37h14c3975_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py37h14c3975_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "cffi >=1.0.0",
+      "libgcc-ng >=7.3.0",
+      "python >=3.7,<3.8.0a0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "1d66164a677179c9b7ce491a1c9133a3",
-    "name": "clickhouse-cityhash",
-    "sha256": "16f4b3c1e0fa98c05373e023ede7e496c6a0e277cf799a253e55a8e47ac2abc7",
-    "size": 78207,
+    "md5": "f10b2b60e80ab1e949c8e6b7156b1698",
+    "name": "cmarkgfm",
+    "sha256": "0d996478904d49155ff9cc8bd20bba373ac74b04ad8a4d7e039632f4f5ad3dc1",
+    "size": 159425,
     "subdir": "linux-64",
-    "version": "1.0.2.1"
+    "timestamp": 1550244941265,
+    "version": "0.4.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/clickhouse-cityhash-1.0.2.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cmarkgfm-0.4.2-py37h14c3975_0.tar.bz2"
 }

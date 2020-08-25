@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/python-cmd2/cmd2",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/xzkostyan/python-cityhash",
+    "doc_url": "https://cmd2.readthedocs.io/",
+    "home": "https://github.com/python-cmd2/cmd2",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/clickhouse-cityhash/clickhouse-cityhash-1.0.2.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/cmd2/cmd2-0.7.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python-bindings for CityHash, a fast non-cryptographic hash algorithm",
+    "summary": "Extra features for standard library's cmd module",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.0.2.1"
+    "version": "0.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "clickhouse-cityhash-1.0.2.1-py36_0.tar.bz2",
+  "package": "cmd2-0.7.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "pyparsing >=2.0.1",
+      "python 3.5*",
+      "six"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "1d66164a677179c9b7ce491a1c9133a3",
-    "name": "clickhouse-cityhash",
-    "sha256": "16f4b3c1e0fa98c05373e023ede7e496c6a0e277cf799a253e55a8e47ac2abc7",
-    "size": 78207,
+    "md5": "0631e87c1520a543e85e460bf09cfb14",
+    "name": "cmd2",
+    "sha256": "8e73bff5f6f66b91ae592cf6a33b7138eb4eccaa5280e20a95a428cbc4e711f7",
+    "size": 41035,
     "subdir": "linux-64",
-    "version": "1.0.2.1"
+    "version": "0.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/clickhouse-cityhash-1.0.2.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cmd2-0.7.0-py35_0.tar.bz2"
 }

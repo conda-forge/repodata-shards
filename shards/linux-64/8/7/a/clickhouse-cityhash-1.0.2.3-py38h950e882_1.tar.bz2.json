@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,39 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/clickhouse-cityhash/clickhouse-cityhash-1.0.2.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/clickhouse-cityhash/clickhouse-cityhash-1.0.2.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Python-bindings for CityHash, a fast non-cryptographic hash algorithm",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.0.2.1"
+    "timestamp": 1588142417,
+    "version": "1.0.2.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "clickhouse-cityhash-1.0.2.1-py36_0.tar.bz2",
+  "package": "clickhouse-cityhash-1.0.2.3-py38h950e882_1.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "py38h950e882_1",
+    "build_number": 1,
     "depends": [
-      "python 3.6*"
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "1d66164a677179c9b7ce491a1c9133a3",
+    "md5": "19c38ec80aa2685ec5e22e4bc62a5b2c",
     "name": "clickhouse-cityhash",
-    "sha256": "16f4b3c1e0fa98c05373e023ede7e496c6a0e277cf799a253e55a8e47ac2abc7",
-    "size": 78207,
+    "sha256": "601f8d548c9afa503f18f4e3622c86909286df0699cfd1991352093e0222185f",
+    "size": 26202,
     "subdir": "linux-64",
-    "version": "1.0.2.1"
+    "timestamp": 1588142417061,
+    "version": "1.0.2.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/clickhouse-cityhash-1.0.2.1-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/clickhouse-cityhash-1.0.2.3-py38h950e882_1.tar.bz2"
 }

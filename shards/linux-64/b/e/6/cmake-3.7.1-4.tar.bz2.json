@@ -19,7 +19,7 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://cmake.org/files/v3.10/cmake-3.10.0.tar.gz",
+    "source_url": "https://cmake.org/files/v3.7/cmake-3.7.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.10.0"
+    "version": "3.7.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,30 +35,31 @@
     "cf202003",
     "main"
   ],
-  "package": "cmake-3.10.0-1.tar.bz2",
+  "package": "cmake-3.7.1-4.tar.bz2",
   "repodata": {
-    "build": "1",
-    "build_number": 1,
+    "build": "4",
+    "build_number": 4,
     "depends": [
       "bzip2 1.0.*",
-      "curl >=7.44.0,<8",
+      "curl",
       "expat",
+      "jsoncpp",
+      "libarchive",
       "libuv",
       "ncurses 5.9*",
-      "rhash",
       "xz 5.2.*",
-      "zlib 1.2.11"
+      "zlib 1.2.*"
     ],
     "license": "BSD 3-clause",
     "license_family": "BSD",
-    "md5": "fd9c0b9485908e2d3f0574feb3130c03",
+    "md5": "412a532175a96eb0e2e85cf43b42a156",
     "name": "cmake",
-    "sha256": "17c19314e18a083ae35e94d3f87412937fa7bd4e320e63b962121eed1173eaae",
-    "size": 11488471,
+    "sha256": "cbe0552ab35319874307a250d52cdc478240cf0ab3e3ac1e4747c10548cf5751",
+    "size": 8589597,
     "subdir": "linux-64",
-    "version": "3.10.0"
+    "version": "3.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cmake-3.10.0-1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cmake-3.7.1-4.tar.bz2"
 }
