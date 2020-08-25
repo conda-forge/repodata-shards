@@ -4,30 +4,30 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/maartenbreddels/ipywebrtc",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://ipywebrtc.readthedocs.io/",
-    "home": "https://github.com/maartenbreddels/ipywebrtc",
+    "doc_url": null,
+    "home": "http://wradlib.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
     "license": "MIT",
-    "post_link": true,
+    "post_link": false,
     "pre_link": false,
-    "pre_unlink": true,
+    "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ipywebrtc/ipywebrtc-0.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-0.10.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "WebRTC for Jupyter notebook/lab",
+    "summary": "Open Source Library for Weather Radar Data Processing",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.0"
+    "version": "0.10.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "ipywebrtc-0.3.0-py27_0.tar.bz2",
+  "package": "wradlib-0.10.1-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "ipywidgets >=7.0",
-      "python 2.7*"
+      "gdal 2.2.*",
+      "h5py",
+      "matplotlib",
+      "netcdf4",
+      "numpy",
+      "python 2.7*",
+      "scipy"
     ],
     "license": "MIT",
-    "md5": "3cd802310760877515aef9260bd30a38",
-    "name": "ipywebrtc",
-    "sha256": "9f439f851fcdcc1174b0e2aafdff4e72d36ae482bb92533c0af133832c8bd16c",
-    "size": 381830,
+    "md5": "27feece7cb90952f0aada2472a24d689",
+    "name": "wradlib",
+    "sha256": "c19256ea87414b21e6b132cf4b2145b2748a97fed52682a50348817c4e770831",
+    "size": 219732,
     "subdir": "linux-64",
-    "version": "0.3.0"
+    "version": "0.10.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipywebrtc-0.3.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-0.10.1-py27_0.tar.bz2"
 }
