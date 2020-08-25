@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/paver/paver",
+    "home": "https://github.com/CATIA-Systems/FMPy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "BSD-3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/P/Paver/Paver-1.2.4.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Easy build, distribution and deployment scripting",
+    "summary": "Simulate Functional Mockup Units (FMUs) in Python",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.2.4"
+    "version": "0.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "paver-1.2.4-py35_0.tar.bz2",
+  "package": "fmpy-0.1.2-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "cogapp",
-      "python 3.5*",
-      "sphinx",
-      "virtualenv"
+      "dask",
+      "lxml",
+      "matplotlib",
+      "numpy",
+      "pathlib",
+      "python 3.6*",
+      "requests"
     ],
-    "license": "BSD 3-clause",
+    "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "76af342393ee53e2d8e8c3a0f5fa090f",
-    "name": "paver",
-    "sha256": "abc3abc865e2c2cbb868205765cb58f6ac3599fdb16f38e08977680b0aa40206",
-    "size": 223827,
+    "md5": "3f6ae0fe724233781868d6e6052c44e9",
+    "name": "fmpy",
+    "sha256": "14ea4be3cfd43c4e49cf891754cd837e07ecbc56cb145994d194e8c2168b5c55",
+    "size": 651389,
     "subdir": "linux-64",
-    "version": "1.2.4"
+    "version": "0.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/paver-1.2.4-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fmpy-0.1.2-py36_0.tar.bz2"
 }
