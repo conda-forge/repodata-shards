@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://wiki.qt.io/PySide2",
+    "home": "http://openturns.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -18,43 +18,43 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": "/recipe_root/https:/codereview.qt-project.org/pyside/pyside-setup",
+    "source_git_url": "https://github.com/openturns/otagrum.git",
     "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python bindings for Qt",
+    "summary": "OT/aGrUM module",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "5.6.0a1"
+    "timestamp": 1558903565,
+    "version": "0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pyside2-5.6.0a1-py27_1.tar.bz2",
+  "package": "otagrum-0.2-py27h66a8c37_2.tar.bz2",
   "repodata": {
-    "build": "py27_1",
-    "build_number": 1,
+    "build": "py27h66a8c37_2",
+    "build_number": 2,
     "depends": [
-      "libgcc",
-      "libxml2",
-      "libxslt",
-      "python 2.7*",
-      "qt 5.6.*"
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "openturns >=1.13rc.1,<1.14a",
+      "pyagrum",
+      "python >=2.7,<2.8.0a0"
     ],
     "license": "LGPL3",
-    "md5": "9b679ca3f712a086c6364d95ebb6d418",
-    "name": "pyside2",
-    "sha256": "73cf5e704a3876d1cd927109a14697da6a2a1c82b36eb3ac924988d7eeb7b0de",
-    "size": 8542199,
+    "md5": "6a4268e135300a68c9de976115de5302",
+    "name": "otagrum",
+    "sha256": "da19778ded325cf451f0d40ec11a03e08e19db082c92ea05fc8c43b11680c4ed",
+    "size": 562309,
     "subdir": "linux-64",
-    "version": "5.6.0a1"
+    "timestamp": 1558903565229,
+    "version": "0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyside2-5.6.0a1-py27_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/otagrum-0.2-py27h66a8c37_2.tar.bz2"
 }
