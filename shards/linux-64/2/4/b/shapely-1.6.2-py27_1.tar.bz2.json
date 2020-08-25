@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/Toblerity/Fiona",
+    "home": "https://github.com/Toblerity/Shapely",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Toblerity/Fiona/archive/1.7.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/S/Shapely/Shapely-1.6.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fiona reads and writes spatial data files.",
+    "summary": "Python package for manipulation and analysis of geometric objects in the Cartesian plane.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.7.1"
+    "version": "1.6.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,29 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "fiona-1.7.1-np111py27_0.tar.bz2",
+  "package": "shapely-1.6.2-py27_1.tar.bz2",
   "repodata": {
-    "build": "np111py27_0",
-    "build_number": 0,
+    "build": "py27_1",
+    "build_number": 1,
     "depends": [
-      "click-plugins",
-      "cligj",
-      "gdal 2.1.*",
-      "munch",
-      "numpy 1.11*",
-      "python 2.7*",
-      "setuptools",
-      "six"
+      "geos 3.6.2",
+      "numpy >=1.8",
+      "python 2.7*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "8a024f3d3ff3c754ab6ef8ab1da331cf",
-    "name": "fiona",
-    "sha256": "a0a3465ab217fef9b467c79d81ca0989df6012a6a5c07504605cc44d1a99e674",
-    "size": 1140454,
+    "md5": "9a1d3be2679568e0d64b35c4f823775a",
+    "name": "shapely",
+    "sha256": "95d41f8ae56ddee1a5a1ea820eb33be8577a5d3b18d08f6b7d543d604fb8b105",
+    "size": 686873,
     "subdir": "linux-64",
-    "version": "1.7.1"
+    "version": "1.6.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.7.1-np111py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/shapely-1.6.2-py27_1.tar.bz2"
 }
