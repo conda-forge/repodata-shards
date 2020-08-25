@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://zeromq.org",
+    "home": "http://github.com/apache/arrow",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL 3",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/zeromq/libzmq/releases/download/v4.2.1/zeromq-4.2.1.tar.gz",
+    "source_url": "https://github.com/apache/arrow/archive/46315431aeda3b6968b3ac4c1087f6d41052b99d.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A high-performance asynchronous messaging library.",
+    "summary": "C++ libraries for Apache Arrow",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "4.2.1"
+    "version": "0.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "zeromq-4.2.1-1.tar.bz2",
+  "package": "arrow-cpp-0.4.1-np112py35_1.tar.bz2",
   "repodata": {
-    "build": "1",
+    "build": "np112py35_1",
     "build_number": 1,
     "depends": [
-      "libsodium"
+      "jemalloc",
+      "numpy 1.12*",
+      "python 3.5*"
     ],
-    "license": "LGPL 3",
-    "md5": "b3496cf09ffc099e3050449ee2a3af05",
-    "name": "zeromq",
-    "sha256": "98cb638ab3ec43f6ab26799341e5b41134aac1752663f5c7d1353f169fd91233",
-    "size": 662774,
+    "license": "Apache 2.0",
+    "md5": "6d69656b2efe12cf75dc6404e91657e1",
+    "name": "arrow-cpp",
+    "sha256": "eb2762f1ac742269693645e3042399517ab9f18d4e21b1597cc7695248ac45a2",
+    "size": 1344593,
     "subdir": "linux-64",
-    "version": "4.2.1"
+    "version": "0.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/zeromq-4.2.1-1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/arrow-cpp-0.4.1-np112py35_1.tar.bz2"
 }

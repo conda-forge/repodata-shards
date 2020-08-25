@@ -1,56 +1,56 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://zeromq.org",
+    "home": "http://openturns.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL 3",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/zeromq/libzmq/releases/download/v4.2.1/zeromq-4.2.1.tar.gz",
+    "source_url": "https://github.com/openturns/otrobopt/archive/v0.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A high-performance asynchronous messaging library.",
+    "summary": "Robust optimization module",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "4.2.1"
+    "version": "0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "zeromq-4.2.1-1.tar.bz2",
+  "package": "otrobopt-0.3-py35_0.tar.bz2",
   "repodata": {
-    "build": "1",
-    "build_number": 1,
+    "build": "py35_0",
+    "build_number": 0,
     "depends": [
-      "libsodium"
+      "openturns",
+      "python 3.5*"
     ],
-    "license": "LGPL 3",
-    "md5": "b3496cf09ffc099e3050449ee2a3af05",
-    "name": "zeromq",
-    "sha256": "98cb638ab3ec43f6ab26799341e5b41134aac1752663f5c7d1353f169fd91233",
-    "size": 662774,
+    "license": "LGPL3",
+    "md5": "60e6a84bb558590a27b841be0d1f1851",
+    "name": "otrobopt",
+    "sha256": "c8d36e3d12cb9d807b4b77da7ba91defe3d6f0a996a0aff9e373b49f1b42aae7",
+    "size": 527629,
     "subdir": "linux-64",
-    "version": "4.2.1"
+    "version": "0.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/zeromq-4.2.1-1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/otrobopt-0.3-py35_0.tar.bz2"
 }
