@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/ruamel/yaml",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.9.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.15.9"
+    "version": "1.10.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "ruamel.yaml-0.15.9-py35_0.tar.bz2",
+  "package": "pycsw-1.10.4-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*",
-      "setuptools"
+      "geolinks",
+      "lxml",
+      "owslib",
+      "pyproj",
+      "python 2.7*",
+      "shapely",
+      "sqlalchemy"
     ],
     "license": "MIT",
-    "md5": "c81032bac73bd972f64ca6cd439e92f3",
-    "name": "ruamel.yaml",
-    "sha256": "34360c65e6569b82b3636c963ee8c8192053f967fe28bbfb7a5695292a1545bb",
-    "size": 609543,
+    "md5": "5031bec1b1e81db3a75d645aeb8764bc",
+    "name": "pycsw",
+    "sha256": "59a141a5c5c68218f99a240046ddb627e256f09a73681361b664c075c655de05",
+    "size": 271963,
     "subdir": "linux-64",
-    "version": "0.15.9"
+    "version": "1.10.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.15.9-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pycsw-1.10.4-py27_0.tar.bz2"
 }
