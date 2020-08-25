@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/HypothesisWorks/hypothesis-python",
+    "home": "https://github.com/pypa/auditwheel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MPL 2.0",
+    "license": "MIT License",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hypothesis/hypothesis-3.23.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/auditwheel/auditwheel-1.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for property based testing",
+    "summary": "Linux wheel verification tool to ensure compatibility",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.23.0"
+    "version": "1.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "hypothesis-3.23.0-py27_0.tar.bz2",
+  "package": "auditwheel-1.4.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "enum34",
-      "python 2.7*"
+      "pip",
+      "pyelftools",
+      "python 3.5*",
+      "setuptools"
     ],
-    "license": "MPL 2.0",
-    "md5": "41bc72589cd78ec1603c40e440a49b98",
-    "name": "hypothesis",
-    "sha256": "e1f1ca5c34896d988bde6be7b4c288ee3148de134d8a7981016e91e3dee55b80",
-    "size": 190990,
+    "license": "MIT License",
+    "md5": "ae6e8002b75993201d01e738822e8489",
+    "name": "auditwheel",
+    "sha256": "2fe6fa567acc9f8816dbe292a3059cae00b028e734c40aa91f576dcb3da7b320",
+    "size": 38540,
     "subdir": "linux-64",
-    "version": "3.23.0"
+    "version": "1.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hypothesis-3.23.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/auditwheel-1.4.0-py35_0.tar.bz2"
 }
