@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/lmcinnes/hdbscan",
+    "home": "https://github.com/glue-viz/glue-vispy-viewers",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hdbscan/hdbscan-0.8.13.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/glue-vispy-viewers/glue-vispy-viewers-0.6.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Clustering based on density with variable density clusters",
+    "summary": "3D viewers for Glue",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1525023451,
-    "version": "0.8.13"
+    "timestamp": 0,
+    "version": "0.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "hdbscan-0.8.13-py35_0.tar.bz2",
+  "package": "glue-vispy-viewers-0.6-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
+      "glueviz >=0.9",
+      "matplotlib",
       "numpy",
-      "python >=3.5,<3.6.0a0",
-      "scikit-learn"
+      "pyopengl",
+      "pyqt 4.11.*",
+      "python 3.5*",
+      "qtpy",
+      "scikit-image"
     ],
     "license": "BSD 3-Clause",
-    "md5": "a1926de172ff44b8381a203785d896f0",
-    "name": "hdbscan",
-    "sha256": "cc73dd0767b54d8a907e3e6d8bf097111fe039fb1089fdc294f23e2cb6e15477",
-    "size": 2712981,
+    "md5": "c1a9abcc70ad00e5b3c59657e921d77c",
+    "name": "glue-vispy-viewers",
+    "sha256": "c73989d755695e6ae22f58a0bdbf17656f2783166d285e9a75eb77cfd6b998f0",
+    "size": 1362843,
     "subdir": "linux-64",
-    "timestamp": 1525023451783,
-    "version": "0.8.13"
+    "version": "0.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdbscan-0.8.13-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/glue-vispy-viewers-0.6-py35_0.tar.bz2"
 }
