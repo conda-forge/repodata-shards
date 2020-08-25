@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/dchest/pyblake2",
+    "home": "https://github.com/html5lib/html5lib-python",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pyblake2/pyblake2-1.1.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/h/html5lib/html5lib-0.9999999.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "pyblake2 is an extension module for Python implementing BLAKE2 hash function. BLAKE2 is a cryptographic hash function, which offers highest security while being as fast as MD5 or SHA-1,",
+    "summary": "HTML parser based on the WHATWG HTML specification",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.1.2"
+    "version": "0.9999999"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "pyblake2-1.1.2-py36_0.tar.bz2",
+  "package": "html5lib-0.9999999-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "python 2.7*",
+      "six >=1.9",
+      "webencodings"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "cbf7d01ee682521e527aff246a3d1101",
-    "name": "pyblake2",
-    "sha256": "5ac39c4c45cdfb2c165ca64ac8cf4b53fa850e55a532e3ca9826a3bff42c494e",
-    "size": 67859,
+    "md5": "3ee91b2d9dc7b89627a2df3fcad675ab",
+    "name": "html5lib",
+    "sha256": "65ccd0a1f01dfcda2d504b8dad3965ab2b093cd33f81520322de0c0b7e8185e2",
+    "size": 191215,
     "subdir": "linux-64",
-    "version": "1.1.2"
+    "version": "0.9999999"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyblake2-1.1.2-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/html5lib-0.9999999-py27_0.tar.bz2"
 }
