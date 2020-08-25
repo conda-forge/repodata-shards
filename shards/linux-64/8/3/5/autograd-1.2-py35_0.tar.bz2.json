@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/hhatto/autopep8",
+    "home": "https://github.com/HIPS/autograd",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/autopep8/autopep8-1.2.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/autograd/autograd-1.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A tool that automatically formats Python code to conform to the PEP 8 style guide",
+    "summary": "Efficiently computes derivatives of numpy code.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.2.4"
+    "version": "1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "autopep8-1.2.4-py27_2.tar.bz2",
+  "package": "autograd-1.2-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_2",
-    "build_number": 2,
+    "build": "py35_0",
+    "build_number": 0,
     "depends": [
-      "pep8 >=1.5.7",
-      "python 2.7*"
+      "future >=0.15.2",
+      "numpy >=1.10",
+      "python 3.5*",
+      "scipy >=0.17"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "21fec5e67f259e90370069f848090ccd",
-    "name": "autopep8",
-    "sha256": "c5cfa3b64fa39fe4ec8dfdc1735bbca1fdd30eb9451eeaa780769a1cf95a500d",
-    "size": 58551,
+    "md5": "9d6c02a32424215590575ab9f662c88e",
+    "name": "autograd",
+    "sha256": "06fe9948b8ba50778a9849b0e19f6c7193cb16d511abe5cfa74e7907e5d6bb13",
+    "size": 82063,
     "subdir": "linux-64",
-    "version": "1.2.4"
+    "version": "1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/autopep8-1.2.4-py27_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/autograd-1.2-py35_0.tar.bz2"
 }

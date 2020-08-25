@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -26,7 +26,7 @@
     "summary": "A package for solving ordinary differential equations and differential algebraic equations.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1547114248,
+    "timestamp": 1547044282,
     "version": "3.0"
   },
   "channeldata_version": 1,
@@ -35,29 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "assimulo-3.0-py27h18b3941_1.tar.bz2",
+  "package": "assimulo-3.0-py36h6091dcd_1000.tar.bz2",
   "repodata": {
-    "build": "py27h18b3941_1",
-    "build_number": 1,
+    "build": "py36h6091dcd_1000",
+    "build_number": 1000,
     "depends": [
-      "libgcc-ng >=4.9",
-      "libgfortran >=3.0",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
       "matplotlib",
       "numpy >=1.9.3,<2.0a0",
-      "python >=2.7,<2.8.0a0",
+      "python >=3.6,<3.7.0a0",
       "scipy",
       "sundials 3.*"
     ],
-    "license": "LGPL",
-    "md5": "c3478b14265adc2dfdf09d5918617ea0",
+    "license": "LGPL3",
+    "md5": "fbed8f6b2a6ef2357fcba928dd2248eb",
     "name": "assimulo",
-    "sha256": "6c2ccb6a894117d4b96430ee76aaa89b27373c8a5f0ad03e5dba916779278b66",
-    "size": 5535749,
+    "sha256": "a6b8364d4cc7c881f39438ecfdabaab1f4b38797bf5103fd6149a9ebe94ee7ba",
+    "size": 2460077,
     "subdir": "linux-64",
-    "timestamp": 1547114248182,
+    "timestamp": 1547044282234,
     "version": "3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/assimulo-3.0-py27h18b3941_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/assimulo-3.0-py36h6091dcd_1000.tar.bz2"
 }

@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/hhatto/autopep8",
+    "home": "https://github.com/pypa/auditwheel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "MIT License",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/autopep8/autopep8-1.2.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/auditwheel/auditwheel-1.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A tool that automatically formats Python code to conform to the PEP 8 style guide",
+    "summary": "Linux wheel verification tool to ensure compatibility",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.2.4"
+    "version": "1.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "autopep8-1.2.4-py27_2.tar.bz2",
+  "package": "auditwheel-1.2.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_2",
-    "build_number": 2,
+    "build": "py35_0",
+    "build_number": 0,
     "depends": [
-      "pep8 >=1.5.7",
-      "python 2.7*"
+      "pip",
+      "pyelftools",
+      "python 3.5*",
+      "setuptools"
     ],
-    "license": "MIT",
-    "license_family": "MIT",
-    "md5": "21fec5e67f259e90370069f848090ccd",
-    "name": "autopep8",
-    "sha256": "c5cfa3b64fa39fe4ec8dfdc1735bbca1fdd30eb9451eeaa780769a1cf95a500d",
-    "size": 58551,
+    "license": "MIT License",
+    "md5": "3ceb3deda6e35a0f7217eedfe79ec01d",
+    "name": "auditwheel",
+    "sha256": "773bc9ebced55f05b919fa0da7dfd9eff502b85af507c43601210543a95e0193",
+    "size": 36801,
     "subdir": "linux-64",
-    "version": "1.2.4"
+    "version": "1.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/autopep8-1.2.4-py27_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/auditwheel-1.2.0-py35_0.tar.bz2"
 }

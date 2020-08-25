@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,7 +19,7 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/apache/arrow/archive/c695a5ddc8d26c977b5ecd0c55212e900726953e.tar.gz",
+    "source_url": "https://github.com/apache/arrow/archive/b17333482ea1da3728538bc912b1053ba70ed2e7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "0.9.0"
+    "version": "0.6.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "arrow-cpp-0.9.0-py36_5.tar.bz2",
+  "package": "arrow-cpp-0.6.0-np112py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_5",
-    "build_number": 5,
+    "build": "np112py27_0",
+    "build_number": 0,
     "depends": [
-      "boost-cpp 1.66.0",
-      "numpy >=1.10",
-      "python 3.6*"
+      "numpy 1.12*",
+      "python 2.7*"
     ],
     "license": "Apache 2.0",
-    "md5": "ac3aa2b5fc1185dad1266a0f00a4d50f",
+    "md5": "ce54cf760ec3743c81c7c2bbc565e249",
     "name": "arrow-cpp",
-    "sha256": "f76515511f1d9bfef8060b26a60b8175de2d570bff65ca4224a3019a3a2fb652",
-    "size": 3547174,
+    "sha256": "50db78f54334098260d4190d2fda51cd891d28f2fbf054e28273cd30fb4dee18",
+    "size": 2437053,
     "subdir": "linux-64",
-    "version": "0.9.0"
+    "version": "0.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/arrow-cpp-0.9.0-py36_5.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/arrow-cpp-0.6.0-np112py27_0.tar.bz2"
 }
