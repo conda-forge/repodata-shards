@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/paver/paver",
+    "home": "https://github.com/aio-libs/aiomysql",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/P/Paver/Paver-1.2.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/aiomysql/aiomysql-0.0.17.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Easy build, distribution and deployment scripting",
+    "summary": "aiomysql is a library for accessing a MySQL database from the asyncio",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.2.4"
+    "timestamp": 1531388007,
+    "version": "0.0.17"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "paver-1.2.4-py35_0.tar.bz2",
+  "package": "aiomysql-0.0.17-py36_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "cogapp",
-      "python 3.5*",
-      "sphinx",
-      "virtualenv"
+      "pymysql >=0.7.5",
+      "python >=3.6,<3.7.0a0"
     ],
-    "license": "BSD 3-clause",
-    "license_family": "BSD",
-    "md5": "76af342393ee53e2d8e8c3a0f5fa090f",
-    "name": "paver",
-    "sha256": "abc3abc865e2c2cbb868205765cb58f6ac3599fdb16f38e08977680b0aa40206",
-    "size": 223827,
+    "license": "MIT",
+    "md5": "a1ee23152684e393bf886be041d52d1f",
+    "name": "aiomysql",
+    "sha256": "e635cb6cf701c4fec5244cfc0d1b2cf93966d22a68dc53f8aa3c3d4c13a7d7af",
+    "size": 59437,
     "subdir": "linux-64",
-    "version": "1.2.4"
+    "timestamp": 1531388007626,
+    "version": "0.0.17"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/paver-1.2.4-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/aiomysql-0.0.17-py36_0.tar.bz2"
 }
