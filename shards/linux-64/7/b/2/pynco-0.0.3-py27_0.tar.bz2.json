@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/HypothesisWorks/hypothesis-python",
+    "home": "https://github.com/nco/pynco",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MPL 2.0",
+    "license": "GPL-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hypothesis/hypothesis-4.14.0.tar.gz",
+    "source_url": "https://github.com/nco/pynco/archive/0.0.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for property based testing",
+    "summary": "Python bindings to NCO.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1553043979,
-    "version": "4.14.0"
+    "timestamp": 0,
+    "version": "0.0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "hypothesis-4.14.0-py27_0.tar.bz2",
+  "package": "pynco-0.0.3-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "attrs >=16.0.0",
-      "enum34",
-      "python >=2.7,<2.8.0a0"
+      "h5py",
+      "nco",
+      "netcdf4",
+      "numpy",
+      "python 2.7*",
+      "python-dateutil",
+      "scipy"
     ],
-    "license": "MPL 2.0",
-    "md5": "2c11d47288682605d3d3395905227d9b",
-    "name": "hypothesis",
-    "sha256": "c77a7fa8755c0b3a61f281a626a0f25038056fa205957c86d500d3b5d5bef07a",
-    "size": 334446,
+    "license": "GPL-2.0",
+    "md5": "5c892bfaadeb68a8514d383494bac3bd",
+    "name": "pynco",
+    "sha256": "ea727e03bd53a4e8f90433f378bd7f63404e1ca2ca19f690229f6fbb1255e375",
+    "size": 24140,
     "subdir": "linux-64",
-    "timestamp": 1553043979677,
-    "version": "4.14.0"
+    "version": "0.0.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hypothesis-4.14.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pynco-0.0.3-py27_0.tar.bz2"
 }
