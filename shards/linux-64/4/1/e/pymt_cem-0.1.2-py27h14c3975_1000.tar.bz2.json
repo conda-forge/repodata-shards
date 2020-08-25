@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/al45tair/netifaces",
+    "dev_url": "https://github.com/pymt-lab/pymt_cem",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/al45tair/netifaces",
+    "home": "https://github.com/pymt-lab/pymt_cem",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.org/packages/source/n/netifaces/netifaces-0.10.9.tar.gz",
+    "source_url": "https://github.com/pymt-lab/pymt_cem/archive/v0.1.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Portable network interface information.",
+    "summary": "CEM components wrapped as PyMT plugins.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1573206759,
-    "version": "0.10.9"
+    "timestamp": 1541624989,
+    "version": "0.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "netifaces-0.10.9-py38h516909a_1000.tar.bz2",
+  "package": "pymt_cem-0.1.2-py27h14c3975_1000.tar.bz2",
   "repodata": {
-    "build": "py38h516909a_1000",
+    "build": "py27h14c3975_1000",
     "build_number": 1000,
     "depends": [
+      "cem",
       "libgcc-ng >=7.3.0",
-      "python >=3.8,<3.9.0a0"
+      "numpy >=1.11.3,<2.0a0",
+      "python >=2.7,<2.8.0a0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "068c2bc8b08cd90c8e60f2c46e7c0cf7",
-    "name": "netifaces",
-    "sha256": "fa69b28a40ba170f7d9924c135866991e62858bee69c819d156f4c7871037a07",
-    "size": 23985,
+    "md5": "c5aa10bd1e3af5b6ec8f99a80ab48e93",
+    "name": "pymt_cem",
+    "sha256": "e2342b2fbc595a68d21f14485a742d028bbae09f82bf1bbd8e1ed20a536e4bf1",
+    "size": 131870,
     "subdir": "linux-64",
-    "timestamp": 1573206759559,
-    "version": "0.10.9"
+    "timestamp": 1541624989331,
+    "version": "0.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/netifaces-0.10.9-py38h516909a_1000.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pymt_cem-0.1.2-py27h14c3975_1000.tar.bz2"
 }
