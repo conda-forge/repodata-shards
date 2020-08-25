@@ -19,40 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://bitbucket.org/wxmetvis/mss/get/1.7.0.tar.gz",
+    "source_url": "https://bitbucket.org/wxmetvis/mss/get/1.7.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "A web service based tool to plan atmospheric research flights.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1524481388,
-    "version": "1.7.0"
+    "timestamp": 1540165626,
+    "version": "1.7.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "mss-1.7.0-py35h0678092_0.tar.bz2",
+  "package": "mss-1.7.4-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35h0678092_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "basemap 1.1.*",
+      "basemap >=1.1.0",
+      "cftime >=1.0.1",
       "chameleon",
       "execnet",
       "fs_filepicker",
+      "future",
       "hdf4",
       "jplephem",
       "lxml",
+      "matplotlib <3.0.0",
       "netcdf4",
       "owslib",
       "paste",
-      "pillow",
+      "pillow 5.*",
+      "proj4",
       "pyqt 5.*",
-      "python >=3.5,<3.6.0a0",
+      "python >=2.7,<2.8.0a0",
       "python-dateutil",
       "pytz",
       "qt 5.*",
@@ -65,15 +68,15 @@
       "unicodecsv"
     ],
     "license": "Apache 2.0",
-    "md5": "d8ce700dc11f678f79790e3636854e34",
+    "md5": "4a6c5400434e162103f6b3f169f8e529",
     "name": "mss",
-    "sha256": "df7df92c9d2b63a822967a55d3257d14f8cb878dbce7823e93bb3cfc27a011fc",
-    "size": 534733,
+    "sha256": "f6fb24c934fdf86a7dfcc5e0239681b21571f7ccc220703a1cc154f96df8710b",
+    "size": 539332,
     "subdir": "linux-64",
-    "timestamp": 1524481388805,
-    "version": "1.7.0"
+    "timestamp": 1540165626517,
+    "version": "1.7.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/mss-1.7.0-py35h0678092_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mss-1.7.4-py27_0.tar.bz2"
 }

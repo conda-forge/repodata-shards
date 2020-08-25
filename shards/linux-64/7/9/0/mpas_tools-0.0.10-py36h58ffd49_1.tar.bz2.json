@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "A set of tools for creating and manipulating meshes for the climate components based on the Model for Prediction Across Scales (MPAS) framework",
     "dev_url": "https://github.com/MPAS-Dev/MPAS-Tools/",
@@ -19,34 +19,33 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/MPAS-Dev/MPAS-Tools/archive/0.0.9.tar.gz",
+    "source_url": "https://github.com/MPAS-Dev/MPAS-Tools/archive/0.0.10.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Mesh tools for Model for Prediction Across Scales (MPAS)",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1583490976,
-    "version": "0.0.9"
+    "timestamp": 1587109064,
+    "version": "0.0.10"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "mpas_tools-0.0.9-py36h05a2ad5_0.tar.bz2",
+  "package": "mpas_tools-0.0.10-py36h58ffd49_1.tar.bz2",
   "repodata": {
-    "build": "py36h05a2ad5_0",
-    "build_number": 0,
+    "build": "py36h58ffd49_1",
+    "build_number": 1,
     "depends": [
       "backports.tempfile",
       "dask",
       "future",
       "geometric_features",
-      "hdf5 >=1.10.5,<1.10.6.0a0",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
       "libgcc-ng >=7.3.0",
-      "libnetcdf >=4.7.3,<5.0a0",
+      "libnetcdf >=4.7.4,<4.7.5.0a0",
       "libstdcxx-ng >=7.3.0",
       "netcdf4",
       "numpy",
@@ -58,15 +57,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "9bfdb66753ca6e6331f9b611d42c09e5",
+    "md5": "3f2acc111821556f7afeb009846e70f2",
     "name": "mpas_tools",
-    "sha256": "09f9c870f18ee18e9323c90a51af78caefba3c0dfa1f72eaaf0dcadc29eefa39",
-    "size": 546396,
+    "sha256": "6b2088a15061a7f6d00ece67ce895d55795e290a3a50036112ed5db5282a29bf",
+    "size": 556116,
     "subdir": "linux-64",
-    "timestamp": 1583490976936,
-    "version": "0.0.9"
+    "timestamp": 1587109064011,
+    "version": "0.0.10"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/mpas_tools-0.0.9-py36h05a2ad5_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mpas_tools-0.0.10-py36h58ffd49_1.tar.bz2"
 }

@@ -6,8 +6,8 @@
     "description": "MPI for Python provides bindings of the Message Passing Interface (MPI) standard for the Python programming language, allowing any Python program to exploit multiple processors.",
     "dev_url": "https://bitbucket.org/mpi4py/mpi4py",
     "doc_source_url": null,
-    "doc_url": "http://mpi4py.readthedocs.org/",
-    "home": "http://pythonhosted.org/mpi4py/",
+    "doc_url": "https://mpi4py.readthedocs.org/",
+    "home": "http://mpi4py.scipy.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/m/mpi4py/mpi4py-2.0.0.tar.gz",
+    "source_url": "https://bitbucket.org/mpi4py/mpi4py/downloads/mpi4py-3.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Provides bindings of the MPI standard for Python",
+    "summary": "Python bindings for MPI",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 0,
-    "version": "2.0.0"
+    "text_prefix": true,
+    "timestamp": 1543234304,
+    "version": "3.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "mpi4py-2.0.0-py34_0.tar.bz2",
+  "package": "mpi4py-3.0.0-py36hf046da1_1004.tar.bz2",
   "repodata": {
-    "build": "py34_0",
-    "build_number": 0,
+    "build": "py36hf046da1_1004",
+    "build_number": 1004,
     "depends": [
-      "mpich",
-      "python 3.4*"
+      "libgcc-ng >=7.3.0",
+      "mpich >=3.2,<3.3.0a0",
+      "python >=3.6,<3.7.0a0"
     ],
     "license": "BSD 2-clause",
-    "md5": "411a36c0250ea0942049b094e5b46146",
+    "license_family": "BSD",
+    "md5": "623a5816950a021554788c5d22832ba0",
     "name": "mpi4py",
-    "sha256": "9e391d2e1748c52f7c6e661c4f964d0f7d0ee3e513521f37bb60172d283f2310",
-    "size": 2183338,
+    "sha256": "9a5986b525040dd83e8bc15ee1ff929e5065b0aae6504c0f3b65d6cb954ee7ca",
+    "size": 669381,
     "subdir": "linux-64",
-    "version": "2.0.0"
+    "timestamp": 1543234304932,
+    "version": "3.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/mpi4py-2.0.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mpi4py-3.0.0-py36hf046da1_1004.tar.bz2"
 }
