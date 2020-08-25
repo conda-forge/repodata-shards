@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/chaimleib/intervaltree",
+    "home": "http://importlib-resources.readthedocs.io",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/intervaltree/intervaltree-2.1.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/i/importlib_resources/importlib_resources-1.0.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Editable interval tree data structure for Python 2 and 3",
+    "summary": "Backport of Python 3.7's standard library `importlib.resources`.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "2.1.0"
+    "timestamp": 1530443303,
+    "version": "1.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "intervaltree-2.1.0-py27_0.tar.bz2",
+  "package": "importlib_resources-1.0.1-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*",
-      "sortedcontainers"
+      "pathlib2",
+      "python >=2.7,<2.8.0a0",
+      "typing"
     ],
     "license": "Apache-2.0",
-    "license_family": "APACHE",
-    "md5": "196a79103b409649b9da9d3e3fc09492",
-    "name": "intervaltree",
-    "sha256": "ab31fd3538bef13409c700072dbdbf69eec15de37ca36cb6daa9a89836a4a6b0",
-    "size": 33301,
+    "md5": "a4d1a766d66889e739a9a1b3bda4d0b7",
+    "name": "importlib_resources",
+    "sha256": "0298c2cfc7de3507e96898f823e0e700e3fbf37038f06666338f842d6c25ddf3",
+    "size": 32086,
     "subdir": "linux-64",
-    "version": "2.1.0"
+    "timestamp": 1530443303733,
+    "version": "1.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/intervaltree-2.1.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/importlib_resources-1.0.1-py27_0.tar.bz2"
 }
