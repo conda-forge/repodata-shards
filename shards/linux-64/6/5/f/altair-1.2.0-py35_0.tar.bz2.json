@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/quodlibet/mutagen",
+    "home": "http://github.com/ellisonbg/altair",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GNU General Public License v2 (GPLv2)",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/m/mutagen/mutagen-1.32.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/altair/altair-1.2.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Read and write audio tags for many formats",
+    "summary": "High-level declarative visualization library for Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.32"
+    "version": "1.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "mutagen-1.32-py35_0.tar.bz2",
+  "package": "altair-1.2.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "pandas",
+      "python 3.5*",
+      "traitlets >=4.3.1",
+      "vega >=0.4.4"
     ],
-    "license": "GNU General Public License v2 (GPLv2)",
-    "md5": "80a93ce05b7e2a069b4f05e004b51d64",
-    "name": "mutagen",
-    "sha256": "edef44e62c628b74248445f7d6678dee12329b56e5cde90185a899a920ebb4b3",
-    "size": 208253,
+    "license": "BSD 3-clause",
+    "md5": "f25d3b2c1ef77644b385b10521133f58",
+    "name": "altair",
+    "sha256": "4bce1fff8cd902c32349cb80f9c1aa276fe0b4ab770b2994e4b7733eeaf8c4e8",
+    "size": 4238567,
     "subdir": "linux-64",
-    "version": "1.32"
+    "version": "1.2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/mutagen-1.32-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/altair-1.2.0-py35_0.tar.bz2"
 }
