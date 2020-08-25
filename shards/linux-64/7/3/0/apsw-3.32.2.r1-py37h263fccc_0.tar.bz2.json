@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "APSW is a Python wrapper for the SQLite embedded relational database engine. In contrast to other wrappers such as pysqlite it focuses on being a minimal layer over SQLite attempting just to translate the complete SQLite API into Python. The documentation has a section on the differences between APSW and pysqlite. APSW supports CPython 2.3 onwards and CPython 3.1 onwards.",
     "dev_url": "https://github.com/rogerbinns/apsw",
@@ -19,39 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/rogerbinns/apsw/archive/3.20.1-r1.tar.gz",
+    "source_url": "https://github.com/rogerbinns/apsw/archive/3.32.2-r1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "APSW stands for Another Python SQLite Wrapper.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "3.20.1.r1"
+    "timestamp": 1597317212,
+    "version": "3.32.2.r1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "apsw-3.20.1.r1-py27_0.tar.bz2",
+  "package": "apsw-3.32.2.r1-py37h263fccc_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py37h263fccc_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*",
-      "sqlite 3.20.1"
+      "libgcc-ng >=7.5.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "sqlite >=3.32.3,<4.0a0"
     ],
     "license": "OSI",
-    "md5": "8cb9589da76d12c08fa1a7e8c18f7371",
+    "md5": "2547aeca8f2514fab4b833a7866acd96",
     "name": "apsw",
-    "sha256": "792aa123f7c6b0949c4569aa359109157204adb58590a34fa45951dff4d1ddd0",
-    "size": 275848,
+    "sha256": "e9319a67b75625129afe9559c732e550a886f1193c7978aeffce00f4650128e9",
+    "size": 106496,
     "subdir": "linux-64",
-    "version": "3.20.1.r1"
+    "timestamp": 1597317212680,
+    "version": "3.32.2.r1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/apsw-3.20.1.r1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/apsw-3.32.2.r1-py37h263fccc_0.tar.bz2"
 }

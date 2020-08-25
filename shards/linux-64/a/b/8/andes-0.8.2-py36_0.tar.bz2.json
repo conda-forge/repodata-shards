@@ -12,22 +12,22 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache Software",
+    "license": "GNU General Public v3+",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/andes/andes-0.6.9.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/andes/andes-0.8.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Another Power System Simulator",
+    "summary": "A Python package for power system symbolic modeling and numerical simulation",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1582906072,
-    "version": "0.6.9"
+    "timestamp": 1583760232,
+    "version": "0.8.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,30 +35,37 @@
     "cf202003",
     "main"
   ],
-  "package": "andes-0.6.9-py37_1.tar.bz2",
+  "package": "andes-0.8.2-py36_0.tar.bz2",
   "repodata": {
-    "build": "py37_1",
-    "build_number": 1,
+    "build": "py36_0",
+    "build_number": 0,
     "depends": [
+      "coloredlogs",
       "cvxopt",
+      "dill",
       "matplotlib-base",
       "numpy",
       "pandas",
-      "python >=3.7,<3.8.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "pyyaml",
       "scipy",
-      "sympy"
+      "sympy",
+      "tqdm",
+      "xlrd",
+      "xlsxwriter"
     ],
-    "license": "Apache Software",
-    "license_family": "APACHE",
-    "md5": "43e548e0e862c5c6602815dd0f549dc3",
+    "license": "GNU General Public v3+",
+    "license_family": "GPL3",
+    "md5": "2957ae362d3ce61976c9d7d2c32f2bc4",
     "name": "andes",
-    "sha256": "8e994f0895b420efe38df92392693e858c0a87f0063446b5cc41246733d9de92",
-    "size": 295742,
+    "sha256": "24327eb86cf3ea6d34b1209720d41669de5ca7434eb4da1679c998d60c5af233",
+    "size": 386677,
     "subdir": "linux-64",
-    "timestamp": 1582906072586,
-    "version": "0.6.9"
+    "timestamp": 1583760232754,
+    "version": "0.8.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/andes-0.6.9-py37_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/andes-0.8.2-py36_0.tar.bz2"
 }
