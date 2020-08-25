@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/zillow/ctds",
+    "home": "http://wradlib.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,42 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/ctds/ctds-1.8.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-0.9.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "DB API 2.0-compliant Linux driver for SQL Server",
+    "summary": "Open Source Library for Weather Radar Data Processing",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1538453934,
-    "version": "1.8.0"
+    "timestamp": 0,
+    "version": "0.9.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "ctds-1.8.0-py36_0.tar.bz2",
+  "package": "wradlib-0.9.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "freetds",
-      "python >=3.6,<3.7.0a0",
-      "setuptools"
+      "gdal 2.1.*",
+      "h5py",
+      "matplotlib",
+      "netcdf4",
+      "numpy",
+      "python 3.5*",
+      "scipy"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "89614491e7c78b0f51d7491c441b00f0",
-    "name": "ctds",
-    "sha256": "8e02f5eb809e054e96b4cb4e3a27a6d44a9b1e2833342710abe1cbaa071ce50b",
-    "size": 155653,
+    "md5": "69db8aa95591e6718afd6e5234e948ee",
+    "name": "wradlib",
+    "sha256": "c37a1b99f0814e5dea81bf8a7cfda555c202c56feb64b4ab97b0cecd4f44c11e",
+    "size": 195727,
     "subdir": "linux-64",
-    "timestamp": 1538453934897,
-    "version": "1.8.0"
+    "version": "0.9.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ctds-1.8.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-0.9.0-py35_0.tar.bz2"
 }
