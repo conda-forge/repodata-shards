@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/SethMMorton/fastnumbers",
+    "dev_url": "https://github.com/crossbario/autobahn-python",
     "doc_source_url": null,
-    "doc_url": "https://fastnumbers.readthedocs.io/",
-    "home": "https://github.com/SethMMorton/fastnumbers",
+    "doc_url": "https://autobahn-python.readthedocs.io",
+    "home": "https://github.com/crossbario/autobahn-python",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/f/fastnumbers/fastnumbers-2.0.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/a/autobahn/autobahn-17.5.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Super-fast and clean conversions to numbers.",
+    "summary": "WebSocket and WAMP in Python for Twisted and asyncio",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.0.1"
+    "version": "17.5.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "fastnumbers-2.0.1-py27_0.tar.bz2",
+  "package": "autobahn-17.5.1-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "python 2.7*",
+      "six >=1.10.0",
+      "txaio >=2.7.0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "408bde6e2502cd08f74ae8fe23249a6a",
-    "name": "fastnumbers",
-    "sha256": "5f8c2002a7db19abeaee365177218eb22ba1f70230564126d540f69a11383ce9",
-    "size": 61439,
+    "md5": "6969fe3d6afac817d2132f9123eb9968",
+    "name": "autobahn",
+    "sha256": "21c9cee9b9b24fdf318dcf1f511a1e995bb68fe1222cfe817242d6c2ab17f579",
+    "size": 334417,
     "subdir": "linux-64",
-    "version": "2.0.1"
+    "version": "17.5.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fastnumbers-2.0.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/autobahn-17.5.1-py27_0.tar.bz2"
 }
