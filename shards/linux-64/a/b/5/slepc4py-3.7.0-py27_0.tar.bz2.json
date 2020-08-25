@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pyoceans/python-ctd",
+    "home": "https://bitbucket.org/slepc/slepc4py",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "BSD 2-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/ctd/ctd-0.3.0.tar.gz",
+    "source_url": "https://bitbucket.org/slepc/slepc4py/downloads/slepc4py-3.7.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Tools to load hydrographic data formats as pandas DataFrames.",
+    "summary": "Python bindings for SLEPc",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.0"
+    "version": "3.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "ctd-0.3.0-py36_0.tar.bz2",
+  "package": "slepc4py-3.7.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "gsw",
-      "matplotlib",
+      "mpich",
       "numpy",
-      "pandas",
-      "python 3.6*",
-      "scipy"
+      "petsc 3.7*",
+      "petsc4py 3.7*",
+      "python 2.7*",
+      "slepc 3.7*"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "09b0154b83f737c3bcaa4eecedc15336",
-    "name": "ctd",
-    "sha256": "53311e2efd136a3d140b4701156ae911a81b50620fa9ffd7fb2e54c887a59f25",
-    "size": 24028,
+    "license": "BSD 2-Clause",
+    "md5": "6b2f08b7f0e2d3080158684c26eb2899",
+    "name": "slepc4py",
+    "sha256": "1b0e6fcb1a91f8206b1e7978e04ad0aff4ac7ac3771a7ed9344e6e9a807b22db",
+    "size": 899534,
     "subdir": "linux-64",
-    "version": "0.3.0"
+    "version": "3.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ctd-0.3.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/slepc4py-3.7.0-py27_0.tar.bz2"
 }

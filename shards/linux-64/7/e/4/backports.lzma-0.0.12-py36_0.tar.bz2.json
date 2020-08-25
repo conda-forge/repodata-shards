@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pyoceans/python-ctd",
+    "home": "https://github.com/peterjc/backports.lzma",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/ctd/ctd-0.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/b/backports.lzma/backports.lzma-0.0.12.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Tools to load hydrographic data formats as pandas DataFrames.",
+    "summary": "Backport of Python 3.3's 'lzma' module for XZ/LZMA compressed files.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.3.0"
+    "timestamp": 1530525811,
+    "version": "0.0.12"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "ctd-0.3.0-py36_0.tar.bz2",
+  "package": "backports.lzma-0.0.12-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "gsw",
-      "matplotlib",
-      "numpy",
-      "pandas",
-      "python 3.6*",
-      "scipy"
+      "backports",
+      "python >=3.6,<3.7.0a0",
+      "xz 5.2.*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "09b0154b83f737c3bcaa4eecedc15336",
-    "name": "ctd",
-    "sha256": "53311e2efd136a3d140b4701156ae911a81b50620fa9ffd7fb2e54c887a59f25",
-    "size": 24028,
+    "license_family": "BSD",
+    "md5": "0db4562bfb477df7ee7cefb69eb16762",
+    "name": "backports.lzma",
+    "sha256": "f43429236ec4a66ca8f32100289f56448c78990f16682c48a6583cc9ece60124",
+    "size": 69041,
     "subdir": "linux-64",
-    "version": "0.3.0"
+    "timestamp": 1530525811774,
+    "version": "0.0.12"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ctd-0.3.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/backports.lzma-0.0.12-py36_0.tar.bz2"
 }
