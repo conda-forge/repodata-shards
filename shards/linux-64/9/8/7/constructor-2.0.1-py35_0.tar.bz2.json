@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bibtexparser.readthedocs.org/",
+    "home": "http://github.com/conda/constructor",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPLv3 or BSD",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.org/packages/source/b/bibtexparser/bibtexparser-0.6.2.tar.gz",
+    "source_url": "https://github.com/conda/constructor/archive/2.0.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A module for parsing BibTeX files.",
+    "summary": "create installer from conda packages",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.6.2"
+    "version": "2.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "bibtexparser-0.6.2-py36_0.tar.bz2",
+  "package": "constructor-2.0.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "pyparsing",
-      "python 3.6*"
+      "conda",
+      "python 3.5*",
+      "ruamel_yaml"
     ],
-    "license": "LGPLv3 or BSD",
-    "md5": "069a0227577cf48859d34e64a076b527",
-    "name": "bibtexparser",
-    "sha256": "6c1df50993d93a1f92506075fd97295ee3eba4a07e576379a60a66cdaddc4739",
-    "size": 57723,
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "a7d3df15002ebc5fbfe41fb19d74581a",
+    "name": "constructor",
+    "sha256": "5e59933fad00d395c2c0cc3449637f14cb67563082a7768f570ffd1c5c97df21",
+    "size": 62857,
     "subdir": "linux-64",
-    "version": "0.6.2"
+    "version": "2.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/bibtexparser-0.6.2-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/constructor-2.0.1-py35_0.tar.bz2"
 }
