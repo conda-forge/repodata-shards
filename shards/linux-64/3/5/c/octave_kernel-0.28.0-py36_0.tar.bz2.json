@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/mher/chartkick.py",
+    "home": "https://github.com/Calysto/octave_kernel",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/c/chartkick/chartkick-0.4.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/o/octave_kernel/octave_kernel-0.28.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Create beautiful Javascript charts with minimal code",
+    "summary": "A Jupyter kernel for Octave.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.4.2"
+    "version": "0.28.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "chartkick-0.4.2-py27_0.tar.bz2",
+  "package": "octave_kernel-0.28.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "ipykernel",
+      "jupyter_client >=4.3",
+      "metakernel >=0.18.0",
+      "python 3.6*"
     ],
-    "license": "MIT",
-    "md5": "eda4b58c3bb27b9c4456534d79456370",
-    "name": "chartkick",
-    "sha256": "b6cff5b3c2dfcfffdf43be121d443289dcb438e34de0be838d2f58b484ae4669",
-    "size": 12765,
+    "license": "BSD 3-clause",
+    "license_family": "BSD",
+    "md5": "c497b7794eea2c2094b037e7b9b8a347",
+    "name": "octave_kernel",
+    "sha256": "50c7c0f768ae5a474ef2769c422498764b215ef72223b17bb479867f268cf68b",
+    "size": 25416,
     "subdir": "linux-64",
-    "version": "0.4.2"
+    "version": "0.28.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/chartkick-0.4.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/octave_kernel-0.28.0-py36_0.tar.bz2"
 }
