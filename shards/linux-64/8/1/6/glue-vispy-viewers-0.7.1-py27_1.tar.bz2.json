@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://computation.llnl.gov/casc/sundials/main.html",
+    "home": "https://github.com/glue-viz/glue-vispy-viewers",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://computation.llnl.gov/projects/sundials/download/sundials-3.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/glue-vispy-viewers/glue-vispy-viewers-0.7.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "SUite of Nonlinear and DIfferential/ALgebraic equation Solvers",
+    "summary": "3D viewers for Glue",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.0.0"
+    "version": "0.7.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "sundials-3.0.0-blas_openblas_200.tar.bz2",
+  "package": "glue-vispy-viewers-0.7.1-py27_1.tar.bz2",
   "repodata": {
-    "build": "blas_openblas_200",
-    "build_number": 200,
+    "build": "py27_1",
+    "build_number": 1,
     "depends": [
-      "blas 1.1 openblas",
-      "openblas 0.2.20|0.2.20.*",
-      "suitesparse"
+      "dask",
+      "glueviz >=0.10",
+      "matplotlib",
+      "numpy",
+      "pyopengl",
+      "pyqt 4.11.*",
+      "python 2.7*",
+      "qtpy",
+      "scikit-image"
     ],
-    "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "md5": "c67fae8fdfd3a52143d61bf18aad4b54",
-    "name": "sundials",
-    "sha256": "6a526114ca4cd028f33321561884e14727053b62054ed24f6d5d26437802c84e",
-    "size": 677680,
+    "md5": "c0ccae6da4e78a0afaf4089d6846ba8a",
+    "name": "glue-vispy-viewers",
+    "sha256": "63c82c6ba0460013c63add0ab7d06c640ae38417dffe43484d99a5523420c3c6",
+    "size": 1170105,
     "subdir": "linux-64",
-    "version": "3.0.0"
+    "version": "0.7.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/sundials-3.0.0-blas_openblas_200.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/glue-vispy-viewers-0.7.1-py27_1.tar.bz2"
 }
