@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/kislyuk/tweak",
+    "home": "http://wradlib.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache-2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/t/tweak/tweak-1.0.3.tar.gz",
+    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-0.10.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Application configuration engine",
+    "summary": "Open Source Library for Weather Radar Data Processing",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1563000578,
-    "version": "1.0.3"
+    "timestamp": 0,
+    "version": "0.10.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "tweak-1.0.3-py27_0.tar.bz2",
+  "package": "wradlib-0.10.0-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python >=2.7,<2.8.0a0"
+      "gdal 2.1.*",
+      "h5py",
+      "matplotlib",
+      "netcdf4",
+      "numpy",
+      "python 3.5*",
+      "scipy"
     ],
-    "license": "Apache-2.0",
-    "license_family": "APACHE",
-    "md5": "a051ffb30d22c78fe18ab576fe8c1be6",
-    "name": "tweak",
-    "sha256": "5809b3bc90af0d4d4e51359ed3215c6f69cfc276c45576038cb3dc0b33bf28a7",
-    "size": 16543,
+    "license": "MIT",
+    "md5": "a995b0e664a7bf74175dd81e50aa572d",
+    "name": "wradlib",
+    "sha256": "25cda9a71bf7567641d89a97d2adc3b3c16d576cb7092cd7cb4d2251267f0c07",
+    "size": 219902,
     "subdir": "linux-64",
-    "timestamp": 1563000578407,
-    "version": "1.0.3"
+    "version": "0.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/tweak-1.0.3-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-0.10.0-py35_0.tar.bz2"
 }
