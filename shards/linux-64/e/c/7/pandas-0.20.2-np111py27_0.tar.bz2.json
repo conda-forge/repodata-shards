@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/jameskermode/f90wrap",
+    "home": "http://pandas.pydata.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-2.0",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/jameskermode/f90wrap/archive/v0.1.4.tar.gz",
+    "source_url": "https://github.com/pydata/pandas/archive/v0.20.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Fortran to Python interface generator with derived type support",
+    "summary": "High-performance, easy-to-use data structures and data analysis tools.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.1.4"
+    "version": "0.20.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "f90wrap-0.1.4-np111py27_0.tar.bz2",
+  "package": "pandas-0.20.2-np111py27_0.tar.bz2",
   "repodata": {
     "build": "np111py27_0",
     "build_number": 0,
     "depends": [
-      "libgcc",
       "numpy 1.11*",
-      "python 2.7*"
+      "python 2.7*",
+      "python-dateutil",
+      "pytz"
     ],
-    "license": "GPL-2.0",
-    "md5": "767527ecc6cd2006c2c7b5f2259536a4",
-    "name": "f90wrap",
-    "sha256": "61d8e99f62c7dae7754db84d6e8dde63d761c4bf58d74cc51202b00000ed1115",
-    "size": 155596,
+    "license": "BSD 3-clause",
+    "md5": "84804139c90ceca0d1d32f951db1b868",
+    "name": "pandas",
+    "sha256": "7173019957cb4aa614c86d2f89531f41c410c4e50798eb07fca4ac7f67de1526",
+    "size": 23077546,
     "subdir": "linux-64",
-    "version": "0.1.4"
+    "version": "0.20.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/f90wrap-0.1.4-np111py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandas-0.20.2-np111py27_0.tar.bz2"
 }
