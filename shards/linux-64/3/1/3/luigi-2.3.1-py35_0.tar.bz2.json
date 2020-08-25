@@ -7,51 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-qt",
+    "home": "https://github.com/spotify/luigi",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "Apache-2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-qt/pytest-qt-2.1.2.tar.gz",
+    "source_url": "https://files.pythonhosted.org/packages/source/l/luigi/luigi-2.3.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "pytest support for PyQt and PySide applications",
+    "summary": "Workflow mgmgt + task scheduling + dependency resolution",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.1.2"
+    "version": "2.3.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pytest-qt-2.1.2-py36_0.tar.bz2",
+  "package": "luigi-2.3.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "pytest",
-      "python 3.6*"
+      "pyparsing",
+      "python 3.5*",
+      "python-daemon",
+      "setuptools",
+      "tornado"
     ],
-    "license": "MIT",
-    "md5": "0098a154c7e0909fba37c270005c64e6",
-    "name": "pytest-qt",
-    "sha256": "051cb60cc0f70249353787de63962648a4e635eb8f720aa5b5fa306f035f1100",
-    "size": 50193,
+    "license": "Apache-2.0",
+    "md5": "dff6e60d6edecac42f705d09dea8139e",
+    "name": "luigi",
+    "sha256": "d3a2ec16df1149610635099643b5eb5e198df8382af33c7e21765b3487fd86bc",
+    "size": 1299668,
     "subdir": "linux-64",
-    "version": "2.1.2"
+    "version": "2.3.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-qt-2.1.2-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/luigi-2.3.1-py35_0.tar.bz2"
 }

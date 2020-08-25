@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/qvantel/jsonapi-client",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/lmcinnes/hdbscan",
+    "home": "https://github.com/qvantel/jsonapi-client",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hdbscan/hdbscan-0.8.10.tar.gz",
+    "source_url": "https://github.com/qvantel/jsonapi-client/archive/0.9.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Clustering based on density with variable density clusters",
+    "summary": "Comprehensive, yet easy-to-use, pythonic, ORM-like access to JSON API services",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.8.10"
+    "version": "0.9.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "hdbscan-0.8.10-py36_0.tar.bz2",
+  "package": "jsonapi-client-0.9.3-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
+      "aiohttp",
+      "jsonschema",
       "python 3.6*",
-      "scikit-learn >=0.16"
+      "requests"
     ],
     "license": "BSD 3-Clause",
-    "md5": "c1c328207fceeb2736fca9268c4ff22d",
-    "name": "hdbscan",
-    "sha256": "0baed2af5ed8bdd60ef774745591f510ef5fe868671c72c1ae8957206503e895",
-    "size": 2532922,
+    "license_family": "BSD",
+    "md5": "8d4554b4571a7a1632ca112da11ba878",
+    "name": "jsonapi-client",
+    "sha256": "c632c9570d5f901fe67f381cd91dca0ff72f1b436e37a620348684f046fd1e04",
+    "size": 40296,
     "subdir": "linux-64",
-    "version": "0.8.10"
+    "version": "0.9.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdbscan-0.8.10-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/jsonapi-client-0.9.3-py36_0.tar.bz2"
 }

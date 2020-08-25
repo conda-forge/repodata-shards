@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/lmcinnes/hdbscan",
+    "home": "https://github.com/bmcfee/resampy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "ISC",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/hdbscan/hdbscan-0.8.10.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/resampy/resampy-0.1.5.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Clustering based on density with variable density clusters",
+    "summary": "Efficient signal resampling",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.8.10"
+    "version": "0.1.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "hdbscan-0.8.10-py36_0.tar.bz2",
+  "package": "resampy-0.1.5-np112py27_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "np112py27_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*",
-      "scikit-learn >=0.16"
+      "cython >=0.23",
+      "numpy 1.12*",
+      "python 2.7*",
+      "scipy >=0.13",
+      "setuptools",
+      "six >=1.3"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "c1c328207fceeb2736fca9268c4ff22d",
-    "name": "hdbscan",
-    "sha256": "0baed2af5ed8bdd60ef774745591f510ef5fe868671c72c1ae8957206503e895",
-    "size": 2532922,
+    "license": "ISC",
+    "md5": "c571e93fb03353d61712b8581251c1d9",
+    "name": "resampy",
+    "sha256": "c7ab82c4039afcbf99b8e0bd916779a9de31b86a99e83a61048d43d3c514a9bc",
+    "size": 683185,
     "subdir": "linux-64",
-    "version": "0.8.10"
+    "version": "0.1.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/hdbscan-0.8.10-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/resampy-0.1.5-np112py27_0.tar.bz2"
 }
