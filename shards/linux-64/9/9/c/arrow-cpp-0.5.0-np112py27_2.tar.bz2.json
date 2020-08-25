@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://python-requests.org",
+    "home": "http://github.com/apache/arrow",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/requests/requests-2.10.0.tar.gz",
+    "source_url": "https://github.com/apache/arrow/archive/3a84653a3aa00f36f6312a11e58d1daf41dedcee.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python HTTP for Humans.",
+    "summary": "C++ libraries for Apache Arrow",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "2.10.0"
+    "version": "0.5.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "requests-2.10.0-py27_0.tar.bz2",
+  "package": "arrow-cpp-0.5.0-np112py27_2.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "np112py27_2",
+    "build_number": 2,
     "depends": [
+      "jemalloc 4.4.0",
+      "numpy 1.12*",
       "python 2.7*"
     ],
     "license": "Apache 2.0",
-    "md5": "1f983e7fe6768419a3c86afd02f488fd",
-    "name": "requests",
-    "sha256": "f8a8e159ead5e773e4e0dd0b1120d9731649d0ef1044d043c5fdd555b45784b9",
-    "size": 594521,
+    "md5": "9c9977139499281f07a0a4ded06089e7",
+    "name": "arrow-cpp",
+    "sha256": "158e935ad48207cd53148dbbef8cf1756329a944147824a5f01cb42dd15edfda",
+    "size": 2139660,
     "subdir": "linux-64",
-    "version": "2.10.0"
+    "version": "0.5.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/requests-2.10.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/arrow-cpp-0.5.0-np112py27_2.tar.bz2"
 }
