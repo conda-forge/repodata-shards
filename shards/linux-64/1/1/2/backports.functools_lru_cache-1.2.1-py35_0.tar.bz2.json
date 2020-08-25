@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/LuminosoInsight/ordered-set",
+    "home": "https://github.com/jaraco/backports.functools_lru_cache",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/o/ordered-set/ordered-set-2.0.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/b/backports.functools_lru_cache/backports.functools_lru_cache-1.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A MutableSet that remembers its order, so that every entry has an index.",
+    "summary": "Backport of functools.lru_cache from Python 3.3 as published at ActiveState.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.0.2"
+    "version": "1.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "ordered-set-2.0.2-py36_0.tar.bz2",
+  "package": "backports.functools_lru_cache-1.2.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "python 3.5*",
+      "setuptools"
     ],
     "license": "MIT",
-    "md5": "fb3eec0cce2b940c43dbbdcfdaa6a4d0",
-    "name": "ordered-set",
-    "sha256": "65ffbc88b9714d218af8d62ea099741f0ba32eef38ae02b1f72fbe09c0474e3f",
-    "size": 7184,
+    "md5": "b2295dd57451d94cd6c136162859dbd8",
+    "name": "backports.functools_lru_cache",
+    "sha256": "7f24e4f670ea29568f1a18f9172b8845d919e0bc00b0e4d9ba637be796b1054a",
+    "size": 6770,
     "subdir": "linux-64",
-    "version": "2.0.2"
+    "version": "1.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ordered-set-2.0.2-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/backports.functools_lru_cache-1.2.1-py35_0.tar.bz2"
 }
