@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/conda/conda",
+    "home": "http://contrib.scikit-learn.org/lightning/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,43 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/conda/archive/4.3.21.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/sklearn-contrib-lightning/sklearn-contrib-lightning-0.5.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "OS-agnostic, system-level binary package manager.",
+    "summary": "lightning is a library for large-scale linear classification, regression and ranking in Python.",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "4.3.21"
+    "version": "0.5.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "conda-4.3.21-py36_0.tar.bz2",
+  "package": "sklearn-contrib-lightning-0.5.0-np112py36_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "np112py36_0",
     "build_number": 0,
     "depends": [
-      "conda-env >=2.6",
-      "pycosat >=0.6.1",
-      "pyopenssl >=16.2.0",
+      "numpy 1.12*",
       "python 3.6*",
-      "requests >=2.12.4",
-      "ruamel_yaml >=0.11.14"
+      "scikit-learn"
     ],
     "license": "BSD 3-Clause",
-    "md5": "75247443766e00dba4d09b6584e79344",
-    "name": "conda",
-    "sha256": "57891b86155bb118b4e8d0d4cfe764f1fa380cbb8f816af271494ccef7e068a5",
-    "size": 516798,
+    "md5": "4f956fbb1d33b79711a6ccf5035d79a3",
+    "name": "sklearn-contrib-lightning",
+    "sha256": "2197a36e08d0fc68d97f484684157bfbb4580defd7a68c6dbcae83fda9d83597",
+    "size": 2010525,
     "subdir": "linux-64",
-    "version": "4.3.21"
+    "version": "0.5.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-4.3.21-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sklearn-contrib-lightning-0.5.0-np112py36_0.tar.bz2"
 }
