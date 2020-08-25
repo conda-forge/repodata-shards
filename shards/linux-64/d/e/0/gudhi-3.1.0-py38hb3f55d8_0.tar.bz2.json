@@ -6,28 +6,28 @@
     "description": "The GUDHI library is a generic open source C++ library, with a Python interface, for Topological Data Analysis (TDA) and Higher Dimensional Geometry Understanding. The library offers state-of-the-art data structures and algorithms to construct simplicial complexes and compute persistent homology.",
     "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "http://gudhi.gforge.inria.fr/python/2.3.0/",
+    "doc_url": "http://gudhi.gforge.inria.fr/python/3.1.0/",
     "home": "http://gudhi.gforge.inria.fr/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL3",
+    "license": "MIT/GPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/GUDHI/gudhi-devel/archive/fa19484e31dbe0b63d50475f15e654a5e1a0c4e1.tar.gz",
+    "source_url": "https://github.com/GUDHI/gudhi-devel/archive/653b8ff129a9676d1bc69ee5231cf12f9aadd7e9.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Geometry Understanding in Higher Dimensions",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1566989215,
-    "version": "2.3.0"
+    "timestamp": 1579902527,
+    "version": "3.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "gudhi-2.3.0-py36h205957e_4.tar.bz2",
+  "package": "gudhi-3.1.0-py38hb3f55d8_0.tar.bz2",
   "repodata": {
-    "build": "py36h205957e_4",
-    "build_number": 4,
+    "build": "py38hb3f55d8_0",
+    "build_number": 0,
     "depends": [
-      "boost-cpp 1.69.0.*",
-      "cgal-cpp 4.14.*",
+      "boost-cpp 1.70.0.*",
+      "cgal-cpp 5.0.*",
       "libgcc-ng >=7.3.0",
       "libstdcxx-ng >=7.3.0",
-      "python >=3.6,<3.7.0a0"
+      "numpy",
+      "python >=3.8,<3.9.0a0",
+      "setuptools"
     ],
-    "license": "GPL3",
-    "md5": "56a01d0df1104b288dd0d147af7fcb47",
+    "license": "MIT/GPL3",
+    "md5": "4a3ee2eaff2564d21894ee8c2c973d7f",
     "name": "gudhi",
-    "sha256": "742009e84b41b94c873483fd7b2634f60ffe963ed2cfbfd36444293da1230a33",
-    "size": 2825627,
+    "sha256": "b4fc8837cfca2ecda81aa3bfa8fbe9a489a0e14f229ea4483fd3d01c7319bd7f",
+    "size": 4049963,
     "subdir": "linux-64",
-    "timestamp": 1566989215235,
-    "version": "2.3.0"
+    "timestamp": 1579902527361,
+    "version": "3.1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/gudhi-2.3.0-py36h205957e_4.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gudhi-3.1.0-py38hb3f55d8_0.tar.bz2"
 }
