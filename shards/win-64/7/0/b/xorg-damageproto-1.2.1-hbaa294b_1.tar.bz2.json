@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,41 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/lib/libX11-1.6.4.tar.bz2",
+    "source_url": "https://www.x.org/releases/individual/proto/damageproto-1.2.1.tar.bz2",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
-    "summary": "The main client library for X Windows version 11.",
+    "summary": "Print extension headers",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "1.6.4"
+    "timestamp": 1531074340,
+    "version": "1.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "xorg-libx11-1.6.4-6.tar.bz2",
+  "package": "xorg-damageproto-1.2.1-hbaa294b_1.tar.bz2",
   "repodata": {
-    "build": "6",
-    "build_number": 6,
+    "build": "hbaa294b_1",
+    "build_number": 1,
     "depends": [
-      "libxcb 1.*",
-      "xorg-kbproto",
-      "xorg-xproto"
+      "m2w64-gcc-libs"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "8996e20145a9b62f39b5f5e68bc652e6",
-    "name": "xorg-libx11",
-    "sha256": "f93961893524bcf950e41e407af35ffb5c5c1d3d6b426ed265900d4657508595",
-    "size": 1654036,
-    "subdir": "linux-64",
-    "version": "1.6.4"
+    "md5": "5f63a0b639f9ef9cce9ae8264c435e05",
+    "name": "xorg-damageproto",
+    "sha256": "84a2bbed19a39cecaad194a1535f13a0529af60ae98e41c290ad523c0e48ed4f",
+    "size": 9498,
+    "subdir": "win-64",
+    "timestamp": 1531074340375,
+    "version": "1.2.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libx11-1.6.4-6.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/xorg-damageproto-1.2.1-hbaa294b_1.tar.bz2"
 }
