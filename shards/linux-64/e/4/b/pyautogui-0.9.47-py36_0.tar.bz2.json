@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pybind/pybind11/",
+    "home": "https://github.com/asweigart/pyautogui",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pybind11/pybind11-2.1.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/P/PyAutoGUI/PyAutoGUI-0.9.47.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Seamless operability between C++11 and Python",
+    "summary": "A cross-platform module for GUI automation for human beings. Control the keyboard and mouse from a Python script.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "2.1.0"
+    "timestamp": 1564757470,
+    "version": "0.9.47"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "pybind11-2.1.0-py36_0.tar.bz2",
+  "package": "pyautogui-0.9.47-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "pymsgbox",
+      "pyscreeze",
+      "python >=3.6,<3.7.0a0",
+      "python-xlib",
+      "pytweening"
     ],
     "license": "BSD 3-Clause",
-    "md5": "0b1ab52505ee40ccc2444d0803fb9a7b",
-    "name": "pybind11",
-    "sha256": "eae7a1cb046240d75f8c8c3e7f1b3c82835d56a032c5b016faf03f0b29633e45",
-    "size": 82733,
+    "license_family": "BSD",
+    "md5": "0c659338a95f13c3333a5bbfca5ad886",
+    "name": "pyautogui",
+    "sha256": "a817f88de87842ed6da3cd910ecd1a92eeafaec3b25a9d61dc572ea416c989a3",
+    "size": 53886,
     "subdir": "linux-64",
-    "version": "2.1.0"
+    "timestamp": 1564757470163,
+    "version": "0.9.47"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pybind11-2.1.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyautogui-0.9.47-py36_0.tar.bz2"
 }
