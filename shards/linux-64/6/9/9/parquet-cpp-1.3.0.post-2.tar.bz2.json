@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/sakov/nn-c",
+    "home": "http://github.com/apache/parquet-cpp",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 2-Clause (bundled triangle code is non-free for commercial use)",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/sakov/nn-c/archive/33cbf70dec4f64836a26dcb4a885cb09b7279dd3.tar.gz",
+    "source_url": "https://github.com/apache/parquet-cpp/archive/b69669a230e59e36a193b679fc2c5b4d9150f8c9.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Natural Neighbours interpolation.",
+    "summary": "C++ libraries for the Apache Parquet file format",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.86.0"
+    "version": "1.3.0.post"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,20 +35,22 @@
     "cf202003",
     "main"
   ],
-  "package": "nn-1.86.0-2.tar.bz2",
+  "package": "parquet-cpp-1.3.0.post-2.tar.bz2",
   "repodata": {
     "build": "2",
     "build_number": 2,
-    "depends": [],
-    "license": "BSD 2-Clause (bundled triangle code is non-free for commercial use)",
-    "md5": "ae91baf0fdede83f81c7b399415e8a0f",
-    "name": "nn",
-    "sha256": "67c87ee615b3208d42c767c9efc9533ab0263faa3f72f237242a6cf9ebfb3c0c",
-    "size": 136640,
+    "depends": [
+      "arrow-cpp 0.7.1"
+    ],
+    "license": "Apache 2.0",
+    "md5": "a6effa38c6b9f041fbc9c250530f25aa",
+    "name": "parquet-cpp",
+    "sha256": "676595cf5b38c1f36869da41e5c84ecf38bdf3d5213e6d6d6c6ec5fa057edb67",
+    "size": 1345469,
     "subdir": "linux-64",
-    "version": "1.86.0"
+    "version": "1.3.0.post"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/nn-1.86.0-2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/parquet-cpp-1.3.0.post-2.tar.bz2"
 }
