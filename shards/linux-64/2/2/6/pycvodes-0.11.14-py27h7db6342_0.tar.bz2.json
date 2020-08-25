@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,46 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pycvodes/pycvodes-0.11.10.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pycvodes/pycvodes-0.11.14.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Python wrapper around cvodes (from the sundials library)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1549840652,
-    "version": "0.11.10"
+    "timestamp": 1561138344,
+    "version": "0.11.14"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pycvodes-0.11.10-py36_blas_openblashebff5e3_0.tar.bz2",
+  "package": "pycvodes-0.11.14-py27h7db6342_0.tar.bz2",
   "repodata": {
-    "build": "py36_blas_openblashebff5e3_0",
+    "build": "py27h7db6342_0",
     "build_number": 0,
     "depends": [
-      "blas 1.1 openblas",
+      "libblas >=3.8.0,<4.0a0",
       "libgcc-ng >=7.3.0",
+      "liblapack >=3.8.0,<3.9.0a0",
       "libstdcxx-ng >=7.3.0",
-      "numpy >=1.9.3,<2.0a0",
-      "openblas >=0.3.3,<0.3.4.0a0",
-      "python >=3.6,<3.7.0a0",
-      "sundials"
+      "numpy >=1.14.6,<2.0a0",
+      "python >=2.7,<2.8.0a0",
+      "sundials >=3.2.1,<3.3.0a0"
     ],
-    "features": "blas_openblas",
     "license": "BSD 2-Clause",
-    "md5": "fc80b40a44ccb2d252b6b2a3ffa3b748",
+    "md5": "59a8344e5d1ed94298069bb3dbb53e6e",
     "name": "pycvodes",
-    "sha256": "923cdb37df375f81ac725a08e2bb8839c2a8369587c03884bc768a4f58bc3ad1",
-    "size": 485613,
+    "sha256": "0b3a0d8d4d5561aa2d36dd54129bb1bff5350eeb20d3891d5d5c23e5b463ed43",
+    "size": 491688,
     "subdir": "linux-64",
-    "timestamp": 1549840652887,
-    "version": "0.11.10"
+    "timestamp": 1561138344767,
+    "version": "0.11.14"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pycvodes-0.11.10-py36_blas_openblashebff5e3_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pycvodes-0.11.14-py27h7db6342_0.tar.bz2"
 }
