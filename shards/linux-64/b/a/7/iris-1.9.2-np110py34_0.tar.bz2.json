@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "GNU Lesser General Public License",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/scipy/scipy-0.17.1.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.17.1"
+    "version": "1.9.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,31 @@
     "cf202003",
     "main"
   ],
-  "package": "scipy-0.17.1-np110py35_blas_openblas_200.tar.bz2",
+  "package": "iris-1.9.2-np110py34_0.tar.bz2",
   "repodata": {
-    "build": "np110py35_blas_openblas_200",
-    "build_number": 200,
+    "build": "np110py34_0",
+    "build_number": 0,
     "depends": [
-      "blas 1.1 openblas",
-      "libgcc",
+      "biggus",
+      "cartopy",
+      "cf_units",
+      "libmo_unpack",
+      "matplotlib",
+      "netcdf4",
       "numpy 1.10*",
-      "openblas 0.2.18*",
-      "python 3.5*"
+      "pyke",
+      "python 3.4*",
+      "scipy"
     ],
-    "features": "blas_openblas",
-    "license": "BSD 3-Clause",
-    "md5": "6c1959b02d7a551b46faf2b9bb84cab1",
-    "name": "scipy",
-    "sha256": "0f90c864cbf51ee2e96728535ba58e015779aa15e3b5c02c120ac05967813b1f",
-    "size": 31825122,
+    "license": "GNU Lesser General Public License",
+    "md5": "9a5fe8518b81f0e08378f1d222dcd26c",
+    "name": "iris",
+    "sha256": "b8208d2832971916bec515904e8fdeb0c1e9f995df3aa07e557f764f3bd61821",
+    "size": 1546061,
     "subdir": "linux-64",
-    "version": "0.17.1"
+    "version": "1.9.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/scipy-0.17.1-np110py35_blas_openblas_200.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/iris-1.9.2-np110py34_0.tar.bz2"
 }
