@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://github.com/axiom-data-science/codar2netcdf",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/axiom-data-science/codar2netcdf/archive/1.0.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "A utility to convert CODAR total ASCII files into CF NetCDF files.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.8.4"
+    "version": "1.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "pyflann-1.8.4-py34_0.tar.bz2",
+  "package": "codar2netcdf-1.0.0-py36_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "flann 1.8.4",
-      "numpy",
-      "python 3.4*"
+      "netcdf4",
+      "pandas",
+      "python 3.6*",
+      "python-dateutil",
+      "pytz"
     ],
-    "license": "BSD 3-Clause",
-    "md5": "74827a6d9dbe48d51c461eb381fedf8e",
-    "name": "pyflann",
-    "sha256": "e5f38f154eb4351d498b4e37aff20b348350b24ecbdef9ab5428e5f0c98184e3",
-    "size": 7987247,
+    "license": "MIT",
+    "md5": "56bc385b31c9bce5048bb20914976389",
+    "name": "codar2netcdf",
+    "sha256": "ce6e7dba2154c49a9f97531279ad9641535e1c38ce0e36de4d3ae595d09ba6e7",
+    "size": 11790,
     "subdir": "linux-64",
-    "version": "1.8.4"
+    "version": "1.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyflann-1.8.4-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/codar2netcdf-1.0.0-py36_0.tar.bz2"
 }
