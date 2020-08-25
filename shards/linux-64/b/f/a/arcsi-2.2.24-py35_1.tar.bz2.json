@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://rsgislib.org/arcsi",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD License",
+    "license": "GPLv3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://bitbucket.org/petebunting/arcsi/downloads/arcsi-2.2.24.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "Software for the Atmospheric and Radiometric Correction of Satellite Imagery (ARCSI)",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.6.3"
+    "version": "2.2.24"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,30 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "fiona-1.6.3-np110py35_1.tar.bz2",
+  "package": "arcsi-2.2.24-py35_1.tar.bz2",
   "repodata": {
-    "build": "np110py35_1",
+    "build": "py35_1",
     "build_number": 1,
     "depends": [
-      "click-plugins",
-      "cligj",
-      "gdal ==1.11.4",
-      "giflib",
-      "munch",
-      "numpy 1.10*",
+      "h5py",
+      "py6s",
       "python 3.5*",
-      "setuptools",
-      "six"
+      "rios",
+      "rsgislib 3.4.*",
+      "scikit-learn"
     ],
-    "license": "BSD License",
-    "md5": "44e37778afe26ed2d004b399be346742",
-    "name": "fiona",
-    "sha256": "49273768df4f85fddaa645486f586c219f7831faf75340485efb6e8774f7dd4e",
-    "size": 1043967,
+    "license": "GPLv3",
+    "md5": "7929c45244c6afb706fcfa9be3223cab",
+    "name": "arcsi",
+    "sha256": "909c3ce7b1503f67474e215e97eefae4ef84f7f2e4d1badb23c3431ec3d164d9",
+    "size": 353096,
     "subdir": "linux-64",
-    "version": "1.6.3"
+    "version": "2.2.24"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/fiona-1.6.3-np110py35_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/arcsi-2.2.24-py35_1.tar.bz2"
 }
