@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/inducer/pudb",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/oscarbranson/",
+    "home": "http://pypi.python.org/pypi/pudb",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,42 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/oscarbranson/cbsyst/archive/v0.3.5.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pudb/pudb-2018.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Tools for calculating ocean C and B chemistry.",
+    "summary": "A full-screen, console-based Python debugger",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.3.5"
+    "version": "2018.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "cbsyst-0.3.5-0.tar.bz2",
+  "package": "pudb-2018.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "numpy",
-      "pandas",
-      "scipy",
-      "tqdm",
-      "uncertainties"
+      "pygments >=1.0",
+      "python 3.5*",
+      "setuptools",
+      "urwid >=1.1.1"
     ],
     "license": "MIT",
-    "md5": "b265d6ded8635633711a3d765eea666c",
-    "name": "cbsyst",
-    "sha256": "d926528ed699edec080560770d52eb8df58bbdd40946ef5518ddc52693663cd2",
-    "size": 75367,
+    "md5": "3c50f7029f8ec07ed52882f969ca6118",
+    "name": "pudb",
+    "sha256": "77f05c0fddf4ea628600be7792ffc1a6fe02ef66a674aabdb966bd7f5fc0015a",
+    "size": 96403,
     "subdir": "linux-64",
-    "version": "0.3.5"
+    "version": "2018.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cbsyst-0.3.5-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pudb-2018.1-py35_0.tar.bz2"
 }

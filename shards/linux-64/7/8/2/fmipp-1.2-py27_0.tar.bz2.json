@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/tqdm/tqdm",
+    "home": "http://fmipp.sourceforge.net",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MPLv2.0, MIT",
+    "license": "BSD 2-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/t/tqdm/tqdm-4.10.0.tar.gz",
+    "source_git_url": "git://git.code.sf.net/p/fmipp/code",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A Fast, Extensible Progress Meter",
+    "summary": "A High-level Utility Package for FMI-based Software Development",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.10.0"
+    "version": "1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "tqdm-4.10.0-py27_0.tar.bz2",
+  "package": "fmipp-1.2-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "boost 1.61.*",
+      "python 2.7*",
+      "sundials"
     ],
-    "license": "MPLv2.0, MIT",
-    "md5": "8fc5c2b086271b4648595c60c2e256fe",
-    "name": "tqdm",
-    "sha256": "2872b6213a64c34ca783f4e9a9dbeedb1d93c01a4efdbe9a88e70db7b55d6c3d",
-    "size": 43012,
+    "license": "BSD 2-Clause",
+    "md5": "d3175ad44216cbbd47b53a723d86a616",
+    "name": "fmipp",
+    "sha256": "02254132efece20b425077c75d7608e6955cd9fcfb44f26384c85549b1460939",
+    "size": 1266925,
     "subdir": "linux-64",
-    "version": "4.10.0"
+    "version": "1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/tqdm-4.10.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fmipp-1.2-py27_0.tar.bz2"
 }
