@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "http://git.openstack.org/cgit/openstack/pylockfile",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "http://docs.openstack.org/developer/pylockfile/",
-    "home": "https://launchpad.net/pylockfile",
+    "doc_url": null,
+    "home": "https://github.com/zillow/ctds",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/l/lockfile/lockfile-0.12.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/c/ctds/ctds-1.7.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Platform-independent file locking module",
+    "summary": "DB API 2.0-compliant Linux driver for SQL Server",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.12.2"
+    "version": "1.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "lockfile-0.12.2-py27_0.tar.bz2",
+  "package": "ctds-1.7.0-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "freetds",
+      "python 2.7*",
+      "setuptools"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "3ce4a5dca1a9516a9d0a1de166394adb",
-    "name": "lockfile",
-    "sha256": "6dac7d0c4975f85aad21cb9f86e76c8a9d2101b559b92c9ae6575951106b51bf",
-    "size": 15266,
+    "md5": "84e79801ac3b68db0aede3e19859397a",
+    "name": "ctds",
+    "sha256": "e9424ac3289449b1f858637ebbee90271e7e7dd8701123b633ac914a8b7f7cc9",
+    "size": 152525,
     "subdir": "linux-64",
-    "version": "0.12.2"
+    "version": "1.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/lockfile-0.12.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ctds-1.7.0-py27_0.tar.bz2"
 }
