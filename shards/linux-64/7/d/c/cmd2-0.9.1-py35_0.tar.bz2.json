@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/python-cmd2/cmd2",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/html5lib/html5lib-python",
+    "doc_url": "https://cmd2.readthedocs.io/",
+    "home": "https://github.com/python-cmd2/cmd2",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/h/html5lib/html5lib-0.999.tar.gz",
+    "source_url": "https://pypi.org/packages/source/c/cmd2/cmd2-0.9.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "HTML parser based on the WHATWG HTML specification",
+    "summary": "Extra features for standard library's cmd module",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.999"
+    "timestamp": 1528093480,
+    "version": "0.9.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "html5lib-0.999-py35_0.tar.bz2",
+  "package": "cmd2-0.9.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*",
-      "six >=1.9",
-      "webencodings"
+      "colorama",
+      "pyperclip >=1.5.27",
+      "python >=3.5,<3.6.0a0",
+      "wcwidth"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "7021c46c3620abac171788c74d0591b1",
-    "name": "html5lib",
-    "sha256": "58085cf16fc88a4b50304092f8c09a7cbdcc7992e608008dee860536f91d289b",
-    "size": 634643,
+    "md5": "9f4416b7db076e448d666c315d4ebfc5",
+    "name": "cmd2",
+    "sha256": "e0e14295476589dfe3334e641c505e19e27b877b39e3ba76760ce07c3393a7f6",
+    "size": 103461,
     "subdir": "linux-64",
-    "version": "0.999"
+    "timestamp": 1528093480067,
+    "version": "0.9.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/html5lib-0.999-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cmd2-0.9.1-py35_0.tar.bz2"
 }
