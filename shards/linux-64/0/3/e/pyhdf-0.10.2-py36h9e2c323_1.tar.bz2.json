@@ -7,54 +7,55 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://thrift.apache.org",
+    "home": "https://github.com/fhs/pyhdf",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache 2.0",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/t/thrift/thrift-0.11.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyhdf/pyhdf-0.10.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python bindings for the Apache Thrift RPC system",
+    "summary": "Python interface to the NCSA HDF4 library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1538597692,
-    "version": "0.11.0"
+    "timestamp": 1585005230,
+    "version": "0.10.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "thrift-0.11.0-py36hf484d3e_1001.tar.bz2",
+  "package": "pyhdf-0.10.2-py36h9e2c323_1.tar.bz2",
   "repodata": {
-    "build": "py36hf484d3e_1001",
-    "build_number": 1001,
+    "build": "py36h9e2c323_1",
+    "build_number": 1,
     "depends": [
+      "hdf4 >=4.2.13,<4.3.0a0",
       "libgcc-ng >=7.3.0",
       "libstdcxx-ng >=7.3.0",
+      "numpy >=1.18.1,<2.0a0",
       "python >=3.6,<3.7.0a0",
-      "six >=1.7.2"
+      "python_abi 3.6 *_pypy36_pp73"
     ],
-    "license": "Apache 2.0",
-    "md5": "b072cdbb6df59b5c50a8f3b8c8ade79d",
-    "name": "thrift",
-    "sha256": "800cc5471c7fd19d502904767bae1a0157b9a42c1f22ba6fce6f46f56efe51c7",
-    "size": 111391,
+    "license": "MIT",
+    "md5": "5e9c2e9690144cbedba1b4285def1e6d",
+    "name": "pyhdf",
+    "sha256": "00b33b2f2dc9f2d207fee040e3037a4329450386e730c3f491fb28c1030af5a1",
+    "size": 150359,
     "subdir": "linux-64",
-    "timestamp": 1538597692095,
-    "version": "0.11.0"
+    "timestamp": 1585005230422,
+    "version": "0.10.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/thrift-0.11.0-py36hf484d3e_1001.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyhdf-0.10.2-py36h9e2c323_1.tar.bz2"
 }
