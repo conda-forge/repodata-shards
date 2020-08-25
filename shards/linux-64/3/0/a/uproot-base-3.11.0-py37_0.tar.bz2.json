@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/u/uproot/uproot-3.4.14.tar.gz",
+    "source_url": "https://pypi.io/packages/source/u/uproot/uproot-3.11.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "ROOT I/O in pure Python and Numpy.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1552808392,
-    "version": "3.4.14"
+    "timestamp": 1576699761,
+    "version": "3.11.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,28 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "uproot-3.4.14-py37_0.tar.bz2",
+  "package": "uproot-base-3.11.0-py37_0.tar.bz2",
   "repodata": {
     "build": "py37_0",
     "build_number": 0,
     "depends": [
-      "lz4",
+      "awkward >=0.12.0,<1.0",
+      "cachetools",
+      "numpy >=1.13.1",
       "python >=3.7,<3.8.0a0",
-      "requests",
-      "uproot-base 3.4.14 py37_0",
-      "xrootd"
+      "uproot-methods >=0.7.0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "d25a7228ac059dea79798874d64ae417",
-    "name": "uproot",
-    "sha256": "588f15bd007930afb2103519cebd62c5527852bef35ece2f51925e5a19d5c095",
-    "size": 4221,
+    "md5": "a5a523f5fafbf2b46a49471dec6cecf3",
+    "name": "uproot-base",
+    "sha256": "4103aebcf74ac4511cd30bff9eb60b8039ca473e469a7f85d930a3734d52227f",
+    "size": 190610,
     "subdir": "linux-64",
-    "timestamp": 1552808392596,
-    "version": "3.4.14"
+    "timestamp": 1576699761662,
+    "version": "3.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/uproot-3.4.14-py37_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/uproot-base-3.11.0-py37_0.tar.bz2"
 }
