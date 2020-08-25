@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/datalad/datalad-0.11.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/datalad/datalad-0.12.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "data distribution geared toward scientific datasets",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1549662764,
-    "version": "0.11.2"
+    "timestamp": 1584388209,
+    "version": "0.12.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,17 +35,18 @@
     "cf202003",
     "main"
   ],
-  "package": "datalad-0.11.2-py37_0.tar.bz2",
+  "package": "datalad-0.12.3-py37hc8dfbb8_0.tar.bz2",
   "repodata": {
-    "build": "py37_0",
+    "build": "py37hc8dfbb8_0",
     "build_number": 0,
     "depends": [
       "appdirs",
       "boto",
+      "chardet >=3.0.4",
       "exifread",
       "fasteners",
       "git-annex",
-      "gitpython >=2.0.8",
+      "gitpython >=2.1.12",
       "humanize",
       "iso8601",
       "jsmin",
@@ -53,13 +54,18 @@
       "keyrings.alt",
       "mock >=1.0.1",
       "msgpack-python",
-      "mutagen",
+      "mutagen >=1.36",
+      "p7zip",
       "patool >=1.7",
       "pillow",
       "psutil",
       "pygithub",
       "pyld <0.8|>=0.8.2",
+      "pyperclip",
       "python >=3.7,<3.8.0a0",
+      "python-dateutil",
+      "python_abi 3.7.* *_cp37m",
+      "pyyaml",
       "requests >=1.2",
       "requests-ftp",
       "secretstorage",
@@ -70,15 +76,15 @@
       "wrapt"
     ],
     "license": "MIT",
-    "md5": "3a7f0936d5e024d28247bd2a38a2a9fe",
+    "md5": "0d0823ba67428fcea9b8f604f25da909",
     "name": "datalad",
-    "sha256": "5a83f459038b622a7f4082110dd61ec60ee1920487726a171d638bd11213ec1c",
-    "size": 1574216,
+    "sha256": "e1adc405e7446f522378c920cb7e9a41ebf0feecc56cf6bc508ba6eefc8ccf5f",
+    "size": 1791160,
     "subdir": "linux-64",
-    "timestamp": 1549662764409,
-    "version": "0.11.2"
+    "timestamp": 1584388209161,
+    "version": "0.12.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/datalad-0.11.2-py37_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/datalad-0.12.3-py37hc8dfbb8_0.tar.bz2"
 }

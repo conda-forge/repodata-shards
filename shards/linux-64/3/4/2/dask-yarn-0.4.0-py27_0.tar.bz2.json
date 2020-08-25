@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/dask-yarn/dask-yarn-0.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/dask-yarn/dask-yarn-0.4.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Deploy dask clusters on Apache YARN",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1533156520,
-    "version": "0.3.0"
+    "timestamp": 1541196142,
+    "version": "0.4.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "dask-yarn-0.3.0-py35_0.tar.bz2",
+  "package": "dask-yarn-0.4.0-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "dask >=0.18.0",
-      "distributed >=1.22.0",
-      "python >=3.5,<3.6.0a0",
-      "skein >=0.1.0"
+      "backports.weakref",
+      "dask >=0.19.0",
+      "distributed >=1.23.0",
+      "grpcio >=1.14.0",
+      "python >=2.7,<2.8.0a0",
+      "skein >=0.3.1"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "4a163fdda8ebc748b0413d6f18d5caf3",
+    "md5": "bbd2cead3bb4fce4befcec7eb88e4a28",
     "name": "dask-yarn",
-    "sha256": "667ef12b36d94fe635e055a94913ca0c5fe335b89ede93a9885cca6effebf9aa",
-    "size": 21976,
+    "sha256": "0c932ae075060fc33ac8b54fd17964daa20361d07853586da67ce613b7220b5e",
+    "size": 32199,
     "subdir": "linux-64",
-    "timestamp": 1533156520024,
-    "version": "0.3.0"
+    "timestamp": 1541196142989,
+    "version": "0.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-yarn-0.3.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-yarn-0.4.0-py27_0.tar.bz2"
 }

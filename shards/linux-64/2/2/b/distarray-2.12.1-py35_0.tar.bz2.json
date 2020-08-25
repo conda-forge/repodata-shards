@@ -3,11 +3,11 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": null,
-    "dev_url": null,
+    "description": "Divide work among proceses for ensemble runs, linear interpolation, finity differencign.  Leverage the cores on the computer and is MPI ready.",
+    "dev_url": "https://github.com/UV-CDAT/distarray",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/micheles/decorator",
+    "home": "http://uvcdat.llnl.gov/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/decorator/decorator-4.1.2.tar.gz",
+    "source_url": "https://github.com/UV-CDAT/distarray/archive/2.12.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Better living through Python with decorators.",
+    "summary": "Big Array partitionned in sub arrays",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.1.2"
+    "version": "2.12.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "decorator-4.1.2-py35_0.tar.bz2",
+  "package": "distarray-2.12.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
+      "future",
       "python 3.5*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "113a280497870a8f59e516151ea9cb16",
-    "name": "decorator",
-    "sha256": "f2ba9b8c0bdade0ec24b92bcb37d2d4d7b44bde690bc3a5a7310fe9e0513c287",
-    "size": 478224,
+    "md5": "6af468b855e3176f9e021a3dcb17b607",
+    "name": "distarray",
+    "sha256": "a404a6b6bbb14b07fc59e36e575a1aa6410a72d26b7f6d9427bed51ceaa716e0",
+    "size": 16838,
     "subdir": "linux-64",
-    "version": "4.1.2"
+    "version": "2.12.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/decorator-4.1.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/distarray-2.12.1-py35_0.tar.bz2"
 }

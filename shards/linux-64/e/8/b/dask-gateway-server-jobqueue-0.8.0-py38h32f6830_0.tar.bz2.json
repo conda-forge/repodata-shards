@@ -12,50 +12,49 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "New BSD",
+    "license": "BSD-3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/dask/dask-gateway/archive/0.5.0.tar.gz",
+    "source_url": "https://github.com/dask/dask-gateway/archive/0.8.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "A multi-tenant server for securely deploying and managing Dask clusters.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1570475511,
-    "version": "0.5.0"
+    "text_prefix": false,
+    "timestamp": 1595621352,
+    "version": "0.8.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "dask-gateway-0.5.0-py36_1.tar.bz2",
+  "package": "dask-gateway-server-jobqueue-0.8.0-py38h32f6830_0.tar.bz2",
   "repodata": {
-    "build": "py36_1",
-    "build_number": 1,
+    "build": "py38h32f6830_0",
+    "build_number": 0,
     "depends": [
-      "dask >=2.2.0",
-      "distributed >=2.2.0",
-      "python >=3.6,<3.7.0a0",
-      "tornado"
+      "dask-gateway-server 0.8.0 py38h2fc4d32_0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "sqlalchemy"
     ],
-    "license": "New BSD",
+    "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "611ac1e662ef0500d53237003e6f6fd7",
-    "name": "dask-gateway",
-    "sha256": "a3615831c9645b3bfe783bc7b69431995fef6bde487211a0734d8a7f8b115a1f",
-    "size": 47544,
+    "md5": "5ce7d190594855c3540f8b52ac389e13",
+    "name": "dask-gateway-server-jobqueue",
+    "sha256": "1e68e35c960d1560472c6b63ee631dfa3a0673b86acd832f0e30d8fe618de3fc",
+    "size": 4661,
     "subdir": "linux-64",
-    "timestamp": 1570475511289,
-    "version": "0.5.0"
+    "timestamp": 1595621352302,
+    "version": "0.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-gateway-0.5.0-py36_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-gateway-server-jobqueue-0.8.0-py38h32f6830_0.tar.bz2"
 }

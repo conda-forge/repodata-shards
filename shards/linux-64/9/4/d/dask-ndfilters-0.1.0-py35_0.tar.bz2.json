@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/dask-image/dask-ndfilters",
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "https://github.com/micheles/decorator",
+    "doc_url": "https://dask-ndfilters.readthedocs.io/",
+    "home": "https://github.com/dask-image/dask-ndfilters",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/d/decorator/decorator-4.1.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/d/dask-ndfilters/dask-ndfilters-0.1.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Better living through Python with decorators.",
+    "summary": "A library for using N-D filters with Dask Arrays",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "4.1.2"
+    "version": "0.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "decorator-4.1.2-py35_0.tar.bz2",
+  "package": "dask-ndfilters-0.1.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "dask",
+      "numpy",
+      "python 3.5*",
+      "scipy"
     ],
     "license": "BSD 3-Clause",
-    "md5": "113a280497870a8f59e516151ea9cb16",
-    "name": "decorator",
-    "sha256": "f2ba9b8c0bdade0ec24b92bcb37d2d4d7b44bde690bc3a5a7310fe9e0513c287",
-    "size": 478224,
+    "md5": "e075c6ce53b07f005adece25ffea71ab",
+    "name": "dask-ndfilters",
+    "sha256": "4f34c342f0269fee9574e20596842b6989b2b4f563542a8b74e43db33a5bcd86",
+    "size": 14312,
     "subdir": "linux-64",
-    "version": "4.1.2"
+    "version": "0.1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/decorator-4.1.2-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dask-ndfilters-0.1.0-py35_0.tar.bz2"
 }
