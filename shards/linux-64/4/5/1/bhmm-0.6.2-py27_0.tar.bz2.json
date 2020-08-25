@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "provides machinery for sampling from the Bayesian posterior of hidden Markov models with various choices of prior and output models.",
     "dev_url": "https://github.com/bhmm/bhmm",
@@ -19,7 +19,7 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/bhmm/bhmm-0.6.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/b/bhmm/bhmm-0.6.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "bhmm-0.6.1-np111py34_0.tar.bz2",
+  "package": "bhmm-0.6.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "np111py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
       "msmtools",
-      "numpy 1.11*",
-      "python 3.4*",
+      "numpy >=1.8",
+      "python 2.7*",
       "scipy",
       "six"
     ],
     "license": "LGPLv3+",
-    "md5": "72986ea7568d58b3f5101292315579ae",
+    "md5": "b85af830fcd17308d81b6dc4a6cb10e5",
     "name": "bhmm",
-    "sha256": "44abc1f764c4afd9cb33f7fc67a48d819eeaaccad867c5a052fc952bde3784a5",
-    "size": 455696,
+    "sha256": "0b963e84b4425cb6ac16a4ece2ba227048bfda617c01a586caf788b4e61baef9",
+    "size": 502428,
     "subdir": "linux-64",
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/bhmm-0.6.1-np111py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/bhmm-0.6.2-py27_0.tar.bz2"
 }
