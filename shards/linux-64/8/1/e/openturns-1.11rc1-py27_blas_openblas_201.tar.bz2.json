@@ -19,39 +19,45 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/openturns/otsvm/archive/v0.3.tar.gz",
+    "source_url": "https://github.com/openturns/openturns/archive/v1.11rc1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "SVM module",
+    "summary": "Uncertainty treatment library",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "0.3"
+    "version": "1.11rc1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "otsvm-0.3-py36_1.tar.bz2",
+  "package": "openturns-1.11rc1-py27_blas_openblas_201.tar.bz2",
   "repodata": {
-    "build": "py36_1",
-    "build_number": 1,
+    "build": "py27_blas_openblas_201",
+    "build_number": 201,
     "depends": [
-      "openturns",
-      "python 3.6*"
+      "blas 1.1 openblas",
+      "hmat-oss",
+      "libxml2 2.9.*",
+      "muparser",
+      "nlopt",
+      "openblas 0.2.20|0.2.20.*",
+      "python 2.7*",
+      "tbb"
     ],
+    "features": "blas_openblas",
     "license": "LGPL3",
-    "md5": "a896a7f8ded58115e7b384b49cf89e29",
-    "name": "otsvm",
-    "sha256": "66e546e3ad5bfa15f5d966f46c7f0536ab2cdb4c44e79e748b794266c5d51dcd",
-    "size": 507744,
+    "md5": "f9f306312ae1b1e6bc8a850a9f3e049a",
+    "name": "openturns",
+    "sha256": "ea669f018519e44baa9adbebcdf42d283c1a3c1bd65d9328cc9b1448d70eee0b",
+    "size": 22185356,
     "subdir": "linux-64",
-    "version": "0.3"
+    "version": "1.11rc1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/otsvm-0.3-py36_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/openturns-1.11rc1-py27_blas_openblas_201.tar.bz2"
 }
