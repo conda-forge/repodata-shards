@@ -4,7 +4,7 @@ conda install -y -q git
 
 git config --global user.email 'conda.forge.daemon@gmail.com'
 git config --global user.name 'conda-forge-daemon'
-git config --global pull.rebase false
+git config --global pull.rebase true
 
 pushd ..
 git clone --depth=1 https://github.com/regro/repodata-tools.git
