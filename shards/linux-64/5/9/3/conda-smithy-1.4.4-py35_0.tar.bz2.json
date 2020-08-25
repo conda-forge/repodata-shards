@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ipython/ipywidgets",
+    "home": "https://github.com/conda-forge/conda-smithy",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ipywidgets/ipywidgets-6.0.1.tar.gz",
+    "source_url": "https://github.com/conda-forge/conda-smithy/archive/v1.4.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Jupyter Interactive Widgets",
+    "summary": "The tool for managing conda-forge feedstocks",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "6.0.1"
+    "version": "1.4.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,32 @@
     "cf202003",
     "main"
   ],
-  "package": "ipywidgets-6.0.1-py27_0.tar.bz2",
+  "package": "conda-smithy-1.4.4-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "ipykernel >=4.5.1",
-      "ipython >=4.0.0",
-      "nbformat >=4.2.0",
-      "python 2.7*",
-      "traitlets >=4.3.1,<5.0.0",
-      "widgetsnbextension >=2.0.0,<3.0.0"
+      "conda",
+      "conda-build >=1.21.12",
+      "conda-build-all",
+      "gitpython",
+      "jinja2",
+      "pycrypto",
+      "pygithub <2",
+      "python 3.5*",
+      "requests",
+      "ruamel.yaml"
     ],
     "license": "BSD 3-clause",
-    "md5": "95e7dd79dcaa34f8aade09bc4206b7e1",
-    "name": "ipywidgets",
-    "sha256": "054ae5891fc4d596397f32c7fbcd6796449ca6fb008c633556b777bbb0d34460",
-    "size": 68855,
+    "license_family": "BSD",
+    "md5": "5aa63498d86909421783872325dd7580",
+    "name": "conda-smithy",
+    "sha256": "a2d893cb681b05dc5eae93046fbc9272a71b7afae78bbfa4f4a93230c0ef24a8",
+    "size": 242967,
     "subdir": "linux-64",
-    "version": "6.0.1"
+    "version": "1.4.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipywidgets-6.0.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-smithy-1.4.4-py35_0.tar.bz2"
 }

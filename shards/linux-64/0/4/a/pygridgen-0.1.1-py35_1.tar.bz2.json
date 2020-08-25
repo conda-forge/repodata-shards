@@ -7,51 +7,54 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/celery/billiard",
+    "home": "https://github.com/hetland/pygridgen",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/billiard/billiard-3.3.0.23.tar.gz",
+    "source_url": "https://github.com/phobson/pygridgen/archive/0.1.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python multiprocessing fork with improvements and bugfixes",
+    "summary": "Python interface to gridgen by Pavel Sakov",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.3.0.23"
+    "version": "0.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "billiard-3.3.0.23-py35_2.tar.bz2",
+  "package": "pygridgen-0.1.1-py35_1.tar.bz2",
   "repodata": {
-    "build": "py35_2",
-    "build_number": 2,
+    "build": "py35_1",
+    "build_number": 1,
     "depends": [
+      "gridgen",
+      "matplotlib",
+      "numpy >=1.8",
+      "pandas",
+      "pyproj",
       "python 3.5*"
     ],
-    "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "1dd6bfa81a47209aaf8753ea21ed42b6",
-    "name": "billiard",
-    "sha256": "02295d55d98aa204a89d2779effdbe8b481dba476f313b515e192ee6618657f7",
-    "size": 331867,
+    "license": "MIT",
+    "md5": "29549cd2363e9a5fc791d19ba47aea2b",
+    "name": "pygridgen",
+    "sha256": "2d6d00787e565207ca176a03f5a1ed79caab1184c82d06af2b412e35338aa77f",
+    "size": 81840,
     "subdir": "linux-64",
-    "version": "3.3.0.23"
+    "version": "0.1.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/billiard-3.3.0.23-py35_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pygridgen-0.1.1-py35_1.tar.bz2"
 }

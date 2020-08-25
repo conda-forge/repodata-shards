@@ -7,55 +7,57 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/ipython/ipywidgets",
+    "home": "https://github.com/axiom-data-science/pyaxiom",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "MIT License",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/ipywidgets/ipywidgets-6.0.1.tar.gz",
+    "source_url": "https://github.com/axiom-data-science/pyaxiom/archive/1.2.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Jupyter Interactive Widgets",
+    "summary": "An ocean data toolkit developed and used by Axiom Data Science",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "6.0.1"
+    "version": "1.2.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "ipywidgets-6.0.1-py27_0.tar.bz2",
+  "package": "pyaxiom-1.2.3-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "ipykernel >=4.5.1",
-      "ipython >=4.0.0",
-      "nbformat >=4.2.0",
+      "netcdf4",
+      "numpy",
+      "pandas",
+      "pyncml",
+      "pynco",
       "python 2.7*",
-      "traitlets >=4.3.1,<5.0.0",
-      "widgetsnbextension >=2.0.0,<3.0.0"
+      "python-dateutil",
+      "pytz",
+      "simplejson"
     ],
-    "license": "BSD 3-clause",
-    "md5": "95e7dd79dcaa34f8aade09bc4206b7e1",
-    "name": "ipywidgets",
-    "sha256": "054ae5891fc4d596397f32c7fbcd6796449ca6fb008c633556b777bbb0d34460",
-    "size": 68855,
+    "license": "MIT License",
+    "md5": "8fc5cbd27b0a242c0a645135a0531a14",
+    "name": "pyaxiom",
+    "sha256": "fd092946cdc844977760776a182106719cee20433240a1d9784fedf9d00e2f16",
+    "size": 72240,
     "subdir": "linux-64",
-    "version": "6.0.1"
+    "version": "1.2.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipywidgets-6.0.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyaxiom-1.2.3-py27_0.tar.bz2"
 }
