@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL (>= 2)",
+    "license": "GPL-2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -20,8 +20,8 @@
     "run_exports": {},
     "source_git_url": null,
     "source_url": [
-      "https://cran.r-project.org/src/contrib/prodlim_1.6.1.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/prodlim/prodlim_1.6.1.tar.gz"
+      "https://cran.r-project.org/src/contrib/Archive/prodlim/prodlim_2019.10.13.tar.gz",
+      "https://cran.r-project.org/src/contrib/prodlim_2019.10.13.tar.gz"
     ],
     "subdirs": [
       "linux-64"
@@ -29,8 +29,8 @@
     "summary": "Fast and user friendly implementation of nonparametric estimators for censored event history (survival) analysis. Kaplan-Meier and Aalen-Johansen method.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.6.1"
+    "timestamp": 1572810764,
+    "version": "2019.10.13"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -38,28 +38,30 @@
     "cf202003",
     "main"
   ],
-  "package": "r-prodlim-1.6.1-r3.3.2_0.tar.bz2",
+  "package": "r-prodlim-2019.10.13-r35h0357c0b_0.tar.bz2",
   "repodata": {
-    "build": "r3.3.2_0",
+    "build": "r35h0357c0b_0",
     "build_number": 0,
     "depends": [
-      "libgcc",
-      "r-base 3.3.2*",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "r-base >=3.5,<3.6.0a0",
       "r-kernsmooth",
       "r-lava",
       "r-rcpp >=0.11.5",
       "r-survival"
     ],
-    "license": "GPL (>= 2)",
-    "license_family": "GPL3",
-    "md5": "1400f385fd262de5fe95b28847c8e7bd",
+    "license": "GPL-2",
+    "license_family": "GPL2",
+    "md5": "ba86d6eb4d58facb4fba2d6f2925e7fe",
     "name": "r-prodlim",
-    "sha256": "796bb17743219c9b8a7fccebf3b3efa17e3be9820b7b4ded09d9b109ea791cc3",
-    "size": 230991,
+    "sha256": "3d5b9ba9635e88594df5bdd312795d0c441ca2f79592093890b1893f8e20da24",
+    "size": 419406,
     "subdir": "linux-64",
-    "version": "1.6.1"
+    "timestamp": 1572810764251,
+    "version": "2019.10.13"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-prodlim-1.6.1-r3.3.2_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-prodlim-2019.10.13-r35h0357c0b_0.tar.bz2"
 }
