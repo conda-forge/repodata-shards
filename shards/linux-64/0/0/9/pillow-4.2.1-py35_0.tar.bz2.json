@@ -1,33 +1,33 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/pdfminer/pdfminer.six",
+    "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pdfminer/pdfminer.six",
+    "home": "http://python-imaging.github.io/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "PIL",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pdfminer.six/pdfminer.six-20170419.tar.gz",
+    "source_url": "https://pypi.io/packages/source/P/Pillow/Pillow-4.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "PDF parser and analyzer",
+    "summary": "Pillow is the friendly PIL fork by Alex Clark and Contributors.",
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "20170419"
+    "version": "4.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "pdfminer.six-20170419-py35_0.tar.bz2",
+  "package": "pillow-4.2.1-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "chardet",
-      "pycrypto",
+      "freetype 2.7|2.7.*",
+      "jpeg 9*",
+      "libtiff 4.0.*",
+      "olefile",
       "python 3.5*",
-      "six"
+      "zlib 1.2.*"
     ],
-    "license": "MIT",
-    "license_family": "MIT",
-    "md5": "3b83471e0375521cfcb4621df8d1d355",
-    "name": "pdfminer.six",
-    "sha256": "84f2a64fc8b78c6959ca00566edf883202fe32b68cbc98bce803d84dd685e559",
-    "size": 5258958,
+    "license": "PIL",
+    "md5": "72a98be63f42d690671d9a3f0b8bf956",
+    "name": "pillow",
+    "sha256": "9a98c44106b95680e6bb8a0df8a9d0355a61fd3e012097a8d60a7aa94ef6694b",
+    "size": 953698,
     "subdir": "linux-64",
-    "version": "20170419"
+    "version": "4.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pdfminer.six-20170419-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pillow-4.2.1-py35_0.tar.bz2"
 }
