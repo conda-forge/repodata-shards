@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": "The code supports two- and three- dimensional ordinary and universal kriging. Standard variogram models (linear, power, spherical, gaussian, exponential) are built in, but custom variogram models can also be used with the code.",
-    "dev_url": "https://github.com/bsmurphy/PyKrige",
+    "dev_url": "https://github.com/GeoStat-Framework/PyKrige",
     "doc_source_url": null,
-    "doc_url": "http://pykrige.readthedocs.io/en/latest/",
-    "home": "https://github.com/bsmurphy/PyKrige",
+    "doc_url": "http://pykrige.readthedocs.io/",
+    "home": "https://github.com/GeoStat-Framework/PyKrige",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,42 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/P/PyKrige/PyKrige-1.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/P/PyKrige/PyKrige-1.5.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Kriging Toolkit for Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.3.0"
+    "timestamp": 1586015328,
+    "version": "1.5.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pykrige-1.3.0-np112py35_0.tar.bz2",
+  "package": "pykrige-1.5.0-py37h8f50634_0.tar.bz2",
   "repodata": {
-    "build": "np112py35_0",
+    "build": "py37h8f50634_0",
     "build_number": 0,
     "depends": [
-      "matplotlib >=1.4.3",
-      "numpy 1.12*",
-      "python 3.5*",
-      "scipy >=0.17.0"
+      "libgcc-ng >=7.3.0",
+      "numpy >=1.18.1,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "scipy >=1.4.1,<2.0a0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "f43e5f90fc6ef881642893b605b469ed",
+    "md5": "88cb936b39aab9a3b4c2d41b2115af58",
     "name": "pykrige",
-    "sha256": "72fcce3247f9c1be0dc321cbe269bcafecf5ccaca8475fdac692091dc50a8aa6",
-    "size": 613741,
+    "sha256": "2e6105799a39d97587e3e1d53327cf83505bfff5b4f774e7c025e7a37a991f61",
+    "size": 932641,
     "subdir": "linux-64",
-    "version": "1.3.0"
+    "timestamp": 1586015328670,
+    "version": "1.5.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pykrige-1.3.0-np112py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pykrige-1.5.0-py37h8f50634_0.tar.bz2"
 }
