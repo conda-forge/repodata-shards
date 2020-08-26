@@ -2,7 +2,7 @@
 
 conda install -y -q git
 
-git config --global user.email 'conda.forge.daemon@gmail.com'
+git config --global user.email 'dummy-email@dummy-email.org'
 git config --global user.name 'conda-forge-daemon'
 git config --global pull.rebase true
 
