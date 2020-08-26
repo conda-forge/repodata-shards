@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://spams-devel.gforge.inria.fr/hitcounter2.php?file=37237/spams-python-v2.6.1-svn2017-12-08.tar.gz",
+    "source_url": "http://spams-devel.gforge.inria.fr/hitcounter2.php?file=36644/spams-python3-v2.6-svn2017-03-28.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "An optimization toolbox for solving various sparse estimation problems.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1554000745,
-    "version": "2.6.1"
+    "timestamp": 0,
+    "version": "2.6"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,31 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "python-spams-2.6.1-py36h2738dde_1204.tar.bz2",
+  "package": "python-spams-2.6-np111py36_blas_openblas_201.tar.bz2",
   "repodata": {
-    "build": "py36h2738dde_1204",
-    "build_number": 1204,
+    "build": "np111py36_blas_openblas_201",
+    "build_number": 201,
     "depends": [
-      "libblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=7.3.0",
-      "liblapack >=3.8.0,<3.9.0a0",
-      "libstdcxx-ng >=7.3.0",
-      "numpy >=1.9.3,<2.0a0",
-      "python >=3.6,<3.7.0a0",
-      "scipy",
-      "six"
+      "blas 1.1 openblas",
+      "libgcc",
+      "numpy 1.11*",
+      "openblas 0.2.19|0.2.19.*",
+      "python 3.6*",
+      "scipy"
     ],
+    "features": "blas_openblas",
     "license": "GPL 3",
-    "license_family": "GPL",
-    "md5": "90b4385594241439ee328fa12746cdaa",
+    "md5": "8995d20b4d87d0657b9c706ce3e0eb85",
     "name": "python-spams",
-    "sha256": "8926ab265c941aab2c89dc570249cfbc815c7971e57526ba2e049d6003605104",
-    "size": 1137603,
+    "sha256": "d8fca988027129323eb2da8fe83565f0881bb1f7bd822f8a9e2b8923db6f2a52",
+    "size": 3143396,
     "subdir": "linux-64",
-    "timestamp": 1554000745666,
-    "version": "2.6.1"
+    "version": "2.6"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-spams-2.6.1-py36h2738dde_1204.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-spams-2.6-np111py36_blas_openblas_201.tar.bz2"
 }
