@@ -16,6 +16,10 @@ popd
 
 git clone https://github.com/regro/releases.git
 releases_repo_path=`pwd`/releases
+push releases
+repo_url=https://${GITHUB_TOKEN}@github.com/regro/releases.git
+git remote set-url --push origin ${repo_url}
+popd
 
 popd
 
