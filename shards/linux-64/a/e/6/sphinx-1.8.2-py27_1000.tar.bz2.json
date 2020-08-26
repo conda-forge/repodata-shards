@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/S/Sphinx/Sphinx-1.5.5.tar.gz",
+    "source_url": "https://pypi.io/packages/source/S/Sphinx/Sphinx-1.8.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "1.5.5"
+    "timestamp": 1541945692,
+    "version": "1.8.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,31 +35,36 @@
     "cf202003",
     "main"
   ],
-  "package": "sphinx-1.5.5-py36_0.tar.bz2",
+  "package": "sphinx-1.8.2-py27_1000.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "py27_1000",
+    "build_number": 1000,
     "depends": [
-      "alabaster",
-      "babel",
-      "docutils",
+      "alabaster >=0.7,<0.8",
+      "babel >=1.3,!=2.0",
+      "docutils >=0.11",
       "imagesize",
-      "jinja2",
-      "pygments",
-      "python 3.6*",
-      "requests",
-      "six",
-      "snowballstemmer"
+      "jinja2 >=2.3",
+      "packaging",
+      "pygments >=2.0",
+      "python >=2.7,<2.8.0a0",
+      "requests >=2.0.0",
+      "setuptools",
+      "six >=1.5",
+      "snowballstemmer >=1.1",
+      "sphinxcontrib-websupport",
+      "typing"
     ],
     "license": "BSD 2-clause",
-    "md5": "c682d5f1373345e72ac72be0e56664c5",
+    "md5": "3a4c981f7d56a57f493dee83e47b01ea",
     "name": "sphinx",
-    "sha256": "b1fa13e2838705bd661007cbc6b853428f4a570c6aaebce64e94506ba8000fe5",
-    "size": 1527102,
+    "sha256": "7ad0fa7368ff1ec12699baba3a82add93184c239649e39d58f1f61d2b03c9fe9",
+    "size": 1947045,
     "subdir": "linux-64",
-    "version": "1.5.5"
+    "timestamp": 1541945692253,
+    "version": "1.8.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/sphinx-1.5.5-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sphinx-1.8.2-py27_1000.tar.bz2"
 }
