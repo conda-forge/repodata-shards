@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/rabernat/xrft",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://www.x.org/",
+    "home": "https://github.com/rabernat/xrft",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,44 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/lib/libXrandr-1.5.1.tar.bz2",
+    "source_url": "https://github.com/rabernat/xrft/archive/v0.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The X.org Xrandr library",
+    "summary": "Fourier transforms for xarray data",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "1.5.1"
+    "version": "0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "xorg-libxrandr-1.5.1-0.tar.bz2",
+  "package": "xrft-0.1-py36_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "xorg-libx11 1.6.*",
-      "xorg-libxext",
-      "xorg-libxrender",
-      "xorg-randrproto",
-      "xorg-renderproto",
-      "xorg-xextproto"
+      "numpy",
+      "python 3.6*",
+      "xarray"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "3de19d298720ba41aa05f6fcbafe1353",
-    "name": "xorg-libxrandr",
-    "sha256": "da1b9f9f751391a52ba55aba5fde444a74f72977a59faafe6e96248cfc1051bc",
-    "size": 33782,
+    "md5": "246f49c713d90aa82b8a115316741ab7",
+    "name": "xrft",
+    "sha256": "c077388c869d30ab659dd5949fb1c58142d22c090b7b37827aed0e7f7e998c10",
+    "size": 16722,
     "subdir": "linux-64",
-    "version": "1.5.1"
+    "version": "0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxrandr-1.5.1-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xrft-0.1-py36_0.tar.bz2"
 }

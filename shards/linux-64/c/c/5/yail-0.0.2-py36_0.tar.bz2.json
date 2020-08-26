@@ -3,11 +3,11 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": "Basic tools (containers, algorithms) used by other packages from Quantstack",
-    "dev_url": "https://github.com/QuantStack/xtl",
+    "description": null,
+    "dev_url": "https://github.com/jakirkham/yail",
     "doc_source_url": null,
-    "doc_url": "http://xtl.readthedocs.io",
-    "home": "http://quantstack.net",
+    "doc_url": "https://yail.readthedocs.io/",
+    "home": "https://github.com/jakirkham/yail",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,37 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/QuantStack/xtl/archive/0.3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/y/yail/yail-0.0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The QuantStack tools library",
+    "summary": "Yet Another Iterator Library for Python.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.0"
+    "version": "0.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "xtl-0.3.0-0.tar.bz2",
+  "package": "yail-0.0.2-py36_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py36_0",
     "build_number": 0,
-    "depends": [],
+    "depends": [
+      "future >=0.15.2",
+      "python 3.6*",
+      "toolz >=0.8.0"
+    ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "1709cf727d335cc19690c39fe6c8a3b7",
-    "name": "xtl",
-    "sha256": "adefaa18ad944d1d0b5b7c4aeb693530654222a383c082c78def0c3988ff3f91",
-    "size": 39222,
+    "md5": "449f3874418a3172bd17a3d21e7ba011",
+    "name": "yail",
+    "sha256": "9002ffcbb321fc884acef7a61d3b0c9a3b3e582e926d61933e210febe73a1a76",
+    "size": 10955,
     "subdir": "linux-64",
-    "version": "0.3.0"
+    "version": "0.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xtl-0.3.0-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/yail-0.0.2-py36_0.tar.bz2"
 }

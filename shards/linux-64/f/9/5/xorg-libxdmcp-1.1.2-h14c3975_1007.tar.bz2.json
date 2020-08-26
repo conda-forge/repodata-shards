@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,43 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/lib/libXcursor-1.1.15.tar.bz2",
+    "source_url": "https://www.x.org/releases/individual/lib/libXdmcp-1.1.2.tar.bz2",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The X.org mouse cursor control library.",
+    "summary": "The X-windows display manager client protocol library.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1532440073,
-    "version": "1.1.15"
+    "timestamp": 1537067408,
+    "version": "1.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "xorg-libxcursor-1.1.15-h470a237_2.tar.bz2",
+  "package": "xorg-libxdmcp-1.1.2-h14c3975_1007.tar.bz2",
   "repodata": {
-    "build": "h470a237_2",
-    "build_number": 2,
+    "build": "h14c3975_1007",
+    "build_number": 1007,
     "depends": [
-      "libgcc-ng >=4.9",
-      "xorg-libx11 1.6.*",
-      "xorg-libxfixes 5.0.*",
-      "xorg-libxrender 0.9.*"
+      "libgcc-ng >=7.3.0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "f631256e26b3d1782c5afd2f0475aa0f",
-    "name": "xorg-libxcursor",
-    "sha256": "4fc5382d309c9187eafe7d4ee24abecf84504450ca59e944686c90d0a75b1e5d",
-    "size": 29147,
+    "md5": "bdd613997411c71a2830f0d9b391cc49",
+    "name": "xorg-libxdmcp",
+    "sha256": "1b0ffcd41df422ddb92de42a8c4f137d7b3a2080c87092388a1bf6e5a107108e",
+    "size": 18178,
     "subdir": "linux-64",
-    "timestamp": 1532440073141,
-    "version": "1.1.15"
+    "timestamp": 1537067408491,
+    "version": "1.1.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxcursor-1.1.15-h470a237_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxdmcp-1.1.2-h14c3975_1007.tar.bz2"
 }

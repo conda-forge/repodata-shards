@@ -4,7 +4,7 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": "Multi dimensional arrays with broadcasting and lazy computing",
-    "dev_url": "https://github.com/QuantStack/xtensor",
+    "dev_url": "https://github.com/QuantStack/xtensor-python",
     "doc_source_url": null,
     "doc_url": "http://xtensor.readthedocs.io",
     "home": "http://quantstack.net/xtensor",
@@ -19,39 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/QuantStack/xtensor/archive/0.13.1.tar.gz",
+    "source_url": "https://github.com/QuantStack/xtensor-python/archive/0.19.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The C++ tensor algebra library",
+    "summary": "Python bindings for xtensor, the C++ tensor algebra library",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 0,
-    "version": "0.13.1"
+    "text_prefix": false,
+    "timestamp": 1529530282,
+    "version": "0.19.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "xtensor-0.13.1-0.tar.bz2",
+  "package": "xtensor-python-0.19.0-h3e44d54_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "h3e44d54_0",
     "build_number": 0,
     "depends": [
-      "xtl >=0.3.3,<0.4"
+      "libstdcxx-ng >=4.9",
+      "numpy",
+      "pybind11 >=2.1.0,<2.3",
+      "xtensor >=0.16.0,<0.17",
+      "xtl >=0.4.9,<0.5"
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "6f88d49d9d747b5b52cbfda4b4a3945f",
-    "name": "xtensor",
-    "sha256": "e2c7e9bb3f486385b6468c3f62dc38eb29d2589b122547e6730c7d63ca9db3af",
-    "size": 82552,
+    "md5": "53c198c9134ba58796ff1db1eb89c24d",
+    "name": "xtensor-python",
+    "sha256": "7e9736f195ca8f8fb5a3180badf21b14cb1af17904d112ca15b51d00db89190c",
+    "size": 16241,
     "subdir": "linux-64",
-    "version": "0.13.1"
+    "timestamp": 1529530282100,
+    "version": "0.19.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xtensor-0.13.1-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xtensor-python-0.19.0-h3e44d54_0.tar.bz2"
 }
