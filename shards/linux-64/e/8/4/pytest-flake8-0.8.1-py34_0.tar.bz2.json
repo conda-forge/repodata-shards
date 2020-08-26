@@ -7,51 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-qt",
+    "home": "https://github.com/tholo/pytest-flake8",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL",
+    "license": "BSD 2-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-qt/pytest-qt-1.11.0.zip",
+    "source_url": "https://pypi.io/packages/source/p/pytest-flake8/pytest-flake8-0.8.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "pytest support for PyQt and PySide applications",
+    "summary": "pytest plugin to check FLAKE8 requirements",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.11.0"
+    "version": "0.8.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pytest-qt-1.11.0-py34_0.tar.bz2",
+  "package": "pytest-flake8-0.8.1-py34_0.tar.bz2",
   "repodata": {
     "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "pytest",
-      "python 3.4*"
+      "flake8 >=3.0",
+      "pytest >=2.8",
+      "python 3.4*",
+      "setuptools"
     ],
-    "license": "LGPL",
-    "md5": "d712c0a738edb7ad526cce5cd9cac2f8",
-    "name": "pytest-qt",
-    "sha256": "e2ed6d43c78ec51fb3216ec7d678be72e380c45f81bb65715e6490d55753cded",
-    "size": 26281,
+    "license": "BSD 2-Clause",
+    "license_family": "BSD",
+    "md5": "eb5add798b5da5227823846278fbf45e",
+    "name": "pytest-flake8",
+    "sha256": "c83e8b8dc0b13203d99c5acd38c243a2f2a35500a3245f1738b3c7b9e0fea3e2",
+    "size": 8230,
     "subdir": "linux-64",
-    "version": "1.11.0"
+    "version": "0.8.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-qt-1.11.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-flake8-0.8.1-py34_0.tar.bz2"
 }

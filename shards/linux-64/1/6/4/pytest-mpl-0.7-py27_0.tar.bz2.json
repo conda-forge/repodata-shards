@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-qt",
+    "home": "https://github.com/astrofrog/pytest-mpl",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL",
+    "license": "BSD",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-qt/pytest-qt-1.11.0.zip",
+    "source_url": "https://pypi.io/packages/source/p/pytest-mpl/pytest-mpl-0.7.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "pytest support for PyQt and PySide applications",
+    "summary": "pytest plugin to help with testing figures output from Matplotlib",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.11.0"
+    "version": "0.7"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,26 @@
     "cf202003",
     "main"
   ],
-  "package": "pytest-qt-1.11.0-py34_0.tar.bz2",
+  "package": "pytest-mpl-0.7-py27_0.tar.bz2",
   "repodata": {
-    "build": "py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
+      "matplotlib",
+      "nose",
       "pytest",
-      "python 3.4*"
+      "python 2.7*",
+      "setuptools"
     ],
-    "license": "LGPL",
-    "md5": "d712c0a738edb7ad526cce5cd9cac2f8",
-    "name": "pytest-qt",
-    "sha256": "e2ed6d43c78ec51fb3216ec7d678be72e380c45f81bb65715e6490d55753cded",
-    "size": 26281,
+    "license": "BSD",
+    "md5": "f58288b212d0763368c7fe1197f32ce9",
+    "name": "pytest-mpl",
+    "sha256": "dac41da238f3aebd6a86d6832d18508873cbe5de5b1112f438704b1f4727f62a",
+    "size": 16821,
     "subdir": "linux-64",
-    "version": "1.11.0"
+    "version": "0.7"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-qt-1.11.0-py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-mpl-0.7-py27_0.tar.bz2"
 }

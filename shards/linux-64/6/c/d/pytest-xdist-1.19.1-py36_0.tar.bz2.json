@@ -4,10 +4,10 @@
     "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
-    "dev_url": "https://github.com/pytest-dev/pytest-runner",
+    "dev_url": "https://github.com/pytest-dev/pytest-xdist",
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/pytest-dev/pytest-runner",
+    "home": "https://github.com/pytest-dev/pytest-xdist",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pytest-runner/pytest-runner-2.11.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pytest-xdist/pytest-xdist-1.19.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Invoke py.test as distutils command with dependency resolution.",
+    "summary": "py.test xdist plugin for distributed testing and loop-on-failing modes",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.11"
+    "version": "1.19.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pytest-runner-2.11-py36_0.tar.bz2",
+  "package": "pytest-xdist-1.19.1-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "pytest",
+      "execnet >=1.1",
+      "py >=1.4.22",
+      "pytest >=3.0.0",
+      "pytest-forked",
       "python 3.6*",
       "setuptools"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "502e834db52681ee385346099ad277d3",
-    "name": "pytest-runner",
-    "sha256": "9bf1689def8b09f37fe7671263672047fccedd951d46d4f03c50cc9727f58884",
-    "size": 10088,
+    "md5": "84fd8987e278d4945d24d7225c4952f3",
+    "name": "pytest-xdist",
+    "sha256": "928171a2d9b34e91efb7f62674117cb042f48aaa07d2ec160065654c220c7537",
+    "size": 47765,
     "subdir": "linux-64",
-    "version": "2.11"
+    "version": "1.19.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-runner-2.11-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytest-xdist-1.19.1-py36_0.tar.bz2"
 }
