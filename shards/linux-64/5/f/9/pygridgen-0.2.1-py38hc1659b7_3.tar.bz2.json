@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/FlorianRhiem/pyGLFW",
+    "home": "https://pygridgen.readthedocs.io/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/g/glfw/glfw-1.11.0.tar.gz",
+    "source_url": "https://github.com/pygridgen/pygridgen/archive/v0.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "This module provides Python bindings for GLFW",
+    "summary": "Python interface to gridgen by Pavel Sakov",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1582302794,
-    "version": "1.11.0"
+    "timestamp": 1581886974,
+    "version": "0.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "pyglfw-1.11.0-py38_0.tar.bz2",
+  "package": "pygridgen-0.2.1-py38hc1659b7_3.tar.bz2",
   "repodata": {
-    "build": "py38_0",
-    "build_number": 0,
+    "build": "py38hc1659b7_3",
+    "build_number": 3,
     "depends": [
-      "glfw",
+      "gridgen",
+      "libgcc-ng >=7.3.0",
+      "matplotlib-base",
+      "numpy >=1.14.6,<2.0a0",
+      "pyproj",
       "python >=3.8,<3.9.0a0"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "bc23b4e72f5c802c90b9e9b3de22b4a5",
-    "name": "pyglfw",
-    "sha256": "e2aeee124e0c86d8db975e21916e462c7a8471f0b7dabbeb71d614ea79919e37",
-    "size": 50490,
+    "md5": "25561338263bc73f5574238a81225f5b",
+    "name": "pygridgen",
+    "sha256": "2db070d90132b14d902e14f99924e77d5b76fd270e13f6597838159b50d549b6",
+    "size": 54366,
     "subdir": "linux-64",
-    "timestamp": 1582302794406,
-    "version": "1.11.0"
+    "timestamp": 1581886974434,
+    "version": "0.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyglfw-1.11.0-py38_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pygridgen-0.2.1-py38hc1659b7_3.tar.bz2"
 }

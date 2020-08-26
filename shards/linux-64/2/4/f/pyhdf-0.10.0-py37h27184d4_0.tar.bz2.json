@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/FlorianRhiem/pyGLFW",
+    "home": "https://github.com/fhs/pyhdf",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/g/glfw/glfw-1.9.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyhdf/pyhdf-0.10.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "This module provides Python bindings for GLFW",
+    "summary": "Python interface to the NCSA HDF4 library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1578511839,
-    "version": "1.9.1"
+    "timestamp": 1552496251,
+    "version": "0.10.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,27 @@
     "cf202003",
     "main"
   ],
-  "package": "pyglfw-1.9.1-py37_0.tar.bz2",
+  "package": "pyhdf-0.10.0-py37h27184d4_0.tar.bz2",
   "repodata": {
-    "build": "py37_0",
+    "build": "py37h27184d4_0",
     "build_number": 0,
     "depends": [
-      "glfw",
+      "hdf4 >=4.2.13,<4.3.0a0",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "numpy >=1.9.3,<2.0a0",
       "python >=3.7,<3.8.0a0"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "905d39ed434eef76cf4f5a56ccb1c426",
-    "name": "pyglfw",
-    "sha256": "5fe3df6a848dbeffe5606e6dcee4d94f781cc4663ddad9a8914cbb19bb69cfe8",
-    "size": 49611,
+    "md5": "92e24147f4ca362a413221d42a4fd17a",
+    "name": "pyhdf",
+    "sha256": "41b4848ddfdb84d0fcb682b89b1fed7efea35b84ee4ffc29a35a930f6e3bce4a",
+    "size": 150024,
     "subdir": "linux-64",
-    "timestamp": 1578511839281,
-    "version": "1.9.1"
+    "timestamp": 1552496251616,
+    "version": "0.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyglfw-1.9.1-py37_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyhdf-0.10.0-py37h27184d4_0.tar.bz2"
 }
