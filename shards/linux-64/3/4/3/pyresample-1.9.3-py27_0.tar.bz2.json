@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/mraspaud/pyresample/",
+    "home": "https://github.com/pytroll/pyresample/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/pytroll/pyresample/archive/v1.2.5.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyresample/pyresample-1.9.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Resampling of remote sensing data in Python",
+    "summary": "Resampling of remote sensing data in Python.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "1.2.5"
+    "timestamp": 1528543085,
+    "version": "1.9.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,31 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "pyresample-1.2.5-np110py34_0.tar.bz2",
+  "package": "pyresample-1.9.3-py27_0.tar.bz2",
   "repodata": {
-    "build": "np110py34_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "basemap",
       "configobj",
-      "matplotlib",
-      "numexpr",
-      "numpy 1.10*",
-      "pillow",
-      "pykdtree",
-      "pyproj",
-      "python 3.4*",
-      "scipy"
+      "numpy >=1.11",
+      "pykdtree >=1.1.1",
+      "pyproj >=1.9.5.1",
+      "python >=2.7,<2.8.0a0",
+      "pyyaml",
+      "six"
     ],
     "license": "LGPL-3.0",
-    "md5": "4c4ad0e96d39af30efd21987b37dfde1",
+    "md5": "3cb7f98278fb350a3c986be45b3c09ee",
     "name": "pyresample",
-    "sha256": "bc692263ab4a1d87184aae33388b7d9e6f31af922abe05d6064d074730958d9a",
-    "size": 962386,
+    "sha256": "73989e58fabe7ffb19b8ca155e9d21f7992619ce5124f55f208095744dfeac49",
+    "size": 1008426,
     "subdir": "linux-64",
-    "version": "1.2.5"
+    "timestamp": 1528543085831,
+    "version": "1.9.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyresample-1.2.5-np110py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyresample-1.9.3-py27_0.tar.bz2"
 }
