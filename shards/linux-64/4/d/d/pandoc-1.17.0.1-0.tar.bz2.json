@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pandoc.org/",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-2.0",
+    "license": "GPL",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-1-amd64.deb",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Universal markup converter (repackaged binaries)",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1554580266,
-    "version": "2.7.2"
+    "timestamp": 0,
+    "version": "1.17.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "pandoc-2.7.2-0.tar.bz2",
+  "package": "pandoc-1.17.0.1-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
-    "depends": [],
-    "license": "GPL-2.0",
-    "license_family": "GPL",
-    "md5": "33c3b32c8defda7028ed5c7e8d4fbf30",
+    "depends": [
+      "gmp",
+      "zlib"
+    ],
+    "license": "GPL",
+    "md5": "5564400e194fae2560c81cec73d4831a",
     "name": "pandoc",
-    "sha256": "7e9bd94ca8ceb87ab6ede7afa8473af273bac9cb6e8038e73f6d6864ef3abb80",
-    "size": 22800544,
+    "sha256": "91fd44d6d1fc2af1780b50d8ced4c550b8953794fc94cf7b2c7c26eba6c594d0",
+    "size": 17650560,
     "subdir": "linux-64",
-    "timestamp": 1554580266068,
-    "version": "2.7.2"
+    "version": "1.17.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandoc-2.7.2-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandoc-1.17.0.1-0.tar.bz2"
 }

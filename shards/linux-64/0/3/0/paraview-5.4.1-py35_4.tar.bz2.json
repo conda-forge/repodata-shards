@@ -19,7 +19,7 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://paraview.org/files/v5.4/ParaView-v5.4.0.tar.gz",
+    "source_url": "http://paraview.org/files/v5.4/ParaView-v5.4.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,7 +27,7 @@
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "5.4.0"
+    "version": "5.4.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,43 +35,44 @@
     "cf202003",
     "main"
   ],
-  "package": "paraview-5.4.0-py36_0.tar.bz2",
+  "package": "paraview-5.4.1-py35_4.tar.bz2",
   "repodata": {
-    "build": "py36_0",
-    "build_number": 0,
+    "build": "py35_4",
+    "build_number": 4,
     "depends": [
       "autobahn",
       "expat",
-      "freetype 2.6.*",
-      "hdf5 1.8.18|1.8.18.*",
+      "freetype 2.8.1",
+      "hdf5 1.10.1",
       "jpeg 9*",
+      "libgcc",
       "libglu",
       "libnetcdf 4.4.*",
       "libogg",
-      "libpng >=1.6.23,<1.7",
+      "libpng >=1.6.32,<1.6.35",
       "libtheora",
-      "libtiff >=4.0.3,<4.0.8",
+      "libtiff >=4.0.8,<4.0.10",
       "libxml2 2.9.*",
       "lz4-c",
-      "mesa",
+      "mesalib",
       "numpy",
-      "protobuf",
+      "protobuf 3.4.*",
       "pugixml",
-      "python 3.6*",
+      "python 3.5*",
       "six",
       "twisted",
-      "zlib 1.2.*",
+      "zlib 1.2.11",
       "zope.interface"
     ],
     "license": "BSD 3-Clause",
-    "md5": "56a9298ec154fe864cabf752d7cc6625",
+    "md5": "e8cfcd0a0c8a0ec47bf9644babc28f13",
     "name": "paraview",
-    "sha256": "f54158bc1fd180607adfd6867e417cea570edbf3bfb4523e49dce4e3f6569776",
-    "size": 48366612,
+    "sha256": "d1008a6383ae6a2eecca3b55c182c948553429e3d4cff846106708f30ea7de0e",
+    "size": 47891535,
     "subdir": "linux-64",
-    "version": "5.4.0"
+    "version": "5.4.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/paraview-5.4.0-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/paraview-5.4.1-py35_4.tar.bz2"
 }

@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://pandoc.org/",
+    "home": "http://openturns.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL-2.0",
+    "license": "LGPLv3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-1-amd64.deb",
+    "source_url": "https://github.com/openturns/otsvm/archive/v0.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Universal markup converter (repackaged binaries)",
+    "summary": "SVM module",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1554580266,
-    "version": "2.7.2"
+    "timestamp": 0,
+    "version": "0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,23 @@
     "cf202003",
     "main"
   ],
-  "package": "pandoc-2.7.2-0.tar.bz2",
+  "package": "otsvm-0.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py27_0",
     "build_number": 0,
-    "depends": [],
-    "license": "GPL-2.0",
-    "license_family": "GPL",
-    "md5": "33c3b32c8defda7028ed5c7e8d4fbf30",
-    "name": "pandoc",
-    "sha256": "7e9bd94ca8ceb87ab6ede7afa8473af273bac9cb6e8038e73f6d6864ef3abb80",
-    "size": 22800544,
+    "depends": [
+      "openturns",
+      "python 2.7*"
+    ],
+    "license": "LGPLv3",
+    "md5": "fe4e6a13490078371b9f5acae6e36e96",
+    "name": "otsvm",
+    "sha256": "d66e82e9d5ded17b4e923eb100692034d929d802562e68ab8c2a07a2376371d7",
+    "size": 482667,
     "subdir": "linux-64",
-    "timestamp": 1554580266068,
-    "version": "2.7.2"
+    "version": "0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandoc-2.7.2-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/otsvm-0.2-py27_0.tar.bz2"
 }
