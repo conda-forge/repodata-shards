@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "https://obspy.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD-3",
+    "license": "LGPLv3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://pypi.io/packages/source/o/obspy/obspy-1.0.3.zip",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "ObsPy: A Python Toolbox for seismology/seismological observatories.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.6.1"
+    "version": "1.0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,26 +35,32 @@
     "cf202003",
     "main"
   ],
-  "package": "obvious-ci-0.6.1-py35_0.tar.bz2",
+  "package": "obspy-1.0.3-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "anaconda-client",
-      "conda",
-      "conda-build",
+      "decorator",
+      "future",
+      "icu 58.*",
+      "lxml",
+      "matplotlib 1.5.*",
+      "numpy",
       "python 3.5*",
-      "setuptools"
+      "requests",
+      "scipy",
+      "setuptools",
+      "sqlalchemy"
     ],
-    "license": "BSD-3",
-    "md5": "4018b28406b2ac1d782c2e962d62493d",
-    "name": "obvious-ci",
-    "sha256": "011ff5039dffc685d7deafcec78d8b72e22065bc9816eb40b8d97b358c9ae40e",
-    "size": 19636,
+    "license": "LGPLv3",
+    "md5": "7a48128fd27928a3c3aae66d5f2f434f",
+    "name": "obspy",
+    "sha256": "45784b0271b0c0cc302232121e9669e6dd7959aa3c9fd94ca2b2755cdb46e795",
+    "size": 20359049,
     "subdir": "linux-64",
-    "version": "0.6.1"
+    "version": "1.0.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/obvious-ci-0.6.1-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/obspy-1.0.3-py35_0.tar.bz2"
 }
