@@ -1,56 +1,60 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/mrabarnett/mrab-regex",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Python-2.0",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/regex/regex-2017.06.20.tar.gz",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Alternative regular expression module, to replace re.",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2017.06.20"
+    "version": "3.12.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "regex-2017.06.20-py35_0.tar.bz2",
+  "package": "rejected-3.12.2-py34_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py34_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "helper",
+      "pika >=0.10.0",
+      "psutil",
+      "python 3.4*",
+      "pyyaml",
+      "tornado >=4.2,<4.3"
     ],
-    "license": "Python-2.0",
-    "md5": "78a0a59242f3423e1cf5b0a0c92dcb0e",
-    "name": "regex",
-    "sha256": "99e0469526590482a00d17d8b7e688f8e739f712b77259250c02379456a23f67",
-    "size": 679694,
+    "license": "BSD 3-clause",
+    "md5": "e734f7288895c23bd0dbe3af381725a7",
+    "name": "rejected",
+    "sha256": "a1c3959b05bd52c2b135a3fc67b1241a4c04a7d981b680c06f1ff7b4be830c9f",
+    "size": 51530,
     "subdir": "linux-64",
-    "version": "2017.06.20"
+    "version": "3.12.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/regex-2017.06.20-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/rejected-3.12.2-py34_0.tar.bz2"
 }

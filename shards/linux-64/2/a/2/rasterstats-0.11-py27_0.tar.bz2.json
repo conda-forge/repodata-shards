@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://reproject.readthedocs.io",
+    "home": "https://github.com/perrygeo/python-raster-stats",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/reproject/reproject-0.3.2.tar.gz",
+    "source_url": "https://github.com/perrygeo/python-rasterstats/archive/0.11.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The reproject package implements image reprojection (resampling) methods for astronomical data.",
+    "summary": "Summarize geospatial raster datasets based on vector geometries.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.2"
+    "version": "0.11"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,29 @@
     "cf202003",
     "main"
   ],
-  "package": "reproject-0.3.2-py27_0.tar.bz2",
+  "package": "rasterstats-0.11-py27_0.tar.bz2",
   "repodata": {
     "build": "py27_0",
     "build_number": 0,
     "depends": [
-      "astropy >=1.0",
-      "numpy",
+      "cligj >=0.4",
+      "fiona",
+      "gdal 2.1.*",
+      "numpy >=1.9",
       "python 2.7*",
-      "scipy"
+      "rasterio >=0.27",
+      "shapely",
+      "simplejson"
     ],
     "license": "BSD 3-Clause",
-    "md5": "b30f8d4103ad03fd5b7a50fb8044fe7a",
-    "name": "reproject",
-    "sha256": "19bb963ffc7bc97fbbf2922fe916dc57feda274b758b0ae993c8295f32de2cb0",
-    "size": 413191,
+    "md5": "35be5bbff45773f63c4399dc622abde1",
+    "name": "rasterstats",
+    "sha256": "c587cac6b4756a61bd26ccf834fb4cdedb648e6b2372bb9c31ce765d5417d72e",
+    "size": 21377,
     "subdir": "linux-64",
-    "version": "0.3.2"
+    "version": "0.11"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/reproject-0.3.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/rasterstats-0.11-py27_0.tar.bz2"
 }

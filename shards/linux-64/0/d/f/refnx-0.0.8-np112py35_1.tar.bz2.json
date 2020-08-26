@@ -6,8 +6,8 @@
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "http://reproject.readthedocs.io",
+    "doc_url": "https://refnx.github.io",
+    "home": "https://github.com/refnx/refnx",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/reproject/reproject-0.3.2.tar.gz",
+    "source_url": "https://github.com/refnx/refnx/archive/v0.0.8.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The reproject package implements image reprojection (resampling) methods for astronomical data.",
+    "summary": "Neutron and X-ray Reflectometry Analysis",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.2"
+    "version": "0.0.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,25 +35,30 @@
     "cf202003",
     "main"
   ],
-  "package": "reproject-0.3.2-py27_0.tar.bz2",
+  "package": "refnx-0.0.8-np112py35_1.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "np112py35_1",
+    "build_number": 1,
     "depends": [
-      "astropy >=1.0",
-      "numpy",
-      "python 2.7*",
-      "scipy"
+      "emcee",
+      "h5py",
+      "lmfit",
+      "numpy 1.12*",
+      "pandas",
+      "python 3.5*",
+      "scipy",
+      "uncertainties",
+      "xlrd"
     ],
     "license": "BSD 3-Clause",
-    "md5": "b30f8d4103ad03fd5b7a50fb8044fe7a",
-    "name": "reproject",
-    "sha256": "19bb963ffc7bc97fbbf2922fe916dc57feda274b758b0ae993c8295f32de2cb0",
-    "size": 413191,
+    "md5": "2cd64bb0709daff4536dadf162c06a54",
+    "name": "refnx",
+    "sha256": "3070f6ba298265e97777410704f8018078ef75e2ee4a0d9bba4a7525a1aa092f",
+    "size": 10614183,
     "subdir": "linux-64",
-    "version": "0.3.2"
+    "version": "0.0.8"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/reproject-0.3.2-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/refnx-0.0.8-np112py35_1.tar.bz2"
 }

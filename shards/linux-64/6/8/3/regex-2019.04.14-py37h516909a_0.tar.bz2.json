@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,38 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/regex/regex-2017.06.20.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/regex/regex-2019.04.14.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Alternative regular expression module, to replace re.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "2017.06.20"
+    "timestamp": 1555243550,
+    "version": "2019.04.14"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "regex-2017.06.20-py35_0.tar.bz2",
+  "package": "regex-2019.04.14-py37h516909a_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py37h516909a_0",
     "build_number": 0,
     "depends": [
-      "python 3.5*"
+      "libgcc-ng >=7.3.0",
+      "python >=3.7,<3.8.0a0"
     ],
     "license": "Python-2.0",
-    "md5": "78a0a59242f3423e1cf5b0a0c92dcb0e",
+    "license_family": "PSF",
+    "md5": "45b997fb5e9b99729e78535af1362465",
     "name": "regex",
-    "sha256": "99e0469526590482a00d17d8b7e688f8e739f712b77259250c02379456a23f67",
-    "size": 679694,
+    "sha256": "a091c70e411aa956a3050047925c05362c632b606c61a56cf7ac9af1a94be8e4",
+    "size": 371826,
     "subdir": "linux-64",
-    "version": "2017.06.20"
+    "timestamp": 1555243550347,
+    "version": "2019.04.14"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/regex-2017.06.20-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/regex-2019.04.14-py37h516909a_0.tar.bz2"
 }
