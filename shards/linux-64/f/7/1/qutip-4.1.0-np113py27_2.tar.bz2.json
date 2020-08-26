@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://qutip.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "http://qutip.org/downloads/4.1.0/qutip-4.1.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "QuTiP is open-source software for simulating the dynamics of open quantum systems and optimal quantum control",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.1.0"
+    "version": "4.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "qutip-3.1.0-np111py34_0.tar.bz2",
+  "package": "qutip-4.1.0-np113py27_2.tar.bz2",
   "repodata": {
-    "build": "np111py34_0",
-    "build_number": 0,
+    "build": "np113py27_2",
+    "build_number": 2,
     "depends": [
-      "numpy 1.11*",
-      "python 3.4*",
-      "scipy >=0.14"
+      "cython >=0.21",
+      "numpy 1.13*",
+      "python 2.7*",
+      "scipy >=0.15",
+      "setuptools"
     ],
     "license": "BSD 3-clause",
-    "md5": "f1d1429cf5124b28d40e4f7d134e2aca",
+    "md5": "a6ea3b09a77a539ce1cfeb1b51b2f4d4",
     "name": "qutip",
-    "sha256": "a24a175fb4757829bb6f7bf29518d5ffff6d2890cf0bdd9a09e9ba9585ca088f",
-    "size": 2097156,
+    "sha256": "0dd75f0109929a2659e8dc81cda2943ae2194300d813a6d327373ef3718c7390",
+    "size": 5034039,
     "subdir": "linux-64",
-    "version": "3.1.0"
+    "version": "4.1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/qutip-3.1.0-np111py34_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/qutip-4.1.0-np113py27_2.tar.bz2"
 }

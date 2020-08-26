@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,40 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pyzmq/pyzmq-17.0.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/p/pyzmq/pyzmq-18.0.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Python bindings for zeromq",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "17.0.0"
+    "timestamp": 1555677211,
+    "version": "18.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "pyzmq-17.0.0-py35_4.tar.bz2",
+  "package": "pyzmq-18.0.1-py27hc4ba49a_1.tar.bz2",
   "repodata": {
-    "build": "py35_4",
-    "build_number": 4,
+    "build": "py27hc4ba49a_1",
+    "build_number": 1,
     "depends": [
-      "libsodium",
-      "python 3.5*",
-      "zeromq >=4.2.5,<4.3"
+      "libgcc-ng >=7.3.0",
+      "libsodium >=1.0.16,<1.0.17.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "python >=2.7,<2.8.0a0",
+      "zeromq >=4.3.1,<4.4.0a0"
     ],
     "license": "BSD 3-clause",
-    "md5": "8442ca02f9894c2061e73145557887ee",
+    "md5": "f4929194dace4cb85e58217c97c598dc",
     "name": "pyzmq",
-    "sha256": "d518d0f9083ca251c449248824797d478da6b688578dd9af6520343521d3a5b2",
-    "size": 1107611,
+    "sha256": "3275ef3a78ed714fa55c3748e99f817c36dbf4dc0e5cb83c647f33889fef6a3b",
+    "size": 484981,
     "subdir": "linux-64",
-    "version": "17.0.0"
+    "timestamp": 1555677211843,
+    "version": "18.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyzmq-17.0.0-py35_4.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyzmq-18.0.1-py27hc4ba49a_1.tar.bz2"
 }
