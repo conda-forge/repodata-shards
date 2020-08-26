@@ -17,49 +17,43 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {
-      "3.6.3": {
-        "weak": [
-          "arpack >=3.6.3,<3.7.0a0"
-        ]
-      }
-    },
+    "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/opencollab/arpack-ng/archive/3.6.3.tar.gz",
+    "source_url": "https://github.com/opencollab/arpack-ng/archive/3.6.1.tar.gz",
     "subdirs": [
       "osx-64"
     ],
     "summary": "Fortran77 subroutines designed to solve large scale eigenvalue problems",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1571925167,
-    "version": "3.6.3"
+    "timestamp": 1532535189,
+    "version": "3.6.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "arpack-3.6.3-hc1f6be1_1006.tar.bz2",
+  "package": "arpack-3.6.1-blas_openblash1f444ea_0.tar.bz2",
   "repodata": {
-    "build": "hc1f6be1_1006",
-    "build_number": 1006,
+    "build": "blas_openblash1f444ea_0",
+    "build_number": 0,
     "depends": [
-      "libblas >=3.8.0,<4.0a0",
-      "libgfortran >=4.0.0,<5.0.0.a0",
-      "liblapack >=3.8.0,<3.9.0a0"
+      "blas 1.1 openblas",
+      "libgfortran >=3.0",
+      "openblas >=0.2.20,<0.2.21.0a0"
     ],
+    "features": "blas_openblas",
     "license": "BSD 3-Clause",
-    "md5": "abdbffdf287b6bd8a108f977ae12a4de",
+    "md5": "290e3b70bb4f9ea78546c4d660916c25",
     "name": "arpack",
-    "sha256": "27ede96e3c00e13ca0370c6c5c317d8e8000e8290f811d70bd171623a65d1ca2",
-    "size": 199209,
+    "sha256": "1cf6710fbcd75402cddfd6c560bab7b72361a90effea9040cd1e62e090091d2c",
+    "size": 186510,
     "subdir": "osx-64",
-    "timestamp": 1571925167929,
-    "version": "3.6.3"
+    "timestamp": 1532535189196,
+    "version": "3.6.1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/arpack-3.6.3-hc1f6be1_1006.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/osx-64/arpack-3.6.1-blas_openblash1f444ea_0.tar.bz2"
 }
