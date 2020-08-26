@@ -1,57 +1,59 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://bitbucket.org/ruamel/yaml",
+    "home": "http://python-requests.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.14.5.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/requests/requests-2.17.3.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1",
+    "summary": "Python HTTP for Humans.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.14.5"
+    "version": "2.17.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "ruamel.yaml-0.14.5-py36_0.tar.bz2",
+  "package": "requests-2.17.3-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
+      "certifi >=2017.4.17",
+      "chardet >=3.0.2,<3.1.0",
+      "idna >=2.5,<2.6",
       "python 3.6*",
-      "setuptools"
+      "urllib3 >=1.21.1,<1.22"
     ],
-    "license": "MIT",
-    "md5": "f18e3ada4551aa883c07e4e1a73e0cb9",
-    "name": "ruamel.yaml",
-    "sha256": "3c967ab4ef98b26112a5a019b54723e2ece3638515f04d9c1373dd4a075f91bb",
-    "size": 591734,
+    "license": "Apache 2.0",
+    "md5": "d789fb67e79b9a88f43695a9f854a505",
+    "name": "requests",
+    "sha256": "5fdefc86614c6eb9054e9dc3f1035dc9bef8f7b9d8f062c491ba9ebc01eaab9b",
+    "size": 91578,
     "subdir": "linux-64",
-    "version": "0.14.5"
+    "version": "2.17.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.14.5-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/requests-2.17.3-py36_0.tar.bz2"
 }
