@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/trungdong/prov",
+    "home": "http://agrum.gitlab.io/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "GPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/prov/prov-1.4.0.tar.gz",
+    "source_url": "https://gitlab.com/agrumery/aGrUM/repository/archive.tar.bz2?ref=0.12.0",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for W3C Provenance Data Model supporting PROV-JSON and PROV-XML",
+    "summary": "A wrapper for the Agrum library, to make flexible and scalable probabilistic graphical models.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.4.0"
+    "version": "0.12.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,27 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "prov-1.4.0-py35_0.tar.bz2",
+  "package": "pyagrum-0.12.0-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "lxml",
-      "networkx >=1.10",
+      "matplotlib",
+      "numpy",
       "pydotplus",
-      "python 3.5*",
-      "python-dateutil",
-      "six >=1.9.0"
+      "python 3.5*"
     ],
-    "license": "MIT",
-    "md5": "539087c23fc72509cb8f4a75916c9d9b",
-    "name": "prov",
-    "sha256": "21b29a1fcea46ec758915e6b0622164f4c431e0bf923310efdb081d16dc7c0f2",
-    "size": 108489,
+    "license": "GPL3",
+    "md5": "d310d217e5b34093f53e2804b193bac8",
+    "name": "pyagrum",
+    "sha256": "d10a539a4dba04e8ead64705ac8add78eb227f710489fdd07f2182f33577e3b6",
+    "size": 10755517,
     "subdir": "linux-64",
-    "version": "1.4.0"
+    "version": "0.12.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/prov-1.4.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyagrum-0.12.0-py35_0.tar.bz2"
 }

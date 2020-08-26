@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/trungdong/prov",
+    "home": "http://www.pyamg.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,43 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/prov/prov-1.4.0.tar.gz",
+    "source_url": "https://pypi.python.org/packages/2d/39/c074c618f605949b6f924f02c654f078cdca95f177d6a38ae1fe0c2f11ca/pyamg-3.2.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A library for W3C Provenance Data Model supporting PROV-JSON and PROV-XML",
+    "summary": "Algebraic Multigrid Solvers in Python",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.4.0"
+    "version": "3.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "prov-1.4.0-py35_0.tar.bz2",
+  "package": "pyamg-3.2.1-np111py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "np111py27_0",
     "build_number": 0,
     "depends": [
-      "lxml",
-      "networkx >=1.10",
-      "pydotplus",
-      "python 3.5*",
-      "python-dateutil",
-      "six >=1.9.0"
+      "numpy 1.11*",
+      "pytest",
+      "python 2.7*",
+      "scipy",
+      "zlib"
     ],
     "license": "MIT",
-    "md5": "539087c23fc72509cb8f4a75916c9d9b",
-    "name": "prov",
-    "sha256": "21b29a1fcea46ec758915e6b0622164f4c431e0bf923310efdb081d16dc7c0f2",
-    "size": 108489,
+    "md5": "b92d9ec3e7753ffafa5001d65394189f",
+    "name": "pyamg",
+    "sha256": "584cb1395f4792bd7f7f3c83d70a6b9f9560e84e87927863f04338efc6d6d40a",
+    "size": 1739666,
     "subdir": "linux-64",
-    "version": "1.4.0"
+    "version": "3.2.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/prov-1.4.0-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyamg-3.2.1-np111py27_0.tar.bz2"
 }

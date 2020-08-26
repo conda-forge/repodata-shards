@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -12,22 +12,22 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "New BSD License",
+    "license": "BSD 3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/google/protobuf/archive/v3.0.0-beta-3/protobuf-v3.0.0-beta-3.tar.gz",
+    "source_url": "https://github.com/google/protobuf/archive/v3.3.2/protobuf-v3.3.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Protocol Buffers - Google's data interchange format",
+    "summary": "Protocol Buffers - Google's data interchange format.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "3.0.0b3"
+    "version": "3.3.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,24 +35,25 @@
     "cf202003",
     "main"
   ],
-  "package": "protobuf-3.0.0b3-py27_0.tar.bz2",
+  "package": "protobuf-3.3.2-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*",
+      "python 3.6*",
+      "setuptools",
       "six",
-      "zlib"
+      "zlib 1.2.*"
     ],
-    "license": "New BSD License",
-    "md5": "ca0a62f894bfd09fb2799605f933cb33",
+    "license": "BSD 3-Clause",
+    "md5": "274ae2d010cc14dc9b311e066c75fa66",
     "name": "protobuf",
-    "sha256": "a50986bca9059f7430ac5b8f3ae1089c4ddaa4b45199fbcc836fc55e06b866a8",
-    "size": 6814970,
+    "sha256": "dbc66e532e07d6e213b7c919825cd9a47cbbf4c3e5c790fa1a3007d1c1c0bf75",
+    "size": 5569985,
     "subdir": "linux-64",
-    "version": "3.0.0b3"
+    "version": "3.3.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/protobuf-3.0.0b3-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/protobuf-3.3.2-py36_0.tar.bz2"
 }
