@@ -1,56 +1,57 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://openturns.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/openturns/otfftw/archive/v0.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "FFTW module",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "2.0.1"
+    "version": "0.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "ordered-set-2.0.1-py27_0.tar.bz2",
+  "package": "otfftw-0.4-py36_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "fftw",
+      "openturns",
+      "python 3.6*"
     ],
-    "license": "MIT",
-    "md5": "85a958cdb16dcacaf851ba16d651a999",
-    "name": "ordered-set",
-    "sha256": "451c035b816a3ee40299ba2ae1a15848aec0dacff9d26fcfc7920f33a086ac7f",
-    "size": 5643,
+    "license": "LGPL3",
+    "md5": "29d23640bb0acb3531d8baf960462434",
+    "name": "otfftw",
+    "sha256": "ad6320bcf56974e35ece8c8b638706bb751d2856346d8a1e681ca3cb9c3b2809",
+    "size": 135267,
     "subdir": "linux-64",
-    "version": "2.0.1"
+    "version": "0.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ordered-set-2.0.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/otfftw-0.4-py36_0.tar.bz2"
 }

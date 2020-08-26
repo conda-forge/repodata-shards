@@ -7,27 +7,27 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://openturns.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "LGPL3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/openturns/otfmi/archive/v0.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "FMI models manipulation module",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.0.1"
+    "version": "0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,22 +35,24 @@
     "cf202003",
     "main"
   ],
-  "package": "ordered-set-2.0.1-py27_0.tar.bz2",
+  "package": "otfmi-0.1-py35_0.tar.bz2",
   "repodata": {
-    "build": "py27_0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "python 2.7*"
+      "openturns",
+      "pyfmi",
+      "python 3.5*"
     ],
-    "license": "MIT",
-    "md5": "85a958cdb16dcacaf851ba16d651a999",
-    "name": "ordered-set",
-    "sha256": "451c035b816a3ee40299ba2ae1a15848aec0dacff9d26fcfc7920f33a086ac7f",
-    "size": 5643,
+    "license": "LGPL3",
+    "md5": "09727b162ea52314d3ad1144edd15805",
+    "name": "otfmi",
+    "sha256": "0fa28e81181d45f054a97942c7f40fed0654f86292455b090a4677c719d8f71e",
+    "size": 2986818,
     "subdir": "linux-64",
-    "version": "2.0.1"
+    "version": "0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ordered-set-2.0.1-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/otfmi-0.1-py35_0.tar.bz2"
 }
