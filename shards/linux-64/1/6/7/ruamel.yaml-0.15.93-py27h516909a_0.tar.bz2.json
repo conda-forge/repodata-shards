@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,15 +19,15 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.4.tar.gz",
+    "source_url": "https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.93.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 which supports YAML1.1",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "0.15.4"
+    "timestamp": 1555880540,
+    "version": "0.15.93"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -35,23 +35,28 @@
     "cf202003",
     "main"
   ],
-  "package": "ruamel.yaml-0.15.4-py36_0.tar.bz2",
+  "package": "ruamel.yaml-0.15.93-py27h516909a_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py27h516909a_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*",
-      "setuptools"
+      "libgcc-ng >=7.3.0",
+      "python >=2.7,<2.8.0a0",
+      "ruamel",
+      "ruamel.ordereddict",
+      "setuptools",
+      "typing"
     ],
     "license": "MIT",
-    "md5": "6fb1d088893f03ba0899e91c5f5997a0",
+    "md5": "eb79c67e0645ee6cf1330f6d3d2c69ce",
     "name": "ruamel.yaml",
-    "sha256": "8daf1334ff294fb0c0bd09b79eaccff66e47f539886f7e6e7c0d53105232d4fe",
-    "size": 605710,
+    "sha256": "b07e9268e80958cd7e2cdd56327f4f0a233a18f56737ddb20acb2ed271dbd992",
+    "size": 312637,
     "subdir": "linux-64",
-    "version": "0.15.4"
+    "timestamp": 1555880540778,
+    "version": "0.15.93"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.15.4-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.15.93-py27h516909a_0.tar.bz2"
 }
