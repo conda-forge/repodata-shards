@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://www.sunpy.org/",
+    "home": "http://www.sunpy.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,36 +19,36 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/s/sunpy/sunpy-0.9.10.tar.gz",
+    "source_url": "https://pypi.io/packages/source/s/sunpy/sunpy-0.8.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "SunPy is an open-source Python library for Solar Physics data analysis and visualization.",
+    "summary": "Python for Solar Physics",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1575733741,
-    "version": "0.9.10"
+    "timestamp": 0,
+    "version": "0.8.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "sunpy-0.9.10-py36h516909a_0.tar.bz2",
+  "package": "sunpy-0.8.2-py36_1.tar.bz2",
   "repodata": {
-    "build": "py36h516909a_0",
-    "build_number": 0,
+    "build": "py36_1",
+    "build_number": 1,
     "depends": [
-      "astropy >=2.0.3",
+      "astropy >=2.0",
       "beautifulsoup4",
-      "drms",
       "glymur",
-      "libgcc-ng >=7.3.0",
-      "matplotlib >=1.3",
-      "numpy >=1.11,!=1.14.0,!=1.15.3",
+      "hypothesis",
+      "matplotlib",
+      "numpy >1.7.1",
       "pandas >=0.12.1",
-      "python >=3.6,<3.7.0a0",
+      "pytest",
+      "pytest-mock",
+      "python 3.6*",
       "requests",
       "scikit-image",
       "scipy",
@@ -56,15 +56,14 @@
       "suds-jurko"
     ],
     "license": "BSD 2-Clause",
-    "md5": "dfa9f5971553a3e2abd859e63ac6ca77",
+    "md5": "eaaabe8ba36efe6a2a3465156f12bfc2",
     "name": "sunpy",
-    "sha256": "5dbb72c23c66f68301d437f5e1261e5860277ac9aab507ad9001637d0222a229",
-    "size": 5931008,
+    "sha256": "e0eeb040d569fafcb233332a5a3dbdfc65dd3d3b229bfac6470d6279373e3956",
+    "size": 5874189,
     "subdir": "linux-64",
-    "timestamp": 1575733741585,
-    "version": "0.9.10"
+    "version": "0.8.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/sunpy-0.9.10-py36h516909a_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sunpy-0.8.2-py36_1.tar.bz2"
 }
