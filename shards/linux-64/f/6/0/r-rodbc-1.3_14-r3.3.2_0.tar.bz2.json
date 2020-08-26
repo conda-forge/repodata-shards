@@ -7,12 +7,12 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://cran.r-project.org/package=raster",
+    "home": "https://CRAN.R-project.org/package=RODBC",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL (>= 3)",
+    "license": "GPL-2 | GPL-3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -20,17 +20,17 @@
     "run_exports": {},
     "source_git_url": null,
     "source_url": [
-      "https://cran.r-project.org/src/contrib/raster_2.5-8.tar.gz",
-      "https://cran.r-project.org/src/contrib/Archive/raster/raster_2.5-8.tar.gz"
+      "https://cran.r-project.org/src/contrib/RODBC_1.3-14.tar.gz",
+      "https://cran.r-project.org/src/contrib/Archive/RODBC/RODBC_1.3-14.tar.gz"
     ],
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Reading, writing, manipulating, analyzing and modeling of gridded spatial data. The package implements basic and high-level functions. Processing of very large files is supported.",
+    "summary": "An ODBC database interface.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.5_8"
+    "version": "1.3_14"
   },
   "channeldata_version": 1,
   "feedstock": null,
@@ -38,26 +38,24 @@
     "cf202003",
     "main"
   ],
-  "package": "r-raster-2.5_8-r3.3.2_0.tar.bz2",
+  "package": "r-rodbc-1.3_14-r3.3.2_0.tar.bz2",
   "repodata": {
     "build": "r3.3.2_0",
     "build_number": 0,
     "depends": [
-      "libgcc",
       "r-base 3.3.2*",
-      "r-rcpp",
-      "r-sp >=1.2_0"
+      "unixodbc"
     ],
-    "license": "GPL (>= 3)",
+    "license": "GPL-2 | GPL-3",
     "license_family": "GPL3",
-    "md5": "3f42d741eac376aa822960310c1de677",
-    "name": "r-raster",
-    "sha256": "242c9bc8054dacd17125105b412e953187b7b7fc31176a942ab4c7b2d235b7a2",
-    "size": 2874408,
+    "md5": "4f348102e918d0cb129630678243d168",
+    "name": "r-rodbc",
+    "sha256": "a83f9c261b3894d433f4ea6ebde7f12c700d18f59f0d0a6d2b3749d3570be48b",
+    "size": 818125,
     "subdir": "linux-64",
-    "version": "2.5_8"
+    "version": "1.3_14"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-raster-2.5_8-r3.3.2_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rodbc-1.3_14-r3.3.2_0.tar.bz2"
 }
