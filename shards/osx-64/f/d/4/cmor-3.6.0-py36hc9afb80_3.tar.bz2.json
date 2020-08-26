@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "CMOR was not designed to serve as an all-purpose writer of CF-compliant netCDF files, but simply to reduce the effort required to prepare and manage MIP model output. Although MIPs encourage systematic analysis of results across models, this is only easy to do if the model output is written in a common format with files structured similarly and with sufficient metadata uniformly stored according to a common standard. Individual modeling groups store their data in different ways, but if a group can read its own data, then it should easily be able to transform the data, using CMOR, into the common format required by the MIPs. The adoption of CMOR as a standard code for exchanging climate data will facilitate participation in MIPs because after learning how to satisfy the output requirements of one MIP, it will be easy to prepare output for other MIPs.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://cmor.llnl.gov/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/PCMDI/cmor/archive/3.6.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "\u201CClimate Model Output Rewriter\u201D is a C library, with  Fortran 90 and Python bindings. CMOR is used to produce CF-compliant[3] netCDF[4] files. The structure of the files created by CMOR and the metadata they contain fulfill the requirements of many of the climate community\u2019s standard model experiments (which are referred to here as \u201CMIPs\u201D[5] and include, for example, AMIP, PMIP, APE, and IPCC [DN1] scenario runs).",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1598461763,
+    "version": "3.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cmor-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cmor-3.6.0-py36hc9afb80_3.tar.bz2",
+  "repodata": {
+    "build": "py36hc9afb80_3",
+    "build_number": 3,
+    "depends": [
+      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "json-c >=0.13.1,<0.14.0a0",
+      "libgfortran >=4.0.0,<5.0.0.a0",
+      "libnetcdf >=4.7.4,<4.7.5.0a0",
+      "libuuid >=2.32.1,<3.0a0",
+      "netcdf4",
+      "numpy >=1.18.5,<2.0a0",
+      "openblas",
+      "pypy3.6 >=7.3.1",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6 *_pypy36_pp73",
+      "six",
+      "udunits2"
+    ],
+    "license": "BSD-2-Clause",
+    "md5": "a6b8b127c4e074930a5ddbaa7a79660a",
+    "name": "cmor",
+    "sha256": "9a495c3d7c519bb7cc2bbe490ff2adce2d955892315f1ab6ba11964429708540",
+    "size": 987495,
+    "subdir": "osx-64",
+    "timestamp": 1598461763229,
+    "version": "3.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/cmor-3.6.0-py36hc9afb80_3.tar.bz2/cmor-3.6.0-py36hc9afb80_3.tar.bz2"
+}
