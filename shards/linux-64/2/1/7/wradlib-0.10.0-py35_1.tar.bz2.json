@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/JiaweiZhuang/xESMF",
+    "home": "http://wradlib.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,44 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/x/xesmf/xesmf-0.1.1.tar.gz",
+    "source_url": "https://pypi.io/packages/source/w/wradlib/wradlib-0.10.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Universal Regridder for Geospatial Data",
+    "summary": "Open Source Library for Weather Radar Data Processing",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1548709529,
-    "version": "0.1.1"
+    "timestamp": 0,
+    "version": "0.10.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "main"
   ],
-  "package": "xesmf-0.1.1-py37_1.tar.bz2",
+  "package": "wradlib-0.10.0-py35_1.tar.bz2",
   "repodata": {
-    "build": "py37_1",
+    "build": "py35_1",
     "build_number": 1,
     "depends": [
-      "esmpy",
+      "gdal 2.2.*",
+      "h5py",
+      "matplotlib",
+      "netcdf4",
       "numpy",
-      "python >=3.7,<3.8.0a0",
-      "scipy",
-      "xarray"
+      "python 3.5*",
+      "scipy"
     ],
     "license": "MIT",
-    "license_family": "MIT",
-    "md5": "5ca912ffb1a04e0383172585c56bcf8c",
-    "name": "xesmf",
-    "sha256": "18c4469b68e9308aea076c2ca241dfd14da5ad7f430ea84ab1aeb07cf121dc44",
-    "size": 26271,
+    "md5": "b86f63e37d09090a78f4d81a7a7eb1f5",
+    "name": "wradlib",
+    "sha256": "d046222a455f712db5db80a768b46a6115d9f12ef8e1120730769c926825895b",
+    "size": 219911,
     "subdir": "linux-64",
-    "timestamp": 1548709529309,
-    "version": "0.1.1"
+    "version": "0.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xesmf-0.1.1-py37_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wradlib-0.10.0-py35_1.tar.bz2"
 }
