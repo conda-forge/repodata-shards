@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Cling is an interactive C++ interpreter, built on top of Clang and LLVM compiler infrastructure. Cling realizes the read-eval-print loop (REPL) concept, in order to leverage rapid application development. Implemented as a small extension to LLVM and Clang, the interpreter reuses their strengths such as the praised concise and expressive compiler diagnostics.",
+    "dev_url": "https://github.com/root-mirror/cling",
+    "doc_source_url": null,
+    "doc_url": "https://root.cern.ch/cling",
+    "home": "https://root.cern.ch/cling",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "UI/NCSAOSL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.5": {
+        "weak": [
+          "cling >=0.5,<0.6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/root-mirror/cling/archive/v0.5.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Cling - The Interactive C++ Interpreter",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1545443177,
+    "version": "0.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "gcc7"
+  ],
+  "package": "cling-0.5-h6bb024c_1001.tar.bz2",
+  "repodata": {
+    "build": "h6bb024c_1001",
+    "build_number": 1001,
+    "depends": [
+      "clang_variant * cling",
+      "clangdev 5.0.0.*",
+      "gxx_linux-64",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "UI/NCSAOSL",
+    "license_family": "BSD",
+    "md5": "6e835ae33a6b1c31cb3c52156e3de7df",
+    "name": "cling",
+    "sha256": "475e2f2c7663c886c968a3e3c5cd66b45dec3329a2ebd02e534344a180b2e6e1",
+    "size": 24607914,
+    "subdir": "linux-64",
+    "timestamp": 1545443177847,
+    "version": "0.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/gcc7/linux-64/cling-0.5-h6bb024c_1001.tar.bz2"
+}
