@@ -4,9 +4,9 @@
     "binary_prefix": true,
     "deactivate.d": false,
     "description": "The LSC Algorithm Library for gravitational wave data analysis. This package contains the shared-object libraries and python bindings needed to run applications that use the LAL library.",
-    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lal/",
+    "doc_url": null,
     "home": "https://wiki.ligo.org/DASWG/LALSuite",
     "icon_hash": null,
     "icon_url": null,
@@ -19,47 +19,47 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lal-6.19.1.tar.xz",
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lal-6.18.0.tar.xz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "LSC Algorithm Library",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1546950970,
-    "version": "6.19.1"
+    "timestamp": 1529706756,
+    "version": "6.18.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "lal-6.19.1-h6ff7648_0.tar.bz2",
+  "package": "lal-6.18.0-py35hc3780f3_0.tar.bz2",
   "repodata": {
-    "build": "h6ff7648_0",
+    "build": "py35hc3780f3_0",
     "build_number": 0,
     "depends": [
-      "blas 1.1 openblas",
       "fftw",
-      "gsl >=2.4,<2.5.0a0",
-      "hdf5 >=1.10.4,<1.10.5.0a0",
+      "gsl >=2.2.1,<2.3.0a0",
+      "hdf5 >=1.10.2,<1.10.3.0a0",
       "libgcc-ng >=4.9",
-      "openblas >=0.3.3,<0.3.4.0a0",
+      "lscsoft-glue",
+      "numpy",
+      "python >=3.5,<3.6.0a0",
+      "six",
       "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "GPLv3",
     "license_family": "GPL",
-    "md5": "9e1f99f149add4e67a136ce105b6d50a",
+    "md5": "0dad297f9bfdb680b1a1a8b7644702be",
     "name": "lal",
-    "sha256": "9be3013c043466116c9a293b56a5de7c2aafa7a17a32a6452d22efc70bef1249",
-    "size": 6039709,
+    "sha256": "7a318f67dd660c9df3db04575efeb1e4fca2230371f1fdfa1ca19f96f650091d",
+    "size": 9905223,
     "subdir": "linux-64",
-    "timestamp": 1546950970082,
-    "version": "6.19.1"
+    "timestamp": 1529706756132,
+    "version": "6.18.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/lal-6.19.1-h6ff7648_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/lal-6.18.0-py35hc3780f3_0.tar.bz2"
 }

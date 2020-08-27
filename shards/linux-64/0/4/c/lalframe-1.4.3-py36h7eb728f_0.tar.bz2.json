@@ -3,7 +3,7 @@
     "activate.d": false,
     "binary_prefix": true,
     "deactivate.d": false,
-    "description": "The LSC Algorithm Frame Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Frame library.",
+    "description": "The LSC Algorithm Frame Library for gravitational wave data analysis. This package contains the shared-object libraries and python bindings needed to run applications that use the LAL Frame library.",
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
@@ -19,45 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalframe-1.4.4.tar.xz",
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalframe-1.4.3.tar.xz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "LSC Algorithm Frame Library",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1538489442,
-    "version": "1.4.4"
+    "timestamp": 1530081974,
+    "version": "1.4.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "lalframe-1.4.4-h63c6309_0.tar.bz2",
+  "package": "lalframe-1.4.3-py36h7eb728f_0.tar.bz2",
   "repodata": {
-    "build": "h63c6309_0",
+    "build": "py36h7eb728f_0",
     "build_number": 0,
     "depends": [
-      "gsl >=2.2.1,<2.3.0a0",
-      "lal >=6.19.0",
-      "ldas-tools-framecpp >=2.5.5",
+      "lal",
       "libframe",
-      "libgcc-ng >=4.9"
+      "libgcc-ng >=4.9",
+      "numpy",
+      "python >=3.6,<3.7.0a0"
     ],
     "license": "GPLv3",
     "license_family": "GPL",
-    "md5": "08528a090bc520ef0baf093a5c06ba7b",
+    "md5": "f24b4d1d5cd5566439b6de006ad9ada9",
     "name": "lalframe",
-    "sha256": "d92820be58d63b5dd8eff38015ff37c5d81b950f6332d6f38a45998ebfe7553d",
-    "size": 932843,
+    "sha256": "14ff7f4743aa17616a07cee3888c6504a3dd5a9112b347171e13b50ae8a6b614",
+    "size": 1258393,
     "subdir": "linux-64",
-    "timestamp": 1538489442189,
-    "version": "1.4.4"
+    "timestamp": 1530081974004,
+    "version": "1.4.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/lalframe-1.4.4-h63c6309_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/lalframe-1.4.3-py36h7eb728f_0.tar.bz2"
 }
