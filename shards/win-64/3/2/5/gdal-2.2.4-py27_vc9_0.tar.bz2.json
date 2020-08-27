@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/seatgeek/fuzzywuzzy",
+    "home": "http://www.gdal.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/f/fuzzywuzzy/fuzzywuzzy-0.11.0.tar.gz",
+    "source_url": "http://download.osgeo.org/gdal/2.2.4/gdal-2.2.4.tar.xz",
     "subdirs": [
       "win-64"
     ],
-    "summary": "Fuzzy string matching in python",
+    "summary": "Python wrapper for the Geospatial Data Abstraction Library (GDAL)",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "0.11.0"
+    "version": "2.2.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "fuzzywuzzy-0.11.0-py35_1.tar.bz2",
+  "package": "gdal-2.2.4-py27_vc9_0.tar.bz2",
   "repodata": {
-    "build": "py35_1",
-    "build_number": 1,
+    "build": "py27_vc9_0",
+    "build_number": 0,
     "depends": [
-      "python 3.5*",
-      "python-levenshtein"
+      "libgdal 2.2.4",
+      "numpy >=1.11",
+      "python 2.7*",
+      "vc 9"
     ],
+    "features": "vc9",
     "license": "MIT",
-    "md5": "96a812db48b304623a960c2632b96243",
-    "name": "fuzzywuzzy",
-    "sha256": "ac03a6eba1cd32265d689c6a56a47a8492f7143bbb65c3985c62458b71d233fc",
-    "size": 18324,
+    "md5": "0daad807f0f280a1b620c786c3a961c2",
+    "name": "gdal",
+    "sha256": "a5625b21a8cd2239f6d624f173bd688c2ab2a90dbd4bd611054c60c9fcd262fd",
+    "size": 790928,
     "subdir": "win-64",
-    "version": "0.11.0"
+    "version": "2.2.4"
   },
   "repodata_version": 1,
   "subdir": "win-64",
-  "url": "https://conda.anaconda.org/conda-forge/win-64/fuzzywuzzy-0.11.0-py35_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/win-64/gdal-2.2.4-py27_vc9_0.tar.bz2"
 }
