@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://curl.haxx.se/",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,43 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://curl.haxx.se/download/curl-7.58.0.tar.bz2",
+    "source_url": "http://curl.haxx.se/download/curl-7.48.0.tar.bz2",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "tool and library for transferring data with URL syntax",
+    "summary": null,
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "7.58.0"
+    "version": "7.48.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "curl-7.58.0-0.tar.bz2",
+  "package": "curl-7.48.0-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
     "depends": [
-      "krb5 1.14.*",
-      "libssh2 1.8.*",
-      "openssl 1.0.*",
-      "zlib 1.2.11"
+      "certifi",
+      "openssl",
+      "zlib"
     ],
     "license": "MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
     "license_family": "MIT",
-    "md5": "c0bfc5dd6a5ba396e47c5d3e4e2113d2",
+    "md5": "5d522323f01bcb67e089f0c973cc7827",
     "name": "curl",
-    "sha256": "afd986f7893401f9929721938e551791562b116da0187cae709d15a79ec5f12f",
-    "size": 854313,
+    "sha256": "0f8bbaffdc5ec30bfad343ede23591ff969a1719284fe19e43f82d623a38e42c",
+    "size": 549430,
     "subdir": "linux-64",
-    "version": "7.58.0"
+    "version": "7.48.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/curl-7.58.0-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/curl-7.48.0-0.tar.bz2"
 }

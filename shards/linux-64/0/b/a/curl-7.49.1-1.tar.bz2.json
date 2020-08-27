@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,43 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://curl.haxx.se/download/curl-7.58.0.tar.bz2",
+    "source_url": "http://curl.haxx.se/download/curl-7.49.1.tar.bz2",
     "subdirs": [
       "linux-64"
     ],
     "summary": "tool and library for transferring data with URL syntax",
     "tags": null,
-    "text_prefix": true,
+    "text_prefix": false,
     "timestamp": 0,
-    "version": "7.58.0"
+    "version": "7.49.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "curl-7.58.0-0.tar.bz2",
+  "package": "curl-7.49.1-1.tar.bz2",
   "repodata": {
-    "build": "0",
-    "build_number": 0,
+    "build": "1",
+    "build_number": 1,
     "depends": [
-      "krb5 1.14.*",
-      "libssh2 1.8.*",
       "openssl 1.0.*",
-      "zlib 1.2.11"
+      "zlib 1.2.*"
     ],
     "license": "MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
     "license_family": "MIT",
-    "md5": "c0bfc5dd6a5ba396e47c5d3e4e2113d2",
+    "md5": "247e57892bf2f6bfd6a8c926cfb2c384",
     "name": "curl",
-    "sha256": "afd986f7893401f9929721938e551791562b116da0187cae709d15a79ec5f12f",
-    "size": 854313,
+    "sha256": "8f5718535b694dca390154e596ec1ac14dfeb88ca63b7f4e884e43dd208a1aeb",
+    "size": 554696,
     "subdir": "linux-64",
-    "version": "7.58.0"
+    "version": "7.49.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/curl-7.58.0-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/curl-7.49.1-1.tar.bz2"
 }
