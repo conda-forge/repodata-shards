@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.hdfgroup.org/HDF5/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "HDF5",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.10.4": {
+        "weak": [
+          "hdf5 >=1.10.4,<1.10.5.0a0 mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.4/src/hdf5-1.10.4.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "HDF5 is a data model, library, and file format for storing and managing data",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1542794739,
+    "version": "1.10.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "cf201901"
+  ],
+  "package": "hdf5-1.10.4-mpi_openmpi_hd93f08e_1002.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_hd93f08e_1002",
+    "build_number": 2,
+    "depends": [
+      "libgcc-ng >=4.9",
+      "libgfortran >=3.0",
+      "libstdcxx-ng >=4.9",
+      "openmpi >=3.1,<3.2.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "HDF5",
+    "license_family": "BSD",
+    "md5": "d9547897cc58d64c1bcb6c0cbfa11930",
+    "name": "hdf5",
+    "sha256": "829206c9afe9816c6759aec996ac7e0d0080db6b6e468752f6fa1c679f446ebb",
+    "size": 5731960,
+    "subdir": "linux-64",
+    "timestamp": 1542794739170,
+    "track_features": "hdf5_openmpi",
+    "version": "1.10.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/hdf5-1.10.4-mpi_openmpi_hd93f08e_1002.tar.bz2"
+}
