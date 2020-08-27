@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/rapidsai/ucx-py",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python bindings for UCX",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1575411365,
+    "version": "0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "rc_ucx"
+  ],
+  "package": "ucx-py-0.4-py37h7cc98d6_2.tar.bz2",
+  "repodata": {
+    "build": "py37h7cc98d6_2",
+    "build_number": 2,
+    "constrains": [
+      "ucx-proc * gpu"
+    ],
+    "depends": [
+      "cudatoolkit 9.2|9.2.*",
+      "libgcc-ng >=7.3.0",
+      "libhwloc >=2.1.0,<2.1.1.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "numpy",
+      "python >=3.7,<3.8.0a0",
+      "ucx 1.7.0rc1 h7cc98d6_2"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "62fba384c8d403ba1798083853d2fc98",
+    "name": "ucx-py",
+    "sha256": "751d3c195b79196c5830217bf12c30dad260d8060cc60e7714ab39eb4e06e8f5",
+    "size": 275659,
+    "subdir": "linux-64",
+    "timestamp": 1575411365087,
+    "version": "0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/rc_ucx/linux-64/ucx-py-0.4-py37h7cc98d6_2.tar.bz2"
+}
