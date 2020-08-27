@@ -3,11 +3,11 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": null,
+    "description": "This software provides support for the Tag Image File Format (TIFF), a widely used format for storing image data.",
     "dev_url": null,
     "doc_source_url": null,
-    "doc_url": null,
-    "home": "http://www.remotesensing.org/libtiff/",
+    "doc_url": "http://www.libtiff.org/document.html",
+    "home": "http://www.libtiff.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -18,34 +18,32 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {
-      "4.0.9": {
+      "4.0.10": {
         "weak": [
-          "libtiff >=4.0.9,<5.0a0"
+          "libtiff >=4.0.10,<5.0a0"
         ]
       }
     },
     "source_git_url": null,
-    "source_url": "http://download.osgeo.org/libtiff/tiff-4.0.9.tar.gz",
+    "source_url": "https://download.osgeo.org/libtiff/tiff-4.0.10.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "Support for the Tag Image File Format (TIFF).",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1536912944,
-    "version": "4.0.9"
+    "timestamp": 1544641934,
+    "version": "4.0.10"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "gcc7"
   ],
-  "package": "libtiff-4.0.9-h648cc4a_1002.tar.bz2",
+  "package": "libtiff-4.0.10-h648cc4a_1001.tar.bz2",
   "repodata": {
-    "build": "h648cc4a_1002",
-    "build_number": 1002,
+    "build": "h648cc4a_1001",
+    "build_number": 1001,
     "depends": [
       "jpeg >=9c,<10a",
       "libgcc-ng >=7.3.0",
@@ -54,15 +52,15 @@
       "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "HPND",
-    "md5": "075efa5d19b62b54432a5aa86fdf464f",
+    "md5": "3a75111bd0b59b554a9aed14c60d1183",
     "name": "libtiff",
-    "sha256": "60577b16cc0e3ceb3a2c8c85546fcbfd979b8af95e764c9959e3f0fef647a2bc",
-    "size": 579094,
+    "sha256": "ad967bde4181ea88a107bee355bb80e7b1a4d2435be4e06361ed5dfa7136c320",
+    "size": 606118,
     "subdir": "linux-64",
-    "timestamp": 1536912944126,
-    "version": "4.0.9"
+    "timestamp": 1544641934109,
+    "version": "4.0.10"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libtiff-4.0.9-h648cc4a_1002.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/gcc7/linux-64/libtiff-4.0.10-h648cc4a_1001.tar.bz2"
 }
