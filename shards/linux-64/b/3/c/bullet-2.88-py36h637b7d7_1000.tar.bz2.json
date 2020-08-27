@@ -7,56 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.boost.org/",
+    "home": "http://bulletphysics.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Boost-1.0",
+    "license": "zlib",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://dl.bintray.com/boostorg/release/1.69.0/source/boost_1_69_0.tar.bz2",
+    "source_url": "https://github.com/bulletphysics/bullet3/archive/2.88.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Free peer-reviewed portable C++ source libraries.",
+    "summary": "Bullet Physics SDK real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1544792640,
-    "version": "1.69.0"
+    "text_prefix": true,
+    "timestamp": 1547579160,
+    "version": "2.88"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "gcc7"
   ],
-  "package": "boost-1.69.0-py36h8619c78_1000.tar.bz2",
+  "package": "bullet-2.88-py36h637b7d7_1000.tar.bz2",
   "repodata": {
-    "build": "py36h8619c78_1000",
+    "build": "py36h637b7d7_1000",
     "build_number": 1000,
     "depends": [
-      "boost-cpp 1.69.0.*",
       "libgcc-ng >=7.3.0",
       "libstdcxx-ng >=7.3.0",
       "numpy >=1.9.3,<2.0a0",
       "python >=3.6,<3.7.0a0"
     ],
-    "license": "Boost-1.0",
-    "md5": "895cc228d0bc2af6cbecee28885dad55",
-    "name": "boost",
-    "sha256": "1dabc04c49b70871a566dd34491b14f5d614d71127f4ff42f315a1abfdbb8441",
-    "size": 337375,
+    "license": "zlib",
+    "md5": "3500da7d847a5dd4300c8dc6e210397f",
+    "name": "bullet",
+    "sha256": "0f93c997c65ff92b7770a9c4d57969b9881af7f573a2766da8f3bfdeb2fcb479",
+    "size": 5079929,
     "subdir": "linux-64",
-    "timestamp": 1544792640384,
-    "version": "1.69.0"
+    "timestamp": 1547579160916,
+    "version": "2.88"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/boost-1.69.0-py36h8619c78_1000.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/gcc7/linux-64/bullet-2.88-py36h637b7d7_1000.tar.bz2"
 }
