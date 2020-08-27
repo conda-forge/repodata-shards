@@ -19,25 +19,24 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/conda-build/releases/download/3.18.10/conda-build-3.18.10.tar.gz",
+    "source_url": "https://github.com/conda/conda-build/releases/download/3.19.1/conda-build-3.19.1.tar.gz",
     "subdirs": [
       "linux-ppc64le"
     ],
     "summary": "tools for building conda packages",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1571072604,
-    "version": "3.18.10"
+    "timestamp": 1584547384,
+    "version": "3.19.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "conda-build-3.18.10-py36_0.tar.bz2",
+  "package": "conda-build-3.19.1-py36h9f0ad1d_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py36h9f0ad1d_0",
     "build_number": 0,
     "constrains": [
       "conda-verify  >=3.1.0"
@@ -56,8 +55,10 @@
       "py-lief",
       "python >=3.6,<3.7.0a0",
       "python-libarchive-c",
+      "python_abi 3.6.* *_cp36m",
       "pytz",
       "pyyaml",
+      "requests",
       "ripgrep",
       "setuptools",
       "six",
@@ -65,15 +66,15 @@
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "379f9eb08f2283e982708cfef100023f",
+    "md5": "01c7aee272d6e532cbb83785861845fa",
     "name": "conda-build",
-    "sha256": "5b197e4a4418b3583313022af987b9adf4a6b1c16c72ca297e9e104e59db480e",
-    "size": 533187,
+    "sha256": "46ebec82fafe0f2a90027fba88687fd1a04d221d4a9837438b0d47eae7bb0252",
+    "size": 543043,
     "subdir": "linux-ppc64le",
-    "timestamp": 1571072604346,
-    "version": "3.18.10"
+    "timestamp": 1584547384806,
+    "version": "3.19.1"
   },
   "repodata_version": 1,
   "subdir": "linux-ppc64le",
-  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/conda-build-3.18.10-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-ppc64le/conda-build-3.19.1-py36h9f0ad1d_0.tar.bz2"
 }
