@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "OSI Approved",
+    "license": "http://www.unidata.ucar.edu/software/netcdf/copyright.html",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "https://pypi.python.org/packages/source/n/netCDF4/netCDF4-1.2.4.tar.gz",
+    "source_git_url": "https://github.com/Unidata/netcdf-fortran",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
@@ -27,35 +27,31 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.2.4"
+    "version": "4.4.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "netcdf4-1.2.4-np111py27_2.tar.bz2",
+  "package": "netcdf-fortran-4.4.3-2.tar.bz2",
   "repodata": {
-    "build": "np111py27_2",
+    "build": "2",
     "build_number": 2,
     "depends": [
-      "hdf5 1.8.17|1.8.17.*",
-      "libnetcdf 4.4.*",
-      "numpy 1.11*",
-      "python 2.7*",
-      "setuptools"
+      "krb5",
+      "libgcc",
+      "libnetcdf 4.3*"
     ],
-    "license": "OSI Approved",
-    "md5": "ecb77309e48cbb2ef4829f52807ddc71",
-    "name": "netcdf4",
-    "sha256": "f5e00641028378a86d637b46969b796b2f81435a9f16ede622db72598ea04ba4",
-    "size": 1720378,
+    "license": "http://www.unidata.ucar.edu/software/netcdf/copyright.html",
+    "md5": "aef526c7aef0d94f672f109d33f31223",
+    "name": "netcdf-fortran",
+    "sha256": "abcf9f3e50724e037be372ca8749200e58170cfe988363e4d716a49c5245014c",
+    "size": 849801,
     "subdir": "linux-64",
-    "version": "1.2.4"
+    "version": "4.4.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/netcdf4-1.2.4-np111py27_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/netcdf-fortran-4.4.3-2.tar.bz2"
 }

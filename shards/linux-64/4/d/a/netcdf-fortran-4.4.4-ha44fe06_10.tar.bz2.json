@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Unidata/netcdf-cxx4",
+    "home": "https://github.com/Unidata/netcdf-fortran",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,43 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Unidata/netcdf-cxx4/archive/v4.3.0.tar.gz",
+    "source_url": "https://github.com/Unidata/netcdf-fortran/archive/v4.4.4.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Unidata NetCDF C++ Library",
+    "summary": "Unidata NetCDF Fortran Library",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1536015230,
-    "version": "4.3.0"
+    "text_prefix": false,
+    "timestamp": 1546626994,
+    "version": "4.4.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "netcdf-cxx4-4.3.0-h703b707_9.tar.bz2",
+  "package": "netcdf-fortran-4.4.4-ha44fe06_10.tar.bz2",
   "repodata": {
-    "build": "h703b707_9",
-    "build_number": 9,
+    "build": "ha44fe06_10",
+    "build_number": 10,
     "depends": [
-      "hdf5 >=1.10.2,<1.10.3.0a0",
+      "hdf5 >=1.10.4,<1.10.5.0a0",
       "libgcc-ng >=4.9",
-      "libnetcdf >=4.6.1,<4.7.0a0",
-      "libstdcxx-ng >=4.9"
+      "libgfortran >=3.0",
+      "libnetcdf >=4.6.2,<5.0a0"
     ],
     "license": "http://www.unidata.ucar.edu/software/netcdf/copyright.html",
-    "md5": "a93776676c7c72c8084d86a02c8977b2",
-    "name": "netcdf-cxx4",
-    "sha256": "7831ba8d4bbedcfb413fb26fa89362607bdc146b6d2ef1a63192245020cadb43",
-    "size": 1217175,
+    "md5": "35faeee6fc2ea5b0da9c330b8d1f36a4",
+    "name": "netcdf-fortran",
+    "sha256": "7472ae91d2259e4b7013fd0b3962a9bebf3dfde382606a89029ddfdcc1359f3e",
+    "size": 909429,
     "subdir": "linux-64",
-    "timestamp": 1536015230471,
-    "version": "4.3.0"
+    "timestamp": 1546626994983,
+    "version": "4.4.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/netcdf-cxx4-4.3.0-h703b707_9.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/netcdf-fortran-4.4.4-ha44fe06_10.tar.bz2"
 }
