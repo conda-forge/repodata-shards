@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.8.0": {
+        "weak": [
+          "libblas >=3.8.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1552585740,
+    "version": "3.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "broken"
+  ],
+  "package": "libblas-3.8.0-0_openblas.tar.bz2",
+  "repodata": {
+    "build": "0_openblas",
+    "build_number": 0,
+    "constrains": [
+      "libcblas 3.8.0 0_openblas",
+      "liblapack 3.8.0 0_openblas",
+      "liblapacke 3.8.0 0_openblas"
+    ],
+    "depends": [
+      "openblas 0.3.5.*"
+    ],
+    "license": "BSD 3-clause",
+    "md5": "345586ebeecd6395c8ef1daee1f273b8",
+    "name": "libblas",
+    "sha256": "522fd0d0930db721a2f0831968cd7e59e7c3051946a421d6292aa396e20d8829",
+    "size": 6004,
+    "subdir": "linux-aarch64",
+    "timestamp": 1552585740965,
+    "version": "3.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/linux-aarch64/libblas-3.8.0-0_openblas.tar.bz2"
+}
