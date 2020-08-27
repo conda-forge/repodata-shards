@@ -18,52 +18,52 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": null,
-    "source_url": "ftp://ftp.soest.hawaii.edu/gmt/gmt-5.4.3-src.tar.gz",
+    "source_git_url": "https://github.com/GenericMappingTools/gmt.git",
+    "source_url": null,
     "subdirs": [
       "linux-64"
     ],
     "summary": "The Generic Mapping Tools.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "5.4.3"
+    "timestamp": 1545450900,
+    "version": "6.0.0a18"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "gmt-5.4.3-blas_openblas_201.tar.bz2",
+  "package": "gmt-6.0.0a18-blas_openblash4f9c4ba_0.tar.bz2",
   "repodata": {
-    "build": "blas_openblas_201",
-    "build_number": 201,
+    "build": "blas_openblash4f9c4ba_0",
+    "build_number": 0,
     "depends": [
       "blas 1.1 openblas",
-      "curl >=7.44.0,<8",
+      "curl >=7.59.0,<8.0a0",
       "dcw-gmt",
       "fftw",
-      "gdal 2.2.*",
+      "gdal >=2.3.2,<2.4.0a0",
       "ghostscript",
       "gshhg-gmt",
-      "hdf5 1.10.1",
-      "libnetcdf 4.4.*",
-      "openblas 0.2.20|0.2.20.*",
-      "pcre",
-      "zlib 1.2.11"
+      "hdf5 >=1.10.4,<1.10.5.0a0",
+      "libgcc-ng >=4.9",
+      "libnetcdf >=4.6.2,<4.7.0a0",
+      "openblas >=0.3.3,<0.3.4.0a0",
+      "pcre >=8.41,<9.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
     ],
     "features": "blas_openblas",
     "license": "LGPL-3.0",
-    "md5": "1b081dec3d035da6835814b8ab5f014e",
+    "md5": "3ee3679433e1bf57640d86e4bc8dfc81",
     "name": "gmt",
-    "sha256": "544be5af8bc49a72ca2a37e038ddc58ac745ef00f7fd7713a93841b8da094dda",
-    "size": 81834233,
+    "sha256": "6ef20315cede5a7ebbdb13ef10265290862e2d2dcd03035758bc7768a5a60b58",
+    "size": 8194087,
     "subdir": "linux-64",
-    "version": "5.4.3"
+    "timestamp": 1545450900023,
+    "version": "6.0.0a18"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/gmt-5.4.3-blas_openblas_201.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/gmt-6.0.0a18-blas_openblash4f9c4ba_0.tar.bz2"
 }
