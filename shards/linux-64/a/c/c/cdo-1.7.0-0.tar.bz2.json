@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "http://www-pcmdi.llnl.gov/software-portal/cdat/docs/cdat-license",
+    "license": "GNU General Public License v2",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://ndg.nerc.ac.uk/dist/cdat_lite-6.0rc2.tar.gz",
+    "source_url": "https://code.zmaw.de/attachments/download/11392/cdo-1.7.0.tar.gz",
     "subdirs": [
       "linux-64"
     ],
@@ -27,33 +27,34 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "6.0rc2"
+    "version": "1.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "cdat-lite-6.0rc2-py27_1.tar.bz2",
+  "package": "cdo-1.7.0-0.tar.bz2",
   "repodata": {
-    "build": "py27_1",
-    "build_number": 1,
+    "build": "0",
+    "build_number": 0,
     "depends": [
-      "libnetcdf 4.4*",
-      "numpy",
-      "python 2.7*"
+      "jasper",
+      "libgcc",
+      "libnetcdf",
+      "libuuid",
+      "netcdf-fortran",
+      "proj.4"
     ],
-    "license": "http://www-pcmdi.llnl.gov/software-portal/cdat/docs/cdat-license",
-    "md5": "5055aa7ee47c23c3e26331c8e0733219",
-    "name": "cdat-lite",
-    "sha256": "dd8acee06b32c075e8a18cff0a9215b6c9e5a22b36132910760c66c958c997be",
-    "size": 2307960,
+    "license": "GNU General Public License v2",
+    "md5": "2dc68a97cea17c93fbb1b6bcb244d1b0",
+    "name": "cdo",
+    "sha256": "af57c8a2fba23843c13df67327eb8df96c4293eba2c9b737758025662929f477",
+    "size": 3240672,
     "subdir": "linux-64",
-    "version": "6.0rc2"
+    "version": "1.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cdat-lite-6.0rc2-py27_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/cdo-1.7.0-0.tar.bz2"
 }
