@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0-rc1/compiler-rt-11.0.0rc1.src.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1596990248,
+    "version": "11.0.0.rc1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "llvm_rc"
+  ],
+  "package": "compiler-rt-11.0.0.rc1-hc9558a2_0.tar.bz2",
+  "repodata": {
+    "build": "hc9558a2_0",
+    "build_number": 0,
+    "depends": [
+      "clang 11.0.0.rc1.*",
+      "clangxx 11.0.0.rc1.*",
+      "compiler-rt_linux-64 11.0.0.rc1.*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0"
+    ],
+    "license": "NCSA",
+    "md5": "fbd3632c29fb96e7bf557e554e23df11",
+    "name": "compiler-rt",
+    "sha256": "b1666b406bd54c0fe7a47189ec9d87c090d09cfadc9017b4c0660e7fc2631811",
+    "size": 95485,
+    "subdir": "linux-64",
+    "timestamp": 1596990248387,
+    "version": "11.0.0.rc1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/llvm_rc/linux-64/compiler-rt-11.0.0.rc1-hc9558a2_0.tar.bz2"
+}
