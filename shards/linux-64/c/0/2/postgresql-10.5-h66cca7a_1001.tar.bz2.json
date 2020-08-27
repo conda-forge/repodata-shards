@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -20,7 +20,7 @@
     "run_exports": {
       "10.5": {
         "weak": [
-          "postgresql-plpython >=10.5,<11.0a0"
+          "libpq >=10.5,<11.0a0"
         ]
       }
     },
@@ -29,44 +29,39 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The plpythonu postgresql extension",
+    "summary": "PostgreSQL is a powerful, open source object-relational database system.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1539087675,
+    "timestamp": 1543644544,
     "version": "10.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "gcc7"
   ],
-  "package": "postgresql-plpython-10.5-py37hccf1230_1000.tar.bz2",
+  "package": "postgresql-10.5-h66cca7a_1001.tar.bz2",
   "repodata": {
-    "build": "py37hccf1230_1000",
-    "build_number": 1000,
+    "build": "h66cca7a_1001",
+    "build_number": 1001,
     "depends": [
-      "krb5 >=1.16.1,<1.17.0a0",
+      "krb5 >=1.16.2,<1.17.0a0",
       "libgcc-ng >=7.3.0",
-      "libuuid >=2.32.1,<3.0a0",
+      "libpq 10.5 h13b8bad_1001",
       "libxml2 >=2.9.8,<2.10.0a0",
-      "libxslt >=1.1.32,<2.0a0",
       "openssl >=1.0.2p,<1.0.3a",
-      "postgresql 10.5 h66cca7a_1000",
-      "python >=3.7,<3.8.0a0",
       "readline >=7.0,<8.0a0",
       "zlib >=1.2.11,<1.3.0a0"
     ],
-    "md5": "7f45d2cf2e38a38379f071ac66f9f7f3",
-    "name": "postgresql-plpython",
-    "sha256": "bc75374d9cf8d211ec71d378cc4ca37aed57e266b4b4a2fed71a21f054b0b962",
-    "size": 62780,
+    "md5": "82be41c7ea982e19997befdd1a769f24",
+    "name": "postgresql",
+    "sha256": "2cc18ba75a5488499bb4fe4a4bab20a9c138f85b034509be880841b5c98bcdd1",
+    "size": 4955060,
     "subdir": "linux-64",
-    "timestamp": 1539087675759,
+    "timestamp": 1543644544208,
     "version": "10.5"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/postgresql-plpython-10.5-py37hccf1230_1000.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/gcc7/linux-64/postgresql-10.5-h66cca7a_1001.tar.bz2"
 }
