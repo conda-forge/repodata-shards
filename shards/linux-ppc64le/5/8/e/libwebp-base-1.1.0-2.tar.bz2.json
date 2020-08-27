@@ -7,7 +7,7 @@
     "dev_url": "https://chromium.googlesource.com/webm/libwebp",
     "doc_source_url": null,
     "doc_url": "https://developers.google.com/speed/webp/docs/using",
-    "home": "https://developers.google.com/speed/webp/",
+    "home": "https://developers.google.com/speed/webp",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -18,50 +18,43 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {
-      "1.0.2": {
+      "1.1.0": {
         "weak": [
-          "libwebp >=1.0.2,<1.1.0a0"
+          "libwebp-base >=1.1.0,<1.2.0a0"
         ]
       }
     },
     "source_git_url": null,
-    "source_url": "http://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.0.2.tar.gz",
+    "source_url": "http://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.1.0.tar.gz",
     "subdirs": [
       "linux-ppc64le"
     ],
     "summary": "WebP image library",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1552868655,
-    "version": "1.0.2"
+    "timestamp": 1578751500,
+    "version": "1.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "libwebp-1.0.2-hc736cac_2.tar.bz2",
+  "package": "libwebp-base-1.1.0-2.tar.bz2",
   "repodata": {
-    "build": "hc736cac_2",
+    "build": "2",
     "build_number": 2,
-    "depends": [
-      "giflib >=5.1.7,<5.1.8.0a0",
-      "jpeg >=9c,<10a",
-      "libgcc-ng >=8.2.0",
-      "libpng >=1.6.36,<1.7.0a0",
-      "libtiff >=4.0.10,<5.0a0"
-    ],
+    "depends": [],
     "license": "Google",
-    "md5": "879801e6a70e79f1b7313e084348632c",
-    "name": "libwebp",
-    "sha256": "955e4a971620c481fa53c01358b2b3ed3bada78bb2e2444d6d9ed794dbc627b6",
-    "size": 974649,
+    "md5": "e16fd85c03144536bb33d3b5a52965ad",
+    "name": "libwebp-base",
+    "sha256": "871fb58471662f29fdeb6e2fdc7a31b1f2a19f37e3aa043d909ec8d907251454",
+    "size": 871097,
     "subdir": "linux-ppc64le",
-    "timestamp": 1552868655699,
-    "version": "1.0.2"
+    "timestamp": 1578751500460,
+    "version": "1.1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-ppc64le",
-  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/libwebp-1.0.2-hc736cac_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-ppc64le/libwebp-base-1.1.0-2.tar.bz2"
 }
