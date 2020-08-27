@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "While primarily being developed for the OsmoSDR hardware, this package also supports a variety of hardware receivers through direct plugins and the SoapySDR plugin. If a direct plugin is not available in this build, you might be able to get support by installing the appropriate module for SoapySDR.",
+    "dev_url": "https://github.com/osmocom/gr-osmosdr",
+    "doc_source_url": null,
+    "doc_url": "https://osmocom.org/projects/gr-osmosdr/wiki",
+    "home": "https://osmocom.org/projects/gr-osmosdr/wiki",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.2.0": {
+        "weak": [
+          "gnuradio-osmosdr >=0.2.0,<0.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/osmocom/gr-osmosdr/archive/v0.2.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "osmocom GNU Radio blocks",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1598546904,
+    "version": "0.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gnuradio-osmosdr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gnuradio-osmosdr-0.2.0-py38h3a491fa_2.tar.bz2",
+  "repodata": {
+    "build": "py38h3a491fa_2",
+    "build_number": 2,
+    "depends": [
+      "boost-cpp >=1.72.0,<1.72.1.0a0",
+      "gnuradio-core >=3.8.2.0,<3.8.3.0a0",
+      "gnuradio-uhd >=3.8.2.0,<3.8.3.0a0",
+      "log4cpp",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "rtl-sdr >=0.6.0,<1.0a0",
+      "soapysdr >=0.7.2,<0.8.0a0",
+      "uhd >=3.15.0,<3.15.1.0a0",
+      "vc >=14.1,<15.0a0",
+      "volk >=2.3.0,<2.4.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "da650eea8d1f3abc4bf835624b6c29c1",
+    "name": "gnuradio-osmosdr",
+    "sha256": "65ba5e2c8763f4c63fe9d1d9656493fc773564d33de194692c87336a06c7404e",
+    "size": 539312,
+    "subdir": "win-64",
+    "timestamp": 1598546904265,
+    "version": "0.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/gnuradio-osmosdr-0.2.0-py38h3a491fa_2.tar.bz2/gnuradio-osmosdr-0.2.0-py38h3a491fa_2.tar.bz2"
+}
