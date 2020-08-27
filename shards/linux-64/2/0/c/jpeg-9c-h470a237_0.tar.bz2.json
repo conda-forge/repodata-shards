@@ -7,52 +7,56 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/json-c/json-c/wiki",
+    "home": "http://www.ijg.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "MIT",
+    "license": "IJG",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "9c": {
+        "weak": [
+          "jpeg >=9c,<10a"
+        ]
+      }
+    },
     "source_git_url": null,
-    "source_url": "https://github.com/json-c/json-c/archive/json-c-0.13.1-20180305.tar.gz",
+    "source_url": "http://www.ijg.org/files/jpegsrc.v9c.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "A JSON implementation in C.",
+    "summary": "read/write jpeg COM, EXIF, IPTC medata",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1526484380,
-    "version": "0.13.1"
+    "timestamp": 1530469400,
+    "version": "9c"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "json-c-0.13.1-h470a237_0.tar.bz2",
+  "package": "jpeg-9c-h470a237_0.tar.bz2",
   "repodata": {
     "build": "h470a237_0",
     "build_number": 0,
     "depends": [
       "libgcc-ng >=4.9"
     ],
-    "license": "MIT",
-    "md5": "16d536146e3614717e019425791f01b8",
-    "name": "json-c",
-    "sha256": "8e21c3b721cc5afca5107101e5a51da852343a043a5614ee84f441e0db5af58a",
-    "size": 68889,
+    "license": "IJG",
+    "md5": "1643e266e1d4243c75c9e27e81a68bf0",
+    "name": "jpeg",
+    "sha256": "c9d8da693d4d2a7212c09e75d9fc6689fbe6a31cee81c6ec14c6dd189e009d3e",
+    "size": 235150,
     "subdir": "linux-64",
-    "timestamp": 1526484380066,
-    "version": "0.13.1"
+    "timestamp": 1530469400563,
+    "version": "9c"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/json-c-0.13.1-h470a237_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/jpeg-9c-h470a237_0.tar.bz2"
 }
