@@ -7,49 +7,50 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://llvm.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Custom",
+    "license": "NCSA",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "http://llvm.org/releases/3.8.1/libcxx-3.8.1.src.tar.xz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "C++ standard library",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "7.4.2"
+    "version": "3.8.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "libatomic_ops-7.4.2-0.tar.bz2",
+  "package": "libcxx-3.8.1-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
-    "depends": [],
-    "license": "Custom",
-    "md5": "f4a6ee4d9c21bf8245cf4b19792f28e0",
-    "name": "libatomic_ops",
-    "sha256": "001ffc248a782286237532da93bbe55c3694ac6940c1fcbc92473583f5e05cfd",
-    "size": 72950,
+    "depends": [
+      "clangdev ==3.8.1",
+      "system"
+    ],
+    "license": "NCSA",
+    "md5": "98e01cfc6f7e9fe18fbc750162562167",
+    "name": "libcxx",
+    "sha256": "87bb44df8e67c4d9c2fef552264d18b829cdcbf96cad529da2e8c50206015ab7",
+    "size": 632699,
     "subdir": "linux-64",
-    "version": "7.4.2"
+    "version": "3.8.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/libatomic_ops-7.4.2-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/libcxx-3.8.1-0.tar.bz2"
 }
