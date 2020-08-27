@@ -4,9 +4,9 @@
     "binary_prefix": true,
     "deactivate.d": false,
     "description": "The LSC Algorithm Library for gravitational wave data analysis. This package contains the Python bindings.",
-    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "dev_url": null,
     "doc_source_url": null,
-    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lal/",
+    "doc_url": null,
     "home": "https://wiki.ligo.org/DASWG/LALSuite",
     "icon_hash": null,
     "icon_url": null,
@@ -26,39 +26,38 @@
     "summary": "LSC Algorithm Library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1530687786,
+    "timestamp": 1530343333,
     "version": "6.18.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "python-lal-6.18.0-py35h7eb728f_3.tar.bz2",
+  "package": "python-lal-6.18.0-py35_blas_openblash7eb728f_2.tar.bz2",
   "repodata": {
-    "build": "py35h7eb728f_3",
-    "build_number": 3,
+    "build": "py35_blas_openblash7eb728f_2",
+    "build_number": 2,
     "depends": [
-      "lal 6.18.0 h96c67fe_3",
+      "lal 6.18.0 blas_openblash96c67fe_2",
       "libgcc-ng >=4.9",
       "lscsoft-glue",
       "numpy",
       "python >=3.5,<3.6.0a0",
       "six"
     ],
+    "features": "blas_openblas",
     "license": "GPLv3",
     "license_family": "GPL",
-    "md5": "c937b8769f0bd678cb0f93d0d91a845c",
+    "md5": "95f063425314116a5554f165ba51bc73",
     "name": "python-lal",
-    "sha256": "cad9ac072294a9b22a5ec510a4c2da01508c93583477fa29286e3251123a480e",
-    "size": 3835914,
+    "sha256": "7208289a7cca6433eb94b61fb17052252f1ecaac2c11414137facb34a3be15db",
+    "size": 3835183,
     "subdir": "linux-64",
-    "timestamp": 1530687786089,
+    "timestamp": 1530343333270,
     "version": "6.18.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-lal-6.18.0-py35h7eb728f_3.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/python-lal-6.18.0-py35_blas_openblash7eb728f_2.tar.bz2"
 }
