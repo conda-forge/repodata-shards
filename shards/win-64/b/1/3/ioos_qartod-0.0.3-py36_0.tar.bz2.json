@@ -7,52 +7,53 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://launchpad.net/python-iowait",
+    "home": "https://pypi.python.org/pypi/ioos_qartod",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "LGPL 3.0",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/i/iowait/iowait-0.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/i/ioos_qartod/ioos_qartod-0.0.3.tar.gz",
     "subdirs": [
       "win-64"
     ],
-    "summary": "Platform-independent module for I/O completion events",
+    "summary": "Collection of utilities, scripts and tests to assist in automated quality assurance.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.2"
+    "version": "0.0.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "iowait-0.2-py36_0.tar.bz2",
+  "package": "ioos_qartod-0.0.3-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
-      "python 3.6*"
+      "numpy",
+      "pandas",
+      "pyproj",
+      "python 3.6*",
+      "quantities"
     ],
-    "license": "LGPL 3.0",
-    "license_family": "LGPL",
-    "md5": "240a718f759670d980a5a81e251a6882",
-    "name": "iowait",
-    "sha256": "36f344d89361b8601fe54388fd1e4e4e014bb45298014088946d008d6db8c71e",
-    "size": 22861,
+    "license": "Apache 2.0",
+    "md5": "39654f87cc8856a62b3890b2c7987c99",
+    "name": "ioos_qartod",
+    "sha256": "95d747c5230daaa12596c4ef0285db007475cfa7dee3265434a1f58802a39c1a",
+    "size": 24413,
     "subdir": "win-64",
-    "version": "0.2"
+    "version": "0.0.3"
   },
   "repodata_version": 1,
   "subdir": "win-64",
-  "url": "https://conda.anaconda.org/conda-forge/win-64/iowait-0.2-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/win-64/ioos_qartod-0.0.3-py36_0.tar.bz2"
 }
