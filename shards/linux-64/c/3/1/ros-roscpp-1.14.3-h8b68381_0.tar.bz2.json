@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "roscpp is a C++ implementation of ROS. It provides a client library that enables C++ programmers to quickly interface with ROS Topics, Services, and Parameters. roscpp is the most widely used ROS client library and is designed to be the high-performance library for ROS.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://ros.org/wiki/roscpp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.14.3": {
+        "weak": [
+          "ros-roscpp >=1.14,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ros-gbp/ros_comm-release/archive/release/melodic/roscpp/1.14.3-0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "roscpp is a C++ implementation of ROS.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1571564896,
+    "version": "1.14.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "broken"
+  ],
+  "package": "ros-roscpp-1.14.3-h8b68381_0.tar.bz2",
+  "repodata": {
+    "build": "h8b68381_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.70.0,<1.70.1.0a0",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "log4cxx",
+      "ros-conda-base",
+      "ros-conda-mutex * melodic",
+      "ros-cpp-common >=0.6.12,<0.7.0a0",
+      "ros-message-runtime",
+      "ros-rosconsole >=1.13,<2.0a0",
+      "ros-roscpp-serialization >=0.6,<1.0a0",
+      "ros-roscpp-traits",
+      "ros-rosgraph-msgs",
+      "ros-rostime >=0.6.12,<0.7.0a0",
+      "ros-std-msgs",
+      "ros-xmlrpcpp >=1.14,<2.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "65ecdbe9a7c31a78cc11fd92bb27b09d",
+    "name": "ros-roscpp",
+    "sha256": "08c62e181534b1094f34c5935863cb09df9c302ca3648e25cd106af696f1640c",
+    "size": 662241,
+    "subdir": "linux-64",
+    "timestamp": 1571564896837,
+    "version": "1.14.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/linux-64/ros-roscpp-1.14.3-h8b68381_0.tar.bz2"
+}

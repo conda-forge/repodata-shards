@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The class_loader package is a ROS-independent package for loading plugins during runtime and the foundation of the higher level ROS \"pluginlib\" library. class_loader utilizes the host operating system's runtime loader to open runtime libraries (e.g. .so/.dll files), introspect the library for exported plugin classes, and allows users to instantiate objects of said exported classes without the explicit declaration (i.e. header file) for those classes.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://ros.org/wiki/class_loader",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.4.1": {
+        "weak": [
+          "ros-class-loader >=0.4,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ros-gbp/class_loader-release/archive/release/melodic/class_loader/0.4.1-0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The class_loader package is a ROS-independent package for loading plugins during runtime.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1571492496,
+    "version": "0.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "broken"
+  ],
+  "package": "ros-class-loader-0.4.1-he1b5a44_1.tar.bz2",
+  "repodata": {
+    "build": "he1b5a44_1",
+    "build_number": 1,
+    "depends": [
+      "boost-cpp >=1.68.0,<1.68.1.0a0",
+      "console_bridge",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "poco",
+      "ros-conda-base",
+      "ros-conda-mutex * melodic"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "178fd90bd5014adce680bee59ab886ed",
+    "name": "ros-class-loader",
+    "sha256": "9496db69a34072d7f8c3e0cacab61e5ea6f3d674959b40923081cc9b5d24cef6",
+    "size": 83203,
+    "subdir": "linux-64",
+    "timestamp": 1571492496612,
+    "version": "0.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/linux-64/ros-class-loader-0.4.1-he1b5a44_1.tar.bz2"
+}
