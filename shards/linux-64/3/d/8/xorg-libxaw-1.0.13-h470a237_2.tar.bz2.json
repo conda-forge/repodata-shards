@@ -19,42 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/lib/libX11-1.6.4.tar.bz2",
+    "source_url": "https://www.x.org/releases/individual/lib/libXaw-1.0.13.tar.bz2",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The main client library for X Windows version 11.",
+    "summary": "The X.org X11 Athena widgets library.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "1.6.4"
+    "timestamp": 1532615427,
+    "version": "1.0.13"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "xorg-libx11-1.6.4-5.tar.bz2",
+  "package": "xorg-libxaw-1.0.13-h470a237_2.tar.bz2",
   "repodata": {
-    "build": "5",
-    "build_number": 5,
+    "build": "h470a237_2",
+    "build_number": 2,
     "depends": [
-      "xorg-kbproto",
-      "xorg-libxcb 1.*",
-      "xorg-xproto"
+      "libgcc-ng >=4.9",
+      "xorg-libx11 1.6.*",
+      "xorg-libxext 1.3.*",
+      "xorg-libxmu 1.1.*",
+      "xorg-libxpm 3.5.*",
+      "xorg-libxt 1.1.*"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "86509589456209d6c93c4e5aeba8d460",
-    "name": "xorg-libx11",
-    "sha256": "6cdc7db2ad4797540878d4738e1e36688542e0dd0af8f61dfba714335b137d62",
-    "size": 1654181,
+    "md5": "74bfab564844fea7cfa48cd03bb1b237",
+    "name": "xorg-libxaw",
+    "sha256": "3aa9ad0610c5b179f70e0f1c421dc15eaa14268dff0f6dffcfd7332e455734d7",
+    "size": 365940,
     "subdir": "linux-64",
-    "version": "1.6.4"
+    "timestamp": 1532615427844,
+    "version": "1.0.13"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libx11-1.6.4-5.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/xorg-libxaw-1.0.13-h470a237_2.tar.bz2"
 }
