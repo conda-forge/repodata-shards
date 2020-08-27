@@ -19,25 +19,24 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/conda/conda-build/releases/download/3.18.10/conda-build-3.18.10.tar.gz",
+    "source_url": "https://github.com/conda/conda-build/releases/download/3.19.0/conda-build-3.19.0.tar.gz",
     "subdirs": [
       "linux-ppc64le"
     ],
     "summary": "tools for building conda packages",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1571072604,
-    "version": "3.18.10"
+    "timestamp": 1583885399,
+    "version": "3.19.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "conda-build-3.18.10-py36_0.tar.bz2",
+  "package": "conda-build-3.19.0-py37hc8dfbb8_0.tar.bz2",
   "repodata": {
-    "build": "py36_0",
+    "build": "py37hc8dfbb8_0",
     "build_number": 0,
     "constrains": [
       "conda-verify  >=3.1.0"
@@ -54,10 +53,12 @@
       "pkginfo",
       "psutil",
       "py-lief",
-      "python >=3.6,<3.7.0a0",
+      "python >=3.7,<3.8.0a0",
       "python-libarchive-c",
+      "python_abi 3.7.* *_cp37m",
       "pytz",
       "pyyaml",
+      "requests",
       "ripgrep",
       "setuptools",
       "six",
@@ -65,15 +66,15 @@
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "379f9eb08f2283e982708cfef100023f",
+    "md5": "e0dfcda631f4e57112ffef0fa63e5e42",
     "name": "conda-build",
-    "sha256": "5b197e4a4418b3583313022af987b9adf4a6b1c16c72ca297e9e104e59db480e",
-    "size": 533187,
+    "sha256": "7c52db4b0489259b2c11eeb52055d13d3fd4d26adb03f58d4226fd63973468b0",
+    "size": 542497,
     "subdir": "linux-ppc64le",
-    "timestamp": 1571072604346,
-    "version": "3.18.10"
+    "timestamp": 1583885399763,
+    "version": "3.19.0"
   },
   "repodata_version": 1,
   "subdir": "linux-ppc64le",
-  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/conda-build-3.18.10-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/linux-ppc64le/conda-build-3.19.0-py37hc8dfbb8_0.tar.bz2"
 }
