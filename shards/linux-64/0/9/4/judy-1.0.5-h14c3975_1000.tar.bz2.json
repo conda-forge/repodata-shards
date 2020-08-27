@@ -1,0 +1,56 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Judy is a C library that implements a dynamic array.  Empty Judy arrays are declared with null pointers.  A Judy array consumes memory only when populated yet can grow to take advantage of all available memory.  Judy's key benefits are:  scalability, performance, memory efficiency, and ease of use. Judy arrays are designed to grow without tuning into the peta-element range, scaling near O(log-base-256).  Judy arrays are accessed with insert, retrieve, and delete calls for number or string indexes.  Configuration and tuning are not required -- in fact not possible.  Judy offers sorting, counting, and neighbor/empty searching. Indexes can be sequential, clustered, periodic, or random -- it doesn't matter to the algorithm.  Judy arrays can be arranged hierarchically to handle any bit patterns -- large indexes, sets of keys, etc.  Judy is often an improvement over common data structures such as:  arrays, sparse arrays, hash tables, B-trees, binary trees, linear lists, skiplists, other sort and search algorithms, and counting functions.",
+    "dev_url": "http://sourceforge.net/projects/judy",
+    "doc_source_url": null,
+    "doc_url": "http://judy.sourceforge.net/doc/index.html",
+    "home": "http://judy.sourceforge.net/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://downloads.sourceforge.net/project/judy/judy/Judy-1.0.5/Judy-1.0.5.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "C library for creating and accessing sparse dynamic arrays",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1534870024,
+    "version": "1.0.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "broken"
+  ],
+  "package": "judy-1.0.5-h14c3975_1000.tar.bz2",
+  "repodata": {
+    "build": "h14c3975_1000",
+    "build_number": 1000,
+    "depends": [
+      "libgcc-ng >=7.3.0"
+    ],
+    "license": "LGPL-2.1",
+    "md5": "5b61b378df5b8b1e49558917a6d0b9be",
+    "name": "judy",
+    "sha256": "4ef077320bc4c25ce6fd321eb86eacdf378589ecb4b0ce268be389eb603e7953",
+    "size": 227833,
+    "subdir": "linux-64",
+    "timestamp": 1534870024157,
+    "version": "1.0.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/linux-64/judy-1.0.5-h14c3975_1000.tar.bz2"
+}
