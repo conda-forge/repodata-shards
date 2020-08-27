@@ -1,13 +1,13 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://www.earthsystemmodeling.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -18,42 +18,41 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": "git://git.code.sf.net/p/esmf/esmf",
-    "source_url": null,
+    "source_git_url": null,
+    "source_url": "http://downloads.sourceforge.net/project/esmf/ESMF_7_0_0/esmf_7_0_0_src.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": null,
+    "summary": "The Earth System Modeling Framework (ESMF) is software for building and coupling weather, climate, and related models.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
     "version": "7.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "esmpy-7.0.0-py27_0.tar.bz2",
+  "package": "esmf-7.0.0-9.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "9",
+    "build_number": 9,
     "depends": [
-      "esmf",
-      "numpy",
-      "python 2.7*"
+      "hdf5 1.10.1",
+      "libgcc",
+      "mpich",
+      "netcdf-fortran 4.4.*"
     ],
     "license": "The University of Illinois/NCSA Open Source License (NCSA)",
-    "md5": "e02f10f0fe62766c5571c78b33b14343",
-    "name": "esmpy",
-    "sha256": "876234457f0de38f001fd8914e192b6cee6edaee9bd23c7691af4ed150600f6e",
-    "size": 137207,
+    "md5": "e131fb55ea6099d2a1d0f68b2e32b6d3",
+    "name": "esmf",
+    "sha256": "809ea47a63e5e6a7c30dc696b04d2c5063c39e4347212003b82cea1ae9dd32ed",
+    "size": 16096967,
     "subdir": "linux-64",
     "version": "7.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/esmpy-7.0.0-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/esmf-7.0.0-9.tar.bz2"
 }
