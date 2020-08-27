@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Gqrx is an open source software defined radio (SDR) receiver implemented using GNU Radio and the Qt GUI toolkit. Currently it works on Linux and Mac with hardware supported by gr-osmosdr, including Funcube Dongle, RTL-SDR, Airspy, HackRF, BladeRF, RFSpace, USRP and SoapySDR.  Gqrx can operate as an AM/FM/SSB receiver with audio output or as an FFT-only instrument. There are also various hooks for interacting with external application using network sockets.",
+    "dev_url": "https://github.com/csete/gqrx",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gqrx.dk/",
+    "icon_hash": "md5:1e1b7d10b5d114704e32aeba22b826e2:43486",
+    "icon_url": "icons/gqrx.png",
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/csete/gqrx/archive/v2.12.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Gqrx",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1598552481,
+    "version": "2.12.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gqrx-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gqrx-2.12.1-h9b23c21_2.tar.bz2",
+  "repodata": {
+    "app_entry": "gqrx --edit",
+    "app_type": "desk",
+    "build": "h9b23c21_2",
+    "build_number": 2,
+    "depends": [
+      "boost-cpp >=1.72.0,<1.72.1.0a0",
+      "gnuradio-core >=3.8.2.0,<3.8.3.0a0",
+      "gnuradio-osmosdr >=0.2.0,<0.3.0a0",
+      "libvorbis <1.3.6",
+      "libvorbis >=1.3.5,<1.4.0a0",
+      "log4cpp",
+      "qt >=5.12.6,<5.13.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "icon": "1e1b7d10b5d114704e32aeba22b826e2.png",
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "license_family": "GPL",
+    "md5": "221f52696e9ef8b18df4054ef78b4ede",
+    "name": "gqrx",
+    "sha256": "5fd9c6289c1ac247b46225ed087ab213c97c3f9efc6e39a916d9b5825aa6cd68",
+    "size": 828553,
+    "subdir": "win-64",
+    "summary": "Gqrx",
+    "timestamp": 1598552481916,
+    "type": "app",
+    "version": "2.12.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/gqrx-2.12.1-h9b23c21_2.tar.bz2/gqrx-2.12.1-h9b23c21_2.tar.bz2"
+}
