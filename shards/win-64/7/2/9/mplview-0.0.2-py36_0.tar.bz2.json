@@ -3,11 +3,11 @@
     "activate.d": false,
     "binary_prefix": false,
     "deactivate.d": false,
-    "description": "mpmath is a free Python library for real and complex floating-point arithmetic with arbitrary precision.",
-    "dev_url": "https://github.com/fredrik-johansson/mpmath",
+    "description": null,
+    "dev_url": "https://github.com/jakirkham/mplview",
     "doc_source_url": null,
-    "doc_url": "http://mpmath.org/doc/current/",
-    "home": "http://mpmath.org",
+    "doc_url": "https://mplview.readthedocs.io/",
+    "home": "https://github.com/jakirkham/mplview",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/m/mpmath/mpmath-0.19.tar.gz",
+    "source_url": "https://pypi.io/packages/source/m/mplview/mplview-0.0.2.tar.gz",
     "subdirs": [
       "win-64"
     ],
-    "summary": "Python library for arbitrary-precision floating-point arithmetic",
+    "summary": "A simple, embeddable Matplotlib-based image viewer.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.19"
+    "version": "0.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "mpmath-0.19-py36_0.tar.bz2",
+  "package": "mplview-0.0.2-py36_0.tar.bz2",
   "repodata": {
     "build": "py36_0",
     "build_number": 0,
     "depends": [
+      "matplotlib",
+      "npctypes",
       "python 3.6*"
     ],
     "license": "BSD 3-Clause",
-    "md5": "1ab87645ea3352b400d4ec368b6bb2dd",
-    "name": "mpmath",
-    "sha256": "97cc429ccbff80e167c972b45723aef1e21c963c9da36a8c52ff7c89e986a020",
-    "size": 891852,
+    "license_family": "BSD",
+    "md5": "92691d532a81a1ff69268c67fd9e3f2d",
+    "name": "mplview",
+    "sha256": "eefcbab0d7013754b64d8c041f529d1a605e39849e50c226296950ff17a3668c",
+    "size": 12195,
     "subdir": "win-64",
-    "version": "0.19"
+    "version": "0.0.2"
   },
   "repodata_version": 1,
   "subdir": "win-64",
-  "url": "https://conda.anaconda.org/conda-forge/win-64/mpmath-0.19-py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/win-64/mplview-0.0.2-py36_0.tar.bz2"
 }
