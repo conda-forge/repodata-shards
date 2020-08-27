@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Cling is an interactive C++ interpreter, built on top of Clang and LLVM compiler infrastructure. Cling realizes the read-eval-print loop (REPL) concept, in order to leverage rapid application development. Implemented as a small extension to LLVM and Clang, the interpreter reuses their strengths such as the praised concise and expressive compiler diagnostics.",
+    "dev_url": "https://github.com/root-project/cling",
+    "doc_source_url": null,
+    "doc_url": "https://root.cern.ch/cling",
+    "home": "https://root.cern.ch/cling",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "UI/NCSAOSL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.6": {
+        "weak": [
+          "cling >=0.6,<0.7.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/root-project/cling/archive/v0.6.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Cling - The Interactive C++ Interpreter",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1574296153,
+    "version": "0.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "broken"
+  ],
+  "package": "cling-0.6-he513fc3_0.tar.bz2",
+  "repodata": {
+    "build": "he513fc3_0",
+    "build_number": 0,
+    "depends": [
+      "clang_variant * cling_v0.6",
+      "clangdev 5.0.0.*",
+      "gxx_linux-64 7.*",
+      "libgcc-ng >=7.3.0",
+      "libstdcxx-ng >=7.3.0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "UI/NCSAOSL",
+    "license_family": "BSD",
+    "md5": "60574eab95ce974917faab26fabc5c9b",
+    "name": "cling",
+    "sha256": "c7cd4629c41444d31de118c85d9d79dafded20f65faf6e1fc6853e41c125b374",
+    "size": 43384102,
+    "subdir": "linux-64",
+    "timestamp": 1574296153238,
+    "version": "0.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/linux-64/cling-0.6-he513fc3_0.tar.bz2"
+}
