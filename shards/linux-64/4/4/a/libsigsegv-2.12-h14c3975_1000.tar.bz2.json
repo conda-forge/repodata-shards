@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "GNU libsigsegv is a library for handling page faults in user mode. A page fault occurs when a program tries to access to a region of memory that is currently not available.",
+    "dev_url": "http://savannah.gnu.org/projects/libsigsegv/",
+    "doc_source_url": null,
+    "doc_url": "https://www.gnu.org/software/libsigsegv/",
+    "home": "https://www.gnu.org/software/libsigsegv/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.12": {
+        "weak": [
+          "libsigsegv >=2.12,<2.13.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://ftp.gnu.org/gnu/libsigsegv/libsigsegv-2.12.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "GNU libsigsegv is a library for handling page faults in user mode.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1534913339,
+    "version": "2.12"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "broken"
+  ],
+  "package": "libsigsegv-2.12-h14c3975_1000.tar.bz2",
+  "repodata": {
+    "build": "h14c3975_1000",
+    "build_number": 1000,
+    "depends": [
+      "libgcc-ng >=7.3.0"
+    ],
+    "license": "GPL-2.0",
+    "license_family": "GPL",
+    "md5": "8f53409394f6c48b26f023e30733660e",
+    "name": "libsigsegv",
+    "sha256": "d34613c4f0fac29197014d9d54b373675e876c5587b3f6a04ac73dea62fe1079",
+    "size": 19714,
+    "subdir": "linux-64",
+    "timestamp": 1534913339161,
+    "version": "2.12"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/linux-64/libsigsegv-2.12-h14c3975_1000.tar.bz2"
+}
