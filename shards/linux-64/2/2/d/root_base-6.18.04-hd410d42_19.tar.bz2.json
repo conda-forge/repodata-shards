@@ -1,0 +1,87 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "Almost everything in ROOT should be supported in this Conda package; ROOT was built with lots of options turned on. Here are a few things to try:  * `root`: you can start up a session and see the splash screen; Control-D to exit. * `python` followed by `import ROOT` will load PyROOT. * `root --notebook` will start a notebook server with a ROOT kernel choice. * `rootbrowse` will open a TBrowser session so you can look through files. * `root -l -q $ROOTSYS/tutorials/dataframe/df013_InspectAnalysis.C` will run a DataFrame example with an animated plot. * `root -b -q -l -n -e \"std::cout << TROOT::GetTutorialDir() << std::endl;\"` will print the tutorial dir. * `root -b -l -q -e 'std::cout << (float) TPython::Eval(\"1+1\") << endl;'` will run Python from C++ ROOT.  See the post [here](https://iscinumpy.gitlab.io/post/root-conda/) for more information about using this Conda package.  Caveats =======  General -------  The ROOT package will prepare the required compilers (see below). Everything in Conda is symlinked into `$CONDA_PREFIX` if you build things by hand; tools like CMake should find it automatically. The `thisroot.*` scripts should not be used. Graphics, `rootbrowse`, etc. all should work. OpenGL is enabled.  There is also a `root_base` package, with minimal dependecies, that libraries should dependend on this to avoid having a runtime dependency on the `compilers` package. In most cases users should use the `root` package directly.  ROOT was built with and will report `-std=c++17` from `root-config`.",
+    "dev_url": "https://github.com/root-project/root/",
+    "doc_source_url": null,
+    "doc_url": "https://root.cern/documentation",
+    "home": "https://root.cern/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "6.18.04": {
+        "weak": [
+          "root_base >=6.18.4,<6.18.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/root-project/root/archive/v6-18-04.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "ROOT is a modular scientific software toolkit. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1569441434,
+    "version": "6.18.04"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "broken"
+  ],
+  "package": "root_base-6.18.04-hd410d42_19.tar.bz2",
+  "repodata": {
+    "build": "hd410d42_19",
+    "build_number": 19,
+    "constrains": [
+      "cling 9999",
+      "root5 9999"
+    ],
+    "depends": [
+      "afterimage >=1.21,<1.22.0a0",
+      "cfitsio >=3.470,<3.471.0a0",
+      "davix >=0.7.5,<0.8.0a0",
+      "freetype >=2.9.1,<3.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=9,<10.0a0",
+      "libgcc-ng >=7.3.0",
+      "libgfortran-ng >=7,<8.0a0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "librsvg >=2.46.0,<3.0a0",
+      "libstdcxx-ng >=7.3.0",
+      "libtiff >=4.0.10,<5.0a0",
+      "libxml2 >=2.9.9,<2.10.0a0",
+      "lz4-c >=1.8.3,<1.8.4.0a0",
+      "openssl >=1.1.1a,<1.1.2a",
+      "pcre >=8.41,<9.0a0",
+      "tbb >=2019.8",
+      "vdt >=0.4.3,<0.4.4.0a0",
+      "xrootd >=4.10.0,<4.11.0a0",
+      "xz >=5.2.4,<5.3.0a0"
+    ],
+    "license": "LGPL-2.1",
+    "license_family": "LGPL",
+    "md5": "717e891092c9bae7abbf35b43b32bb0a",
+    "name": "root_base",
+    "sha256": "38f22288daeb7ae47b7eeab449e31287c2e850f041ba4b1b53b1b7ed7d94e9fb",
+    "size": 131568933,
+    "subdir": "linux-64",
+    "timestamp": 1569441434091,
+    "version": "6.18.04"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/linux-64/root_base-6.18.04-hd410d42_19.tar.bz2"
+}
