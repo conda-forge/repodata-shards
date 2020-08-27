@@ -7,7 +7,7 @@
     "dev_url": "https://chromium.googlesource.com/webm/libwebp",
     "doc_source_url": null,
     "doc_url": "https://developers.google.com/speed/webp/docs/using",
-    "home": "https://developers.google.com/speed/webp/",
+    "home": "https://developers.google.com/speed/webp",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -17,44 +17,44 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "1.1.0": {
+        "weak": [
+          "libwebp-base >=1.1.0,<1.2.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
-    "source_url": "http://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.0.0.tar.gz",
+    "source_url": "http://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.1.0.tar.gz",
     "subdirs": [
       "osx-64"
     ],
     "summary": "WebP image library",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1532243933,
-    "version": "1.0.0"
+    "timestamp": 1578750089,
+    "version": "1.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "cf202003"
   ],
-  "package": "libwebp-1.0.0-he252da6_1.tar.bz2",
+  "package": "libwebp-base-1.1.0-2.tar.bz2",
   "repodata": {
-    "build": "he252da6_1",
-    "build_number": 1,
-    "depends": [
-      "giflib >=5.1.4,<5.2.0a0",
-      "jpeg >=9c,<10a",
-      "libpng >=1.6.34,<1.7.0a0",
-      "libtiff >=4.0.9,<5.0a0"
-    ],
+    "build": "2",
+    "build_number": 2,
+    "depends": [],
     "license": "Google",
-    "md5": "c37b9fdd201f0b1ac4c1e29ef32c9dc9",
-    "name": "libwebp",
-    "sha256": "dac096de465a728b852c6774130927d7003c8f49ca4acfe68bb24e1d5d8edeee",
-    "size": 818711,
+    "md5": "6943c182377de5773da36f33823560f6",
+    "name": "libwebp-base",
+    "sha256": "853492d7752dcd079f6b79c7a7f8dbd6e294be5b48d3a96a176d105e90d80177",
+    "size": 768329,
     "subdir": "osx-64",
-    "timestamp": 1532243933137,
-    "version": "1.0.0"
+    "timestamp": 1578750089764,
+    "version": "1.1.0"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/libwebp-1.0.0-he252da6_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/osx-64/libwebp-base-1.1.0-2.tar.bz2"
 }
