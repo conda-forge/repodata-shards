@@ -1,60 +1,59 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://gitub.com/UV-CDAT/genutil",
+    "home": "https://github.com/DenisCarriere/geocoder",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "CCLRC",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/UV-CDAT/genutil/archive/v3.0.tar.gz",
+    "source_url": "https://pypi.io/packages/source/g/geocoder/geocoder-1.21.2.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "General Utitilites for the Community Data Analysys Tools",
+    "summary": "Geocoder is a simple and consistent geocoding library.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "3.00"
+    "version": "1.21.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
-    "main",
     "cf201901"
   ],
-  "package": "genutil-3.00-py35_0.tar.bz2",
+  "package": "geocoder-1.21.2-py35_0.tar.bz2",
   "repodata": {
     "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "cdms2",
-      "numpy >=1.11",
+      "click",
       "python 3.5*",
-      "udunits2"
+      "ratelim",
+      "requests",
+      "six"
     ],
-    "license": "CCLRC",
-    "md5": "6d23f59c0217feb09079f54cf0a53c7d",
-    "name": "genutil",
-    "sha256": "a6d4c7ab7b5de4af4d46243e7d36c1e81015edbac411d7cc00aff445d430ebe3",
-    "size": 123603,
+    "license": "Apache 2.0",
+    "md5": "8b3f4f9ca3065ae5090212387e21d104",
+    "name": "geocoder",
+    "sha256": "9a9bd27627b7cb368b2e21b1423193fd1787a554addf5543225f216b053e3342",
+    "size": 72381,
     "subdir": "linux-64",
-    "version": "3.00"
+    "version": "1.21.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/genutil-3.00-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/linux-64/geocoder-1.21.2-py35_0.tar.bz2"
 }
