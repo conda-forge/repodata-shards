@@ -7,53 +7,52 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://computation.llnl.gov/casc/sundials/main.html",
+    "home": "http://crd-legacy.lbl.gov/~xiaoye/SuperLU/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-Clause",
+    "license": "BSD 3-clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://computation.llnl.gov/projects/sundials/download/sundials-2.7.0.tar.gz",
+    "source_url": "http://crd-legacy.lbl.gov/~xiaoye/SuperLU/superlu_5.2.1.tar.gz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "SUite of Nonlinear and DIfferential/ALgebraic equation Solvers",
+    "summary": "Supernodal LU: solvers for large, sparse, nonsymmetric systems of linear equations.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.7.0"
+    "version": "5.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "sundials-2.7.0-blas_openblas_2.tar.bz2",
+  "package": "superlu-5.2.1-blas_openblas_201.tar.bz2",
   "repodata": {
-    "build": "blas_openblas_2",
-    "build_number": 2,
+    "build": "blas_openblas_201",
+    "build_number": 201,
     "depends": [
       "blas 1.1 openblas",
+      "libgfortran",
       "openblas 0.2.19|0.2.19.*"
     ],
     "features": "blas_openblas",
-    "license": "BSD 3-Clause",
-    "md5": "c3a31824d5904b70d95e47760fbf9fde",
-    "name": "sundials",
-    "sha256": "10ebe3a8f4fc3c25b8aafc33fe59a367a4f8be4091ceb2a603656591900570d3",
-    "size": 488381,
+    "license": "BSD 3-clause",
+    "md5": "9760872b839ed39a06153a5657aa23d9",
+    "name": "superlu",
+    "sha256": "b44bf0a2f945c7aa49b8cd4be90faca51c6ff53483874237d09721aee1c62791",
+    "size": 173874,
     "subdir": "osx-64",
-    "version": "2.7.0"
+    "version": "5.2.1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/sundials-2.7.0-blas_openblas_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/superlu-5.2.1-blas_openblas_201.tar.bz2"
 }
