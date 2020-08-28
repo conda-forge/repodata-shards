@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://ff.r-forge.r-project.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/bit64/bit64_4.0.4.tar.gz",
+      "https://cran.r-project.org/src/contrib/bit64_4.0.4.tar.gz"
+    ],
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Package 'bit64' provides serializable S3 atomic 64bit (signed) integers.  These are useful for handling database keys and exact counting in +-2^63. WARNING: do not use them as replacement for 32bit integers, integer64 are not supported for subscripting by R-core and they have different semantics when  combined with double, e.g. integer64 + double => integer64.  Class integer64 can be used in vectors, matrices, arrays and data.frames.  Methods are available for coercion from and to logicals, integers, doubles,  characters and factors as well as many elementwise and summary functions.  Many fast algorithmic operations such as 'match' and 'order' support inter- active data exploration and manipulation and optionally leverage caching.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1598620840,
+    "version": "4.0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-bit64-4.0.4-r40hd2b4baa_0.tar.bz2",
+  "repodata": {
+    "build": "r40hd2b4baa_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=8.4.0",
+      "r-base >=4.0,<4.1.0a0",
+      "r-bit >=4.0.0"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "ebf2f0c5165d03c82960c9fa94d6d83c",
+    "name": "r-bit64",
+    "sha256": "d3fb9d05d4d40762e6e7bee78933467d58b6649d45568018b7883fc1b28c601a",
+    "size": 544585,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1598620840092,
+    "version": "4.0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/r-bit64-4.0.4-r40hd2b4baa_0.tar.bz2"
+}
