@@ -3,7 +3,7 @@
     "activate.d": false,
     "binary_prefix": true,
     "deactivate.d": false,
-    "description": null,
+    "description": "matplotlib is a python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. matplotlib can be used in Python scripts, the Python and IPython shell (ala MATLAB or Mathematica), web application servers, and six graphical user interface toolkits.",
     "dev_url": "https://github.com/matplotlib/matplotlib/",
     "doc_source_url": null,
     "doc_url": "http://matplotlib.org/contents.html",
@@ -12,14 +12,14 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "PSF-based (http://matplotlib.org/users/license.html)",
+    "license": "PSF-based",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/matplotlib/matplotlib/archive/v2.0.0rc2.tar.gz",
+    "source_url": "https://github.com/matplotlib/matplotlib/archive/v2.2.0rc1.tar.gz",
     "subdirs": [
       "osx-64"
     ],
@@ -27,41 +27,42 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.0.0rc2"
+    "version": "2.2.0rc1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf201901",
-    "testing",
     "rc"
   ],
-  "package": "matplotlib-2.0.0rc2-np112py35_2.tar.bz2",
+  "package": "matplotlib-2.2.0rc1-py35_0.tar.bz2",
   "repodata": {
-    "build": "np112py35_2",
-    "build_number": 2,
+    "build": "py35_0",
+    "build_number": 0,
     "depends": [
+      "backports.functools_lru_cache",
       "cycler >=0.10",
-      "freetype 2.6.*",
-      "libpng >=1.6.23,<1.7",
-      "numpy 1.12*",
+      "freetype 2.8.*",
+      "kiwisolver",
+      "libpng >=1.6.32,<1.6.35",
+      "numpy >=1.8",
       "pyparsing",
       "python 3.5*",
       "python-dateutil",
       "pytz",
       "setuptools",
+      "setuptools",
       "tornado"
     ],
-    "license": "PSF-based (http://matplotlib.org/users/license.html)",
+    "license": "PSF-based",
     "license_family": "PSF",
-    "md5": "4fb3e034bb0f9252c8eef1bc435c7097",
+    "md5": "800944bb7b65e6f7b476c2879d3feeab",
     "name": "matplotlib",
-    "sha256": "f5131d4f217de67fbc4b86f0377d642b1dd584d3af88ac01af0522cd717f2124",
-    "size": 7054576,
+    "sha256": "fa86e0cf336abc6da3113414691cf4c36ddc95a12e4efee4e9e237d9eb0d7370",
+    "size": 6975944,
     "subdir": "osx-64",
-    "version": "2.0.0rc2"
+    "version": "2.2.0rc1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/matplotlib-2.0.0rc2-np112py35_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/rc/osx-64/matplotlib-2.2.0rc1-py35_0.tar.bz2"
 }

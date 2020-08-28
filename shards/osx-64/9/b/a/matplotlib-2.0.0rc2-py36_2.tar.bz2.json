@@ -1,12 +1,12 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
-    "dev_url": null,
+    "dev_url": "https://github.com/matplotlib/matplotlib/",
     "doc_source_url": null,
-    "doc_url": null,
+    "doc_url": "http://matplotlib.org/contents.html",
     "home": "http://matplotlib.org/",
     "icon_hash": null,
     "icon_url": null,
@@ -32,34 +32,34 @@
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf201901",
-    "testing",
     "rc"
   ],
-  "package": "matplotlib-2.0.0rc2-np111py35_0.tar.bz2",
+  "package": "matplotlib-2.0.0rc2-py36_2.tar.bz2",
   "repodata": {
-    "build": "np111py35_0",
-    "build_number": 0,
+    "build": "py36_2",
+    "build_number": 2,
     "depends": [
       "cycler >=0.10",
-      "freetype 2.6.*",
-      "libpng >=1.6.23,<1.7",
-      "numpy 1.11*",
+      "freetype 2.7",
+      "libpng >=1.6.28,<1.7",
+      "numpy >=1.8",
       "pyparsing",
-      "python 3.5*",
+      "python 3.6*",
       "python-dateutil",
       "pytz",
-      "setuptools"
+      "setuptools",
+      "tornado"
     ],
     "license": "PSF-based (http://matplotlib.org/users/license.html)",
-    "md5": "99f6e16d1dd241843138fe3a34ffe16e",
+    "license_family": "PSF",
+    "md5": "eeef99b18c13cb64066abfb1e63250e9",
     "name": "matplotlib",
-    "sha256": "c27530a1563f8bdbc5b21a1bec6e8dc67d45d5bb8e99f2481d53af55d28f9c7d",
-    "size": 7548816,
+    "sha256": "9f0a3a328e94ff0a42f76e2a39c716c93a9c68e689ad272fe2feb3a1a3276567",
+    "size": 6980853,
     "subdir": "osx-64",
     "version": "2.0.0rc2"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/matplotlib-2.0.0rc2-np111py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/rc/osx-64/matplotlib-2.0.0rc2-py36_2.tar.bz2"
 }
