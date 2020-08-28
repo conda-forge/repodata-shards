@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GFAL (Grid File Access Library) is a C library providing an abstraction layer of the grid storage system complexity. The version 2 of GFAL tries to simplify at the maximum the file operations in a distributed environment. The complexity of the grid is hidden from the client side behind a simple common POSIX API. GFAL2 is able to manage all the common used file access protocols in a grid & cloud environment.",
+    "dev_url": "https://gitlab.cern.ch/dmc/gfal2",
+    "doc_source_url": null,
+    "doc_url": "http://dmc.web.cern.ch/projects/gfal-2/documentation",
+    "home": "http://dmc.web.cern.ch/projects/gfal-2/home",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.18.2": {
+        "weak": [
+          "gfal2 >=2.18.2,<2.19.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gitlab.cern.ch/dmc/gfal2/-/archive/v2.18.2/gfal2-v2.18.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "GFAL (Grid File Access Library) is a C library providing an abstraction layer of the grid storage system complexity.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1598605294,
+    "version": "2.18.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gfal2-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gfal2-2.18.2-h222f431_1.tar.bz2",
+  "repodata": {
+    "build": "h222f431_1",
+    "build_number": 1,
+    "depends": [
+      "davix >=0.7.6,<0.8.0a0",
+      "dcap >=2.47.12,<2.48.0a0",
+      "gct >=6.2.1550507116,<6.3.0a0",
+      "glib >=2.58.3,<3.0a0",
+      "json-c >=0.13.1,<0.14.0a0",
+      "libgcc-ng >=7.5.0",
+      "libssh2 >=1.9.0,<2.0a0",
+      "libstdcxx-ng >=7.5.0",
+      "libuuid >=2.32.1,<3.0a0",
+      "openldap >=2.4.46,<2.5.0a0",
+      "pugixml >=1.10,<1.11.0a0",
+      "srm-ifce",
+      "xrootd >=5.0.1,<6.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "51d744f5dc067654ebbb52154323a4a3",
+    "name": "gfal2",
+    "sha256": "bb2e442d072c0ba92e8fcec42a51cba68731a4ed58b4e14237c7d4d4264e6be9",
+    "size": 2604880,
+    "subdir": "linux-64",
+    "timestamp": 1598605294770,
+    "version": "2.18.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/gfal2-2.18.2-h222f431_1.tar.bz2/gfal2-2.18.2-h222f431_1.tar.bz2"
+}
