@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.netlib.org/lapack",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.8.0": {
+        "weak": [
+          "libcblas >=3.8.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Linear Algebra PACKage",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1552609102,
+    "version": "3.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "broken"
+  ],
+  "package": "libcblas-3.8.0-3_h9ac9557_netlib.tar.bz2",
+  "repodata": {
+    "build": "3_h9ac9557_netlib",
+    "build_number": 3,
+    "constrains": [
+      "blas 2.*"
+    ],
+    "depends": [
+      "libblas 3.8.0.*",
+      "libgcc-ng >=8.2.0",
+      "libgfortran-ng >=8,<9.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "md5": "901cca10dac6360c7447f8ec80b8d9f5",
+    "name": "libcblas",
+    "sha256": "91e6d07bb209ee9090a313731d551c420b6a1bd94fc761f0a239c88aaa659dcc",
+    "size": 48993,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1552609102668,
+    "track_features": "blas_netlib",
+    "version": "3.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/linux-ppc64le/libcblas-3.8.0-3_h9ac9557_netlib.tar.bz2"
+}
