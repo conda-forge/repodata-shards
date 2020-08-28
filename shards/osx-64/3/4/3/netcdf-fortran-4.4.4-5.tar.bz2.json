@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/Unidata/netcdf-cxx4",
+    "home": "https://github.com/Unidata/netcdf-fortran",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,39 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/Unidata/netcdf-cxx4/archive/v4.3.0.tar.gz",
+    "source_url": "https://github.com/Unidata/netcdf-fortran/archive/v4.4.4.tar.gz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "Unidata NetCDF C++ Library",
+    "summary": "Unidata NetCDF Fortran Library.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1536015346,
-    "version": "4.3.0"
+    "text_prefix": false,
+    "timestamp": 0,
+    "version": "4.4.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "netcdf-cxx4-4.3.0-h703b707_9.tar.bz2",
+  "package": "netcdf-fortran-4.4.4-5.tar.bz2",
   "repodata": {
-    "build": "h703b707_9",
-    "build_number": 9,
+    "build": "5",
+    "build_number": 5,
     "depends": [
-      "hdf5 >=1.10.2,<1.10.3.0a0",
-      "libnetcdf >=4.6.1,<4.7.0a0"
+      "hdf5 1.8.18|1.8.18.*",
+      "libgfortran",
+      "libnetcdf 4.4.*"
     ],
     "license": "http://www.unidata.ucar.edu/software/netcdf/copyright.html",
-    "md5": "445423b9fc32c22ca834b204f0653112",
-    "name": "netcdf-cxx4",
-    "sha256": "94067b074c2b89a57f77b2e73c79331aa062f4c06104590d7edacfcda164deb5",
-    "size": 1275949,
+    "md5": "3ac15c2ad53ad29288ea5fcad64da9f3",
+    "name": "netcdf-fortran",
+    "sha256": "a150496a82a023e7478e08f5bab6611b74200c032ac610d005eca5be9e2cb60c",
+    "size": 593255,
     "subdir": "osx-64",
-    "timestamp": 1536015346267,
-    "version": "4.3.0"
+    "version": "4.4.4"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/netcdf-cxx4-4.3.0-h703b707_9.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/netcdf-fortran-4.4.4-5.tar.bz2"
 }
