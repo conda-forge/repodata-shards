@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://emperor.microbio.me",
+    "home": "https://github.com/conda/conda-verify",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,47 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/e/emperor/emperor-1.0.0beta5.tar.gz",
+    "source_url": "https://github.com/conda/conda-verify/archive/3.0.2.tar.gz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "Emperor a tool for the analysis and visualization of large microbial ecology datasets",
+    "summary": "tool for validating conda recipes and conda packages",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.0.0beta5"
+    "version": "3.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
-    "cf201901",
     "broken"
   ],
-  "package": "emperor-1.0.0beta5-py35_0.tar.bz2",
+  "package": "conda-verify-3.0.2-py27_0.tar.bz2",
   "repodata": {
-    "build": "py35_0",
+    "build": "py27_0",
     "build_number": 0,
     "depends": [
+      "backports.functools_lru_cache",
       "click",
       "future",
       "jinja2",
-      "numpy >=1.7",
-      "pandas",
-      "python 3.5*",
-      "scikit-bio >=0.4.1,<0.5.0",
-      "scipy >=0.17.0"
+      "python 2.7*",
+      "pyyaml"
     ],
     "license": "BSD 3-Clause",
-    "md5": "3eb6818e32512009c7386feec98acd33",
-    "name": "emperor",
-    "sha256": "5c0ccf393d4c0ca76277f612f0befd305d9771d69fe670bbe55bdbbad0ef2bd5",
-    "size": 458452,
+    "md5": "7f5f1fc770ffdf737e0deafcc3b1510a",
+    "name": "conda-verify",
+    "sha256": "ddecd4e0691e5b5fb1e5c14079bfb032dc3a9607119d8ee5f60b8575394ea2cd",
+    "size": 32502,
     "subdir": "osx-64",
-    "version": "1.0.0beta5"
+    "version": "3.0.2"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/emperor-1.0.0beta5-py35_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/osx-64/conda-verify-3.0.2-py27_0.tar.bz2"
 }
