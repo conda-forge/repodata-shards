@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/tpoechtrager/cctools-port",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "APSL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Darwin Mach-O cross linker",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1597421308,
+    "version": "530"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "llvm_rc"
+  ],
+  "package": "ld64_osx-64-530-hee320e9_8.tar.bz2",
+  "repodata": {
+    "build": "hee320e9_8",
+    "build_number": 8,
+    "constrains": [
+      "clang >=11.0.0.0rc.1,<12.0a0",
+      "ld 530.*",
+      "cctools 949.0.1.*",
+      "cctools_osx-64 949.0.1.*"
+    ],
+    "depends": [
+      "libcxx",
+      "libllvm11 >=11.0.0.0rc.1,<11.1.0a0",
+      "tapi >=1000.10.8,<1001.0a0"
+    ],
+    "license": "APSL-2.0",
+    "license_family": "Other",
+    "md5": "0411c316b58ccc5a88d7bc827cd11458",
+    "name": "ld64_osx-64",
+    "sha256": "a0556ad9c3b6907c2cccb18039020aa4743cfc0d4caea96a19cad3b393dc0c2b",
+    "size": 1388119,
+    "subdir": "osx-64",
+    "timestamp": 1597421308715,
+    "version": "530"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/llvm_rc/osx-64/ld64_osx-64-530-hee320e9_8.tar.bz2"
+}
