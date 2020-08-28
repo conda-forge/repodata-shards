@@ -1,58 +1,57 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/chimpler/pyhocon/",
+    "home": "http://hdfeos.org/software/pyhdf",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache-2.0",
+    "license": "Public Domain",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/p/pyhocon/pyhocon-0.3.30.tar.gz",
+    "source_url": "http://hdfeos.org/software/pyhdf/pyhdf-0.9.0.tar.gz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "HOCON parser for Python",
+    "summary": "Python interface to the NCSA HDF4 library.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "0.3.30"
+    "version": "0.9.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "pyhocon-0.3.30-py27_0.tar.bz2",
+  "package": "pyhdf-0.9.0-np112py27_1.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "np112py27_1",
+    "build_number": 1,
     "depends": [
-      "pyparsing >=2.0.3",
+      "hdf4",
+      "numpy 1.12*",
       "python 2.7*"
     ],
-    "license": "Apache-2.0",
-    "md5": "c37968caef223497fff4d6955e5754af",
-    "name": "pyhocon",
-    "sha256": "8c0c0a7c4c8f14ebdc67be42bb161096962e20233f326a8e02ffb5c9cdeb02dd",
-    "size": 24750,
+    "license": "Public Domain",
+    "md5": "cd68c57767cad31868a5a8ccc9891bf7",
+    "name": "pyhdf",
+    "sha256": "a0a2f8b7029515b9366abd46cb6050d36c2a99e9c6626be71b788fd79dbab367",
+    "size": 148911,
     "subdir": "osx-64",
-    "version": "0.3.30"
+    "version": "0.9.0"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/pyhocon-0.3.30-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/pyhdf-0.9.0-np112py27_1.tar.bz2"
 }
