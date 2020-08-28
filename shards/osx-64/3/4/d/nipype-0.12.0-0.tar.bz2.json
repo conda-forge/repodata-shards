@@ -12,7 +12,7 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "BSD 3-clause",
+    "license": "Apache 2.0",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
@@ -27,35 +27,41 @@
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.11.0"
+    "version": "0.12.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
-    "cf201901",
     "broken"
   ],
-  "package": "numpy-1.11.0-py34_blas_openblas_100.tar.bz2",
+  "package": "nipype-0.12.0-0.tar.bz2",
   "repodata": {
-    "build": "py34_blas_openblas_100",
-    "build_number": 100,
+    "build": "0",
+    "build_number": 0,
     "depends": [
-      "blas 1.1 openblas",
-      "openblas 0.2*",
-      "python 3.4*"
+      "funcsigs",
+      "future",
+      "networkx >=1.7",
+      "nibabel >=2.0.1",
+      "nose >=1.2",
+      "numpy >=1.6.2",
+      "prov >=1.4.0",
+      "psutil",
+      "python-dateutil >=1.5",
+      "scipy >=0.11",
+      "simplejson >=3.8.0",
+      "traits >=4.3",
+      "xvfbwrapper"
     ],
-    "features": "blas_openblas",
-    "license": "BSD 3-clause",
-    "md5": "1fed5cae49df8d9c3b01cc65aa25ba41",
-    "name": "numpy",
-    "sha256": "3436b9e8e5e769bbdcf0d5923a9b6bf69790009d23db0a282423cc760667413a",
-    "size": 2922890,
+    "license": "Apache 2.0",
+    "md5": "98d079a5845e3e46e644b1c7c6867d8e",
+    "name": "nipype",
+    "sha256": "1c95bbb7ded747c2cab578b6e31e0875ce69a7bf3b6039f2dc700e291096201e",
+    "size": 2789161,
     "subdir": "osx-64",
-    "version": "1.11.0"
+    "version": "0.12.0"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/numpy-1.11.0-py34_blas_openblas_100.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/osx-64/nipype-0.12.0-0.tar.bz2"
 }
