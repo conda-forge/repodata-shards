@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The central idea is to treat a data structure as a \"template\" and transform it, using another data structure as context, to produce an output data structure. There are countless libraries to do this with strings, such as mustache. What makes JSON-e unique is that it operates on data structures, not on their textual representation. This allows input to be written in a number of formats (JSON, YAML, etc.) or even generated dynamically. It also means that the output cannot be \"invalid\", even when including large chunks of contextual data. JSON-e is also designed to be safe for use on untrusted data. It never uses eval or any other function that might result in arbitrary code execution. It also disallows unbounded iteration, so any JSON-e rendering operation will finish in finite time.",
+    "dev_url": "https://github.com/taskcluster/json-e",
+    "doc_source_url": null,
+    "doc_url": "https://simplejson.readthedocs.io",
+    "home": "https://taskcluster.github.io/json-e",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/taskcluster/json-e/archive/v4.3.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A data-structure parameterization system written for embedding context in JSON objects",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1598582639,
+    "version": "4.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "json-e-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "json-e-4.3.0-pyh9f0ad1d_0.tar.bz2",
+  "repodata": {
+    "build": "pyh9f0ad1d_0",
+    "build_number": 0,
+    "depends": [
+      "python"
+    ],
+    "license": "MPL-2.0",
+    "license_family": "MOZILLA",
+    "md5": "1b6ff3680746298b843f79039b63d219",
+    "name": "json-e",
+    "noarch": "python",
+    "sha256": "2e84d7c2e3fcfd2092e5f71a0f26167bc1c52e72e88e692a060b6ac6b52a34d6",
+    "size": 39231,
+    "subdir": "noarch",
+    "timestamp": 1598582639698,
+    "version": "4.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/regro/releases/releases/download/noarch/json-e-4.3.0-pyh9f0ad1d_0.tar.bz2/json-e-4.3.0-pyh9f0ad1d_0.tar.bz2"
+}
