@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,43 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/lib/libXft-2.3.2.tar.bz2",
+    "source_url": "https://www.x.org/releases/individual/lib/libXmu-1.1.2.tar.bz2",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "The X.org FreeType library.",
+    "summary": "The X.org X11 miscellaneous utility library.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "2.3.2"
+    "timestamp": 1531145139,
+    "version": "1.1.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "xorg-libxft-2.3.2-0.tar.bz2",
+  "package": "xorg-libxmu-1.1.2-h470a237_1.tar.bz2",
   "repodata": {
-    "build": "0",
-    "build_number": 0,
+    "build": "h470a237_1",
+    "build_number": 1,
     "depends": [
-      "fontconfig 2.12.*",
-      "freetype 2.7|2.7.*",
       "xorg-libx11 1.6.*",
-      "xorg-libxrender 0.9.*"
+      "xorg-libxext 1.3.*",
+      "xorg-libxt 1.1.*"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "82c0af44311c559ebcbbc82b4bbbaff7",
-    "name": "xorg-libxft",
-    "sha256": "7b5e8eb356a4689b428f1b58de6f2f08a0cdfa57a462d112c28f2b729632722e",
-    "size": 69416,
+    "md5": "ce878e97d2afe1bab385a1ac00981520",
+    "name": "xorg-libxmu",
+    "sha256": "2972b388152d374e08f5c242774403c7fb879e42a51a669c57e0593b715a6f09",
+    "size": 70819,
     "subdir": "osx-64",
-    "version": "2.3.2"
+    "timestamp": 1531145139708,
+    "version": "1.1.2"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/xorg-libxft-2.3.2-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/xorg-libxmu-1.1.2-h470a237_1.tar.bz2"
 }

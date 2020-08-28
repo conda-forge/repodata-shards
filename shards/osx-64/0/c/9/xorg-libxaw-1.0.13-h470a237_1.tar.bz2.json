@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,43 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.x.org/releases/individual/lib/libXft-2.3.2.tar.bz2",
+    "source_url": "https://www.x.org/releases/individual/lib/libXaw-1.0.13.tar.bz2",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "The X.org FreeType library.",
+    "summary": "The X.org X11 Athena widgets library.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 0,
-    "version": "2.3.2"
+    "timestamp": 1531203248,
+    "version": "1.0.13"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "xorg-libxft-2.3.2-0.tar.bz2",
+  "package": "xorg-libxaw-1.0.13-h470a237_1.tar.bz2",
   "repodata": {
-    "build": "0",
-    "build_number": 0,
+    "build": "h470a237_1",
+    "build_number": 1,
     "depends": [
-      "fontconfig 2.12.*",
-      "freetype 2.7|2.7.*",
       "xorg-libx11 1.6.*",
-      "xorg-libxrender 0.9.*"
+      "xorg-libxext 1.3.*",
+      "xorg-libxmu 1.1.*",
+      "xorg-libxpm 3.5.*",
+      "xorg-libxt 1.1.*"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "82c0af44311c559ebcbbc82b4bbbaff7",
-    "name": "xorg-libxft",
-    "sha256": "7b5e8eb356a4689b428f1b58de6f2f08a0cdfa57a462d112c28f2b729632722e",
-    "size": 69416,
+    "md5": "d83514cd764793d115ddfce220c2d09c",
+    "name": "xorg-libxaw",
+    "sha256": "64866fd9edf3f9e5d232109c92fd4f9ed7eb15eda3f2d4e726bbb49ccf01e310",
+    "size": 344468,
     "subdir": "osx-64",
-    "version": "2.3.2"
+    "timestamp": 1531203248714,
+    "version": "1.0.13"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/xorg-libxft-2.3.2-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/xorg-libxaw-1.0.13-h470a237_1.tar.bz2"
 }
