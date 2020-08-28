@@ -1,57 +1,56 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.atnf.csiro.au/computing/software/rpfits.html",
+    "home": null,
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "unspecified",
+    "license": "GNU Library or Lesser General Public License (LGPL)",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://newton.cx/~peter/files/rpfits-2.23.tar.gz",
+    "source_url": null,
     "subdirs": [
       "osx-64"
     ],
-    "summary": "Library for reading and writing a FITS-like data format",
+    "summary": null,
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "2.23"
+    "version": "0.8.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "rpfits-2.23-0.tar.bz2",
+  "package": "rtree-0.8.2-py35_0.tar.bz2",
   "repodata": {
-    "build": "0",
+    "build": "py35_0",
     "build_number": 0,
     "depends": [
-      "libgfortran"
+      "libspatialindex",
+      "python 3.5*"
     ],
-    "license": "unspecified",
-    "md5": "5527cc5ecf4a8671f9b8c1121d1ccebf",
-    "name": "rpfits",
-    "sha256": "4a22885afd8dd69fde7b86722c2cebaa247e02039f6db66c237ab646c3dfdd92",
-    "size": 167413,
+    "license": "GNU Library or Lesser General Public License (LGPL)",
+    "md5": "e2df38dc2afab9f48c8b228a8bd13eab",
+    "name": "rtree",
+    "sha256": "89cf8f2d4476712df486f89e9bdba4ec5c65db674f445d6adb39788f44ee0a8b",
+    "size": 31638,
     "subdir": "osx-64",
-    "version": "2.23"
+    "version": "0.8.2"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/rpfits-2.23-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/rtree-0.8.2-py35_0.tar.bz2"
 }
