@@ -7,20 +7,20 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html",
+    "home": "https://github.com/conda-forge/ctng-compilers-feedstock",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "GPL",
+    "license": "BSD-3-Clause",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {
-      "8.4.0": {
+      "4.5": {
         "strong": [
-          "_openmp_mutex >=4.5"
+          "openmp_impl >=4.5"
         ]
       }
     },
@@ -29,35 +29,35 @@
     "subdirs": [
       "linux-ppc64le"
     ],
-    "summary": "The GCC OpenMP implementation.",
+    "summary": "OpenMP Implementation Mutex",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1591296721,
-    "version": "8.4.0"
+    "timestamp": 1578373731,
+    "version": "4.5"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "broken"
   ],
-  "package": "libgomp-8.4.0-hdd5993f_8.tar.bz2",
+  "package": "openmp_impl-4.5-0_gnu.tar.bz2",
   "repodata": {
-    "build": "hdd5993f_8",
-    "build_number": 8,
+    "build": "0_gnu",
+    "build_number": 3,
     "depends": [
-      "_libgcc_mutex 0.1 conda_forge"
+      "_libgcc_mutex 0.1 conda_forge",
+      "libgomp >=8.2.0"
     ],
-    "license": "GPL",
-    "md5": "429e8911a1031abf7a5b42e6181ca925",
-    "name": "libgomp",
-    "sha256": "476a3b3607b51cb4d1d8d4416dcb144473b250b0dc8e5fb953334105f16101be",
-    "size": 794051,
+    "license": "BSD-3-Clause",
+    "md5": "c6c7878d039f0c6419ecb64144283ff1",
+    "name": "openmp_impl",
+    "sha256": "4fcf73451aa5841aeb09ba1dec64faf5d469c01e01d22206d9e09affce52d645",
+    "size": 445680,
     "subdir": "linux-ppc64le",
-    "timestamp": 1591296721501,
-    "version": "8.4.0"
+    "timestamp": 1578373731830,
+    "version": "4.5"
   },
   "repodata_version": 1,
   "subdir": "linux-ppc64le",
-  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/libgomp-8.4.0-hdd5993f_8.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/linux-ppc64le/openmp_impl-4.5-0_gnu.tar.bz2"
 }
