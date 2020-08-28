@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0-rc1/llvm-11.0.0rc1.src.tar.xz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1596861660,
+    "version": "11.0.0.rc1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "llvm_rc"
+  ],
+  "package": "llvm-tools-11.0.0.rc1-hde8ddfe_1.tar.bz2",
+  "repodata": {
+    "build": "hde8ddfe_1",
+    "build_number": 1,
+    "constrains": [
+      "llvmdev   11.0.0.rc1"
+    ],
+    "depends": [
+      "libllvm11 11.0.0.rc1 hde8ddfe_1",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "bd83c8c05f6c37db5eebef59ae33d87a",
+    "name": "llvm-tools",
+    "sha256": "5d448db12828a18e3ef6933e9fd38fa6af3a5f76c8f280b5f5b630624ad2384f",
+    "size": 266142145,
+    "subdir": "win-64",
+    "timestamp": 1596861660269,
+    "version": "11.0.0.rc1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/llvm_rc/win-64/llvm-tools-11.0.0.rc1-hde8ddfe_1.tar.bz2"
+}
