@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1552624940,
+    "version": "2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "broken"
+  ],
+  "package": "blas-2.1-openblas.tar.bz2",
+  "repodata": {
+    "build": "openblas",
+    "build_number": 1,
+    "depends": [
+      "libblas 3.8.0 1_openblas",
+      "libcblas 3.8.0 1_openblas",
+      "liblapack 3.8.0 1_openblas",
+      "liblapacke 3.8.0 1_openblas",
+      "m2w64-gcc-libs"
+    ],
+    "license": "BSD 3-clause",
+    "md5": "19021dd18af853ffaed5f5221bb463e9",
+    "name": "blas",
+    "sha256": "90acd811df67b7e9a0b9ee0879ad8ac939884adda73229473598a67a72104358",
+    "size": 6594,
+    "subdir": "win-64",
+    "timestamp": 1552624940093,
+    "version": "2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/win-64/blas-2.1-openblas.tar.bz2"
+}
