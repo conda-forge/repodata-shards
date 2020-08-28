@@ -12,55 +12,59 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "PSF-based",
+    "license": "LicenseRef-PSF-based",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/matplotlib/matplotlib/archive/v2.0.1.tar.gz",
+    "source_url": "https://github.com/matplotlib/matplotlib/archive/v3.3.0.tar.gz",
     "subdirs": [
       "osx-64"
     ],
     "summary": "Publication quality figures in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "2.0.1"
+    "timestamp": 1595538404,
+    "version": "3.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf201901",
     "testing"
   ],
-  "package": "matplotlib-2.0.1-np112py36_0.tar.bz2",
+  "package": "matplotlib-base-3.3.0-py37hdadc0f0_200.tar.bz2",
   "repodata": {
-    "build": "np112py36_0",
-    "build_number": 0,
+    "build": "py37hdadc0f0_200",
+    "build_number": 200,
+    "constrains": [
+      "__osx >=10.11"
+    ],
     "depends": [
       "cycler >=0.10",
-      "freetype 2.7|2.7.*",
-      "libpng >=1.6.28,<1.7",
-      "numpy 1.12*",
+      "kiwisolver",
+      "libcxx >=10.0.1",
+      "numpy >=1.15.4,<2.0a0",
+      "pillow >=6.2.0",
       "pyparsing",
-      "python 3.6*",
+      "python >=3.7,<3.8.0a0",
       "python-dateutil",
-      "pytz",
+      "python_abi 3.7.* *_cp37m",
       "setuptools",
       "tornado"
     ],
-    "license": "PSF-based",
+    "license": "LicenseRef-PSF-based",
     "license_family": "PSF",
-    "md5": "46b2b132f14f71548f8556cc5d0e520c",
-    "name": "matplotlib",
-    "sha256": "b9b447ff44f9de9aca31133f2624e1814a5956acfda9cba20ce1a95bb95d8197",
-    "size": 6980957,
+    "md5": "0b9161fb5ff26c8bd6c96e4c68a5b3c8",
+    "name": "matplotlib-base",
+    "sha256": "f8821efdde8cc57e625868d7f5c1292cd7830383d65b820964c4824082d81b9d",
+    "size": 7382616,
     "subdir": "osx-64",
-    "version": "2.0.1"
+    "timestamp": 1595538404575,
+    "version": "3.3.0"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/matplotlib-2.0.1-np112py36_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/testing/osx-64/matplotlib-base-3.3.0-py37hdadc0f0_200.tar.bz2"
 }
