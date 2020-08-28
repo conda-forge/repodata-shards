@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1552646955,
+    "version": "2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "broken"
+  ],
+  "package": "blas-2.1-mkl.tar.bz2",
+  "repodata": {
+    "build": "mkl",
+    "build_number": 1,
+    "depends": [
+      "libblas 3.8.0 1_mkl",
+      "libcblas 3.8.0 1_mkl",
+      "libgfortran >=3.0.1,<4.0.0.a0",
+      "liblapack 3.8.0 1_mkl",
+      "liblapacke 3.8.0 1_mkl"
+    ],
+    "license": "BSD 3-clause",
+    "md5": "985d8c7b8a8848dd206f85a43bf2db2a",
+    "name": "blas",
+    "sha256": "286e1e2f40ce80817833aa66e3ed1583121cec7be8fa29961a133c7ac80f742a",
+    "size": 6375,
+    "subdir": "osx-64",
+    "timestamp": 1552646955754,
+    "version": "2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/osx-64/blas-2.1-mkl.tar.bz2"
+}

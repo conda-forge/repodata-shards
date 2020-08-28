@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://github.com/celery/billiard",
+    "home": "http://www.netlib.org/lapack",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,41 +19,41 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/b/billiard/billiard-3.3.0.23.tar.gz",
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "Python multiprocessing fork with improvements and bugfixes",
+    "summary": "Linear Algebra PACKage",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 0,
-    "version": "3.3.0.23"
+    "timestamp": 1552619303,
+    "version": "2.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
-    "cf201901",
     "broken"
   ],
-  "package": "billiard-3.3.0.23-py35_2.tar.bz2",
+  "package": "blas-2.3-netlib.tar.bz2",
   "repodata": {
-    "build": "py35_2",
-    "build_number": 2,
+    "build": "netlib",
+    "build_number": 3,
     "depends": [
-      "python 3.5*"
+      "libblas 3.8.0 3_h436c29b_netlib",
+      "libcblas 3.8.0 3_h436c29b_netlib",
+      "liblapack 3.8.0 3_h436c29b_netlib",
+      "liblapacke 3.8.0 3_h436c29b_netlib"
     ],
     "license": "BSD 3-Clause",
-    "license_family": "BSD",
-    "md5": "31b690c97d6bc8c46343e90465ddaec8",
-    "name": "billiard",
-    "sha256": "0a99950590d21fcea8d23ba8811518f168aaf80c9a3ce579919a23a4ffb9e632",
-    "size": 331917,
+    "md5": "f19c6b33a73cb3376ef05fe40027cbeb",
+    "name": "blas",
+    "sha256": "72c0170759b7b2a22f264d8378ea3e65c2026bbf5324b6eb6b0ff540711f3187",
+    "size": 6637,
     "subdir": "osx-64",
-    "version": "3.3.0.23"
+    "timestamp": 1552619303788,
+    "version": "2.3"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/billiard-3.3.0.23-py35_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/osx-64/blas-2.3-netlib.tar.bz2"
 }
