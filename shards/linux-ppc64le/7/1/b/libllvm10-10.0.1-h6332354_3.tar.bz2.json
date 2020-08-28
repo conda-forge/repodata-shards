@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "10.0.1": {
+        "weak": [
+          "libllvm10 >=10.0.1,<10.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.1/llvm-10.0.1.src.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1598578976,
+    "version": "10.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libllvm10-10.0.1-h6332354_3.tar.bz2",
+  "repodata": {
+    "build": "h6332354_3",
+    "build_number": 3,
+    "depends": [
+      "libgcc-ng >=8.4.0",
+      "libstdcxx-ng >=8.4.0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "b593071f9ef22ef1cd54e2f84ea6e872",
+    "name": "libllvm10",
+    "sha256": "8724f8d9e27a1c0f05451b64dd15aa1074e26e35d2617eddba1d60d08625f1f9",
+    "size": 30150127,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1598578976839,
+    "version": "10.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/libllvm10-10.0.1-h6332354_3.tar.bz2/libllvm10-10.0.1-h6332354_3.tar.bz2"
+}
