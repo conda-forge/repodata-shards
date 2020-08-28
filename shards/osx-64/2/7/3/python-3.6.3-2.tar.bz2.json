@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -19,45 +19,42 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz",
+    "source_url": "https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tgz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "General purpose programming language",
+    "summary": "General purpose programming language.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "3.5.2"
+    "version": "3.6.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
-    "cf201901",
     "broken"
   ],
-  "package": "python-3.5.2-3.tar.bz2",
+  "package": "python-3.6.3-2.tar.bz2",
   "repodata": {
-    "build": "3",
-    "build_number": 3,
+    "build": "2",
+    "build_number": 2,
     "depends": [
       "openssl 1.0.*",
-      "readline 6.2*",
-      "sqlite 3.13.*",
-      "tk 8.5.*",
+      "readline 7.0",
+      "sqlite 3.20.*",
+      "tk 8.6.*",
       "xz 5.2.*",
-      "zlib 1.2.*"
+      "zlib 1.2.11"
     ],
     "license": "PSF",
-    "md5": "1fb65914e6d9c8043723bf16efa22715",
+    "md5": "b87dd2b0f3440856f106e9ed477a8327",
     "name": "python",
-    "sha256": "aa4a7c935961c7076db20c8348697d07cd4d0d81018579794414bd78e323ce8b",
-    "size": 26234518,
+    "sha256": "0041233ca7aca7cc8e96fd9d4d39caea963b0cd1f7a2efdb8223daee49bc2736",
+    "size": 12625356,
     "subdir": "osx-64",
-    "version": "3.5.2"
+    "version": "3.6.3"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/python-3.5.2-3.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/osx-64/python-3.6.3-2.tar.bz2"
 }
