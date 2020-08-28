@@ -26,16 +26,15 @@
     "summary": "A package installed by conda-forge each time a build is run on CI. This package has side-effects to your conda config.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1586528223,
-    "version": "2.8.2"
+    "timestamp": 1587654396,
+    "version": "3.0.2"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
     "broken"
   ],
-  "package": "conda-forge-ci-setup-2.8.2-py37hc8dfbb8_0.tar.bz2",
+  "package": "conda-forge-ci-setup-3.0.2-py37hc8dfbb8_0.tar.bz2",
   "repodata": {
     "build": "py37hc8dfbb8_0",
     "build_number": 0,
@@ -46,19 +45,23 @@
       "conda-build 3.*",
       "conda-env",
       "jinja2",
+      "pip",
       "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "python_abi 3.7.* *_cp37m",
+      "pyyaml",
+      "requests",
+      "ruamel_yaml"
     ],
     "license": "BSD-3-Clause",
-    "md5": "8d8622633957048d7844110866ec708c",
+    "md5": "ae7e0887c26114280ed233f6999f10d3",
     "name": "conda-forge-ci-setup",
-    "sha256": "0ce16b3dee153cca0811d30ef5347232d28ffaa11a6587247c411c92b784f0f3",
-    "size": 24608,
+    "sha256": "e26c45340150efeb23a7c6377b10a2c482a1eda7ee09ac803ef25fe3948b6773",
+    "size": 28502,
     "subdir": "linux-ppc64le",
-    "timestamp": 1586528223317,
-    "version": "2.8.2"
+    "timestamp": 1587654396626,
+    "version": "3.0.2"
   },
   "repodata_version": 1,
   "subdir": "linux-ppc64le",
-  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/conda-forge-ci-setup-2.8.2-py37hc8dfbb8_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/linux-ppc64le/conda-forge-ci-setup-3.0.2-py37hc8dfbb8_0.tar.bz2"
 }
