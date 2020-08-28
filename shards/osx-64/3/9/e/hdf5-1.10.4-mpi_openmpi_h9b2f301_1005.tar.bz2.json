@@ -17,45 +17,50 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "1.10.4": {
+        "weak": [
+          "hdf5 >=1.10.4,<1.10.5.0a0 mpi_openmpi_*"
+        ]
+      }
+    },
     "source_git_url": null,
-    "source_url": "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.3/src/hdf5-1.10.3.tar.gz",
+    "source_url": "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.4/src/hdf5-1.10.4.tar.gz",
     "subdirs": [
       "osx-64"
     ],
     "summary": "HDF5 is a data model, library, and file format for storing and managing data",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1538863045,
-    "version": "1.10.3"
+    "timestamp": 1545438774,
+    "version": "1.10.4"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "gcc7"
   ],
-  "package": "hdf5-1.10.3-hfa1e0ec_1001.tar.bz2",
+  "package": "hdf5-1.10.4-mpi_openmpi_h9b2f301_1005.tar.bz2",
   "repodata": {
-    "build": "hfa1e0ec_1001",
-    "build_number": 1001,
+    "build": "mpi_openmpi_h9b2f301_1005",
+    "build_number": 1005,
     "depends": [
       "libcxx >=4.0.1",
       "libgfortran >=3.0.1",
+      "openmpi >=3.1,<3.2.0a0",
       "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "HDF5",
     "license_family": "BSD",
-    "md5": "675fc57189c4ae4cfcdf2668f4fcaad0",
+    "md5": "c47393878853a93477422deae7320f3f",
     "name": "hdf5",
-    "sha256": "04068de0f5500f5a7abb1b54c139f6ec3653acc90c9bd1049b5558aa77721516",
-    "size": 4690750,
+    "sha256": "cdbc6c4cbf7ba63b84e536be7930da57bff95bb050a4480871150cf06a70b9b2",
+    "size": 5009923,
     "subdir": "osx-64",
-    "timestamp": 1538863045377,
-    "version": "1.10.3"
+    "timestamp": 1545438774881,
+    "version": "1.10.4"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/hdf5-1.10.3-hfa1e0ec_1001.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/gcc7/osx-64/hdf5-1.10.4-mpi_openmpi_h9b2f301_1005.tar.bz2"
 }
