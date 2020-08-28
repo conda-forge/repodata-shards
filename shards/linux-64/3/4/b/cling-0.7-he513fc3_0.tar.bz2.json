@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Cling is an interactive C++ interpreter, built on top of Clang and LLVM compiler infrastructure. Cling realizes the read-eval-print loop (REPL) concept, in order to leverage rapid application development. Implemented as a small extension to LLVM and Clang, the interpreter reuses their strengths such as the praised concise and expressive compiler diagnostics.",
+    "dev_url": "https://github.com/root-project/cling",
+    "doc_source_url": null,
+    "doc_url": "https://root.cern.ch/cling",
+    "home": "https://root.cern.ch/cling",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA OR LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.7": {
+        "weak": [
+          "cling >=0.7,<0.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/root-project/cling/archive/v0.7.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Cling - The Interactive C++ Interpreter",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1598628139,
+    "version": "0.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cling-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cling-0.7-he513fc3_0.tar.bz2",
+  "repodata": {
+    "build": "he513fc3_0",
+    "build_number": 0,
+    "depends": [
+      "clang_variant * cling_v0.7",
+      "clangdev 5.0.0.*",
+      "gxx_linux-64 7.*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "sysroot_linux-64",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "NCSA OR LGPL-2.1-only",
+    "md5": "68c7a71c76bfc8498e755290aaba4a65",
+    "name": "cling",
+    "sha256": "8f958027fcf362027bb848e65e3cb97ee3220d75a467ce5ddaa71cf4079016cb",
+    "size": 56659220,
+    "subdir": "linux-64",
+    "timestamp": 1598628139488,
+    "version": "0.7"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/cling-0.7-he513fc3_0.tar.bz2/cling-0.7-he513fc3_0.tar.bz2"
+}
