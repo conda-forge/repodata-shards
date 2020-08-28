@@ -19,7 +19,7 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "ftp://ftp.soest.hawaii.edu/gmt/gmt-5.4.3-src.tar.gz",
+    "source_url": null,
     "subdirs": [
       "osx-64"
     ],
@@ -27,43 +27,40 @@
     "tags": null,
     "text_prefix": true,
     "timestamp": 0,
-    "version": "5.4.3"
+    "version": "6.0.0a6"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "gmt-5.4.3-blas_openblas_201.tar.bz2",
+  "package": "gmt-6.0.0a6-blas_openblas_0.tar.bz2",
   "repodata": {
-    "build": "blas_openblas_201",
-    "build_number": 201,
+    "build": "blas_openblas_0",
+    "build_number": 0,
     "depends": [
       "blas 1.1 openblas",
-      "curl >=7.44.0,<8",
+      "curl",
       "dcw-gmt",
       "fftw",
       "gdal 2.2.*",
       "ghostscript",
       "gshhg-gmt",
-      "hdf5 1.10.1",
+      "hdf5 1.8.18|1.8.18.*",
       "libnetcdf 4.4.*",
-      "openblas 0.2.20|0.2.20.*",
       "pcre",
-      "zlib 1.2.11"
+      "zlib 1.2.*"
     ],
     "features": "blas_openblas",
     "license": "LGPL-3.0",
-    "md5": "d1d050f9eda8f073dbef6e311950621c",
+    "md5": "97ca12d66b117b7d92b1b4bd4ce89b64",
     "name": "gmt",
-    "sha256": "3f432068658bd3b5af917ef4ae8ebef80d588649de37376c2752690c310dc474",
-    "size": 81758323,
+    "sha256": "1bc469f11ea5a5f228f868c1b8a26b70048de5eac6089675b89f5bf68ab94207",
+    "size": 21531441,
     "subdir": "osx-64",
-    "version": "5.4.3"
+    "version": "6.0.0a6"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/gmt-5.4.3-blas_openblas_201.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/gmt-6.0.0a6-blas_openblas_0.tar.bz2"
 }
