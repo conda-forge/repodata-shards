@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://crd-legacy.lbl.gov/~xiaoye/SuperLU/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,40 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "http://crd-legacy.lbl.gov/~xiaoye/SuperLU/superlu_5.2.1.tar.gz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": null,
+    "summary": "Supernodal LU: solvers for large, sparse, nonsymmetric systems of linear equations.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "3.2.3"
+    "version": "5.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
     "cf201901"
   ],
-  "package": "supervisor-3.2.3-py27_0.tar.bz2",
+  "package": "superlu-5.2.1-blas_openblas_202.tar.bz2",
   "repodata": {
-    "build": "py27_0",
-    "build_number": 0,
+    "build": "blas_openblas_202",
+    "build_number": 202,
     "depends": [
-      "meld3 >=1",
-      "python 2.7*"
+      "blas 1.1 openblas",
+      "libgfortran",
+      "openblas 0.2.20|0.2.20.*"
     ],
+    "features": "blas_openblas",
     "license": "BSD 3-clause",
-    "md5": "048e8273c52d0129c0362720de7afda1",
-    "name": "supervisor",
-    "sha256": "4c7d3bbfa1b0cc0411636926c101c356da7a350b774a234c4e722074eea61873",
-    "size": 414928,
+    "md5": "636027ca95de0aa5c54c71cd3ac256aa",
+    "name": "superlu",
+    "sha256": "0c72dffda4aef035ddf58f26fd37d9fd6a7b67a75e2ed143f56ae88b5a0deacb",
+    "size": 177261,
     "subdir": "osx-64",
-    "version": "3.2.3"
+    "version": "5.2.1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/supervisor-3.2.3-py27_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/superlu-5.2.1-blas_openblas_202.tar.bz2"
 }
