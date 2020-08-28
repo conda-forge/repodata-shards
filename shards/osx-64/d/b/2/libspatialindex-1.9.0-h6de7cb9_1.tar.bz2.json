@@ -17,41 +17,46 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "1.9.0": {
+        "weak": [
+          "libspatialindex >=1.9.0,<1.10.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
-    "source_url": "http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.5.tar.gz",
+    "source_url": "https://github.com/libspatialindex/libspatialindex/archive/1.9.0.tar.gz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "Extensible framework for robust spatial indexing.",
+    "summary": "Extensible framework for robust spatial indexing",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1536149884,
-    "version": "1.8.5"
+    "text_prefix": false,
+    "timestamp": 1558380814,
+    "version": "1.9.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "gcc7",
     "broken"
   ],
-  "package": "libspatialindex-1.8.5-h0a44026_1003.tar.bz2",
+  "package": "libspatialindex-1.9.0-h6de7cb9_1.tar.bz2",
   "repodata": {
-    "build": "h0a44026_1003",
-    "build_number": 1003,
+    "build": "h6de7cb9_1",
+    "build_number": 1,
     "depends": [
       "libcxx >=4.0.1"
     ],
     "license": "MIT",
-    "md5": "afc774eba84859071b02f05bfbb7ef78",
+    "md5": "995e0801d37c7a41379cff6fbc77c034",
     "name": "libspatialindex",
-    "sha256": "f5ad342e45da647fcc7db013247b8fcf402e407eafdb8dafa53dd4aec06857d9",
-    "size": 720189,
+    "sha256": "77c2237c73745c4f73ad699672689d9673a7802469648e7ca69b411ef18e5e1d",
+    "size": 422355,
     "subdir": "osx-64",
-    "timestamp": 1536149884187,
-    "version": "1.8.5"
+    "timestamp": 1558380814253,
+    "version": "1.9.0"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/gcc7/osx-64/libspatialindex-1.8.5-h0a44026_1003.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/osx-64/libspatialindex-1.9.0-h6de7cb9_1.tar.bz2"
 }

@@ -20,7 +20,7 @@
     "run_exports": {
       "1.1.0": {
         "weak": [
-          "libwebp-base >=1.1.0,<1.2.0a0"
+          "libwebp >=1.1.0,<1.2.0a0"
         ]
       }
     },
@@ -32,30 +32,34 @@
     "summary": "WebP image library",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1578750089,
+    "timestamp": 1578430356,
     "version": "1.1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf202003",
     "broken"
   ],
-  "package": "libwebp-base-1.1.0-2.tar.bz2",
+  "package": "libwebp-1.1.0-hd3bf737_1.tar.bz2",
   "repodata": {
-    "build": "2",
-    "build_number": 2,
-    "depends": [],
+    "build": "hd3bf737_1",
+    "build_number": 1,
+    "depends": [
+      "giflib >=5.2.1,<5.3.0a0",
+      "jpeg >=9c,<10a",
+      "libpng >=1.6.37,<1.7.0a0",
+      "libtiff >=4.1.0,<5.0a0"
+    ],
     "license": "Google",
-    "md5": "6943c182377de5773da36f33823560f6",
-    "name": "libwebp-base",
-    "sha256": "853492d7752dcd079f6b79c7a7f8dbd6e294be5b48d3a96a176d105e90d80177",
-    "size": 768329,
+    "md5": "c2a46aa41e2fb0976ba4913298fa2136",
+    "name": "libwebp",
+    "sha256": "3cd69b752e354ee3633953f7d02a9dedf9024c50ae64f32f101a7cdbc0a223b3",
+    "size": 825349,
     "subdir": "osx-64",
-    "timestamp": 1578750089764,
+    "timestamp": 1578430356945,
     "version": "1.1.0"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf202003/osx-64/libwebp-base-1.1.0-2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/osx-64/libwebp-1.1.0-hd3bf737_1.tar.bz2"
 }

@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://libspatialindex.github.io",
+    "home": "http://www.unidata.ucar.edu/software/netcdf/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,39 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.5.tar.gz",
+    "source_url": "https://github.com/Unidata/netcdf-c/archive/v4.6.1.tar.gz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "Extensible framework for robust spatial indexing.",
+    "summary": "Libraries and data formats that support array-oriented scientific data.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1536149884,
-    "version": "1.8.5"
+    "timestamp": 0,
+    "version": "4.6.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "gcc7",
     "broken"
   ],
-  "package": "libspatialindex-1.8.5-h0a44026_1003.tar.bz2",
+  "package": "libnetcdf-4.6.1-1.tar.bz2",
   "repodata": {
-    "build": "h0a44026_1003",
-    "build_number": 1003,
+    "build": "1",
+    "build_number": 1,
     "depends": [
-      "libcxx >=4.0.1"
+      "curl >=7.44.0,<8",
+      "hdf4",
+      "hdf5 1.10.1",
+      "zlib 1.2.11"
     ],
     "license": "MIT",
-    "md5": "afc774eba84859071b02f05bfbb7ef78",
-    "name": "libspatialindex",
-    "sha256": "f5ad342e45da647fcc7db013247b8fcf402e407eafdb8dafa53dd4aec06857d9",
-    "size": 720189,
+    "md5": "a25a47d7f46e64bdad21b4e6999341be",
+    "name": "libnetcdf",
+    "sha256": "fef632d9bac733fb36d1e0670c3c6c89edc9aac4dbaec2aee0cd91984bf3ac83",
+    "size": 1213369,
     "subdir": "osx-64",
-    "timestamp": 1536149884187,
-    "version": "1.8.5"
+    "version": "4.6.1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/gcc7/osx-64/libspatialindex-1.8.5-h0a44026_1003.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/osx-64/libnetcdf-4.6.1-1.tar.bz2"
 }

@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://www.unidata.ucar.edu/software/netcdf/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -23,32 +23,36 @@
     "subdirs": [
       "osx-64"
     ],
-    "summary": null,
+    "summary": "Libraries and data formats that support array-oriented scientific data.",
     "tags": null,
     "text_prefix": false,
     "timestamp": 0,
-    "version": "1.8.5"
+    "version": "4.4.1.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf201901",
     "broken"
   ],
-  "package": "libspatialindex-1.8.5-0.tar.bz2",
+  "package": "libnetcdf-4.4.1.1-1.tar.bz2",
   "repodata": {
-    "build": "0",
-    "build_number": 0,
-    "depends": [],
+    "build": "1",
+    "build_number": 1,
+    "depends": [
+      "curl",
+      "hdf4",
+      "hdf5 1.8.17|1.8.17.*",
+      "zlib 1.2.*"
+    ],
     "license": "MIT",
-    "md5": "486ab410b6987e273393763f88267399",
-    "name": "libspatialindex",
-    "sha256": "0a1ecf40e401bf1543a2728bcbc01d3173a9beb005125418ef2b984a6fccb189",
-    "size": 687335,
+    "md5": "458627824e5c6cccb17f1ee2d40a3ca5",
+    "name": "libnetcdf",
+    "sha256": "8c796908a93e71f133176292946fb86449f2a2be41353d5e0300c027df302cc7",
+    "size": 1590919,
     "subdir": "osx-64",
-    "version": "1.8.5"
+    "version": "4.4.1.1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/libspatialindex-1.8.5-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/osx-64/libnetcdf-4.4.1.1-1.tar.bz2"
 }

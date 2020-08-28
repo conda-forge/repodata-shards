@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": null,
+    "home": "http://xmlsoft.org/",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,36 +19,40 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://git.gnome.org/browse/libxml2/snapshot/libxml2-2.9.8.tar.gz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": null,
+    "summary": "The XML C parser and toolkit of Gnome.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "1.8.5"
+    "version": "2.9.8"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "cf201901",
     "broken"
   ],
-  "package": "libspatialindex-1.8.5-0.tar.bz2",
+  "package": "libxml2-2.9.8-0.tar.bz2",
   "repodata": {
     "build": "0",
     "build_number": 0,
-    "depends": [],
+    "depends": [
+      "icu 58.*",
+      "libiconv 1.15",
+      "xz 5.2.*",
+      "zlib 1.2.11"
+    ],
     "license": "MIT",
-    "md5": "486ab410b6987e273393763f88267399",
-    "name": "libspatialindex",
-    "sha256": "0a1ecf40e401bf1543a2728bcbc01d3173a9beb005125418ef2b984a6fccb189",
-    "size": 687335,
+    "md5": "19c71e44417d935ccb740b18b0924b3e",
+    "name": "libxml2",
+    "sha256": "63ddf9a73cafecc23d700784d4c38830bfc5559a098092391d2a906125bb1af7",
+    "size": 1958228,
     "subdir": "osx-64",
-    "version": "1.8.5"
+    "version": "2.9.8"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://conda.anaconda.org/conda-forge/label/cf201901/osx-64/libspatialindex-1.8.5-0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/osx-64/libxml2-2.9.8-0.tar.bz2"
 }
