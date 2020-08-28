@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Cling is an interactive C++ interpreter, built on top of Clang and LLVM compiler infrastructure. Cling realizes the read-eval-print loop (REPL) concept, in order to leverage rapid application development. Implemented as a small extension to LLVM and Clang, the interpreter reuses their strengths such as the praised concise and expressive compiler diagnostics.",
+    "dev_url": "https://github.com/root-project/cling",
+    "doc_source_url": null,
+    "doc_url": "https://root.cern.ch/cling",
+    "home": "https://root.cern.ch/cling",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA OR LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.7": {
+        "weak": [
+          "cling >=0.7,<0.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/root-project/cling/archive/v0.7.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Cling - The Interactive C++ Interpreter",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1598628565,
+    "version": "0.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cling-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cling-0.7-h5dfd299_0.tar.bz2",
+  "repodata": {
+    "build": "h5dfd299_0",
+    "build_number": 0,
+    "depends": [
+      "clang_variant * cling_v0.7",
+      "clangdev 5.0.0.*",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "NCSA OR LGPL-2.1-only",
+    "md5": "952f787be90eb7eba3e9d8470335ed80",
+    "name": "cling",
+    "sha256": "54d24a519cf9adaea6a77381acb04141ad72d4fb002f96425447567708b57eae",
+    "size": 40196216,
+    "subdir": "win-64",
+    "timestamp": 1598628565434,
+    "version": "0.7"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/cling-0.7-h5dfd299_0.tar.bz2/cling-0.7-h5dfd299_0.tar.bz2"
+}
