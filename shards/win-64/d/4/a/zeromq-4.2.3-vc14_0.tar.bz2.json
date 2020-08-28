@@ -7,54 +7,51 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "http://www.tcl.tk/",
+    "home": "http://zeromq.org",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Tcl/Tk",
+    "license": "LGPL 3",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/zeromq/libzmq/archive/v4.2.3.tar.gz",
     "subdirs": [
       "win-64"
     ],
-    "summary": "A dynamic programming language with GUI support.  Bundles Tcl and Tk.",
+    "summary": "A high-performance asynchronous messaging library.",
     "tags": null,
-    "text_prefix": false,
+    "text_prefix": true,
     "timestamp": 0,
-    "version": "8.6.6"
+    "version": "4.2.3"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "cf202003",
-    "cf201901",
     "broken"
   ],
-  "package": "tk-8.6.6-vc9_2.tar.bz2",
+  "package": "zeromq-4.2.3-vc14_0.tar.bz2",
   "repodata": {
-    "build": "vc9_2",
-    "build_number": 2,
+    "build": "vc14_0",
+    "build_number": 0,
     "depends": [
-      "vc 9"
+      "libsodium",
+      "vc 14"
     ],
-    "features": "vc9",
-    "license": "Tcl/Tk",
-    "license_family": "BSD",
-    "md5": "a4cc62a846072f938adc731f10d9f177",
-    "name": "tk",
-    "sha256": "91d8df60ac19cefba7c1918c64e7901b9c166a1158f5b6ac8fa0f08785e26a0b",
-    "size": 3375570,
+    "features": "vc14",
+    "license": "LGPL 3",
+    "md5": "65b2e177e15713565505663494e51312",
+    "name": "zeromq",
+    "sha256": "328132cdb98e3cef6aa8b1724e160863da16cc690126b61bea0851360999905f",
+    "size": 9969361,
     "subdir": "win-64",
-    "version": "8.6.6"
+    "version": "4.2.3"
   },
   "repodata_version": 1,
   "subdir": "win-64",
-  "url": "https://conda.anaconda.org/conda-forge/win-64/tk-8.6.6-vc9_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/broken/win-64/zeromq-4.2.3-vc14_0.tar.bz2"
 }
