@@ -23,5 +23,5 @@ jobs:
           export RANK=1
           source index_shards.sh
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT_BETA }}
           BINSTAR_TOKEN: ${{ secrets.BINSTAR_TOKEN }}
