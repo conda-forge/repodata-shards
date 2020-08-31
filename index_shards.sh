@@ -21,6 +21,7 @@ pushd ${GITHUB_WORKSPACE}
 repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 git remote set-url --push origin ${repo_url}
 
+export UPLOAD_SLEEP_FACTOR="1.0"
 sync-anaconda-data --rank=${RANK} --n-ranks=4
 
 popd
