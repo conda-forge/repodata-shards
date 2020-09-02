@@ -1,0 +1,80 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.mcs.anl.gov/petsc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.13.5": {
+        "weak": [
+          "petsc >=3.13.5,<3.14.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.13.5.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1599032910,
+    "version": "3.13.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "petsc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "petsc-3.13.5-haa863cf_0.tar.bz2",
+  "repodata": {
+    "build": "haa863cf_0",
+    "build_number": 0,
+    "depends": [
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "hypre >=2.18.2,<2.19.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=10.0.1",
+      "libgfortran 4.*",
+      "libgfortran4 >=7.5.0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.3.2,<3.4.0a0",
+      "mumps-mpi >=5.2.1,<5.2.2.0a0",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "ptscotch >=6.0.9,<6.0.10.0a0",
+      "scalapack >=2.0.2,<2.1.0a0",
+      "scotch >=6.0.9,<6.0.10.0a0",
+      "suitesparse >=5.6.0,<5.6.1.0a0",
+      "superlu",
+      "superlu_dist"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "03ee534eae4d10db567177012be42791",
+    "name": "petsc",
+    "sha256": "11f669bc4884b737f22394d68af70d1b050e9e71563bcc2dea6e0a7b06350ffc",
+    "size": 9484512,
+    "subdir": "osx-64",
+    "timestamp": 1599032910528,
+    "version": "3.13.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/petsc-3.13.5-haa863cf_0.tar.bz2/petsc-3.13.5-haa863cf_0.tar.bz2"
+}
