@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0-rc1/compiler-rt-11.0.0rc1.src.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1599109081,
+    "version": "11.0.0.rc1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compiler-rt-feedstock",
+  "labels": [
+    "llvm_rc"
+  ],
+  "package": "compiler-rt-11.0.0.rc1-h1bb5118_2.tar.bz2",
+  "repodata": {
+    "build": "h1bb5118_2",
+    "build_number": 2,
+    "depends": [
+      "clang 11.0.0.rc1.*",
+      "clangxx 11.0.0.rc1.*",
+      "compiler-rt_linux-ppc64le 11.0.0.rc1.*",
+      "libgcc-ng >=8.4.0",
+      "libstdcxx-ng >=8.4.0"
+    ],
+    "license": "NCSA",
+    "md5": "da8b5b71ad89a106aa90f3a363dddd75",
+    "name": "compiler-rt",
+    "sha256": "a7c0eb65286f77a84c8c340d1df889205cd6d4af23e2ae94a0b14cf344650e4d",
+    "size": 79688,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1599109081451,
+    "version": "11.0.0.rc1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/compiler-rt-11.0.0.rc1-h1bb5118_2.tar.bz2/compiler-rt-11.0.0.rc1-h1bb5118_2.tar.bz2"
+}
