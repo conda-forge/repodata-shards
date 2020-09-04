@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "DVB-T dongles based on the Realtek RTL2832U can be used as a cheap SDR, since the chip allows transferring the raw I/Q samples to the host, which is officially used for DAB/DAB+/FM demodulation. The possibility of this has been discovered by Eric Fry (http://rtlsdr.org/#history_and_discovery_of_rtlsdr).",
+    "dev_url": "https://osmocom.org/projects/rtl-sdr/repository",
+    "doc_source_url": null,
+    "doc_url": "https://osmocom.org/projects/rtl-sdr/wiki",
+    "home": "https://osmocom.org/projects/rtl-sdr/wiki",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.6.0": {
+        "weak": [
+          "rtl-sdr >=0.6.0,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/osmocom/rtl-sdr/archive/0.6.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Library for using an Realtek RTL2832-based DVB dongle as an SDR receiver",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1599231367,
+    "version": "0.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "rtl-sdr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "rtl-sdr-0.6.0-haf1e3a3_1.tar.bz2",
+  "repodata": {
+    "build": "haf1e3a3_1",
+    "build_number": 1,
+    "depends": [
+      "libusb >=1.0.23,<2.0a0"
+    ],
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "license_family": "GPL",
+    "md5": "c543f349df2818a53b280c81f1855b9e",
+    "name": "rtl-sdr",
+    "sha256": "a95117b18e2903db337288843ea1c5366b02727a28c176cb025ac50e79fcc184",
+    "size": 114545,
+    "subdir": "osx-64",
+    "timestamp": 1599231367024,
+    "version": "0.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/rtl-sdr-0.6.0-haf1e3a3_1.tar.bz2/rtl-sdr-0.6.0-haf1e3a3_1.tar.bz2"
+}
