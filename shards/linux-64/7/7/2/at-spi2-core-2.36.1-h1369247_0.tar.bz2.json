@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This package includes the protocol definitions for the new D-Bus at-spi.  Also included is the daemon necessary for forwarding device events and registering accessible applicaitions.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/at-spi2-core",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.36.1": {
+        "weak": [
+          "at-spi2-core >=2.36.1,<2.37.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.gnome.org/pub/gnome/sources/at-spi2-core/2.36/at-spi2-core-2.36.1.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "D-Bus-based implementation of AT-SPI accessibility framework",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1599287970,
+    "version": "2.36.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "at-spi2-core-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "at-spi2-core-2.36.1-h1369247_0.tar.bz2",
+  "repodata": {
+    "build": "h1369247_0",
+    "build_number": 0,
+    "depends": [
+      "dbus >=1.13.6,<2.0a0",
+      "gettext >=0.19.8.1,<1.0a0",
+      "glib >=2.58.3,<3.0a0",
+      "libgcc-ng >=7.5.0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "LGPL",
+    "md5": "60ab8f4ab99155e6bef963727de14726",
+    "name": "at-spi2-core",
+    "sha256": "8480e033fd37025db51508a3453602d29dc50840600f1ed97ae64110ee9064b8",
+    "size": 563265,
+    "subdir": "linux-64",
+    "timestamp": 1599287970651,
+    "version": "2.36.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/at-spi2-core-2.36.1-h1369247_0.tar.bz2/at-spi2-core-2.36.1-h1369247_0.tar.bz2"
+}
