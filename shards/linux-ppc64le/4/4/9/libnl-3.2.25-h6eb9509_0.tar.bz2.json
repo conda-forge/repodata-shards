@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The libnl suite is a collection of libraries providing APIs to netlink protocol based Linux kernel interfaces. Netlink is a IPC mechanism primarly between the kernel and user space processes. It was designed to be a more flexible successor to ioctl to provide mainly networking related kernel configuration and monitoring interfaces.",
+    "dev_url": "https://github.com/tgraf/libnl-1.1-stable",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.infradead.org/~tgr/libnl/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.2.25": {
+        "weak": [
+          "libnl >=3.2.25,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.infradead.org/~tgr/libnl/files/libnl-3.2.25.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Netlink Library Suite",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1599498528,
+    "version": "3.2.25"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libnl-3.2.25-h6eb9509_0.tar.bz2",
+  "repodata": {
+    "build": "h6eb9509_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=8.4.0"
+    ],
+    "license": "LGPL-2.1",
+    "license_family": "LGPL",
+    "md5": "bacb763c6aed8f415065f07c22a46eda",
+    "name": "libnl",
+    "sha256": "27b2cf0598764bcde34f3aff6d7abad24f37f003f0c1c32b94d2e820d63ed1a1",
+    "size": 720192,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1599498528981,
+    "version": "3.2.25"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/libnl-3.2.25-h6eb9509_0.tar.bz2"
+}
