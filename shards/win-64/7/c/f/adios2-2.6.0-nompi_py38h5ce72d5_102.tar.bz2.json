@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "ADIOS2 is the latest implementation of the ADaptable Input Output System, ADIOS. This brand new architecture was designed to continue supporting the performance legacy of ADIOS, and extend its current capabilities to address current and future input/output (IO) challenges in the scientific data lifecycle through effective research and development (R&D) activities.",
     "dev_url": "https://github.com/ornladios/ADIOS2",
@@ -20,7 +20,7 @@
     "run_exports": {
       "2.6.0": {
         "weak": [
-          "adios2 * mpi_mpich_*",
+          "adios2 * nompi_*",
           "adios2 >=2.6.0,<2.6.1.0a0"
         ]
       }
@@ -28,49 +28,45 @@
     "source_git_url": null,
     "source_url": "https://github.com/ornladios/ADIOS2/archive/v2.6.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Next generation of ADIOS developed in the Exascale Computing Program",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1599554038,
+    "text_prefix": false,
+    "timestamp": 1599555114,
     "version": "2.6.0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "adios2-feedstock",
   "labels": [
     "main"
   ],
-  "package": "adios2-2.6.0-mpi_mpich_py38he6c5c3f_2.tar.bz2",
+  "package": "adios2-2.6.0-nompi_py38h5ce72d5_102.tar.bz2",
   "repodata": {
-    "build": "mpi_mpich_py38he6c5c3f_2",
-    "build_number": 2,
+    "build": "nompi_py38h5ce72d5_102",
+    "build_number": 102,
     "depends": [
       "blosc >=1.20.0,<2.0a0",
       "bzip2 >=1.0.8,<2.0a0",
-      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
       "libffi >=3.2.1,<3.3.0a0",
-      "libgcc-ng >=7.5.0",
-      "libgfortran-ng >=7,<8.0a0",
       "libpng >=1.6.37,<1.7.0a0",
-      "libstdcxx-ng >=7.5.0",
-      "mpi4py",
-      "mpich >=3.3,<3.4.0a0",
       "numpy >=1.15.0",
       "python >=3.8,<3.9.0a0",
       "python_abi 3.8.* *_cp38",
-      "zeromq >=4.3.2,<4.4.0a0"
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "Apache-2.0",
-    "md5": "d7765a53143e0ddd6cdcc45fa8c2b73e",
+    "md5": "1f03dc546e9d317481d0be0868bc26f1",
     "name": "adios2",
-    "sha256": "5f9ece01c2035e47bbb675bca33aaec671282f46cf1b6e6d54289a3057330c1e",
-    "size": 4729525,
-    "subdir": "linux-64",
-    "timestamp": 1599554038555,
+    "sha256": "829e163199b22ceae2e93db99f8615f1386ddd073ee741f5941ffda83ef15748",
+    "size": 4286019,
+    "subdir": "win-64",
+    "timestamp": 1599555114533,
     "version": "2.6.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/adios2-2.6.0-mpi_mpich_py38he6c5c3f_2.tar.bz2/adios2-2.6.0-mpi_mpich_py38he6c5c3f_2.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/adios2-2.6.0-nompi_py38h5ce72d5_102.tar.bz2/adios2-2.6.0-nompi_py38h5ce72d5_102.tar.bz2"
 }

@@ -20,7 +20,7 @@
     "run_exports": {
       "2.6.0": {
         "weak": [
-          "adios2 * mpi_mpich_*",
+          "adios2 * nompi_*",
           "adios2 >=2.6.0,<2.6.1.0a0"
         ]
       }
@@ -33,44 +33,42 @@
     "summary": "Next generation of ADIOS developed in the Exascale Computing Program",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1599554038,
+    "timestamp": 1599553974,
     "version": "2.6.0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "adios2-feedstock",
   "labels": [
     "main"
   ],
-  "package": "adios2-2.6.0-mpi_mpich_py38he6c5c3f_2.tar.bz2",
+  "package": "adios2-2.6.0-nompi_py36h342102b_102.tar.bz2",
   "repodata": {
-    "build": "mpi_mpich_py38he6c5c3f_2",
-    "build_number": 2,
+    "build": "nompi_py36h342102b_102",
+    "build_number": 102,
     "depends": [
       "blosc >=1.20.0,<2.0a0",
       "bzip2 >=1.0.8,<2.0a0",
-      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
       "libffi >=3.2.1,<3.3.0a0",
       "libgcc-ng >=7.5.0",
       "libgfortran-ng >=7,<8.0a0",
       "libpng >=1.6.37,<1.7.0a0",
       "libstdcxx-ng >=7.5.0",
-      "mpi4py",
-      "mpich >=3.3,<3.4.0a0",
       "numpy >=1.15.0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
       "zeromq >=4.3.2,<4.4.0a0"
     ],
     "license": "Apache-2.0",
-    "md5": "d7765a53143e0ddd6cdcc45fa8c2b73e",
+    "md5": "20078a449ce6ad927c7067242d1b4655",
     "name": "adios2",
-    "sha256": "5f9ece01c2035e47bbb675bca33aaec671282f46cf1b6e6d54289a3057330c1e",
-    "size": 4729525,
+    "sha256": "ccc809d58f5dde3ed46473f86d8702f5063670cb11c297824ce07fef7fb4da76",
+    "size": 4284424,
     "subdir": "linux-64",
-    "timestamp": 1599554038555,
+    "timestamp": 1599553974470,
     "version": "2.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/adios2-2.6.0-mpi_mpich_py38he6c5c3f_2.tar.bz2/adios2-2.6.0-mpi_mpich_py38he6c5c3f_2.tar.bz2"
+  "url": "https://github.com/regro/releases/releases/download/linux-64/adios2-2.6.0-nompi_py36h342102b_102.tar.bz2/adios2-2.6.0-nompi_py36h342102b_102.tar.bz2"
 }
