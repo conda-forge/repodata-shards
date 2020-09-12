@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/maxbachmann/rapidfuzz",
@@ -21,40 +21,39 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/r/rapidfuzz/rapidfuzz-0.11.2.tar.gz",
     "subdirs": [
-      "osx-64"
+      "win-64"
     ],
     "summary": "rapid fuzzy string matching",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1599938210,
+    "timestamp": 1599938543,
     "version": "0.11.2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "rapidfuzz-feedstock",
   "labels": [
     "main"
   ],
-  "package": "rapidfuzz-0.11.2-py36hf8241e8_0.tar.bz2",
+  "package": "rapidfuzz-0.11.2-py37h63f7a3c_0.tar.bz2",
   "repodata": {
-    "build": "py36hf8241e8_0",
+    "build": "py37h63f7a3c_0",
     "build_number": 0,
     "depends": [
-      "libcxx >=10.0.1",
-      "pypy3.6 >=7.3.1",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73"
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "vc >=14,<15.0a0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "171325a75ace4204ae32c3687d676ba4",
+    "md5": "ce9e1eb54ef2496e7e9253c069d40588",
     "name": "rapidfuzz",
-    "sha256": "348ecb1bd44545760fc0f00ae782c1d1050ce367f01764c9119084920cd6a72b",
-    "size": 131066,
-    "subdir": "osx-64",
-    "timestamp": 1599938210673,
+    "sha256": "e4717dba8a825f67929ee4666a2e2e84d08db99a7ebe656c39b9ccf9870fc791",
+    "size": 112961,
+    "subdir": "win-64",
+    "timestamp": 1599938543180,
     "version": "0.11.2"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/regro/releases/releases/download/osx-64/rapidfuzz-0.11.2-py36hf8241e8_0.tar.bz2/rapidfuzz-0.11.2-py36hf8241e8_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/rapidfuzz-0.11.2-py37h63f7a3c_0.tar.bz2/rapidfuzz-0.11.2-py37h63f7a3c_0.tar.bz2"
 }
