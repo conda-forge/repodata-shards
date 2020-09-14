@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "You can use NEST either as a for the interpreted programming language Python (PyNEST) or as a stand alone application (nest). PyNEST provides a set of commands to the Python interpreter which give you access to NEST's simulation kernel. With these commands, you describe and run your network simulation. You can also complement PyNEST with PyNN, a simulator-independent set of Python commands to formulate and run neural simulations. While you define your simulations in Python, the actual simulation is executed within NEST's highly optimized simulation kernel which is written in C++. A NEST simulation tries to follow the logic of an electrophysiological experiment that takes place inside a computer with the difference, that the neural system to be investigated must be defined by the experimenter. The neural system is defined by a possibly large number of neurons and their connections. In a NEST network, different neuron and synapse models can coexist. Any two neurons can have multiple connections with different properties. Thus, the connectivity can in general not be described by a weight or connectivity matrix but rather as an adjacency list. To manipulate or observe the network dynamics, the experimenter can define so-called devices which represent the various instruments (for measuring and stimulation) found in an experiment. These devices write their data either to memory or to file. NEST is extensible and new models for neurons, synapses, and devices can be added. To get started with NEST, please see the documentation page <https://nest-simulator.org/documentation/>.",
+    "dev_url": "https://github.com/nest/nest-simulator",
+    "doc_source_url": null,
+    "doc_url": "https://nest-simulator.readthedocs.io/en/latest/",
+    "home": "http://www.nest-simulator.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/nest/nest-simulator/archive/v2.20.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "NEST is a simulator for spiking neural network models that focuses on the dynamics, size and structure of neural systems rather than on the exact morphology of individual neurons.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1600102646,
+    "version": "2.20.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nest-simulator-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nest-simulator-2.20.0-nompi_py38h73b6d60_106.tar.bz2",
+  "repodata": {
+    "build": "nompi_py38h73b6d60_106",
+    "build_number": 106,
+    "depends": [
+      "boost >=1.72.0,<1.72.1.0a0",
+      "cython",
+      "gsl >=2.6,<2.7.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=10.0.1",
+      "libtool",
+      "llvm-openmp >=10.0.1",
+      "ncurses >=6.2,<7.0a0",
+      "openssh",
+      "python >=3.8,<3.9.0a0",
+      "python.app",
+      "python_abi 3.8.* *_cp38",
+      "readline >=8.0,<9.0a0",
+      "scipy",
+      "statsmodels",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "GPL-2.0",
+    "license_family": "GPL",
+    "md5": "7851ac2a520fd5ef35321dbd3ab13a31",
+    "name": "nest-simulator",
+    "sha256": "562f95e57811bf43747c85ea82471d0e0358cd1af9884748a3adc49975754d95",
+    "size": 7934452,
+    "subdir": "osx-64",
+    "timestamp": 1600102646910,
+    "version": "2.20.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/nest-simulator-2.20.0-nompi_py38h73b6d60_106.tar.bz2/nest-simulator-2.20.0-nompi_py38h73b6d60_106.tar.bz2"
+}
