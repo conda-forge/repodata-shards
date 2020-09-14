@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The NDS2 client interface allows the user to down-load LIGO data from V1 and V2 LIGO Network Data Servers.  This package only provides the low-level C/C++ client and associated binaries.  If you want to install the Python bindings, please install the python-nds2-client package.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wiki.ligo.org/Computing/NDSClient",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.16.6": {
+        "weak": [
+          "nds2-client >=0.16.6,<0.17.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/nds2-client-0.16.6.tar.bz2",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "NDS2 Client interface",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1600029659,
+    "version": "0.16.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "nds2-client-0.16.6-hfdf2c5b_1.tar.bz2",
+  "repodata": {
+    "build": "hfdf2c5b_1",
+    "build_number": 1,
+    "depends": [
+      "cyrus-sasl >=2.1.27,<3.0a0",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "559244222a350d3b76a7ae9a2693e9d5",
+    "name": "nds2-client",
+    "sha256": "b777deeebbf41ad324d722e95d7ab04147f401e3f34d0de139f559c1f46e30d0",
+    "size": 9252766,
+    "subdir": "linux-64",
+    "timestamp": 1600029659509,
+    "version": "0.16.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/nds2-client-0.16.6-hfdf2c5b_1.tar.bz2"
+}
