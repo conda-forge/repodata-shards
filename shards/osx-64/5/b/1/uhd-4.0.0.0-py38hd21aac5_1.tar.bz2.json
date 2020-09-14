@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "UHD is the free & open-source software driver and API for the Universal Software Radio Peripheral (USRP(TM)) SDR platform, created and sold by Ettus Research. UHD supports all Ettus Research USRP(TM) hardware, including all motherboards and daughterboards, and the combinations thereof.",
+    "dev_url": "https://github.com/EttusResearch/uhd",
+    "doc_source_url": null,
+    "doc_url": "https://files.ettus.com/manual/",
+    "home": "httsp://github.com/EttusResearch/uhd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.0.0.0": {
+        "weak": [
+          "uhd >=4.0.0,<4.0.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/EttusResearch/uhd/archive/v4.0.0.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Software driver and API for the Ettus Research USRP SDR platform",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1600089201,
+    "version": "4.0.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "uhd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "uhd-4.0.0.0-py38hd21aac5_1.tar.bz2",
+  "repodata": {
+    "build": "py38hd21aac5_1",
+    "build_number": 1,
+    "depends": [
+      "boost-cpp >=1.72.0,<1.72.1.0a0",
+      "libcxx >=10.0.1",
+      "libusb >=1.0.23,<2.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "numpy >=1.16.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "pyyaml",
+      "requests",
+      "ruamel.yaml"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "24ffe190a3d6042164b9f4376a262410",
+    "name": "uhd",
+    "sha256": "e5ee4a9c3e07a2b4dd39dd8c1eda6329bb8dfcf5e8714e966cf15eed83b74af0",
+    "size": 6709509,
+    "subdir": "osx-64",
+    "timestamp": 1600089201167,
+    "version": "4.0.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/uhd-4.0.0.0-py38hd21aac5_1.tar.bz2/uhd-4.0.0.0-py38hd21aac5_1.tar.bz2"
+}
