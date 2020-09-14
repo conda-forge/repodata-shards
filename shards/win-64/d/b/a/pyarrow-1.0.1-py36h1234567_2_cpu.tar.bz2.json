@@ -21,45 +21,45 @@
     "source_git_url": null,
     "source_url": "https://dist.apache.org/repos/dist/release/arrow/arrow-1.0.1/apache-arrow-1.0.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Python libraries for Apache Arrow",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1600076957,
+    "timestamp": 1600077528,
     "version": "1.0.1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "arrow-cpp-feedstock",
   "labels": [
     "main"
   ],
-  "package": "pyarrow-1.0.1-py38h1234567_2_cpu.tar.bz2",
+  "package": "pyarrow-1.0.1-py36h1234567_2_cpu.tar.bz2",
   "repodata": {
-    "build": "py38h1234567_2_cpu",
+    "build": "py36h1234567_2_cpu",
     "build_number": 2,
     "constrains": [
       "arrow-cpp-proc * cpu"
     ],
     "depends": [
-      "arrow-cpp 1.0.1 py38h1234567_2_cpu",
-      "libgcc-ng >=7.5.0",
-      "libstdcxx-ng >=7.5.0",
+      "arrow-cpp 1.0.1 py36h1234567_2_cpu",
       "numpy >=1.16,<2.0a0",
       "parquet-cpp 1.5.1.*",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "Apache-2.0",
-    "md5": "d3c2d4261fce70160c8b5274b0d1bf19",
+    "md5": "35f0951f94d109b76e2cffe39a6a3862",
     "name": "pyarrow",
-    "sha256": "49d6497f6e4331e669bcd4ea18969c2a5ed41761c3cdba41f7f4851186f4bd3a",
-    "size": 3206412,
-    "subdir": "linux-64",
-    "timestamp": 1600076957060,
+    "sha256": "e0a6f605f0193cf5ab39af35321d459e7b257a90e595596a66a555633b06201d",
+    "size": 2495504,
+    "subdir": "win-64",
+    "timestamp": 1600077528301,
     "version": "1.0.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/pyarrow-1.0.1-py38h1234567_2_cpu.tar.bz2/pyarrow-1.0.1-py38h1234567_2_cpu.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/pyarrow-1.0.1-py36h1234567_2_cpu.tar.bz2/pyarrow-1.0.1-py36h1234567_2_cpu.tar.bz2"
 }
