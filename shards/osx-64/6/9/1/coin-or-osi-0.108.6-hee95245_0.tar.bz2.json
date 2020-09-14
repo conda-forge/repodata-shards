@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Osi (Open Solver Interface) provides an abstract base class to a generic linear programming (LP) solver, along with derived classes for specific solvers. Many applications may be able to use the Osi to insulate themselves from a specific LP solver. That is, programs written to the OSI standard may be linked to any solver with an OSI interface and should produce correct results. The OSI has been significantly extended compared to its first incarnation. Currently, the OSI supports linear programming solvers and has rudimentary support for integer programming. Among others the following operations are supported:    - creating the LP formulation;   - directly modifying the formulation by adding rows/columns;   - modifying the formulation by adding cutting planes provided by CGL;   - solving the formulation (and resolving after modifications);   - extracting solution information;   - invoking the underlying solver's branch-and-bound component.",
+    "dev_url": "https://github.com/coin-or/Osi",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/coin-or/Osi",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "EPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.108.6": {
+        "weak": [
+          "coin-or-osi >=0.108.6,<0.109.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Coin OR Open Solver Interface (OSI)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1600105343,
+    "version": "0.108.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "coin-or-osi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "coin-or-osi-0.108.6-hee95245_0.tar.bz2",
+  "repodata": {
+    "build": "hee95245_0",
+    "build_number": 0,
+    "constrains": [
+      "coincbc * *_metapackage"
+    ],
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "coin-or-utils >=2.11.4,<2.12.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=10.0.1",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "EPL-2.0",
+    "license_family": "OTHER",
+    "md5": "4c4d94efab7660361180fd53b60cc55a",
+    "name": "coin-or-osi",
+    "sha256": "f02b80286a90db922170261d9f3521219be3f5f5618c4e427e7375aae6619313",
+    "size": 419063,
+    "subdir": "osx-64",
+    "timestamp": 1600105343165,
+    "version": "0.108.6"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/coin-or-osi-0.108.6-hee95245_0.tar.bz2/coin-or-osi-0.108.6-hee95245_0.tar.bz2"
+}
