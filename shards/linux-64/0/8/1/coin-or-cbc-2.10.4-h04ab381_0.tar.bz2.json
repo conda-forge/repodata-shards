@@ -1,0 +1,79 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Cbc (Coin-or branch and cut) is an open-source mixed integer linear programming solver written in C++. It can be used as a callable library or using a stand-alone executable. It can be called through AIMMS (through the AIMMSlinks project), AMPL (natively), CMPL, GAMS (through the GAMSlinks project), JuMP, Mathematica, MiniZinc, MPL (through the CoinMP project), PuLP, Python (e.g., cbcpy), and OpenSolver for Excel, among others.",
+    "dev_url": "https://github.com/coin-or/Cbc",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://projects.coin-or.org/Cbc",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "EPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.10.4": {
+        "weak": [
+          "coin-or-cbc >=2.10.4,<2.11.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "COIN-OR branch and cut (Cbc)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1600121522,
+    "version": "2.10.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "coin-or-cbc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "coin-or-cbc-2.10.4-h04ab381_0.tar.bz2",
+  "repodata": {
+    "build": "h04ab381_0",
+    "build_number": 0,
+    "constrains": [
+      "coincbc * *_metapackage"
+    ],
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "coin-or-cgl >=0.60.3,<0.61.0a0",
+      "coin-or-clp >=1.17.4,<1.18.0a0",
+      "coin-or-osi >=0.108.6,<0.109.0a0",
+      "coin-or-utils >=2.11.4,<2.12.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.5.0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libstdcxx-ng >=7.5.0",
+      "ncurses >=6.2,<6.3.0a0",
+      "openblas",
+      "readline >=8.0,<9.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "EPL-2.0",
+    "license_family": "OTHER",
+    "md5": "dd35c87e229acb0f00d6f7f979c50382",
+    "name": "coin-or-cbc",
+    "sha256": "f5af7e260f827670da13c995eda4b3db8e66c71ad5232de3dfd6439c08eefecc",
+    "size": 1019363,
+    "subdir": "linux-64",
+    "timestamp": 1600121522829,
+    "version": "2.10.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/coin-or-cbc-2.10.4-h04ab381_0.tar.bz2/coin-or-cbc-2.10.4-h04ab381_0.tar.bz2"
+}
