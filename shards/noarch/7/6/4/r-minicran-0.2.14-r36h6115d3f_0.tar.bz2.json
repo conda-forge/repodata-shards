@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/andrie/miniCRAN",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/miniCRAN/miniCRAN_0.2.14.tar.gz",
+      "https://cran.r-project.org/src/contrib/miniCRAN_0.2.14.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Makes it possible to create an internally consistent repository consisting of selected packages from CRAN-like repositories. The user specifies a set of desired packages, and 'miniCRAN' recursively reads the dependency tree for these packages, then downloads only this subset. The user can then install packages from this repository directly, rather than from CRAN.  This is useful in production settings, e.g. server behind a firewall, or remote locations with slow (or zero) Internet access.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1600203893,
+    "version": "0.2.14"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-minicran-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-minicran-0.2.14-r36h6115d3f_0.tar.bz2",
+  "repodata": {
+    "build": "r36h6115d3f_0",
+    "build_number": 0,
+    "depends": [
+      "r-assertthat",
+      "r-base >=3.6,<3.7.0a0",
+      "r-httr",
+      "r-igraph",
+      "r-xml"
+    ],
+    "license": "GPL-2",
+    "license_family": "GPL2",
+    "md5": "1a5dee34873303d3c9aff1453dc6ab67",
+    "name": "r-minicran",
+    "noarch": "generic",
+    "sha256": "b66188460a4f21b14f2b4e6e665b8fcefc771768a2f2ada40031d0f192022e9b",
+    "size": 438589,
+    "subdir": "noarch",
+    "timestamp": 1600203893241,
+    "version": "0.2.14"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/regro/releases/releases/download/noarch/r-minicran-0.2.14-r36h6115d3f_0.tar.bz2/r-minicran-0.2.14-r36h6115d3f_0.tar.bz2"
+}
