@@ -1,0 +1,90 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/NanoComp/meep",
+    "doc_source_url": null,
+    "doc_url": "http://meep.readthedocs.io",
+    "home": "http:/github.com/NanoComp/meep",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.15.0": {
+        "weak": [
+          "pymeep * nompi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NanoComp/meep/releases/download/v1.15.0/meep-1.15.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Free finite-difference time-domain (FDTD) software for electromagnetic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1600136192,
+    "version": "1.15.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pymeep-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pymeep-1.15.0-nompi_py38hfec1ce8_101.tar.bz2",
+  "repodata": {
+    "build": "nompi_py38hfec1ce8_101",
+    "build_number": 101,
+    "depends": [
+      "autograd",
+      "ffmpeg",
+      "fftw",
+      "gsl >=2.6,<2.7.0a0",
+      "h5py * nompi_*",
+      "harminv >=1.4.1",
+      "hdf5 1.10.6 nompi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "libblas >=3.8",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8",
+      "libcblas >=3.8.0,<4.0a0",
+      "libctl >=4.5",
+      "libgcc-ng >=7.5.0",
+      "libgdsii >=0.21",
+      "libgfortran-ng >=7,<8.0a0",
+      "liblapack >=3.8",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libopenblas",
+      "libstdcxx-ng >=7.5.0",
+      "matplotlib >=2.2",
+      "mayavi",
+      "mpb * nompi_*",
+      "mpb >=1.10 nompi_*",
+      "numpy >=1.16.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "scipy",
+      "zlib"
+    ],
+    "license": "GPL-2.0",
+    "md5": "85763345f6f1e01679e04a6f1a7e289f",
+    "name": "pymeep",
+    "sha256": "1d656cd893c3906a865a8d18ac60438242040f2a2a4c551b73df4322087ad2b3",
+    "size": 4203727,
+    "subdir": "linux-64",
+    "timestamp": 1600136192381,
+    "version": "1.15.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/pymeep-1.15.0-nompi_py38hfec1ce8_101.tar.bz2/pymeep-1.15.0-nompi_py38hfec1ce8_101.tar.bz2"
+}
