@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Uncertainpy is a python toolbox for uncertainty quantification and sensitivity analysis tailored towards computational neuroscience.  Uncertainpy is model independent and treats the model as a black box where the model can be left unchanged. Uncertainpy implements both quasi-Monte Carlo methods and polynomial chaos expansions using either point collocation or the pseudo-spectral method. Both of the polynomial chaos expansion methods have support for the rosenblatt transformation to handle dependent input parameters.  Uncertainpy is feature based, i.e., if applicable, it recognizes and calculates the uncertainty in features of the model, as well as the model itself. Examples of features in neuroscience can be spike timing and the action potential shape.  Uncertainpy is tailored towards neuroscience models, and comes with several common neuroscience models and features built in, but new models and features can easily be implemented. It should be noted that while Uncertainpy is tailored towards neuroscience, the implemented methods are general, and Uncertainpy can be used for many other types of models and features within other fields.",
+    "dev_url": "https://github.com/simetenn/uncertainpy",
+    "doc_source_url": null,
+    "doc_url": "https://uncertainpy.readthedocs.io/en/latest/?badge=latest",
+    "home": "https://github.com/simetenn/uncertainpy",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/u/uncertainpy/uncertainpy-1.2.2.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A python toolbox for uncertainty quantification and sensitivity analysis tailored towards neuroscience models.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1600194283,
+    "version": "1.2.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "uncertainpy-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "uncertainpy-1.2.2-pyh9f0ad1d_0.tar.bz2",
+  "repodata": {
+    "build": "pyh9f0ad1d_0",
+    "build_number": 0,
+    "depends": [
+      "chaospy",
+      "h5py",
+      "matplotlib-base >=2",
+      "multiprocess",
+      "numpy",
+      "python",
+      "salib",
+      "scipy",
+      "seaborn",
+      "six",
+      "tqdm",
+      "xvfbwrapper"
+    ],
+    "license": "GPL-3.0",
+    "license_family": "GPL",
+    "md5": "2e3f89a7cb3a2578853d00b5adf91c68",
+    "name": "uncertainpy",
+    "noarch": "python",
+    "sha256": "9181dde14b6834cba99e751673b8d49eeb7bd4ba26652bde6dda9f02af81011b",
+    "size": 83313,
+    "subdir": "noarch",
+    "timestamp": 1600194283478,
+    "version": "1.2.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/regro/releases/releases/download/noarch/uncertainpy-1.2.2-pyh9f0ad1d_0.tar.bz2/uncertainpy-1.2.2-pyh9f0ad1d_0.tar.bz2"
+}
