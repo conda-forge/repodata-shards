@@ -1,0 +1,87 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This framework implements almost all the file management functions you will ever need. In fact, the KDE file manager (Dolphin) and the KDE file dialog also uses this to provide its network-enabled file management.  It supports accessing files locally as well as via HTTP and FTP out of the box and can be extended by plugins to support other protocols as well. There is a variety of plugins available, e.g. to support access via SSH.  The framework can also be used to bridge a native protocol to a file-based interface. This makes the data accessible in all applications using the KDE file dialog or any other KIO enabled infrastructure.",
+    "dev_url": "https://cgit.kde.org/kio.git/tree",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://api.kde.org/frameworks/kio/html/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-GPL AND LicenseRef-KDE-Accepted-LGPL AND MIT AND Qt-Commercial-exception-1.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.74.1": {
+        "weak": [
+          "kio >=5.74.1,<5.75.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.kde.org/stable/frameworks/5.74/kio-5.74.1.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Network transparent access to files and data",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1600273157,
+    "version": "5.74.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "kio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "kio-5.74.1-hfe63a0d_0.tar.bz2",
+  "repodata": {
+    "build": "hfe63a0d_0",
+    "build_number": 0,
+    "depends": [
+      "karchive >=5.74.0,<5.75.0a0",
+      "kauth >=5.74.0,<5.75.0a0",
+      "kbookmarks >=5.74.0,<5.75.0a0",
+      "kcodecs >=5.74.0,<5.75.0a0",
+      "kcompletion >=5.74.0,<5.75.0a0",
+      "kconfig >=5.74.0,<5.75.0a0",
+      "kconfigwidgets >=5.74.0,<5.75.0a0",
+      "kcoreaddons >=5.74.0,<5.75.0a0",
+      "kcrash >=5.74.0,<5.75.0a0",
+      "kdbusaddons >=5.74.0,<5.75.0a0",
+      "ki18n >=5.74.0,<5.75.0a0",
+      "kiconthemes >=5.74.0,<5.75.0a0",
+      "kitemviews >=5.74.0,<5.75.0a0",
+      "kjobwidgets >=5.74.0,<5.75.0a0",
+      "knotifications >=5.74.0,<5.75.0a0",
+      "krb5 >=1.17.1,<1.18.0a0",
+      "kservice >=5.74.0,<5.75.0a0",
+      "ktextwidgets >=5.74.0,<5.75.0a0",
+      "kwallet >=5.74.0,<5.75.0a0",
+      "kwidgetsaddons >=5.74.0,<5.75.0a0",
+      "kwindowsystem >=5.74.0,<5.75.0a0",
+      "kxmlgui >=5.74.0,<5.75.0a0",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "qt >=5.12.9,<5.13.0a0",
+      "solid >=5.74.0,<5.75.0a0"
+    ],
+    "license": "BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-GPL AND LicenseRef-KDE-Accepted-LGPL AND MIT AND Qt-Commercial-exception-1.0",
+    "md5": "1d1c374a83e52c3f25140c4f20561f94",
+    "name": "kio",
+    "sha256": "8766c96d1d353e024105587d68bf8a938254e8359dabde0b6eedeb64f36df13d",
+    "size": 5379906,
+    "subdir": "linux-64",
+    "timestamp": 1600273157577,
+    "version": "5.74.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/kio-5.74.1-hfe63a0d_0.tar.bz2/kio-5.74.1-hfe63a0d_0.tar.bz2"
+}
