@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Shenfun is a high performance computing platform for solving partial differential equations (PDEs) by the spectral Galerkin method. The platform can be used for any PDE, but applications are limited to multidimensional tensor product grids. The code is parallelized with MPI through the mpi4py-fft package.",
+    "dev_url": "https://github.com/spectralDNS/shenfun",
+    "doc_source_url": null,
+    "doc_url": "https://shenfun.readthedocs.io",
+    "home": "https://github.com/spectralDNS/shenfun",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 2-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/spectralDNS/shenfun/archive/3.0.6.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "High performance computational platform for the spectral Galerkin method",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1600271577,
+    "version": "3.0.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "shenfun-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "shenfun-3.0.6-py38h9d68f60_0.tar.bz2",
+  "repodata": {
+    "build": "py38h9d68f60_0",
+    "build_number": 0,
+    "depends": [
+      "fftw >=3.3.8,<4.0a0",
+      "h5py * mpi_*",
+      "hdf5 * mpi_*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "mpi4py",
+      "mpi4py-fft >=2.0.3",
+      "netcdf4 * mpi_*",
+      "numpy >=1.16.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "scipy",
+      "sympy"
+    ],
+    "license": "BSD 2-clause",
+    "license_family": "BSD",
+    "md5": "029adc5646c37d2bbfb0e5771fa2e892",
+    "name": "shenfun",
+    "sha256": "c1fe52e5427a2f1c82bf4bedaedf37ba04a8ce7202cc17127f6e142bf59418f4",
+    "size": 1662303,
+    "subdir": "linux-64",
+    "timestamp": 1600271577240,
+    "version": "3.0.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/shenfun-3.0.6-py38h9d68f60_0.tar.bz2/shenfun-3.0.6-py38h9d68f60_0.tar.bz2"
+}
