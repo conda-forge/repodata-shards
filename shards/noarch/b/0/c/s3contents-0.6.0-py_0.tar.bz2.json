@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A S3 and GCS backed ContentsManager implementation for Jupyter.  It aims to a be a transparent, drop-in replacement for Jupyter standard filesystem-backed storage system. With this implementation of a Jupyter Contents Manager you can save all your notebooks, regular files, directories structure directly to a S3/GCS bucket, this could be on AWS/GCP or a self hosted S3 API compatible like minio.",
+    "dev_url": "https://github.com/danielfrg/s3contents",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/danielfrg/s3contents",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/s/s3contents/s3contents-0.6.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A S3-backed ContentsManager implementation for Jupyter",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1600267204,
+    "version": "0.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "s3contents-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "s3contents-0.6.0-py_0.tar.bz2",
+  "repodata": {
+    "build": "py_0",
+    "build_number": 0,
+    "depends": [
+      "boto3",
+      "gcsfs >=0.2.1",
+      "nose",
+      "notebook",
+      "python >=3",
+      "requests",
+      "s3fs >=0.3.4,<0.5.1"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "c556f019cce0acc6d8a1e1b5b6b48ab6",
+    "name": "s3contents",
+    "noarch": "python",
+    "sha256": "0b951c6d530f978316229ef477a54e4ee4b2f1d58c5099e1938333aa0df4af5d",
+    "size": 25125,
+    "subdir": "noarch",
+    "timestamp": 1600267204939,
+    "version": "0.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/regro/releases/releases/download/noarch/s3contents-0.6.0-py_0.tar.bz2/s3contents-0.6.0-py_0.tar.bz2"
+}
