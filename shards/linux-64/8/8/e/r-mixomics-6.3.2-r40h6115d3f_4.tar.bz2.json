@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.mixOmics.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/mixOmics/mixOmics_6.3.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/mixOmics_6.3.2.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Multivariate methods are well suited to large omics data sets where the number of variables (e.g. genes, proteins, metabolites) is much larger than the number of samples (patients, cells, mice). They have the appealing properties of reducing the dimension of the data by using instrumental variables (components), which are defined as combinations of all variables. Those components are then used to produce useful graphical outputs that enable better understanding of the relationships and correlation structures between the different data sets that are integrated. mixOmics offers a wide range of multivariate methods for the exploration and integration of biological datasets with a particular focus on variable selection. The package proposes several sparse multivariate models we have developed to identify the key variables that are highly correlated, and/or explain the biological outcome of interest. The data that can be analysed with mixOmics may come from high throughput sequencing technologies, such as omics data (transcriptomics, metabolomics, proteomics, metagenomics etc) but also beyond the realm of omics (e.g. spectral imaging). The methods implemented in mixOmics can also handle missing values without having to delete entire rows with missing data. A non exhaustive list of methods include variants of generalised Canonical Correlation Analysis, sparse Partial Least Squares and sparse Discriminant Analysis. Recently we implemented integrative methods to combine multiple data sets: N-integration with variants of Generalised Canonical Correlation Analysis and P-integration with variants of multi-group Partial Least Squares.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1600436386,
+    "version": "6.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-mixomics-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-mixomics-6.3.2-r40h6115d3f_4.tar.bz2",
+  "repodata": {
+    "build": "r40h6115d3f_4",
+    "build_number": 4,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-corpcor",
+      "r-dplyr",
+      "r-ellipse",
+      "r-ggplot2",
+      "r-gridextra",
+      "r-igraph",
+      "r-lattice",
+      "r-mass",
+      "r-matrixstats",
+      "r-rarpack",
+      "r-rcolorbrewer",
+      "r-reshape2",
+      "r-rgl",
+      "r-tidyr"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL3",
+    "md5": "203c943f9064a1285c08d48ef8dc97c6",
+    "name": "r-mixomics",
+    "sha256": "bb88137ae9623ebb839d54ffdeb239cbf17ffc78fae722596d8b3231a83c939a",
+    "size": 5842535,
+    "subdir": "linux-64",
+    "timestamp": 1600436386557,
+    "version": "6.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/r-mixomics-6.3.2-r40h6115d3f_4.tar.bz2/r-mixomics-6.3.2-r40h6115d3f_4.tar.bz2"
+}
