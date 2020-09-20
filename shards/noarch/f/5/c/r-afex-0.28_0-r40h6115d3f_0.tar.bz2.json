@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://afex.singmann.science/, https://github.com/singmann/afex",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/afex/afex_0.28-0.tar.gz",
+      "https://cran.r-project.org/src/contrib/afex_0.28-0.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Convenience functions for analyzing factorial experiments using ANOVA or mixed models. aov_ez(), aov_car(), and aov_4() allow specification of between, within (i.e., repeated-measures), or mixed (i.e., split-plot)  ANOVAs for data in long format (i.e., one observation per row), automatically aggregating multiple observations per individual and cell  of the design. mixed() fits mixed models using lme4::lmer() and computes  p-values for all fixed effects using either Kenward-Roger or Satterthwaite  approximation for degrees of freedom (LMM only), parametric bootstrap  (LMMs and GLMMs), or likelihood ratio tests (LMMs and GLMMs).  afex_plot() provides a high-level interface for interaction or one-way  plots using ggplot2, combining raw data and model estimates. afex uses  type 3 sums of squares as default (imitating commercial statistical software).",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1600634812,
+    "version": "0.28_0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-afex-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-afex-0.28_0-r40h6115d3f_0.tar.bz2",
+  "repodata": {
+    "build": "r40h6115d3f_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-car",
+      "r-lme4 >=1.1_8",
+      "r-lmertest >=3.0_0",
+      "r-pbkrtest >=0.4_1",
+      "r-reshape2"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "88838eda52b83d4885f964d4b8d8e14c",
+    "name": "r-afex",
+    "noarch": "generic",
+    "sha256": "7e0fb5450426a2cbe97809a7e518d62a2628e5f11e8c76dc95af113f94149445",
+    "size": 2484612,
+    "subdir": "noarch",
+    "timestamp": 1600634812363,
+    "version": "0.28_0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/regro/releases/releases/download/noarch/r-afex-0.28_0-r40h6115d3f_0.tar.bz2/r-afex-0.28_0-r40h6115d3f_0.tar.bz2"
+}
