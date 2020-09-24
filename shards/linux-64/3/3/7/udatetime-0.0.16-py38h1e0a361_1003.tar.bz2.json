@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Handling date-times is a painful act because of the sheer endless amount of formats used by people. Luckily there are a couple of specified standards out there like ISO 8601. But even ISO 8601 leaves to many options on how to define date and time. That\\'s why I encourage using the RFC3339 specified date-time format. udatetime offers on average 76% faster datetime object instantiation, serialization and deserialization of RFC3339 date-time strings. udatetime is using Python\\'s datetime class under the hood and code already using datetime should be able to easily switch to udatetime. All datetime objects created by udatetime are timezone-aware. The timezones that udatetime uses are fixed-offset timezones, meaning that they don\\'t observe daylight savings time (DST), and thus return a fixed offset from UTC all year round.",
+    "dev_url": "https://github.com/freach/udatetime",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/freach/udatetime",
+    "home": "https://github.com/freach/udatetime",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/u/udatetime/udatetime-0.0.16.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Fast RFC3339 compliant Python date-time library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1600913132,
+    "version": "0.0.16"
+  },
+  "channeldata_version": 1,
+  "feedstock": "udatetime-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "udatetime-0.0.16-py38h1e0a361_1003.tar.bz2",
+  "repodata": {
+    "build": "py38h1e0a361_1003",
+    "build_number": 1003,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "1f1ed793937f0409fbd98ade49c593b9",
+    "name": "udatetime",
+    "sha256": "d260b805fb81b08108947a02e012a2e8f319d3c7c0f0e8b96d1a8fdee251c3f0",
+    "size": 21692,
+    "subdir": "linux-64",
+    "timestamp": 1600913132725,
+    "version": "0.0.16"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/udatetime-0.0.16-py38h1e0a361_1003.tar.bz2/udatetime-0.0.16-py38h1e0a361_1003.tar.bz2"
+}
