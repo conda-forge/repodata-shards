@@ -26,34 +26,38 @@
     "summary": "The OpenAI Gym: A toolkit for developing and comparing your reinforcement learning agents.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1601475396,
+    "timestamp": 1601475329,
     "version": "0.17.3"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "gym-feedstock",
   "labels": [
     "main"
   ],
-  "package": "gym-classic_control-0.17.3-py37hc8dfbb8_0.tar.bz2",
+  "package": "gym-0.17.3-py37hc8dfbb8_0.tar.bz2",
   "repodata": {
     "build": "py37hc8dfbb8_0",
     "build_number": 0,
     "depends": [
-      "gym 0.17.3 py37hc8dfbb8_0",
+      "cloudpickle >=1.2.0,<1.4.0",
+      "numpy >=1.10.4",
+      "pyglet >=1.4.0,<=1.5.0",
       "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "python_abi 3.7.* *_cp37m",
+      "scipy",
+      "six"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "7c86fbd9c91425c78f1737a9f54e18d6",
-    "name": "gym-classic_control",
-    "sha256": "8b5b82a8951d18a5c6cf723314ffae23535f185389c5dfe6f397ed578e4722ba",
-    "size": 4793,
+    "md5": "1ae1b5290d2b3bd9c399239b979e46b5",
+    "name": "gym",
+    "sha256": "1fdc0bb92113f32de75c694810830c8f0da09d5a085143eff7e2544b648a4b6f",
+    "size": 1941194,
     "subdir": "linux-64",
-    "timestamp": 1601475396729,
+    "timestamp": 1601475329345,
     "version": "0.17.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/gym-classic_control-0.17.3-py37hc8dfbb8_0.tar.bz2/gym-classic_control-0.17.3-py37hc8dfbb8_0.tar.bz2"
+  "url": "https://github.com/regro/releases/releases/download/linux-64/gym-0.17.3-py37hc8dfbb8_0.tar.bz2/gym-0.17.3-py37hc8dfbb8_0.tar.bz2"
 }
