@@ -21,40 +21,42 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/g/gym/gym-0.17.3.tar.gz",
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "The OpenAI Gym: A toolkit for developing and comparing your reinforcement learning agents.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1601475382,
+    "timestamp": 1601475366,
     "version": "0.17.3"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "gym-feedstock",
   "labels": [
     "main"
   ],
-  "package": "gym-box2d-0.17.3-py38h32f6830_0.tar.bz2",
+  "package": "gym-atari-0.17.3-py36h9f0ad1d_0.tar.bz2",
   "repodata": {
-    "build": "py38h32f6830_0",
+    "build": "py36h9f0ad1d_0",
     "build_number": 0,
     "depends": [
-      "box2d-py 2.3.8",
-      "gym 0.17.3 py38h32f6830_0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "atari_py 0.2.6",
+      "gym 0.17.3 py36h9f0ad1d_0",
+      "opencv",
+      "pillow",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "1935ba08fca4e1b1617babbc93b45da8",
-    "name": "gym-box2d",
-    "sha256": "8d6366cdbac28475bc998f96755f3b7c0a88e6ae486fd61dff3898ea94258dc4",
-    "size": 4804,
-    "subdir": "osx-64",
-    "timestamp": 1601475382149,
+    "md5": "019ad652d16b4133e73141daf7785b7a",
+    "name": "gym-atari",
+    "sha256": "ebec1cdba4984e196277cb07c42bc602123dbd57242a1d9b35d4e2962ad7ccf5",
+    "size": 4814,
+    "subdir": "linux-64",
+    "timestamp": 1601475366045,
     "version": "0.17.3"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/regro/releases/releases/download/osx-64/gym-box2d-0.17.3-py38h32f6830_0.tar.bz2/gym-box2d-0.17.3-py38h32f6830_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/gym-atari-0.17.3-py36h9f0ad1d_0.tar.bz2/gym-atari-0.17.3-py36h9f0ad1d_0.tar.bz2"
 }
