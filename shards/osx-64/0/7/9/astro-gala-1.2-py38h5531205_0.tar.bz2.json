@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Gala is a Python package for Galactic astronomy and gravitational dynamics. The bulk of the package centers around implementations of gravitational potentials, numerical integration, and nonlinear dynamics.",
     "dev_url": "https://github.com/adrn/gala",
@@ -21,44 +21,43 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/a/astro-gala/astro-gala-1.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Galactic and gravitational dynamics in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1601479021,
+    "timestamp": 1601479077,
     "version": "1.2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "astro-gala-feedstock",
   "labels": [
     "main"
   ],
-  "package": "astro-gala-1.2-py37hf4a5901_0.tar.bz2",
+  "package": "astro-gala-1.2-py38h5531205_0.tar.bz2",
   "repodata": {
-    "build": "py37hf4a5901_0",
+    "build": "py38h5531205_0",
     "build_number": 0,
     "depends": [
       "astropy",
       "gsl >=2.6,<2.7.0a0",
-      "libgcc-ng >=7.5.0",
       "numpy >=1.16.5,<2.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "pyyaml",
       "scipy"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "ac3dd7f2c479ad2c1a3227d2ec0f97ee",
+    "md5": "5cce3cd568844f19b66a342470899f46",
     "name": "astro-gala",
-    "sha256": "d50e956b198113f55117cce725dfbefc6640bfc337e1f1b4cf1b385eace6884d",
-    "size": 3837349,
-    "subdir": "linux-64",
-    "timestamp": 1601479021330,
+    "sha256": "8ed067d98743ca635881984afece6204bebeff90397bfacf51dd15b77f88ed04",
+    "size": 3697703,
+    "subdir": "osx-64",
+    "timestamp": 1601479077339,
     "version": "1.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/astro-gala-1.2-py37hf4a5901_0.tar.bz2/astro-gala-1.2-py37hf4a5901_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/astro-gala-1.2-py38h5531205_0.tar.bz2/astro-gala-1.2-py38h5531205_0.tar.bz2"
 }
