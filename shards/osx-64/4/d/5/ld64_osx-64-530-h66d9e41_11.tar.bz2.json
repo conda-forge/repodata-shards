@@ -23,41 +23,43 @@
     "subdirs": [
       "osx-64"
     ],
-    "summary": "Assembler, archiver, ranlib, libtool, otool et al for Darwin Mach-O files",
+    "summary": "Darwin Mach-O cross linker",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1601522501,
-    "version": "949.0.1"
+    "timestamp": 1601522465,
+    "version": "530"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "cctools-and-ld64-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "cctools_osx-64-949.0.1-h39862f6_11.tar.bz2",
+  "package": "ld64_osx-64-530-h66d9e41_11.tar.bz2",
   "repodata": {
-    "build": "h39862f6_11",
+    "build": "h66d9e41_11",
     "build_number": 11,
     "constrains": [
-      "ld64 530.*",
-      "cctools 949.0.1.*"
+      "clang >=11.0.0.0rc.1,<12.0a0",
+      "ld 530.*",
+      "cctools 949.0.1.*",
+      "cctools_osx-64 949.0.1.*"
     ],
     "depends": [
-      "ld64_osx-64 >=530,<531.0a0",
       "libcxx",
-      "libllvm11 >=11.0.0.0rc.1,<11.1.0a0"
+      "libllvm11 >=11.0.0.0rc.1,<11.1.0a0",
+      "tapi >=1100.0.11,<1101.0a0"
     ],
     "license": "APSL-2.0",
     "license_family": "Other",
-    "md5": "70b2e250ee10f158c3fabb789354bc64",
-    "name": "cctools_osx-64",
-    "sha256": "8bf3f3f8282b76fafb8a699c9f65219e42577f8a6c2cd3a5dce5aba347c86469",
-    "size": 1947369,
+    "md5": "3a8eda315d1da1c207c6670b27bcd9d2",
+    "name": "ld64_osx-64",
+    "sha256": "7368272bbefa338a22dfa6b2970726a942dfc95eefface471e52c933e4b85571",
+    "size": 1383229,
     "subdir": "osx-64",
-    "timestamp": 1601522501224,
-    "version": "949.0.1"
+    "timestamp": 1601522465199,
+    "version": "530"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/regro/releases/releases/download/osx-64/cctools_osx-64-949.0.1-h39862f6_11.tar.bz2/cctools_osx-64-949.0.1-h39862f6_11.tar.bz2"
+  "url": "https://github.com/regro/releases/releases/download/osx-64/ld64_osx-64-530-h66d9e41_11.tar.bz2/ld64_osx-64-530-h66d9e41_11.tar.bz2"
 }
