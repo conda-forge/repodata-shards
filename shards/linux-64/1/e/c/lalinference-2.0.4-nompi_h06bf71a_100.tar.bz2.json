@@ -1,0 +1,79 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Inference Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Inference library.  If you want to install the Python bindings, please install the associated python-lalinference package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalinference/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.4": {
+        "weak": [
+          "lalinference >=2.0.4,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalinference-2.0.4.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Inference Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1601603999,
+    "version": "2.0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalinference-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lalinference-2.0.4-nompi_h06bf71a_100.tar.bz2",
+  "repodata": {
+    "build": "nompi_h06bf71a_100",
+    "build_number": 100,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "gsl >=2.6,<2.7.0a0",
+      "lal >=7.0.0",
+      "lal >=7.0.0,<8.0a0",
+      "lalburst >=1.5.3",
+      "lalburst >=1.5.5,<1.6.0a0",
+      "lalframe >=1.5.0",
+      "lalframe >=1.5.1,<2.0a0",
+      "lalinspiral >=1.10.0",
+      "lalinspiral >=1.10.1,<1.11.0a0",
+      "lalmetaio >=1.6.0",
+      "lalmetaio >=1.6.1,<2.0a0",
+      "lalpulsar >=2.0.0",
+      "lalpulsar >=2.0.0,<2.1.0a0",
+      "lalsimulation >=2.1.0",
+      "lalsimulation >=2.2.0,<3.0a0",
+      "libgcc-ng >=7.5.0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "1ab68967bbe14087ac300281bc795875",
+    "name": "lalinference",
+    "sha256": "37a1d95d5527a996b7c163052623c17f9c873c3f4fa8fc1ad3c87a7a908a4991",
+    "size": 2635388,
+    "subdir": "linux-64",
+    "timestamp": 1601603999127,
+    "version": "2.0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/lalinference-2.0.4-nompi_h06bf71a_100.tar.bz2/lalinference-2.0.4-nompi_h06bf71a_100.tar.bz2"
+}
