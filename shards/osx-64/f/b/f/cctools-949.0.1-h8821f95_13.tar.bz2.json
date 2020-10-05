@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -23,43 +23,36 @@
     "subdirs": [
       "osx-64"
     ],
-    "summary": "Assembler, archiver, ranlib, libtool, otool et al for Darwin Mach-O files",
+    "summary": "Native assembler, archiver, ranlib, libtool, otool et al for Darwin Mach-O files",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1601881294,
+    "timestamp": 1601881386,
     "version": "949.0.1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "cctools-and-ld64-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "cctools_osx-arm64-949.0.1-h5970944_13.tar.bz2",
+  "package": "cctools-949.0.1-h8821f95_13.tar.bz2",
   "repodata": {
-    "build": "h5970944_13",
+    "build": "h8821f95_13",
     "build_number": 13,
-    "constrains": [
-      "ld64 530.*",
-      "cctools 949.0.1.*"
-    ],
     "depends": [
-      "ld64_osx-arm64 >=530,<531.0a0",
-      "ldid",
-      "libcxx",
-      "libllvm11 >=11.0.0.0rc.1,<11.1.0a0",
-      "llvm-tools 11.0.0.rc1.*"
+      "cctools_osx-64 949.0.1 h39862f6_13",
+      "ld64 530 h755cc8a_13"
     ],
     "license": "APSL-2.0",
     "license_family": "Other",
-    "md5": "c5b2e8029a19a9d21fe531644f3c292f",
-    "name": "cctools_osx-arm64",
-    "sha256": "6782a91120d0efd21d2f1ee175fab129655f54ca159df1f3682a41b3edb01d22",
-    "size": 1788684,
+    "md5": "331bc5fedf7f0f42591665f307e43310",
+    "name": "cctools",
+    "sha256": "b12489bb66a421cf9ba0ad62f88e93bd6b155b2d815b3539121e83fa7363b308",
+    "size": 16485,
     "subdir": "osx-64",
-    "timestamp": 1601881294050,
+    "timestamp": 1601881386619,
     "version": "949.0.1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/regro/releases/releases/download/osx-64/cctools_osx-arm64-949.0.1-h5970944_13.tar.bz2/cctools_osx-arm64-949.0.1-h5970944_13.tar.bz2"
+  "url": "https://github.com/regro/releases/releases/download/osx-64/cctools-949.0.1-h8821f95_13.tar.bz2/cctools-949.0.1-h8821f95_13.tar.bz2"
 }

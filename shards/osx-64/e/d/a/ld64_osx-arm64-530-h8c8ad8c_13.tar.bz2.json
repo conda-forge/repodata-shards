@@ -23,43 +23,44 @@
     "subdirs": [
       "osx-64"
     ],
-    "summary": "Assembler, archiver, ranlib, libtool, otool et al for Darwin Mach-O files",
+    "summary": "Darwin Mach-O cross linker",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1601881294,
-    "version": "949.0.1"
+    "timestamp": 1601881258,
+    "version": "530"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "cctools-and-ld64-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "cctools_osx-arm64-949.0.1-h5970944_13.tar.bz2",
+  "package": "ld64_osx-arm64-530-h8c8ad8c_13.tar.bz2",
   "repodata": {
-    "build": "h5970944_13",
+    "build": "h8c8ad8c_13",
     "build_number": 13,
     "constrains": [
-      "ld64 530.*",
-      "cctools 949.0.1.*"
+      "clang >=11.0.0.0rc.1,<12.0a0",
+      "ld 530.*",
+      "cctools 949.0.1.*",
+      "cctools_osx-arm64 949.0.1.*"
     ],
     "depends": [
-      "ld64_osx-arm64 >=530,<531.0a0",
       "ldid",
       "libcxx",
       "libllvm11 >=11.0.0.0rc.1,<11.1.0a0",
-      "llvm-tools 11.0.0.rc1.*"
+      "tapi >=1100.0.11,<1101.0a0"
     ],
     "license": "APSL-2.0",
     "license_family": "Other",
-    "md5": "c5b2e8029a19a9d21fe531644f3c292f",
-    "name": "cctools_osx-arm64",
-    "sha256": "6782a91120d0efd21d2f1ee175fab129655f54ca159df1f3682a41b3edb01d22",
-    "size": 1788684,
+    "md5": "4e500cb734d4ca81618cbbc169e94409",
+    "name": "ld64_osx-arm64",
+    "sha256": "866f6db626a4e94b927b45918b39fbfaf4bfee9cbf60a66bbcf6a5b36d1e3621",
+    "size": 1367962,
     "subdir": "osx-64",
-    "timestamp": 1601881294050,
-    "version": "949.0.1"
+    "timestamp": 1601881258215,
+    "version": "530"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/regro/releases/releases/download/osx-64/cctools_osx-arm64-949.0.1-h5970944_13.tar.bz2/cctools_osx-arm64-949.0.1-h5970944_13.tar.bz2"
+  "url": "https://github.com/regro/releases/releases/download/osx-64/ld64_osx-arm64-530-h8c8ad8c_13.tar.bz2/ld64_osx-arm64-530-h8c8ad8c_13.tar.bz2"
 }
