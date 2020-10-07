@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/NanoComp/mpb",
+    "doc_source_url": null,
+    "doc_url": "https://mpb.readthedocs.io",
+    "home": "https://github.com/NanoComp/mpb",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.11.0": {
+        "weak": [
+          "mpb * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NanoComp/mpb/releases/download/v1.11.0/mpb-1.11.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "MIT Photonic-Bands - computation of photonic band structures in periodic media",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602109346,
+    "version": "1.11.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mpb-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mpb-1.11.0-mpi_mpich_h49ea8c6_12.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h49ea8c6_12",
+    "build_number": 12,
+    "depends": [
+      "_openmp_mutex",
+      "fftw >=3.3.8,<4.0a0",
+      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=8.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=8.4.0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "mpich >=3.3,<3.4.0a0",
+      "zlib"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "e4a98f706b8fb8d6f3427f58ba77ddbb",
+    "name": "mpb",
+    "sha256": "4b9036fa9f759d637bdb56c1c2163ac1a8c7461b59facbde19c970069c1d9be6",
+    "size": 81662,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1602109346411,
+    "version": "1.11.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/mpb-1.11.0-mpi_mpich_h49ea8c6_12.tar.bz2/mpb-1.11.0-mpi_mpich_h49ea8c6_12.tar.bz2"
+}
