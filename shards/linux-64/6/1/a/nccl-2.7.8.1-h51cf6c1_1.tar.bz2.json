@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The NVIDIA Collective Communications Library (NCCL) implements multi-GPU and multi-node collective communication primitives that are performance optimized for NVIDIA GPUs. NCCL provides routines such as all-gather, all-reduce, broadcast, reduce, reduce-scatter, that are optimized to achieve high bandwidth over PCIe and NVLink high-speed interconnect.",
+    "dev_url": "https://github.com/NVIDIA/nccl",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/docs/index.html",
+    "home": "https://developer.nvidia.com/nccl",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.8.1": {
+        "weak": [
+          "nccl >=2.7.8.1,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/nccl/archive/v2.7.8-1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Optimized primitives for collective multi-GPU communication",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602106409,
+    "version": "2.7.8.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nccl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nccl-2.7.8.1-h51cf6c1_1.tar.bz2",
+  "repodata": {
+    "build": "h51cf6c1_1",
+    "build_number": 1,
+    "depends": [
+      "cudatoolkit 10.1|10.1.*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "698b6cf80d096dd28647b12c544319df",
+    "name": "nccl",
+    "sha256": "cc6aac1901a4e924fbf3b485da4e70624be6b837d320e201040aef71dfb61dca",
+    "size": 111743245,
+    "subdir": "linux-64",
+    "timestamp": 1602106409970,
+    "version": "2.7.8.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/nccl-2.7.8.1-h51cf6c1_1.tar.bz2/nccl-2.7.8.1-h51cf6c1_1.tar.bz2"
+}
