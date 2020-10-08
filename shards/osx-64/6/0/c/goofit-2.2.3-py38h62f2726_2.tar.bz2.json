@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GooFit is split into GPU and CPU versions on Linux. If you want to install for gpus, you can do:  ```bash conda install goofit goofit-proc=*=gpu ```  You can add `cudatoolkit=10.0` or `9.2` if you want a specific toolkit version.  The OpenMP CPU version is default, but can be explicitly requested with:  ```bash conda install goofit goofit-proc=*=cpu ```",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/GooFit/GooFit",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/g/goofit/goofit-2.2.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A fitting package for GPU and CPU",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602137162,
+    "version": "2.2.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "goofit-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "goofit-2.2.3-py38h62f2726_2.tar.bz2",
+  "repodata": {
+    "build": "py38h62f2726_2",
+    "build_number": 2,
+    "constrains": [
+      "goofit-proc * cpu",
+      "__osx >=10.12"
+    ],
+    "depends": [
+      "libcxx >=10.0.1",
+      "llvm-openmp >=10.0.1",
+      "numpy >=1.11.1",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "LGPL",
+    "md5": "068ed5c084185fcb03fbf414969f2527",
+    "name": "goofit",
+    "sha256": "aa82006d9c9136546a4409ee30f185c221441a44adfcd48bdcd618bae2789a69",
+    "size": 1515302,
+    "subdir": "osx-64",
+    "timestamp": 1602137162925,
+    "version": "2.2.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/goofit-2.2.3-py38h62f2726_2.tar.bz2/goofit-2.2.3-py38h62f2726_2.tar.bz2"
+}
