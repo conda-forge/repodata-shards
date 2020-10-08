@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package implements the louvain algorithm in C++ and exposes it to python. It relies on (python-)igraph for it to function. Besides the relative flexibility of the implementation, it also scales well, and can be run on graphs of millions of nodes (as long as they can fit in memory). The core function is find_partition which finds the optimal partition using the louvain algorithm for a number of different methods.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/vtraag/louvain-igraph",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/louvain/louvain-0.6.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Implementation of the Louvain algorithm for various methods for use with igraph in python.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602130860,
+    "version": "0.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "louvain-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "louvain-0.6.1-py36h90709c0_3.tar.bz2",
+  "repodata": {
+    "build": "py36h90709c0_3",
+    "build_number": 3,
+    "depends": [
+      "igraph >=0.8.2,<0.9.0a0",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "pypy3.6 >=7.3.2",
+      "python >=3.6,<3.7.0a0",
+      "python-igraph",
+      "python_abi 3.6 *_pypy36_pp73",
+      "setuptools"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "60b71ebce2a72123acbd73278c59194d",
+    "name": "louvain",
+    "sha256": "fc7471a8da1744f2dbf889273a93143736b1597d92f595d74b3eb0c355795695",
+    "size": 99987,
+    "subdir": "linux-64",
+    "timestamp": 1602130860794,
+    "version": "0.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/louvain-0.6.1-py36h90709c0_3.tar.bz2/louvain-0.6.1-py36h90709c0_3.tar.bz2"
+}
