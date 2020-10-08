@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/NVIDIA/apex",
+    "doc_source_url": null,
+    "doc_url": "https://nvidia.github.io/apex/",
+    "home": "https://nvidia.github.io/apex/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/apex/archive/088985936518be7e25795a30d8ab33affa9db6ed.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "a Pytorch extension with NVIDIA-maintained utilities to streamline mixed precision and distributed training.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602120123,
+    "version": "0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nvidia-apex-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nvidia-apex-0.1-py38h9b5c9b1_2.tar.bz2",
+  "repodata": {
+    "build": "py38h9b5c9b1_2",
+    "build_number": 2,
+    "constrains": [
+      "nvidia-apex-proc * gpu"
+    ],
+    "depends": [
+      "cudatoolkit 10.1|10.1.*",
+      "cxxfilt",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "numpy",
+      "pytest",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "pytorch",
+      "pyyaml",
+      "tqdm"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "b215bdd62c2a821818b4e3febbb1286b",
+    "name": "nvidia-apex",
+    "sha256": "0e1d305d63cbe675c04559ce4d22ecdece181539ce7b9b043bf7703e13ba4187",
+    "size": 190624,
+    "subdir": "linux-64",
+    "timestamp": 1602120123194,
+    "version": "0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/nvidia-apex-0.1-py38h9b5c9b1_2.tar.bz2/nvidia-apex-0.1-py38h9b5c9b1_2.tar.bz2"
+}
