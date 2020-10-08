@@ -1,0 +1,93 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/NanoComp/meep",
+    "doc_source_url": null,
+    "doc_url": "https://meep.readthedocs.io",
+    "home": "https:/github.com/NanoComp/meep",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.16.0": {
+        "weak": [
+          "pymeep * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NanoComp/meep/releases/download/v1.16.0/meep-1.16.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Free finite-difference time-domain (FDTD) software for electromagnetic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602173450,
+    "version": "1.16.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pymeep-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pymeep-1.16.0-mpi_mpich_py36h3755370_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py36h3755370_1",
+    "build_number": 1,
+    "depends": [
+      "autograd",
+      "ffmpeg",
+      "fftw * mpi_mpich_*",
+      "gsl >=2.6,<2.7.0a0",
+      "h5py * mpi_mpich_*",
+      "h5utils * mpi_mpich_*",
+      "harminv >=1.4.1",
+      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_mpich_*",
+      "libblas >=3.8",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8",
+      "libcblas >=3.8.0,<4.0a0",
+      "libctl >=4.5",
+      "libgcc-ng >=7.5.0",
+      "libgdsii >=0.21",
+      "libgfortran-ng",
+      "libgfortran4 >=7.5.0",
+      "liblapack >=3.8",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "libopenblas",
+      "libstdcxx-ng >=7.5.0",
+      "matplotlib-base >=2.2",
+      "mayavi",
+      "mpb * mpi_mpich_*",
+      "mpb >=1.11 mpi_mpich_*",
+      "mpi4py >=3.0",
+      "mpich >=3.3,<3.4.0a0",
+      "numpy >=1.16.5,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "scipy",
+      "zlib"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "61e6fbbe7ac2c33e0a4f1dd0d5ac7d75",
+    "name": "pymeep",
+    "sha256": "ad97d9f5c8b0c68d84e0dbf978a6c9a05a33c7f6be8b86f6f53161294ce379e4",
+    "size": 4202248,
+    "subdir": "linux-64",
+    "timestamp": 1602173450594,
+    "version": "1.16.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/pymeep-1.16.0-mpi_mpich_py36h3755370_1.tar.bz2/pymeep-1.16.0-mpi_mpich_py36h3755370_1.tar.bz2"
+}
