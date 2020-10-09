@@ -19,37 +19,38 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://static.rust-lang.org/dist/2020-09-18/rust-nightly-x86_64-apple-darwin.tar.gz",
+    "source_url": "https://static.rust-lang.org/dist/2020-09-18/rust-nightly-x86_64-pc-windows-msvc.tar.gz",
     "subdirs": [
-      "noarch"
+      "win-64"
     ],
     "summary": "Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. This package provides the compiler (rustc) and the documentation utilities rustdoc.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1602218426,
+    "timestamp": 1602219342,
     "version": "1.48.0.dev20200918"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "rust-feedstock",
   "labels": [
     "rust_dev"
   ],
-  "package": "rust-std-x86_64-apple-darwin-1.48.0.dev20200918-h92ee837_1.tar.bz2",
+  "package": "rust-1.48.0.dev20200918-1.tar.bz2",
   "repodata": {
-    "build": "h92ee837_1",
+    "build": "1",
     "build_number": 1,
-    "depends": [],
+    "depends": [
+      "rust-std-x86_64-pc-windows-msvc 1.48.0.dev20200918 h3e96b3b_1"
+    ],
     "license": "MIT",
-    "md5": "34b2c8d3777b0a958f728dc753e609cb",
-    "name": "rust-std-x86_64-apple-darwin",
-    "noarch": "generic",
-    "sha256": "9f355d7fc4375c6c17e523203fb96f2a423eba7cba3f595e58d13c1b000d4086",
-    "size": 30803379,
-    "subdir": "noarch",
-    "timestamp": 1602218426612,
+    "md5": "0ca596bb9ef2402e2984fa9f53a5b81a",
+    "name": "rust",
+    "sha256": "92b7c65d2340d945fe0d769c78986690a01ea437f567e9016a518b82c0a42970",
+    "size": 157400442,
+    "subdir": "win-64",
+    "timestamp": 1602219342822,
     "version": "1.48.0.dev20200918"
   },
   "repodata_version": 1,
-  "subdir": "noarch",
-  "url": "https://github.com/regro/releases/releases/download/noarch/rust-std-x86_64-apple-darwin-1.48.0.dev20200918-h92ee837_1.tar.bz2/rust-std-x86_64-apple-darwin-1.48.0.dev20200918-h92ee837_1.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/rust-1.48.0.dev20200918-1.tar.bz2/rust-1.48.0.dev20200918-1.tar.bz2"
 }
