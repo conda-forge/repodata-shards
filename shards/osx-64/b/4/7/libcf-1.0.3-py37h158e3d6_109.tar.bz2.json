@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "By using libcf, a data producer can produce files that conform to the CF standards, without having to write netCDF code to create and decode all the attributes that the CF convention uses to store meta-data. A data consumer can use libcf to read any file which conforms to the CF conventions; the file does not need to be created with libcf to be read by libcf",
+    "dev_url": "https://sourceforge.net/projects/libcf/",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.unidata.ucar.edu/software/libcf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "UCAR/UNIDATA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/CDAT/libcf/archive/1.0.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LibCF library access data files in accordance with the CF Conventions.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602233543,
+    "version": "1.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libcf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libcf-1.0.3-py37h158e3d6_109.tar.bz2",
+  "repodata": {
+    "build": "py37h158e3d6_109",
+    "build_number": 109,
+    "depends": [
+      "curl >=7.44.0,<8",
+      "libblas 3.8.0 *openblas",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas 3.8.0 *openblas",
+      "libcblas >=3.8.0,<4.0a0",
+      "libnetcdf >=4.7.4,<4.7.5.0a0",
+      "libuuid >=2.32.1,<3.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "UCAR/UNIDATA",
+    "md5": "8b6cdfadf17ebb5bf9ca9d02e4c54583",
+    "name": "libcf",
+    "sha256": "987770744fdedda1f01445620d6bf02183959a404e0c20fd1e8fd3c80f7a2956",
+    "size": 252905,
+    "subdir": "osx-64",
+    "timestamp": 1602233543373,
+    "version": "1.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/libcf-1.0.3-py37h158e3d6_109.tar.bz2/libcf-1.0.3-py37h158e3d6_109.tar.bz2"
+}
