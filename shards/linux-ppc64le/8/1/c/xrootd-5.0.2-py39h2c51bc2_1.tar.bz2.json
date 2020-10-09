@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The XROOTD project aims at giving high performance, scalable fault tolerant access to data repositories of many kinds. The typical usage is to give access to file-based ones. It is based on a scalable architecture, a communication protocol, and a set of plugins and tools based on those. The freedom to configure it and to make it scale (for size and performance) allows the deployment of data access clusters of virtually any size, which can include sophisticated features, like authentication/authorization, integrations with other systems, WAN data distribution, etc.",
+    "dev_url": "https://github.com/xrootd/xrootd",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://xrootd.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.0.2": {
+        "weak": [
+          "xrootd >=5.0.2,<6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xrootd/xrootd/archive/v5.0.2.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "High performance, scalable fault tolerant access to data",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602246221,
+    "version": "5.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "xrootd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "xrootd-5.0.2-py39h2c51bc2_1.tar.bz2",
+  "repodata": {
+    "build": "py39h2c51bc2_1",
+    "build_number": 1,
+    "depends": [
+      "krb5 >=1.17.1,<1.18.0a0",
+      "libcurl >=7.71.1,<8.0a0",
+      "libgcc-ng >=8.4.0",
+      "libstdcxx-ng >=8.4.0",
+      "libuuid >=2.32.1,<3.0a0",
+      "libxml2 >=2.9.10,<2.10.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "openssl >=1.1.1h,<1.1.2a",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "readline >=8.0,<9.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "md5": "d5ca5f588f2663bd16338e969da2ca73",
+    "name": "xrootd",
+    "sha256": "123988ce9f4be865b3a717d82a38f0766b4f21f6bf12e47db919a249257ff143",
+    "size": 4819693,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1602246221792,
+    "version": "5.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/xrootd-5.0.2-py39h2c51bc2_1.tar.bz2/xrootd-5.0.2-py39h2c51bc2_1.tar.bz2"
+}
