@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The space MetPy aims for is GEMPAK (and maybe NCL)-like functionality, in a way that plugs easily into the existing scientific Python ecosystem (numpy, scipy, matplotlib). So, if you take the average GEMPAK script for a weather map, you need to: read data, calculate a derived field, and show on a map/skew-T. One of the benefits hoped to achieve over GEMPAK is to make it easier to use these routines for any meteorological Python application; this means making it easy to pull out the LCL calculation and just use that, or re-use the Skew-T with your own data code. MetPy also prides itself on being well-documented and well-tested, so that on-going maintenance is easily manageable.",
+    "dev_url": "https://github.com/Unidata/MetPy",
+    "doc_source_url": null,
+    "doc_url": "https://unidata.github.io/MetPy",
+    "home": "https://github.com/Unidata/MetPy",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/M/MetPy/MetPy-1.0.0rc2.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "MetPy is a collection of tools in Python for reading, visualizing and performing calculations with weather data.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602226784,
+    "version": "1.0.0rc2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "metpy-feedstock",
+  "labels": [
+    "metpy_rc"
+  ],
+  "package": "metpy-1.0.0rc2-py_0.tar.bz2",
+  "repodata": {
+    "build": "py_0",
+    "build_number": 0,
+    "depends": [
+      "cartopy >=0.16.0",
+      "importlib_metadata >=1.0",
+      "importlib_resources >=1.3",
+      "matplotlib-base >=2.1.0",
+      "numpy >=1.16.0",
+      "pandas >=0.22.0",
+      "pint >=0.10.1",
+      "pooch >=0.1",
+      "pyproj >=2.3.0,<3.0",
+      "python >=3.6",
+      "scipy >=1.0",
+      "traitlets >=4.3.0",
+      "xarray >=0.14.1"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "c46e2636b76fc7c14f71aa0af44014da",
+    "name": "metpy",
+    "noarch": "python",
+    "sha256": "25b28e1ac7c0bcdd1f07b41c902ced4909c3f9e583103557ff91ebcda15e6ebc",
+    "size": 289382,
+    "subdir": "noarch",
+    "timestamp": 1602226784989,
+    "version": "1.0.0rc2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/regro/releases/releases/download/noarch/metpy-1.0.0rc2-py_0.tar.bz2/metpy-1.0.0rc2-py_0.tar.bz2"
+}
