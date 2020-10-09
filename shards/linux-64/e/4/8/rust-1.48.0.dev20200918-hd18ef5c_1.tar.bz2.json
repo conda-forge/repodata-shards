@@ -1,8 +1,8 @@
 {
   "channeldata": {
-    "activate.d": false,
+    "activate.d": true,
     "binary_prefix": false,
-    "deactivate.d": false,
+    "deactivate.d": true,
     "description": null,
     "dev_url": "https://doc.rust-lang.org/std/",
     "doc_source_url": null,
@@ -21,35 +21,38 @@
     "source_git_url": null,
     "source_url": "https://static.rust-lang.org/dist/2020-09-18/rust-nightly-x86_64-unknown-linux-gnu.tar.gz",
     "subdirs": [
-      "noarch"
+      "linux-64"
     ],
     "summary": "Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. This package provides the compiler (rustc) and the documentation utilities rustdoc.",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1602218486,
+    "text_prefix": true,
+    "timestamp": 1602218610,
     "version": "1.48.0.dev20200918"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "rust-feedstock",
   "labels": [
     "rust_dev"
   ],
-  "package": "rust-std-x86_64-unknown-linux-gnu-1.48.0.dev20200918-hdfb2d09_1.tar.bz2",
+  "package": "rust-1.48.0.dev20200918-hd18ef5c_1.tar.bz2",
   "repodata": {
-    "build": "hdfb2d09_1",
+    "build": "hd18ef5c_1",
     "build_number": 1,
-    "depends": [],
+    "depends": [
+      "gcc_impl_linux-64",
+      "libgcc-ng >=7.5.0",
+      "rust-std-x86_64-unknown-linux-gnu 1.48.0.dev20200918 hdfb2d09_1"
+    ],
     "license": "MIT",
-    "md5": "a2b32188c0297c4fee178eae783b9630",
-    "name": "rust-std-x86_64-unknown-linux-gnu",
-    "noarch": "generic",
-    "sha256": "d5372b680bd810c8ec33f069c6a054cbcd0b2f7aa75579ec39ff9b17abcd1730",
-    "size": 33881871,
-    "subdir": "noarch",
-    "timestamp": 1602218486128,
+    "md5": "034a1c4bfef5b022e54d29d49d1e2896",
+    "name": "rust",
+    "sha256": "c9d262d9ac1cac1c2725900c1628f6e748f527f239547f08f2738cc904b861b2",
+    "size": 200939396,
+    "subdir": "linux-64",
+    "timestamp": 1602218610392,
     "version": "1.48.0.dev20200918"
   },
   "repodata_version": 1,
-  "subdir": "noarch",
-  "url": "https://github.com/regro/releases/releases/download/noarch/rust-std-x86_64-unknown-linux-gnu-1.48.0.dev20200918-hdfb2d09_1.tar.bz2/rust-std-x86_64-unknown-linux-gnu-1.48.0.dev20200918-hdfb2d09_1.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/rust-1.48.0.dev20200918-hd18ef5c_1.tar.bz2/rust-1.48.0.dev20200918-hd18ef5c_1.tar.bz2"
 }
