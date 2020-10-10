@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NaMaster is a C library, Python module and standalone program to compute full-sky angular cross-power spectra of masked, spin-0 and spin-2 fields with an arbitrary number of known contaminants using a pseudo-Cl (aka MASTER) approach. The code also implements E/B-mode purification and is available in both full-sky and flat-sky modes.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://namaster.readthedocs.io",
+    "home": "https://github.com/LSSTDESC/NaMaster",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/LSSTDESC/NaMaster/archive/v1.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "pseudo-Cl power spectra w/ masking for spin-0 and spin-2 fields",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602367877,
+    "version": "1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "namaster-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "namaster-1.1-py38h1e5085f_0.tar.bz2",
+  "repodata": {
+    "build": "py38h1e5085f_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "cfitsio >=3.470,<3.471.0a0",
+      "chealpix >=3.31.0,<3.32.0a0",
+      "fftw >=3.3.8,<4.0a0",
+      "gsl >=2.6,<2.7.0a0",
+      "libgcc-ng >=7.5.0",
+      "libsharp",
+      "numpy",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "6475aba977c56f5f4033ce7f1b85bd36",
+    "name": "namaster",
+    "sha256": "5fae76b2c5ea40d223c9fb7868bbb88d7297c02812db653438fd5554e05eb8df",
+    "size": 53038966,
+    "subdir": "linux-64",
+    "timestamp": 1602367877513,
+    "version": "1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/namaster-1.1-py38h1e5085f_0.tar.bz2/namaster-1.1-py38h1e5085f_0.tar.bz2"
+}
