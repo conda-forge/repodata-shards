@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.",
+    "dev_url": "https://wiki.mpich.org/mpich/index.php/Main_Page",
+    "doc_source_url": null,
+    "doc_url": "http://www.mpich.org/documentation/guides",
+    "home": "http://www.mpich.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-MPICH",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.3.2": {
+        "weak": [
+          "mpich >=3.3.2,<3.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.mpich.org/static/downloads/3.3.2/mpich-3.3.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A high performance widely portable implementation of the MPI standard.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602347960,
+    "version": "3.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mpich-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mpich-3.3.2-hc856adb_1.tar.bz2",
+  "repodata": {
+    "build": "hc856adb_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng",
+      "libgfortran4 >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "mpi 1.0 mpich"
+    ],
+    "license": "LicenseRef-MPICH",
+    "license_family": "Other",
+    "md5": "0d08b49b5750496f5ef2aca13c952109",
+    "name": "mpich",
+    "sha256": "e29369f96ea541d18ae589d9ee75653ee4e1754904e124cfa055acfea1f37a07",
+    "size": 6698504,
+    "subdir": "linux-64",
+    "timestamp": 1602347960932,
+    "version": "3.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/mpich-3.3.2-hc856adb_1.tar.bz2/mpich-3.3.2-hc856adb_1.tar.bz2"
+}
