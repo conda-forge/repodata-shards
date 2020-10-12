@@ -1,0 +1,78 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "TOAST is a software framework for simulating and processing timestream data collected by microwave telescopes.",
+    "dev_url": "https://github.com/hpc4cmb/toast",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/hpc4cmb/toast",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.8": {
+        "weak": [
+          "toast * openblas_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/hpc4cmb/toast/archive/2.3.8.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Time Ordered Astrophysics Scalable Tools",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602490709,
+    "version": "2.3.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "toast-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "toast-2.3.8-openblas_py38h5a64b2c_101.tar.bz2",
+  "repodata": {
+    "build": "openblas_py38h5a64b2c_101",
+    "build_number": 101,
+    "depends": [
+      "astropy",
+      "ephem",
+      "fftw >=3.3.8,<4.0a0",
+      "h5py",
+      "healpy",
+      "libaatm >=1.0.9,<2.0a0",
+      "libgcc-ng >=7.5.0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=7.5.0",
+      "numpy",
+      "openblas * openmp_*",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "scipy",
+      "suitesparse >=5.6.0,<6.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "968b5b6c82972f7064a4b7a5f25f2505",
+    "name": "toast",
+    "sha256": "d2e1972d2c0adf8abdc940b1e0e56427815501ce024a990bc5840e412b74bb44",
+    "size": 1340658,
+    "subdir": "linux-64",
+    "timestamp": 1602490709555,
+    "version": "2.3.8"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/toast-2.3.8-openblas_py38h5a64b2c_101.tar.bz2/toast-2.3.8-openblas_py38h5a64b2c_101.tar.bz2"
+}
