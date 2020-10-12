@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This package implements the louvain algorithm in C++ and exposes it to python. It relies on (python-)igraph for it to function. Besides the relative flexibility of the implementation, it also scales well, and can be run on graphs of millions of nodes (as long as they can fit in memory). The core function is find_partition which finds the optimal partition using the louvain algorithm for a number of different methods.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/vtraag/louvain-igraph",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/louvain/louvain-0.6.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Implementation of the Louvain algorithm for various methods for use with igraph in python.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602504818,
+    "version": "0.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "louvain-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "louvain-0.6.1-py39ha36be7a_3.tar.bz2",
+  "repodata": {
+    "build": "py39ha36be7a_3",
+    "build_number": 3,
+    "depends": [
+      "igraph >=0.8.3,<0.9.0a0",
+      "libcxx >=10.0.1",
+      "python >=3.9,<3.10.0a0",
+      "python-igraph",
+      "python_abi 3.9.* *_cp39",
+      "setuptools"
+    ],
+    "license": "GPLv3",
+    "license_family": "GPL",
+    "md5": "c3329c29dd6b60f64cb7c64afc638032",
+    "name": "louvain",
+    "sha256": "b4865f8c0d946aa11de23da92b34d48ddcf7bc94bd3aa3ed9d498cead9468f98",
+    "size": 95953,
+    "subdir": "osx-64",
+    "timestamp": 1602504818199,
+    "version": "0.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/louvain-0.6.1-py39ha36be7a_3.tar.bz2/louvain-0.6.1-py39ha36be7a_3.tar.bz2"
+}
