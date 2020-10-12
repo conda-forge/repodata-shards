@@ -19,42 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/esmf-org/esmf/archive/ESMF_8_1_0_beta_snapshot_32/esmf_8_1_0_beta_snapshot_32_src.tar.gz",
+    "source_url": "https://github.com/esmf-org/esmf/archive/ESMF_8_1_0_beta_snapshot_33/esmf_8_1_0_beta_snapshot_33_src.tar.gz",
     "subdirs": [
       "linux-64"
     ],
     "summary": "ESMPy is a Python interface to the Earth System Modeling Framework (ESMF) regridding utility.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1602004343,
-    "version": "8.1.0.beta.snapshot.32"
+    "timestamp": 1602506453,
+    "version": "8.1.0.beta.snapshot.33"
   },
   "channeldata_version": 1,
-  "feedstock": "esmpy-feedstock",
+  "feedstock": null,
   "labels": [
-    "main",
     "esmpy_dev"
   ],
-  "package": "esmpy-8.1.0.beta.snapshot.32-nompi_py36hbd5f7c1_0.tar.bz2",
+  "package": "esmpy-8.1.0.beta.snapshot.33-mpi_mpich_py37ha4619bd_101.tar.bz2",
   "repodata": {
-    "build": "nompi_py36hbd5f7c1_0",
-    "build_number": 0,
+    "build": "mpi_mpich_py37ha4619bd_101",
+    "build_number": 101,
     "depends": [
-      "esmf 8.1.0.beta.snapshot.32 nompi_*",
+      "esmf 8.1.0.beta.snapshot.33 mpi_mpich_*",
+      "mpi4py",
+      "mpich >=3.3,<3.4.0a0",
       "numpy",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m"
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
     ],
     "license": "The University of Illinois/NCSA",
-    "md5": "b33cb56e30de86b8d2b9a8e6e9baef1a",
+    "md5": "281cd047a63ea3391d3543e4f43bc0f3",
     "name": "esmpy",
-    "sha256": "221035fd25632c246b81bc7bb47e3537e4178757cc5331ee8a18996a15c242ae",
-    "size": 176972,
+    "sha256": "ba85b737505ca3e9c6863c282313bbf4f6393c2658b2a2429bb2e9660daeb183",
+    "size": 176634,
     "subdir": "linux-64",
-    "timestamp": 1602004343551,
-    "version": "8.1.0.beta.snapshot.32"
+    "timestamp": 1602506453942,
+    "version": "8.1.0.beta.snapshot.33"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/esmpy-8.1.0.beta.snapshot.32-nompi_py36hbd5f7c1_0.tar.bz2/esmpy-8.1.0.beta.snapshot.32-nompi_py36hbd5f7c1_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/esmpy_dev/linux-64/esmpy-8.1.0.beta.snapshot.33-mpi_mpich_py37ha4619bd_101.tar.bz2"
 }

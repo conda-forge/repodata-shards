@@ -26,35 +26,36 @@
     "summary": "ESMPy is a Python interface to the Earth System Modeling Framework (ESMF) regridding utility.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1602325476,
+    "timestamp": 1602506498,
     "version": "8.1.0.beta.snapshot.33"
   },
   "channeldata_version": 1,
-  "feedstock": "esmpy-feedstock",
+  "feedstock": null,
   "labels": [
-    "main",
     "esmpy_dev"
   ],
-  "package": "esmpy-8.1.0.beta.snapshot.33-nompi_py37h59b2dc9_0.tar.bz2",
+  "package": "esmpy-8.1.0.beta.snapshot.33-mpi_mpich_py37ha4619bd_101.tar.bz2",
   "repodata": {
-    "build": "nompi_py37h59b2dc9_0",
-    "build_number": 0,
+    "build": "mpi_mpich_py37ha4619bd_101",
+    "build_number": 101,
     "depends": [
-      "esmf 8.1.0.beta.snapshot.33 nompi_*",
+      "esmf 8.1.0.beta.snapshot.33 mpi_mpich_*",
+      "mpi4py",
+      "mpich >=3.3,<3.4.0a0",
       "numpy",
       "python >=3.7,<3.8.0a0",
       "python_abi 3.7.* *_cp37m"
     ],
     "license": "The University of Illinois/NCSA",
-    "md5": "a9eb14328355313a811f7d29786d09e8",
+    "md5": "ac628d07fc4b807c102f05b2ef9802e5",
     "name": "esmpy",
-    "sha256": "6251092c980ab439fbde14619929655525dd9a2da70d742959088a93b1937b8c",
-    "size": 177303,
+    "sha256": "b137266397363c533303bc3815c7d346dd2b6e1ee9a76ddfaa0f639fafe1e3d7",
+    "size": 176831,
     "subdir": "osx-64",
-    "timestamp": 1602325476192,
+    "timestamp": 1602506498286,
     "version": "8.1.0.beta.snapshot.33"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/regro/releases/releases/download/osx-64/esmpy-8.1.0.beta.snapshot.33-nompi_py37h59b2dc9_0.tar.bz2/esmpy-8.1.0.beta.snapshot.33-nompi_py37h59b2dc9_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/esmpy_dev/osx-64/esmpy-8.1.0.beta.snapshot.33-mpi_mpich_py37ha4619bd_101.tar.bz2"
 }
