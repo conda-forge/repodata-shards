@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "libsmu contains abstractions for streaming data to and from USB-connected analog interface devices, currently supporting the Analog Devices' ADALM1000. Building off of LibUSB for cross-platform operation, it offers the sourcing of repeated waveforms, configuration of hardware, and measuring of signals.",
+    "dev_url": "https://github.com/analogdevicesinc/libsmu",
+    "doc_source_url": null,
+    "doc_url": "https://analogdevicesinc.github.io/libsmu/",
+    "home": "https://github.com/analogdevicesinc/libsmu",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.3": {
+        "weak": [
+          "libsmu >=1.0.3,<1.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/analogdevicesinc/libsmu/archive/v1.0.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Software abstractions for the analog signal exploration tools",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602526178,
+    "version": "1.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libsmu-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libsmu-1.0.3-py36hedd2f77_0.tar.bz2",
+  "repodata": {
+    "build": "py36hedd2f77_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=10.0.1",
+      "libusb >=1.0.23,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "0b37a241d94eaed526a5fdba4fa18bd2",
+    "name": "libsmu",
+    "sha256": "2a04907d63f2bdc8267e2be15a978c1bc5da4a5bd92ff970d9f60c5ac33da082",
+    "size": 190801,
+    "subdir": "osx-64",
+    "timestamp": 1602526178568,
+    "version": "1.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/libsmu-1.0.3-py36hedd2f77_0.tar.bz2/libsmu-1.0.3-py36hedd2f77_0.tar.bz2"
+}
