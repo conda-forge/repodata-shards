@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This package implements the Leiden algorithm in C++ and exposes it to python. It relies on (python-)igraph for it to function. Besides the relative flexibility of the implementation, it also scales well, and can be run on graphs of millions of nodes (as long as they can fit in memory). The core function is find_partition which is able to optimize a variety of quality functions using the Leiden algorithm.",
+    "dev_url": "https://github.com/vtraag/leidenalg",
+    "doc_source_url": null,
+    "doc_url": "http://leidenalg.readthedocs.io/",
+    "home": "https://github.com/vtraag/leidenalg",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/leidenalg/leidenalg-0.8.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Implementation of the Leiden algorithm for various methods for use with igraph in python.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602462888,
+    "version": "0.8.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "leidenalg-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "leidenalg-0.8.2-py36h3dfcac6_1.tar.bz2",
+  "repodata": {
+    "build": "py36h3dfcac6_1",
+    "build_number": 1,
+    "depends": [
+      "libcxx >=10.0.1",
+      "libgfortran 4.*",
+      "libgfortran4 >=7.5.0",
+      "pypy3.6 >=7.3.2",
+      "python >=3.6,<3.7.0a0",
+      "python-igraph",
+      "python_abi 3.6 *_pypy36_pp73",
+      "setuptools"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "173f8cf275a623d5140c893258a43e75",
+    "name": "leidenalg",
+    "sha256": "90121fe58890512da55e219f39d230c813c9842cc25bf1ded12e4ed49d450897",
+    "size": 532569,
+    "subdir": "osx-64",
+    "timestamp": 1602462888181,
+    "version": "0.8.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/leidenalg-0.8.2-py36h3dfcac6_1.tar.bz2/leidenalg-0.8.2-py36h3dfcac6_1.tar.bz2"
+}
