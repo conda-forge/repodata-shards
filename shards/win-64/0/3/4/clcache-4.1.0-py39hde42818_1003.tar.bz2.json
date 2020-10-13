@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "clcache.py is a little Python script which attempts to avoid unnecessary recompilation by reusing previously cached object files if possible. It is meant to be called instead of the original 'cl.exe' executable. The script analyses the command line to decide whether source code is to be compiled. If so, a cache will be queried for a previously stored object file.  If the script is called in an unsupported way (e.g. if the compiler is called for linking), the script will simply relay the invocation to the real 'cl.exe' program.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/frerich/clcache",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/frerich/clcache/archive/v4.1.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "a compiler cache for Microsoft Visual Studio",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602589675,
+    "version": "4.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "clcache-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "clcache-4.1.0-py39hde42818_1003.tar.bz2",
+  "repodata": {
+    "build": "py39hde42818_1003",
+    "build_number": 1003,
+    "depends": [
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
+    ],
+    "license": "BSD 3-Clause",
+    "md5": "5fa5192385f6a641806895d5100f42e1",
+    "name": "clcache",
+    "sha256": "3a7bdbf4aafa04623bad0e72bf81f9f7a883f6323b73b91f700257e2fa574f96",
+    "size": 36756,
+    "subdir": "win-64",
+    "timestamp": 1602589675141,
+    "version": "4.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/clcache-4.1.0-py39hde42818_1003.tar.bz2/clcache-4.1.0-py39hde42818_1003.tar.bz2"
+}
