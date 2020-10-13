@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libsmu contains abstractions for streaming data to and from USB-connected analog interface devices, currently supporting the Analog Devices' ADALM1000. Building off of LibUSB for cross-platform operation, it offers the sourcing of repeated waveforms, configuration of hardware, and measuring of signals.",
+    "dev_url": "https://github.com/analogdevicesinc/libsmu",
+    "doc_source_url": null,
+    "doc_url": "https://analogdevicesinc.github.io/libsmu/",
+    "home": "https://github.com/analogdevicesinc/libsmu",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.3": {
+        "weak": [
+          "libsmu >=1.0.3,<1.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/analogdevicesinc/libsmu/archive/v1.0.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Software abstractions for the analog signal exploration tools",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602586712,
+    "version": "1.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libsmu-1.0.3-py37h2772bb9_1.tar.bz2",
+  "repodata": {
+    "build": "py37h2772bb9_1",
+    "build_number": 1,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "libusb >=1.0.23,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "46c36b8c382839bfe21974e3097e3f11",
+    "name": "libsmu",
+    "sha256": "f4cc48266c17dd8febb4a17a64769c93663ab9cbb4c21026eb329d50bef06b31",
+    "size": 214396,
+    "subdir": "linux-64",
+    "timestamp": 1602586712363,
+    "version": "1.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libsmu-1.0.3-py37h2772bb9_1.tar.bz2"
+}
