@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The intent of this module is to mimic the csv module in the Python stdlib, as opposed to more flexible serialization formats like JSON or YAML. vcf will attempt to parse the content of each record based on the data types specified in the meta-information lines -- specifically the \\##INFO and \\##FORMAT lines. If these lines are missing or incomplete, it will check against the reserved types mentioned in the spec. Failing that, it will just return strings.",
+    "dev_url": "https://github.com/jamescasbon/PyVCF",
+    "doc_source_url": null,
+    "doc_url": "http://pyvcf.readthedocs.io",
+    "home": "https://github.com/jamescasbon/PyVCF",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/P/PyVCF/PyVCF-0.6.8.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A Variant Call Format (VCF) v4.0 and v4.1 parser for Python.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602591304,
+    "version": "0.6.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyvcf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyvcf-0.6.8-py39hde42818_1002.tar.bz2",
+  "repodata": {
+    "build": "py39hde42818_1002",
+    "build_number": 1002,
+    "depends": [
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "acb02b59400818196c8088e6a59577e2",
+    "name": "pyvcf",
+    "sha256": "5e40cc06a047cbdea6153be5827173a5b3646c186350c3930cb9ccfd3779e534",
+    "size": 66986,
+    "subdir": "linux-64",
+    "timestamp": 1602591304405,
+    "version": "0.6.8"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/pyvcf-0.6.8-py39hde42818_1002.tar.bz2/pyvcf-0.6.8-py39hde42818_1002.tar.bz2"
+}
