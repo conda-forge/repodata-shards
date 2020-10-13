@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Tools for interpolating geo-referenced data used in the field of geosciences. There are other libraries that cover this problem, but written entirely in Python, the performance of these projects was not quite sufficient for our needs. That is why this project was created.",
+    "dev_url": "https://github.com/CNES/pangeo-pyinterp",
+    "doc_source_url": null,
+    "doc_url": "https://pangeo-pyinterp.readthedocs.io/",
+    "home": "https://github.com/CNES/pangeo-pyinterp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/CNES/pangeo-pyinterp/releases/download/0.4.0/pyinterp-0.4.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python library for optimized geo-referenced interpolation",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602546422,
+    "version": "0.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pyinterp-0.4.0-mkl_py39h1830403_2.tar.bz2",
+  "repodata": {
+    "build": "mkl_py39h1830403_2",
+    "build_number": 2,
+    "depends": [
+      "dask",
+      "gsl >=2.6,<2.7.0a0",
+      "libblas * *mkl",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "llvm-openmp",
+      "mkl >=2020.1,<2021.0a0",
+      "numpy >=1.19.2,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "snappy >=1.1.8,<2.0a0",
+      "xarray"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "3a52d8e73b7097f59057eb86e4d3604b",
+    "name": "pyinterp",
+    "sha256": "891bc3b70c2ec0a9140d51bd80925f03ef32763e95305778e09d093a65ee9443",
+    "size": 886831,
+    "subdir": "linux-64",
+    "timestamp": 1602546422282,
+    "version": "0.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyinterp-0.4.0-mkl_py39h1830403_2.tar.bz2"
+}
