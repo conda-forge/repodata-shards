@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The cysgp4 package is a Cython-powered wrapper of the sgp4 C++ library by Daniel Warner to compute satellite positions from two-line elements (TLE). It provides similar functionality as the well-known sgp4 Python package by Brandon Rhodes, which uses Numba internally to speed-up the calculations. In contrast to sgp4, cysgp4 can work well with arrays of TLEs and/or times and make use of multi-core platforms (via OpenMP) to boost processing times a lot.",
+    "dev_url": "https://github.com/bwinkel/cysgp4",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/bwinkel/cysgp4",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0 AND Apache-2.0 AND BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/c/cysgp4/cysgp4-0.3.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Cysgp4 is a wrapper around the SGP4 package, for sat TLE calculations",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602583488,
+    "version": "0.3.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cysgp4-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cysgp4-0.3.3-py36h1f35d00_1.tar.bz2",
+  "repodata": {
+    "build": "py36h1f35d00_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "numpy >=1.18.5,<2.0a0",
+      "pypy3.6 >=7.3.2",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6 *_pypy36_pp73",
+      "setuptools"
+    ],
+    "license": "GPL-3.0 AND Apache-2.0 AND BSD-3-Clause",
+    "md5": "31305a7a078c80bdcc37dc04bebd1d97",
+    "name": "cysgp4",
+    "sha256": "d7176664c29b90a3746cb2b28aa9f194dc3edc70d48229cb962039a72f54252d",
+    "size": 267492,
+    "subdir": "linux-64",
+    "timestamp": 1602583488284,
+    "version": "0.3.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/cysgp4-0.3.3-py36h1f35d00_1.tar.bz2/cysgp4-0.3.3-py36h1f35d00_1.tar.bz2"
+}
