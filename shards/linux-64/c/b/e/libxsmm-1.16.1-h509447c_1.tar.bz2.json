@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "LIBXSMM is a library for specialized dense and sparse matrix operations as well as for deep learning primitives such as small convolutions targeting Intel Architecture.",
+    "dev_url": "https://github.com/hfp/libxsmm",
+    "doc_source_url": null,
+    "doc_url": "https://libxsmm.readthedocs.io",
+    "home": "https://github.com/hfp/libxsmm",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.16.1": {
+        "weak": [
+          "libxsmm >=1.16.1,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/hfp/libxsmm/archive/1.16.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Library targeting Intel Architecture for specialized dense and sparse matrix operations, and deep learning primitives.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602613225,
+    "version": "1.16.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libxsmm-1.16.1-h509447c_1.tar.bz2",
+  "repodata": {
+    "build": "h509447c_1",
+    "build_number": 1,
+    "depends": [
+      "_openmp_mutex",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "6451124a5e5ee6bcb19aa1ecebe28ad7",
+    "name": "libxsmm",
+    "sha256": "8bb53705e9d7ddc7b708d2de01b2b08315caeba4b7ed97431f64b5d110f77b60",
+    "size": 4642775,
+    "subdir": "linux-64",
+    "timestamp": 1602613225753,
+    "version": "1.16.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libxsmm-1.16.1-h509447c_1.tar.bz2"
+}
