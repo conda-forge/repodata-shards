@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Austin is a Python frame stack sampler for CPython written in pure C. Samples are collected by reading the CPython interpreter virtual memory space in order to retrieve information about the currently running threads along with the stack of the frames that are being executed. Hence, one can use Austin to easily make powerful statistical profilers that have minimal impact on the target application and that don't require any instrumentation.",
+    "dev_url": "https://github.com/P403n1x87/austin",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/P403n1x87/austin",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/P403n1x87/austin/archive/v1.0.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A Frame Stack Sampler for CPython",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602594328,
+    "version": "1.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "austin-1.0.1-py37h8f50634_1.tar.bz2",
+  "repodata": {
+    "build": "py37h8f50634_1",
+    "build_number": 1,
+    "depends": [
+      "__glibc >=2.17,<3.0.a0",
+      "aiohttp",
+      "libgcc-ng >=7.5.0",
+      "psutil",
+      "pyfiglet",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "3284ed4d0e93b00fa3baa96affb45637",
+    "name": "austin",
+    "sha256": "8e8a26dc3e369f24c512d430eb018ff05ab66c4d686984a97b042f7197b809c5",
+    "size": 88184,
+    "subdir": "linux-64",
+    "timestamp": 1602594328283,
+    "version": "1.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/austin-1.0.1-py37h8f50634_1.tar.bz2"
+}
