@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "11.0.0.rc1": {
+        "strong": [
+          "libcxx >=11.0.0.rc1"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0-rc1/llvm-project-11.0.0rc1.tar.xz",
     "subdirs": [
@@ -26,38 +32,35 @@
     "summary": "clang compilers for conda-build 3",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1602700536,
+    "timestamp": 1602700564,
     "version": "11.0.0.rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "clang-compiler-activation-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "clang_osx-64-11.0.0.rc1-h7094b1b_11.tar.bz2",
+  "package": "clangxx_osx-arm64-11.0.0.rc1-hf886729_11.tar.bz2",
   "repodata": {
-    "build": "h7094b1b_11",
+    "build": "hf886729_11",
     "build_number": 11,
     "depends": [
-      "cctools_osx-64",
-      "clang 11.0.0.rc1.*",
-      "compiler-rt 11.0.0.rc1.*",
-      "compiler-rt_osx-64 11.0.0.rc1.*",
-      "gcc_impl_linux-64",
-      "ld64_osx-64",
-      "llvm-tools 11.0.0.rc1.*"
+      "clang_osx-arm64 11.0.0.rc1 hb51098f_11",
+      "clangxx 11.0.0.rc1.*",
+      "gxx_impl_linux-64",
+      "libcxx >=11.0.0.rc1"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "c2cec2a9d5a8f3d9a9b48bc3a8e88a23",
-    "name": "clang_osx-64",
-    "sha256": "53ced52776717459fdca894bbad56a595a52eb1736720cbc4990c6301c8b302a",
-    "size": 15177,
+    "md5": "baf4f1ca4893ee165202d5882661f7b1",
+    "name": "clangxx_osx-arm64",
+    "sha256": "270538c945d1c96340e47c3fc28264af765807776323873e7707674838152ee5",
+    "size": 14908,
     "subdir": "linux-64",
-    "timestamp": 1602700536845,
+    "timestamp": 1602700564977,
     "version": "11.0.0.rc1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/clang_osx-64-11.0.0.rc1-h7094b1b_11.tar.bz2/clang_osx-64-11.0.0.rc1-h7094b1b_11.tar.bz2"
+  "url": "https://github.com/regro/releases/releases/download/linux-64/clangxx_osx-arm64-11.0.0.rc1-hf886729_11.tar.bz2/clangxx_osx-arm64-11.0.0.rc1-hf886729_11.tar.bz2"
 }
