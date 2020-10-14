@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the Fortran compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('fortran') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A metapackage to obtain a Fortran compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602684973,
+    "version": "1.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fortran-compiler-1.1.1-hbb7d975_1.tar.bz2",
+  "repodata": {
+    "build": "hbb7d975_1",
+    "build_number": 1,
+    "depends": [
+      "binutils",
+      "gfortran_linux-ppc64le 9.*",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0"
+    ],
+    "license": "BSD",
+    "md5": "2b6b46795c39bd7b5931351cf07d794f",
+    "name": "fortran-compiler",
+    "sha256": "edd6b3f44659ad8fc4a52dbcbb1445bfe5cc48966d9a781928e8fd4c05582420",
+    "size": 6550,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1602684973216,
+    "version": "1.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/fortran-compiler-1.1.1-hbb7d975_1.tar.bz2/fortran-compiler-1.1.1-hbb7d975_1.tar.bz2"
+}
