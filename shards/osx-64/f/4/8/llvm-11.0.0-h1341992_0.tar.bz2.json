@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "11.0.0": {
+        "weak": [
+          "libllvm11 >=11.0.0,<11.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/llvm-11.0.0.src.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602650904,
+    "version": "11.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "llvm-11.0.0-h1341992_0.tar.bz2",
+  "repodata": {
+    "build": "h1341992_0",
+    "build_number": 0,
+    "constrains": [
+      "llvmdev   11.0.0"
+    ],
+    "depends": [
+      "libllvm11 11.0.0 hf85e3d2_0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "b3cf227ce0a539a1d8990cf11bc450c0",
+    "name": "llvm",
+    "sha256": "29b459545120f44fc2f1877e039b6b1dd6b510bae55bdfd4edd4521812e795f9",
+    "size": 50997,
+    "subdir": "osx-64",
+    "timestamp": 1602650904235,
+    "version": "11.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/llvm-11.0.0-h1341992_0.tar.bz2/llvm-11.0.0-h1341992_0.tar.bz2"
+}
