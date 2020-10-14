@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Usage: ======  > from webdavfs.webdavfs import WebDAVFS > url = 'http://zopyx.com:22082' > creds = dict(login='admin', password='admin') > root = '/exist/webdav/db' > handle = WebDAVFS(url, cred, root) > handle.makedir('foo') > print(handle.listdir('.')) ....",
+    "dev_url": "https://github.com/PyFilesystem/webdavfs",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/PyFilesystem/webdavfs",
+    "home": "https://github.com/PyFilesystem/webdavfs",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fs.webdavfs/fs.webdavfs-0.3.7.zip",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "fs.webdavfs is a WebDAV driver for PyFileSystem2.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602640607,
+    "version": "0.3.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "fs.webdavfs-0.3.7-py37hc8dfbb8_1.tar.bz2",
+  "repodata": {
+    "build": "py37hc8dfbb8_1",
+    "build_number": 1,
+    "depends": [
+      "fs",
+      "furl",
+      "python >=3.7,<3.8.0a0",
+      "python-dateutil",
+      "python_abi 3.7.* *_cp37m",
+      "webdavclient2"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "3e0036b4fe588403255ac65dbc846630",
+    "name": "fs.webdavfs",
+    "sha256": "959c37f155a450f205734044c4702fc5b15f3e0d4c7c7afe39e4b45a3a460e70",
+    "size": 19852,
+    "subdir": "linux-64",
+    "timestamp": 1602640607035,
+    "version": "0.3.7"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fs.webdavfs-0.3.7-py37hc8dfbb8_1.tar.bz2"
+}
