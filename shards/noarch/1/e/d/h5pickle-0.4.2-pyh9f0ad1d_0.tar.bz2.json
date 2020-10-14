@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This module provides a wrapper for the h5py classes to allow pickling of h5py objects. Basically the arguments to the h5py.File call are saved, and a new file is opened when a Group, Dataset or File is unpickled. Ergo, this will only work well on shared filesystems, and for reading files (SWMR should be fine too).",
+    "dev_url": "https://github.com/DaanVanVugt/h5pickle",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pypi.org/project/h5pickle",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/h/h5pickle/h5pickle-0.4.2.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Wrapper for h5py with pickle capabilities",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602674620,
+    "version": "0.4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "h5pickle-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "h5pickle-0.4.2-pyh9f0ad1d_0.tar.bz2",
+  "repodata": {
+    "build": "pyh9f0ad1d_0",
+    "build_number": 0,
+    "depends": [
+      "cachetools",
+      "h5py",
+      "python"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "b251ad302583de47c4fb2667f51810df",
+    "name": "h5pickle",
+    "noarch": "python",
+    "sha256": "d4c887abb8792529872337e72648fa5684352c3b39d81afa5a7adf7fef6a399b",
+    "size": 7718,
+    "subdir": "noarch",
+    "timestamp": 1602674620993,
+    "version": "0.4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/regro/releases/releases/download/noarch/h5pickle-0.4.2-pyh9f0ad1d_0.tar.bz2/h5pickle-0.4.2-pyh9f0ad1d_0.tar.bz2"
+}
