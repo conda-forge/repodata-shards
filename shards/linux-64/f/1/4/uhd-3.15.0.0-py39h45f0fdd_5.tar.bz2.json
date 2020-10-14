@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "UHD is the free & open-source software driver and API for the Universal Software Radio Peripheral (USRP(TM)) SDR platform, created and sold by Ettus Research. UHD supports all Ettus Research USRP(TM) hardware, including all motherboards and daughterboards, and the combinations thereof.",
+    "dev_url": "https://github.com/EttusResearch/uhd",
+    "doc_source_url": null,
+    "doc_url": "https://files.ettus.com/manual/",
+    "home": "httsp://github.com/EttusResearch/uhd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.15.0.0": {
+        "weak": [
+          "uhd >=3.15.0,<3.15.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/EttusResearch/uhd/archive/v3.15.0.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Software driver and API for the Ettus Research USRP SDR platform",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602714039,
+    "version": "3.15.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "uhd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "uhd-3.15.0.0-py39h45f0fdd_5.tar.bz2",
+  "repodata": {
+    "build": "py39h45f0fdd_5",
+    "build_number": 5,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "libusb >=1.0.23,<2.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "numpy >=1.19.2,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "requests"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL",
+    "md5": "656d192b2b58526f9369f0941f15e8ff",
+    "name": "uhd",
+    "sha256": "f0d4588d325576fd38ae83ddd015082303de296b7566a3a88fce1970f6be09b2",
+    "size": 8248440,
+    "subdir": "linux-64",
+    "timestamp": 1602714039522,
+    "version": "3.15.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/uhd-3.15.0.0-py39h45f0fdd_5.tar.bz2/uhd-3.15.0.0-py39h45f0fdd_5.tar.bz2"
+}
