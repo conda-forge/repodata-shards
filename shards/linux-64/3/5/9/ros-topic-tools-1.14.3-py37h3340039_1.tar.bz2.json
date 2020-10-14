@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Tools for directing, throttling, selecting, and otherwise messing with ROS topics at a meta level. None of the programs in this package actually know about the topics whose streams they are altering; instead, these tools deal with messages as generic binary blobs. This means they can be applied to any ROS topic.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://ros.org/wiki/topic_tools",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.14.3": {
+        "weak": [
+          "ros-topic-tools >=1.14,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ros-gbp/ros_comm-release/archive/release/melodic/topic_tools/1.14.3-0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Tools for directing, throttling, selecting, and otherwise messing with ROS topics at a meta level.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602677593,
+    "version": "1.14.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ros-topic-tools-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ros-topic-tools-1.14.3-py37h3340039_1.tar.bz2",
+  "repodata": {
+    "build": "py37h3340039_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "ros-conda-base",
+      "ros-conda-mutex * melodic",
+      "ros-cpp-common >=0.6.12,<0.7.0a0",
+      "ros-message-runtime",
+      "ros-rosconsole >=1.13,<2.0a0",
+      "ros-roscpp >=1.14,<2.0a0",
+      "ros-roscpp-serialization",
+      "ros-rostime >=0.6.12,<0.7.0a0",
+      "ros-std-msgs",
+      "ros-xmlrpcpp >=1.14,<2.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "602eb3a639a11edb13ca318c9d1ae32b",
+    "name": "ros-topic-tools",
+    "sha256": "e01263fd011255da9efef8645cb026eb8f8dfda86ad9e087f79aceb7f517691f",
+    "size": 227771,
+    "subdir": "linux-64",
+    "timestamp": 1602677593381,
+    "version": "1.14.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/ros-topic-tools-1.14.3-py37h3340039_1.tar.bz2/ros-topic-tools-1.14.3-py37h3340039_1.tar.bz2"
+}
