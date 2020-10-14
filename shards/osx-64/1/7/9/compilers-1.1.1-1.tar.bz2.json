@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the compilers for your system that conda-forge used to compile its ecosystem. These compilers are, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  These compiler metapackages are a convenience ONLY for users. Do NOT use these packages as a build or host dependencies in other recipes.  Use the compiler Jinja template function instead. For C++ for example, use compiler('cxx') as usual.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A metapackage to obtain compilers",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602685291,
+    "version": "1.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compilers-1.1.1-1.tar.bz2",
+  "repodata": {
+    "build": "1",
+    "build_number": 1,
+    "depends": [
+      "c-compiler 1.1.1 haf1e3a3_1",
+      "cxx-compiler 1.1.1 h879752b_1",
+      "fortran-compiler 1.1.1 he991be0_1"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "05123cb2ff115e9e34ccb9f94a92f91b",
+    "name": "compilers",
+    "sha256": "ac20c4e8d0f188ad9891ab32761961bbba7f1108a78f20ea2c642d7ff4fc8e87",
+    "size": 5352,
+    "subdir": "osx-64",
+    "timestamp": 1602685291385,
+    "version": "1.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/compilers-1.1.1-1.tar.bz2/compilers-1.1.1-1.tar.bz2"
+}
