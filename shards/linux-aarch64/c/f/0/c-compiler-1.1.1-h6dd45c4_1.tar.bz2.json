@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the C compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('c') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "A metapackage to obtain a C compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602685321,
+    "version": "1.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "c-compiler-1.1.1-h6dd45c4_1.tar.bz2",
+  "repodata": {
+    "build": "h6dd45c4_1",
+    "build_number": 1,
+    "depends": [
+      "binutils",
+      "gcc_linux-aarch64 7.*",
+      "libgcc-ng >=7.5.0"
+    ],
+    "license": "BSD",
+    "md5": "24aa0b24a3d18e2f5bc6c1ce17f6fb3d",
+    "name": "c-compiler",
+    "sha256": "dea86585c79d22eed68a83ac187836c5db7380c0cd248ade0753510a5952c17f",
+    "size": 6451,
+    "subdir": "linux-aarch64",
+    "timestamp": 1602685321420,
+    "version": "1.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/regro/releases/releases/download/linux-aarch64/c-compiler-1.1.1-h6dd45c4_1.tar.bz2/c-compiler-1.1.1-h6dd45c4_1.tar.bz2"
+}
