@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Px is a HTTP(s) proxy server that allows applications to authenticate through an NTLM or Windows Kerberos authenticated proxy server, typically used in corporate deployments, without having to deal with the actual handshake. It is primarily designed to run on Windows systems and authenticates on behalf of the application using the currently logged in Windows user account.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/genotrance/px",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/genotrance/px/archive/2018-11-20.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "An HTTP proxy server to automatically authenticate through an NTLM proxy",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602715968,
+    "version": "2018.11.20"
+  },
+  "channeldata_version": 1,
+  "feedstock": "px-proxy-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "px-proxy-2018.11.20-py38h32f6830_1.tar.bz2",
+  "repodata": {
+    "build": "py38h32f6830_1",
+    "build_number": 1,
+    "depends": [
+      "keyring",
+      "netaddr",
+      "ntlm-auth",
+      "psutil",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "pywin32",
+      "winkerberos"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "036c9e9f5ec8aaed071436068005dd92",
+    "name": "px-proxy",
+    "sha256": "94f8c10717500695706c5a5cee40bfc66587a01537ee3aa7af161ce64926d571",
+    "size": 64775,
+    "subdir": "win-64",
+    "timestamp": 1602715968115,
+    "version": "2018.11.20"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/px-proxy-2018.11.20-py38h32f6830_1.tar.bz2/px-proxy-2018.11.20-py38h32f6830_1.tar.bz2"
+}
