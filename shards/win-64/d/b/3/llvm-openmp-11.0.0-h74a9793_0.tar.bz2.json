@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -27,39 +27,42 @@
     "source_git_url": null,
     "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/openmp-11.0.0.src.tar.xz",
     "subdirs": [
-      "osx-64"
+      "win-64"
     ],
     "summary": "The OpenMP API supports multi-platform shared-memory parallel programming in C/C++ and Fortran.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1602662314,
+    "timestamp": 1602663119,
     "version": "11.0.0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "openmp-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "llvm-openmp-11.0.0-h73239a0_0.tar.bz2",
+  "package": "llvm-openmp-11.0.0-h74a9793_0.tar.bz2",
   "repodata": {
-    "build": "h73239a0_0",
+    "build": "h74a9793_0",
     "build_number": 0,
     "constrains": [
       "clangdev 11.0.0|11.0.0.*",
       "llvmdev 11.0.0|11.0.0.*",
       "openmp 11.0.0|11.0.0.*"
     ],
-    "depends": [],
+    "depends": [
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
     "license": "NCSA",
-    "md5": "c1028d636d746c6a64cb4c542bd29c81",
+    "md5": "641f2c5b8c8ed7bc343ccf2e2a7189b2",
     "name": "llvm-openmp",
-    "sha256": "7fc321f440ddea6c0616bc1795399215a3559300d01c83f548e82d91647a7c4d",
-    "size": 274188,
-    "subdir": "osx-64",
-    "timestamp": 1602662314423,
+    "sha256": "3882036ac152d9dc4541f23e68f87220567744047b61510fbc97fff540e5d2bd",
+    "size": 590870,
+    "subdir": "win-64",
+    "timestamp": 1602663119871,
     "version": "11.0.0"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/regro/releases/releases/download/osx-64/llvm-openmp-11.0.0-h73239a0_0.tar.bz2/llvm-openmp-11.0.0-h73239a0_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/llvm-openmp-11.0.0-h74a9793_0.tar.bz2/llvm-openmp-11.0.0-h74a9793_0.tar.bz2"
 }
