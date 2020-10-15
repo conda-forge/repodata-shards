@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Transform e3sm time series variables into cmip compatible data. Each variable needs its own handler script, implemented in the cmor_handlers directory (see directory for current handlers). In addition, you will need to clone the cmor repo (https://github.com/PCMDI/cmor) to access the Test and Tables directories. Test holds the common_user_input.json file which can be used as a placeholder for the user supplied metadata, and Tables holds all the CMIP6 variable tables.",
+    "dev_url": "https://github.com/E3SM-Project/e3sm_to_cmip",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/E3SM-Project/e3sm_to_cmip",
+    "home": "https://github.com/E3SM-Project/e3sm_to_cmip",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/E3SM-Project/e3sm_to_cmip/archive/v.1.4.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A cli utility to transform E3SM model output into CMIP compatible data.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602744238,
+    "version": "1.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "e3sm_to_cmip-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "e3sm_to_cmip-1.4.1-py37hc8dfbb8_1.tar.bz2",
+  "repodata": {
+    "build": "py37hc8dfbb8_1",
+    "build_number": 1,
+    "depends": [
+      "cdms2 >=3.1",
+      "cdutil",
+      "cmor >=3.5.0",
+      "dask",
+      "nco",
+      "netcdf4",
+      "pathos",
+      "progressbar2",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "pyyaml",
+      "scipy",
+      "tqdm",
+      "xarray"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "44dd4ab3b2c716d8a2642f158374299a",
+    "name": "e3sm_to_cmip",
+    "sha256": "b4a68993f23e0e6e1f5690db9e421f71645a0929fe97594343aae705191741bf",
+    "size": 83920,
+    "subdir": "linux-64",
+    "timestamp": 1602744238868,
+    "version": "1.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/e3sm_to_cmip-1.4.1-py37hc8dfbb8_1.tar.bz2/e3sm_to_cmip-1.4.1-py37hc8dfbb8_1.tar.bz2"
+}
