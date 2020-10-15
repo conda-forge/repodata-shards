@@ -1,0 +1,100 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "Almost everything in ROOT should be supported in this Conda package; ROOT was built with lots of options turned on. Here are a few things to try:  * `root`: you can start up a session and see the splash screen; Control-D to exit. * `python` followed by `import ROOT` will load PyROOT. * `root --notebook` will start a notebook server with a ROOT kernel choice. * `rootbrowse` will open a TBrowser session so you can look through files. * `root -l -q $ROOTSYS/tutorials/dataframe/df013_InspectAnalysis.C` will run a DataFrame example with an animated plot. * `root -b -q -l -n -e \"std::cout << TROOT::GetTutorialDir() << std::endl;\"` will print the tutorial dir. * `root -b -l -q -e 'std::cout << (float) TPython::Eval(\"1+1\") << endl;'` will run Python from C++ ROOT.  See the post [here](https://iscinumpy.gitlab.io/post/root-conda/) for more information about using this Conda package.  The ROOT package will prepare the required compilers. Everything in Conda is symlinked into `$CONDA_PREFIX` if you build things by hand; tools like CMake should find it automatically. The `thisroot.*` scripts should not be used and are not provided. Graphics, `rootbrowse`, etc. all should work. OpenGL is enabled.  There is also a `root_base` package, with minimal dependecies, that libraries should depend on this to avoid having a runtime dependency on the `compilers` package. `root-dependencies` and `root-binaries` are also available. In most cases users should use the `root` package directly, since it adds both of these, along with compilers, Jupyter, and a few other things to facilitate using ROOT or PyROOT.  ROOT was built with and will report `-std=c++17` from `root-config`.",
+    "dev_url": "https://github.com/root-project/root/",
+    "doc_source_url": null,
+    "doc_url": "https://root.cern/documentation",
+    "home": "https://root.cern/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "6.22.2": {
+        "weak": [
+          "root_base >=6.22.2,<6.23.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/root-project/root/archive/v6-22-02.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "ROOT is a modular scientific software toolkit. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602762685,
+    "version": "6.22.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "root-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "root_base-6.22.2-py39h6ddd40b_1.tar.bz2",
+  "repodata": {
+    "build": "py39h6ddd40b_1",
+    "build_number": 1,
+    "constrains": [
+      "cling 9999",
+      "root5 9999"
+    ],
+    "depends": [
+      "afterimage >=1.21,<1.22.0a0",
+      "cffi",
+      "cfitsio >=3.470,<3.471.0a0",
+      "davix >=0.7.6,<0.8.0a0",
+      "fftw >=3.3.8,<4.0a0",
+      "freetype >=2.9.1,<3.0a0",
+      "gcc_linux-64 7.*",
+      "gdk-pixbuf >=2.36.12,<3.0a0",
+      "glew >=2.1.0,<2.2.0a0",
+      "gxx_linux-64 7.*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=10,<11.0a0",
+      "libgcc-ng >=7.5.0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "librsvg >=2.50.1,<3.0a0",
+      "libstdcxx-ng >=7.5.0",
+      "libtiff >=4.1.0,<5.0a0",
+      "libxml2 >=2.9.10,<2.10.0a0",
+      "lz4-c >=1.9.2,<1.9.3.0a0",
+      "numpy >=1.19.2,<2.0a0",
+      "openssl >=1.1.1h,<1.1.2a",
+      "pcre >=8.44,<9.0a0",
+      "pythia8 >=8.244,<8.300.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "sysroot_linux-64",
+      "tbb >=2020.2",
+      "vdt >=0.4.3,<0.4.4.0a0",
+      "xrootd >=5.0.2,<6.0a0",
+      "xxhash >=0.8.0,<0.8.1.0a0",
+      "xz >=5.2.5,<5.3.0a0",
+      "zlib >=1.2.11,<1.3.0a0",
+      "zstd >=1.4.5,<1.5.0a0"
+    ],
+    "license": "LGPL-2.1-only",
+    "license_family": "LGPL",
+    "md5": "16ac61ac72f3c5883ee7eb0dca8726f7",
+    "name": "root_base",
+    "sha256": "2c42fb887f878820b3fba15b2a58c5575b31c36092afee55609f87684a7c5030",
+    "size": 222881792,
+    "subdir": "linux-64",
+    "timestamp": 1602762685906,
+    "version": "6.22.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/root_base-6.22.2-py39h6ddd40b_1.tar.bz2/root_base-6.22.2-py39h6ddd40b_1.tar.bz2"
+}
