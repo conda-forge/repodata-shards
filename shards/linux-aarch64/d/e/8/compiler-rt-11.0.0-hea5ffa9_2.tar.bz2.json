@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/compiler-rt-11.0.0.src.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602785984,
+    "version": "11.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compiler-rt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compiler-rt-11.0.0-hea5ffa9_2.tar.bz2",
+  "repodata": {
+    "build": "hea5ffa9_2",
+    "build_number": 2,
+    "depends": [
+      "clang 11.0.0.*",
+      "clangxx 11.0.0.*",
+      "compiler-rt_linux-aarch64 11.0.0.*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0"
+    ],
+    "license": "NCSA",
+    "md5": "e491d9af01fe5f2a6c33a9ee721f22f9",
+    "name": "compiler-rt",
+    "sha256": "6eac57fb5439c34b165c9227873fd8ca6c43e4a8b30c13dbf6df44f9671387c0",
+    "size": 96268,
+    "subdir": "linux-aarch64",
+    "timestamp": 1602785984896,
+    "version": "11.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/regro/releases/releases/download/linux-aarch64/compiler-rt-11.0.0-hea5ffa9_2.tar.bz2/compiler-rt-11.0.0-hea5ffa9_2.tar.bz2"
+}
