@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This library provides a common high-level API for openPMD writing and reading. It provides a common interface to I/O libraries and file formats such as HDF5, ADIOS1, ADIOS2, and JSON. Language bindings are provided for C++11 (or newer) and Python 3. This conda-forge package provides serial and MPI-parallel I/O. Windows support is limited to serial versions of HDF5, ADIOS2 and JSON.",
+    "dev_url": "https://github.com/openPMD/openPMD-api",
+    "doc_source_url": null,
+    "doc_url": "https://openpmd-api.readthedocs.io",
+    "home": "https://www.openPMD.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.12.0a": {
+        "weak": [
+          "openpmd-api * nompi_*",
+          "openpmd-api >=0.12.0,<0.12.1a"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/openPMD/openPMD-api/archive/0.12.0-alpha.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "C++ & Python API for writing & reading (.h5, .bp, .json, ...), serial & MPI parallel openPMD files.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602746710,
+    "version": "0.12.0a"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openpmd-api-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openpmd-api-0.12.0a-nompi_py36h4c6aceb_104.tar.bz2",
+  "repodata": {
+    "build": "nompi_py36h4c6aceb_104",
+    "build_number": 104,
+    "depends": [
+      "adios * nompi_*",
+      "blosc",
+      "bzip2",
+      "hdf5 >=1.12.0,<1.12.1.0a0",
+      "libcxx >=10.0.1",
+      "numpy >=1.15.0",
+      "pypy3.6 >=7.3.2",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6 *_pypy36_pp73",
+      "zlib"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "bc69d49271aae4239d5fe6b15e3a9f22",
+    "name": "openpmd-api",
+    "sha256": "c5fe6f85b77cad84ef1dcea2c918bc0ddd4a2a9c306321e775a11ec54d22b204",
+    "size": 1293235,
+    "subdir": "osx-64",
+    "timestamp": 1602746710292,
+    "version": "0.12.0a"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/openpmd-api-0.12.0a-nompi_py36h4c6aceb_104.tar.bz2/openpmd-api-0.12.0a-nompi_py36h4c6aceb_104.tar.bz2"
+}
