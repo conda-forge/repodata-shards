@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Adaptable IO System (ADIOS) provides a simple, flexible way for scientists to describe the data in their code that may need to be written, read, or processed outside of the running simulation. By providing an external to the code XML file describing the various elements, their types, and how you wish to process them this run, the routines in the host code (either Fortran or C) can transparently change how they process the data.",
+    "dev_url": "https://github.com/ornladios/ADIOS",
+    "doc_source_url": null,
+    "doc_url": "https://users.nccs.gov/~pnorbert/ADIOS-UsersManual-1.13.1.pdf",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.13.1": {
+        "weak": [
+          "adios * nompi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://users.nccs.gov/%7Epnorbert/adios-1.13.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The Adaptable IO System (ADIOS) for flexible and fast scientific data processing.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602746206,
+    "version": "1.13.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "adios-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "adios-1.13.1-nompi_hfe044a5_1120.tar.bz2",
+  "repodata": {
+    "build": "nompi_hfe044a5_1120",
+    "build_number": 1120,
+    "depends": [
+      "blosc >=1.20.1,<2.0a0",
+      "bzip2 >=1.0.8,<2.0a0",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD 3-Clause",
+    "license_family": "BSD",
+    "md5": "b435f41d4ac40ac4dd84a273810682e2",
+    "name": "adios",
+    "sha256": "b2aa86b191921625aff301a3278ba7d43bb69ba6c666aa09635cad0a3e4b63cd",
+    "size": 2500004,
+    "subdir": "linux-64",
+    "timestamp": 1602746206189,
+    "version": "1.13.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/adios-1.13.1-nompi_hfe044a5_1120.tar.bz2/adios-1.13.1-nompi_hfe044a5_1120.tar.bz2"
+}
