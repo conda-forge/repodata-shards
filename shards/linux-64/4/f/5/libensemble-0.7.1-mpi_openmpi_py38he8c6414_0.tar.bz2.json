@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libEnsemble is a Python library to coordinate the concurrent evaluation of dynamic ensembles of calculations. The library is developed to use massively parallel resources to accelerate the solution of design, decision, and inference problems and to expand the class of problems that can benefit from increased concurrency levels. libEnsemble aims for: Extreme scaling, Resilience/fault tolerance, Monitoring/killing jobs (and recovering resources), Portability and flexibility, Exploitation of persistent data/control flow.",
+    "dev_url": "https://github.com/Libensemble/libensemble",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://libensemble.readthedocs.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.7.1": {
+        "weak": [
+          "libensemble * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Libensemble/libensemble/archive/v0.7.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A library to coordinate the concurrent evaluation of dynamic ensembles of calculations",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602889791,
+    "version": "0.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libensemble-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libensemble-0.7.1-mpi_openmpi_py38he8c6414_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_py38he8c6414_0",
+    "build_number": 0,
+    "depends": [
+      "mpi4py",
+      "nlopt",
+      "numpy",
+      "openmpi",
+      "petsc4py",
+      "psutil",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "scipy"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "ff4621433dd77eddaa734a97cb9fb823",
+    "name": "libensemble",
+    "sha256": "c38cb3c94ff6b95322d0fd839df391575bf828aafceae1e635f57a25644d8a97",
+    "size": 308792,
+    "subdir": "linux-64",
+    "timestamp": 1602889791922,
+    "version": "0.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/libensemble-0.7.1-mpi_openmpi_py38he8c6414_0.tar.bz2/libensemble-0.7.1-mpi_openmpi_py38he8c6414_0.tar.bz2"
+}
