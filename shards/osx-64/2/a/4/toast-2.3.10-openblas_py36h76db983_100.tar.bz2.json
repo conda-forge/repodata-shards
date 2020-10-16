@@ -1,0 +1,79 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "TOAST is a software framework for simulating and processing timestream data collected by microwave telescopes.",
+    "dev_url": "https://github.com/hpc4cmb/toast",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/hpc4cmb/toast",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.10": {
+        "weak": [
+          "toast * openblas_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/hpc4cmb/toast/archive/2.3.10.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Time Ordered Astrophysics Scalable Tools",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602824761,
+    "version": "2.3.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": "toast-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "toast-2.3.10-openblas_py36h76db983_100.tar.bz2",
+  "repodata": {
+    "build": "openblas_py36h76db983_100",
+    "build_number": 100,
+    "depends": [
+      "astropy",
+      "ephem",
+      "fftw >=3.3.8,<4.0a0",
+      "h5py",
+      "healpy",
+      "libaatm >=1.0.9,<2.0a0",
+      "libcxx >=9.0.1",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "llvm-openmp >=11.0.0",
+      "llvm-openmp >=4.0.1",
+      "numpy",
+      "openblas * openmp_*",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "scipy",
+      "suitesparse >=5.6.0,<6.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "fefb22b415cf3391c9eaea7ab78582b6",
+    "name": "toast",
+    "sha256": "348237f8f59935598a93b06b83a5bd9c5e38a813929cf998b28c41a82b5ea738",
+    "size": 1425257,
+    "subdir": "osx-64",
+    "timestamp": 1602824761230,
+    "version": "2.3.10"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/toast-2.3.10-openblas_py36h76db983_100.tar.bz2/toast-2.3.10-openblas_py36h76db983_100.tar.bz2"
+}
