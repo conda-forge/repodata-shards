@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "NetScape Portable Runtime (NSPR) provides platform independence for non-GUI operating system facilities. These facilities include threads, thread synchronization, normal file and network I/O, interval timing and calendar time, basic memory management (malloc and free) and shared library linking.",
+    "dev_url": "https://developer.mozilla.org/en-US/docs/MDN",
+    "doc_source_url": null,
+    "doc_url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR",
+    "home": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.29": {
+        "weak": [
+          "nspr >=4.29,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://ftp.mozilla.org/pub/nspr/releases/v4.29/src/nspr-4.29.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A platform-neutral API for system level and libc-like functions.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1602894094,
+    "version": "4.29"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nspr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nspr-4.29-hb1e8313_1.tar.bz2",
+  "repodata": {
+    "build": "hb1e8313_1",
+    "build_number": 1,
+    "constrains": [
+      "__osx >=10.13"
+    ],
+    "depends": [
+      "libcxx >=10.0.1"
+    ],
+    "license": "MPL-2.0",
+    "md5": "27cb52315d9261010fe715e3316765b2",
+    "name": "nspr",
+    "sha256": "6d416f757bbd5b7b1dbfbb071989122b89f08c63b44d97f80b27b129126c5713",
+    "size": 253182,
+    "subdir": "osx-64",
+    "timestamp": 1602894094373,
+    "version": "4.29"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/nspr-4.29-hb1e8313_1.tar.bz2/nspr-4.29-hb1e8313_1.tar.bz2"
+}
