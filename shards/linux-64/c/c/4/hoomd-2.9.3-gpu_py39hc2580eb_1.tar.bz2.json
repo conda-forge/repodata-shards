@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "You define particle initial conditions and interactions in a high-level python script. Then tell HOOMD-blue how you want to execute the job and it takes care of the rest. Python job scripts give you unlimited flexibility to create custom initialization routines, control simulation parameters, and perform in situ analysis.",
+    "dev_url": "https://github.com/glotzerlab/hoomd-blue/",
+    "doc_source_url": null,
+    "doc_url": "https://hoomd-blue.readthedocs.io",
+    "home": "https://glotzerlab.engin.umich.edu/hoomd-blue/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/glotzerlab/hoomd-blue/releases/download/v2.9.3/hoomd-v2.9.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "HOOMD-blue is a general-purpose particle simulation toolkit.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1602969248,
+    "version": "2.9.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "hoomd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "hoomd-2.9.3-gpu_py39hc2580eb_1.tar.bz2",
+  "repodata": {
+    "build": "gpu_py39hc2580eb_1",
+    "build_number": 1,
+    "depends": [
+      "cudatoolkit 10.1|10.1.*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "tbb >=2020.2"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "d47da930c49df9f2641e3330d3576c83",
+    "name": "hoomd",
+    "sha256": "27ce780e53f06fcfc9eca83eaa5d58a9a82f72cc6df8bf7dad9c0780ba10dabb",
+    "size": 46655539,
+    "subdir": "linux-64",
+    "timestamp": 1602969248762,
+    "version": "2.9.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/hoomd-2.9.3-gpu_py39hc2580eb_1.tar.bz2/hoomd-2.9.3-gpu_py39hc2580eb_1.tar.bz2"
+}
