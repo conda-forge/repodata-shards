@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.11": {
+        "weak": [
+          "libopenblas-ilp64 >=0.3.11,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.11.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "An optimized BLAS library (ILP64 interface) based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603038131,
+    "version": "0.3.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openblas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libopenblas-ilp64-0.3.11-openmp_h61d4950_0.tar.bz2",
+  "repodata": {
+    "build": "openmp_h61d4950_0",
+    "build_number": 0,
+    "constrains": [
+      "openblas-ilp64 >=0.3.11,<0.3.12.0a0"
+    ],
+    "depends": [
+      "libgfortran 4.*",
+      "libgfortran4 >=7.5.0",
+      "llvm-openmp >=11.0.0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "c32ee8f0c3d080fca24af6f01dc6c36c",
+    "name": "libopenblas-ilp64",
+    "sha256": "ac0b5a6c4381e4d57cddf5136b5f36fbab08ae7fd897757c112e567865a199b1",
+    "size": 8905108,
+    "subdir": "osx-64",
+    "timestamp": 1603038131195,
+    "version": "0.3.11"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/libopenblas-ilp64-0.3.11-openmp_h61d4950_0.tar.bz2/libopenblas-ilp64-0.3.11-openmp_h61d4950_0.tar.bz2"
+}
