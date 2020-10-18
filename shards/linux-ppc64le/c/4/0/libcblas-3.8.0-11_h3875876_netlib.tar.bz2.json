@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.netlib.org/lapack",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.8.0": {
+        "weak": [
+          "libcblas >=3.8.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Linear Algebra PACKage",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1603036935,
+    "version": "3.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lapack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libcblas-3.8.0-11_h3875876_netlib.tar.bz2",
+  "repodata": {
+    "build": "11_h3875876_netlib",
+    "build_number": 11,
+    "depends": [
+      "libblas 3.8.0.*",
+      "libgcc-ng >=8.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=8.4.0"
+    ],
+    "license": "BSD 3-Clause",
+    "md5": "c86cb01b37d4f9e6cb48d7f66a9a5bcd",
+    "name": "libcblas",
+    "sha256": "3142e80945fc895334da622505ec328c40ca0e88e8e57e87d9320c4cf7f8cd27",
+    "size": 49185,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1603036935572,
+    "track_features": "blas_netlib",
+    "version": "3.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/libcblas-3.8.0-11_h3875876_netlib.tar.bz2/libcblas-3.8.0-11_h3875876_netlib.tar.bz2"
+}
