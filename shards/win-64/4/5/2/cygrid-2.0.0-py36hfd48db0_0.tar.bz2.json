@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Cygrid allows to resample a number of spectra (or data points) to a regular grid - a data cube - using any valid astronomical FITS/WCS projection. The method is a based on serialized convolution with finite gridding kernels. Currently, only Gaussian (radial-symmetric or elliptical) kernels are provided (which has the drawback of slight degradation of the effective resolution). The algorithm has very small memory footprint, allows easy parallelization, and is very fast.",
+    "dev_url": "https://github.com/bwinkel/cygrid",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/bwinkel/cygrid",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/c/cygrid/cygrid-2.0.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Cygrid is a cython-powered convolution-based gridding module for astronomy",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1603040504,
+    "version": "2.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cygrid-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cygrid-2.0.0-py36hfd48db0_0.tar.bz2",
+  "repodata": {
+    "build": "py36hfd48db0_0",
+    "build_number": 0,
+    "depends": [
+      "astropy",
+      "numpy >=1.16.5,<2.0a0",
+      "pytest",
+      "pytest-astropy",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "GPL-3.0",
+    "license_family": "GPL",
+    "md5": "5913e0ac6fb6d4e1613f7e98cf4592a8",
+    "name": "cygrid",
+    "sha256": "66449611e1a3369a75db6a49bd0914dd4990c0033655939ce83ae4cce2f6538a",
+    "size": 478514,
+    "subdir": "win-64",
+    "timestamp": 1603040504705,
+    "version": "2.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/cygrid-2.0.0-py36hfd48db0_0.tar.bz2/cygrid-2.0.0-py36hfd48db0_0.tar.bz2"
+}
