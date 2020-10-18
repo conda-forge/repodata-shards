@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "MUMPS (MUltifrontal Massively Parallel Solver) is a package for solving systems of linear equations of the form Ax = b, where A is a square sparse matrix that can be either unsymmetric, symmetric positive definite, or general symmetric, on distributed memory computers. MUMPS implements a direct method based on a multifrontal approach which performs a Gaussian factorization.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "http://mumps.enseeiht.fr/index.php?page=doc",
+    "home": "http://mumps.enseeiht.fr/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CECILL-C",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://mumps.enseeiht.fr/MUMPS_5.2.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "MUMPS: a parallel sparse direct solver",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603003285,
+    "version": "5.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mumps-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mumps-seq-5.2.1-h0f4c095_9.tar.bz2",
+  "repodata": {
+    "build": "h0f4c095_9",
+    "build_number": 9,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libflang >=5.0.0",
+      "liblapack >=3.8.0,<3.9.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "CECILL-C",
+    "md5": "b0eb4897cdc00c910b7b21088658bc8c",
+    "name": "mumps-seq",
+    "sha256": "0410b00042fad23b1ba357caccdf8d4d51b16b115ed59acdbb2937cd0d722881",
+    "size": 6690721,
+    "subdir": "win-64",
+    "timestamp": 1603003285578,
+    "version": "5.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/mumps-seq-5.2.1-h0f4c095_9.tar.bz2/mumps-seq-5.2.1-h0f4c095_9.tar.bz2"
+}
