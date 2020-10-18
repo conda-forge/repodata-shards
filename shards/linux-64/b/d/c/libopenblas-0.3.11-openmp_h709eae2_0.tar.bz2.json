@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.11": {
+        "weak": [
+          "libopenblas >=0.3.11,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.11.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "An optimized BLAS library based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603038177,
+    "version": "0.3.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openblas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libopenblas-0.3.11-openmp_h709eae2_0.tar.bz2",
+  "repodata": {
+    "build": "openmp_h709eae2_0",
+    "build_number": 0,
+    "constrains": [
+      "openblas >=0.3.11,<0.3.12.0a0"
+    ],
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng",
+      "libgfortran4 >=7.5.0",
+      "llvm-openmp >=11.0.0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "fed89d9bbfbbeb3b260872c66e2fefc9",
+    "name": "libopenblas",
+    "sha256": "75cc1193caca973bbe77a29fd90c7f11863f0a072401cfe190c990633b6c8d19",
+    "size": 8557404,
+    "subdir": "linux-64",
+    "timestamp": 1603038177123,
+    "track_features": "openblas_threading_openmp",
+    "version": "0.3.11"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/libopenblas-0.3.11-openmp_h709eae2_0.tar.bz2/libopenblas-0.3.11-openmp_h709eae2_0.tar.bz2"
+}
