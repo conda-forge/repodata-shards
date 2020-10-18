@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://dx.doi.org/10.18637/jss.v077.i13",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/distcomp/distcomp_1.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/distcomp_1.1.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Implementing algorithms and fitting models when sites (possibly remote) share computation summaries rather than actual data over HTTP with a master R process (using ''opencpu'', for example). A stratified Cox model and a singular value decomposition are provided. The former makes direct use of code from the R ''survival'' package. (That is, the underlying Cox model code is derived from that in the R ''survival'' package.) Sites may provide data via several means: CSV files, Redcap API, etc. An extensible design allows for new methods to be added in the future and includes facilities for local prototyping and testing. Web applications are provided (via ''shiny'') for the implemented methods to help in designing and deploying the computations.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603053241,
+    "version": "1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-distcomp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-distcomp-1.1-r36h02096d4_0.tar.bz2",
+  "repodata": {
+    "build": "r36h02096d4_0",
+    "build_number": 0,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=3.6,<3.7.0a0",
+      "r-digest",
+      "r-httr >=1.0.0",
+      "r-jsonlite",
+      "r-r6 >=2.0",
+      "r-shiny",
+      "r-stringr",
+      "r-survival"
+    ],
+    "license": "LGPL-2.0-or-later",
+    "license_family": "LGPL",
+    "md5": "edaa852618291d284865f1aa1555b758",
+    "name": "r-distcomp",
+    "sha256": "1b678c26e7d146baeadab7448b83e86f8d4dfb62615e249700cde356669eb654",
+    "size": 876650,
+    "subdir": "win-64",
+    "timestamp": 1603053241846,
+    "version": "1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/r-distcomp-1.1-r36h02096d4_0.tar.bz2/r-distcomp-1.1-r36h02096d4_0.tar.bz2"
+}
