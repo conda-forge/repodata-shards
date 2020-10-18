@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.netlib.org/lapack",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "libcblas >=3.9.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Linear Algebra PACKage",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1603053235,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lapack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libcblas-3.9.0-1_h8933c1f_netlib.tar.bz2",
+  "repodata": {
+    "build": "1_h8933c1f_netlib",
+    "build_number": 1,
+    "depends": [
+      "libblas 3.9.0.*",
+      "m2w64-gcc-libs"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "6a66a5a2c3fe762af97fdd2e9c5ee94a",
+    "name": "libcblas",
+    "sha256": "3b4bea9bc1b7dc313acfdabbbb10d7ccb76e0aa3c79c0453b6d0ed1fdac8b876",
+    "size": 94906,
+    "subdir": "win-64",
+    "timestamp": 1603053235391,
+    "track_features": "blas_netlib",
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/libcblas-3.9.0-1_h8933c1f_netlib.tar.bz2/libcblas-3.9.0-1_h8933c1f_netlib.tar.bz2"
+}
