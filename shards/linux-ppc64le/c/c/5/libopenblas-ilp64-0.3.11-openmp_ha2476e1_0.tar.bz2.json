@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.11": {
+        "weak": [
+          "libopenblas-ilp64 >=0.3.11,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.11.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "An optimized BLAS library (ILP64 interface) based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603037407,
+    "version": "0.3.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openblas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libopenblas-ilp64-0.3.11-openmp_ha2476e1_0.tar.bz2",
+  "repodata": {
+    "build": "openmp_ha2476e1_0",
+    "build_number": 0,
+    "constrains": [
+      "openblas-ilp64 >=0.3.11,<0.3.12.0a0"
+    ],
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=8.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=8.4.0",
+      "llvm-openmp >=11.0.0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "4bbe83aafeb07938b2549ccfb4f56e81",
+    "name": "libopenblas-ilp64",
+    "sha256": "87e76aac3faef303133baf8b2fb972704fda3f8932a8ed19798034dae96c3799",
+    "size": 5691147,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1603037407629,
+    "track_features": "openblas_threading_openmp",
+    "version": "0.3.11"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/libopenblas-ilp64-0.3.11-openmp_ha2476e1_0.tar.bz2/libopenblas-ilp64-0.3.11-openmp_ha2476e1_0.tar.bz2"
+}
