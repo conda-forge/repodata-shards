@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Given a byte stream with a minimum length of 50 bytes TLSH generates a hash value which can be used for similarity comparisons. Similar objects will have similar hash values which allows for the detection of similar objects by comparing their hash values. Note that the byte stream should have a sufficient amount of complexity. For example, a byte stream of identical bytes will not generate a hash value.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/trendmicro/tlsh",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.2.1": {
+        "weak": [
+          "python-tlsh >=4.2.1,<4.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/trendmicro/tlsh/archive/4.2.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "TLSH is a fuzzy matching library.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603131641,
+    "version": "4.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "tlsh-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-tlsh-4.2.1-py39hf149a3a_1.tar.bz2",
+  "repodata": {
+    "build": "py39hf149a3a_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "libtlsh 4.2.1 he1b5a44_1",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "29416c2ac7f5b95e3150fd147c276459",
+    "name": "python-tlsh",
+    "sha256": "fbee506973468a37d1a2a222b6d67c485d86f3e30b628cc1f7461b0f2dddb5fc",
+    "size": 29897,
+    "subdir": "linux-64",
+    "timestamp": 1603131641577,
+    "version": "4.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/python-tlsh-4.2.1-py39hf149a3a_1.tar.bz2/python-tlsh-4.2.1-py39hf149a3a_1.tar.bz2"
+}
