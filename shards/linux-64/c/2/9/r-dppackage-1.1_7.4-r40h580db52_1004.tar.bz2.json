@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.mat.puc.cl/~ajara",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/DPpackage/DPpackage_1.1-7.4.tar.gz",
+      "https://cran.r-project.org/src/contrib/DPpackage_1.1-7.4.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Functions to perform inference via simulation from the posterior distributions for Bayesian nonparametric and semiparametric models. Although the name of the package was motivated by the Dirichlet Process prior, the package considers and will consider other priors on functional spaces. So far, DPpackage includes models considering Dirichlet Processes, Dependent Dirichlet Processes, Dependent Poisson- Dirichlet Processes, Hierarchical Dirichlet Processes, Polya Trees, Linear Dependent Tailfree Processes, Mixtures of Triangular distributions, Random Bernstein polynomials priors and Dependent Bernstein Polynomials.  The package also includes models considering Penalized B-Splines.  Includes semiparametric models for marginal and conditional density estimation, ROC curve analysis, interval censored data, binary regression models, generalized linear mixed models, IRT type models, and generalized additive models. Also contains functions to compute Pseudo-Bayes factors for model comparison, and to elicitate the precision parameter of the Dirichlet Process. To maximize computational efficiency, the actual sampling for each model is done in compiled FORTRAN. The functions return objects which can be subsequently analyzed with functions provided in the 'coda' package.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603215286,
+    "version": "1.1_7.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-dppackage-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-dppackage-1.1_7.4-r40h580db52_1004.tar.bz2",
+  "repodata": {
+    "build": "r40h580db52_1004",
+    "build_number": 1004,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "r-base >=4.0,<4.1.0a0",
+      "r-mass",
+      "r-nlme",
+      "r-survival"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL3",
+    "md5": "770f1268441597dd459024d4cc2217ff",
+    "name": "r-dppackage",
+    "sha256": "43e587195390469ed08d49b364ca03556b30d3fe24aac0b107e0f2df201de0a3",
+    "size": 2978993,
+    "subdir": "linux-64",
+    "timestamp": 1603215286726,
+    "version": "1.1_7.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/r-dppackage-1.1_7.4-r40h580db52_1004.tar.bz2/r-dppackage-1.1_7.4-r40h580db52_1004.tar.bz2"
+}
