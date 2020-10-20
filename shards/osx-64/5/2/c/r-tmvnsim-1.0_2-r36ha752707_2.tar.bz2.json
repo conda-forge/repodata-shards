@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.r-project.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/tmvnsim/tmvnsim_1.0-2.tar.gz",
+      "https://cran.r-project.org/src/contrib/tmvnsim_1.0-2.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Importance sampling from the truncated multivariate normal using the GHK (Geweke-Hajivassiliou-Keane) simulator. Unlike Gibbs sampling which can get stuck in one truncation sub-region depending on initial values, this package allows truncation based on disjoint regions that are created by truncation of absolute values. The GHK algorithm uses simple Cholesky transformation followed by recursive simulation of univariate truncated normals hence there are also no convergence issues. Importance sample is returned along with sampling weights, based on which, one can calculate integrals over truncated regions for multivariate normals.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603205886,
+    "version": "1.0_2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-tmvnsim-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-tmvnsim-1.0_2-r36ha752707_2.tar.bz2",
+  "repodata": {
+    "build": "r36ha752707_2",
+    "build_number": 2,
+    "depends": [
+      "libgfortran 4.*",
+      "libgfortran4 >=7.5.0",
+      "r-base >=3.6,<3.7.0a0"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "9590b861c3bf4f70acea6eb598924e11",
+    "name": "r-tmvnsim",
+    "sha256": "56f45c37513777da095dad89a071948f3c779e92b140ee1334de999f543354e1",
+    "size": 31945,
+    "subdir": "osx-64",
+    "timestamp": 1603205886758,
+    "version": "1.0_2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/r-tmvnsim-1.0_2-r36ha752707_2.tar.bz2/r-tmvnsim-1.0_2-r36ha752707_2.tar.bz2"
+}
