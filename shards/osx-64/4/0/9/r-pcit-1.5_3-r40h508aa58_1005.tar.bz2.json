@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://cran.r-project.org/web/packages/PCIT/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/PCIT/PCIT_1.5-3.tar.gz",
+      "https://cran.r-project.org/src/contrib/PCIT_1.5-3.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Apply Partial Correlation coefficient with Information Theory (PCIT) to a correlation matrix. The PCIT algorithm identifies meaningful correlations to define edges in a weighted network. The algorithm can be applied to any correlation-based network including but not limited to gene co-expression networks. To reduce compute time by making use of multiple compute cores, simply run PCIT on a computer with has multiple cores and also has the Rmpi package installed. PCIT will then auto-detect the multicore environment and run in parallel mode without the need to rewrite your scripts. This makes scripts, using PCIT, portable across single core (or no Rmpi package installed) computers which will run in serial mode and multicore (with Rmpi package installed) computers which will run in parallel mode.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603204540,
+    "version": "1.5_3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-pcit-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-pcit-1.5_3-r40h508aa58_1005.tar.bz2",
+  "repodata": {
+    "build": "r40h508aa58_1005",
+    "build_number": 1005,
+    "depends": [
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "r-base >=4.0,<4.1.0a0"
+    ],
+    "license": "GPL-3",
+    "license_family": "GPL3",
+    "md5": "bf8c6c3e90cd3bbb4cb9fa81cb26ae90",
+    "name": "r-pcit",
+    "sha256": "1c229eb661163134872c03fd51a86c18440752d94c71b07e5c2ef11ce84a3197",
+    "size": 1521075,
+    "subdir": "osx-64",
+    "timestamp": 1603204540024,
+    "version": "1.5_3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/r-pcit-1.5_3-r40h508aa58_1005.tar.bz2/r-pcit-1.5_3-r40h508aa58_1005.tar.bz2"
+}
