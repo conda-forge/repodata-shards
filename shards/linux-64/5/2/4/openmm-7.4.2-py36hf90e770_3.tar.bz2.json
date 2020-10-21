@@ -26,40 +26,41 @@
     "summary": "A high performance toolkit for molecular simulation.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1603270914,
+    "timestamp": 1603270990,
     "version": "7.4.2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "openmm-feedstock",
   "labels": [
     "testing"
   ],
-  "package": "openmm-7.4.2-py39he2436ad_3.tar.bz2",
+  "package": "openmm-7.4.2-py36hf90e770_3.tar.bz2",
   "repodata": {
-    "build": "py39he2436ad_3",
+    "build": "py36hf90e770_3",
     "build_number": 3,
     "depends": [
-      "cudatoolkit 9.2|9.2.*",
+      "__glibc >=2.17",
+      "cudatoolkit 11.0|11.0.*",
       "fftw >=3.3.8,<4.0a0",
       "libgcc-ng >=7.5.0",
       "libstdcxx-ng >=7.5.0",
       "numpy",
       "ocl-icd >=2.2.12,<3.0a0",
       "ocl-icd-system",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39"
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
     ],
     "license": "LGPL-3.0-or-later",
     "license_family": "LGPL",
-    "md5": "5720becfb6fec693afe5e7a2bac23da4",
+    "md5": "d8a5ceeda48df7f77c03a4ab9a1a4ce8",
     "name": "openmm",
-    "sha256": "a992a2e3fb4961062fa817e0dddd0bd8ef5ee7774a7d3773d450072da1493b97",
-    "size": 8902961,
+    "sha256": "1b55665c67eca459a2cc2214916fce4f6219b04446d0f3c9496b92fb62aaf7db",
+    "size": 8913103,
     "subdir": "linux-64",
-    "timestamp": 1603270914447,
+    "timestamp": 1603270990610,
     "version": "7.4.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/openmm-7.4.2-py39he2436ad_3.tar.bz2/openmm-7.4.2-py39he2436ad_3.tar.bz2"
+  "url": "https://github.com/regro/releases/releases/download/linux-64/openmm-7.4.2-py36hf90e770_3.tar.bz2/openmm-7.4.2-py36hf90e770_3.tar.bz2"
 }
