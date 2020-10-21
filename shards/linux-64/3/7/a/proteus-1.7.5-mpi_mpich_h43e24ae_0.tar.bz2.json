@@ -1,0 +1,94 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/erdc/proteus",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://proteustoolkit.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.7.5": {
+        "weak": [
+          "proteus * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/erdc/proteus/archive/1.7.5.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Proteus is a Python package for rapidly developing computer models and numerical methods.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1603267812,
+    "version": "1.7.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "proteus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "proteus-1.7.5-mpi_mpich_h43e24ae_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h43e24ae_0",
+    "build_number": 0,
+    "depends": [
+      "cython >=0.29.21,<0.30.0a0",
+      "daetk * mpi_mpich_*",
+      "future",
+      "h5py * *mpich*",
+      "hdf5 >=1.10.5,<1.10.6.0a0 mpi_mpich_*",
+      "ipyparallel",
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng",
+      "libgfortran4 >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "matplotlib",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpi4py",
+      "mpich >=3.3.2,<3.4.0a0",
+      "ncurses",
+      "nose",
+      "numpy >=1.14.6,<2.0a0",
+      "openblas >=0.3.7,<0.4.0a0",
+      "petsc >=3.12.4,<3.13.0a0",
+      "petsc4py >=3.12.0,<3.13.0a0",
+      "pillow",
+      "pychrono",
+      "pytables",
+      "pytest",
+      "pytest-xdist",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "recordtype",
+      "scipy",
+      "scorec * mpi_mpich_*",
+      "tetgen",
+      "triangle"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "11f0705c63410a2b70f7ec9dfae0d87d",
+    "name": "proteus",
+    "sha256": "b5a8a7887f1036c9d49ccfe93f69b6c28dc0d9ec07b24a3e074c5d270244c733",
+    "size": 20104409,
+    "subdir": "linux-64",
+    "timestamp": 1603267812768,
+    "version": "1.7.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/proteus-1.7.5-mpi_mpich_h43e24ae_0.tar.bz2/proteus-1.7.5-mpi_mpich_h43e24ae_0.tar.bz2"
+}
