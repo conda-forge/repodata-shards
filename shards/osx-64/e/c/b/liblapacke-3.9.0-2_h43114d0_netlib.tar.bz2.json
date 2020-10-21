@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.netlib.org/lapack",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "liblapacke >=3.9.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Linear Algebra PACKage",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1603292994,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lapack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblapacke-3.9.0-2_h43114d0_netlib.tar.bz2",
+  "repodata": {
+    "build": "2_h43114d0_netlib",
+    "build_number": 2,
+    "depends": [
+      "libblas 3.9.0.*",
+      "libcblas 3.9.0.*",
+      "libgfortran 4.*",
+      "libgfortran4 >=7.5.0",
+      "liblapack 3.9.0.*"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "2ec9b49ba8197bf48f49fe50aea43a27",
+    "name": "liblapacke",
+    "sha256": "e26d69a6fe12492f4b61350f6db4e6ef0b0715000ae783fbe8d47b378db31beb",
+    "size": 473844,
+    "subdir": "osx-64",
+    "timestamp": 1603292994521,
+    "track_features": "blas_netlib",
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/liblapacke-3.9.0-2_h43114d0_netlib.tar.bz2/liblapacke-3.9.0-2_h43114d0_netlib.tar.bz2"
+}
