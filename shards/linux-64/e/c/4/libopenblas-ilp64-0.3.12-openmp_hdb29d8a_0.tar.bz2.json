@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.12": {
+        "weak": [
+          "libopenblas-ilp64 >=0.3.12,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.12.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "An optimized BLAS library (ILP64 interface) based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603553080,
+    "version": "0.3.12"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openblas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libopenblas-ilp64-0.3.12-openmp_hdb29d8a_0.tar.bz2",
+  "repodata": {
+    "build": "openmp_hdb29d8a_0",
+    "build_number": 0,
+    "constrains": [
+      "openblas-ilp64 >=0.3.12,<0.3.13.0a0"
+    ],
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng",
+      "libgfortran4 >=7.5.0",
+      "llvm-openmp >=11.0.0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "8cd3243561e4e8e570fc36e0682ad365",
+    "name": "libopenblas-ilp64",
+    "sha256": "b99c67aab8421f2fa9654390276d3afba0f06783142ed472220f93acb9c53cb4",
+    "size": 8413486,
+    "subdir": "linux-64",
+    "timestamp": 1603553080120,
+    "track_features": "openblas_threading_openmp",
+    "version": "0.3.12"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/libopenblas-ilp64-0.3.12-openmp_hdb29d8a_0.tar.bz2/libopenblas-ilp64-0.3.12-openmp_hdb29d8a_0.tar.bz2"
+}
