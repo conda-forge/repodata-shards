@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.8.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603564367,
+    "version": "2.18"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.18-mkl.tar.bz2",
+  "repodata": {
+    "build": "mkl",
+    "build_number": 18,
+    "depends": [
+      "libblas 3.8.0 18_mkl",
+      "libcblas 3.8.0 18_mkl",
+      "libgfortran 4.*",
+      "libgfortran4 >=7.5.0",
+      "liblapack 3.8.0 18_mkl",
+      "liblapacke 3.8.0 18_mkl"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "f325c4e907a1079af8f3cb7710b8b99c",
+    "name": "blas",
+    "sha256": "a02fc52344828208f9bb7b73bbda9603aa216588e6a9d76a16c5cbdfbd90c099",
+    "size": 13919,
+    "subdir": "osx-64",
+    "timestamp": 1603564367240,
+    "version": "2.18"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/blas-2.18-mkl.tar.bz2/blas-2.18-mkl.tar.bz2"
+}
