@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "QUANTUM ESPRESSO is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density-functional theory, plane waves, and pseudopotentials.",
+    "dev_url": "https://github.com/QEF/q-e",
+    "doc_source_url": null,
+    "doc_url": "http://www.quantum-espresso.org/Doc/user_guide/",
+    "home": "http://www.quantum-espresso.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/QEF/q-e/archive/qe-6.5.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "QUANTUM ESPRESSO (opEn-Source Package for Research in Electronic Structure, Simulation, and Optimization)",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603619541,
+    "version": "6.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "qe-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "qe-6.5-h1d9cf02_2.tar.bz2",
+  "repodata": {
+    "build": "h1d9cf02_2",
+    "build_number": 2,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "fftw >=3.3.8,<4.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng",
+      "libgfortran4 >=7.5.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "liblapacke >=3.8.0,<4.0a0",
+      "openmpi >=4.0.5,<4.1.0a0",
+      "scalapack"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL",
+    "md5": "608bcfcfd359dcdc184962d050cde782",
+    "name": "qe",
+    "sha256": "6e9d4ccbec81d58b7185e2fb023480b91aa363aa3b11de2c17ffda0d6ecb992f",
+    "size": 63399795,
+    "subdir": "linux-64",
+    "timestamp": 1603619541375,
+    "version": "6.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/qe-6.5-h1d9cf02_2.tar.bz2/qe-6.5-h1d9cf02_2.tar.bz2"
+}
