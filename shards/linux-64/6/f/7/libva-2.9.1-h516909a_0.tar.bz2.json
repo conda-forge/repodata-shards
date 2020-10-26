@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "VA-API is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and driver-specific acceleration backends for each supported hardware vendor.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/intel/libva",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.9.1": {
+        "weak": [
+          "libva >=2.9.1,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/intel/libva/archive/2.9.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Libva is an implementation for VA-API (Video Acceleration API)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1603712778,
+    "version": "2.9.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libva-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libva-2.9.1-h516909a_0.tar.bz2",
+  "repodata": {
+    "build": "h516909a_0",
+    "build_number": 0,
+    "depends": [
+      "libdrm >=2.4.102,<2.5.0a0",
+      "libgcc-ng >=7.5.0",
+      "mesalib"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "a7d82c31c80950e5bc9e9cc4f5fa5bef",
+    "name": "libva",
+    "sha256": "996d39d874c0673c664e0848e49f5fea7e2b66a13bc6ec97489807d77b7cf04e",
+    "size": 157772,
+    "subdir": "linux-64",
+    "timestamp": 1603712778380,
+    "version": "2.9.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/libva-2.9.1-h516909a_0.tar.bz2/libva-2.9.1-h516909a_0.tar.bz2"
+}
