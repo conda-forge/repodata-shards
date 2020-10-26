@@ -21,22 +21,22 @@
     "source_git_url": null,
     "source_url": "https://github.com/sagemath/sage/archive/9.2.tar.gz",
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "Open Source Mathematical Software",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1603694081,
+    "timestamp": 1603693673,
     "version": "9.2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "sagelib-feedstock",
   "labels": [
     "sagedev"
   ],
-  "package": "sagelib-9.2-py36hd67a5d9_0.tar.bz2",
+  "package": "sagelib-9.2-py37h65290cc_0.tar.bz2",
   "repodata": {
-    "build": "py36hd67a5d9_0",
+    "build": "py37h65290cc_0",
     "build_number": 0,
     "depends": [
       "arb >=2.18.0,<2.19.0a0",
@@ -65,15 +65,16 @@
       "libbraiding >=1.0,<1.1.0a0",
       "libbrial >=1.2.7,<1.3.0a0",
       "libcblas >=3.8.0,<4.0a0",
-      "libcxx >=10.0.1",
       "libflint >=2.6.3,<2.7.0a0",
+      "libgcc-ng >=7.5.0",
       "libgd >=2.2.5,<2.3.0a0",
-      "libgfortran 4.*",
+      "libgfortran-ng",
       "libgfortran4 >=7.5.0",
       "libhomfly >=1.2r.6,<1.3a",
       "liblapack >=3.8.0,<4.0a0",
       "liblapacke >=3.8.0,<4.0a0",
       "libpng >=1.6.37,<1.7.0a0",
+      "libstdcxx-ng >=7.5.0",
       "linbox >=1.6.3,<1.7.0a0",
       "lrcalc >=1.2,<1.3.0a0",
       "m4ri >=20140914,<20140915.0a0",
@@ -90,8 +91,8 @@
       "pplpy >=0.8.4,<0.9.0a0",
       "psutil >=5.2",
       "pynac >=0.7.26,<0.7.27.0a0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "ratpoints >=2.1.3,<2.2.0a0",
       "readline >=8.0,<9.0a0",
       "rw >=0.8,<0.9.0a0",
@@ -102,15 +103,15 @@
       "zn_poly >=0.9.2,<0.10.0a0"
     ],
     "license": "GPLv2+",
-    "md5": "1122e04c2d99bc288de4028f2b42a5d9",
+    "md5": "65163737706e59d87891e5b895feebf4",
     "name": "sagelib",
-    "sha256": "a5a3cc0d4b480ccb4c32203b297b6ea0d0527c6d8d022af046cc9929ace7c08c",
-    "size": 76799888,
-    "subdir": "osx-64",
-    "timestamp": 1603694081857,
+    "sha256": "82d482ddbf3e24c451cb5312d2d452f175a33b5a9379250c537595fbb5006926",
+    "size": 91033363,
+    "subdir": "linux-64",
+    "timestamp": 1603693673703,
     "version": "9.2"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/regro/releases/releases/download/osx-64/sagelib-9.2-py36hd67a5d9_0.tar.bz2/sagelib-9.2-py36hd67a5d9_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/sagelib-9.2-py37h65290cc_0.tar.bz2/sagelib-9.2-py37h65290cc_0.tar.bz2"
 }
