@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Mesh-Oriented datABase (MOAB) is a component for representing and evaluating mesh data. MOAB can store structured and unstructured mesh, consisting of elements in the finite element zoo plus polygons and polyhedra.",
+    "dev_url": "https://bitbucket.org/fathomteam/moab.git",
+    "doc_source_url": null,
+    "doc_url": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "home": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.2.1": {
+        "weak": [
+          "moab * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/fathom/moab-5.2.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Mesh-Oriented datABase",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1603916326,
+    "version": "5.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "moab-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "moab-5.2.1-mpi_mpich_tempest_py39h9677461_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_tempest_py39h9677461_2",
+    "build_number": 2,
+    "depends": [
+      "hdf5 * mpi_mpich_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=10.0.1",
+      "liblapack >=3.8.0,<4.0a0",
+      "libnetcdf * mpi_mpich_*",
+      "libnetcdf >=4.7.4,<4.7.5.0a0 mpi_mpich_*",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.3,<3.4.0a0",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "setuptools",
+      "tempest-remap 2.0.5.*"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "md5": "ac27ad5fca6e16c99f428995d6601f04",
+    "name": "moab",
+    "sha256": "d99d33abba780d71532ef8daa00f009f5fc9c3934f86cc613784e6727114ce1b",
+    "size": 7198997,
+    "subdir": "osx-64",
+    "timestamp": 1603916326881,
+    "version": "5.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/moab-5.2.1-mpi_mpich_tempest_py39h9677461_2.tar.bz2/moab-5.2.1-mpi_mpich_tempest_py39h9677461_2.tar.bz2"
+}
