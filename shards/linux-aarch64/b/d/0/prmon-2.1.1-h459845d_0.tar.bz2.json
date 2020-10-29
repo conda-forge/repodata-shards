@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The PRocess MONitor is a small stand alone program that can monitor the resource consumption of a process and its children. This is useful in the context of the WLCG/HSF working group to evaluate the costs and performance of HEP workflows in WLCG. In a previous incarnation (MemoryMonitor) it has been used by ATLAS for sometime to gather data on resource consumption by production jobs. One of its most useful features is to use smaps to correctly calculate the Proportional Set Size in the group of processes monitored, which is a much better indication of the true memory consumption of a group of processes where children share many pages.",
+    "dev_url": "https://github.com/HSF/prmon/",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/HSF/prmon/#running",
+    "home": "https://github.com/HSF/prmon/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/HSF/prmon/archive/v2.1.1.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Process Monitor (prmon)",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1603980787,
+    "version": "2.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "prmon-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "prmon-2.1.1-h459845d_0.tar.bz2",
+  "repodata": {
+    "build": "h459845d_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "2d01fdf2fc191fea6029809eef34b0aa",
+    "name": "prmon",
+    "sha256": "7b02e4ab853db112e28c11d5630aa080ba7f55f8beaeb613f5cdbaf7c1a46f3f",
+    "size": 199106,
+    "subdir": "linux-aarch64",
+    "timestamp": 1603980787021,
+    "version": "2.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/regro/releases/releases/download/linux-aarch64/prmon-2.1.1-h459845d_0.tar.bz2/prmon-2.1.1-h459845d_0.tar.bz2"
+}
