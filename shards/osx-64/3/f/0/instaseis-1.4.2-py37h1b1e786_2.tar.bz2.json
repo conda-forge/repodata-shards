@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Instaseis calculates broadband seismograms from Green's function databases generated with AxiSEM and allows for near instantaneous (on the order of milliseconds) extraction of seismograms. Using the 2.5D axisymmetric spectral element method, the generation of these databases, based on reciprocity of the Green's functions, is very efficient and is approximately half as expensive as a single AxiSEM forward run. Thus this enables the computation of full databases at half the cost of the computation of seismograms for a single source in the previous scheme and hence allows to compute databases at the highest frequencies globally observed. By storing the basis coefficients of the numerical scheme (Lagrange polynomials), the Green's functions are 4th order accurate in space and the spatial discretization respects discontinuities in the velocity model exactly. On top, AxiSEM allows to include 2D structure in the source receiver plane and readily includes other planets such as Mars.",
+    "dev_url": "https://github.com/krischer/instaseis",
+    "doc_source_url": null,
+    "doc_url": "http://instaseis.net",
+    "home": "http://instaseis.net",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/i/instaseis/instaseis-1.4.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Instant Global Broadband Seismograms Based on a Waveform Database",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1604152198,
+    "version": "1.4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "instaseis-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "instaseis-1.4.2-py37h1b1e786_2.tar.bz2",
+  "repodata": {
+    "build": "py37h1b1e786_2",
+    "build_number": 2,
+    "depends": [
+      "geographiclib",
+      "h5py",
+      "jsonschema",
+      "libgfortran 4.*",
+      "libgfortran4 >=7.5.0",
+      "numpy",
+      "obspy",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "requests",
+      "tornado >=6"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "md5": "8488cd0884a3281816c07dd70892434b",
+    "name": "instaseis",
+    "sha256": "5ff2a930e4f1a77628a5097cb97c2b9a9bbeaefd73ea40626241effaa3b8cd0a",
+    "size": 25790432,
+    "subdir": "osx-64",
+    "timestamp": 1604152198644,
+    "version": "1.4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/instaseis-1.4.2-py37h1b1e786_2.tar.bz2/instaseis-1.4.2-py37h1b1e786_2.tar.bz2"
+}
