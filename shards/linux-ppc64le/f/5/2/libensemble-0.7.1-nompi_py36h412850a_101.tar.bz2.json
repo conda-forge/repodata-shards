@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libEnsemble is a Python library to coordinate the concurrent evaluation of dynamic ensembles of calculations. The library is developed to use massively parallel resources to accelerate the solution of design, decision, and inference problems and to expand the class of problems that can benefit from increased concurrency levels. libEnsemble aims for: Extreme scaling, Resilience/fault tolerance, Monitoring/killing jobs (and recovering resources), Portability and flexibility, Exploitation of persistent data/control flow.",
+    "dev_url": "https://github.com/Libensemble/libensemble",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://libensemble.readthedocs.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.7.1": {
+        "weak": [
+          "libensemble * nompi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Libensemble/libensemble/archive/v0.7.1.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A library to coordinate the concurrent evaluation of dynamic ensembles of calculations",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1604270840,
+    "version": "0.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libensemble-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libensemble-0.7.1-nompi_py36h412850a_101.tar.bz2",
+  "repodata": {
+    "build": "nompi_py36h412850a_101",
+    "build_number": 101,
+    "depends": [
+      "nlopt",
+      "numpy",
+      "psutil",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "scipy"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "cdd38921c240aef400b048dc5fd51172",
+    "name": "libensemble",
+    "sha256": "1df791366ea38d69d64b1803c3a03e900b61c652e269b2e3f56f4f1cb74c6ad5",
+    "size": 307898,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1604270840871,
+    "version": "0.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/libensemble-0.7.1-nompi_py36h412850a_101.tar.bz2/libensemble-0.7.1-nompi_py36h412850a_101.tar.bz2"
+}
