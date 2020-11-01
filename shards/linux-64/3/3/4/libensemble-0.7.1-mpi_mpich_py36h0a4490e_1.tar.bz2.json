@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libEnsemble is a Python library to coordinate the concurrent evaluation of dynamic ensembles of calculations. The library is developed to use massively parallel resources to accelerate the solution of design, decision, and inference problems and to expand the class of problems that can benefit from increased concurrency levels. libEnsemble aims for: Extreme scaling, Resilience/fault tolerance, Monitoring/killing jobs (and recovering resources), Portability and flexibility, Exploitation of persistent data/control flow.",
+    "dev_url": "https://github.com/Libensemble/libensemble",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://libensemble.readthedocs.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.7.1": {
+        "weak": [
+          "libensemble * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Libensemble/libensemble/archive/v0.7.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A library to coordinate the concurrent evaluation of dynamic ensembles of calculations",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1604246095,
+    "version": "0.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libensemble-0.7.1-mpi_mpich_py36h0a4490e_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py36h0a4490e_1",
+    "build_number": 1,
+    "depends": [
+      "mpi4py",
+      "mpich",
+      "nlopt",
+      "numpy",
+      "petsc4py",
+      "psutil",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "scipy"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "11fca9b736cbed4960d40df5cf7cbacd",
+    "name": "libensemble",
+    "sha256": "2e7cd07910def03802bc7f86246cac0f30c440d6ea8df2dc1b588c8b97401791",
+    "size": 307698,
+    "subdir": "linux-64",
+    "timestamp": 1604246095587,
+    "version": "0.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libensemble-0.7.1-mpi_mpich_py36h0a4490e_1.tar.bz2"
+}
