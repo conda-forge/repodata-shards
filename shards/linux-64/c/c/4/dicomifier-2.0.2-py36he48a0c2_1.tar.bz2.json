@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Dicomifier is a set of tools to convert Bruker data to DICOM files, and DICOM files to NIfTI. It retains meta-data (e.g. MR parameters such as echo time or subject parameters such as weight or height) throughout the conversion process, storing them in JSON format, allowing easy access in multiple environments. The meta-data from Bruker is aligned on the DICOM dictionary for unified human and animal processing pipelines.",
+    "dev_url": "https://github.com/lamyj/dicomifier",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/lamyj/dicomifier",
+    "home": "https://github.com/lamyj/dicomifier",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CECILL-B",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/lamyj/dicomifier/archive/v2.0.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Convert data from Bruker to DICOM and from DICOM to NIfTI",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1604351227,
+    "version": "2.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dicomifier-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dicomifier-2.0.2-py36he48a0c2_1.tar.bz2",
+  "repodata": {
+    "build": "py36he48a0c2_1",
+    "build_number": 1,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "nibabel",
+      "numpy",
+      "odil >=0.12",
+      "python >=3.6,<3.7.0a0",
+      "python-dateutil",
+      "python_abi 3.6.* *_cp36m"
+    ],
+    "license": "CECILL-B",
+    "license_family": "OTHER",
+    "md5": "0fddf4523ce73fb6d69697b88a7a9a59",
+    "name": "dicomifier",
+    "sha256": "2f5bda27dbbac5eb9c027f5271ecf56beeabfbe86c4a03e14009fddd48fe1ef2",
+    "size": 255904,
+    "subdir": "linux-64",
+    "timestamp": 1604351227715,
+    "version": "2.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/dicomifier-2.0.2-py36he48a0c2_1.tar.bz2/dicomifier-2.0.2-py36he48a0c2_1.tar.bz2"
+}
