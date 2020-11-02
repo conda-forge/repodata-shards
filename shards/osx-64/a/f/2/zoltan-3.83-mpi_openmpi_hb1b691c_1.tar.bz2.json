@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Zoltan Library provides critical data-management services to a wide range of parallel applications.",
+    "dev_url": "https://cs.sandia.gov/Zoltan/",
+    "doc_source_url": null,
+    "doc_url": "https://cs.sandia.gov/Zoltan/",
+    "home": "http://www.cs.sandia.gov/Zoltan/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.83": {
+        "weak": [
+          "zoltan * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://cs.sandia.gov/Zoltan/Zoltan_Distributions/zoltan_distrib_v3.83.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Parallel Partitioning, Load Balancing and Data-Management Services",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1604312339,
+    "version": "3.83"
+  },
+  "channeldata_version": 1,
+  "feedstock": "zoltan-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "zoltan-3.83-mpi_openmpi_hb1b691c_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_hb1b691c_1",
+    "build_number": 1,
+    "depends": [
+      "libcxx >=10.0.1",
+      "libgfortran 4.*",
+      "libgfortran4 >=7.5.0",
+      "openmpi >=4.0.5,<4.1.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "d977246120a0858dd02ffcc29a73e1b4",
+    "name": "zoltan",
+    "sha256": "d3a6d5176d6ee248b42f633ca5f62c5eb7714c62c487b9a35080ea603980eba2",
+    "size": 514084,
+    "subdir": "osx-64",
+    "timestamp": 1604312339210,
+    "version": "3.83"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/zoltan-3.83-mpi_openmpi_hb1b691c_1.tar.bz2/zoltan-3.83-mpi_openmpi_hb1b691c_1.tar.bz2"
+}
