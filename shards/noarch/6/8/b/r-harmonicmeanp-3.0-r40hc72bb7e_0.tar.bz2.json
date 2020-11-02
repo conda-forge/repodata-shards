@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=harmonicmeanp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/harmonicmeanp/harmonicmeanp_3.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/harmonicmeanp_3.0.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "The harmonic mean p-value (HMP) test combines p-values and corrects for multiple testing while controlling the strong-sense family-wise error rate. It is more powerful than common alternatives including Bonferroni and Simes procedures when combining large proportions of all the p-values, at the cost of slightly lower power when combining small proportions of all the p-values. It is more stringent than controlling the false discovery rate, and possesses theoretical robustness to positive correlations between tests and unequal weights. It is a multi-level test in the sense that a superset of one or more significant tests is certain to be significant and conversely when the superset is non-significant, the constituent tests are certain to be non-significant. It is based on MAMML (model averaging by mean maximum likelihood), a frequentist analogue to Bayesian model averaging, and is theoretically grounded in generalized central limit theorem. For detailed examples type vignette(\"harmonicmeanp\") after installation. Version 3.0 addresses errors in versions 1.0 and 2.0 that led function p.hmp to control the familywise error rate only in the weak sense, rather than the strong sense as intended.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1604318673,
+    "version": "3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-harmonicmeanp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-harmonicmeanp-3.0-r40hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-fmstable"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "2fc5c28e0746ab459afb655354020b36",
+    "name": "r-harmonicmeanp",
+    "noarch": "generic",
+    "sha256": "490a088be411bf947cc90e3d3005a725f243e9e6115ee000d9b5fd2175d6e6fb",
+    "size": 607106,
+    "subdir": "noarch",
+    "timestamp": 1604318673402,
+    "version": "3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/regro/releases/releases/download/noarch/r-harmonicmeanp-3.0-r40hc72bb7e_0.tar.bz2/r-harmonicmeanp-3.0-r40hc72bb7e_0.tar.bz2"
+}
