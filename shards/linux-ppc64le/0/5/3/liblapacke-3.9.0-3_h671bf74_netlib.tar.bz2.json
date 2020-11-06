@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.netlib.org/lapack",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "liblapacke >=3.9.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Linear Algebra PACKage",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1604679930,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lapack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblapacke-3.9.0-3_h671bf74_netlib.tar.bz2",
+  "repodata": {
+    "build": "3_h671bf74_netlib",
+    "build_number": 3,
+    "depends": [
+      "libblas 3.9.0.*",
+      "libcblas 3.9.0.*",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "liblapack 3.9.0.*"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "1b17ee0392c168f3d6f65a18c1e4c295",
+    "name": "liblapacke",
+    "sha256": "8880a6fcbf5d0f97694b44b2a6805aadf46d9945aa7bbe02b07d73126a9fa377",
+    "size": 622087,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1604679930960,
+    "track_features": "blas_netlib",
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/liblapacke-3.9.0-3_h671bf74_netlib.tar.bz2/liblapacke-3.9.0-3_h671bf74_netlib.tar.bz2"
+}
