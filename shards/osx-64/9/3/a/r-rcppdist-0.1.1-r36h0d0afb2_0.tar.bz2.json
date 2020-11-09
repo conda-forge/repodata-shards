@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/duckmayr/RcppDist",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/RcppDist/RcppDist_0.1.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/RcppDist_0.1.1.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The 'Rcpp' package provides a C++ library to make it easier to use C++ with R. R and 'Rcpp' provide functions for a variety of statistical distributions. Several R packages make functions available to R for additional statistical distributions. However, to access these functions from C++ code, a costly call to the R functions must be made. 'RcppDist' provides a header-only C++ library with functions for additional statistical distributions that can be called from C++ when writing code using 'Rcpp' or 'RcppArmadillo'. Functions are available that return a 'NumericVector' as well as doubles, and for multivariate or matrix distributions, 'Armadillo' vectors and matrices. 'RcppDist' provides functions for the following distributions: the four parameter beta distribution; the location- scale t distribution; the truncated normal distribution; the truncated t distribution; a truncated location-scale t distribution; the triangle distribution; the multivariate normal distribution*; the multivariate t distribution*; the Wishart distribution*; and the inverse Wishart distribution*. Distributions marked with an asterisk rely on 'RcppArmadillo'.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1604941920,
+    "version": "0.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-rcppdist-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-rcppdist-0.1.1-r36h0d0afb2_0.tar.bz2",
+  "repodata": {
+    "build": "r36h0d0afb2_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=10.0.1",
+      "liblapack >=3.8.0,<4.0a0",
+      "r-base >=3.6,<3.7.0a0",
+      "r-rcpp",
+      "r-rcpparmadillo"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL3",
+    "md5": "130c914a382059055f5f31f810371360",
+    "name": "r-rcppdist",
+    "sha256": "9faa957da5bd5512563c8a95ddbc77bf4a783f2a2d9cdb87301227afa54bfe5c",
+    "size": 488971,
+    "subdir": "osx-64",
+    "timestamp": 1604941920446,
+    "version": "0.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/r-rcppdist-0.1.1-r36h0d0afb2_0.tar.bz2/r-rcppdist-0.1.1-r36h0d0afb2_0.tar.bz2"
+}
