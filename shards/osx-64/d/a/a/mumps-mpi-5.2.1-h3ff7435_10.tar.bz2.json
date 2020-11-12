@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MUMPS (MUltifrontal Massively Parallel Solver) is a package for solving systems of linear equations of the form Ax = b, where A is a square sparse matrix that can be either unsymmetric, symmetric positive definite, or general symmetric, on distributed memory computers. MUMPS implements a direct method based on a multifrontal approach which performs a Gaussian factorization.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "http://mumps.enseeiht.fr/index.php?page=doc",
+    "home": "http://mumps.enseeiht.fr/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CECILL-C",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.2.1": {
+        "weak": [
+          "mumps-mpi >=5.2.1,<5.2.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://mumps.enseeiht.fr/MUMPS_5.2.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "MUMPS: a parallel sparse direct solver",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1605191263,
+    "version": "5.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mumps-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mumps-mpi-5.2.1-h3ff7435_10.tar.bz2",
+  "repodata": {
+    "build": "h3ff7435_10",
+    "build_number": 10,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libgfortran 4.*",
+      "libgfortran4 >=7.5.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mumps-include 5.2.1 h694c41f_10",
+      "openmpi >=4.0.5,<4.1.0a0",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "ptscotch >=6.0.9,<6.1.0a0",
+      "scalapack >=2.0.2,<2.1.0a0",
+      "scotch >=6.0.9,<6.1.0a0"
+    ],
+    "license": "CECILL-C",
+    "md5": "3409977393f3e94ff739e2e50013437b",
+    "name": "mumps-mpi",
+    "sha256": "651109959fb9e2dc6282af359e64abb23331352305519d59f11951d0ac79f718",
+    "size": 3518198,
+    "subdir": "osx-64",
+    "timestamp": 1605191263603,
+    "version": "5.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/mumps-mpi-5.2.1-h3ff7435_10.tar.bz2/mumps-mpi-5.2.1-h3ff7435_10.tar.bz2"
+}
