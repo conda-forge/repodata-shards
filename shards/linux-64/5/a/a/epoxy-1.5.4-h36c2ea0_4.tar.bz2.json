@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Epoxy is a library for handling OpenGL function pointer management for you.  It hides the complexity of dlopen(), dlsym(), glXGetProcAddress(), eglGetProcAddress(), etc. from the app developer, with very little knowledge needed on their part. They get to read GL specs and write code using undecorated function names like glCompileShader().  Don't forget to check for your extensions or versions being present before you use them, just like before! We'll tell you what you forgot to check for instead of just segfaulting, though.",
+    "dev_url": "https://github.com/anholt/libepoxy",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/anholt/libepoxy",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.4": {
+        "weak": [
+          "epoxy >=1.5.4,<1.6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/anholt/libepoxy/releases/download/1.5.4/libepoxy-1.5.4.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A library for handling OpenGL function pointer management for you.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605163745,
+    "version": "1.5.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "epoxy-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "epoxy-1.5.4-h36c2ea0_4.tar.bz2",
+  "repodata": {
+    "build": "h36c2ea0_4",
+    "build_number": 4,
+    "depends": [
+      "libgcc-ng >=7.5.0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "1766b409ee27b14495889c946fdcb7c0",
+    "name": "epoxy",
+    "sha256": "909ecb3a3d73b36d8586ee375a83571b9a248a3927262fcdff4ecb4edc8eaf56",
+    "size": 1504138,
+    "subdir": "linux-64",
+    "timestamp": 1605163745876,
+    "version": "1.5.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/epoxy-1.5.4-h36c2ea0_4.tar.bz2/epoxy-1.5.4-h36c2ea0_4.tar.bz2"
+}
