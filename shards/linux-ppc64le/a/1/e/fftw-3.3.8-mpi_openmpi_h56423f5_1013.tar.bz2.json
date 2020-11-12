@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://fftw.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.3.8": {
+        "weak": [
+          "fftw",
+          "fftw * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.fftw.org/fftw-3.3.8.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "The fastest Fourier transform in the west.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605221357,
+    "version": "3.3.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fftw-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fftw-3.3.8-mpi_openmpi_h56423f5_1013.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h56423f5_1013",
+    "build_number": 1013,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "openmpi >=4.0.5,<4.1.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "639d93463c620975919476da7e0b89e7",
+    "name": "fftw",
+    "sha256": "20b14d89e18e0c677a08d2f99f7ee83e8a93fd15ecb21e7789facb039a68f261",
+    "size": 7851815,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1605221357574,
+    "version": "3.3.8"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/fftw-3.3.8-mpi_openmpi_h56423f5_1013.tar.bz2/fftw-3.3.8-mpi_openmpi_h56423f5_1013.tar.bz2"
+}
