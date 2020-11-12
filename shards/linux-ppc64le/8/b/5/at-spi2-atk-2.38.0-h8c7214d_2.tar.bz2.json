@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package includes libatk-bridge, a library that bridges ATK to the new D-Bus based AT-SPI, as well as a corresponding module for gtk+ 2.x. Gtk+ 3.x now links against libatk-bridge directly rather than requiring it to be loaded as a module.  These libraries depend on the at-spi2-core code that contains the daemon for registering applications, D-Bus helper libraries and the AT-SPI D-Bus specifications.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/at-spi2-atk",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.38.0": {
+        "weak": [
+          "at-spi2-atk >=2.38.0,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/at-spi2-atk/2.38/at-spi2-atk-2.38.0.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "bridge for AT-SPI and ATK accessibility technologies",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605168830,
+    "version": "2.38.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "at-spi2-atk-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "at-spi2-atk-2.38.0-h8c7214d_2.tar.bz2",
+  "repodata": {
+    "build": "h8c7214d_2",
+    "build_number": 2,
+    "depends": [
+      "at-spi2-core >=2.38.0,<2.39.0a0",
+      "atk-1.0 >=2.36.0",
+      "dbus >=1.13.6,<2.0a0",
+      "libgcc-ng >=8.4.0",
+      "libglib >=2.64.6,<3.0a0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "LGPL",
+    "md5": "e9eaa018d5d81dc66405d755d61d3f0b",
+    "name": "at-spi2-atk",
+    "sha256": "9db218f76fe9349145ca3b257abbfdfc9add010109d9705d1eab2fb2d2790c39",
+    "size": 345965,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1605168830044,
+    "version": "2.38.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/at-spi2-atk-2.38.0-h8c7214d_2.tar.bz2/at-spi2-atk-2.38.0-h8c7214d_2.tar.bz2"
+}
