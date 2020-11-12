@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "pyFAI is an azimuthal integration library that tries to be fast (as fast as C and even more using OpenCL and GPU). It is based on histogramming of the 2theta/Q positions of each (center of) pixel weighted by the intensity of each pixel, but parallel version uses a SparseMatrix-DenseVector multiplication. Neighboring output bins get also a contribution of pixels next to the border thanks to pixel splitting. Finally pyFAI provides also tools to calibrate the experimental setup using Debye-Scherrer rings of a reference compound.",
+    "dev_url": "https://github.com/silx-kit/pyFAI/",
+    "doc_source_url": null,
+    "doc_url": "http://www.silx.org/doc/pyFAI/latest/",
+    "home": "https://github.com/silx-kit/pyFAI/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pyFAI/pyFAI-0.19.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Python implementation of fast azimuthal integration",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605164154,
+    "version": "0.19.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyfai-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyfai-base-0.19.0-py38hcf432d8_3.tar.bz2",
+  "repodata": {
+    "build": "py38hcf432d8_3",
+    "build_number": 3,
+    "depends": [
+      "fabio",
+      "h5py",
+      "libcxx >=10.0.1",
+      "matplotlib-base",
+      "numexpr",
+      "numpy >=1.16.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "scipy",
+      "setuptools",
+      "silx-base"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "c6f11653c65ca324adfc3972f7a68dd2",
+    "name": "pyfai-base",
+    "sha256": "f1541c4b5e7767a1bcba2b5c190cc51f796c89e4e2c5b110a181a9df6fd9fb15",
+    "size": 3952021,
+    "subdir": "osx-64",
+    "timestamp": 1605164154823,
+    "version": "0.19.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/pyfai-base-0.19.0-py38hcf432d8_3.tar.bz2/pyfai-base-0.19.0-py38hcf432d8_3.tar.bz2"
+}
