@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "GTK is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK is suitable for projects ranging from small one-off projects to complete application suites.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/gtk",
+    "doc_source_url": null,
+    "doc_url": "https://developer.gnome.org/gtk3/",
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.24.23": {
+        "weak": [
+          "gtk3 >=3.24.23,<4.0a0",
+          "adwaita-icon-theme"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.23.tar.xz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Version 3 of the Gtk+ graphical toolkit",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605247052,
+    "version": "3.24.23"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gtk3-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gtk3-3.24.23-he3dc4e2_2.tar.bz2",
+  "repodata": {
+    "build": "he3dc4e2_2",
+    "build_number": 2,
+    "depends": [
+      "atk-1.0 >=2.36.0",
+      "cairo >=1.16.0,<1.17.0a0",
+      "epoxy >=1.5.4,<1.6.0a0",
+      "fribidi >=1.0.10,<2.0a0",
+      "gdk-pixbuf >=2.42.0,<3.0a0",
+      "glib",
+      "hicolor-icon-theme",
+      "libglib >=2.64.6,<3.0a0",
+      "libiconv >=1.16,<1.17.0a0",
+      "pango >=1.42.4,<1.43.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "LGPL-2.0-or-later",
+    "license_family": "LGPL",
+    "md5": "a8aefef1af01093fd6d22f91250eb1b5",
+    "name": "gtk3",
+    "sha256": "0d66064d7a5cfe4aeb0fa1beeb61b1f8b1cf0543d25c777abb0c668c2b1451f3",
+    "size": 9987553,
+    "subdir": "win-64",
+    "timestamp": 1605247052623,
+    "version": "3.24.23"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/gtk3-3.24.23-he3dc4e2_2.tar.bz2/gtk3-3.24.23-he3dc4e2_2.tar.bz2"
+}
