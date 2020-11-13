@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The libseccomp library provides an easy to use, platform independent, interface to the Linux Kernel's syscall filtering mechanism. The libseccomp API is designed to abstract away the underlying BPF based syscall filter language and present a more conventional function-call based filtering interface that should be familiar to, and easily adopted by, application developers.",
+    "dev_url": "https://github.com/seccomp/libseccomp",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/seccomp/libseccomp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.4": {
+        "weak": [
+          "libseccomp >=2.4.4,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/seccomp/libseccomp/releases/download/v2.4.4/libseccomp-2.4.4.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "libseccomp provides an easy to use, platform independent, interface to the Linux syscall filtering mechanism.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605254681,
+    "version": "2.4.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "seccomp-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libseccomp-2.4.4-hb9de7d4_0.tar.bz2",
+  "repodata": {
+    "build": "hb9de7d4_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=7.5.0"
+    ],
+    "license": "LGPL-2.1-only",
+    "md5": "2faa75d058420bada5e5875b2d50ec9a",
+    "name": "libseccomp",
+    "sha256": "88c44893c89a229c435b39bb2844e29af85ea10227fc4a571998ff7a421399d9",
+    "size": 115254,
+    "subdir": "linux-aarch64",
+    "timestamp": 1605254681916,
+    "version": "2.4.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/regro/releases/releases/download/linux-aarch64/libseccomp-2.4.4-hb9de7d4_0.tar.bz2/libseccomp-2.4.4-hb9de7d4_0.tar.bz2"
+}
