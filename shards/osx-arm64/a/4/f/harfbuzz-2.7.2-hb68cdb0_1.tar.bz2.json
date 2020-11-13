@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "HarfBuzz is a text shaping library. New Harbuzz targets various font technologies while Old HarfBuzz targets only OpenType fonts.",
+    "dev_url": "https://github.com/behdad/harfbuzz",
+    "doc_source_url": null,
+    "doc_url": "https://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "home": "http://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.2": {
+        "weak": [
+          "harfbuzz >=2.7.2,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/harfbuzz/harfbuzz/archive/2.7.2.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "An OpenType text shaping engine.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605276990,
+    "version": "2.7.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "harfbuzz-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "harfbuzz-2.7.2-hb68cdb0_1.tar.bz2",
+  "repodata": {
+    "build": "hb68cdb0_1",
+    "build_number": 1,
+    "depends": [
+      "cairo >=1.16.0,<1.17.0a0",
+      "freetype >=2.10.4,<3.0a0",
+      "graphite2",
+      "icu >=67.1,<68.0a0",
+      "libcxx >=11.0.0",
+      "libglib >=2.66.2,<3.0a0"
+    ],
+    "license": "MIT",
+    "md5": "71838f29fdfb5e2be306204f8bb74c29",
+    "name": "harfbuzz",
+    "sha256": "569b0ca3b2ae2d8d48c10bfcafba7e0af95516f3ef459b63973e11f76cba8641",
+    "size": 1502105,
+    "subdir": "osx-arm64",
+    "timestamp": 1605276990454,
+    "version": "2.7.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/regro/releases/releases/download/osx-arm64/harfbuzz-2.7.2-hb68cdb0_1.tar.bz2/harfbuzz-2.7.2-hb68cdb0_1.tar.bz2"
+}
