@@ -21,40 +21,50 @@
     "source_git_url": null,
     "source_url": "https://github.com/matplotlib/matplotlib/archive/v3.3.3.tar.gz",
     "subdirs": [
-      "win-64"
+      "linux-aarch64"
     ],
     "summary": "Publication quality figures in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1605255188,
+    "timestamp": 1605255230,
     "version": "3.3.3"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "matplotlib-feedstock",
   "labels": [
     "testing"
   ],
-  "package": "matplotlib-3.3.3-py39h5c5d824_200.tar.bz2",
+  "package": "matplotlib-base-3.3.3-py38h017c906_200.tar.bz2",
   "repodata": {
-    "build": "py39h5c5d824_200",
+    "build": "py38h017c906_200",
     "build_number": 200,
     "depends": [
-      "matplotlib-base >=3.3.3,<3.3.4.0a0",
-      "pyqt",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39"
+      "certifi >=2020.06.20",
+      "cycler >=0.10",
+      "kiwisolver >=1.0.1",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "numpy >=1.16.5,<2.0a0",
+      "pillow >=6.2.0",
+      "pyparsing >=2.0.3,!=2.0.4,!=2.1.2,!=2.1.6",
+      "python >=3.8,<3.9.0a0",
+      "python-dateutil >=2.1",
+      "python_abi 3.8.* *_cp38",
+      "setuptools",
+      "tk >=8.6.10,<8.7.0a0",
+      "tornado"
     ],
     "license": "LicenseRef-PSF-based",
     "license_family": "PSF",
-    "md5": "56c0564a268253d7b32a2b140c10c318",
-    "name": "matplotlib",
-    "sha256": "fd9f75a49df33355753ac0cbbc207e595dc80b74cdb2857c485db27903bf1acb",
-    "size": 1763369,
-    "subdir": "win-64",
-    "timestamp": 1605255188322,
+    "md5": "557c7cff4b164f915b0826159c828d07",
+    "name": "matplotlib-base",
+    "sha256": "5fee294a8bedb2e3a193f989715e2aabd8c7431daf64dc5e65e014fe70f088f5",
+    "size": 9179620,
+    "subdir": "linux-aarch64",
+    "timestamp": 1605255230549,
     "version": "3.3.3"
   },
   "repodata_version": 1,
-  "subdir": "win-64",
-  "url": "https://github.com/regro/releases/releases/download/win-64/matplotlib-3.3.3-py39h5c5d824_200.tar.bz2/matplotlib-3.3.3-py39h5c5d824_200.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/regro/releases/releases/download/linux-aarch64/matplotlib-base-3.3.3-py38h017c906_200.tar.bz2/matplotlib-base-3.3.3-py38h017c906_200.tar.bz2"
 }
