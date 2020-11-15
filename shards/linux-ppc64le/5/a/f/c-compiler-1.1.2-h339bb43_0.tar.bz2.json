@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the C compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('c') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A metapackage to obtain a C compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1605474558,
+    "version": "1.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "c-compiler-1.1.2-h339bb43_0.tar.bz2",
+  "repodata": {
+    "build": "h339bb43_0",
+    "build_number": 0,
+    "depends": [
+      "binutils",
+      "gcc_linux-ppc64le 8.*",
+      "libgcc-ng >=8.4.0"
+    ],
+    "license": "BSD",
+    "md5": "2f213d0c37ba3977e84a8e90d07679c8",
+    "name": "c-compiler",
+    "sha256": "33d3c52b93f0faacdeb2c7ca10f0379e1e0f546c54209b03264d9a779ec377a2",
+    "size": 6574,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1605474558685,
+    "version": "1.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/c-compiler-1.1.2-h339bb43_0.tar.bz2/c-compiler-1.1.2-h339bb43_0.tar.bz2"
+}
