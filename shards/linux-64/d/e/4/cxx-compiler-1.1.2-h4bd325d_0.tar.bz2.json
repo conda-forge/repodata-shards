@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the C++ compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('cxx') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A metapackage to obtain a C++ compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1605474539,
+    "version": "1.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cxx-compiler-1.1.2-h4bd325d_0.tar.bz2",
+  "repodata": {
+    "build": "h4bd325d_0",
+    "build_number": 0,
+    "depends": [
+      "c-compiler 1.1.2 h7f98852_0",
+      "gxx_linux-64 9.*",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "BSD",
+    "md5": "3e6996f0783b6aafcfe3610a151f79b3",
+    "name": "cxx-compiler",
+    "sha256": "a475c44e0173749fa71f6f7ae0a84f5910fd8214cb51125d6dcc26bfef46bb4b",
+    "size": 5644,
+    "subdir": "linux-64",
+    "timestamp": 1605474539595,
+    "version": "1.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/cxx-compiler-1.1.2-h4bd325d_0.tar.bz2/cxx-compiler-1.1.2-h4bd325d_0.tar.bz2"
+}
