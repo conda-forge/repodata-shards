@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the Fortran compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('fortran') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "A metapackage to obtain a Fortran compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1605474453,
+    "version": "1.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fortran-compiler-1.1.2-h074f5a3_0.tar.bz2",
+  "repodata": {
+    "build": "h074f5a3_0",
+    "build_number": 0,
+    "depends": [
+      "binutils",
+      "gfortran_linux-aarch64 9.*",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0"
+    ],
+    "license": "BSD",
+    "md5": "919944214583835a166db9c54dc3378e",
+    "name": "fortran-compiler",
+    "sha256": "4c4375ef3739375e8deedad1f5509198bdfb788f61194c06dbfc8376398e424e",
+    "size": 6539,
+    "subdir": "linux-aarch64",
+    "timestamp": 1605474453137,
+    "version": "1.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/regro/releases/releases/download/linux-aarch64/fortran-compiler-1.1.2-h074f5a3_0.tar.bz2/fortran-compiler-1.1.2-h074f5a3_0.tar.bz2"
+}
