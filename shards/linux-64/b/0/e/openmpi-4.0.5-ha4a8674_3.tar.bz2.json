@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners.",
+    "dev_url": "https://github.com/open-mpi/ompi",
+    "doc_source_url": null,
+    "doc_url": "https://www.open-mpi.org/doc/",
+    "home": "https://www.open-mpi.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.0.5": {
+        "weak": [
+          "openmpi >=4.0.5,<4.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.open-mpi.org/software/ompi/v4.0/downloads/openmpi-4.0.5.tar.bz2",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "An open source Message Passing Interface implementation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605615994,
+    "version": "4.0.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmpi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmpi-4.0.5-ha4a8674_3.tar.bz2",
+  "repodata": {
+    "build": "ha4a8674_3",
+    "build_number": 3,
+    "constrains": [
+      "cudatoolkit >=9.2"
+    ],
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng",
+      "libgfortran4 >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "mpi 1.0 openmpi",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "77440772686ee3923a1969bd3674b0f5",
+    "name": "openmpi",
+    "sha256": "a55ad30fcf79ec9b358157c4e2b10caa43916a98447399874d5a1aca3b73dc2b",
+    "size": 4125928,
+    "subdir": "linux-64",
+    "timestamp": 1605615994826,
+    "version": "4.0.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/openmpi-4.0.5-ha4a8674_3.tar.bz2/openmpi-4.0.5-ha4a8674_3.tar.bz2"
+}
