@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Simulation Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Simulation library. If you want to install the Python bindings, please install the associated python-lalsimulation package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalsimulation/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.0": {
+        "weak": [
+          "lalsimulation >=2.3.0,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalsimulation-2.3.0.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Simulation Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605626674,
+    "version": "2.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalsimulation-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lalsimulation-2.3.0-h64fcd52_1.tar.bz2",
+  "repodata": {
+    "build": "h64fcd52_1",
+    "build_number": 1,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "gsl >=2.6,<2.7.0a0",
+      "lal >=7.1.0",
+      "lal >=7.1.0,<8.0a0",
+      "libgcc-ng >=7.5.0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "f14a7cb8003bcfe26f80c38107b6a377",
+    "name": "lalsimulation",
+    "sha256": "17354d242a80208cec9683a45d93cf1fb5d29999ffa18893dde570d6c1973689",
+    "size": 24158348,
+    "subdir": "linux-64",
+    "timestamp": 1605626674104,
+    "version": "2.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/lalsimulation-2.3.0-h64fcd52_1.tar.bz2/lalsimulation-2.3.0-h64fcd52_1.tar.bz2"
+}
