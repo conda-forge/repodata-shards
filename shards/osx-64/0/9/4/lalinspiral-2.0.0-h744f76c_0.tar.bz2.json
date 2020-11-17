@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Inspiral Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Inspiral library.  If you want to install the Python bindings, please install the associated python-lalinspiral package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalinspiral/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.0": {
+        "weak": [
+          "lalinspiral >=2.0.0,<2.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalinspiral-2.0.0.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Inspiral Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605626905,
+    "version": "2.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalinspiral-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lalinspiral-2.0.0-h744f76c_0.tar.bz2",
+  "repodata": {
+    "build": "h744f76c_0",
+    "build_number": 0,
+    "depends": [
+      "gsl >=2.6,<2.7.0a0",
+      "lal >=7.1.0",
+      "lal >=7.1.0,<8.0a0",
+      "lalframe >=1.5.0",
+      "lalframe >=1.5.2,<2.0a0",
+      "lalmetaio >=2.0.0",
+      "lalmetaio >=2.0.0,<3.0a0",
+      "lalsimulation >=2.3.0",
+      "lalsimulation >=2.3.0,<3.0a0",
+      "metaio"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "fb61cf12170f34bdef61b1450c5ffc7b",
+    "name": "lalinspiral",
+    "sha256": "1bc6eaf05c7ce33fad014b91fc9a0903b1c38d1105ce843aa601fa9b743420e2",
+    "size": 1680898,
+    "subdir": "osx-64",
+    "timestamp": 1605626905381,
+    "version": "2.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/lalinspiral-2.0.0-h744f76c_0.tar.bz2/lalinspiral-2.0.0-h744f76c_0.tar.bz2"
+}
