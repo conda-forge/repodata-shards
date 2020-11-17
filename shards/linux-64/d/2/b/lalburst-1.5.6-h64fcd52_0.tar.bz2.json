@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Burst Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Burst library.  If you want to install the Python bindings, please install the associated python-lalburst package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalburst/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.6": {
+        "weak": [
+          "lalburst >=1.5.6,<1.6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalburst-1.5.6.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Burst Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605618347,
+    "version": "1.5.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalburst-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lalburst-1.5.6-h64fcd52_0.tar.bz2",
+  "repodata": {
+    "build": "h64fcd52_0",
+    "build_number": 0,
+    "depends": [
+      "gsl >=2.6,<2.7.0a0",
+      "lal >=7.1.0",
+      "lal >=7.1.0,<8.0a0",
+      "lalmetaio >=2.0.0",
+      "lalmetaio >=2.0.0,<3.0a0",
+      "lalsimulation >=2.3.0",
+      "lalsimulation >=2.3.0,<3.0a0",
+      "libgcc-ng >=7.5.0",
+      "metaio"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "16e0d75d9c56b8c3cfb6438910089a3b",
+    "name": "lalburst",
+    "sha256": "1b5e6ee9a17ebce729203ff1b585c50045d3b3736d1f7744f5cb7aebade883a6",
+    "size": 202297,
+    "subdir": "linux-64",
+    "timestamp": 1605618347889,
+    "version": "1.5.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/lalburst-1.5.6-h64fcd52_0.tar.bz2/lalburst-1.5.6-h64fcd52_0.tar.bz2"
+}
