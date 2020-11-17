@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners.",
+    "dev_url": "https://github.com/open-mpi/ompi",
+    "doc_source_url": null,
+    "doc_url": "https://www.open-mpi.org/doc/",
+    "home": "https://www.open-mpi.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.0.5": {
+        "weak": [
+          "openmpi >=4.0.5,<4.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.open-mpi.org/software/ompi/v4.0/downloads/openmpi-4.0.5.tar.bz2",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "An open source Message Passing Interface implementation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605616945,
+    "version": "4.0.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmpi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmpi-4.0.5-h385ff2b_3.tar.bz2",
+  "repodata": {
+    "build": "h385ff2b_3",
+    "build_number": 3,
+    "depends": [
+      "libcxx >=11.0.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.0.dev0",
+      "mpi 1.0 openmpi",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "c15da3ab46b750d289dff8eff7be719c",
+    "name": "openmpi",
+    "sha256": "5463048268002ad4804ac711fe8e2c44ea56b21abd11e00e03cf31d078ad081f",
+    "size": 3178062,
+    "subdir": "osx-arm64",
+    "timestamp": 1605616945064,
+    "version": "4.0.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/regro/releases/releases/download/osx-arm64/openmpi-4.0.5-h385ff2b_3.tar.bz2/openmpi-4.0.5-h385ff2b_3.tar.bz2"
+}
