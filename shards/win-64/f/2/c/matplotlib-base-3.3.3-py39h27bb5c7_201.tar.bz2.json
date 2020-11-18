@@ -21,40 +21,49 @@
     "source_git_url": null,
     "source_url": "https://github.com/matplotlib/matplotlib/archive/v3.3.3.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Publication quality figures in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1605661515,
+    "timestamp": 1605661820,
     "version": "3.3.3"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "matplotlib-feedstock",
   "labels": [
     "testing"
   ],
-  "package": "matplotlib-3.3.3-py36h2ac9014_201.tar.bz2",
+  "package": "matplotlib-base-3.3.3-py39h27bb5c7_201.tar.bz2",
   "repodata": {
-    "build": "py36h2ac9014_201",
+    "build": "py39h27bb5c7_201",
     "build_number": 201,
     "depends": [
-      "matplotlib-base >=3.3.3,<3.3.4.0a0",
-      "pypy3.6 >=7.3.2",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73"
+      "certifi >=2020.06.20",
+      "cycler >=0.10",
+      "kiwisolver >=1.0.1",
+      "numpy >=1.19.4,<2.0a0",
+      "pillow >=6.2.0",
+      "pyparsing >=2.0.3,!=2.0.4,!=2.1.2,!=2.1.6",
+      "python >=3.9,<3.10.0a0",
+      "python-dateutil >=2.1",
+      "python_abi 3.9.* *_cp39",
+      "setuptools",
+      "tornado",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "LicenseRef-PSF-based",
     "license_family": "PSF",
-    "md5": "eeddff3305734f790f50cae8c6d9ebab",
-    "name": "matplotlib",
-    "sha256": "ed3e11bd930542fbb31c5bc08331714c23b7b9e19f704b4c7f55d242d81f0483",
-    "size": 1764388,
-    "subdir": "linux-64",
-    "timestamp": 1605661515961,
+    "md5": "fd3ab5beca9ab70d8b47c29a7390ac8a",
+    "name": "matplotlib-base",
+    "sha256": "7d76c576530eb457beb53fde281c0deb9352dd9b9469aa739e3fcfce9b67d7e2",
+    "size": 9150569,
+    "subdir": "win-64",
+    "timestamp": 1605661820412,
     "version": "3.3.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/matplotlib-3.3.3-py36h2ac9014_201.tar.bz2/matplotlib-3.3.3-py36h2ac9014_201.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/regro/releases/releases/download/win-64/matplotlib-base-3.3.3-py39h27bb5c7_201.tar.bz2/matplotlib-base-3.3.3-py39h27bb5c7_201.tar.bz2"
 }
