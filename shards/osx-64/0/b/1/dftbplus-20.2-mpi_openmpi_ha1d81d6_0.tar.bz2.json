@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/dftbplus/dftbplus",
+    "doc_source_url": null,
+    "doc_url": "https://dftbplus-recipes.readthedocs.io",
+    "home": "https://dftbplus.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "20.2": {
+        "weak": [
+          "dftbplus * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/dftbplus/dftbplus/archive/20.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "DFTB+ general package for performing fast atomistic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605696627,
+    "version": "20.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dftbplus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dftbplus-20.2-mpi_openmpi_ha1d81d6_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_ha1d81d6_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "llvm-openmp >=11.0.0",
+      "mpifx * mpi_openmpi_*",
+      "mpifx >=1.0,<1.1.0a0 mpi_openmpi_*",
+      "openmpi >=4.0,<4.1.0a0",
+      "scalapack",
+      "scalapackfx * mpi_openmpi_*",
+      "scalapackfx >=1.0.1,<1.1.0a0 mpi_openmpi_*"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "c26347d80050bc8b893240943f5fd2c1",
+    "name": "dftbplus",
+    "sha256": "180d798a5c90f91ff4eee7fb157a831d939adf159c951a73fd4f37f15154f7f8",
+    "size": 6975737,
+    "subdir": "osx-64",
+    "timestamp": 1605696627991,
+    "version": "20.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/dftbplus-20.2-mpi_openmpi_ha1d81d6_0.tar.bz2/dftbplus-20.2-mpi_openmpi_ha1d81d6_0.tar.bz2"
+}
