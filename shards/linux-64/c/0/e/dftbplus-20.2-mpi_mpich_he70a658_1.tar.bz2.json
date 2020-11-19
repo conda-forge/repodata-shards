@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/dftbplus/dftbplus",
+    "doc_source_url": null,
+    "doc_url": "https://dftbplus-recipes.readthedocs.io",
+    "home": "https://dftbplus.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "20.2": {
+        "weak": [
+          "dftbplus * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/dftbplus/dftbplus/archive/20.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "DFTB+ general package for performing fast atomistic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605791915,
+    "version": "20.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dftbplus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dftbplus-20.2-mpi_mpich_he70a658_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_he70a658_1",
+    "build_number": 1,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng",
+      "libgfortran4 >=7.5.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "mpich >=3.3,<3.4.0a0",
+      "mpifx * mpi_mpich_*",
+      "mpifx >=1.0,<1.1.0a0 mpi_mpich_*",
+      "scalapack",
+      "scalapackfx * mpi_mpich_*",
+      "scalapackfx >=1.0.1,<1.1.0a0 mpi_mpich_*"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "cae47cb70221958f261dbdc2be35433b",
+    "name": "dftbplus",
+    "sha256": "2a9ec9d6e8f09503024f41aeaf8c5300f41cb82fffb28886259ae460b83c5186",
+    "size": 10743697,
+    "subdir": "linux-64",
+    "timestamp": 1605791915755,
+    "version": "20.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/dftbplus-20.2-mpi_mpich_he70a658_1.tar.bz2/dftbplus-20.2-mpi_mpich_he70a658_1.tar.bz2"
+}
