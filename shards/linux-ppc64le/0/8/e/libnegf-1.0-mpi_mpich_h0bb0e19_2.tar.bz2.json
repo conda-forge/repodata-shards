@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/libnegf/libnegf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0": {
+        "weak": [
+          "libnegf * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/libnegf/libnegf/archive/v1.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A general library for Non Equilibrium Green's Functions",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1605783757,
+    "version": "1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libnegf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libnegf-1.0-mpi_mpich_h0bb0e19_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h0bb0e19_2",
+    "build_number": 2,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=8.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=8.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "mpich >=3.3,<3.4.0a0",
+      "mpifx * mpi_mpich_*",
+      "mpifx >=1.0,<2.0a0 mpi_mpich_*"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "md5": "b3a08fa0264388678007e8c96e8b9532",
+    "name": "libnegf",
+    "sha256": "118a4118d4b904d9944c60665dc50da18d0df2eb92f24b5638ccd9cdd738dcad",
+    "size": 828970,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1605783757601,
+    "version": "1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/regro/releases/releases/download/linux-ppc64le/libnegf-1.0-mpi_mpich_h0bb0e19_2.tar.bz2/libnegf-1.0-mpi_mpich_h0bb0e19_2.tar.bz2"
+}
