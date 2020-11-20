@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.",
+    "dev_url": "https://wiki.mpich.org/mpich/index.php/Main_Page",
+    "doc_source_url": null,
+    "doc_url": "http://www.mpich.org/documentation/guides",
+    "home": "http://www.mpich.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-MPICH",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.3.2": {
+        "weak": [
+          "mpich >=3.3.2,<3.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.mpich.org/static/downloads/3.3.2/mpich-3.3.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A high performance widely portable implementation of the MPI standard.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1605916160,
+    "version": "3.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mpich-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mpich-3.3.2-h846660c_5.tar.bz2",
+  "repodata": {
+    "build": "h846660c_5",
+    "build_number": 5,
+    "depends": [
+      "libgcc-ng >=7.5.0",
+      "libgfortran-ng",
+      "libgfortran4 >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "mpi 1.0 mpich"
+    ],
+    "license": "LicenseRef-MPICH",
+    "license_family": "Other",
+    "md5": "c4111e3b266aa12eda8e130ab054de51",
+    "name": "mpich",
+    "sha256": "9305f3d8318c772eabbe2306517fd0b9cccd88b311ff849db1d961f075b338c8",
+    "size": 6700117,
+    "subdir": "linux-64",
+    "timestamp": 1605916160009,
+    "version": "3.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/mpich-3.3.2-h846660c_5.tar.bz2/mpich-3.3.2-h846660c_5.tar.bz2"
+}
