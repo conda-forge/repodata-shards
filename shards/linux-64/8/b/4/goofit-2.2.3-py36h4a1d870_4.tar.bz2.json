@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GooFit is split into GPU and CPU versions on Linux. If you want to install for gpus, you can do:  ```bash conda install goofit goofit-proc=*=gpu ```  You can add `cudatoolkit=10.0` or `9.2` if you want a specific toolkit version.  The OpenMP CPU version is default, but can be explicitly requested with:  ```bash conda install goofit goofit-proc=*=cpu ```",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/GooFit/GooFit",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/g/goofit/goofit-2.2.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A fitting package for GPU and CPU",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1606325682,
+    "version": "2.2.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "goofit-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "goofit-2.2.3-py36h4a1d870_4.tar.bz2",
+  "repodata": {
+    "build": "py36h4a1d870_4",
+    "build_number": 4,
+    "constrains": [
+      "goofit-proc * gpu"
+    ],
+    "depends": [
+      "cudatoolkit 10.0|10.0.*",
+      "libgcc-ng >=7.5.0",
+      "libgomp",
+      "libstdcxx-ng >=7.5.0",
+      "numpy >=1.11.1",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "LGPL",
+    "md5": "70cc4d4ce4d884d9534f7e493ceebd09",
+    "name": "goofit",
+    "sha256": "48c180b3e36dd12b4f35e4c784598e6a62f760a6196183b30db6aae8b89a634c",
+    "size": 19220413,
+    "subdir": "linux-64",
+    "timestamp": 1606325682494,
+    "version": "2.2.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/goofit-2.2.3-py36h4a1d870_4.tar.bz2/goofit-2.2.3-py36h4a1d870_4.tar.bz2"
+}
