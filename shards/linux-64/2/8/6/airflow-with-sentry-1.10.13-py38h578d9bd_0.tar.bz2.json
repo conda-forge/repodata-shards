@@ -26,7 +26,7 @@
     "summary": "Airflow is a platform to programmatically author, schedule and monitor workflows",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1606403410,
+    "timestamp": 1606403697,
     "version": "1.10.13"
   },
   "channeldata_version": 1,
@@ -34,26 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "airflow-with-hashicorp-1.10.13-py36h5fab9bb_0.tar.bz2",
+  "package": "airflow-with-sentry-1.10.13-py38h578d9bd_0.tar.bz2",
   "repodata": {
-    "build": "py36h5fab9bb_0",
+    "build": "py38h578d9bd_0",
     "build_number": 0,
     "depends": [
       "airflow >=1.10.13,<1.10.14.0a0",
-      "hvac >=0.10.0,<0.11.0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m"
+      "blinker >=1.1",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "sentry-sdk >=0.8.0"
     ],
     "license": "Apache-2.0",
-    "md5": "3b1d9e1c5f01f2d0202a88c9b567754b",
-    "name": "airflow-with-hashicorp",
-    "sha256": "d7a8c54647d07bd39904f181d84e011921245414242291aae1197654b7560809",
-    "size": 13541,
+    "md5": "384e6a3e1de53a552028e590351d8d8b",
+    "name": "airflow-with-sentry",
+    "sha256": "ef1e65d0aec8e49a86f8c2ba96be36c10cf62334d351bd8bb3150f9fad3460fb",
+    "size": 13514,
     "subdir": "linux-64",
-    "timestamp": 1606403410051,
+    "timestamp": 1606403697517,
     "version": "1.10.13"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/airflow-with-hashicorp-1.10.13-py36h5fab9bb_0.tar.bz2/airflow-with-hashicorp-1.10.13-py36h5fab9bb_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/airflow-with-sentry-1.10.13-py38h578d9bd_0.tar.bz2"
 }
