@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java. The language provides constructs intended to enable clear programs on both a small and large scale.",
     "dev_url": "https://docs.python.org/devguide/",
@@ -17,56 +17,41 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {
-      "3.9.1rc1": {
-        "noarch": [
-          "python"
-        ],
-        "weak": [
-          "python_abi 3.9.* *_cp39"
-        ]
-      }
-    },
+    "run_exports": {},
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "win-64"
+      "osx-64"
     ],
     "summary": "General purpose programming language",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1606602476,
+    "timestamp": 1606602890,
     "version": "3.9.1rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "python-feedstock",
   "labels": [
     "python_rc"
   ],
-  "package": "python-3.9.1rc1-h2195cdb_1_cpython.tar.bz2",
+  "package": "libpython-static-3.9.1rc1-h65833ad_1_cpython.tar.bz2",
   "repodata": {
-    "build": "h2195cdb_1_cpython",
+    "build": "h65833ad_1_cpython",
     "build_number": 1,
-    "constrains": [
-      "python_abi 3.9.* *_cp39"
-    ],
     "depends": [
-      "openssl >=1.1.1h,<1.1.2a",
-      "sqlite >=3.33.0,<4.0a0",
-      "tzdata",
-      "vc >=14.1,<15.0a0",
-      "vs2015_runtime >=14.16.27012"
+      "libcxx >=11.0.0",
+      "python >=3.9,<3.10.0a0 hdc0d7c7_1_cpython"
     ],
     "license": "Python-2.0",
-    "md5": "771667261361e60382a7fcd7e0e407d4",
-    "name": "python",
-    "sha256": "1fa533199fe820f0bfe5849359d5219df1dd659591cc9774a052322bb2893126",
-    "size": 20801922,
-    "subdir": "win-64",
-    "timestamp": 1606602476084,
+    "md5": "4a35fe4419145a01a5d2b02173674b21",
+    "name": "libpython-static",
+    "sha256": "53b6bd7b26322930b9381fb2bcbe30764bacc074ef43c91f45d1b040829440d5",
+    "size": 23261177,
+    "subdir": "osx-64",
+    "timestamp": 1606602890940,
     "version": "3.9.1rc1"
   },
   "repodata_version": 1,
-  "subdir": "win-64",
-  "url": "https://github.com/regro/releases/releases/download/win-64/python-3.9.1rc1-h2195cdb_1_cpython.tar.bz2/python-3.9.1rc1-h2195cdb_1_cpython.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/libpython-static-3.9.1rc1-h65833ad_1_cpython.tar.bz2/libpython-static-3.9.1rc1-h65833ad_1_cpython.tar.bz2"
 }
