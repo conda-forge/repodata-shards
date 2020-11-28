@@ -17,16 +17,7 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {
-      "3.9.1rc1": {
-        "noarch": [
-          "python"
-        ],
-        "weak": [
-          "python_abi 3.9.* *_cp39"
-        ]
-      }
-    },
+    "run_exports": {},
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
@@ -34,46 +25,34 @@
     ],
     "summary": "General purpose programming language",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1606603317,
+    "text_prefix": false,
+    "timestamp": 1606603434,
     "version": "3.9.1rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "python-feedstock",
   "labels": [
     "python_rc"
   ],
-  "package": "python-3.9.1rc1-h20562ce_1_cpython.tar.bz2",
+  "package": "libpython-static-3.9.1rc1-h4e327cf_1_cpython.tar.bz2",
   "repodata": {
-    "build": "h20562ce_1_cpython",
+    "build": "h4e327cf_1_cpython",
     "build_number": 1,
-    "constrains": [
-      "python_abi 3.9.* *_cp39"
-    ],
     "depends": [
-      "ld_impl_linux-64",
-      "libffi >=3.3,<3.4.0a0",
       "libgcc-ng >=9.3.0",
       "libstdcxx-ng >=9.3.0",
-      "ncurses >=6.2,<6.3.0a0",
-      "openssl >=1.1.1h,<1.1.2a",
-      "readline >=8.0,<9.0a0",
-      "sqlite >=3.33.0,<4.0a0",
-      "tk >=8.6.10,<8.7.0a0",
-      "tzdata",
-      "xz >=5.2.5,<5.3.0a0",
-      "zlib >=1.2.11,<1.3.0a0"
+      "python >=3.9,<3.10.0a0 h20562ce_1_cpython"
     ],
     "license": "Python-2.0",
-    "md5": "a70195492a967ab4aadb9ca40412ba94",
-    "name": "python",
-    "sha256": "26a80d8f51f2dbc6af3784790d99e3c4d4b5f0463717e233dcc462360085488c",
-    "size": 28681253,
+    "md5": "b8ebc6b0bca50ff7a63e4538455b6871",
+    "name": "libpython-static",
+    "sha256": "0da904f52239a89a86ada454119bb4730c6ad1bf8a079296dd3fe675711119d8",
+    "size": 73407061,
     "subdir": "linux-64",
-    "timestamp": 1606603317207,
+    "timestamp": 1606603434663,
     "version": "3.9.1rc1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/regro/releases/releases/download/linux-64/python-3.9.1rc1-h20562ce_1_cpython.tar.bz2/python-3.9.1rc1-h20562ce_1_cpython.tar.bz2"
+  "url": "https://github.com/regro/releases/releases/download/linux-64/libpython-static-3.9.1rc1-h4e327cf_1_cpython.tar.bz2/libpython-static-3.9.1rc1-h4e327cf_1_cpython.tar.bz2"
 }
