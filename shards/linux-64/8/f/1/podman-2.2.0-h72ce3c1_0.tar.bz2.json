@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Podman (the POD MANager) is a tool for managing containers and images, volumes mounted into those containers, and pods made from groups of containers. Podman is based on libpod, a library for container lifecycle management that is also contained in this repository. The libpod library provides APIs for managing containers, pods, container images, and volumes.",
+    "dev_url": "https://github.com/containers/podman",
+    "doc_source_url": null,
+    "doc_url": "https://docs.podman.io/en/latest/",
+    "home": "https://podman.io/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/containers/podman/archive/v2.2.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Podman: A tool for managing OCI containers and pods.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1606855558,
+    "version": "2.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "podman-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "podman-2.2.0-h72ce3c1_0.tar.bz2",
+  "repodata": {
+    "build": "h72ce3c1_0",
+    "build_number": 0,
+    "depends": [
+      "cni-plugins",
+      "conmon",
+      "containers-common",
+      "gpgme >=1.15.0,<1.16.0a0",
+      "libassuan >=2.5.3,<3.0a0",
+      "libgcc-ng >=9.3.0",
+      "libglib >=2.64.6,<3.0a0",
+      "libgpg-error >=1.39,<2.0a0",
+      "libseccomp >=2.4.4,<3.0a0",
+      "runc",
+      "slirp4netns"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "17ae84f8a11dc6202e5b6470d65479b5",
+    "name": "podman",
+    "sha256": "8f7ce2b64876d1fe33d5d35a58fe84a3f64b929f0d05f43bce757ebdb9c9e80c",
+    "size": 40980151,
+    "subdir": "linux-64",
+    "timestamp": 1606855558763,
+    "version": "2.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/podman-2.2.0-h72ce3c1_0.tar.bz2/podman-2.2.0-h72ce3c1_0.tar.bz2"
+}
