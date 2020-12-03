@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Heaptrack traces all memory allocations and annotates these events with stack traces. Dedicated analysis tools then allow you to interpret the heap memory profile to:   find hotspots that need to be optimized to reduce the memory footprint of your application   find memory leaks, i.e. locations that allocate memory which is never deallocated   find allocation hotspots, i.e. code locations that trigger a lot of memory allocation calls   find temporary allocations, which are allocations that are directly followed by their deallocation",
+    "dev_url": "https://github.com/KDE/heaptrack",
+    "doc_source_url": null,
+    "doc_url": "https://userbase.kde.org/Heaptrack",
+    "home": "https://github.com/KDE/heaptrack",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/KDE/heaptrack/archive/v1.2.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "heaptrack - a heap memory profiler for Linux",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1607027258,
+    "version": "1.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "heaptrack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "heaptrack-1.2.0-h1b472f0_1.tar.bz2",
+  "repodata": {
+    "build": "h1b472f0_1",
+    "build_number": 1,
+    "depends": [
+      "boost-cpp >=1.72.0,<1.72.1.0a0",
+      "elfutils",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "libunwind >=1.4.0,<2.0a0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "md5": "77bf57f4cf8a3d0858b3ff11074227f8",
+    "name": "heaptrack",
+    "sha256": "f331a2b214f13b1e05372523aae365092558385fc328a85b6484922e314d6355",
+    "size": 2645054,
+    "subdir": "linux-64",
+    "timestamp": 1607027258356,
+    "version": "1.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/heaptrack-1.2.0-h1b472f0_1.tar.bz2/heaptrack-1.2.0-h1b472f0_1.tar.bz2"
+}
