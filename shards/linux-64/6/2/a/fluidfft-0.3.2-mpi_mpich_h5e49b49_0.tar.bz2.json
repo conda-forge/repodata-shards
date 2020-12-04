@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Fluidfft provides C++ classes and their Python wrapper classes written in Cython useful to perform Fast Fourier Transform (FFT) with different libraries",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://fluidfft.readthedocs.io",
+    "home": "https://foss.heptapod.net/fluiddyn/fluidfft",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-CeCILL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.2": {
+        "weak": [
+          "fluidfft * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fluidfft/fluidfft-0.3.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1607089666,
+    "version": "0.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fluidfft-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fluidfft-0.3.2-mpi_mpich_h5e49b49_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h5e49b49_0",
+    "build_number": 0,
+    "depends": [
+      "fftw >=3.3.8,<4.0a0",
+      "fftw >=3.3.8,<4.0a0 mpi_mpich_*",
+      "fluiddyn",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "mpi4py",
+      "mpich >=3.3.2,<3.4.0a0",
+      "pandas",
+      "pyfftw",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "transonic"
+    ],
+    "license": "LicenseRef-CeCILL",
+    "md5": "bac7f448c346253affdbb5ac413fd438",
+    "name": "fluidfft",
+    "sha256": "6eaa234c7784b8a50bfe55f94a22e6983d28e61fde96374c2da90348d2ff15da",
+    "size": 1240942,
+    "subdir": "linux-64",
+    "timestamp": 1607089666292,
+    "version": "0.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/fluidfft-0.3.2-mpi_mpich_h5e49b49_0.tar.bz2/fluidfft-0.3.2-mpi_mpich_h5e49b49_0.tar.bz2"
+}
