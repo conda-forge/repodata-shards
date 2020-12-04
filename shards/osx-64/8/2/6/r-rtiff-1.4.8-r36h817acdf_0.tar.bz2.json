@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=rtiff",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/rtiff/rtiff_1.4.8.tar.gz",
+      "https://cran.r-project.org/src/contrib/rtiff_1.4.8.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Reads and writes TIFF format images and returns them as a pixmap object. Because the resulting object can be very large for even modestly sized TIFF images, images can be reduced as they are read for improved performance.  This package is a wrapper around libtiff (www.libtiff.org), on which it depends (i.e. the libtiff shared library must be on your PATH for the binary to work, and tiffio.h must be on your system to build the package from source). By using libtiff's highlevel TIFFReadRGBAImage function, this package inherently supports a wide range of image formats and compression schemes. This package also provides an implementation of the Ridler Autothresholding algorithm for easy generation of binary masks as described in Ridler & Calvard (1978) <doi:10.1109/TSMC.1978.4310039>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1607113435,
+    "version": "1.4.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-rtiff-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-rtiff-1.4.8-r36h817acdf_0.tar.bz2",
+  "repodata": {
+    "build": "r36h817acdf_0",
+    "build_number": 0,
+    "depends": [
+      "libtiff >=4.1.0,<5.0a0",
+      "r-base >=3.6,<3.7.0a0",
+      "r-pixmap"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "03c3b605b27e84d793f874bd6e2ca645",
+    "name": "r-rtiff",
+    "sha256": "74f221abf0ff49c57042c57d813e8d1f4b3e1a4586df491ead936ba244cbb997",
+    "size": 126191,
+    "subdir": "osx-64",
+    "timestamp": 1607113435342,
+    "version": "1.4.8"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/regro/releases/releases/download/osx-64/r-rtiff-1.4.8-r36h817acdf_0.tar.bz2/r-rtiff-1.4.8-r36h817acdf_0.tar.bz2"
+}
