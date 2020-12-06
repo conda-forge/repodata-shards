@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Buildah package provides a command line tool which can be used to:    * Create a working container, either from scratch or using an image as a starting point.   * Mount a working container's root filesystem for manipulation.   * Unmount a working container's root filesystem.   * Use the updated contents of a container's root filesystem as a filesystem layer to create a new image.   * Delete a working container or an image.   * Rename a local container.",
+    "dev_url": "https://github.com/containers/buildah",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/containers/buildah",
+    "home": "https://buildah.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/containers/buildah/archive/v1.17.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A command line tool that facilitates building OCI container images.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1607267658,
+    "version": "1.17.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "buildah-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "buildah-1.17.1-h77c71de_0.tar.bz2",
+  "repodata": {
+    "build": "h77c71de_0",
+    "build_number": 0,
+    "depends": [
+      "cni-plugins",
+      "conmon",
+      "containers-common",
+      "gpgme >=1.15.0,<1.16.0a0",
+      "libdevmapper >=2.2.187,<2.3.0a0",
+      "libgcc-ng >=9.3.0",
+      "libseccomp >=2.4.4,<3.0a0",
+      "runc",
+      "slirp4netns"
+    ],
+    "license": "Apache-2.0",
+    "md5": "95be05691d74f7c57c24c89f49bac705",
+    "name": "buildah",
+    "sha256": "565d9087f2cdac44131dfb42acc39f38377cae5b046312c9df361b1027ad7593",
+    "size": 14404693,
+    "subdir": "linux-64",
+    "timestamp": 1607267658740,
+    "version": "1.17.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/buildah-1.17.1-h77c71de_0.tar.bz2/buildah-1.17.1-h77c71de_0.tar.bz2"
+}
