@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "zchunk is a compressed file format that splits the file into independent chunks. This allows you to only download changed chunks when downloading a new version of the file, and also makes zchunk files efficient over rsync.  zchunk files are protected with strong checksums to verify that the file you downloaded is, in fact, the file you wanted.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/zchunk/zchunk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.1.8": {
+        "weak": [
+          "zchunk >=1.1.8,<1.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/zchunk/zchunk/archive/1.1.8.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A file format designed for highly efficient deltas while maintaining good compression",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1607463934,
+    "version": "1.1.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "zchunk-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "zchunk-1.1.8-hcc86f16_0.tar.bz2",
+  "repodata": {
+    "build": "hcc86f16_0",
+    "build_number": 0,
+    "depends": [
+      "libcurl >=7.71.1,<8.0a0",
+      "libgcc-ng >=9.3.0",
+      "openssl >=1.1.1h,<1.1.2a",
+      "zstd >=1.4.5,<1.5.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "42ca017684c33852fb80843b296c543b",
+    "name": "zchunk",
+    "sha256": "0354a3637fa662e8f45d4bc9b67e91d43631f2ff309c123d9af4d9da2afc9513",
+    "size": 219703,
+    "subdir": "linux-64",
+    "timestamp": 1607463934590,
+    "version": "1.1.8"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/regro/releases/releases/download/linux-64/zchunk-1.1.8-hcc86f16_0.tar.bz2/zchunk-1.1.8-hcc86f16_0.tar.bz2"
+}
