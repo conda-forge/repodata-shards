@@ -8,7 +8,7 @@ git config --global pull.rebase false
 
 pushd ..
 
-git clone --depth=1 https://github.com/regro/repodata-tools.git
+git clone --depth=1 https://github.com/conda-forge/repodata-tools.git
 pushd repodata-tools
 conda install -y -q --file requirements.txt
 pip install -e .
