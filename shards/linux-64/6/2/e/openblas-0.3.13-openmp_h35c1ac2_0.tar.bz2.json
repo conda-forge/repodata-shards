@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.13.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "An optimized BLAS library based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1607802981,
+    "version": "0.3.13"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openblas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openblas-0.3.13-openmp_h35c1ac2_0.tar.bz2",
+  "repodata": {
+    "build": "openmp_h35c1ac2_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libopenblas 0.3.13 openmp_h3d5035f_0",
+      "llvm-openmp >=11.0.0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "60c57bb9068bbb698f808ba3b9b6a7b3",
+    "name": "openblas",
+    "sha256": "c81b9aafeb11f27bbea565f6cbdde44b7903d999d9034fe554494eb061375988",
+    "size": 10152546,
+    "subdir": "linux-64",
+    "timestamp": 1607802981966,
+    "track_features": "openblas_threading_openmp",
+    "version": "0.3.13"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openblas-0.3.13-openmp_h35c1ac2_0.tar.bz2/openblas-0.3.13-openmp_h35c1ac2_0.tar.bz2"
+}
