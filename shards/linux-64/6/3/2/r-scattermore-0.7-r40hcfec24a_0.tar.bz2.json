@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -24,12 +24,12 @@
       "https://cran.r-project.org/src/contrib/scattermore_0.7.tar.gz"
     ],
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "C-based conversion of large scatterplot data to rasters. Speeds up plotting of data with millions of points.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1608075647,
+    "timestamp": 1608075537,
     "version": "0.7"
   },
   "channeldata_version": 1,
@@ -37,26 +37,27 @@
   "labels": [
     "main"
   ],
-  "package": "r-scattermore-0.7-r36h066c5db_0.tar.bz2",
+  "package": "r-scattermore-0.7-r40hcfec24a_0.tar.bz2",
   "repodata": {
-    "build": "r36h066c5db_0",
+    "build": "r40hcfec24a_0",
     "build_number": 0,
     "depends": [
-      "r-base >=3.6,<3.7.0a0",
+      "libgcc-ng >=9.3.0",
+      "r-base >=4.0,<4.1.0a0",
       "r-ggplot2",
       "r-scales"
     ],
     "license": "GPL-3.0-or-later",
     "license_family": "GPL3",
-    "md5": "3e80904d6526725c6c0c2f200d2494bf",
+    "md5": "158297d64c2e57da59219e39753ca9a2",
     "name": "r-scattermore",
-    "sha256": "46ec3a1a84e7200198c484d2a9c6945992100f526a84a4649ee7eb41d73b4635",
-    "size": 63719,
-    "subdir": "osx-64",
-    "timestamp": 1608075647228,
+    "sha256": "48f897de86a7be3bf2d806bcb6950327f708d9d8ee1ee31e8155b3e4bcde0b4a",
+    "size": 64583,
+    "subdir": "linux-64",
+    "timestamp": 1608075537161,
     "version": "0.7"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/r-scattermore-0.7-r36h066c5db_0.tar.bz2/r-scattermore-0.7-r36h066c5db_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-scattermore-0.7-r40hcfec24a_0.tar.bz2"
 }

@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/casacore/casacore/archive/v3.3.0.tar.gz",
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "Core libraries for the Common Astronomical Software Applications (CASA)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1608076069,
+    "timestamp": 1608075760,
     "version": "3.3.0"
   },
   "channeldata_version": 1,
@@ -40,21 +40,22 @@
   "labels": [
     "main"
   ],
-  "package": "casacore-3.3.0-py36h18bfc21_7.tar.bz2",
+  "package": "casacore-3.3.0-py36he4ff29e_7.tar.bz2",
   "repodata": {
-    "build": "py36h18bfc21_7",
+    "build": "py36he4ff29e_7",
     "build_number": 7,
     "depends": [
-      "boost >=1.74.0,<1.74.1.0a0",
+      "boost >=1.72.0,<1.72.1.0a0",
       "cfitsio >=3.470,<3.471.0a0",
       "fftw >=3.3.8,<4.0a0",
       "hdf5 >=1.10.6,<1.10.7.0a0",
       "libblas >=3.8.0,<4.0a0",
       "libcblas >=3.8.0,<4.0a0",
-      "libcxx >=11.0.0",
-      "libgfortran 5.*",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
       "libgfortran5 >=9.3.0",
       "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.3.0",
       "ncurses >=6.2,<6.3.0a0",
       "numpy >=1.16.6,<2.0a0",
       "python >=3.6,<3.7.0a0",
@@ -63,15 +64,15 @@
       "wcslib 7.3.*"
     ],
     "license": "GPL-2.0-or-later",
-    "md5": "2f4a3bb1d5cbc2de8ebd2a5e6e124777",
+    "md5": "b8a325dba9cab3b5f72be019393bcbef",
     "name": "casacore",
-    "sha256": "b6518926115eb7d054146b29fb02290b182af85479ef5fa0a2a4eb11c0476cad",
-    "size": 12174243,
-    "subdir": "osx-64",
-    "timestamp": 1608076069605,
+    "sha256": "06a46733ad76055083414a9c2b4fa77884476f63c64a512d1763bbbf07c57840",
+    "size": 14901857,
+    "subdir": "linux-64",
+    "timestamp": 1608075760994,
     "version": "3.3.0"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/casacore-3.3.0-py36h18bfc21_7.tar.bz2/casacore-3.3.0-py36h18bfc21_7.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/casacore-3.3.0-py36he4ff29e_7.tar.bz2"
 }
