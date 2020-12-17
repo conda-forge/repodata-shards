@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "VOLK is the Vector-Optimized Library of Kernels. It is a free library, currently offered under the GPLv3, that contains kernels of hand-written SIMD code for different mathematical operations. Since each SIMD architecture can be very different and no compiler has yet come along to handle vectorization properly or highly efficiently, VOLK approaches the problem differently.  For each architecture or platform that a developer wishes to vectorize for, a new proto-kernel is added to VOLK. At runtime, VOLK will select the correct proto-kernel. In this way, the users of VOLK call a kernel for performing the operation that is platform/architecture agnostic. This allows us to write portable SIMD code that is optimized for a variety of platforms.",
+    "dev_url": "https://github.com/gnuradio/volk",
+    "doc_source_url": null,
+    "doc_url": "http://libvolk.org/doxygen/index.html",
+    "home": "https://github.com/gnuradio/volk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.1": {
+        "weak": [
+          "volk >=2.4.1,<2.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/gnuradio/volk/releases/download/v2.4.1/volk-2.4.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Vector Optimized Library of Kernels",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1608227993,
+    "version": "2.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "volk-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "volk-2.4.1-py36h062090e_0.tar.bz2",
+  "repodata": {
+    "build": "py36h062090e_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.72.0,<1.72.1.0a0",
+      "libcxx >=11.0.0",
+      "pypy3.6 >=7.3.3",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6 *_pypy36_pp73"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "68a54f57a42bf2cf5f6825f00306a600",
+    "name": "volk",
+    "sha256": "59334e393f44695d81f02177d496e875308a33ee56580fff245ce440457001ba",
+    "size": 937720,
+    "subdir": "osx-64",
+    "timestamp": 1608227993451,
+    "version": "2.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/volk-2.4.1-py36h062090e_0.tar.bz2/volk-2.4.1-py36h062090e_0.tar.bz2"
+}
