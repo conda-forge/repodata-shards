@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NVIDIA CUDA Deep Neural Network (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. It provides highly tuned implementations of routines arising frequently in DNN applications.  License Agreements:- The packages are governed by the NVIDIA cuDNN Software License Agreement (EULA). By downloading and using the packages, you accept the terms and conditions of the NVIDIA cuDNN EULA - https://docs.nvidia.com/deeplearning/cudnn/sla/index.html",
+    "dev_url": "https://developer.nvidia.com/rdp/cudnn-download",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/deeplearning/cudnn/",
+    "home": "https://developer.nvidia.com/cudnn",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "cuDNN Software License Agreement",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "7.6.5.32": {
+        "weak": [
+          "cudnn >=7.6.5.32,<8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://developer.download.nvidia.com/compute/redist/cudnn/v7.6.5/cudnn-10.1-linux-x64-v7.6.5.32.tgz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "NVIDIA's cuDNN deep neural network acceleration library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1608258249,
+    "version": "7.6.5.32"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cudnn-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cudnn-7.6.5.32-hc0a50b0_1.tar.bz2",
+  "repodata": {
+    "build": "hc0a50b0_1",
+    "build_number": 1,
+    "constrains": [
+      "__glibc >=2.4"
+    ],
+    "depends": [
+      "cudatoolkit 10.1|10.1.*",
+      "libgcc-ng >=3.0",
+      "libstdcxx-ng >=3.4"
+    ],
+    "license": "cuDNN Software License Agreement",
+    "md5": "de18dc5f3a9c2e1e400e9d1dab89ff60",
+    "name": "cudnn",
+    "sha256": "fc1e51652765dafecc87f43384b170bcb48963000cdbf3111096f79e5e181643",
+    "size": 262886937,
+    "subdir": "linux-64",
+    "timestamp": 1608258249351,
+    "version": "7.6.5.32"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cudnn-7.6.5.32-hc0a50b0_1.tar.bz2/cudnn-7.6.5.32-hc0a50b0_1.tar.bz2"
+}
