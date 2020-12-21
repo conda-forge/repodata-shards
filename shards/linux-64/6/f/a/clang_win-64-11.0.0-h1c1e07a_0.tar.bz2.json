@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "To use this package in a normal conda environment, do the following     export CONDA_BUILD_WINSDK=/opt  To use this package in a conda-build environment, add the following     CONDA_BUILD_WINSDK:      - \"/opt\"  in $HOME/conda_build_config.yaml and use `clang_win-64` as the compiler.  By setting this variable, you are agreeing to the terms and conditions of the Windows SDK and the MSVC headers. If the Windows SDK and MSVC headers are not inside CONDA_BUILD_WINSDK, they would be automatically downloaded.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/clang-win-activation-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "11.0.0": {
+        "strong": [
+          "vc >=14.1",
+          "vs2015_runtime >=14.14.26423"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "clang (cross) compiler for windows with MSVC ABI compatbility",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1608586445,
+    "version": "11.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "clang-win-activation-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "clang_win-64-11.0.0-h1c1e07a_0.tar.bz2",
+  "repodata": {
+    "build": "h1c1e07a_0",
+    "build_number": 0,
+    "depends": [
+      "clangxx 11.0.0.*",
+      "compiler-rt 11.0.0.*",
+      "compiler-rt_win-64 11.0.0.*",
+      "lld 11.0.0.*",
+      "llvm-tools 11.0.0.*",
+      "msvc-headers-libs >=14.14.26423,<14.14.26424.0a0",
+      "winsdk >=10.0.17763.0,<10.0.17764.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "5cb32f68a100ff9602afbeaeac0060fe",
+    "name": "clang_win-64",
+    "sha256": "8c6dcf2ae81b1c99e715cf38669cf2a690232b7c254ab7858e5676c59318f468",
+    "size": 23250,
+    "subdir": "linux-64",
+    "timestamp": 1608586445046,
+    "version": "11.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/clang_win-64-11.0.0-h1c1e07a_0.tar.bz2/clang_win-64-11.0.0-h1c1e07a_0.tar.bz2"
+}
