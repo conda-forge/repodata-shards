@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Epoxy is a library for handling OpenGL function pointer management for you.  It hides the complexity of dlopen(), dlsym(), glXGetProcAddress(), eglGetProcAddress(), etc. from the app developer, with very little knowledge needed on their part. They get to read GL specs and write code using undecorated function names like glCompileShader().  Don't forget to check for your extensions or versions being present before you use them, just like before! We'll tell you what you forgot to check for instead of just segfaulting, though.",
+    "dev_url": "https://github.com/anholt/libepoxy",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/anholt/libepoxy",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.5": {
+        "weak": [
+          "epoxy >=1.5.5,<1.6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.5.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A library for handling OpenGL function pointer management for you.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1608706952,
+    "version": "1.5.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "epoxy-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "epoxy-1.5.5-h7f98852_0.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "af7732bc1656b0e7c3be2f223822484a",
+    "name": "epoxy",
+    "sha256": "89477c8e1bd4f96a6f5f4931a8f9f6912ded0088b431d726fd0725b0e9412502",
+    "size": 1599696,
+    "subdir": "linux-64",
+    "timestamp": 1608706952633,
+    "version": "1.5.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/epoxy-1.5.5-h7f98852_0.tar.bz2/epoxy-1.5.5-h7f98852_0.tar.bz2"
+}
