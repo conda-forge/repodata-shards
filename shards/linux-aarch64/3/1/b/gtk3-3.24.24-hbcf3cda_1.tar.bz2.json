@@ -1,0 +1,78 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GTK is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK is suitable for projects ranging from small one-off projects to complete application suites.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/gtk",
+    "doc_source_url": null,
+    "doc_url": "https://developer.gnome.org/gtk3/",
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.24.24": {
+        "weak": [
+          "gtk3 >=3.24.24,<4.0a0",
+          "adwaita-icon-theme"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.24.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Version 3 of the Gtk+ graphical toolkit",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1608747149,
+    "version": "3.24.24"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gtk3-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gtk3-3.24.24-hbcf3cda_1.tar.bz2",
+  "repodata": {
+    "build": "hbcf3cda_1",
+    "build_number": 1,
+    "depends": [
+      "at-spi2-atk >=2.38.0,<3.0a0",
+      "atk-1.0 >=2.36.0",
+      "cairo >=1.16.0,<1.17.0a0",
+      "epoxy >=1.5.5,<1.6.0a0",
+      "fontconfig >=2.13.1,<3.0a0",
+      "freetype >=2.10.4,<3.0a0",
+      "fribidi >=1.0.10,<2.0a0",
+      "gdk-pixbuf >=2.42.2,<3.0a0",
+      "glib",
+      "harfbuzz >=2.7.2,<3.0a0",
+      "hicolor-icon-theme",
+      "libcups",
+      "libgcc-ng >=9.3.0",
+      "libglib >=2.66.4,<3.0a0",
+      "pango >=1.42.4,<1.43.0a0"
+    ],
+    "license": "LGPL-2.0-or-later",
+    "license_family": "LGPL",
+    "md5": "99667ae9f9b049d822e6d7264e2b5520",
+    "name": "gtk3",
+    "sha256": "5daa60b55f4b694ecf98b37a4bd0b161db08c228118687e626fe24520dded0ad",
+    "size": 10190543,
+    "subdir": "linux-aarch64",
+    "timestamp": 1608747149290,
+    "version": "3.24.24"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/gtk3-3.24.24-hbcf3cda_1.tar.bz2/gtk3-3.24.24-hbcf3cda_1.tar.bz2"
+}
