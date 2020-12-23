@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "TempestExtremes is a growing collection of detection and characterization algorithms for large climate datasets, leveraging C++ for rapid throughput and a command line interface that maximizes flexibility of each kernel. The tracking kernels in this package have been already used for tracking and characterizing tropical cyclones (TCs), extratropical cyclones (ETCs), monsoonal depressions, atmospheric blocks, atmospheric rivers, and mesoscale convective systems (MCSs). By considering multiple extremes within the same framework, we can study the joint characteristics of extremes while minimizing the total data burden.",
+    "dev_url": "https://github.com/ClimateGlobalChange/tempestextremes",
+    "doc_source_url": null,
+    "doc_url": "https://climate.ucdavis.edu/tempestextremes.php",
+    "home": "https://github.com/ClimateGlobalChange/tempestextremes",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.1": {
+        "weak": [
+          "tempest-extremes * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ClimateGlobalChange/tempestextremes/archive/2.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "a collection of detection and characterization algorithms for large climate datasets",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1608717806,
+    "version": "2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "tempest-extremes-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "tempest-extremes-2.1-mpi_openmpi_h160115f_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h160115f_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.0.0",
+      "libnetcdf * mpi_openmpi_*",
+      "libnetcdf >=4.7.4,<4.7.5.0a0 mpi_openmpi_*",
+      "openmpi >=4.0.5,<4.1.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "efcfdccacc0df5c21247c3a818b698f3",
+    "name": "tempest-extremes",
+    "sha256": "f7549e1a71e47d55baacddc4c1e7ced4ddd1aab5bf02c5dede153a5bd5bcbfe8",
+    "size": 1990110,
+    "subdir": "osx-64",
+    "timestamp": 1608717806586,
+    "version": "2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/tempest-extremes-2.1-mpi_openmpi_h160115f_0.tar.bz2/tempest-extremes-2.1-mpi_openmpi_h160115f_0.tar.bz2"
+}
