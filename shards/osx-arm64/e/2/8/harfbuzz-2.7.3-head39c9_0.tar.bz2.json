@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "HarfBuzz is a text shaping library. New Harbuzz targets various font technologies while Old HarfBuzz targets only OpenType fonts.",
+    "dev_url": "https://github.com/behdad/harfbuzz",
+    "doc_source_url": null,
+    "doc_url": "https://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "home": "http://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.3": {
+        "weak": [
+          "harfbuzz >=2.7.3,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/harfbuzz/harfbuzz/archive/2.7.3.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "An OpenType text shaping engine.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1609088594,
+    "version": "2.7.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "harfbuzz-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "harfbuzz-2.7.3-head39c9_0.tar.bz2",
+  "repodata": {
+    "build": "head39c9_0",
+    "build_number": 0,
+    "depends": [
+      "cairo >=1.16.0,<1.17.0a0",
+      "freetype >=2.10.4,<3.0a0",
+      "graphite2",
+      "icu >=68.1,<69.0a0",
+      "libcxx >=11.0.0",
+      "libglib >=2.66.4,<3.0a0"
+    ],
+    "license": "MIT",
+    "md5": "6e8a8a4bc31fcdc23b86eeac59aaa5c4",
+    "name": "harfbuzz",
+    "sha256": "898a676c1597c2a030f6130466574eba77f8050606445a39232ffc67209c12fd",
+    "size": 1532167,
+    "subdir": "osx-arm64",
+    "timestamp": 1609088594011,
+    "version": "2.7.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/harfbuzz-2.7.3-head39c9_0.tar.bz2/harfbuzz-2.7.3-head39c9_0.tar.bz2"
+}
