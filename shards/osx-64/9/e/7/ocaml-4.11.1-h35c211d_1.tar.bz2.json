@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "OCaml is an implementation of the ML language, based on the Caml Light dialect extended with a complete class-based object system and a powerful module system in the style of Standard ML.  OCaml comprises two compilers. One generates bytecode which is then interpreted by a C program. This compiler runs quickly, generates compact code with moderate memory requirements, and is portable to essentially any 32 or 64 bit Unix platform. Performance of generated programs is quite good for a bytecoded implementation.  This compiler can be used either as a standalone, batch-oriented compiler that produces standalone programs, or as an interactive, toplevel-based system.  The other compiler generates high-performance native code for a number of processors. Compilation takes longer and generates bigger code, but the generated programs deliver excellent performance, while retaining the moderate memory requirements of the bytecode compiler.",
+    "dev_url": "https://github.com/ocaml/ocaml",
+    "doc_source_url": null,
+    "doc_url": "https://ocaml.org/docs/",
+    "home": "https://ocaml.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only WITH OCaml-LGPL-linking-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.11.1": {
+        "weak": [
+          "ocaml >=4.11.1,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://caml.inria.fr/pub/distrib/ocaml-4.11/ocaml-4.11.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Objective Caml (OCaml) is an implementation of the ML language.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1609096959,
+    "version": "4.11.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ocaml-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ocaml-4.11.1-h35c211d_1.tar.bz2",
+  "repodata": {
+    "build": "h35c211d_1",
+    "build_number": 1,
+    "depends": [
+      "clang_osx-64 11.*"
+    ],
+    "license": "LGPL-2.1-only WITH OCaml-LGPL-linking-exception",
+    "license_family": "LGPL",
+    "md5": "b8ad03a9730d9f802b8016e02c1cba5a",
+    "name": "ocaml",
+    "sha256": "38aef0b57d00130ee2f85dbc45681906d3628b21be1e9e3f35beebda2bbd45b2",
+    "size": 144850805,
+    "subdir": "osx-64",
+    "timestamp": 1609096959004,
+    "version": "4.11.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/ocaml-4.11.1-h35c211d_1.tar.bz2/ocaml-4.11.1-h35c211d_1.tar.bz2"
+}
