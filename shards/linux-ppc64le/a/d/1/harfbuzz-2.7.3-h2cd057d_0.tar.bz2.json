@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "HarfBuzz is a text shaping library. New Harbuzz targets various font technologies while Old HarfBuzz targets only OpenType fonts.",
+    "dev_url": "https://github.com/behdad/harfbuzz",
+    "doc_source_url": null,
+    "doc_url": "https://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "home": "http://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.3": {
+        "weak": [
+          "harfbuzz >=2.7.3,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/harfbuzz/harfbuzz/archive/2.7.3.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "An OpenType text shaping engine.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1609090506,
+    "version": "2.7.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "harfbuzz-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "harfbuzz-2.7.3-h2cd057d_0.tar.bz2",
+  "repodata": {
+    "build": "h2cd057d_0",
+    "build_number": 0,
+    "depends": [
+      "cairo >=1.16.0,<1.17.0a0",
+      "freetype >=2.10.4,<3.0a0",
+      "graphite2",
+      "icu >=68.1,<69.0a0",
+      "libgcc-ng >=9.3.0",
+      "libglib >=2.66.4,<3.0a0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "MIT",
+    "md5": "836b2b2ca99f7dc6101b636fb2129af6",
+    "name": "harfbuzz",
+    "sha256": "8679de7315ede3d577ea7be7a0ff60981bbba792033cd01332db9fc2ff130dc8",
+    "size": 2393995,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1609090506960,
+    "version": "2.7.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/harfbuzz-2.7.3-h2cd057d_0.tar.bz2/harfbuzz-2.7.3-h2cd057d_0.tar.bz2"
+}
