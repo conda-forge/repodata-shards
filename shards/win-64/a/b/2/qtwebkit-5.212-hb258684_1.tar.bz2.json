@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Qt WebKit is the port of WebKit on top of Qt. QtWebKit relies on the public APIs of Qt and can theoretically be used on any platform supported by Qt (theoretically because WebKit also requires a recent/good compiler).",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wiki.qt.io/Qt_WebKit",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.212": {
+        "weak": [
+          "qtwebkit"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://download.qt.io/snapshots/ci/qtwebkit/5.212/1600955993/src/submodules/qtwebkit-opensource-src-5.212.tar.xz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "WebKit is one of the major engine to render webpages and execute JavaScript code",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1609154890,
+    "version": "5.212"
+  },
+  "channeldata_version": 1,
+  "feedstock": "qtwebkit-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "qtwebkit-5.212-hb258684_1.tar.bz2",
+  "repodata": {
+    "build": "hb258684_1",
+    "build_number": 1,
+    "depends": [
+      "icu >=68.1,<69.0a0",
+      "jpeg >=9d,<10a",
+      "libpng >=1.6.37,<1.7.0a0",
+      "libwebp",
+      "libwebp-base >=1.1.0,<2.0a0",
+      "libxml2 >=2.9.10,<2.10.0a0",
+      "libxslt >=1.1.33,<2.0a0",
+      "qt >=5.12.9,<5.13.0a0",
+      "sqlite >=3.34.0,<4.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-2.1-only",
+    "md5": "e087fb642103f978a562f273677611c5",
+    "name": "qtwebkit",
+    "sha256": "79a4efb129a6aab6cffbee6c32aa03e614ba71a07e9414743930929b65cf10d4",
+    "size": 13062095,
+    "subdir": "win-64",
+    "timestamp": 1609154890462,
+    "version": "5.212"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/qtwebkit-5.212-hb258684_1.tar.bz2/qtwebkit-5.212-hb258684_1.tar.bz2"
+}
