@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package implements the louvain algorithm in C++ and exposes it to python. It relies on (python-)igraph for it to function. Besides the relative flexibility of the implementation, it also scales well, and can be run on graphs of millions of nodes (as long as they can fit in memory). The core function is find_partition which finds the optimal partition using the louvain algorithm for a number of different methods.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/vtraag/louvain-igraph",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/louvain/louvain-0.7.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Implementation of the Louvain algorithm for various methods for use with igraph in python.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1609170401,
+    "version": "0.7.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "louvain-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "louvain-0.7.0-py37hcd2ae1e_0.tar.bz2",
+  "repodata": {
+    "build": "py37hcd2ae1e_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "python >=3.7,<3.8.0a0",
+      "python-igraph",
+      "python_abi 3.7.* *_cp37m",
+      "setuptools"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "4ea1ea5418aba58eec144f87f9632999",
+    "name": "louvain",
+    "sha256": "81c3ff842449c3a8f99c3077af90c0863df18fefb633f45e9f4deed3b6d3f2fe",
+    "size": 542695,
+    "subdir": "linux-64",
+    "timestamp": 1609170401543,
+    "version": "0.7.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/louvain-0.7.0-py37hcd2ae1e_0.tar.bz2/louvain-0.7.0-py37hcd2ae1e_0.tar.bz2"
+}
