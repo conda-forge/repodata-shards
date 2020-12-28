@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This package implements the louvain algorithm in C++ and exposes it to python. It relies on (python-)igraph for it to function. Besides the relative flexibility of the implementation, it also scales well, and can be run on graphs of millions of nodes (as long as they can fit in memory). The core function is find_partition which finds the optimal partition using the louvain algorithm for a number of different methods.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/vtraag/louvain-igraph",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/louvain/louvain-0.7.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Implementation of the Louvain algorithm for various methods for use with igraph in python.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1609170930,
+    "version": "0.7.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "louvain-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "louvain-0.7.0-py37h54c7649_0.tar.bz2",
+  "repodata": {
+    "build": "py37h54c7649_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.0.0",
+      "python >=3.7,<3.8.0a0",
+      "python-igraph",
+      "python_abi 3.7.* *_cp37m",
+      "setuptools"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "af7589969475a725fd579af304226ba0",
+    "name": "louvain",
+    "sha256": "33960c9636c4121c2ed0455579cf16ee3e03932e199c302c06bff2028302be03",
+    "size": 520492,
+    "subdir": "osx-64",
+    "timestamp": 1609170930206,
+    "version": "0.7.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/louvain-0.7.0-py37h54c7649_0.tar.bz2/louvain-0.7.0-py37h54c7649_0.tar.bz2"
+}
