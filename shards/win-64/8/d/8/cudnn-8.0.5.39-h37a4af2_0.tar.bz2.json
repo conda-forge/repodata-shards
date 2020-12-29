@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NVIDIA CUDA Deep Neural Network (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. It provides highly tuned implementations of routines arising frequently in DNN applications.  License Agreements:- The packages are governed by the NVIDIA cuDNN Software License Agreement (EULA). By downloading and using the packages, you accept the terms and conditions of the NVIDIA cuDNN EULA - https://docs.nvidia.com/deeplearning/cudnn/sla/index.html",
+    "dev_url": "https://developer.nvidia.com/rdp/cudnn-download",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/deeplearning/cudnn/",
+    "home": "https://developer.nvidia.com/cudnn",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "cuDNN Software License Agreement",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "8.0.5.39": {
+        "weak": [
+          "cudnn >=8.0.5.39,<9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://developer.download.nvidia.com/compute/redist/cudnn/v8.0.5/cudnn-10.2-windows10-x64-v8.0.5.39.zip",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "NVIDIA's cuDNN deep neural network acceleration library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1609207222,
+    "version": "8.0.5.39"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cudnn-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cudnn-8.0.5.39-h37a4af2_0.tar.bz2",
+  "repodata": {
+    "build": "h37a4af2_0",
+    "build_number": 0,
+    "depends": [
+      "cudatoolkit 10.2|10.2.*",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "cuDNN Software License Agreement",
+    "md5": "ed1c4c8c295f05cb8b4c26816e97dd0d",
+    "name": "cudnn",
+    "sha256": "a94f49b9f2eb38b86e23c685b698d57222f17b41eab175b39fae930c60ba1988",
+    "size": 121044,
+    "subdir": "win-64",
+    "timestamp": 1609207222678,
+    "version": "8.0.5.39"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/cudnn-8.0.5.39-h37a4af2_0.tar.bz2/cudnn-8.0.5.39-h37a4af2_0.tar.bz2"
+}
