@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.hdfgroup.org/HDF5/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-HDF5",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.10.5": {
+        "weak": [
+          "hdf5 >=1.10.5,<1.10.6.0a0 mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.5/src/hdf5-1.10.5.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "HDF5 is a data model, library, and file format for storing and managing data",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1609436736,
+    "version": "1.10.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "hdf5-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "hdf5-1.10.5-mpi_mpich_hd288fd1_1013.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hd288fd1_1013",
+    "build_number": 1013,
+    "depends": [
+      "libcxx >=11.0.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "mpich >=3.3,<3.4.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LicenseRef-HDF5",
+    "license_family": "BSD",
+    "md5": "7f26572c15a9b653b0fec4685a1837f5",
+    "name": "hdf5",
+    "sha256": "ea30ce8c7265400c89071a17b6f367bcacf26531476dcdca02cb8a803d779267",
+    "size": 3476868,
+    "subdir": "osx-64",
+    "timestamp": 1609436736696,
+    "version": "1.10.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/hdf5-1.10.5-mpi_mpich_hd288fd1_1013.tar.bz2/hdf5-1.10.5-mpi_mpich_hd288fd1_1013.tar.bz2"
+}
