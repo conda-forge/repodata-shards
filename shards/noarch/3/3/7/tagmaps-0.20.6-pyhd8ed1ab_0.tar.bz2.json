@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Perform tag clustering from spatially referenced and tagged records. TagMaps performs itemized or global clustering based on a list of records with multiple tags (or emoji) attached. Utilizes HDBSCAN for determining cluster results at specific (optional user defined) distance. Tags, Locations and Emoji are processed in descending order of global occurence, alpha shapes are generated for cluster point clouds. Produces two output shapefiles with cluster shapes that can be visualized, e.g. in ESRI ArcGIS.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/Sieboldianus/TagMaps",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/t/tagmaps/tagmaps-0.20.6.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Tag Clustering for Tag Maps",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1609682250,
+    "version": "0.20.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "tagmaps-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "tagmaps-0.20.6-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "cython",
+      "descartes",
+      "emoji >=0.5.1",
+      "fiona",
+      "gdal",
+      "hdbscan >=0.8.20",
+      "matplotlib-base",
+      "numpy",
+      "pandas >=0.24.2",
+      "pyproj >=2.0.0",
+      "python >=3.7",
+      "regex",
+      "scipy",
+      "seaborn",
+      "shapely"
+    ],
+    "license": "GPL-3.0",
+    "license_family": "GPL",
+    "md5": "84bc15d57a92f21c65080055b82c0547",
+    "name": "tagmaps",
+    "noarch": "python",
+    "sha256": "48598f0fd21893568ced324b3d1241893316dd3c3a696535ee609a043d65d902",
+    "size": 83861,
+    "subdir": "noarch",
+    "timestamp": 1609682250175,
+    "version": "0.20.6"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/tagmaps-0.20.6-pyhd8ed1ab_0.tar.bz2/tagmaps-0.20.6-pyhd8ed1ab_0.tar.bz2"
+}
