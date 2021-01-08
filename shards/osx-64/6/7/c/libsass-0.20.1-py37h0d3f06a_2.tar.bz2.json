@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "This package provides a simple Python extension module sass which is binding Libsass (written in C/C++ by Hampton Catlin and Aaron Leung). It's very straightforward and there isn't any headache related Python distribution/deployment.",
     "dev_url": "https://github.com/dahlia/libsass-python",
@@ -26,7 +26,7 @@
     "summary": "A straightforward binding of libsass for Python. Compile Sass/SCSS in Python with no Ruby stack at all!",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610122992,
+    "timestamp": 1610122958,
     "version": "0.20.1"
   },
   "channeldata_version": 1,
@@ -34,27 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "libsass-0.20.1-py38h0a5c65b_2.tar.bz2",
+  "package": "libsass-0.20.1-py37h0d3f06a_2.tar.bz2",
   "repodata": {
-    "build": "py38h0a5c65b_2",
+    "build": "py37h0d3f06a_2",
     "build_number": 2,
     "depends": [
       "libcxx >=11.0.0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "pypy3.7 >=7.3.3",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7 *_pypy37_pp73",
       "six"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "5ea8b1101c11ac212dbbfd67bc6e3f68",
+    "md5": "998434ae9de2298942b9fc497862ccae",
     "name": "libsass",
-    "sha256": "1b3c648a814a6960e78e0321c740149b485cfe9964c347250970efbf321291ed",
-    "size": 895057,
+    "sha256": "8587432e71a1d42c31b953e9ca36946720ce50a2f5d6a37d98778ee77565a289",
+    "size": 852113,
     "subdir": "osx-64",
-    "timestamp": 1610122992769,
+    "timestamp": 1610122958163,
     "version": "0.20.1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libsass-0.20.1-py38h0a5c65b_2.tar.bz2/libsass-0.20.1-py38h0a5c65b_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libsass-0.20.1-py37h0d3f06a_2.tar.bz2"
 }
