@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/leiyangleon/autoRIFT",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/leiyangleon/autoRIFT/archive/v1.1.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Fast pixel displacement estimation from remote sensing imagery",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610131619,
+    "timestamp": 1610131618,
     "version": "1.1.0"
   },
   "channeldata_version": 1,
@@ -34,31 +34,30 @@
   "labels": [
     "main"
   ],
-  "package": "autorift-1.1.0-py38h1fd1430_0.tar.bz2",
+  "package": "autorift-1.1.0-py36h615c93b_0.tar.bz2",
   "repodata": {
-    "build": "py38h1fd1430_0",
+    "build": "py36h615c93b_0",
     "build_number": 0,
     "depends": [
       "gdal",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.0",
       "opencv >=4.5.0,<5.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
       "scikit-image",
       "scipy"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "e5dfee177324238c4c4fa11497148835",
+    "md5": "168378930090b7bdf649d6fe4572fac0",
     "name": "autorift",
-    "sha256": "3c53fda865b950bef7e5b3c5fe0cea9d34814e437c961b77e38e8ee1911f8520",
-    "size": 58460,
-    "subdir": "linux-64",
-    "timestamp": 1610131619361,
+    "sha256": "9e37da20e5a3798e04208cb230129d7c0245b5a1bda32c70d90508a10170de13",
+    "size": 56837,
+    "subdir": "osx-64",
+    "timestamp": 1610131618178,
     "version": "1.1.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/autorift-1.1.0-py38h1fd1430_0.tar.bz2/autorift-1.1.0-py38h1fd1430_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/autorift-1.1.0-py36h615c93b_0.tar.bz2"
 }
