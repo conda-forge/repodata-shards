@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "d3rlpy is a Python library providing the state-of-the-art data-driven deep reinforcement learning algorithms through scikit-learn style API.",
     "dev_url": "https://github.com/takuseno/d3rlpy",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/d/d3rlpy/d3rlpy-0.50.tar.gz",
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "A data-driven deep reinforcement learning library as an out-of-the-box tool",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610192627,
+    "timestamp": 1610192572,
     "version": "0.50"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "d3rlpy-0.50-py38h692b87f_0.tar.bz2",
+  "package": "d3rlpy-0.50-py37h6dcda5c_0.tar.bz2",
   "repodata": {
-    "build": "py38h692b87f_0",
+    "build": "py37h6dcda5c_0",
     "build_number": 0,
     "depends": [
       "click",
@@ -44,10 +44,11 @@
       "gym",
       "h5py",
       "kornia",
-      "libcxx >=11.0.0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
       "numpy >=1.16.6,<2.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "pytorch",
       "scikit-learn",
       "tensorboardx",
@@ -56,15 +57,15 @@
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "fce7070a6402535b5f7c51e776e45646",
+    "md5": "1107acf18934185a3ef5e72d164c2e80",
     "name": "d3rlpy",
-    "sha256": "ff1c0741fcde50139ba0e88ad13d46b2e4d3f977b544774dbaf0064d4e592f5d",
-    "size": 354684,
-    "subdir": "osx-64",
-    "timestamp": 1610192627238,
+    "sha256": "e34baa08478b3f67168d6999b70c887f637a439e62d10af96e7147789589afa1",
+    "size": 401026,
+    "subdir": "linux-64",
+    "timestamp": 1610192572989,
     "version": "0.50"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/d3rlpy-0.50-py38h692b87f_0.tar.bz2/d3rlpy-0.50-py38h692b87f_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/d3rlpy-0.50-py37h6dcda5c_0.tar.bz2"
 }

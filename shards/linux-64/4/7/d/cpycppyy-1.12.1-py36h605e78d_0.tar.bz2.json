@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "A CPython extension module to access Cling through cppyy-backend.",
     "dev_url": "https://bitbucket.org/wlav/cpycppyy/src",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/cpycppyy/CPyCppyy-1.12.1.tar.gz",
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "CPython-C++ bindings interface based on Cling/LLVM",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610194933,
+    "timestamp": 1610194648,
     "version": "1.12.1"
   },
   "channeldata_version": 1,
@@ -34,27 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "cpycppyy-1.12.1-py36h615c93b_0.tar.bz2",
+  "package": "cpycppyy-1.12.1-py36h605e78d_0.tar.bz2",
   "repodata": {
-    "build": "py36h615c93b_0",
+    "build": "py36h605e78d_0",
     "build_number": 0,
     "depends": [
       "cppyy-backend 1.14.*",
-      "libcxx >=11.0.0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
       "python >=3.6,<3.7.0a0",
       "python_abi 3.6.* *_cp36m"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "51d0e7e97327e0a26de218e9247ab805",
+    "md5": "59dbecfc937d70aca72ba349b1042c0d",
     "name": "cpycppyy",
-    "sha256": "1a07e7fafb9b0f20b40c564699bf4f196ff9422d382d8cfc53b0a108300fd8f8",
-    "size": 250609,
-    "subdir": "osx-64",
-    "timestamp": 1610194933586,
+    "sha256": "9e8125eddb68571d401ad6089966f899b08220e1143ad080b20128731de8f9ef",
+    "size": 329158,
+    "subdir": "linux-64",
+    "timestamp": 1610194648765,
     "version": "1.12.1"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/cpycppyy-1.12.1-py36h615c93b_0.tar.bz2/cpycppyy-1.12.1-py36h615c93b_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cpycppyy-1.12.1-py36h605e78d_0.tar.bz2"
 }
