@@ -18,35 +18,34 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {
-      "2.0.0": {
+      "1.0.1": {
         "weak": [
-          "arrow-cpp >=2.0.0,<2.0.1.0a0"
+          "arrow-cpp >=1.0.1,<1.0.2.0a0"
         ]
       }
     },
     "source_git_url": null,
-    "source_url": "https://dist.apache.org/repos/dist/release/arrow/arrow-2.0.0/apache-arrow-2.0.0.tar.gz",
+    "source_url": "https://dist.apache.org/repos/dist/release/arrow/arrow-1.0.1/apache-arrow-1.0.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "C++ libraries for Apache Arrow",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610191764,
-    "version": "2.0.0"
+    "timestamp": 1610204312,
+    "version": "1.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "arrow-cpp-2.0.0-py37hac41a7a_14_cuda.tar.bz2",
+  "package": "arrow-cpp-1.0.1-py37h6e6f6d9_21_cpu.tar.bz2",
   "repodata": {
-    "build": "py37hac41a7a_14_cuda",
-    "build_number": 14,
+    "build": "py37h6e6f6d9_21_cpu",
+    "build_number": 21,
     "constrains": [
-      "arrow-cpp-proc * cuda",
-      "cudatoolkit >=9.2"
+      "arrow-cpp-proc * cpu"
     ],
     "depends": [
       "aws-sdk-cpp >=1.8.70,<1.8.71.0a0",
@@ -72,16 +71,15 @@
       "zstd >=1.4.8,<1.5.0a0"
     ],
     "license": "Apache-2.0",
-    "md5": "dbacda7f921224c4ebde18ceda417154",
+    "md5": "a780bcac2e38c06f2516cca029422f80",
     "name": "arrow-cpp",
-    "sha256": "d823a4494ba642cc0a62fa220c69afe8b9a5d8f5f969652e0ad8acb81e1d812d",
-    "size": 22389406,
-    "subdir": "linux-64",
-    "timestamp": 1610191764022,
-    "track_features": "arrow-cuda",
-    "version": "2.0.0"
+    "sha256": "f6b9ee06c1c5a373a13ddcf8bc2a4948a9971742b66032e68fb3289ed8c0ee88",
+    "size": 20336656,
+    "subdir": "linux-aarch64",
+    "timestamp": 1610204312008,
+    "version": "1.0.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/arrow-cpp-2.0.0-py37hac41a7a_14_cuda.tar.bz2/arrow-cpp-2.0.0-py37hac41a7a_14_cuda.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/arrow-cpp-1.0.1-py37h6e6f6d9_21_cpu.tar.bz2"
 }

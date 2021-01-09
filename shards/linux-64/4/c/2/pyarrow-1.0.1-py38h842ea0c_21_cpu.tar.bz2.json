@@ -19,45 +19,47 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://dist.apache.org/repos/dist/release/arrow/arrow-2.0.0/apache-arrow-2.0.0.tar.gz",
+    "source_url": "https://dist.apache.org/repos/dist/release/arrow/arrow-1.0.1/apache-arrow-1.0.1.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python test files for Apache Arrow",
+    "summary": "Python libraries for Apache Arrow",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1610192132,
-    "version": "2.0.0"
+    "text_prefix": true,
+    "timestamp": 1610204463,
+    "version": "1.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "pyarrow-tests-2.0.0-py37h4aec6bf_14_cpu.tar.bz2",
+  "package": "pyarrow-1.0.1-py38h842ea0c_21_cpu.tar.bz2",
   "repodata": {
-    "build": "py37h4aec6bf_14_cpu",
-    "build_number": 14,
+    "build": "py38h842ea0c_21_cpu",
+    "build_number": 21,
     "constrains": [
       "arrow-cpp-proc * cpu"
     ],
     "depends": [
+      "arrow-cpp 1.0.1 py38h496fee2_21_cpu",
       "libgcc-ng >=9.3.0",
       "libstdcxx-ng >=9.3.0",
-      "pyarrow 2.0.0 py37h4aec6bf_14_cpu",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "numpy >=1.16,<2.0a0",
+      "parquet-cpp 1.5.1.*",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "Apache-2.0",
-    "md5": "4ee5926c7c6a63745efcfebae7e28d86",
-    "name": "pyarrow-tests",
-    "sha256": "204198d205458eb3f139461eab314b9122a5e0669bca19ae82bfa1c8933d9df5",
-    "size": 589003,
+    "md5": "ee102d4b78600d43b8dac52ad1e96e23",
+    "name": "pyarrow",
+    "sha256": "362e2f7267582805ba406c3dca0eea563d06a5535c0d506025415373c54f8af0",
+    "size": 2501941,
     "subdir": "linux-64",
-    "timestamp": 1610192132856,
-    "version": "2.0.0"
+    "timestamp": 1610204463183,
+    "version": "1.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyarrow-tests-2.0.0-py37h4aec6bf_14_cpu.tar.bz2/pyarrow-tests-2.0.0-py37h4aec6bf_14_cpu.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyarrow-1.0.1-py38h842ea0c_21_cpu.tar.bz2"
 }
