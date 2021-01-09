@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/vim/vim/archive/v8.2.2318.tar.gz",
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "Vim is a greatly improved version of the good old UNIX editor Vi",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610202630,
+    "timestamp": 1610202526,
     "version": "8.2.2318"
   },
   "channeldata_version": 1,
@@ -34,26 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "vim-8.2.2318-py38h2ef3a0f_0.tar.bz2",
+  "package": "vim-8.2.2318-py36h4000f80_0.tar.bz2",
   "repodata": {
-    "build": "py38h2ef3a0f_0",
+    "build": "py36h4000f80_0",
     "build_number": 0,
     "depends": [
-      "libcxx >=11.0.0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
       "ncurses >=6.2,<6.3.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
     ],
     "license": "OTHER",
-    "md5": "e318144b9b31faf85608ca5b34818d55",
+    "md5": "47f2109f146fe16738f6496c60e8633e",
     "name": "vim",
-    "sha256": "652c6691896091fa16de2ae1b3c292f7762c1c9a3e28dbe8d6a9a204ba39cc6a",
-    "size": 8308782,
-    "subdir": "osx-64",
-    "timestamp": 1610202630206,
+    "sha256": "b5625f230705104853c18963973f4a3724e6fa1d3d0d4815fa224bf0138b9fdd",
+    "size": 9926902,
+    "subdir": "linux-64",
+    "timestamp": 1610202526583,
     "version": "8.2.2318"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/vim-8.2.2318-py38h2ef3a0f_0.tar.bz2/vim-8.2.2318-py38h2ef3a0f_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/vim-8.2.2318-py36h4000f80_0.tar.bz2"
 }
