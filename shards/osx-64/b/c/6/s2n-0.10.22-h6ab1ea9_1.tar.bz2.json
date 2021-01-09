@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/oxfordcontrol/osqp",
+    "home": "https://github.com/awslabs/s2n",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -18,45 +18,46 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {
-      "0.6.2": {
+      "0.10.22": {
         "weak": [
-          "libosqp >=0.6.2,<0.6.3.0a0"
+          "s2n >=0.10.22,<0.10.23.0a0"
         ]
       }
     },
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/awslabs/s2n/archive/v0.10.22.tar.gz",
     "subdirs": [
       "osx-64"
     ],
-    "summary": "The Operator Splitting QP Solver.",
+    "summary": "an implementation of the TLS/SSL protocols",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610226730,
-    "version": "0.6.2"
+    "timestamp": 1610227908,
+    "version": "0.10.22"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "libosqp-0.6.2-h046ec9c_1.tar.bz2",
+  "package": "s2n-0.10.22-h6ab1ea9_1.tar.bz2",
   "repodata": {
-    "build": "h046ec9c_1",
+    "build": "h6ab1ea9_1",
     "build_number": 1,
     "depends": [
-      "libcxx >=11.0.0"
+      "openssl >=1.1.1i,<1.1.2a"
     ],
     "license": "Apache-2.0",
-    "md5": "f9340dd08d99d7c0dc9dd508007d086c",
-    "name": "libosqp",
-    "sha256": "28b5321d1c7eb26963c757172e7e138e0e8a98861e59e7092c611c28db1519a3",
-    "size": 99650,
+    "license_family": "Apache",
+    "md5": "093022a6356c42b0b93c7cc86b02167e",
+    "name": "s2n",
+    "sha256": "4ab7111c7283c868f5467a7c78b46676845f191723e796c8cf1b071bbdcbf18a",
+    "size": 284009,
     "subdir": "osx-64",
-    "timestamp": 1610226730109,
-    "version": "0.6.2"
+    "timestamp": 1610227908286,
+    "version": "0.10.22"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libosqp-0.6.2-h046ec9c_1.tar.bz2/libosqp-0.6.2-h046ec9c_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/s2n-0.10.22-h6ab1ea9_1.tar.bz2"
 }
