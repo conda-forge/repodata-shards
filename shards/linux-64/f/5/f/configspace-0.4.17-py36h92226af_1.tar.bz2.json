@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://github.com/scikit-hep/awkward-1.0",
+    "home": "https://github.com/automl/ConfigSpace",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -19,44 +19,43 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://pypi.io/packages/source/a/awkward/awkward-1.0.2.tar.gz",
+    "source_url": "https://pypi.io/packages/source/C/ConfigSpace/ConfigSpace-0.4.17.tar.gz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Manipulate JSON-like data with NumPy-like idioms.",
+    "summary": "Creation and manipulation of parameter configuration spaces for automated algorithm configuration and hyperparameter tuning.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610307681,
-    "version": "1.0.2"
+    "timestamp": 1610310198,
+    "version": "0.4.17"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "awkward-1.0.2-py36ha03b18c_1.tar.bz2",
+  "package": "configspace-0.4.17-py36h92226af_1.tar.bz2",
   "repodata": {
-    "build": "py36ha03b18c_1",
+    "build": "py36h92226af_1",
     "build_number": 1,
     "depends": [
+      "cython",
       "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "numpy >=1.13.1",
-      "pypy3.6 >=7.3.3",
+      "numpy >=1.16.6,<2.0a0",
+      "pyparsing",
       "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73",
-      "setuptools"
+      "python_abi 3.6.* *_cp36m"
     ],
     "license": "BSD-3-Clause",
-    "md5": "3b91e6962d6d28eb628c54cb64bb411d",
-    "name": "awkward",
-    "sha256": "a3c96febfcb299b2ec7133183f4b7d7b9a1f96332ae6f553396f73b070b67062",
-    "size": 5977634,
+    "md5": "e19f4b15ae6cfe5a60c271e967d0133c",
+    "name": "configspace",
+    "sha256": "57389f414f0527eec0bc0649ed85b9071c0cc5b09ab029c3bcbf88b4e598b860",
+    "size": 873531,
     "subdir": "linux-64",
-    "timestamp": 1610307681958,
-    "version": "1.0.2"
+    "timestamp": 1610310198167,
+    "version": "0.4.17"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/awkward-1.0.2-py36ha03b18c_1.tar.bz2/awkward-1.0.2-py36ha03b18c_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/configspace-0.4.17-py36h92226af_1.tar.bz2"
 }
