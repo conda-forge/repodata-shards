@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/p/pyerfa/pyerfa-1.7.1.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Python bindings for ERFA routines",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610303814,
+    "timestamp": 1610304365,
     "version": "1.7.1.1"
   },
   "channeldata_version": 1,
@@ -34,28 +34,29 @@
   "labels": [
     "main"
   ],
-  "package": "pyerfa-1.7.1.1-py37h5e8e339_2.tar.bz2",
+  "package": "pyerfa-1.7.1.1-py37hcc03f2d_2.tar.bz2",
   "repodata": {
-    "build": "py37h5e8e339_2",
+    "build": "py37hcc03f2d_2",
     "build_number": 2,
     "depends": [
-      "libgcc-ng >=9.3.0",
       "numpy >=1.16",
       "numpy >=1.19.5,<2.0a0",
       "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "python_abi 3.7.* *_cp37m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "9a6dfda2644d979879e4b3fb58a86b0e",
+    "md5": "5e5582a9733f067fa429a224662fcfe6",
     "name": "pyerfa",
-    "sha256": "083ac108247bd30025f9f38801a68766751044748de6c996c1af8f8b9db45996",
-    "size": 379274,
-    "subdir": "linux-64",
-    "timestamp": 1610303814248,
+    "sha256": "ec6cd19f7c9aeb22307860e2d3cd2a26474550f53f3ffed8fbb56832b205cb0b",
+    "size": 391513,
+    "subdir": "win-64",
+    "timestamp": 1610304365839,
     "version": "1.7.1.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyerfa-1.7.1.1-py37h5e8e339_2.tar.bz2/pyerfa-1.7.1.1-py37h5e8e339_2.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pyerfa-1.7.1.1-py37hcc03f2d_2.tar.bz2"
 }
