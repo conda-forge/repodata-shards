@@ -32,7 +32,7 @@
     "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610310850,
+    "timestamp": 1610310733,
     "version": "3.14.3"
   },
   "channeldata_version": 1,
@@ -40,12 +40,12 @@
   "labels": [
     "main"
   ],
-  "package": "petsc-3.14.3-h9eb0552_0.tar.bz2",
+  "package": "petsc-3.14.3-h2f34a41_0.tar.bz2",
   "repodata": {
-    "build": "h9eb0552_0",
+    "build": "h2f34a41_0",
     "build_number": 0,
     "depends": [
-      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
       "hypre >=2.18.2,<2.19.0a0",
       "libblas >=3.8.0,<4.0a0",
       "libcblas >=3.8.0,<4.0a0",
@@ -55,26 +55,27 @@
       "liblapack >=3.8.0,<4.0a0",
       "libstdcxx-ng >=9.3.0",
       "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.3.2,<3.4.0a0",
       "mumps-mpi >=5.2.1,<5.2.2.0a0",
-      "openmpi >=4.0.5,<4.1.0a0",
       "parmetis >=4.0.3,<4.1.0a0",
       "ptscotch >=6.0.9,<6.0.10.0a0",
       "scalapack >=2.0.2,<2.1.0a0",
       "scotch >=6.0.9,<6.0.10.0a0",
       "suitesparse >=5.6.0,<5.7.0a0",
-      "superlu"
+      "superlu",
+      "superlu_dist"
     ],
     "license": "BSD-2-Clause",
     "license_family": "BSD",
-    "md5": "714e7f4c8a86a1e1794490859c7a5a64",
+    "md5": "b902d0fd68af0ae2e1a236e0e6a28417",
     "name": "petsc",
-    "sha256": "6125c64f4be85d395bea32bccda55b5913b9ba537a2800f354976f54f74739e8",
-    "size": 14475432,
+    "sha256": "0ef067fcfbf46f77463c391625d24775b6b59355a504322fb40b64cd8cc224e7",
+    "size": 10877287,
     "subdir": "linux-64",
-    "timestamp": 1610310850417,
+    "timestamp": 1610310733675,
     "version": "3.14.3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/petsc-3.14.3-h9eb0552_0.tar.bz2/petsc-3.14.3-h9eb0552_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/petsc-3.14.3-h2f34a41_0.tar.bz2"
 }

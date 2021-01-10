@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -24,12 +24,12 @@
       "https://cran.r-project.org/src/contrib/git2r_0.28.0.tar.gz"
     ],
     "subdirs": [
-      "linux-ppc64le"
+      "osx-64"
     ],
     "summary": "Interface to the 'libgit2' library, which is a pure C implementation of the 'Git' core methods. Provides access to 'Git' repositories to extract data and running some basic 'Git' commands.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610310829,
+    "timestamp": 1610309576,
     "version": "0.28.0"
   },
   "channeldata_version": 1,
@@ -37,12 +37,11 @@
   "labels": [
     "main"
   ],
-  "package": "r-git2r-0.28.0-r40h61fa1b9_0.tar.bz2",
+  "package": "r-git2r-0.28.0-r40h4eca85e_0.tar.bz2",
   "repodata": {
-    "build": "r40h61fa1b9_0",
+    "build": "r40h4eca85e_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
       "libssh2 >=1.9.0,<2.0a0",
       "openssl >=1.1.1i,<1.1.2a",
       "r-base >=4.0,<4.1.0a0",
@@ -50,15 +49,15 @@
     ],
     "license": "GPL-2.0-only",
     "license_family": "GPL2",
-    "md5": "eddffccb2baf3ae904ce594adcf3023e",
+    "md5": "0f783c8b0234d14a3aca890fe813e64c",
     "name": "r-git2r",
-    "sha256": "122e9bea19e3c8de7df50b00aa068e94b8cd2cd98201a568d400668e7a4780fd",
-    "size": 991738,
-    "subdir": "linux-ppc64le",
-    "timestamp": 1610310829936,
+    "sha256": "d904f103c44bdbd7680a20b89d02960561b98f440f8eb548725d45f3cf467f7e",
+    "size": 840695,
+    "subdir": "osx-64",
+    "timestamp": 1610309576757,
     "version": "0.28.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-ppc64le",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/r-git2r-0.28.0-r40h61fa1b9_0.tar.bz2/r-git2r-0.28.0-r40h61fa1b9_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-git2r-0.28.0-r40h4eca85e_0.tar.bz2"
 }
