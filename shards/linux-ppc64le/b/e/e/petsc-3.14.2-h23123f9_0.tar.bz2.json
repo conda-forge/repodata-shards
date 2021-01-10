@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.14.2.tar.gz",
     "subdirs": [
-      "linux-aarch64"
+      "linux-ppc64le"
     ],
     "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610271789,
+    "timestamp": 1610271653,
     "version": "3.14.2"
   },
   "channeldata_version": 1,
@@ -40,12 +40,12 @@
   "labels": [
     "main"
   ],
-  "package": "petsc-3.14.2-h7615d54_0.tar.bz2",
+  "package": "petsc-3.14.2-h23123f9_0.tar.bz2",
   "repodata": {
-    "build": "h7615d54_0",
+    "build": "h23123f9_0",
     "build_number": 0,
     "depends": [
-      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
       "hypre >=2.18.2,<2.19.0a0",
       "libblas >=3.8.0,<4.0a0",
       "libcblas >=3.8.0,<4.0a0",
@@ -55,27 +55,26 @@
       "liblapack >=3.8.0,<4.0a0",
       "libstdcxx-ng >=9.3.0",
       "metis >=5.1.0,<5.2.0a0",
-      "mpich >=3.3.2,<3.4.0a0",
       "mumps-mpi >=5.2.1,<5.2.2.0a0",
+      "openmpi >=4.0.5,<4.1.0a0",
       "parmetis >=4.0.3,<4.1.0a0",
       "ptscotch >=6.0.9,<6.0.10.0a0",
       "scalapack >=2.0.2,<2.1.0a0",
       "scotch >=6.0.9,<6.0.10.0a0",
       "suitesparse >=5.6.0,<5.7.0a0",
-      "superlu",
-      "superlu_dist"
+      "superlu"
     ],
     "license": "BSD-2-Clause",
     "license_family": "BSD",
-    "md5": "b92daf7ef7a5ebc24656c3af1363677a",
+    "md5": "192fef5d6b7070786d7633686fc3f17a",
     "name": "petsc",
-    "sha256": "4c90cda80be573c522b7fbe5bef0835c9b7adda79daf9e13316579f585eadc6b",
-    "size": 9772892,
-    "subdir": "linux-aarch64",
-    "timestamp": 1610271789759,
+    "sha256": "f817c5001b843075b307ea18b97b856a1f06c9b28c8d92db0559fb19807c751a",
+    "size": 13245632,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1610271653619,
     "version": "3.14.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-aarch64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/petsc-3.14.2-h7615d54_0.tar.bz2/petsc-3.14.2-h7615d54_0.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/petsc-3.14.2-h23123f9_0.tar.bz2"
 }
