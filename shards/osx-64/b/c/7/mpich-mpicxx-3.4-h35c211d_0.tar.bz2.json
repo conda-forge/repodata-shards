@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.",
     "dev_url": "https://wiki.mpich.org/mpich/index.php/Main_Page",
@@ -17,22 +17,16 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {
-      "3.4": {
-        "weak": [
-          "mpich >=3.4,<3.5.0a0"
-        ]
-      }
-    },
+    "run_exports": {},
     "source_git_url": null,
     "source_url": "http://www.mpich.org/static/downloads/3.4/mpich-3.4.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A high performance widely portable implementation of the MPI standard.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1610311398,
+    "text_prefix": false,
+    "timestamp": 1610312269,
     "version": "3.4"
   },
   "channeldata_version": 1,
@@ -40,28 +34,25 @@
   "labels": [
     "main"
   ],
-  "package": "mpich-3.4-h846660c_0.tar.bz2",
+  "package": "mpich-mpicxx-3.4-h35c211d_0.tar.bz2",
   "repodata": {
-    "build": "h846660c_0",
+    "build": "h35c211d_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
-      "libgfortran5 >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "mpi 1.0 mpich"
+      "clangxx_osx-64 11.*",
+      "mpich 3.4 hd33e60e_0"
     ],
     "license": "LicenseRef-MPICH",
     "license_family": "Other",
-    "md5": "b0f4fadc41d8b1fb10efb08a5c0ceed5",
-    "name": "mpich",
-    "sha256": "393515b74dcf2a20cb62e38ee6fe80d4d6d528cb53d4416cf7674e0c8e60d859",
-    "size": 10495025,
-    "subdir": "linux-64",
-    "timestamp": 1610311398786,
+    "md5": "3da8953b9e0801b925ca72fc49e8429b",
+    "name": "mpich-mpicxx",
+    "sha256": "aee313f46af31b7e5a0c68bbe803415bec7a4e0a2a9c919c162cecdd827f1369",
+    "size": 133685,
+    "subdir": "osx-64",
+    "timestamp": 1610312269396,
     "version": "3.4"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/mpich-3.4-h846660c_0.tar.bz2/mpich-3.4-h846660c_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/mpich-mpicxx-3.4-h35c211d_0.tar.bz2"
 }
