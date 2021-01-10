@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "libxfoil is a library to analyze the aerodynamics of 2-dimensional airfoi sections programmatically using the Xfoil aerodynamics engine.",
     "dev_url": "https://github.com/montagdude/libxfoil",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/montagdude/libxfoil/archive/1.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "libxfoil (xfoil + python bindings)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610264968,
+    "timestamp": 1610265052,
     "version": "1.0"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "libxfoil-1.0-py36h0de400f_3.tar.bz2",
+  "package": "libxfoil-1.0-py38hc3ea746_3.tar.bz2",
   "repodata": {
-    "build": "py36h0de400f_3",
+    "build": "py38hc3ea746_3",
     "build_number": 3,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
+      "libgfortran 5.*",
       "libgfortran5 >=9.3.0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "GPL-2.0-only",
     "license_family": "GPL",
-    "md5": "a3f2996777f3db36367601e3110bb2ec",
+    "md5": "91d6ed61602fa6e5e5fa0f5084fae5a8",
     "name": "libxfoil",
-    "sha256": "4fc6b4c8944df8696366a4749385868e7acafe55812fd779c1374175895fe058",
-    "size": 270497,
-    "subdir": "linux-64",
-    "timestamp": 1610264968472,
+    "sha256": "4cdb2e9b429c605b1f93f0d28baef7b33351f08f7e3a6b7d054baabc32092f09",
+    "size": 262980,
+    "subdir": "osx-64",
+    "timestamp": 1610265052036,
     "version": "1.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libxfoil-1.0-py36h0de400f_3.tar.bz2/libxfoil-1.0-py36h0de400f_3.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libxfoil-1.0-py38hc3ea746_3.tar.bz2"
 }
