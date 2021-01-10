@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Python interface for OSQP, the Operator Splitting QP Solver",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610260309,
+    "timestamp": 1610260812,
     "version": "0.6.2"
   },
   "channeldata_version": 1,
@@ -34,30 +34,30 @@
   "labels": [
     "main"
   ],
-  "package": "osqp-0.6.2-py38h51da96c_0.tar.bz2",
+  "package": "osqp-0.6.2-py36he38d939_0.tar.bz2",
   "repodata": {
-    "build": "py38h51da96c_0",
+    "build": "py36he38d939_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
       "numpy >=1.16.6,<2.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
       "qdldl-python",
-      "scipy"
+      "scipy",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "05daeb66d1f9663b4d4ed706a2220148",
+    "md5": "d020833efe5f65640c33ba8a16dedbb9",
     "name": "osqp",
-    "sha256": "0239b1a418ad10872894caca33bd822d7c2d2afe3a8e381129ce26e67ad3891a",
-    "size": 186585,
-    "subdir": "linux-64",
-    "timestamp": 1610260309890,
+    "sha256": "d73243fcad47fb7ccd1c5e210e4f2285e2eccb92dcdd97eed9c905a267eea57d",
+    "size": 179442,
+    "subdir": "win-64",
+    "timestamp": 1610260812491,
     "version": "0.6.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/osqp-0.6.2-py38h51da96c_0.tar.bz2/osqp-0.6.2-py38h51da96c_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/osqp-0.6.2-py36he38d939_0.tar.bz2"
 }
