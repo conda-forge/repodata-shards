@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "cexprtk is a cython wrapper around \"C++ Mathematical Expression Toolkit Library (ExprTk)\". Using cexprtk a powerful mathematical expression engine can be incorporated into your python project.",
     "dev_url": "https://github.com/mjdrushton/cexprtk",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/cexprtk/cexprtk-0.3.4.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Mathematical Expression Parsing and Evaluation in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610262796,
+    "timestamp": 1610262838,
     "version": "0.3.4"
   },
   "channeldata_version": 1,
@@ -34,27 +34,26 @@
   "labels": [
     "main"
   ],
-  "package": "cexprtk-0.3.4-py39h1a9c180_3.tar.bz2",
+  "package": "cexprtk-0.3.4-py39hedf5dff_3.tar.bz2",
   "repodata": {
-    "build": "py39h1a9c180_3",
+    "build": "py39hedf5dff_3",
     "build_number": 3,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.0",
       "python >=3.9,<3.10.0a0",
       "python_abi 3.9.* *_cp39"
     ],
     "license": "CPL-1.0",
     "license_family": "OTHER",
-    "md5": "420d03b3decd3c4dfcc2bd2081add84d",
+    "md5": "98f0e1db9cc75b0682c4805ddce85438",
     "name": "cexprtk",
-    "sha256": "0368ad20d4f5ebacfc2567c752a575d8d686c16e249a8e42cdf6c49b0569511e",
-    "size": 3342033,
-    "subdir": "linux-64",
-    "timestamp": 1610262796799,
+    "sha256": "4bd37231fb5980241594f1616df05282eb904038d5b7704bb76cbd13c1c14e91",
+    "size": 1692550,
+    "subdir": "osx-64",
+    "timestamp": 1610262838134,
     "version": "0.3.4"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cexprtk-0.3.4-py39h1a9c180_3.tar.bz2/cexprtk-0.3.4-py39h1a9c180_3.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cexprtk-0.3.4-py39hedf5dff_3.tar.bz2"
 }
