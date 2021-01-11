@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -24,12 +24,12 @@
       "https://cran.r-project.org/src/contrib/glmnet_4.1.tar.gz"
     ],
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Extremely efficient procedures for fitting the entire lasso or elastic-net regularization path for linear regression, logistic and multinomial regression models, Poisson regression and the Cox model. Two recent additions are the multiple-response Gaussian, and the grouped multinomial regression. The algorithm uses cyclical coordinate descent in a path-wise fashion, as described in the papers listed in the URL below.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610357602,
+    "timestamp": 1610357714,
     "version": "4.1"
   },
   "channeldata_version": 1,
@@ -37,15 +37,14 @@
   "labels": [
     "main"
   ],
-  "package": "r-glmnet-4.1-r36h859d828_0.tar.bz2",
+  "package": "r-glmnet-4.1-r40h1a6e9bf_0.tar.bz2",
   "repodata": {
-    "build": "r36h859d828_0",
+    "build": "r40h1a6e9bf_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
+      "libgfortran 5.*",
       "libgfortran5 >=9.3.0",
-      "r-base >=3.6,<3.7.0a0",
+      "r-base >=4.0,<4.1.0a0",
       "r-foreach",
       "r-matrix >=1.0_6",
       "r-shape",
@@ -53,15 +52,15 @@
     ],
     "license": "GPL-2.0-only",
     "license_family": "GPL2",
-    "md5": "39cf412415d953019fad3a0df8fa493b",
+    "md5": "8e270644ac86ee871cc6ed42d022a975",
     "name": "r-glmnet",
-    "sha256": "f3dd13c909e0421253f702e7f0715d25922210fb5353f05d46b06bb8bef3f6fe",
-    "size": 1900099,
-    "subdir": "linux-64",
-    "timestamp": 1610357602809,
+    "sha256": "e3db8e447d374fa83fe202d8d8985b45b56aca407ea3475d1107af4da8c0c1a9",
+    "size": 1874364,
+    "subdir": "osx-64",
+    "timestamp": 1610357714823,
     "version": "4.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-glmnet-4.1-r36h859d828_0.tar.bz2/r-glmnet-4.1-r36h859d828_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-glmnet-4.1-r40h1a6e9bf_0.tar.bz2"
 }
