@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/WISDEM/WISDEM/archive/v3.1.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Wind-Plant Integrated System Design and Engineering Model",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1610338968,
+    "text_prefix": false,
+    "timestamp": 1610339825,
     "version": "3.1.0"
   },
   "channeldata_version": 1,
@@ -34,20 +34,18 @@
   "labels": [
     "main"
   ],
-  "package": "wisdem-3.1.0-py38hb2138dd_1.tar.bz2",
+  "package": "wisdem-3.1.0-py38hb2411df_1.tar.bz2",
   "repodata": {
-    "build": "py38hb2138dd_1",
+    "build": "py38hb2411df_1",
     "build_number": 1,
     "depends": [
       "cython",
       "jsonschema",
       "libblas >=3.8.0,<4.0a0",
       "libcblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
-      "libgfortran5 >=9.3.0",
+      "libflang >=5.0.0",
       "liblapack >=3.8.0,<4.0a0",
-      "libstdcxx-ng >=9.3.0",
+      "m2w64-gcc-libs",
       "matplotlib-base",
       "numpy >=1.16.6,<2.0a0",
       "openmdao",
@@ -61,18 +59,20 @@
       "ruamel_yaml",
       "scipy",
       "swig",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
       "xlrd"
     ],
     "license": "Apache-2.0",
-    "md5": "8589577ed35a8afa89066565a38dc331",
+    "md5": "56dfb54b8f62418f7e554f3dc3139013",
     "name": "wisdem",
-    "sha256": "81ed8fa5d605ddd54cf250b7f1db8b2d2ac7748b3fbccca492efb8cf2709e160",
-    "size": 4029913,
-    "subdir": "linux-64",
-    "timestamp": 1610338968095,
+    "sha256": "59f296c1c59d8f668c7a9994b3459dfbdc4f011f60ada1bd61095ac4c0612c39",
+    "size": 4562505,
+    "subdir": "win-64",
+    "timestamp": 1610339825529,
     "version": "3.1.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/wisdem-3.1.0-py38hb2138dd_1.tar.bz2/wisdem-3.1.0-py38hb2138dd_1.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/wisdem-3.1.0-py38hb2411df_1.tar.bz2"
 }
