@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Python-LZO provides Python bindings for LZO, i.e. you can access the LZO library from your Python scripts thereby compressing ordinary Python strings.",
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/p/python-lzo/python-lzo-1.12.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Python bindings for the LZO data compression library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610350141,
+    "timestamp": 1610350214,
     "version": "1.12"
   },
   "channeldata_version": 1,
@@ -34,27 +34,25 @@
   "labels": [
     "main"
   ],
-  "package": "python-lzo-1.12-py37h8b8de88_1002.tar.bz2",
+  "package": "python-lzo-1.12-py38h9b1f6bf_1002.tar.bz2",
   "repodata": {
-    "build": "py37h8b8de88_1002",
+    "build": "py38h9b1f6bf_1002",
     "build_number": 1002,
     "depends": [
-      "libgcc-ng >=9.3.0",
       "lzo >=2.10,<3.0a0",
-      "pypy3.7 >=7.3.3",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7 *_pypy37_pp73"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "GPL-2.0",
-    "md5": "2aed7e3c3339cfe753b30cb61c38aacc",
+    "md5": "59a5fc0011e174f7c6253b68a0e6ef48",
     "name": "python-lzo",
-    "sha256": "b895da8545ace4fe80de23f3884266b31e075494ed1532015eefaf7b88cb3b0e",
-    "size": 19398,
-    "subdir": "linux-64",
-    "timestamp": 1610350141896,
+    "sha256": "630d29382c0a31559f0f16913dcb0692c4b2ff29bfcd39842fa22ce8a8d7dccb",
+    "size": 17751,
+    "subdir": "osx-64",
+    "timestamp": 1610350214358,
     "version": "1.12"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/python-lzo-1.12-py37h8b8de88_1002.tar.bz2/python-lzo-1.12-py37h8b8de88_1002.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/python-lzo-1.12-py38h9b1f6bf_1002.tar.bz2"
 }
