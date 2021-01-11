@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -24,12 +24,12 @@
       "https://cran.r-project.org/src/contrib/freetypeharfbuzz_0.2.6.tar.gz"
     ],
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Unlike other tools that dynamically link to the 'Cairo' stack, 'freetypeharfbuzz' is statically linked to specific versions of the 'FreeType' and 'harfbuzz' libraries (2.9 and 1.7.6 respectively). This ensures deterministic computation of text box extents for situations where reproducible results are crucial (for instance unit tests of graphics).",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610392467,
+    "timestamp": 1610393525,
     "version": "0.2.6"
   },
   "channeldata_version": 1,
@@ -37,26 +37,26 @@
   "labels": [
     "main"
   ],
-  "package": "r-freetypeharfbuzz-0.2.6-r36hcfec24a_0.tar.bz2",
+  "package": "r-freetypeharfbuzz-0.2.6-r40h6d2157b_0.tar.bz2",
   "repodata": {
-    "build": "r36hcfec24a_0",
+    "build": "r40h6d2157b_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "r-base >=3.6,<3.7.0a0",
+      "m2w64-gcc-libs",
+      "r-base >=4.0,<4.1.0a0",
       "r-fontquiver"
     ],
     "license": "GPL-3",
     "license_family": "GPL3",
-    "md5": "0e26401cccec642338bb68b3c8590703",
+    "md5": "5be26f4a2db58ff35fc12723b581752c",
     "name": "r-freetypeharfbuzz",
-    "sha256": "0eea8078082a8090d8d0222af44d6021d3e9945241de7917582d0c7c451b4644",
-    "size": 632070,
-    "subdir": "linux-64",
-    "timestamp": 1610392467290,
+    "sha256": "7f0cf57464ff6849c8cfcc0abb249e48c865ef4983f56ac55ae0f551b969b431",
+    "size": 733846,
+    "subdir": "win-64",
+    "timestamp": 1610393525415,
     "version": "0.2.6"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-freetypeharfbuzz-0.2.6-r36hcfec24a_0.tar.bz2/r-freetypeharfbuzz-0.2.6-r36hcfec24a_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/r-freetypeharfbuzz-0.2.6-r40h6d2157b_0.tar.bz2"
 }
