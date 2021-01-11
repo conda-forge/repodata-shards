@@ -26,7 +26,7 @@
     "summary": "HOOMD-blue is a general-purpose particle simulation toolkit.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610401491,
+    "timestamp": 1610402266,
     "version": "3.0.0dev3"
   },
   "channeldata_version": 1,
@@ -34,11 +34,12 @@
   "labels": [
     "hoomd_dev"
   ],
-  "package": "hoomd-3.0.0dev3-cpu_py38h941b696_0.tar.bz2",
+  "package": "hoomd-3.0.0dev3-gpu_py38h71d091d_0.tar.bz2",
   "repodata": {
-    "build": "cpu_py38h941b696_0",
+    "build": "gpu_py38h71d091d_0",
     "build_number": 0,
     "depends": [
+      "cudatoolkit 9.2|9.2.*",
       "libgcc-ng >=7.5.0",
       "libstdcxx-ng >=7.5.0",
       "numpy",
@@ -48,15 +49,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "92956770ac7d7ed68c90509652f104c2",
+    "md5": "39c93ca51ad0db2279687c17d9e01f1b",
     "name": "hoomd",
-    "sha256": "8b0b07c2626058ff5149b583651385efad8c33cfddfc122ad1c1c9cc745ad10a",
-    "size": 7428630,
+    "sha256": "fa67b19f1839f05f1c066c37f89bbb66ac5fc91c85406efff5f18f1abbd78cc0",
+    "size": 23798057,
     "subdir": "linux-64",
-    "timestamp": 1610401491636,
+    "timestamp": 1610402266235,
     "version": "3.0.0dev3"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/hoomd-3.0.0dev3-cpu_py38h941b696_0.tar.bz2/hoomd-3.0.0dev3-cpu_py38h941b696_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/label/hoomd_dev/linux-64/hoomd-3.0.0dev3-gpu_py38h71d091d_0.tar.bz2"
 }
