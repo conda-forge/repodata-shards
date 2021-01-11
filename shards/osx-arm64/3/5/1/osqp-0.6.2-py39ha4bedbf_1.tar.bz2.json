@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Python interface for OSQP, the Operator Splitting QP Solver.  To use the `codegen` interface, install `cmake` and an appropriate compiler version. (We don't install this by default.)",
     "dev_url": "http://github.com/oxfordcontrol/osqp-python",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-aarch64"
+      "osx-arm64"
     ],
     "summary": "Python interface for OSQP, the Operator Splitting QP Solver",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610324006,
+    "timestamp": 1610325801,
     "version": "0.6.2"
   },
   "channeldata_version": 1,
@@ -34,30 +34,29 @@
   "labels": [
     "main"
   ],
-  "package": "osqp-0.6.2-py38h36e2a69_1.tar.bz2",
+  "package": "osqp-0.6.2-py39ha4bedbf_1.tar.bz2",
   "repodata": {
-    "build": "py38h36e2a69_1",
+    "build": "py39ha4bedbf_1",
     "build_number": 1,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "numpy >=1.16.6,<2.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "libcxx >=11.0.0",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "qdldl-python",
       "scipy"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "cc26433147f93d50eb99f5045524097e",
+    "md5": "83b5137df694b11e1c0be4c7f87891cb",
     "name": "osqp",
-    "sha256": "0b42f3497f12e40ce05ed951d8b2ae6aa2f02b5131f67fb337a34be80b10d73f",
-    "size": 183701,
-    "subdir": "linux-aarch64",
-    "timestamp": 1610324006331,
+    "sha256": "d2a693a131db5f2865b7d073d7dce0e5770f78e57e99db9423d5f0348247531a",
+    "size": 174066,
+    "subdir": "osx-arm64",
+    "timestamp": 1610325801961,
     "version": "0.6.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-aarch64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/osqp-0.6.2-py38h36e2a69_1.tar.bz2/osqp-0.6.2-py38h36e2a69_1.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/osqp-0.6.2-py39ha4bedbf_1.tar.bz2"
 }

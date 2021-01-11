@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/numpy/numpy",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/numpy/numpy/releases/download/v1.19.5/numpy-1.19.5.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Array processing for numbers, strings, records, and objects.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610324862,
+    "timestamp": 1610325016,
     "version": "1.19.5"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "numpy-1.19.5-py37haa41c4c_1.tar.bz2",
+  "package": "numpy-1.19.5-py37hec87de9_1.tar.bz2",
   "repodata": {
-    "build": "py37haa41c4c_1",
+    "build": "py37hec87de9_1",
     "build_number": 1,
     "depends": [
       "libblas >=3.8.0,<4.0a0",
       "libcblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=9.3.0",
       "liblapack >=3.8.0,<4.0a0",
       "python >=3.7,<3.8.0a0",
       "python_abi 3.7.* *_cp37m"
     ],
     "license": "BSD-3-Clause",
-    "md5": "429d4557241cc4c1a7f190c2b858ac62",
+    "md5": "cce60ded33dac8a42eb0c4350244f31b",
     "name": "numpy",
-    "sha256": "96762db514e8e4c6841c4e5a150b8efa3ab4d2016b2b42bb2217f53254e11a46",
-    "size": 5568258,
-    "subdir": "linux-64",
-    "timestamp": 1610324862481,
+    "sha256": "b93a97f376e15ef6be4d9c72bde2ee1a8dfff22e9daeec45e1b36cfe4ce243c8",
+    "size": 5331553,
+    "subdir": "osx-64",
+    "timestamp": 1610325016100,
     "version": "1.19.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/numpy-1.19.5-py37haa41c4c_1.tar.bz2/numpy-1.19.5-py37haa41c4c_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/numpy-1.19.5-py37hec87de9_1.tar.bz2"
 }
