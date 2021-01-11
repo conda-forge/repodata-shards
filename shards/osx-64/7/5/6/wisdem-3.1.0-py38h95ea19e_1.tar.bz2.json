@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "The Wind-Plant Integrated System Design and Engineering Model (WISDEM\u00AE) is a set of models for assessing overall wind plant cost of energy (COE). The models use wind turbine and plant cost and energy production as well as financial models to estimate coe and other wind plant system attributes. It is built in OpenMDAO.",
     "dev_url": "https://github.com/wisdem/wisdem",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/WISDEM/WISDEM/archive/v3.1.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Wind-Plant Integrated System Design and Engineering Model",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610338951,
+    "timestamp": 1610339063,
     "version": "3.1.0"
   },
   "channeldata_version": 1,
@@ -34,29 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "wisdem-3.1.0-py39hee8e79c_1.tar.bz2",
+  "package": "wisdem-3.1.0-py38h95ea19e_1.tar.bz2",
   "repodata": {
-    "build": "py39hee8e79c_1",
+    "build": "py38h95ea19e_1",
     "build_number": 1,
     "depends": [
       "cython",
       "jsonschema",
       "libblas >=3.8.0,<4.0a0",
       "libcblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
+      "libcxx >=11.0.0",
+      "libgfortran 5.*",
       "libgfortran5 >=9.3.0",
       "liblapack >=3.8.0,<4.0a0",
-      "libstdcxx-ng >=9.3.0",
       "matplotlib-base",
-      "numpy >=1.19.5,<2.0a0",
+      "numpy >=1.16.6,<2.0a0",
       "openmdao",
       "openpyxl",
       "pandas",
       "pyside2",
       "pytest",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "pyyaml",
       "ruamel_yaml",
       "scipy",
@@ -64,15 +63,15 @@
       "xlrd"
     ],
     "license": "Apache-2.0",
-    "md5": "66b52d848d8b228121c91deae3e1fb2d",
+    "md5": "fd31064014f11f8541a91c2011346dbc",
     "name": "wisdem",
-    "sha256": "cdbf216ac74004d9e70c5a2d32f282cb8c6b0c7a1bc3ebf5cbce24dc36c83334",
-    "size": 3997953,
-    "subdir": "linux-64",
-    "timestamp": 1610338951784,
+    "sha256": "87197d3e1b25f5641f6f792f8b096d869e66a13e89a603b17c6ae1d342c8b2b4",
+    "size": 3873857,
+    "subdir": "osx-64",
+    "timestamp": 1610339063594,
     "version": "3.1.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/wisdem-3.1.0-py39hee8e79c_1.tar.bz2/wisdem-3.1.0-py39hee8e79c_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/wisdem-3.1.0-py38h95ea19e_1.tar.bz2"
 }
