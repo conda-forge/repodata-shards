@@ -20,7 +20,7 @@
     "run_exports": {
       "2.6.0": {
         "weak": [
-          "adios2 * nompi_*",
+          "adios2 * mpi_openmpi_*",
           "adios2 >=2.6.0,<2.6.1.0a0"
         ]
       }
@@ -33,7 +33,7 @@
     "summary": "Next generation of ADIOS developed in the Exascale Computing Program",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610387894,
+    "timestamp": 1610387921,
     "version": "2.6.0"
   },
   "channeldata_version": 1,
@@ -41,36 +41,38 @@
   "labels": [
     "main"
   ],
-  "package": "adios2-2.6.0-nompi_py37h2b12609_106.tar.bz2",
+  "package": "adios2-2.6.0-mpi_openmpi_py38h5b2a313_6.tar.bz2",
   "repodata": {
-    "build": "nompi_py37h2b12609_106",
-    "build_number": 106,
+    "build": "mpi_openmpi_py38h5b2a313_6",
+    "build_number": 6,
     "depends": [
       "blosc >=1.21.0,<2.0a0",
       "bzip2 >=1.0.8,<2.0a0",
-      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
       "libffi >=3.2.1,<3.3.0a0",
       "libgcc-ng >=9.3.0",
       "libgfortran-ng",
       "libgfortran5 >=9.3.0",
       "libpng >=1.6.37,<1.7.0a0",
       "libstdcxx-ng >=9.3.0",
+      "mpi4py",
       "numpy >=1.16.6,<2.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "openmpi >=4.0,<4.1.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "zeromq >=4.3.3,<4.4.0a0",
       "zfp >=0.5.5,<1.0a0"
     ],
     "license": "Apache-2.0",
-    "md5": "197fb067014e870a47983ea3cdc5049f",
+    "md5": "41a896e71e0094f21fe41625928ca6e2",
     "name": "adios2",
-    "sha256": "e64a12471f58db3bbb028a20cb89d4517fb9b6a45cddb4970426b879a5705f54",
-    "size": 4473509,
+    "sha256": "36905499df1d56b79656e32555fd48b3a0d9d3dcf918a939e4d5ffd016a5d74c",
+    "size": 5000993,
     "subdir": "linux-64",
-    "timestamp": 1610387894275,
+    "timestamp": 1610387921891,
     "version": "2.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/adios2-2.6.0-nompi_py37h2b12609_106.tar.bz2/adios2-2.6.0-nompi_py37h2b12609_106.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/adios2-2.6.0-mpi_openmpi_py38h5b2a313_6.tar.bz2"
 }
