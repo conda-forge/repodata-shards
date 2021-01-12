@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "FFPyPlayer is a python binding for the FFmpeg library for playing and writing media files.",
     "dev_url": "https://github.com/matham/ffpyplayer",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/matham/ffpyplayer/archive/v4.3.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A cython implementation of ffmpeg based player, ffplay",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610404377,
+    "timestamp": 1610404363,
     "version": "4.3.2"
   },
   "channeldata_version": 1,
@@ -34,30 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "ffpyplayer-4.3.2-py37he601af9_0.tar.bz2",
+  "package": "ffpyplayer-4.3.2-py38hf1c3001_0.tar.bz2",
   "repodata": {
-    "build": "py37he601af9_0",
+    "build": "py38hf1c3001_0",
     "build_number": 0,
     "depends": [
       "ffmpeg >=4.3.1,<5.0a0",
-      "libgcc-ng >=9.3.0",
-      "pypy3.7 >=7.3.3",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7 *_pypy37_pp73",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "sdl2",
       "sdl2_mixer"
     ],
     "license": "LGPL-3.0",
     "license_family": "LGPL",
-    "md5": "28475a731af4dc96816e4b4449963ad9",
+    "md5": "39ba1c2ebdb50106650b9b1c7c75d036",
     "name": "ffpyplayer",
-    "sha256": "6f3ec2e327894fa7c892ad5f466436efa4a934d1c6b4ae7fd745d1b99785fa4c",
-    "size": 3984330,
-    "subdir": "linux-64",
-    "timestamp": 1610404377908,
+    "sha256": "aff8429a173b9e166300fa766f1be103054e663f64390977dcaaed9e44eabafd",
+    "size": 3960213,
+    "subdir": "osx-64",
+    "timestamp": 1610404363378,
     "version": "4.3.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ffpyplayer-4.3.2-py37he601af9_0.tar.bz2/ffpyplayer-4.3.2-py37he601af9_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ffpyplayer-4.3.2-py38hf1c3001_0.tar.bz2"
 }

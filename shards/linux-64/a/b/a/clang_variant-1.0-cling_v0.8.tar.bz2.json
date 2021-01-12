@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -26,34 +26,30 @@
     "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610400022,
-    "version": "5.0.0"
+    "timestamp": 1610397646,
+    "version": "1.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "clangdev-5.0.0-h43905f9_1011.tar.bz2",
+  "package": "clang_variant-1.0-cling_v0.8.tar.bz2",
   "repodata": {
-    "build": "h43905f9_1011",
+    "build": "cling_v0.8",
     "build_number": 1011,
-    "depends": [
-      "clang_variant * cling_v0.8",
-      "gxx_linux-64 9.*",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0"
-    ],
+    "depends": [],
     "license": "NCSA",
-    "md5": "7ad22bb09847c0e1f6a94aaa3c7751f7",
-    "name": "clangdev",
-    "sha256": "44d420c599c2723e654dee309c70e71624ba8e93bb384e86fc78b709bd88a46b",
-    "size": 119663192,
+    "md5": "5173768b35e2b194919ee26c938f6910",
+    "name": "clang_variant",
+    "sha256": "0596bfb5ceb48835308dd6f89f17a629245f9298652c28226ce429840704c268",
+    "size": 12401,
     "subdir": "linux-64",
-    "timestamp": 1610400022129,
-    "version": "5.0.0"
+    "timestamp": 1610397646189,
+    "track_features": "non_default_clang",
+    "version": "1.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/clangdev-5.0.0-h43905f9_1011.tar.bz2/clangdev-5.0.0-h43905f9_1011.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/clang_variant-1.0-cling_v0.8.tar.bz2"
 }
