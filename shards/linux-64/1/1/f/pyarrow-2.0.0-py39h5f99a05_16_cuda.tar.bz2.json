@@ -23,10 +23,10 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Python test files for Apache Arrow",
+    "summary": "Python libraries for Apache Arrow",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1610476385,
+    "text_prefix": true,
+    "timestamp": 1610476741,
     "version": "2.0.0"
   },
   "channeldata_version": 1,
@@ -34,30 +34,34 @@
   "labels": [
     "main"
   ],
-  "package": "pyarrow-tests-2.0.0-py38h842ea0c_16_cpu.tar.bz2",
+  "package": "pyarrow-2.0.0-py39h5f99a05_16_cuda.tar.bz2",
   "repodata": {
-    "build": "py38h842ea0c_16_cpu",
+    "build": "py39h5f99a05_16_cuda",
     "build_number": 16,
     "constrains": [
-      "arrow-cpp-proc * cpu"
+      "cudatoolkit >=9.2",
+      "arrow-cpp-proc * cuda"
     ],
     "depends": [
+      "arrow-cpp 2.0.0 py39hce4a3b7_16_cuda",
       "libgcc-ng >=9.3.0",
       "libstdcxx-ng >=9.3.0",
-      "pyarrow 2.0.0 py38h842ea0c_16_cpu",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "numpy >=1.16,<2.0a0",
+      "parquet-cpp 1.5.1.*",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
     ],
     "license": "Apache-2.0",
-    "md5": "12c9f71033a800572c0f366d16aa1d3a",
-    "name": "pyarrow-tests",
-    "sha256": "71f53cc7325018053b59c9953eb629a5c098526490230c6682f6d4766ce42401",
-    "size": 590883,
+    "md5": "0070278fbd65e0cdf4862de830cf5e7e",
+    "name": "pyarrow",
+    "sha256": "ce3faeb8df385641f17e63229c23f02640bdb32b683bf272d5aa0f2287a24ad7",
+    "size": 2662097,
     "subdir": "linux-64",
-    "timestamp": 1610476385692,
+    "timestamp": 1610476741907,
+    "track_features": "arrow-cuda",
     "version": "2.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyarrow-tests-2.0.0-py38h842ea0c_16_cpu.tar.bz2/pyarrow-tests-2.0.0-py38h842ea0c_16_cpu.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyarrow-2.0.0-py39h5f99a05_16_cuda.tar.bz2"
 }
