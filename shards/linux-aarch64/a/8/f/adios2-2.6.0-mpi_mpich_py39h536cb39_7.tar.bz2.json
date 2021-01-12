@@ -20,7 +20,7 @@
     "run_exports": {
       "2.6.0": {
         "weak": [
-          "adios2 * nompi_*",
+          "adios2 * mpi_mpich_*",
           "adios2 >=2.6.0,<2.6.1.0a0"
         ]
       }
@@ -28,12 +28,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/ornladios/ADIOS2/archive/v2.6.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "Next generation of ADIOS developed in the Exascale Computing Program",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610475876,
+    "timestamp": 1610479798,
     "version": "2.6.0"
   },
   "channeldata_version": 1,
@@ -41,36 +41,38 @@
   "labels": [
     "main"
   ],
-  "package": "adios2-2.6.0-nompi_py37h1e2a0b8_107.tar.bz2",
+  "package": "adios2-2.6.0-mpi_mpich_py39h536cb39_7.tar.bz2",
   "repodata": {
-    "build": "nompi_py37h1e2a0b8_107",
-    "build_number": 107,
+    "build": "mpi_mpich_py39h536cb39_7",
+    "build_number": 7,
     "depends": [
       "blosc >=1.21.0,<2.0a0",
       "bzip2 >=1.0.8,<2.0a0",
-      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
       "libffi >=3.3,<3.4.0a0",
       "libgcc-ng >=9.3.0",
       "libgfortran-ng",
       "libgfortran5 >=9.3.0",
       "libpng >=1.6.37,<1.7.0a0",
       "libstdcxx-ng >=9.3.0",
-      "numpy >=1.16.6,<2.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "mpi4py",
+      "mpich >=3.3,<3.4.0a0",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "zeromq >=4.3.3,<4.4.0a0",
       "zfp >=0.5.5,<1.0a0"
     ],
     "license": "Apache-2.0",
-    "md5": "45f6c83177a15781fe9dc1e09d34a2ca",
+    "md5": "f3039ab0035da242841046d8fa61b250",
     "name": "adios2",
-    "sha256": "510d5b6d64df36053bc586ff7f41410a464549e3972ebc6a7804fe2cc8bd0860",
-    "size": 4474064,
-    "subdir": "linux-64",
-    "timestamp": 1610475876577,
+    "sha256": "7cffd0ed3c82bb6f7fced2510c2ea08b2098b28c400a75b41d3085e6963660d0",
+    "size": 4537321,
+    "subdir": "linux-aarch64",
+    "timestamp": 1610479798693,
     "version": "2.6.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/adios2-2.6.0-nompi_py37h1e2a0b8_107.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/adios2-2.6.0-mpi_mpich_py39h536cb39_7.tar.bz2"
 }
