@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://ambermd.org/downloads/AmberTools20jlmrcc.tar.bz2",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "AmberTools is a set of programs for biomolecular simulation and analysis",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610439983,
+    "timestamp": 1610441005,
     "version": "20.12"
   },
   "channeldata_version": 1,
@@ -34,28 +34,26 @@
   "labels": [
     "main"
   ],
-  "package": "ambertools-20.12-py37hc295af0_0.tar.bz2",
+  "package": "ambertools-20.12-py37h22fb575_0.tar.bz2",
   "repodata": {
-    "build": "py37hc295af0_0",
+    "build": "py37h22fb575_0",
     "build_number": 0,
     "constrains": [
       "ambermini ==9999999999"
     ],
     "depends": [
-      "_openmp_mutex >=4.5",
       "arpack >=3.7.0,<3.7.1.0a0",
       "boost-cpp >=1.74.0,<1.74.1.0a0",
       "bzip2 >=1.0.8,<2.0a0",
       "cython",
       "fftw >=3.3.8,<4.0a0",
       "libblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
+      "libcxx >=11.0.0",
+      "libgfortran 5.*",
       "libgfortran5 >=9.3.0",
-      "libgomp",
       "liblapack >=3.8.0,<4.0a0",
       "libnetcdf >=4.7.4,<4.7.5.0a0",
-      "libstdcxx-ng >=9.3.0",
+      "llvm-openmp >=11.0.0",
       "matplotlib-base",
       "netcdf-fortran >=4.5.3,<4.6.0a0",
       "numpy",
@@ -70,15 +68,15 @@
       "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "Multiple",
-    "md5": "b316d60ffcb7d1232702eab76103ff26",
+    "md5": "ebc6cfd1fd47faa5597435ef013495f1",
     "name": "ambertools",
-    "sha256": "feb9882480dc24df1874a398c663b349386a2f8d8ef7b581814d0aadd8f56397",
-    "size": 101700810,
-    "subdir": "linux-64",
-    "timestamp": 1610439983296,
+    "sha256": "def0d3ebe40626a87ddc516f2720aaedf1e3c2e0975c3acdd7143420bcb3706b",
+    "size": 97160310,
+    "subdir": "osx-64",
+    "timestamp": 1610441005358,
     "version": "20.12"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ambertools-20.12-py37hc295af0_0.tar.bz2/ambertools-20.12-py37hc295af0_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ambertools-20.12-py37h22fb575_0.tar.bz2"
 }
