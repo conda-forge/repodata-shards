@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "The AWS SDK for C++ provides a modern C++ (version C++ 11 or later) interface for Amazon Web Services (AWS). It is meant to be performant and fully functioning with low- and high-level SDKs, while minimizing dependencies and providing platform portability (Windows, OSX, Linux, and mobile).",
     "dev_url": "https://github.com/aws/aws-sdk-cpp",
@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/aws/aws-sdk-cpp/archive/1.8.122.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "C++ library that makes it easy to integrate C++ applications with AWS services",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610458147,
+    "timestamp": 1610459014,
     "version": "1.8.122"
   },
   "channeldata_version": 1,
@@ -40,28 +40,28 @@
   "labels": [
     "main"
   ],
-  "package": "aws-sdk-cpp-1.8.122-hf85971d_0.tar.bz2",
+  "package": "aws-sdk-cpp-1.8.122-h0223788_0.tar.bz2",
   "repodata": {
-    "build": "hf85971d_0",
+    "build": "h0223788_0",
     "build_number": 0,
     "depends": [
       "aws-c-common >=0.4.65,<0.4.66.0a0",
       "aws-c-event-stream >=0.2.6,<0.2.7.0a0",
       "libcurl >=7.71.1,<8.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0"
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "b9ef9b4ce1e27fe872d8d744b0df879e",
+    "md5": "f179730923ad8df6dfa24a93d23a7b4e",
     "name": "aws-sdk-cpp",
-    "sha256": "a91a71b34c087703ad50a74dfebd3967086c0dd42b97d2834d653c1a91cb2a8b",
-    "size": 2525108,
-    "subdir": "linux-64",
-    "timestamp": 1610458147940,
+    "sha256": "7ae8eefb9e5e16ccb62f564f6560e0cc19a649946bbf89f338f8099742027d50",
+    "size": 3153742,
+    "subdir": "win-64",
+    "timestamp": 1610459014877,
     "version": "1.8.122"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/aws-sdk-cpp-1.8.122-hf85971d_0.tar.bz2/aws-sdk-cpp-1.8.122-hf85971d_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/aws-sdk-cpp-1.8.122-h0223788_0.tar.bz2"
 }
