@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Solves convex cone programs via operator splitting. Can solve: linear programs (LPs), second-order cone programs (SOCPs), semidefinite programs (SDPs), exponential cone programs (ECPs), and power cone programs (PCPs), or problems with any combination of those cones.",
     "dev_url": "https://github.com/bodono/scs-python",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/s/scs/scs-2.1.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-arm64"
     ],
     "summary": "Python interface for SCS, which solves convex cone problems",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610433523,
+    "timestamp": 1610433582,
     "version": "2.1.2"
   },
   "channeldata_version": 1,
@@ -34,30 +34,29 @@
   "labels": [
     "main"
   ],
-  "package": "scs-2.1.2-py39h3c5bb4f_2.tar.bz2",
+  "package": "scs-2.1.2-py38h2df4953_2.tar.bz2",
   "repodata": {
-    "build": "py39h3c5bb4f_2",
+    "build": "py38h2df4953_2",
     "build_number": 2,
     "depends": [
-      "libblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=9.3.0",
-      "liblapack >=3.8.0,<4.0a0",
+      "libblas >=3.9.0,<4.0a0",
+      "liblapack >=3.9.0,<4.0a0",
       "numpy >=1.19.5,<2.0a0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "scipy >=0.13.2"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "bad6ce996ae8487c8c93beae2ace369c",
+    "md5": "06156d8a4ea611601927d68e302aced4",
     "name": "scs",
-    "sha256": "67a1e8864f596380ca395b36d342f06ed61df20ce8e900a411449f2f609e031d",
-    "size": 114579,
-    "subdir": "linux-64",
-    "timestamp": 1610433523355,
+    "sha256": "b1afe4594ab3fa837f4d387f1e7a29912f4847dab01a38de24d392be1750b07e",
+    "size": 104060,
+    "subdir": "osx-arm64",
+    "timestamp": 1610433582246,
     "version": "2.1.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/scs-2.1.2-py39h3c5bb4f_2.tar.bz2/scs-2.1.2-py39h3c5bb4f_2.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/scs-2.1.2-py38h2df4953_2.tar.bz2"
 }
