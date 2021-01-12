@@ -17,16 +17,22 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "2020.2": {
+        "weak": [
+          "tbb >=2020.2"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://github.com/intel/tbb/archive/v2020.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "High level abstract threading library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610404394,
+    "timestamp": 1610412850,
     "version": "2020.2"
   },
   "channeldata_version": 1,
@@ -34,24 +40,25 @@
   "labels": [
     "main"
   ],
-  "package": "tbb-2020.2-h4bd325d_3.tar.bz2",
+  "package": "tbb-devel-2020.2-hd62202e_3.tar.bz2",
   "repodata": {
-    "build": "h4bd325d_3",
+    "build": "hd62202e_3",
     "build_number": 3,
     "depends": [
       "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0"
+      "libstdcxx-ng >=9.3.0",
+      "tbb 2020.2 hd62202e_3"
     ],
     "license": "Apache-2.0",
-    "md5": "5e89435e2855e1e8dd00e9f55e7bae90",
-    "name": "tbb",
-    "sha256": "a7c369499a360a5073a2df5c85f9deab908e79a567f1666f3b53904e35836975",
-    "size": 1528028,
-    "subdir": "linux-64",
-    "timestamp": 1610404394483,
+    "md5": "b86ef55e44e3e11e171ceadf48838c40",
+    "name": "tbb-devel",
+    "sha256": "66f018ccf04671dbab8432657559f768c2512ad752f46855d737df387404c9ef",
+    "size": 1364665,
+    "subdir": "linux-aarch64",
+    "timestamp": 1610412850548,
     "version": "2020.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/tbb-2020.2-h4bd325d_3.tar.bz2/tbb-2020.2-h4bd325d_3.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/tbb-devel-2020.2-hd62202e_3.tar.bz2"
 }

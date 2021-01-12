@@ -26,7 +26,7 @@
     "summary": "Unified Communication X.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610409878,
+    "timestamp": 1610410039,
     "version": "1.9.0"
   },
   "channeldata_version": 1,
@@ -34,28 +34,30 @@
   "labels": [
     "main"
   ],
-  "package": "ucx-1.9.0-h13c9de0_0.tar.bz2",
+  "package": "ucx-1.9.0-h38088af_0.tar.bz2",
   "repodata": {
-    "build": "h13c9de0_0",
+    "build": "h38088af_0",
     "build_number": 0,
     "constrains": [
-      "ucx-proc * cpu"
+      "ucx-proc * gpu"
     ],
     "depends": [
+      "__glibc >=2.17",
+      "cudatoolkit 11.0|11.0.*",
       "libgcc-ng >=7.5.0",
       "libstdcxx-ng >=7.5.0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "10de69e461037d9062b0003edb2b6412",
+    "md5": "3bf15841a169c5c1a45fb786288916ba",
     "name": "ucx",
-    "sha256": "0f3848c1399c06d2782b62b6ae1792828f3ee3b91dbd2bc94e2b08293d60bbef",
-    "size": 9722797,
+    "sha256": "91cb06ce8f2bb314f8b86cf15c21af1c1ce61191f8a40c3cf9126d094d983909",
+    "size": 12648503,
     "subdir": "linux-64",
-    "timestamp": 1610409878085,
+    "timestamp": 1610410039446,
     "version": "1.9.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ucx-1.9.0-h13c9de0_0.tar.bz2/ucx-1.9.0-h13c9de0_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ucx-1.9.0-h38088af_0.tar.bz2"
 }
