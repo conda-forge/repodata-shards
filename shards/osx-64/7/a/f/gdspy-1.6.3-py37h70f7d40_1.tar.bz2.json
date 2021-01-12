@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Gdspy is a Python module for creation and manipulation of GDSII stream files. Key features for the creation of complex CAD layouts are included: 1. Boolean operations on polygons (AND, OR, NOT, XOR) based on clipping algorithm; 2. Polygon offset (inward and outward rescaling of polygons); and 3. Efficient point-in-polygon solutions for large array sets.  Gdspy also includes a simple layout viewer.",
     "dev_url": "https://github.com/heitzmann/gdspy",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/g/gdspy/gdspy-1.6.3.zip",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A Python module for creation and manipulation of GDSII stream files",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610454656,
+    "timestamp": 1610454702,
     "version": "1.6.3"
   },
   "channeldata_version": 1,
@@ -34,28 +34,26 @@
   "labels": [
     "main"
   ],
-  "package": "gdspy-1.6.3-py36h4ea7e17_1.tar.bz2",
+  "package": "gdspy-1.6.3-py37h70f7d40_1.tar.bz2",
   "repodata": {
-    "build": "py36h4ea7e17_1",
+    "build": "py37h70f7d40_1",
     "build_number": 1,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.0",
       "numpy >=1.14",
-      "pypy3.6 >=7.3.3",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73"
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
     ],
     "license": "BSL-1.0",
-    "md5": "2054b383a0f6de4fdac0528d7a46ecc6",
+    "md5": "91cd74ecafdb7019ff35287e9adedcaf",
     "name": "gdspy",
-    "sha256": "461c0b276b6c7da525588fd99e1d4f94d6618ecb40d36d29cb6575c2738fec9e",
-    "size": 219172,
-    "subdir": "linux-64",
-    "timestamp": 1610454656423,
+    "sha256": "3560ae0741d7be32cab4e5b23b8b434eb965f8b6f1bc9a03b6e81765a974d92d",
+    "size": 214918,
+    "subdir": "osx-64",
+    "timestamp": 1610454702296,
     "version": "1.6.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gdspy-1.6.3-py36h4ea7e17_1.tar.bz2/gdspy-1.6.3-py36h4ea7e17_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/gdspy-1.6.3-py37h70f7d40_1.tar.bz2"
 }
