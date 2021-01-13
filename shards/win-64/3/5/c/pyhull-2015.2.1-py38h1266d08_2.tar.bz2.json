@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/p/pyhull/pyhull-2015.2.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Pyhull is a Python wrapper to Qhull (http://www.qhull.org/) for the computation of the convex hull",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610564275,
+    "timestamp": 1610564779,
     "version": "2015.2.1"
   },
   "channeldata_version": 1,
@@ -34,31 +34,30 @@
   "labels": [
     "main"
   ],
-  "package": "pyhull-2015.2.1-py36hb4f4ce5_2.tar.bz2",
+  "package": "pyhull-2015.2.1-py38h1266d08_2.tar.bz2",
   "repodata": {
-    "build": "py36hb4f4ce5_2",
+    "build": "py38h1266d08_2",
     "build_number": 2,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
       "numpy",
       "pip",
-      "pypy3.6 >=7.3.3",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73",
-      "qhull"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "qhull",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "7c55991a08f415892ef5e9dbaaac3e85",
+    "md5": "6dd740d3b68fd664259280de4a362b87",
     "name": "pyhull",
-    "sha256": "0ec88088b92172319746ad074b6ca41d744f38f5ee802f9e9bed3eb971bfa5b9",
-    "size": 24092,
-    "subdir": "linux-64",
-    "timestamp": 1610564275127,
+    "sha256": "5b91445cfd45df2e5dcdc361d19f543026105b7827e4b70735de38fb196804c8",
+    "size": 27158,
+    "subdir": "win-64",
+    "timestamp": 1610564779513,
     "version": "2015.2.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyhull-2015.2.1-py36hb4f4ce5_2.tar.bz2/pyhull-2015.2.1-py36hb4f4ce5_2.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pyhull-2015.2.1-py38h1266d08_2.tar.bz2"
 }
