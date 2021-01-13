@@ -12,49 +12,47 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "NCSA",
+    "license": "Apache-2.0 WITH LLVM-exception",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
-    "source_git_url": "http://root.cern.ch/git/clang.git",
+    "source_git_url": null,
     "source_url": null,
     "subdirs": [
       "osx-arm64"
     ],
     "summary": "Development headers and libraries for Clang",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1610401528,
-    "version": "5.0.0"
+    "text_prefix": false,
+    "timestamp": 1610535405,
+    "version": "11.0.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
-    "main",
-    "broken"
+    "main"
   ],
-  "package": "clangdev-5.0.0-hfaa88dd_1011.tar.bz2",
+  "package": "libclang-11.0.1-default_h87665d4_0.tar.bz2",
   "repodata": {
-    "build": "hfaa88dd_1011",
-    "build_number": 1011,
+    "build": "default_h87665d4_0",
+    "build_number": 0,
     "depends": [
-      "clang_variant * cling_v0.8",
       "libcxx >=11.0.0",
-      "libxml2 >=2.9.10,<2.10.0a0",
-      "zlib"
+      "libllvm11 >=11.0.1,<11.1.0a0"
     ],
-    "license": "NCSA",
-    "md5": "071f079774b3f4026495e33d81c310e1",
-    "name": "clangdev",
-    "sha256": "f560a3c74b6e89a059816ebf81008447964698e99f1015a628a98fd593dc358f",
-    "size": 85063038,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "0d16d5293de444cf0cd1c8f6aec1793b",
+    "name": "libclang",
+    "sha256": "5f9be6918a39734b5638a8f8fef0d5c4eef8b52379962ed65abfad56ae802b4a",
+    "size": 13847352,
     "subdir": "osx-arm64",
-    "timestamp": 1610401528860,
-    "version": "5.0.0"
+    "timestamp": 1610535405980,
+    "version": "11.0.1"
   },
   "repodata_version": 1,
   "subdir": "osx-arm64",
-  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/clangdev-5.0.0-hfaa88dd_1011.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libclang-11.0.1-default_h87665d4_0.tar.bz2"
 }
