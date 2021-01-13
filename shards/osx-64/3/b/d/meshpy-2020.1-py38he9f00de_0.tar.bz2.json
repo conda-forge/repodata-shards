@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "MeshPy offers quality triangular and tetrahedral mesh generation for Python. Meshes of this type are chiefly used in finite-element simulation codes, but also have many other applications ranging from computer graphics to robotics.  In order to generate 2D and 3D meshes, MeshPy provides Python interfaces to three well-regarded mesh generators, [Triangle](http://www.cs.cmu.edu/~quake/triangle.html) by J. Shewchuk, [TetGen](http://tetgen.berlios.de/) by Hang Si, and [gmsh](http://www.geuz.org/gmsh/) by Christophe Geuzaine and Jean-Francois Remacle. The former two are included in the package in slightly modified versions. A generic mesh reader for the latter is included, as is an easy way to run gmsh from a Python script.  As of Version 0.91.2, MeshPy also works with Python 3.",
     "dev_url": "https://github.com/inducer/meshpy",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/M/MeshPy/MeshPy-2020.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Triangular and Tetrahedral Mesh Generator",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610520920,
+    "timestamp": 1610521002,
     "version": "2020.1"
   },
   "channeldata_version": 1,
@@ -34,30 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "meshpy-2020.1-py36hcf32051_0.tar.bz2",
+  "package": "meshpy-2020.1-py38he9f00de_0.tar.bz2",
   "repodata": {
-    "build": "py36hcf32051_0",
+    "build": "py38he9f00de_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.0",
       "numpy",
-      "pypy3.6 >=7.3.3",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "pytools",
       "six"
     ],
     "license": "MIT AND LicenseRef-Proprietary-Triangle AND AGPL-3.0-or-later",
-    "md5": "124b7e225567bd8ffb32c5f33b263976",
+    "md5": "ea5867fcff276808dbadc9d5d3287450",
     "name": "meshpy",
-    "sha256": "497cadb1304af432e9ddcab8b0f5859899b4818544a3a2925e288593b278409d",
-    "size": 432455,
-    "subdir": "linux-64",
-    "timestamp": 1610520920355,
+    "sha256": "c964b72f4221bcf6537f4fc39aac97508a020352cc2ecd688014171f52bf1dbf",
+    "size": 441467,
+    "subdir": "osx-64",
+    "timestamp": 1610521002621,
     "version": "2020.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/meshpy-2020.1-py36hcf32051_0.tar.bz2/meshpy-2020.1-py36hcf32051_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/meshpy-2020.1-py38he9f00de_0.tar.bz2"
 }

@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "MolMod is a collection of molecular modelling tools for python. It is used by other software developed at the CMM, including Yaff, TAMkin and Zeobuilder.",
     "dev_url": "https://github.com/molmod/molmod",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/m/molmod/molmod-1.4.8.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "MolMod is a collection of molecular modelling tools for python.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610521387,
+    "timestamp": 1610521431,
     "version": "1.4.8"
   },
   "channeldata_version": 1,
@@ -34,32 +34,30 @@
   "labels": [
     "main"
   ],
-  "package": "molmod-1.4.8-py36h70b1f00_2.tar.bz2",
+  "package": "molmod-1.4.8-py37hf967b71_2.tar.bz2",
   "repodata": {
-    "build": "py36h70b1f00_2",
+    "build": "py37hf967b71_2",
     "build_number": 2,
     "depends": [
       "cython >=0.24.1",
       "future",
-      "libgcc-ng >=9.3.0",
       "numpy >=1.19.5,<2.0a0",
       "pip",
-      "pypy3.6 >=7.3.3",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "setuptools"
     ],
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "098f33f0675aca727e963e5e142ad94e",
+    "md5": "5f844ee1990c89d65659f68b7ac51de7",
     "name": "molmod",
-    "sha256": "a06ecbbb0a1449457d7c154f9d3754f68e717b1ce65c0ace9543f80eb63a7f03",
-    "size": 1520929,
-    "subdir": "linux-64",
-    "timestamp": 1610521387760,
+    "sha256": "9761fabf7d30dfcb2d0fb325c075f48958080e824ae2ff0f22ed68bbc001b3c3",
+    "size": 1500694,
+    "subdir": "osx-64",
+    "timestamp": 1610521431105,
     "version": "1.4.8"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/molmod-1.4.8-py36h70b1f00_2.tar.bz2/molmod-1.4.8-py36h70b1f00_2.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/molmod-1.4.8-py37hf967b71_2.tar.bz2"
 }
