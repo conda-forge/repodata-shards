@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/root-project/root/archive/46db25e518e17a4e8619bbf0ad1c0533e28e6882.zip",
     "subdirs": [
-      "linux-64"
+      "osx-arm64"
     ],
     "summary": "Development headers and libraries for Clang",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1610569509,
+    "text_prefix": true,
+    "timestamp": 1610571207,
     "version": "5.0.0"
   },
   "channeldata_version": 1,
@@ -34,26 +34,26 @@
   "labels": [
     "main"
   ],
-  "package": "clangdev-5.0.0-h8363d05_1012.tar.bz2",
+  "package": "clangdev-5.0.0-h0d3df5c_1012.tar.bz2",
   "repodata": {
-    "build": "h8363d05_1012",
+    "build": "h0d3df5c_1012",
     "build_number": 1012,
     "depends": [
       "clang_variant * root_20201127",
-      "gxx_linux-64 9.*",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0"
+      "libcxx >=11.0.0",
+      "libxml2 >=2.9.10,<2.10.0a0",
+      "zlib"
     ],
     "license": "NCSA",
-    "md5": "e0d7a3e645888a68a8abba4c694f19d2",
+    "md5": "0fe917f9b1c33587d96ed631cdb4bd33",
     "name": "clangdev",
-    "sha256": "c4cb21f59a037017bbf7b44c6d873f4c949da82d486c74978a589405ff73ef1d",
-    "size": 120051587,
-    "subdir": "linux-64",
-    "timestamp": 1610569509543,
+    "sha256": "3a9fc626ff712d1d9b8f2e6610604af2a4362d3afb346e8ab75a3977e78ebeff",
+    "size": 85162351,
+    "subdir": "osx-arm64",
+    "timestamp": 1610571207947,
     "version": "5.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/clangdev-5.0.0-h8363d05_1012.tar.bz2/clangdev-5.0.0-h8363d05_1012.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/clangdev-5.0.0-h0d3df5c_1012.tar.bz2"
 }

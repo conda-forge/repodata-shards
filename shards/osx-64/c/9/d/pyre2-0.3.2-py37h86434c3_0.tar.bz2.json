@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/andreasvc/pyre2",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/andreasvc/pyre2/archive/v0.3.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Python wrapper for Google's RE2 using Cython",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610569835,
+    "timestamp": 1610569918,
     "version": "0.3.2"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "pyre2-0.3.2-py38h215ab04_0.tar.bz2",
+  "package": "pyre2-0.3.2-py37h86434c3_0.tar.bz2",
   "repodata": {
-    "build": "py38h215ab04_0",
+    "build": "py37h86434c3_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "libcxx >=11.0.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "re2 >=2020.11.1,<2020.11.2.0a0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "ad96bec81065526729b0afa2c24411e3",
+    "md5": "601c4d16ab4c3ed821a1bf374766a7e0",
     "name": "pyre2",
-    "sha256": "b1f3f070be856e31164019be3f2c42025905bb2b476c2506f13e239199758e8d",
-    "size": 2036952,
-    "subdir": "linux-64",
-    "timestamp": 1610569835222,
+    "sha256": "21f39807e558a1116deb813d94da88fb53e5edcc9bf0397ef828a374e1dc5190",
+    "size": 2021381,
+    "subdir": "osx-64",
+    "timestamp": 1610569918495,
     "version": "0.3.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyre2-0.3.2-py38h215ab04_0.tar.bz2/pyre2-0.3.2-py38h215ab04_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/pyre2-0.3.2-py37h86434c3_0.tar.bz2"
 }
