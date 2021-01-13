@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://fftw.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.3.9": {
+        "weak": [
+          "fftw",
+          "fftw * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.fftw.org/fftw-3.3.9.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "The fastest Fourier transform in the west.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1610523821,
+    "version": "3.3.9"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "fftw-3.3.9-mpi_mpich_h6878a88_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h6878a88_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "mpich >=3.4,<3.5.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "daa6b5826b15ae494a81285d76e89ae3",
+    "name": "fftw",
+    "sha256": "d979142b957facd613bf06ff532cc118bdb6546b4b045333c714f2b3241fccd9",
+    "size": 6490836,
+    "subdir": "linux-aarch64",
+    "timestamp": 1610523821457,
+    "version": "3.3.9"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/fftw-3.3.9-mpi_mpich_h6878a88_0.tar.bz2"
+}
