@@ -17,16 +17,22 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "9.3.0": {
+        "weak": [
+          "libgfortran5 >=9.3.0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://ftp.gnu.org/gnu/gcc/gcc-9.3.0/gcc-9.3.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Fortran compiler and libraries from the GNU Compiler Collection",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610531896,
+    "timestamp": 1610532698,
     "version": "9.3.0"
   },
   "channeldata_version": 1,
@@ -34,31 +40,27 @@
   "labels": [
     "main"
   ],
-  "package": "gfortran_impl_osx-64-9.3.0-h06163ed_16.tar.bz2",
+  "package": "libgfortran5-9.3.0-h6c81a4c_16.tar.bz2",
   "repodata": {
-    "build": "h06163ed_16",
+    "build": "h6c81a4c_16",
     "build_number": 16,
+    "constrains": [
+      "libgfortran 5.0.0 *_16"
+    ],
     "depends": [
-      "gmp >=6.2.1,<7.0a0",
-      "isl >=0.22.1,<0.23.0a0",
-      "libgcc-ng >=9.3.0",
-      "libiconv >=1.16,<1.17.0a0",
-      "libstdcxx-ng >=9.3.0",
-      "mpc >=1.1.0,<2.0a0",
-      "mpfr >=4.0.2,<5.0a0",
-      "zlib >=1.2.11,<1.3.0a0"
+      "llvm-openmp >=8.0.0"
     ],
     "license": "GPL-3.0-only WITH GCC-exception-3.1",
     "license_family": "GPL",
-    "md5": "88aa83f22b1d8732503289dfc79b5e35",
-    "name": "gfortran_impl_osx-64",
-    "sha256": "d054d6e31a0c47a9044c4b6b5d2b0d458086e7b492140b97da0d91a38f6e2b59",
-    "size": 11232756,
-    "subdir": "linux-64",
-    "timestamp": 1610531896363,
+    "md5": "e5d715750bbe86978d951ef8348d537b",
+    "name": "libgfortran5",
+    "sha256": "5b388e8751eb2fb0f2f2e505385ad60b83238e7738ae37ff660681c130d04ec1",
+    "size": 1766880,
+    "subdir": "osx-64",
+    "timestamp": 1610532698742,
     "version": "9.3.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gfortran_impl_osx-64-9.3.0-h06163ed_16.tar.bz2/gfortran_impl_osx-64-9.3.0-h06163ed_16.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libgfortran5-9.3.0-h6c81a4c_16.tar.bz2"
 }
