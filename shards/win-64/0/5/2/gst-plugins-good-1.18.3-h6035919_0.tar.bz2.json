@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "GStreamer Good Plug-ins is A collection of plug-ins you'd want to have right next to you on the battlefield. Shooting sharp and making no mistakes, these plug-ins have it all: good looks, good code, and good licensing.  Documented and dressed up in tests.  If you're looking for a role model to base your own plug-in on here it is.",
     "dev_url": null,
@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "GStreamer Good Plug-ins",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610639927,
+    "timestamp": 1610640764,
     "version": "1.18.3"
   },
   "channeldata_version": 1,
@@ -40,26 +40,26 @@
   "labels": [
     "main"
   ],
-  "package": "gst-plugins-good-1.18.3-h64030ff_0.tar.bz2",
+  "package": "gst-plugins-good-1.18.3-h6035919_0.tar.bz2",
   "repodata": {
-    "build": "h64030ff_0",
+    "build": "h6035919_0",
     "build_number": 0,
     "depends": [
       "gst-plugins-base >=1.18.3,<2.0a0",
       "gstreamer >=1.18.3,<2.0a0",
-      "libgcc-ng >=9.3.0",
       "libglib >=2.66.4,<3.0a0",
-      "libstdcxx-ng >=9.3.0"
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
-    "md5": "6fac937508012bc2f2374f0c22d38e33",
+    "md5": "effc462e3aa6343864a5d8d5b1b802c5",
     "name": "gst-plugins-good",
-    "sha256": "164e37613e1893484503195d45c5db48099b70953e707c37a1beef0ca26f630e",
-    "size": 1955267,
-    "subdir": "linux-64",
-    "timestamp": 1610639927394,
+    "sha256": "1e6b54a080e2bdf123725b8a049f27bb22f5e0789912ac9bfea8c657e955809f",
+    "size": 1768362,
+    "subdir": "win-64",
+    "timestamp": 1610640764305,
     "version": "1.18.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gst-plugins-good-1.18.3-h64030ff_0.tar.bz2/gst-plugins-good-1.18.3-h64030ff_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/gst-plugins-good-1.18.3-h6035919_0.tar.bz2"
 }
