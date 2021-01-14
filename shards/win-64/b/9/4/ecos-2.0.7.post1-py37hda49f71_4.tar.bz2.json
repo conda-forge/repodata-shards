@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/e/ecos/ecos-2.0.7.post1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Python interface for ECOS, a lightweight conic solver for second-order cone programming",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610612055,
+    "timestamp": 1610612501,
     "version": "2.0.7.post1"
   },
   "channeldata_version": 1,
@@ -34,28 +34,29 @@
   "labels": [
     "main"
   ],
-  "package": "ecos-2.0.7.post1-py39hce5d2b2_4.tar.bz2",
+  "package": "ecos-2.0.7.post1-py37hda49f71_4.tar.bz2",
   "repodata": {
-    "build": "py39hce5d2b2_4",
+    "build": "py37hda49f71_4",
     "build_number": 4,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "numpy >=1.19.5,<2.0a0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
-      "scipy >=1.1"
+      "numpy >=1.16.6,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "scipy >=1.1",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "GPL-3.0-only",
     "license_family": "GPL",
-    "md5": "3a5ecb57f79481b7b596872644bac9e1",
+    "md5": "4fc129105eda8bbb5c82fb5185fce799",
     "name": "ecos",
-    "sha256": "35c09adf40fbf8f6144cb5b03e33d5c65b2bfa8f5d7394ea07e5ab4c81475759",
-    "size": 81431,
-    "subdir": "linux-64",
-    "timestamp": 1610612055426,
+    "sha256": "0983844450c10bc6da4faf68eedc6fc3592b49a5a7bf519dce84fdc5b123cd3f",
+    "size": 78505,
+    "subdir": "win-64",
+    "timestamp": 1610612501673,
     "version": "2.0.7.post1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ecos-2.0.7.post1-py39hce5d2b2_4.tar.bz2/ecos-2.0.7.post1-py39hce5d2b2_4.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/ecos-2.0.7.post1-py37hda49f71_4.tar.bz2"
 }
