@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/NOAA-ORR-ERD/cell_tree2d/archive/v0.3.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "CellTree data structure as described by Garth and Joy 2010.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610578761,
+    "timestamp": 1610578727,
     "version": "0.3.0"
   },
   "channeldata_version": 1,
@@ -34,27 +34,26 @@
   "labels": [
     "main"
   ],
-  "package": "cell_tree2d-0.3.0-py37hdc94413_1003.tar.bz2",
+  "package": "cell_tree2d-0.3.0-py36h6242b28_1003.tar.bz2",
   "repodata": {
-    "build": "py37hdc94413_1003",
+    "build": "py36h6242b28_1003",
     "build_number": 1003,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=10.0.1",
       "numpy",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
     ],
     "license": "Public Domain",
-    "md5": "9ecad8a68143cb9df22ca6bdc612c1ff",
+    "md5": "a3c2bc5ee3f9a24fa7ff6697a3548b99",
     "name": "cell_tree2d",
-    "sha256": "8b9efa96b61286a6e9f755cc89a61f3d6ef6db9a3c9836da9514e45826964269",
-    "size": 68320,
-    "subdir": "linux-64",
-    "timestamp": 1610578761701,
+    "sha256": "335e952fdd5fe7a02bfffd884a46905830cd5d2863317603ad1054c0be7b0b53",
+    "size": 56994,
+    "subdir": "osx-64",
+    "timestamp": 1610578727106,
     "version": "0.3.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cell_tree2d-0.3.0-py37hdc94413_1003.tar.bz2/cell_tree2d-0.3.0-py37hdc94413_1003.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cell_tree2d-0.3.0-py36h6242b28_1003.tar.bz2"
 }
