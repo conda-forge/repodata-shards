@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "LAMMPS is a classical molecular dynamics simulation code designed to run efficiently on parallel computers.  It was developed at Sandia National Laboratories, a US Department of Energy facility, with funding from the DOE.  It is an open-source code, distributed freely under the terms of the GNU Public License (GPL).",
     "dev_url": "https://github.com/lammps/lammps",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel Simulator.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610633403,
+    "timestamp": 1610634370,
     "version": "2020.12.24"
   },
   "channeldata_version": 1,
@@ -42,11 +42,10 @@
       "fftw >=3.3.9,<4.0a0",
       "kim-api",
       "libcurl >=7.71.1,<8.0a0",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
+      "libcxx >=11.0.0",
+      "libgfortran 5.*",
       "libgfortran5 >=9.3.0",
       "libpng >=1.6.37,<1.7.0a0",
-      "libstdcxx-ng >=9.3.0",
       "openmpi >=4.1,<4.2.0a0",
       "python >=3.6,<3.7.0a0",
       "python_abi 3.6.* *_cp36m",
@@ -54,15 +53,15 @@
     ],
     "license": "GPL-2.0",
     "license_family": "GPL",
-    "md5": "ada4e5d3eb6ab1d8547cebfe95b6a2aa",
+    "md5": "5f9d6ecd91bca474f2628f542abefb51",
     "name": "lammps",
-    "sha256": "fc5b002edc5a4d1521eed2bdc9d482c3dc97d43b4d10d7452b3a0446c4f0cf84",
-    "size": 28283203,
-    "subdir": "linux-64",
-    "timestamp": 1610633403174,
+    "sha256": "29d06d5e8cbd93a9804241fcbca51ebc8683079e27f566807b76fcbfea60f13d",
+    "size": 19896600,
+    "subdir": "osx-64",
+    "timestamp": 1610634370712,
     "version": "2020.12.24"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/lammps-2020.12.24-py36_openmpi_0.tar.bz2/lammps-2020.12.24-py36_openmpi_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lammps-2020.12.24-py36_openmpi_0.tar.bz2"
 }
