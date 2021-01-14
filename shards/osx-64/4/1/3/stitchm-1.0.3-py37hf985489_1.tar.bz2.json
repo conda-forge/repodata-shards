@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "StitchM stitches together mosaic images taken in Cockpit (Micron) into a universally readable format, currently .ome.tiff. The current output is an 16bit greyscale image when stitching the mosaic. Markers exported from Cockpit can be added as rectangular ROIs within the OME metadata stored in the image header. ROIs can be imported and displayed using bioformats in FIJI/ImageJ. Mainly for command-line use.",
+    "dev_url": "https://github.com/DiamondLightSource/StitchM",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/DiamondLightSource/StitchM/blob/master/README.md",
+    "home": "https://github.com/DiamondLightSource/StitchM",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/DiamondLightSource/StitchM/archive/v1.0.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Stitches mosaic images from Cockpit (Micron)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1610644775,
+    "version": "1.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "stitchm-1.0.3-py37hf985489_1.tar.bz2",
+  "repodata": {
+    "build": "py37hf985489_1",
+    "build_number": 1,
+    "depends": [
+      "mrcfile >=1.1.2",
+      "numpy >=1.17.4",
+      "omexml-dls >=1.0.3",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "tifffile >=2019.7.26"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "74a60ba19cb464e5faa835cd359b3100",
+    "name": "stitchm",
+    "sha256": "05551f28c3c50fcb41e95ed3b5fcb626560f999f336c988d60f99c18580e3ed9",
+    "size": 42427,
+    "subdir": "osx-64",
+    "timestamp": 1610644775006,
+    "version": "1.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/stitchm-1.0.3-py37hf985489_1.tar.bz2"
+}
