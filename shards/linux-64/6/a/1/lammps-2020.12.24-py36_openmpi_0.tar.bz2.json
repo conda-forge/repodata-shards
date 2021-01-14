@@ -26,7 +26,7 @@
     "summary": "LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel Simulator.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610633901,
+    "timestamp": 1610633403,
     "version": "2020.12.24"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "lammps-2020.12.24-py39_mpich_0.tar.bz2",
+  "package": "lammps-2020.12.24-py36_openmpi_0.tar.bz2",
   "repodata": {
-    "build": "py39_mpich_0",
+    "build": "py36_openmpi_0",
     "build_number": 0,
     "depends": [
       "fftw >=3.3.9,<4.0a0",
@@ -47,22 +47,22 @@
       "libgfortran5 >=9.3.0",
       "libpng >=1.6.37,<1.7.0a0",
       "libstdcxx-ng >=9.3.0",
-      "mpich >=3.4,<3.5.0a0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "openmpi >=4.1,<4.2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
       "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "GPL-2.0",
     "license_family": "GPL",
-    "md5": "48680df806d674833d2129de9672f11f",
+    "md5": "ada4e5d3eb6ab1d8547cebfe95b6a2aa",
     "name": "lammps",
-    "sha256": "99b60b93ef38248a4c635c9a5567a9c47e5d7e32641d52760c8acf2b7b329c31",
-    "size": 28237269,
+    "sha256": "fc5b002edc5a4d1521eed2bdc9d482c3dc97d43b4d10d7452b3a0446c4f0cf84",
+    "size": 28283203,
     "subdir": "linux-64",
-    "timestamp": 1610633901469,
+    "timestamp": 1610633403174,
     "version": "2020.12.24"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/lammps-2020.12.24-py39_mpich_0.tar.bz2/lammps-2020.12.24-py39_mpich_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/lammps-2020.12.24-py36_openmpi_0.tar.bz2"
 }
