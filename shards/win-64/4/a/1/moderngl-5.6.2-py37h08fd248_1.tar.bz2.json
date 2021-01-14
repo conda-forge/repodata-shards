@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/moderngl/moderngl/archive/5.6.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Modern OpenGL binding for python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610658587,
+    "timestamp": 1610659189,
     "version": "5.6.2"
   },
   "channeldata_version": 1,
@@ -34,28 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "moderngl-5.6.2-py36h284efc9_1.tar.bz2",
+  "package": "moderngl-5.6.2-py37h08fd248_1.tar.bz2",
   "repodata": {
-    "build": "py36h284efc9_1",
+    "build": "py37h08fd248_1",
     "build_number": 1,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
       "numpy >=1.16.6,<2.0a0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m"
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "215b88286bdd0a29cd7762acb13a2467",
+    "md5": "f6ffb7043e7e11a2953aec2308cbfbc6",
     "name": "moderngl",
-    "sha256": "7305cc1514b3fd2b09f2e9a1da75c5760f5ce9d639593eee4cfbd6522760d403",
-    "size": 161118,
-    "subdir": "linux-64",
-    "timestamp": 1610658587357,
+    "sha256": "8460ba0c7931b59b88d890ca2def8410e77b3d02666e2a507a9e8fe8911b0bc3",
+    "size": 146895,
+    "subdir": "win-64",
+    "timestamp": 1610659189496,
     "version": "5.6.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/moderngl-5.6.2-py36h284efc9_1.tar.bz2/moderngl-5.6.2-py36h284efc9_1.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/moderngl-5.6.2-py37h08fd248_1.tar.bz2"
 }
