@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "pyodbc is a Python DB API 2 module for ODBC. This project provides an up-to-date, convenient interface to ODBC using native data types like datetime and decimal.",
     "dev_url": "https://github.com/mkleehammer/pyodbc",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/p/pyodbc/pyodbc-4.0.30.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-arm64"
     ],
     "summary": "DB API Module for ODBC",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610633456,
+    "timestamp": 1610634556,
     "version": "4.0.30"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "pyodbc-4.0.30-py36hc4f0c31_1.tar.bz2",
+  "package": "pyodbc-4.0.30-py38h3f7e68f_1.tar.bz2",
   "repodata": {
-    "build": "py36hc4f0c31_1",
+    "build": "py38h3f7e68f_1",
     "build_number": 1,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "libcxx >=11.0.0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "unixodbc >=2.3.9,<2.4.0a0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "9faf7939924e201aec8f75a4f69c75f4",
+    "md5": "3ef8d8f058a4dadc59346c730a3c5c71",
     "name": "pyodbc",
-    "sha256": "cd437ae95ad14f14ecd4e452bb55bd7bc9b904a9ae29c3a4110b05dc6b3917e1",
-    "size": 72818,
-    "subdir": "linux-64",
-    "timestamp": 1610633456537,
+    "sha256": "8359329fb6ec908c898cace30550f743d02eda29b9399b1f1c6f562a44236ea0",
+    "size": 67574,
+    "subdir": "osx-arm64",
+    "timestamp": 1610634556641,
     "version": "4.0.30"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyodbc-4.0.30-py36hc4f0c31_1.tar.bz2/pyodbc-4.0.30-py36hc4f0c31_1.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pyodbc-4.0.30-py38h3f7e68f_1.tar.bz2"
 }
