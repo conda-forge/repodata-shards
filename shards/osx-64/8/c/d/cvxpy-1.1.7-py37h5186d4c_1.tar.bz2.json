@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/cvxpy/cvxpy-1.1.7.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A Python-embedded modeling language for convex optimization problems",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610618256,
+    "timestamp": 1610618479,
     "version": "1.1.7"
   },
   "channeldata_version": 1,
@@ -34,30 +34,30 @@
   "labels": [
     "main"
   ],
-  "package": "cvxpy-base-1.1.7-py37h40f5888_1.tar.bz2",
+  "package": "cvxpy-1.1.7-py37h5186d4c_1.tar.bz2",
   "repodata": {
-    "build": "py37h40f5888_1",
+    "build": "py37h5186d4c_1",
     "build_number": 1,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "numpy >=1.19.5,<2.0a0",
+      "cvxpy-base 1.1.7 py37h33eeba9_1",
+      "ecos >=2",
+      "osqp",
       "pypy3.7 >=7.3.3",
       "python >=3.7,<3.8.0a0",
       "python_abi 3.7 *_pypy37_pp73",
-      "scipy >=1.1.0"
+      "scs >=1.1.3"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "5bacbdacd6913ba9bf6220b673974860",
-    "name": "cvxpy-base",
-    "sha256": "eaa0b7bb80fe6a8b697cd07d4863860f167ef351dd1969664e3ea0b2ed6608b8",
-    "size": 970120,
-    "subdir": "linux-64",
-    "timestamp": 1610618256340,
+    "md5": "f989f9062a9fabda54f2f4b8f8b945c2",
+    "name": "cvxpy",
+    "sha256": "e1ef5f699c3fa5e878e9504aa92013d6efcab1674217d4dce58263fa685de4e8",
+    "size": 9766,
+    "subdir": "osx-64",
+    "timestamp": 1610618479626,
     "version": "1.1.7"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cvxpy-base-1.1.7-py37h40f5888_1.tar.bz2/cvxpy-base-1.1.7-py37h40f5888_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cvxpy-1.1.7-py37h5186d4c_1.tar.bz2"
 }
