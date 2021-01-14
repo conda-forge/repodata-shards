@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "GStreamer Python binding overrides",
     "dev_url": "https://gitlab.freedesktop.org/gstreamer/gst-python",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://gstreamer.freedesktop.org/src/gst-python/gst-python-1.18.3.tar.xz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "GStreamer Python binding overrides",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610601648,
+    "timestamp": 1610601938,
     "version": "1.18.3"
   },
   "channeldata_version": 1,
@@ -34,33 +34,33 @@
   "labels": [
     "main"
   ],
-  "package": "gst-python-1.18.3-py39hc345959_0.tar.bz2",
+  "package": "gst-python-1.18.3-py37h8af92e4_0.tar.bz2",
   "repodata": {
-    "build": "py39hc345959_0",
+    "build": "py37h8af92e4_0",
     "build_number": 0,
     "depends": [
       "gst-plugins-base >=1.18.2,<1.19.0a0",
       "gst-plugins-base >=1.18.2,<2.0a0",
       "gstreamer >=1.18.2,<1.19.0a0",
       "gstreamer >=1.18.2,<2.0a0",
-      "libgcc-ng >=9.3.0",
       "libglib >=2.66.3,<3.0a0",
-      "libstdcxx-ng >=9.3.0",
       "pygobject",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39"
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "LGPL-2.1-or-later",
     "license_family": "LGPL",
-    "md5": "d2770f2294462c3f45845d95abaa578e",
+    "md5": "047e903d74dfbc15c249afbd00020d3f",
     "name": "gst-python",
-    "sha256": "0423a2eb8301a44e197e22bb377f33c46af6c9b57769f1e18908cc54e14fdfcb",
-    "size": 46882,
-    "subdir": "linux-64",
-    "timestamp": 1610601648647,
+    "sha256": "54ed9cbbd6ff2a163936893a256dedcdb5dbe5347570014e01e0492e3d0e4c33",
+    "size": 48132,
+    "subdir": "win-64",
+    "timestamp": 1610601938754,
     "version": "1.18.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gst-python-1.18.3-py39hc345959_0.tar.bz2/gst-python-1.18.3-py39hc345959_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/gst-python-1.18.3-py37h8af92e4_0.tar.bz2"
 }
