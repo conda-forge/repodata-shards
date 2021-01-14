@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "A package installed by conda-forge each time a build is run on CI. This package has side-effects to your conda config.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1610653343,
+    "text_prefix": false,
+    "timestamp": 1610654378,
     "version": "3.7.0"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "conda-forge-ci-setup-3.7.0-py38h7bc8238_0.tar.bz2",
+  "package": "conda-forge-ci-setup-3.7.0-py39hbb87ff4_0.tar.bz2",
   "repodata": {
-    "build": "py38h7bc8238_0",
+    "build": "py39hbb87ff4_0",
     "build_number": 0,
     "depends": [
       "anaconda-client",
@@ -44,27 +44,27 @@
       "conda >=4.3",
       "conda-build 3.*",
       "conda-env",
-      "git",
       "jinja2",
-      "jq",
+      "m2-git",
       "pip",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "pyyaml",
       "requests",
       "ruamel_yaml",
-      "shyaml"
+      "shyaml",
+      "vs2008_express_vc_python_patch"
     ],
     "license": "BSD-3-Clause",
-    "md5": "80a9fb4c5c2e0d1bf8de829fae92274b",
+    "md5": "84393d0b471736a3ee3ba57eac3b202b",
     "name": "conda-forge-ci-setup",
-    "sha256": "f0a4ca3a41369539114a7df17e84ebd715c5c309e2d90a9df2cb817b692be35a",
-    "size": 36709,
-    "subdir": "linux-64",
-    "timestamp": 1610653343017,
+    "sha256": "5fdd2e2e8552a433e615e651b5ace5e4286fbacedcb80ae7765513a46512fbd9",
+    "size": 64927,
+    "subdir": "win-64",
+    "timestamp": 1610654378380,
     "version": "3.7.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/conda-forge-ci-setup-3.7.0-py38h7bc8238_0.tar.bz2/conda-forge-ci-setup-3.7.0-py38h7bc8238_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/conda-forge-ci-setup-3.7.0-py39hbb87ff4_0.tar.bz2"
 }
