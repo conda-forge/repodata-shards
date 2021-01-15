@@ -7,7 +7,7 @@
     "dev_url": null,
     "doc_source_url": null,
     "doc_url": null,
-    "home": "https://gcc.gnu.org/",
+    "home": "https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html",
     "icon_hash": null,
     "icon_url": null,
     "identifiers": null,
@@ -23,37 +23,38 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": "GNU Fortran Compiler",
+    "summary": "The GCC low-level runtime library",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1610733004,
-    "version": "8.4.0"
+    "text_prefix": false,
+    "timestamp": 1610733278,
+    "version": "7.5.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "gfortran_impl_linux-s390x-8.4.0-h923db28_18.tar.bz2",
+  "package": "libgcc-ng-7.5.0-h2828fa1_18.tar.bz2",
   "repodata": {
-    "build": "h923db28_18",
+    "build": "h2828fa1_18",
     "build_number": 18,
+    "constrains": [
+      "libgomp 7.5.0 h2828fa1_18"
+    ],
     "depends": [
-      "gcc_impl_linux-s390x >=8.4.0",
-      "libgcc-ng >=4.9",
-      "libstdcxx-ng >=4.9",
-      "sysroot_linux-s390x"
+      "_libgcc_mutex 0.1 conda_forge",
+      "_openmp_mutex >=4.5"
     ],
     "license": "GPL-3.0-only WITH GCC-exception-3.1",
-    "md5": "ad29cf99ac847da4756175db2f53447d",
-    "name": "gfortran_impl_linux-s390x",
-    "sha256": "3e70e6fcda5a06175604702cd8f139190b18b52c0a96f1c872cd82d1216ddd82",
-    "size": 57218717,
+    "md5": "9570834425c11df14a32221584c29c8a",
+    "name": "libgcc-ng",
+    "sha256": "b8923f2fd1090ba335fa6e97c0bb2e360a6c1811161225ecd3f392253634708d",
+    "size": 6230669,
     "subdir": "linux-64",
-    "timestamp": 1610733004333,
-    "version": "8.4.0"
+    "timestamp": 1610733278601,
+    "version": "7.5.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gfortran_impl_linux-s390x-8.4.0-h923db28_18.tar.bz2/gfortran_impl_linux-s390x-8.4.0-h923db28_18.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-7.5.0-h2828fa1_18.tar.bz2"
 }

@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
-    "summary": "GNU Fortran Compiler",
+    "summary": "The GNU Fortran Runtime Library",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1610733214,
+    "text_prefix": false,
+    "timestamp": 1610731735,
     "version": "7.5.0"
   },
   "channeldata_version": 1,
@@ -34,26 +34,24 @@
   "labels": [
     "main"
   ],
-  "package": "gfortran_impl_linux-ppc64le-7.5.0-h1fabecf_18.tar.bz2",
+  "package": "libgfortran4-7.5.0-h6d8ffed_18.tar.bz2",
   "repodata": {
-    "build": "h1fabecf_18",
+    "build": "h6d8ffed_18",
     "build_number": 18,
-    "depends": [
-      "gcc_impl_linux-ppc64le >=7.5.0",
-      "libgcc-ng >=4.9",
-      "libstdcxx-ng >=4.9",
-      "sysroot_linux-ppc64le"
+    "constrains": [
+      "libgfortran-ng 7.5.0 *_18"
     ],
+    "depends": [],
     "license": "GPL-3.0-only WITH GCC-exception-3.1",
-    "md5": "b8b9421806b3afe53b6e4c3e0cef350e",
-    "name": "gfortran_impl_linux-ppc64le",
-    "sha256": "8b79ca2e2029b8b6c6a692acd5aa9aeb201b3f5c9b26b69d4e8e5e66b0f01b55",
-    "size": 51988668,
-    "subdir": "linux-64",
-    "timestamp": 1610733214911,
+    "md5": "d0beb80d5a3dca383c6ee92210674351",
+    "name": "libgfortran4",
+    "sha256": "9c8b0440831667c96dbccf7411e30774ffce98d6118232bdf91bca2b89dd5fb2",
+    "size": 1065194,
+    "subdir": "linux-aarch64",
+    "timestamp": 1610731735054,
     "version": "7.5.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gfortran_impl_linux-ppc64le-7.5.0-h1fabecf_18.tar.bz2/gfortran_impl_linux-ppc64le-7.5.0-h1fabecf_18.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libgfortran4-7.5.0-h6d8ffed_18.tar.bz2"
 }

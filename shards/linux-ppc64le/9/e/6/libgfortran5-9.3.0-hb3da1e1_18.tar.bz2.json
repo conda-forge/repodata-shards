@@ -21,38 +21,37 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "linux-ppc64le"
     ],
-    "summary": "GNU C++ Compiler",
+    "summary": "The GNU Fortran Runtime Library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610733089,
-    "version": "7.5.0"
+    "timestamp": 1610731878,
+    "version": "9.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "gxx_impl_linux-s390x-7.5.0-h58d18b7_18.tar.bz2",
+  "package": "libgfortran5-9.3.0-hb3da1e1_18.tar.bz2",
   "repodata": {
-    "build": "h58d18b7_18",
+    "build": "hb3da1e1_18",
     "build_number": 18,
-    "depends": [
-      "gcc_impl_linux-s390x 7.5.0 h7e29578_18",
-      "libstdcxx-devel_linux-s390x 7.5.0 hbb641e0_18",
-      "sysroot_linux-s390x"
+    "constrains": [
+      "libgfortran-ng 9.3.0 *_18"
     ],
+    "depends": [],
     "license": "GPL-3.0-only WITH GCC-exception-3.1",
-    "md5": "5fbfd295b829062be6d344b0ea488103",
-    "name": "gxx_impl_linux-s390x",
-    "sha256": "d68e617fb156eb558a423d102cd94ab3557f63ccbfe238596b79151be905110a",
-    "size": 54007013,
-    "subdir": "linux-64",
-    "timestamp": 1610733089786,
-    "version": "7.5.0"
+    "md5": "359555c00623070c2ce5fc7e6e5550ea",
+    "name": "libgfortran5",
+    "sha256": "f7bcee1e634242655f50f77eefe6a92399a1eb57e4588b021c943c763109d36c",
+    "size": 1589030,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1610731878309,
+    "version": "9.3.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gxx_impl_linux-s390x-7.5.0-h58d18b7_18.tar.bz2/gxx_impl_linux-s390x-7.5.0-h58d18b7_18.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/libgfortran5-9.3.0-hb3da1e1_18.tar.bz2"
 }

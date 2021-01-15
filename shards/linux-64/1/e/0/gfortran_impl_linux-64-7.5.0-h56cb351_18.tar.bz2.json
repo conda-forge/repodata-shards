@@ -26,34 +26,36 @@
     "summary": "GNU Fortran Compiler",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610733004,
-    "version": "8.4.0"
+    "timestamp": 1610733448,
+    "version": "7.5.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "gfortran_impl_linux-s390x-8.4.0-h923db28_18.tar.bz2",
+  "package": "gfortran_impl_linux-64-7.5.0-h56cb351_18.tar.bz2",
   "repodata": {
-    "build": "h923db28_18",
+    "build": "h56cb351_18",
     "build_number": 18,
     "depends": [
-      "gcc_impl_linux-s390x >=8.4.0",
+      "gcc_impl_linux-64 >=7.5.0",
       "libgcc-ng >=4.9",
+      "libgcc-ng >=7.5.0",
+      "libgfortran4 >=7.5.0,<8.0a0",
       "libstdcxx-ng >=4.9",
-      "sysroot_linux-s390x"
+      "sysroot_linux-64"
     ],
     "license": "GPL-3.0-only WITH GCC-exception-3.1",
-    "md5": "ad29cf99ac847da4756175db2f53447d",
-    "name": "gfortran_impl_linux-s390x",
-    "sha256": "3e70e6fcda5a06175604702cd8f139190b18b52c0a96f1c872cd82d1216ddd82",
-    "size": 57218717,
+    "md5": "a117c0f2563ef8fbb5494adb3f4a6f42",
+    "name": "gfortran_impl_linux-64",
+    "sha256": "d1e7f6575756f4cb850ad54e5ddcc2976b1e80aaa0afac154ba9300e4f5dc1d7",
+    "size": 9436449,
     "subdir": "linux-64",
-    "timestamp": 1610733004333,
-    "version": "8.4.0"
+    "timestamp": 1610733448792,
+    "version": "7.5.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gfortran_impl_linux-s390x-8.4.0-h923db28_18.tar.bz2/gfortran_impl_linux-s390x-8.4.0-h923db28_18.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gfortran_impl_linux-64-7.5.0-h56cb351_18.tar.bz2"
 }
