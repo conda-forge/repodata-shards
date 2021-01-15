@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610741929,
+    "timestamp": 1610745004,
     "version": "11.0.1"
   },
   "channeldata_version": 1,
@@ -34,25 +34,31 @@
   "labels": [
     "main"
   ],
-  "package": "clang-11.0.1-ha770c72_1.tar.bz2",
+  "package": "clangdev-11.0.1-default_h5c34c98_1.tar.bz2",
   "repodata": {
-    "build": "ha770c72_1",
+    "build": "default_h5c34c98_1",
     "build_number": 1,
     "depends": [
-      "clang-11 11.0.1 default_ha53f305_1",
-      "gcc_impl_linux-64"
+      "clang 11.0.1 h57928b3_1",
+      "clang-tools 11.0.1 default_h5c34c98_1",
+      "clangxx 11.0.1 default_h5c34c98_1",
+      "libclang 11.0.1 default_h5c34c98_1",
+      "libclang-cpp 11.0.1 default_h5c34c98_1",
+      "llvmdev 11.0.1",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
-    "md5": "3bbc3c67e3efceef69cb63de9bdd9bd7",
-    "name": "clang",
-    "sha256": "3f9354a077c37bd0374bd3403dd7b3c517ed8c4c9008609544f711a364b07699",
-    "size": 126912,
-    "subdir": "linux-64",
-    "timestamp": 1610741929927,
+    "md5": "6cd11ca13dc2ce10117deea5b3961e0f",
+    "name": "clangdev",
+    "sha256": "4262c8f7ffc34937e70b49b05fcf9ce75f132e2694e4573fb3936d215093e636",
+    "size": 56155137,
+    "subdir": "win-64",
+    "timestamp": 1610745004086,
     "version": "11.0.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/clang-11.0.1-ha770c72_1.tar.bz2/clang-11.0.1-ha770c72_1.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/clangdev-11.0.1-default_h5c34c98_1.tar.bz2"
 }

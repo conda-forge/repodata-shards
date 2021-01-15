@@ -12,21 +12,21 @@
     "icon_url": null,
     "identifiers": null,
     "keywords": null,
-    "license": "Apache-2.0 WITH LLVM-exception",
+    "license": "NCSA",
     "post_link": false,
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/lld-11.0.1.src.tar.xz",
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Development headers and libraries for Clang",
+    "summary": "The LLVM Linker",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610741929,
+    "timestamp": 1610747897,
     "version": "11.0.1"
   },
   "channeldata_version": 1,
@@ -34,25 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "clang-11.0.1-ha770c72_1.tar.bz2",
+  "package": "lld-11.0.1-h1396d59_0.tar.bz2",
   "repodata": {
-    "build": "ha770c72_1",
-    "build_number": 1,
-    "depends": [
-      "clang-11 11.0.1 default_ha53f305_1",
-      "gcc_impl_linux-64"
+    "build": "h1396d59_0",
+    "build_number": 0,
+    "constrains": [
+      "llvm ==11.0.1"
     ],
-    "license": "Apache-2.0 WITH LLVM-exception",
-    "license_family": "Apache",
-    "md5": "3bbc3c67e3efceef69cb63de9bdd9bd7",
-    "name": "clang",
-    "sha256": "3f9354a077c37bd0374bd3403dd7b3c517ed8c4c9008609544f711a364b07699",
-    "size": 126912,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libllvm11 >=11.0.1,<11.1.0a0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "NCSA",
+    "md5": "0c3851502d8751411acbb9b2d8ded726",
+    "name": "lld",
+    "sha256": "7f430e7e64ec52a50b1451ec1fe88d62e20b758bf1c50e663b9363a403f19ec7",
+    "size": 4718632,
     "subdir": "linux-64",
-    "timestamp": 1610741929927,
+    "timestamp": 1610747897149,
     "version": "11.0.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/clang-11.0.1-ha770c72_1.tar.bz2/clang-11.0.1-ha770c72_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/lld-11.0.1-h1396d59_0.tar.bz2"
 }
