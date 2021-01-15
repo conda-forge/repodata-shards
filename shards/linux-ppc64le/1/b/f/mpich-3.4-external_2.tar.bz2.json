@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "http://www.mpich.org/static/downloads/3.4/mpich-3.4.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-ppc64le"
     ],
     "summary": "A high performance widely portable implementation of the MPI standard.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610702640,
+    "timestamp": 1610701414,
     "version": "3.4"
   },
   "channeldata_version": 1,
@@ -34,25 +34,25 @@
   "labels": [
     "main"
   ],
-  "package": "mpich-mpicc-3.4-h2cc385e_2.tar.bz2",
+  "package": "mpich-3.4-external_2.tar.bz2",
   "repodata": {
-    "build": "h2cc385e_2",
+    "build": "external_2",
     "build_number": 2,
     "depends": [
-      "gcc_linux-64 9.*",
-      "mpich 3.4 h846660c_2"
+      "mpi 1.0 mpich"
     ],
     "license": "LicenseRef-MPICH",
     "license_family": "Other",
-    "md5": "fbe7bf8f91c8a25947371c073b96cb31",
-    "name": "mpich-mpicc",
-    "sha256": "16837a88e73b1a7d133a785a2b86128972ba344e7a438df39b3433ec826a19b4",
-    "size": 133522,
-    "subdir": "linux-64",
-    "timestamp": 1610702640274,
+    "md5": "52f4aa5618854e261a6d149d5753ea35",
+    "name": "mpich",
+    "sha256": "829b295a509b893d0292819930b7d4db53f54987176b8a195533a69b0d397c0b",
+    "size": 133718,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1610701414042,
+    "track_features": "mpich_external",
     "version": "3.4"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/mpich-mpicc-3.4-h2cc385e_2.tar.bz2/mpich-mpicc-3.4-h2cc385e_2.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/mpich-3.4-external_2.tar.bz2"
 }
