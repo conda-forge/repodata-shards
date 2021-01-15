@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "A Python package to create and modify DXF drawings, independent from the DXF version. You can open/save every DXF file without loosing any content (except comments), Unknown tags in the DXF file will be ignored but preserved for saving. With this behavior it is possible to open also DXF drawings that contains data from 3rd party applications.",
     "dev_url": "http://github.com/mozman/ezdxf",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/e/ezdxf/ezdxf-0.15.1.zip",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A Python package to create/manipulate DXF drawings.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610720544,
+    "timestamp": 1610720653,
     "version": "0.15.1"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "ezdxf-0.15.1-py36h605e78d_0.tar.bz2",
+  "package": "ezdxf-0.15.1-py36h615c93b_0.tar.bz2",
   "repodata": {
-    "build": "py36h605e78d_0",
+    "build": "py36h615c93b_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.0",
       "pyparsing >=2.0.1",
       "python >=3.6,<3.7.0a0",
       "python_abi 3.6.* *_cp36m"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "dc941bacbb40afe7e05d44f2cc8a51a7",
+    "md5": "f9b8e815664863736fb855107ba82c7e",
     "name": "ezdxf",
-    "sha256": "f2248ea32b822f216216b63c8222d8575e4243935b989c793818cb096667499a",
-    "size": 1344688,
-    "subdir": "linux-64",
-    "timestamp": 1610720544033,
+    "sha256": "bde8f720a99b658dda7094d72819ed15e9d7916af0915d146e306bdab6c893c5",
+    "size": 1305577,
+    "subdir": "osx-64",
+    "timestamp": 1610720653304,
     "version": "0.15.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ezdxf-0.15.1-py36h605e78d_0.tar.bz2/ezdxf-0.15.1-py36h605e78d_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ezdxf-0.15.1-py36h615c93b_0.tar.bz2"
 }
