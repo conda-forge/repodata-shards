@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "The cysgp4 package is a Cython-powered wrapper of the sgp4 C++ library by Daniel Warner to compute satellite positions from two-line elements (TLE). It provides similar functionality as the well-known sgp4 Python package by Brandon Rhodes, which uses Numba internally to speed-up the calculations. In contrast to sgp4, cysgp4 can work well with arrays of TLEs and/or times and make use of multi-core platforms (via OpenMP) to boost processing times a lot.",
     "dev_url": "https://github.com/bwinkel/cysgp4",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/cysgp4/cysgp4-0.3.3.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Cysgp4 is a wrapper around the SGP4 package, for sat TLE calculations",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610697581,
+    "timestamp": 1610697779,
     "version": "0.3.3"
   },
   "channeldata_version": 1,
@@ -34,29 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "cysgp4-0.3.3-py37h0379df6_1.tar.bz2",
+  "package": "cysgp4-0.3.3-py38h692b87f_1.tar.bz2",
   "repodata": {
-    "build": "py37h0379df6_1",
+    "build": "py38h692b87f_1",
     "build_number": 1,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "numpy >=1.19.5,<2.0a0",
-      "pypy3.7 >=7.3.3",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7 *_pypy37_pp73",
+      "libcxx >=11.0.0",
+      "numpy >=1.16.6,<2.0a0",
+      "openmp 4.0.*",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "setuptools"
     ],
     "license": "GPL-3.0 AND Apache-2.0 AND BSD-3-Clause",
-    "md5": "3caa30d3aebbeb06b37b87bc6c4958d1",
+    "md5": "e9ec191acd976aa1432db8e453e9a43c",
     "name": "cysgp4",
-    "sha256": "855f292f67271d39fcd019fff64c827c481856f59139a7de3613ccf281cd2d93",
-    "size": 274710,
-    "subdir": "linux-64",
-    "timestamp": 1610697581454,
+    "sha256": "d5faf263d1192bded2451803ecd441f501d9ae5b1e3b525ebdec2951f6618aa4",
+    "size": 247739,
+    "subdir": "osx-64",
+    "timestamp": 1610697779382,
     "version": "0.3.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cysgp4-0.3.3-py37h0379df6_1.tar.bz2/cysgp4-0.3.3-py37h0379df6_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cysgp4-0.3.3-py38h692b87f_1.tar.bz2"
 }
