@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
     "dev_url": "https://github.com/mamba-org/mamba",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/mamba-org/mamba/archive/0.7.8.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610708628,
+    "timestamp": 1610708752,
     "version": "0.7.8"
   },
   "channeldata_version": 1,
@@ -34,18 +34,17 @@
   "labels": [
     "main"
   ],
-  "package": "mamba-0.7.8-py36h42753ad_1.tar.bz2",
+  "package": "mamba-0.7.8-py36h91c3e4c_1.tar.bz2",
   "repodata": {
-    "build": "py36h42753ad_1",
+    "build": "py36h91c3e4c_1",
     "build_number": 1,
     "depends": [
       "conda >=4.8",
       "libarchive >=3.5.1,<3.6.0a0",
       "libcurl >=7.71.1,<8.0a0",
-      "libgcc-ng >=9.3.0",
+      "libcxx >=11.0.0",
       "libiconv >=1.16,<1.17.0a0",
       "libsolv >=0.7.16,<0.8.0a0",
-      "libstdcxx-ng >=9.3.0",
       "openssl >=1.1.1i,<1.1.2a",
       "pypy3.6 >=7.3.3",
       "python >=3.6,<3.7.0a0",
@@ -54,15 +53,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "0d6c8afdc5d5876439c7d12defa89a7f",
+    "md5": "e51f57c9044e32b76e6acfb8849cc1fe",
     "name": "mamba",
-    "sha256": "0fb3a510aef8f8b1844f2a065e1861a827b93d8fe37aac97da0646774443fa09",
-    "size": 646419,
-    "subdir": "linux-64",
-    "timestamp": 1610708628623,
+    "sha256": "0844afc70bc24b90f438fd4016d822cd921dd4da9e3244b87bdc9ca0867e9eda",
+    "size": 591458,
+    "subdir": "osx-64",
+    "timestamp": 1610708752017,
     "version": "0.7.8"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/mamba-0.7.8-py36h42753ad_1.tar.bz2/mamba-0.7.8-py36h42753ad_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/mamba-0.7.8-py36h91c3e4c_1.tar.bz2"
 }
