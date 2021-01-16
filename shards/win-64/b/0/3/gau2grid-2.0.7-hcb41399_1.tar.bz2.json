@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A collocation code for computing gaussians on a grid of the form: ``` out_Lp = x^l y^m z^n \\sum_i coeff_i e^(exponent_i * (|center - p|)^2) ``` , where the returned matrix dimension are the angular momentum (L) by number of requested points (p).",
+    "dev_url": "https://github.com/dgasmith/gau2grid",
+    "doc_source_url": "https://github.com/dgasmith/gau2grid/blob/master/docs/source/index.rst",
+    "doc_url": "https://github.com/dgasmith/gau2grid/blob/master/README.md",
+    "home": "https://github.com/dgasmith/gau2grid",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.7": {
+        "weak": [
+          "gau2grid >=2.0.7,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/dgasmith/gau2grid/archive/v2.0.7.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "D.G.A. Smith's C library for fast computation of a Gaussian and its derivative on a grid",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1610792715,
+    "version": "2.0.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "gau2grid-2.0.7-hcb41399_1.tar.bz2",
+  "repodata": {
+    "build": "hcb41399_1",
+    "build_number": 1,
+    "depends": [
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "a86c31465dab968aab0808c80aa15528",
+    "name": "gau2grid",
+    "sha256": "bda1ddc6135e3e0e9ec121889669500042f438ee2fceb7d45711c49cdf7dafc9",
+    "size": 261232,
+    "subdir": "win-64",
+    "timestamp": 1610792715506,
+    "version": "2.0.7"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/gau2grid-2.0.7-hcb41399_1.tar.bz2"
+}
