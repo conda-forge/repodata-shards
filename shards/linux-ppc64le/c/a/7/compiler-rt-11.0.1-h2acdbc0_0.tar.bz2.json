@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/compiler-rt-11.0.1.src.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1610783696,
+    "version": "11.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "compiler-rt-11.0.1-h2acdbc0_0.tar.bz2",
+  "repodata": {
+    "build": "h2acdbc0_0",
+    "build_number": 0,
+    "depends": [
+      "clang 11.0.1.*",
+      "clangxx 11.0.1.*",
+      "compiler-rt_linux-ppc64le 11.0.1.*",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "NCSA",
+    "md5": "18574fd4f5f3820f77d332d7bcfa7d10",
+    "name": "compiler-rt",
+    "sha256": "94dc016c63e518afe423a13cd33efa59a3a07a52e4dfe4e4f9411f227c76c375",
+    "size": 80363,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1610783696351,
+    "version": "11.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/compiler-rt-11.0.1-h2acdbc0_0.tar.bz2"
+}
