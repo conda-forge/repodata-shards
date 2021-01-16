@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A collocation code for computing gaussians on a grid of the form: ``` out_Lp = x^l y^m z^n \\sum_i coeff_i e^(exponent_i * (|center - p|)^2) ``` , where the returned matrix dimension are the angular momentum (L) by number of requested points (p).",
+    "dev_url": "https://github.com/dgasmith/gau2grid",
+    "doc_source_url": "https://github.com/dgasmith/gau2grid/blob/master/docs/source/index.rst",
+    "doc_url": "https://github.com/dgasmith/gau2grid/blob/master/README.md",
+    "home": "https://github.com/dgasmith/gau2grid",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.7": {
+        "weak": [
+          "gau2grid >=2.0.7,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/dgasmith/gau2grid/archive/v2.0.7.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "D.G.A. Smith's C library for fast computation of a Gaussian and its derivative on a grid",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1610792233,
+    "version": "2.0.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "gau2grid-2.0.7-h7f98852_1.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.3.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "121f9a8c616f9c8b8c880455c1eb6c53",
+    "name": "gau2grid",
+    "sha256": "797592d465d6fb49272fd7a297419ce3e94318248959177f72f6ff0c20ddecc2",
+    "size": 392389,
+    "subdir": "linux-64",
+    "timestamp": 1610792233016,
+    "version": "2.0.7"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gau2grid-2.0.7-h7f98852_1.tar.bz2"
+}
