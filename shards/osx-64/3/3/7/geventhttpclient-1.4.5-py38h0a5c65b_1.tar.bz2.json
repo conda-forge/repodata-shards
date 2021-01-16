@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "gevent.httplib support was removed in gevent 1.0, geventhttpclient now provides that missing functionality.  geventhttpclient use a fast http parser, written in C, originating from nginx, extracted and modified by Joyent.  geventhttpclient has been specifically designed for high concurrency, streaming and support HTTP 1.1 persistent connections. More generally it is designed for efficiently pulling from REST APIs and streaming APIs like Twitter's.  Safe SSL support is provided by default. geventhttpclient depends on the certifi CA Bundle. This is the same CA Bundle which ships with the Requests codebase, and is derived from Mozilla Firefox's canonical set.  Python 2.7 and 3.4+ are supported. Python 2.6 is no longer supported.  Use of SSL/TLS with python 2.7.9 is not recommended and may be broken.",
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A high performance, concurrent http client library for python with gevent",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610760897,
+    "timestamp": 1610760942,
     "version": "1.4.5"
   },
   "channeldata_version": 1,
@@ -34,31 +34,29 @@
   "labels": [
     "main"
   ],
-  "package": "geventhttpclient-1.4.5-py37he226ad3_1.tar.bz2",
+  "package": "geventhttpclient-1.4.5-py38h0a5c65b_1.tar.bz2",
   "repodata": {
-    "build": "py37he226ad3_1",
+    "build": "py38h0a5c65b_1",
     "build_number": 1,
     "depends": [
       "certifi",
       "gevent >=0.13",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "pypy3.7 >=7.3.3",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7 *_pypy37_pp73",
+      "libcxx >=11.0.0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "six"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "5d12ba7921412b0c3ad87177f2a2b807",
+    "md5": "244a6b95fbe1588cfd47d0f5977d3042",
     "name": "geventhttpclient",
-    "sha256": "861153a61520de668db116b307d6cf46342e1bcc6c9f09ce33be273bdcdc1d54",
-    "size": 59661,
-    "subdir": "linux-64",
-    "timestamp": 1610760897414,
+    "sha256": "ea1880b6047f5555246705b2a84f23d7e2d51d78a28b379004cbc314d522b009",
+    "size": 57225,
+    "subdir": "osx-64",
+    "timestamp": 1610760942005,
     "version": "1.4.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/geventhttpclient-1.4.5-py37he226ad3_1.tar.bz2/geventhttpclient-1.4.5-py37he226ad3_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/geventhttpclient-1.4.5-py38h0a5c65b_1.tar.bz2"
 }
