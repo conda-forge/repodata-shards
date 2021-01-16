@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/i/ipython/ipython-7.19.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "IPython: Productive Interactive Computing",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1610764561,
+    "timestamp": 1610764587,
     "version": "7.19.0"
   },
   "channeldata_version": 1,
@@ -34,11 +34,12 @@
   "labels": [
     "main"
   ],
-  "package": "ipython-7.19.0-py38h81c977d_2.tar.bz2",
+  "package": "ipython-7.19.0-py37h5b6bc8d_2.tar.bz2",
   "repodata": {
-    "build": "py38h81c977d_2",
+    "build": "py37h5b6bc8d_2",
     "build_number": 2,
     "depends": [
+      "appnope",
       "backcall",
       "decorator",
       "jedi >=0.10,<0.18",
@@ -46,22 +47,23 @@
       "pickleshare",
       "prompt-toolkit !=3.0.0,!=3.0.1,<3.1.0,>=2.0.0",
       "pygments",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "pypy3.7 >=7.3.3",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7 *_pypy37_pp73",
       "setuptools >=18.5",
       "traitlets >=4.2"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "41e8d4e49605f1e5178fcc378041e864",
+    "md5": "e52741ce0da3c52d732e1c2523038641",
     "name": "ipython",
-    "sha256": "e14f3230afa7484fff43159c8ebb1bc9ad3af61077ce5fa308781c4dfa43aa79",
-    "size": 1172574,
-    "subdir": "linux-64",
-    "timestamp": 1610764561232,
+    "sha256": "75ae026d1a29af12c90835d6688033e923f845a3a5998812e0ff718acfc1436f",
+    "size": 1185381,
+    "subdir": "osx-64",
+    "timestamp": 1610764587711,
     "version": "7.19.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ipython-7.19.0-py38h81c977d_2.tar.bz2/ipython-7.19.0-py38h81c977d_2.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ipython-7.19.0-py37h5b6bc8d_2.tar.bz2"
 }
