@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The RT Topology Library exposes an API to create and manage standard (ISO 13249 aka SQL/MM) topologies using user-provided data stores and released under the GNU GPL license (version 2 or later).  The code is derived from PostGIS liblwgeom library enhanced to provide thread-safety, have less dependencies and be independent from PostGIS release cycles.  The RT Topology Library was funded by \u201CRegione Toscana - SITA\u201D (CIG: 6445512CC1), which also funded many improvements in the originating liblwgeom.",
+    "dev_url": "https://git.osgeo.org/gitea/rttopo/librttopo",
+    "doc_source_url": null,
+    "doc_url": "https://git.osgeo.org/gitea/rttopo/librttopo",
+    "home": "https://git.osgeo.org/gitea/rttopo/librttopo",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.1.0": {
+        "weak": [
+          "librttopo >=1.1.0,<1.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://git.osgeo.org/gitea/rttopo/librttopo/archive/librttopo-1.1.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The RT Topology Library exposes an API to create and manage standard topologies using user-provided data stores.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1610788213,
+    "version": "1.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "librttopo-1.1.0-hccdd1c9_1.tar.bz2",
+  "repodata": {
+    "build": "hccdd1c9_1",
+    "build_number": 1,
+    "depends": [
+      "geos >=3.9.0,<3.9.1.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "GPL-2.0",
+    "md5": "c9506e1445e9fdac679272bb9daf75ae",
+    "name": "librttopo",
+    "sha256": "135b55bc15c581ddc289b27bbf61048e9b16fb4f679c8dfc465b7e87f6afd0b3",
+    "size": 249117,
+    "subdir": "linux-64",
+    "timestamp": 1610788213879,
+    "version": "1.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/librttopo-1.1.0-hccdd1c9_1.tar.bz2"
+}
