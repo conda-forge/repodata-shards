@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/compiler-rt-11.0.1.src.tar.xz",
     "subdirs": [
-      "linux-64"
+      "noarch"
     ],
     "summary": "compiler-rt runtime libraries",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610783622,
+    "timestamp": 1610783568,
     "version": "11.0.1"
   },
   "channeldata_version": 1,
@@ -34,27 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "compiler-rt-11.0.1-h4bd325d_0.tar.bz2",
+  "package": "compiler-rt_linux-64-11.0.1-h9256fa8_0.tar.bz2",
   "repodata": {
-    "build": "h4bd325d_0",
+    "build": "h9256fa8_0",
     "build_number": 0,
+    "constrains": [
+      "compiler-rt 11.0.1"
+    ],
     "depends": [
       "clang 11.0.1.*",
-      "clangxx 11.0.1.*",
-      "compiler-rt_linux-64 11.0.1.*",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0"
+      "clangxx 11.0.1.*"
     ],
     "license": "NCSA",
-    "md5": "c6fa6693d4914085707147ad3c4a4449",
-    "name": "compiler-rt",
-    "sha256": "868cbfae2dd52fb07d4420a713250d9ff4262a3238c2d61d9adf26806a742a33",
-    "size": 96237,
-    "subdir": "linux-64",
-    "timestamp": 1610783622444,
+    "md5": "f3091087f5a155ace1d257654b2caeb9",
+    "name": "compiler-rt_linux-64",
+    "noarch": "generic",
+    "sha256": "80a7751e31695a34a9958b59432070695ffd5f24d3d8169da14fb80eb5b6e64d",
+    "size": 57433620,
+    "subdir": "noarch",
+    "timestamp": 1610783568493,
     "version": "11.0.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/compiler-rt-11.0.1-h4bd325d_0.tar.bz2/compiler-rt-11.0.1-h4bd325d_0.tar.bz2"
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/compiler-rt_linux-64-11.0.1-h9256fa8_0.tar.bz2"
 }
