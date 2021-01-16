@@ -17,22 +17,16 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {
-      "11.0.0": {
-        "strong": [
-          "libcxx >=11.0.0"
-        ]
-      }
-    },
+    "run_exports": {},
     "source_git_url": null,
     "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/llvm-project-11.0.0.tar.xz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "clang compilers for conda-build 3",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610820545,
+    "timestamp": 1610820476,
     "version": "11.0.0"
   },
   "channeldata_version": 1,
@@ -40,28 +34,29 @@
   "labels": [
     "main"
   ],
-  "package": "clangxx_osx-arm64-11.0.0-h6cb47b6_10.tar.bz2",
+  "package": "clang_osx-arm64-11.0.0-h40be2b1_10.tar.bz2",
   "repodata": {
-    "build": "h6cb47b6_10",
+    "build": "h40be2b1_10",
     "build_number": 10,
     "depends": [
-      "clang_osx-arm64 11.0.0 hbb50d1d_10",
-      "clangxx 11.0.0.*",
-      "gxx_impl_linux-64",
-      "libcxx >=11.0.0",
-      "libllvm11 >=11.0.0,<11.1.0a0"
+      "cctools_osx-arm64",
+      "clang 11.0.0.*",
+      "compiler-rt 11.0.0.*",
+      "ld64_osx-64",
+      "ld64_osx-arm64",
+      "llvm-tools 11.0.0.*"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "99a8b62f5192e3f0c1f024849e12c9c3",
-    "name": "clangxx_osx-arm64",
-    "sha256": "a2b3af49c4913600d22b9df1a303e67799b48cd06880e344d9a9782daef917a8",
-    "size": 15883,
-    "subdir": "linux-64",
-    "timestamp": 1610820545805,
+    "md5": "4f3e878689daa205995c821d1964ec94",
+    "name": "clang_osx-arm64",
+    "sha256": "36a6661749550cfce0cdab6de11930c5bbfbe730a3c9990d914459932cbd914b",
+    "size": 15936,
+    "subdir": "osx-64",
+    "timestamp": 1610820476399,
     "version": "11.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/clangxx_osx-arm64-11.0.0-h6cb47b6_10.tar.bz2/clangxx_osx-arm64-11.0.0-h6cb47b6_10.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/clang_osx-arm64-11.0.0-h40be2b1_10.tar.bz2"
 }
