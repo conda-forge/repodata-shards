@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "This is a tool for the estimation and application of logit-based discrete choice models. It is designed to integrate with NumPy and Pandas to facilitate fast processing of linear-in-parameters discrete choice models.",
     "dev_url": "https://github.com/jpn--/larch",
@@ -19,24 +19,24 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/jpn--/larch/archive/v5.4.8.tar.gz",
+    "source_url": "https://github.com/jpn--/larch/archive/v5.4.9.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Discrete Choice Modeling in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610865806,
-    "version": "5.4.8"
+    "timestamp": 1610870376,
+    "version": "5.4.9"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "larch-5.4.8-py39hce5d2b2_0.tar.bz2",
+  "package": "larch-5.4.9-py36h809c706_0.tar.bz2",
   "repodata": {
-    "build": "py39hce5d2b2_0",
+    "build": "py36h809c706_0",
     "build_number": 0,
     "depends": [
       "addict >=2.2.1",
@@ -48,19 +48,19 @@
       "ipython >=7.1",
       "jinja2 >=2.10",
       "joblib",
-      "libgcc-ng >=9.3.0",
+      "llvm-openmp >=11.0.1",
       "lxml >=4.2.5",
       "matplotlib-base >=3.0",
       "networkx >=2.4",
-      "numpy >=1.19.5,<2.0a0",
+      "numpy >=1.16.6,<2.0a0",
       "openpyxl",
       "pandas >=0.24",
       "pillow",
       "pydot",
       "pytables >=3.4.4",
       "pytest >=4.0",
-      "python >=3.9,<3.10.0a0 *_cpython",
-      "python_abi 3.9.* *_cp39",
+      "python >=3.6,<3.7.0a0 *_cpython",
+      "python_abi 3.6.* *_cp36m",
       "pyyaml",
       "scikit-learn >=0.21",
       "scipy >=1.1",
@@ -71,15 +71,15 @@
     ],
     "license": "GPLv3",
     "license_family": "GPL",
-    "md5": "3d5fa07fa509cf1bf6f80de53d955473",
+    "md5": "e39640d018db746cff467f8168d52702",
     "name": "larch",
-    "sha256": "5d681b3ff487c778b75b293507810c3ed99f533430e6ebcd73823fc390f5da01",
-    "size": 6681201,
-    "subdir": "linux-64",
-    "timestamp": 1610865806789,
-    "version": "5.4.8"
+    "sha256": "58dc460118345858b7b64c3927c31d6b8bf7e90ee89f08f2e0ddde60f8d30b13",
+    "size": 6272198,
+    "subdir": "osx-64",
+    "timestamp": 1610870376111,
+    "version": "5.4.9"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/larch-5.4.8-py39hce5d2b2_0.tar.bz2/larch-5.4.8-py39hce5d2b2_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/larch-5.4.9-py36h809c706_0.tar.bz2"
 }
