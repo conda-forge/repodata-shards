@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "An integrated software environment for multi-algorithm, multi-timescale, multi-spatial-representation simulation",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610916252,
+    "timestamp": 1610915618,
     "version": "2.1.0"
   },
   "channeldata_version": 1,
@@ -34,31 +34,31 @@
   "labels": [
     "main"
   ],
-  "package": "ecell4_base-2.1.0-py39h8e76300_1.tar.bz2",
+  "package": "ecell4_base-2.1.0-py37h8837ae6_1.tar.bz2",
   "repodata": {
-    "build": "py39h8e76300_1",
+    "build": "py37h8837ae6_1",
     "build_number": 1,
     "depends": [
       "gsl >=2.6,<2.7.0a0",
       "hdf5 1.10.5.*",
       "hdf5 >=1.10.5,<1.10.6.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
       "zlib"
     ],
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "d3ad892cd904b9436ac16c7c140a5d4b",
+    "md5": "5c2cee446aea70eb23101f736f487a53",
     "name": "ecell4_base",
-    "sha256": "9471b91b2a32380fb336df92a684e30ddffc2df212928210bf6bca0a10a2b470",
-    "size": 25998828,
-    "subdir": "linux-64",
-    "timestamp": 1610916252717,
+    "sha256": "8fbe2a8acecf4496095eb971391d73d876fe31112f5a95b4d15284b874023a23",
+    "size": 1178643,
+    "subdir": "win-64",
+    "timestamp": 1610915618151,
     "version": "2.1.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ecell4_base-2.1.0-py39h8e76300_1.tar.bz2/ecell4_base-2.1.0-py39h8e76300_1.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/ecell4_base-2.1.0-py37h8837ae6_1.tar.bz2"
 }
