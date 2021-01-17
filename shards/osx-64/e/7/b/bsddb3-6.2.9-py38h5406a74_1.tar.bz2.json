@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "This module provides a nearly complete wrapping of the Oracle/Sleepycat C API for the Database Environment, Database, Cursor, Log Cursor, Sequence and Transaction objects, and each of these is exposed as a Python type in the bsddb3.db module. The database objects can use various access methods: btree, hash, recno, and queue. Complete support of Berkeley DB distributed transactions. Complete support for Berkeley DB Replication Manager. Complete support for Berkeley DB Base Replication. Support for RPC.",
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/b/bsddb3/bsddb3-6.2.9.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Python bindings for Oracle Berkeley DB",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1610912947,
+    "timestamp": 1610912994,
     "version": "6.2.9"
   },
   "channeldata_version": 1,
@@ -34,28 +34,26 @@
   "labels": [
     "main"
   ],
-  "package": "bsddb3-6.2.9-py37h6b43d8f_1.tar.bz2",
+  "package": "bsddb3-6.2.9-py38h5406a74_1.tar.bz2",
   "repodata": {
-    "build": "py37h6b43d8f_1",
+    "build": "py38h5406a74_1",
     "build_number": 1,
     "depends": [
       "libdb >=6.2.32,<6.3.0a0",
-      "libgcc-ng >=9.3.0",
-      "pypy3.7 >=7.3.3",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7 *_pypy37_pp73"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "39575959e052caacaf56a5f5eb7a8db9",
+    "md5": "c81009caeb0f89af34b5d0f23a7dc1e2",
     "name": "bsddb3",
-    "sha256": "057d16836b1744b13962a0bff595456fe52dd9a363165e32ce4020210cfb90e7",
-    "size": 200588,
-    "subdir": "linux-64",
-    "timestamp": 1610912947358,
+    "sha256": "00abeecf456ed6048948244e42e6aed4571d6222e38ab1d1a8a03e4a66d8dd76",
+    "size": 197694,
+    "subdir": "osx-64",
+    "timestamp": 1610912994315,
     "version": "6.2.9"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/bsddb3-6.2.9-py37h6b43d8f_1.tar.bz2/bsddb3-6.2.9-py37h6b43d8f_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/bsddb3-6.2.9-py38h5406a74_1.tar.bz2"
 }
