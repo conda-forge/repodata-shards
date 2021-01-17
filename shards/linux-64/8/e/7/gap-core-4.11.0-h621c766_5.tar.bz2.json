@@ -25,8 +25,8 @@
     ],
     "summary": "GAP - Groups, Algorithms, Programming, a System for Computational Discrete Algebra",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1610834180,
+    "text_prefix": true,
+    "timestamp": 1610834071,
     "version": "4.11.0"
   },
   "channeldata_version": 1,
@@ -34,23 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "gap-defaults-4.11.0-ha770c72_5.tar.bz2",
+  "package": "gap-core-4.11.0-h621c766_5.tar.bz2",
   "repodata": {
-    "build": "ha770c72_5",
+    "build": "h621c766_5",
     "build_number": 5,
     "depends": [
-      "gap-core 4.11.0 h621c766_5"
+      "gmp >=6.2.1,<7.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "readline >=8.0,<9.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "GPL-2.0-or-later",
-    "md5": "dd39d3c8142712739e74ddbcd88018d1",
-    "name": "gap-defaults",
-    "sha256": "1af736cb2fac7626b7e3588e379c579e644fe725363021a2a8029172c41b3703",
-    "size": 87755511,
+    "md5": "b8ea08344f085b4be3ed2ec8584a8699",
+    "name": "gap-core",
+    "sha256": "8218160e8e8beee1a6f8acbffc23c607787cb6134ad851cf03c19b74bcb60640",
+    "size": 66496249,
     "subdir": "linux-64",
-    "timestamp": 1610834180366,
+    "timestamp": 1610834071383,
     "version": "4.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gap-defaults-4.11.0-ha770c72_5.tar.bz2/gap-defaults-4.11.0-ha770c72_5.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gap-core-4.11.0-h621c766_5.tar.bz2"
 }

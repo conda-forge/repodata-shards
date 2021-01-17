@@ -25,8 +25,8 @@
     ],
     "summary": "a field-theory motivated approach to computer algebra",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1610833849,
+    "text_prefix": false,
+    "timestamp": 1610833995,
     "version": "2.3.0"
   },
   "channeldata_version": 1,
@@ -34,31 +34,43 @@
   "labels": [
     "main"
   ],
-  "package": "cadabra2-2.3.0-py38h19e6d4b_5.tar.bz2",
+  "package": "cadabra2-gtk-2.3.0-py38h39421de_5.tar.bz2",
   "repodata": {
-    "build": "py38h19e6d4b_5",
+    "build": "py38h39421de_5",
     "build_number": 5,
+    "constrains": [
+      "cadabra2-jupyter-kernel 2.3.0"
+    ],
     "depends": [
-      "gmp >=6.2.1,<7.0a0",
+      "atkmm-1.6 >=2.28.0",
+      "boost-cpp >=1.72.0,<1.72.1.0a0",
+      "cadabra2 2.3.0 py38h19e6d4b_5",
+      "cairo >=1.16.0,<1.17.0a0",
+      "cairomm-1.0 >=1.12.2",
+      "glib >=2.66.4,<3.0a0",
+      "glibmm >=2.58.1,<3.0a0",
+      "gtkmm-3.0 >=3.24.2",
       "jsoncpp >=1.8.4,<1.8.5.0a0",
       "libgcc-ng >=9.3.0",
+      "libglib >=2.66.4,<3.0a0",
       "libstdcxx-ng >=9.3.0",
-      "matplotlib-base",
+      "pangomm-1.4 >=2.42.1",
       "python >=3.8,<3.9.0a0",
       "python_abi 3.8.* *_cp38",
-      "sympy"
+      "sigcpp-2.0 >=2.10.3",
+      "sqlite >=3.34.0,<4.0a0"
     ],
     "license": "GPL-3.0-only",
     "license_family": "GPL",
-    "md5": "f1475b18202c07250bd87f97c55d30f9",
-    "name": "cadabra2",
-    "sha256": "c881328088543835926175601e803a8889f5541a93e13c7db7c9306b100967c4",
-    "size": 1045831,
+    "md5": "d095e8579af68edc8055fa5bd9df555c",
+    "name": "cadabra2-gtk",
+    "sha256": "e5749857d61aa4343c62996dde7e90130cbfba9e6a19c1547bfa9c7039f25977",
+    "size": 23405481,
     "subdir": "linux-64",
-    "timestamp": 1610833849730,
+    "timestamp": 1610833995343,
     "version": "2.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cadabra2-2.3.0-py38h19e6d4b_5.tar.bz2/cadabra2-2.3.0-py38h19e6d4b_5.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cadabra2-gtk-2.3.0-py38h39421de_5.tar.bz2"
 }
