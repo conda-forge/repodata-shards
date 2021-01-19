@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Biomechanical add-ons to the RigidBody Dynamics Library .",
+    "dev_url": "https://github.com/pyomeca/biorbd/",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/pyomeca/biorbd/",
+    "home": "http://github.com/pyomeca/biorbd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.4.1": {
+        "weak": [
+          "biorbd >=1.4.1,<1.5.0a0",
+          "biorbd * casadi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/pyomeca/biorbd/archive/Release_1.4.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Biomechanical add-ons to the RigidBody Dynamics Library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1611076969,
+    "version": "1.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "biorbd-1.4.1-py37_casadi_h10fe0fe_0.tar.bz2",
+  "repodata": {
+    "build": "py37_casadi_h10fe0fe_0",
+    "build_number": 0,
+    "depends": [
+      "casadi",
+      "ipopt >=3.13.3,<3.14.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "rbdl * casadi_*",
+      "rbdl >=2.6.0.10,<2.7.0a0",
+      "rbdl >=2.6.0.10,<3.0a0",
+      "tinyxml"
+    ],
+    "license": "MIT",
+    "md5": "86f08ef0655ee2854bfadfeaa262c384",
+    "name": "biorbd",
+    "sha256": "2387c7289b2d62414cf5b84bb7198bf7d218e0c359d669378f246bae44c802f8",
+    "size": 2127560,
+    "subdir": "linux-64",
+    "timestamp": 1611076969252,
+    "track_features": "casadi",
+    "version": "1.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/biorbd-1.4.1-py37_casadi_h10fe0fe_0.tar.bz2"
+}
