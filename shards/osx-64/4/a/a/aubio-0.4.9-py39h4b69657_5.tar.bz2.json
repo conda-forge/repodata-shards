@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "aubio provides a set of tools for analysis and transformation of sounds. Numpy arrays are used to store vectors and matrices, while computations are done in C, for speed and memory efficiency.",
     "dev_url": "https://github.com/aubio/aubio/",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://aubio.org/pub/aubio-0.4.9.tar.bz2",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "tools for audio and music analysis and transformation",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1611074895,
+    "timestamp": 1611075270,
     "version": "0.4.9"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "aubio-0.4.9-py39h7b1e1d3_5.tar.bz2",
+  "package": "aubio-0.4.9-py39h4b69657_5.tar.bz2",
   "repodata": {
-    "build": "py39h7b1e1d3_5",
+    "build": "py39h4b69657_5",
     "build_number": 5,
     "depends": [
       "ffmpeg >=4.3.1,<5.0a0",
-      "libgcc-ng >=9.3.0",
       "numpy >=1.19.5,<2.0a0",
       "python >=3.9,<3.10.0a0",
       "python_abi 3.9.* *_cp39"
     ],
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "5388c8d89709466b73ceb0a78da7ab30",
+    "md5": "b2c0d2225b87678e9cae73cae095fd8f",
     "name": "aubio",
-    "sha256": "c10d546bbe7a9843ee6db77e607b008e3837dcfc3fb1554c4769272879b7f5ae",
-    "size": 167428,
-    "subdir": "linux-64",
-    "timestamp": 1611074895481,
+    "sha256": "9724849619718d2b459a744d39ee553d6e5e4cb04487249c445037a09320447d",
+    "size": 166761,
+    "subdir": "osx-64",
+    "timestamp": 1611075270831,
     "version": "0.4.9"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/aubio-0.4.9-py39h7b1e1d3_5.tar.bz2/aubio-0.4.9-py39h7b1e1d3_5.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/aubio-0.4.9-py39h4b69657_5.tar.bz2"
 }
