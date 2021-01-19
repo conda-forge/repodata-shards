@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-boost-8.0.22.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
-    "summary": "Common files for server and client libraries",
+    "summary": "Shared libraries for MySQL database client applications",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611060985,
+    "timestamp": 1611062836,
     "version": "8.0.22"
   },
   "channeldata_version": 1,
@@ -34,20 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "mysql-common-8.0.22-ha770c72_3.tar.bz2",
+  "package": "mysql-libs-8.0.22-hb8c0690_3.tar.bz2",
   "repodata": {
-    "build": "ha770c72_3",
+    "build": "hb8c0690_3",
     "build_number": 3,
-    "depends": [],
-    "md5": "99377b85af276f4558e263a8e8676ea7",
-    "name": "mysql-common",
-    "sha256": "36d8e9e57ee1119fedd23125fe1ebe06d431a088a06f839a9826d9c4659eec8b",
-    "size": 1574199,
-    "subdir": "linux-64",
-    "timestamp": 1611060985321,
+    "depends": [
+      "mysql-common 8.0.22 h57928b3_3",
+      "openssl >=1.1.1i,<1.1.2a",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "zlib >=1.2.11,<1.3.0a0",
+      "zstd >=1.4.8,<1.5.0a0"
+    ],
+    "md5": "02fa1eace60061f9aa9287663d89d57c",
+    "name": "mysql-libs",
+    "sha256": "483804aa3b43ce5bf06ff43c046882921fe8c2dbc183da0f5d7b407fd4637cee",
+    "size": 1753334,
+    "subdir": "win-64",
+    "timestamp": 1611062836804,
     "version": "8.0.22"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/mysql-common-8.0.22-ha770c72_3.tar.bz2/mysql-common-8.0.22-ha770c72_3.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/mysql-libs-8.0.22-hb8c0690_3.tar.bz2"
 }
