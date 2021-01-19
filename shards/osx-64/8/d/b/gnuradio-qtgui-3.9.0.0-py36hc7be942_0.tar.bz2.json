@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -9,7 +9,7 @@
     "doc_url": null,
     "home": null,
     "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
-    "icon_url": "icons/gnuradio-grc.png",
+    "icon_url": "icons/gnuradio-qtgui.png",
     "identifiers": null,
     "keywords": null,
     "license": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/gnuradio/gnuradio/releases/download/v3.9.0.0/gnuradio-3.9.0.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "GNU Radio Companion",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1611088825,
+    "timestamp": 1611089258,
     "version": "3.9.0.0"
   },
   "channeldata_version": 1,
@@ -34,38 +34,36 @@
   "labels": [
     "main"
   ],
-  "package": "gnuradio-grc-3.9.0.0-py36h818b561_0.tar.bz2",
+  "package": "gnuradio-qtgui-3.9.0.0-py36hc7be942_0.tar.bz2",
   "repodata": {
     "app_entry": "gnuradio-companion",
-    "build": "py36h818b561_0",
+    "build": "py36hc7be942_0",
     "build_number": 0,
     "depends": [
-      "adwaita-icon-theme",
       "boost-cpp >=1.74.0,<1.74.1.0a0",
-      "gnuradio-core 3.9.0.0 py36h78a5576_0",
-      "gtk3 >=3.24.24,<4.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "gnuradio-core 3.9.0.0 py36h5a1100a_0",
+      "libcxx >=11.0.0",
       "log4cpp >=1.1.3,<1.2.0a0",
       "log4cpp >=1.1.3,<2.0a0",
-      "lxml",
-      "pygobject",
+      "pyqt >=5.12.3,<5.13.0a0",
       "python >=3.6,<3.7.0a0",
       "python_abi 3.6.* *_cp36m",
-      "pyyaml"
+      "qt >=5.12.9,<5.13.0a0",
+      "qwt >=6.1.5,<6.2.0a0",
+      "volk >=2.4.1,<2.5.0a0"
     ],
     "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
-    "md5": "ba358b2241866af715935061b1c22107",
-    "name": "gnuradio-grc",
-    "sha256": "cf22b00eb4164419ff4bf8038f85c08e4d10dd94611c5f50f07b096b919ac602",
-    "size": 343510,
-    "subdir": "linux-64",
+    "md5": "a8d1357619323debee5a5188e38ce763",
+    "name": "gnuradio-qtgui",
+    "sha256": "11de9013c34888735441ff0fad479b18e31eb1fa4d081dd74521bbed1ec1ca3d",
+    "size": 1051795,
+    "subdir": "osx-64",
     "summary": "GNU Radio Companion",
-    "timestamp": 1611088825690,
+    "timestamp": 1611089258783,
     "type": "app",
     "version": "3.9.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gnuradio-grc-3.9.0.0-py36h818b561_0.tar.bz2/gnuradio-grc-3.9.0.0-py36h818b561_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/gnuradio-qtgui-3.9.0.0-py36hc7be942_0.tar.bz2"
 }
