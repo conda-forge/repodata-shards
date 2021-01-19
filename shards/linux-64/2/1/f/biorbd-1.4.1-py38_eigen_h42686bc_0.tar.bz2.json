@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Biomechanical add-ons to the RigidBody Dynamics Library .",
+    "dev_url": "https://github.com/pyomeca/biorbd/",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/pyomeca/biorbd/",
+    "home": "http://github.com/pyomeca/biorbd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.4.1": {
+        "weak": [
+          "biorbd >=1.4.1,<1.5.0a0",
+          "biorbd * eigen_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/pyomeca/biorbd/archive/Release_1.4.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Biomechanical add-ons to the RigidBody Dynamics Library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1611077040,
+    "version": "1.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "biorbd-1.4.1-py38_eigen_h42686bc_0.tar.bz2",
+  "repodata": {
+    "build": "py38_eigen_h42686bc_0",
+    "build_number": 0,
+    "depends": [
+      "eigen",
+      "ipopt >=3.13.3,<3.14.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "numpy >=1.16.6,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "rbdl * eigen_*",
+      "rbdl >=2.6.0.10,<2.7.0a0",
+      "rbdl >=2.6.0.10,<3.0a0",
+      "tinyxml"
+    ],
+    "license": "MIT",
+    "md5": "2f1db3ba6920bb247562a075e2cd92f6",
+    "name": "biorbd",
+    "sha256": "7d6aac9f730cb98f07e86bf370c21d8e6ad5c7b2230728ab4bf5ca5443f6aae2",
+    "size": 1873431,
+    "subdir": "linux-64",
+    "timestamp": 1611077040641,
+    "version": "1.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/biorbd-1.4.1-py38_eigen_h42686bc_0.tar.bz2"
+}
