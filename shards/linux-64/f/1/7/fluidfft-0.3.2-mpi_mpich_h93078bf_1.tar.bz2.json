@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Fluidfft provides C++ classes and their Python wrapper classes written in Cython useful to perform Fast Fourier Transform (FFT) with different libraries",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://fluidfft.readthedocs.io",
+    "home": "https://foss.heptapod.net/fluiddyn/fluidfft",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-CeCILL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.2": {
+        "weak": [
+          "fluidfft * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fluidfft/fluidfft-0.3.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1611090474,
+    "version": "0.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "fluidfft-0.3.2-mpi_mpich_h93078bf_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h93078bf_1",
+    "build_number": 1,
+    "depends": [
+      "fftw >=3.3.9,<4.0a0",
+      "fftw >=3.3.9,<4.0a0 mpi_mpich_*",
+      "fluiddyn",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "mpi4py",
+      "mpich >=3.4,<4.0a0",
+      "pandas",
+      "pyfftw",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "transonic"
+    ],
+    "license": "LicenseRef-CeCILL",
+    "md5": "cbe17213b819a1097c0bc4bbaca714cb",
+    "name": "fluidfft",
+    "sha256": "cd38334e7b2598925413078185c0b6901fa873b7293b272defba9d853285119d",
+    "size": 1209744,
+    "subdir": "linux-64",
+    "timestamp": 1611090474881,
+    "version": "0.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fluidfft-0.3.2-mpi_mpich_h93078bf_1.tar.bz2"
+}
