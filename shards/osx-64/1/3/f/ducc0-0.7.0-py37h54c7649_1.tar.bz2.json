@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/d/ducc0/ducc0-0.7.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Distinctly useful code collection",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611016765,
+    "timestamp": 1611016849,
     "version": "0.7.0"
   },
   "channeldata_version": 1,
@@ -34,28 +34,26 @@
   "labels": [
     "main"
   ],
-  "package": "ducc0-0.7.0-py37he226ad3_1.tar.bz2",
+  "package": "ducc0-0.7.0-py37h54c7649_1.tar.bz2",
   "repodata": {
-    "build": "py37he226ad3_1",
+    "build": "py37h54c7649_1",
     "build_number": 1,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.0",
       "numpy >=1.17.0",
-      "pypy3.7 >=7.3.3",
       "python >=3.7,<3.8.0a0",
-      "python_abi 3.7 *_pypy37_pp73"
+      "python_abi 3.7.* *_cp37m"
     ],
     "license": "GPL-2.0-only",
-    "md5": "e820c17da63ce6b3a899d4dec26a2f05",
+    "md5": "c05999022682bc4852dd4bfa2bfe3597",
     "name": "ducc0",
-    "sha256": "5ea23fc387365ad5facb57ce4f561139c5372178da84d663988ab82b55e861d9",
-    "size": 1104040,
-    "subdir": "linux-64",
-    "timestamp": 1611016765312,
+    "sha256": "d419148f011cb5adaa9a518536f0f1ee8e424b64e1368308d81619d4df0f6359",
+    "size": 1006663,
+    "subdir": "osx-64",
+    "timestamp": 1611016849896,
     "version": "0.7.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ducc0-0.7.0-py37he226ad3_1.tar.bz2/ducc0-0.7.0-py37he226ad3_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ducc0-0.7.0-py37h54c7649_1.tar.bz2"
 }
