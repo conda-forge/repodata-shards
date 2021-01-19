@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/i/importlib_resources/importlib_resources-5.1.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "Backport of Python 3.7's standard library `importlib.resources`",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611036273,
+    "timestamp": 1611036634,
     "version": "5.1.0"
   },
   "channeldata_version": 1,
@@ -34,24 +34,26 @@
   "labels": [
     "main"
   ],
-  "package": "importlib_resources-5.1.0-py38h578d9bd_0.tar.bz2",
+  "package": "importlib_resources-5.1.0-py36h704843e_0.tar.bz2",
   "repodata": {
-    "build": "py38h578d9bd_0",
+    "build": "py36h704843e_0",
     "build_number": 0,
     "depends": [
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "importlib_metadata",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "zipp >=0.4"
     ],
     "license": "Apache-2.0",
-    "md5": "d083694efc16101653b7538c9bc0b9cb",
+    "md5": "9eafe5f8ea5763390021809e55250116",
     "name": "importlib_resources",
-    "sha256": "af2a573a9568e426ff038d83d1924435225dc023d76de954b2203cebf6158da9",
-    "size": 36688,
-    "subdir": "linux-64",
-    "timestamp": 1611036273522,
+    "sha256": "614ee3877a1c3733d26b9652a044c25bfe59534d60e5b8d8d795a4e70d66c3ed",
+    "size": 36356,
+    "subdir": "linux-aarch64",
+    "timestamp": 1611036634640,
     "version": "5.1.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/importlib_resources-5.1.0-py38h578d9bd_0.tar.bz2/importlib_resources-5.1.0-py38h578d9bd_0.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/importlib_resources-5.1.0-py36h704843e_0.tar.bz2"
 }
