@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -23,10 +23,10 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Meta package for backwards compat + bonus content",
+    "summary": "MySQL Router binaries",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1611019188,
+    "text_prefix": false,
+    "timestamp": 1611019013,
     "version": "8.0.22"
   },
   "channeldata_version": 1,
@@ -34,26 +34,29 @@
   "labels": [
     "main"
   ],
-  "package": "mysql-8.0.22-ha770c72_2.tar.bz2",
+  "package": "mysql-router-8.0.22-h4713444_2.tar.bz2",
   "repodata": {
-    "build": "ha770c72_2",
+    "build": "h4713444_2",
     "build_number": 2,
     "depends": [
-      "mysql-client 8.0.22 ha4c4870_2",
-      "mysql-common 8.0.22 ha770c72_2",
-      "mysql-devel 8.0.22 ha770c72_2",
-      "mysql-libs 8.0.22 h935591d_2",
-      "mysql-server 8.0.22 hbd6ee85_2"
+      "libevent >=2.1.10,<2.1.11.0a0",
+      "libgcc-ng >=9.3.0",
+      "libprotobuf >=3.13.0.1,<3.14.0a0",
+      "libstdcxx-ng >=9.3.0",
+      "lz4-c >=1.9.3,<1.9.4.0a0",
+      "openssl >=1.1.1i,<1.1.2a",
+      "zlib >=1.2.11,<1.3.0a0",
+      "zstd >=1.4.8,<1.5.0a0"
     ],
-    "md5": "c735124b4b48fdee9c2e24b20c1823ff",
-    "name": "mysql",
-    "sha256": "dd61fc64b367c90d5acb5ec32a16fd3bd1d62faafc8bc14225ca49499d6aa29d",
-    "size": 185211,
+    "md5": "88aa6b305d9076c4ef99617a9e1abe6e",
+    "name": "mysql-router",
+    "sha256": "d5196e16a6445ddd19f645d80d754c0e35dacfe6ee30944bb0cb3b011a483203",
+    "size": 3737293,
     "subdir": "linux-64",
-    "timestamp": 1611019188688,
+    "timestamp": 1611019013270,
     "version": "8.0.22"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/mysql-8.0.22-ha770c72_2.tar.bz2/mysql-8.0.22-ha770c72_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mysql-router-8.0.22-h4713444_2.tar.bz2"
 }
