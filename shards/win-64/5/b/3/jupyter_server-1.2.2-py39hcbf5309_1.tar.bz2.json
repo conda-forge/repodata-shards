@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/j/jupyter_server/jupyter_server-1.2.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Jupyter Server",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1611092294,
+    "text_prefix": false,
+    "timestamp": 1611092794,
     "version": "1.2.2"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "jupyter_server-1.2.2-py38h578d9bd_1.tar.bz2",
+  "package": "jupyter_server-1.2.2-py39hcbf5309_1.tar.bz2",
   "repodata": {
-    "build": "py38h578d9bd_1",
+    "build": "py39hcbf5309_1",
     "build_number": 1,
     "depends": [
       "anyio >=2.0.2",
@@ -47,8 +47,9 @@
       "nbconvert",
       "nbformat",
       "prometheus_client",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "pywin32 >=1.0",
       "pyzmq >=17",
       "send2trash",
       "terminado >=0.8.3",
@@ -57,15 +58,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "5dd02140aa2e05c584e457951235ff67",
+    "md5": "166815daf14f45c4ebbfe9e5650e12aa",
     "name": "jupyter_server",
-    "sha256": "4420a0a3b3e278071c6bf194b4b86fdb575b53ec01554ca42aa42147ae3d7e26",
-    "size": 249396,
-    "subdir": "linux-64",
-    "timestamp": 1611092294785,
+    "sha256": "05f0dba5176f3bcb99b3cbc1f9fe334e6385ae18006aee7ec5626e166dc02c8e",
+    "size": 268167,
+    "subdir": "win-64",
+    "timestamp": 1611092794870,
     "version": "1.2.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/jupyter_server-1.2.2-py38h578d9bd_1.tar.bz2/jupyter_server-1.2.2-py38h578d9bd_1.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/jupyter_server-1.2.2-py39hcbf5309_1.tar.bz2"
 }
