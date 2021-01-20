@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/moderngl/glcontext/archive/2.3.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A library providing OpenGL implementation for ModernGL on multiple platforms.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611169805,
+    "timestamp": 1611169953,
     "version": "2.3.0"
   },
   "channeldata_version": 1,
@@ -34,27 +34,26 @@
   "labels": [
     "main"
   ],
-  "package": "glcontext-2.3.0-py39he80948d_0.tar.bz2",
+  "package": "glcontext-2.3.0-py39h81cd7d3_0.tar.bz2",
   "repodata": {
-    "build": "py39he80948d_0",
+    "build": "py39h81cd7d3_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.0",
       "python >=3.9,<3.10.0a0",
       "python_abi 3.9.* *_cp39"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "13f10b985f6b6c45a5c8e1ac664c00a3",
+    "md5": "e5f73b2e6b79b84d0c09994f739abdf9",
     "name": "glcontext",
-    "sha256": "c1752bb427cd5bd428e8e97f425ce31d586cbe0d2e20cd59b734d169181b80f2",
-    "size": 20533,
-    "subdir": "linux-64",
-    "timestamp": 1611169805024,
+    "sha256": "540fbcda8425958b6c4ad30efda42de432d31ea6195319fb542cb6bce6a163eb",
+    "size": 14654,
+    "subdir": "osx-64",
+    "timestamp": 1611169953987,
     "version": "2.3.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/glcontext-2.3.0-py39he80948d_0.tar.bz2/glcontext-2.3.0-py39he80948d_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/glcontext-2.3.0-py39h81cd7d3_0.tar.bz2"
 }
