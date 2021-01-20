@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "2.0": {
+        "weak": [
+          "impact-t * mpi_mpich_*"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://github.com/hhslepicka/IMPACT-T/archive/v2.0.tar.gz",
     "subdirs": [
@@ -26,7 +32,7 @@
     "summary": "IMPACT-T, A 3D Parallel Particle Tracking Code in Time Domain",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611123313,
+    "timestamp": 1611123326,
     "version": "2.0"
   },
   "channeldata_version": 1,
@@ -34,26 +40,27 @@
   "labels": [
     "main"
   ],
-  "package": "impact-t-2.0-nompi_h77c792f_100.tar.bz2",
+  "package": "impact-t-2.0-mpi_mpich_h8b92f0a_0.tar.bz2",
   "repodata": {
-    "build": "nompi_h77c792f_100",
-    "build_number": 100,
+    "build": "mpi_mpich_h8b92f0a_0",
+    "build_number": 0,
     "depends": [
       "libgcc-ng >=9.3.0",
       "libgfortran-ng",
-      "libgfortran5 >=9.3.0"
+      "libgfortran5 >=9.3.0",
+      "mpich >=3.4,<4.0a0"
     ],
     "license": "BSD-3-Clause-LBNL",
     "license_family": "BSD",
-    "md5": "5fdd91407c955d7adcbab4dd8aedb30c",
+    "md5": "9bf976cc52cdf83b765f622b2d4ad234",
     "name": "impact-t",
-    "sha256": "73207d76bad047bf8770c1f5090aa5f06902a64a873a7658cfd687f55160aca9",
-    "size": 260600,
+    "sha256": "49f8588535ff189aaac13609e49991408e9fc50005f09e07a23be33f45a190ee",
+    "size": 450355,
     "subdir": "linux-64",
-    "timestamp": 1611123313822,
+    "timestamp": 1611123326415,
     "version": "2.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/impact-t-2.0-nompi_h77c792f_100.tar.bz2/impact-t-2.0-nompi_h77c792f_100.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/impact-t-2.0-mpi_mpich_h8b92f0a_0.tar.bz2"
 }
