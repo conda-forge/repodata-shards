@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/d/dvc/dvc-1.11.11.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "DVC tracks ML models and data sets",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611244068,
+    "timestamp": 1611244529,
     "version": "1.11.11"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "dvc-ssh-1.11.11-py36h5fab9bb_0.tar.bz2",
+  "package": "dvc-s3-1.11.11-py37h03978a9_0.tar.bz2",
   "repodata": {
-    "build": "py36h5fab9bb_0",
+    "build": "py37h03978a9_0",
     "build_number": 0,
     "depends": [
-      "dvc-base 1.11.11 py36h5fab9bb_0",
-      "invoke >=1.3",
-      "paramiko >=2.7.0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m"
+      "boto3 >=1.9.201",
+      "dvc-base 1.11.11 py37h03978a9_0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "f635b411a9049572ff7bfaf4840e0ac0",
-    "name": "dvc-ssh",
-    "sha256": "f8f77985ea29b894811027f7713417e1dbddbf8a5e08626b7d0f6e2415e2aa91",
-    "size": 9751,
-    "subdir": "linux-64",
-    "timestamp": 1611244068725,
+    "md5": "dae39d7a41c1e40efc5c3893a8e50e83",
+    "name": "dvc-s3",
+    "sha256": "e3f750a5747d0748531f2a90e9a48832282e8d81dce0a4d23ba62036a7147bc4",
+    "size": 10347,
+    "subdir": "win-64",
+    "timestamp": 1611244529416,
     "version": "1.11.11"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/dvc-ssh-1.11.11-py36h5fab9bb_0.tar.bz2/dvc-ssh-1.11.11-py36h5fab9bb_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/dvc-s3-1.11.11-py37h03978a9_0.tar.bz2"
 }
