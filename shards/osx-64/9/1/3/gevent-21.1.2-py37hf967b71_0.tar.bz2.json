@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Gevent uses greenlet to provide a high-level synchronous API on top of the libev event loop.",
     "dev_url": "https://github.com/gevent/gevent",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/g/gevent/gevent-21.1.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Coroutine-based network library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611197993,
+    "timestamp": 1611198076,
     "version": "21.1.2"
   },
   "channeldata_version": 1,
@@ -34,35 +34,33 @@
   "labels": [
     "main"
   ],
-  "package": "gevent-21.1.2-py36h70b1f00_0.tar.bz2",
+  "package": "gevent-21.1.2-py37hf967b71_0.tar.bz2",
   "repodata": {
-    "build": "py36h70b1f00_0",
+    "build": "py37hf967b71_0",
     "build_number": 0,
     "depends": [
       "c-ares >=1.17.1,<2.0a0",
       "cffi >=1.11.5",
       "greenlet >=0.4.17,<2.0",
       "libev >=4.33,<4.34.0a0",
-      "libgcc-ng >=9.3.0",
       "libuv >=1.40.0,<2.0a0",
-      "pypy3.6 >=7.3.3",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "setuptools",
       "zope.event",
       "zope.interface"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "4f9c9cec96c3f8420881356adb65bf61",
+    "md5": "9067eb53476179741d77e9ef996e9890",
     "name": "gevent",
-    "sha256": "096ee1ed6c07cc97dbff1910701031a564482895823a83b35016ddc1945f5a0c",
-    "size": 1085936,
-    "subdir": "linux-64",
-    "timestamp": 1611197993630,
+    "sha256": "83f855979f4c987c8583663a1c14e0256ba0b5de97240b4fe583a31c4f22d984",
+    "size": 1599254,
+    "subdir": "osx-64",
+    "timestamp": 1611198076961,
     "version": "21.1.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gevent-21.1.2-py36h70b1f00_0.tar.bz2/gevent-21.1.2-py36h70b1f00_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/gevent-21.1.2-py37hf967b71_0.tar.bz2"
 }
