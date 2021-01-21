@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://fossil-scm.org/index.html/dir?ci=tip",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://www.fossil-scm.org/xfer/uv/fossil-src-2.14.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Fossil is a simple, high-reliability, distributed software configuration management system with these advanced features:",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611204480,
+    "timestamp": 1611204503,
     "version": "2.14"
   },
   "channeldata_version": 1,
@@ -34,12 +34,11 @@
   "labels": [
     "main"
   ],
-  "package": "fossil-2.14-h99f322b_0.tar.bz2",
+  "package": "fossil-2.14-h606ecf3_0.tar.bz2",
   "repodata": {
-    "build": "h99f322b_0",
+    "build": "h606ecf3_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
       "openssl >=1.1.1i,<1.1.2a",
       "sqlite >=3.34.0",
       "sqlite >=3.34.0,<4.0a0",
@@ -48,15 +47,15 @@
     ],
     "license": "BSD-2-Clause",
     "license_family": "BSD",
-    "md5": "9500325c16d15f95cf2269b4dddbd5e9",
+    "md5": "0587476fa4af2b5f2d4cd53e6f0bf36b",
     "name": "fossil",
-    "sha256": "1812536abdd7f8e5279be91f0f057ee97242c593066da1325b79c992e8f029ae",
-    "size": 1345578,
-    "subdir": "linux-64",
-    "timestamp": 1611204480552,
+    "sha256": "3726dcf5ddf7178b47aa6dca888ea1d0e37a82c143f01fc033e95bfe3e51cebf",
+    "size": 1289223,
+    "subdir": "osx-64",
+    "timestamp": 1611204503224,
     "version": "2.14"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/fossil-2.14-h99f322b_0.tar.bz2/fossil-2.14-h99f322b_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/fossil-2.14-h606ecf3_0.tar.bz2"
 }
