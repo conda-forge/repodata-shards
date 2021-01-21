@@ -18,46 +18,47 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {
-      "1.2.2": {
+      "1.6.1": {
         "weak": [
-          "libapriconv >=1.2.2,<2.0a0"
+          "libaprutil >=1.6.1,<2.0a0"
         ]
       }
     },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "Maintains a consistent API with predictable behaviour",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1611256249,
-    "version": "1.2.2"
+    "text_prefix": true,
+    "timestamp": 1611259814,
+    "version": "1.6.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "libapriconv-1.2.2-h7f98852_3.tar.bz2",
+  "package": "libaprutil-1.6.1-hc25f2bf_3.tar.bz2",
   "repodata": {
-    "build": "h7f98852_3",
+    "build": "hc25f2bf_3",
     "build_number": 3,
     "depends": [
+      "expat >=2.2.9,<2.3.0a0",
       "libgcc-ng >=9.3.0"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "b5b10c8bb0ce53ec01b54cef8c899ae7",
-    "name": "libapriconv",
-    "sha256": "ed4e726fc55a1c9fc0ddf7feb1d709455a87f6e67ac18bea5fd2699d06fc6606",
-    "size": 1271635,
-    "subdir": "linux-64",
-    "timestamp": 1611256249594,
-    "version": "1.2.2"
+    "md5": "02a1399b5a83f055430f5e1956c7d1bd",
+    "name": "libaprutil",
+    "sha256": "614b3d7b579ee55c17ef1cb5d1aa5a6d9ce4b483ca27a143c2d47284b1fcfdf5",
+    "size": 294362,
+    "subdir": "linux-aarch64",
+    "timestamp": 1611259814008,
+    "version": "1.6.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libapriconv-1.2.2-h7f98852_3.tar.bz2/libapriconv-1.2.2-h7f98852_3.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libaprutil-1.6.1-hc25f2bf_3.tar.bz2"
 }

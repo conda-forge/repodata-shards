@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "Apache Portable Run-time libraries have been designed to provide a common interface to low level routines across any platform.The original goal of APR was to combine all code in Apache to one common code base.",
     "dev_url": "https://svn.apache.org/viewvc/apr",
@@ -18,46 +18,46 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {
-      "1.2.2": {
+      "1.7.0": {
         "weak": [
-          "libapriconv >=1.2.2,<2.0a0"
+          "libapr >=1.7.0,<2.0a0"
         ]
       }
     },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "linux-ppc64le"
     ],
     "summary": "Maintains a consistent API with predictable behaviour",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1611256249,
-    "version": "1.2.2"
+    "text_prefix": true,
+    "timestamp": 1611257780,
+    "version": "1.7.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "libapriconv-1.2.2-h7f98852_3.tar.bz2",
+  "package": "libapr-1.7.0-h4e0d66e_3.tar.bz2",
   "repodata": {
-    "build": "h7f98852_3",
+    "build": "h4e0d66e_3",
     "build_number": 3,
     "depends": [
       "libgcc-ng >=9.3.0"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "b5b10c8bb0ce53ec01b54cef8c899ae7",
-    "name": "libapriconv",
-    "sha256": "ed4e726fc55a1c9fc0ddf7feb1d709455a87f6e67ac18bea5fd2699d06fc6606",
-    "size": 1271635,
-    "subdir": "linux-64",
-    "timestamp": 1611256249594,
-    "version": "1.2.2"
+    "md5": "09672f3be39c31faebbebd0008ae0af2",
+    "name": "libapr",
+    "sha256": "1450d9b04b99094d0a76f8df2490fd52384cec32ccf3fe78513ba68c01b032f5",
+    "size": 501222,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1611257780082,
+    "version": "1.7.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libapriconv-1.2.2-h7f98852_3.tar.bz2/libapriconv-1.2.2-h7f98852_3.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/libapr-1.7.0-h4e0d66e_3.tar.bz2"
 }
