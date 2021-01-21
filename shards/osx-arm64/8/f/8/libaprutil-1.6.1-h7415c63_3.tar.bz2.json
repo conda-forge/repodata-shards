@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Apache Portable Run-time libraries have been designed to provide a common interface to low level routines across any platform.The original goal of APR was to combine all code in Apache to one common code base.",
     "dev_url": "https://svn.apache.org/viewvc/apr",
@@ -17,44 +17,47 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "1.6.1": {
+        "weak": [
+          "libaprutil >=1.6.1,<2.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-arm64"
     ],
     "summary": "Maintains a consistent API with predictable behaviour",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1611256291,
-    "version": "1.7.0"
+    "text_prefix": true,
+    "timestamp": 1611256473,
+    "version": "1.6.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "apr-1.7.0-h7f98852_3.tar.bz2",
+  "package": "libaprutil-1.6.1-h7415c63_3.tar.bz2",
   "repodata": {
-    "build": "h7f98852_3",
+    "build": "h7415c63_3",
     "build_number": 3,
     "depends": [
-      "libapr",
-      "libapriconv",
-      "libaprutil",
-      "libgcc-ng >=9.3.0"
+      "expat >=2.2.9,<2.3.0a0"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "1f6a8ee3ea3ee511925b645ddf9867f8",
-    "name": "apr",
-    "sha256": "2a56176f3efe4ddca0595afa8c47d77f03a6d3583ca6681f5370d697e8b9ab8f",
-    "size": 48689,
-    "subdir": "linux-64",
-    "timestamp": 1611256291615,
-    "version": "1.7.0"
+    "md5": "3ae15c78faad9dab11df01deb9ace642",
+    "name": "libaprutil",
+    "sha256": "7a18357c1edbac30969d7755c1d8cd1ae9112efcf436a8f0298ac74bdb1a3edd",
+    "size": 268333,
+    "subdir": "osx-arm64",
+    "timestamp": 1611256473240,
+    "version": "1.6.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/apr-1.7.0-h7f98852_3.tar.bz2/apr-1.7.0-h7f98852_3.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libaprutil-1.6.1-h7415c63_3.tar.bz2"
 }
