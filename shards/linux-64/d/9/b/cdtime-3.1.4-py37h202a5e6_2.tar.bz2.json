@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "The cdtime module contains functions for converting between these forms, based on the common calendars used in climate simulation. Basic arithmetic and comparison operators are also available.",
     "dev_url": null,
@@ -26,7 +26,7 @@
     "summary": "Climate calendar manipulation tools",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611219695,
+    "timestamp": 1611219670,
     "version": "3.1.4"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "cdtime-3.1.4-py38h49bcaf2_2.tar.bz2",
+  "package": "cdtime-3.1.4-py37h202a5e6_2.tar.bz2",
   "repodata": {
-    "build": "py38h49bcaf2_2",
+    "build": "py37h202a5e6_2",
     "build_number": 2,
     "depends": [
       "cdat_info",
@@ -46,21 +46,22 @@
       "libgfortran-ng",
       "libgfortran5 >=9.3.0",
       "libnetcdf >=4.7.4,<4.7.5.0a0",
-      "numpy >=1.16.6,<2.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "numpy >=1.19.5,<2.0a0",
+      "pypy3.7 >=7.3.3",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7 *_pypy37_pp73",
       "setuptools"
     ],
     "license": "BSD-3-Clause",
-    "md5": "5d6baf99259fdfa33a453049c8d577c3",
+    "md5": "11076d7a823c3283705beeb6e476e989",
     "name": "cdtime",
-    "sha256": "be0d29be3776d68b23009f7ee95346e1f331f44c865c8c5f400a663721065c0d",
-    "size": 56458,
+    "sha256": "f7e5791a7eadcc09c30de6c67e0057d6589926fb4b558be3bdeb5852c31ed969",
+    "size": 54762,
     "subdir": "linux-64",
-    "timestamp": 1611219695425,
+    "timestamp": 1611219670695,
     "version": "3.1.4"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cdtime-3.1.4-py38h49bcaf2_2.tar.bz2/cdtime-3.1.4-py38h49bcaf2_2.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cdtime-3.1.4-py37h202a5e6_2.tar.bz2"
 }

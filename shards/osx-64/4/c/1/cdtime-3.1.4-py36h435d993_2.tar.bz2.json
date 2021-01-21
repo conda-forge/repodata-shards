@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "The cdtime module contains functions for converting between these forms, based on the common calendars used in climate simulation. Basic arithmetic and comparison operators are also available.",
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/cdat/cdtime/archive/v3.1.4.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Climate calendar manipulation tools",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611219695,
+    "timestamp": 1611219813,
     "version": "3.1.4"
   },
   "channeldata_version": 1,
@@ -34,33 +34,33 @@
   "labels": [
     "main"
   ],
-  "package": "cdtime-3.1.4-py38h49bcaf2_2.tar.bz2",
+  "package": "cdtime-3.1.4-py36h435d993_2.tar.bz2",
   "repodata": {
-    "build": "py38h49bcaf2_2",
+    "build": "py36h435d993_2",
     "build_number": 2,
     "depends": [
       "cdat_info",
       "libcdms",
       "libdrs_f",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
+      "libgfortran 5.*",
       "libgfortran5 >=9.3.0",
       "libnetcdf >=4.7.4,<4.7.5.0a0",
-      "numpy >=1.16.6,<2.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "numpy >=1.18.5,<2.0a0",
+      "pypy3.6 >=7.3.3",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6 *_pypy36_pp73",
       "setuptools"
     ],
     "license": "BSD-3-Clause",
-    "md5": "5d6baf99259fdfa33a453049c8d577c3",
+    "md5": "44a6b36ac7759433ea9bc9debaec7104",
     "name": "cdtime",
-    "sha256": "be0d29be3776d68b23009f7ee95346e1f331f44c865c8c5f400a663721065c0d",
-    "size": 56458,
-    "subdir": "linux-64",
-    "timestamp": 1611219695425,
+    "sha256": "29e12d49f0fd8ab4970ef9acb01d8adc6c8c698adce9749d3076eafe86b4766f",
+    "size": 19648,
+    "subdir": "osx-64",
+    "timestamp": 1611219813844,
     "version": "3.1.4"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cdtime-3.1.4-py38h49bcaf2_2.tar.bz2/cdtime-3.1.4-py38h49bcaf2_2.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cdtime-3.1.4-py36h435d993_2.tar.bz2"
 }
