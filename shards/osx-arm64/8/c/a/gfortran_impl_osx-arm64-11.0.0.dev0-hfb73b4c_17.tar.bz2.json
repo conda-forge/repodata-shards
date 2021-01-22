@@ -19,46 +19,47 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://ftp.gnu.org/gnu/gcc/gcc-7.5.0/gcc-7.5.0.tar.gz",
+    "source_url": "https://github.com/iains/gcc-darwin-arm64/archive/62cfbb7cf8a06c2ec07d3343bfdc67ca8123239e.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-arm64"
     ],
     "summary": "Fortran compiler and libraries from the GNU Compiler Collection",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611334221,
-    "version": "7.5.0"
+    "timestamp": 1611336875,
+    "version": "11.0.0.dev0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "gfortran_impl_osx-64-7.5.0-h45be25c_17.tar.bz2",
+  "package": "gfortran_impl_osx-arm64-11.0.0.dev0-hfb73b4c_17.tar.bz2",
   "repodata": {
-    "build": "h45be25c_17",
+    "build": "hfb73b4c_17",
     "build_number": 17,
     "depends": [
       "gmp >=6.2.1,<7.0a0",
       "isl >=0.22.1,<0.23.0a0",
-      "libgcc-ng >=9.3.0",
+      "libcxx >=11.0.0",
+      "libgfortran-devel_osx-arm64 11.0.0.dev0.*",
+      "libgfortran5 >=11.0.0.dev0",
       "libiconv >=1.16,<1.17.0a0",
-      "libstdcxx-ng >=9.3.0",
       "mpc >=1.1.0,<2.0a0",
       "mpfr >=4.0.2,<5.0a0",
       "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "GPL-3.0-only WITH GCC-exception-3.1",
     "license_family": "GPL",
-    "md5": "98c31931188d7aa35b1226a516e72262",
-    "name": "gfortran_impl_osx-64",
-    "sha256": "d70e2ab7139b3651907127ad9538e4bea30a9b3913edf74b121c1374328a159b",
-    "size": 10350962,
-    "subdir": "linux-64",
-    "timestamp": 1611334221746,
-    "version": "7.5.0"
+    "md5": "ef6e4d2cda2c1f3cb584f34281995393",
+    "name": "gfortran_impl_osx-arm64",
+    "sha256": "08d12953c81100def21a48abe3185d70ff042c5cf28d7308410bcb62b9f6ba49",
+    "size": 11079300,
+    "subdir": "osx-arm64",
+    "timestamp": 1611336875801,
+    "version": "11.0.0.dev0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gfortran_impl_osx-64-7.5.0-h45be25c_17.tar.bz2/gfortran_impl_osx-64-7.5.0-h45be25c_17.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/gfortran_impl_osx-arm64-11.0.0.dev0-hfb73b4c_17.tar.bz2"
 }

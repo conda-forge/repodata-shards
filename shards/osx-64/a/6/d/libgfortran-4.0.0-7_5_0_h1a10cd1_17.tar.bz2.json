@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,44 +21,37 @@
     "source_git_url": null,
     "source_url": "https://ftp.gnu.org/gnu/gcc/gcc-7.5.0/gcc-7.5.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Fortran compiler and libraries from the GNU Compiler Collection",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611334221,
-    "version": "7.5.0"
+    "timestamp": 1611335228,
+    "version": "4.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "gfortran_impl_osx-64-7.5.0-h45be25c_17.tar.bz2",
+  "package": "libgfortran-4.0.0-7_5_0_h1a10cd1_17.tar.bz2",
   "repodata": {
-    "build": "h45be25c_17",
+    "build": "7_5_0_h1a10cd1_17",
     "build_number": 17,
     "depends": [
-      "gmp >=6.2.1,<7.0a0",
-      "isl >=0.22.1,<0.23.0a0",
-      "libgcc-ng >=9.3.0",
-      "libiconv >=1.16,<1.17.0a0",
-      "libstdcxx-ng >=9.3.0",
-      "mpc >=1.1.0,<2.0a0",
-      "mpfr >=4.0.2,<5.0a0",
-      "zlib >=1.2.11,<1.3.0a0"
+      "libgfortran4"
     ],
     "license": "GPL-3.0-only WITH GCC-exception-3.1",
     "license_family": "GPL",
-    "md5": "98c31931188d7aa35b1226a516e72262",
-    "name": "gfortran_impl_osx-64",
-    "sha256": "d70e2ab7139b3651907127ad9538e4bea30a9b3913edf74b121c1374328a159b",
-    "size": 10350962,
-    "subdir": "linux-64",
-    "timestamp": 1611334221746,
-    "version": "7.5.0"
+    "md5": "21485b099c09e23d862011d946ba4da9",
+    "name": "libgfortran",
+    "sha256": "839f8dfc847e7398822e52aeff7407a352aaae781956a2619c30d18fcbe171eb",
+    "size": 19247,
+    "subdir": "osx-64",
+    "timestamp": 1611335228369,
+    "version": "4.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gfortran_impl_osx-64-7.5.0-h45be25c_17.tar.bz2/gfortran_impl_osx-64-7.5.0-h45be25c_17.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libgfortran-4.0.0-7_5_0_h1a10cd1_17.tar.bz2"
 }
