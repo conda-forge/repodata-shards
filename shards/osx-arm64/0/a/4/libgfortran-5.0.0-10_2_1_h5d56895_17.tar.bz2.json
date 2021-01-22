@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,44 +21,37 @@
     "source_git_url": null,
     "source_url": "https://github.com/fxcoudert/gcc/archive/e884c192980f62683e7ea4341f1099133913cfa8.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-arm64"
     ],
     "summary": "Fortran compiler and libraries from the GNU Compiler Collection",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611334371,
-    "version": "10.2.1"
+    "timestamp": 1611336722,
+    "version": "5.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "gfortran_impl_osx-arm64-10.2.1-h400d2e3_17.tar.bz2",
+  "package": "libgfortran-5.0.0-10_2_1_h5d56895_17.tar.bz2",
   "repodata": {
-    "build": "h400d2e3_17",
+    "build": "10_2_1_h5d56895_17",
     "build_number": 17,
     "depends": [
-      "gmp >=6.2.1,<7.0a0",
-      "isl >=0.22.1,<0.23.0a0",
-      "libgcc-ng >=9.3.0",
-      "libiconv >=1.16,<1.17.0a0",
-      "libstdcxx-ng >=9.3.0",
-      "mpc >=1.1.0,<2.0a0",
-      "mpfr >=4.0.2,<5.0a0",
-      "zlib >=1.2.11,<1.3.0a0"
+      "libgfortran5"
     ],
     "license": "GPL-3.0-only WITH GCC-exception-3.1",
     "license_family": "GPL",
-    "md5": "a6f41710b5360950dee5a0ceb4acc32a",
-    "name": "gfortran_impl_osx-arm64",
-    "sha256": "8717e2baf931aab87b84c0776fc9c2f788e5adcbc97a82fab37e0f4a2e9394eb",
-    "size": 12603732,
-    "subdir": "linux-64",
-    "timestamp": 1611334371491,
-    "version": "10.2.1"
+    "md5": "88c04657ec1b154e4e2dff13cb79fb68",
+    "name": "libgfortran",
+    "sha256": "5131279690af03f30f7e4963d81c780b02db99047c4cc9eab47741d5ce4235a8",
+    "size": 19267,
+    "subdir": "osx-arm64",
+    "timestamp": 1611336722036,
+    "version": "5.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gfortran_impl_osx-arm64-10.2.1-h400d2e3_17.tar.bz2/gfortran_impl_osx-arm64-10.2.1-h400d2e3_17.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran-5.0.0-10_2_1_h5d56895_17.tar.bz2"
 }
