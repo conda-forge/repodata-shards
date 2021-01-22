@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/colcon/colcon-core/archive/0.6.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "colcon is a command line tool to improve the workflow of building, testing and using multiple software packages.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1611314493,
+    "text_prefix": false,
+    "timestamp": 1611314833,
     "version": "0.6.1"
   },
   "channeldata_version": 1,
@@ -34,11 +34,12 @@
   "labels": [
     "main"
   ],
-  "package": "colcon-core-0.6.1-py36h5fab9bb_1.tar.bz2",
+  "package": "colcon-core-0.6.1-py39hcbf5309_1.tar.bz2",
   "repodata": {
-    "build": "py36h5fab9bb_1",
+    "build": "py39hcbf5309_1",
     "build_number": 1,
     "depends": [
+      "coloredlogs",
       "distlib",
       "empy",
       "pytest",
@@ -46,20 +47,20 @@
       "pytest-repeat",
       "pytest-rerunfailures",
       "pytest-runner",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "setuptools >=30.3.0"
     ],
     "license": "Apache-2.0",
-    "md5": "9d6f1b4583e63df2d529fcb8cf55da3d",
+    "md5": "8585fff9ba752103b6ab585c5e246c7c",
     "name": "colcon-core",
-    "sha256": "9e5bbba673478c6b43d176e3a0f6c3cf924ad0a48d6fbc00f43bd883a418ccd1",
-    "size": 127504,
-    "subdir": "linux-64",
-    "timestamp": 1611314493047,
+    "sha256": "f665d807e0bed1b324eaf8b84bce962724bae5a2479b8c90df582b7ffce49b11",
+    "size": 147814,
+    "subdir": "win-64",
+    "timestamp": 1611314833699,
     "version": "0.6.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/colcon-core-0.6.1-py36h5fab9bb_1.tar.bz2/colcon-core-0.6.1-py36h5fab9bb_1.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/colcon-core-0.6.1-py39hcbf5309_1.tar.bz2"
 }
