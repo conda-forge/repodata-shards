@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://sourceforge.net/projects/ddec/files/chargemol_09_26_2017.zip",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Program Computing DDEC Atomic Charges",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611270837,
+    "timestamp": 1611270912,
     "version": "3.5"
   },
   "channeldata_version": 1,
@@ -34,26 +34,25 @@
   "labels": [
     "main"
   ],
-  "package": "chargemol-3.5-h1990efc_0.tar.bz2",
+  "package": "chargemol-3.5-h6818c3e_0.tar.bz2",
   "repodata": {
-    "build": "h1990efc_0",
+    "build": "h6818c3e_0",
     "build_number": 0,
     "depends": [
-      "_openmp_mutex >=4.5",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
-      "libgfortran5 >=9.3.0"
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "llvm-openmp >=11.0.1"
     ],
     "license": "LicenseRef-chargemol",
-    "md5": "9cd80963e98917063a44596791a92837",
+    "md5": "cc851c38fdbb15b3f5c8f42ce827314a",
     "name": "chargemol",
-    "sha256": "17f5b399eb126ce49253da9820f89276d98edcf993055b1ff0ac75bb1ab46922",
-    "size": 7737935,
-    "subdir": "linux-64",
-    "timestamp": 1611270837404,
+    "sha256": "1c9bcf5382e68ee5b66849cbd105889885e0468c58d314aec41c1ae59ec532a6",
+    "size": 7743644,
+    "subdir": "osx-64",
+    "timestamp": 1611270912199,
     "version": "3.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/chargemol-3.5-h1990efc_0.tar.bz2/chargemol-3.5-h1990efc_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/chargemol-3.5-h6818c3e_0.tar.bz2"
 }
