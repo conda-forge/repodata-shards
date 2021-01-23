@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/d/distributed/distributed-2021.1.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-ppc64le"
     ],
     "summary": "Distributed computing with Dask",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1611361942,
+    "timestamp": 1611361924,
     "version": "2021.1.1"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "distributed-2021.1.1-py37h89c1867_0.tar.bz2",
+  "package": "distributed-2021.1.1-py36h270354c_0.tar.bz2",
   "repodata": {
-    "build": "py37h89c1867_0",
+    "build": "py36h270354c_0",
     "build_number": 0,
     "constrains": [
       "openssl !=1.1.1e"
@@ -44,12 +44,13 @@
     "depends": [
       "click >=6.6",
       "cloudpickle >=1.5.0",
+      "contextvars",
       "cytoolz >=0.8.2",
       "dask-core >=2020.12.0",
       "msgpack-python >=0.6.0",
       "psutil >=5.0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
       "pyyaml",
       "setuptools",
       "sortedcontainers !=2.0.0,!=2.0.1",
@@ -60,15 +61,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "ddf6161ab3066a20e6009adcffc9ac95",
+    "md5": "36c1d17df05ae143e707737e302ed33b",
     "name": "distributed",
-    "sha256": "9d419298b071e14995204a0550db436041d2ac01c15e954671d97037916db705",
-    "size": 1130225,
-    "subdir": "linux-64",
-    "timestamp": 1611361942139,
+    "sha256": "b64ef0372f53d63c93e173aba6756744ffb379d5270c5e5ea9d415cbf8227051",
+    "size": 1130398,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1611361924481,
     "version": "2021.1.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/distributed-2021.1.1-py37h89c1867_0.tar.bz2/distributed-2021.1.1-py37h89c1867_0.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/distributed-2021.1.1-py36h270354c_0.tar.bz2"
 }
