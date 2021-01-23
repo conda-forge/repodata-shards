@@ -1,8 +1,8 @@
 {
   "channeldata": {
-    "activate.d": true,
+    "activate.d": false,
     "binary_prefix": true,
-    "deactivate.d": true,
+    "deactivate.d": false,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
@@ -17,22 +17,16 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {
-      "2.66.4": {
-        "weak": [
-          "libglib >=2.66.4,<3.0a0"
-        ]
-      }
-    },
+    "run_exports": {},
     "source_git_url": null,
     "source_url": "http://ftp.gnome.org/pub/GNOME/sources/glib/2.66/glib-2.66.4.tar.xz",
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "Provides core application building blocks for libraries and applications written in C.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1611390820,
+    "text_prefix": false,
+    "timestamp": 1611391150,
     "version": "2.66.4"
   },
   "channeldata_version": 1,
@@ -40,28 +34,25 @@
   "labels": [
     "main"
   ],
-  "package": "glib-2.66.4-h709712a_2.tar.bz2",
+  "package": "glib-tools-2.66.4-h143fd24_2.tar.bz2",
   "repodata": {
-    "build": "h709712a_2",
+    "build": "h143fd24_2",
     "build_number": 2,
     "depends": [
-      "gettext >=0.19.8.1,<1.0a0",
-      "glib-tools 2.66.4 h709712a_2",
       "libgcc-ng >=9.3.0",
-      "libglib 2.66.4 hf9edacf_2",
-      "libstdcxx-ng >=9.3.0",
-      "python *"
+      "libglib 2.66.4 h4f61916_2",
+      "libstdcxx-ng >=9.3.0"
     ],
     "license": "LGPL-2.1-or-later",
-    "md5": "b2b94ac06146e3dc860346bd67e48daa",
-    "name": "glib",
-    "sha256": "4f6a30e1646a51ad5af6be3706efdecb5f7a2bf24970a2fa00721f173d40975f",
-    "size": 453566,
-    "subdir": "linux-64",
-    "timestamp": 1611390820498,
+    "md5": "36d191d0e402be596f96c0ffc8c6bc3c",
+    "name": "glib-tools",
+    "sha256": "8d00e247560c24100ec0456d01c12861be862dd74011894df6075e3f93b7bb0d",
+    "size": 92192,
+    "subdir": "linux-aarch64",
+    "timestamp": 1611391150676,
     "version": "2.66.4"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/glib-2.66.4-h709712a_2.tar.bz2/glib-2.66.4-h709712a_2.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/glib-tools-2.66.4-h143fd24_2.tar.bz2"
 }
