@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "The Adaptable IO System (ADIOS) provides a simple, flexible way for scientists to describe the data in their code that may need to be written, read, or processed outside of the running simulation. By providing an external to the code XML file describing the various elements, their types, and how you wish to process them this run, the routines in the host code (either Fortran or C) can transparently change how they process the data.",
     "dev_url": "https://github.com/ornladios/ADIOS",
@@ -20,19 +20,19 @@
     "run_exports": {
       "1.13.1": {
         "weak": [
-          "adios * mpi_mpich_*"
+          "adios * nompi_*"
         ]
       }
     },
     "source_git_url": null,
     "source_url": "http://users.nccs.gov/%7Epnorbert/adios-1.13.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "The Adaptable IO System (ADIOS) for flexible and fast scientific data processing.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1611352910,
+    "timestamp": 1611352822,
     "version": "1.13.1"
   },
   "channeldata_version": 1,
@@ -40,30 +40,27 @@
   "labels": [
     "main"
   ],
-  "package": "adios-1.13.1-mpi_mpich_h3db536e_1021.tar.bz2",
+  "package": "adios-1.13.1-nompi_h66382c4_1121.tar.bz2",
   "repodata": {
-    "build": "mpi_mpich_h3db536e_1021",
-    "build_number": 1021,
+    "build": "nompi_h66382c4_1121",
+    "build_number": 1121,
     "depends": [
       "blosc >=1.21.0,<2.0a0",
       "bzip2 >=1.0.8,<2.0a0",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
+      "libgfortran 5.*",
       "libgfortran5 >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "mpich >=3.4,<3.5.0a0",
       "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "BSD-3-Clause",
-    "md5": "66eff4003d55f3a9880771b399d5bb04",
+    "md5": "af1537cf1cfb8f1122c41449b2b24185",
     "name": "adios",
-    "sha256": "a636a336cf0f5c34647ddb4152da01cab4a7ce641eb64bf3dec5c87f519c2306",
-    "size": 4891996,
-    "subdir": "linux-64",
-    "timestamp": 1611352910565,
+    "sha256": "e365c0325d4ac5b67a31f460bd9b0d01e524d547afdcb6a5b47861385696c8b0",
+    "size": 2889228,
+    "subdir": "osx-64",
+    "timestamp": 1611352822244,
     "version": "1.13.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/adios-1.13.1-mpi_mpich_h3db536e_1021.tar.bz2/adios-1.13.1-mpi_mpich_h3db536e_1021.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/adios-1.13.1-nompi_h66382c4_1121.tar.bz2"
 }
