@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/d/distributed/distributed-2021.1.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Distributed computing with Dask",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1611361942,
+    "timestamp": 1611361969,
     "version": "2021.1.1"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "distributed-2021.1.1-py37h89c1867_0.tar.bz2",
+  "package": "distributed-2021.1.1-py37h5186d4c_0.tar.bz2",
   "repodata": {
-    "build": "py37h89c1867_0",
+    "build": "py37h5186d4c_0",
     "build_number": 0,
     "constrains": [
       "openssl !=1.1.1e"
@@ -48,8 +48,9 @@
       "dask-core >=2020.12.0",
       "msgpack-python >=0.6.0",
       "psutil >=5.0",
+      "pypy3.7 >=7.3.3",
       "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python_abi 3.7 *_pypy37_pp73",
       "pyyaml",
       "setuptools",
       "sortedcontainers !=2.0.0,!=2.0.1",
@@ -60,15 +61,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "ddf6161ab3066a20e6009adcffc9ac95",
+    "md5": "06a8d15700d47957833d2eabcfd81347",
     "name": "distributed",
-    "sha256": "9d419298b071e14995204a0550db436041d2ac01c15e954671d97037916db705",
-    "size": 1130225,
-    "subdir": "linux-64",
-    "timestamp": 1611361942139,
+    "sha256": "f9381e3de647d4dc891e2d96beed92e713a8eb0a3261931086d1bbef402b7d6e",
+    "size": 1136874,
+    "subdir": "osx-64",
+    "timestamp": 1611361969685,
     "version": "2021.1.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/distributed-2021.1.1-py37h89c1867_0.tar.bz2/distributed-2021.1.1-py37h89c1867_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/distributed-2021.1.1-py37h5186d4c_0.tar.bz2"
 }
