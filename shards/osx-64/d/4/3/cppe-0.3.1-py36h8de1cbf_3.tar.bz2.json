@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/maxscheurer/cppe/archive/v0.3.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "C++ and Python library for Polarizable Embedding calculations",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611418574,
+    "timestamp": 1611418663,
     "version": "0.3.1"
   },
   "channeldata_version": 1,
@@ -40,29 +40,29 @@
   "labels": [
     "main"
   ],
-  "package": "cppe-0.3.1-py37hf22bc51_3.tar.bz2",
+  "package": "cppe-0.3.1-py36h8de1cbf_3.tar.bz2",
   "repodata": {
-    "build": "py37hf22bc51_3",
+    "build": "py36h8de1cbf_3",
     "build_number": 3,
     "depends": [
-      "_openmp_mutex >=4.5",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
+      "llvm-openmp >=11.0.1",
       "pybind11-abi 4",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "pypy3.6 >=7.3.3",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6 *_pypy36_pp73"
     ],
     "license": "LGPL-3.0-or-later",
     "license_family": "LGPL",
-    "md5": "f42d5bd38403010d60426029c697ff0a",
+    "md5": "b266d50f5dc2f92d63f3d7a1c7248d68",
     "name": "cppe",
-    "sha256": "59896fe3c4df41eff5c7b4476b89884183916576432ba8cd3499da8acb442196",
-    "size": 1101371,
-    "subdir": "linux-64",
-    "timestamp": 1611418574466,
+    "sha256": "23bb66cb6552a724d44a132c28abe60e18c575af090c5ac3cabdaa1af8fe3ff7",
+    "size": 1020371,
+    "subdir": "osx-64",
+    "timestamp": 1611418663543,
     "version": "0.3.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cppe-0.3.1-py37hf22bc51_3.tar.bz2/cppe-0.3.1-py37hf22bc51_3.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cppe-0.3.1-py36h8de1cbf_3.tar.bz2"
 }
