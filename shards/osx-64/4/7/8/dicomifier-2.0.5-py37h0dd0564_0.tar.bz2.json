@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/lamyj/dicomifier/archive/v2.0.5.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Convert data from Bruker to DICOM and from DICOM to NIfTI",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1611405179,
+    "timestamp": 1611405319,
     "version": "2.0.5"
   },
   "channeldata_version": 1,
@@ -34,32 +34,31 @@
   "labels": [
     "main"
   ],
-  "package": "dicomifier-2.0.5-py38h9c44964_0.tar.bz2",
+  "package": "dicomifier-2.0.5-py37h0dd0564_0.tar.bz2",
   "repodata": {
-    "build": "py38h9c44964_0",
+    "build": "py37h0dd0564_0",
     "build_number": 0,
     "depends": [
       "boost-cpp >=1.74.0,<1.74.1.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "nibabel",
       "numpy",
       "odil >=0.12",
-      "python >=3.8,<3.9.0a0",
+      "python >=3.7,<3.8.0a0",
       "python-dateutil",
-      "python_abi 3.8.* *_cp38"
+      "python_abi 3.7.* *_cp37m"
     ],
     "license": "CECILL-B",
     "license_family": "OTHER",
-    "md5": "a905b86d8efe96123e1a3f306cca9b15",
+    "md5": "0d0d0d563ddf52e46cf016223083eaa0",
     "name": "dicomifier",
-    "sha256": "51b31fe25501349d2dcf2c32f0ec36b6bda3db529b47f315e82fcaee70685ba5",
-    "size": 277858,
-    "subdir": "linux-64",
-    "timestamp": 1611405179955,
+    "sha256": "8c26ba76886b86707ad903f3682b5a25cdeac8f53bf5e126bf589c2949f96ea7",
+    "size": 319082,
+    "subdir": "osx-64",
+    "timestamp": 1611405319423,
     "version": "2.0.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/dicomifier-2.0.5-py38h9c44964_0.tar.bz2/dicomifier-2.0.5-py38h9c44964_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/dicomifier-2.0.5-py37h0dd0564_0.tar.bz2"
 }
