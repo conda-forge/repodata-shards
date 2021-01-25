@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "The Go Programming Language",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611606353,
+    "timestamp": 1611610963,
     "version": "1.15.7"
   },
   "channeldata_version": 1,
@@ -34,24 +34,33 @@
   "labels": [
     "main"
   ],
-  "package": "go-1.15.7-he1b62bb_0.tar.bz2",
+  "package": "go-1.15.7-h3831b75_0.tar.bz2",
   "repodata": {
-    "build": "he1b62bb_0",
+    "build": "h3831b75_0",
     "build_number": 0,
+    "constrains": [
+      "clang_osx-64 11.*",
+      "__osx >=10.11",
+      "clangxx_osx-64 11.*",
+      "gfortran_osx-64 9.*"
+    ],
     "depends": [
-      "_go_select ==2.2.0 nocgo"
+      "_go_select ==2.3.0 cgo",
+      "libcxx >=11.0.1",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "dfc13df24c8f32fe58a426774dbf74d8",
+    "md5": "0dc29da2d81b3da641a413ccf0b0056f",
     "name": "go",
-    "sha256": "bdd9a90adf81cf44499132add7310f62a4ae58ba0bc962c155710dd4b9b95ba3",
-    "size": 123578902,
-    "subdir": "linux-64",
-    "timestamp": 1611606353637,
+    "sha256": "2eb985e9e84f351a736757b2e7808f50c85eef44ff2b586c5c2ac398014875f5",
+    "size": 125398474,
+    "subdir": "osx-64",
+    "timestamp": 1611610963166,
     "version": "1.15.7"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/go-1.15.7-he1b62bb_0.tar.bz2/go-1.15.7-he1b62bb_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/go-1.15.7-h3831b75_0.tar.bz2"
 }
