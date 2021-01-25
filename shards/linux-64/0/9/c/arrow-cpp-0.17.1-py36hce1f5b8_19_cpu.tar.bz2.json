@@ -32,7 +32,7 @@
     "summary": "C++ libraries for Apache Arrow",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1611522319,
+    "timestamp": 1611522098,
     "version": "0.17.1"
   },
   "channeldata_version": 1,
@@ -40,13 +40,12 @@
   "labels": [
     "main"
   ],
-  "package": "arrow-cpp-0.17.1-py38h845d173_19_cuda.tar.bz2",
+  "package": "arrow-cpp-0.17.1-py36hce1f5b8_19_cpu.tar.bz2",
   "repodata": {
-    "build": "py38h845d173_19_cuda",
+    "build": "py36hce1f5b8_19_cpu",
     "build_number": 19,
     "constrains": [
-      "cudatoolkit >=9.2",
-      "arrow-cpp-proc * cuda"
+      "arrow-cpp-proc * cpu"
     ],
     "depends": [
       "aws-sdk-cpp >=1.8.127,<1.8.128.0a0",
@@ -63,24 +62,23 @@
       "lz4-c >=1.9.3,<1.9.4.0a0",
       "numpy >=1.16.6,<2.0a0",
       "orc >=1.6.6,<1.6.7.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
       "re2 >=2020.11.1,<2020.11.2.0a0",
       "snappy >=1.1.8,<2.0a0",
       "zlib >=1.2.11,<1.3.0a0",
       "zstd >=1.4.8,<1.5.0a0"
     ],
     "license": "Apache-2.0",
-    "md5": "7363ac7d41bdd97491a5e3b518d35c1d",
+    "md5": "c0b3e553322f3c3a93c0a1b34127c619",
     "name": "arrow-cpp",
-    "sha256": "ddfa2526752d248d090964e512a753e645dc6b0ff64bc7fc264ddeb0d8f7cb04",
-    "size": 20718796,
+    "sha256": "8c288f57bdb214b67502be51972c2a3fb441b4ba2c6dfe9b4ffb2d8100fabda9",
+    "size": 20611457,
     "subdir": "linux-64",
-    "timestamp": 1611522319794,
-    "track_features": "arrow-cuda",
+    "timestamp": 1611522098458,
     "version": "0.17.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/arrow-cpp-0.17.1-py38h845d173_19_cuda.tar.bz2/arrow-cpp-0.17.1-py38h845d173_19_cuda.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/arrow-cpp-0.17.1-py36hce1f5b8_19_cpu.tar.bz2"
 }
