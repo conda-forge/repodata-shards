@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/ampl/amplpy",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/a/amplpy/amplpy-0.7.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Python API for AMPL",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611664678,
+    "timestamp": 1611664675,
     "version": "0.7.0"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "amplpy-0.7.0-py38h709712a_0.tar.bz2",
+  "package": "amplpy-0.7.0-py39h81cd7d3_0.tar.bz2",
   "repodata": {
-    "build": "py38h709712a_0",
+    "build": "py39h81cd7d3_0",
     "build_number": 0,
     "depends": [
       "future >=0.15.0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "libcxx >=11.0.1",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
     ],
     "license": "BSD-3",
     "license_family": "BSD",
-    "md5": "0b22c52855302563546f1742ba876a4d",
+    "md5": "552b4068248dbbb74899cb2c2d1159da",
     "name": "amplpy",
-    "sha256": "954a47f0d2d580d251e084a700d1ce3357ac1e2b45e9c6dde99b785c7ebab496",
-    "size": 1020227,
-    "subdir": "linux-64",
-    "timestamp": 1611664678510,
+    "sha256": "291eb5b366e12dd9144cf6d5fa878bb4ffda1e5b11db7e42a89e7cc2fa4c417e",
+    "size": 915675,
+    "subdir": "osx-64",
+    "timestamp": 1611664675778,
     "version": "0.7.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/amplpy-0.7.0-py38h709712a_0.tar.bz2/amplpy-0.7.0-py38h709712a_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/amplpy-0.7.0-py39h81cd7d3_0.tar.bz2"
 }
