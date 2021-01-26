@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "makeself.sh is a small shell script that generates a self-extractable compressed tar archive from a directory. The resulting file appears as a shell script (many of those have a .run suffix), and can be launched as is. The archive will then uncompress itself to a temporary directory and an optional arbitrary command will be executed (for example an installation script). This is pretty similar to archives generated with WinZip Self-Extractor in the Windows world. Makeself archives also include checksums for integrity self-validation (CRC and/or MD5/SHA256 checksums).",
+    "dev_url": "https://github.com/megastep/makeself",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/megastep/makeself",
+    "home": "https://github.com/megastep/makeself",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/megastep/makeself/archive/release-2.4.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Make self-extractable archives on Unix",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1611693584,
+    "version": "2.4.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "makeself-2.4.3-h694c41f_0.tar.bz2",
+  "repodata": {
+    "build": "h694c41f_0",
+    "build_number": 0,
+    "depends": [
+      "bzip2",
+      "coreutils",
+      "findutils",
+      "gnupg",
+      "gzip",
+      "lz4",
+      "lzo",
+      "openssl",
+      "pbzip2",
+      "pigz",
+      "tar",
+      "xz",
+      "zstd"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "392d467aec8906b5071a095bf8eb5801",
+    "name": "makeself",
+    "sha256": "f9158532e30fa61839f606a7e83dc0b2c180c68098d6f59ab888f748e82a6f17",
+    "size": 21638,
+    "subdir": "osx-64",
+    "timestamp": 1611693584537,
+    "version": "2.4.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/makeself-2.4.3-h694c41f_0.tar.bz2"
+}
