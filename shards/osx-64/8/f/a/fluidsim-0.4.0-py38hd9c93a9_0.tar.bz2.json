@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Fluidsim is an extensible framework for studying fluid dynamics with numerical simulations using Python. Fluidsim is an object-oriented library to develop solvers (mainly using pseudo-spectral methods) by writing mainly Python code. The result is very efficient even compared to a pure Fortran or C++ code since the time-consuming tasks are performed by optimized compiled functions.",
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/f/fluidsim/fluidsim-0.4.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Framework for studying fluid dynamics with simulations.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1611653477,
+    "timestamp": 1611653919,
     "version": "0.4.0"
   },
   "channeldata_version": 1,
@@ -34,16 +34,15 @@
   "labels": [
     "main"
   ],
-  "package": "fluidsim-0.4.0-py38h1fd1430_0.tar.bz2",
+  "package": "fluidsim-0.4.0-py38hd9c93a9_0.tar.bz2",
   "repodata": {
-    "build": "py38h1fd1430_0",
+    "build": "py38hd9c93a9_0",
     "build_number": 0,
     "depends": [
       "cached-property",
       "fluidfft",
       "fluidsim-core",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "numpy >=1.15.4",
       "pandas",
       "python >=3.8,<3.9.0a0",
@@ -53,15 +52,15 @@
       "xarray"
     ],
     "license": "LicenseRef-CeCILL",
-    "md5": "3ad0131f82ed1682c5537cd58b0c738d",
+    "md5": "5ebb93e9b5e23d7dbc59ab6ecb7c4c9d",
     "name": "fluidsim",
-    "sha256": "987e05bfa7ccccfd2ee6a8c693094d4a3b12e73a5aad01be8f95b803bc2c0a43",
-    "size": 1561282,
-    "subdir": "linux-64",
-    "timestamp": 1611653477394,
+    "sha256": "7a7311e8e4f8bad89b8ebaacde3395430e00f7fc257285ee09229c4ced08cfef",
+    "size": 1349193,
+    "subdir": "osx-64",
+    "timestamp": 1611653919951,
     "version": "0.4.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/fluidsim-0.4.0-py38h1fd1430_0.tar.bz2/fluidsim-0.4.0-py38h1fd1430_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/fluidsim-0.4.0-py38hd9c93a9_0.tar.bz2"
 }
