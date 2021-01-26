@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://r-lib.github.io/fastmap/, https://github.com/r-lib/fastmap",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/fastmap/fastmap_1.1.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/fastmap_1.1.0.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Fast implementation of a key-value store. Environments are commonly used as key-value stores, but every time a new key is used, it is added to R's global symbol table, causing a small amount of memory leakage. This can be problematic in cases where many different keys are used. Fastmap avoids this memory leak issue by implementing the map using data structures in C++.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1611614799,
+    "version": "1.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-fastmap-1.1.0-r36h03ef668_0.tar.bz2",
+  "repodata": {
+    "build": "r36h03ef668_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "r-base >=3.6,<3.7.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "edf6250125ea791573524b26c87a6819",
+    "name": "r-fastmap",
+    "sha256": "be45b2015a7ada1acfa5e13fdf71bce8cc143827e37e316b6ceaf191d5b652e6",
+    "size": 70534,
+    "subdir": "linux-64",
+    "timestamp": 1611614799446,
+    "version": "1.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-fastmap-1.1.0-r36h03ef668_0.tar.bz2"
+}
