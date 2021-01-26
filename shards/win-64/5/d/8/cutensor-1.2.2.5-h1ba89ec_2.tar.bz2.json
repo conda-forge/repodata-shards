@@ -25,14 +25,14 @@
       }
     },
     "source_git_url": null,
-    "source_url": "https://developer.download.nvidia.com/compute/cutensor/1.2.2/local_installers/libcutensor-linux-x86_64-1.2.2.5.tar.gz",
+    "source_url": "https://developer.download.nvidia.com/compute/cutensor/1.2.2/local_installers/libcutensor_1.2.2.exe",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Tensor Linear Algebra on NVIDIA GPUs",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611653834,
+    "timestamp": 1611654656,
     "version": "1.2.2.5"
   },
   "channeldata_version": 1,
@@ -40,30 +40,25 @@
   "labels": [
     "main"
   ],
-  "package": "cutensor-1.2.2.5-h8b44402_2.tar.bz2",
+  "package": "cutensor-1.2.2.5-h1ba89ec_2.tar.bz2",
   "repodata": {
-    "build": "h8b44402_2",
+    "build": "h1ba89ec_2",
     "build_number": 2,
-    "constrains": [
-      "__glibc >=2.17"
-    ],
     "depends": [
-      "__glibc >=2.17,<3.0.a0",
-      "_openmp_mutex >=4.5",
       "cudatoolkit 10.1|10.1.*",
-      "libgcc-ng >=3.0",
-      "libstdcxx-ng >=3.4"
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "cuTENSOR Software License Agreement",
-    "md5": "672bf5c083b22bf6cc667c690cbaf874",
+    "md5": "4207b5851c95ad26ad8b550bf1fa247c",
     "name": "cutensor",
-    "sha256": "86dfe2a117a8d51ffa914f985bd524f6d9bac2e52fa3b14a4edfcb3ba994be56",
-    "size": 50382867,
-    "subdir": "linux-64",
-    "timestamp": 1611653834032,
+    "sha256": "a7c53837b18017062a820cdf93d15de6b4f507c445c6d2af56cc73d55fe267fc",
+    "size": 57256130,
+    "subdir": "win-64",
+    "timestamp": 1611654656259,
     "version": "1.2.2.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cutensor-1.2.2.5-h8b44402_2.tar.bz2/cutensor-1.2.2.5-h8b44402_2.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cutensor-1.2.2.5-h1ba89ec_2.tar.bz2"
 }
