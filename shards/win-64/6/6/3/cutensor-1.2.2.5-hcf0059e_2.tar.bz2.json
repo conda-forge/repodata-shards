@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The cuTENSOR Library is a first-of-its-kind GPU-accelerated tensor linear algebra library providing tensor contraction, reduction and elementwise operations. cuTENSOR is used to accelerate applications in the areas of deep learning training and inference, computer vision, quantum chemistry and computational physics.  License Agreements:- The packages are governed by the NVIDIA cuTENSOR Software License Agreement (EULA). By downloading and using the packages, you accept the terms and conditions of the NVIDIA cuTENSOR EULA - https://docs.nvidia.com/cuda/cutensor/license.html",
+    "dev_url": "https://developer.nvidia.com/cutensor/downloads",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/cuda/cutensor/index.html",
+    "home": "https://developer.nvidia.com/cutensor",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "cuTENSOR Software License Agreement",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.2.2.5": {
+        "weak": [
+          "cutensor >=1.2.2.5,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://developer.download.nvidia.com/compute/cutensor/1.2.2/local_installers/libcutensor_1.2.2.exe",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Tensor Linear Algebra on NVIDIA GPUs",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1611654779,
+    "version": "1.2.2.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "cutensor-1.2.2.5-hcf0059e_2.tar.bz2",
+  "repodata": {
+    "build": "hcf0059e_2",
+    "build_number": 2,
+    "depends": [
+      "cudatoolkit 10.2|10.2.*",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "cuTENSOR Software License Agreement",
+    "md5": "9a20be5b29bc86de701037623b88b464",
+    "name": "cutensor",
+    "sha256": "d86b6347d59193f79709b15a001ffcb422b41171040c740ff260e5ad5ee62861",
+    "size": 51669527,
+    "subdir": "win-64",
+    "timestamp": 1611654779199,
+    "version": "1.2.2.5"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cutensor-1.2.2.5-hcf0059e_2.tar.bz2"
+}
