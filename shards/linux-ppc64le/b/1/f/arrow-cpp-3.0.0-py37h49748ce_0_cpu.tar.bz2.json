@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": "https://dist.apache.org/repos/dist/release/arrow/arrow-3.0.0/apache-arrow-3.0.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-ppc64le"
     ],
     "summary": "C++ libraries for Apache Arrow",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1611685690,
+    "timestamp": 1611686023,
     "version": "3.0.0"
   },
   "channeldata_version": 1,
@@ -40,13 +40,12 @@
   "labels": [
     "main"
   ],
-  "package": "arrow-cpp-3.0.0-py37h10a6eae_0_cuda.tar.bz2",
+  "package": "arrow-cpp-3.0.0-py37h49748ce_0_cpu.tar.bz2",
   "repodata": {
-    "build": "py37h10a6eae_0_cuda",
+    "build": "py37h49748ce_0_cpu",
     "build_number": 0,
     "constrains": [
-      "arrow-cpp-proc * cuda",
-      "cudatoolkit >=9.2"
+      "arrow-cpp-proc * cpu"
     ],
     "depends": [
       "aws-sdk-cpp >=1.8.127,<1.8.128.0a0",
@@ -72,16 +71,15 @@
       "zstd >=1.4.8,<1.5.0a0"
     ],
     "license": "Apache-2.0",
-    "md5": "5431bbc5505e32397f156efebfcc0cde",
+    "md5": "d6a2d907a9166cffbe951451f969b173",
     "name": "arrow-cpp",
-    "sha256": "eb403c9ea07cca694c426af8a124b05da1c4e62a53abd5ad28276e86581cd71f",
-    "size": 22694059,
-    "subdir": "linux-64",
-    "timestamp": 1611685690702,
-    "track_features": "arrow-cuda",
+    "sha256": "954f27b81dfdbb025e57941ccfaae72b2dd86a448e7639af3f5d70ead1ac4ef7",
+    "size": 22657694,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1611686023407,
     "version": "3.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/arrow-cpp-3.0.0-py37h10a6eae_0_cuda.tar.bz2/arrow-cpp-3.0.0-py37h10a6eae_0_cuda.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/arrow-cpp-3.0.0-py37h49748ce_0_cpu.tar.bz2"
 }
