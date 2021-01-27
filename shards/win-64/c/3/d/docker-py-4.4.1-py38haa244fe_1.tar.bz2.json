@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/docker/docker-py/archive/4.4.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Python client for Docker.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611781119,
+    "timestamp": 1611781415,
     "version": "4.4.1"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "docker-py-4.4.1-py37h9c2f6ca_1.tar.bz2",
+  "package": "docker-py-4.4.1-py38haa244fe_1.tar.bz2",
   "repodata": {
-    "build": "py37h9c2f6ca_1",
+    "build": "py38haa244fe_1",
     "build_number": 1,
     "depends": [
       "appdirs >=1.4.3",
@@ -50,24 +50,24 @@
       "pycparser >=2.17",
       "pyopenssl >=17.0.0",
       "pyparsing >=2.2.0",
-      "pypy3.7 >=7.3.3",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7 *_pypy37_pp73",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "pywin32 227.*",
       "requests >=2.14.2",
       "six >=1.10.0",
       "websocket-client >=0.32.0",
       "websocket-client >=0.40.0"
     ],
     "license": "Apache-2.0",
-    "md5": "cbcd3e69c67d1cb75e703d0293052d77",
+    "md5": "8b816d710e719eeeb41ac7cc953118df",
     "name": "docker-py",
-    "sha256": "dbea379ce66d0b6380efbe3096b5f9f26cd454c04bdf847178b4a48924e7767d",
-    "size": 197280,
-    "subdir": "linux-64",
-    "timestamp": 1611781119656,
+    "sha256": "3c9831772d31d01c4be425e72b295ad829cb90a6f7ab8aa3c142e974bf51af99",
+    "size": 194340,
+    "subdir": "win-64",
+    "timestamp": 1611781415128,
     "version": "4.4.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/docker-py-4.4.1-py37h9c2f6ca_1.tar.bz2/docker-py-4.4.1-py37h9c2f6ca_1.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/docker-py-4.4.1-py38haa244fe_1.tar.bz2"
 }
