@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "eventio is a read-only implementation of the eventio / sim_telarray data formats as produced by the CORSIKA iact extension and the sim_telarray software. Low-level access to eventio objects is supported as well as a higher level interface for sim_telarray and CORSIKA files.",
     "dev_url": "https://github.com/cta-observatory/pyeventio",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/e/eventio/eventio-1.5.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Read-only python implementation of the eventio / sim_telarray data format",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1611848944,
+    "timestamp": 1611849268,
     "version": "1.5.1"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "eventio-1.5.1-py38h5c078b8_0.tar.bz2",
+  "package": "eventio-1.5.1-py36hf14bfbd_0.tar.bz2",
   "repodata": {
-    "build": "py38h5c078b8_0",
+    "build": "py36hf14bfbd_0",
     "build_number": 0,
     "depends": [
       "corsikaio 0.2.*",
-      "libgcc-ng >=9.3.0",
       "numpy >=1.16.6,<2.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "e9e2093cf2fde9ba1e5d3ef9384ab236",
+    "md5": "b97dea71c426aea966dc9c7b30726976",
     "name": "eventio",
-    "sha256": "4d54883f178f5141ef75ad2db7a5da47e3d74e386403e9ab1896aafaf6879de2",
-    "size": 273854,
-    "subdir": "linux-64",
-    "timestamp": 1611848944640,
+    "sha256": "310268d4a10fcb589e89a191758592c7bce17dbdfeee0780d0a719fe8bfe1a39",
+    "size": 212902,
+    "subdir": "osx-64",
+    "timestamp": 1611849268330,
     "version": "1.5.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/eventio-1.5.1-py38h5c078b8_0.tar.bz2/eventio-1.5.1-py38h5c078b8_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/eventio-1.5.1-py36hf14bfbd_0.tar.bz2"
 }
