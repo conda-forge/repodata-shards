@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "IMPACT-T is a fully three-dimensional program to track relativistic charged particles taking into account space charge forces, short-range longitudinal and transverse wakefields, coherent synchrotron radiation (CSR) wakefield in accelerators.",
+    "dev_url": "https://github.com/hhslepicka/IMPACT-T",
+    "doc_source_url": null,
+    "doc_url": "https://amac.lbl.gov/~jiqiang/IMPACT-T/index.html",
+    "home": "https://github.com/hhslepicka/IMPACT-T",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause-LBNL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0": {
+        "weak": [
+          "impact-t * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/hhslepicka/IMPACT-T/archive/v2.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "IMPACT-T, A 3D Parallel Particle Tracking Code in Time Domain",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1611893368,
+    "version": "2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "impact-t-2.0-mpi_mpich_hdea5946_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hdea5946_1",
+    "build_number": 1,
+    "depends": [
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "mpich 3.3.2",
+      "mpich >=3.3.2,<3.4.0a0"
+    ],
+    "license": "BSD-3-Clause-LBNL",
+    "license_family": "BSD",
+    "md5": "6ed9bc726c4732d14b763951d8504696",
+    "name": "impact-t",
+    "sha256": "e49f130b79d3a7b053ab16e5a5dfa51f81004bbdd8a9ffa76642e4dc49c6d5f2",
+    "size": 790365,
+    "subdir": "osx-64",
+    "timestamp": 1611893368626,
+    "version": "2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/impact-t-2.0-mpi_mpich_hdea5946_1.tar.bz2"
+}
