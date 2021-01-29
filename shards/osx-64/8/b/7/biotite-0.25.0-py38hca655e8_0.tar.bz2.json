@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/biotite-dev/biotite",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/biotite-dev/biotite/archive/v0.25.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A comprehensive library for computational molecular biology",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611936605,
+    "timestamp": 1611936871,
     "version": "0.25.0"
   },
   "channeldata_version": 1,
@@ -34,29 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "biotite-0.25.0-py39h3811e60_0.tar.bz2",
+  "package": "biotite-0.25.0-py38hca655e8_0.tar.bz2",
   "repodata": {
-    "build": "py39h3811e60_0",
+    "build": "py38hca655e8_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
       "msgpack-python",
-      "numpy >=1.19.5,<2.0a0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "numpy >=1.14.6,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "requests >=2.12"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "8da0a964008edf3a2b077cc185edf1fa",
+    "md5": "4955410fac5f854752c3f02a2a89ce43",
     "name": "biotite",
-    "sha256": "5c4b8da6d6f34414bd3a9580d344a8929f196c78a3b3d7a84b2a6ee977a142c5",
-    "size": 29728637,
-    "subdir": "linux-64",
-    "timestamp": 1611936605377,
+    "sha256": "407cb29932f9e18ad632488d9a4c4dfb6498d4d2e49da30078e61a0226f93c73",
+    "size": 29396504,
+    "subdir": "osx-64",
+    "timestamp": 1611936871418,
     "version": "0.25.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/biotite-0.25.0-py39h3811e60_0.tar.bz2/biotite-0.25.0-py39h3811e60_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/biotite-0.25.0-py38hca655e8_0.tar.bz2"
 }
