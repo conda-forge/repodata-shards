@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "pyFAI is an azimuthal integration library that tries to be fast (as fast as C and even more using OpenCL and GPU). It is based on histogramming of the 2theta/Q positions of each (center of) pixel weighted by the intensity of each pixel, but parallel version uses a SparseMatrix-DenseVector multiplication. Neighboring output bins get also a contribution of pixels next to the border thanks to pixel splitting. Finally pyFAI provides also tools to calibrate the experimental setup using Debye-Scherrer rings of a reference compound.",
+    "dev_url": "https://github.com/silx-kit/pyFAI/",
+    "doc_source_url": null,
+    "doc_url": "http://www.silx.org/doc/pyFAI/latest/",
+    "home": "https://github.com/silx-kit/pyFAI/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pyFAI/pyFAI-0.20.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python implementation of fast azimuthal integration",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1611938597,
+    "version": "0.20.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pyfai-base-0.20.0-py37hdc94413_0.tar.bz2",
+  "repodata": {
+    "build": "py37hdc94413_0",
+    "build_number": 0,
+    "depends": [
+      "fabio",
+      "h5py",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "matplotlib-base",
+      "numexpr",
+      "numpy >=1.16.6,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "scipy",
+      "setuptools",
+      "silx-base"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "de99a3e2095f385c66fc1d29d042b781",
+    "name": "pyfai-base",
+    "sha256": "8b06eee5035bd954b1922e940443adcb57698305b1e8f96f012d7facc4ecbad5",
+    "size": 18481290,
+    "subdir": "linux-64",
+    "timestamp": 1611938597780,
+    "version": "0.20.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyfai-base-0.20.0-py37hdc94413_0.tar.bz2"
+}
