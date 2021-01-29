@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Frame Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Frame library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalframe/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.3": {
+        "weak": [
+          "liblalframe >=1.5.3,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalframe-1.5.3.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Frame Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1611922175,
+    "version": "1.5.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "liblalframe-1.5.3-hbcf498f_0.tar.bz2",
+  "repodata": {
+    "build": "hbcf498f_0",
+    "build_number": 0,
+    "depends": [
+      "ldas-tools-framecpp >=2.5.5",
+      "ldas-tools-framecpp >=2.7.0,<2.8.0a0",
+      "libframel >=8.39.2",
+      "libframel >=8.40.1,<9.0a0",
+      "liblal >=7.1.0",
+      "liblal >=7.1.1,<8.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "3114de1bf021c8f9ca2d8c6bc2b7a29a",
+    "name": "liblalframe",
+    "sha256": "fdcf99d1ec26caade2fc5f7764ec0c91b51a0f2b3c6022c614b7a72bcbc43fcb",
+    "size": 402941,
+    "subdir": "osx-64",
+    "timestamp": 1611922175228,
+    "version": "1.5.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/liblalframe-1.5.3-hbcf498f_0.tar.bz2"
+}
