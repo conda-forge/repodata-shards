@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Simulation Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Simulation library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalsimulation/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.5.0": {
+        "weak": [
+          "liblalsimulation >=2.5.0,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://software.ligo.org/lscsoft/source/lalsuite/lalsimulation-2.5.0.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Simulation Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1611944312,
+    "version": "2.5.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "liblalsimulation-2.5.0-hd9b4697_0.tar.bz2",
+  "repodata": {
+    "build": "hd9b4697_0",
+    "build_number": 0,
+    "depends": [
+      "gsl >=2.6,<2.7.0a0",
+      "liblal >=7.1.0a0",
+      "liblal >=7.1.1,<8.0a0",
+      "llvm-openmp >=11.0.1"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "64cc4763968542eaab7929f244951c1d",
+    "name": "liblalsimulation",
+    "sha256": "ca140e9911ebcbb05f5108196e8631a9a9af42906f2e42fa5dbb0f7ef53be3f7",
+    "size": 16655932,
+    "subdir": "osx-64",
+    "timestamp": 1611944312097,
+    "version": "2.5.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/liblalsimulation-2.5.0-hd9b4697_0.tar.bz2"
+}
