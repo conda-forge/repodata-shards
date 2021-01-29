@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://gitlab.kitware.com/cmake/cmake/-/archive/v3.19.4/cmake-v3.19.4.tar.bz2",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "CMake is an extensible, open-source system that manages the build process",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611872071,
+    "timestamp": 1611872932,
     "version": "3.19.4"
   },
   "channeldata_version": 1,
@@ -34,16 +34,15 @@
   "labels": [
     "main"
   ],
-  "package": "cmake-3.19.4-h4547794_0.tar.bz2",
+  "package": "cmake-3.19.4-hdeeeba1_0.tar.bz2",
   "repodata": {
-    "build": "h4547794_0",
+    "build": "hdeeeba1_0",
     "build_number": 0,
     "depends": [
       "bzip2 >=1.0.8,<2.0a0",
       "expat >=2.2.10,<2.3.0a0",
       "libcurl >=7.71.1,<8.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "libuv",
       "ncurses >=6.2,<6.3.0a0",
       "rhash",
@@ -52,15 +51,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "be1994999e14e1c1904975535f0ac5b6",
+    "md5": "40e8eef0a039d251ec1540a75c2e40d4",
     "name": "cmake",
-    "sha256": "70322592e2d6779dc61bbb5a0581b5c1e81e49f70ad91a2b8f537d9eff8eebc7",
-    "size": 14651273,
-    "subdir": "linux-64",
-    "timestamp": 1611872071178,
+    "sha256": "6fd7bd77df2eb7991327fc8812ea22a114afb44022f532a0889cb4a5634ce29a",
+    "size": 13687942,
+    "subdir": "osx-64",
+    "timestamp": 1611872932827,
     "version": "3.19.4"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cmake-3.19.4-h4547794_0.tar.bz2/cmake-3.19.4-h4547794_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cmake-3.19.4-hdeeeba1_0.tar.bz2"
 }
