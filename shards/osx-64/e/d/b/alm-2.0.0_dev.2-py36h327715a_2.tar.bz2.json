@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/jochym/ALM/archive/v2.0.0_dev.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Software for calculating harmonic and anharmonic interatomic force constants in solids and molecules.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1611922237,
+    "timestamp": 1611922531,
     "version": "2.0.0_dev.2"
   },
   "channeldata_version": 1,
@@ -34,32 +34,31 @@
   "labels": [
     "main"
   ],
-  "package": "alm-2.0.0_dev.2-py37h4b6bcfa_2.tar.bz2",
+  "package": "alm-2.0.0_dev.2-py36h327715a_2.tar.bz2",
   "repodata": {
-    "build": "py37h4b6bcfa_2",
+    "build": "py36h327715a_2",
     "build_number": 2,
     "depends": [
-      "_openmp_mutex >=4.5",
-      "libgcc-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "liblapack >=3.8.0,<4.0a0",
-      "libstdcxx-ng >=9.3.0",
-      "numpy >=1.19.5,<2.0a0",
-      "pypy3.7 >=7.3.3",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7 *_pypy37_pp73",
+      "llvm-openmp >=11.0.1",
+      "numpy >=1.18.5,<2.0a0",
+      "pypy3.6 >=7.3.3",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6 *_pypy36_pp73",
       "spglib"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "85f549b7b4893b517abb6bc75c4f60cb",
+    "md5": "82c62f7343cd6cf769e56a08b741d548",
     "name": "alm",
-    "sha256": "76094c0d62cd273b585a22e84d3486004ce3abd5f93965869e09fada952e187f",
-    "size": 493898,
-    "subdir": "linux-64",
-    "timestamp": 1611922237646,
+    "sha256": "8b8ba95a31ca18e201a9f071d7f29e2a21cf9f4d07e1e648c3cfde101a709b47",
+    "size": 466161,
+    "subdir": "osx-64",
+    "timestamp": 1611922531451,
     "version": "2.0.0_dev.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/alm-2.0.0_dev.2-py37h4b6bcfa_2.tar.bz2/alm-2.0.0_dev.2-py37h4b6bcfa_2.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/alm-2.0.0_dev.2-py36h327715a_2.tar.bz2"
 }
