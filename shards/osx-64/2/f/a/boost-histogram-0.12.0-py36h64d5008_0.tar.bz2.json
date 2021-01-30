@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/scikit-hep/boost-histogram",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/b/boost_histogram/boost_histogram-0.12.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "The official Boost.Histogram Python bindings. Provides fast, efficient histogramming with a variety of different storages combined with dozens of composable axes. Part of the [Scikit-HEP](https://scikit-hep.org) family.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612000919,
+    "timestamp": 1612001070,
     "version": "0.12.0"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "boost-histogram-0.12.0-py36h605e78d_0.tar.bz2",
+  "package": "boost-histogram-0.12.0-py36h64d5008_0.tar.bz2",
   "repodata": {
-    "build": "py36h605e78d_0",
+    "build": "py36h64d5008_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "numpy",
       "python >=3.6,<3.7.0a0",
       "python_abi 3.6.* *_cp36m"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "25680f17cd0798d4bb8ecb847f56c2df",
+    "md5": "f1a2adb40ca6d4cfd3e63f5273fc5903",
     "name": "boost-histogram",
-    "sha256": "2ef29bea8c342bc77c6778a34874d4467c805693b7ca7d026c2481cc5557c583",
-    "size": 1183441,
-    "subdir": "linux-64",
-    "timestamp": 1612000919206,
+    "sha256": "0c62a1bcf693d6ad9208a214b9ffbb91ca6249c7e4767d78cd1bc3ac28dc1c2c",
+    "size": 1274019,
+    "subdir": "osx-64",
+    "timestamp": 1612001070246,
     "version": "0.12.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/boost-histogram-0.12.0-py36h605e78d_0.tar.bz2/boost-histogram-0.12.0-py36h605e78d_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/boost-histogram-0.12.0-py36h64d5008_0.tar.bz2"
 }
