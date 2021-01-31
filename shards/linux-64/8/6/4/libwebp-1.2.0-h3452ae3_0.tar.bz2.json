@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "WebP is a method of lossy and lossless compression that can be used on a large variety of photographic, translucent and graphical images found on the web. The degree of lossy compression is adjustable so a user can choose the trade-off between file size and image quality. libwebp-base provides the headers and shared libraries. For cwebp and dwep, binaries install libwebp.",
+    "dev_url": "https://chromium.googlesource.com/webm/libwebp",
+    "doc_source_url": null,
+    "doc_url": "https://developers.google.com/speed/webp/docs/using",
+    "home": "https://developers.google.com/speed/webp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.2.0": {
+        "weak": [
+          "libwebp-base >=1.2.0,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.2.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "WebP image library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1612100073,
+    "version": "1.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libwebp-1.2.0-h3452ae3_0.tar.bz2",
+  "repodata": {
+    "build": "h3452ae3_0",
+    "build_number": 0,
+    "depends": [
+      "giflib >=5.2.1,<5.3.0a0",
+      "jpeg >=9d,<10a",
+      "libgcc-ng >=9.3.0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "libtiff >=4.2.0,<5.0a0",
+      "libwebp-base 1.2.0.*"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "8f4e19a8988c38feec7db41bcd0bf0d0",
+    "name": "libwebp",
+    "sha256": "01524c1b67edc0504d2d6d7391b3a1a85d979600ca6dc77fc43076717a72599f",
+    "size": 86861,
+    "subdir": "linux-64",
+    "timestamp": 1612100073692,
+    "version": "1.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libwebp-1.2.0-h3452ae3_0.tar.bz2"
+}
