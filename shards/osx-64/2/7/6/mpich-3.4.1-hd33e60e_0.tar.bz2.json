@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.",
+    "dev_url": "https://wiki.mpich.org/mpich/index.php/Main_Page",
+    "doc_source_url": null,
+    "doc_url": "http://www.mpich.org/documentation/guides",
+    "home": "http://www.mpich.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-MPICH",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.4.1": {
+        "weak": [
+          "mpich >=3.4.1,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.mpich.org/static/downloads/3.4.1/mpich-3.4.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A high performance widely portable implementation of the MPI standard.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1612106129,
+    "version": "3.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "mpich-3.4.1-hd33e60e_0.tar.bz2",
+  "repodata": {
+    "build": "hd33e60e_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.0.1",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "mpi 1.0 mpich"
+    ],
+    "license": "LicenseRef-MPICH",
+    "license_family": "Other",
+    "md5": "e830d4278516b5021299674e1e161240",
+    "name": "mpich",
+    "sha256": "3e3a5c798825a3c3952b078233895ef7e584c8a80f8896da349d7a5abf9bef0a",
+    "size": 7432427,
+    "subdir": "osx-64",
+    "timestamp": 1612106129667,
+    "version": "3.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/mpich-3.4.1-hd33e60e_0.tar.bz2"
+}
