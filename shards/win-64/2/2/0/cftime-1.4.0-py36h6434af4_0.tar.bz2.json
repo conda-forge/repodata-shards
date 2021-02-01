@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/cftime/cftime-1.4.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Time-handling functionality from netcdf4-python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612181670,
+    "timestamp": 1612182187,
     "version": "1.4.0"
   },
   "channeldata_version": 1,
@@ -34,26 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "cftime-1.4.0-py36h92226af_0.tar.bz2",
+  "package": "cftime-1.4.0-py36h6434af4_0.tar.bz2",
   "repodata": {
-    "build": "py36h92226af_0",
+    "build": "py36h6434af4_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
       "numpy >=1.16.6,<2.0a0",
       "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m"
+      "python_abi 3.6.* *_cp36m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
-    "md5": "44a99a83877dc06fd27e6546a3004cee",
+    "md5": "9859f16ecc3fbea9f4b8bfd3043bcb37",
     "name": "cftime",
-    "sha256": "7668c5f9858b5f700027ebf9a27afb98e8112e19ec9333e528c7b550cc54074d",
-    "size": 319300,
-    "subdir": "linux-64",
-    "timestamp": 1612181670073,
+    "sha256": "db13774480dd80baa9490b539aac013fe09e8d15341f5299cc9447a81fdb21c4",
+    "size": 207094,
+    "subdir": "win-64",
+    "timestamp": 1612182187145,
     "version": "1.4.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cftime-1.4.0-py36h92226af_0.tar.bz2/cftime-1.4.0-py36h92226af_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cftime-1.4.0-py36h6434af4_0.tar.bz2"
 }
