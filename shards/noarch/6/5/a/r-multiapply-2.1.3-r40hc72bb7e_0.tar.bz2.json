@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://earth.bsc.es/gitlab/ces/multiApply",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/multiApply/multiApply_2.1.3.tar.gz",
+      "https://cran.r-project.org/src/contrib/multiApply_2.1.3.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "The base apply function and its variants, as well as the related functions in the 'plyr' package, typically apply user-defined functions to a single argument (or a list of vectorized arguments in the case of mapply). The 'multiApply' package extends this paradigm with its only function, Apply, which efficiently applies functions taking one or a list of multiple unidimensional or multidimensional arrays (or combinations thereof) as input. The input arrays can have different numbers of dimensions as well as different dimension lengths, and the applied function can return one or a list of unidimensional or multidimensional arrays as output. This saves development time by preventing the R user from writing often error-prone and memory-inefficient loops dealing with multiple complex arrays. Also, a remarkable feature of Apply is the transparent use of multi-core through its parameter 'ncores'. In contrast to the base apply function, this package suggests the use of 'target dimensions' as opposite to the 'margins' for specifying the dimensions relevant to the function to be applied.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1612240283,
+    "version": "2.1.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-multiapply-2.1.3-r40hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-doparallel",
+      "r-foreach",
+      "r-plyr"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "LGPL",
+    "md5": "a7d3e59781eace2436898412a97fdfa4",
+    "name": "r-multiapply",
+    "noarch": "generic",
+    "sha256": "11d63fa910ee9e94716cc1d66839737bf0699f980957c4469a6e652c655c6ae4",
+    "size": 57145,
+    "subdir": "noarch",
+    "timestamp": 1612240283610,
+    "version": "2.1.3"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-multiapply-2.1.3-r40hc72bb7e_0.tar.bz2"
+}
