@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/d/dvc/dvc-1.11.15.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "DVC tracks ML models and data sets",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1612269996,
+    "text_prefix": false,
+    "timestamp": 1612270381,
     "version": "1.11.15"
   },
   "channeldata_version": 1,
@@ -34,15 +34,14 @@
   "labels": [
     "main"
   ],
-  "package": "dvc-base-1.11.15-py36h5fab9bb_0.tar.bz2",
+  "package": "dvc-base-1.11.15-py38haa244fe_0.tar.bz2",
   "repodata": {
-    "build": "py36h5fab9bb_0",
+    "build": "py38haa244fe_0",
     "build_number": 0,
     "depends": [
       "appdirs >=1.4.3",
       "colorama >=0.3.9",
       "configobj >=5.0.6",
-      "dataclasses",
       "distro >=1.3.0",
       "dpath >=1.4.2",
       "dulwich >=0.20.11",
@@ -62,8 +61,9 @@
       "pydot >=1.2.4",
       "pygtrie 2.3.2",
       "pyparsing 2.4.7",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "pywin32 >=225",
       "requests >=2.22.0",
       "rich >=3.0.5",
       "ruamel.yaml >=0.16.1",
@@ -75,19 +75,20 @@
       "tqdm >=4.45.0,<5",
       "typing_extensions >=3.7.4",
       "voluptuous >=0.11.7",
+      "win_unicode_console >=0.5",
       "zc.lockfile >=1.2.1"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "55bc731b9e9249a7538b7ecdaab928f6",
+    "md5": "aa07eb39aad031521a236e8ec092882e",
     "name": "dvc-base",
-    "sha256": "64ab9c11c88b7b1e9d339a22ffb184f8541c4676b03bab34b946fbb6458667d9",
-    "size": 470441,
-    "subdir": "linux-64",
-    "timestamp": 1612269996014,
+    "sha256": "b067e45b24e7c992f641c9a13db4e8adf2de339d9740dfbcc41d0933c3f17d9f",
+    "size": 497796,
+    "subdir": "win-64",
+    "timestamp": 1612270381131,
     "version": "1.11.15"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/dvc-base-1.11.15-py36h5fab9bb_0.tar.bz2/dvc-base-1.11.15-py36h5fab9bb_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/dvc-base-1.11.15-py38haa244fe_0.tar.bz2"
 }

@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/d/dvc/dvc-1.11.15.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "DVC tracks ML models and data sets",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612269971,
+    "timestamp": 1612270714,
     "version": "1.11.15"
   },
   "channeldata_version": 1,
@@ -34,27 +34,33 @@
   "labels": [
     "main"
   ],
-  "package": "dvc-gdrive-1.11.15-py38h578d9bd_0.tar.bz2",
+  "package": "dvc-1.11.15-py38haa244fe_0.tar.bz2",
   "repodata": {
-    "build": "py38h578d9bd_0",
+    "build": "py38haa244fe_0",
     "build_number": 0,
     "depends": [
-      "dvc-base 1.11.15 py38h578d9bd_0",
-      "pydrive2 >=1.6.3",
+      "dvc-azure 1.11.15 py38haa244fe_0",
+      "dvc-base 1.11.15 py38haa244fe_0",
+      "dvc-gdrive 1.11.15 py38haa244fe_0",
+      "dvc-gs 1.11.15 py38haa244fe_0",
+      "dvc-hdfs 1.11.15 py38haa244fe_0",
+      "dvc-oss 1.11.15 py38haa244fe_0",
+      "dvc-s3 1.11.15 py38haa244fe_0",
+      "dvc-ssh 1.11.15 py38haa244fe_0",
       "python >=3.8,<3.9.0a0",
       "python_abi 3.8.* *_cp38"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "f299b6d6c8343039d78e486e2a66b32e",
-    "name": "dvc-gdrive",
-    "sha256": "06417c75564728337a26a751ab896a88e924d7b91b740e6a407c3e4e00dd0f01",
-    "size": 9710,
-    "subdir": "linux-64",
-    "timestamp": 1612269971205,
+    "md5": "478af33b5ff40419c685d7d5f215085d",
+    "name": "dvc",
+    "sha256": "9c9d9fd3574722bd1799c05b1333ce08227e0b7f9123c5ae1670035895fa720d",
+    "size": 10564,
+    "subdir": "win-64",
+    "timestamp": 1612270714933,
     "version": "1.11.15"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/dvc-gdrive-1.11.15-py38h578d9bd_0.tar.bz2/dvc-gdrive-1.11.15-py38h578d9bd_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/dvc-1.11.15-py38haa244fe_0.tar.bz2"
 }
