@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/cfn-lint/cfn-lint-0.44.6.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "Checks CloudFormation templates for practices and behaviour that could potentially be improved",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612297890,
+    "timestamp": 1612298284,
     "version": "0.44.6"
   },
   "channeldata_version": 1,
@@ -34,31 +34,33 @@
   "labels": [
     "main"
   ],
-  "package": "cfn-lint-0.44.6-py39hf3d152e_0.tar.bz2",
+  "package": "cfn-lint-0.44.6-py36h2e20a7f_0.tar.bz2",
   "repodata": {
-    "build": "py39hf3d152e_0",
+    "build": "py36h2e20a7f_0",
     "build_number": 0,
     "depends": [
       "aws-sam-translator >=1.25.0",
+      "importlib_resources ~=1.4",
       "jsonpatch",
       "jsonschema ~=3.0",
       "junit-xml ~=1.9",
       "networkx ~=2.4",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "pypy3.6 >=7.3.3",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6 *_pypy36_pp73",
       "pyyaml",
       "six ~=1.11"
     ],
     "license": "MIT",
-    "md5": "81d38e302113cf31e77f24054aa55b85",
+    "md5": "07a7cf26fd86733d8d68731b8bcee421",
     "name": "cfn-lint",
-    "sha256": "35e0723466cd5655b7d0088c41104341a6f7fbb4836559aa61e3f48a034a4a7c",
-    "size": 3709740,
-    "subdir": "linux-64",
-    "timestamp": 1612297890377,
+    "sha256": "73b427a207fdf52ea22b8f8cd62219beb64777001205431763d99d5f23bff2ec",
+    "size": 3703999,
+    "subdir": "linux-aarch64",
+    "timestamp": 1612298284411,
     "version": "0.44.6"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cfn-lint-0.44.6-py39hf3d152e_0.tar.bz2/cfn-lint-0.44.6-py39hf3d152e_0.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/cfn-lint-0.44.6-py36h2e20a7f_0.tar.bz2"
 }
