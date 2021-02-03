@@ -19,44 +19,44 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://download.osgeo.org/gdal/3.1.4/gdal-3.1.4.tar.xz",
+    "source_url": "http://download.osgeo.org/gdal/3.2.1/gdal-3.2.1.tar.xz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "GDAL is a translator library for raster and vector geospatial data formats that is released under an X/MIT style Open Source license by the Open Source Geospatial Foundation.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612356580,
-    "version": "3.1.4"
+    "timestamp": 1612357661,
+    "version": "3.2.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "gdal-3.1.4-py38h25844d8_3.tar.bz2",
+  "package": "gdal-3.2.1-py36hcf5a363_2.tar.bz2",
   "repodata": {
-    "build": "py38h25844d8_3",
-    "build_number": 3,
+    "build": "py36hcf5a363_2",
+    "build_number": 2,
     "depends": [
       "hdf5 >=1.10.6,<1.10.7.0a0",
-      "libgcc-ng >=9.3.0",
-      "libgdal 3.1.4 h96b6e7a_3",
-      "libstdcxx-ng >=9.3.0",
+      "libgdal 3.2.1 h33ab790_2",
       "numpy >=1.16.6,<2.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
-    "md5": "1b024526856036faf0e633969496b16c",
+    "md5": "6351627988f76f039e061681ec7d0801",
     "name": "gdal",
-    "sha256": "681fd6789a816fa32a2b71f023847c0e00e8e661ca8567ff40358710032c77d4",
-    "size": 1465267,
-    "subdir": "linux-64",
-    "timestamp": 1612356580636,
-    "version": "3.1.4"
+    "sha256": "09bed83c1da5fab8ddbf3b73dd6b8dcdb2a9d6d80fe391ded43bc0c4794d36f2",
+    "size": 1472425,
+    "subdir": "win-64",
+    "timestamp": 1612357661429,
+    "version": "3.2.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gdal-3.1.4-py38h25844d8_3.tar.bz2/gdal-3.1.4-py38h25844d8_3.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/gdal-3.2.1-py36hcf5a363_2.tar.bz2"
 }
