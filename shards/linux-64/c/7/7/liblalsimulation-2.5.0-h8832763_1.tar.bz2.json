@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Simulation Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Simulation library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalsimulation/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.5.0": {
+        "weak": [
+          "liblalsimulation >=2.5.0,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://software.ligo.org/lscsoft/source/lalsuite/lalsimulation-2.5.0.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Simulation Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1612386395,
+    "version": "2.5.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "liblalsimulation-2.5.0-h8832763_1.tar.bz2",
+  "repodata": {
+    "build": "h8832763_1",
+    "build_number": 1,
+    "constrains": [
+      "python-lalsimulation >=2.5.0",
+      "lalsimulation >=2.5.0"
+    ],
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "gsl >=2.6,<2.7.0a0",
+      "libgcc-ng >=9.3.0",
+      "liblal >=7.1.0a0",
+      "liblal >=7.1.1,<8.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "fa6583381aebc601cb79a4b70692b85d",
+    "name": "liblalsimulation",
+    "sha256": "3dcad86e45adb6f369b1555cc7e1da8f94f7b82c8c591779bd0ed3b6c130bd65",
+    "size": 26873755,
+    "subdir": "linux-64",
+    "timestamp": 1612386395744,
+    "version": "2.5.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblalsimulation-2.5.0-h8832763_1.tar.bz2"
+}
