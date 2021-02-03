@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Burst Library for gravitational wave data analysis. This package contains the python bindings.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalburst/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalburst-1.5.7.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Burst Library python python bindings",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1612386686,
+    "version": "1.5.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "python-lalburst-1.5.7-py37h219ec46_2.tar.bz2",
+  "repodata": {
+    "build": "py37h219ec46_2",
+    "build_number": 2,
+    "depends": [
+      "gsl >=2.6,<2.7.0a0",
+      "libgcc-ng >=9.3.0",
+      "liblalburst 1.5.7 h8832763_2",
+      "ligo-segments",
+      "lscsoft-glue",
+      "matplotlib-base",
+      "numpy <1.20.0a0",
+      "numpy >=1.16.6,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python-lal >=7.1.0",
+      "python-lalmetaio >=2.0.0",
+      "python-lalsimulation >=2.5.0",
+      "python-ligo-lw",
+      "python_abi 3.7.* *_cp37m",
+      "scipy"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "bd24a952208ec5bacefdb328ebf69337",
+    "name": "python-lalburst",
+    "sha256": "8fd21515af50eff2080ca05e12c44e47ad10e2bd9eea6a226f9921c46fd99b4c",
+    "size": 283460,
+    "subdir": "linux-64",
+    "timestamp": 1612386686578,
+    "version": "1.5.7"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-lalburst-1.5.7-py37h219ec46_2.tar.bz2"
+}
