@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "catalogue is a tiny, zero-dependencies library that makes it easy to add function (or object) registries to your code. Function registries are helpful when you have objects that need to be both easily serializable and fully customizable. Instead of passing a function into your object, you pass in an identifier name, which the object can use to lookup the function from the registry. This makes the object easy to serialize, because the name is a simple string. If you instead saved the function, you'd have to use Pickle for serialization, which has many drawbacks.",
+    "dev_url": "https://github.com/explosion/catalogue",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/explosion/catalogue",
+    "home": "https://github.com/explosion/catalogue",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/c/catalogue/catalogue-2.0.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Super lightweight function registries for your library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1612338794,
+    "version": "2.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "catalogue-2.0.1-py36ha15d459_2.tar.bz2",
+  "repodata": {
+    "build": "py36ha15d459_2",
+    "build_number": 2,
+    "depends": [
+      "importlib_metadata >=0.20",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "1b8664c935f6cfd818771355196dc189",
+    "name": "catalogue",
+    "sha256": "cdd35b5b06334d957a668552aa75084b1974d2c7d9e1726d24423d4cdd32ba57",
+    "size": 17940,
+    "subdir": "win-64",
+    "timestamp": 1612338794336,
+    "version": "2.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/catalogue-2.0.1-py36ha15d459_2.tar.bz2"
+}
