@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Frame Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Frame library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalframe/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.3": {
+        "weak": [
+          "liblalframe >=1.5.3,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalframe-1.5.3.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Frame Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1612372891,
+    "version": "1.5.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "liblalframe-1.5.3-h7f98852_2.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_2",
+    "build_number": 2,
+    "constrains": [
+      "lalframe >=1.5.3",
+      "python-lalframe >=1.5.3"
+    ],
+    "depends": [
+      "ldas-tools-framecpp >=2.5.5",
+      "ldas-tools-framecpp >=2.7.0,<2.8.0a0",
+      "libframel >=8.39.2",
+      "libframel >=8.40.1,<9.0a0",
+      "libgcc-ng >=9.3.0",
+      "liblal >=7.1.0",
+      "liblal >=7.1.1,<8.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "39b5816d359bd9c2f4e40e476d7d721d",
+    "name": "liblalframe",
+    "sha256": "2f9253d309be62e65d350d9ef3bda1ea4a2fdeb54a1cbb556608c73a00470791",
+    "size": 878661,
+    "subdir": "linux-64",
+    "timestamp": 1612372891624,
+    "version": "1.5.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblalframe-1.5.3-h7f98852_2.tar.bz2"
+}
