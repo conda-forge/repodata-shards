@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "http://github.com/leeping/forcebalance/",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/leeping/ForceBalance/archive/v1.7.5.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Automated force field optimization.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612367339,
+    "timestamp": 1612367707,
     "version": "1.7.5"
   },
   "channeldata_version": 1,
@@ -34,17 +34,16 @@
   "labels": [
     "main"
   ],
-  "package": "forcebalance-1.7.5-py38hc10631b_3.tar.bz2",
+  "package": "forcebalance-1.7.5-py38h73a25cc_3.tar.bz2",
   "repodata": {
-    "build": "py38hc10631b_3",
+    "build": "py38h73a25cc_3",
     "build_number": 3,
     "constrains": [
       "openforcefield <=0.8.0"
     ],
     "depends": [
       "future",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "lxml",
       "networkx",
       "numpy >=1.16.6,<2.0a0",
@@ -55,15 +54,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "5bae485ef708bc5dbf3fbbc5c09adfd1",
+    "md5": "5db1b0cbc179b1504dce4ad27aab0160",
     "name": "forcebalance",
-    "sha256": "5b6e313e472a6e992c7c541e1adf02d2043e13c3ff6ffab523a0aa7e71669709",
-    "size": 695680,
-    "subdir": "linux-64",
-    "timestamp": 1612367339425,
+    "sha256": "55f7d8bec47a5e703f41be34775685abe9d36230375e76b8a5fbc15b9e89e3f3",
+    "size": 694276,
+    "subdir": "osx-64",
+    "timestamp": 1612367707134,
     "version": "1.7.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/forcebalance-1.7.5-py38hc10631b_3.tar.bz2/forcebalance-1.7.5-py38hc10631b_3.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/forcebalance-1.7.5-py38h73a25cc_3.tar.bz2"
 }
