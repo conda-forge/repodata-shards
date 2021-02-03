@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Pulsar Library for gravitational wave data analysis.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalpulsar/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.0.0": {
+        "weak": [
+          "liblalpulsar >=3.0.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalpulsar-3.0.0.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Pulsar Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1612377500,
+    "version": "3.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "liblalpulsar-3.0.0-hf71512e_2.tar.bz2",
+  "repodata": {
+    "build": "hf71512e_2",
+    "build_number": 2,
+    "constrains": [
+      "lalpulsar >=3.0.0",
+      "python-lalpulsar >=3.0.0"
+    ],
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "cfitsio >=3.470,<3.471.0a0",
+      "fftw >=3.3.9,<4.0a0",
+      "gsl >=2.6,<2.7.0a0",
+      "libgcc-ng >=9.3.0",
+      "liblal >=7.1.0a0",
+      "liblal >=7.1.1,<8.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "1a989226d0949455dae37fb2a641c44d",
+    "name": "liblalpulsar",
+    "sha256": "ea8136dda8742e3759388de90aa3cf483823e7f8715b1516b788c7ee80c529da",
+    "size": 95344791,
+    "subdir": "linux-64",
+    "timestamp": 1612377500035,
+    "version": "3.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblalpulsar-3.0.0-hf71512e_2.tar.bz2"
+}
