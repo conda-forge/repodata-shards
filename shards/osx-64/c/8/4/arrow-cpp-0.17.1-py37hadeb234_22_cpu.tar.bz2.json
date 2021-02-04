@@ -18,32 +18,32 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {
-      "1.0.1": {
+      "0.17.1": {
         "weak": [
-          "arrow-cpp >=1.0.1,<1.0.2.0a0"
+          "arrow-cpp >=0.17.1,<0.17.2.0a0"
         ]
       }
     },
     "source_git_url": null,
-    "source_url": "https://dist.apache.org/repos/dist/release/arrow/arrow-1.0.1/apache-arrow-1.0.1.tar.gz",
+    "source_url": "http://archive.apache.org/dist/arrow/arrow-0.17.1/apache-arrow-0.17.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "C++ libraries for Apache Arrow",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612448048,
-    "version": "1.0.1"
+    "timestamp": 1612448373,
+    "version": "0.17.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "arrow-cpp-1.0.1-py36h999649b_28_cpu.tar.bz2",
+  "package": "arrow-cpp-0.17.1-py37hadeb234_22_cpu.tar.bz2",
   "repodata": {
-    "build": "py36h999649b_28_cpu",
-    "build_number": 28,
+    "build": "py37hadeb234_22_cpu",
+    "build_number": 22,
     "constrains": [
       "arrow-cpp-proc * cpu"
     ],
@@ -55,31 +55,29 @@
       "gflags >=2.2.2,<2.3.0a0",
       "glog >=0.4.0,<0.5.0a0",
       "grpc-cpp >=1.35.0,<1.36.0a0",
-      "libgcc-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "libprotobuf >=3.14.0,<3.15.0a0",
-      "libstdcxx-ng >=9.3.0",
       "libthrift >=0.13.0,<0.14.0a0",
-      "libutf8proc >=2.6.1,<3.0a0",
       "lz4-c >=1.9.3,<1.9.4.0a0",
-      "numpy >=1.16,<2.0a0",
+      "numpy >=1.16.6,<2.0a0",
       "orc >=1.6.7,<1.6.8.0a0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "re2 >=2020.11.1,<2020.11.2.0a0",
       "snappy >=1.1.8,<2.0a0",
       "zlib >=1.2.11,<1.3.0a0",
       "zstd >=1.4.8,<1.5.0a0"
     ],
     "license": "Apache-2.0",
-    "md5": "977efe3a1e0c6c9e600ef6e9ef0a4ffa",
+    "md5": "f11b329e26ca914de7c6e3925abcbc01",
     "name": "arrow-cpp",
-    "sha256": "a8721b1023e443d522a7a505ca9fa56e8f83389c4c8996173a9fd44cb4501704",
-    "size": 21970851,
-    "subdir": "linux-64",
-    "timestamp": 1612448048680,
-    "version": "1.0.1"
+    "sha256": "33bf1be92f756c1e0b844027cb1a14dfc69e7b2f0c60cdf03d2b2f28d1e5454a",
+    "size": 15409710,
+    "subdir": "osx-64",
+    "timestamp": 1612448373900,
+    "version": "0.17.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/arrow-cpp-1.0.1-py36h999649b_28_cpu.tar.bz2/arrow-cpp-1.0.1-py36h999649b_28_cpu.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/arrow-cpp-0.17.1-py37hadeb234_22_cpu.tar.bz2"
 }
