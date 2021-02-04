@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "The Computational Crystallography Toolbox (cctbx) is being developed as the open source component of the Phenix system. The goal of the Phenix project is to advance automation of macromolecular structure determination. Phenix depends on the cctbx, but not vice versa. This hierarchical approach enforces a clean design as a reusable library. The cctbx is therefore also useful for small-molecule crystallography and even general scientific applications.",
     "dev_url": "https://github.com/cctbx/cctbx_project",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/cctbx/cctbx_project/releases/download/v2021.1/cctbx-2021.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "The Computational Crystallography Toolbox",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1612396949,
+    "text_prefix": false,
+    "timestamp": 1612398914,
     "version": "2021.1"
   },
   "channeldata_version": 1,
@@ -34,41 +34,40 @@
   "labels": [
     "main"
   ],
-  "package": "cctbx-base-2021.1-py37h5e72929_0.tar.bz2",
+  "package": "cctbx-base-2021.1-py38hd045ddf_0.tar.bz2",
   "repodata": {
-    "build": "py37h5e72929_0",
+    "build": "py38hd045ddf_0",
     "build_number": 0,
     "depends": [
       "biopython",
       "boost >=1.74.0,<1.74.1.0a0",
       "boost-cpp >=1.74.0,<1.74.1.0a0",
       "future",
-      "libgcc-ng >=9.3.0",
-      "libglu >=9.0.0,<10.0a0",
-      "libstdcxx-ng >=9.3.0",
       "libsvm",
       "matplotlib-base",
       "mrcfile",
       "numpy >=1.16.6,<2.0a0",
       "pillow",
       "psutil",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "reportlab",
       "requests",
-      "six"
+      "six",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
     "license_family": "Other",
-    "md5": "5362db62ab5b94bfefecf99c13cd4b5b",
+    "md5": "51cf56e0633f5176c16a800b240f61a9",
     "name": "cctbx-base",
-    "sha256": "8c4595ee45cb291db2015fea05c7b3c8a76e71e2638728412b8f4635ec91963b",
-    "size": 62474730,
-    "subdir": "linux-64",
-    "timestamp": 1612396949858,
+    "sha256": "cb60383ea169e4fe0b95d97087d19e9f02c6e34a93f1cb703b64bad67e1127ea",
+    "size": 60388135,
+    "subdir": "win-64",
+    "timestamp": 1612398914888,
     "version": "2021.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cctbx-base-2021.1-py37h5e72929_0.tar.bz2/cctbx-base-2021.1-py37h5e72929_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cctbx-base-2021.1-py38hd045ddf_0.tar.bz2"
 }
