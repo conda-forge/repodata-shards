@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": "https://dist.apache.org/repos/dist/release/arrow/arrow-3.0.0/apache-arrow-3.0.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "C++ libraries for Apache Arrow",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612444426,
+    "timestamp": 1612444622,
     "version": "3.0.0"
   },
   "channeldata_version": 1,
@@ -40,13 +40,12 @@
   "labels": [
     "main"
   ],
-  "package": "arrow-cpp-3.0.0-py36h05ed7cb_2_cuda.tar.bz2",
+  "package": "arrow-cpp-3.0.0-py36hfc9ca3a_2_cpu.tar.bz2",
   "repodata": {
-    "build": "py36h05ed7cb_2_cuda",
+    "build": "py36hfc9ca3a_2_cpu",
     "build_number": 2,
     "constrains": [
-      "cudatoolkit >=9.2",
-      "arrow-cpp-proc * cuda"
+      "arrow-cpp-proc * cpu"
     ],
     "depends": [
       "aws-sdk-cpp >=1.8.134,<1.8.135.0a0",
@@ -56,9 +55,8 @@
       "gflags >=2.2.2,<2.3.0a0",
       "glog >=0.4.0,<0.5.0a0",
       "grpc-cpp >=1.35.0,<1.36.0a0",
-      "libgcc-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "libprotobuf >=3.14.0,<3.15.0a0",
-      "libstdcxx-ng >=9.3.0",
       "libthrift >=0.13.0,<0.14.0a0",
       "libutf8proc >=2.6.1,<3.0a0",
       "lz4-c >=1.9.3,<1.9.4.0a0",
@@ -72,16 +70,15 @@
       "zstd >=1.4.8,<1.5.0a0"
     ],
     "license": "Apache-2.0",
-    "md5": "6541f01842b6b906641995581d03eea4",
+    "md5": "33599c6d789f955be6e6dd613ebf4cbb",
     "name": "arrow-cpp",
-    "sha256": "4270cbba7cfd93b10afd326a28a3c9d57ecb2088f3912358fce734c75f3801c4",
-    "size": 22706225,
-    "subdir": "linux-64",
-    "timestamp": 1612444426929,
-    "track_features": "arrow-cuda",
+    "sha256": "f2ff34aad47558e679d95ff2cec7899366364a47b485260d5cb22126197287fc",
+    "size": 16942736,
+    "subdir": "osx-64",
+    "timestamp": 1612444622016,
     "version": "3.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/arrow-cpp-3.0.0-py36h05ed7cb_2_cuda.tar.bz2/arrow-cpp-3.0.0-py36h05ed7cb_2_cuda.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/arrow-cpp-3.0.0-py36hfc9ca3a_2_cpu.tar.bz2"
 }
