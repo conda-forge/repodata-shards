@@ -6,7 +6,7 @@
     "description": "The ADAPTIVE Communication Environment",
     "dev_url": "https://github.com/DOCGroup/ACE_TAO",
     "doc_source_url": null,
-    "doc_url": "https://www.dre.vanderbilt.edu/Doxygen/6.5.12/html/",
+    "doc_url": "https://www.dre.vanderbilt.edu/Doxygen/7.0.0/html/",
     "home": "https://www.dre.vanderbilt.edu/~schmidt/ACE.html",
     "icon_hash": null,
     "icon_url": null,
@@ -18,46 +18,46 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {
-      "6.5.12": {
+      "7.0.0": {
         "weak": [
-          "ace >=6.5.12,<6.5.13.0a0"
+          "ace >=7.0.0,<7.0.1.0a0"
         ]
       }
     },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "The ADAPTIVE Communication Environment",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1612447054,
-    "version": "6.5.12"
+    "text_prefix": false,
+    "timestamp": 1612447582,
+    "version": "7.0.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "ace-6.5.12-h9c3ff4c_3.tar.bz2",
+  "package": "ace-7.0.0-h0e60522_1.tar.bz2",
   "repodata": {
-    "build": "h9c3ff4c_3",
-    "build_number": 3,
+    "build": "h0e60522_1",
+    "build_number": 1,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0"
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "DOC",
-    "md5": "e2d7fd7f1fde128ce5cb48d28e822040",
+    "md5": "042c625c73a82cbc7fbd5e48e2355479",
     "name": "ace",
-    "sha256": "1e3b3fdb048a510f06880c37a481395140e514c9a26d7df6f002ea9e598805e3",
-    "size": 7420769,
-    "subdir": "linux-64",
-    "timestamp": 1612447054509,
-    "version": "6.5.12"
+    "sha256": "5a164c340a8d5608135148dcf53a650917dceb2c29286ac54a5e8be4d74c1cb8",
+    "size": 2256073,
+    "subdir": "win-64",
+    "timestamp": 1612447582349,
+    "version": "7.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ace-6.5.12-h9c3ff4c_3.tar.bz2/ace-6.5.12-h9c3ff4c_3.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/ace-7.0.0-h0e60522_1.tar.bz2"
 }
