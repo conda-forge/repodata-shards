@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "The ADAPTIVE Communication Environment",
     "dev_url": "https://github.com/DOCGroup/ACE_TAO",
@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "The ADAPTIVE Communication Environment",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612447054,
+    "timestamp": 1612447316,
     "version": "6.5.12"
   },
   "channeldata_version": 1,
@@ -40,24 +40,23 @@
   "labels": [
     "main"
   ],
-  "package": "ace-6.5.12-h9c3ff4c_3.tar.bz2",
+  "package": "ace-6.5.12-h1c7c35f_3.tar.bz2",
   "repodata": {
-    "build": "h9c3ff4c_3",
+    "build": "h1c7c35f_3",
     "build_number": 3,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0"
+      "libcxx >=11.0.1"
     ],
     "license": "DOC",
-    "md5": "e2d7fd7f1fde128ce5cb48d28e822040",
+    "md5": "741d041a9157861d882d9d3087093b54",
     "name": "ace",
-    "sha256": "1e3b3fdb048a510f06880c37a481395140e514c9a26d7df6f002ea9e598805e3",
-    "size": 7420769,
-    "subdir": "linux-64",
-    "timestamp": 1612447054509,
+    "sha256": "2844f62608982e82a6116c2eca03fbd1e8a2f5d289a33751e637aa9c08cfe1f5",
+    "size": 2060991,
+    "subdir": "osx-64",
+    "timestamp": 1612447316671,
     "version": "6.5.12"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ace-6.5.12-h9c3ff4c_3.tar.bz2/ace-6.5.12-h9c3ff4c_3.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ace-6.5.12-h1c7c35f_3.tar.bz2"
 }
