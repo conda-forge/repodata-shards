@@ -21,39 +21,46 @@
     "source_git_url": null,
     "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-ppc64le"
     ],
     "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612393830,
-    "version": "3.9.0"
+    "timestamp": 1612400643,
+    "version": "2.108"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "blas-devel-3.9.0-8_blis.tar.bz2",
+  "package": "blas-2.108-openblas.tar.bz2",
   "repodata": {
-    "build": "8_blis",
+    "build": "openblas",
     "build_number": 8,
     "depends": [
-      "libblas 3.9.0 8_blis",
-      "libcblas 3.9.0 8_blis",
-      "liblapack 3.9.0 *netlib",
-      "liblapacke 3.9.0 *netlib"
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "blas-devel 3.9.0 8_openblas",
+      "libblas 3.9.0 8_openblas",
+      "libcblas 3.9.0 8_openblas",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "liblapack 3.9.0 8_openblas",
+      "liblapacke 3.9.0 8_openblas",
+      "llvm-openmp >=11.0.1"
     ],
     "license": "BSD-3-Clause",
-    "md5": "1c9eb785ce7f876ac542dbc8e1ce9f61",
-    "name": "blas-devel",
-    "sha256": "21fd1b6fc6bbbd5ff1cdcee839665b1d2e65ff4bfd248a1a5c53c388a435ccf9",
-    "size": 11337,
-    "subdir": "linux-64",
-    "timestamp": 1612393830524,
-    "version": "3.9.0"
+    "md5": "690c4ebc0f9956f1855e365970941144",
+    "name": "blas",
+    "sha256": "d6e1e4b58cfcaab13479f1b17a24223135bfc452cf7cc187a8b057ce0fdd5a2b",
+    "size": 12038,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1612400643384,
+    "version": "2.108"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/blas-devel-3.9.0-8_blis.tar.bz2/blas-devel-3.9.0-8_blis.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/blas-2.108-openblas.tar.bz2"
 }
