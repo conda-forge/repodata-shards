@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612394013,
+    "timestamp": 1612394917,
     "version": "2.108"
   },
   "channeldata_version": 1,
@@ -39,28 +39,23 @@
     "build": "openblas",
     "build_number": 8,
     "depends": [
-      "_openmp_mutex * *_llvm",
-      "_openmp_mutex >=4.5",
       "blas-devel 3.9.0 8_openblas",
       "libblas 3.9.0 8_openblas",
       "libcblas 3.9.0 8_openblas",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
-      "libgfortran5 >=9.3.0",
       "liblapack 3.9.0 8_openblas",
       "liblapacke 3.9.0 8_openblas",
-      "llvm-openmp >=11.0.1"
+      "m2w64-gcc-libs"
     ],
     "license": "BSD-3-Clause",
-    "md5": "1be571349058e90b44b51abab6f8fd20",
+    "md5": "13ce079dacef3e46c032a4e82c637d14",
     "name": "blas",
-    "sha256": "4af1ddc7548ce097341b91d920612c0f7fa58aebe4574eb4fc89394c826d25d5",
-    "size": 12062,
-    "subdir": "linux-64",
-    "timestamp": 1612394013510,
+    "sha256": "cf4509fdbd374beb1ff69e74eb61bb1ea514933beb91d1a6e5c9fbe2db910958",
+    "size": 12773,
+    "subdir": "win-64",
+    "timestamp": 1612394917910,
     "version": "2.108"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/blas-2.108-openblas.tar.bz2/blas-2.108-openblas.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/blas-2.108-openblas.tar.bz2"
 }

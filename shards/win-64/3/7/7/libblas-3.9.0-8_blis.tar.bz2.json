@@ -17,50 +17,51 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "libblas >=3.9.0,<4.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612394013,
-    "version": "2.108"
+    "timestamp": 1612394615,
+    "version": "3.9.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "blas-2.108-openblas.tar.bz2",
+  "package": "libblas-3.9.0-8_blis.tar.bz2",
   "repodata": {
-    "build": "openblas",
+    "build": "8_blis",
     "build_number": 8,
+    "constrains": [
+      "blas * blis",
+      "libcblas 3.9.0 8_blis"
+    ],
     "depends": [
-      "_openmp_mutex * *_llvm",
-      "_openmp_mutex >=4.5",
-      "blas-devel 3.9.0 8_openblas",
-      "libblas 3.9.0 8_openblas",
-      "libcblas 3.9.0 8_openblas",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
-      "libgfortran5 >=9.3.0",
-      "liblapack 3.9.0 8_openblas",
-      "liblapacke 3.9.0 8_openblas",
-      "llvm-openmp >=11.0.1"
+      "blis 0.8.0 h8d14728_1"
     ],
     "license": "BSD-3-Clause",
-    "md5": "1be571349058e90b44b51abab6f8fd20",
-    "name": "blas",
-    "sha256": "4af1ddc7548ce097341b91d920612c0f7fa58aebe4574eb4fc89394c826d25d5",
-    "size": 12062,
-    "subdir": "linux-64",
-    "timestamp": 1612394013510,
-    "version": "2.108"
+    "md5": "a8d5c5d267a4c1b9c175c290e2f035d6",
+    "name": "libblas",
+    "sha256": "4343154b62d3b5b663cccfc49751dfd0822e329526fdb6912f9c45f99107e741",
+    "size": 2792675,
+    "subdir": "win-64",
+    "timestamp": 1612394615281,
+    "track_features": "blas_blis",
+    "version": "3.9.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/blas-2.108-openblas.tar.bz2/blas-2.108-openblas.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libblas-3.9.0-8_blis.tar.bz2"
 }
