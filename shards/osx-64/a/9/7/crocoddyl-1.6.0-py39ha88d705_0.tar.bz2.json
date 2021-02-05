@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/loco-3d/crocoddyl/releases/download/v1.6.0/crocoddyl-1.6.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Crocoddyl is an optimal control library for robot control under contact sequence. Its solver is based on various efficient Differential Dynamic Programming (DDP)-like algorithms.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612547709,
+    "timestamp": 1612547953,
     "version": "1.6.0"
   },
   "channeldata_version": 1,
@@ -40,32 +40,31 @@
   "labels": [
     "main"
   ],
-  "package": "crocoddyl-1.6.0-py36h9e5d492_0.tar.bz2",
+  "package": "crocoddyl-1.6.0-py39ha88d705_0.tar.bz2",
   "repodata": {
-    "build": "py36h9e5d492_0",
+    "build": "py39ha88d705_0",
     "build_number": 0,
     "depends": [
       "boost >=1.74.0,<1.74.1.0a0",
       "eigen",
       "eigenpy",
       "example-robot-data >=3.7.0,<3.8.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "pinocchio >=2.5.6,<2.6.0a0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m"
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "81f81ae86637075a8af09340c02701ae",
+    "md5": "3dd666f828e89b40d6cb11c5e23cee93",
     "name": "crocoddyl",
-    "sha256": "fd764d4b3349f71a55fc0bfb4995f27137a693b1838aca61b0fdc4ab8b6ddef6",
-    "size": 3573285,
-    "subdir": "linux-64",
-    "timestamp": 1612547709886,
+    "sha256": "27ccb717789114557d661ad5335352a379606ee4a514ff914f99b1cf29fd62ee",
+    "size": 3374558,
+    "subdir": "osx-64",
+    "timestamp": 1612547953438,
     "version": "1.6.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/crocoddyl-1.6.0-py36h9e5d492_0.tar.bz2/crocoddyl-1.6.0-py36h9e5d492_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/crocoddyl-1.6.0-py39ha88d705_0.tar.bz2"
 }
