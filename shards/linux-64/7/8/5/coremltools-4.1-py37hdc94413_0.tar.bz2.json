@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Core ML is an Apple framework to integrate machine learning models into your app.  Use the coremltools Python package to convert models from third-party training libraries such as TensorFlow and PyTorch to the Core ML format. You can then use Core ML to integrate the models into your app.  Core ML provides a unified representation for all models. Your app uses Core ML APIs and user data to make predictions, and to fine-tune models, all on the user\u2019s device. Running a model strictly on the user\u2019s device removes any need for a network connection, which helps keep the user\u2019s data private and your app responsive.  Core ML optimizes on-device performance by leveraging the CPU, GPU, and Neural Engine while minimizing its memory footprint and power consumption.",
+    "dev_url": "https://github.com/apple/coremltools",
+    "doc_source_url": null,
+    "doc_url": "https://coremltools.readme.io/docs",
+    "home": "https://github.com/apple/coremltools",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/apple/coremltools/archive/4.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Core ML is an Apple framework to integrate machine learning models into your app. Core ML provides a unified representation for all models.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1612544003,
+    "version": "4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "coremltools-4.1-py37hdc94413_0.tar.bz2",
+  "repodata": {
+    "build": "py37hdc94413_0",
+    "build_number": 0,
+    "constrains": [
+      "pytorch >=1.4,<1.7"
+    ],
+    "depends": [
+      "attrs",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "numpy >=1.16.6,<2.0a0",
+      "packaging",
+      "protobuf >=3.1.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "scipy",
+      "six >=1.1.0",
+      "sympy",
+      "tqdm"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "f9b67bbee5fa418578256755fff8b411",
+    "name": "coremltools",
+    "sha256": "a712c0a21482b9cc1c583b298fbce09532cc37861657674214cef4ddd1fbcc0b",
+    "size": 3997235,
+    "subdir": "linux-64",
+    "timestamp": 1612544003069,
+    "version": "4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/coremltools-4.1-py37hdc94413_0.tar.bz2"
+}

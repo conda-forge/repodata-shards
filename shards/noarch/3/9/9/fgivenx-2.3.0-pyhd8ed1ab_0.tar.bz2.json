@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "fgivenx is a python package for plotting posteriors of functions. It is currently used in astronomy, but will be of use to any scientists performing Bayesian analyses which have predictive posteriors that are functions.  This package allows one to plot a predictive posterior of a function, dependent on sampled parameters. We assume one has a Bayesian posterior `Post(theta|D,M)` described by a set of posterior samples `{theta_i}~Post`. If there is a function parameterised by theta `y=f(x;theta)`, then this script will produce a contour plot of the conditional posterior `P(y|x,D,M)` in the `(x,y)` plane.  The driving routines are `fgivenx.plot_contours`, `fgivenx.plot_lines` and `fgivenx.plot_dkl`. The code is compatible with `getdist`, and has a loading function provided by `fgivenx.samples_from_getdist_chains`.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "http://fgivenx.readthedocs.io/",
+    "home": "https://github.com/williamjameshandley/fgivenx",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fgivenx/fgivenx-2.3.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Functional Posterior Plotter",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1612545282,
+    "version": "2.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "fgivenx-2.3.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "matplotlib-base",
+      "numpy",
+      "python >=2.7",
+      "scipy"
+    ],
+    "license": "MIT",
+    "md5": "ade870c2bf33771985b06f347c276644",
+    "name": "fgivenx",
+    "noarch": "python",
+    "sha256": "bd37f3a16668a3e25008d59865a02544b5e00b43f5d0974a7bdfef120189be05",
+    "size": 560115,
+    "subdir": "noarch",
+    "timestamp": 1612545282304,
+    "version": "2.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/fgivenx-2.3.0-pyhd8ed1ab_0.tar.bz2"
+}
