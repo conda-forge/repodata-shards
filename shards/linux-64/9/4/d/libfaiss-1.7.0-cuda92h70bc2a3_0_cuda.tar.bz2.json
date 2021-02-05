@@ -17,7 +17,14 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "1.7.0": {
+        "weak": [
+          "libfaiss",
+          "libfaiss =*=*_cuda"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://github.com/facebookresearch/faiss/archive/v1.7.0.tar.gz",
     "subdirs": [
@@ -26,7 +33,7 @@
     "summary": "A library for efficient similarity search and clustering of dense vectors.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612478526,
+    "timestamp": 1612478432,
     "version": "1.7.0"
   },
   "channeldata_version": 1,
@@ -34,36 +41,32 @@
   "labels": [
     "main"
   ],
-  "package": "faiss-1.7.0-py37cuda102h8334c75_0_cuda.tar.bz2",
+  "package": "libfaiss-1.7.0-cuda92h70bc2a3_0_cuda.tar.bz2",
   "repodata": {
-    "build": "py37cuda102h8334c75_0_cuda",
+    "build": "cuda92h70bc2a3_0_cuda",
     "build_number": 0,
     "constrains": [
       "faiss-proc * cuda"
     ],
     "depends": [
       "_openmp_mutex >=4.5",
-      "cudatoolkit 10.2|10.2.*",
+      "cudatoolkit 9.2|9.2.*",
       "libblas >=3.8.0,<4.0a0",
-      "libfaiss 1.7.0 *_cuda",
       "libgcc-ng >=7.5.0",
       "liblapack >=3.8.0,<4.0a0",
-      "libstdcxx-ng >=7.5.0",
-      "numpy >=1.16.6,<2.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "libstdcxx-ng >=7.5.0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "484c6bab2231bc6e706d7536ef8794d7",
-    "name": "faiss",
-    "sha256": "538c005708b380cf85bd63d68ab0fa8cbd9e9d09163adf16210fdb95f65098b2",
-    "size": 1018980,
+    "md5": "a5e1aeac6acf1f1335d2d708e42f0cdb",
+    "name": "libfaiss",
+    "sha256": "a2a897da01f80a842777276f631ab7cf5f8ef0e33cec2a1f8b34d05df9ad44d4",
+    "size": 98816213,
     "subdir": "linux-64",
-    "timestamp": 1612478526080,
+    "timestamp": 1612478432842,
     "version": "1.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/faiss-1.7.0-py37cuda102h8334c75_0_cuda.tar.bz2/faiss-1.7.0-py37cuda102h8334c75_0_cuda.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libfaiss-1.7.0-cuda92h70bc2a3_0_cuda.tar.bz2"
 }
