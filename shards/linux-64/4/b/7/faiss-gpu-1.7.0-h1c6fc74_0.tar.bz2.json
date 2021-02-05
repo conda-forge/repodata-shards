@@ -26,7 +26,7 @@
     "summary": "A library for efficient similarity search and clustering of dense vectors.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612478526,
+    "timestamp": 1612479169,
     "version": "1.7.0"
   },
   "channeldata_version": 1,
@@ -34,36 +34,24 @@
   "labels": [
     "main"
   ],
-  "package": "faiss-1.7.0-py37cuda102h8334c75_0_cuda.tar.bz2",
+  "package": "faiss-gpu-1.7.0-h1c6fc74_0.tar.bz2",
   "repodata": {
-    "build": "py37cuda102h8334c75_0_cuda",
+    "build": "h1c6fc74_0",
     "build_number": 0,
-    "constrains": [
-      "faiss-proc * cuda"
-    ],
     "depends": [
-      "_openmp_mutex >=4.5",
-      "cudatoolkit 10.2|10.2.*",
-      "libblas >=3.8.0,<4.0a0",
-      "libfaiss 1.7.0 *_cuda",
-      "libgcc-ng >=7.5.0",
-      "liblapack >=3.8.0,<4.0a0",
-      "libstdcxx-ng >=7.5.0",
-      "numpy >=1.16.6,<2.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "faiss 1.7.0 *_cuda"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "484c6bab2231bc6e706d7536ef8794d7",
-    "name": "faiss",
-    "sha256": "538c005708b380cf85bd63d68ab0fa8cbd9e9d09163adf16210fdb95f65098b2",
-    "size": 1018980,
+    "md5": "b5bac99d29ade3b71c7219fa1c20d83b",
+    "name": "faiss-gpu",
+    "sha256": "9f44df2753e57c4fd62d80c14365ff05c3954e6ee46ac95f4510a6f557f97cfb",
+    "size": 11360,
     "subdir": "linux-64",
-    "timestamp": 1612478526080,
+    "timestamp": 1612479169980,
     "version": "1.7.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/faiss-1.7.0-py37cuda102h8334c75_0_cuda.tar.bz2/faiss-1.7.0-py37cuda102h8334c75_0_cuda.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/faiss-gpu-1.7.0-h1c6fc74_0.tar.bz2"
 }
