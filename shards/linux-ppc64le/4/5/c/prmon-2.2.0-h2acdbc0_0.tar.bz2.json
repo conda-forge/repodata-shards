@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The PRocess MONitor is a small stand alone program that can monitor the resource consumption of a process and its children. This is useful in the context of the WLCG/HSF working group to evaluate the costs and performance of HEP workflows in WLCG. In a previous incarnation (MemoryMonitor) it has been used by ATLAS for sometime to gather data on resource consumption by production jobs. One of its most useful features is to use smaps to correctly calculate the Proportional Set Size in the group of processes monitored, which is a much better indication of the true memory consumption of a group of processes where children share many pages.",
+    "dev_url": "https://github.com/HSF/prmon/",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/HSF/prmon/#running",
+    "home": "https://github.com/HSF/prmon/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/HSF/prmon/archive/v2.2.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Process Monitor (prmon)",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1612552517,
+    "version": "2.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "prmon-2.2.0-h2acdbc0_0.tar.bz2",
+  "repodata": {
+    "build": "h2acdbc0_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "b2750642c33b1398aa5e6c51f797841f",
+    "name": "prmon",
+    "sha256": "c15a942080b74e074f25d2a3c39f764c850ee6d14a633333d0b711c74cec3dbb",
+    "size": 195605,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1612552517651,
+    "version": "2.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/prmon-2.2.0-h2acdbc0_0.tar.bz2"
+}
