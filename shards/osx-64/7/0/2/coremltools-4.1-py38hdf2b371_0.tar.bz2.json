@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/apple/coremltools/archive/4.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Core ML is an Apple framework to integrate machine learning models into your app. Core ML provides a unified representation for all models.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612544156,
+    "timestamp": 1612544278,
     "version": "4.1"
   },
   "channeldata_version": 1,
@@ -34,17 +34,17 @@
   "labels": [
     "main"
   ],
-  "package": "coremltools-4.1-py38h51da96c_0.tar.bz2",
+  "package": "coremltools-4.1-py38hdf2b371_0.tar.bz2",
   "repodata": {
-    "build": "py38h51da96c_0",
+    "build": "py38hdf2b371_0",
     "build_number": 0,
     "constrains": [
-      "pytorch >=1.4,<1.7"
+      "pytorch >=1.4,<1.7",
+      "__osx >=10.14"
     ],
     "depends": [
       "attrs",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "numpy >=1.16.6,<2.0a0",
       "packaging",
       "protobuf >=3.1.0",
@@ -57,15 +57,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "86e83e48bf54701b7ff5298936a87b50",
+    "md5": "8c71715542ed13eabd16f681251f947a",
     "name": "coremltools",
-    "sha256": "422f6a4d89f64eebcc3a609766fd6c5713256e9657e58b6efeacdb1407500ea5",
-    "size": 4005219,
-    "subdir": "linux-64",
-    "timestamp": 1612544156838,
+    "sha256": "d2ea7a9e40e26722d563dcfcec570b25dcc20bbfe2d22b917f26868f03324c17",
+    "size": 4023564,
+    "subdir": "osx-64",
+    "timestamp": 1612544278069,
     "version": "4.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/coremltools-4.1-py38h51da96c_0.tar.bz2/coremltools-4.1-py38h51da96c_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/coremltools-4.1-py38hdf2b371_0.tar.bz2"
 }
