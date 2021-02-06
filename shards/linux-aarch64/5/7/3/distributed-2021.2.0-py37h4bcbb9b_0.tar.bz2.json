@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/d/distributed/distributed-2021.2.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "Distributed computing with Dask",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612581624,
+    "timestamp": 1612582401,
     "version": "2021.2.0"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "distributed-2021.2.0-py39hf3d152e_0.tar.bz2",
+  "package": "distributed-2021.2.0-py37h4bcbb9b_0.tar.bz2",
   "repodata": {
-    "build": "py39hf3d152e_0",
+    "build": "py37h4bcbb9b_0",
     "build_number": 0,
     "constrains": [
       "openssl !=1.1.1e"
@@ -48,27 +48,28 @@
       "dask-core >=2021.02.0",
       "msgpack-python >=0.6.0",
       "psutil >=5.0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "pypy3.7 >=7.3.3",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7 *_pypy37_pp73",
       "pyyaml",
       "setuptools",
       "sortedcontainers !=2.0.0,!=2.0.1",
       "tblib >=1.6.0",
       "toolz >=0.8.2",
-      "tornado >=6.0.3",
+      "tornado >=5",
       "zict >=0.1.3"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "453cdf9d11af75f181518af5930384ed",
+    "md5": "2b9060b4cb75dc8b83c5ce387866e65c",
     "name": "distributed",
-    "sha256": "e6831663c0be1ea6bf9d7f789d5f2f40c0a26cc059dfd3d134d321ef1100c63a",
-    "size": 1143453,
-    "subdir": "linux-64",
-    "timestamp": 1612581624642,
+    "sha256": "2c1d8036b58ebb6708439425cf72fbac0d9ee295e9bea9463ad0ffe8244b85a5",
+    "size": 1141190,
+    "subdir": "linux-aarch64",
+    "timestamp": 1612582401623,
     "version": "2021.2.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/distributed-2021.2.0-py39hf3d152e_0.tar.bz2/distributed-2021.2.0-py39hf3d152e_0.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/distributed-2021.2.0-py37h4bcbb9b_0.tar.bz2"
 }
