@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/christianbrodbeck/eelbrain",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/e/eelbrain/eelbrain-0.34.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "MEG/EEG analysis tools",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612727954,
+    "timestamp": 1612728031,
     "version": "0.34.1"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "eelbrain-0.34.1-py38h52fb889_0.tar.bz2",
+  "package": "eelbrain-0.34.1-py37h781b866_0.tar.bz2",
   "repodata": {
-    "build": "py38h52fb889_0",
+    "build": "py37h781b866_0",
     "build_number": 0,
     "depends": [
       "colormath >=2.1",
@@ -44,8 +44,7 @@
       "keyring >=5",
       "libblas >=3.8.0,<4.0a0",
       "libcblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "matplotlib-base >=3",
       "mayavi >=4.6.2",
       "mne >=0.19",
@@ -53,28 +52,28 @@
       "nilearn",
       "numba",
       "numpy >=1.16.6,<2.0a0",
-      "olefile",
       "packaging",
       "pillow",
       "pyface !=7.2.0",
       "pysurfer >=0.9",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.7,<3.8.0a0",
+      "python.app",
+      "python_abi 3.7.* *_cp37m",
       "scipy >=1.3",
       "tqdm >=4.40",
       "wxpython >=4.0.3"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "69d2f76d4c80b1fc9373efa625250056",
+    "md5": "ad0185ba82ebf06934e8003698b12838",
     "name": "eelbrain",
-    "sha256": "2d1b200517aec54e721730c6752fee8f28d8e986d92314369089b9bdf7ed7eac",
-    "size": 2247602,
-    "subdir": "linux-64",
-    "timestamp": 1612727954345,
+    "sha256": "0dc4df82eca8b1a9cf5fd620cb954da43574d158cd48cf573edd730279ac310a",
+    "size": 2198053,
+    "subdir": "osx-64",
+    "timestamp": 1612728031086,
     "version": "0.34.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/eelbrain-0.34.1-py38h52fb889_0.tar.bz2/eelbrain-0.34.1-py38h52fb889_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/eelbrain-0.34.1-py37h781b866_0.tar.bz2"
 }
