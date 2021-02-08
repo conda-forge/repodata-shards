@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/a/astropy/astropy-4.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Community-developed Python Library for Astronomy",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1612734577,
+    "text_prefix": false,
+    "timestamp": 1612735046,
     "version": "4.2"
   },
   "channeldata_version": 1,
@@ -34,28 +34,29 @@
   "labels": [
     "main"
   ],
-  "package": "astropy-4.2-py38h497a2fe_2.tar.bz2",
+  "package": "astropy-4.2-py37hcc03f2d_2.tar.bz2",
   "repodata": {
-    "build": "py38h497a2fe_2",
+    "build": "py37hcc03f2d_2",
     "build_number": 2,
     "depends": [
-      "libgcc-ng >=9.3.0",
       "numpy >=1.17",
       "numpy >=1.17.5,<2.0a0",
       "pyerfa",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "BSD-3-Clause",
-    "md5": "263de898992a83b31154087699e2ac94",
+    "md5": "c1abdd7bf0cf1a787e961956da60cc0b",
     "name": "astropy",
-    "sha256": "a4856b76d48d84be9ff3d16f42c1ab2ea4e76ab40fff67980f1cf2da44931e66",
-    "size": 7945282,
-    "subdir": "linux-64",
-    "timestamp": 1612734577433,
+    "sha256": "19b0ba6770d69f2ff3cd38a5f6c84578763c9a3fcaa8efa4fb7140ed150aa4f3",
+    "size": 7541000,
+    "subdir": "win-64",
+    "timestamp": 1612735046741,
     "version": "4.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/astropy-4.2-py38h497a2fe_2.tar.bz2/astropy-4.2-py38h497a2fe_2.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/astropy-4.2-py37hcc03f2d_2.tar.bz2"
 }
