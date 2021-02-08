@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/casadi/casadi/archive/3.5.5.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "CasADi is a symbolic framework for numeric optimization",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612747082,
+    "timestamp": 1612747947,
     "version": "3.5.5"
   },
   "channeldata_version": 1,
@@ -40,32 +40,31 @@
   "labels": [
     "main"
   ],
-  "package": "casadi-3.5.5-py37h67eb13c_3.tar.bz2",
+  "package": "casadi-3.5.5-py39h765a1bd_3.tar.bz2",
   "repodata": {
-    "build": "py37h67eb13c_3",
+    "build": "py39h765a1bd_3",
     "build_number": 3,
     "depends": [
       "ipopt >=3.13.3,<3.14.0a0",
       "libblas >=3.8.0,<4.0a0",
       "libcblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
-      "libgfortran5 >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "numpy >=1.16.6,<2.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "libflang >=5.0.0,<6.0.0.a0",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "LGPL-3.0-or-later",
-    "md5": "44c61aa204a46b20e11be769cda29720",
+    "md5": "e0de6e2b915c6bdb6c0d4fd74cd1b265",
     "name": "casadi",
-    "sha256": "9da76002e3dabcb1b08a12130e2d2ad9bfd97e74c28a4d8284c35e7dd515bb4f",
-    "size": 5210936,
-    "subdir": "linux-64",
-    "timestamp": 1612747082411,
+    "sha256": "533088569ca2bfee81758ea7f8fb0c9e6cd6d481a98461c36e4f629905b9f672",
+    "size": 4351088,
+    "subdir": "win-64",
+    "timestamp": 1612747947456,
     "version": "3.5.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/casadi-3.5.5-py37h67eb13c_3.tar.bz2/casadi-3.5.5-py37h67eb13c_3.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/casadi-3.5.5-py39h765a1bd_3.tar.bz2"
 }
