@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "\"KEA is an image file format, named after the New Zealand bird, that provides a full implementation of the GDAL data model and is implemented within a HDF5 file. A software library, libkea, is used to access the file format. The format has comparable performance with existing formats while producing smaller file sizes and is already within active use for a number of projects within Landcare Research, New Zealand, and the wider community.\"",
+    "dev_url": "https://github.com/ubarsc/kealib",
+    "doc_source_url": null,
+    "doc_url": "https://gdal.org/drivers/raster/kea.html",
+    "home": "http://kealib.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.4.14": {
+        "weak": [
+          "kealib >=1.4.14,<1.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ubarsc/kealib/releases/download/kealib-1.4.14/kealib-1.4.14.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The KEA format provides an implementation of the GDAL specification within the the HDF5 file format.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1612824904,
+    "version": "1.4.14"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "kealib-1.4.14-ha0ce315_0.tar.bz2",
+  "repodata": {
+    "build": "ha0ce315_0",
+    "build_number": 0,
+    "depends": [
+      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "libcxx >=11.0.1"
+    ],
+    "license": "MIT",
+    "md5": "e8342ef86274144b2ab0244a06ef1a76",
+    "name": "kealib",
+    "sha256": "b0b3ebcb330b504a7d62b2daa7bbfad9ac7f5c1c7eb0057da42f00d3ded0b997",
+    "size": 159645,
+    "subdir": "osx-64",
+    "timestamp": 1612824904383,
+    "version": "1.4.14"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/kealib-1.4.14-ha0ce315_0.tar.bz2"
+}
