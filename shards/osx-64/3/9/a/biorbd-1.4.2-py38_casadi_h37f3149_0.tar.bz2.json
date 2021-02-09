@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Biomechanical add-ons to the RigidBody Dynamics Library .",
+    "dev_url": "https://github.com/pyomeca/biorbd/",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/pyomeca/biorbd/",
+    "home": "http://github.com/pyomeca/biorbd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.4.2": {
+        "weak": [
+          "biorbd >=1.4.2,<1.5.0a0",
+          "biorbd * casadi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/pyomeca/biorbd/archive/Release_1.4.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Biomechanical add-ons to the RigidBody Dynamics Library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1612908568,
+    "version": "1.4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "biorbd-1.4.2-py38_casadi_h37f3149_0.tar.bz2",
+  "repodata": {
+    "build": "py38_casadi_h37f3149_0",
+    "build_number": 0,
+    "depends": [
+      "casadi",
+      "ipopt >=3.13.3,<3.14.0a0",
+      "libcxx >=11.0.1",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "rbdl * casadi_*",
+      "rbdl >=2.6.0.13,<2.7.0a0",
+      "rbdl >=2.6.0.13,<3.0a0",
+      "tinyxml"
+    ],
+    "license": "MIT",
+    "md5": "26be8f126f82ae5f35ad5b00f0276229",
+    "name": "biorbd",
+    "sha256": "4b6ed9a1c1f9205fb2ab58f71a790f5ef7c4907f0759cd3540161060c7979ddd",
+    "size": 1568380,
+    "subdir": "osx-64",
+    "timestamp": 1612908568602,
+    "track_features": "casadi",
+    "version": "1.4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/biorbd-1.4.2-py38_casadi_h37f3149_0.tar.bz2"
+}
