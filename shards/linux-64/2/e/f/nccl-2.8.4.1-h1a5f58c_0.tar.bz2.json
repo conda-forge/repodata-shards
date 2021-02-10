@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The NVIDIA Collective Communications Library (NCCL) implements multi-GPU and multi-node collective communication primitives that are performance optimized for NVIDIA GPUs. NCCL provides routines such as all-gather, all-reduce, broadcast, reduce, reduce-scatter, that are optimized to achieve high bandwidth over PCIe and NVLink high-speed interconnect.",
+    "dev_url": "https://github.com/NVIDIA/nccl",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/docs/index.html",
+    "home": "https://developer.nvidia.com/nccl",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.8.4.1": {
+        "weak": [
+          "nccl >=2.8.4.1,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/nccl/archive/v2.8.4-1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Optimized primitives for collective multi-GPU communication",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1612924744,
+    "version": "2.8.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "nccl-2.8.4.1-h1a5f58c_0.tar.bz2",
+  "repodata": {
+    "build": "h1a5f58c_0",
+    "build_number": 0,
+    "depends": [
+      "cudatoolkit 10.2|10.2.*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "d8546b2b38f5dee532af3bb00fe977db",
+    "name": "nccl",
+    "sha256": "fa5809eb2566308fdf56e16b21d8b157fe74fb65a24f601323e62a5d4a851e5a",
+    "size": 136301146,
+    "subdir": "linux-64",
+    "timestamp": 1612924744727,
+    "version": "2.8.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/nccl-2.8.4.1-h1a5f58c_0.tar.bz2"
+}
