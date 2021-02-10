@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "asyncpg is a database interface library designed specifically for PostgreSQL and Python/asyncio. asyncpg is an efficient, clean implementation of PostgreSQL server binary protocol for use with Python's asyncio framework.",
     "dev_url": "https://github.com/MagicStack/asyncpg",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/a/asyncpg/asyncpg-0.22.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A fast PostgreSQL Database Client Library for Python/asyncio.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612959010,
+    "timestamp": 1612959078,
     "version": "0.22.0"
   },
   "channeldata_version": 1,
@@ -34,26 +34,26 @@
   "labels": [
     "main"
   ],
-  "package": "asyncpg-0.22.0-py38h497a2fe_0.tar.bz2",
+  "package": "asyncpg-0.22.0-py36h49ba835_0.tar.bz2",
   "repodata": {
-    "build": "py38h497a2fe_0",
+    "build": "py36h49ba835_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "typing_extensions"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "ffa5f6ab0f1c0de75f6acdec46ae64f5",
+    "md5": "db530bef23f28ca2b16946ae99e0e7f6",
     "name": "asyncpg",
-    "sha256": "b97af56c4204b0bf66aaba2e84fb93663b37346e70f3c57c21b8588d1ea70f14",
-    "size": 1135195,
-    "subdir": "linux-64",
-    "timestamp": 1612959010694,
+    "sha256": "044636e3834c8b5bf0eb185d9a639242a3312901b5ff8f3852f1f7f63337d493",
+    "size": 1013835,
+    "subdir": "osx-64",
+    "timestamp": 1612959078373,
     "version": "0.22.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/asyncpg-0.22.0-py38h497a2fe_0.tar.bz2/asyncpg-0.22.0-py38h497a2fe_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/asyncpg-0.22.0-py36h49ba835_0.tar.bz2"
 }
