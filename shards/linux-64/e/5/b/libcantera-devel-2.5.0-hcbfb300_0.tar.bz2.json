@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Cantera is an open-source suite of tools for problems involving chemical kinetics, thermodynamics, and transport processes",
     "dev_url": "https://github.com/cantera/cantera",
@@ -26,7 +26,7 @@
     "summary": "Chemical kinetics, thermodynamics, and transport tool suite",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1612921431,
+    "timestamp": 1612921102,
     "version": "2.5.0"
   },
   "channeldata_version": 1,
@@ -34,37 +34,30 @@
   "labels": [
     "main"
   ],
-  "package": "cantera-2.5.0-py37he890a0c_0.tar.bz2",
+  "package": "libcantera-devel-2.5.0-hcbfb300_0.tar.bz2",
   "repodata": {
-    "build": "py37he890a0c_0",
+    "build": "hcbfb300_0",
     "build_number": 0,
     "depends": [
-      "fmt >=7.1.3,<8.0a0",
-      "h5py",
       "libblas >=3.8.0,<4.0a0",
       "libcantera 2.5.0.*",
       "libgcc-ng >=9.3.0",
       "liblapack >=3.8.0,<4.0a0",
       "libstdcxx-ng >=9.3.0",
-      "numpy >=1.16.6,<2.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
-      "ruamel_yaml",
-      "setuptools",
       "sundials >=5.7.0,<5.8.0a0",
       "yaml-cpp >=0.6.3,<0.7.0a0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "364f96440a257ba237d6b16d09a08403",
-    "name": "cantera",
-    "sha256": "0402e9d4959cacce7f9d4cfcb300458fc7f85837a15b844a66c1af283f8fa8dd",
-    "size": 2151694,
+    "md5": "ae9585829ffa1efa4afd40d7641089e4",
+    "name": "libcantera-devel",
+    "sha256": "93f2292446fb14caff389d4ca59223229f779c24b370149a2a501c6c9d0cd1ae",
+    "size": 8629312,
     "subdir": "linux-64",
-    "timestamp": 1612921431781,
+    "timestamp": 1612921102363,
     "version": "2.5.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cantera-2.5.0-py37he890a0c_0.tar.bz2/cantera-2.5.0-py37he890a0c_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libcantera-devel-2.5.0-hcbfb300_0.tar.bz2"
 }
