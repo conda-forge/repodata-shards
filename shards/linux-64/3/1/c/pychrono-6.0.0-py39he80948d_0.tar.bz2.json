@@ -17,13 +17,7 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {
-      "6.0.0": {
-        "weak": [
-          "chrono >=6.0.0,<6.1.0a0"
-        ]
-      }
-    },
+    "run_exports": {},
     "source_git_url": null,
     "source_url": "https://github.com/projectchrono/chrono/archive/6.0.0.tar.gz",
     "subdirs": [
@@ -31,8 +25,8 @@
     ],
     "summary": "A physics engine for constrained multi-flexible-body dynamics",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1612946924,
+    "text_prefix": false,
+    "timestamp": 1612947751,
     "version": "6.0.0"
   },
   "channeldata_version": 1,
@@ -40,27 +34,29 @@
   "labels": [
     "main"
   ],
-  "package": "chrono-6.0.0-hc4f0c31_0.tar.bz2",
+  "package": "pychrono-6.0.0-py39he80948d_0.tar.bz2",
   "repodata": {
-    "build": "hc4f0c31_0",
+    "build": "py39he80948d_0",
     "build_number": 0,
     "depends": [
       "_openmp_mutex >=4.5",
+      "chrono 6.0.0 he80948d_0",
       "libgcc-ng >=9.3.0",
       "libstdcxx-ng >=9.3.0",
-      "python_abi 3.6.* *_cp36m"
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
     ],
     "license": "BSD 3-Clause",
     "license_family": "BSD",
-    "md5": "0c781e40e88788dbab7db2539d98cf7b",
-    "name": "chrono",
-    "sha256": "9fb771feb500a5aef50a2477b65a562258cd05e8f1238be8f57e5f06dd521139",
-    "size": 176398066,
+    "md5": "5d37e9c0fe32266f9d6e9c62fe7758ea",
+    "name": "pychrono",
+    "sha256": "e6a5f971fbe485b75620e47f8c14b4d1f434605d21541022d209e81fc1336a06",
+    "size": 6530650,
     "subdir": "linux-64",
-    "timestamp": 1612946924461,
+    "timestamp": 1612947751605,
     "version": "6.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/chrono-6.0.0-hc4f0c31_0.tar.bz2/chrono-6.0.0-hc4f0c31_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pychrono-6.0.0-py39he80948d_0.tar.bz2"
 }
