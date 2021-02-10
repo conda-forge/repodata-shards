@@ -28,12 +28,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/pyomeca/biorbd/archive/Release_1.4.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Biomechanical add-ons to the RigidBody Dynamics Library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612908397,
+    "timestamp": 1612908854,
     "version": "1.4.2"
   },
   "channeldata_version": 1,
@@ -41,33 +41,33 @@
   "labels": [
     "main"
   ],
-  "package": "biorbd-1.4.2-py39_eigen_had82471_0.tar.bz2",
+  "package": "biorbd-1.4.2-py36_eigen_h9a5fcca_0.tar.bz2",
   "repodata": {
-    "build": "py39_eigen_had82471_0",
+    "build": "py36_eigen_h9a5fcca_0",
     "build_number": 0,
     "depends": [
       "eigen",
       "ipopt >=3.13.3,<3.14.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "numpy >=1.19.5,<2.0a0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "numpy >=1.16.6,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
       "rbdl * eigen_*",
       "rbdl >=2.6.0.13,<2.7.0a0",
       "rbdl >=2.6.0.13,<3.0a0",
-      "tinyxml"
+      "tinyxml",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
-    "md5": "203f661c03354ac474997da4fe1f724e",
+    "md5": "b3c40e9ac250b37166ab83447314596c",
     "name": "biorbd",
-    "sha256": "ae335e853a22b37e67fc2f2b80b204541b485d2e763aa29210172dbd4e26d77c",
-    "size": 1875575,
-    "subdir": "linux-64",
-    "timestamp": 1612908397095,
+    "sha256": "5724eacf5224f14e59781a44733601f80728b5acefb0467a1ff4ee137b0ab1e1",
+    "size": 4716749,
+    "subdir": "win-64",
+    "timestamp": 1612908854252,
     "version": "1.4.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/biorbd-1.4.2-py39_eigen_had82471_0.tar.bz2/biorbd-1.4.2-py39_eigen_had82471_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/biorbd-1.4.2-py36_eigen_h9a5fcca_0.tar.bz2"
 }

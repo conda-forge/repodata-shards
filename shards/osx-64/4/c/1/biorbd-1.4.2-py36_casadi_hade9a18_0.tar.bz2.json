@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Biomechanical add-ons to the RigidBody Dynamics Library .",
     "dev_url": "https://github.com/pyomeca/biorbd/",
@@ -21,19 +21,19 @@
       "1.4.2": {
         "weak": [
           "biorbd >=1.4.2,<1.5.0a0",
-          "biorbd * eigen_*"
+          "biorbd * casadi_*"
         ]
       }
     },
     "source_git_url": null,
     "source_url": "https://github.com/pyomeca/biorbd/archive/Release_1.4.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Biomechanical add-ons to the RigidBody Dynamics Library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612908397,
+    "timestamp": 1612908549,
     "version": "1.4.2"
   },
   "channeldata_version": 1,
@@ -41,33 +41,32 @@
   "labels": [
     "main"
   ],
-  "package": "biorbd-1.4.2-py39_eigen_had82471_0.tar.bz2",
+  "package": "biorbd-1.4.2-py36_casadi_hade9a18_0.tar.bz2",
   "repodata": {
-    "build": "py39_eigen_had82471_0",
+    "build": "py36_casadi_hade9a18_0",
     "build_number": 0,
     "depends": [
-      "eigen",
+      "casadi",
       "ipopt >=3.13.3,<3.14.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "numpy >=1.19.5,<2.0a0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
-      "rbdl * eigen_*",
+      "libcxx >=11.0.1",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "rbdl * casadi_*",
       "rbdl >=2.6.0.13,<2.7.0a0",
       "rbdl >=2.6.0.13,<3.0a0",
       "tinyxml"
     ],
     "license": "MIT",
-    "md5": "203f661c03354ac474997da4fe1f724e",
+    "md5": "47f1fef6d4ece6916b69fd0cadddf278",
     "name": "biorbd",
-    "sha256": "ae335e853a22b37e67fc2f2b80b204541b485d2e763aa29210172dbd4e26d77c",
-    "size": 1875575,
-    "subdir": "linux-64",
-    "timestamp": 1612908397095,
+    "sha256": "7384b435166f0e1d43c487876c47768a57a460d28e0b320550db727fcaa9b949",
+    "size": 1562732,
+    "subdir": "osx-64",
+    "timestamp": 1612908549418,
+    "track_features": "casadi",
     "version": "1.4.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/biorbd-1.4.2-py39_eigen_had82471_0.tar.bz2/biorbd-1.4.2-py39_eigen_had82471_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/biorbd-1.4.2-py36_casadi_hade9a18_0.tar.bz2"
 }
