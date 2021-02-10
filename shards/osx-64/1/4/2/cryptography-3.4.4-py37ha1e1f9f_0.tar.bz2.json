@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Cryptography is a package which provides cryptographic recipes and primitives to Python developers. Our goal is for it to be your \"cryptographic standard library\". It supports Python 2.6-2.7, Python 3.3+, and PyPy 2.6+. Cryptography includes both high level recipes, and low level interfaces to common cryptographic algorithms such as symmetric ciphers, message digests and key derivation functions.",
     "dev_url": "https://github.com/pyca/cryptography",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/cryptography/cryptography-3.4.4.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Provides cryptographic recipes and primitives to Python developers",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612994001,
+    "timestamp": 1612994091,
     "version": "3.4.4"
   },
   "channeldata_version": 1,
@@ -34,29 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "cryptography-3.4.4-py39h95dcef6_0.tar.bz2",
+  "package": "cryptography-3.4.4-py37ha1e1f9f_0.tar.bz2",
   "repodata": {
-    "build": "py39h95dcef6_0",
+    "build": "py37ha1e1f9f_0",
     "build_number": 0,
     "depends": [
       "cffi !=1.11.3,>=1.8",
-      "libgcc-ng >=9.3.0",
       "openssl >=1.1.1i,<1.1.2a",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "six >=1.4.1"
     ],
     "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
     "license_family": "BSD",
-    "md5": "43dcf8bc5342d18e888f241d39810961",
+    "md5": "8f27a350192cae363a244ba30a549ffc",
     "name": "cryptography",
-    "sha256": "3bddaaed6e03c86a9eac03ad6b64a9522b901b9862072320552853c2ab205332",
-    "size": 651171,
-    "subdir": "linux-64",
-    "timestamp": 1612994001868,
+    "sha256": "b2d65ceb06cb7a686bd598684b05ae2028ac69426d7448979e09ae7e62195e49",
+    "size": 637840,
+    "subdir": "osx-64",
+    "timestamp": 1612994091653,
     "version": "3.4.4"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cryptography-3.4.4-py39h95dcef6_0.tar.bz2/cryptography-3.4.4-py39h95dcef6_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cryptography-3.4.4-py37ha1e1f9f_0.tar.bz2"
 }
