@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/NourMarzouka/multiclassPairs",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/multiclassPairs/multiclassPairs_0.4.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/multiclassPairs_0.4.2.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A toolbox to train a single sample classifier that uses in-sample feature relationships. The relationships are represented as feature1 < feature2 (e.g. gene1 < gene2). We provide two options to go with. First is based on 'switchBox' package which uses Top-score pairs algorithm. Second is a novel implementation based on random forest algorithm. For simple problems we recommend to use one-vs-rest using TSP option due to its simplicity and for being easy to interpret.  For complex problems RF performs better.  Both lines filter the features first then combine the filtered features to make the list of all the possible rules (i.e. rule1: feature1 < feature2, rule2: feature1 < feature3, etc...).  Then the list of rules will be filtered and the most important and informative rules will be kept. The informative rules will be assembled in an one-vs-rest model or in an RF model.  We provide a detailed description with each function in this package to explain the filtration and training methodology in each line.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1612973693,
+    "version": "0.4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "r-multiclasspairs-0.4.2-r40hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-boruta",
+      "r-caret",
+      "r-dunn.test",
+      "r-e1071",
+      "r-ranger",
+      "r-rdist"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "d2329aeaac69e0c6026f578faeae377b",
+    "name": "r-multiclasspairs",
+    "noarch": "generic",
+    "sha256": "68ed00a9b177ddb4a2f42fa17a9493e442a6763b4886d3fcf36b0cb3fd930778",
+    "size": 1394266,
+    "subdir": "noarch",
+    "timestamp": 1612973693742,
+    "version": "0.4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-multiclasspairs-0.4.2-r40hc72bb7e_0.tar.bz2"
+}
