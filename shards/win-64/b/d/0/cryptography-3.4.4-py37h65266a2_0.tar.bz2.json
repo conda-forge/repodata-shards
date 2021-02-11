@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/cryptography/cryptography-3.4.4.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Provides cryptographic recipes and primitives to Python developers",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1612993982,
+    "timestamp": 1612994826,
     "version": "3.4.4"
   },
   "channeldata_version": 1,
@@ -34,29 +34,30 @@
   "labels": [
     "main"
   ],
-  "package": "cryptography-3.4.4-py38h3e25421_0.tar.bz2",
+  "package": "cryptography-3.4.4-py37h65266a2_0.tar.bz2",
   "repodata": {
-    "build": "py38h3e25421_0",
+    "build": "py37h65266a2_0",
     "build_number": 0,
     "depends": [
       "cffi !=1.11.3,>=1.8",
-      "libgcc-ng >=9.3.0",
       "openssl >=1.1.1i,<1.1.2a",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
-      "six >=1.4.1"
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "six >=1.4.1",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
     "license_family": "BSD",
-    "md5": "c719a274340d82bf883b53aef15a30eb",
+    "md5": "49adbceec272997f3b8d5180820a7774",
     "name": "cryptography",
-    "sha256": "8f43a2c451422c16a182b8b975e6c8b8ac00500d0d90bbf22a1be6156e910831",
-    "size": 652597,
-    "subdir": "linux-64",
-    "timestamp": 1612993982872,
+    "sha256": "b45e14a6e80da34af30838c1263cae1f549f62ec39c2284f93eee43997abf3fe",
+    "size": 617505,
+    "subdir": "win-64",
+    "timestamp": 1612994826286,
     "version": "3.4.4"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cryptography-3.4.4-py38h3e25421_0.tar.bz2/cryptography-3.4.4-py38h3e25421_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cryptography-3.4.4-py37h65266a2_0.tar.bz2"
 }
