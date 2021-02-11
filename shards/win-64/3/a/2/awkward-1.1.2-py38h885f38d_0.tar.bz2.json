@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/a/awkward/awkward-1.1.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Manipulate JSON-like data with NumPy-like idioms.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613076571,
+    "timestamp": 1613077212,
     "version": "1.1.2"
   },
   "channeldata_version": 1,
@@ -34,29 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "awkward-1.1.2-py37he226ad3_0.tar.bz2",
+  "package": "awkward-1.1.2-py38h885f38d_0.tar.bz2",
   "repodata": {
-    "build": "py37he226ad3_0",
+    "build": "py38h885f38d_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
       "numpy >=1.13.1",
-      "pypy3.7 >=7.3.3",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7 *_pypy37_pp73",
-      "setuptools"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "setuptools",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "BSD-3-Clause",
-    "md5": "60107e4429ebfa1f0e89163f3ea59ced",
+    "md5": "e8fe1c108bb3d11f39b0243a3ba14c01",
     "name": "awkward",
-    "sha256": "bcb567276c9ddc6a6d7a50b8c53e4f105b0a07a03501ee2835d0bbd988725557",
-    "size": 7014399,
-    "subdir": "linux-64",
-    "timestamp": 1613076571608,
+    "sha256": "798ce7730e295fd51888a942d0b66b392c5ea86a45e7da45696b66a3bacf4659",
+    "size": 10441478,
+    "subdir": "win-64",
+    "timestamp": 1613077212726,
     "version": "1.1.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/awkward-1.1.2-py37he226ad3_0.tar.bz2/awkward-1.1.2-py37he226ad3_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/awkward-1.1.2-py38h885f38d_0.tar.bz2"
 }
