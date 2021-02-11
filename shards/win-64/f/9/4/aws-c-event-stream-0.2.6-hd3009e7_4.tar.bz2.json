@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/awslabs/aws-c-event-stream/archive/v0.2.6.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "C99 implementation of the vnd.amazon.eventstream content-type.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613074763,
+    "timestamp": 1613075218,
     "version": "0.2.6"
   },
   "channeldata_version": 1,
@@ -40,28 +40,28 @@
   "labels": [
     "main"
   ],
-  "package": "aws-c-event-stream-0.2.6-h4285e0c_4.tar.bz2",
+  "package": "aws-c-event-stream-0.2.6-hd3009e7_4.tar.bz2",
   "repodata": {
-    "build": "h4285e0c_4",
+    "build": "hd3009e7_4",
     "build_number": 4,
     "depends": [
       "aws-c-common >=0.4.67,<0.4.68.0a0",
       "aws-c-io >=0.8.3,<0.8.4.0a0",
       "aws-checksums >=0.1.11,<0.1.12.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0"
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "ebebb4707243f3262a60fc7de8dc6fc2",
+    "md5": "d2b84aaaa99a444d9012df8e0990614a",
     "name": "aws-c-event-stream",
-    "sha256": "d0c6baf86ff3daebf51aa736a1743597e6b600a756d5c85deff5629b100ec8c0",
-    "size": 47779,
-    "subdir": "linux-64",
-    "timestamp": 1613074763062,
+    "sha256": "2d315e5252e897eeaf33a40f45f39f2f96c22510c0e56caf847eca816e447bea",
+    "size": 48353,
+    "subdir": "win-64",
+    "timestamp": 1613075218955,
     "version": "0.2.6"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/aws-c-event-stream-0.2.6-h4285e0c_4.tar.bz2/aws-c-event-stream-0.2.6-h4285e0c_4.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/aws-c-event-stream-0.2.6-hd3009e7_4.tar.bz2"
 }
