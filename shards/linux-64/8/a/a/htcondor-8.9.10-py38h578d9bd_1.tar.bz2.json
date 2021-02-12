@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "HTCondor is a workload management system for high-throughput and high-performance jobs. Like other full-featured batch systems, HTCondor provides a job queuing mechanism, scheduling policy, priority scheme, resource monitoring, and resource management. Users submit their serial or parallel jobs to HTCondor, HTCondor places them into a queue, chooses when and where to run the jobs based upon a policy, carefully monitors their progress, and ultimately informs the user upon completion.",
+    "dev_url": "https://github.com/htcondor/htcondor",
+    "doc_source_url": null,
+    "doc_url": "https://htcondor.readthedocs.io/",
+    "home": "http://htcondor.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/htcondor/htcondor/archive/V8_9_10.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "HTCondor: High Throughput Computing",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1613150378,
+    "version": "8.9.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "htcondor-8.9.10-py38h578d9bd_1.tar.bz2",
+  "repodata": {
+    "build": "py38h578d9bd_1",
+    "build_number": 1,
+    "depends": [
+      "htcondor-classads 8.9.10 h9c3ff4c_1",
+      "htcondor-utils 8.9.10 hc20c069_1",
+      "libcondor_utils 8.9.10 haa0fcd8_1",
+      "python >=3.8,<3.9.0a0",
+      "python-htcondor 8.9.10 py38hea791b0_1",
+      "python_abi 3.8.* *_cp38"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "d5ba277dd4d4a1ca5f7670bb32c9f7bd",
+    "name": "htcondor",
+    "sha256": "a8b4cf6b2dfb34c46200c3eed73e63a5f98f657780fbf1da7c62bd2dc4feaf0a",
+    "size": 15185,
+    "subdir": "linux-64",
+    "timestamp": 1613150378572,
+    "version": "8.9.10"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/htcondor-8.9.10-py38h578d9bd_1.tar.bz2"
+}
