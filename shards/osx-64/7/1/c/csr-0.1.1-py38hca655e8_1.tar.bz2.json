@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "CSR is a compressed sparse row sparse matrix package for Python, with Numba-accessible APIs and optional MKL acceleration.",
     "dev_url": "https://github.com/lenskit/csr",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/csr/csr-0.1.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Compressed sparse matrices for Python and Numba",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613152443,
+    "timestamp": 1613152928,
     "version": "0.1.1"
   },
   "channeldata_version": 1,
@@ -34,13 +34,12 @@
   "labels": [
     "main"
   ],
-  "package": "csr-0.1.1-py38h497a2fe_1.tar.bz2",
+  "package": "csr-0.1.1-py38hca655e8_1.tar.bz2",
   "repodata": {
-    "build": "py38h497a2fe_1",
+    "build": "py38hca655e8_1",
     "build_number": 1,
     "depends": [
       "cffi >=1.12.2",
-      "libgcc-ng >=9.3.0",
       "numba >=0.51",
       "numpy >=1.16",
       "python >=3.8,<3.9.0a0",
@@ -49,15 +48,15 @@
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "8498f82f9ef0ecc99145ec41144e7c80",
+    "md5": "b7fb2f0433dc9a43bbd4208a34f21665",
     "name": "csr",
-    "sha256": "fbcc2b1b4f573a61b2e381c43bedb12fc8901f4da4e6fb371e03bc3736522fba",
-    "size": 60892,
-    "subdir": "linux-64",
-    "timestamp": 1613152443935,
+    "sha256": "9e4d5f27cfcb2ba62799e6413650ec8f84b042d9eb89f183f5de9557de6e6c09",
+    "size": 74263,
+    "subdir": "osx-64",
+    "timestamp": 1613152928716,
     "version": "0.1.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/csr-0.1.1-py38h497a2fe_1.tar.bz2/csr-0.1.1-py38h497a2fe_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/csr-0.1.1-py38hca655e8_1.tar.bz2"
 }
