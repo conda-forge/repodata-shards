@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/cramjam/cramjam-1.3.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "python bindings to rust-implemented compression",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613161893,
+    "timestamp": 1613163055,
     "version": "1.3.2"
   },
   "channeldata_version": 1,
@@ -34,26 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "cramjam-1.3.2-py37h5e8e339_0.tar.bz2",
+  "package": "cramjam-1.3.2-py38h294d835_0.tar.bz2",
   "repodata": {
-    "build": "py37h5e8e339_0",
+    "build": "py38h294d835_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "868680a6080192bd7c7423a1647d36ab",
+    "md5": "8e5cfc112d8408fc6889fe9349016a1a",
     "name": "cramjam",
-    "sha256": "877d976c926340396987a4406bb34392682fd32adbb6031a61c6712f0e72c8df",
-    "size": 1489253,
-    "subdir": "linux-64",
-    "timestamp": 1613161893024,
+    "sha256": "5932a8c21db0f7345e5b838b48142d5234cca7b7e9845c0510005f0512f1ed4a",
+    "size": 715900,
+    "subdir": "win-64",
+    "timestamp": 1613163055693,
     "version": "1.3.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cramjam-1.3.2-py37h5e8e339_0.tar.bz2/cramjam-1.3.2-py37h5e8e339_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cramjam-1.3.2-py38h294d835_0.tar.bz2"
 }
