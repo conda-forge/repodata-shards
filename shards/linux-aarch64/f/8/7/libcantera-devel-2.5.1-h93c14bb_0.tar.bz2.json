@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Cantera is an open-source suite of tools for problems involving chemical kinetics, thermodynamics, and transport processes",
     "dev_url": "https://github.com/cantera/cantera",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/Cantera/cantera/archive/v2.5.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "Chemical kinetics, thermodynamics, and transport tool suite",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1613185052,
+    "timestamp": 1613184600,
     "version": "2.5.1"
   },
   "channeldata_version": 1,
@@ -34,37 +34,30 @@
   "labels": [
     "main"
   ],
-  "package": "cantera-2.5.1-py36hcbfb300_0.tar.bz2",
+  "package": "libcantera-devel-2.5.1-h93c14bb_0.tar.bz2",
   "repodata": {
-    "build": "py36hcbfb300_0",
+    "build": "h93c14bb_0",
     "build_number": 0,
     "depends": [
-      "fmt >=7.1.3,<8.0a0",
-      "h5py",
       "libblas >=3.8.0,<4.0a0",
       "libcantera 2.5.1.*",
       "libgcc-ng >=9.3.0",
       "liblapack >=3.8.0,<4.0a0",
       "libstdcxx-ng >=9.3.0",
-      "numpy >=1.16.6,<2.0a0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
-      "ruamel_yaml",
-      "setuptools",
       "sundials >=5.7.0,<5.8.0a0",
       "yaml-cpp >=0.6.3,<0.7.0a0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "259e31f153b6674572d98d67be24240d",
-    "name": "cantera",
-    "sha256": "c000776577df5dd62faa02ef2f7f0ff77e39b9f2ff341fb9397b1e16649a7644",
-    "size": 2174147,
-    "subdir": "linux-64",
-    "timestamp": 1613185052527,
+    "md5": "0e1fe5cc6d62d17247b09a3d7bd047b5",
+    "name": "libcantera-devel",
+    "sha256": "feaf5fe240606226f120ee2a94c430d52c28014cd346dad0333d6516116c2f70",
+    "size": 8260149,
+    "subdir": "linux-aarch64",
+    "timestamp": 1613184600820,
     "version": "2.5.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cantera-2.5.1-py36hcbfb300_0.tar.bz2/cantera-2.5.1-py36hcbfb300_0.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libcantera-devel-2.5.1-h93c14bb_0.tar.bz2"
 }
