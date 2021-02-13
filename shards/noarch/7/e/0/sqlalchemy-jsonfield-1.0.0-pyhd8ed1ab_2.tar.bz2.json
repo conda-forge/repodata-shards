@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "SqlAlchemy provides JSON field support for several database types (PostgreSQL and MySQL for now) and semi-working dict <-> JSON <-> VARCHAR example, but... In real scenarios we have tests on sqlite, production on MySQL/MariaDB/Percona/PostgreSQL and some of them (modern Oracle MySQL & PostgreSQL) support JSON, some of them (SQLite, Percona & MariaDB) requires data conversion to Text (not VARCHAR).  As addition, we have different levels of Unicode support on database and connector side, so we may be interested to switch JSON encoding between d eployments.",
+    "dev_url": "https://github.com/penguinolog/sqlalchemy_jsonfield",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/penguinolog/sqlalchemy_jsonfield",
+    "home": "https://github.com/penguinolog/sqlalchemy_jsonfield",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/S/SQLAlchemy-JSONField/SQLAlchemy-JSONField-1.0.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "SQLALchemy JSONField implementation for storing dicts at SQL independently from JSON type support.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1613247295,
+    "version": "1.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "sqlalchemy-jsonfield-1.0.0-pyhd8ed1ab_2.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_2",
+    "build_number": 2,
+    "depends": [
+      "python >=3.5",
+      "sqlalchemy"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "2b46115bec249ec6e2109ccefc9f055e",
+    "name": "sqlalchemy-jsonfield",
+    "noarch": "python",
+    "sha256": "142eb45742746bd74b4f35e9e52d4713ff08fe074861c95f454b614cebf2daae",
+    "size": 14017,
+    "subdir": "noarch",
+    "timestamp": 1613247295109,
+    "version": "1.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sqlalchemy-jsonfield-1.0.0-pyhd8ed1ab_2.tar.bz2"
+}
