@@ -17,16 +17,22 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "1.7.0": {
+        "weak": [
+          "libapr >=1.7.0,<2.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-arm64"
     ],
     "summary": "Maintains a consistent API with predictable behaviour",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1613338543,
+    "text_prefix": true,
+    "timestamp": 1613338591,
     "version": "1.7.0"
   },
   "channeldata_version": 1,
@@ -34,27 +40,22 @@
   "labels": [
     "main"
   ],
-  "package": "apr-1.7.0-h7f98852_4.tar.bz2",
+  "package": "libapr-1.7.0-h27ca646_4.tar.bz2",
   "repodata": {
-    "build": "h7f98852_4",
+    "build": "h27ca646_4",
     "build_number": 4,
-    "depends": [
-      "libapr",
-      "libapriconv",
-      "libaprutil",
-      "libgcc-ng >=9.3.0"
-    ],
+    "depends": [],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "76356fb48adcf40e4adf41723a8aadd4",
-    "name": "apr",
-    "sha256": "d08b4de40b4fe73483c78366f548f5111af5b9832f9f8acbbf7b96967e64fef3",
-    "size": 48938,
-    "subdir": "linux-64",
-    "timestamp": 1613338543479,
+    "md5": "5183fffd7fb3057d02e1b1a1aec1635e",
+    "name": "libapr",
+    "sha256": "681b815eb59d9b2d8f4ec26a07c8eb81b23e02085c0f3de0bb6f00e9c7b3f872",
+    "size": 423619,
+    "subdir": "osx-arm64",
+    "timestamp": 1613338591630,
     "version": "1.7.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/apr-1.7.0-h7f98852_4.tar.bz2/apr-1.7.0-h7f98852_4.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libapr-1.7.0-h27ca646_4.tar.bz2"
 }
