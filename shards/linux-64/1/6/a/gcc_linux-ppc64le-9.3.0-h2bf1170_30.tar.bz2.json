@@ -17,42 +17,50 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "9.3.0": {
+        "strong": [
+          "libgcc-ng >=9.3.0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The GNU Binutils are a collection of binary tools (activation scripts)",
+    "summary": "GNU C Compiler (activation scripts)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613326639,
-    "version": "2.35"
+    "timestamp": 1613326643,
+    "version": "9.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "binutils_linux-aarch64-2.35-hd90a475_30.tar.bz2",
+  "package": "gcc_linux-ppc64le-9.3.0-h2bf1170_30.tar.bz2",
   "repodata": {
-    "build": "hd90a475_30",
+    "build": "h2bf1170_30",
     "build_number": 30,
     "depends": [
-      "binutils_impl_linux-aarch64 2.35.*",
+      "binutils_linux-ppc64le 2.35 hee13102_30",
+      "gcc_impl_linux-64 9.3.0.*",
+      "gcc_impl_linux-ppc64le 9.3.0.*",
       "sysroot_linux-64",
-      "sysroot_linux-aarch64"
+      "sysroot_linux-ppc64le"
     ],
     "license": "BSD-3-Clause",
-    "md5": "9ebec74f88cb1675f02e9425d44be9ee",
-    "name": "binutils_linux-aarch64",
-    "sha256": "c387dc5996cc48302a716b6f892e6de5e227157cfce72e59feb42f0961b8d5cf",
-    "size": 22739,
+    "md5": "4e3470e3bad1eb905df6be8d5471b474",
+    "name": "gcc_linux-ppc64le",
+    "sha256": "906f5ce412b14e42d06b41f5453f387e524fdd358396cec6b095972031d0b50a",
+    "size": 23292,
     "subdir": "linux-64",
-    "timestamp": 1613326639556,
-    "version": "2.35"
+    "timestamp": 1613326643263,
+    "version": "9.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/binutils_linux-aarch64-2.35-hd90a475_30.tar.bz2/binutils_linux-aarch64-2.35-hd90a475_30.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gcc_linux-ppc64le-9.3.0-h2bf1170_30.tar.bz2"
 }

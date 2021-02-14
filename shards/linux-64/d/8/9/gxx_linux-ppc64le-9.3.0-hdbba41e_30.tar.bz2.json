@@ -17,42 +17,51 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "9.3.0": {
+        "strong": [
+          "libstdcxx-ng >=9.3.0",
+          "libgcc-ng >=9.3.0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The GNU Binutils are a collection of binary tools (activation scripts)",
+    "summary": "GNU C++ Compiler (activation scripts)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613326639,
-    "version": "2.35"
+    "timestamp": 1613326663,
+    "version": "9.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "binutils_linux-aarch64-2.35-hd90a475_30.tar.bz2",
+  "package": "gxx_linux-ppc64le-9.3.0-hdbba41e_30.tar.bz2",
   "repodata": {
-    "build": "hd90a475_30",
+    "build": "hdbba41e_30",
     "build_number": 30,
     "depends": [
-      "binutils_impl_linux-aarch64 2.35.*",
-      "sysroot_linux-64",
-      "sysroot_linux-aarch64"
+      "binutils_linux-ppc64le 2.35 hee13102_30",
+      "gcc_linux-ppc64le 9.3.0 h2bf1170_30",
+      "gxx_impl_linux-64 9.3.0.*",
+      "gxx_impl_linux-ppc64le 9.3.0.*",
+      "sysroot_linux-ppc64le"
     ],
     "license": "BSD-3-Clause",
-    "md5": "9ebec74f88cb1675f02e9425d44be9ee",
-    "name": "binutils_linux-aarch64",
-    "sha256": "c387dc5996cc48302a716b6f892e6de5e227157cfce72e59feb42f0961b8d5cf",
-    "size": 22739,
+    "md5": "5932a494f46b7e0f81d4cc32c437c8d6",
+    "name": "gxx_linux-ppc64le",
+    "sha256": "9d351b2e86a86b3fc67511a9ca496618935da4b21d97c6ade34f07288b7c7a1a",
+    "size": 23028,
     "subdir": "linux-64",
-    "timestamp": 1613326639556,
-    "version": "2.35"
+    "timestamp": 1613326663530,
+    "version": "9.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/binutils_linux-aarch64-2.35-hd90a475_30.tar.bz2/binutils_linux-aarch64-2.35-hd90a475_30.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gxx_linux-ppc64le-9.3.0-hdbba41e_30.tar.bz2"
 }

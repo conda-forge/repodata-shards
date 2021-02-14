@@ -17,42 +17,51 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "7.5.0": {
+        "strong": [
+          "libstdcxx-ng >=7.5.0",
+          "libgcc-ng >=7.5.0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The GNU Binutils are a collection of binary tools (activation scripts)",
+    "summary": "GNU C++ Compiler (activation scripts)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613326639,
-    "version": "2.35"
+    "timestamp": 1613326661,
+    "version": "7.5.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "binutils_linux-aarch64-2.35-hd90a475_30.tar.bz2",
+  "package": "gxx_linux-aarch64-7.5.0-he47ccdd_30.tar.bz2",
   "repodata": {
-    "build": "hd90a475_30",
+    "build": "he47ccdd_30",
     "build_number": 30,
     "depends": [
-      "binutils_impl_linux-aarch64 2.35.*",
-      "sysroot_linux-64",
+      "binutils_linux-aarch64 2.35 hd90a475_30",
+      "gcc_linux-aarch64 7.5.0 h5b3071b_30",
+      "gxx_impl_linux-64 7.5.0.*",
+      "gxx_impl_linux-aarch64 7.5.0.*",
       "sysroot_linux-aarch64"
     ],
     "license": "BSD-3-Clause",
-    "md5": "9ebec74f88cb1675f02e9425d44be9ee",
-    "name": "binutils_linux-aarch64",
-    "sha256": "c387dc5996cc48302a716b6f892e6de5e227157cfce72e59feb42f0961b8d5cf",
-    "size": 22739,
+    "md5": "4fccd93cd4640f72cf6612ad97b18a9b",
+    "name": "gxx_linux-aarch64",
+    "sha256": "31b42694fc680bcfd09e619f23c6c916f4cd76f57ea49e58a6174908da5c8b02",
+    "size": 23017,
     "subdir": "linux-64",
-    "timestamp": 1613326639556,
-    "version": "2.35"
+    "timestamp": 1613326661555,
+    "version": "7.5.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/binutils_linux-aarch64-2.35-hd90a475_30.tar.bz2/binutils_linux-aarch64-2.35-hd90a475_30.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gxx_linux-aarch64-7.5.0-he47ccdd_30.tar.bz2"
 }
