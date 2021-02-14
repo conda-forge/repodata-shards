@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/d/desktop-app/desktop-app-0.2.6.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Simplify making a Python GUI application.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1613319879,
+    "text_prefix": false,
+    "timestamp": 1613320346,
     "version": "0.2.6"
   },
   "channeldata_version": 1,
@@ -34,30 +34,31 @@
   "labels": [
     "main"
   ],
-  "package": "desktop-app-0.2.6-py39he80948d_2.tar.bz2",
+  "package": "desktop-app-0.2.6-py39h415ef7b_2.tar.bz2",
   "repodata": {
-    "build": "py39he80948d_2",
+    "build": "py39h415ef7b_2",
     "build_number": 2,
     "depends": [
       "distlib",
       "importlib_metadata",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
       "python >=3.9,<3.10.0a0",
       "python_abi 3.9.* *_cp39",
-      "setuptools_scm"
+      "pywin32",
+      "setuptools_scm",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "BSD-2-Clause",
     "license_family": "BSD",
-    "md5": "57d6fd88d590e780007a47d7f2000c3e",
+    "md5": "7a1836dd649975a18758466abaa7f61c",
     "name": "desktop-app",
-    "sha256": "62d4c70772bd4e189fce9b582128035f79473a36132af2ded10363a49a481d98",
-    "size": 30632,
-    "subdir": "linux-64",
-    "timestamp": 1613319879315,
+    "sha256": "e46f9d3c962e3514d0701524273180b8053fdd005b6b2a1f302382dee5271bc8",
+    "size": 104892,
+    "subdir": "win-64",
+    "timestamp": 1613320346151,
     "version": "0.2.6"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/desktop-app-0.2.6-py39he80948d_2.tar.bz2/desktop-app-0.2.6-py39he80948d_2.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/desktop-app-0.2.6-py39h415ef7b_2.tar.bz2"
 }
