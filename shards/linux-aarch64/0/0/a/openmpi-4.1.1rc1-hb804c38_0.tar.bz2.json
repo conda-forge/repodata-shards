@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners.",
+    "dev_url": "https://github.com/open-mpi/ompi",
+    "doc_source_url": null,
+    "doc_url": "https://www.open-mpi.org/doc/",
+    "home": "https://www.open-mpi.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.1.1rc1": {
+        "weak": [
+          "openmpi >=4.1.1,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.open-mpi.org/software/ompi/v4.1/downloads/openmpi-4.1.1rc1.tar.bz2",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "An open source Message Passing Interface implementation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1613296552,
+    "version": "4.1.1rc1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "openmpi_rc"
+  ],
+  "package": "openmpi-4.1.1rc1-hb804c38_0.tar.bz2",
+  "repodata": {
+    "build": "hb804c38_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "mpi 1.0 openmpi",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "3ed6342d71ab1cb3c03dbec73f7c7057",
+    "name": "openmpi",
+    "sha256": "6ebb4e0209d3db44b37a6beaaa26560ec6620030f9622efcfa40a10746e1a6c8",
+    "size": 4058164,
+    "subdir": "linux-aarch64",
+    "timestamp": 1613296552467,
+    "version": "4.1.1rc1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/label/openmpi_rc/linux-aarch64/openmpi-4.1.1rc1-hb804c38_0.tar.bz2"
+}
