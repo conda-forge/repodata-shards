@@ -17,41 +17,50 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "9.3.0": {
+        "strong": [
+          "libgcc-ng >=9.3.0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
       "linux-64"
     ],
-    "summary": "The GNU Binutils are a collection of binary tools (activation scripts)",
+    "summary": "GNU C Compiler (activation scripts)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613326636,
-    "version": "2.35"
+    "timestamp": 1613326633,
+    "version": "9.3.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "binutils_linux-64-2.35-h67ddf6f_30.tar.bz2",
+  "package": "gcc_linux-aarch64-9.3.0-h3d13204_30.tar.bz2",
   "repodata": {
-    "build": "h67ddf6f_30",
+    "build": "h3d13204_30",
     "build_number": 30,
     "depends": [
-      "binutils_impl_linux-64 2.35.*",
-      "sysroot_linux-64"
+      "binutils_linux-aarch64 2.35 hd90a475_30",
+      "gcc_impl_linux-64 9.3.0.*",
+      "gcc_impl_linux-aarch64 9.3.0.*",
+      "sysroot_linux-64",
+      "sysroot_linux-aarch64"
     ],
     "license": "BSD-3-Clause",
-    "md5": "99b3270216094c06bb0a96688035ded4",
-    "name": "binutils_linux-64",
-    "sha256": "dd8172a0ea1830a88cb5e3fd39b8b7d130047daa4f8bfeee807e2760d02ffaf2",
-    "size": 22745,
+    "md5": "2994b2af5bf013f6822835311e352a4c",
+    "name": "gcc_linux-aarch64",
+    "sha256": "e8cc874d8ef47332ef4574bfade7c42e4a9bff8ee9c69ec0f8cbabe2e69665c5",
+    "size": 23298,
     "subdir": "linux-64",
-    "timestamp": 1613326636846,
-    "version": "2.35"
+    "timestamp": 1613326633645,
+    "version": "9.3.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/binutils_linux-64-2.35-h67ddf6f_30.tar.bz2/binutils_linux-64-2.35-h67ddf6f_30.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gcc_linux-aarch64-9.3.0-h3d13204_30.tar.bz2"
 }
