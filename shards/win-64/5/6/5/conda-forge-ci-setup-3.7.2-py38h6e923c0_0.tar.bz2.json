@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "A package installed by conda-forge each time a build is run on CI. This package has side-effects to your conda config.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1613494052,
+    "text_prefix": false,
+    "timestamp": 1613494914,
     "version": "3.7.2"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "conda-forge-ci-setup-3.7.2-py38h66f0ec1_0.tar.bz2",
+  "package": "conda-forge-ci-setup-3.7.2-py38h6e923c0_0.tar.bz2",
   "repodata": {
-    "build": "py38h66f0ec1_0",
+    "build": "py38h6e923c0_0",
     "build_number": 0,
     "depends": [
       "anaconda-client",
@@ -44,27 +44,27 @@
       "conda >=4.3",
       "conda-build 3.*",
       "conda-env",
-      "git",
       "jinja2",
-      "jq",
+      "m2-git",
       "pip",
       "python >=3.8,<3.9.0a0",
       "python_abi 3.8.* *_cp38",
       "pyyaml",
       "requests",
       "ruamel_yaml",
-      "shyaml"
+      "shyaml",
+      "vs2008_express_vc_python_patch"
     ],
     "license": "BSD-3-Clause",
-    "md5": "9d7e5d634b4d8e0ded348c7009cae87e",
+    "md5": "4f37db27572e0e157639e0591551b9f6",
     "name": "conda-forge-ci-setup",
-    "sha256": "e4c1ae5e644589a47b10574302c1b1c240c197d20f64bc3887ce70f25dd8e448",
-    "size": 36834,
-    "subdir": "linux-64",
-    "timestamp": 1613494052217,
+    "sha256": "b15169253db3397242d23abca056814844ba09c2f5ecac119abef19dadd745df",
+    "size": 65047,
+    "subdir": "win-64",
+    "timestamp": 1613494914310,
     "version": "3.7.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/conda-forge-ci-setup-3.7.2-py38h66f0ec1_0.tar.bz2/conda-forge-ci-setup-3.7.2-py38h66f0ec1_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/conda-forge-ci-setup-3.7.2-py38h6e923c0_0.tar.bz2"
 }
