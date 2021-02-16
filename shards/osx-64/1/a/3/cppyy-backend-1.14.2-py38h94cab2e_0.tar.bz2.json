@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "C/C++ wrapper around Cling, the LLVM-based interactive C++ interpreter, for use by cppyy, providing stable C and C++ Reflection APIs.",
     "dev_url": "https://bitbucket.org/wlav/cppyy-backend/src",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/c/cppyy-backend/cppyy-backend-1.14.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Automatic Python-C++ bindings",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613504371,
+    "timestamp": 1613504678,
     "version": "1.14.2"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "cppyy-backend-1.14.2-py38h1fd1430_0.tar.bz2",
+  "package": "cppyy-backend-1.14.2-py38h94cab2e_0.tar.bz2",
   "repodata": {
-    "build": "py38h1fd1430_0",
+    "build": "py38h94cab2e_0",
     "build_number": 0,
     "depends": [
       "cppyy-cling 6.21.5.*",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "python >=3.8,<3.9.0a0",
       "python_abi 3.8.* *_cp38"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "a5576a186652f44a9ba20ab365fc4581",
+    "md5": "72da5ecf0dba5a50c7d94bdbbfe9539f",
     "name": "cppyy-backend",
-    "sha256": "32fa8474ed3df2532fe92b3d93695ff15586e97083d6880e3d0d7bdf142c7006",
-    "size": 77316,
-    "subdir": "linux-64",
-    "timestamp": 1613504371921,
+    "sha256": "ef57d904607c12682fd3949761a052f00fe6929c3896a18bb49f1747d2263be1",
+    "size": 67897,
+    "subdir": "osx-64",
+    "timestamp": 1613504678814,
     "version": "1.14.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cppyy-backend-1.14.2-py38h1fd1430_0.tar.bz2/cppyy-backend-1.14.2-py38h1fd1430_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cppyy-backend-1.14.2-py38h94cab2e_0.tar.bz2"
 }
