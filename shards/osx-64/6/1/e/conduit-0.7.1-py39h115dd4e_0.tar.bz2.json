@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/LLNL/conduit/releases/download/v0.7.1/conduit-v0.7.1-src-with-blt.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Simplified Data Exchange for HPC Simulations",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1613502441,
+    "timestamp": 1613502850,
     "version": "0.7.1"
   },
   "channeldata_version": 1,
@@ -34,32 +34,31 @@
   "labels": [
     "main"
   ],
-  "package": "conduit-0.7.1-py36ha0ffd72_0.tar.bz2",
+  "package": "conduit-0.7.1-py39h115dd4e_0.tar.bz2",
   "repodata": {
-    "build": "py36ha0ffd72_0",
+    "build": "py39h115dd4e_0",
     "build_number": 0,
     "depends": [
       "hdf5 >=1.10.6,<1.10.7.0a0",
-      "libgcc-ng >=9.3.0",
-      "libgfortran-ng",
+      "libcxx >=11.0.1",
+      "libgfortran 5.*",
       "libgfortran5 >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "mpich >=3.4,<3.5.0a0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "openmpi >=4.1,<4.2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "0c4ac24fcada294ba66b2546fc8f6df4",
+    "md5": "7b4c53e4ffd3f9cb269b8976bd31edc5",
     "name": "conduit",
-    "sha256": "b0d31573b7a26ea0652528132140de234472738b5f09ba4dc915a62124cb42e2",
-    "size": 1785062,
-    "subdir": "linux-64",
-    "timestamp": 1613502441779,
+    "sha256": "e92e41f5771ea856f7b56cf8082303955be6af270baa3383e8dc25daebdcaec2",
+    "size": 1598054,
+    "subdir": "osx-64",
+    "timestamp": 1613502850403,
     "version": "0.7.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/conduit-0.7.1-py36ha0ffd72_0.tar.bz2/conduit-0.7.1-py36ha0ffd72_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/conduit-0.7.1-py39h115dd4e_0.tar.bz2"
 }
