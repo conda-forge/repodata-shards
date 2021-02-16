@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The HistFactory p.d.f. template [CERN-OPEN-2012-016] is per-se independent of its implementation in ROOT and sometimes, it's useful to be able to run statistical analysis outside of ROOT, RooFit, RooStats framework.  This repo is a pure-python implementation of that statistical model for multi-bin histogram-based analysis and its interval estimation is based on the asymptotic formulas of \"Asymptotic formulae for likelihood-based tests of new physics\" [arXiv:1007.1727]. The aim is also to support modern computational graph libraries such as PyTorch and TensorFlow in order to make use of features such as autodifferentiation and GPU acceleration.",
+    "dev_url": "https://github.com/scikit-hep/pyhf",
+    "doc_source_url": null,
+    "doc_url": "https://pyhf.readthedocs.io/",
+    "home": "https://github.com/scikit-hep/pyhf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pyhf/pyhf-0.6.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "pure-Python HistFactory implementation",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1613459523,
+    "version": "0.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pyhf-0.6.0-pyhd8ed1ab_1.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_1",
+    "build_number": 1,
+    "depends": [
+      "click >=7.0",
+      "jsonpatch >=1.23",
+      "jsonschema >=3.2.0",
+      "python >=3.7",
+      "pyyaml >=5.1",
+      "scipy >=1.4.0",
+      "tqdm >=4.56"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "744bba143ef1d95b8900f8bc352aa99b",
+    "name": "pyhf",
+    "noarch": "python",
+    "sha256": "5b0da85852e45798436f4f7db982392ef77f5738445cb4caf11281c0718d9f7f",
+    "size": 92697,
+    "subdir": "noarch",
+    "timestamp": 1613459523562,
+    "version": "0.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyhf-0.6.0-pyhd8ed1ab_1.tar.bz2"
+}
