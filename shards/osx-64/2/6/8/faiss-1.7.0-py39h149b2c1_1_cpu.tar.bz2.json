@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. It is developed by [Facebook AI Research](https://research.fb.com/category/facebook-ai-research-fair/).  For best performance, the maintainers of the package [recommend](https://github.com/conda-forge/staged-recipes/pull/11337#issuecomment-623718460) using the MKL implementation of blas/lapack. You can ensure that this is installed by adding \"libblas =*=*mkl\" to your dependencies.",
+    "dev_url": "https://github.com/facebookresearch/faiss",
+    "doc_source_url": null,
+    "doc_url": "https://rawgit.com/facebookresearch/faiss/master/docs/html/annotated.html",
+    "home": "https://github.com/facebookresearch/faiss",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/facebookresearch/faiss/archive/v1.7.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A library for efficient similarity search and clustering of dense vectors.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1613601893,
+    "version": "1.7.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "faiss-1.7.0-py39h149b2c1_1_cpu.tar.bz2",
+  "repodata": {
+    "build": "py39h149b2c1_1_cpu",
+    "build_number": 1,
+    "constrains": [
+      "faiss-proc * cpu"
+    ],
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=10.0.1",
+      "libfaiss 1.7.0 *_cpu",
+      "liblapack >=3.8.0,<4.0a0",
+      "llvm-openmp >=11.0.1",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "8ee60d97a010a0852e43e2591bbd65ec",
+    "name": "faiss",
+    "sha256": "ab1d184faed83e2e07c310cd0f5ef92fb456a29081a72b66bf8f8496e386bf27",
+    "size": 830743,
+    "subdir": "osx-64",
+    "timestamp": 1613601893163,
+    "version": "1.7.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/faiss-1.7.0-py39h149b2c1_1_cpu.tar.bz2"
+}
