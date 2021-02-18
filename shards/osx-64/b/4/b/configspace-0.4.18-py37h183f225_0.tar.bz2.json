@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/C/ConfigSpace/ConfigSpace-0.4.18.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Creation and manipulation of parameter configuration spaces for automated algorithm configuration and hyperparameter tuning.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613651500,
+    "timestamp": 1613651631,
     "version": "0.4.18"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "configspace-0.4.18-py39hce5d2b2_0.tar.bz2",
+  "package": "configspace-0.4.18-py37h183f225_0.tar.bz2",
   "repodata": {
-    "build": "py39hce5d2b2_0",
+    "build": "py37h183f225_0",
     "build_number": 0,
     "depends": [
       "cython",
-      "libgcc-ng >=9.3.0",
-      "numpy >=1.19.5,<2.0a0",
+      "numpy >=1.16.6,<2.0a0",
       "pyparsing",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39"
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
     ],
     "license": "BSD-3-Clause",
-    "md5": "9bafb8f82e2acad72a2188a2ae9b13a4",
+    "md5": "f5dbde62e5a93e9d3cb0eeda5f407b00",
     "name": "configspace",
-    "sha256": "87067d44ae6bcd049b1ae4b597a9836d7347efdf1b63d046b6251554a8c2ddbb",
-    "size": 884017,
-    "subdir": "linux-64",
-    "timestamp": 1613651500436,
+    "sha256": "d614accda423e6dcf94fe79d10d289351cb821ce801c8a4a736c59c918e662b4",
+    "size": 652153,
+    "subdir": "osx-64",
+    "timestamp": 1613651631352,
     "version": "0.4.18"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/configspace-0.4.18-py39hce5d2b2_0.tar.bz2/configspace-0.4.18-py39hce5d2b2_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/configspace-0.4.18-py37h183f225_0.tar.bz2"
 }
