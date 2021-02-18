@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "atomMan: the Atomistic Manipulation Toolkit is a Python library for creating, representing, manipulating, and analyzing large-scale atomic systems of atoms. The focus of the package is to facilitate the rapid design and development of simulations that are fully documented and easily adaptable to new potentials, configurations, etc.",
     "dev_url": "https://github.com/usnistgov/atomman",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/a/atomman/atomman-1.3.6.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Atomistic Manipulation Toolkit",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613671530,
+    "timestamp": 1613671984,
     "version": "1.3.6"
   },
   "channeldata_version": 1,
@@ -34,37 +34,36 @@
   "labels": [
     "main"
   ],
-  "package": "atomman-1.3.6-py38h497a2fe_0.tar.bz2",
+  "package": "atomman-1.3.6-py37h7585375_0.tar.bz2",
   "repodata": {
-    "build": "py38h497a2fe_0",
+    "build": "py37h7585375_0",
     "build_number": 0,
     "depends": [
       "cython",
       "datamodeldict",
-      "libgcc-ng >=9.3.0",
       "matplotlib-base",
       "numericalunits",
       "numpy >=1.15",
       "pandas",
       "pip",
       "potentials 0.2.8.*",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "scipy",
       "toolz",
       "xmltodict"
     ],
     "license": "OTHER",
     "license_family": "OTHER",
-    "md5": "ceb8094edf28132a59f4fc1990cd1d16",
+    "md5": "98ff6c981338416fbe4c9a5cde3c0a3d",
     "name": "atomman",
-    "sha256": "95cd893c619bf19d2641e6c6361cc1fc7fd6f6de96da4c12b4a7adfbb991b8ca",
-    "size": 933584,
-    "subdir": "linux-64",
-    "timestamp": 1613671530451,
+    "sha256": "b2a6f232e0d384bbc98673c5cabe18260fde8decf8615be77ff3b3ac66327ec1",
+    "size": 879824,
+    "subdir": "osx-64",
+    "timestamp": 1613671984486,
     "version": "1.3.6"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/atomman-1.3.6-py38h497a2fe_0.tar.bz2/atomman-1.3.6-py38h497a2fe_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/atomman-1.3.6-py37h7585375_0.tar.bz2"
 }
