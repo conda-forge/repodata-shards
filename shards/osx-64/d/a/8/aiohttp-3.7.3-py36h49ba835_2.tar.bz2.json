@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/aio-libs/aiohttp",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/a/aiohttp/aiohttp-3.7.3.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Async http client/server framework (asyncio)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613848019,
+    "timestamp": 1613848138,
     "version": "3.7.3"
   },
   "channeldata_version": 1,
@@ -34,34 +34,32 @@
   "labels": [
     "main"
   ],
-  "package": "aiohttp-3.7.3-py36h70b1f00_2.tar.bz2",
+  "package": "aiohttp-3.7.3-py36h49ba835_2.tar.bz2",
   "repodata": {
-    "build": "py36h70b1f00_2",
+    "build": "py36h49ba835_2",
     "build_number": 2,
     "depends": [
       "async-timeout >=3.0,<4.0",
       "attrs >=17.3.0",
       "chardet >=2.0,<4.0",
       "idna_ssl >=1.0",
-      "libgcc-ng >=9.3.0",
       "multidict >=4.5,<7.0",
-      "pypy3.6 >=7.3.3",
       "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73",
+      "python_abi 3.6.* *_cp36m",
       "typing-extensions >=3.6.5",
       "yarl >=1.0,<2.0"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "aa5ae554fdf5ba2a2e9ee80ecaf22409",
+    "md5": "e21c8e50e999dda039b28111d4dc51a4",
     "name": "aiohttp",
-    "sha256": "d927710bbedbecafdc60e5872cc95bee361922700992e844e362a30f58c730b8",
-    "size": 600784,
-    "subdir": "linux-64",
-    "timestamp": 1613848019574,
+    "sha256": "c292928edfdf11037d3abeb3f77827632d35df2f7caf81e81baa82af9d6b4e05",
+    "size": 606982,
+    "subdir": "osx-64",
+    "timestamp": 1613848138312,
     "version": "3.7.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/aiohttp-3.7.3-py36h70b1f00_2.tar.bz2/aiohttp-3.7.3-py36h70b1f00_2.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/aiohttp-3.7.3-py36h49ba835_2.tar.bz2"
 }
