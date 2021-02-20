@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "lintegrate provides Python functions for numerical integration of functions in log-space. This is useful for functions that have a very large dynamic range, or intrinsically would include very large or small numbers, and therefore it is more practical to work with the natural logarithm of the function. In these cases it is useful to also stay within log-space when integrating the function, which is what this package enables.  The functions provided by lintegrate are equivalent to, and based on, several numerical integration routines provided within the GNU Scientific Library (GSL).",
+    "dev_url": "https://github.com/mattpitkin/lintegrate",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/mattpitkin/lintegrate",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": "https://github.com/mattpitkin/lintegrate.git",
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Python functions implementing numerical integration of functions in log-space.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1613819722,
+    "version": "0.1.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "lintegrate-0.1.6-py37h65f71bc_0.tar.bz2",
+  "repodata": {
+    "build": "py37h65f71bc_0",
+    "build_number": 0,
+    "depends": [
+      "gsl >=2.6,<2.7.0a0",
+      "numpy >=1.16.6,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "c52ccea4d0886e7fb69025a3893077fa",
+    "name": "lintegrate",
+    "sha256": "6fbb5ebb2bda0c4cfe59ee81b2fb8f0e83582d7d8d17065be328abbea1825d0e",
+    "size": 113123,
+    "subdir": "osx-64",
+    "timestamp": 1613819722985,
+    "version": "0.1.6"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lintegrate-0.1.6-py37h65f71bc_0.tar.bz2"
+}
