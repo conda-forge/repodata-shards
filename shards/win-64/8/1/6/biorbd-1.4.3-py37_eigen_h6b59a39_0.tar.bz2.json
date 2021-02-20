@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "Biomechanical add-ons to the RigidBody Dynamics Library .",
     "dev_url": "https://github.com/pyomeca/biorbd/",
@@ -21,19 +21,19 @@
       "1.4.3": {
         "weak": [
           "biorbd >=1.4.3,<1.5.0a0",
-          "biorbd * casadi_*"
+          "biorbd * eigen_*"
         ]
       }
     },
     "source_git_url": null,
     "source_url": "https://github.com/pyomeca/biorbd/archive/Release_1.4.3.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Biomechanical add-ons to the RigidBody Dynamics Library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613843135,
+    "timestamp": 1613843708,
     "version": "1.4.3"
   },
   "channeldata_version": 1,
@@ -41,33 +41,33 @@
   "labels": [
     "main"
   ],
-  "package": "biorbd-1.4.3-py37_casadi_h10fe0fe_0.tar.bz2",
+  "package": "biorbd-1.4.3-py37_eigen_h6b59a39_0.tar.bz2",
   "repodata": {
-    "build": "py37_casadi_h10fe0fe_0",
+    "build": "py37_eigen_h6b59a39_0",
     "build_number": 0,
     "depends": [
-      "casadi",
+      "eigen",
       "ipopt >=3.13.3,<3.14.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "numpy >=1.16.6,<2.0a0",
       "python >=3.7,<3.8.0a0",
       "python_abi 3.7.* *_cp37m",
-      "rbdl * casadi_*",
+      "rbdl * eigen_*",
       "rbdl >=2.6.0.13,<2.7.0a0",
       "rbdl >=2.6.0.13,<3.0a0",
-      "tinyxml"
+      "tinyxml",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
-    "md5": "ba57fe0a5537c4fef2f17a733a9cbfbc",
+    "md5": "e18a9a370b7b3ffb0519eecc9bff1fe1",
     "name": "biorbd",
-    "sha256": "9605aa81cb2b9c44e3866ac9b353c194015814c1347b2996a373928ce295fe0d",
-    "size": 2125133,
-    "subdir": "linux-64",
-    "timestamp": 1613843135765,
-    "track_features": "casadi",
+    "sha256": "9ca988fa553f574003c093315b51cb2a1abc0d433e30f6e30d8c4bf2ede29da5",
+    "size": 4692791,
+    "subdir": "win-64",
+    "timestamp": 1613843708111,
     "version": "1.4.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/biorbd-1.4.3-py37_casadi_h10fe0fe_0.tar.bz2/biorbd-1.4.3-py37_casadi_h10fe0fe_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/biorbd-1.4.3-py37_eigen_h6b59a39_0.tar.bz2"
 }
