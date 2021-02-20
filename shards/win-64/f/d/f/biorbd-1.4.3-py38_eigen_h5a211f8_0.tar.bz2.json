@@ -28,12 +28,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/pyomeca/biorbd/archive/Release_1.4.3.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Biomechanical add-ons to the RigidBody Dynamics Library",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1613843333,
+    "timestamp": 1613843746,
     "version": "1.4.3"
   },
   "channeldata_version": 1,
@@ -41,33 +41,33 @@
   "labels": [
     "main"
   ],
-  "package": "biorbd-1.4.3-py36_eigen_h4d8fdae_0.tar.bz2",
+  "package": "biorbd-1.4.3-py38_eigen_h5a211f8_0.tar.bz2",
   "repodata": {
-    "build": "py36_eigen_h4d8fdae_0",
+    "build": "py38_eigen_h5a211f8_0",
     "build_number": 0,
     "depends": [
       "eigen",
       "ipopt >=3.13.3,<3.14.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
       "numpy >=1.16.6,<2.0a0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "rbdl * eigen_*",
       "rbdl >=2.6.0.13,<2.7.0a0",
       "rbdl >=2.6.0.13,<3.0a0",
-      "tinyxml"
+      "tinyxml",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
-    "md5": "d0f3641fc5ad632329aaa3e87a7db36a",
+    "md5": "78a88c133efb1ca1dd09fac938b866fa",
     "name": "biorbd",
-    "sha256": "6a5949ac56e78741543de3b16272d3673e71f3e18220cbc6b252f2c54a41c63b",
-    "size": 1892541,
-    "subdir": "linux-64",
-    "timestamp": 1613843333123,
+    "sha256": "1e49060f7055c2446bfcbd1a2a3f2de9a15edf6ce9d71e9e49fdbdd247315094",
+    "size": 4703085,
+    "subdir": "win-64",
+    "timestamp": 1613843746016,
     "version": "1.4.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/biorbd-1.4.3-py36_eigen_h4d8fdae_0.tar.bz2/biorbd-1.4.3-py36_eigen_h4d8fdae_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/biorbd-1.4.3-py38_eigen_h5a211f8_0.tar.bz2"
 }
