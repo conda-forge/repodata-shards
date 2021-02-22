@@ -27,12 +27,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/awslabs/aws-c-common/archive/v0.5.1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Core c99 package for AWS SDK for C. Includes cross-platform primitives, configuration, data structures, and error handling.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1614021130,
+    "timestamp": 1614021695,
     "version": "0.5.1"
   },
   "channeldata_version": 1,
@@ -40,24 +40,25 @@
   "labels": [
     "main"
   ],
-  "package": "aws-c-common-0.5.1-h7f98852_0.tar.bz2",
+  "package": "aws-c-common-0.5.1-h8ffe710_0.tar.bz2",
   "repodata": {
-    "build": "h7f98852_0",
+    "build": "h8ffe710_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0"
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "18850f9e839fb7143c78e30e02dffd7e",
+    "md5": "c88b2b7cd312643e607ccd3a5f8877ef",
     "name": "aws-c-common",
-    "sha256": "6f4d7c3519dadf3561ed425104cd097a14f763a225b1f41bee828bd038e89a63",
-    "size": 169230,
-    "subdir": "linux-64",
-    "timestamp": 1614021130530,
+    "sha256": "2c3d4d8c6739fe26a4fe2e0bcb06f2366e5fe1b8bacfa32c2bbeb0aaf7622fb2",
+    "size": 158914,
+    "subdir": "win-64",
+    "timestamp": 1614021695975,
     "version": "0.5.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/aws-c-common-0.5.1-h7f98852_0.tar.bz2/aws-c-common-0.5.1-h7f98852_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/aws-c-common-0.5.1-h8ffe710_0.tar.bz2"
 }
