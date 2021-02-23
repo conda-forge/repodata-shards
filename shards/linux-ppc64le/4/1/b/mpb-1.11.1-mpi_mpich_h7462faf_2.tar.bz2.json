@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/NanoComp/mpb",
+    "doc_source_url": null,
+    "doc_url": "https://mpb.readthedocs.io",
+    "home": "https://github.com/NanoComp/mpb",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.11.1": {
+        "weak": [
+          "mpb * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NanoComp/mpb/releases/download/v1.11.1/mpb-1.11.1.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "MIT Photonic-Bands - computation of photonic band structures in periodic media",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1614061213,
+    "version": "1.11.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "mpb-1.11.1-mpi_mpich_h7462faf_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h7462faf_2",
+    "build_number": 2,
+    "depends": [
+      "_openmp_mutex",
+      "fftw >=3.3.9,<4.0a0",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "mpich >=3.4,<3.5.0a0",
+      "zlib"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "9f1c2173f219b36a8eb82d24a62d6b17",
+    "name": "mpb",
+    "sha256": "d66f1374ad7af44895a9ccea32d85ce62e3d07c0c6c7928e5a801f55fe77df5e",
+    "size": 80450,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1614061213794,
+    "version": "1.11.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/mpb-1.11.1-mpi_mpich_h7462faf_2.tar.bz2"
+}
