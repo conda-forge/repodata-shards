@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/NanoComp/mpb",
+    "doc_source_url": null,
+    "doc_url": "https://mpb.readthedocs.io",
+    "home": "https://github.com/NanoComp/mpb",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.11.1": {
+        "weak": [
+          "mpb * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NanoComp/mpb/releases/download/v1.11.1/mpb-1.11.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "MIT Photonic-Bands - computation of photonic band structures in periodic media",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1614061335,
+    "version": "1.11.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "mpb-1.11.1-mpi_mpich_h1a8c430_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h1a8c430_2",
+    "build_number": 2,
+    "depends": [
+      "fftw >=3.3.9,<4.0a0",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "mpich >=3.4,<3.5.0a0",
+      "zlib"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "caf4ceb1e927b91f505a5960bcd5e1ed",
+    "name": "mpb",
+    "sha256": "a9ebc65be0aaa39ebac26310978bdfece6d2e2bf0e406bae6bd5ec5cfc8958b2",
+    "size": 66562,
+    "subdir": "osx-64",
+    "timestamp": 1614061335414,
+    "version": "1.11.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/mpb-1.11.1-mpi_mpich_h1a8c430_2.tar.bz2"
+}
