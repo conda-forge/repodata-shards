@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NVIDIA CUDA Deep Neural Network (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. It provides highly tuned implementations of routines arising frequently in DNN applications.  License Agreements:- The packages are governed by the NVIDIA cuDNN Software License Agreement (EULA). By downloading and using the packages, you accept the terms and conditions of the NVIDIA cuDNN EULA - https://docs.nvidia.com/deeplearning/cudnn/sla/index.html",
+    "dev_url": "https://developer.nvidia.com/rdp/cudnn-download",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/deeplearning/cudnn/",
+    "home": "https://developer.nvidia.com/cudnn",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "cuDNN Software License Agreement",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "8.1.0.77": {
+        "weak": [
+          "cudnn >=8.1.0.77,<9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://developer.download.nvidia.com/compute/redist/cudnn/v8.1.0/cudnn-11.2-windows-x64-v8.1.0.77.zip",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "NVIDIA's cuDNN deep neural network acceleration library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1614211275,
+    "version": "8.1.0.77"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "cudnn-8.1.0.77-h3e0f4f4_0.tar.bz2",
+  "repodata": {
+    "build": "h3e0f4f4_0",
+    "build_number": 0,
+    "depends": [
+      "cudatoolkit 11.*",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "cuDNN Software License Agreement",
+    "md5": "65d59c1d0a4e2915ab8ed30a1bc0c50b",
+    "name": "cudnn",
+    "sha256": "48af9f86b13818bffbf951651c37ebdc6604584abce0d8c1802944f39a5415e0",
+    "size": 640498763,
+    "subdir": "win-64",
+    "timestamp": 1614211275136,
+    "version": "8.1.0.77"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cudnn-8.1.0.77-h3e0f4f4_0.tar.bz2"
+}
