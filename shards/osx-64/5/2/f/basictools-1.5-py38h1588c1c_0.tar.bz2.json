@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://gitlab.com/DRTI/basic-tools/-/archive/v1.5/basic-tools-v1.5.tar.bz2",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Safran FE helper tools",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1614238823,
+    "timestamp": 1614239056,
     "version": "1.5"
   },
   "channeldata_version": 1,
@@ -34,21 +34,20 @@
   "labels": [
     "main"
   ],
-  "package": "basictools-1.5-py36h284efc9_0.tar.bz2",
+  "package": "basictools-1.5-py38h1588c1c_0.tar.bz2",
   "repodata": {
-    "build": "py36h284efc9_0",
+    "build": "py38h1588c1c_0",
     "build_number": 0,
     "depends": [
       "h5py",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "matplotlib-base",
       "mpi4py",
       "numpy >=1.16.6,<2.0a0",
       "pyamg",
       "pyparsing",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "scikit-sparse",
       "scipy",
       "sympy",
@@ -56,15 +55,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "d424bf3a91762a0420e8f627385033ba",
+    "md5": "9fd6b6ec8d853a8c1120b91fb8c232cc",
     "name": "basictools",
-    "sha256": "da4c9c819fa62d40ef1edc562b8bc3eb44d4a518cee1ec1e05c08f690b6eac31",
-    "size": 1586396,
-    "subdir": "linux-64",
-    "timestamp": 1614238823024,
+    "sha256": "c41caa5c17f615d115e9c338656bf6dc5c908f911f2d462b4228d98af4619768",
+    "size": 1569733,
+    "subdir": "osx-64",
+    "timestamp": 1614239056307,
     "version": "1.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/basictools-1.5-py36h284efc9_0.tar.bz2/basictools-1.5-py36h284efc9_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/basictools-1.5-py38h1588c1c_0.tar.bz2"
 }
