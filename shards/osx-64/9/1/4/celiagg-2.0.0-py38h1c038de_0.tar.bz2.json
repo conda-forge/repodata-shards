@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "celiagg is a Cython wrapper for the popular Anti-Grain Geometry 2D vector graphics library.",
     "dev_url": "https://github.com/celiagg/celiagg",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/celiagg/celiagg/archive/2.0.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Anti-Grain Geometry 2.4 for Python with Cython",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1614283469,
+    "timestamp": 1614283659,
     "version": "2.0.0"
   },
   "channeldata_version": 1,
@@ -34,28 +34,27 @@
   "labels": [
     "main"
   ],
-  "package": "celiagg-2.0.0-py36hfebaa8a_0.tar.bz2",
+  "package": "celiagg-2.0.0-py38h1c038de_0.tar.bz2",
   "repodata": {
-    "build": "py36hfebaa8a_0",
+    "build": "py38h1c038de_0",
     "build_number": 0,
     "depends": [
       "freetype >=2.10.4,<3.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "numpy >=1.16.6,<2.0a0",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "MIT",
-    "md5": "925bf831e7265d2201da527eb37dc5a7",
+    "md5": "7d37bd3a5f097a065525254c574bc7a9",
     "name": "celiagg",
-    "sha256": "fa7cc8352cbcb2723311d95bf1b0433495919a7f8756e41fe7c009ee093b5aec",
-    "size": 671001,
-    "subdir": "linux-64",
-    "timestamp": 1614283469500,
+    "sha256": "78e1b58ac51d1c9fade65452e3b00994de7c7b1ddfd4d3a431deb674e26d42b2",
+    "size": 579012,
+    "subdir": "osx-64",
+    "timestamp": 1614283659441,
     "version": "2.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/celiagg-2.0.0-py36hfebaa8a_0.tar.bz2/celiagg-2.0.0-py36hfebaa8a_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/celiagg-2.0.0-py38h1c038de_0.tar.bz2"
 }
