@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners.",
+    "dev_url": "https://github.com/open-mpi/ompi",
+    "doc_source_url": null,
+    "doc_url": "https://www.open-mpi.org/doc/",
+    "home": "https://www.open-mpi.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.1.0": {
+        "weak": [
+          "openmpi >=4.1.0,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.open-mpi.org/software/ompi/v4.1/downloads/openmpi-4.1.0.tar.bz2",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "An open source Message Passing Interface implementation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1614352502,
+    "version": "4.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "openmpi-4.1.0-hd3cd54c_2.tar.bz2",
+  "repodata": {
+    "build": "hd3cd54c_2",
+    "build_number": 2,
+    "depends": [
+      "libcxx >=11.0.1",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "mpi 1.0 openmpi",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "abe2c807a62e2511ddef6f4cf0e90cb1",
+    "name": "openmpi",
+    "sha256": "5371ad7995f6beeb59fe8f702a8dece2c609805dc051a53b2156b2f8c359cab8",
+    "size": 3336923,
+    "subdir": "osx-64",
+    "timestamp": 1614352502827,
+    "version": "4.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/openmpi-4.1.0-hd3cd54c_2.tar.bz2"
+}
