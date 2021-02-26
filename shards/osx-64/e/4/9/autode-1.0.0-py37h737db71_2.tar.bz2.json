@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "autodE is a Python package designed for the rapid generation of chemical reaction (free) energy profiles from SMILES or xyz geometries of reactants and products. It makes use of external electronic packages to perform geometry optimisations and single point energy and force evaluations.",
     "dev_url": "https://github.com/duartegroup/autodE/",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/duartegroup/autodE/archive/v1.0.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Automated reaction profile generation",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1614347676,
+    "timestamp": 1614347867,
     "version": "1.0.0"
   },
   "channeldata_version": 1,
@@ -34,32 +34,31 @@
   "labels": [
     "main"
   ],
-  "package": "autode-1.0.0-py36h605e78d_2.tar.bz2",
+  "package": "autode-1.0.0-py37h737db71_2.tar.bz2",
   "repodata": {
-    "build": "py36h605e78d_2",
+    "build": "py37h737db71_2",
     "build_number": 2,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.0.1",
       "matplotlib-base",
       "networkx",
       "numpy",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "rdkit",
       "scipy"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "fc83e227215ac38106c1c72b4dd4f0df",
+    "md5": "7fb60a93def4c0bff95bd1d84034f248",
     "name": "autode",
-    "sha256": "1d418b7b5d29a769e3b8e993a5dd308545bf5a23d400093d6a6621ccb910e679",
-    "size": 456646,
-    "subdir": "linux-64",
-    "timestamp": 1614347676471,
+    "sha256": "cbd8a9605802df4d3c1f2627cdc36b2c18a193b60bc84adcdb823a7116755dec",
+    "size": 422426,
+    "subdir": "osx-64",
+    "timestamp": 1614347867967,
     "version": "1.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/autode-1.0.0-py36h605e78d_2.tar.bz2/autode-1.0.0-py36h605e78d_2.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/autode-1.0.0-py37h737db71_2.tar.bz2"
 }
