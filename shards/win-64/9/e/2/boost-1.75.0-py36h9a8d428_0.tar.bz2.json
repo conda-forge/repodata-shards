@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://dl.bintray.com/boostorg/release/1.75.0/source/boost_1_75_0.tar.bz2",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Free peer-reviewed portable C++ source libraries.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1614378656,
+    "timestamp": 1614379442,
     "version": "1.75.0"
   },
   "channeldata_version": 1,
@@ -34,28 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "boost-1.75.0-py38hc10631b_0.tar.bz2",
+  "package": "boost-1.75.0-py36h9a8d428_0.tar.bz2",
   "repodata": {
-    "build": "py38hc10631b_0",
+    "build": "py36h9a8d428_0",
     "build_number": 0,
     "depends": [
       "boost-cpp 1.75.0.*",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
       "numpy >=1.16.6,<2.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "BSL-1.0",
-    "md5": "68c2c6c779a22a217a3161b44199acf4",
+    "md5": "f2a26ce285b5085aea087a9f4141ced8",
     "name": "boost",
-    "sha256": "43597b42a8a0bbbb0761d537396b4286596ba9b844d93e3f22339582ed50f727",
-    "size": 372701,
-    "subdir": "linux-64",
-    "timestamp": 1614378656196,
+    "sha256": "da1e9fc905b6cdcc050bd6f863c9bf455ac444eca8d00a023afe9ee9eef1ffe3",
+    "size": 570910,
+    "subdir": "win-64",
+    "timestamp": 1614379442599,
     "version": "1.75.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/boost-1.75.0-py38hc10631b_0.tar.bz2/boost-1.75.0-py38hc10631b_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/boost-1.75.0-py36h9a8d428_0.tar.bz2"
 }
