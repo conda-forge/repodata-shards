@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "11.1.0": {
+        "weak": [
+          "libllvm11 >=11.1.0,<11.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.1.0/llvm-11.1.0.src.tar.xz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1614635515,
+    "version": "11.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libllvm11-11.1.0-h4468dd5_0.tar.bz2",
+  "repodata": {
+    "build": "h4468dd5_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "eb436ffe2d992dd61aa01866b28a75fb",
+    "name": "libllvm11",
+    "sha256": "f96c6afc46a2beaf2befbe75585ee92612671d953853da531829be22a5321f0d",
+    "size": 21864148,
+    "subdir": "osx-arm64",
+    "timestamp": 1614635515942,
+    "version": "11.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libllvm11-11.1.0-h4468dd5_0.tar.bz2/libllvm11-11.1.0-h4468dd5_0.tar.bz2"
+}
