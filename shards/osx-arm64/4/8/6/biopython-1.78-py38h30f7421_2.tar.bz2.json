@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "Biopython is a collection of freely available Python tools for computational molecular biology",
     "dev_url": "https://github.com/biopython/biopython",
@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/b/biopython/biopython-1.78.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-arm64"
     ],
     "summary": "Collection of freely available tools for computational molecular biology",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1614602115,
+    "timestamp": 1614602380,
     "version": "1.78"
   },
   "channeldata_version": 1,
@@ -34,27 +34,25 @@
   "labels": [
     "main"
   ],
-  "package": "biopython-1.78-py36h70b1f00_2.tar.bz2",
+  "package": "biopython-1.78-py38h30f7421_2.tar.bz2",
   "repodata": {
-    "build": "py36h70b1f00_2",
+    "build": "py38h30f7421_2",
     "build_number": 2,
     "depends": [
-      "libgcc-ng >=9.3.0",
       "numpy",
-      "pypy3.6 >=7.3.3",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "LicenseRef-Biopython",
-    "md5": "13c16ea5beca291fa39515c7bc8ece6e",
+    "md5": "9ad9661a381df5513c8bd4239d4cf129",
     "name": "biopython",
-    "sha256": "43e9b06ced88d3429384c0498f4103e1658ad25a90dbf51bde85dead2a7be59c",
-    "size": 2755386,
-    "subdir": "linux-64",
-    "timestamp": 1614602115679,
+    "sha256": "4e76195d3439887242570a66c293764776cf7da477a875b12e5ce41e4bd609c2",
+    "size": 2702283,
+    "subdir": "osx-arm64",
+    "timestamp": 1614602380313,
     "version": "1.78"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/biopython-1.78-py36h70b1f00_2.tar.bz2/biopython-1.78-py36h70b1f00_2.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/biopython-1.78-py38h30f7421_2.tar.bz2"
 }
