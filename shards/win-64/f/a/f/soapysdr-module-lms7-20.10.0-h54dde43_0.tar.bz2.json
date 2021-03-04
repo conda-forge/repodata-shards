@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Lime Suite is a collection of software supporting several hardware platforms including the LimeSDR, drivers for the LMS7002M transceiver RFIC, and other tools for developing with LMS7-based hardware. Installing the Lime Suite enables many SDR applications such as GQRX to work with supported hardware through the bundled SoapySDR support module.  The `liblimesuite` package contains the main library that other packages should develop against. The `soapysdr-module-lms7` package contains the Soapy SDR module that supports Lime devices. The `limesuite` package provides the entire software suite, depending on the previous packages and also providing GUI tools.",
+    "dev_url": "https://github.com/myriadrf/LimeSuite",
+    "doc_source_url": null,
+    "doc_url": "https://wiki.myriadrf.org/Lime_Suite",
+    "home": "http://wiki.myriadrf.org/Lime_Suite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 AND MIT AND BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/myriadrf/LimeSuite/archive/v20.10.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Driver and GUI for LMS7002M-based (Lime) SDR platforms",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1614881647,
+    "version": "20.10.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "soapysdr-module-lms7-20.10.0-h54dde43_0.tar.bz2",
+  "repodata": {
+    "build": "h54dde43_0",
+    "build_number": 0,
+    "depends": [
+      "liblimesuite 20.10.0 h0e60522_0",
+      "soapysdr >=0.7.2,<0.8.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "Apache-2.0 AND MIT AND BSD-3-Clause",
+    "md5": "e9a6f47b716a44d84fef5a149454a317",
+    "name": "soapysdr-module-lms7",
+    "sha256": "d15928d31645af127b10a86a76804618c99e716758137e4492d5cbdbed472139",
+    "size": 69652,
+    "subdir": "win-64",
+    "timestamp": 1614881647498,
+    "version": "20.10.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/soapysdr-module-lms7-20.10.0-h54dde43_0.tar.bz2"
+}
