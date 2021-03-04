@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/g/goofit/goofit-2.2.3.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A fitting package for GPU and CPU",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1614887305,
+    "timestamp": 1614887960,
     "version": "2.2.3"
   },
   "channeldata_version": 1,
@@ -34,33 +34,32 @@
   "labels": [
     "main"
   ],
-  "package": "goofit-2.2.3-py38hbf523db_5.tar.bz2",
+  "package": "goofit-2.2.3-py38h528dc1a_5.tar.bz2",
   "repodata": {
-    "build": "py38hbf523db_5",
+    "build": "py38h528dc1a_5",
     "build_number": 5,
     "constrains": [
-      "goofit-proc * cpu"
+      "goofit-proc * cpu",
+      "__osx >=10.12"
     ],
     "depends": [
-      "_openmp_mutex >=4.5",
-      "libgcc-ng >=7.5.0",
-      "libgomp",
-      "libstdcxx-ng >=7.5.0",
+      "libcxx >=11.0.1",
+      "llvm-openmp >=11.0.1",
       "numpy >=1.11.1",
       "python >=3.8,<3.9.0a0",
       "python_abi 3.8.* *_cp38"
     ],
     "license": "LGPL-3.0-only",
     "license_family": "LGPL",
-    "md5": "ef74e2e5705cf59d83e7a5f38b55120e",
+    "md5": "9573b21dc5a5c72ec3d5eaed11efc914",
     "name": "goofit",
-    "sha256": "9c1ba1c31d162353e5d3d0795a5c7cc321232e32ef4860475bef1d66d30510c8",
-    "size": 1787383,
-    "subdir": "linux-64",
-    "timestamp": 1614887305071,
+    "sha256": "c255cc7ef02c01cda8adf7e5cc853d9fe70d2c551750e9875ebe359dd34fbf6c",
+    "size": 1493690,
+    "subdir": "osx-64",
+    "timestamp": 1614887960798,
     "version": "2.2.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/goofit-2.2.3-py38hbf523db_5.tar.bz2/goofit-2.2.3-py38hbf523db_5.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/goofit-2.2.3-py38h528dc1a_5.tar.bz2"
 }
