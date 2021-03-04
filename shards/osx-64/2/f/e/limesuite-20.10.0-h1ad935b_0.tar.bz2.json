@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Lime Suite is a collection of software supporting several hardware platforms including the LimeSDR, drivers for the LMS7002M transceiver RFIC, and other tools for developing with LMS7-based hardware. Installing the Lime Suite enables many SDR applications such as GQRX to work with supported hardware through the bundled SoapySDR support module.  The `liblimesuite` package contains the main library that other packages should develop against. The `soapysdr-module-lms7` package contains the Soapy SDR module that supports Lime devices. The `limesuite` package provides the entire software suite, depending on the previous packages and also providing GUI tools.",
+    "dev_url": "https://github.com/myriadrf/LimeSuite",
+    "doc_source_url": null,
+    "doc_url": "https://wiki.myriadrf.org/Lime_Suite",
+    "home": "http://wiki.myriadrf.org/Lime_Suite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 AND MIT AND BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/myriadrf/LimeSuite/archive/v20.10.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Driver and GUI for LMS7002M-based (Lime) SDR platforms",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1614881463,
+    "version": "20.10.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "limesuite-20.10.0-h1ad935b_0.tar.bz2",
+  "repodata": {
+    "build": "h1ad935b_0",
+    "build_number": 0,
+    "depends": [
+      "glew >=2.1.0,<2.2.0a0",
+      "libcxx >=11.0.1",
+      "liblimesuite 20.10.0 he49afe7_0",
+      "soapysdr-module-lms7 20.10.0 hb03de04_0"
+    ],
+    "license": "Apache-2.0 AND MIT AND BSD-3-Clause",
+    "md5": "d60444cf6165e31ec375ad27a91c1a40",
+    "name": "limesuite",
+    "sha256": "7d6bea4eddbb80e3aca680296518e21d5a7b89d7a82112b80d9cc9b7d0605471",
+    "size": 15382,
+    "subdir": "osx-64",
+    "timestamp": 1614881463141,
+    "version": "20.10.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/limesuite-20.10.0-h1ad935b_0.tar.bz2"
+}
