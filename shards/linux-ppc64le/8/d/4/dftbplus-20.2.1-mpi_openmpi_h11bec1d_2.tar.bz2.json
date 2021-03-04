@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/dftbplus/dftbplus",
+    "doc_source_url": null,
+    "doc_url": "https://dftbplus-recipes.readthedocs.io",
+    "home": "https://dftbplus.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "20.2.1": {
+        "weak": [
+          "dftbplus * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/dftbplus/dftbplus/releases/download/20.2.1/dftbplus-20.2.1.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "DFTB+ general package for performing fast atomistic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1614863525,
+    "version": "20.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dftbplus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dftbplus-20.2.1-mpi_openmpi_h11bec1d_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h11bec1d_2",
+    "build_number": 2,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libnegf * mpi_openmpi_*",
+      "libnegf >=1.0.1,<1.1.0a0 mpi_openmpi_*",
+      "mpifx * mpi_openmpi_*",
+      "mpifx >=1.0,<1.1.0a0 mpi_openmpi_*",
+      "openmpi >=4.1,<4.2.0a0",
+      "scalapack",
+      "scalapackfx * mpi_openmpi_*",
+      "scalapackfx >=1.0.1,<1.1.0a0 mpi_openmpi_*"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "823f6663e41a1db8e3a7aea4fcbe538d",
+    "name": "dftbplus",
+    "sha256": "f9dfc74676a2eced7f102488a7cd0df92b590f8e29163d1d73340ebb8af89879",
+    "size": 12189083,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1614863525120,
+    "version": "20.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/dftbplus-20.2.1-mpi_openmpi_h11bec1d_2.tar.bz2/dftbplus-20.2.1-mpi_openmpi_h11bec1d_2.tar.bz2"
+}
