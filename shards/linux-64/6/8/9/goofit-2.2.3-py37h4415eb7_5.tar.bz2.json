@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GooFit is split into GPU and CPU versions on Linux. If you want to install for gpus, you can do:  ```bash conda install goofit goofit-proc=*=gpu ```  You can add `cudatoolkit=10.0` or `9.2` if you want a specific toolkit version.  The OpenMP CPU version is default, but can be explicitly requested with:  ```bash conda install goofit goofit-proc=*=cpu ```",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/GooFit/GooFit",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/g/goofit/goofit-2.2.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A fitting package for GPU and CPU",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1614887188,
+    "version": "2.2.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "goofit-2.2.3-py37h4415eb7_5.tar.bz2",
+  "repodata": {
+    "build": "py37h4415eb7_5",
+    "build_number": 5,
+    "constrains": [
+      "goofit-proc * cpu"
+    ],
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=7.5.0",
+      "libgomp",
+      "libstdcxx-ng >=7.5.0",
+      "numpy >=1.11.1",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "LGPL",
+    "md5": "ecd0ab90303dff2ac3570cdd10437dc6",
+    "name": "goofit",
+    "sha256": "65f441c7577197490d66722e203511d6cc2bf6ca0ce62ca1cb053ae3975db3ac",
+    "size": 1740556,
+    "subdir": "linux-64",
+    "timestamp": 1614887188741,
+    "version": "2.2.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/goofit-2.2.3-py37h4415eb7_5.tar.bz2"
+}
