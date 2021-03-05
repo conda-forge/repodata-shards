@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://fftw.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.3.9": {
+        "weak": [
+          "fftw",
+          "fftw * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.fftw.org/fftw-3.3.9.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "The fastest Fourier transform in the west.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1614936371,
+    "version": "3.3.9"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fftw-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fftw-3.3.9-mpi_openmpi_h21c9487_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h21c9487_1",
+    "build_number": 1,
+    "depends": [
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.0.dev0",
+      "llvm-openmp >=11.0.1",
+      "llvm-openmp >=4.0.1",
+      "openmpi >=4.1.0,<5.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "cb02fafcd5da39f67ae35e47ede7c7be",
+    "name": "fftw",
+    "sha256": "6eff7991209125084b23a9be20e57f558cce58d95a63c4b0727702d0acbcee16",
+    "size": 3689689,
+    "subdir": "osx-arm64",
+    "timestamp": 1614936371610,
+    "version": "3.3.9"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/fftw-3.3.9-mpi_openmpi_h21c9487_1.tar.bz2/fftw-3.3.9-mpi_openmpi_h21c9487_1.tar.bz2"
+}
