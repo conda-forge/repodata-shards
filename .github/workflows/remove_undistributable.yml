@@ -56,3 +56,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           BINSTAR_TOKEN: ${{ secrets.BINSTAR_TOKEN }}
+          DELTAG_GITHUB_TOKEN: ${{ secrets.PAT_ALPHA }}
