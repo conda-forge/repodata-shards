@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports many features including: Perfectly-Matched Layers (PML), Boosted-frame simulations, particle collisions, mesh refinement.",
+    "dev_url": "https://github.com/ECP-WarpX/WarpX",
+    "doc_source_url": null,
+    "doc_url": "https://warpx.readthedocs.io",
+    "home": "https://ecp-warpx.github.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause-LBNL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "21.03": {
+        "weak": [
+          "warpx 21.03"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ECP-WarpX/WarpX/archive/21.03.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "WarpX is an advanced electromagnetic Particle-In-Cell code.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1615248954,
+    "version": "21.03"
+  },
+  "channeldata_version": 1,
+  "feedstock": "warpx-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "warpx-21.03-py36h6e52c29_2.tar.bz2",
+  "repodata": {
+    "build": "py36h6e52c29_2",
+    "build_number": 2,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "blaspp 2020.10.02.*",
+      "fftw >=3.3.9,<4.0a0",
+      "lapackpp 2020.10.02.*",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "numpy",
+      "openpmd-api * nompi_*",
+      "openpmd-api 0.13.2.*",
+      "periodictable",
+      "pypy3.6 >=7.3.3",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6 *_pypy36_pp73",
+      "scipy"
+    ],
+    "license": "BSD-3-Clause-LBNL",
+    "license_family": "BSD",
+    "md5": "cab888dd2688d6472b78d1d85656e8ca",
+    "name": "warpx",
+    "sha256": "855b065c8ddb6846fa7005dcaceb7811a24b051e632b0c0dc4cfe5a187c6583f",
+    "size": 1178536535,
+    "subdir": "linux-aarch64",
+    "timestamp": 1615248954982,
+    "version": "21.03"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/warpx-21.03-py36h6e52c29_2.tar.bz2/warpx-21.03-py36h6e52c29_2.tar.bz2"
+}
