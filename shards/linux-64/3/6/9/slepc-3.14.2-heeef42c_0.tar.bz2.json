@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://slepc.upv.es/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.14.2": {
+        "weak": [
+          "slepc >=3.14.2,<3.15.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://slepc.upv.es/download/distrib/slepc-3.14.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "SLEPc: Scalable Library for Eigenvalue Problem Computations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1615930845,
+    "version": "3.14.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "slepc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "slepc-3.14.2-heeef42c_0.tar.bz2",
+  "repodata": {
+    "build": "heeef42c_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.3.0",
+      "openmpi >=4.1,<4.2.0a0",
+      "petsc >=3.14.5,<3.15.0a0",
+      "suitesparse >=5.6.0,<5.7.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "1e12c9ac01f45953ea3651f8fc975a5e",
+    "name": "slepc",
+    "sha256": "8cc88f078e3b65e3fcdf6854e91ffa74d38aaeafa0ef2ece15d958c87922c8b0",
+    "size": 5905075,
+    "subdir": "linux-64",
+    "timestamp": 1615930845987,
+    "version": "3.14.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/slepc-3.14.2-heeef42c_0.tar.bz2/slepc-3.14.2-heeef42c_0.tar.bz2"
+}
