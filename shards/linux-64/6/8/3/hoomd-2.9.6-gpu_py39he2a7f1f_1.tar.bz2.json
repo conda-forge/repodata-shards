@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "You define particle initial conditions and interactions in a high-level python script. Then tell HOOMD-blue how you want to execute the job and it takes care of the rest. Python job scripts give you unlimited flexibility to create custom initialization routines, control simulation parameters, and perform in situ analysis.",
+    "dev_url": "https://github.com/glotzerlab/hoomd-blue/",
+    "doc_source_url": null,
+    "doc_url": "https://hoomd-blue.readthedocs.io",
+    "home": "https://glotzerlab.engin.umich.edu/hoomd-blue/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/glotzerlab/hoomd-blue/releases/download/v2.9.6/hoomd-v2.9.6.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "HOOMD-blue is a general-purpose particle simulation toolkit.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1616011955,
+    "version": "2.9.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "hoomd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "hoomd-2.9.6-gpu_py39he2a7f1f_1.tar.bz2",
+  "repodata": {
+    "build": "gpu_py39he2a7f1f_1",
+    "build_number": 1,
+    "depends": [
+      "__cuda >=10.2",
+      "cudatoolkit 10.2|10.2.*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "tbb >=2021.1.1"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "2dab21f5e4db2a57eb637b40b993ee29",
+    "name": "hoomd",
+    "sha256": "9b4ec0a13a1a177f285ecbe8488d90bff56f03c68fbbd77c0e707d0ccc81b26c",
+    "size": 46894245,
+    "subdir": "linux-64",
+    "timestamp": 1616011955010,
+    "version": "2.9.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/hoomd-2.9.6-gpu_py39he2a7f1f_1.tar.bz2/hoomd-2.9.6-gpu_py39he2a7f1f_1.tar.bz2"
+}
