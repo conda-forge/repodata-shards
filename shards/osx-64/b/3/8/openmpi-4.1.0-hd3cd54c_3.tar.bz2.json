@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners.",
+    "dev_url": "https://github.com/open-mpi/ompi",
+    "doc_source_url": null,
+    "doc_url": "https://www.open-mpi.org/doc/",
+    "home": "https://www.open-mpi.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.1.0": {
+        "weak": [
+          "openmpi >=4.1.0,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.open-mpi.org/software/ompi/v4.1/downloads/openmpi-4.1.0.tar.bz2",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "An open source Message Passing Interface implementation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616135722,
+    "version": "4.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmpi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmpi-4.1.0-hd3cd54c_3.tar.bz2",
+  "repodata": {
+    "build": "hd3cd54c_3",
+    "build_number": 3,
+    "depends": [
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "mpi 1.0 openmpi",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "cb82afb9c9ca47685ae59bdabb60d6de",
+    "name": "openmpi",
+    "sha256": "522793a6d586a219bcc1062a58f481e9c4cf4b188802bb6e6784dfb2d5dd8b00",
+    "size": 3305503,
+    "subdir": "osx-64",
+    "timestamp": 1616135722959,
+    "version": "4.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/openmpi-4.1.0-hd3cd54c_3.tar.bz2/openmpi-4.1.0-hd3cd54c_3.tar.bz2"
+}
