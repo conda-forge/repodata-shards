@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "RapidSim is a fast Monte Carlo generator for simulation of heavy-quark hadron decays. It can be useful for generating background or toy data sets for acceptance studies.  * It uses [`TGenPhaseSpace`](https://root.cern.ch/doc/master/classTGenPhaseSpace.html) to generate b/c quark hadron decays. * [FONLL](http://cacciari.web.cern.ch/cacciari/fonll/) is used to give the b/c the correct production kinematics for the LHC. * The daughter particle momenta are smeared correctly using user-defined resolutions. * Cuts can be made on daughter particle properties (pT, eta, etc). * Particle mass hypotheses can be swapped to investigate effect of mis-identification.  A more detailed description can be found here https://arxiv.org/abs/1612.07489",
+    "dev_url": "https://github.com/gcowan/RapidSim",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/gcowan/RapidSim",
+    "home": "https://github.com/gcowan/RapidSim",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT AND GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/gcowan/RapidSim/archive/v1.5.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A fast Monte Carlo generator for simulation of heavy-quark hadron decays",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616268971,
+    "version": "1.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "rapidsim-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "rapidsim-1.5-h7e5b165_7.tar.bz2",
+  "repodata": {
+    "build": "h7e5b165_7",
+    "build_number": 7,
+    "depends": [
+      "evtgen >=2.0.0,<2.1.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "root_base >=6.22.6,<6.22.7.0a0"
+    ],
+    "license": "MIT AND GPL-3.0-or-later",
+    "md5": "784ff43af86bfcaa78e4ba7e5771f36e",
+    "name": "rapidsim",
+    "sha256": "5d5dac0298b00eac85240e6040702dd19a40e3927ff6386a58af490aeb49c4af",
+    "size": 1100239,
+    "subdir": "linux-64",
+    "timestamp": 1616268971483,
+    "version": "1.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/rapidsim-1.5-h7e5b165_7.tar.bz2/rapidsim-1.5-h7e5b165_7.tar.bz2"
+}
