@@ -10,7 +10,7 @@ pushd ..
 
 git clone --depth=1 https://github.com/conda-forge/repodata-tools.git
 pushd repodata-tools
-conda install -y -q --file requirements.txt
+conda env update -n test --file environment.yml
 pip install -e .
 popd
 
