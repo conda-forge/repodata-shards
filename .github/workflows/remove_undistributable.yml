@@ -52,7 +52,7 @@ jobs:
           repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           git remote set-url --push origin ${repo_url}
 
-          export UPLOAD_SLEEP_FACTOR="0.5"
+          export UPLOAD_SLEEP_FACTOR="0.1"
           remove-undistributable --rank=0 --n-ranks=1
 
           popd
