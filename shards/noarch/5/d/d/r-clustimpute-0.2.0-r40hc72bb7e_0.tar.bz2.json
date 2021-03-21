@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=ClustImpute",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/ClustImpute/ClustImpute_0.2.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/ClustImpute_0.2.0.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "This k-means algorithm is able to cluster data with missing values and as a by-product completes the data set. The implementation can deal with missing values in multiple variables and is computationally efficient since it iteratively uses the current cluster assignment to define a plausible distribution for missing value imputation. Weights are used to shrink early random draws for missing values (i.e., draws based on the cluster assignments after few iterations) towards the global mean of each feature. This shrinkage slowly fades out after a fixed number of iterations to reflect the increasing credibility of cluster assignments. See the vignette for details.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1616295473,
+    "version": "0.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-clustimpute-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-clustimpute-0.2.0-r40hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-clusterr",
+      "r-copula",
+      "r-dplyr",
+      "r-ggplot2",
+      "r-knitr",
+      "r-magrittr",
+      "r-rlang",
+      "r-tidyr"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "f5f8ada886cf3229edb8a7c2d013dc87",
+    "name": "r-clustimpute",
+    "noarch": "generic",
+    "sha256": "87915b4e95aa41fdbf0ffb30b5788e507a651908b437ce77fb90b88daa46896d",
+    "size": 669210,
+    "subdir": "noarch",
+    "timestamp": 1616295473085,
+    "version": "0.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-clustimpute-0.2.0-r40hc72bb7e_0.tar.bz2/r-clustimpute-0.2.0-r40hc72bb7e_0.tar.bz2"
+}
