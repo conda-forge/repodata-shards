@@ -21,6 +21,13 @@ jobs:
           abort-after-seconds: 10
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: get env file
+        shell: bash -l {0}
+        run: |
+          wget https://raw.githubusercontent.com/conda-forge/repodata-shards/master/environment.yml
+          mkdir -p repodata-shards
+          mv environment.yml repodata-shards/.
+
       - name: install micromamba
         uses: mamba-org/provision-with-micromamba@main
 
