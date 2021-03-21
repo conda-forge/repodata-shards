@@ -25,8 +25,8 @@ jobs:
         shell: bash -l {0}
         run: |
           wget https://raw.githubusercontent.com/conda-forge/repodata-shards/master/environment.yml
-          mkdir -p repodata-shards
-          mv environment.yml repodata-shards/.
+          mkdir -p repodata-shards/repodata-shards
+          mv environment.yml repodata-shards/repodata-shards/.
 
       - name: install micromamba
         uses: mamba-org/provision-with-micromamba@main
