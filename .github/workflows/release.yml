@@ -15,17 +15,12 @@ jobs:
           app_id: ${{ secrets.CF_CURATOR_APP_ID }}
           private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
 
-      - uses: conda-incubator/setup-miniconda@v2
-        with:
-          python-version: 3.8
-          channels: conda-forge,defaults
-          channel-priority: strict
-          show-channel-urls: true
+      - name: install micromamba
+        uses: mamba-org/provision-with-micromamba@main
 
       - name: make release
         shell: bash -l {0}
         run: |
-          conda install -y -q git mamba
           git config --global user.name 'conda-forge-daemon'
           git config --global user.email '64793534+conda-forge-daemon@users.noreply.github.com'
           git config --global pull.rebase false
@@ -38,14 +33,11 @@ jobs:
 
           git clone --depth=1 https://github.com/conda-forge/repodata-tools.git
           pushd repodata-tools
-          mamba install -y -q --file requirements.txt
           pip install -e .
           popd
 
           pushd releases
           make-github-release
           popd
-
-          rm -rf releases
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}

@@ -21,19 +21,13 @@ jobs:
           abort-after-seconds: 10
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: conda-incubator/setup-miniconda@v2
-        if: success() && ! env.CI_SKIP
-        with:
-          python-version: 3.7
-          channels: conda-forge,defaults
-          channel-priority: strict
-          show-channel-urls: true
+      - name: install micromamba
+        uses: mamba-org/provision-with-micromamba@main
 
       - name: make repodata
         if: success() && ! env.CI_SKIP
         shell: bash -l {0}
         run: |
-          conda install -y -q git
           git config --global user.name 'conda-forge-daemon'
           git config --global user.email '64793534+conda-forge-daemon@users.noreply.github.com'
           git config --global pull.rebase false
@@ -41,7 +35,6 @@ jobs:
           pushd ..
           git clone https://github.com/conda-forge/repodata-tools.git
           pushd repodata-tools
-          conda install -y -q --file requirements.txt
           pip install -e .
           popd
           popd
