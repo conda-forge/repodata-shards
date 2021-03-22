@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This package includes the protocol definitions for the new D-Bus at-spi.  Also included is the daemon necessary for forwarding device events and registering accessible applicaitions.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/at-spi2-core",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.38.0": {
+        "weak": [
+          "at-spi2-core >=2.38.0,<2.39.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/at-spi2-core/2.38/at-spi2-core-2.38.0.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "D-Bus-based implementation of AT-SPI accessibility framework",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616438870,
+    "version": "2.38.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "at-spi2-core-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "at-spi2-core-2.38.0-h633f9df_3.tar.bz2",
+  "repodata": {
+    "build": "h633f9df_3",
+    "build_number": 3,
+    "depends": [
+      "dbus >=1.13.6,<2.0a0",
+      "libgcc-ng >=9.3.0",
+      "libglib >=2.68.0,<3.0a0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "LGPL",
+    "md5": "44cc85422e04d340da71dd0d2c932de6",
+    "name": "at-spi2-core",
+    "sha256": "66403f240ec421e87fcb13eb1e3d588bd691dde6da3a375a4e244296912d3d15",
+    "size": 617266,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1616438870703,
+    "version": "2.38.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/at-spi2-core-2.38.0-h633f9df_3.tar.bz2/at-spi2-core-2.38.0-h633f9df_3.tar.bz2"
+}
