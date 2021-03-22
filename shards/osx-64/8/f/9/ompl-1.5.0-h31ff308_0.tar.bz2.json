@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open Motion Planning Library (OMPL) consists of a set of sampling-based motion planning algorithms. The content of the library is limited to these algorithms, which means there is no environment specification, no collision detection or visualization. The library is designed so it can be easily integrated into systems that provide the additional needed components. For examples of complete systems using OMPL, see OMPL.app and MoveIt!. We have also developed a educational module on motion planning that is centered around OMPL.app. We are looking for educational partners to use and further develop the material. Please contact us for more information.",
+    "dev_url": "https://github.com/ompl/ompl",
+    "doc_source_url": null,
+    "doc_url": "https://ompl.kavrakilab.org/",
+    "home": "https://ompl.kavrakilab.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.0": {
+        "weak": [
+          "ompl >=1.5.0,<1.6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ompl/ompl/archive/1.5.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Open Motion Planning Library (OMPL)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616439795,
+    "version": "1.5.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ompl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ompl-1.5.0-h31ff308_0.tar.bz2",
+  "repodata": {
+    "build": "h31ff308_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.75.0,<1.75.1.0a0",
+      "libcxx >=11.1.0",
+      "libode"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "bf2f2c661a49e352310d4fec17195636",
+    "name": "ompl",
+    "sha256": "929980e0af66efa1dc06a7c4210f68ce177606cab601ce5987fd0919e73c9cfd",
+    "size": 2079268,
+    "subdir": "osx-64",
+    "timestamp": 1616439795321,
+    "version": "1.5.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/ompl-1.5.0-h31ff308_0.tar.bz2/ompl-1.5.0-h31ff308_0.tar.bz2"
+}
