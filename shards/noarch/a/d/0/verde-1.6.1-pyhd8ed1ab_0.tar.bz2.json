@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Verde is a Python library for processing spatial data (bathymetry, geophysics surveys, etc) and interpolating it on regular grids (i.e., *gridding*). Most gridding methods in Verde use a Green's functions approach. A linear model is estimated based on the input data and then used to predict data on a regular grid (or in a scatter, a profile, as derivatives). The models are Green's functions from (mostly) elastic deformation theory. This approach is very similar to *machine learning* so we implement gridder classes that are similar to scikit-learn regression classes. The API is not 100% compatible but it should look familiar to those with some scikit-learn experience.",
+    "dev_url": "https://github.com/fatiando/verde",
+    "doc_source_url": null,
+    "doc_url": "https://www.fatiando.org/verde",
+    "home": "http://github.com/fatiando/verde",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/v/verde/verde-1.6.1.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Processing and gridding spatial data using Green's functions",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1616422721,
+    "version": "1.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "verde-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "verde-1.6.1-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "dask",
+      "numpy",
+      "pandas",
+      "pooch >=0.7.0",
+      "python >=3.6",
+      "scikit-learn",
+      "scipy",
+      "xarray"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "c1980b7d3b553d707fdf2a500402f885",
+    "name": "verde",
+    "noarch": "python",
+    "sha256": "e6d5a4bef06598b613fc41865c8a3fe285722c49d3fcbdda318900fbe4ed0522",
+    "size": 147397,
+    "subdir": "noarch",
+    "timestamp": 1616422721233,
+    "version": "1.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/verde-1.6.1-pyhd8ed1ab_0.tar.bz2/verde-1.6.1-pyhd8ed1ab_0.tar.bz2"
+}
