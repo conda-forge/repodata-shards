@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open Motion Planning Library (OMPL) consists of a set of sampling-based motion planning algorithms. The content of the library is limited to these algorithms, which means there is no environment specification, no collision detection or visualization. The library is designed so it can be easily integrated into systems that provide the additional needed components. For examples of complete systems using OMPL, see OMPL.app and MoveIt!. We have also developed a educational module on motion planning that is centered around OMPL.app. We are looking for educational partners to use and further develop the material. Please contact us for more information.",
+    "dev_url": "https://github.com/ompl/ompl",
+    "doc_source_url": null,
+    "doc_url": "https://ompl.kavrakilab.org/",
+    "home": "https://ompl.kavrakilab.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.2": {
+        "weak": [
+          "ompl >=1.5.2,<1.6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ompl/ompl/archive/1.5.2.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "The Open Motion Planning Library (OMPL)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616491335,
+    "version": "1.5.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ompl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ompl-1.5.2-h618491c_0.tar.bz2",
+  "repodata": {
+    "build": "h618491c_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.75.0,<1.75.1.0a0",
+      "libgcc-ng >=9.3.0",
+      "libode",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "aafeb34c5e06420f329518c66d1a4fbd",
+    "name": "ompl",
+    "sha256": "c2ca8f55792f2b420c914f2b61ebd8efa642dd214ca044286d71010ae1b6b5c4",
+    "size": 2501112,
+    "subdir": "linux-aarch64",
+    "timestamp": 1616491335986,
+    "version": "1.5.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/ompl-1.5.2-h618491c_0.tar.bz2/ompl-1.5.2-h618491c_0.tar.bz2"
+}
