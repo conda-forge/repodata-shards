@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners.",
+    "dev_url": "https://github.com/open-mpi/ompi",
+    "doc_source_url": null,
+    "doc_url": "https://www.open-mpi.org/doc/",
+    "home": "https://www.open-mpi.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.1.1rc2": {
+        "weak": [
+          "openmpi >=4.1.1,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.open-mpi.org/software/ompi/v4.1/downloads/openmpi-4.1.1rc2.tar.bz2",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "An open source Message Passing Interface implementation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616534771,
+    "version": "4.1.1rc2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmpi-feedstock",
+  "labels": [
+    "openmpi_rc"
+  ],
+  "package": "openmpi-4.1.1rc2-h179bdf2_1.tar.bz2",
+  "repodata": {
+    "build": "h179bdf2_1",
+    "build_number": 1,
+    "constrains": [
+      "cudatoolkit >=9.2"
+    ],
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "mpi 1.0 openmpi",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "1296af4a234ae06f3e4ee4502ac158b7",
+    "name": "openmpi",
+    "sha256": "4f283d03baa26165b435757fe23329d91baa753ed339399ec0fd03ec651ca9ac",
+    "size": 4011637,
+    "subdir": "linux-64",
+    "timestamp": 1616534771202,
+    "version": "4.1.1rc2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openmpi-4.1.1rc2-h179bdf2_1.tar.bz2/openmpi-4.1.1rc2-h179bdf2_1.tar.bz2"
+}
