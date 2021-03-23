@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners.",
     "dev_url": "https://github.com/open-mpi/ompi",
@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "4.1.1rc2": {
+        "weak": [
+          "openmpi >=4.1.1,<5.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://www.open-mpi.org/software/ompi/v4.1/downloads/openmpi-4.1.1rc2.tar.bz2",
     "subdirs": [
@@ -25,34 +31,38 @@
     ],
     "summary": "An open source Message Passing Interface implementation.",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1616538975,
+    "text_prefix": true,
+    "timestamp": 1616538962,
     "version": "4.1.1rc2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "openmpi-feedstock",
   "labels": [
     "openmpi_rc"
   ],
-  "package": "openmpi-mpicxx-4.1.1rc2-h1135a02_1.tar.bz2",
+  "package": "openmpi-4.1.1rc2-hb804c38_1.tar.bz2",
   "repodata": {
-    "build": "h1135a02_1",
+    "build": "hb804c38_1",
     "build_number": 1,
     "depends": [
-      "gxx_linux-aarch64 9.*",
-      "openmpi 4.1.1rc2 hb804c38_1"
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "mpi 1.0 openmpi",
+      "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "0b1d936552c2eb915e12bd62b8dbf393",
-    "name": "openmpi-mpicxx",
-    "sha256": "3dbb38bb707d07ab4551dc642b771cfca9941d7fb4bd80c52cb6a1d55cdd44c7",
-    "size": 8802,
+    "md5": "82e902ffd0c60a0dc5beefd71b949b3d",
+    "name": "openmpi",
+    "sha256": "6e4fea33bb40a03470ebcb08aec397b2b5a96754d560479699d69eb2a7bf8e15",
+    "size": 4038964,
     "subdir": "linux-aarch64",
-    "timestamp": 1616538975886,
+    "timestamp": 1616538962385,
     "version": "4.1.1rc2"
   },
   "repodata_version": 1,
   "subdir": "linux-aarch64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/openmpi-mpicxx-4.1.1rc2-h1135a02_1.tar.bz2/openmpi-mpicxx-4.1.1rc2-h1135a02_1.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/openmpi-4.1.1rc2-hb804c38_1.tar.bz2/openmpi-4.1.1rc2-hb804c38_1.tar.bz2"
 }
