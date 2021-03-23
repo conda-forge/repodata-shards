@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package includes libatk-bridge, a library that bridges ATK to the new D-Bus based AT-SPI, as well as a corresponding module for gtk+ 2.x. Gtk+ 3.x now links against libatk-bridge directly rather than requiring it to be loaded as a module.  These libraries depend on the at-spi2-core code that contains the daemon for registering applications, D-Bus helper libraries and the AT-SPI D-Bus specifications.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/at-spi2-atk",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.38.0": {
+        "weak": [
+          "at-spi2-atk >=2.38.0,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/at-spi2-atk/2.38/at-spi2-atk-2.38.0.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "bridge for AT-SPI and ATK accessibility technologies",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616482364,
+    "version": "2.38.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "at-spi2-atk-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "at-spi2-atk-2.38.0-h1f2db35_2.tar.bz2",
+  "repodata": {
+    "build": "h1f2db35_2",
+    "build_number": 2,
+    "depends": [
+      "at-spi2-core >=2.38.0,<2.39.0a0",
+      "atk-1.0 >=2.36.0",
+      "dbus >=1.13.6,<2.0a0",
+      "libgcc-ng >=9.3.0",
+      "libglib >=2.68.0,<3.0a0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "LGPL",
+    "md5": "a85373f846d40f1ada860b567ff9a0d7",
+    "name": "at-spi2-atk",
+    "sha256": "88b72224979a2dcae201ee0d026941ec287dbef73a8b5fa2740f984fddf60282",
+    "size": 320658,
+    "subdir": "linux-aarch64",
+    "timestamp": 1616482364199,
+    "version": "2.38.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/at-spi2-atk-2.38.0-h1f2db35_2.tar.bz2/at-spi2-atk-2.38.0-h1f2db35_2.tar.bz2"
+}
