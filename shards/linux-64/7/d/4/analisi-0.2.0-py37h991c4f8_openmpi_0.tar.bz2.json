@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "analisi is a framework for analyzing molecular dynamics simulations. It can read lammps's binary format (other formats can be converted) and evaluate averages over the ergodic and equilibrated trajectory. Very heavy calculation can be performed in a parallel way using MPI, while multithreading is implemented also in the python interface.",
+    "dev_url": "https://github.com/rikigigi/analisi",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/rikigigi/analisi",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/rikigigi/analisi/archive/v0.2.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "analisi: your Swiss Army Knife of molecular dynamics analysis",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1616599705,
+    "version": "0.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "analisi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "analisi-0.2.0-py37h991c4f8_openmpi_0.tar.bz2",
+  "repodata": {
+    "build": "py37h991c4f8_openmpi_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "fftw >=3.3.9,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "openmpi >=4.1.0,<5.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "xdrfile >=1.1.4,<1.1.5.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "60e9ff0a869b6986043a4890dedae58a",
+    "name": "analisi",
+    "sha256": "355760a4086667bf245d7bef1fea8dad53009e04df04f8d09c4e68bf0a56da03",
+    "size": 869539,
+    "subdir": "linux-64",
+    "timestamp": 1616599705929,
+    "version": "0.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/analisi-0.2.0-py37h991c4f8_openmpi_0.tar.bz2/analisi-0.2.0-py37h991c4f8_openmpi_0.tar.bz2"
+}
