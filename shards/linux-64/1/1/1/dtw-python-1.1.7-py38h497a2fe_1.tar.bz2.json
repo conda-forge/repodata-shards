@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "DTW is a family of algorithms which compute the local stretch or compression to apply to the time axes of two timeseries in order to optimally map one (query) onto the other (reference). DTW outputs the remaining cumulative distance between the two and, if desired, the mapping itself (warping function). DTW is widely used for classification and clustering tasks, e.g. in bioinformatics, chemometrics, econometrics, and general timeseries mining.",
+    "dev_url": "https://github.com/DynamicTimeWarping/dtw-python",
+    "doc_source_url": null,
+    "doc_url": "https://dynamictimewarping.github.io/python/",
+    "home": "https://dynamictimewarping.github.io/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/d/dtw-python/dtw-python-1.1.7.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A comprehensive implementation of dynamic time warping (DTW) algorithms in Python.  DTW computes the optimal (least cumulative distance) alignment between points of two time series.  Common DTW variants covered include local (slope) and global (window) constraints, subsequence matches, arbitrary distance definitions, normalizations, minimum variance matching, and so on.  Provides cumulative distances, alignments, specialized plot styles, etc.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616671752,
+    "version": "1.1.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dtw-python-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dtw-python-1.1.7-py38h497a2fe_1.tar.bz2",
+  "repodata": {
+    "build": "py38h497a2fe_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "numpy >=1.20.1,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "scipy"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "6c22a7833178de838914bd72945cf198",
+    "name": "dtw-python",
+    "sha256": "03f1be4389a08709bfdc5ad1c161b8c5bd4de7b39996b684fd40d45ecbc19648",
+    "size": 285119,
+    "subdir": "linux-64",
+    "timestamp": 1616671752612,
+    "version": "1.1.7"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/dtw-python-1.1.7-py38h497a2fe_1.tar.bz2/dtw-python-1.1.7-py38h497a2fe_1.tar.bz2"
+}
