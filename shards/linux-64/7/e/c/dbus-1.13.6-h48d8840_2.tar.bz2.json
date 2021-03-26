@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \"single instance\" application or daemon, and to launch applications and daemons on demand when their services are needed.",
+    "dev_url": "git://anongit.freedesktop.org/dbus/dbus",
+    "doc_source_url": "https://cgit.freedesktop.org/dbus/dbus/tree/doc",
+    "doc_url": "https://www.freedesktop.org/wiki/IntroductionToDBus/",
+    "home": "http://www.freedesktop.org/wiki/Software/dbus/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.13.6": {
+        "weak": [
+          "dbus >=1.13.6,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://dbus.freedesktop.org/releases/dbus/dbus-1.13.6.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Simple message bus system for applications to talk to one another",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616778916,
+    "version": "1.13.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dbus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dbus-1.13.6-h48d8840_2.tar.bz2",
+  "repodata": {
+    "build": "h48d8840_2",
+    "build_number": 2,
+    "depends": [
+      "expat >=2.3.0,<2.4.0a0",
+      "glib",
+      "libgcc-ng >=9.3.0",
+      "libglib >=2.68.0,<3.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "eba672c69baf366fdedd1c6f702dbb81",
+    "name": "dbus",
+    "sha256": "39092eb6675b9ad4dcbc31e1ec42fb4e01a71eab4e51768e413bb7aafdbfee95",
+    "size": 585242,
+    "subdir": "linux-64",
+    "timestamp": 1616778916368,
+    "version": "1.13.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/dbus-1.13.6-h48d8840_2.tar.bz2/dbus-1.13.6-h48d8840_2.tar.bz2"
+}
