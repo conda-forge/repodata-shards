@@ -1,0 +1,88 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GTK is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK is suitable for projects ranging from small one-off projects to complete application suites.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/gtk",
+    "doc_source_url": null,
+    "doc_url": "https://developer.gnome.org/gtk4/",
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.0.3": {
+        "weak": [
+          "gtk4 >=4.0.3,<5.0a0",
+          "adwaita-icon-theme"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/gtk/4.0/gtk-4.0.3.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Version 4 of the Gtk+ graphical toolkit",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616739021,
+    "version": "4.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gtk4-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gtk4-4.0.3-h07af764_0.tar.bz2",
+  "repodata": {
+    "build": "h07af764_0",
+    "build_number": 0,
+    "depends": [
+      "cairo >=1.16.0,<1.17.0a0",
+      "epoxy >=1.5.5,<1.6.0a0",
+      "fontconfig",
+      "freetype >=2.10.4,<3.0a0",
+      "fribidi",
+      "gdk-pixbuf >=2.42.4,<3.0a0",
+      "glib-tools",
+      "harfbuzz >=2.8.0,<3.0a0",
+      "hicolor-icon-theme",
+      "libcups >=2.2.12,<3.0a0",
+      "libgcc-ng >=9.3.0",
+      "libglib >=2.68.0,<3.0a0",
+      "libgraphene",
+      "pango >=1.48.3,<1.49.0a0",
+      "xorg-libx11",
+      "xorg-libxcomposite",
+      "xorg-libxcursor",
+      "xorg-libxdamage",
+      "xorg-libxext",
+      "xorg-libxfixes",
+      "xorg-libxi",
+      "xorg-libxinerama >=1.1.4,<1.2.0a0",
+      "xorg-libxrandr",
+      "xorg-xineramaproto",
+      "xorg-xproto"
+    ],
+    "license": "LGPL-2.0-or-later",
+    "license_family": "LGPL",
+    "md5": "c5aa1139907a3b9921c8f6e0f45cd508",
+    "name": "gtk4",
+    "sha256": "2fd115f2c7a85d1387e92f77c12ce7e77b0bbfa8f0ce82ce488b8be046a5535a",
+    "size": 23069897,
+    "subdir": "linux-64",
+    "timestamp": 1616739021638,
+    "version": "4.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gtk4-4.0.3-h07af764_0.tar.bz2/gtk4-4.0.3-h07af764_0.tar.bz2"
+}
