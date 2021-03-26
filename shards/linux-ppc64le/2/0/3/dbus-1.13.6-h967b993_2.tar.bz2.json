@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \"single instance\" application or daemon, and to launch applications and daemons on demand when their services are needed.",
+    "dev_url": "git://anongit.freedesktop.org/dbus/dbus",
+    "doc_source_url": "https://cgit.freedesktop.org/dbus/dbus/tree/doc",
+    "doc_url": "https://www.freedesktop.org/wiki/IntroductionToDBus/",
+    "home": "http://www.freedesktop.org/wiki/Software/dbus/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.13.6": {
+        "weak": [
+          "dbus >=1.13.6,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://dbus.freedesktop.org/releases/dbus/dbus-1.13.6.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Simple message bus system for applications to talk to one another",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616780018,
+    "version": "1.13.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dbus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dbus-1.13.6-h967b993_2.tar.bz2",
+  "repodata": {
+    "build": "h967b993_2",
+    "build_number": 2,
+    "depends": [
+      "expat >=2.3.0,<2.4.0a0",
+      "glib",
+      "libgcc-ng >=9.3.0",
+      "libglib >=2.68.0,<3.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "d5fd8b03d8eab6abf7ab510f6ec148c9",
+    "name": "dbus",
+    "sha256": "0dced15f1253266f014c46ce77b9ccb0a634dc925e641c254cb037d70593855c",
+    "size": 763833,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1616780018097,
+    "version": "1.13.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/dbus-1.13.6-h967b993_2.tar.bz2/dbus-1.13.6-h967b993_2.tar.bz2"
+}
