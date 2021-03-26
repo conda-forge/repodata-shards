@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "FCL is a library for performing three types of proximity queries on a pair of geometric models composed of triangles.  - Collision detection: detecting whether the two models overlap, and   optionally, all of the triangles that overlap. - Distance computation: computing the minimum distance between a pair of   models, i.e., the distance between the closest pair of points. - Tolerance verification: determining whether two models are closer or   farther than a tolerance distance. - Continuous collision detection: detecting whether the two moving   models overlap during the movement, and optionally, the time of   contact. - Contact information: for collision detection and continuous collision   detection, the contact information (including contact normals and   contact points) can be returned optionally.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/flexible-collision-library/fcl",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.6.1": {
+        "weak": [
+          "fcl >=0.6.1,<0.7.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/flexible-collision-library/fcl/archive/0.6.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "The flexible collision library (FCL) is a library for performing proximity queries.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616719951,
+    "version": "0.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fcl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fcl-0.6.1-hbf27b1e_3.tar.bz2",
+  "repodata": {
+    "build": "hbf27b1e_3",
+    "build_number": 3,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "flann >=1.9.1,<1.9.2.0a0",
+      "libccd >=2.1,<2.2.0a0",
+      "octomap",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "a1e528c8878e937da62dce01dedfc1dc",
+    "name": "fcl",
+    "sha256": "1622da713db752f9a748ebfe418e5e57b7c90b2e5811fc2c2ced4554f3455e2b",
+    "size": 7104649,
+    "subdir": "win-64",
+    "timestamp": 1616719951217,
+    "version": "0.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/fcl-0.6.1-hbf27b1e_3.tar.bz2/fcl-0.6.1-hbf27b1e_3.tar.bz2"
+}
