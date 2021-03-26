@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Numba is an Open Source NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the remarkable LLVM compiler infrastructure to compile Python syntax to machine code.\"",
+    "dev_url": "https://github.com/numba/numba",
+    "doc_source_url": null,
+    "doc_url": "http://numba.pydata.org/",
+    "home": "http://numba.pydata.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/numba/numba/archive/0.53.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "NumPy aware dynamic Python compiler using LLVM",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616709124,
+    "version": "0.53.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "numba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "numba-0.53.1-py36h591ccf5_0.tar.bz2",
+  "repodata": {
+    "build": "py36h591ccf5_0",
+    "build_number": 0,
+    "constrains": [
+      "libopenblas !=0.3.6",
+      "tbb  >=2019.5,<=2020.3",
+      "cudatoolkit >=9.0",
+      "scipy >=1.0"
+    ],
+    "depends": [
+      "libcxx >=11.1.0",
+      "llvm-openmp >=11.1.0",
+      "llvmlite >=0.36.0,<0.37.0a0",
+      "numpy >=1.17.5,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "setuptools"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "91ef99c8bf6f87fd3a0bb9597839ac71",
+    "name": "numba",
+    "sha256": "969b2e1c3ea93e1e437ffbb4e97a851035fda103cdce296b158fe43443cfb1c8",
+    "size": 3818514,
+    "subdir": "osx-64",
+    "timestamp": 1616709124136,
+    "version": "0.53.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/numba-0.53.1-py36h591ccf5_0.tar.bz2/numba-0.53.1-py36h591ccf5_0.tar.bz2"
+}
