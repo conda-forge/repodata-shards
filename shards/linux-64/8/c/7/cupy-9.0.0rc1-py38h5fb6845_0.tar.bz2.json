@@ -26,50 +26,49 @@
     "summary": "CuPy is an implementation of a NumPy-compatible multi-dimensional array on CUDA.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1616851323,
+    "timestamp": 1616851849,
     "version": "9.0.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "cupy-feedstock",
   "labels": [
     "cupy_rc"
   ],
-  "package": "cupy-9.0.0rc1-py36h008b1de_0.tar.bz2",
+  "package": "cupy-9.0.0rc1-py38h5fb6845_0.tar.bz2",
   "repodata": {
-    "build": "py36h008b1de_0",
+    "build": "py38h5fb6845_0",
     "build_number": 0,
     "constrains": [
       "optuna >=2",
-      "nccl >=2.8.4.1,<3.0a0",
+      "cudnn >=8.1.0.77,<9.0a0",
       "scipy >=1.4",
-      "__glibc >=2.17",
       "cutensor >=1.2.2.5,<2.0a0",
-      "cudnn >=8.1.0.77,<9.0a0"
+      "nccl >=2.8.4.1,<3.0a0",
+      "__glibc >=2.17"
     ],
     "depends": [
       "__glibc >=2.17",
       "__glibc >=2.17,<3.0.a0",
-      "cudatoolkit 11.0|11.0.*",
+      "cudatoolkit 11.2|11.2.*",
       "fastrlock >=0.5",
       "libgcc-ng >=7.5.0",
       "libstdcxx-ng >=7.5.0",
       "numpy >=1.17",
-      "pypy3.6 >=7.3.3",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6 *_pypy36_pp73",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "setuptools"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "c468f63610c9274df1bc916948a73a0f",
+    "md5": "1b89417a661befb12a485d6fee6eed94",
     "name": "cupy",
-    "sha256": "651605670e172511416130388764c14fdd9d6a653f0f04c813e593478bf28b38",
-    "size": 51764288,
+    "sha256": "5b6322b4fa9515d53e4f6bfa26fc9712d7d48df3e5ae9870528fbfc703bfc67e",
+    "size": 49096888,
     "subdir": "linux-64",
-    "timestamp": 1616851323729,
+    "timestamp": 1616851849056,
     "version": "9.0.0rc1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cupy-9.0.0rc1-py36h008b1de_0.tar.bz2/cupy-9.0.0rc1-py36h008b1de_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cupy-9.0.0rc1-py38h5fb6845_0.tar.bz2/cupy-9.0.0rc1-py38h5fb6845_0.tar.bz2"
 }
