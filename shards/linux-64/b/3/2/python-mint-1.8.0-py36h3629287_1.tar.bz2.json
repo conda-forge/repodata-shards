@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "mint regrids edge centred fields from a source to a destination grid. The grid is stored as a collection of grid cells, which have four vertices (i.e., the cells are quadrilaterals). The edge field is stored as integrals of a vector field along each edge. The vertex coordinates are stored in longitude-latitude space. The regridding method is mimetic in the sense that Stokes's theorem is satisfied to near machine precision. In particular, the loop integrals of an interpolated vector field deriving from a gradient is zero.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/pletzer/mint",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "0BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/pletzer/mint/archive/v1.8.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Mimetic INTerpolation on the Sphere.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1616831878,
+    "version": "1.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "python-mint-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-mint-1.8.0-py36h3629287_1.tar.bz2",
+  "repodata": {
+    "build": "py36h3629287_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libnetcdf >=4.7.4,<4.7.5.0a0",
+      "libstdcxx-ng >=9.3.0",
+      "numpy",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "tbb >=2020.2,<2021.0.0a0",
+      "vtk >=9.0.1,<9.0.2.0a0"
+    ],
+    "license": "0BSD",
+    "license_family": "BSD",
+    "md5": "bc529b347697f1ef3209abec1c6daee3",
+    "name": "python-mint",
+    "sha256": "16cb1e6d90012e49c43d412a470e156ef966099639ef6b8986c0708d5cfc6bf9",
+    "size": 179365,
+    "subdir": "linux-64",
+    "timestamp": 1616831878602,
+    "version": "1.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/python-mint-1.8.0-py36h3629287_1.tar.bz2/python-mint-1.8.0-py36h3629287_1.tar.bz2"
+}
