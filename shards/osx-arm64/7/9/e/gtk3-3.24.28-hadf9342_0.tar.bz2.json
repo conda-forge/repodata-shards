@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GTK is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK is suitable for projects ranging from small one-off projects to complete application suites.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/gtk",
+    "doc_source_url": null,
+    "doc_url": "https://developer.gnome.org/gtk3/",
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.24.28": {
+        "weak": [
+          "gtk3 >=3.24.28,<4.0a0",
+          "adwaita-icon-theme"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.28.tar.xz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Version 3 of the Gtk+ graphical toolkit",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616828192,
+    "version": "3.24.28"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gtk3-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gtk3-3.24.28-hadf9342_0.tar.bz2",
+  "repodata": {
+    "build": "hadf9342_0",
+    "build_number": 0,
+    "depends": [
+      "atk-1.0 >=2.36.0",
+      "cairo >=1.16.0,<1.17.0a0",
+      "epoxy >=1.5.5,<1.6.0a0",
+      "freetype >=2.10.4,<3.0a0",
+      "fribidi >=1.0.10,<2.0a0",
+      "gdk-pixbuf >=2.42.4,<3.0a0",
+      "gettext >=0.19.8.1,<1.0a0",
+      "glib-tools",
+      "harfbuzz >=2.8.0,<3.0a0",
+      "hicolor-icon-theme",
+      "libglib >=2.68.0,<3.0a0",
+      "pango >=1.48.3,<1.49.0a0"
+    ],
+    "license": "LGPL-2.0-or-later",
+    "license_family": "LGPL",
+    "md5": "12ea6bfb6d47bd7bc3079240be91772d",
+    "name": "gtk3",
+    "sha256": "af9a36327b9b040e9ce7769d6fcb0a659291e5299c3bb3e2ac31c4523ee461be",
+    "size": 9531619,
+    "subdir": "osx-arm64",
+    "timestamp": 1616828192515,
+    "version": "3.24.28"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/gtk3-3.24.28-hadf9342_0.tar.bz2/gtk3-3.24.28-hadf9342_0.tar.bz2"
+}
