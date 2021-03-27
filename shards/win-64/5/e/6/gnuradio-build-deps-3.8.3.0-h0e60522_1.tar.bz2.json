@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Install this meta-package into an environment with `gnuradio` or `gnuradio-core` in order to be able to build out-of-tree modules manually. DO NOT USE THIS IN CONDA RECIPES.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": null,
+    "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
+    "icon_url": "icons/gnuradio-build-deps.png",
+    "identifiers": null,
+    "keywords": null,
+    "license": null,
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.8.3.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "GNU Radio Companion",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1616815133,
+    "version": "3.8.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gnuradio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gnuradio-build-deps-3.8.3.0-h0e60522_1.tar.bz2",
+  "repodata": {
+    "app_entry": "gnuradio-companion",
+    "build": "h0e60522_1",
+    "build_number": 1,
+    "constrains": [
+      "gnuradio-core 3.8.3.0 py39h4bad129_1"
+    ],
+    "depends": [
+      "cmake",
+      "ninja",
+      "pkg-config",
+      "swig",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "vs2017_win-64"
+    ],
+    "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
+    "md5": "ca6dfaf62e245e8e18cd790730bc3232",
+    "name": "gnuradio-build-deps",
+    "sha256": "704bc576bf20f7999ed5fcbb8b8441bf9b029f0143d78c40d48723f35b098a31",
+    "size": 48124,
+    "subdir": "win-64",
+    "summary": "GNU Radio Companion",
+    "timestamp": 1616815133289,
+    "type": "app",
+    "version": "3.8.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/gnuradio-build-deps-3.8.3.0-h0e60522_1.tar.bz2/gnuradio-build-deps-3.8.3.0-h0e60522_1.tar.bz2"
+}
