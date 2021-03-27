@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Install this meta-package into an environment with `gnuradio` or `gnuradio-core` in order to be able to build out-of-tree modules manually. DO NOT USE THIS IN CONDA RECIPES.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": null,
+    "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
+    "icon_url": "icons/gnuradio-build-deps.png",
+    "identifiers": null,
+    "keywords": null,
+    "license": null,
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.8.3.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "GNU Radio Companion",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1616814452,
+    "version": "3.8.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gnuradio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gnuradio-build-deps-3.8.3.0-he49afe7_1.tar.bz2",
+  "repodata": {
+    "app_entry": "gnuradio-companion",
+    "build": "he49afe7_1",
+    "build_number": 1,
+    "constrains": [
+      "gnuradio-core 3.8.3.0 py38h50e8990_1"
+    ],
+    "depends": [
+      "clang_osx-64 11.*",
+      "clangxx_osx-64 11.*",
+      "cmake",
+      "libcxx >=11.1.0",
+      "ninja",
+      "pkg-config",
+      "swig"
+    ],
+    "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
+    "md5": "a29206770023e13c791eba66ce160bbc",
+    "name": "gnuradio-build-deps",
+    "sha256": "2dc979177a69be4c36ea83e8f1ee8d4ce74b2b036d9614792274923c6c8b66c5",
+    "size": 47829,
+    "subdir": "osx-64",
+    "summary": "GNU Radio Companion",
+    "timestamp": 1616814452339,
+    "type": "app",
+    "version": "3.8.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gnuradio-build-deps-3.8.3.0-he49afe7_1.tar.bz2/gnuradio-build-deps-3.8.3.0-he49afe7_1.tar.bz2"
+}
