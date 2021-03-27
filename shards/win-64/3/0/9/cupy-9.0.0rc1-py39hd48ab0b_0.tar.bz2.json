@@ -26,45 +26,45 @@
     "summary": "CuPy is an implementation of a NumPy-compatible multi-dimensional array on CUDA.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1616853141,
+    "timestamp": 1616852757,
     "version": "9.0.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "cupy-feedstock",
   "labels": [
     "cupy_rc"
   ],
-  "package": "cupy-9.0.0rc1-py38h6ccc6bc_0.tar.bz2",
+  "package": "cupy-9.0.0rc1-py39hd48ab0b_0.tar.bz2",
   "repodata": {
-    "build": "py38h6ccc6bc_0",
+    "build": "py39hd48ab0b_0",
     "build_number": 0,
     "constrains": [
-      "cudnn >=8.1.0.77,<9.0a0",
       "cutensor >=1.2.2.5,<2.0a0",
-      "optuna >=2",
-      "scipy >=1.4"
+      "scipy >=1.4",
+      "cudnn >=8.1.0.77,<9.0a0",
+      "optuna >=2"
     ],
     "depends": [
-      "cudatoolkit 11.0|11.0.*",
+      "cudatoolkit 10.2|10.2.*",
       "fastrlock >=0.5",
       "numpy >=1.17",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "setuptools",
       "vc >=14.1,<15.0a0",
       "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "997a6ef5ade39da73e498047eeb1a446",
+    "md5": "b9bd59714425ae74d5bc5e36bcb33fec",
     "name": "cupy",
-    "sha256": "56a48538866617eaa7e64ef37dac8937196eb4ccd7c528990ed14d5febcb520f",
-    "size": 51587421,
+    "sha256": "56032910353f6ed69384aceba2c06c9eea3f53a4bc1645fbfb938fb326bbd0e4",
+    "size": 37281295,
     "subdir": "win-64",
-    "timestamp": 1616853141200,
+    "timestamp": 1616852757833,
     "version": "9.0.0rc1"
   },
   "repodata_version": 1,
   "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/cupy-9.0.0rc1-py38h6ccc6bc_0.tar.bz2/cupy-9.0.0rc1-py38h6ccc6bc_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/cupy-9.0.0rc1-py39hd48ab0b_0.tar.bz2/cupy-9.0.0rc1-py39hd48ab0b_0.tar.bz2"
 }
