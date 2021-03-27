@@ -6,7 +6,7 @@
     "description": null,
     "dev_url": "https://github.com/cupy/cupy/",
     "doc_source_url": null,
-    "doc_url": "https://docs.cupy.dev/en/latest/",
+    "doc_url": "https://docs.cupy.dev/en/stable/",
     "home": "https://cupy.dev/",
     "icon_hash": null,
     "icon_url": null,
@@ -26,45 +26,45 @@
     "summary": "CuPy is an implementation of a NumPy-compatible multi-dimensional array on CUDA.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1616853428,
-    "version": "9.0.0rc1"
+    "timestamp": 1616853427,
+    "version": "8.6.0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "cupy-feedstock",
   "labels": [
-    "cupy_rc"
+    "main"
   ],
-  "package": "cupy-9.0.0rc1-py36ha96fa4b_0.tar.bz2",
+  "package": "cupy-8.6.0-py38h8737d37_0.tar.bz2",
   "repodata": {
-    "build": "py36ha96fa4b_0",
+    "build": "py38h8737d37_0",
     "build_number": 0,
     "constrains": [
-      "cudnn >=8.1.0.77,<9.0a0",
-      "scipy >=1.4",
-      "optuna >=2",
-      "cutensor >=1.2.2.5,<2.0a0"
+      "scipy >=1.3",
+      "optuna >=2"
     ],
     "depends": [
-      "cudatoolkit 11.1|11.1.*",
-      "fastrlock >=0.5",
-      "numpy >=1.17",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "cudatoolkit 10.2|10.2.*",
+      "cudnn >=8.1.0.77,<9.0a0",
+      "cutensor >=1.2.2.5,<2.0a0",
+      "fastrlock >=0.3",
+      "numpy >=1.16",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "setuptools",
       "vc >=14.1,<15.0a0",
       "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "4f3016c9a619b1eb06de331ac3579f56",
+    "md5": "7307dd433b50331786fd0a866a3cae48",
     "name": "cupy",
-    "sha256": "65dd3687e45f912c69cc9bb35e11e53216a61469e2a559fe792c1793bad3b025",
-    "size": 64894587,
+    "sha256": "7d6217729bc72cf380195a0128123b163e48760222ebabc1f68b1e6a5d33a9f4",
+    "size": 35595468,
     "subdir": "win-64",
-    "timestamp": 1616853428733,
-    "version": "9.0.0rc1"
+    "timestamp": 1616853427636,
+    "version": "8.6.0"
   },
   "repodata_version": 1,
   "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/cupy-9.0.0rc1-py36ha96fa4b_0.tar.bz2/cupy-9.0.0rc1-py36ha96fa4b_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/cupy-8.6.0-py38h8737d37_0.tar.bz2/cupy-8.6.0-py38h8737d37_0.tar.bz2"
 }
