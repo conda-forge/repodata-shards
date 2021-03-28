@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://florianhartig.github.io/DHARMa/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/DHARMa/DHARMa_0.4.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/DHARMa_0.4.0.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "The 'DHARMa' package uses a simulation-based approach to create readily interpretable scaled (quantile) residuals for fitted (generalized) linear mixed models. Currently supported are linear and generalized linear (mixed) models from 'lme4' (classes 'lmerMod', 'glmerMod'), 'glmmTMB' and 'spaMM', generalized additive models ('gam' from 'mgcv'), 'glm' (including 'negbin' from 'MASS', but excluding quasi-distributions) and 'lm' model classes. Moreover, externally created simulations, e.g. posterior predictive simulations from Bayesian software such as 'JAGS', 'STAN', or 'BUGS' can be processed as well. The resulting residuals are standardized to values between 0 and 1 and can be interpreted as intuitively as residuals from a linear regression. The package also provides a number of plot and test functions for typical model misspecification problems, such as over/underdispersion, zero-inflation, and residual spatial and temporal autocorrelation.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1616920208,
+    "version": "0.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-dharma-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-dharma-0.4.0-r36hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r36hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-ape",
+      "r-base >=3.6,<3.7.0a0",
+      "r-doparallel",
+      "r-foreach",
+      "r-gap",
+      "r-glmmtmb >=1.0.1",
+      "r-lme4",
+      "r-lmtest",
+      "r-mass",
+      "r-mgcv",
+      "r-qgam >=1.3.2",
+      "r-sfsmisc"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL3",
+    "md5": "0bde808dee71b2b5783c5bc757ba035e",
+    "name": "r-dharma",
+    "noarch": "generic",
+    "sha256": "e5e015cdf2740c6afe958f9c0acb9aed9adb3c938fe3d9895ce2ea95027b387a",
+    "size": 3869645,
+    "subdir": "noarch",
+    "timestamp": 1616920208452,
+    "version": "0.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-dharma-0.4.0-r36hc72bb7e_0.tar.bz2/r-dharma-0.4.0-r36hc72bb7e_0.tar.bz2"
+}
