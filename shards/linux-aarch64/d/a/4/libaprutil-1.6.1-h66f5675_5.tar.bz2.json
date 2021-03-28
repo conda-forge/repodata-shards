@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Apache Portable Run-time libraries have been designed to provide a common interface to low level routines across any platform.The original goal of APR was to combine all code in Apache to one common code base.",
+    "dev_url": "https://svn.apache.org/viewvc/apr",
+    "doc_source_url": "https://github.com/apache/apr/tree/trunk/docs",
+    "doc_url": "https://apr.apache.org/docs/apr/1.6/index.html",
+    "home": "http://apr.apache.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.6.1": {
+        "weak": [
+          "libaprutil >=1.6.1,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Maintains a consistent API with predictable behaviour",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616904676,
+    "version": "1.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "apr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libaprutil-1.6.1-h66f5675_5.tar.bz2",
+  "repodata": {
+    "build": "h66f5675_5",
+    "build_number": 5,
+    "depends": [
+      "expat >=2.3.0,<2.4.0a0",
+      "libgcc-ng >=9.3.0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "44c34bcd5101327316be4ba9efad87c0",
+    "name": "libaprutil",
+    "sha256": "17ed907e2913008f96dcb1f352ef4d1a76a1cf095ff76d3da8715407c9c8bc41",
+    "size": 297233,
+    "subdir": "linux-aarch64",
+    "timestamp": 1616904676295,
+    "version": "1.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libaprutil-1.6.1-h66f5675_5.tar.bz2/libaprutil-1.6.1-h66f5675_5.tar.bz2"
+}
