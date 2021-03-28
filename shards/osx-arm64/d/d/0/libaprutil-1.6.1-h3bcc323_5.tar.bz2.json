@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Apache Portable Run-time libraries have been designed to provide a common interface to low level routines across any platform.The original goal of APR was to combine all code in Apache to one common code base.",
+    "dev_url": "https://svn.apache.org/viewvc/apr",
+    "doc_source_url": "https://github.com/apache/apr/tree/trunk/docs",
+    "doc_url": "https://apr.apache.org/docs/apr/1.6/index.html",
+    "home": "http://apr.apache.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.6.1": {
+        "weak": [
+          "libaprutil >=1.6.1,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Maintains a consistent API with predictable behaviour",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1616904935,
+    "version": "1.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "apr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libaprutil-1.6.1-h3bcc323_5.tar.bz2",
+  "repodata": {
+    "build": "h3bcc323_5",
+    "build_number": 5,
+    "depends": [
+      "expat >=2.3.0,<2.4.0a0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "b5be3ac67c82c623b8da8c0c67874066",
+    "name": "libaprutil",
+    "sha256": "63ff07f4cac5af667a03aec4d0e7721ae5df9414998b24c72e15b91838b121ef",
+    "size": 237580,
+    "subdir": "osx-arm64",
+    "timestamp": 1616904935008,
+    "version": "1.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libaprutil-1.6.1-h3bcc323_5.tar.bz2/libaprutil-1.6.1-h3bcc323_5.tar.bz2"
+}
