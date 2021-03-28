@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Apache Portable Run-time libraries have been designed to provide a common interface to low level routines across any platform.The original goal of APR was to combine all code in Apache to one common code base.",
+    "dev_url": "https://svn.apache.org/viewvc/apr",
+    "doc_source_url": "https://github.com/apache/apr/tree/trunk/docs",
+    "doc_url": "https://apr.apache.org/docs/apr/1.6/index.html",
+    "home": "http://apr.apache.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.2.2": {
+        "weak": [
+          "libapriconv >=1.2.2,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Maintains a consistent API with predictable behaviour",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1616904866,
+    "version": "1.2.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "apr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libapriconv-1.2.2-h8ffe710_5.tar.bz2",
+  "repodata": {
+    "build": "h8ffe710_5",
+    "build_number": 5,
+    "depends": [
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "aa1ee2cb8e176fb1e55dfb10d8a758fa",
+    "name": "libapriconv",
+    "sha256": "2ab412e98dcd79ff859ec0e58beebf1a10d92e6fe63e8fc3b8e33c6948ecc6d8",
+    "size": 736752,
+    "subdir": "win-64",
+    "timestamp": 1616904866897,
+    "version": "1.2.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/libapriconv-1.2.2-h8ffe710_5.tar.bz2/libapriconv-1.2.2-h8ffe710_5.tar.bz2"
+}
