@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://surveillance.R-Forge.R-project.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/surveillance/surveillance_1.19.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/surveillance_1.19.1.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Statistical methods for the modeling and monitoring of time series of counts, proportions and categorical data, as well as for the modeling of continuous-time point processes of epidemic phenomena. The monitoring methods focus on aberration detection in count data time series from public health surveillance of communicable diseases, but applications could just as well originate from environmetrics, reliability engineering, econometrics, or social sciences. The package implements many typical outbreak detection procedures such as the (improved) Farrington algorithm, or the negative binomial GLR-CUSUM method of H\u00F6hle and Paul (2008) <doi:10.1016/j.csda.2008.02.015>. A novel CUSUM approach combining logistic and multinomial logistic modeling is also included. The package contains several real-world data sets, the ability to simulate outbreak data, and to visualize the results of the monitoring in a temporal, spatial or spatio-temporal fashion. A recent overview of the available monitoring procedures is given by Salmon et al. (2016) <doi:10.18637/jss.v070.i10>. For the retrospective analysis of epidemic spread, the package provides three endemic-epidemic modeling frameworks with tools for visualization, likelihood inference, and simulation. hhh4() estimates models for (multivariate) count time series following Paul and Held (2011) <doi:10.1002/sim.4177> and Meyer and Held (2014) <doi:10.1214/14-AOAS743>. twinSIR() models the susceptible-infectious-recovered (SIR) event history of a fixed population, e.g, epidemics across farms or networks, as a multivariate point process as proposed by H\u00F6hle (2009) <doi:10.1002/bimj.200900050>. twinstim() estimates self-exciting point process models for a spatio-temporal point pattern of infective events, e.g., time-stamped geo-referenced surveillance data, as proposed by Meyer et al. (2012) <doi:10.1111/j.1541-0420.2011.01684.x>. A recent overview of the implemented space-time modeling frameworks for epidemic phenomena is given by Meyer et al. (2017) <doi:10.18637/jss.v077.i11>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1617177208,
+    "version": "1.19.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-surveillance-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-surveillance-1.19.1-r36h9951f98_0.tar.bz2",
+  "repodata": {
+    "build": "r36h9951f98_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.1.0",
+      "r-base >=3.6,<3.7.0a0",
+      "r-mass",
+      "r-matrix",
+      "r-nlme",
+      "r-polycub >=0.8.0",
+      "r-rcpp >=0.11.1",
+      "r-sp >=1.0_15",
+      "r-spatstat >=2.0",
+      "r-spatstat.geom",
+      "r-xtable >=1.7_0"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "94842d083ed60b42cd830df0a51192a4",
+    "name": "r-surveillance",
+    "sha256": "cdae32d12ea42cb0c3f7dd1f9602e751d1903e29e1b145074164300206d15474",
+    "size": 5946638,
+    "subdir": "osx-64",
+    "timestamp": 1617177208482,
+    "version": "1.19.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/r-surveillance-1.19.1-r36h9951f98_0.tar.bz2/r-surveillance-1.19.1-r36h9951f98_0.tar.bz2"
+}
