@@ -10,6 +10,13 @@ jobs:
     name: update repodata shards
     runs-on: "ubuntu-latest"
     steps:
+      - name: turnstyle
+        uses: beckermr/turnstyle-python@v1
+        with:
+          poll-interval-seconds: 5
+          abort-after-seconds: 10
+          github-token: ${{ secrets.GITHUB_TOKEN }}    
+
       - name: Generate token
         id: generate_token
         uses: tibdex/github-app-token@v1
