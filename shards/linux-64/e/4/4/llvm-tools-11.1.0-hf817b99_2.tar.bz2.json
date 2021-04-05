@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.1.0/llvm-11.1.0.src.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1617663499,
+    "version": "11.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "llvm-tools-11.1.0-hf817b99_2.tar.bz2",
+  "repodata": {
+    "build": "hf817b99_2",
+    "build_number": 2,
+    "constrains": [
+      "llvmdev   11.1.0"
+    ],
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libllvm11 11.1.0 hf817b99_2",
+      "libstdcxx-ng >=9.3.0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "9c3c5fdbead1533e12ca56b935bd2fc4",
+    "name": "llvm-tools",
+    "sha256": "63cee4ad3f9df6f75520f96225573fb3321505103734d7140dd63d19cf4aa578",
+    "size": 15263221,
+    "subdir": "linux-64",
+    "timestamp": 1617663499539,
+    "version": "11.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/llvm-tools-11.1.0-hf817b99_2.tar.bz2/llvm-tools-11.1.0-hf817b99_2.tar.bz2"
+}
