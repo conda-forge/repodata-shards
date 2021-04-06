@@ -21,40 +21,41 @@
     "source_git_url": "https://github.com/openfast/openfast.git",
     "source_url": null,
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "OpenFAST whole turbine simulation tool",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1617745683,
+    "timestamp": 1617745951,
     "version": "2.6.0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "openfast-feedstock",
   "labels": [
-    "dev"
+    "main"
   ],
-  "package": "openfast-2.6.0-hcdc6fee_2.tar.bz2",
+  "package": "openfast-2.6.0-hdefa2d7_3.tar.bz2",
   "repodata": {
-    "build": "hcdc6fee_2",
-    "build_number": 2,
+    "build": "hdefa2d7_3",
+    "build_number": 3,
     "depends": [
       "libblas >=3.8.0,<4.0a0",
-      "libcxx >=10.0.1",
-      "libgfortran 5.*",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
       "libgfortran5 >=9.3.0",
-      "liblapack >=3.8.0,<4.0a0"
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.3.0"
     ],
     "license": "Apache-2.0",
-    "md5": "4b9d55e044aa5e4b93d7ca37fbdc125f",
+    "md5": "47e4ef3162401026c7bf132504be8000",
     "name": "openfast",
-    "sha256": "7224a0d87740850648bdeb4165bd51901900f644de06e30969fd2cfb7bf0ed60",
-    "size": 39013731,
-    "subdir": "osx-64",
-    "timestamp": 1617745683783,
+    "sha256": "2ffe2ed543f5caac599ad5e7926e5da6da7f9f87b62319ba9ebcecae2186552e",
+    "size": 31329209,
+    "subdir": "linux-64",
+    "timestamp": 1617745951407,
     "version": "2.6.0"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/openfast-2.6.0-hcdc6fee_2.tar.bz2/openfast-2.6.0-hcdc6fee_2.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openfast-2.6.0-hdefa2d7_3.tar.bz2/openfast-2.6.0-hdefa2d7_3.tar.bz2"
 }
