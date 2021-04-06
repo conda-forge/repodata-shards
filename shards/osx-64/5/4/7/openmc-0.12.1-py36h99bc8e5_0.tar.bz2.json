@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "OpenMC is a community-developed Monte Carlo neutron and photon transport simulation code. It is capable of performing fixed source, k-eigenvalue, and subcritical multiplication calculations on models built using either a constructive solid geometry or CAD representation. OpenMC supports both continuous-energy and multigroup transport. The continuous-energy particle interaction data is based on a native HDF5 format that can be generated from ACE files produced by NJOY. Parallelism is enabled via a hybrid MPI and OpenMP programming model.",
+    "dev_url": "https://github.com/openmc-dev/openmc",
+    "doc_source_url": null,
+    "doc_url": "https://docs.openmc.org",
+    "home": "https://openmc.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "OpenMC Monte Carlo Code",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1617739946,
+    "version": "0.12.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmc-0.12.1-py36h99bc8e5_0.tar.bz2",
+  "repodata": {
+    "build": "py36h99bc8e5_0",
+    "build_number": 0,
+    "depends": [
+      "h5py",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "libcxx >=11.1.0",
+      "lxml",
+      "matplotlib-base",
+      "numpy >=1.17.5,<2.0a0",
+      "pandas",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "scipy",
+      "uncertainties"
+    ],
+    "license": "MIT",
+    "md5": "8669ef66d86165849a27bf5c82946189",
+    "name": "openmc",
+    "sha256": "148d3d8168d6dc4be773aaec323b4086102ce1aeeb939ac209c5037e732d61b5",
+    "size": 4119793,
+    "subdir": "osx-64",
+    "timestamp": 1617739946054,
+    "version": "0.12.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/openmc-0.12.1-py36h99bc8e5_0.tar.bz2/openmc-0.12.1-py36h99bc8e5_0.tar.bz2"
+}
