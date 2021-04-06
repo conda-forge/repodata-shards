@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This project provides an object-oriented software package for dynamic flux-balance analysis (DFBA) simulations using implementations of the direct method or Algorithm 1 described in the paper Harwood et al., 2016. The main algorithms for solving embedded LP problems are written in C++ and use the GNU Linear Programming Kit (GLPK) and the Suite of Nonlinear and Differential/Algebraic Equation Solvers (SUNDIALS) CVODE or IDA. Extension modules to cobrapy are provided for easy generation and simulation of DFBA models.",
+    "dev_url": "https://gitlab.com/davidtourigny/dynamic-fba",
+    "doc_source_url": null,
+    "doc_url": "https://dynamic-fba.readthedocs.io",
+    "home": "https://dynamic-fba.readthedocs.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/d/dfba/dfba-0.1.8.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Object-oriented software for dynamic flux-balance analysis (DFBA) simulations.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1617733672,
+    "version": "0.1.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dfba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dfba-0.1.8-py37h7818d4e_0.tar.bz2",
+  "repodata": {
+    "build": "py37h7818d4e_0",
+    "build_number": 0,
+    "depends": [
+      "clangxx_osx-64 11.*",
+      "cobra",
+      "depinfo",
+      "glpk >=4.65,<4.66.0a0",
+      "libcxx >=11.1.0",
+      "optlang",
+      "pandas",
+      "pybind11",
+      "python >=3.7,<3.8.0a0",
+      "python-symengine",
+      "python_abi 3.7.* *_cp37m",
+      "sundials >=5.7.0,<5.8.0a0",
+      "sympy"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "ee26223e50c8dec897aad928324d982f",
+    "name": "dfba",
+    "sha256": "0f89fdb0764e79542c5e4456e8b85b053578d87924d781d91c2417ce8e97d641",
+    "size": 229950,
+    "subdir": "osx-64",
+    "timestamp": 1617733672594,
+    "version": "0.1.8"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/dfba-0.1.8-py37h7818d4e_0.tar.bz2/dfba-0.1.8-py37h7818d4e_0.tar.bz2"
+}
