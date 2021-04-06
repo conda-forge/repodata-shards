@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Intel\u00AE Data Analytics Acceleration Library (Intel\u00AE oneDAL) is the library of Intel\u00AE architecture optimized building blocks covering all stages of data analytics: data acquisition from a data source, preprocessing, transformation, data mining, modeling, validation, and decision making. This package is a repackaged set of binaries obtained directly from Intel\\'s anaconda.org channel.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "http://oneapi-src.github.io/oneDAL/",
+    "home": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onedal.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-ProprietaryIntel",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2021.2.2": {
+        "weak": [
+          "dal >=2021.2.2,<2022.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Devel package for building things linked against Intel\u00AE oneDAL shared libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1617678582,
+    "version": "2021.2.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "intel_repack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dal-devel-2021.2.2-h57928b3_389.tar.bz2",
+  "repodata": {
+    "build": "h57928b3_389",
+    "build_number": 389,
+    "depends": [
+      "dal 2021.2.2 hb70f87d_389",
+      "dal-include 2021.2.2 h57928b3_389"
+    ],
+    "license": "LicenseRef-ProprietaryIntel",
+    "license_family": "Proprietary",
+    "md5": "c736cb54ca36ce1fe32821246a8c407f",
+    "name": "dal-devel",
+    "sha256": "1f54fb0f4dd3708c247cd833c02d2986f1006e76a2b2d725522e03254fc21bfe",
+    "size": 7912305,
+    "subdir": "win-64",
+    "timestamp": 1617678582736,
+    "version": "2021.2.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/dal-devel-2021.2.2-h57928b3_389.tar.bz2/dal-devel-2021.2.2-h57928b3_389.tar.bz2"
+}
