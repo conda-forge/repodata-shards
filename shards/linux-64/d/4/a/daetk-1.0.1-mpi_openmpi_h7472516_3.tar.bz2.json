@@ -1,0 +1,78 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/erdc-cm/daetk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.1": {
+        "weak": [
+          "daetk * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/erdc-cm/daetk/archive/1.0.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The Differential Algebraic Equation Toolkit",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1617820044,
+    "version": "1.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "daetk-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "daetk-1.0.1-mpi_openmpi_h7472516_3.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h7472516_3",
+    "build_number": 3,
+    "depends": [
+      "conda-build",
+      "hypre",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libopenblas",
+      "libstdcxx-ng >=9.3.0",
+      "metis",
+      "mumps-mpi",
+      "openmpi >=4.1.0,<5.0a0",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "petsc >=3.14.6,<3.15.0a0",
+      "ptscotch",
+      "scalapack",
+      "scotch",
+      "suitesparse"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "cd6ec1f8aea20d3f24fedcd238f0b549",
+    "name": "daetk",
+    "sha256": "7a01e5fe765a34c778c95869c36338c28bdd2ad0d8d295f63c4cc76ce7edfeec",
+    "size": 334428,
+    "subdir": "linux-64",
+    "timestamp": 1617820044603,
+    "version": "1.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/daetk-1.0.1-mpi_openmpi_h7472516_3.tar.bz2/daetk-1.0.1-mpi_openmpi_h7472516_3.tar.bz2"
+}
