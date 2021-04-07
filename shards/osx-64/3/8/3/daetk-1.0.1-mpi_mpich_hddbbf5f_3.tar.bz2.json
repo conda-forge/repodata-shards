@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/erdc-cm/daetk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.1": {
+        "weak": [
+          "daetk * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/erdc-cm/daetk/archive/1.0.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Differential Algebraic Equation Toolkit",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1617823186,
+    "version": "1.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "daetk-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "daetk-1.0.1-mpi_mpich_hddbbf5f_3.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hddbbf5f_3",
+    "build_number": 3,
+    "depends": [
+      "conda-build",
+      "hypre",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "libopenblas",
+      "metis",
+      "mpich >=3.4.1,<4.0a0",
+      "mumps-mpi",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "petsc >=3.14.6,<3.15.0a0",
+      "ptscotch",
+      "scalapack",
+      "scotch",
+      "suitesparse"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "1011a7eb027db739cbb2ac3705526d4e",
+    "name": "daetk",
+    "sha256": "93ce26669140b464f12600d54f5fad324a602a4a6d3b24e7c41d11ca1426897c",
+    "size": 303101,
+    "subdir": "osx-64",
+    "timestamp": 1617823186889,
+    "version": "1.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/daetk-1.0.1-mpi_mpich_hddbbf5f_3.tar.bz2/daetk-1.0.1-mpi_mpich_hddbbf5f_3.tar.bz2"
+}
