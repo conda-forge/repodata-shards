@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Biomechanical add-ons to the RigidBody Dynamics Library .",
+    "dev_url": "https://github.com/pyomeca/biorbd/",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/pyomeca/biorbd/",
+    "home": "http://github.com/pyomeca/biorbd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.2": {
+        "weak": [
+          "biorbd >=1.5.2,<1.6.0a0",
+          "biorbd * eigen_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/pyomeca/biorbd/archive/Release_1.5.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Biomechanical add-ons to the RigidBody Dynamics Library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1617832396,
+    "version": "1.5.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "biorbd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "biorbd-1.5.2-py36_eigen_h552353d_0.tar.bz2",
+  "repodata": {
+    "build": "py36_eigen_h552353d_0",
+    "build_number": 0,
+    "depends": [
+      "eigen",
+      "ipopt >=3.13.4,<3.14.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "numpy >=1.17.5,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "rbdl * eigen_*",
+      "rbdl >=2.6.0.13,<2.7.0a0",
+      "rbdl >=2.6.0.13,<3.0a0",
+      "tinyxml"
+    ],
+    "license": "MIT",
+    "md5": "70a8525a8ddd84b2249c7fcde5eb5486",
+    "name": "biorbd",
+    "sha256": "20d2430bea04199c272677d5e35a814c5559d8f82a3bc3f6c7af0cfcdaffcf59",
+    "size": 1948616,
+    "subdir": "linux-64",
+    "timestamp": 1617832396464,
+    "version": "1.5.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/biorbd-1.5.2-py36_eigen_h552353d_0.tar.bz2/biorbd-1.5.2-py36_eigen_h552353d_0.tar.bz2"
+}
