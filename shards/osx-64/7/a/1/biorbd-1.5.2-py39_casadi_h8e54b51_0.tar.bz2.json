@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Biomechanical add-ons to the RigidBody Dynamics Library .",
+    "dev_url": "https://github.com/pyomeca/biorbd/",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/pyomeca/biorbd/",
+    "home": "http://github.com/pyomeca/biorbd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.2": {
+        "weak": [
+          "biorbd >=1.5.2,<1.6.0a0",
+          "biorbd * casadi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/pyomeca/biorbd/archive/Release_1.5.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Biomechanical add-ons to the RigidBody Dynamics Library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1617832775,
+    "version": "1.5.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "biorbd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "biorbd-1.5.2-py39_casadi_h8e54b51_0.tar.bz2",
+  "repodata": {
+    "build": "py39_casadi_h8e54b51_0",
+    "build_number": 0,
+    "depends": [
+      "casadi",
+      "ipopt >=3.13.4,<3.14.0a0",
+      "libcxx >=11.1.0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "rbdl * casadi_*",
+      "rbdl >=2.6.0.13,<2.7.0a0",
+      "rbdl >=2.6.0.13,<3.0a0",
+      "tinyxml"
+    ],
+    "license": "MIT",
+    "md5": "201b2ecb6bcf1f406d5e48b2b5cff04a",
+    "name": "biorbd",
+    "sha256": "404694adaf474c95b75a8f34b1258ea8945fd4bfd7a99b116ac202f36f21b3dc",
+    "size": 1650028,
+    "subdir": "osx-64",
+    "timestamp": 1617832775404,
+    "track_features": "casadi",
+    "version": "1.5.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/biorbd-1.5.2-py39_casadi_h8e54b51_0.tar.bz2/biorbd-1.5.2-py39_casadi_h8e54b51_0.tar.bz2"
+}
