@@ -1,0 +1,78 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/erdc-cm/daetk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.1": {
+        "weak": [
+          "daetk * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/erdc-cm/daetk/archive/1.0.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The Differential Algebraic Equation Toolkit",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1617820058,
+    "version": "1.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "daetk-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "daetk-1.0.1-mpi_mpich_hb790413_3.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hb790413_3",
+    "build_number": 3,
+    "depends": [
+      "conda-build",
+      "hypre",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libopenblas",
+      "libstdcxx-ng >=9.3.0",
+      "metis",
+      "mpich >=3.4.1,<4.0a0",
+      "mumps-mpi",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "petsc >=3.14.6,<3.15.0a0",
+      "ptscotch",
+      "scalapack",
+      "scotch",
+      "suitesparse"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "afa8f1e50e7fca8e9d3b5e851348fc6f",
+    "name": "daetk",
+    "sha256": "1fbdb661f9a3a4592b092d88bebc37f86eb72065b195ec327462abc256da5c8c",
+    "size": 335417,
+    "subdir": "linux-64",
+    "timestamp": 1617820058214,
+    "version": "1.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/daetk-1.0.1-mpi_mpich_hb790413_3.tar.bz2/daetk-1.0.1-mpi_mpich_hb790413_3.tar.bz2"
+}
