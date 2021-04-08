@@ -21,39 +21,40 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A safe systems programming language (conda activation scripts)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1617874504,
+    "timestamp": 1617874835,
     "version": "1.49.0.dev20201015"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "rust-activation-feedstock",
   "labels": [
     "rust_dev"
   ],
-  "package": "rust_linux-64-1.49.0.dev20201015-hfdab033_1.tar.bz2",
+  "package": "rust_osx-arm64-1.49.0.dev20201015-heee15a8_1.tar.bz2",
   "repodata": {
-    "build": "hfdab033_1",
+    "build": "heee15a8_1",
     "build_number": 1,
     "depends": [
-      "gcc_linux-64",
+      "clang_osx-arm64",
+      "ld64_osx-64",
       "rust 1.49.0.dev20201015.*",
-      "rust-std-x86_64-unknown-linux-gnu 1.49.0.dev20201015.*"
+      "rust-std-aarch64-apple-darwin 1.49.0.dev20201015.*"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "56c4381eae82a4b23f71fc2c5dfc2679",
-    "name": "rust_linux-64",
-    "sha256": "f175f3ae2bbbdd677d774ab7148d849a60207c9fb51797c4cb2588c5349a395a",
-    "size": 6759,
-    "subdir": "linux-64",
-    "timestamp": 1617874504493,
+    "md5": "f9742a7531abf321c0eb2000c6581d26",
+    "name": "rust_osx-arm64",
+    "sha256": "a3f63b0738e73139610ad9c3fb1cd15f9d8baf53299429ace966f4868b9db678",
+    "size": 6767,
+    "subdir": "osx-64",
+    "timestamp": 1617874835248,
     "version": "1.49.0.dev20201015"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/rust_linux-64-1.49.0.dev20201015-hfdab033_1.tar.bz2/rust_linux-64-1.49.0.dev20201015-hfdab033_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/rust_osx-arm64-1.49.0.dev20201015-heee15a8_1.tar.bz2/rust_osx-arm64-1.49.0.dev20201015-heee15a8_1.tar.bz2"
 }
