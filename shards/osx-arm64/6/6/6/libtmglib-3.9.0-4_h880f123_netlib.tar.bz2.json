@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.netlib.org/lapack",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "libtmglib >=3.9.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Linear Algebra PACKage",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1617995186,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lapack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libtmglib-3.9.0-4_h880f123_netlib.tar.bz2",
+  "repodata": {
+    "build": "4_h880f123_netlib",
+    "build_number": 4,
+    "constrains": [
+      "blas * netlib"
+    ],
+    "depends": [
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.1.dev0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "9c5c0081848a7d65ddcdc3be51d1c17e",
+    "name": "libtmglib",
+    "sha256": "7de29d90a3f606c8167ee5d7b5a876c1d8009ab3ce2ff178c474df48292dd4ea",
+    "size": 146540,
+    "subdir": "osx-arm64",
+    "timestamp": 1617995186553,
+    "track_features": "blas_netlib",
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libtmglib-3.9.0-4_h880f123_netlib.tar.bz2/libtmglib-3.9.0-4_h880f123_netlib.tar.bz2"
+}
