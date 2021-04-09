@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.netlib.org/lapack",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "liblapacke >=3.9.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Linear Algebra PACKage",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1617995545,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lapack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblapacke-3.9.0-4_hd5c7e75_netlib.tar.bz2",
+  "repodata": {
+    "build": "4_hd5c7e75_netlib",
+    "build_number": 4,
+    "depends": [
+      "libblas 3.9.0.*",
+      "libcblas 3.9.0.*",
+      "liblapack 3.9.0.*",
+      "m2w64-gcc-libs"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "384b0e7cf33c1020a4d458a43a6abacf",
+    "name": "liblapacke",
+    "sha256": "5b2af796beb5ce3c6171111136973a59b49d2da4a6f8d76dc9155b44d1ccea00",
+    "size": 756836,
+    "subdir": "win-64",
+    "timestamp": 1617995545914,
+    "track_features": "blas_netlib",
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/liblapacke-3.9.0-4_hd5c7e75_netlib.tar.bz2/liblapacke-3.9.0-4_hd5c7e75_netlib.tar.bz2"
+}
