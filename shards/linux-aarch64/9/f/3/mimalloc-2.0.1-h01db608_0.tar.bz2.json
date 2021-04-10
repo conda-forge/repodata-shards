@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "mimalloc (pronounced \"me-malloc\") is a general purpose allocator with excellent performance characteristics. Initially developed by Daan Leijen for the run-time systems of the Koka and Lean languages.",
+    "dev_url": "https://github.com/microsoft/mimalloc",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/microsoft/mimalloc",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.1": {
+        "weak": [
+          "mimalloc >=2.0.1,<2.0.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/elbaro/mimalloc/archive/refs/heads/fix/aligned-alloc.zip",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "mimalloc is a compact general purpose allocator with excellent performance.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1618080610,
+    "version": "2.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mimalloc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mimalloc-2.0.1-h01db608_0.tar.bz2",
+  "repodata": {
+    "build": "h01db608_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "32f2ddaa43c0c318e42169da560c3005",
+    "name": "mimalloc",
+    "sha256": "fd004f418d2178ac65facde0cc00edcd445c15e33652580fe6a8637f7b75e67e",
+    "size": 73759,
+    "subdir": "linux-aarch64",
+    "timestamp": 1618080610382,
+    "version": "2.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/mimalloc-2.0.1-h01db608_0.tar.bz2/mimalloc-2.0.1-h01db608_0.tar.bz2"
+}
