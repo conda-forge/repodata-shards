@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "OpenMM is a toolkit for molecular simulation. It can be used either as a stand-alone application for running simulations, or as a library you call from your own code. It provides a combination of extreme flexibility (through custom forces and integrators), openness, and high performance (especially on recent GPUs) that make it truly unique among simulation codes. OpenMM is MIT licensed with some LGPL portions (CUDA and OpenCL platforms).",
+    "dev_url": "https://github.com/openmm/openmm",
+    "doc_source_url": null,
+    "doc_url": "http://docs.openmm.org",
+    "home": "http://openmm.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": "https://github.com/openmm/openmm.git",
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "A high performance toolkit for molecular simulation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1618438066,
+    "version": "7.5.1rc2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "openmm_rc"
+  ],
+  "package": "openmm-7.5.1rc2-py39hc780a52_0_khronos.tar.bz2",
+  "repodata": {
+    "build": "py39hc780a52_0_khronos",
+    "build_number": 0,
+    "depends": [
+      "fftw >=3.3.9,<4.0a0",
+      "khronos-opencl-icd-loader >=2020.12.18",
+      "libcxx >=11.1.0",
+      "numpy",
+      "ocl_icd_wrapper_apple",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "fe1c8400819f3b1e27a7a0e172f52ed8",
+    "name": "openmm",
+    "sha256": "a2ef64d118972bc5da037cf969110ecf033e78cb2fb419b04de896fe31881e69",
+    "size": 15361081,
+    "subdir": "osx-arm64",
+    "timestamp": 1618438066278,
+    "track_features": "openmm_opencl_khronos",
+    "version": "7.5.1rc2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/label/openmm_rc/osx-arm64/openmm-7.5.1rc2-py39hc780a52_0_khronos.tar.bz2"
+}
