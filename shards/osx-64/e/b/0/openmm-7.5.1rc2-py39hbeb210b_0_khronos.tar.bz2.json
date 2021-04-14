@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "OpenMM is a toolkit for molecular simulation. It can be used either as a stand-alone application for running simulations, or as a library you call from your own code. It provides a combination of extreme flexibility (through custom forces and integrators), openness, and high performance (especially on recent GPUs) that make it truly unique among simulation codes. OpenMM is MIT licensed with some LGPL portions (CUDA and OpenCL platforms).",
     "dev_url": "https://github.com/openmm/openmm",
@@ -21,46 +21,44 @@
     "source_git_url": "https://github.com/openmm/openmm.git",
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A high performance toolkit for molecular simulation.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1618437587,
+    "timestamp": 1618437542,
     "version": "7.5.1rc2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "openmm-feedstock",
   "labels": [
     "openmm_rc"
   ],
-  "package": "openmm-7.5.1rc2-py38h42a2fed_0.tar.bz2",
+  "package": "openmm-7.5.1rc2-py39hbeb210b_0_khronos.tar.bz2",
   "repodata": {
-    "build": "py38h42a2fed_0",
+    "build": "py39hbeb210b_0_khronos",
     "build_number": 0,
     "depends": [
-      "__glibc >=2.17",
-      "cudatoolkit 11.0|11.0.*",
       "fftw >=3.3.9,<4.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "khronos-opencl-icd-loader >=2020.12.18",
+      "libcxx >=11.1.0",
       "numpy",
-      "ocl-icd >=2.3.0,<3.0a0",
-      "ocl-icd-system",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "ocl_icd_wrapper_apple",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
     ],
     "license": "LGPL-3.0-or-later",
     "license_family": "LGPL",
-    "md5": "3c149862c43de55f8fd7ac627921f182",
+    "md5": "1d139f76aa368d5bc1fc6f8b585e343b",
     "name": "openmm",
-    "sha256": "e2c15b0afc77f27d57d6b7bb9df645d927969b036b5c77155d69e506bc95217a",
-    "size": 11472597,
-    "subdir": "linux-64",
-    "timestamp": 1618437587493,
+    "sha256": "e08f034181d4d85fe53bc7b081935a5c2ab0c2ce1cacf694b433f44437b14dc6",
+    "size": 9713899,
+    "subdir": "osx-64",
+    "timestamp": 1618437542293,
+    "track_features": "openmm_opencl_khronos",
     "version": "7.5.1rc2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openmm-7.5.1rc2-py38h42a2fed_0.tar.bz2/openmm-7.5.1rc2-py38h42a2fed_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/openmm-7.5.1rc2-py39hbeb210b_0_khronos.tar.bz2/openmm-7.5.1rc2-py39hbeb210b_0_khronos.tar.bz2"
 }
