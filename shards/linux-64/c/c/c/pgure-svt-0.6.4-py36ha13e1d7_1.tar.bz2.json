@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "PGURE-SVT (Poisson-Gaussian Unbiased Risk Estimator - Singular Value Thresholding) is an algorithm designed to denoise image sequences acquired in microscopy. It exploits the correlations between consecutive frames to form low-rank matrices, which are then recovered using a technique known as nuclear norm minimization. An unbiased risk estimator for mixed Poisson-Gaussian noise is used to automate the selection of the regularization parameter, while robust noise and motion estimation maintain broad applicability to many different types of microscopy.",
+    "dev_url": "https://github.com/tjof2/pgure-svt",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/tjof2/pgure-svt",
+    "home": "https://github.com/tjof2/pgure-svt",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/tjof2/pgure-svt/archive/v0.6.4.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Singular value thresholding for denoising time-resolved microscopy",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1618399715,
+    "version": "0.6.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pgure-svt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pgure-svt-0.6.4-py36ha13e1d7_1.tar.bz2",
+  "repodata": {
+    "build": "py36ha13e1d7_1",
+    "build_number": 1,
+    "depends": [
+      "armadillo >=9.900,<10.0a0",
+      "libgcc-ng >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.3.0",
+      "nlopt >=2.7.0,<2.7.1.0a0",
+      "numpy >=1.17.5,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
+    ],
+    "license": "GPL-3.0-or-later",
+    "md5": "e1b63d8318d53bd866bcaa90d4a14572",
+    "name": "pgure-svt",
+    "sha256": "f794142b6ee7426e9ff430bef17dcd0b75563f14efbb7a7e0b2bccea049006cd",
+    "size": 219648,
+    "subdir": "linux-64",
+    "timestamp": 1618399715169,
+    "version": "0.6.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pgure-svt-0.6.4-py36ha13e1d7_1.tar.bz2/pgure-svt-0.6.4-py36ha13e1d7_1.tar.bz2"
+}
