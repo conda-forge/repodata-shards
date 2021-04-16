@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "librdkafka is a C library implementation of the Apache Kafka protocol, containing both Producer and Consumer support. It was designed with message delivery reliability and high performance in mind, current figures exceed 1 million msgs/second for the producer and 3 million msgs/second for the consumer.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/edenhill/librdkafka",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.6.0": {
+        "weak": [
+          "librdkafka >=1.6.0,<1.7.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/edenhill/librdkafka/archive/v1.6.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The Apache Kafka C/C++ client library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1618596574,
+    "version": "1.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "librdkafka-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "librdkafka-1.6.0-hc49e61c_1.tar.bz2",
+  "repodata": {
+    "build": "hc49e61c_1",
+    "build_number": 1,
+    "depends": [
+      "cyrus-sasl >=2.1.27,<3.0a0",
+      "libgcc-ng >=9.3.0",
+      "libgsasl",
+      "libstdcxx-ng >=9.3.0",
+      "lz4-c >=1.9.3,<1.9.4.0a0",
+      "openssl >=1.1.1k,<1.1.2a",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "be15bf18b47325d72e9c9ef5f823805c",
+    "name": "librdkafka",
+    "sha256": "bdd6262afb0f3708d0395de6a0ab1ec1339caecac41a927609c0625b0d4bd067",
+    "size": 13221455,
+    "subdir": "linux-64",
+    "timestamp": 1618596574200,
+    "version": "1.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/librdkafka-1.6.0-hc49e61c_1.tar.bz2/librdkafka-1.6.0-hc49e61c_1.tar.bz2"
+}
