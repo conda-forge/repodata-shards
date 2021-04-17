@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "CP2K is a quantum chemistry and solid state physics software package that can perform atomistic simulations of solid state, liquid, molecular, periodic, material, crystal, and biological systems.",
+    "dev_url": "https://github.com/cp2k/cp2k",
+    "doc_source_url": null,
+    "doc_url": "https://manual.cp2k.org",
+    "home": "https://www.cp2k.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/cp2k/cp2k/releases/download/v8.1.0/cp2k-8.1.tar.bz2",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Quantum chemistry and solid state physics software package",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1618651612,
+    "version": "8.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cp2k-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cp2k-8.1.0-py38_openmpi_2.tar.bz2",
+  "repodata": {
+    "build": "py38_openmpi_2",
+    "build_number": 2,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "fftw >=3.3.9,<4.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.3.0",
+      "libxsmm >=1.16.1,<2.0a0",
+      "openmpi >=4.1,<4.2.0a0",
+      "scalapack"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL",
+    "md5": "fcaab88f334905f2069b746ba7c1c17a",
+    "name": "cp2k",
+    "sha256": "85f7777d46de7651caf8957cb3410f4d8f9ec7fc83428d96024d603f21c6aada",
+    "size": 24555922,
+    "subdir": "linux-64",
+    "timestamp": 1618651612952,
+    "version": "8.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cp2k-8.1.0-py38_openmpi_2.tar.bz2/cp2k-8.1.0-py38_openmpi_2.tar.bz2"
+}
