@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Rechunker is a Python package which enables efficient and scalable manipulation of the chunk structure of chunked array formats such as Zarr and TileDB. Rechunker takes an input array (or group of arrays) stored in a persistent storage device (such as a filesystem or a cloud storage bucket) and writes out an array (or group of arrays) with the same data, but different chunking scheme, to a new location. Rechunker is designed to be used within a parallel execution framework such as Dask.",
+    "dev_url": "https://github.com/pangeo-data/rechunker",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://rechunker.readthedocs.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/r/rechunker/rechunker-0.4.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Disk-to-disk chunk transformation for chunked arrays.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1618853269,
+    "version": "0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "rechunker-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "rechunker-0.4-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "dask",
+      "python >=3.6",
+      "xarray",
+      "zarr"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "9d53d62d61a631f141de63b4517926a5",
+    "name": "rechunker",
+    "noarch": "python",
+    "sha256": "97d1c3745d44163db33c267d2399912d54ce9c39ca31a106138f742454ece29a",
+    "size": 19435,
+    "subdir": "noarch",
+    "timestamp": 1618853269700,
+    "version": "0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/rechunker-0.4-pyhd8ed1ab_0.tar.bz2/rechunker-0.4-pyhd8ed1ab_0.tar.bz2"
+}
