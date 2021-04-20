@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.unidata.ucar.edu/downloads/netcdf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "http://www.unidata.ucar.edu/software/netcdf/copyright.html",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.2": {
+        "weak": [
+          "netcdf-cxx-legacy * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-cxx-4.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Legacy Unidata NetCDF C++ Library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1618906708,
+    "version": "4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "netcdf-cxx-legacy-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "netcdf-cxx-legacy-4.2-mpi_openmpi_h70f523f_6.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h70f523f_6",
+    "build_number": 6,
+    "constrains": [
+      "netcdf-cxx4 >=9999"
+    ],
+    "depends": [
+      "hdf5 * mpi_openmpi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+      "libcxx >=11.1.0",
+      "libnetcdf * mpi_openmpi_*",
+      "libnetcdf >=4.8.0,<4.8.1.0a0 mpi_openmpi_*",
+      "openmpi >=4.1,<4.2.0a0",
+      "openssh"
+    ],
+    "license": "http://www.unidata.ucar.edu/software/netcdf/copyright.html",
+    "md5": "dc9776623d177f36180acef984ecd40e",
+    "name": "netcdf-cxx-legacy",
+    "sha256": "31ab867c666c7468dedb00d74ea692d84ca206f734782ed6b0b5fe066db20544",
+    "size": 86355,
+    "subdir": "osx-64",
+    "timestamp": 1618906708926,
+    "version": "4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/netcdf-cxx-legacy-4.2-mpi_openmpi_h70f523f_6.tar.bz2/netcdf-cxx-legacy-4.2-mpi_openmpi_h70f523f_6.tar.bz2"
+}
