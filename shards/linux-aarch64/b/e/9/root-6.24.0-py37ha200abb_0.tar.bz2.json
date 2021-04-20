@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Almost everything in ROOT should be supported in this Conda package; ROOT was built with lots of options turned on. Here are a few things to try:  * `root`: you can start up a session and see the splash screen; Control-D to exit. * `python` followed by `import ROOT` will load PyROOT. * `root --notebook` will start a notebook server with a ROOT kernel choice. * `rootbrowse` will open a TBrowser session so you can look through files. * `root -l -q $ROOTSYS/tutorials/dataframe/df013_InspectAnalysis.C` will run a DataFrame example with an animated plot. * `root -b -q -l -n -e \"std::cout << TROOT::GetTutorialDir() << std::endl;\"` will print the tutorial dir. * `root -b -l -q -e 'std::cout << (float) TPython::Eval(\"1+1\") << endl;'` will run Python from C++ ROOT.  See the post [here](https://iscinumpy.gitlab.io/post/root-conda/) for more information about using this Conda package.  The ROOT package will prepare the required compilers. Everything in Conda is symlinked into `$CONDA_PREFIX` if you build things by hand; tools like CMake should find it automatically. The `thisroot.*` scripts should not be used and are not provided. Graphics, `rootbrowse`, etc. all should work. OpenGL is enabled.  There is also a `root_base` package, with minimal dependecies, that libraries should depend on this to avoid having a runtime dependency on the `compilers` package. `root-dependencies` and `root-binaries` are also available. In most cases users should use the `root` package directly, since it adds both of these, along with compilers, Jupyter, and a few other things to facilitate using ROOT or PyROOT.  ROOT was built with and will report `-std=c++17` from `root-config`.",
+    "dev_url": "https://github.com/root-project/root/",
+    "doc_source_url": null,
+    "doc_url": "https://root.cern/documentation",
+    "home": "https://root.cern/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/root-project/root/archive/v6-24-00.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "ROOT is a modular scientific software toolkit. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1618936588,
+    "version": "6.24.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "root-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "root-6.24.0-py37ha200abb_0.tar.bz2",
+  "repodata": {
+    "build": "py37ha200abb_0",
+    "build_number": 0,
+    "depends": [
+      "compilers",
+      "ipython",
+      "metakernel",
+      "notebook",
+      "numba",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "root_base 6.24.0 py37hd8ea93a_0"
+    ],
+    "license": "LGPL-2.1-only",
+    "md5": "2009b5470e07b1223a959f14aa5b9e47",
+    "name": "root",
+    "sha256": "878f324bcf595729655661aedd50f776ea5ce1122062259cc216b67eada37377",
+    "size": 26424,
+    "subdir": "linux-aarch64",
+    "timestamp": 1618936588373,
+    "version": "6.24.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/root-6.24.0-py37ha200abb_0.tar.bz2/root-6.24.0-py37ha200abb_0.tar.bz2"
+}
