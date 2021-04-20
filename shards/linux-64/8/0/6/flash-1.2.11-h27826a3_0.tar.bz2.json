@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "FLASH (Fast Length Adjustment of SHort reads) is a very fast and accurate software tool to merge paired-end reads from next-generation sequencing experiments. FLASH is designed to merge pairs of reads when the original DNA fragments are shorter than twice the length of reads. The resulting longer reads can significantly improve genome assemblies. They can also improve transcriptome assembly when FLASH is used to merge RNA-seq data.",
+    "dev_url": "http://sourceforge.net/projects/flashpage/files",
+    "doc_source_url": null,
+    "doc_url": "https://ccb.jhu.edu/software/FLASH/FLASH-reprint.pdf",
+    "home": "https://ccb.jhu.edu/software/FLASH/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://sourceforge.net/projects/flashpage/files/FLASH-1.2.11.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Merge paired sequencing reads into single longer sequences",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1618946120,
+    "version": "1.2.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": "flash-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "flash-1.2.11-h27826a3_0.tar.bz2",
+  "repodata": {
+    "build": "h27826a3_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "md5": "7c1c31fe8dabc0d5115f31e5779b24ca",
+    "name": "flash",
+    "sha256": "b66a842e76a1f8e066b59787e737b2406de067b413d220a6152afc062859f8a0",
+    "size": 43311,
+    "subdir": "linux-64",
+    "timestamp": 1618946120093,
+    "version": "1.2.11"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/flash-1.2.11-h27826a3_0.tar.bz2/flash-1.2.11-h27826a3_0.tar.bz2"
+}
