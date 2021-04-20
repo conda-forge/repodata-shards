@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "SpFFT is A 3D FFT library for sparse frequency domain data written in C++ with support for MPI, OpenMP, CUDA and ROCm.  Inspired by the need of some computational material science applications with spherical cutoff data in frequency domain, SpFFT provides Fast Fourier Transformations of sparse frequency domain data. For distributed computations with MPI, slab decomposition in space domain and pencil decomposition in frequency domain (sparse data within a pencil / column must be on one rank) is used.",
+    "dev_url": "https://github.com/eth-cscs/SpFFT",
+    "doc_source_url": null,
+    "doc_url": "https://spfft.readthedocs.io/en/latest/?badge=latest",
+    "home": "https://github.com/eth-cscs/SpFFT.git",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/eth-cscs/SpFFT/archive/refs/tags/v1.0.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Sparse 3D FFT library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1618913893,
+    "version": "1.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "spfft-1.0.2-h07fa59a_0.tar.bz2",
+  "repodata": {
+    "build": "h07fa59a_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "fftw >=3.3.9,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "openmpi >=4.1.0,<5.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "562ce3448b712da446c96230b9509f90",
+    "name": "spfft",
+    "sha256": "446275ecd03fab8733cc2e45671ce89c7c65a7eb0a92cf64aceaf4dbf893c3c4",
+    "size": 157873,
+    "subdir": "linux-64",
+    "timestamp": 1618913893412,
+    "version": "1.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/spfft-1.0.2-h07fa59a_0.tar.bz2"
+}
