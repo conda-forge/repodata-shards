@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Detector response to a high-energy physics process is often estimated by Monte Carlo simulation. For purposes of data analysis, the results of this simulation are typically stored in large multi-dimensional histograms, which can quickly become unwieldy in terms of size or numerically problematic due to unfilled bins or interpolation artifacts. Photospline is a library that uses the penalized spline technique to efficiently compute, store, and evaluate B-spline representations of such tables.",
+    "dev_url": "https://github.com/icecube/photospline",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/icecube/photospline",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.7": {
+        "weak": [
+          "photospline >=2.0.7,<2.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/icecube/photospline/archive/v2.0.7.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Tensor product B-spline fitting and evaluation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1618944007,
+    "version": "2.0.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "photospline-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "photospline-2.0.7-py37he14f7d3_0.tar.bz2",
+  "repodata": {
+    "build": "py37he14f7d3_0",
+    "build_number": 0,
+    "depends": [
+      "cfitsio >=3.470,<3.471.0a0",
+      "libcxx >=11.1.0",
+      "numpy >=1.17.5,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "suitesparse >=5.7.2,<6.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "b51d2d6ef4ffa35279ef880b9d08a388",
+    "name": "photospline",
+    "sha256": "1fa1e6eaef7b04ece42c75ec20c5e8557d44a0161fad1c95caf2e8ec2d91f8a8",
+    "size": 154183,
+    "subdir": "osx-64",
+    "timestamp": 1618944007822,
+    "version": "2.0.7"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/photospline-2.0.7-py37he14f7d3_0.tar.bz2/photospline-2.0.7-py37he14f7d3_0.tar.bz2"
+}
