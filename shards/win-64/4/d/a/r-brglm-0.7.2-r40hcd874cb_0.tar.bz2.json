@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.ucl.ac.uk/~ucakiko/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/brglm/brglm_0.7.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/brglm_0.7.2.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Fit generalized linear models with binomial responses using either an adjusted-score approach to bias reduction or maximum penalized likelihood where penalization is by Jeffreys invariant prior. These procedures return estimates with improved frequentist properties (bias, mean squared error) that are always finite even in cases where the maximum likelihood estimates are infinite (data separation). Fitting takes place by fitting generalized linear models on iteratively updated pseudo-data. The interface is essentially the same as 'glm'.  More flexibility is provided by the fact that custom pseudo-data representations can be specified and used for model fitting. Functions are provided for the construction of confidence intervals for the reduced-bias estimates.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1619103753,
+    "version": "0.7.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-brglm-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-brglm-0.7.2-r40hcd874cb_0.tar.bz2",
+  "repodata": {
+    "build": "r40hcd874cb_0",
+    "build_number": 0,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=4.0,<4.1.0a0",
+      "r-profilemodel"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL3",
+    "md5": "6e8626a401f040e03da95fd993504f67",
+    "name": "r-brglm",
+    "sha256": "6655bcf43325c7eea0de5cdb4ea6f8e54e82a6d3cdbf6727f4a240a440ed56b2",
+    "size": 162775,
+    "subdir": "win-64",
+    "timestamp": 1619103753622,
+    "version": "0.7.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/r-brglm-0.7.2-r40hcd874cb_0.tar.bz2/r-brglm-0.7.2-r40hcd874cb_0.tar.bz2"
+}
