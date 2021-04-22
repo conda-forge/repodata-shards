@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "SPLA provides specialized functions for distributed matrix multiplication, as required in some computational material science codes. It aims for maximum computation and communication overlap when possible and allows any combination of host and device pointers if compiled with GPU support. C++, C  and Fortran interfaces are available.",
+    "dev_url": "https://github.com/eth-cscs/spla",
+    "doc_source_url": null,
+    "doc_url": "https://spla.readthedocs.io/en/latest/?badge=latest",
+    "home": "https://github.com/AdhocMan/spla",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.4.0": {
+        "weak": [
+          "spla"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/eth-cscs/spla/archive/refs/tags/v1.4.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Specialized linear algebra library, tailored for computational material science codes.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1619099873,
+    "version": "1.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "spla-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "spla-1.4.0-h787f110_1.tar.bz2",
+  "repodata": {
+    "build": "h787f110_1",
+    "build_number": 1,
+    "depends": [
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "openmpi >=4.1.0,<5.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "a4ce779e9e2158ed8525f49d551ed2ab",
+    "name": "spla",
+    "sha256": "67e4138fcc19ac593bd78c95d8990454f308b658f55e4ff6f172026d6d087ef3",
+    "size": 117495,
+    "subdir": "linux-64",
+    "timestamp": 1619099873886,
+    "version": "1.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/spla-1.4.0-h787f110_1.tar.bz2/spla-1.4.0-h787f110_1.tar.bz2"
+}
