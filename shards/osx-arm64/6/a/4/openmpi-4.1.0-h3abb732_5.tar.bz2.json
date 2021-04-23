@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners.",
+    "dev_url": "https://github.com/open-mpi/ompi",
+    "doc_source_url": null,
+    "doc_url": "https://www.open-mpi.org/doc/",
+    "home": "https://www.open-mpi.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.1.0": {
+        "weak": [
+          "openmpi >=4.1.0,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.open-mpi.org/software/ompi/v4.1/downloads/openmpi-4.1.0.tar.bz2",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "An open source Message Passing Interface implementation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1619158643,
+    "version": "4.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmpi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmpi-4.1.0-h3abb732_5.tar.bz2",
+  "repodata": {
+    "build": "h3abb732_5",
+    "build_number": 5,
+    "depends": [
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.1.dev0",
+      "mpi 1.0 openmpi",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "8d04fbeccdb4bd93d977083f978dca93",
+    "name": "openmpi",
+    "sha256": "8bcb333d4a5c04565c5d7454d401f2d3995e6956bf75040eda2a7719cc49c446",
+    "size": 3252116,
+    "subdir": "osx-arm64",
+    "timestamp": 1619158643961,
+    "version": "4.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/openmpi-4.1.0-h3abb732_5.tar.bz2/openmpi-4.1.0-h3abb732_5.tar.bz2"
+}
