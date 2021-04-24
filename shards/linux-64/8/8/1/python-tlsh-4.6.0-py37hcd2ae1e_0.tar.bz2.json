@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Given a byte stream with a minimum length of 50 bytes TLSH generates a hash value which can be used for similarity comparisons. Similar objects will have similar hash values which allows for the detection of similar objects by comparing their hash values. Note that the byte stream should have a sufficient amount of complexity. For example, a byte stream of identical bytes will not generate a hash value.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/trendmicro/tlsh",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.6.0": {
+        "weak": [
+          "python-tlsh >=4.6.0,<4.7.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/trendmicro/tlsh/archive/4.6.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "TLSH is a fuzzy matching library.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1619231928,
+    "version": "4.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "tlsh-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-tlsh-4.6.0-py37hcd2ae1e_0.tar.bz2",
+  "repodata": {
+    "build": "py37hcd2ae1e_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "libtlsh 4.6.0 h9c3ff4c_0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "38f94856de87e1090bccec0139904f62",
+    "name": "python-tlsh",
+    "sha256": "1bb79c9c2b5ade8b22adc387f1b87c847a40dd02e6653dfc19da4aaef597bc6c",
+    "size": 30985,
+    "subdir": "linux-64",
+    "timestamp": 1619231928885,
+    "version": "4.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/python-tlsh-4.6.0-py37hcd2ae1e_0.tar.bz2/python-tlsh-4.6.0-py37hcd2ae1e_0.tar.bz2"
+}
