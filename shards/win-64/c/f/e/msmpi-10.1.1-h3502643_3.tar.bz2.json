@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "Microsoft MPI (MS-MPI) is a Microsoft implementation of the Message Passing Interface standard for developing and running parallel applications on the Windows platform.",
+    "dev_url": "https://github.com/microsoft/Microsoft-MPI",
+    "doc_source_url": null,
+    "doc_url": "https://docs.microsoft.com/en-us/message-passing-interface/microsoft-mpi",
+    "home": "https://docs.microsoft.com/en-us/message-passing-interface/microsoft-mpi",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Microsoft message-passing-interface (MS-MPI)",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1619375268,
+    "version": "10.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "msmpi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "msmpi-10.1.1-h3502643_3.tar.bz2",
+  "repodata": {
+    "build": "h3502643_3",
+    "build_number": 3,
+    "depends": [
+      "m2w64-gcc-libs",
+      "mpi 1.0 msmpi",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "MIT",
+    "md5": "1ee697713ff697c370ced5034fa3a8bb",
+    "name": "msmpi",
+    "sha256": "a1c22187204258c0902e13b8adf367c24cfa4f19dd29984ddfda87aa18421e0b",
+    "size": 1837006,
+    "subdir": "win-64",
+    "timestamp": 1619375268302,
+    "version": "10.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/msmpi-10.1.1-h3502643_3.tar.bz2/msmpi-10.1.1-h3502643_3.tar.bz2"
+}
