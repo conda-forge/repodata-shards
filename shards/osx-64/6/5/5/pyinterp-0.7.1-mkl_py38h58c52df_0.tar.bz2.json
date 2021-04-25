@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Tools for interpolating geo-referenced data used in the field of geosciences. There are other libraries that cover this problem, but written entirely in Python, the performance of these projects was not quite sufficient for our needs. That is why this project was created.",
+    "dev_url": "https://github.com/CNES/pangeo-pyinterp",
+    "doc_source_url": null,
+    "doc_url": "https://pangeo-pyinterp.readthedocs.io/",
+    "home": "https://github.com/CNES/pangeo-pyinterp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/CNES/pangeo-pyinterp/releases/download/0.7.1/pyinterp-0.7.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Python library for optimized geo-referenced interpolation",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1619368304,
+    "version": "0.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyinterp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyinterp-0.7.1-mkl_py38h58c52df_0.tar.bz2",
+  "repodata": {
+    "build": "mkl_py38h58c52df_0",
+    "build_number": 0,
+    "depends": [
+      "dask",
+      "gsl >=2.6,<2.7.0a0",
+      "libblas * *mkl",
+      "libcxx >=9.0.1",
+      "llvm-openmp",
+      "mkl >=2020.4,<2021.0a0",
+      "numpy >=1.17.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "snappy >=1.1.8,<2.0a0",
+      "xarray"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "2f10c59fa11e0074779a78b72f7ae6eb",
+    "name": "pyinterp",
+    "sha256": "d048402f7fb3e8f46d916e641f7032ebc6364f60c7401ce7a5c7ce73ab5c8f46",
+    "size": 1245550,
+    "subdir": "osx-64",
+    "timestamp": 1619368304621,
+    "version": "0.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pyinterp-0.7.1-mkl_py38h58c52df_0.tar.bz2/pyinterp-0.7.1-mkl_py38h58c52df_0.tar.bz2"
+}
