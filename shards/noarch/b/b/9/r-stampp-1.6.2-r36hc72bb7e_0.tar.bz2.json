@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=StAMPP",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/StAMPP/StAMPP_1.6.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/StAMPP_1.6.2.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Allows users to calculate pairwise Nei's Genetic Distances (Nei 1972), pairwise Fixation Indexes (Fst) (Weir & Cockerham 1984) and also Genomic Relationship matrixes following Yang et al. (2010) in mixed and single ploidy populations. Bootstrapping across loci is implemented during Fst calculation to generate confidence intervals and p-values around pairwise Fst values. StAMPP utilises SNP genotype data of any ploidy level (with the ability to handle missing data) and is coded to utilise multithreading where available to allow efficient analysis of large datasets. StAMPP is able to handle genotype data from genlight objects allowing integration with other packages such adegenet. Please refer to LW Pembleton, NOI Cogan & JW Forster, 2013, Molecular Ecology Resources, 13(5), 946-952. <doi:10.1111/1755-0998.12129> for the appropriate citation and user manual. Thank you in advance.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1619466614,
+    "version": "1.6.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-stampp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-stampp-1.6.2-r36hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r36hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-adegenet",
+      "r-base >=3.6,<3.7.0a0",
+      "r-doparallel",
+      "r-foreach",
+      "r-pegas"
+    ],
+    "license": "GPL-3-only",
+    "license_family": "GPL3",
+    "md5": "56269482ec1efd6f9b5e494f0cac3f0c",
+    "name": "r-stampp",
+    "noarch": "generic",
+    "sha256": "6788beb84c0fe8a47458ebbc5b4fb0247c1a1505545f26fa2fa36bb5ecdf4272",
+    "size": 158037,
+    "subdir": "noarch",
+    "timestamp": 1619466614789,
+    "version": "1.6.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-stampp-1.6.2-r36hc72bb7e_0.tar.bz2/r-stampp-1.6.2-r36hc72bb7e_0.tar.bz2"
+}
