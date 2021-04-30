@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://gitlab.com/hrbrmstr/ndjson",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/ndjson/ndjson_0.8.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/ndjson_0.8.0.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Streaming 'JSON' ('ndjson') has one 'JSON' record per-line and many modern 'ndjson' files contain large numbers of records. These constructs may not be columnar in nature, but it is often useful to read in these files and \"flatten\" the structure out to enable working with the data in an R 'data.frame'-like context. Functions are provided that make it possible to read in plain 'ndjson' files or compressed ('gz') 'ndjson' files and either validate the format of the records or create \"flat\" 'data.table' structures from them.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1619806359,
+    "version": "0.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-ndjson-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-ndjson-0.8.0-r40h03ef668_3.tar.bz2",
+  "repodata": {
+    "build": "r40h03ef668_3",
+    "build_number": 3,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "r-base >=4.0,<4.1.0a0",
+      "r-data.table",
+      "r-rcpp",
+      "r-tibble",
+      "zlib"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "079ee073e935f029566e62bbc80f5da8",
+    "name": "r-ndjson",
+    "sha256": "8290e23855b230105ebd8ff35fb554e5c5d12e82a31810243dfaf574ec448029",
+    "size": 207650,
+    "subdir": "linux-64",
+    "timestamp": 1619806359311,
+    "version": "0.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-ndjson-0.8.0-r40h03ef668_3.tar.bz2/r-ndjson-0.8.0-r40h03ef668_3.tar.bz2"
+}
