@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "UHD is the free & open-source software driver and API for the Universal Software Radio Peripheral (USRP(TM)) SDR platform, created and sold by Ettus Research. UHD supports all Ettus Research USRP(TM) hardware, including all motherboards and daughterboards, and the combinations thereof.",
+    "dev_url": "https://github.com/EttusResearch/uhd",
+    "doc_source_url": null,
+    "doc_url": "https://files.ettus.com/manual/",
+    "home": "httsp://github.com/EttusResearch/uhd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.15.0.0": {
+        "weak": [
+          "uhd >=3.15.0,<3.15.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/EttusResearch/uhd/archive/v3.15.0.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Software driver and API for the Ettus Research USRP SDR platform",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1619805782,
+    "version": "3.15.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "uhd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "uhd-3.15.0.0-py37h3ee96d1_6.tar.bz2",
+  "repodata": {
+    "build": "py37h3ee96d1_6",
+    "build_number": 6,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "libusb >=1.0.24,<2.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "numpy >=1.17.5,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "requests"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL",
+    "md5": "1a42470ea67e18168988125b112a1ae3",
+    "name": "uhd",
+    "sha256": "dcfe391b1e2740c3abce519aa6e841401b845fe8a8d758eb2a89ce5c7265de32",
+    "size": 8607374,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1619805782978,
+    "version": "3.15.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/uhd-3.15.0.0-py37h3ee96d1_6.tar.bz2/uhd-3.15.0.0-py37h3ee96d1_6.tar.bz2"
+}
