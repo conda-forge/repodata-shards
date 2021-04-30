@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Fluidfft provides C++ classes and their Python wrapper classes written in Cython useful to perform Fast Fourier Transform (FFT) with different libraries",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://fluidfft.readthedocs.io",
+    "home": "https://foss.heptapod.net/fluiddyn/fluidfft",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-CeCILL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.2": {
+        "weak": [
+          "fluidfft * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fluidfft/fluidfft-0.3.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1619807742,
+    "version": "0.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fluidfft-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fluidfft-0.3.2-mpi_mpich_h53a03d3_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h53a03d3_2",
+    "build_number": 2,
+    "depends": [
+      "fftw >=3.3.9,<4.0a0",
+      "fftw >=3.3.9,<4.0a0 mpi_mpich_*",
+      "fluiddyn",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "mpi4py",
+      "mpich >=3.4.1,<4.0a0",
+      "pandas",
+      "pyfftw",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "transonic"
+    ],
+    "license": "LicenseRef-CeCILL",
+    "md5": "7c5152fc155f15d879c2548a21fa0f05",
+    "name": "fluidfft",
+    "sha256": "932e93a054c25204447067d78db4742991e6df6d604416fd45267f4141df411f",
+    "size": 1053783,
+    "subdir": "osx-64",
+    "timestamp": 1619807742113,
+    "version": "0.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/fluidfft-0.3.2-mpi_mpich_h53a03d3_2.tar.bz2/fluidfft-0.3.2-mpi_mpich_h53a03d3_2.tar.bz2"
+}
