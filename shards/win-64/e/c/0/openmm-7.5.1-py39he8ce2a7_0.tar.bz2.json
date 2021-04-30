@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OpenMM is a toolkit for molecular simulation. It can be used either as a stand-alone application for running simulations, or as a library you call from your own code. It provides a combination of extreme flexibility (through custom forces and integrators), openness, and high performance (especially on recent GPUs) that make it truly unique among simulation codes. OpenMM is MIT licensed with some LGPL portions (CUDA and OpenCL platforms).",
+    "dev_url": "https://github.com/openmm/openmm",
+    "doc_source_url": null,
+    "doc_url": "http://docs.openmm.org",
+    "home": "http://openmm.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": "https://github.com/openmm/openmm.git",
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A high performance toolkit for molecular simulation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1619770116,
+    "version": "7.5.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmm-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmm-7.5.1-py39he8ce2a7_0.tar.bz2",
+  "repodata": {
+    "build": "py39he8ce2a7_0",
+    "build_number": 0,
+    "depends": [
+      "cudatoolkit 10.1|10.1.*",
+      "fftw >=3.3.9,<4.0a0",
+      "khronos-opencl-icd-loader >=2020.12.18",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "28f96e15423c8236914c395dcf30c2ba",
+    "name": "openmm",
+    "sha256": "22de0269e5380d99bd94bf8c94ea6a14a37d3cfc313df70d1d20a2f291bf6dda",
+    "size": 10808817,
+    "subdir": "win-64",
+    "timestamp": 1619770116060,
+    "version": "7.5.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/openmm-7.5.1-py39he8ce2a7_0.tar.bz2/openmm-7.5.1-py39he8ce2a7_0.tar.bz2"
+}
