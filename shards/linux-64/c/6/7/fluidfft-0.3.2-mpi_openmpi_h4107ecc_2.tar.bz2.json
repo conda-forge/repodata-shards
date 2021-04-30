@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Fluidfft provides C++ classes and their Python wrapper classes written in Cython useful to perform Fast Fourier Transform (FFT) with different libraries",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://fluidfft.readthedocs.io",
+    "home": "https://foss.heptapod.net/fluiddyn/fluidfft",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-CeCILL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.2": {
+        "weak": [
+          "fluidfft * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fluidfft/fluidfft-0.3.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1619807583,
+    "version": "0.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fluidfft-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fluidfft-0.3.2-mpi_openmpi_h4107ecc_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h4107ecc_2",
+    "build_number": 2,
+    "depends": [
+      "fftw >=3.3.9,<4.0a0",
+      "fftw >=3.3.9,<4.0a0 mpi_openmpi_*",
+      "fluiddyn",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "mpi4py",
+      "openmpi >=4.1.1,<5.0a0",
+      "openssh",
+      "pandas",
+      "pyfftw",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "transonic"
+    ],
+    "license": "LicenseRef-CeCILL",
+    "md5": "e47b49b69add21eccb3b52cfabe5eea6",
+    "name": "fluidfft",
+    "sha256": "8bc0b1d107ecec9c31bae2e77a28f5b18c0accc3b323c8a0c1bd2bea0b1131b3",
+    "size": 1300680,
+    "subdir": "linux-64",
+    "timestamp": 1619807583214,
+    "version": "0.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/fluidfft-0.3.2-mpi_openmpi_h4107ecc_2.tar.bz2/fluidfft-0.3.2-mpi_openmpi_h4107ecc_2.tar.bz2"
+}
