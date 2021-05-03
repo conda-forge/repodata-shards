@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "libblas >=3.9.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620062706,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libblas-3.9.0-9_openblas.tar.bz2",
+  "repodata": {
+    "build": "9_openblas",
+    "build_number": 9,
+    "constrains": [
+      "liblapack 3.9.0 9_openblas",
+      "liblapacke 3.9.0 9_openblas",
+      "blas * openblas",
+      "libcblas 3.9.0 9_openblas"
+    ],
+    "depends": [
+      "libopenblas >=0.3.15,<0.3.16.0a0",
+      "libopenblas >=0.3.15,<1.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "f4fdc5afc0fb1b9e74ef8fcb96ff5723",
+    "name": "libblas",
+    "sha256": "a4e6057f9a4a31fcdd590341f9b8cdeb2134c044e7f2f085bfdeb633c62cb47a",
+    "size": 11756,
+    "subdir": "linux-aarch64",
+    "timestamp": 1620062706428,
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libblas-3.9.0-9_openblas.tar.bz2/libblas-3.9.0-9_openblas.tar.bz2"
+}
