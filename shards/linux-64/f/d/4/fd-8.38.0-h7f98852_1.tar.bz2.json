@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Fd software has evolved from its early use in the Virgo DAQ system of transporting frames over the network using the Cm package to a more general I/O framework for online and offline applications. Its main purpose is to provide data in the frame format from and to files, shared memory and network connection. Basic data conditioning tools like channel filtering, resampling are now included in Fd as well as frame manipulation like channels selection, frame resizing, trend frame building and frame merging between different streams. The frames handled by the Fd package could contain any frame structures, from time series to events.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://git.ligo.org/virgo/virgoapp/Cfg",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "8.38.0": {
+        "weak": [
+          "fd >=8.38.0,<9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.igwn.org/lscsoft/source/fd-8.38.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Frame distribution library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1620053894,
+    "version": "8.38.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fd-8.38.0-h7f98852_1.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_1",
+    "build_number": 1,
+    "depends": [
+      "cfg >=9.0.0,<10.0a0",
+      "cm >=9.0.1,<10.0a0",
+      "frv >=4.35.6,<5.0a0",
+      "libframel >=8.41.1,<9.0a0",
+      "libgcc-ng >=9.3.0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "GPL",
+    "md5": "6bb360e20c908ebe2c6468564aa0ae32",
+    "name": "fd",
+    "sha256": "baed0b2e3c35fab3a6ad6a78961de7479559ae9f17cd2606f99e4067c2ffc584",
+    "size": 124595,
+    "subdir": "linux-64",
+    "timestamp": 1620053894969,
+    "version": "8.38.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/fd-8.38.0-h7f98852_1.tar.bz2/fd-8.38.0-h7f98852_1.tar.bz2"
+}
