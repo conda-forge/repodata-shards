@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.15": {
+        "weak": [
+          "libopenblas >=0.3.15,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.15.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "An optimized BLAS library based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620024179,
+    "version": "0.3.15"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openblas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libopenblas-0.3.15-openmp_hd33982b_0.tar.bz2",
+  "repodata": {
+    "build": "openmp_hd33982b_0",
+    "build_number": 0,
+    "constrains": [
+      "openblas >=0.3.15,<0.3.16.0a0"
+    ],
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "llvm-openmp >=11.1.0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "ae2a9ae626096c0a5fc0805badb4b0e4",
+    "name": "libopenblas",
+    "sha256": "a749863b2b3081199efd13423aedea31c2014db4b17f2b8c3936994f08e3e85a",
+    "size": 5731641,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1620024179780,
+    "track_features": "openblas_threading_openmp",
+    "version": "0.3.15"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libopenblas-0.3.15-openmp_hd33982b_0.tar.bz2/libopenblas-0.3.15-openmp_hd33982b_0.tar.bz2"
+}
