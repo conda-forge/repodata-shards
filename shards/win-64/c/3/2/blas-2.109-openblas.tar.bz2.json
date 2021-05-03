@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620063912,
+    "version": "2.109"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.109-openblas.tar.bz2",
+  "repodata": {
+    "build": "openblas",
+    "build_number": 9,
+    "depends": [
+      "blas-devel 3.9.0 9_openblas",
+      "libblas 3.9.0 9_openblas",
+      "libcblas 3.9.0 9_openblas",
+      "liblapack 3.9.0 9_openblas",
+      "liblapacke 3.9.0 9_openblas",
+      "m2w64-gcc-libs"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "29b864f965b02f5e3a305933877170de",
+    "name": "blas",
+    "sha256": "76a58071e5641b8cf3543371a45cdac9f167d449e6c9c97fa81c698c66f8c358",
+    "size": 12776,
+    "subdir": "win-64",
+    "timestamp": 1620063912247,
+    "version": "2.109"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/blas-2.109-openblas.tar.bz2/blas-2.109-openblas.tar.bz2"
+}
