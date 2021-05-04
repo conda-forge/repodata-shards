@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A Python library to conjugate verbs in French, English, Spanish, Italian, Portuguese and Romanian (more soon) using Machine Learning techniques.  Any verb in one of the supported language can be conjugated, as the module contains a Machine Learning model of how the verbs behave.  Even completely new or made-up verbs can be successfully conjugated in this manner.  The supplied pre-trained models are composed of:  -   a binary feature extractor, -   a feature selector using Linear Support Vector Classification, -   a classifier using Stochastic Gradient Descent.  MLConjug3 uses scikit-learn to implement the Machine Learning algorithms.  Users of the library can use any compatible classifiers from scikit-learn to modify and retrain the models.  The training data for the french model is based on Verbiste https://perso.b2b2c.ca/~sarrazip/dev/verbiste.html .  The training data for English, Spanish, Italian, Portuguese and Romanian was generated using unsupervised learning techniques using the French model as a model to query during the training.  WARNING ========  MLCONJUG3 now only supports Python 3.x as Python 2.x has been deprecated in 2020.  Free software: MIT license  Documentation: https://mlconjug3.readthedocs.io.  SUPPORTED LANGUAGES:  -   French -   English -   Spanish -   Italian -   Portuguese -   Romanian  FEATURES:  -   Easy to use API. -   Includes pre-trained models with 99% + accuracy in predicting conjugation class of unknown verbs. -   Easily train new models or add new languages. -   Easily integrate MLConjug in your own projects. -   Can be used as a command line tool.  Usage =====  > **note** > > The default language is French. > :   When called without specifying a language, the library will try to >     conjugate the verb in French. > To use MLConjug3 from the command line:      $ mlconjug3 manger      $ mlconjug3 bring -l en      $ mlconjug3 gallofar --language es      $ mlconjug3 -o, --output (Path of the filename for storing the conjugation tables.)      $ mlconjug3 -s, --subject (The subject format type for the conjugated forms). The                        values can be 'abbrev' or 'pronoun'. The default value                        is 'abbrev'.      $ mlconjug3 -h Show the help menu",
+    "dev_url": "https://github.com/SekouDiaoNlp/mlconjug3",
+    "doc_source_url": null,
+    "doc_url": "https://mlconjug3.readthedocs.io/en/latest/",
+    "home": "https://github.com/SekouDiaoNlp/mlconjug3",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/m/mlconjug3/mlconjug3-3.7.20.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A Python library to conjugate French, English, Spanish, Italian, Portuguese and Romanian verbs using Machine Learning techniques.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620126889,
+    "version": "3.7.20"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mlconjug3-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mlconjug3-3.7.20-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "click >=7.1",
+      "colorama",
+      "cython",
+      "defusedxml",
+      "joblib",
+      "numpy",
+      "python >=3.6",
+      "scikit-learn >=0.24.2",
+      "scipy"
+    ],
+    "license": "MIT",
+    "md5": "00af7a6a5dd4711de74b59eb87cd02d5",
+    "name": "mlconjug3",
+    "noarch": "python",
+    "sha256": "4fe73a8b53986e72df386099e863df339261f6c76a7670bdd6c429aa4883c3cc",
+    "size": 34772251,
+    "subdir": "noarch",
+    "timestamp": 1620126889344,
+    "version": "3.7.20"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/mlconjug3-3.7.20-pyhd8ed1ab_0.tar.bz2/mlconjug3-3.7.20-pyhd8ed1ab_0.tar.bz2"
+}
