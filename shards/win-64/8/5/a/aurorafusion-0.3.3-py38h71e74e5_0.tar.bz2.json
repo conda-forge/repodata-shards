@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Aurora is a package to simulate heavy-ion transport, neutrals and radiation in magnetically-confined plasmas. It offers a 1.5D impurity transport forward model inheriting from the historical STRAHL code, with which it has been thoroughly benchmarked. Routines to analyze neutral states of hydrogen isotopes, both from the edge of fusion plasmas and from neutral beam injection, allow integration of impurity and neutral transport analysis. Aurora\u2019s code is mostly written in Python 3, with fast low-level components om Fortran90 and Julia. The package enables radiation calculations using ADAS atomic rates, which can easily be applied to the output of Aurora\u2019s own forward model, or coupled with other 1D, 2D or 3D transport codes.",
+    "dev_url": "https://github.com/fsciortino/aurora",
+    "doc_source_url": null,
+    "doc_url": "https://aurora-fusion.readthedocs.io/",
+    "home": "https://aurora-fusion.readthedocs.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/a/aurorafusion/aurorafusion-0.3.3.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Modern toolbox for impurity transport, neutrals and radiation modeling in fusion plasmas",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620178193,
+    "version": "0.3.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "aurorafusion-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "aurorafusion-0.3.3-py38h71e74e5_0.tar.bz2",
+  "repodata": {
+    "build": "py38h71e74e5_0",
+    "build_number": 0,
+    "depends": [
+      "libflang >=5.0.0,<6.0.0.a0",
+      "matplotlib-base",
+      "numpy >=1.17.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "requests",
+      "scipy"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "bc40b6be45de3aad9dbd396b8e494d10",
+    "name": "aurorafusion",
+    "sha256": "cab3af04a6823abcf1ead21760b5201bb757e7330d7ee1035a44938a4a55267f",
+    "size": 260116,
+    "subdir": "win-64",
+    "timestamp": 1620178193785,
+    "version": "0.3.3"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/aurorafusion-0.3.3-py38h71e74e5_0.tar.bz2/aurorafusion-0.3.3-py38h71e74e5_0.tar.bz2"
+}
