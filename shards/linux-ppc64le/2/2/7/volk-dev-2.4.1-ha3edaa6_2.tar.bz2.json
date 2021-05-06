@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "VOLK is the Vector-Optimized Library of Kernels. It is a free library, currently offered under the GPLv3, that contains kernels of hand-written SIMD code for different mathematical operations. Since each SIMD architecture can be very different and no compiler has yet come along to handle vectorization properly or highly efficiently, VOLK approaches the problem differently.  For each architecture or platform that a developer wishes to vectorize for, a new proto-kernel is added to VOLK. At runtime, VOLK will select the correct proto-kernel. In this way, the users of VOLK call a kernel for performing the operation that is platform/architecture agnostic. This allows us to write portable SIMD code that is optimized for a variety of platforms.",
+    "dev_url": "https://github.com/gnuradio/volk",
+    "doc_source_url": null,
+    "doc_url": "http://libvolk.org/doxygen/index.html",
+    "home": "https://github.com/gnuradio/volk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.1": {
+        "weak": [
+          "volk >=2.4.1,<2.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/gnuradio/volk/releases/download/v2.4.1/volk-2.4.1.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "The Vector Optimized Library of Kernels",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620268792,
+    "version": "2.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "volk-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "volk-dev-2.4.1-ha3edaa6_2.tar.bz2",
+  "repodata": {
+    "build": "ha3edaa6_2",
+    "build_number": 2,
+    "depends": [
+      "volk 2.4.1 h3b9df90_2",
+      "volk-modtool 2.4.1 py_2"
+    ],
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "md5": "1c356bb1a79b7f812c660a1c16a2f0f9",
+    "name": "volk-dev",
+    "sha256": "86d52c87b92db10660ff4bae2f1a50b69f727fcc873701668294863e8c99c4be",
+    "size": 19880,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1620268792828,
+    "version": "2.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/volk-dev-2.4.1-ha3edaa6_2.tar.bz2/volk-dev-2.4.1-ha3edaa6_2.tar.bz2"
+}
