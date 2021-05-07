@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -27,45 +27,45 @@
     "source_git_url": null,
     "source_url": "https://github.com/Unidata/netcdf-c/archive/e6bdee59302a86ebd9960109aa7c22393113afe6.tar.gz",
     "subdirs": [
-      "linux-aarch64"
+      "osx-64"
     ],
     "summary": "Libraries and data formats that support array-oriented scientific data",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1620427411,
+    "timestamp": 1620427599,
     "version": "4.9.0.dev"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "libnetcdf-feedstock",
   "labels": [
     "libnetcdf_dev"
   ],
-  "package": "libnetcdf-4.9.0.dev-mpi_openmpi_h43acd41_0.tar.bz2",
+  "package": "libnetcdf-4.9.0.dev-mpi_openmpi_h4e21f82_0.tar.bz2",
   "repodata": {
-    "build": "mpi_openmpi_h43acd41_0",
+    "build": "mpi_openmpi_h4e21f82_0",
     "build_number": 0,
     "depends": [
       "bzip2 >=1.0.8,<2.0a0",
       "curl >=7.76.1,<8.0a0",
+      "hdf4 >=4.2.13,<4.3.0a0",
       "hdf5 * mpi_openmpi_*",
       "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
       "jpeg >=9d,<10a",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "libcxx >=11.1.0",
       "libzip >=1.7.3,<2.0a0",
       "openmpi >=4.1.1,<5.0a0",
       "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "MIT",
-    "md5": "bdda1537098115213701174ebd2da7fc",
+    "md5": "f3e281bd39b539cb2c96b1dc57ad8d57",
     "name": "libnetcdf",
-    "sha256": "0efdd677524a21e78d40bac7f98a28ff413d64374d7a6de8c9565afdaa37c8eb",
-    "size": 1606699,
-    "subdir": "linux-aarch64",
-    "timestamp": 1620427411623,
+    "sha256": "b6b618589c13a1e1d947a266753c8f1fe3acc843dfc09f7b2d2b0aff385d2b6a",
+    "size": 1410912,
+    "subdir": "osx-64",
+    "timestamp": 1620427599331,
     "version": "4.9.0.dev"
   },
   "repodata_version": 1,
-  "subdir": "linux-aarch64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libnetcdf-4.9.0.dev-mpi_openmpi_h43acd41_0.tar.bz2/libnetcdf-4.9.0.dev-mpi_openmpi_h43acd41_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libnetcdf-4.9.0.dev-mpi_openmpi_h4e21f82_0.tar.bz2/libnetcdf-4.9.0.dev-mpi_openmpi_h4e21f82_0.tar.bz2"
 }
