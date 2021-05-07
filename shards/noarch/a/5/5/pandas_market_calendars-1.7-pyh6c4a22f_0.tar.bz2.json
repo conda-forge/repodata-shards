@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Pandas package is widely used in finance and specifically for time series analysis. It includes excellent functionality for generating sequences of dates and capabilities for custom holiday calendars, but as an explicit design choice it does not include the actual holiday calendars for specific exchanges or OTC markets.  The pandas_market_calendars package looks to fill that role with the holiday, late open and early close calendars for specific exchanges and OTC conventions. pandas_market_calendars also adds several functions to manipulate the market calendars and includes a date_range function to create a pandas DatetimeIndex including only the datetimes when the markets are open.  This package is a fork of the Zipline package from Quantopian and extracts just the relevant parts. All credit for their excellent work to Quantopian.",
+    "dev_url": "https://github.com/rsheftel/pandas_market_calendars",
+    "doc_source_url": null,
+    "doc_url": "https://pandas-market-calendars.readthedocs.io/en/latest/",
+    "home": "https://github.com/rsheftel/pandas_market_calendars",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pandas_market_calendars/pandas_market_calendars-1.7.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Market calendars to use with pandas for trading applications.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620395284,
+    "version": "1.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pandas_market_calendars-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pandas_market_calendars-1.7-pyh6c4a22f_0.tar.bz2",
+  "repodata": {
+    "build": "pyh6c4a22f_0",
+    "build_number": 0,
+    "depends": [
+      "pandas >=0.18",
+      "python >=3.5.0,<4.0dev",
+      "python-dateutil",
+      "pytz",
+      "setuptools",
+      "trading-calendars"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "c0713430cd3d54d1b056d03c8966a2c6",
+    "name": "pandas_market_calendars",
+    "noarch": "python",
+    "sha256": "0001dd1eec8bdc38ae26bbd2863ef0c3c8fb8ccb36ad9361980235948506f335",
+    "size": 41484,
+    "subdir": "noarch",
+    "timestamp": 1620395284348,
+    "version": "1.7"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/pandas_market_calendars-1.7-pyh6c4a22f_0.tar.bz2/pandas_market_calendars-1.7-pyh6c4a22f_0.tar.bz2"
+}
