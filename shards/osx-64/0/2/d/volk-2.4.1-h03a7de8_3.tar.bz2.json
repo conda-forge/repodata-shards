@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "VOLK is the Vector-Optimized Library of Kernels. It is a free library, currently offered under the GPLv3, that contains kernels of hand-written SIMD code for different mathematical operations. Since each SIMD architecture can be very different and no compiler has yet come along to handle vectorization properly or highly efficiently, VOLK approaches the problem differently.  For each architecture or platform that a developer wishes to vectorize for, a new proto-kernel is added to VOLK. At runtime, VOLK will select the correct proto-kernel. In this way, the users of VOLK call a kernel for performing the operation that is platform/architecture agnostic. This allows us to write portable SIMD code that is optimized for a variety of platforms.",
+    "dev_url": "https://github.com/gnuradio/volk",
+    "doc_source_url": null,
+    "doc_url": "http://libvolk.org/doxygen/index.html",
+    "home": "https://github.com/gnuradio/volk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.1": {
+        "weak": [
+          "volk >=2.4.1,<2.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/gnuradio/volk/releases/download/v2.4.1/volk-2.4.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Vector Optimized Library of Kernels",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1620422484,
+    "version": "2.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "volk-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "volk-2.4.1-h03a7de8_3.tar.bz2",
+  "repodata": {
+    "build": "h03a7de8_3",
+    "build_number": 3,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "gstreamer-orc >=0.4.32,<0.5.0a0",
+      "libcxx >=11.1.0"
+    ],
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "md5": "3d2ef16682a27493d5575d51d478abad",
+    "name": "volk",
+    "sha256": "c9ad77fd26b38bf5f4d5573beac2625b0139f8f800585c89f835e0aac5974a29",
+    "size": 967378,
+    "subdir": "osx-64",
+    "timestamp": 1620422484082,
+    "version": "2.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/volk-2.4.1-h03a7de8_3.tar.bz2/volk-2.4.1-h03a7de8_3.tar.bz2"
+}
