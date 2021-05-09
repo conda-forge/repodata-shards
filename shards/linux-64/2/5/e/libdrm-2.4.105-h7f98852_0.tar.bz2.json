@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This  is libdrm,  a userspace  library for  accessing the  DRM, direct rendering  manager, on  Linux,  BSD and  other  operating systems that support the  ioctl interface.  The library  provides wrapper functions for the  ioctls to avoid  exposing the kernel interface  directly, and for chipsets with drm memory manager, support for tracking relocations and  buffers.   libdrm  is  a  low-level library,  typically  used  by graphics drivers  such as the Mesa  DRI drivers, the  X drivers, libva and  similar projects.  New  functionality in  the kernel  DRM drivers typically requires  a new  libdrm, but a  new libdrm will  always work with an older kernel.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gitlab.freedesktop.org/mesa/drm",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.105": {
+        "weak": [
+          "libdrm >=2.4.105,<2.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/freedesktop/mesa-drm/archive/libdrm-2.4.105.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "userspace library for drm",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1620598929,
+    "version": "2.4.105"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libdrm-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libdrm-2.4.105-h7f98852_0.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libpciaccess >=0.16,<0.17.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "a3933bcdcb463cdf2076f29c84c1ae4b",
+    "name": "libdrm",
+    "sha256": "bf4bce247497785a1c177a531008d5fe7ffbd8aa3a94597165b1a31476e778db",
+    "size": 287418,
+    "subdir": "linux-64",
+    "timestamp": 1620598929376,
+    "version": "2.4.105"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libdrm-2.4.105-h7f98852_0.tar.bz2/libdrm-2.4.105-h7f98852_0.tar.bz2"
+}
