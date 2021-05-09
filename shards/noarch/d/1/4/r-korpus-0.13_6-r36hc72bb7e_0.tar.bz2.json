@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://reaktanz.de/?c=hacking&s=koRpus",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/koRpus/koRpus_0.13-6.tar.gz",
+      "https://cran.r-project.org/src/contrib/koRpus_0.13-6.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A set of tools to analyze texts. Includes, amongst others, functions for automatic language detection, hyphenation, several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and readability (e.g., Flesch, SMOG, LIX, Dale-Chall). Basic import functions for language corpora are also provided, to enable frequency analyses (supports Celex and Leipzig Corpora Collection file formats) and measures like tf-idf. Note: For full functionality a local installation of TreeTagger is recommended. It is also recommended to not load this package directly, but by loading one of the available language support packages from the 'l10n' repository <https://undocumeantit.github.io/repos/l10n>. 'koRpus' also includes a plugin for the R GUI and IDE RKWard, providing graphical dialogs for its basic features. The respective R package 'rkward' cannot be installed directly from a repository, as it is a part of RKWard. To make full use of this feature, please install RKWard from <https://rkward.kde.org> (plugins are detected automatically). Due to some restrictions on CRAN, the full package sources are only available from the project homepage. To ask for help, report bugs, request features, or discuss the development of the package, please subscribe to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>).",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620548369,
+    "version": "0.13_6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-korpus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-korpus-0.13_6-r36hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r36hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=3.6,<3.7.0a0",
+      "r-data.table",
+      "r-matrix",
+      "r-sylly >=0.1_6"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL3",
+    "md5": "294ade4eae3c407668efd170fad41451",
+    "name": "r-korpus",
+    "noarch": "generic",
+    "sha256": "5ba986fc7481fedca1849c9f4b0a090336ab6d20fa63d081d1dfb5787f41519d",
+    "size": 1489171,
+    "subdir": "noarch",
+    "timestamp": 1620548369729,
+    "version": "0.13_6"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-korpus-0.13_6-r36hc72bb7e_0.tar.bz2/r-korpus-0.13_6-r36hc72bb7e_0.tar.bz2"
+}
