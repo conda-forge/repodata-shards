@@ -1,8 +1,8 @@
 {
   "channeldata": {
-    "activate.d": true,
+    "activate.d": false,
     "binary_prefix": false,
-    "deactivate.d": true,
+    "deactivate.d": false,
     "description": null,
     "dev_url": "https://doc.rust-lang.org/std/",
     "doc_source_url": null,
@@ -19,40 +19,37 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://static.rust-lang.org/dist/2021-03-24/rust-nightly-powerpc64le-unknown-linux-gnu.tar.gz",
+    "source_url": "https://static.rust-lang.org/dist/2021-03-24/rust-nightly-x86_64-unknown-linux-gnu.tar.gz",
     "subdirs": [
-      "linux-ppc64le"
+      "noarch"
     ],
     "summary": "Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. This package provides the compiler (rustc) and the documentation utilities rustdoc.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1620651596,
+    "text_prefix": false,
+    "timestamp": 1620651525,
     "version": "1.53.0.dev20210324"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "rust-feedstock",
   "labels": [
     "rust_dev"
   ],
-  "package": "rust-1.53.0.dev20210324-h6b7c81a_1.tar.bz2",
+  "package": "rust-std-x86_64-unknown-linux-gnu-1.53.0.dev20210324-h6134ef6_1.tar.bz2",
   "repodata": {
-    "build": "h6b7c81a_1",
+    "build": "h6134ef6_1",
     "build_number": 1,
-    "depends": [
-      "gcc_impl_linux-ppc64le",
-      "libgcc-ng >=9.3.0",
-      "rust-std-powerpc64le-unknown-linux-gnu 1.53.0.dev20210324 h5e365cc_1"
-    ],
+    "depends": [],
     "license": "MIT",
-    "md5": "564a57460676e7ab2bdc26d1cbeeb9b2",
-    "name": "rust",
-    "sha256": "0131e53be9e8e73296cbc4842c63e4be739fbdf961e6238ddef4feb5324101fe",
-    "size": 240707805,
-    "subdir": "linux-ppc64le",
-    "timestamp": 1620651596831,
+    "md5": "7712522541436aab193fddf649773260",
+    "name": "rust-std-x86_64-unknown-linux-gnu",
+    "noarch": "generic",
+    "sha256": "98d2c6dd689324dc478ca4dd2bfcb8c60676176991ccaa43b0cef7fd3474a687",
+    "size": 39976228,
+    "subdir": "noarch",
+    "timestamp": 1620651525437,
     "version": "1.53.0.dev20210324"
   },
   "repodata_version": 1,
-  "subdir": "linux-ppc64le",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/rust-1.53.0.dev20210324-h6b7c81a_1.tar.bz2/rust-1.53.0.dev20210324-h6b7c81a_1.tar.bz2"
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/rust-std-x86_64-unknown-linux-gnu-1.53.0.dev20210324-h6134ef6_1.tar.bz2/rust-std-x86_64-unknown-linux-gnu-1.53.0.dev20210324-h6134ef6_1.tar.bz2"
 }
