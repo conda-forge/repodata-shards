@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://ff.r-forge.r-project.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/bit/bit_4.0.4.tar.gz",
+      "https://cran.r-project.org/src/contrib/bit_4.0.4.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "True boolean datatype (no NAs),  coercion from and to logicals, integers and integer subscripts;  fast boolean operators and fast summary statistics.  With 'bit' vectors you can store true binary booleans {FALSE,TRUE} at the  expense of 1 bit only, on a 32 bit architecture this means factor 32 less  RAM and ~ factor 32 more speed on boolean operations. Due to overhead of  R calls, actual speed gain depends on the size of the vector: expect gains  for vectors of size > 10000 elements. Even for one-time boolean operations  it can pay-off to convert to bit, the pay-off is obvious, when such  components are used more than once.  Reading from and writing to bit is approximately as fast as accessing  standard logicals - mostly due to R's time for memory allocation. The package  allows to work with pre-allocated memory for return values by calling .Call()  directly: when evaluating the speed of C-access with pre-allocated vector  memory, coping from bit to logical requires only 70% of the time for copying  from logical to logical; and copying from logical to bit comes at a  performance penalty of 150%. the package now contains further classes for  representing logical selections: 'bitwhich' for very skewed selections and  'ri' for selecting ranges of values for chunked processing. All three index  classes can be used for subsetting 'ff' objects (ff-2.1-0 and higher).",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620679025,
+    "version": "4.0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-bit-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-bit-4.0.4-r40hcfec24a_0.tar.bz2",
+  "repodata": {
+    "build": "r40hcfec24a_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "r-base >=4.0,<4.1.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "f3e70e55adbb455fc6af7f121f76f241",
+    "name": "r-bit",
+    "sha256": "d0beeb19593fd46d3b0ecf8f040b169952f22aa0031d0a366da76a56a3983a76",
+    "size": 633633,
+    "subdir": "linux-64",
+    "timestamp": 1620679025440,
+    "version": "4.0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-bit-4.0.4-r40hcfec24a_0.tar.bz2/r-bit-4.0.4-r40hcfec24a_0.tar.bz2"
+}
