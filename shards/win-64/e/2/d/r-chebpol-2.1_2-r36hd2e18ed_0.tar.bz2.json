@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/sgaure/chebpol",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Artistic-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/chebpol/chebpol_2.1-2.tar.gz",
+      "https://cran.r-project.org/src/contrib/chebpol_2.1-2.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Contains methods for creating multivariate/multidimensional interpolations of functions on a hypercube. If available through fftw3, the DCT-II/FFT is used to compute coefficients for a Chebyshev interpolation. Other interpolation methods for arbitrary Cartesian grids are also provided, a piecewise multilinear, and the Floater-Hormann barycenter method. For scattered data polyharmonic splines with a linear term is provided. The time-critical parts are written in C for speed. All interpolants are parallelized if used to evaluate more than one point.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620631253,
+    "version": "2.1_2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-chebpol-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-chebpol-2.1_2-r36hd2e18ed_0.tar.bz2",
+  "repodata": {
+    "build": "r36hd2e18ed_0",
+    "build_number": 0,
+    "depends": [
+      "gsl",
+      "libblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "m2w64-gcc-libs",
+      "r-base >=3.6,<3.7.0a0",
+      "r-geometry"
+    ],
+    "license": "Artistic-2.0",
+    "license_family": "OTHER",
+    "md5": "8ca99bbc7c2fee88760f21a60b5e42eb",
+    "name": "r-chebpol",
+    "sha256": "b25019b85a5f27958f6f5256d94414b023a4fe2167bdbf722cce6c183d361325",
+    "size": 2382518,
+    "subdir": "win-64",
+    "timestamp": 1620631253610,
+    "version": "2.1_2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/r-chebpol-2.1_2-r36hd2e18ed_0.tar.bz2/r-chebpol-2.1_2-r36hd2e18ed_0.tar.bz2"
+}
