@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/sgaure/chebpol",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Artistic-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/chebpol/chebpol_2.1-2.tar.gz",
+      "https://cran.r-project.org/src/contrib/chebpol_2.1-2.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Contains methods for creating multivariate/multidimensional interpolations of functions on a hypercube. If available through fftw3, the DCT-II/FFT is used to compute coefficients for a Chebyshev interpolation. Other interpolation methods for arbitrary Cartesian grids are also provided, a piecewise multilinear, and the Floater-Hormann barycenter method. For scattered data polyharmonic splines with a linear term is provided. The time-critical parts are written in C for speed. All interpolants are parallelized if used to evaluate more than one point.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620630845,
+    "version": "2.1_2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-chebpol-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-chebpol-2.1_2-r40hc2c5f09_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc2c5f09_0",
+    "build_number": 0,
+    "depends": [
+      "gsl",
+      "libblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "llvm-openmp >=11.1.0",
+      "r-base >=4.0,<4.1.0a0",
+      "r-geometry"
+    ],
+    "license": "Artistic-2.0",
+    "license_family": "OTHER",
+    "md5": "3905c19dc39129dace81310964dea52c",
+    "name": "r-chebpol",
+    "sha256": "f37c4f096f1b1a37cdaece539d8ccc3191ff2116d83a58364c8e9fb7ed94281a",
+    "size": 2369003,
+    "subdir": "osx-64",
+    "timestamp": 1620630845132,
+    "version": "2.1_2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/r-chebpol-2.1_2-r40hc2c5f09_0.tar.bz2/r-chebpol-2.1_2-r40hc2c5f09_0.tar.bz2"
+}
