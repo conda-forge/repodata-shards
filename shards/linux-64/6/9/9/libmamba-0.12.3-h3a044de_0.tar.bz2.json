@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "dev_url": "https://github.com/mamba-org/mamba",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mamba-org/mamba",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.12.3": {
+        "weak": [
+          "libmamba >=0.12.3,<0.13.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mamba-org/mamba/archive/0.12.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A library that exposes the internals of mamba, a fast drop-in alternative to conda",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1620646463,
+    "version": "0.12.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libmamba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmamba-0.12.3-h3a044de_0.tar.bz2",
+  "repodata": {
+    "build": "h3a044de_0",
+    "build_number": 0,
+    "depends": [
+      "libarchive >=3.5.1,<3.6.0a0",
+      "libcurl >=7.76.1,<8.0a0",
+      "libgcc-ng >=9.3.0",
+      "libsolv >=0.7.18,<0.8.0a0",
+      "libstdcxx-ng >=9.3.0",
+      "openssl >=1.1.1k,<1.1.2a",
+      "reproc-cpp >=14.2,<15.0a0",
+      "yaml-cpp >=0.6.3,<0.7.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "cce8b12194c794d574f021c1b1e020cd",
+    "name": "libmamba",
+    "sha256": "29f6911844af10d42d9d17d24e1ffe482a49c4b44119fa6a7381d10487b6565c",
+    "size": 887850,
+    "subdir": "linux-64",
+    "timestamp": 1620646463005,
+    "version": "0.12.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libmamba-0.12.3-h3a044de_0.tar.bz2/libmamba-0.12.3-h3a044de_0.tar.bz2"
+}
