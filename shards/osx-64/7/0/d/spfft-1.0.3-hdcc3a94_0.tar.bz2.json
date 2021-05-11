@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "SpFFT is A 3D FFT library for sparse frequency domain data written in C++ with support for MPI, OpenMP, CUDA and ROCm.  Inspired by the need of some computational material science applications with spherical cutoff data in frequency domain, SpFFT provides Fast Fourier Transformations of sparse frequency domain data. For distributed computations with MPI, slab decomposition in space domain and pencil decomposition in frequency domain (sparse data within a pencil / column must be on one rank) is used.",
+    "dev_url": "https://github.com/eth-cscs/SpFFT",
+    "doc_source_url": null,
+    "doc_url": "https://spfft.readthedocs.io/en/latest/?badge=latest",
+    "home": "https://github.com/eth-cscs/SpFFT.git",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.3": {
+        "weak": [
+          "spfft"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/eth-cscs/SpFFT/archive/refs/tags/v1.0.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Sparse 3D FFT library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1620744379,
+    "version": "1.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "spfft-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "spfft-1.0.3-hdcc3a94_0.tar.bz2",
+  "repodata": {
+    "build": "hdcc3a94_0",
+    "build_number": 0,
+    "depends": [
+      "fftw >=3.3.9,<4.0a0",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "llvm-openmp >=11.1.0",
+      "mpich >=3.4.1,<4.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "0ad5cd0d80b6f720127ed6fa6a3e0dae",
+    "name": "spfft",
+    "sha256": "f9dd6a5ce65d241a5b1be2283cc44677983573abd4e6babf22e20988653eca99",
+    "size": 151414,
+    "subdir": "osx-64",
+    "timestamp": 1620744379683,
+    "version": "1.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/spfft-1.0.3-hdcc3a94_0.tar.bz2/spfft-1.0.3-hdcc3a94_0.tar.bz2"
+}
