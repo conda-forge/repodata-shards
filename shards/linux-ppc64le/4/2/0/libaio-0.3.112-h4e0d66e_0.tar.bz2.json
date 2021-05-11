@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Linux-native asynchronous I/O facility (\"async I/O\", or \"aio\") has a richer API and capability set than the simple POSIX async I/O facility. This library, libaio, provides the Linux-native API for async I/O. The POSIX async I/O facility requires this library in order to provide kernel-accelerated async I/O capabilities, as do applications which require the Linux-native async I/O API.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pagure.io/libaio",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.112": {
+        "weak": [
+          "libaio >=0.3.112,<0.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://releases.pagure.org/libaio/libaio-0.3.112.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Provides the Linux-native API for async I/O",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620774203,
+    "version": "0.3.112"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libaio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libaio-0.3.112-h4e0d66e_0.tar.bz2",
+  "repodata": {
+    "build": "h4e0d66e_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0"
+    ],
+    "license": "LGPL-2.0-or-later",
+    "license_family": "LGPL",
+    "md5": "cf4be5fd529d3bf770f3e3a0a43e22c6",
+    "name": "libaio",
+    "sha256": "0cf87701d817d412ce8ce8a41cecb7dcd2fc176f57adb6c35530b8c082dcb6f3",
+    "size": 18984,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1620774203269,
+    "version": "0.3.112"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libaio-0.3.112-h4e0d66e_0.tar.bz2/libaio-0.3.112-h4e0d66e_0.tar.bz2"
+}
