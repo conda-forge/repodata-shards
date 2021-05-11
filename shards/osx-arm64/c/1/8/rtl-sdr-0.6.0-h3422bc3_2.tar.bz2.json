@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "DVB-T dongles based on the Realtek RTL2832U can be used as a cheap SDR, since the chip allows transferring the raw I/Q samples to the host, which is officially used for DAB/DAB+/FM demodulation. The possibility of this has been discovered by Eric Fry (http://rtlsdr.org/#history_and_discovery_of_rtlsdr).",
+    "dev_url": "https://osmocom.org/projects/rtl-sdr/repository",
+    "doc_source_url": null,
+    "doc_url": "https://osmocom.org/projects/rtl-sdr/wiki",
+    "home": "https://osmocom.org/projects/rtl-sdr/wiki",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.6.0": {
+        "weak": [
+          "rtl-sdr >=0.6.0,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/osmocom/rtl-sdr/archive/0.6.0.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Library for using an Realtek RTL2832-based DVB dongle as an SDR receiver",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1620767924,
+    "version": "0.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "rtl-sdr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "rtl-sdr-0.6.0-h3422bc3_2.tar.bz2",
+  "repodata": {
+    "build": "h3422bc3_2",
+    "build_number": 2,
+    "depends": [
+      "libusb >=1.0.24,<2.0a0"
+    ],
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "license_family": "GPL",
+    "md5": "5ced3359c11b64e23f91e0785120ff83",
+    "name": "rtl-sdr",
+    "sha256": "f258316d42902e6fc107c63e70e0438dc1380401406899b1b103011f95f32ebd",
+    "size": 96958,
+    "subdir": "osx-arm64",
+    "timestamp": 1620767924415,
+    "version": "0.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/rtl-sdr-0.6.0-h3422bc3_2.tar.bz2/rtl-sdr-0.6.0-h3422bc3_2.tar.bz2"
+}
