@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Lime Suite is a collection of software supporting several hardware platforms including the LimeSDR, drivers for the LMS7002M transceiver RFIC, and other tools for developing with LMS7-based hardware. Installing the Lime Suite enables many SDR applications such as GQRX to work with supported hardware through the bundled SoapySDR support module.  The `liblimesuite` package contains the main library that other packages should develop against. The `soapysdr-module-lms7` package contains the Soapy SDR module that supports Lime devices. The `limesuite` package provides the entire software suite, depending on the previous packages and also providing GUI tools.",
+    "dev_url": "https://github.com/myriadrf/LimeSuite",
+    "doc_source_url": null,
+    "doc_url": "https://wiki.myriadrf.org/Lime_Suite",
+    "home": "http://wiki.myriadrf.org/Lime_Suite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 AND MIT AND BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/myriadrf/LimeSuite/archive/v20.10.0.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Driver and GUI for LMS7002M-based (Lime) SDR platforms",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620839061,
+    "version": "20.10.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "limesuite-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "limesuite-20.10.0-h75efa04_1.tar.bz2",
+  "repodata": {
+    "build": "h75efa04_1",
+    "build_number": 1,
+    "depends": [
+      "glew >=2.1.0,<2.2.0a0",
+      "libcxx >=11.1.0",
+      "liblimesuite 20.10.0 hbdafb3b_1",
+      "soapysdr-module-lms7 20.10.0 h1576d20_1"
+    ],
+    "license": "Apache-2.0 AND MIT AND BSD-3-Clause",
+    "md5": "9dc1fbdc4689ffa7b6f7551cb8b54922",
+    "name": "limesuite",
+    "sha256": "5c0802225f9b7f9c69d2bda0f706bfe1d0a18b0a3934c805f2c06c22e4b295d4",
+    "size": 15568,
+    "subdir": "osx-arm64",
+    "timestamp": 1620839061606,
+    "version": "20.10.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/limesuite-20.10.0-h75efa04_1.tar.bz2/limesuite-20.10.0-h75efa04_1.tar.bz2"
+}
