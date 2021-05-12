@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The NVIDIA Collective Communications Library (NCCL) implements multi-GPU and multi-node collective communication primitives that are performance optimized for NVIDIA GPUs. NCCL provides routines such as all-gather, all-reduce, broadcast, reduce, reduce-scatter, that are optimized to achieve high bandwidth over PCIe and NVLink high-speed interconnect.",
+    "dev_url": "https://github.com/NVIDIA/nccl",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/docs/index.html",
+    "home": "https://developer.nvidia.com/nccl",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.9.8.1": {
+        "weak": [
+          "nccl >=2.9.8.1,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/nccl/archive/v2.9.8-1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Optimized primitives for collective multi-GPU communication",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1620851698,
+    "version": "2.9.8.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nccl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nccl-2.9.8.1-h96e36e3_0.tar.bz2",
+  "repodata": {
+    "build": "h96e36e3_0",
+    "build_number": 0,
+    "depends": [
+      "__glibc >=2.17",
+      "cudatoolkit 11.0|11.0.*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "79a593557290f7e05fdfa6cdf3e8c577",
+    "name": "nccl",
+    "sha256": "e3c033a5ab4a096c7b5ea8b1afc6a56c02dd052be3b3b24a65d6eafc593860ae",
+    "size": 86423983,
+    "subdir": "linux-64",
+    "timestamp": 1620851698152,
+    "version": "2.9.8.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/nccl-2.9.8.1-h96e36e3_0.tar.bz2/nccl-2.9.8.1-h96e36e3_0.tar.bz2"
+}
