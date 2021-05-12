@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Lime Suite is a collection of software supporting several hardware platforms including the LimeSDR, drivers for the LMS7002M transceiver RFIC, and other tools for developing with LMS7-based hardware. Installing the Lime Suite enables many SDR applications such as GQRX to work with supported hardware through the bundled SoapySDR support module.  The `liblimesuite` package contains the main library that other packages should develop against. The `soapysdr-module-lms7` package contains the Soapy SDR module that supports Lime devices. The `limesuite` package provides the entire software suite, depending on the previous packages and also providing GUI tools.",
+    "dev_url": "https://github.com/myriadrf/LimeSuite",
+    "doc_source_url": null,
+    "doc_url": "https://wiki.myriadrf.org/Lime_Suite",
+    "home": "http://wiki.myriadrf.org/Lime_Suite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 AND MIT AND BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "20.10.0": {
+        "weak": [
+          "liblimesuite >=20.10.0,<20.11.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/myriadrf/LimeSuite/archive/v20.10.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Driver and GUI for LMS7002M-based (Lime) SDR platforms",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1620840472,
+    "version": "20.10.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "limesuite-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblimesuite-20.10.0-h3b9df90_1.tar.bz2",
+  "repodata": {
+    "build": "h3b9df90_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "libusb >=1.0.24,<2.0a0"
+    ],
+    "license": "Apache-2.0 AND MIT AND BSD-3-Clause",
+    "md5": "92ee3b0813aed50414f122b2ae756343",
+    "name": "liblimesuite",
+    "sha256": "71ceceab5c09a5dcce5599af95046832df49eab1d3560fcd6a4c63ff4cf1fa0f",
+    "size": 466535,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1620840472919,
+    "version": "20.10.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/liblimesuite-20.10.0-h3b9df90_1.tar.bz2/liblimesuite-20.10.0-h3b9df90_1.tar.bz2"
+}
