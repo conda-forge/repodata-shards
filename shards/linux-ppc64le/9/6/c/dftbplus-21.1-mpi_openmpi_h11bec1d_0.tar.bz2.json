@@ -1,0 +1,78 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/dftbplus/dftbplus",
+    "doc_source_url": null,
+    "doc_url": "https://dftbplus-recipes.readthedocs.io",
+    "home": "https://dftbplus.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "21.1": {
+        "weak": [
+          "dftbplus * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/dftbplus/dftbplus/archive/refs/tags/21.1.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "DFTB+ general package for performing fast atomistic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1620849864,
+    "version": "21.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dftbplus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dftbplus-21.1-mpi_openmpi_h11bec1d_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h11bec1d_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libmbd * mpi_openmpi_*",
+      "libmbd >=0.12.1,<0.13.0a0 mpi_openmpi_*",
+      "libnegf * mpi_openmpi_*",
+      "libnegf >=1.0.3,<1.1.0a0 mpi_openmpi_*",
+      "mpifx * mpi_openmpi_*",
+      "mpifx >=1.1,<1.2.0a0 mpi_openmpi_*",
+      "openmpi >=4.1,<4.2.0a0",
+      "scalapack",
+      "scalapackfx * mpi_openmpi_*",
+      "scalapackfx >=1.0.1,<1.1.0a0 mpi_openmpi_*"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "4a3e51423ae6384242d24667557bf155",
+    "name": "dftbplus",
+    "sha256": "bc4077a55d98841c19e1f8367e3b30feab0d96277ac1bbb64907bce8e892394b",
+    "size": 15852771,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1620849864454,
+    "version": "21.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/dftbplus-21.1-mpi_openmpi_h11bec1d_0.tar.bz2/dftbplus-21.1-mpi_openmpi_h11bec1d_0.tar.bz2"
+}
