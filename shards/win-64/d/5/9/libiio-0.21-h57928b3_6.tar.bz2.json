@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libiio is used to interface to the Linux Industrial Input/Output (IIO) Subsystem. The Linux IIO subsystem is intended to provide support for devices that in some sense are analog to digital or digital to analog converters (ADCs, DACs). This includes, but is not limited to ADCs, Accelerometers, Gyros, IMUs, Capacitance to Digital Converters (CDCs), Pressure Sensors, Color, Light and Proximity Sensors, Temperature Sensors, Magnetometers, DACs, DDS (Direct Digital Synthesis), PLLs (Phase Locked Loops), Variable/Programmable Gain Amplifiers (VGA, PGA), and RF transceivers. You can use libiio natively on an embedded Linux target (local mode), or use libiio to communicate remotely to that same target from a host Linux, Windows or MAC over USB or Ethernet or Serial.",
+    "dev_url": "https://github.com/analogdevicesinc/libiio",
+    "doc_source_url": null,
+    "doc_url": "https://analogdevicesinc.github.io/libiio/",
+    "home": "https://github.com/analogdevicesinc/libiio",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND ISC AND BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.21": {
+        "weak": [
+          "libiio-c >=0.21,<0.22.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Library for interfacing with Linux IIO devices",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1620939336,
+    "version": "0.21"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libiio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libiio-0.21-h57928b3_6.tar.bz2",
+  "repodata": {
+    "build": "h57928b3_6",
+    "build_number": 6,
+    "depends": [
+      "libiio-c 0.21 h65864e5_6",
+      "pylibiio 0.21 py_6"
+    ],
+    "license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND ISC AND BSD-2-Clause",
+    "license_family": "LGPL",
+    "md5": "2d82e1bc595bee6794e7be65b1ba1880",
+    "name": "libiio",
+    "sha256": "ae3bdd24509c98838b618fce7cd4f0039ca8ef4b01215855b61cb8c8cede19c9",
+    "size": 20099,
+    "subdir": "win-64",
+    "timestamp": 1620939336494,
+    "version": "0.21"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/libiio-0.21-h57928b3_6.tar.bz2/libiio-0.21-h57928b3_6.tar.bz2"
+}
