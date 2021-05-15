@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.unidata.ucar.edu/software/netcdf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.8.0": {
+        "weak": [
+          "libnetcdf >=4.8.0,<4.8.1.0a0 mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Unidata/netcdf-c/archive/v4.8.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Libraries and data formats that support array-oriented scientific data",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1621063433,
+    "version": "4.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libnetcdf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libnetcdf-4.8.0-mpi_mpich_h67506a4_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h67506a4_2",
+    "build_number": 2,
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "curl >=7.76.1,<8.0a0",
+      "hdf4 >=4.2.15,<4.3.0a0",
+      "hdf5 * mpi_mpich_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "jpeg >=9d,<10a",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "libzip >=1.7.3,<2.0a0",
+      "mpich >=3.4,<3.5.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "MIT",
+    "md5": "b9439e9a51062ebf7539cf08486ce736",
+    "name": "libnetcdf",
+    "sha256": "1d33ec71e3bb059d0360e971cce0e05107d6ef737c8fac52aa85d8617b7a6b61",
+    "size": 1574264,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1621063433471,
+    "version": "4.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libnetcdf-4.8.0-mpi_mpich_h67506a4_2.tar.bz2/libnetcdf-4.8.0-mpi_mpich_h67506a4_2.tar.bz2"
+}
