@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The NDS2 client interface allows the user to down-load LIGO data from V1 and V2 LIGO Network Data Servers.  This package only provides the low-level C/C++ client and associated binaries.  If you want to install the Python bindings, please install the python-nds2-client package.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wiki.ligo.org/Computing/NDSClient",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.16.6": {
+        "weak": [
+          "nds2-client >=0.16.6,<0.17.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/nds2-client-0.16.6.tar.bz2",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "NDS2 Client interface",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1621167482,
+    "version": "0.16.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "nds2-client-0.16.6-h3411cde_2.tar.bz2",
+  "repodata": {
+    "build": "h3411cde_2",
+    "build_number": 2,
+    "depends": [
+      "krb5 >=1.19.1,<1.20.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "884058e731b754d8ab101f8ea0907a77",
+    "name": "nds2-client",
+    "sha256": "0553423342930a9d3cd8c2b584684ec5a9921d3cd930c2907b7a9489b855073d",
+    "size": 1086734,
+    "subdir": "win-64",
+    "timestamp": 1621167482351,
+    "version": "0.16.6"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/nds2-client-0.16.6-h3411cde_2.tar.bz2"
+}
