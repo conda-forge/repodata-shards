@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "When you run retype, it goes through all files you passed as SRC, finds the corresponding .pyi files in the types/ directory, and re-applies typing annotations from .pyi to the sources, using the Python 3 function and variable annotation syntax. The resulting combined sources are saved in typed-src/.  You can also pass directories as sources, in which case retype will look for .py files in them recursively.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/ambv/retype",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/r/retype/retype-21.5.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Re-apply type annotations from .pyi stubs to your codebase.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621205451,
+    "version": "21.5.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "retype-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "retype-21.5.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "click",
+      "pathspec >=0.5.9,<1",
+      "python >=3.6",
+      "typed-ast"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "27e901cb124fce3601473e17e56cbc1b",
+    "name": "retype",
+    "noarch": "python",
+    "sha256": "e601f828e5915f8e1e410ef54d20dc07751bda3d9fbc0d89cbb1e0f2d37ab6db",
+    "size": 29822,
+    "subdir": "noarch",
+    "timestamp": 1621205451317,
+    "version": "21.5.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/retype-21.5.0-pyhd8ed1ab_0.tar.bz2/retype-21.5.0-pyhd8ed1ab_0.tar.bz2"
+}
