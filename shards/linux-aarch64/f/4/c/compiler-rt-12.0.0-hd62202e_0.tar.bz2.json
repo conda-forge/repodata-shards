@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.0/compiler-rt-12.0.0.src.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621449249,
+    "version": "12.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compiler-rt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compiler-rt-12.0.0-hd62202e_0.tar.bz2",
+  "repodata": {
+    "build": "hd62202e_0",
+    "build_number": 0,
+    "depends": [
+      "clang 12.0.0.*",
+      "clangxx 12.0.0.*",
+      "compiler-rt_linux-aarch64 12.0.0.*",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "NCSA",
+    "md5": "bec8fe72a8e9b72f11fa636c4f8583f9",
+    "name": "compiler-rt",
+    "sha256": "c0626b4dc5a2fe4c65824b4eea38d2aba87a067998674c0614160ac314004980",
+    "size": 98280,
+    "subdir": "linux-aarch64",
+    "timestamp": 1621449249061,
+    "version": "12.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/compiler-rt-12.0.0-hd62202e_0.tar.bz2/compiler-rt-12.0.0-hd62202e_0.tar.bz2"
+}
