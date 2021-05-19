@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.0/compiler-rt-12.0.0.src.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621449310,
+    "version": "12.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compiler-rt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compiler-rt-12.0.0-h4bd325d_0.tar.bz2",
+  "repodata": {
+    "build": "h4bd325d_0",
+    "build_number": 0,
+    "depends": [
+      "clang 12.0.0.*",
+      "clangxx 12.0.0.*",
+      "compiler-rt_linux-64 12.0.0.*",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "NCSA",
+    "md5": "312c21f7962b6b1bf002ed67a322abe1",
+    "name": "compiler-rt",
+    "sha256": "1b97d1e82043ad8804507f181718207e070226f799749f91d9a92c4170da9af6",
+    "size": 98380,
+    "subdir": "linux-64",
+    "timestamp": 1621449310038,
+    "version": "12.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/compiler-rt-12.0.0-h4bd325d_0.tar.bz2/compiler-rt-12.0.0-h4bd325d_0.tar.bz2"
+}
