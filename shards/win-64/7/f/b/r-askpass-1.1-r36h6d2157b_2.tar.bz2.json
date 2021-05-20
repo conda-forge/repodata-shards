@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/jeroen/askpass#readme",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/askpass/askpass_1.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/askpass_1.1.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Cross-platform utilities for prompting the user for credentials or a  passphrase, for example to authenticate with a server or read a protected key. Includes native programs for MacOS and Windows, hence no 'tcltk' is required.  Password entry can be invoked in two different ways: directly from R via the  askpass() function, or indirectly as password-entry back-end for 'ssh-agent'  or 'git-credential' via the ssh_askpass and git_askpass environment variables. Thereby the user can be prompted for credentials or a passphrase if needed  when R calls out to git or ssh.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621550125,
+    "version": "1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-askpass-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-askpass-1.1-r36h6d2157b_2.tar.bz2",
+  "repodata": {
+    "build": "r36h6d2157b_2",
+    "build_number": 2,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=3.6,<3.7.0a0",
+      "r-sys >=2.1"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "7fc8e48334ee4bbd9700302f2b2ea20d",
+    "name": "r-askpass",
+    "sha256": "edb813cc7d71e398cbc0cd6d6db9d11a0012240ec1a075aedd5394a7c9b2bee1",
+    "size": 74861,
+    "subdir": "win-64",
+    "timestamp": 1621550125513,
+    "version": "1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/r-askpass-1.1-r36h6d2157b_2.tar.bz2/r-askpass-1.1-r36h6d2157b_2.tar.bz2"
+}
