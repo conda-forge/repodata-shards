@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://neuron.yale.edu",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "8.0.0": {
+        "weak": [
+          "neuron  mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "NEURON is a simulator for models of neurons and networks of neuron.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1621595355,
+    "version": "8.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "neuron-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "neuron-8.0.0-mpi_mpich_py36h036edf4_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py36h036edf4_0",
+    "build_number": 0,
+    "depends": [
+      "gcc_linux-64 9.*",
+      "gxx_linux-64 9.*",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "mpich >=3.4.1,<4.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "numpy",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "readline >=8.1,<9.0a0",
+      "xorg-libx11 >=1.6.12,<2.0a0",
+      "xorg-libxcomposite >=0.4.5,<1.0a0",
+      "xorg-libxext >=1.3.4,<2.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "8762bcc65b80af099169de81d16f7bf4",
+    "name": "neuron",
+    "sha256": "abc9d0e225ce3c4a11447639444440626b5d703e33112c332cf3e0872edba841",
+    "size": 16593847,
+    "subdir": "linux-64",
+    "timestamp": 1621595355827,
+    "version": "8.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/neuron-8.0.0-mpi_mpich_py36h036edf4_0.tar.bz2/neuron-8.0.0-mpi_mpich_py36h036edf4_0.tar.bz2"
+}
