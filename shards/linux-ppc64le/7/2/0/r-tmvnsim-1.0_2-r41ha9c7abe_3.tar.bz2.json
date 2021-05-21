@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.r-project.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/tmvnsim/tmvnsim_1.0-2.tar.gz",
+      "https://cran.r-project.org/src/contrib/tmvnsim_1.0-2.tar.gz"
+    ],
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Importance sampling from the truncated multivariate normal using the GHK (Geweke-Hajivassiliou-Keane) simulator. Unlike Gibbs sampling which can get stuck in one truncation sub-region depending on initial values, this package allows truncation based on disjoint regions that are created by truncation of absolute values. The GHK algorithm uses simple Cholesky transformation followed by recursive simulation of univariate truncated normals hence there are also no convergence issues. Importance sample is returned along with sampling weights, based on which, one can calculate integrals over truncated regions for multivariate normals.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621634973,
+    "version": "1.0_2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-tmvnsim-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-tmvnsim-1.0_2-r41ha9c7abe_3.tar.bz2",
+  "repodata": {
+    "build": "r41ha9c7abe_3",
+    "build_number": 3,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "r-base >=4.1,<4.2.0a0"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "cdfacab77a924ac893ae7b3cb21728b8",
+    "name": "r-tmvnsim",
+    "sha256": "71ff0672f6f2890307290df761b0ec77dbeb9d3ca9e8b50dc151233249ffd743",
+    "size": 34404,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1621634973534,
+    "version": "1.0_2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/r-tmvnsim-1.0_2-r41ha9c7abe_3.tar.bz2/r-tmvnsim-1.0_2-r41ha9c7abe_3.tar.bz2"
+}
