@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "EvtGen is a Monte Carlo event generator that simulates the decays of heavy flavour particles, primarily B and D mesons. It contains a range of decay models for intermediate and final states containing scalar, vector and tensor mesons or resonances, as well as leptons, photons and baryons. Decay amplitudes are used to generate each branch of a given full decay tree, taking into account angular and time-dependent correlations which allows for the simulation of CP-violating processes.",
+    "dev_url": "https://phab.hepforge.org/source/evtgen/",
+    "doc_source_url": null,
+    "doc_url": "https://evtgen.hepforge.org/doc/",
+    "home": "https://evtgen.hepforge.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.0": {
+        "weak": [
+          "evtgen >=2.0.0,<2.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://evtgen.hepforge.org/downloads?f=EvtGen-02.00.00.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A Monte Carlo event generator that simulates the decays of heavy flavour particles",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1621596049,
+    "version": "2.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "evtgen-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "evtgen-2.0.0-he49afe7_2.tar.bz2",
+  "repodata": {
+    "build": "he49afe7_2",
+    "build_number": 2,
+    "depends": [
+      "hepmc3 >=3.2.3,<4.0a0",
+      "libcxx >=11.1.0",
+      "photos >=3.64,<3.65.0a0",
+      "pythia8 >=8.305,<8.400.0a0",
+      "tauloa >=1.1.8,<1.1.9.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "md5": "79c13a263baea716932a7b469d0a6891",
+    "name": "evtgen",
+    "sha256": "8d131b66d08d0046d4d67c7f1b5792fcf8a922b1fb39cde84ada822ce85f6144",
+    "size": 4845036,
+    "subdir": "osx-64",
+    "timestamp": 1621596049604,
+    "version": "2.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/evtgen-2.0.0-he49afe7_2.tar.bz2/evtgen-2.0.0-he49afe7_2.tar.bz2"
+}
