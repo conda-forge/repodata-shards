@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "IMPACT-T is a fully three-dimensional program to track relativistic charged particles taking into account space charge forces, short-range longitudinal and transverse wakefields, coherent synchrotron radiation (CSR) wakefield in accelerators.",
+    "dev_url": "https://github.com/impact-lbl/IMPACT-T",
+    "doc_source_url": null,
+    "doc_url": "https://amac.lbl.gov/~jiqiang/IMPACT-T/index.html",
+    "home": "https://github.com/impact-lbl/IMPACT-T",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause-LBNL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.2": {
+        "weak": [
+          "impact-t * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/impact-lbl/IMPACT-T/archive/v2.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "IMPACT-T, A 3D Parallel Particle Tracking Code in Time Domain",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621567517,
+    "version": "2.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "impact-t-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "impact-t-2.2-mpi_openmpi_h36312d9_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h36312d9_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "openmpi >=4.1.1,<5.0a0"
+    ],
+    "license": "BSD-3-Clause-LBNL",
+    "license_family": "BSD",
+    "md5": "2a67b36747f7c9e18666198a6e34f514",
+    "name": "impact-t",
+    "sha256": "9078d76e10274750d52381fd11db5c09f80e1839be8e870ed2cf7e5a25e688a8",
+    "size": 461440,
+    "subdir": "linux-64",
+    "timestamp": 1621567517249,
+    "version": "2.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/impact-t-2.2-mpi_openmpi_h36312d9_0.tar.bz2/impact-t-2.2-mpi_openmpi_h36312d9_0.tar.bz2"
+}
