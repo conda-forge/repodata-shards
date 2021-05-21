@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://r-lib.github.io/fastmap/, https://github.com/r-lib/fastmap",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/fastmap/fastmap_1.1.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/fastmap_1.1.0.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Fast implementation of a key-value store. Environments are commonly used as key-value stores, but every time a new key is used, it is added to R's global symbol table, causing a small amount of memory leakage. This can be problematic in cases where many different keys are used. Fastmap avoids this memory leak issue by implementing the map using data structures in C++.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621614936,
+    "version": "1.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-fastmap-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-fastmap-1.1.0-r41ha856d6a_0.tar.bz2",
+  "repodata": {
+    "build": "r41ha856d6a_0",
+    "build_number": 0,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=4.1,<4.2.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "fe20ff6f51bb6c2a99b949cc4a1e65b3",
+    "name": "r-fastmap",
+    "sha256": "f8991728e8e3fbfd3074c124c15e20ccd6556d334c8ab605cdfb03536de6000e",
+    "size": 76893,
+    "subdir": "win-64",
+    "timestamp": 1621614936581,
+    "version": "1.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/r-fastmap-1.1.0-r41ha856d6a_0.tar.bz2/r-fastmap-1.1.0-r41ha856d6a_0.tar.bz2"
+}
