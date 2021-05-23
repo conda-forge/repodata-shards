@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://cran.r-project.org/web/packages/pdist/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/pdist/pdist_1.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/pdist_1.2.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Computes the euclidean distance between rows of a matrix X and rows of another matrix Y.  Previously, this could be done by binding the two matrices together and calling 'dist', but this creates unnecessary computation by computing the distances between a row of X and another row of X, and likewise for Y. pdist strictly computes distances across the two matrices, not within the same matrix, making computations significantly faster for certain use cases.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621763144,
+    "version": "1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-pdist-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-pdist-1.2-r41hcd874cb_1004.tar.bz2",
+  "repodata": {
+    "build": "r41hcd874cb_1004",
+    "build_number": 1004,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=4.1,<4.2.0a0"
+    ],
+    "license": "GPL",
+    "license_family": "GPL",
+    "md5": "3bf2ea35c79f589eab4063c0806e4de3",
+    "name": "r-pdist",
+    "sha256": "8d863b5d3c1ef5423b6471fccb7fb291338b94c3b9b72cbb87c88c826094c96a",
+    "size": 43967,
+    "subdir": "win-64",
+    "timestamp": 1621763144000,
+    "version": "1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/r-pdist-1.2-r41hcd874cb_1004.tar.bz2/r-pdist-1.2-r41hcd874cb_1004.tar.bz2"
+}
