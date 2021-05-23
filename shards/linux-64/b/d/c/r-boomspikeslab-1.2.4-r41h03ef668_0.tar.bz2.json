@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=BoomSpikeSlab",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/BoomSpikeSlab/BoomSpikeSlab_1.2.4.tar.gz",
+      "https://cran.r-project.org/src/contrib/BoomSpikeSlab_1.2.4.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Spike and slab regression with a variety of residual error distributions corresponding to Gaussian, Student T, probit, logit, SVM, and a few others.  Spike and slab regression is Bayesian regression with prior distributions containing a point mass at zero.  The posterior updates the amount of mass on this point, leading to a posterior distribution that is actually sparse, in the sense that if you sample from it many coefficients are actually zeros.  Sampling from this posterior distribution is an elegant way to handle Bayesian variable selection and model averaging.  See <DOI:10.1504/IJMMNO.2014.059942> for an explanation of the Gaussian case.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621753791,
+    "version": "1.2.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-boomspikeslab-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-boomspikeslab-1.2.4-r41h03ef668_0.tar.bz2",
+  "repodata": {
+    "build": "r41h03ef668_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "r-base >=4.1,<4.2.0a0",
+      "r-boom >=0.9.6"
+    ],
+    "license": "LGPL-2.1-only",
+    "license_family": "LGPL",
+    "md5": "a143b31911a033c902794064530c2ed3",
+    "name": "r-boomspikeslab",
+    "sha256": "34fbb888b5b816506d4a5e3b864c57c172361881ccfd3cff8847429a4e01ab3b",
+    "size": 2056058,
+    "subdir": "linux-64",
+    "timestamp": 1621753791914,
+    "version": "1.2.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-boomspikeslab-1.2.4-r41h03ef668_0.tar.bz2/r-boomspikeslab-1.2.4-r41h03ef668_0.tar.bz2"
+}
