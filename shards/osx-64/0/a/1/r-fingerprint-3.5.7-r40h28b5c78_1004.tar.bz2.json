@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=fingerprint",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/fingerprint/fingerprint_3.5.7.tar.gz",
+      "https://cran.r-project.org/src/contrib/fingerprint_3.5.7.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Functions to manipulate binary fingerprints of arbitrary length. A fingerprint is represented by an object of S4 class 'fingerprint' which is internally represented a vector of integers, such that each element represents the position in the fingerprint that is set to 1. The bitwise logical functions in R are overridden so that they can be used directly with 'fingerprint' objects. A number of distance metrics are also available (many contributed by Michael Fadock). Fingerprints  can be converted to Euclidean vectors (i.e., points on the unit hypersphere) and can also be folded using OR.  Arbitrary fingerprint formats can be handled via line handlers. Currently handlers are provided for CDK, MOE and BCI fingerprint data.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621753194,
+    "version": "3.5.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-fingerprint-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-fingerprint-3.5.7-r40h28b5c78_1004.tar.bz2",
+  "repodata": {
+    "build": "r40h28b5c78_1004",
+    "build_number": 1004,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0"
+    ],
+    "license": "GPL",
+    "license_family": "GPL",
+    "md5": "65ab458e700eeceb1152cc77d94d1acd",
+    "name": "r-fingerprint",
+    "sha256": "eb8c04bd97789134fe68af6b503daf5c76c8fb265113238ff57000f0059d7d79",
+    "size": 270666,
+    "subdir": "osx-64",
+    "timestamp": 1621753194839,
+    "version": "3.5.7"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/r-fingerprint-3.5.7-r40h28b5c78_1004.tar.bz2/r-fingerprint-3.5.7-r40h28b5c78_1004.tar.bz2"
+}
