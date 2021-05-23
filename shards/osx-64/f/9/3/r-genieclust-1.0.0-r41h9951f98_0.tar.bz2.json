@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://genieclust.gagolewski.com/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "AGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/genieclust/genieclust_1.0.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/genieclust_1.0.0.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A retake on the Genie algorithm - a robust hierarchical clustering method (Gagolewski, Bartoszuk, Cena, 2016 <DOI:10.1016/j.ins.2016.05.003>). Now faster and more memory efficient; determining the whole hierarchy for datasets of 10M points in low dimensional Euclidean spaces or 100K points in high-dimensional ones takes only 1-2 minutes. Allows clustering with respect to mutual reachability distances so that it can act as a noise point detector or a robustified version of 'HDBSCAN*' (that is able to detect a predefined number of clusters and hence it does not dependent on the somewhat fragile 'eps' parameter). The package also features an implementation of economic inequity indices (the Gini, Bonferroni index) and external cluster validity measures (partition similarity scores; e.g., the adjusted Rand, Fowlkes-Mallows, adjusted mutual information, pair sets index). See also the 'Python' version of 'genieclust' available on 'PyPI', which supports sparse data, more metrics, and even larger datasets.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621748396,
+    "version": "1.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-genieclust-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-genieclust-1.0.0-r41h9951f98_0.tar.bz2",
+  "repodata": {
+    "build": "r41h9951f98_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.1.0",
+      "llvm-openmp",
+      "r-base >=4.1,<4.2.0a0",
+      "r-rcpp >=1.0.4"
+    ],
+    "license": "AGPL-3.0-only",
+    "license_family": "AGPL",
+    "md5": "1bf907b41eb880ba5ae19d7cec2d147e",
+    "name": "r-genieclust",
+    "sha256": "14fda290cc49c00b0d47b46f5aee0bce7c6cac5a5408207056e35582058c65b5",
+    "size": 181636,
+    "subdir": "osx-64",
+    "timestamp": 1621748396261,
+    "version": "1.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/r-genieclust-1.0.0-r41h9951f98_0.tar.bz2/r-genieclust-1.0.0-r41h9951f98_0.tar.bz2"
+}
