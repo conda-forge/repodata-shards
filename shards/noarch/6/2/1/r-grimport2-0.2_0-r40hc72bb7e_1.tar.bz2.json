@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://r-forge.r-project.org/projects/grimport/,https://stattech.wordpress.fos.auckland.ac.nz/2013/09/,https://stattech.wordpress.fos.auckland.ac.nz/2016/08/30/2016-11-the-butterfly-affectation/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL (>= 2)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/grImport2/grImport2_0.2-0.tar.gz",
+      "https://cran.r-project.org/src/contrib/grImport2_0.2-0.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Functions for importing external vector images and drawing them as part of 'R' plots.  This package is different from the 'grImport' package because, where that package imports 'PostScript' format images, this package imports 'SVG' format images.  Furthermore, this package imports a specific subset of 'SVG', so external images must be preprocessed using a package like 'rsvg' to produce 'SVG' that this package can import.  'SVG' features that are not supported by 'R' graphics, e.g., gradient fills, can be imported and then exported via the 'gridSVG' package.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1621892916,
+    "version": "0.2_0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-grimport2-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-grimport2-0.2_0-r40hc72bb7e_1.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_1",
+    "build_number": 1,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-base64enc",
+      "r-jpeg",
+      "r-png",
+      "r-xml"
+    ],
+    "license": "GPL (>= 2)",
+    "license_family": "GPL3",
+    "md5": "add115f47c3723911e4a309cdc0fdcac",
+    "name": "r-grimport2",
+    "noarch": "generic",
+    "sha256": "f94b0cea4ee963cde787cc272bf106db9ce53c030f17f02531b464948f09ded5",
+    "size": 253771,
+    "subdir": "noarch",
+    "timestamp": 1621892916137,
+    "version": "0.2_0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-grimport2-0.2_0-r40hc72bb7e_1.tar.bz2/r-grimport2-0.2_0-r40hc72bb7e_1.tar.bz2"
+}
