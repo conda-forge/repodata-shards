@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www-personal.umich.edu/~johanngb/ruv/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/ruv/ruv_0.9.7.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/ruv_0.9.7.1.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Implements the 'RUV' (Remove Unwanted Variation) algorithms.  These algorithms attempt to adjust for systematic errors of unknown origin in high-dimensional data.  The algorithms were originally developed for use with genomic data, especially microarray data, but may be useful with other types of high-dimensional data as well.  These algorithms were proposed in Gagnon-Bartsch and Speed (2012) <doi:10.1093/nar/gkz433>, Gagnon-Bartsch, Jacob and Speed (2013), and Molania, et. al. (2019) <doi:10.1093/nar/gkz433>.  The algorithms require the user to specify a set of negative control variables, as described in the references.  The algorithms included in this package are 'RUV-2', 'RUV-4', 'RUV-inv', 'RUV-rinv', 'RUV-I', and RUV-III', along with various supporting algorithms.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1622067438,
+    "version": "0.9.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-ruv-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-ruv-0.9.7.1-r41hcfec24a_1.tar.bz2",
+  "repodata": {
+    "build": "r41hcfec24a_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "r-base >=4.1,<4.2.0a0",
+      "r-ggplot2",
+      "r-gridextra",
+      "r-scales"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL3",
+    "md5": "d70f091eda2292dc2120ae4f95ce54cf",
+    "name": "r-ruv",
+    "sha256": "081ecb01d6b9ab80131e53de38375f3b380d7d10e790ca0c6e805d0f036b8d73",
+    "size": 310142,
+    "subdir": "linux-64",
+    "timestamp": 1622067438577,
+    "version": "0.9.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-ruv-0.9.7.1-r41hcfec24a_1.tar.bz2/r-ruv-0.9.7.1-r41hcfec24a_1.tar.bz2"
+}
