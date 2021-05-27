@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "clcache.py is a little Python script which attempts to avoid unnecessary recompilation by reusing previously cached object files if possible. It is meant to be called instead of the original 'cl.exe' executable. The script analyses the command line to decide whether source code is to be compiled. If so, a cache will be queried for a previously stored object file.  If the script is called in an unsupported way (e.g. if the compiler is called for linking), the script will simply relay the invocation to the real 'cl.exe' program.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/frerich/clcache",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/c/clcache/clcache-4.2.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "a compiler cache for Microsoft Visual Studio",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1622122697,
+    "version": "4.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "clcache-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "clcache-4.2.0-py36h57928b3_0.tar.bz2",
+  "repodata": {
+    "build": "py36h57928b3_0",
+    "build_number": 0,
+    "depends": [
+      "pymemcache",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "pyuv"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "978fe105e29a8cd83d15b43e08a3c839",
+    "name": "clcache",
+    "sha256": "0d3d2ad4259ab87675e406ae521b9ee8122571d9589193bea8f0611e27fc1e03",
+    "size": 71867,
+    "subdir": "win-64",
+    "timestamp": 1622122697405,
+    "version": "4.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/clcache-4.2.0-py36h57928b3_0.tar.bz2/clcache-4.2.0-py36h57928b3_0.tar.bz2"
+}
