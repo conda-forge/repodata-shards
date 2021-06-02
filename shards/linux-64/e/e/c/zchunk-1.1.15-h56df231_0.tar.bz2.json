@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "zchunk is a compressed file format that splits the file into independent chunks. This allows you to only download changed chunks when downloading a new version of the file, and also makes zchunk files efficient over rsync.  zchunk files are protected with strong checksums to verify that the file you downloaded is, in fact, the file you wanted.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/zchunk/zchunk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.1.15": {
+        "weak": [
+          "zchunk >=1.1.15,<1.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/zchunk/zchunk/archive/1.1.15.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A file format designed for highly efficient deltas while maintaining good compression",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1622609013,
+    "version": "1.1.15"
+  },
+  "channeldata_version": 1,
+  "feedstock": "zchunk-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "zchunk-1.1.15-h56df231_0.tar.bz2",
+  "repodata": {
+    "build": "h56df231_0",
+    "build_number": 0,
+    "depends": [
+      "libcurl >=7.77.0,<8.0a0",
+      "libgcc-ng >=9.3.0",
+      "openssl >=1.1.1k,<1.1.2a",
+      "zstd >=1.5.0,<1.6.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "3efc8f0e4c0771cb2ec3ce664912fb78",
+    "name": "zchunk",
+    "sha256": "47ab4b9efffe363438d4cc661bd6bd53c6b618cf7ba4cb9db3101c455284bcfc",
+    "size": 220734,
+    "subdir": "linux-64",
+    "timestamp": 1622609013947,
+    "version": "1.1.15"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/zchunk-1.1.15-h56df231_0.tar.bz2/zchunk-1.1.15-h56df231_0.tar.bz2"
+}
