@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=RNOmni",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/RNOmni/RNOmni_1.0.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/RNOmni_1.0.0.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Inverse normal transformation (INT) based genetic association testing. These tests are recommend for continuous traits with non-normally distributed residuals. INT-based tests robustly control the type I error in settings where standard linear regression does not, as when the residual distribution exhibits excess skew or kurtosis. Moreover, INT-based tests dominate standard linear regression in terms of power. These tests may be classified into two types. In direct INT (D-INT), the phenotype is itself transformed. In indirect INT (I-INT), phenotypic residuals are transformed. The omnibus test (O-INT) adaptively combines D-INT and I-INT into a single robust and statistically powerful approach. See McCaw ZR, Lane JM, Saxena R, Redline S, Lin X. \"Operating characteristics of the rank-based inverse normal transformation for quantitative trait analysis in genome-wide association studies\" <doi:10.1111/biom.13214>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1622797439,
+    "version": "1.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-rnomni-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-rnomni-1.0.0-r40h306847c_0.tar.bz2",
+  "repodata": {
+    "build": "r40h306847c_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.3.0",
+      "r-base >=4.0,<4.1.0a0",
+      "r-plyr",
+      "r-rcpp",
+      "r-rcpparmadillo"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "ac87d7fb8e75587f4b8e6f2908d6bc5b",
+    "name": "r-rnomni",
+    "sha256": "531fba3da7396d9774c1b9712c96c0e893dbb6af242cc6cd9ec4a15616945378",
+    "size": 263066,
+    "subdir": "linux-64",
+    "timestamp": 1622797439080,
+    "version": "1.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-rnomni-1.0.0-r40h306847c_0.tar.bz2/r-rnomni-1.0.0-r40h306847c_0.tar.bz2"
+}
