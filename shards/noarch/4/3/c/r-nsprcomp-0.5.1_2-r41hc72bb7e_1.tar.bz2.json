@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://sigg-iten.ch/research/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL (>= 2)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/nsprcomp/nsprcomp_0.5.1-2.tar.gz",
+      "https://cran.r-project.org/src/contrib/nsprcomp_0.5.1-2.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Two methods for performing a constrained principal component analysis (PCA), where non-negativity and/or sparsity constraints are enforced on the principal axes (PAs). The function 'nsprcomp' computes one principal component (PC) after the other. Each PA is optimized such that the corresponding PC has maximum additional variance not explained by the previous components. In contrast, the function 'nscumcomp' jointly computes all PCs such that the cumulative variance is maximal. Both functions have the same interface as the 'prcomp' function from the 'stats' package (plus some extra parameters), and both return the result of the analysis as an object of class 'nsprcomp', which inherits from 'prcomp'. See <https://sigg-iten.ch/learningbits/2013/05/27/nsprcomp-is-on-cran/> and Sigg et al. (2008) <doi:10.1145/1390156.1390277> for more details.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1622881066,
+    "version": "0.5.1_2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-nsprcomp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-nsprcomp-0.5.1_2-r41hc72bb7e_1.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_1",
+    "build_number": 1,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0"
+    ],
+    "license": "GPL (>= 2)",
+    "license_family": "GPL3",
+    "md5": "2d03da214346a33d3864455b9e35bdd8",
+    "name": "r-nsprcomp",
+    "noarch": "generic",
+    "sha256": "3a6c7331b6247554afd150e055137b5eb24b9d56f8d822ec1e4ea1bcb85da254",
+    "size": 77481,
+    "subdir": "noarch",
+    "timestamp": 1622881066121,
+    "version": "0.5.1_2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-nsprcomp-0.5.1_2-r41hc72bb7e_1.tar.bz2/r-nsprcomp-0.5.1_2-r41hc72bb7e_1.tar.bz2"
+}
