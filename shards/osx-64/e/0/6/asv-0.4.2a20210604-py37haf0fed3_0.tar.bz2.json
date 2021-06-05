@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "It is primarily designed to benchmark a single project over its lifetime using a given suite of benchmarks. The results are displayed in an interactive web frontend that requires only a basic static webserver to host.",
     "dev_url": "https://github.com/spacetelescope/asv",
@@ -21,41 +21,40 @@
     "source_git_url": "https://github.com/airspeed-velocity/asv",
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A simple Python benchmarking tool with web-based reporting",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1622873131,
+    "timestamp": 1622873230,
     "version": "0.4.2a20210604"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "asv-feedstock",
   "labels": [
     "asv_dev"
   ],
-  "package": "asv-0.4.2a20210604-py38hfd22011_0.tar.bz2",
+  "package": "asv-0.4.2a20210604-py37haf0fed3_0.tar.bz2",
   "repodata": {
-    "build": "py38hfd22011_0",
+    "build": "py37haf0fed3_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "libcxx >=11.1.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "setuptools",
       "six"
     ],
     "license": "BSD-3-Clause",
-    "md5": "cae565885f3707332fecb50f09186806",
+    "md5": "217c72c8eeb368a522fd67d825bc1e33",
     "name": "asv",
-    "sha256": "21b19814ad73c8eae733b2de4bc6864b9a820eb76bf1d41a144dd188aff0b942",
-    "size": 405461,
-    "subdir": "linux-64",
-    "timestamp": 1622873131907,
+    "sha256": "c1c6f2374077ebba64691f3ee4fb69148cc711000f945481643a05595c188591",
+    "size": 404678,
+    "subdir": "osx-64",
+    "timestamp": 1622873230432,
     "version": "0.4.2a20210604"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/asv-0.4.2a20210604-py38hfd22011_0.tar.bz2/asv-0.4.2a20210604-py38hfd22011_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/asv-0.4.2a20210604-py37haf0fed3_0.tar.bz2/asv-0.4.2a20210604-py37haf0fed3_0.tar.bz2"
 }
