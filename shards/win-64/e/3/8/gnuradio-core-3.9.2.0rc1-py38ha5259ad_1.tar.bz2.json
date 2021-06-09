@@ -9,7 +9,7 @@
     "doc_url": "https://gnuradio.org/doc/doxygen/",
     "home": "https://gnuradio.org/",
     "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
-    "icon_url": "icons/gnuradio-grc.png",
+    "icon_url": "icons/gnuradio-core.png",
     "identifiers": null,
     "keywords": null,
     "license": "GPL-3.0-or-later",
@@ -17,56 +17,71 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "3.9.2.0rc1": {
+        "weak": [
+          "gnuradio-core >=3.9.2.0rc.1,<3.9.3.0a0",
+          "log4cpp >=1.1.3,<1.2.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://github.com/gnuradio/gnuradio/archive/v3.9.2.0-rc1.tar.gz",
     "subdirs": [
-      "linux-aarch64"
+      "win-64"
     ],
     "summary": "GNU Radio Companion",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1623259069,
+    "timestamp": 1623257234,
     "version": "3.9.2.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "gnuradio-feedstock",
   "labels": [
     "gnuradio_rc"
   ],
-  "package": "gnuradio-grc-3.9.2.0rc1-py38h7e9a64c_1.tar.bz2",
+  "package": "gnuradio-core-3.9.2.0rc1-py38ha5259ad_1.tar.bz2",
   "repodata": {
     "app_entry": "gnuradio-companion",
-    "build": "py38h7e9a64c_1",
+    "build": "py38ha5259ad_1",
     "build_number": 1,
     "depends": [
-      "adwaita-icon-theme",
       "boost-cpp >=1.74.0,<1.74.1.0a0",
-      "gnuradio-core 3.9.2.0rc1 py38he954686_1",
-      "gtk3 >=3.24.28,<4.0a0",
-      "libgcc-ng >=9.3.0",
-      "libstdcxx-ng >=9.3.0",
+      "click",
+      "click-plugins",
+      "codec2 >=0.9.2,<0.10.0a0",
+      "fftw >=3.3.9,<4.0a0",
+      "gsl >=2.6,<2.7.0a0",
+      "libsndfile >=1.0.31,<1.1.0a0",
       "log4cpp >=1.1.3,<1.2.0a0",
-      "lxml",
-      "pygobject",
+      "mako",
+      "menuinst",
+      "mpir >=3.0.0,<4.0a0",
+      "numpy",
+      "pybind11-abi 4",
       "python >=3.8,<3.9.0a0",
       "python_abi 3.8.* *_cp38",
-      "pyyaml"
+      "setuptools",
+      "six",
+      "vc >=14.1,<15.0a0",
+      "volk >=2.4.1,<2.5.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "3043f07faf9d716c07ac0888d20aea23",
-    "name": "gnuradio-grc",
-    "sha256": "0d8a5b7bb6a020769bf10c7422ae37eab9900d3a0b9a1067619f0b1454268ef2",
-    "size": 356363,
-    "subdir": "linux-aarch64",
+    "md5": "473664262f26c8969ba7080cf2bcefc3",
+    "name": "gnuradio-core",
+    "sha256": "87066d641f53f956dc71175831d9838bba87f7673b36f1d2ba723adc0edae2bb",
+    "size": 6670095,
+    "subdir": "win-64",
     "summary": "GNU Radio Companion",
-    "timestamp": 1623259069342,
+    "timestamp": 1623257234900,
     "type": "app",
     "version": "3.9.2.0rc1"
   },
   "repodata_version": 1,
-  "subdir": "linux-aarch64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/gnuradio-grc-3.9.2.0rc1-py38h7e9a64c_1.tar.bz2/gnuradio-grc-3.9.2.0rc1-py38h7e9a64c_1.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/gnuradio-core-3.9.2.0rc1-py38ha5259ad_1.tar.bz2/gnuradio-core-3.9.2.0rc1-py38ha5259ad_1.tar.bz2"
 }
