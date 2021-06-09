@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "http://pari.math.u-bordeaux.fr/cgi-bin/gitweb.cgi",
+    "doc_source_url": null,
+    "doc_url": "http://pari.math.u-bordeaux.fr/dochtml/html-stable/",
+    "home": "http://pari.math.u-bordeaux.fr",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.11.4": {
+        "weak": [
+          "pari >=2.11.4,<2.12.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": [
+      "http://pari.math.u-bordeaux.fr/pub/pari/OLD/2.11/pari-2.11.4.tar.gz",
+      "http://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.11.4.tar.gz"
+    ],
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "PARI/GP is a widely used computer algebra system designed for fast computations in number theory",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1623255333,
+    "version": "2.11.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pari-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pari-2.11.4-h03778fe_2.tar.bz2",
+  "repodata": {
+    "build": "h03778fe_2",
+    "build_number": 2,
+    "depends": [
+      "gmp >=6.2.1,<7.0a0",
+      "libgcc-ng >=9.3.0",
+      "openssl >=1.1.1k,<1.1.2a",
+      "pari-galdata",
+      "pari-seadata-small",
+      "perl 5.*",
+      "readline >=8.1,<9.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "d5827e5c7f9459deb21db5686cea2a46",
+    "name": "pari",
+    "sha256": "bd34b5f664da17a00b66e8d1afc8ee1e3cdd6c52af1f64e7e288c3b423edd2d5",
+    "size": 38729579,
+    "subdir": "linux-aarch64",
+    "timestamp": 1623255333825,
+    "version": "2.11.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/pari-2.11.4-h03778fe_2.tar.bz2/pari-2.11.4-h03778fe_2.tar.bz2"
+}
