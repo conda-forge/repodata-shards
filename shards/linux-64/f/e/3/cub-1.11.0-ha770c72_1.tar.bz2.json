@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "CUB provides state-of-the-art, reusable software components for every layer of the CUDA programming model: - Parallel primitives   - Warp-wide \"collective\" primitives     - Cooperative warp-wide prefix scan, reduction, etc.     - Safely specialized for each underlying CUDA architecture   - Block-wide \"collective\" primitives     - Cooperative I/O, sort, scan, reduction, histogram, etc.     - Compatible with arbitrary thread block sizes and types   - Device-wide primitives     - Parallel sort, prefix scan, reduction, histogram, etc.     - Compatible with CUDA dynamic parallelism - Utilities   - Fancy iterators   - Thread and thread block I/O   - PTX intrinsics   - Device, kernel, and storage management",
+    "dev_url": "https://github.com/thrust/cub",
+    "doc_source_url": null,
+    "doc_url": "http://nvlabs.github.io/cub/",
+    "home": "https://github.com/thrust/cub",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/cub/archive/1.11.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "CUB is a flexible library of cooperative threadblock primitives and other utilities for CUDA kernel programming.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1623342706,
+    "version": "1.11.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cub-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cub-1.11.0-ha770c72_1.tar.bz2",
+  "repodata": {
+    "build": "ha770c72_1",
+    "build_number": 1,
+    "constrains": [
+      "thrust 1.11.0.*"
+    ],
+    "depends": [],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "ffac84d30af687d9a293a96c23001bce",
+    "name": "cub",
+    "sha256": "8619a1be24489968f9a1fff7be5b8d02fa6574a321bac1ef3077c4d88990539f",
+    "size": 186447,
+    "subdir": "linux-64",
+    "timestamp": 1623342706286,
+    "version": "1.11.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cub-1.11.0-ha770c72_1.tar.bz2/cub-1.11.0-ha770c72_1.tar.bz2"
+}
