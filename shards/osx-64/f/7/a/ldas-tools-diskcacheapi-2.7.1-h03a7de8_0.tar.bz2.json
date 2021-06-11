@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "LDAS tools diskcacheAPI library. This package provides the runtime libraries and executables but does not provide the systemd infrastructure to run diskcache as a service.",
+    "dev_url": "https://git.ligo.org/ldastools/LDAS_Tools",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wiki.ligo.org/Computing/LDASTools",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.1": {
+        "weak": [
+          "ldas-tools-diskcacheapi >=2.7.1,<2.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/ldas-tools-diskcacheAPI-2.7.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LDAS tools diskcacheAPI library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1623422040,
+    "version": "2.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ldas-tools-diskcacheapi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ldas-tools-diskcacheapi-2.7.1-h03a7de8_0.tar.bz2",
+  "repodata": {
+    "build": "h03a7de8_0",
+    "build_number": 0,
+    "depends": [
+      "ldas-tools-al >=2.6.5",
+      "ldas-tools-al >=2.6.5,<2.7.0a0",
+      "ldas-tools-ldasgen >=2.7.1",
+      "ldas-tools-ldasgen >=2.7.1,<2.8.0a0",
+      "libcxx >=11.1.0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "a7c572dd143696b0d6974fb56355d4d6",
+    "name": "ldas-tools-diskcacheapi",
+    "sha256": "8e5dd1d2710c8f56499494f4ba58763ea635f0a9a0ab95069a9103c44c86975c",
+    "size": 774982,
+    "subdir": "osx-64",
+    "timestamp": 1623422040386,
+    "version": "2.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/ldas-tools-diskcacheapi-2.7.1-h03a7de8_0.tar.bz2/ldas-tools-diskcacheapi-2.7.1-h03a7de8_0.tar.bz2"
+}
