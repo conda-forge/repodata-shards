@@ -18,19 +18,21 @@ jobs:
         uses: beckermr/turnstyle-python@v1
         with:
           poll-interval-seconds: 5
-          abort-after-seconds: 10
+          continue-after-seconds: 10
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: get env file
+        if: success() && ! steps.turnstyle.outputs.force_continued
         shell: bash -l {0}
         run: |
           wget https://raw.githubusercontent.com/conda-forge/repodata-tools/master/environment.yml
 
       - name: install micromamba
+        if: success() && ! steps.turnstyle.outputs.force_continued
         uses: mamba-org/provision-with-micromamba@main
 
       - name: make repodata
-        if: success() && ! env.CI_SKIP
+        if: success() && ! steps.turnstyle.outputs.force_continued
         shell: bash -l {0}
         run: |
           git config --global user.name 'conda-forge-daemon'
@@ -53,6 +55,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PAT_ALPHA }}
 
       - name: trigger next job
+        if: success() && ! steps.turnstyle.outputs.force_continued
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: repodata
