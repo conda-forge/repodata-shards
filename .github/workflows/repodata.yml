@@ -5,8 +5,8 @@ on:
     branches:
       - never-run-this-workflow
   workflow_dispatch: null
-  schedule:
-    - cron:  '0 * * * *'
+#   schedule:
+#     - cron:  '0 * * * *'
 
 jobs:
   repodata:
