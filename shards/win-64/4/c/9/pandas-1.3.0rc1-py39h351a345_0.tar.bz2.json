@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,42 +21,43 @@
     "source_git_url": null,
     "source_url": "https://github.com/pandas-dev/pandas/releases/download/v1.3.0rc1/pandas-1.3.0rc1.tar.gz",
     "subdirs": [
-      "osx-64"
+      "win-64"
     ],
     "summary": "High-performance, easy-to-use data structures and data analysis tools.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1623745783,
+    "timestamp": 1623745855,
     "version": "1.3.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "pandas-feedstock",
   "labels": [
     "pandas_rc"
   ],
-  "package": "pandas-1.3.0rc1-py38h6da17d0_0.tar.bz2",
+  "package": "pandas-1.3.0rc1-py39h351a345_0.tar.bz2",
   "repodata": {
-    "build": "py38h6da17d0_0",
+    "build": "py39h351a345_0",
     "build_number": 0,
     "depends": [
-      "libcxx >=11.1.0",
-      "numpy >=1.17.5,<2.0a0",
-      "python >=3.8,<3.9.0a0",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
       "python-dateutil >=2.7.3",
-      "python_abi 3.8.* *_cp38",
+      "python_abi 3.9.* *_cp39",
       "pytz >=2017.2",
-      "setuptools"
+      "setuptools",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "BSD-3-Clause",
-    "md5": "48fafd23662cead34a595b7323ccc8eb",
+    "md5": "8cfcf3663f6b80addcea8e871d598bb8",
     "name": "pandas",
-    "sha256": "078a295d3b1498d0b88b7c076f561a717b0f38832a1e84ab7d7644eabc63234e",
-    "size": 12115782,
-    "subdir": "osx-64",
-    "timestamp": 1623745783711,
+    "sha256": "07d444552434df116b5c813ac7b459bc5b4b6225a70dd6b287b9a4207d0b3198",
+    "size": 11602184,
+    "subdir": "win-64",
+    "timestamp": 1623745855507,
     "version": "1.3.0rc1"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pandas-1.3.0rc1-py38h6da17d0_0.tar.bz2/pandas-1.3.0rc1-py38h6da17d0_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/pandas-1.3.0rc1-py39h351a345_0.tar.bz2/pandas-1.3.0rc1-py39h351a345_0.tar.bz2"
 }
