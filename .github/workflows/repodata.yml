@@ -55,9 +55,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PAT_ALPHA }}
 
       - name: trigger next job
-        if: success() && ! steps.turnstyle.outputs.force_continued
+        if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: repodata
           token: ${{ secrets.PAT_ALPHA }}
-        if: github.ref == 'refs/heads/master' && ! env.CI_SKIP && ! cancelled()
