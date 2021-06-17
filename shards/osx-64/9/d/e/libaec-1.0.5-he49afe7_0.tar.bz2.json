@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Libaec provides fast lossless compression of 1 up to 32 bit wide signed or unsigned integers (samples). The library achieves best results for low entropy data as often encountered in space imaging instrument data or numerical model output from weather or climate simulations. While floating point representations are not directly supported, they can also be efficiently coded by grouping exponents and mantissa. Libaec implements Golomb-Rice coding as defined in the Space Data System Standard documents 121.0-B-2 and 120.0-G-2.",
+    "dev_url": "https://gitlab.dkrz.de/k202009/libaec",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gitlab.dkrz.de/k202009/libaec",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.5": {
+        "weak": [
+          "libaec >=1.0.5,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gitlab.dkrz.de/k202009/libaec/-/archive/v1.0.5/libaec-v1.0.5.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Adaptive Entropy Coding library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1623895910,
+    "version": "1.0.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libaec-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libaec-1.0.5-he49afe7_0.tar.bz2",
+  "repodata": {
+    "build": "he49afe7_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.1.0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "0ad2e558003c09b7f4a7aa5227bbf163",
+    "name": "libaec",
+    "sha256": "2e5429c9a97ee989a33a064f842479925bcf2cfd466d78f5a7803d2b7c002cd3",
+    "size": 38528,
+    "subdir": "osx-64",
+    "timestamp": 1623895910675,
+    "version": "1.0.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libaec-1.0.5-he49afe7_0.tar.bz2/libaec-1.0.5-he49afe7_0.tar.bz2"
+}
