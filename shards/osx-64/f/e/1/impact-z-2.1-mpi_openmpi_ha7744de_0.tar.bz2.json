@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "IMPACT-Z is a parallel+serial particle-in-cell code whose primary purpose is to model the dynamics of multiple charged particle beams in linear and ring accelerators. The code uses longitudinal position (z) as independent variable and includes the effects of externally applied fields from magnets and accelerating cavities as well as the effect of self-fields (space charge fields).",
+    "dev_url": "https://github.com/impact-lbl/IMPACT-Z",
+    "doc_source_url": null,
+    "doc_url": "https://amac.lbl.gov/~jiqiang/IMPACT/index.html",
+    "home": "https://github.com/impact-lbl/IMPACT-Z",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause-LBNL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.1": {
+        "weak": [
+          "impact-z * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/impact-lbl/IMPACT-Z/archive/refs/tags/V2.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "IMPACT-Z - Integrated Map and Particle ACcelerator Tracking Code",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1624068058,
+    "version": "2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "impact-z-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "impact-z-2.1-mpi_openmpi_ha7744de_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_ha7744de_0",
+    "build_number": 0,
+    "depends": [
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "openmpi >=4.1.1,<5.0a0"
+    ],
+    "license": "BSD-3-Clause-LBNL",
+    "license_family": "BSD",
+    "md5": "321579be5018b3f99ddbd51bf941dbb0",
+    "name": "impact-z",
+    "sha256": "0cf70d961fa467dcbd497fb5a8a2c4c51e2b9bc22082116569687b958d0e3fc1",
+    "size": 938428,
+    "subdir": "osx-64",
+    "timestamp": 1624068058889,
+    "version": "2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/impact-z-2.1-mpi_openmpi_ha7744de_0.tar.bz2/impact-z-2.1-mpi_openmpi_ha7744de_0.tar.bz2"
+}
