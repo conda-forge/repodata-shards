@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the C++ compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('cxx') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "A metapackage to obtain a C++ compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1624197714,
+    "version": "1.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cxx-compiler-1.2.0-hc021e02_0.tar.bz2",
+  "repodata": {
+    "build": "hc021e02_0",
+    "build_number": 0,
+    "depends": [
+      "c-compiler 1.2.0 h3422bc3_0",
+      "clangxx_osx-arm64 11.*",
+      "libcxx >=11.1.0"
+    ],
+    "license": "BSD",
+    "md5": "5971f7259efe840d9564fdab62fcc7d0",
+    "name": "cxx-compiler",
+    "sha256": "eae0678cdbf677a7fa1273d94a9fffc4a5fb8ee99935844ff1c6bb23ab626fb9",
+    "size": 8008,
+    "subdir": "osx-arm64",
+    "timestamp": 1624197714442,
+    "version": "1.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/cxx-compiler-1.2.0-hc021e02_0.tar.bz2/cxx-compiler-1.2.0-hc021e02_0.tar.bz2"
+}
