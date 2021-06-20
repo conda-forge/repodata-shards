@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the Fortran compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('fortran') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A metapackage to obtain a Fortran compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1624197745,
+    "version": "1.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fortran-compiler-1.2.0-hf65302f_0.tar.bz2",
+  "repodata": {
+    "build": "hf65302f_0",
+    "build_number": 0,
+    "depends": [
+      "binutils",
+      "c-compiler 1.2.0 h4e0d66e_0",
+      "gfortran_linux-ppc64le 9.*",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0"
+    ],
+    "license": "BSD",
+    "md5": "adc46f2db0e930a8c56a259146685c11",
+    "name": "fortran-compiler",
+    "sha256": "9ce3cf7bf51022cf56f7f34983b7dfb8fd70ad8573dee925f83021bc0c0d0d71",
+    "size": 5764,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1624197745526,
+    "version": "1.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/fortran-compiler-1.2.0-hf65302f_0.tar.bz2/fortran-compiler-1.2.0-hf65302f_0.tar.bz2"
+}
