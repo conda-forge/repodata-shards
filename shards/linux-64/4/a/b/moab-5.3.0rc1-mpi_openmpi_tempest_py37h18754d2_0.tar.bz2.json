@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "5.3.0rc1": {
+        "weak": [
+          "moab * mpi_openmpi_*"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://ftp.mcs.anl.gov/pub/fathom/moab-5.3.0-RC1.tar.gz",
     "subdirs": [
@@ -26,7 +32,7 @@
     "summary": "The Mesh-Oriented datABase",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1624387058,
+    "timestamp": 1624387057,
     "version": "5.3.0rc1"
   },
   "channeldata_version": 1,
@@ -34,36 +40,38 @@
   "labels": [
     "moab_dev"
   ],
-  "package": "moab-5.3.0rc1-nompi_tempest_py39h0e0aec9_0.tar.bz2",
+  "package": "moab-5.3.0rc1-mpi_openmpi_tempest_py37h18754d2_0.tar.bz2",
   "repodata": {
-    "build": "nompi_tempest_py39h0e0aec9_0",
+    "build": "mpi_openmpi_tempest_py37h18754d2_0",
     "build_number": 0,
     "depends": [
-      "hdf5 * nompi_*",
-      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "hdf5 * mpi_openmpi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
       "libblas >=3.8.0,<4.0a0",
       "libgcc-ng >=9.3.0",
       "liblapack >=3.8.0,<4.0a0",
-      "libnetcdf * nompi_*",
-      "libnetcdf >=4.8.0,<4.8.1.0a0",
+      "libnetcdf * mpi_openmpi_*",
+      "libnetcdf >=4.8.0,<4.8.1.0a0 mpi_openmpi_*",
       "libstdcxx-ng >=9.3.0",
       "metis >=5.1.0,<5.2.0a0",
       "numpy",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "openmpi >=4.1,<4.2.0a0",
+      "openssh",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "setuptools",
       "tempest-remap 2.0.6rc1.*"
     ],
     "license": "LGPL-3.0-or-later",
-    "md5": "027a74801d206d381f7f06c5d3e15d3f",
+    "md5": "785a51dc02b70bfb89253c28ba48fabf",
     "name": "moab",
-    "sha256": "0fb49dabb15366e581d7e7df2bfc797143b4e59a7950a59e607b9bf0691abdf1",
-    "size": 6299517,
+    "sha256": "4cbfb16ff6773ffc8cf653d62402de4a1878ab87000b0cba9ea337f1381c44fb",
+    "size": 7515107,
     "subdir": "linux-64",
-    "timestamp": 1624387058315,
+    "timestamp": 1624387057716,
     "version": "5.3.0rc1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/moab-5.3.0rc1-nompi_tempest_py39h0e0aec9_0.tar.bz2/moab-5.3.0rc1-nompi_tempest_py39h0e0aec9_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/moab-5.3.0rc1-mpi_openmpi_tempest_py37h18754d2_0.tar.bz2/moab-5.3.0rc1-mpi_openmpi_tempest_py37h18754d2_0.tar.bz2"
 }
