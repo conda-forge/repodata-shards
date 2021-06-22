@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "The Mesh-Oriented datABase (MOAB) is a component for representing and evaluating mesh data. MOAB can store structured and unstructured mesh, consisting of elements in the finite element zoo plus polygons and polyhedra.",
     "dev_url": "https://bitbucket.org/fathomteam/moab.git",
@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "5.3.0rc1": {
+        "weak": [
+          "moab * mpi_openmpi_*"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://ftp.mcs.anl.gov/pub/fathom/moab-5.3.0-RC1.tar.gz",
     "subdirs": [
@@ -26,44 +32,43 @@
     "summary": "The Mesh-Oriented datABase",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1624387028,
+    "timestamp": 1624386950,
     "version": "5.3.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "moab-feedstock",
   "labels": [
     "moab_dev"
   ],
-  "package": "moab-5.3.0rc1-nompi_tempest_py37h0a3aa09_0.tar.bz2",
+  "package": "moab-5.3.0rc1-mpi_openmpi_notempest_py39h1819c5f_0.tar.bz2",
   "repodata": {
-    "build": "nompi_tempest_py37h0a3aa09_0",
+    "build": "mpi_openmpi_notempest_py39h1819c5f_0",
     "build_number": 0,
     "depends": [
-      "hdf5 * nompi_*",
-      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "hdf5 * mpi_openmpi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
       "libblas >=3.8.0,<4.0a0",
       "libgcc-ng >=9.3.0",
       "liblapack >=3.8.0,<4.0a0",
-      "libnetcdf * nompi_*",
-      "libnetcdf >=4.8.0,<4.8.1.0a0",
       "libstdcxx-ng >=9.3.0",
       "metis >=5.1.0,<5.2.0a0",
       "numpy",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
-      "setuptools",
-      "tempest-remap 2.0.6rc1.*"
+      "openmpi >=4.1,<4.2.0a0",
+      "openssh",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "setuptools"
     ],
     "license": "LGPL-3.0-or-later",
-    "md5": "e1793aeef27176e570181c3910fe2e0e",
+    "md5": "b547940fe1fffb1f8ece0c217a9b2768",
     "name": "moab",
-    "sha256": "61cc260fded970206a27feacfe1a8dbdd29bbe02a2120b751653de272734e4cf",
-    "size": 6328192,
+    "sha256": "dd82bf6e1425aa2f625a9a015e797f2621e81357a7d01b66ce6fe9114ccb2a3a",
+    "size": 6253614,
     "subdir": "linux-64",
-    "timestamp": 1624387028340,
+    "timestamp": 1624386950145,
     "version": "5.3.0rc1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/moab-5.3.0rc1-nompi_tempest_py37h0a3aa09_0.tar.bz2/moab-5.3.0rc1-nompi_tempest_py37h0a3aa09_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/moab-5.3.0rc1-mpi_openmpi_notempest_py39h1819c5f_0.tar.bz2/moab-5.3.0rc1-mpi_openmpi_notempest_py39h1819c5f_0.tar.bz2"
 }
