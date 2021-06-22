@@ -32,17 +32,17 @@
     "summary": "The Mesh-Oriented datABase",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1624387769,
+    "timestamp": 1624387867,
     "version": "5.3.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "moab-feedstock",
   "labels": [
     "moab_dev"
   ],
-  "package": "moab-5.3.0rc1-mpi_mpich_tempest_py39h0a3c41e_0.tar.bz2",
+  "package": "moab-5.3.0rc1-mpi_mpich_notempest_py36h00f0f63_0.tar.bz2",
   "repodata": {
-    "build": "mpi_mpich_tempest_py39h0a3c41e_0",
+    "build": "mpi_mpich_notempest_py36h00f0f63_0",
     "build_number": 0,
     "depends": [
       "hdf5 * mpi_mpich_*",
@@ -50,26 +50,23 @@
       "libblas >=3.8.0,<4.0a0",
       "libcxx >=11.1.0",
       "liblapack >=3.8.0,<4.0a0",
-      "libnetcdf * mpi_mpich_*",
-      "libnetcdf >=4.8.0,<4.8.1.0a0 mpi_mpich_*",
       "metis >=5.1.0,<5.2.0a0",
       "mpich >=3.4,<3.5.0a0",
       "numpy",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
-      "setuptools",
-      "tempest-remap 2.0.6rc1.*"
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "setuptools"
     ],
     "license": "LGPL-3.0-or-later",
-    "md5": "5cdc6985f096b7ab2748093f1f859941",
+    "md5": "f50e42c1974a66df380d01c8b1756933",
     "name": "moab",
-    "sha256": "b556cea64ebb4faf180349b979942bc920a55afb411b3a0a612ae6b151526daf",
-    "size": 7310991,
+    "sha256": "ebcabb8bdbadaf42747df72d895a44813c5ff1dfd84502cbf51d4de85e588a60",
+    "size": 6145517,
     "subdir": "osx-64",
-    "timestamp": 1624387769057,
+    "timestamp": 1624387867538,
     "version": "5.3.0rc1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/moab-5.3.0rc1-mpi_mpich_tempest_py39h0a3c41e_0.tar.bz2/moab-5.3.0rc1-mpi_mpich_tempest_py39h0a3c41e_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/moab-5.3.0rc1-mpi_mpich_notempest_py36h00f0f63_0.tar.bz2/moab-5.3.0rc1-mpi_mpich_notempest_py36h00f0f63_0.tar.bz2"
 }

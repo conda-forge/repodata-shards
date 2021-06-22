@@ -20,7 +20,7 @@
     "run_exports": {
       "5.3.0rc1": {
         "weak": [
-          "moab * mpi_mpich_*"
+          "moab * mpi_openmpi_*"
         ]
       }
     },
@@ -32,44 +32,45 @@
     "summary": "The Mesh-Oriented datABase",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1624387769,
+    "timestamp": 1624388040,
     "version": "5.3.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "moab-feedstock",
   "labels": [
     "moab_dev"
   ],
-  "package": "moab-5.3.0rc1-mpi_mpich_tempest_py39h0a3c41e_0.tar.bz2",
+  "package": "moab-5.3.0rc1-mpi_openmpi_tempest_py37h2a75c02_0.tar.bz2",
   "repodata": {
-    "build": "mpi_mpich_tempest_py39h0a3c41e_0",
+    "build": "mpi_openmpi_tempest_py37h2a75c02_0",
     "build_number": 0,
     "depends": [
-      "hdf5 * mpi_mpich_*",
-      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "hdf5 * mpi_openmpi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
       "libblas >=3.8.0,<4.0a0",
       "libcxx >=11.1.0",
       "liblapack >=3.8.0,<4.0a0",
-      "libnetcdf * mpi_mpich_*",
-      "libnetcdf >=4.8.0,<4.8.1.0a0 mpi_mpich_*",
+      "libnetcdf * mpi_openmpi_*",
+      "libnetcdf >=4.8.0,<4.8.1.0a0 mpi_openmpi_*",
       "metis >=5.1.0,<5.2.0a0",
-      "mpich >=3.4,<3.5.0a0",
       "numpy",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "openmpi >=4.1,<4.2.0a0",
+      "openssh",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "setuptools",
       "tempest-remap 2.0.6rc1.*"
     ],
     "license": "LGPL-3.0-or-later",
-    "md5": "5cdc6985f096b7ab2748093f1f859941",
+    "md5": "6c5655da3ed80394d033d6baff96beb6",
     "name": "moab",
-    "sha256": "b556cea64ebb4faf180349b979942bc920a55afb411b3a0a612ae6b151526daf",
-    "size": 7310991,
+    "sha256": "328a6ae68e1686529af212e3708a23dc92fdf370c785491b2cc13c806431f240",
+    "size": 7075588,
     "subdir": "osx-64",
-    "timestamp": 1624387769057,
+    "timestamp": 1624388040843,
     "version": "5.3.0rc1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/moab-5.3.0rc1-mpi_mpich_tempest_py39h0a3c41e_0.tar.bz2/moab-5.3.0rc1-mpi_mpich_tempest_py39h0a3c41e_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/moab-5.3.0rc1-mpi_openmpi_tempest_py37h2a75c02_0.tar.bz2/moab-5.3.0rc1-mpi_openmpi_tempest_py37h2a75c02_0.tar.bz2"
 }
