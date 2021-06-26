@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "luqum (as in LUcene QUery Manipolator) is a tool to parse queries written in  the Lucene Query DSL and build an abstract syntax tree to inspect, analyze  or otherwise manipulate search queries. It enables enriching the Lucene  Query DSL meanings (for example to support nested object searches or have  particular treatments on some fields), and transform lucene DSL queries to  native ElasticSearch JSON DSL. Thanks to luqum, your users may continue to  write queries like: author.last_name:Smith OR author:(age:[25 TO 34] AND  first_name:John) and you will be able to leverage ElasticSearch query DSL,  and control the precise meaning of each search terms.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "http://luqum.readthedocs.org/en/latest/",
+    "home": "https://github.com/jurismarches/luqum",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 OR LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/jurismarches/luqum/archive/refs/tags/0.11.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A Lucene query parser generating ElasticSearch queries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1624701606,
+    "version": "0.11.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "luqum-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "luqum-0.11.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "ply >=3.11",
+      "python >=3.6"
+    ],
+    "license": "Apache-2.0 OR LGPL-3.0-only",
+    "md5": "43e173d3097eeb97cd9cfee1328aad69",
+    "name": "luqum",
+    "noarch": "python",
+    "sha256": "5dfd8ae0065ab32deae0f8bc2f548291ea2939dfcca84216083f5a827dfa05e0",
+    "size": 45867,
+    "subdir": "noarch",
+    "timestamp": 1624701606281,
+    "version": "0.11.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/luqum-0.11.0-pyhd8ed1ab_0.tar.bz2/luqum-0.11.0-pyhd8ed1ab_0.tar.bz2"
+}
