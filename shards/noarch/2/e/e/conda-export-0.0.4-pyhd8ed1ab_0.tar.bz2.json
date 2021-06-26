@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "An alternative to `conda env export` that helps create portable environment specifications with minimum number of packages.  Conda-export creates environment specifications which contain only top-level (non-transient) dependencies. It tries to minimize specific version information and total number of packages, so that the resulting spec maximizes [upgradability](https://pythonspeed.com/articles/conda-dependency-management/#three-kinds-of-dependency-specification). At the same time, it respects specific package versions that were used while creating the environment. If, at some point, you installed a package with explicit version (e. g. `conda install pytorch=1.9.0`), `conda-export` will include this specific version in the resulting spec file.",
+    "dev_url": "https://github.com/olegtarasov/conda-export",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/olegtarasov/conda-export",
+    "home": "https://github.com/olegtarasov/conda-export",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/olegtarasov/conda-export/archive/v0.0.4.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Platform agnostic conda environment export",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1624728856,
+    "version": "0.0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "conda-export-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "conda-export-0.0.4-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "conda",
+      "networkx",
+      "pip",
+      "python >=3.6"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "e75cbad643e1dfde3bfe36cdeefc308e",
+    "name": "conda-export",
+    "noarch": "python",
+    "sha256": "e4c0658e9484fdea8664cfc12b17e09e74eed3e6cad1c104af6176b20ca0bb1e",
+    "size": 8027,
+    "subdir": "noarch",
+    "timestamp": 1624728856470,
+    "version": "0.0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/conda-export-0.0.4-pyhd8ed1ab_0.tar.bz2/conda-export-0.0.4-pyhd8ed1ab_0.tar.bz2"
+}
