@@ -26,45 +26,45 @@
     "summary": "CuPy: NumPy & SciPy for GPU",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1624674285,
+    "timestamp": 1624673951,
     "version": "10.0.0a2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "cupy-feedstock",
   "labels": [
     "cupy_rc"
   ],
-  "package": "cupy-10.0.0a2-py36ha1437d1_0.tar.bz2",
+  "package": "cupy-10.0.0a2-py38h492282a_0.tar.bz2",
   "repodata": {
-    "build": "py36ha1437d1_0",
+    "build": "py38h492282a_0",
     "build_number": 0,
     "constrains": [
       "cutensor >=1.2.2.5,<2.0a0",
-      "cudnn >=8.2.0.53,<9.0a0",
       "optuna >=2",
-      "scipy >=1.4"
+      "scipy >=1.4",
+      "cudnn >=8.2.0.53,<9.0a0"
     ],
     "depends": [
-      "cudatoolkit 10.2|10.2.*",
+      "cudatoolkit 11.1|11.1.*",
       "fastrlock >=0.5",
       "numpy >=1.17",
-      "python >=3.6,<3.7.0a0",
-      "python_abi 3.6.* *_cp36m",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "setuptools",
       "vc >=14.1,<15.0a0",
       "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "c7380ca51fa47359e711ff70cad67280",
+    "md5": "dad7f924282f56d4ee29272c38f7f88a",
     "name": "cupy",
-    "sha256": "e788778395cc09790c5bf09eaf7ad109de0a21fba4a9ef6e1994108a7fa26fca",
-    "size": 37432266,
+    "sha256": "11537f5cf1b4d022570f65c62bf37d65f4a0d1424d7d0ff52fc323f75d3adbac",
+    "size": 66085569,
     "subdir": "win-64",
-    "timestamp": 1624674285350,
+    "timestamp": 1624673951451,
     "version": "10.0.0a2"
   },
   "repodata_version": 1,
   "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/cupy-10.0.0a2-py36ha1437d1_0.tar.bz2/cupy-10.0.0a2-py36ha1437d1_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/cupy-10.0.0a2-py38h492282a_0.tar.bz2/cupy-10.0.0a2-py38h492282a_0.tar.bz2"
 }
