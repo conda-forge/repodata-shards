@@ -21,50 +21,56 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "win-64"
+      "linux-64"
     ],
     "summary": "CuPy: NumPy & SciPy for GPU",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1624672323,
+    "timestamp": 1624671962,
     "version": "10.0.0a2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "cupy-feedstock",
   "labels": [
     "cupy_rc"
   ],
-  "package": "cupy-10.0.0a2-py39hd48ab0b_0.tar.bz2",
+  "package": "cupy-10.0.0a2-py38h5fb6845_0.tar.bz2",
   "repodata": {
-    "build": "py39hd48ab0b_0",
+    "build": "py38h5fb6845_0",
     "build_number": 0,
     "constrains": [
-      "scipy >=1.4",
       "optuna >=2",
+      "nccl >=2.9.9.1,<3.0a0",
       "cudnn >=8.2.0.53,<9.0a0",
-      "cutensor >=1.2.2.5,<2.0a0"
+      "__glibc >=2.17",
+      "libcugraph >=0.19.0,<1.0a0",
+      "cusparselt >=0.1.0.2,<1.0a0",
+      "cutensor >=1.2.2.5,<2.0a0",
+      "scipy >=1.4"
     ],
     "depends": [
-      "cudatoolkit 10.2|10.2.*",
+      "__glibc >=2.17",
+      "__glibc >=2.17,<3.0.a0",
+      "cudatoolkit 11.2|11.2.*",
       "fastrlock >=0.5",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
       "numpy >=1.17",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
-      "setuptools",
-      "vc >=14.1,<15.0a0",
-      "vs2015_runtime >=14.16.27012"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "setuptools"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "eabb7ca6b1b784dd92753190de3c7317",
+    "md5": "fa0380ee323993c4db7434adf0bbb697",
     "name": "cupy",
-    "sha256": "e7b2b0a54f26ebc56e1ee3267a40557563314cd148073ec51d4555b39326a9b4",
-    "size": 37668177,
-    "subdir": "win-64",
-    "timestamp": 1624672323418,
+    "sha256": "bceccf792674cb253eeea0222ffcd5607219096a393ff98ed7ad9cafeeafaa79",
+    "size": 49603063,
+    "subdir": "linux-64",
+    "timestamp": 1624671962111,
     "version": "10.0.0a2"
   },
   "repodata_version": 1,
-  "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/cupy-10.0.0a2-py39hd48ab0b_0.tar.bz2/cupy-10.0.0a2-py39hd48ab0b_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cupy-10.0.0a2-py38h5fb6845_0.tar.bz2/cupy-10.0.0a2-py38h5fb6845_0.tar.bz2"
 }
