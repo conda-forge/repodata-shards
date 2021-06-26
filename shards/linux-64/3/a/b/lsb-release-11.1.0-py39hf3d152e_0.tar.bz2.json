@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This conda package provides the `lsb_release` command for Debian-based Linux distributions such as Debian and Ubuntu. The Debian-based [lsb-release package](https://packages.debian.org/stable/lsb-release) unfortunately depends on a system-wide installation of python3. This conda package avoids the need for a system-wide installation of python3 when one already has a conda installation. The distribution-specific data is comes from a tiny system package named [distro-info-data](https://packages.debian.org/stable/distro-info-data), which can be installed with `sudo apt-get install -y distro-info-data`.",
+    "dev_url": "https://salsa.debian.org/debian/lsb",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wiki.linuxfoundation.org/lsb/start",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://salsa.debian.org/debian/lsb/-/archive/debian/11.1.0/lsb-release-11.1.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSB release detection module for Debian",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1624701270,
+    "version": "11.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lsb-release-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lsb-release-11.1.0-py39hf3d152e_0.tar.bz2",
+  "repodata": {
+    "build": "py39hf3d152e_0",
+    "build_number": 0,
+    "depends": [
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "b718dbc5874f53c11691ad239879c4fd",
+    "name": "lsb-release",
+    "sha256": "2399450c7fff35f1615746b58583999d094ef050c17ba4652d1a00cad1914336",
+    "size": 21860,
+    "subdir": "linux-64",
+    "timestamp": 1624701270296,
+    "version": "11.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/lsb-release-11.1.0-py39hf3d152e_0.tar.bz2/lsb-release-11.1.0-py39hf3d152e_0.tar.bz2"
+}
