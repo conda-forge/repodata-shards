@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This  is libdrm,  a userspace  library for  accessing the  DRM, direct rendering  manager, on  Linux,  BSD and  other  operating systems that support the  ioctl interface.  The library  provides wrapper functions for the  ioctls to avoid  exposing the kernel interface  directly, and for chipsets with drm memory manager, support for tracking relocations and  buffers.   libdrm  is  a  low-level library,  typically  used  by graphics drivers  such as the Mesa  DRI drivers, the  X drivers, libva and  similar projects.  New  functionality in  the kernel  DRM drivers typically requires  a new  libdrm, but a  new libdrm will  always work with an older kernel.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gitlab.freedesktop.org/mesa/drm",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.107": {
+        "weak": [
+          "libdrm >=2.4.107,<2.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/freedesktop/mesa-drm/archive/libdrm-2.4.107.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "userspace library for drm",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1625240584,
+    "version": "2.4.107"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libdrm-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libdrm-2.4.107-hf897c2e_0.tar.bz2",
+  "repodata": {
+    "build": "hf897c2e_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libpciaccess >=0.16,<0.17.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "f5ea5bea9e3de9b3ce97881a3a60650e",
+    "name": "libdrm",
+    "sha256": "8b12ef214fb7eeb4e07fd4c80699f2a2ef28787bdca1665380e976027e73fc28",
+    "size": 237951,
+    "subdir": "linux-aarch64",
+    "timestamp": 1625240584483,
+    "version": "2.4.107"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libdrm-2.4.107-hf897c2e_0.tar.bz2/libdrm-2.4.107-hf897c2e_0.tar.bz2"
+}
