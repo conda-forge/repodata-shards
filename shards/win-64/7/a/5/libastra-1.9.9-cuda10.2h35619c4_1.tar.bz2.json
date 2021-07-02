@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.astra-toolbox.com",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.9.9": {
+        "weak": [
+          "libastra >=1.9.9,<1.9.10.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/tomopy/astra-toolbox/archive/refs/tags/1.9.9-1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "libastra is a C++ library of high-performance GPU primitives for 2D and 3D tomography.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1625240789,
+    "version": "1.9.9"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libastra-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libastra-1.9.9-cuda10.2h35619c4_1.tar.bz2",
+  "repodata": {
+    "build": "cuda10.2h35619c4_1",
+    "build_number": 1,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "cudatoolkit 10.2|10.2.*",
+      "ucrt",
+      "vc >=14.1,<15.0a0"
+    ],
+    "license": "GPL-3.0-only",
+    "md5": "9d62996ac8fa03b411b197dd6a3a154a",
+    "name": "libastra",
+    "sha256": "da67cece13dc20466561ef905d44cd9c6a3646169143cf1fa5677c8d8dff02eb",
+    "size": 932237,
+    "subdir": "win-64",
+    "timestamp": 1625240789795,
+    "version": "1.9.9"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/libastra-1.9.9-cuda10.2h35619c4_1.tar.bz2/libastra-1.9.9-cuda10.2h35619c4_1.tar.bz2"
+}
