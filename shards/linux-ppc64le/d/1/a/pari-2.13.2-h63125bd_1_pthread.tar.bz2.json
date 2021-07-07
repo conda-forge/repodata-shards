@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "http://pari.math.u-bordeaux.fr/cgi-bin/gitweb.cgi",
+    "doc_source_url": null,
+    "doc_url": "http://pari.math.u-bordeaux.fr/dochtml/html-stable/",
+    "home": "http://pari.math.u-bordeaux.fr",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.13.2": {
+        "weak": [
+          "pari >=2.13.2,<2.14.0a0",
+          "pari * *_pthread"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": [
+      "http://pari.math.u-bordeaux.fr/pub/pari/OLD/2.13/pari-2.13.2.tar.gz",
+      "http://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.13.2.tar.gz"
+    ],
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "PARI/GP is a widely used computer algebra system designed for fast computations in number theory",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1625686422,
+    "version": "2.13.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pari-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pari-2.13.2-h63125bd_1_pthread.tar.bz2",
+  "repodata": {
+    "build": "h63125bd_1_pthread",
+    "build_number": 1,
+    "depends": [
+      "gmp >=6.2.1,<7.0a0",
+      "libgcc-ng >=9.3.0",
+      "openssl >=1.1.1k,<1.1.2a",
+      "pari-galdata",
+      "pari-seadata-small",
+      "perl 5.*",
+      "readline >=8.1,<9.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "10383e155fe1de04fc5653a5794e0278",
+    "name": "pari",
+    "sha256": "3052e3da7208f1fa44ca1ced28daa18cc658e7df6a7bab2de4dcb0eb465da10e",
+    "size": 55143691,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1625686422156,
+    "version": "2.13.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/pari-2.13.2-h63125bd_1_pthread.tar.bz2/pari-2.13.2-h63125bd_1_pthread.tar.bz2"
+}
