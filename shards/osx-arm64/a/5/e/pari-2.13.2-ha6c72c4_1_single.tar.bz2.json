@@ -20,7 +20,8 @@
     "run_exports": {
       "2.13.2": {
         "weak": [
-          "pari >=2.13.2,<2.14.0a0"
+          "pari >=2.13.2,<2.14.0a0",
+          "pari * *_single"
         ]
       }
     },
@@ -30,27 +31,25 @@
       "http://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.13.2.tar.gz"
     ],
     "subdirs": [
-      "linux-aarch64"
+      "osx-arm64"
     ],
     "summary": "PARI/GP is a widely used computer algebra system designed for fast computations in number theory",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1624925936,
+    "timestamp": 1625638408,
     "version": "2.13.2"
   },
   "channeldata_version": 1,
-  "feedstock": "pari-feedstock",
+  "feedstock": null,
   "labels": [
-    "main",
-    "broken"
+    "main"
   ],
-  "package": "pari-2.13.2-h03778fe_0.tar.bz2",
+  "package": "pari-2.13.2-ha6c72c4_1_single.tar.bz2",
   "repodata": {
-    "build": "h03778fe_0",
-    "build_number": 0,
+    "build": "ha6c72c4_1_single",
+    "build_number": 1,
     "depends": [
       "gmp >=6.2.1,<7.0a0",
-      "libgcc-ng >=9.3.0",
       "openssl >=1.1.1k,<1.1.2a",
       "pari-galdata",
       "pari-seadata-small",
@@ -58,15 +57,15 @@
       "readline >=8.1,<9.0a0"
     ],
     "license": "GPL-2.0-or-later",
-    "md5": "85ad0a5b0dc55d387ee108121c4e366f",
+    "md5": "e2f0f69e25efa32c364843c17a39b282",
     "name": "pari",
-    "sha256": "2dfcd4b4c51d9d1960261650d3a7a37a3b85bb1b622e1c34b0046c8d4345f3ca",
-    "size": 45253991,
-    "subdir": "linux-aarch64",
-    "timestamp": 1624925936182,
+    "sha256": "866439fece1367cfad8f68765e87473f9483e36f75232f42c00d4178d58b4e4c",
+    "size": 22250450,
+    "subdir": "osx-arm64",
+    "timestamp": 1625638408509,
     "version": "2.13.2"
   },
   "repodata_version": 1,
-  "subdir": "linux-aarch64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/pari-2.13.2-h03778fe_0.tar.bz2/pari-2.13.2-h03778fe_0.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pari-2.13.2-ha6c72c4_1_single.tar.bz2"
 }
