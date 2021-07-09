@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "12.0.1": {
+        "weak": [
+          "libllvm12 >=12.0.1,<12.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.1/llvm-12.0.1.src.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1625840694,
+    "version": "12.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "llvm-12.0.1-h12068cf_0.tar.bz2",
+  "repodata": {
+    "build": "h12068cf_0",
+    "build_number": 0,
+    "constrains": [
+      "llvmdev   12.0.1"
+    ],
+    "depends": [
+      "libllvm12 12.0.1 h6c99497_0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "bbe34ef5cc540c98b7ea1391f5f3a561",
+    "name": "llvm",
+    "sha256": "bcbfdbf536f494702e73745dcf059741c3b418b75a5c382880f4903a81723573",
+    "size": 51398,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1625840694059,
+    "version": "12.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/llvm-12.0.1-h12068cf_0.tar.bz2/llvm-12.0.1-h12068cf_0.tar.bz2"
+}
