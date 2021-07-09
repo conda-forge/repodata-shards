@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Mesh-Oriented datABase (MOAB) is a component for representing and evaluating mesh data. MOAB can store structured and unstructured mesh, consisting of elements in the finite element zoo plus polygons and polyhedra.",
+    "dev_url": "https://bitbucket.org/fathomteam/moab.git",
+    "doc_source_url": null,
+    "doc_url": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "home": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://ftp.mcs.anl.gov/pub/fathom/moab-5.3.0-RC2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Mesh-Oriented datABase",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1625857199,
+    "version": "5.3.0rc2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "moab-feedstock",
+  "labels": [
+    "moab_dev"
+  ],
+  "package": "moab-5.3.0rc2-nompi_tempest_py39h8b8e43f_0.tar.bz2",
+  "repodata": {
+    "build": "nompi_tempest_py39h8b8e43f_0",
+    "build_number": 0,
+    "depends": [
+      "hdf5 * nompi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libnetcdf * nompi_*",
+      "libnetcdf >=4.8.0,<4.8.1.0a0",
+      "metis >=5.1.0,<5.2.0a0",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "setuptools",
+      "tempest-remap 2.1.0.*"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "md5": "9db8d93854fd3a05ceb7417473b6c1f8",
+    "name": "moab",
+    "sha256": "52fae296efb466e7a342629908e13b3a17147b97c5247fff2db673f4d3294d4d",
+    "size": 5880906,
+    "subdir": "osx-64",
+    "timestamp": 1625857199824,
+    "version": "5.3.0rc2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/moab-5.3.0rc2-nompi_tempest_py39h8b8e43f_0.tar.bz2/moab-5.3.0rc2-nompi_tempest_py39h8b8e43f_0.tar.bz2"
+}
