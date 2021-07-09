@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "The Mesh-Oriented datABase (MOAB) is a component for representing and evaluating mesh data. MOAB can store structured and unstructured mesh, consisting of elements in the finite element zoo plus polygons and polyhedra.",
     "dev_url": "https://bitbucket.org/fathomteam/moab.git",
@@ -20,56 +20,54 @@
     "run_exports": {
       "5.3.0rc2": {
         "weak": [
-          "moab * mpi_openmpi_*"
+          "moab * mpi_mpich_*"
         ]
       }
     },
     "source_git_url": null,
     "source_url": "https://ftp.mcs.anl.gov/pub/fathom/moab-5.3.0-RC2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "The Mesh-Oriented datABase",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1625856815,
+    "timestamp": 1625857721,
     "version": "5.3.0rc2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "moab-feedstock",
   "labels": [
     "moab_dev"
   ],
-  "package": "moab-5.3.0rc2-mpi_openmpi_notempest_py39h1819c5f_0.tar.bz2",
+  "package": "moab-5.3.0rc2-mpi_mpich_notempest_py36h00f0f63_0.tar.bz2",
   "repodata": {
-    "build": "mpi_openmpi_notempest_py39h1819c5f_0",
+    "build": "mpi_mpich_notempest_py36h00f0f63_0",
     "build_number": 0,
     "depends": [
-      "hdf5 * mpi_openmpi_*",
-      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+      "hdf5 * mpi_mpich_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
       "libblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=9.3.0",
+      "libcxx >=11.1.0",
       "liblapack >=3.8.0,<4.0a0",
-      "libstdcxx-ng >=9.3.0",
       "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.4,<3.5.0a0",
       "numpy",
-      "openmpi >=4.1,<4.2.0a0",
-      "openssh",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
       "setuptools",
-      "zoltan * mpi_openmpi_*"
+      "zoltan * mpi_mpich_*"
     ],
     "license": "LGPL-3.0-or-later",
-    "md5": "8d4a72eee32505e586c4d14d91ff1f98",
+    "md5": "af737df2c7af1f20bce8dfc8ca61ca66",
     "name": "moab",
-    "sha256": "254243ff08d1edbdc67e360f1d7447798ba82233ef6daeca8b25527edf4e74ef",
-    "size": 6827393,
-    "subdir": "linux-64",
-    "timestamp": 1625856815982,
+    "sha256": "7b8d9106ae6011ed027ccaaed3aa48efa895fb5469576870718b702cca2bd1a7",
+    "size": 6590941,
+    "subdir": "osx-64",
+    "timestamp": 1625857721601,
     "version": "5.3.0rc2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/moab-5.3.0rc2-mpi_openmpi_notempest_py39h1819c5f_0.tar.bz2/moab-5.3.0rc2-mpi_openmpi_notempest_py39h1819c5f_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/moab-5.3.0rc2-mpi_mpich_notempest_py36h00f0f63_0.tar.bz2/moab-5.3.0rc2-mpi_mpich_notempest_py36h00f0f63_0.tar.bz2"
 }
