@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.1/compiler-rt-12.0.1.src.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1626201574,
+    "version": "12.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compiler-rt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compiler-rt-12.0.1-he01351e_0.tar.bz2",
+  "repodata": {
+    "build": "he01351e_0",
+    "build_number": 0,
+    "depends": [
+      "clang 12.0.1.*",
+      "clangxx 12.0.1.*",
+      "compiler-rt_osx-64 12.0.1.*"
+    ],
+    "license": "NCSA",
+    "md5": "aa2cb3794dae4a09f19c3b7169b5df1f",
+    "name": "compiler-rt",
+    "sha256": "b5015e2b23670e4a1cedc74908f7bbff1c985d55d539849af67238a1a92a53e8",
+    "size": 82122,
+    "subdir": "osx-64",
+    "timestamp": 1626201574542,
+    "version": "12.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/compiler-rt-12.0.1-he01351e_0.tar.bz2/compiler-rt-12.0.1-he01351e_0.tar.bz2"
+}
