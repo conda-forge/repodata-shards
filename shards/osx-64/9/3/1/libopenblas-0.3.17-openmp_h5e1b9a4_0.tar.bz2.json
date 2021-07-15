@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.17": {
+        "weak": [
+          "libopenblas >=0.3.17,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.17.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "An optimized BLAS library based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1626362548,
+    "version": "0.3.17"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openblas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libopenblas-0.3.17-openmp_h5e1b9a4_0.tar.bz2",
+  "repodata": {
+    "build": "openmp_h5e1b9a4_0",
+    "build_number": 0,
+    "constrains": [
+      "openblas >=0.3.17,<0.3.18.0a0"
+    ],
+    "depends": [
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "llvm-openmp >=12.0.1"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "b7bbc8f55276e628413624cd0fde6dae",
+    "name": "libopenblas",
+    "sha256": "388a2af2ef76dbb8e7ebf278615ea95097b0a8dacd2fe8328d9d82948c1bc916",
+    "size": 9164360,
+    "subdir": "osx-64",
+    "timestamp": 1626362548107,
+    "version": "0.3.17"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libopenblas-0.3.17-openmp_h5e1b9a4_0.tar.bz2/libopenblas-0.3.17-openmp_h5e1b9a4_0.tar.bz2"
+}
