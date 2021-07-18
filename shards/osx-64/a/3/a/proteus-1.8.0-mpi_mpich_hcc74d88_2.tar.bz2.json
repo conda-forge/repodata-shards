@@ -1,0 +1,93 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/erdc/proteus",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://proteustoolkit.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.8.0": {
+        "weak": [
+          "proteus * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/erdc/proteus/archive/1.8.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Proteus is a Python package for rapidly developing computer models and numerical methods.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1626644147,
+    "version": "1.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "proteus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "proteus-1.8.0-mpi_mpich_hcc74d88_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hcc74d88_2",
+    "build_number": 2,
+    "depends": [
+      "cython >=0.29.24,<0.30.0a0",
+      "daetk * mpi_mpich_*",
+      "future",
+      "h5py * mpi_mpich_*",
+      "hdf5 * mpi_mpich_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "ipyparallel",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "matplotlib-base",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpi4py",
+      "mpich >=3.4.2,<4.0a0",
+      "ncurses",
+      "nose",
+      "numpy >=1.19.5,<2.0a0",
+      "openblas >=0.3.17,<0.4.0a0",
+      "petsc >=3.14.6,<3.15.0a0",
+      "petsc4py >=3.14.1,<3.15.0a0",
+      "pillow",
+      "pychrono",
+      "pytest",
+      "pytest-xdist",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "recordtype",
+      "scipy",
+      "scorec * mpi_mpich_*",
+      "tetgen",
+      "triangle"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "adde7daa0adbdb1693982ea304424578",
+    "name": "proteus",
+    "sha256": "613260720569165d40e75775ca4034f9837531a9525c1ddfd32de8f6c286aa5d",
+    "size": 20882000,
+    "subdir": "osx-64",
+    "timestamp": 1626644147566,
+    "version": "1.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/proteus-1.8.0-mpi_mpich_hcc74d88_2.tar.bz2/proteus-1.8.0-mpi_mpich_hcc74d88_2.tar.bz2"
+}
