@@ -1,0 +1,94 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/erdc/proteus",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://proteustoolkit.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.8.0": {
+        "weak": [
+          "proteus * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/erdc/proteus/archive/1.8.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Proteus is a Python package for rapidly developing computer models and numerical methods.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1626643476,
+    "version": "1.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "proteus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "proteus-1.8.0-mpi_mpich_hf451fc3_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hf451fc3_2",
+    "build_number": 2,
+    "depends": [
+      "cython >=0.29.24,<0.30.0a0",
+      "daetk * mpi_mpich_*",
+      "future",
+      "h5py * mpi_mpich_*",
+      "hdf5 * mpi_mpich_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+      "ipyparallel",
+      "libgcc-ng >=9.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "matplotlib-base",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpi4py",
+      "mpich >=3.4.2,<4.0a0",
+      "ncurses",
+      "nose",
+      "numpy >=1.17.5,<2.0a0",
+      "openblas >=0.3.17,<0.4.0a0",
+      "petsc >=3.14.6,<3.15.0a0",
+      "petsc4py >=3.14.1,<3.15.0a0",
+      "pillow",
+      "pychrono",
+      "pytest",
+      "pytest-xdist",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "recordtype",
+      "scipy",
+      "scorec * mpi_mpich_*",
+      "tetgen",
+      "triangle"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "1672ddf344e03d7897e87b676171f390",
+    "name": "proteus",
+    "sha256": "3e2408ab0bd8bd85c051481b1850ea167f3e1702740f52587ea42f0694610be0",
+    "size": 21535229,
+    "subdir": "linux-64",
+    "timestamp": 1626643476834,
+    "version": "1.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/proteus-1.8.0-mpi_mpich_hf451fc3_2.tar.bz2/proteus-1.8.0-mpi_mpich_hf451fc3_2.tar.bz2"
+}
