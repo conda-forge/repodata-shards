@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=NAEPirtparams",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/NAEPirtparams/NAEPirtparams_1.0.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/NAEPirtparams_1.0.0.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "This data package contains the Item Response Theory (IRT) parameters for the National Center for Education Statistics (NCES) items used on the National Assessment of Education Progress (NAEP) from 1990 to 2015. The values in these tables are used along with NAEP data to turn student item responses into scores and include information about item difficulty, discrimination, and guessing parameter for 3 parameter logit (3PL) items. Parameters for Generalized Partial Credit Model (GPCM) items are also included. The adjustments table contains the information regarding the treatment of items (e.g., deletion of an item or a collapsing of response categories), when these items did not appear to fit the item response models used to describe the NAEP data. Transformation constants change the score estimates that are obtained from the IRT scaling program to the NAEP reporting metric. Values from the years 2000 - 2013 were taken from the NCES website <https://nces.ed.gov/nationsreportcard/> and values from 1990 - 1998 and 2015 were extracted from their NAEP data files. All subtest names were reduced and homogenized to one word (e.g. \"Reading to gain information\" became \"information\"). The various subtest names for univariate transformation constants were all homogenized to \"univariate\".",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1626734774,
+    "version": "1.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-naepirtparams-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-naepirtparams-1.0.0-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "2691b4adca53c7fcfc9ddbed3c7e1069",
+    "name": "r-naepirtparams",
+    "noarch": "generic",
+    "sha256": "f1b48190c574ecfbf3ebccb1273580f9bda561aa52bd7768e12888fb27ef44a0",
+    "size": 272695,
+    "subdir": "noarch",
+    "timestamp": 1626734774685,
+    "version": "1.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-naepirtparams-1.0.0-r41hc72bb7e_0.tar.bz2/r-naepirtparams-1.0.0-r41hc72bb7e_0.tar.bz2"
+}
