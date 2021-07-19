@@ -21,44 +21,46 @@
     "source_git_url": "https://github.com/openmm/openmm.git",
     "source_url": null,
     "subdirs": [
-      "win-64"
+      "linux-ppc64le"
     ],
     "summary": "A high performance toolkit for molecular simulation.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1626712517,
+    "timestamp": 1626712468,
     "version": "7.6beta"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "openmm-feedstock",
   "labels": [
     "openmm_rc"
   ],
-  "package": "openmm-7.6beta-py38h1a49f2f_0.tar.bz2",
+  "package": "openmm-7.6beta-py38h9ac4f53_0.tar.bz2",
   "repodata": {
-    "build": "py38h1a49f2f_0",
+    "build": "py38h9ac4f53_0",
     "build_number": 0,
     "depends": [
-      "cudatoolkit 11.1|11.1.*",
+      "__glibc >=2.17",
+      "cudatoolkit 10.2|10.2.*",
       "fftw >=3.3.9,<4.0a0",
-      "khronos-opencl-icd-loader >=2021.6.30",
+      "libgcc-ng >=8.4.0",
+      "libstdcxx-ng >=8.4.0",
       "numpy",
+      "ocl-icd >=2.3.0,<3.0a0",
+      "ocl-icd-system",
       "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
-      "vc >=14.1,<15.0a0",
-      "vs2015_runtime >=14.16.27012"
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "LGPL-3.0-or-later",
     "license_family": "LGPL",
-    "md5": "f0ec8446de4a790d385490f3ae9d708c",
+    "md5": "fa49acad71918b1c5234436f44a6e238",
     "name": "openmm",
-    "sha256": "6d356a2f0238fdb02bd7b8e047e59fe425e3f6b77ca057823677443ad0184e10",
-    "size": 10947353,
-    "subdir": "win-64",
-    "timestamp": 1626712517934,
+    "sha256": "0a59b75448d4109427df11fc19c4f48f0fbd054e3c83a4c20b672ae08bc8597b",
+    "size": 11563256,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1626712468870,
     "version": "7.6beta"
   },
   "repodata_version": 1,
-  "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/openmm-7.6beta-py38h1a49f2f_0.tar.bz2/openmm-7.6beta-py38h1a49f2f_0.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/openmm-7.6beta-py38h9ac4f53_0.tar.bz2/openmm-7.6beta-py38h9ac4f53_0.tar.bz2"
 }
