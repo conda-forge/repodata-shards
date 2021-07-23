@@ -1,0 +1,56 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package generates a crosstool toolchain for Bazel that uses the currently activated compilers / linker as defined by the environment variables. It does take various conda(-forge) specifics into account for this. In addition to generating a toolchain, it also sets various environment variables that need to be set for the toolchain to work. Especially you will need to pass in the correct ${TARGET_CPU} to ensure that cross-compiling also works.  In build.sh    source gen-bazel-toolchain   bazel build --crosstool_top=//bazel_toolchain:toolchain --cpu ${TARGET_CPU} \u2026",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/bazel-toolchain-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause AND Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Helper script to generate a crosscompile toolchain for Bazel with the currently activated compiler settings.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1627020605,
+    "version": "0.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "bazel-toolchain-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "bazel-toolchain-0.0.1-he49afe7_0.tar.bz2",
+  "repodata": {
+    "build": "he49afe7_0",
+    "build_number": 0,
+    "depends": [
+      "bazel >=4"
+    ],
+    "license": "BSD-3-Clause AND Apache-2.0",
+    "md5": "c573106287c75718850863e1475bbb81",
+    "name": "bazel-toolchain",
+    "sha256": "dfd1d1c530e90c0b43755eb0350a5d066b774fb92a5d2b52b5068abda19ad36d",
+    "size": 12026,
+    "subdir": "osx-64",
+    "timestamp": 1627020605599,
+    "version": "0.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/bazel-toolchain-0.0.1-he49afe7_0.tar.bz2/bazel-toolchain-0.0.1-he49afe7_0.tar.bz2"
+}
