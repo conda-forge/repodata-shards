@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Airspy is a line of Popular Software-Defined Radio (SDR) receivers developed to achieve High Performance and Affordable Price using innovative combinations of DSP and RF techniques. The goal is to satisfy the most demanding telecommunications professionals and radio enthusiasts while being a serious alternative to both cost sensitive and higher end receivers. Airspy Radios feature world class reception quality and ease of use thanks to the tight integration with the de facto standard free SDR# software for signal acquisition, analysis and demodulation.  The `libairspy` package contains the library for Airspy devices, and the `airspy` package contains command line tools for using the devices.  For Linux users of `airspy`, you will likely want to link the provided udev rule into your system installation in order for the hardware to have the correct permissions:      sudo ln -s $CONDA_PREFIX/lib/udev/rules.d/52-airspy.rules /etc/udev/rules.d/     sudo udevadm control --reload     sudo udevadm trigger  Then, make sure your user account belongs to the plugdev group in order to be able to access your device:      sudo usermod -a -G plugdev <user>  You may have to restart for this change to take effect.",
+    "dev_url": "https://github.com/airspy/airspyone_host",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/airspy/airspyone_host",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause AND MIT AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.10": {
+        "weak": [
+          "libairspy >=1.0.10,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/airspy/airspyone_host/archive/v1.0.10.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Host software for AirSpy, a low cost, open source software radio platform",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1627203581,
+    "version": "1.0.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": "airspy-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libairspy-1.0.10-h7f98852_0.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libusb >=1.0.24,<2.0a0"
+    ],
+    "license": "BSD-3-Clause AND MIT AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "md5": "69e923a1108797344d66a91d592897b9",
+    "name": "libairspy",
+    "sha256": "2480cb1b99229dcc82b60e61bae05c75d6d766e73bc05bb32e8ea450d97ba3f8",
+    "size": 41112,
+    "subdir": "linux-64",
+    "timestamp": 1627203581166,
+    "version": "1.0.10"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libairspy-1.0.10-h7f98852_0.tar.bz2/libairspy-1.0.10-h7f98852_0.tar.bz2"
+}
