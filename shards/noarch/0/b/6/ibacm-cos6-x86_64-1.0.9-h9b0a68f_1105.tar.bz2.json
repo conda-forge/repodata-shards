@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The ib_acm daemon helps reduce the load of managing path record lookups on large InfiniBand fabrics by providing a user space implementation of what is functionally similar to an ARP cache.  The use of ib_acm, when properly configured, can reduce the SA packet load of a large IB cluster from O(n^2) to O(n).  The ib_acm daemon is started and normally runs in the background, user applications need not know about this daemon as long as their app uses librdmacm to handle connection bring up/tear down.  The librdmacm library knows how to talk directly to the ib_acm daemon to retrieve data.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.openfabrics.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv2 or BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "(CDT) InfiniBand Communication Manager Assistant",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1627480454,
+    "version": "1.0.9"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "ibacm-cos6-x86_64-1.0.9-h9b0a68f_1105.tar.bz2",
+  "repodata": {
+    "build": "h9b0a68f_1105",
+    "build_number": 1105,
+    "depends": [
+      "sysroot_linux-64 2.12.*"
+    ],
+    "license": "GPLv2 or BSD",
+    "license_family": "GPL2",
+    "md5": "7ef9df27e1e05c0922cde0db308b26e6",
+    "name": "ibacm-cos6-x86_64",
+    "noarch": "generic",
+    "sha256": "3c670c2c3fae3ed1a7f6ac49537224b509e8c102c560ec1a3206e066360c0f49",
+    "size": 66039,
+    "subdir": "noarch",
+    "timestamp": 1627480454812,
+    "version": "1.0.9"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ibacm-cos6-x86_64-1.0.9-h9b0a68f_1105.tar.bz2"
+}
