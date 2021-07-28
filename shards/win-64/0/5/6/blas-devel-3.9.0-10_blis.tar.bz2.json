@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1627452924,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-devel-3.9.0-10_blis.tar.bz2",
+  "repodata": {
+    "build": "10_blis",
+    "build_number": 10,
+    "depends": [
+      "libblas 3.9.0 10_blis",
+      "libcblas 3.9.0 10_blis",
+      "liblapack 3.9.0 *netlib",
+      "liblapacke 3.9.0 *netlib"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "67c79256688e01d7591deb62c349c5c9",
+    "name": "blas-devel",
+    "sha256": "8176c93b2051abb01dd736bba0b0c678c214ff9a95b6664771c581e59cb03518",
+    "size": 11916,
+    "subdir": "win-64",
+    "timestamp": 1627452924118,
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/blas-devel-3.9.0-10_blis.tar.bz2/blas-devel-3.9.0-10_blis.tar.bz2"
+}
