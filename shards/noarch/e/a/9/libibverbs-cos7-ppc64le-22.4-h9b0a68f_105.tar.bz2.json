@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libibverbs is a library that allows userspace processes to use RDMA \"verbs\" as described in the InfiniBand Architecture Specification and the RDMA Protocol Verbs Specification.  This includes direct hardware access from userspace to InfiniBand/iWARP adapters (kernel bypass) for fast path operations.  Device- specific plug-in ibverbs userspace drivers are included:  - libbxnt_re: Broadcom NetXtreme-E RoCE HCA - libcxgb3: Chelsio T3 iWARP HCA - libcxgb4: Chelsio T4 iWARP HCA - libhfi1: Intel Omni-Path HFI - libhns: HiSilicon Hip06 SoC - libi40iw: Intel Ethernet Connection X722 RDMA - libipathverbs: QLogic InfiniPath HCA - libmlx4: Mellanox ConnectX-3 InfiniBand HCA - libmlx5: Mellanox Connect-IB/X-4+ InfiniBand HCA - libmthca: Mellanox InfiniBand HCA - libnes: NetEffect RNIC - libocrdma: Emulex OneConnect RDMA/RoCE Device - libqedr: QLogic QL4xxx RoCE HCA - librxe: A software implementation of the RoCE protocol - libvmw_pvrdma: VMware paravirtual RDMA device",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/linux-rdma/rdma-core",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv2 or BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "(CDT) A library and drivers for direct userspace use of RDMA (InfiniBand/iWARP/RoCE) hardware",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1627533248,
+    "version": "22.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "libibverbs-cos7-ppc64le-22.4-h9b0a68f_105.tar.bz2",
+  "repodata": {
+    "build": "h9b0a68f_105",
+    "build_number": 105,
+    "constrains": [
+      "sysroot_linux-ppc64le ==99999999999"
+    ],
+    "depends": [
+      "rdma-core-cos7-ppc64le ==22.4 *_105"
+    ],
+    "license": "GPLv2 or BSD",
+    "license_family": "GPL2",
+    "md5": "176dc0510b1a1524b937530d482732cf",
+    "name": "libibverbs-cos7-ppc64le",
+    "noarch": "generic",
+    "sha256": "78d9bde875aa0d4bb5e3228b6f2e3b074b4dcd6e00320323fdd1183a3123e48d",
+    "size": 298250,
+    "subdir": "noarch",
+    "timestamp": 1627533248734,
+    "version": "22.4"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/libibverbs-cos7-ppc64le-22.4-h9b0a68f_105.tar.bz2"
+}
