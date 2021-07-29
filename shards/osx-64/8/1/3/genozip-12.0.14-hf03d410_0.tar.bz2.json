@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Genozip  (available on Conda, Docker Hub See: https://genozip.com)  Genozip is a compressor for genomic files - while it can compress any file (i.e. not only genomic files), it is optimized to compress FASTQ, SAM/BAM/CRAM, VCF/BCF, FASTA, GVF, PHYLIP, Chain, Kraken and 23andMe files.  Citing Do you find Genozip useful? Please cite: Lan, D., et al. (2021) Genozip: a universal extensible genomic data compressor. Bioinformatics, https://doi.org/10.1093/bioinformatics/btab102 Lan, D., et al. (2020) genozip: a fast and efficient compression tool for VCF files Bioinformatics, 36, 4091\u20134092, https://doi.org/10.1093/bioinformatics/btaa290   Typically, a 2X-5X improvement over the existing compression is achieved when compressing already-compressed files like .fastq.gz .bam vcf.gz and much higher ratios in some other cases.  Yes, Genozip can compress already-compressed files (.gz .bz2 .xz .bam .cram).  The compression is lossless - the decompressed file is 100% identical to the original file (see documentation for exceptions). Sign up to receive low-frequency updates related to Genozip: https://tinyurl.com/genozip  The command line options are similar to gzip and samtools/bcftools, so if you are familiar with these, it works pretty much the same. To get started, see: https://genozip.com  Genozip is free for non-commercial use (as defined in the license). For a commercial license, please contact sales@genozip.com  Usage is subject to terms and conditions. The license can be viewed on https://genozip.com/license.html  THIS SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "dev_url": "https://github.com/divonlan/genozip",
+    "doc_source_url": null,
+    "doc_url": "https://genozip.com",
+    "home": "https://genozip.com",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CUSTOM",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/divonlan/genozip/archive/genozip-12.0.14.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Compressor for genomic files (FASTQ, SAM/BAM/CRAM, VCF/BCF, FASTA, GVF, 23andMe), up to 5x better than gzip and faster too",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1627548174,
+    "version": "12.0.14"
+  },
+  "channeldata_version": 1,
+  "feedstock": "genozip-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "genozip-12.0.14-hf03d410_0.tar.bz2",
+  "repodata": {
+    "build": "hf03d410_0",
+    "build_number": 0,
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "curl"
+    ],
+    "license": "CUSTOM",
+    "license_family": "OTHER",
+    "md5": "c17ad7011e539e2387f9d9a18e2438c2",
+    "name": "genozip",
+    "sha256": "2acf82938d8e9d5d3b3886c7f3e8f10772fe4da2f842b9ab4f8c23505d05d52a",
+    "size": 2674724,
+    "subdir": "osx-64",
+    "timestamp": 1627548174185,
+    "version": "12.0.14"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/genozip-12.0.14-hf03d410_0.tar.bz2/genozip-12.0.14-hf03d410_0.tar.bz2"
+}
