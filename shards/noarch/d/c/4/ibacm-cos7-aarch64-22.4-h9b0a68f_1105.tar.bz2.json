@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The ibacm daemon helps reduce the load of managing path record lookups on large InfiniBand fabrics by providing a user space implementation of what is functionally similar to an ARP cache.  The use of ibacm, when properly configured, can reduce the SA packet load of a large IB cluster from O(n^2) to O(n).  The ibacm daemon is started and normally runs in the background, user applications need not know about this daemon as long as their app uses librdmacm to handle connection bring up/tear down.  The librdmacm library knows how to talk directly to the ibacm daemon to retrieve data.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/linux-rdma/rdma-core",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPLv2 or BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "(CDT) InfiniBand Communication Manager Assistant",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1627537383,
+    "version": "22.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "ibacm-cos7-aarch64-22.4-h9b0a68f_1105.tar.bz2",
+  "repodata": {
+    "build": "h9b0a68f_1105",
+    "build_number": 1105,
+    "depends": [
+      "libibumad-cos7-aarch64 ==22.4 *_1105",
+      "libibverbs-cos7-aarch64 ==22.4 *_1105",
+      "rdma-core-cos7-aarch64 ==22.4 *_1105",
+      "sysroot_linux-aarch64 2.17.*"
+    ],
+    "license": "GPLv2 or BSD",
+    "license_family": "GPL2",
+    "md5": "ddd4f45da6dc5ba49df00263b1360a55",
+    "name": "ibacm-cos7-aarch64",
+    "noarch": "generic",
+    "sha256": "23ed48dafd864e4204935bd73abafbc8356caf7ec0400e04e4b982e688ec10fa",
+    "size": 94202,
+    "subdir": "noarch",
+    "timestamp": 1627537383250,
+    "version": "22.4"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ibacm-cos7-aarch64-22.4-h9b0a68f_1105.tar.bz2"
+}
