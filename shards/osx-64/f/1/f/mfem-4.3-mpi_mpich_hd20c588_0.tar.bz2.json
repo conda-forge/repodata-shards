@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MFEM is a modular parallel C++ library for finite element methods. Its goal is to enable high-performance scalable finite element discretization research and application development on a wide variety of platforms, ranging from laptops to supercomputers.",
+    "dev_url": "https://github.com/mfem/mfem",
+    "doc_source_url": null,
+    "doc_url": "https://mfem.org/serial-tutorial/",
+    "home": "https://mfem.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.3": {
+        "weak": [
+          "mfem >=4.3,<4.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mfem/mfem/archive/refs/tags/v4.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Lightweight, general, scalable C++ library for finite element methods",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1627612280,
+    "version": "4.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mfem-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mfem-4.3-mpi_mpich_hd20c588_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hd20c588_0",
+    "build_number": 0,
+    "depends": [
+      "hypre",
+      "libcxx >=11.1.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.4.2,<4.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "76cb5660d510f75165a01b7da48ee0a6",
+    "name": "mfem",
+    "sha256": "164a7536ba0b2ccac8e2349a01d8f599eeba5dbc5f4346b04b1236fd65a513a6",
+    "size": 4262132,
+    "subdir": "osx-64",
+    "timestamp": 1627612280192,
+    "version": "4.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/mfem-4.3-mpi_mpich_hd20c588_0.tar.bz2/mfem-4.3-mpi_mpich_hd20c588_0.tar.bz2"
+}
