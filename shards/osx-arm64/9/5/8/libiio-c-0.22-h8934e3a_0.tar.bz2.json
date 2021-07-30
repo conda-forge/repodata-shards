@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libiio is used to interface to the Linux Industrial Input/Output (IIO) Subsystem. The Linux IIO subsystem is intended to provide support for devices that in some sense are analog to digital or digital to analog converters (ADCs, DACs). This includes, but is not limited to ADCs, Accelerometers, Gyros, IMUs, Capacitance to Digital Converters (CDCs), Pressure Sensors, Color, Light and Proximity Sensors, Temperature Sensors, Magnetometers, DACs, DDS (Direct Digital Synthesis), PLLs (Phase Locked Loops), Variable/Programmable Gain Amplifiers (VGA, PGA), and RF transceivers. You can use libiio natively on an embedded Linux target (local mode), or use libiio to communicate remotely to that same target from a host Linux, Windows or MAC over USB or Ethernet or Serial.",
+    "dev_url": "https://github.com/analogdevicesinc/libiio",
+    "doc_source_url": null,
+    "doc_url": "https://analogdevicesinc.github.io/libiio/",
+    "home": "https://github.com/analogdevicesinc/libiio",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later AND GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.22": {
+        "weak": [
+          "libiio-c >=0.22,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Library for interfacing with Linux IIO devices",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1627664000,
+    "version": "0.22"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libiio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libiio-c-0.22-h8934e3a_0.tar.bz2",
+  "repodata": {
+    "build": "h8934e3a_0",
+    "build_number": 0,
+    "constrains": [
+      "__osx >=11.0"
+    ],
+    "depends": [
+      "libusb >=1.0.24,<2.0a0",
+      "libxml2 >=2.9.12,<2.10.0a0",
+      "zstd >=1.5.0,<1.6.0a0"
+    ],
+    "license": "LGPL-2.1-or-later AND GPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "e4199dec4f6b928b429e64d167ba960f",
+    "name": "libiio-c",
+    "sha256": "c22bb98d2a3e8efff2dd126266ef3d867bea667998c015bf6089bbeefb9d8e87",
+    "size": 112658,
+    "subdir": "osx-arm64",
+    "timestamp": 1627664000110,
+    "version": "0.22"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libiio-c-0.22-h8934e3a_0.tar.bz2/libiio-c-0.22-h8934e3a_0.tar.bz2"
+}
