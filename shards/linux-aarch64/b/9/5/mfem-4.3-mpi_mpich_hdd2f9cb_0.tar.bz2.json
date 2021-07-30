@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "MFEM is a modular parallel C++ library for finite element methods. Its goal is to enable high-performance scalable finite element discretization research and application development on a wide variety of platforms, ranging from laptops to supercomputers.",
+    "dev_url": "https://github.com/mfem/mfem",
+    "doc_source_url": null,
+    "doc_url": "https://mfem.org/serial-tutorial/",
+    "home": "https://mfem.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.3": {
+        "weak": [
+          "mfem >=4.3,<4.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mfem/mfem/archive/refs/tags/v4.3.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Lightweight, general, scalable C++ library for finite element methods",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1627611622,
+    "version": "4.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mfem-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mfem-4.3-mpi_mpich_hdd2f9cb_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hdd2f9cb_0",
+    "build_number": 0,
+    "depends": [
+      "hypre",
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.4.2,<4.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "c623e78123153749c4088c1ffa840bb3",
+    "name": "mfem",
+    "sha256": "9ff64fd09884194ec9d08fef2d7fcbeeaa69d0b5b9d13534195e30dd9968b59d",
+    "size": 5105117,
+    "subdir": "linux-aarch64",
+    "timestamp": 1627611622753,
+    "version": "4.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/mfem-4.3-mpi_mpich_hdd2f9cb_0.tar.bz2/mfem-4.3-mpi_mpich_hdd2f9cb_0.tar.bz2"
+}
