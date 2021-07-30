@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "LZ4 is lossless compression algorithm, providing compression speed at 400 MB/s per core (0.16 Bytes/cycle). It features an extremely fast decoder, with speed in multiple GB/s per core (0.71 Bytes/cycle). A high compression derivative, called LZ4_HC, is available, trading customizable CPU time for compression ratio. LZ4 library is provided as open source software using a BSD license.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.lz4.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.9.3": {
+        "weak": [
+          "lz4-c >=1.9.3,<1.10.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/lz4/lz4/archive/v1.9.3.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Extremely Fast Compression algorithm",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1627669052,
+    "version": "1.9.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lz4-c-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lz4-c-1.9.3-h01db608_1.tar.bz2",
+  "repodata": {
+    "build": "h01db608_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0"
+    ],
+    "license": "BSD-2-Clause",
+    "md5": "25b5ec27b49b04a997a87b0f00f5e205",
+    "name": "lz4-c",
+    "sha256": "db1d958f56e8f616c65deb7e67522db4ba51e2ccdb676469bb0c8df8d3e181ae",
+    "size": 203574,
+    "subdir": "linux-aarch64",
+    "timestamp": 1627669052991,
+    "version": "1.9.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/lz4-c-1.9.3-h01db608_1.tar.bz2/lz4-c-1.9.3-h01db608_1.tar.bz2"
+}
