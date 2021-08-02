@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gpsd.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.22": {
+        "weak": [
+          "gpsd >=3.22,<3.23.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "gpsd is a service daemon that monitors one or more GPSes or AIS receivers attached to a host computer through serial or USB ports, making all data on the location/course/velocity of the sensors available to be queried on TCP port 2947 of the host computer.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1627887060,
+    "version": "3.22"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gpsd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gpsd-3.22-py36h4000f80_0.tar.bz2",
+  "repodata": {
+    "build": "py36h4000f80_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.3.0",
+      "libstdcxx-ng >=9.3.0",
+      "libusb >=1.0.24,<2.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
+    ],
+    "license": "BSD-2-Clause",
+    "md5": "78169bb48e150fac600b8aa12ba1351e",
+    "name": "gpsd",
+    "sha256": "0ec8d79b0b8220fc8984a33afa88181bc54141a9fba1312adab3a1c5f358c8d4",
+    "size": 1442311,
+    "subdir": "linux-64",
+    "timestamp": 1627887060831,
+    "version": "3.22"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gpsd-3.22-py36h4000f80_0.tar.bz2/gpsd-3.22-py36h4000f80_0.tar.bz2"
+}
