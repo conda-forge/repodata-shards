@@ -20,7 +20,7 @@
     "run_exports": {
       "0.12.0.dev20210731": {
         "weak": [
-          "py-lief >=0.12.0.0DEV.20210731,<0.13.0a0"
+          "liblief >=0.12.0.0DEV.20210731,<0.13.0a0"
         ]
       }
     },
@@ -31,37 +31,34 @@
     ],
     "summary": "A cross platform library to parse, modify and abstract ELF, PE and MachO formats.",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1627966752,
+    "text_prefix": true,
+    "timestamp": 1627962671,
     "version": "0.12.0.dev20210731"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "lief-feedstock",
   "labels": [
     "lief_dev"
   ],
-  "package": "py-lief-0.12.0.dev20210731-py39h6d716a9_0.tar.bz2",
+  "package": "liblief-0.12.0.dev20210731-h330b295_0.tar.bz2",
   "repodata": {
-    "build": "py39h6d716a9_0",
+    "build": "h330b295_0",
     "build_number": 0,
     "depends": [
-      "liblief 0.12.0.dev20210731 h330b295_0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
       "vc >=14.1,<15.0a0",
       "vs2015_runtime >=14.16.27012"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "ca4eebb2260aa86090054623924aad26",
-    "name": "py-lief",
-    "sha256": "8e9dd80b6b3fe94b803ca403e1007fdf3c7052c67ee0fd5e9559cd6ccbf351ab",
-    "size": 2385107,
+    "md5": "c618c393eea6b570aab5c90adbe811db",
+    "name": "liblief",
+    "sha256": "0c8d2373e786953c4ed188165e23904120ea4e5260c7c6348d95625b6a7f71cc",
+    "size": 4924571,
     "subdir": "win-64",
-    "timestamp": 1627966752581,
+    "timestamp": 1627962671451,
     "version": "0.12.0.dev20210731"
   },
   "repodata_version": 1,
   "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/py-lief-0.12.0.dev20210731-py39h6d716a9_0.tar.bz2/py-lief-0.12.0.dev20210731-py39h6d716a9_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/liblief-0.12.0.dev20210731-h330b295_0.tar.bz2/liblief-0.12.0.dev20210731-h330b295_0.tar.bz2"
 }
