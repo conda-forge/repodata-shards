@@ -20,7 +20,7 @@
     "run_exports": {
       "0.12.0.dev20210731": {
         "weak": [
-          "py-lief >=0.12.0.0DEV.20210731,<0.13.0a0"
+          "liblief >=0.12.0.0DEV.20210731,<0.13.0a0"
         ]
       }
     },
@@ -31,37 +31,34 @@
     ],
     "summary": "A cross platform library to parse, modify and abstract ELF, PE and MachO formats.",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1627965889,
+    "text_prefix": true,
+    "timestamp": 1627962486,
     "version": "0.12.0.dev20210731"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "lief-feedstock",
   "labels": [
     "lief_dev"
   ],
-  "package": "py-lief-0.12.0.dev20210731-py39h5733529_0.tar.bz2",
+  "package": "liblief-0.12.0.dev20210731-h3c2e1fb_0.tar.bz2",
   "repodata": {
-    "build": "py39h5733529_0",
+    "build": "h3c2e1fb_0",
     "build_number": 0,
     "depends": [
       "libgcc-ng >=9.3.0",
-      "liblief 0.12.0.dev20210731 h3c2e1fb_0",
-      "libstdcxx-ng >=9.3.0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39"
+      "libstdcxx-ng >=9.3.0"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "4092f21abbd5a37cd380fe1fe719ef15",
-    "name": "py-lief",
-    "sha256": "434c498cfd54a955542afd741bbbfc575b379b51b10c7090f883d56faaa70ce6",
-    "size": 1348378,
+    "md5": "661ea30587217e77aacded91a65535ac",
+    "name": "liblief",
+    "sha256": "25e24a259c30be26a6c3de54991c925596ad8e57aceb5709773b50734ba0a6dc",
+    "size": 2100051,
     "subdir": "linux-ppc64le",
-    "timestamp": 1627965889983,
+    "timestamp": 1627962486995,
     "version": "0.12.0.dev20210731"
   },
   "repodata_version": 1,
   "subdir": "linux-ppc64le",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/py-lief-0.12.0.dev20210731-py39h5733529_0.tar.bz2/py-lief-0.12.0.dev20210731-py39h5733529_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/liblief-0.12.0.dev20210731-h3c2e1fb_0.tar.bz2/liblief-0.12.0.dev20210731-h3c2e1fb_0.tar.bz2"
 }
