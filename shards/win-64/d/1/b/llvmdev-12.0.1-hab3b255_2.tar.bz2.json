@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.1/llvm-12.0.1.src.tar.xz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1628405065,
+    "version": "12.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "llvmdev-12.0.1-hab3b255_2.tar.bz2",
+  "repodata": {
+    "build": "hab3b255_2",
+    "build_number": 2,
+    "depends": [
+      "libllvm12 12.0.1 hab3b255_2",
+      "llvm-tools 12.0.1 ha327e53_2",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "b3401f28a5cb20e5d4ac564a17a920b8",
+    "name": "llvmdev",
+    "sha256": "d0dd6b30dddf355e4e56b77d54d396da8f6265804f8cfa8381dffd8e45a5489f",
+    "size": 100636341,
+    "subdir": "win-64",
+    "timestamp": 1628405065835,
+    "version": "12.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/llvmdev-12.0.1-hab3b255_2.tar.bz2/llvmdev-12.0.1-hab3b255_2.tar.bz2"
+}
