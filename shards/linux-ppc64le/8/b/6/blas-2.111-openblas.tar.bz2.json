@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1628602552,
+    "version": "2.111"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.111-openblas.tar.bz2",
+  "repodata": {
+    "build": "openblas",
+    "build_number": 11,
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "blas-devel 3.9.0 11_linuxppc64le_openblas",
+      "libblas 3.9.0 11_linuxppc64le_openblas",
+      "libcblas 3.9.0 11_linuxppc64le_openblas",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack 3.9.0 11_linuxppc64le_openblas",
+      "liblapacke 3.9.0 11_linuxppc64le_openblas",
+      "llvm-openmp >=12.0.1"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "262ed3943689a5f343ca8bf8b351505f",
+    "name": "blas",
+    "sha256": "276d82d64b2c08d7461ea25c794ae5c2cc067586be67121d119963c0d2289b0f",
+    "size": 12136,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1628602552571,
+    "version": "2.111"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/blas-2.111-openblas.tar.bz2/blas-2.111-openblas.tar.bz2"
+}
