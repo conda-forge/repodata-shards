@@ -20,7 +20,7 @@
     "run_exports": {
       "0.10.0": {
         "weak": [
-          "torchvision =*=*_cpu"
+          "torchvision =*=*_cuda"
         ]
       }
     },
@@ -32,7 +32,7 @@
     "summary": "Image and video datasets and models for torch deep learning",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1628627893,
+    "timestamp": 1628628999,
     "version": "0.10.0"
   },
   "channeldata_version": 1,
@@ -40,12 +40,15 @@
   "labels": [
     "main"
   ],
-  "package": "torchvision-0.10.0-py37h9e046cd_0_cpu.tar.bz2",
+  "package": "torchvision-0.10.0-py37cuda110hbff3922_0_cuda.tar.bz2",
   "repodata": {
-    "build": "py37h9e046cd_0_cpu",
+    "build": "py37cuda110hbff3922_0_cuda",
     "build_number": 0,
     "depends": [
+      "__glibc >=2.17",
       "__glibc >=2.17,<3.0.a0",
+      "cudatoolkit 11.0|11.0.*",
+      "cudnn >=8.2.1.32,<9.0a0",
       "jpeg >=9d,<10a",
       "libgcc-ng >=7.5.0",
       "libpng >=1.6.37,<1.7.0a0",
@@ -55,19 +58,19 @@
       "python >=3.7,<3.8.0a0",
       "python_abi 3.7.* *_cp37m",
       "pytorch",
-      "pytorch-cpu"
+      "pytorch-gpu"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "2c86197528b9b30ef030faed769a8c92",
+    "md5": "6fbe3151986e7d71d1f024bb52e5206c",
     "name": "torchvision",
-    "sha256": "7777ed88dfc0b832afd86082eab4a358b699330e010cf25bab1009469ab0b99c",
-    "size": 7006995,
+    "sha256": "d78a7cdbc9e39afc47d30265ed1231571968d31afca5caf7d362057fa2bdea87",
+    "size": 8471506,
     "subdir": "linux-64",
-    "timestamp": 1628627893144,
+    "timestamp": 1628628999727,
     "version": "0.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/torchvision-0.10.0-py37h9e046cd_0_cpu.tar.bz2/torchvision-0.10.0-py37h9e046cd_0_cpu.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/torchvision-0.10.0-py37cuda110hbff3922_0_cuda.tar.bz2"
 }
