@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "libcblas >=3.9.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1628598055,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libcblas-3.9.0-11_linuxppc64le_openblas.tar.bz2",
+  "repodata": {
+    "build": "11_linuxppc64le_openblas",
+    "build_number": 11,
+    "constrains": [
+      "liblapacke 3.9.0 11_linuxppc64le_openblas",
+      "blas * openblas",
+      "liblapack 3.9.0 11_linuxppc64le_openblas"
+    ],
+    "depends": [
+      "libblas 3.9.0 11_linuxppc64le_openblas"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "d383a8fee7087182ea426713a9150da8",
+    "name": "libcblas",
+    "sha256": "2e9b4af176a229ae3acb867d146a43809ce77b18d76d849b43d8cf703253c25b",
+    "size": 11711,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1628598055913,
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libcblas-3.9.0-11_linuxppc64le_openblas.tar.bz2/libcblas-3.9.0-11_linuxppc64le_openblas.tar.bz2"
+}
