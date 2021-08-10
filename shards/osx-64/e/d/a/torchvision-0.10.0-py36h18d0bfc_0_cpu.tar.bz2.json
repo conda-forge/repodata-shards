@@ -20,19 +20,19 @@
     "run_exports": {
       "0.10.0": {
         "weak": [
-          "torchvision =*=*_cuda"
+          "torchvision =*=*_cpu"
         ]
       }
     },
     "source_git_url": null,
     "source_url": "https://github.com/pytorch/vision/archive/v0.10.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "Image and video datasets and models for torch deep learning",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1628629459,
+    "timestamp": 1628628150,
     "version": "0.10.0"
   },
   "channeldata_version": 1,
@@ -40,37 +40,32 @@
   "labels": [
     "main"
   ],
-  "package": "torchvision-0.10.0-py36cuda111h50ec057_0_cuda.tar.bz2",
+  "package": "torchvision-0.10.0-py36h18d0bfc_0_cpu.tar.bz2",
   "repodata": {
-    "build": "py36cuda111h50ec057_0_cuda",
+    "build": "py36h18d0bfc_0_cpu",
     "build_number": 0,
     "depends": [
-      "__glibc >=2.17",
-      "__glibc >=2.17,<3.0.a0",
-      "cudatoolkit 11.1|11.1.*",
-      "cudnn >=8.2.1.32,<9.0a0",
       "jpeg >=9d,<10a",
-      "libgcc-ng >=7.5.0",
+      "libcxx >=11.1.0",
       "libpng >=1.6.37,<1.7.0a0",
-      "libstdcxx-ng >=7.5.0",
       "numpy >=1.18.5,<2.0a0",
       "pillow >=5.3.0,!=8.3.0",
       "python >=3.6,<3.7.0a0",
       "python_abi 3.6.* *_cp36m",
       "pytorch",
-      "pytorch-gpu"
+      "pytorch-cpu"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "ad4bf21607c6ff9b6fdc60b712dc1d08",
+    "md5": "59f00dd95b9812da7c2d86ef0d065461",
     "name": "torchvision",
-    "sha256": "16f27f52290ed7d5d72ff530f4f33122fbc652b3a310d904261cbd1716bac0ed",
-    "size": 8604155,
-    "subdir": "linux-64",
-    "timestamp": 1628629459304,
+    "sha256": "e0b0160afb1b4fcb64e67ef4853c210760cb49b0e81e763e387486e9b04b67fb",
+    "size": 6937488,
+    "subdir": "osx-64",
+    "timestamp": 1628628150230,
     "version": "0.10.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/torchvision-0.10.0-py36cuda111h50ec057_0_cuda.tar.bz2/torchvision-0.10.0-py36cuda111h50ec057_0_cuda.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/torchvision-0.10.0-py36h18d0bfc_0_cpu.tar.bz2"
 }
