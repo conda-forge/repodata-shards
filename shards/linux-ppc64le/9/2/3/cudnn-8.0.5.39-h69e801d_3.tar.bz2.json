@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NVIDIA CUDA Deep Neural Network (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. It provides highly tuned implementations of routines arising frequently in DNN applications.  License Agreements:- The packages are governed by the NVIDIA cuDNN Software License Agreement (EULA). By downloading and using the packages, you accept the terms and conditions of the NVIDIA cuDNN EULA - https://docs.nvidia.com/deeplearning/cudnn/sla/index.html",
+    "dev_url": "https://developer.nvidia.com/rdp/cudnn-download",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/deeplearning/cudnn/",
+    "home": "https://developer.nvidia.com/cudnn",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-cuDNN-Software-License-Agreement",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "8.0.5.39": {
+        "weak": [
+          "cudnn >=8.0.5.39,<9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://developer.download.nvidia.com/compute/redist/cudnn/v8.0.5/cudnn-10.2-linux-ppc64le-v8.0.5.39.tgz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "NVIDIA's cuDNN deep neural network acceleration library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1628783769,
+    "version": "8.0.5.39"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cudnn-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cudnn-8.0.5.39-h69e801d_3.tar.bz2",
+  "repodata": {
+    "build": "h69e801d_3",
+    "build_number": 3,
+    "constrains": [
+      "__glibc >=2.17"
+    ],
+    "depends": [
+      "__glibc >=2.17,<3.0.a0",
+      "cudatoolkit 10.2.*",
+      "libgcc-ng >=3.0",
+      "libstdcxx-ng >=3.4"
+    ],
+    "license": "LicenseRef-cuDNN-Software-License-Agreement",
+    "md5": "de249b7efd86a9955b5061efc5f8b74c",
+    "name": "cudnn",
+    "sha256": "1bef0aa338289a76bb4633a83992c0529169af45b7605a201e72dad8e661624e",
+    "size": 342826440,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1628783769490,
+    "version": "8.0.5.39"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/cf-staging/linux-ppc64le/cudnn-8.0.5.39-h69e801d_3.tar.bz2"
+}
