@@ -21,39 +21,49 @@
     "source_git_url": null,
     "source_url": "https://github.com/matplotlib/matplotlib/archive/v3.4.3.tar.gz",
     "subdirs": [
-      "linux-ppc64le"
+      "win-64"
     ],
     "summary": "Publication quality figures in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1629161366,
+    "timestamp": 1629161368,
     "version": "3.4.3"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "matplotlib-feedstock",
   "labels": [
     "testing"
   ],
-  "package": "matplotlib-3.4.3-py37hbfd17ee_200.tar.bz2",
+  "package": "matplotlib-base-3.4.3-py39h27bb5c7_200.tar.bz2",
   "repodata": {
-    "build": "py37hbfd17ee_200",
+    "build": "py39h27bb5c7_200",
     "build_number": 200,
     "depends": [
-      "matplotlib-base >=3.4.3,<3.4.4.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "certifi >=2020.06.20",
+      "cycler >=0.10",
+      "kiwisolver >=1.0.1",
+      "numpy >=1.19.5,<2.0a0",
+      "pillow >=6.2.0",
+      "pyparsing >=2.2.1",
+      "python >=3.9,<3.10.0a0",
+      "python-dateutil >=2.1",
+      "python_abi 3.9.* *_cp39",
+      "setuptools",
+      "tornado",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "LicenseRef-PSF-based",
     "license_family": "PSF",
-    "md5": "ac219abe2f26a09cadeed855f77494dc",
-    "name": "matplotlib",
-    "sha256": "af58dac12aab7675e894876798d847039cb9912ac6b6a95f15c2b6bc6851154e",
-    "size": 1763534,
-    "subdir": "linux-ppc64le",
-    "timestamp": 1629161366446,
+    "md5": "114c320f60542da78c956c7e935f7688",
+    "name": "matplotlib-base",
+    "sha256": "ee3a001c26efd65e880bbd5c4ddd5034313f245db4ce1ff5ae43b03e463b4b00",
+    "size": 9585963,
+    "subdir": "win-64",
+    "timestamp": 1629161368324,
     "version": "3.4.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-ppc64le",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/matplotlib-3.4.3-py37hbfd17ee_200.tar.bz2/matplotlib-3.4.3-py37hbfd17ee_200.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/matplotlib-base-3.4.3-py39h27bb5c7_200.tar.bz2/matplotlib-base-3.4.3-py39h27bb5c7_200.tar.bz2"
 }
