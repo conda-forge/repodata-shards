@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NVIDIA cuSPARSELt is a high-performance CUDA library dedicated to general matrix-matrix operations in which at least one operand is a sparse matrix. The cuSPARSELt APIs allow flexibility in the algorithm/operation selection, epilogue, and matrix characteristics, including memory layout, alignment, and data types. License Agreements:- The packages are governed by the NVIDIA cuSPARSELt Software License Agreement (EULA). By downloading and using the packages, you accept the terms and conditions of the NVIDIA cuSPARSELt EULA - https://docs.nvidia.com/cuda/cusparselt/license.html",
+    "dev_url": "https://developer.nvidia.com/cusparselt/downloads",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/cuda/cusparselt/index.html",
+    "home": "https://developer.nvidia.com/cusparse",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-cuSPARSELt-Software-License-Agreement",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.1.0.2": {
+        "weak": [
+          "cusparselt 0.1.0.2 0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://developer.download.nvidia.com/compute/libcusparse-lt/0.1.0/local_installers/libcusparse_lt-windows-x86_64-0.1.0.2.zip",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Basic Linear Algebra for Sparse Matrices on NVIDIA GPUs",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1629329982,
+    "version": "0.1.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cusparselt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cusparselt-0.1.0.2-h929061a_0.tar.bz2",
+  "repodata": {
+    "build": "h929061a_0",
+    "build_number": 0,
+    "depends": [
+      "cudatoolkit >=11.2,<12",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "LicenseRef-cuSPARSELt-Software-License-Agreement",
+    "md5": "0e365608977733c9d54438042416ab22",
+    "name": "cusparselt",
+    "sha256": "ff1d98bad80d87993ce0d62b79c3e96d859a3ce043991ef74c3e124e8351168b",
+    "size": 17173614,
+    "subdir": "win-64",
+    "timestamp": 1629329982730,
+    "version": "0.1.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/cf-staging/win-64/cusparselt-0.1.0.2-h929061a_0.tar.bz2"
+}
