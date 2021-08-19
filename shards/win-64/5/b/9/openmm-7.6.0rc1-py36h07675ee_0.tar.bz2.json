@@ -21,46 +21,44 @@
     "source_git_url": "https://github.com/openmm/openmm.git",
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "A high performance toolkit for molecular simulation.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1629401761,
+    "timestamp": 1629402772,
     "version": "7.6.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "openmm-feedstock",
   "labels": [
     "openmm_rc"
   ],
-  "package": "openmm-7.6.0rc1-py39hf0f3aa7_0.tar.bz2",
+  "package": "openmm-7.6.0rc1-py36h07675ee_0.tar.bz2",
   "repodata": {
-    "build": "py39hf0f3aa7_0",
+    "build": "py36h07675ee_0",
     "build_number": 0,
     "depends": [
-      "__glibc >=2.17",
-      "cudatoolkit 11.2|11.2.*",
+      "cudatoolkit 11.0|11.0.*",
       "fftw >=3.3.9,<4.0a0",
-      "libgcc-ng >=7.5.0",
-      "libstdcxx-ng >=7.5.0",
+      "khronos-opencl-icd-loader >=2021.6.30",
       "numpy",
-      "ocl-icd >=2.3.1,<3.0a0",
-      "ocl-icd-system",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39"
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "LGPL-3.0-or-later",
     "license_family": "LGPL",
-    "md5": "0e5afa6a21be5f1099937bfa85af462e",
+    "md5": "13210b4dc3c1da224eb45a2cfe7ac892",
     "name": "openmm",
-    "sha256": "cca2193c4f31ffee2fd1af952824b61e86be049c0280bcf2c6d4557a67c9dc6b",
-    "size": 11368440,
-    "subdir": "linux-64",
-    "timestamp": 1629401761717,
+    "sha256": "62a917de0136c8dad2db02b140e192d65c3b5035d737bf6181d53b29fc9a2898",
+    "size": 10950591,
+    "subdir": "win-64",
+    "timestamp": 1629402772217,
     "version": "7.6.0rc1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openmm-7.6.0rc1-py39hf0f3aa7_0.tar.bz2/openmm-7.6.0rc1-py39hf0f3aa7_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/openmm-7.6.0rc1-py36h07675ee_0.tar.bz2/openmm-7.6.0rc1-py36h07675ee_0.tar.bz2"
 }
