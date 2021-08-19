@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "OpenMM is a toolkit for molecular simulation. It can be used either as a stand-alone application for running simulations, or as a library you call from your own code. It provides a combination of extreme flexibility (through custom forces and integrators), openness, and high performance (especially on recent GPUs) that make it truly unique among simulation codes. OpenMM is MIT licensed with some LGPL portions (CUDA and OpenCL platforms).",
+    "dev_url": "https://github.com/openmm/openmm",
+    "doc_source_url": null,
+    "doc_url": "http://docs.openmm.org",
+    "home": "http://openmm.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": "https://github.com/openmm/openmm.git",
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A high performance toolkit for molecular simulation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1629401207,
+    "version": "7.6.0rc1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmm-feedstock",
+  "labels": [
+    "openmm_rc"
+  ],
+  "package": "openmm-7.6.0rc1-py36h1846938_0_apple.tar.bz2",
+  "repodata": {
+    "build": "py36h1846938_0_apple",
+    "build_number": 0,
+    "constrains": [
+      "khronos-opencl-icd-loader  ==9999999999",
+      "ocl_icd_wrapper_apple      ==9999999999"
+    ],
+    "depends": [
+      "fftw >=3.3.9,<4.0a0",
+      "libcxx >=11.1.0",
+      "numpy",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "1542a5fa63d3276a71119b193a9922f8",
+    "name": "openmm",
+    "sha256": "9bd60d0c91ad975ae2e7aeaa15491ca60dc2905f3660b662dfb61819ec8016b8",
+    "size": 9841148,
+    "subdir": "osx-64",
+    "timestamp": 1629401207914,
+    "version": "7.6.0rc1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/openmm-7.6.0rc1-py36h1846938_0_apple.tar.bz2/openmm-7.6.0rc1-py36h1846938_0_apple.tar.bz2"
+}
