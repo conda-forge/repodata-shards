@@ -39,6 +39,9 @@ jobs:
       - name: remove undistributable
         shell: bash -l {0}
         run: |
+          python -c "print('::add-mask::test-mask', flush=True)"
+          echo "value: test-mask"
+        
           git config --global user.email 'pelson.pub+conda-forge@gmail.com'
           git config --global user.name 'conda-forge-admin'
           git config --global pull.rebase false
