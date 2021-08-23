@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Zoltan Library provides critical data-management services to a wide range of parallel applications.",
+    "dev_url": "https://cs.sandia.gov/Zoltan/",
+    "doc_source_url": null,
+    "doc_url": "https://cs.sandia.gov/Zoltan/",
+    "home": "http://www.cs.sandia.gov/Zoltan/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.83": {
+        "weak": [
+          "zoltan * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://cs.sandia.gov/Zoltan/Zoltan_Distributions/zoltan_distrib_v3.83.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Parallel Partitioning, Load Balancing and Data-Management Services",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1629706268,
+    "version": "3.83"
+  },
+  "channeldata_version": 1,
+  "feedstock": "zoltan-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "zoltan-3.83-mpi_mpich_h90f5e57_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h90f5e57_2",
+    "build_number": 2,
+    "depends": [
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "mpich >=3.4.2,<4.0a0",
+      "perl >=5.32.1,<5.32.2.0a0 *_perl5"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "010c3bbd673f1cc7066cc6d70bf9e6c7",
+    "name": "zoltan",
+    "sha256": "d1b3f6340124d945b7469ee76a78a88dce95cc0ef092159be336d3bf207bad0f",
+    "size": 514710,
+    "subdir": "osx-64",
+    "timestamp": 1629706268297,
+    "version": "3.83"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/zoltan-3.83-mpi_mpich_h90f5e57_2.tar.bz2/zoltan-3.83-mpi_mpich_h90f5e57_2.tar.bz2"
+}
