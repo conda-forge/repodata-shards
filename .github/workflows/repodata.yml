@@ -52,11 +52,11 @@ jobs:
             run-repodata-worker 300
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_ALPHA }}
+          GITHUB_TOKEN: ${{ secrets.CF_DAEMON_GITHUB_TOKEN }}
 
       - name: trigger next job
         if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: repodata
-          token: ${{ secrets.PAT_ALPHA }}
+          token: ${{ secrets.CF_DAEMON_GITHUB_TOKEN }}

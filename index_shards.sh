@@ -1,19 +1,14 @@
 #!/bin/bash
 
-conda install -y -q git
-
 git config --global user.email 'pelson.pub+conda-forge@gmail.com'
 git config --global user.name 'conda-forge-admin'
 git config --global pull.rebase false
 
 pushd ..
-
 git clone --depth=1 https://github.com/conda-forge/repodata-tools.git
 pushd repodata-tools
-conda env update -n test --file environment.yml
 pip install -e .
 popd
-
 popd
 
 pushd ${GITHUB_WORKSPACE}

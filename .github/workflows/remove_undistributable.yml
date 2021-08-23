@@ -28,30 +28,26 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: conda-incubator/setup-miniconda@v2
-        with:
-          python-version: 3.8
-          channels: conda-forge,defaults
-          channel-priority: strict
-          show-channel-urls: true
+      - name: get env file
+        shell: bash -l {0}
+        run: |
+          wget https://raw.githubusercontent.com/conda-forge/repodata-tools/master/environment.yml
+
+      - name: install micromamba
+        uses: mamba-org/provision-with-micromamba@main
 
       - name: remove undistributable
         shell: bash -l {0}
         run: |
-          conda install -y -q git
-
           git config --global user.email 'pelson.pub+conda-forge@gmail.com'
           git config --global user.name 'conda-forge-admin'
           git config --global pull.rebase false
 
           pushd ..
-
           git clone --depth=1 https://github.com/conda-forge/repodata-tools.git
           pushd repodata-tools
-          conda env update -n test --file environment.yml
           pip install -e .
           popd
-
           popd
 
           pushd ${GITHUB_WORKSPACE}
