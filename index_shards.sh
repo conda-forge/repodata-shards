@@ -2,8 +2,8 @@
 
 conda install -y -q git
 
-git config --global user.email '64793534+conda-forge-daemon@users.noreply.github.com'
-git config --global user.name 'conda-forge-daemon'
+git config --global user.email 'pelson.pub+conda-forge@gmail.com'
+git config --global user.name 'conda-forge-admin'
 git config --global pull.rebase false
 
 pushd ..
@@ -18,7 +18,7 @@ popd
 
 pushd ${GITHUB_WORKSPACE}
 
-repo_url=https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+repo_url=https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 git remote set-url --push origin ${repo_url}
 
 export UPLOAD_SLEEP_FACTOR="0.25"
