@@ -43,4 +43,4 @@ jobs:
           source index_shards.sh
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-          BINSTAR_TOKEN: ${{ secrets.BINSTAR_TOKEN }}
+          BINSTAR_TOKEN: ${{ secrets.PROD_BINSTAR_TOKEN }}
