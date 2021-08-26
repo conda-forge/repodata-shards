@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/DrTimothyAldenDavis/SuiteSparse",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://faculty.cse.tamu.edu/davis/suitesparse.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.10.1": {
+        "weak": [
+          "suitesparse >=5.10.1,<6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/v5.10.1.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A suite of sparse matrix algorithms",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1630003177,
+    "version": "5.10.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "suitesparse-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "suitesparse-5.10.1-ha09e1de_1.tar.bz2",
+  "repodata": {
+    "build": "ha09e1de_1",
+    "build_number": 1,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpfr >=4.1.0,<5.0a0",
+      "tbb >=2021.3.0"
+    ],
+    "license": "LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+    "md5": "a4c3bf300222ea0913efcba55449a915",
+    "name": "suitesparse",
+    "sha256": "9bd01ccc5b25be653a1d09115a72b8a6240db59c70ce5b23a301e224b0afed6b",
+    "size": 2821358,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1630003177141,
+    "version": "5.10.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/suitesparse-5.10.1-ha09e1de_1.tar.bz2/suitesparse-5.10.1-ha09e1de_1.tar.bz2"
+}
