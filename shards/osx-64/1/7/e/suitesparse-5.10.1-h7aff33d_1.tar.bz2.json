@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/DrTimothyAldenDavis/SuiteSparse",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://faculty.cse.tamu.edu/davis/suitesparse.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.10.1": {
+        "weak": [
+          "suitesparse >=5.10.1,<6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/v5.10.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A suite of sparse matrix algorithms",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1630001688,
+    "version": "5.10.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "suitesparse-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "suitesparse-5.10.1-h7aff33d_1.tar.bz2",
+  "repodata": {
+    "build": "h7aff33d_1",
+    "build_number": 1,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpfr >=4.1.0,<5.0a0",
+      "tbb >=2021.3.0"
+    ],
+    "license": "LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+    "md5": "d30185298e8ba70c8bc17121f837730d",
+    "name": "suitesparse",
+    "sha256": "6aadb010ca234dae7795a61add8a19593f55f80e135b88c52e2e52058d3072ae",
+    "size": 2619792,
+    "subdir": "osx-64",
+    "timestamp": 1630001688709,
+    "version": "5.10.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/suitesparse-5.10.1-h7aff33d_1.tar.bz2/suitesparse-5.10.1-h7aff33d_1.tar.bz2"
+}
