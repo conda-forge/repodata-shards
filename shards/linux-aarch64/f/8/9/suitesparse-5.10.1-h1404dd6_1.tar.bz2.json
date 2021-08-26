@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/DrTimothyAldenDavis/SuiteSparse",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://faculty.cse.tamu.edu/davis/suitesparse.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.10.1": {
+        "weak": [
+          "suitesparse >=5.10.1,<6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/v5.10.1.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "A suite of sparse matrix algorithms",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1630002198,
+    "version": "5.10.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "suitesparse-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "suitesparse-5.10.1-h1404dd6_1.tar.bz2",
+  "repodata": {
+    "build": "h1404dd6_1",
+    "build_number": 1,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpfr >=4.1.0,<5.0a0",
+      "tbb >=2021.3.0"
+    ],
+    "license": "LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+    "md5": "351565b22e92174d1c8040f8544cf618",
+    "name": "suitesparse",
+    "sha256": "70601118fd2d53a5b70eebf329bdc8f3182e4b3440840475882c4ba67c1cdb19",
+    "size": 2403527,
+    "subdir": "linux-aarch64",
+    "timestamp": 1630002198876,
+    "version": "5.10.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/suitesparse-5.10.1-h1404dd6_1.tar.bz2/suitesparse-5.10.1-h1404dd6_1.tar.bz2"
+}
