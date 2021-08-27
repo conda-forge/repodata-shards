@@ -1,0 +1,56 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "There are a couple of ARM variants that differ based on architecture.  Currently the main ones are:   * SBSA ( Server Base System Architecture ), which is used in clusters, cloud environments, etc.   * Tegra ( System on a Chip ), which is used in edge applications like mobile internet devices, streaming systems, etc.  Mainly these differ as they have 2 different `cudatoolkit`s. So this package is used to select between them.  The default is SBSA. So Tegra users should make sure to change this if needed.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/arm-variant-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "A meta-package to select the ARM variant.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1630080525,
+    "version": "1.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "arm-variant-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "arm-variant-1.0.0-tegra.tar.bz2",
+  "repodata": {
+    "build": "tegra",
+    "build_number": 0,
+    "depends": [],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "ab96e513a93e05e46c202ed0ce8d4bff",
+    "name": "arm-variant",
+    "sha256": "a418e9a095b117c58e1cbf24dd09cd970294592e258e94d462fb3006acf149dd",
+    "size": 4375,
+    "subdir": "linux-aarch64",
+    "timestamp": 1630080525702,
+    "track_features": "arm_tegra",
+    "version": "1.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/arm-variant-1.0.0-tegra.tar.bz2/arm-variant-1.0.0-tegra.tar.bz2"
+}
