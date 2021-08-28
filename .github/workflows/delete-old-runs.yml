@@ -41,7 +41,7 @@ jobs:
                   if rn.status == 'completed':
                       requests.delete(
                           rn.url, 
-                          headers={"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"]},
+                          headers={'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN']},
                       )
                       done += 1
                   if done == 1000:
