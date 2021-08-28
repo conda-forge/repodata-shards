@@ -5,8 +5,8 @@ on:
   workflow_dispatch: null
 
 jobs:
-  release:
-    name: release
+  delete-old-runs:
+    name: delete-old-runs
     runs-on: "ubuntu-latest"
     steps:
       - name: generate token
@@ -51,15 +51,3 @@ jobs:
           python del_old_runs.py
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-
-# jobs:
-#   del_runs:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: delete workflow runs
-#         uses: Mattraks/delete-workflow-runs@v1.2.3
-#         with:
-#           token: ${{ secrets.GITHUB_TOKEN }}
-#           repository: ${{ github.repository }}
-#           retain_days: 1
-#           keep_minimum_runs: 0
