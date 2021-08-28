@@ -1,0 +1,82 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "At the core of DAMASK is a flexible and hierarchically structured model of material point behavior for the solution of elastoplastic boundary value problems along with damage and thermal physics. Its main purpose is the simulation of crystal plasticity within a finite-strain continuum mechanical framework.",
+    "dev_url": "https://damask3.mpie.de/development",
+    "doc_source_url": null,
+    "doc_url": "https://damask3.mpie.de/documentation",
+    "home": "https://damask3.mpie.de/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.0.0a4": {
+        "weak": [
+          "openmpi",
+          "petsc",
+          "hdf5"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://damask3.mpie.de/download/damask-3.0.0-alpha4.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Duesseldorf Advanced Material Simulation Kit",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1630147925,
+    "version": "3.0.0a4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "damask-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "damask-3.0.0a4-py39h7c529d6_11.tar.bz2",
+  "repodata": {
+    "build": "py39h7c529d6_11",
+    "build_number": 11,
+    "depends": [
+      "damask-grid 3.0.0a4 h24475b1_11",
+      "damask-mesh 3.0.0a4 h24475b1_11",
+      "h5py >=3.3.0",
+      "hdf5 >=1.12.1,<1.12.2.0a0 mpi_openmpi_*",
+      "hdf5 >=1.12.1,<1.13.0a0",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "matplotlib-base",
+      "openmpi >=4.1.1,<5.0a0",
+      "pandas",
+      "petsc >=3.15.3,<3.16.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python-damask 3.0.0a4 pyh6c4a22f_11",
+      "python_abi 3.9.* *_cp39",
+      "pyyaml",
+      "scipy",
+      "vtk"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "e75301862f9f8cc4a649a228e5af722c",
+    "name": "damask",
+    "sha256": "b57f2f4c1e66528b5f8df381b08e83e0a3003aef0d37acdce5c0e93007f19ea2",
+    "size": 6138,
+    "subdir": "osx-64",
+    "timestamp": 1630147925637,
+    "version": "3.0.0a4"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/damask-3.0.0a4-py39h7c529d6_11.tar.bz2/damask-3.0.0a4-py39h7c529d6_11.tar.bz2"
+}
