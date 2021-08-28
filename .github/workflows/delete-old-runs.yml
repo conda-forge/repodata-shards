@@ -1,17 +1,64 @@
 name: delete-old-runs
 on:
-#   schedule:
-#     - cron: '0 * * * *'
+  schedule:
+    - cron: '0 * * * *'
   workflow_dispatch: null
 
 jobs:
-  del_runs:
-    runs-on: ubuntu-latest
+  release:
+    name: release
+    runs-on: "ubuntu-latest"
     steps:
-      - name: delete workflow runs
-        uses: Mattraks/delete-workflow-runs@v1.2.3
+      - name: generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}
-          retain_days: 1
-          keep_minimum_runs: 0
+          app_id: ${{ secrets.CF_CURATOR_APP_ID }}
+          private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
+
+      - name: get env file
+        shell: bash -l {0}
+        run: |
+          wget https://raw.githubusercontent.com/conda-forge/repodata-tools/master/environment.yml
+
+      - name: install micromamba
+        uses: mamba-org/provision-with-micromamba@main
+
+      - name: delete runs
+        shell: bash -l {0}
+        run: |
+          echo "\
+          import pygithub
+          import os
+          import sys
+          import requests
+          
+          gh = github.Github(os.environ['GITHUB_TOKEN'])
+          r = gh.get_repo('conda-forge/repodata-shards')
+          done = 0
+          for w in r.get_workflows():
+              for rn in w.get_runs():
+                  if rn.status == 'completed':
+                      requests.delete(
+                          rn.url, 
+                          headers={"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"]},
+                      done += 1
+                  if done == 1000:
+                      sys.exit(0)
+          " > del_old_runs.py
+          
+          python del_old_runs.py
+        env:
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+
+# jobs:
+#   del_runs:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: delete workflow runs
+#         uses: Mattraks/delete-workflow-runs@v1.2.3
+#         with:
+#           token: ${{ secrets.GITHUB_TOKEN }}
+#           repository: ${{ github.repository }}
+#           retain_days: 1
+#           keep_minimum_runs: 0
