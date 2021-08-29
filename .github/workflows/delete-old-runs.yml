@@ -40,7 +40,7 @@ jobs:
               skip_one = True
               for _ in range(10):
                   for rn in w.get_runs():
-                      if rn.status == 'completed':
+                      if rn.status == 'completed' and rn.conclusion in ['success', 'cancelled']:
                           if skip_one:
                               skip_one = False
                               continue
