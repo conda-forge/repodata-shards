@@ -38,7 +38,7 @@ jobs:
           done = 0
           for w in r.get_workflows():
               for rn in w.get_runs():
-                  if rn.status == 'completed':
+                  if rn.status == 'completed' and rn.conclusion == 'success':
                       requests.delete(
                           rn.url, 
                           headers={'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN']},
