@@ -38,18 +38,19 @@ jobs:
           done = 0
           for w in r.get_workflows():
               skip_one = True
-              for rn in w.get_runs():
-                  if rn.status == 'completed':
-                      if skip_one:
-                          skip_one = False
-                          continue
-                      requests.delete(
-                          rn.url, 
-                          headers={'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN']},
-                      )
-                      done += 1
-                  if done == 2000:
-                      sys.exit(0)
+              for _ in range(10):
+                  for rn in w.get_runs():
+                      if rn.status == 'completed':
+                          if skip_one:
+                              skip_one = False
+                              continue
+                          requests.delete(
+                              rn.url, 
+                              headers={'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN']},
+                          )
+                          done += 1
+                      if done == 2000:
+                          sys.exit(0)
           " > del_old_runs.py
           
           python del_old_runs.py
