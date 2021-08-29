@@ -39,7 +39,7 @@ jobs:
           for w in r.get_workflows():
               skip_one = True
               for rn in w.get_runs():
-                  if rn.status == 'completed' and rn.conclusion == 'success':
+                  if rn.status == 'completed':
                       if skip_one:
                           skip_one = False
                           continue
