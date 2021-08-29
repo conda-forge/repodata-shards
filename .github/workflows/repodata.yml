@@ -31,7 +31,7 @@ jobs:
         if: success() && ! steps.turnstyle.outputs.force_continued
         uses: mamba-org/provision-with-micromamba@main
 
-      - name: make repodata
+      - name: install code
         if: success() && ! steps.turnstyle.outputs.force_continued
         shell: bash -l {0}
         run: |
@@ -46,14 +46,61 @@ jobs:
           popd
           popd
 
+      - name: generate token 1
+        if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
+        id: generate_token_1
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.CF_CURATOR_APP_ID }}
+          private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
+
+      - name: make repodata 1
+        if: success() && ! steps.turnstyle.outputs.force_continued
+        shell: bash -l {0}
+        run: |
           if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
-            run-repodata-worker --make-releases --main-only 7710
+            run-repodata-worker --make-releases --main-only 2700
           else
             run-repodata-worker 300
           fi
         env:
-          APP_ID: ${{ secrets.CF_CURATOR_APP_ID }}
-          APP_PRIVATE_KEY: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
+          GITHUB_TOKEN: ${{ steps.generate_token_1.outputs.token }}
+
+      - name: generate token 2
+        if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
+        id: generate_token_2
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.CF_CURATOR_APP_ID }}
+          private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
+
+      - name: make repodata 2
+        if: success() && ! steps.turnstyle.outputs.force_continued
+        shell: bash -l {0}
+        run: |
+          if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
+            run-repodata-worker --make-releases --main-only 2700
+          fi
+        env:
+          GITHUB_TOKEN: ${{ steps.generate_token_2.outputs.token }}
+
+      - name: generate token 3
+        if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
+        id: generate_token_3
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.CF_CURATOR_APP_ID }}
+          private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
+
+      - name: make repodata 3
+        if: success() && ! steps.turnstyle.outputs.force_continued
+        shell: bash -l {0}
+        run: |
+          if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
+            run-repodata-worker --make-releases --main-only 2700
+          fi
+        env:
+          GITHUB_TOKEN: ${{ steps.generate_token_3.outputs.token }}
 
       - name: generate token
         if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
