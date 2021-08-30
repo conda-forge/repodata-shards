@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/bnosac/doc2vec",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/doc2vec/doc2vec_0.2.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/doc2vec_0.2.0.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Learn vector representations of sentences, paragraphs or documents by using the 'Paragraph Vector' algorithms, namely the distributed bag of words ('PV-DBOW') and the distributed memory ('PV-DM') model. The techniques in the package are detailed in the paper \"Distributed Representations of Sentences and Documents\" by Mikolov et al. (2014), available at <arXiv:1405.4053>. The package also provides an implementation to cluster documents based on these embedding using a technique called top2vec. Top2vec finds clusters in text documents by combining techniques to embed documents and words and density-based clustering. It does this by embedding documents in the semantic space as defined by the 'doc2vec' algorithm. Next it maps these document embeddings to a lower-dimensional space using the 'Uniform Manifold Approximation and Projection' (UMAP) clustering algorithm and finds dense areas in that space using a 'Hierarchical Density-Based Clustering' technique (HDBSCAN). These dense areas are the topic clusters which can be represented by the corresponding topic vector which is an aggregate of the document embeddings of the documents which are part of that topic cluster. In the same semantic space similar words can be found which are representative of the topic. More details can be found in the paper 'Top2Vec: Distributed Representations of Topics' by D. Angelov available at <arXiv:2008.09470>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1630313624,
+    "version": "0.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-doc2vec-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-doc2vec-0.2.0-r41h03ef668_0.tar.bz2",
+  "repodata": {
+    "build": "r41h03ef668_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "r-base >=4.1,<4.2.0a0",
+      "r-rcpp >=0.11.5"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "9ecd6aca09f296a34815ae6c90ce8401",
+    "name": "r-doc2vec",
+    "sha256": "62370e35b6fa524a4c046c500d6b7d2ab05706c3bf2631dbd50df7b87b68d817",
+    "size": 5269934,
+    "subdir": "linux-64",
+    "timestamp": 1630313624923,
+    "version": "0.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-doc2vec-0.2.0-r41h03ef668_0.tar.bz2/r-doc2vec-0.2.0-r41h03ef668_0.tar.bz2"
+}
