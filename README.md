@@ -5,6 +5,5 @@
 [![update-shards-3](https://github.com/conda-forge/repodata-shards/actions/workflows/update-shards-3.yml/badge.svg)](https://github.com/conda-forge/repodata-shards/actions/workflows/update-shards-3.yml)
 [![remove undistributable](https://github.com/conda-forge/repodata-shards/actions/workflows/remove_undistributable.yml/badge.svg)](https://github.com/conda-forge/repodata-shards/actions/workflows/remove_undistributable.yml)
 [![repodata](https://github.com/conda-forge/repodata-shards/actions/workflows/repodata.yml/badge.svg)](https://github.com/conda-forge/repodata-shards/actions/workflows/repodata.yml)
-![latest release](https://img.shields.io/github/v/release/conda-forge/repodata-shards)
 
 This repo holds repodata and repodata shards for conda-forge.
