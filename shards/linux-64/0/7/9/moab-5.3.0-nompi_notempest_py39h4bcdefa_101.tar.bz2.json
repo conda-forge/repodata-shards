@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Mesh-Oriented datABase (MOAB) is a component for representing and evaluating mesh data. MOAB can store structured and unstructured mesh, consisting of elements in the finite element zoo plus polygons and polyhedra.",
+    "dev_url": "https://bitbucket.org/fathomteam/moab.git",
+    "doc_source_url": null,
+    "doc_url": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "home": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/fathom/moab-5.3.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The Mesh-Oriented datABase",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1630494246,
+    "version": "5.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "moab-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "moab-5.3.0-nompi_notempest_py39h4bcdefa_101.tar.bz2",
+  "repodata": {
+    "build": "nompi_notempest_py39h4bcdefa_101",
+    "build_number": 101,
+    "depends": [
+      "hdf5 * nompi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "setuptools"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "md5": "3aad40ff780ddff447b15d76500f968e",
+    "name": "moab",
+    "sha256": "24fd15d9bef15115b141f0cac8f3943d3501cb27a235706bf743db29b44f5eed",
+    "size": 5177072,
+    "subdir": "linux-64",
+    "timestamp": 1630494246383,
+    "version": "5.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/moab-5.3.0-nompi_notempest_py39h4bcdefa_101.tar.bz2/moab-5.3.0-nompi_notempest_py39h4bcdefa_101.tar.bz2"
+}
