@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Zoltan Library provides critical data-management services to a wide range of parallel applications.",
+    "dev_url": "https://github.com/sandialabs/Zoltan",
+    "doc_source_url": null,
+    "doc_url": "https://cs.sandia.gov/Zoltan/",
+    "home": "http://www.cs.sandia.gov/Zoltan/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.90": {
+        "weak": [
+          "zoltan * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/sandialabs/Zoltan/archive/refs/tags/v3.90.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Parallel Partitioning, Load Balancing and Data-Management Services",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1630472777,
+    "version": "3.90"
+  },
+  "channeldata_version": 1,
+  "feedstock": "zoltan-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "zoltan-3.90-mpi_openmpi_h7338eb6_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h7338eb6_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "openmpi >=4.1,<4.2.0a0",
+      "perl >=5.32.1,<5.32.2.0a0 *_perl5"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "a8b58eaf343df7a28a31b9687cf5b20b",
+    "name": "zoltan",
+    "sha256": "617d5b129d7eebfd7849f9df9677869652d829f3e6c6f819cec4d4bfd411f4d0",
+    "size": 513450,
+    "subdir": "linux-64",
+    "timestamp": 1630472777768,
+    "version": "3.90"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/zoltan-3.90-mpi_openmpi_h7338eb6_0.tar.bz2/zoltan-3.90-mpi_openmpi_h7338eb6_0.tar.bz2"
+}
