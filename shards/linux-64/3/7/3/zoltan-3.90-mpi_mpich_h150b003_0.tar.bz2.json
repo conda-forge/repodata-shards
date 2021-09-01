@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Zoltan Library provides critical data-management services to a wide range of parallel applications.",
+    "dev_url": "https://github.com/sandialabs/Zoltan",
+    "doc_source_url": null,
+    "doc_url": "https://cs.sandia.gov/Zoltan/",
+    "home": "http://www.cs.sandia.gov/Zoltan/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.90": {
+        "weak": [
+          "zoltan * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/sandialabs/Zoltan/archive/refs/tags/v3.90.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Parallel Partitioning, Load Balancing and Data-Management Services",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1630472759,
+    "version": "3.90"
+  },
+  "channeldata_version": 1,
+  "feedstock": "zoltan-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "zoltan-3.90-mpi_mpich_h150b003_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h150b003_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "mpich >=3.4,<3.5.0a0",
+      "perl >=5.32.1,<5.32.2.0a0 *_perl5"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "1e35decc1283c66ebfb063528348948e",
+    "name": "zoltan",
+    "sha256": "f614d5f9e5b3df9b71262d07ee163524ad27c46f615c2d2ea7f2177c42d1cc09",
+    "size": 510522,
+    "subdir": "linux-64",
+    "timestamp": 1630472759699,
+    "version": "3.90"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/zoltan-3.90-mpi_mpich_h150b003_0.tar.bz2/zoltan-3.90-mpi_mpich_h150b003_0.tar.bz2"
+}
