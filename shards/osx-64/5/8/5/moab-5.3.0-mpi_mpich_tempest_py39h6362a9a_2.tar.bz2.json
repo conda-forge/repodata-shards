@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Mesh-Oriented datABase (MOAB) is a component for representing and evaluating mesh data. MOAB can store structured and unstructured mesh, consisting of elements in the finite element zoo plus polygons and polyhedra.",
+    "dev_url": "https://bitbucket.org/fathomteam/moab.git",
+    "doc_source_url": null,
+    "doc_url": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "home": "http://press3.mcs.anl.gov/sigma/moab-library/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.3.0": {
+        "weak": [
+          "moab * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/fathom/moab-5.3.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Mesh-Oriented datABase",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1630564280,
+    "version": "5.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "moab-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "moab-5.3.0-mpi_mpich_tempest_py39h6362a9a_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_tempest_py39h6362a9a_2",
+    "build_number": 2,
+    "depends": [
+      "hdf5 * mpi_mpich_*",
+      "hdf5 >=1.12.1,<1.12.2.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libnetcdf * mpi_mpich_*",
+      "libnetcdf >=4.8.1,<4.8.2.0a0 mpi_mpich_*",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.4,<3.5.0a0",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "setuptools",
+      "tempest-remap 2.1.0.*",
+      "zoltan * mpi_mpich_*"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "md5": "dea5c3ad48fcdb6b9378c79061cc57cf",
+    "name": "moab",
+    "sha256": "63755a8f371c5ccafb5254642716d2211261504b650405336de755b92e82fa7c",
+    "size": 7812110,
+    "subdir": "osx-64",
+    "timestamp": 1630564280152,
+    "version": "5.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/moab-5.3.0-mpi_mpich_tempest_py39h6362a9a_2.tar.bz2/moab-5.3.0-mpi_mpich_tempest_py39h6362a9a_2.tar.bz2"
+}
