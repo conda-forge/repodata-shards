@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/petersonR/bestNormalize",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/bestNormalize/bestNormalize_1.8.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/bestNormalize_1.8.1.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Estimate a suite of normalizing transformations, including a new adaptation of a technique based on ranks which can guarantee normally distributed transformed data if there are no ties: ordered quantile normalization (ORQ). ORQ normalization combines a rank-mapping approach with a shifted logit approximation that allows the transformation to work on data outside the original domain. It is also able to handle new data within the original domain via linear interpolation. The package is built to estimate the best normalizing transformation for a vector consistently and accurately. It implements the Box-Cox transformation, the Yeo-Johnson transformation, three types of Lambert WxF transformations, and the ordered quantile normalization transformation. It also estimates the normalization efficacy of other commonly used transformations, and finally it allows users to specify custom transformations or normalization statistics.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1630606488,
+    "version": "1.8.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-bestnormalize-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-bestnormalize-1.8.1-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-butcher",
+      "r-doparallel",
+      "r-dorng",
+      "r-dplyr",
+      "r-foreach",
+      "r-lambertw >=0.6.5",
+      "r-nortest",
+      "r-purrr",
+      "r-recipes",
+      "r-tibble"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "f3a1addcab0dd5fe67a923556f7e3eb0",
+    "name": "r-bestnormalize",
+    "noarch": "generic",
+    "sha256": "86d34ab90f52870826c78a9a2bd49a8f14cf58bb01712912768e41450e70ccbf",
+    "size": 1153025,
+    "subdir": "noarch",
+    "timestamp": 1630606488493,
+    "version": "1.8.1"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-bestnormalize-1.8.1-r41hc72bb7e_0.tar.bz2/r-bestnormalize-1.8.1-r41hc72bb7e_0.tar.bz2"
+}
