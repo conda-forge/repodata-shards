@@ -1,7 +1,7 @@
 name: delete-old-runs
 on:
   schedule:
-    - cron: '0,15,30,45 * * * *'
+    - cron: '0,10,20,30,40,50 * * * *'
   workflow_dispatch: null
 
 jobs:
