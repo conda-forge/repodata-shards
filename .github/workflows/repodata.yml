@@ -18,7 +18,7 @@ jobs:
         uses: beckermr/turnstyle-python@v1
         with:
           poll-interval-seconds: 5
-          continue-after-seconds: 10
+          continue-after-seconds: 60
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: get env file
