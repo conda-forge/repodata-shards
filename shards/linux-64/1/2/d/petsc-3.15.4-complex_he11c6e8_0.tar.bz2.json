@@ -1,0 +1,83 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.mcs.anl.gov/petsc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.15.4": {
+        "weak": [
+          "petsc >=3.15.4,<3.16.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.15.4.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1630687903,
+    "version": "3.15.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "petsc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "petsc-3.15.4-complex_he11c6e8_0.tar.bz2",
+  "repodata": {
+    "build": "complex_he11c6e8_0",
+    "build_number": 0,
+    "depends": [
+      "fftw * mpi_openmpi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+      "hypre >=2.22.0,<2.22.1.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mumps-mpi >=5.2.1,<5.2.2.0a0",
+      "openmpi >=4.1.1,<5.0a0",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "ptscotch >=6.0.9,<6.0.10.0a0",
+      "scalapack >=2.0.2,<2.1.0a0",
+      "scotch >=6.0.9,<6.0.10.0a0",
+      "suitesparse >=5.10.1,<5.11.0a0",
+      "superlu",
+      "yaml >=0.2.5,<0.3.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "d999ca567b3a0f90e61a84235e0d2d00",
+    "name": "petsc",
+    "sha256": "6e7bde0d1ae351e21bde5af28eea908acd1670ae57873dfa6ac1d33836641bb7",
+    "size": 15069428,
+    "subdir": "linux-64",
+    "timestamp": 1630687903922,
+    "track_features": "petsc_complex",
+    "version": "3.15.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/petsc-3.15.4-complex_he11c6e8_0.tar.bz2/petsc-3.15.4-complex_he11c6e8_0.tar.bz2"
+}
