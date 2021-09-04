@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "zfp is an open source C/C++ library for compressed numerical arrays that support high throughput read and write random access. zfp also supports streaming compression of integer and floating-point data, e.g., for applications that read and write large data sets to and from disk. zfp is primarily written in C and C++ but also includes Python and Fortran bindings.",
+    "dev_url": "https://github.com/LLNL/zfp",
+    "doc_source_url": null,
+    "doc_url": "http://zfp.readthedocs.io/en/release0.5.5/",
+    "home": "https://computation.llnl.gov/projects/floating-point-compression",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.5.5": {
+        "weak": [
+          "zfp >=0.5.5,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/LLNL/zfp/archive/0.5.5.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Library for compressed numerical arrays that support high throughput read and write random access",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1630721293,
+    "version": "0.5.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "zfpy-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "zfp-0.5.5-h3b9df90_6.tar.bz2",
+  "repodata": {
+    "build": "h3b9df90_6",
+    "build_number": 6,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "5d8f6cf91d417f4baaf6460b3349b217",
+    "name": "zfp",
+    "sha256": "8b6ecb81087d958accc8257683c36a79a3b02673024d0b362c23b727f51c10fb",
+    "size": 259623,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1630721293471,
+    "version": "0.5.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/zfp-0.5.5-h3b9df90_6.tar.bz2/zfp-0.5.5-h3b9df90_6.tar.bz2"
+}
