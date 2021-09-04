@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/SciTools/cartopy",
@@ -21,25 +21,26 @@
     "source_git_url": "https://github.com/SciTools/cartopy.git",
     "source_url": null,
     "subdirs": [
-      "win-64"
+      "osx-64"
     ],
     "summary": "A library providing cartographic tools for python",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1630759547,
+    "timestamp": 1630759282,
     "version": "0.20.0a1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "cartopy-feedstock",
   "labels": [
     "cartopy_dev"
   ],
-  "package": "cartopy-0.20.0a1-py37hd53b3d9_1.tar.bz2",
+  "package": "cartopy-0.20.0a1-py37h287691e_1.tar.bz2",
   "repodata": {
-    "build": "py37hd53b3d9_1",
+    "build": "py37h287691e_1",
     "build_number": 1,
     "depends": [
       "geos >=3.9.1,<3.9.2.0a0",
+      "libcxx >=11.1.0",
       "matplotlib-base >=1.5.1",
       "numpy >=1.18.5,<2.0a0",
       "proj >=8.1.0,<8.1.1.0a0",
@@ -49,21 +50,18 @@
       "python_abi 3.7.* *_cp37m",
       "scipy >=0.10",
       "shapely >=1.5.6",
-      "six >=1.3.0",
-      "ucrt",
-      "vc >=14.1,<15.0a0",
-      "vs2015_runtime >=14.16.27012"
+      "six >=1.3.0"
     ],
     "license": "LGPL-3.0-or-later",
-    "md5": "ab4426d31bd2c278e06a624f83e4daca",
+    "md5": "a663f23dc6b0fc3200e5415121f36fff",
     "name": "cartopy",
-    "sha256": "f1ee1e97d0d2ad01872df8c637570ca8270e3baba624f32150c4f115ba5cea92",
-    "size": 1806139,
-    "subdir": "win-64",
-    "timestamp": 1630759547369,
+    "sha256": "390c7c0b517e45c322d93e6ce80e50ef208a87cab77abc6944fdfa3b95c78be4",
+    "size": 1811197,
+    "subdir": "osx-64",
+    "timestamp": 1630759282662,
     "version": "0.20.0a1"
   },
   "repodata_version": 1,
-  "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/cartopy-0.20.0a1-py37hd53b3d9_1.tar.bz2/cartopy-0.20.0a1-py37hd53b3d9_1.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/cartopy-0.20.0a1-py37h287691e_1.tar.bz2/cartopy-0.20.0a1-py37h287691e_1.tar.bz2"
 }
