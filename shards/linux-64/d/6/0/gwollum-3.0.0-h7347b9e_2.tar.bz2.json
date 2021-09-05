@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The GWOLLUM package contains a set of software tools designed to perform GW analyses.  Most of the code source is written with the C++ language and it also heavily relies on the CERN ROOT libraries (also C++).",
+    "dev_url": "https://git.ligo.org/virgo/virgoapp/gwollum.git",
+    "doc_source_url": null,
+    "doc_url": "https://virgo.docs.ligo.org/virgoapp/gwollum/",
+    "home": "https://virgo.docs.ligo.org/virgoapp/gwollum/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.0.0": {
+        "weak": [
+          "gwollum >=3.0.0,<3.0.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://git.ligo.org/virgo/virgoapp/gwollum/-/archive/3.0.0/gwollum-3.0.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Tools for gravitational-wave analyses",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1630877779,
+    "version": "3.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gwollum-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gwollum-3.0.0-h7347b9e_2.tar.bz2",
+  "repodata": {
+    "build": "h7347b9e_2",
+    "build_number": 2,
+    "depends": [
+      "fftw >=3.3.9,<4.0a0",
+      "hdf5 >=1.10.6,<1.10.7.0a0",
+      "libframel >=8.41.3,<9.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "root_base >=6.24.6,<6.24.7.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "30c3b8b1ae9ef0edd8932e704e463a19",
+    "name": "gwollum",
+    "sha256": "c061149cf1e0146a0b44031e82c31059f9f7e2d49f7712ac1411e37acd7aa920",
+    "size": 6396498,
+    "subdir": "linux-64",
+    "timestamp": 1630877779822,
+    "version": "3.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gwollum-3.0.0-h7347b9e_2.tar.bz2/gwollum-3.0.0-h7347b9e_2.tar.bz2"
+}
