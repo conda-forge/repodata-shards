@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "lintegrate provides Python functions for numerical integration of functions in log-space. This is useful for functions that have a very large dynamic range, or intrinsically would include very large or small numbers, and therefore it is more practical to work with the natural logarithm of the function. In these cases it is useful to also stay within log-space when integrating the function, which is what this package enables.  The functions provided by lintegrate are equivalent to, and based on, several numerical integration routines provided within the GNU Scientific Library (GSL).",
+    "dev_url": "https://github.com/mattpitkin/lintegrate.git",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/mattpitkin/lintegrate",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/lintegrate/lintegrate-0.1.8.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Python functions implementing numerical integration of functions in log-space.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1630937571,
+    "version": "0.1.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lintegrate-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lintegrate-0.1.8-py37hfac3dde_0.tar.bz2",
+  "repodata": {
+    "build": "py37hfac3dde_0",
+    "build_number": 0,
+    "depends": [
+      "gsl >=2.7,<2.8.0a0",
+      "numpy >=1.19.5,<2.0a0",
+      "pypy3.7 >=7.3.5",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7 *_pypy37_pp73"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "47baac943233a2edea28318d3355b7b3",
+    "name": "lintegrate",
+    "sha256": "53b937ad2e62bef4e0658d0ee70324d45482032e5a1f47fa6f8530a73bd07c6b",
+    "size": 103575,
+    "subdir": "osx-64",
+    "timestamp": 1630937571156,
+    "version": "0.1.8"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/lintegrate-0.1.8-py37hfac3dde_0.tar.bz2/lintegrate-0.1.8-py37hfac3dde_0.tar.bz2"
+}
