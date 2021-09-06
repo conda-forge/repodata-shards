@@ -25,7 +25,7 @@ jobs:
         if: success() && ! steps.turnstyle.outputs.force_continued
         shell: bash -l {0}
         run: |
-          wget https://raw.githubusercontent.com/conda-forge/repodata-tools/master/environment.yml
+          wget https://raw.githubusercontent.com/conda-forge/repodata-tools/main/environment.yml
 
       - name: install micromamba
         if: success() && ! steps.turnstyle.outputs.force_continued
@@ -47,7 +47,7 @@ jobs:
           popd
 
       - name: generate token 1
-        if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
+        if: github.ref == 'refs/heads/main' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
         id: generate_token_1
         uses: tibdex/github-app-token@v1
         with:
@@ -58,7 +58,7 @@ jobs:
         if: success() && ! steps.turnstyle.outputs.force_continued
         shell: bash -l {0}
         run: |
-          if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
+          if [[ ${GITHUB_REF} == "refs/heads/main" ]]; then
             run-repodata-worker --make-releases --main-only 2700
           else
             run-repodata-worker 300
@@ -67,7 +67,7 @@ jobs:
           GITHUB_TOKEN: ${{ steps.generate_token_1.outputs.token }}
 
       - name: generate token 2
-        if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
+        if: github.ref == 'refs/heads/main' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
         id: generate_token_2
         uses: tibdex/github-app-token@v1
         with:
@@ -78,14 +78,14 @@ jobs:
         if: success() && ! steps.turnstyle.outputs.force_continued
         shell: bash -l {0}
         run: |
-          if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
+          if [[ ${GITHUB_REF} == "refs/heads/main" ]]; then
             run-repodata-worker --make-releases --main-only 2700
           fi
         env:
           GITHUB_TOKEN: ${{ steps.generate_token_2.outputs.token }}
 
       - name: generate token 3
-        if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
+        if: github.ref == 'refs/heads/main' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
         id: generate_token_3
         uses: tibdex/github-app-token@v1
         with:
@@ -96,14 +96,14 @@ jobs:
         if: success() && ! steps.turnstyle.outputs.force_continued
         shell: bash -l {0}
         run: |
-          if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
+          if [[ ${GITHUB_REF} == "refs/heads/main" ]]; then
             run-repodata-worker --make-releases --main-only 2700
           fi
         env:
           GITHUB_TOKEN: ${{ steps.generate_token_3.outputs.token }}
 
       - name: generate token
-        if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
+        if: github.ref == 'refs/heads/main' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
         id: generate_token
         uses: tibdex/github-app-token@v1
         with:
@@ -111,7 +111,7 @@ jobs:
           private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
       
       - name: trigger next job
-        if: github.ref == 'refs/heads/master' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
+        if: github.ref == 'refs/heads/main' && ! steps.turnstyle.outputs.force_continued && ! cancelled()
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: repodata
