@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=tmle",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD_3_clause | GPL-2",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/tmle/tmle_1.5.0.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/tmle_1.5.0.2.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Targeted maximum likelihood estimation of point treatment effects (Targeted Maximum Likelihood Learning, The International Journal of Biostatistics, 2(1), 2006.  This version automatically estimates the additive treatment effect among the treated (ATT) and among the controls (ATC).  The tmle() function calculates the adjusted marginal difference in mean outcome associated with a binary point treatment, for continuous or binary outcomes.  Relative risk and odds ratio estimates are also reported for binary outcomes. Missingness in the outcome is allowed, but not in treatment assignment or baseline covariate values.  The population mean is calculated when there is missingness, and no variation in the treatment assignment. The tmleMSM() function estimates the parameters of a marginal structural model for a binary point treatment effect. Effect estimation stratified by a binary mediating variable is also available. An ID argument can be used to identify repeated measures. Default settings call 'SuperLearner' to estimate the Q and g portions of the likelihood, unless values or a user-supplied regression function are passed in as arguments.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1630973891,
+    "version": "1.5.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-tmle-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-tmle-1.5.0.2-r40hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-glmnet",
+      "r-superlearner >=2.0"
+    ],
+    "license": "BSD_3_clause | GPL-2",
+    "license_family": "GPL2",
+    "md5": "f24fd365a8fe7c7245596b7d6a677652",
+    "name": "r-tmle",
+    "noarch": "generic",
+    "sha256": "cdcd338175d3c930e99c72666b48adab6858f648ca50e4f0ea66359101a9b588",
+    "size": 198000,
+    "subdir": "noarch",
+    "timestamp": 1630973891289,
+    "version": "1.5.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-tmle-1.5.0.2-r40hc72bb7e_0.tar.bz2/r-tmle-1.5.0.2-r40hc72bb7e_0.tar.bz2"
+}
