@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "lintegrate provides Python functions for numerical integration of functions in log-space. This is useful for functions that have a very large dynamic range, or intrinsically would include very large or small numbers, and therefore it is more practical to work with the natural logarithm of the function. In these cases it is useful to also stay within log-space when integrating the function, which is what this package enables.  The functions provided by lintegrate are equivalent to, and based on, several numerical integration routines provided within the GNU Scientific Library (GSL).",
+    "dev_url": "https://github.com/mattpitkin/lintegrate.git",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/mattpitkin/lintegrate",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/lintegrate/lintegrate-0.1.8.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Python functions implementing numerical integration of functions in log-space.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1631012691,
+    "version": "0.1.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lintegrate-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lintegrate-0.1.8-py36h9bbe860_1.tar.bz2",
+  "repodata": {
+    "build": "py36h9bbe860_1",
+    "build_number": 1,
+    "depends": [
+      "gsl >=2.7,<2.8.0a0",
+      "numpy >=1.18.5,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "vc >=14.1,<15.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "4d4f454947b65fe5df973c23995b9042",
+    "name": "lintegrate",
+    "sha256": "00931f31e493131a4c5ff4c906d31b82cf793d494e14da54dd348a3a3864de00",
+    "size": 101410,
+    "subdir": "win-64",
+    "timestamp": 1631012691255,
+    "version": "0.1.8"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/lintegrate-0.1.8-py36h9bbe860_1.tar.bz2/lintegrate-0.1.8-py36h9bbe860_1.tar.bz2"
+}
