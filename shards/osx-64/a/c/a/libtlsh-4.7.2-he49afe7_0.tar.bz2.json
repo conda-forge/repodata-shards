@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Given a byte stream with a minimum length of 50 bytes TLSH generates a hash value which can be used for similarity comparisons. Similar objects will have similar hash values which allows for the detection of similar objects by comparing their hash values. Note that the byte stream should have a sufficient amount of complexity. For example, a byte stream of identical bytes will not generate a hash value.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/trendmicro/tlsh",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.7.2": {
+        "weak": [
+          "libtlsh >=4.7.2,<4.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/trendmicro/tlsh/archive/4.7.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "TLSH is a fuzzy matching library.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1631109714,
+    "version": "4.7.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "tlsh-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libtlsh-4.7.2-he49afe7_0.tar.bz2",
+  "repodata": {
+    "build": "he49afe7_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.1.0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "3440db4ce91f0533a7ea091427b64b82",
+    "name": "libtlsh",
+    "sha256": "6aaad3ae471ae4c022433c69d24ebb63f841c93bd68b0d9995e79dcde13d284f",
+    "size": 32549,
+    "subdir": "osx-64",
+    "timestamp": 1631109714689,
+    "version": "4.7.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libtlsh-4.7.2-he49afe7_0.tar.bz2/libtlsh-4.7.2-he49afe7_0.tar.bz2"
+}
