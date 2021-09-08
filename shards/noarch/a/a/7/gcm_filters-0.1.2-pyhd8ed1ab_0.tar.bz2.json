@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "GCM-Filters is a python package that performs spatial filtering analysis in a flexible and efficient way. The GCM-Filters algorithm applies a discrete Laplacian to smooth a field through an iterative process that resembles diffusion (Grooms et al., 2021 <https://doi.org/10.1002/essoar.10506591.1>). The package is specifically designed to work with gridded data that is produced by General Circulation Models (GCMs) of ocean, weather, and climate. Such GCM data come on complex curvilinear grids, whose geometry is respected by the GCM-Filters Laplacians. Through integration with dask <https://dask.org/>, GCM-Filters enables parallel, out-of-core filter analysis on both CPUs and GPUs.",
+    "dev_url": "https://github.com/ocean-eddy-cpt/gcm-filters",
+    "doc_source_url": null,
+    "doc_url": "https://gcm-filters.readthedocs.io/en/latest/",
+    "home": "https://github.com/ocean-eddy-cpt/gcm-filters",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/g/gcm_filters/gcm_filters-0.1.2.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Diffusion-based Spatial Filtering of Gridded Data from General Circulation Models",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1631134583,
+    "version": "0.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gcm_filters-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gcm_filters-0.1.2-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "dask",
+      "python >=3.6",
+      "scipy",
+      "xarray"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "2bcabd9fa8248cc6c0e90f1e6aa13285",
+    "name": "gcm_filters",
+    "noarch": "python",
+    "sha256": "0e70ff02dc8c66e87ff67aa7fe0d42236dbaff5d66ad476dc74326f77636b946",
+    "size": 16323,
+    "subdir": "noarch",
+    "timestamp": 1631134583476,
+    "version": "0.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/gcm_filters-0.1.2-pyhd8ed1ab_0.tar.bz2/gcm_filters-0.1.2-pyhd8ed1ab_0.tar.bz2"
+}
