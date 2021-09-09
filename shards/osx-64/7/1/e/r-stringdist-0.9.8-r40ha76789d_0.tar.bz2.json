@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/markvanderloo/stringdist",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/stringdist/stringdist_0.9.8.tar.gz",
+      "https://cran.r-project.org/src/contrib/stringdist_0.9.8.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Implements an approximate string matching version of R's native 'match' function. Can calculate various string distances based on edits (Damerau-Levenshtein, Hamming, Levenshtein, optimal sting alignment), qgrams (q- gram, cosine, jaccard distance) or heuristic metrics (Jaro, Jaro-Winkler). An implementation of soundex is provided as well. Distances can be computed between character vectors while taking proper care of encoding or between integer vectors representing generic sequences. This package is built for speed and runs in parallel by using 'openMP'. An API for C or C++ is exposed as well.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1631213580,
+    "version": "0.9.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-stringdist-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-stringdist-0.9.8-r40ha76789d_0.tar.bz2",
+  "repodata": {
+    "build": "r40ha76789d_0",
+    "build_number": 0,
+    "depends": [
+      "llvm-openmp >=11.1.0",
+      "llvm-openmp >=12.0.1",
+      "r-base >=4.0,<4.1.0a0"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "ebf643524a11cda2866de8aa8ea5bfae",
+    "name": "r-stringdist",
+    "sha256": "4c2339a935b93e781a9ff0d2d13e4958fdf27a9defe35e0242a8e8184128905a",
+    "size": 584902,
+    "subdir": "osx-64",
+    "timestamp": 1631213580418,
+    "version": "0.9.8"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/r-stringdist-0.9.8-r40ha76789d_0.tar.bz2/r-stringdist-0.9.8-r40ha76789d_0.tar.bz2"
+}
