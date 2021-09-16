@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "libdaemon is a lightweight C library which eases the writing of UNIX daemons. It consists of the following parts:  - Wrapper around fork() for correct daemonization of a process - Wrapper around syslog() for simple log output to syslog or STDERR - An API for writing PID files - An API for serializing signals into a pipe for use with select() or poll() - An API for running subprocesses with STDOUT and STDERR redirected to syslog  Routines like these are included in most of the daemon software available. It is not simple to get these done right and code duplication is not acceptable.  This package includes the header files and the static version of the library.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://0pointer.de/lennart/projects/libdaemon/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.14": {
+        "weak": [
+          "libdaemon >=0.14,<0.15.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A lightweight C library which eases the writing of UNIX daemons",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1631783464,
+    "version": "0.14"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libdaemon-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libdaemon-0.14-h7f98852_1.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.4.0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "LGPL",
+    "md5": "d2ca9f48f34cc5a126b03b4c79b49be5",
+    "name": "libdaemon",
+    "sha256": "6eb3dc383a5e42484cec65bd00442316cb1725aa1fce80e76fd76c835092df31",
+    "size": 40120,
+    "subdir": "linux-64",
+    "timestamp": 1631783464273,
+    "version": "0.14"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libdaemon-0.14-h7f98852_1.tar.bz2/libdaemon-0.14-h7f98852_1.tar.bz2"
+}
