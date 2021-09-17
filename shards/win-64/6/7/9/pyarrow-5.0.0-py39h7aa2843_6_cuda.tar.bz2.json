@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/apache/arrow",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://dist.apache.org/repos/dist/release/arrow/arrow-5.0.0/apache-arrow-5.0.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Python libraries for Apache Arrow",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1631907073,
+    "version": "5.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "arrow-cpp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyarrow-5.0.0-py39h7aa2843_6_cuda.tar.bz2",
+  "repodata": {
+    "build": "py39h7aa2843_6_cuda",
+    "build_number": 6,
+    "constrains": [
+      "arrow-cpp-proc * cuda",
+      "cudatoolkit >=9.2"
+    ],
+    "depends": [
+      "arrow-cpp 5.0.0 py39h4982f15_6_cuda",
+      "numpy >=1.16,<2.0a0",
+      "parquet-cpp 1.5.1.*",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "Apache-2.0",
+    "md5": "59262f2488d8cd3a2f672bd66de49e39",
+    "name": "pyarrow",
+    "sha256": "6583070703c1f4fea5a714f69bb18b8ff193aaef867e030362c1590c2248756c",
+    "size": 2523853,
+    "subdir": "win-64",
+    "timestamp": 1631907073621,
+    "track_features": "arrow-cuda",
+    "version": "5.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/pyarrow-5.0.0-py39h7aa2843_6_cuda.tar.bz2/pyarrow-5.0.0-py39h7aa2843_6_cuda.tar.bz2"
+}
