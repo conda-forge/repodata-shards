@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Shenfun is a high performance computing platform for solving partial differential equations (PDEs) by the spectral Galerkin method. The platform can be used for any PDE, but applications are limited to multidimensional tensor product grids. The code is parallelized with MPI through the mpi4py-fft package.",
+    "dev_url": "https://github.com/spectralDNS/shenfun",
+    "doc_source_url": null,
+    "doc_url": "https://shenfun.readthedocs.io",
+    "home": "https://github.com/spectralDNS/shenfun",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD 2-clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/spectralDNS/shenfun/archive/3.2.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "High performance computational platform for the spectral Galerkin method",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1632170863,
+    "version": "3.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "shenfun-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "shenfun-3.2.1-py36h53ee4fe_0.tar.bz2",
+  "repodata": {
+    "build": "py36h53ee4fe_0",
+    "build_number": 0,
+    "depends": [
+      "fftw >=3.3.10,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "mpi4py",
+      "mpi4py-fft >=2.0.3",
+      "netcdf4 * mpi_*",
+      "numpy >=1.18.5,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m",
+      "pyyaml",
+      "scipy",
+      "sympy"
+    ],
+    "license": "BSD 2-clause",
+    "license_family": "BSD",
+    "md5": "704911b2b5607b8e5bfceac23201e74c",
+    "name": "shenfun",
+    "sha256": "ddb3993b2e8312e67dc68afc31a6dd63e4651456ceb745f385ac48c6a0bed850",
+    "size": 1795909,
+    "subdir": "linux-64",
+    "timestamp": 1632170863868,
+    "version": "3.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/shenfun-3.2.1-py36h53ee4fe_0.tar.bz2/shenfun-3.2.1-py36h53ee4fe_0.tar.bz2"
+}
