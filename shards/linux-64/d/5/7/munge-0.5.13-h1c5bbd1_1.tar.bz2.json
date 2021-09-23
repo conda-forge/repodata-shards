@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MUNGE (MUNGE Uid 'N' Gid Emporium) is an authentication service for creating and validating credentials.  It is designed to be highly scalable for use in an HPC cluster environment.  It allows a process to authenticate the UID and GID of another local or remote process within a group of hosts having common users and groups. These hosts form a security realm that is defined by a shared cryptographic key. Clients within this security realm can create and validate credentials without the use of root privileges, reserved ports, or platform-specific methods.",
+    "dev_url": "https://github.com/dun/munge",
+    "doc_source_url": null,
+    "doc_url": "https://dun.github.io/munge/",
+    "home": "https://dun.github.io/munge/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/dun/munge/releases/download/munge-0.5.13/munge-0.5.13.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "MUNGE (MUNGE Uid 'N' Gid Emporium) is an authentication service for creating and validating credentials",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1632387103,
+    "version": "0.5.13"
+  },
+  "channeldata_version": 1,
+  "feedstock": "munge-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "munge-0.5.13-h1c5bbd1_1.tar.bz2",
+  "repodata": {
+    "build": "h1c5bbd1_1",
+    "build_number": 1,
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "libgcc-ng >=9.4.0",
+      "openssl >=3.0.0,<4.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "83e03d9ad5c963b888089434106a8f06",
+    "name": "munge",
+    "sha256": "2915efd0b50731f9c48e2610e2f8a709072487dd0437812f3dc7b8fe1c8ee2ed",
+    "size": 128009,
+    "subdir": "linux-64",
+    "timestamp": 1632387103615,
+    "version": "0.5.13"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/munge-0.5.13-h1c5bbd1_1.tar.bz2/munge-0.5.13-h1c5bbd1_1.tar.bz2"
+}
