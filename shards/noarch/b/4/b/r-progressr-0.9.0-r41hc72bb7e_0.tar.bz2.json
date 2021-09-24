@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/HenrikBengtsson/progressr",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/progressr/progressr_0.9.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/progressr_0.9.0.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A minimal, unifying API for scripts and packages to report progress updates from anywhere including when using parallel processing.  The package is designed such that the developer can to focus on what progress should be reported on without having to worry about how to present it.  The end user has full control of how, where, and when to render these progress updates, e.g. in the terminal using utils::txtProgressBar() or progress::progress_bar(), in a graphical user interface using utils::winProgressBar(), tcltk::tkProgressBar() or shiny::withProgress(), via the speakers using beep::beepr(), or on a file system via the size of a file. Anyone can add additional, customized, progression handlers. The 'progressr' package uses R's condition framework for signaling progress updated. Because of this, progress can be reported from almost anywhere in R, e.g. from classical for and while loops, from map-reduce APIs like the lapply() family of functions, 'purrr', 'plyr', and 'foreach'. It will also work with parallel processing via the 'future' framework, e.g. future.apply::future_lapply(), furrr::future_map(), and 'foreach' with 'doFuture'. The package is compatible with Shiny applications.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1632500934,
+    "version": "0.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-progressr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-progressr-0.9.0-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-digest"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL3",
+    "md5": "7683e1faf18eee991bdb5813b2e9d463",
+    "name": "r-progressr",
+    "noarch": "generic",
+    "sha256": "52a728655a0393096a44606e479ee03cce1e7444b106b6d999f8232e7a681887",
+    "size": 278286,
+    "subdir": "noarch",
+    "timestamp": 1632500934539,
+    "version": "0.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-progressr-0.9.0-r41hc72bb7e_0.tar.bz2/r-progressr-0.9.0-r41hc72bb7e_0.tar.bz2"
+}
