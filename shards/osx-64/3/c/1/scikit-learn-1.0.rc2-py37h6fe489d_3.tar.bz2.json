@@ -21,28 +21,29 @@
     "source_git_url": null,
     "source_url": "https://github.com/scikit-learn/scikit-learn/archive/1.0.rc2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "A set of python modules for machine learning and data mining",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1632599984,
+    "timestamp": 1632600187,
     "version": "1.0.rc2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "scikit-learn-feedstock",
   "labels": [
     "scikit-learn_rc"
   ],
-  "package": "scikit-learn-1.0.rc2-py37hb0b3f18_3.tar.bz2",
+  "package": "scikit-learn-1.0.rc2-py37h6fe489d_3.tar.bz2",
   "repodata": {
-    "build": "py37hb0b3f18_3",
+    "build": "py37h6fe489d_3",
     "build_number": 3,
     "depends": [
       "joblib >=0.11",
       "libcblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=9.4.0",
-      "libstdcxx-ng >=9.4.0",
+      "libcxx >=11.1.0",
+      "llvm-openmp >=11.1.0",
+      "llvm-openmp >=12.0.1",
       "numpy >=1.19.5,<2.0a0",
       "pypy3.7 >=7.3.5",
       "python >=3.7,<3.8.0a0",
@@ -51,15 +52,15 @@
       "threadpoolctl"
     ],
     "license": "BSD-3-Clause",
-    "md5": "8fde8ea67f6430e92682f38b073f1828",
+    "md5": "491fc712ca52929304527a5842c8646e",
     "name": "scikit-learn",
-    "sha256": "4f30ed56fbc9c46d53987c200fa0d006ebfcf00165b95c81acf833ac1b7041af",
-    "size": 7640606,
-    "subdir": "linux-64",
-    "timestamp": 1632599984451,
+    "sha256": "cffd394e5d902612351e3ab5054373b112131fd04ed81bdd0cac0517c4440928",
+    "size": 6773666,
+    "subdir": "osx-64",
+    "timestamp": 1632600187807,
     "version": "1.0.rc2"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/scikit-learn-1.0.rc2-py37hb0b3f18_3.tar.bz2/scikit-learn-1.0.rc2-py37hb0b3f18_3.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/scikit-learn-1.0.rc2-py37h6fe489d_3.tar.bz2/scikit-learn-1.0.rc2-py37h6fe489d_3.tar.bz2"
 }
