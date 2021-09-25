@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libzip is a C library for reading, creating, and modifying zip archives. Files can be added from data buffers, files, or compressed data copied directly from other zip archives. Changes made without closing the archive can be reverted. The API is documented by man pages.",
+    "dev_url": "https://github.com/nih-at/libzip",
+    "doc_source_url": null,
+    "doc_url": "https://libzip.org/documentation/",
+    "home": "https://libzip.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.8.0": {
+        "weak": [
+          "libzip >=1.8.0,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://libzip.org/download/libzip-1.8.0.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "A C library for reading, creating, and modifying zip archives.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1632554326,
+    "version": "1.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libzip-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libzip-1.8.0-hc06522b_1.tar.bz2",
+  "repodata": {
+    "build": "hc06522b_1",
+    "build_number": 1,
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "openssl >=3.0.0,<4.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "f3a43700c55fe73a0608a5e646f44771",
+    "name": "libzip",
+    "sha256": "e8930289d5dd0bccf4d87ba0a2f60398287794e18536b2eef45291adc891a8c1",
+    "size": 117893,
+    "subdir": "osx-arm64",
+    "timestamp": 1632554326957,
+    "version": "1.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libzip-1.8.0-hc06522b_1.tar.bz2/libzip-1.8.0-hc06522b_1.tar.bz2"
+}
