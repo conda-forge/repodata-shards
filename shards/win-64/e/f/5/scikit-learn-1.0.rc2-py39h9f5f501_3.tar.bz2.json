@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -21,45 +21,44 @@
     "source_git_url": null,
     "source_url": "https://github.com/scikit-learn/scikit-learn/archive/1.0.rc2.tar.gz",
     "subdirs": [
-      "osx-64"
+      "win-64"
     ],
     "summary": "A set of python modules for machine learning and data mining",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1632599949,
+    "timestamp": 1632599998,
     "version": "1.0.rc2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "scikit-learn-feedstock",
   "labels": [
     "scikit-learn_rc"
   ],
-  "package": "scikit-learn-1.0.rc2-py38hafd0ba0_3.tar.bz2",
+  "package": "scikit-learn-1.0.rc2-py39h9f5f501_3.tar.bz2",
   "repodata": {
-    "build": "py38hafd0ba0_3",
+    "build": "py39h9f5f501_3",
     "build_number": 3,
     "depends": [
       "joblib >=0.11",
       "libcblas >=3.8.0,<4.0a0",
-      "libcxx >=11.1.0",
-      "llvm-openmp >=11.1.0",
-      "llvm-openmp >=12.0.1",
-      "numpy >=1.18.5,<2.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "scipy",
-      "threadpoolctl"
+      "threadpoolctl",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "BSD-3-Clause",
-    "md5": "788821d162ce4019f6c0f63493853c02",
+    "md5": "c14675bfd4060bdd764f87c9ff00fba3",
     "name": "scikit-learn",
-    "sha256": "8e90be5141bce64d3a6e7a6b563d0eed4edd3d27a8d96324b490f0d0620a263d",
-    "size": 7290556,
-    "subdir": "osx-64",
-    "timestamp": 1632599949990,
+    "sha256": "0c77b6d9e8b3269b899b56fd95b723c803816a09aaaa106a187f9f58e2993b93",
+    "size": 7251901,
+    "subdir": "win-64",
+    "timestamp": 1632599998181,
     "version": "1.0.rc2"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/scikit-learn-1.0.rc2-py38hafd0ba0_3.tar.bz2/scikit-learn-1.0.rc2-py38hafd0ba0_3.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/scikit-learn-1.0.rc2-py39h9f5f501_3.tar.bz2/scikit-learn-1.0.rc2-py39h9f5f501_3.tar.bz2"
 }
