@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libzip is a C library for reading, creating, and modifying zip archives. Files can be added from data buffers, files, or compressed data copied directly from other zip archives. Changes made without closing the archive can be reverted. The API is documented by man pages.",
+    "dev_url": "https://github.com/nih-at/libzip",
+    "doc_source_url": null,
+    "doc_url": "https://libzip.org/documentation/",
+    "home": "https://libzip.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.8.0": {
+        "weak": [
+          "libzip >=1.8.0,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://libzip.org/download/libzip-1.8.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A C library for reading, creating, and modifying zip archives.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1632554315,
+    "version": "1.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libzip-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libzip-1.8.0-h80583fb_1.tar.bz2",
+  "repodata": {
+    "build": "h80583fb_1",
+    "build_number": 1,
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "libgcc-ng >=9.4.0",
+      "openssl >=3.0.0,<4.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "cab21e20c596c6326f38c3346dc23150",
+    "name": "libzip",
+    "sha256": "bd28696e1746966c6e39dda0c8b388c4fcd97ab0b9556f13e9062f2d18fd57a1",
+    "size": 111924,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1632554315708,
+    "version": "1.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libzip-1.8.0-h80583fb_1.tar.bz2/libzip-1.8.0-h80583fb_1.tar.bz2"
+}
