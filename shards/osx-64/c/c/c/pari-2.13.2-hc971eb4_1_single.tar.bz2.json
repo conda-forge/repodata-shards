@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "http://pari.math.u-bordeaux.fr/cgi-bin/gitweb.cgi",
+    "doc_source_url": null,
+    "doc_url": "http://pari.math.u-bordeaux.fr/dochtml/html-stable/",
+    "home": "http://pari.math.u-bordeaux.fr",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.13.2": {
+        "weak": [
+          "pari >=2.13.2,<2.14.0a0",
+          "pari * *_single"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": [
+      "http://pari.math.u-bordeaux.fr/pub/pari/OLD/2.13/pari-2.13.2.tar.gz",
+      "http://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.13.2.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "PARI/GP is a widely used computer algebra system designed for fast computations in number theory",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1632752989,
+    "version": "2.13.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pari-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pari-2.13.2-hc971eb4_1_single.tar.bz2",
+  "repodata": {
+    "build": "hc971eb4_1_single",
+    "build_number": 1,
+    "depends": [
+      "gmp >=6.2.1,<7.0a0",
+      "openssl >=3.0.0,<4.0a0",
+      "pari-galdata",
+      "pari-seadata-small",
+      "perl 5.*",
+      "readline >=8.1,<9.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "6b182769127cac1a9964bdbc4080c85f",
+    "name": "pari",
+    "sha256": "05e2b0069eb8bc09a9323ddd1f5dfd165021ea425fca7048c058bc7115fb7fb9",
+    "size": 22524760,
+    "subdir": "osx-64",
+    "timestamp": 1632752989309,
+    "version": "2.13.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pari-2.13.2-hc971eb4_1_single.tar.bz2/pari-2.13.2-hc971eb4_1_single.tar.bz2"
+}
