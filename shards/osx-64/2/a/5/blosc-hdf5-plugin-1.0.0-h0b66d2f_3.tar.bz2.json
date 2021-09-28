@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The plugin is being placed into HDF5 plugin directory, so it can be dynamically loaded. This enables the usage for other libraries like h5py. We use our own CMakeLists here to enable easy linking against Conda-Forges BLOSC library.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/Blosc/hdf5-blosc",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "3-Clause BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "HDF5 plugin for BLOSC filter",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1632868813,
+    "version": "1.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blosc-hdf5-plugin-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blosc-hdf5-plugin-1.0.0-h0b66d2f_3.tar.bz2",
+  "repodata": {
+    "build": "h0b66d2f_3",
+    "build_number": 3,
+    "depends": [
+      "blosc >=1.21.0,<2.0a0",
+      "hdf5 >=1.12.1,<1.12.2.0a0",
+      "libcxx >=11.1.0"
+    ],
+    "license": "3-Clause BSD",
+    "md5": "ba81e6fdef7941bf300435089c9ec962",
+    "name": "blosc-hdf5-plugin",
+    "sha256": "3d75c69020bc1609f04a12acfdca1ae97c9d88bc483ce47c85306c59b06b86a5",
+    "size": 9588,
+    "subdir": "osx-64",
+    "timestamp": 1632868813829,
+    "version": "1.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/blosc-hdf5-plugin-1.0.0-h0b66d2f_3.tar.bz2/blosc-hdf5-plugin-1.0.0-h0b66d2f_3.tar.bz2"
+}
