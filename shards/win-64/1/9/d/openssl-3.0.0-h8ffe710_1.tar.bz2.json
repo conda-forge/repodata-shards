@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/openssl/openssl",
+    "doc_source_url": null,
+    "doc_url": "https://www.openssl.org/docs/man3.0/",
+    "home": "http://www.openssl.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.0.0": {
+        "weak": [
+          "openssl >=3.0.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.openssl.org/source/openssl-3.0.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "OpenSSL is an open-source implementation of the SSL and TLS protocols",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1632902388,
+    "version": "3.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openssl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openssl-3.0.0-h8ffe710_1.tar.bz2",
+  "repodata": {
+    "build": "h8ffe710_1",
+    "build_number": 1,
+    "depends": [
+      "ca-certificates",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "ee17e64f6cc002dbef834f85c35801a4",
+    "name": "openssl",
+    "sha256": "57a2d71046ee4bc7f4406076d23dc29eeb06f80a7e3fd107f11290429c22125b",
+    "size": 10505306,
+    "subdir": "win-64",
+    "timestamp": 1632902388417,
+    "version": "3.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/openssl-3.0.0-h8ffe710_1.tar.bz2/openssl-3.0.0-h8ffe710_1.tar.bz2"
+}
