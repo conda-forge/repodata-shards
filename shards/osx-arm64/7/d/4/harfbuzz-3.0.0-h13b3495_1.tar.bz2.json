@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "HarfBuzz is a text shaping library. New Harbuzz targets various font technologies while Old HarfBuzz targets only OpenType fonts.",
+    "dev_url": "https://github.com/behdad/harfbuzz",
+    "doc_source_url": null,
+    "doc_url": "https://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "home": "http://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.0.0": {
+        "weak": [
+          "harfbuzz >=3.0.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/harfbuzz/harfbuzz/archive/3.0.0.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "An OpenType text shaping engine.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1633095676,
+    "version": "3.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "harfbuzz-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "harfbuzz-3.0.0-h13b3495_1.tar.bz2",
+  "repodata": {
+    "build": "h13b3495_1",
+    "build_number": 1,
+    "depends": [
+      "cairo >=1.16.0,<1.17.0a0",
+      "freetype >=2.10.4,<3.0a0",
+      "graphite2",
+      "icu >=68.1,<69.0a0",
+      "libcxx >=11.1.0",
+      "libglib >=2.68.4,<3.0a0"
+    ],
+    "license": "MIT",
+    "md5": "af8cbfa2e6dfdb75fd87a2c6b659608c",
+    "name": "harfbuzz",
+    "sha256": "183c196b0f30e7e1d8b3ebd38833f4bf3f18e415c1bd4e9d2fef41a41f94735e",
+    "size": 1762035,
+    "subdir": "osx-arm64",
+    "timestamp": 1633095676015,
+    "version": "3.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/harfbuzz-3.0.0-h13b3495_1.tar.bz2/harfbuzz-3.0.0-h13b3495_1.tar.bz2"
+}
