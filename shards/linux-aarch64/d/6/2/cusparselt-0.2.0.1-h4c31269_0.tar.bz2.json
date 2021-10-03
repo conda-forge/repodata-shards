@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NVIDIA cuSPARSELt is a high-performance CUDA library dedicated to general matrix-matrix operations in which at least one operand is a sparse matrix. The cuSPARSELt APIs allow flexibility in the algorithm/operation selection, epilogue, and matrix characteristics, including memory layout, alignment, and data types. License Agreements:- The packages are governed by the NVIDIA cuSPARSELt Software License Agreement (EULA). By downloading and using the packages, you accept the terms and conditions of the NVIDIA cuSPARSELt EULA - https://docs.nvidia.com/cuda/cusparselt/license.html",
+    "dev_url": "https://developer.nvidia.com/cusparselt/downloads",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/cuda/cusparselt/index.html",
+    "home": "https://developer.nvidia.com/cusparse",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-cuSPARSELt-Software-License-Agreement",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.2.0.1": {
+        "weak": [
+          "cusparselt 0.2.0.1 0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://developer.download.nvidia.com/compute/libcusparse-lt/0.2.0/local_installers/libcusparse_lt-linux-sbsa-0.2.0.1.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Basic Linear Algebra for Sparse Matrices on NVIDIA GPUs",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1633221542,
+    "version": "0.2.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cusparselt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cusparselt-0.2.0.1-h4c31269_0.tar.bz2",
+  "repodata": {
+    "build": "h4c31269_0",
+    "build_number": 0,
+    "constrains": [
+      "__glibc >=2.17"
+    ],
+    "depends": [
+      "__glibc >=2.17,<3.0.a0",
+      "_openmp_mutex >=4.5",
+      "cudatoolkit >=11.2,<12",
+      "libgcc-ng >=3.0",
+      "libstdcxx-ng >=3.4"
+    ],
+    "license": "LicenseRef-cuSPARSELt-Software-License-Agreement",
+    "md5": "3d3e60bf5ef20c38cafe776669408dcc",
+    "name": "cusparselt",
+    "sha256": "fd3cffb5182b8c284f54f69d6618146e44db76170318d6a5427b0e89da479f2c",
+    "size": 8244960,
+    "subdir": "linux-aarch64",
+    "timestamp": 1633221542863,
+    "version": "0.2.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/cf-staging/linux-aarch64/cusparselt-0.2.0.1-h4c31269_0.tar.bz2"
+}
