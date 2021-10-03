@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.18": {
+        "weak": [
+          "libopenblas-ilp64 >=0.3.18,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.18.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "An optimized BLAS library (ILP64 interface) based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1633296898,
+    "version": "0.3.18"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openblas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libopenblas-ilp64-0.3.18-openmp_h518357c_0.tar.bz2",
+  "repodata": {
+    "build": "openmp_h518357c_0",
+    "build_number": 0,
+    "constrains": [
+      "openblas-ilp64 >=0.3.18,<0.3.19.0a0"
+    ],
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "llvm-openmp >=12.0.1"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "d1bc040eb8197160726049189c714ea8",
+    "name": "libopenblas-ilp64",
+    "sha256": "15b96e9dbcf238fde3907b6fd04d59394739df8a3fb2787f7d88dcafd06f1e7b",
+    "size": 5493296,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1633296898260,
+    "track_features": "openblas_threading_openmp",
+    "version": "0.3.18"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libopenblas-ilp64-0.3.18-openmp_h518357c_0.tar.bz2/libopenblas-ilp64-0.3.18-openmp_h518357c_0.tar.bz2"
+}
