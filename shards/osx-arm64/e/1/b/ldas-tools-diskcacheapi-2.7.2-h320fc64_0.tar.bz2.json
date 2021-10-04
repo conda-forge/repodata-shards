@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "LDAS tools diskcacheAPI library. This package provides the runtime libraries and executables but does not provide the systemd infrastructure to run diskcache as a service.",
+    "dev_url": "https://git.ligo.org/ldastools/LDAS_Tools",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wiki.ligo.org/Computing/LDASTools",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.2": {
+        "weak": [
+          "ldas-tools-diskcacheapi >=2.7.2,<2.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/ldas-tools-diskcacheAPI-2.7.2.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "LDAS tools diskcacheAPI library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1633340099,
+    "version": "2.7.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ldas-tools-diskcacheapi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ldas-tools-diskcacheapi-2.7.2-h320fc64_0.tar.bz2",
+  "repodata": {
+    "build": "h320fc64_0",
+    "build_number": 0,
+    "depends": [
+      "ldas-tools-al >=2.6.7",
+      "ldas-tools-al >=2.6.7,<2.7.0a0",
+      "ldas-tools-ldasgen >=2.7.3",
+      "ldas-tools-ldasgen >=2.7.3,<2.8.0a0",
+      "libcxx >=11.1.0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "bc1aefcd67a3730bfa56c4bc6a28ffcb",
+    "name": "ldas-tools-diskcacheapi",
+    "sha256": "1b0e1f8687ce940921b2c00440a811398c70265f69d85812c37e7ee10d5d5204",
+    "size": 802786,
+    "subdir": "osx-arm64",
+    "timestamp": 1633340099636,
+    "version": "2.7.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/ldas-tools-diskcacheapi-2.7.2-h320fc64_0.tar.bz2/ldas-tools-diskcacheapi-2.7.2-h320fc64_0.tar.bz2"
+}
