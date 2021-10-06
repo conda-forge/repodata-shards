@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The libevent API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached. Furthermore, libevent also supports callbacks due to signals or regular timeouts.",
+    "dev_url": "https://github.com/libevent/libevent",
+    "doc_source_url": null,
+    "doc_url": "http://www.wangafu.net/~nickm/libevent-1.4/doxygen/html/",
+    "home": "http://libevent.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.1.10": {
+        "weak": [
+          "libevent >=2.1.10,<2.1.11.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/libevent/libevent/archive/release-2.1.10-stable.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "An event notification library.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1633489443,
+    "version": "2.1.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libevent-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libevent-2.1.10-h19c23f1_4.tar.bz2",
+  "repodata": {
+    "build": "h19c23f1_4",
+    "build_number": 4,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "openssl >=3.0.0,<4.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "5973f3a3e97ee5abbc99a363a0455b96",
+    "name": "libevent",
+    "sha256": "4941f12c37541dd70f81a40eb8d771e627fc36324228f64113b404aae09f16b5",
+    "size": 1410031,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1633489443475,
+    "version": "2.1.10"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libevent-2.1.10-h19c23f1_4.tar.bz2/libevent-2.1.10-h19c23f1_4.tar.bz2"
+}
