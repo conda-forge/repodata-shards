@@ -1,0 +1,82 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pytorch.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": "https://github.com/pytorch/pytorch.git",
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1633511102,
+    "version": "1.9.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pytorch-1.9.1-cuda110py37h4a33b93_3.tar.bz2",
+  "repodata": {
+    "build": "cuda110py37h4a33b93_3",
+    "build_number": 3,
+    "constrains": [
+      "pytorch-gpu = 1.9.1",
+      "pytorch-cpu = 99999999"
+    ],
+    "depends": [
+      "__glibc >=2.17",
+      "__glibc >=2.17,<3.0.a0",
+      "_openmp_mutex >=4.5",
+      "cffi",
+      "cudatoolkit 11.0|11.0.*",
+      "cudnn >=8.2.1.32,<9.0a0",
+      "future",
+      "libblas * *_mkl",
+      "libblas >=3.9.0,<4.0a0",
+      "libgcc-ng >=7.5.0",
+      "libprotobuf >=3.18.1,<3.19.0a0",
+      "libstdcxx-ng >=7.5.0",
+      "magma >=2.5.4,<2.5.5.0a0",
+      "mkl 2021.*",
+      "mkl >=2021.3.0,<2022.0a0",
+      "nccl >=2.11.4.1,<3.0a0",
+      "ninja",
+      "numpy >=1.18.5,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "sleef >=3.5.1,<4.0a0",
+      "typing_extensions"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "ae64768650ab09ddc4fe9302d389960a",
+    "name": "pytorch",
+    "sha256": "09c20ca56bf1d8a60a2f4b4c2ad123548eef9cdccf7388b3e5cc1de29bc41586",
+    "size": 566105950,
+    "subdir": "linux-64",
+    "timestamp": 1633511102679,
+    "version": "1.9.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytorch-1.9.1-cuda110py37h4a33b93_3.tar.bz2"
+}
