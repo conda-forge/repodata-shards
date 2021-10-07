@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The aim of the Remote Backend Compiler project is to distribute the tasks of a program JIT compilation process to separate computer systems using the client-server model. The frontend of the compiler runs on the client computer and the backend runs on the server computer. The compiler frontend will send the program code to compiler backend in LLVM IR form where it will be compiled to machine code.",
+    "dev_url": "https://github.com/xnd-project/rbc",
+    "doc_source_url": null,
+    "doc_url": "https://rbc.readthedocs.io/",
+    "home": "https://github.com/xnd-project/rbc",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.org/packages/source/r/rbc-project/rbc-project-0.6.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "RBC - Remote Backend Compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1633591116,
+    "version": "0.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "rbc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "rbc-0.6.1-py37hf985489_0.tar.bz2",
+  "repodata": {
+    "build": "py37hf985489_0",
+    "build_number": 0,
+    "depends": [
+      "llvmlite >=0.29",
+      "netifaces",
+      "numba",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "six",
+      "tblib",
+      "thriftpy2"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "a8c83ae0c6f12672d3ddbf10d56841b2",
+    "name": "rbc",
+    "sha256": "c809dabc9caa14452df1f43201b8430a3dd4661d25bce4e2b94a7f11ddae37b3",
+    "size": 295182,
+    "subdir": "osx-64",
+    "timestamp": 1633591116112,
+    "version": "0.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/rbc-0.6.1-py37hf985489_0.tar.bz2/rbc-0.6.1-py37hf985489_0.tar.bz2"
+}
