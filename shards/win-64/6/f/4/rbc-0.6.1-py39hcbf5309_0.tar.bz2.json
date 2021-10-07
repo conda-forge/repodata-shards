@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The aim of the Remote Backend Compiler project is to distribute the tasks of a program JIT compilation process to separate computer systems using the client-server model. The frontend of the compiler runs on the client computer and the backend runs on the server computer. The compiler frontend will send the program code to compiler backend in LLVM IR form where it will be compiled to machine code.",
+    "dev_url": "https://github.com/xnd-project/rbc",
+    "doc_source_url": null,
+    "doc_url": "https://rbc.readthedocs.io/",
+    "home": "https://github.com/xnd-project/rbc",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.org/packages/source/r/rbc-project/rbc-project-0.6.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "RBC - Remote Backend Compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1633590997,
+    "version": "0.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "rbc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "rbc-0.6.1-py39hcbf5309_0.tar.bz2",
+  "repodata": {
+    "build": "py39hcbf5309_0",
+    "build_number": 0,
+    "depends": [
+      "llvmlite >=0.29",
+      "netifaces",
+      "numba",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "six",
+      "tblib",
+      "thriftpy2"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "a3eeac1e7b20490ca1e2ef49422fb484",
+    "name": "rbc",
+    "sha256": "2b0844de84206da772b82a624c4d2b581e652939ab40bf6269f5e9155f514b01",
+    "size": 297826,
+    "subdir": "win-64",
+    "timestamp": 1633590997265,
+    "version": "0.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/rbc-0.6.1-py39hcbf5309_0.tar.bz2/rbc-0.6.1-py39hcbf5309_0.tar.bz2"
+}
