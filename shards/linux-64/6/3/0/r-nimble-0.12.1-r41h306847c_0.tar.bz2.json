@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://r-nimble.org, https://github.com/nimble-dev/nimble",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause AND GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/nimble/nimble_0.12.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/nimble_0.12.1.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A system for writing hierarchical statistical models largely compatible with 'BUGS' and 'JAGS', writing nimbleFunctions to operate models and do basic R-style math, and compiling both models and nimbleFunctions via custom- generated C++. 'NIMBLE' includes default methods for MCMC, particle filtering, Monte Carlo Expectation Maximization, and some other tools. The nimbleFunction system makes it easy to do things like implement new MCMC samplers from R, customize the assignment of samplers to different parts of a model from R, and compile the new samplers automatically via C++ alongside the samplers 'NIMBLE' provides. 'NIMBLE' extends the 'BUGS'/'JAGS' language by making it extensible: New distributions and functions can be added, including as calls to external compiled code. Although most people think of MCMC as the main goal of the 'BUGS'/'JAGS' language for writing models, one can use 'NIMBLE' for writing arbitrary other kinds of model-generic algorithms as well. A full User Manual is available at <https://r-nimble.org>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1633824081,
+    "version": "0.12.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-nimble-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-nimble-0.12.1-r41h306847c_0.tar.bz2",
+  "repodata": {
+    "build": "r41h306847c_0",
+    "build_number": 0,
+    "depends": [
+      "gxx_linux-64 9.*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libopenblas >=0.3.18,<1.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "make",
+      "r-base >=4.1,<4.2.0a0",
+      "r-coda",
+      "r-igraph",
+      "r-r6"
+    ],
+    "license": "BSD-3-Clause AND GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "3f7bfee745daf4309ff1535950c011c3",
+    "name": "r-nimble",
+    "sha256": "24f67f35e5932b227b40f2d623e1465f70d4d822dcf718319ec20c312506818a",
+    "size": 10046229,
+    "subdir": "linux-64",
+    "timestamp": 1633824081876,
+    "version": "0.12.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-nimble-0.12.1-r41h306847c_0.tar.bz2/r-nimble-0.12.1-r41h306847c_0.tar.bz2"
+}
