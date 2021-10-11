@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=binsreg",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/binsreg/binsreg_0.7.tar.gz",
+      "https://cran.r-project.org/src/contrib/binsreg_0.7.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Provides tools for statistical analysis using the binscatter methods developed by Cattaneo, Crump, Farrell and Feng (2021a) <arXiv:1902.09608> and Cattaneo, Crump, Farrell and Feng (2021b) <arXiv:1902.09615>. Binscatter provides a flexible way of describing the relationship between two variables based on partitioning/binning of the independent variable of interest. binsreg(), binsqreg() and binsglm() implement binscatter least squares regression, quantile regression and generalized linear regression respectively, with particular focus on constructing binned scatter plots. They also implement robust (pointwise and uniform) inference of regression functions and derivatives thereof. binstest() implements hypothesis testing procedures for parametric functional forms of and nonparametric shape restrictions on the regression function. binspwc() implements hypothesis testing procedures for pairwise group comparison of binscatter estimators. binsregselect() implements data-driven procedures for selecting the number of bins for binscatter estimation. All the commands allow for covariate adjustment, smoothness restrictions and clustering.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1633934805,
+    "version": "0.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-binsreg-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-binsreg-0.7-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-ggplot2",
+      "r-matrixstats",
+      "r-quantreg",
+      "r-sandwich"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "f9e67be4afd69b6ed46490acf10a6bda",
+    "name": "r-binsreg",
+    "noarch": "generic",
+    "sha256": "72a91bebda3e0378556c26553e7edfd0c50f5d8985ce74ba997e7cbe96ffb87e",
+    "size": 385731,
+    "subdir": "noarch",
+    "timestamp": 1633934805704,
+    "version": "0.7"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-binsreg-0.7-r41hc72bb7e_0.tar.bz2/r-binsreg-0.7-r41hc72bb7e_0.tar.bz2"
+}
