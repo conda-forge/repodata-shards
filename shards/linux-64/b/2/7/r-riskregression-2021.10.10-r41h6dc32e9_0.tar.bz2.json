@@ -1,0 +1,81 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=riskRegression",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/riskRegression/riskRegression_2021.10.10.tar.gz",
+      "https://cran.r-project.org/src/contrib/riskRegression_2021.10.10.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Implementation of the following methods for event history analysis. Risk regression models for survival endpoints also in the presence of competing risks are fitted using binomial regression based on a time sequence of binary event status variables. A formula interface for the Fine-Gray regression model and an interface for the combination of cause-specific Cox regression models. A toolbox for assessing and comparing performance of risk predictions (risk markers and risk prediction models). Prediction performance is measured by the Brier score and the area under the ROC curve for binary possibly time-dependent outcome. Inverse probability of censoring weighting and pseudo values are used to deal with right censored data. Lists of risk markers and lists of risk models are assessed simultaneously. Cross-validation repeatedly splits the data, trains the risk prediction models on one part of each split and then summarizes and compares the performance across splits.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1633958849,
+    "version": "2021.10.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-riskregression-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-riskregression-2021.10.10-r41h6dc32e9_0.tar.bz2",
+  "repodata": {
+    "build": "r41h6dc32e9_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "r-base >=4.1,<4.2.0a0",
+      "r-cmprsk",
+      "r-data.table >=1.12.2",
+      "r-doparallel",
+      "r-foreach",
+      "r-ggplot2 >=3.1.0",
+      "r-lattice",
+      "r-lava >=1.6.5",
+      "r-mets",
+      "r-mvtnorm",
+      "r-plotrix",
+      "r-prodlim >=2018.4.18",
+      "r-publish",
+      "r-ranger",
+      "r-rcpp",
+      "r-rcpparmadillo",
+      "r-rms >=5.1.3",
+      "r-survival >=2.44.1",
+      "r-timereg >=1.9.3"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "1b449ca13265c07ad5c5fa876424c219",
+    "name": "r-riskregression",
+    "sha256": "2d1e0128ff41c21b691440bd3f003be7ab468e33a45aa3f1b739d8ff11e50f69",
+    "size": 1645640,
+    "subdir": "linux-64",
+    "timestamp": 1633958849841,
+    "version": "2021.10.10"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-riskregression-2021.10.10-r41h6dc32e9_0.tar.bz2/r-riskregression-2021.10.10-r41h6dc32e9_0.tar.bz2"
+}
