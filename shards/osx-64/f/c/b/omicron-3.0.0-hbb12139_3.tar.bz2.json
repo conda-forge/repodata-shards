@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "Omicron has been derived from a well-known 'burst-type' search pipeline called Q-pipeline (a.k.a Omega).  Q-pipeline is able to detect and characterize detector glitches with a very good efficiency and precision. So, the idea was to adapt it for detector characterization purposes, i.e. to run it over many auxiliary channels.  To achieve this, the original matlab code has been replaced by a C++ architecture and many steps have been removed to run faster.  The name Omicron was chosen to recall the Omega inheritance.",
+    "dev_url": "https://git.ligo.org/virgo/virgoapp/Omicron.git",
+    "doc_source_url": null,
+    "doc_url": "https://virgo.docs.ligo.org/virgoapp/Omicron/",
+    "home": "https://virgo.docs.ligo.org/virgoapp/Omicron/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://git.ligo.org/virgo/virgoapp/Omicron/-/archive/3.0.0/Omicron-3.0.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "An algorithm to detect and characterize transient events in gravitational-wave detectors",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1633971850,
+    "version": "3.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "omicron-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "omicron-3.0.0-hbb12139_3.tar.bz2",
+  "repodata": {
+    "build": "hbb12139_3",
+    "build_number": 3,
+    "depends": [
+      "fftw >=3.3.10,<4.0a0",
+      "gwollum >=3.0.0,<3.0.1.0a0",
+      "libcxx >=11.1.0",
+      "root_base >=6.24.6,<6.24.7.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "0856fbb07a7f66f9f6b0154645262900",
+    "name": "omicron",
+    "sha256": "1c95e852970a91fd411c971466d28a7d21047f08eb91fd30112d9da0bc73aeb0",
+    "size": 2876942,
+    "subdir": "osx-64",
+    "timestamp": 1633971850275,
+    "version": "3.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/omicron-3.0.0-hbb12139_3.tar.bz2/omicron-3.0.0-hbb12139_3.tar.bz2"
+}
