@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Lossless conversion of raster images to PDF. You should use img2pdf if your priorities are (in this order):  1. always lossless: the image embedded in the PDF will always have the exact same color information for every pixel as the input 2. small: if possible, the difference in filesize between the input image and the output PDF will only be the overhead of the PDF container itself 3 fast: if possible, the input image is just pasted into the PDF document as-is without any CPU hungry re-encoding of the pixel data",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gitlab.mister-muffin.de/josch/img2pdf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/i/img2pdf/img2pdf-0.4.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Lossless conversion of raster images to PDF",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1633981051,
+    "version": "0.4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "img2pdf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "img2pdf-0.4.2-py38h578d9bd_0.tar.bz2",
+  "repodata": {
+    "build": "py38h578d9bd_0",
+    "build_number": 0,
+    "depends": [
+      "pillow",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "LGPL",
+    "md5": "dc85915bdd0cb50068da2da5cc9ac4b6",
+    "name": "img2pdf",
+    "sha256": "9428e82115b732b30d160998885d5365524efd197e567bcb78463c1387d93f26",
+    "size": 73131,
+    "subdir": "linux-64",
+    "timestamp": 1633981051740,
+    "version": "0.4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/img2pdf-0.4.2-py38h578d9bd_0.tar.bz2/img2pdf-0.4.2-py38h578d9bd_0.tar.bz2"
+}
