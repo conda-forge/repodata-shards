@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Load STAC `pystac.Items` into `xarray.Dataset`.  ```python     catalog = pystac.Client.open(...)    query = catalog.search(...)    xx = odc.stac.load(        query.get_items(),        bands=[\"red\", \"green\", \"blue\"],        output_crs=\"EPSG:32606\",        resolution=(100, -100),    )    xx.red.plot.imshow(col=\"time\") ```",
+    "dev_url": "https://github.com/opendatacube/odc-tools/tree/develop/libs/stac",
+    "doc_source_url": null,
+    "doc_url": "https://odc-stac.readthedocs.io/",
+    "home": "https://github.com/opendatacube/odc-tools/tree/develop/libs/stac",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/o/odc-stac/odc-stac-0.2.0a8.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Tooling for converting STAC metadata to ODC data model",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634001929,
+    "version": "0.2.0a8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "odc-stac-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "odc-stac-0.2.0a8-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "affine",
+      "datacube >=1.8.5",
+      "jinja2",
+      "numpy",
+      "odc-io",
+      "pandas",
+      "pystac >=1.0.0,<2",
+      "python >=3.6",
+      "toolz",
+      "xarray"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "dd8e5d6c1b9b271695c0961ddc5e4444",
+    "name": "odc-stac",
+    "noarch": "python",
+    "sha256": "c0a4a3dd82cbd2d67e590820c82e9894ea5936cd6a67dfb517a5fbe77787057c",
+    "size": 31544,
+    "subdir": "noarch",
+    "timestamp": 1634001929481,
+    "version": "0.2.0a8"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/odc-stac-0.2.0a8-pyhd8ed1ab_0.tar.bz2/odc-stac-0.2.0a8-pyhd8ed1ab_0.tar.bz2"
+}
