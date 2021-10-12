@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "opty utilizes symbolic descriptions of ordinary differential equations expressed with SymPy to form the constraints needed to solve optimal control and parameter identification problems using the direct collocation method and non-linear programming. In general, if one can express the continuous first order ordinary differential equations of the system as symbolic expressions opty will automatically generate a function to efficiently evaluate the dynamical constraints and a function that evaluates the sparse Jacobian of the constraints, which have been optimized for speed and memory consumption. The translation of the dynamical system description to the NLP form, primarily the formation of the constraints and the Jabcobian of the constraints, manually is a time consuming and error prone process. opty eliminates both of those issues.",
+    "dev_url": "http://github.com/csu-hmc/opty",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/csu-hmc/opty",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/o/opty/opty-1.1.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Tools for optimizing dynamic systems using direct collocation.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634010695,
+    "version": "1.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "opty-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "opty-1.1.0-py37hf985489_0.tar.bz2",
+  "repodata": {
+    "build": "py37hf985489_0",
+    "build_number": 0,
+    "depends": [
+      "cyipopt >=0.1.7",
+      "cython >=0.20.1",
+      "numpy >=1.8.1",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "scipy >=0.14.1",
+      "setuptools",
+      "sympy >=1.0.0,<1.6"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "1d79ec6fef2400e8af36ad1256d23ec5",
+    "name": "opty",
+    "sha256": "ffcca3031bb1b94b9f7218226f9fcee41001098ce56b4510cc569ca5ec8f0b7d",
+    "size": 56443,
+    "subdir": "osx-64",
+    "timestamp": 1634010695494,
+    "version": "1.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/opty-1.1.0-py37hf985489_0.tar.bz2/opty-1.1.0-py37hf985489_0.tar.bz2"
+}
