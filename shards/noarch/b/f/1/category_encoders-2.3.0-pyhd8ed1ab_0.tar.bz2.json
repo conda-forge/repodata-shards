@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A set of scikit-learn-style transformers for encoding categorical variables into numeric with different techniques. While ordinal, one-hot, and hashing encoders have similar equivalents in the existing scikit-learn version, the transformers in this library all share a few useful properties:  - First-class support for pandas dataframes as an input (and optionally as   output)  - Can explicitly configure which columns in the data are encoded by name or   index, or infer non-numeric columns regardless of input type  - Can drop any columns with very low variance based on training set   optionally  - Portability: train a transformer on data, pickle it, reuse it later and   get the same thing out.  - Full compatibility with sklearn pipelines, input an array-like dataset   like any other transformer",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://contrib.scikit-learn.org/categorical-encoding",
+    "home": "https://github.com/scikit-learn-contrib/categorical_encoding",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A collection sklearn transformers to encode categorical variables as numeric",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634149821,
+    "version": "2.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "category_encoders-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "category_encoders-2.3.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "numpy >=1.14.0",
+      "pandas >=0.21.1",
+      "patsy >=0.5.1",
+      "python >=3.5",
+      "scikit-learn >=0.20.0",
+      "scipy >=1.0.0",
+      "statsmodels >=0.9.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "4aed1911666bf8b9fa28108464ecd81a",
+    "name": "category_encoders",
+    "noarch": "python",
+    "sha256": "4ae610ed26d5ec8ed47ba91837b533083adaadbf7e046cbdd027b4acbe0037d5",
+    "size": 58352,
+    "subdir": "noarch",
+    "timestamp": 1634149821813,
+    "version": "2.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/category_encoders-2.3.0-pyhd8ed1ab_0.tar.bz2/category_encoders-2.3.0-pyhd8ed1ab_0.tar.bz2"
+}
