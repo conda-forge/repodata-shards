@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GnuPG is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP). GnuPG allows you to encrypt and sign your data and communications; it features a versatile key management system, along with access modules for all kinds of public key directories. GnuPG, also known as GPG, is a command line tool with features for easy integration with other applications. A wealth of frontend applications and libraries are available. GnuPG also provides support for S/MIME and Secure Shell (ssh).",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.gnupg.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.3": {
+        "weak": [
+          "gnupg >=2.3.3,<2.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.3.3.tar.bz2",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The New GNU Privacy Guard",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634111498,
+    "version": "2.3.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "gnupg-2.3.3-hd723a69_0.tar.bz2",
+  "repodata": {
+    "build": "hd723a69_0",
+    "build_number": 0,
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "libassuan >=2.5.5,<3.0a0",
+      "libcxx >=11.1.0",
+      "libgcrypt >=1.9.4,<2.0a0",
+      "libgpg-error >=1.42,<2.0a0",
+      "libiconv >=1.16,<1.17.0a0",
+      "libksba >=1.3.5,<1.4.0a0",
+      "npth >=1.6,<2.0a0",
+      "ntbtls >=0.1.2,<1.0a0",
+      "readline >=8.1,<9.0a0",
+      "sqlite >=3.36.0,<4.0a0"
+    ],
+    "license": "LGPL-3",
+    "license_family": "GPL",
+    "md5": "e04ef9a6e3b655121a9284890f06843a",
+    "name": "gnupg",
+    "sha256": "9ad9e54f2d234073f00316fe7a04c235879251335eab07e3cb9289e59e47b4dd",
+    "size": 3674021,
+    "subdir": "osx-64",
+    "timestamp": 1634111498284,
+    "version": "2.3.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/gnupg-2.3.3-hd723a69_0.tar.bz2"
+}
