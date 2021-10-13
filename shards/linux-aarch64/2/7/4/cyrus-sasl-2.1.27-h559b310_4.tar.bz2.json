@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Simple Authentication and Security Layer (SASL) is a specification that describes how authentication mechanisms can be plugged into an application protocol on the wire. Cyrus SASL is an implementation of SASL that makes it easy for application developers to integrate authentication mechanisms into their application in a generic way.",
+    "dev_url": "https://github.com/cyrusimap/cyrus-sasl",
+    "doc_source_url": null,
+    "doc_url": "https://www.cyrusimap.org/sasl/",
+    "home": "https://www.cyrusimap.org/sasl/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause-Attribution",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.1.27": {
+        "weak": [
+          "cyrus-sasl >=2.1.27,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/cyrusimap/cyrus-sasl/archive/cyrus-sasl-2.1.27.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "This is the Cyrus SASL API implementation. It can be used on the client or server side to provide authentication and authorization services. See RFC 4422 for more information.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634119483,
+    "version": "2.1.27"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cyrus-sasl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cyrus-sasl-2.1.27-h559b310_4.tar.bz2",
+  "repodata": {
+    "build": "h559b310_4",
+    "build_number": 4,
+    "depends": [
+      "krb5 >=1.19.2,<1.20.0a0",
+      "libgcc-ng >=9.4.0",
+      "libntlm",
+      "libstdcxx-ng >=9.4.0",
+      "openssl >=3.0.0,<4.0a0"
+    ],
+    "license": "BSD-3-Clause-Attribution",
+    "license_family": "BSD",
+    "md5": "fbfb5ca52d2f182c1b32cfd137b680d4",
+    "name": "cyrus-sasl",
+    "sha256": "80f12d17200a109d19c87f995f3c6ffd44245964c03a807c6ce5bd348835d394",
+    "size": 258433,
+    "subdir": "linux-aarch64",
+    "timestamp": 1634119483572,
+    "version": "2.1.27"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/cyrus-sasl-2.1.27-h559b310_4.tar.bz2/cyrus-sasl-2.1.27-h559b310_4.tar.bz2"
+}
