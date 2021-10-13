@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -23,43 +23,36 @@
     "subdirs": [
       "osx-arm64"
     ],
-    "summary": "Assembler, archiver, ranlib, libtool, otool et al for Darwin Mach-O files",
+    "summary": "Native assembler, archiver, ranlib, libtool, otool et al for Darwin Mach-O files",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1630261059,
-    "version": "973.0.1"
+    "timestamp": 1634150805,
+    "version": "949.0.1"
   },
   "channeldata_version": 1,
   "feedstock": "cctools-and-ld64-feedstock",
   "labels": [
-    "main",
-    "broken"
+    "main"
   ],
-  "package": "cctools_osx-64-973.0.1-hed2cfe4_1.tar.bz2",
+  "package": "cctools-949.0.1-ha9384d2_23.tar.bz2",
   "repodata": {
-    "build": "hed2cfe4_1",
-    "build_number": 1,
-    "constrains": [
-      "ld64 609.*",
-      "cctools 973.0.1.*"
-    ],
+    "build": "ha9384d2_23",
+    "build_number": 23,
     "depends": [
-      "ld64_osx-64 >=609,<610.0a0",
-      "ldid",
-      "libcxx",
-      "libllvm12 >=12.0.1,<12.1.0a0"
+      "cctools_osx-arm64 949.0.1 h92b3a8a_23",
+      "ld64 530 h08716b2_23"
     ],
     "license": "APSL-2.0",
     "license_family": "Other",
-    "md5": "a42bba60a8cbe0597d0c061fe4d4565b",
-    "name": "cctools_osx-64",
-    "sha256": "cf7a8269492965eb09c6e97a42f62ab921bf3dd0a179be3b60b2e4640e56c0b7",
-    "size": 1947896,
+    "md5": "82822274b9f5b816351479be8c5aeff1",
+    "name": "cctools",
+    "sha256": "316113b267d02ecf294c555e5d025cccb4d65f9441c44d6bd74836646b54bae6",
+    "size": 16581,
     "subdir": "osx-arm64",
-    "timestamp": 1630261059777,
-    "version": "973.0.1"
+    "timestamp": 1634150805528,
+    "version": "949.0.1"
   },
   "repodata_version": 1,
   "subdir": "osx-arm64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/cctools_osx-64-973.0.1-hed2cfe4_1.tar.bz2/cctools_osx-64-973.0.1-hed2cfe4_1.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/cctools-949.0.1-ha9384d2_23.tar.bz2/cctools-949.0.1-ha9384d2_23.tar.bz2"
 }

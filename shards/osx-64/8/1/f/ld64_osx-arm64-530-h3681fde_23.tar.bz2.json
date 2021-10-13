@@ -21,45 +21,46 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "osx-arm64"
+      "osx-64"
     ],
-    "summary": "Assembler, archiver, ranlib, libtool, otool et al for Darwin Mach-O files",
+    "summary": "Darwin Mach-O cross linker",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1631654049,
-    "version": "973.0.1"
+    "timestamp": 1634150735,
+    "version": "530"
   },
   "channeldata_version": 1,
   "feedstock": "cctools-and-ld64-feedstock",
   "labels": [
-    "main",
-    "broken"
+    "main"
   ],
-  "package": "cctools_osx-arm64-973.0.1-h92b3a8a_2.tar.bz2",
+  "package": "ld64_osx-arm64-530-h3681fde_23.tar.bz2",
   "repodata": {
-    "build": "h92b3a8a_2",
-    "build_number": 2,
+    "build": "h3681fde_23",
+    "build_number": 23,
     "constrains": [
-      "ld64 609.*",
-      "cctools 973.0.1.*"
+      "clang >=12.0.1,<13.0a0",
+      "cctools 949.0.1.*",
+      "cctools_osx-arm64 949.0.1.*",
+      "ld 530.*"
     ],
     "depends": [
-      "ld64_osx-arm64 >=609,<610.0a0",
       "ldid",
       "libcxx",
-      "libllvm12 >=12.0.1,<12.1.0a0"
+      "libllvm12 >=12.0.1,<12.1.0a0",
+      "tapi >=1100.0.11,<1101.0a0"
     ],
     "license": "APSL-2.0",
     "license_family": "Other",
-    "md5": "7397d9fb54f9133a6f33894cd3412e1c",
-    "name": "cctools_osx-arm64",
-    "sha256": "f968a4428caacb72a5f656df05630f179cd1129deff5364ffd894443fd456a4b",
-    "size": 2010473,
-    "subdir": "osx-arm64",
-    "timestamp": 1631654049961,
-    "version": "973.0.1"
+    "md5": "a534a28578cf0a94609983311fd50074",
+    "name": "ld64_osx-arm64",
+    "sha256": "6509cb98750bdbcc4a5f85b056979a38bc38355fcb314eb8e9b718e5e642468d",
+    "size": 1391798,
+    "subdir": "osx-64",
+    "timestamp": 1634150735261,
+    "version": "530"
   },
   "repodata_version": 1,
-  "subdir": "osx-arm64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/cctools_osx-arm64-973.0.1-h92b3a8a_2.tar.bz2/cctools_osx-arm64-973.0.1-h92b3a8a_2.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/ld64_osx-arm64-530-h3681fde_23.tar.bz2/ld64_osx-arm64-530-h3681fde_23.tar.bz2"
 }
