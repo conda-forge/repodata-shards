@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. It is developed by [Facebook AI Research](https://research.fb.com/category/facebook-ai-research-fair/).  For best performance, the maintainers of the package [recommend](https://github.com/conda-forge/staged-recipes/pull/11337#issuecomment-623718460) using the MKL implementation of blas/lapack. You can ensure that this is installed by adding \"libblas =*=*mkl\" to your dependencies.",
+    "dev_url": "https://github.com/facebookresearch/faiss",
+    "doc_source_url": null,
+    "doc_url": "https://rawgit.com/facebookresearch/faiss/master/docs/html/annotated.html",
+    "home": "https://github.com/facebookresearch/faiss",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.7.1": {
+        "weak": [
+          "libfaiss",
+          "libfaiss =*=*_cpu"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/facebookresearch/faiss/archive/v1.7.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A library for efficient similarity search and clustering of dense vectors.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634120158,
+    "version": "1.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "faiss-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libfaiss-1.7.1-hf21947d_0_cpu.tar.bz2",
+  "repodata": {
+    "build": "hf21947d_0_cpu",
+    "build_number": 0,
+    "constrains": [
+      "faiss-proc =*=cpu",
+      "faiss-gpu ==9999999999"
+    ],
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "vc >=14.2,<15",
+      "vs2015_runtime >=14.29.30037"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "f6b7c0850a36daf9b3c11bed62d2432d",
+    "name": "libfaiss",
+    "sha256": "a6cdad2d92f141240a13592635df2dd164073f8b8819e69cd13a54fcee3a9b7b",
+    "size": 960366,
+    "subdir": "win-64",
+    "timestamp": 1634120158298,
+    "version": "1.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/libfaiss-1.7.1-hf21947d_0_cpu.tar.bz2/libfaiss-1.7.1-hf21947d_0_cpu.tar.bz2"
+}
