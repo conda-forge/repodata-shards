@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "0.8.0.dev0": {
+        "weak": [
+          "libecole 0.8.0.dev0 0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://github.com/ds4dm/ecole/archive/v0.8.0.dev0.tar.gz",
     "subdirs": [
@@ -26,41 +32,37 @@
     "summary": "Extensible Combinatorial Optimization Learning Environments",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1634150041,
+    "timestamp": 1634149994,
     "version": "0.8.0.dev0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "ecole-feedstock",
   "labels": [
     "ecole_dev"
   ],
-  "package": "ecole-0.8.0.dev0-py39hc0888c3_0.tar.bz2",
+  "package": "libecole-0.8.0.dev0-h0381a84_0.tar.bz2",
   "repodata": {
-    "build": "py39hc0888c3_0",
+    "build": "h0381a84_0",
     "build_number": 0,
     "constrains": [
-      "pyscipopt >=3.0.1"
+      "pin_compatible('xtensor')"
     ],
     "depends": [
       "__osx >=10.12",
       "fmt >=8.0.1,<9.0a0",
       "libcxx >=11.1.0",
-      "libecole 0.8.0.dev0 h0381a84_0",
-      "numpy",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
       "scip >=7.0.3,<8.0a0"
     ],
     "license": "BSD-3-Clause",
-    "md5": "d616b6f703970146d744d0e1227a68d9",
-    "name": "ecole",
-    "sha256": "8b893499a84bc072c79df9207315c6d7bcc3834ba326a580b78b18abdcf8f621",
-    "size": 362736,
+    "md5": "4ef568ecd1b76c5961a878ad1c375e70",
+    "name": "libecole",
+    "sha256": "1170ff3cc1e6412469d82a97d245824035c06da6ccc86dd549fdbd388ca8bbb5",
+    "size": 214523,
     "subdir": "osx-64",
-    "timestamp": 1634150041650,
+    "timestamp": 1634149994727,
     "version": "0.8.0.dev0"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/ecole-0.8.0.dev0-py39hc0888c3_0.tar.bz2/ecole-0.8.0.dev0-py39hc0888c3_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libecole-0.8.0.dev0-h0381a84_0.tar.bz2/libecole-0.8.0.dev0-h0381a84_0.tar.bz2"
 }

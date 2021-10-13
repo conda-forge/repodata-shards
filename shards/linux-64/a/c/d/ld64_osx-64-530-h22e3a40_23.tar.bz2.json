@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -23,44 +23,46 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": "Assembler, archiver, ranlib, libtool, otool et al for Darwin Mach-O files",
+    "summary": "Darwin Mach-O cross linker",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1631653322,
-    "version": "973.0.1"
+    "timestamp": 1634150227,
+    "version": "530"
   },
   "channeldata_version": 1,
   "feedstock": "cctools-and-ld64-feedstock",
   "labels": [
-    "main",
-    "broken"
+    "main"
   ],
-  "package": "cctools_osx-arm64-973.0.1-h7d46f33_2.tar.bz2",
+  "package": "ld64_osx-64-530-h22e3a40_23.tar.bz2",
   "repodata": {
-    "build": "h7d46f33_2",
-    "build_number": 2,
+    "build": "h22e3a40_23",
+    "build_number": 23,
     "constrains": [
-      "cctools 973.0.1.*",
-      "ld64 609.*"
+      "ld 530.*",
+      "cctools 949.0.1.*",
+      "cctools_osx-64 949.0.1.*",
+      "clang >=12.0.1,<13.0a0"
     ],
     "depends": [
-      "ld64_osx-arm64 >=609,<610.0a0",
       "ldid",
       "libgcc-ng >=9.4.0",
       "libllvm12 >=12.0.1,<12.1.0a0",
-      "libstdcxx-ng >=9.4.0"
+      "libstdcxx-ng >=9.4.0",
+      "libuuid >=2.32.1,<3.0a0",
+      "tapi >=1100.0.11,<1101.0a0"
     ],
     "license": "APSL-2.0",
     "license_family": "Other",
-    "md5": "ac6630b02fa0a57821c245a23495ecac",
-    "name": "cctools_osx-arm64",
-    "sha256": "004a2f163272b1dc87c2ea08646ca2b0e79c355328b6bd4e160bb0d2e3ce3964",
-    "size": 6735805,
+    "md5": "1b3d9350fbffa5ae56d4cc8da8af85ce",
+    "name": "ld64_osx-64",
+    "sha256": "71b3f85f25b931ea62e1086494c31f98645cd162534fae817662e789887aa73f",
+    "size": 8522587,
     "subdir": "linux-64",
-    "timestamp": 1631653322540,
-    "version": "973.0.1"
+    "timestamp": 1634150227134,
+    "version": "530"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cctools_osx-arm64-973.0.1-h7d46f33_2.tar.bz2/cctools_osx-arm64-973.0.1-h7d46f33_2.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ld64_osx-64-530-h22e3a40_23.tar.bz2/ld64_osx-64-530-h22e3a40_23.tar.bz2"
 }
