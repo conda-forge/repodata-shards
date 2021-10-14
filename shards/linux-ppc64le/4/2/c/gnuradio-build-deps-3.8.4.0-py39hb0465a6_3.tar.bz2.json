@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Install this meta-package into an environment with `gnuradio` or `gnuradio-core` in order to be able to build out-of-tree modules manually. DO NOT USE THIS IN CONDA RECIPES.",
+    "dev_url": "https://github.com/gnuradio/gnuradio",
+    "doc_source_url": null,
+    "doc_url": "https://gnuradio.org/doc/doxygen/",
+    "home": "https://gnuradio.org/",
+    "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
+    "icon_url": "icons/gnuradio-build-deps.png",
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.8.4.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "GNU Radio Companion",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634171950,
+    "version": "3.8.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gnuradio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gnuradio-build-deps-3.8.4.0-py39hb0465a6_3.tar.bz2",
+  "repodata": {
+    "app_entry": "gnuradio-companion",
+    "build": "py39hb0465a6_3",
+    "build_number": 3,
+    "constrains": [
+      "gnuradio-core 3.8.4.0 py39hb0465a6_3"
+    ],
+    "depends": [
+      "cmake",
+      "gcc_linux-ppc64le 9.*",
+      "gxx_linux-ppc64le 9.*",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "ninja",
+      "pkg-config",
+      "swig"
+    ],
+    "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "e517b84d9c7f5c260d4bb415cab55851",
+    "name": "gnuradio-build-deps",
+    "sha256": "be124d555e051b335f5f04ae480e784efd1838d7dd5b35a53908e4b1f4156364",
+    "size": 63163,
+    "subdir": "linux-ppc64le",
+    "summary": "GNU Radio Companion",
+    "timestamp": 1634171950288,
+    "type": "app",
+    "version": "3.8.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/gnuradio-build-deps-3.8.4.0-py39hb0465a6_3.tar.bz2/gnuradio-build-deps-3.8.4.0-py39hb0465a6_3.tar.bz2"
+}
