@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The basic matrix library (bml) is a collection of various matrix data formats (for dense and sparse) and their associated algorithms for basic matrix operations. Application programming interfaces (API) are available for both C and Fortran. The current status of this library allows us to use two different formats for representing matrix data. Currently these formats are dense, ELLPACK-R, ELLBLOCK, ELLSORT, and CSR.",
+    "dev_url": "https://github.com/lanl/bml",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://lanl.github.io/bml",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.3.1": {
+        "weak": [
+          "bml * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/lanl/bml/archive/v1.3.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The Basic Matrix Library (bml)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634214933,
+    "version": "1.3.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "bml-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "bml-1.3.1-mpi_mpich_h3469437_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h3469437_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "mpich >=3.4,<3.5.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "2defa7bc14040f6d8f4d75dd0cfcc006",
+    "name": "bml",
+    "sha256": "5b3eb48912c16dece522cedd0cd8c06a5a3d9e6e10204ea078a358c20c439e64",
+    "size": 390729,
+    "subdir": "linux-64",
+    "timestamp": 1634214933223,
+    "version": "1.3.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/bml-1.3.1-mpi_mpich_h3469437_0.tar.bz2/bml-1.3.1-mpi_mpich_h3469437_0.tar.bz2"
+}
