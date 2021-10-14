@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/jemalloc/jemalloc",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://jemalloc.net",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.2.1": {
+        "weak": [
+          "libjemalloc-local >=5.2.1"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/jemalloc/jemalloc/releases/download/5.2.1/jemalloc-5.2.1.tar.bz2",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "general purpose malloc(3) implementation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634212756,
+    "version": "5.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "jemalloc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "jemalloc-local-5.2.1-h01db608_6.tar.bz2",
+  "repodata": {
+    "build": "h01db608_6",
+    "build_number": 6,
+    "constrains": [
+      "jemalloc <0a0"
+    ],
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libjemalloc-local 5.2.1 h01db608_6",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "BSD-2-Clause",
+    "md5": "c0c8c99f8d0ab55998904e766e731c9e",
+    "name": "jemalloc-local",
+    "sha256": "ab829ed263dc82aa0db08505ee880e0f843fdb82122c4745584f58855bf33dfc",
+    "size": 51814,
+    "subdir": "linux-aarch64",
+    "timestamp": 1634212756851,
+    "version": "5.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/jemalloc-local-5.2.1-h01db608_6.tar.bz2/jemalloc-local-5.2.1-h01db608_6.tar.bz2"
+}
