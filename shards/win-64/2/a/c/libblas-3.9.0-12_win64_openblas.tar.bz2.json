@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "libblas >=3.9.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634286751,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libblas-3.9.0-12_win64_openblas.tar.bz2",
+  "repodata": {
+    "build": "12_win64_openblas",
+    "build_number": 12,
+    "constrains": [
+      "libcblas 3.9.0 12_win64_openblas",
+      "blas * openblas",
+      "liblapacke 3.9.0 12_win64_openblas",
+      "liblapack 3.9.0 12_win64_openblas"
+    ],
+    "depends": [
+      "libopenblas 0.3.18 pthreads_hc469a61_0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "d71890503c1e4d1bbfa3a4713e6300bf",
+    "name": "libblas",
+    "sha256": "96a8cbd9166eb49ac74a19cec8f3ddb4ecc6691dadbb373b5f2fff72cdb83306",
+    "size": 5789363,
+    "subdir": "win-64",
+    "timestamp": 1634286751514,
+    "track_features": "blas_openblas",
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/libblas-3.9.0-12_win64_openblas.tar.bz2/libblas-3.9.0-12_win64_openblas.tar.bz2"
+}
