@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "HTCondor is a workload management system for high-throughput and high-performance jobs. Like other full-featured batch systems, HTCondor provides a job queuing mechanism, scheduling policy, priority scheme, resource monitoring, and resource management. Users submit their serial or parallel jobs to HTCondor, HTCondor places them into a queue, chooses when and where to run the jobs based upon a policy, carefully monitors their progress, and ultimately informs the user upon completion.",
+    "dev_url": "https://github.com/htcondor/htcondor",
+    "doc_source_url": null,
+    "doc_url": "https://htcondor.readthedocs.io/",
+    "home": "http://htcondor.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/htcondor/htcondor/archive/V9_0_6.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "HTCondor: High Throughput Computing",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634334342,
+    "version": "9.0.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "htcondor-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "htcondor-utils-9.0.6-hb00f5a9_0.tar.bz2",
+  "repodata": {
+    "build": "hb00f5a9_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "htcondor-classads 9.0.6 hd3c618e_0",
+      "libcondor_utils 9.0.6 h09e176a_0",
+      "libcurl >=7.79.1,<8.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libuuid >=2.32.1,<3.0a0",
+      "openssl >=1.1.1l,<1.1.2a"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "391d2c3d551722abb3ad4e800c9fac91",
+    "name": "htcondor-utils",
+    "sha256": "485b855963efccea7f06db452f24182a956f999cf1187c4b8aa8ced75c3814bd",
+    "size": 22486576,
+    "subdir": "linux-64",
+    "timestamp": 1634334342571,
+    "version": "9.0.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/htcondor-utils-9.0.6-hb00f5a9_0.tar.bz2/htcondor-utils-9.0.6-hb00f5a9_0.tar.bz2"
+}
