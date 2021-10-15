@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "liblapacke >=3.9.0,<3.10.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634290298,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblapacke-3.9.0-12_linuxppc64le_openblas.tar.bz2",
+  "repodata": {
+    "build": "12_linuxppc64le_openblas",
+    "build_number": 12,
+    "constrains": [
+      "blas * openblas"
+    ],
+    "depends": [
+      "libblas 3.9.0 12_linuxppc64le_openblas",
+      "libcblas 3.9.0 12_linuxppc64le_openblas",
+      "liblapack 3.9.0 12_linuxppc64le_openblas"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "1ff3780c9688b718159c6f8478772936",
+    "name": "liblapacke",
+    "sha256": "3766db0bfa1833ec84c62d911d1daf3d1d1d423fb63d4d74f8a062f5dfbda279",
+    "size": 11973,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1634290298260,
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/liblapacke-3.9.0-12_linuxppc64le_openblas.tar.bz2/liblapacke-3.9.0-12_linuxppc64le_openblas.tar.bz2"
+}
