@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634290297,
+    "version": "2.112"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.112-openblas.tar.bz2",
+  "repodata": {
+    "build": "openblas",
+    "build_number": 12,
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "blas-devel 3.9.0 12_linuxaarch64_openblas",
+      "libblas 3.9.0 12_linuxaarch64_openblas",
+      "libcblas 3.9.0 12_linuxaarch64_openblas",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack 3.9.0 12_linuxaarch64_openblas",
+      "liblapacke 3.9.0 12_linuxaarch64_openblas",
+      "llvm-openmp >=12.0.1"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "779e9d7915d4e93fc48c5cd26803c759",
+    "name": "blas",
+    "sha256": "767fe836237231d78b4ef7a44bb10259970c2c32e4139935667c5cf0fe29d30e",
+    "size": 12417,
+    "subdir": "linux-aarch64",
+    "timestamp": 1634290297492,
+    "version": "2.112"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/blas-2.112-openblas.tar.bz2/blas-2.112-openblas.tar.bz2"
+}
