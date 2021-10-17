@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Clp (Coin-or linear programming) is an open-source linear programming solver. It is primarily meant to be used as a callable library, but a basic, stand-alone executable version is also available. It is designed to find solutions of mathematical optimization problems of the form  minimize c'x such that lhs \u2264 Ax \u2264 rhs and lb \u2264 x \u2264 ub  CLP includes primal and dual Simplex solvers. Both dual and primal algorithms can use matrix storage methods provided by the user (0-1 and network matrices are already supported in addition to the default sparse matrix). The dual algorithm has Dantzig and Steepest edge row pivot choices; new ones may be provided by the user. The same is true for the column pivot choice of the primal algorithm. The primal can also use a non linear cost which should work for piecewise linear convex functions. CLP also includes a barrier method for solving LPs.",
+    "dev_url": "https://github.com/coin-or/Clp",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://projects.coin-or.org/Clp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "EPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.17.6": {
+        "weak": [
+          "coin-or-clp >=1.17,<1.18.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/coin-or/Clp/archive/releases/1.17.6.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "COIN-OR linear programming (Clp)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634498776,
+    "version": "1.17.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "coin-or-clp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "coin-or-clp-1.17.6-hc022024_3.tar.bz2",
+  "repodata": {
+    "build": "hc022024_3",
+    "build_number": 3,
+    "constrains": [
+      "coincbc * *_metapackage"
+    ],
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "coin-or-osi >=0.108,<0.109.0a0",
+      "coin-or-utils >=2.11,<2.12.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "readline >=8.1,<9.0a0"
+    ],
+    "license": "EPL-2.0",
+    "license_family": "OTHER",
+    "md5": "87ed906ec18f556f17fbe16b6b8744fa",
+    "name": "coin-or-clp",
+    "sha256": "01aa04be89b586ace73bfb103da2328cbb5f65f8127854f1dc7010f494fb70d2",
+    "size": 1210075,
+    "subdir": "osx-64",
+    "timestamp": 1634498776513,
+    "version": "1.17.6"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/coin-or-clp-1.17.6-hc022024_3.tar.bz2/coin-or-clp-1.17.6-hc022024_3.tar.bz2"
+}
