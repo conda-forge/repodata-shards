@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "CFITSIO is a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format. CFITSIO provides simple high-level routines for reading and writing FITS files that insulate the programmer from the internal complexities of the FITS format. CFITSIO also provides many advanced features for manipulating and filtering the information in FITS files.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://heasarc.gsfc.nasa.gov/docs/software/fitsio/quick/quick.html",
+    "home": "http://heasarc.gsfc.nasa.gov/fitsio/fitsio.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-fitsio",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.0.0": {
+        "weak": [
+          "cfitsio >=4.0.0,<4.0.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.0.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A library for reading and writing FITS files",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634565736,
+    "version": "4.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cfitsio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cfitsio-4.0.0-hb20e66c_0.tar.bz2",
+  "repodata": {
+    "build": "hb20e66c_0",
+    "build_number": 0,
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "libcurl >=7.79.1,<8.0a0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LicenseRef-fitsio",
+    "md5": "c4a6bba037bbb254a214282a528147fe",
+    "name": "cfitsio",
+    "sha256": "9b5ce7cd8ee887ecfa8868d588f9a1bba1ea4f70b7c57d1f76a154e5a78ea9f0",
+    "size": 1350665,
+    "subdir": "osx-64",
+    "timestamp": 1634565736639,
+    "version": "4.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/cfitsio-4.0.0-hb20e66c_0.tar.bz2/cfitsio-4.0.0-hb20e66c_0.tar.bz2"
+}
