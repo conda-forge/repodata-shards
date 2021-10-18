@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Transform e3sm time series variables into cmip compatible data. Each variable needs its own handler script, implemented in the cmor_handlers directory (see directory for current handlers). In addition, you will need to clone the cmor repo (https://github.com/PCMDI/cmor) to access the Test and Tables directories. Test holds the common_user_input.json file which can be used as a placeholder for the user supplied metadata, and Tables holds all the CMIP6 variable tables.",
+    "dev_url": "https://github.com/E3SM-Project/e3sm_to_cmip",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/E3SM-Project/e3sm_to_cmip",
+    "home": "https://github.com/E3SM-Project/e3sm_to_cmip",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/E3SM-Project/e3sm_to_cmip/archive/v1.8.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A cli utility to transform E3SM model output into CMIP compatible data.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634586656,
+    "version": "1.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "e3sm_to_cmip-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "e3sm_to_cmip-1.8.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "cdutil",
+      "cmor >=3.6.0",
+      "dask",
+      "nco",
+      "netcdf4",
+      "python >=3.7",
+      "pyyaml",
+      "scipy",
+      "tqdm",
+      "xarray"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "e1d6495c3f08e18231c9e0dbb917ff4d",
+    "name": "e3sm_to_cmip",
+    "noarch": "python",
+    "sha256": "f712dd3181eca6183fb8fa3182e969665a39958c5ae12c07083f2f39bba720ce",
+    "size": 71528,
+    "subdir": "noarch",
+    "timestamp": 1634586656969,
+    "version": "1.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/e3sm_to_cmip-1.8.0-pyhd8ed1ab_0.tar.bz2/e3sm_to_cmip-1.8.0-pyhd8ed1ab_0.tar.bz2"
+}
