@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Object Oriented MicroMagnetic Framework (OOMMF) forms a completely functional micromagnetics package. OOMMF is written in C++. For portable user interfaces, it uses Tcl/Tk so that OOMMF operates across a wide range of Unix, Windows, and MacOS platforms.  The recipe for building this OOMMF conda package was developed by Martin Lang, Thomas Kluyver, Ryan A. Pepper, Marijan Beg, and Hans Fangohr at the University of Southampton, Max Planck Institute for the Structure and Dynamics of Matter, European XFEL, and Imperial College London as a part of OpenDreamKit \u2013 Horizon 2020 European Research Infrastructure project (676541) and EPSRC Programme Grant on Skyrmionics (EP/N032128/1).  This package contains Dzyaloshinskii-Moriya extensions for Cnv, T(O), and D2d crystallographic classes as well as magneto-elastic energy term. These extensions are not included in the OOMMF binaries and tarballs provided by NIST. More information can be found at https://github.com/fangohr/oommf.",
+    "dev_url": "https://github.com/fangohr/oommf",
+    "doc_source_url": null,
+    "doc_url": "http://math.nist.gov/oommf/doc/",
+    "home": "http://math.nist.gov/oommf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Custom",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/fangohr/oommf/archive/20a3_20210930.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Object Oriented MicroMagnetic Framework (OOMMF)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634569383,
+    "version": "2.0a3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "oommf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "oommf-2.0a3-h5acf4cc_0.tar.bz2",
+  "repodata": {
+    "build": "h5acf4cc_0",
+    "build_number": 0,
+    "depends": [
+      "tk >=8.6.11,<8.7.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "Custom",
+    "md5": "1b32cfae54cb3ec75f2dd1d90afc6ddc",
+    "name": "oommf",
+    "sha256": "3cef99912b916494a35443ef28184a4e5ebcd3962ee68b31aefa70e7bf5e59c9",
+    "size": 26126485,
+    "subdir": "win-64",
+    "timestamp": 1634569383285,
+    "version": "2.0a3"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/oommf-2.0a3-h5acf4cc_0.tar.bz2/oommf-2.0a3-h5acf4cc_0.tar.bz2"
+}
