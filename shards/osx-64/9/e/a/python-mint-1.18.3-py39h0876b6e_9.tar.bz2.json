@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "mint regrids edge centred fields from a source to a destination grid. The grid is stored as a collection of grid cells, which have four vertices (i.e., the cells are quadrilaterals). The edge field is stored as integrals of a vector field along each edge. The vertex coordinates are stored in longitude-latitude space. The regridding method is mimetic in the sense that Stokes's theorem is satisfied to near machine precision. In particular, the loop integrals of an interpolated vector field deriving from a gradient is zero.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/pletzer/mint",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "0BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/pletzer/mint/archive/v1.18.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Mimetic INTerpolation on the Sphere.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634665572,
+    "version": "1.18.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "python-mint-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-mint-1.18.3-py39h0876b6e_9.tar.bz2",
+  "repodata": {
+    "build": "py39h0876b6e_9",
+    "build_number": 9,
+    "depends": [
+      "libcxx >=11.1.0",
+      "libnetcdf >=4.8.0,<4.8.1.0a0",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "tbb >=2020.2,<2021.0.0a0",
+      "vtk >=9.0.3,<9.0.4.0a0"
+    ],
+    "license": "0BSD",
+    "license_family": "BSD",
+    "md5": "f4a0e19701a9b96f2a31a74c5e86a827",
+    "name": "python-mint",
+    "sha256": "ef48fe4afcce9a64139b8a2ff4f9d7534a83dbdd7e300f86d86638f07e73b665",
+    "size": 185007,
+    "subdir": "osx-64",
+    "timestamp": 1634665572561,
+    "version": "1.18.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/python-mint-1.18.3-py39h0876b6e_9.tar.bz2/python-mint-1.18.3-py39h0876b6e_9.tar.bz2"
+}
