@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Pulsar Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Pulsar library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite.git",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalpulsar/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.1.0": {
+        "weak": [
+          "liblalpulsar >=3.1.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalpulsar-3.1.0.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Pulsar Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634728677,
+    "version": "3.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalpulsar-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalpulsar-3.1.0-hf58c25d_2.tar.bz2",
+  "repodata": {
+    "build": "hf58c25d_2",
+    "build_number": 2,
+    "constrains": [
+      "python-lalpulsar >=3.0.0",
+      "lalpulsar >=3.0.0"
+    ],
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "cfitsio >=4.0.0,<4.0.1.0a0",
+      "fftw >=3.3.10,<4.0a0",
+      "gsl >=2.7,<2.8.0a0",
+      "libgcc-ng >=9.4.0",
+      "liblal >=7.1.0",
+      "liblal >=7.1.3,<8.0a0",
+      "liblalframe >=1.5.0",
+      "liblalframe >=1.5.5,<2.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "ebfbee41ea47071e58d5559d97012aac",
+    "name": "liblalpulsar",
+    "sha256": "78c09fab4cc06a49526b31ba81be88e027c8c8c27cfe8c7c55f81195cabaf5a1",
+    "size": 95336640,
+    "subdir": "linux-64",
+    "timestamp": 1634728677505,
+    "version": "3.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/liblalpulsar-3.1.0-hf58c25d_2.tar.bz2/liblalpulsar-3.1.0-hf58c25d_2.tar.bz2"
+}
