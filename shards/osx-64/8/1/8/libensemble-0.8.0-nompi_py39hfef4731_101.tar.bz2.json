@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libEnsemble is a Python library to coordinate the concurrent evaluation of dynamic ensembles of calculations. The library is developed to use massively parallel resources to accelerate the solution of design, decision, and inference problems and to expand the class of problems that can benefit from increased concurrency levels. libEnsemble aims for: Extreme scaling, Resilience/fault tolerance, Monitoring/killing jobs (and recovering resources), Portability and flexibility, Exploitation of persistent data/control flow.",
+    "dev_url": "https://github.com/Libensemble/libensemble",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://libensemble.readthedocs.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.8.0": {
+        "weak": [
+          "libensemble * nompi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Libensemble/libensemble/archive/v0.8.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A library to coordinate the concurrent evaluation of dynamic ensembles of calculations",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634854444,
+    "version": "0.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libensemble-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libensemble-0.8.0-nompi_py39hfef4731_101.tar.bz2",
+  "repodata": {
+    "build": "nompi_py39hfef4731_101",
+    "build_number": 101,
+    "depends": [
+      "nlopt",
+      "numpy",
+      "psutil",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "scipy"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "fe95b02c9926c677802d070968c91800",
+    "name": "libensemble",
+    "sha256": "565b16f6081c2106465042f1708112274ede49fe191f1c1ccf0d43847700f375",
+    "size": 439102,
+    "subdir": "osx-64",
+    "timestamp": 1634854444597,
+    "version": "0.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libensemble-0.8.0-nompi_py39hfef4731_101.tar.bz2/libensemble-0.8.0-nompi_py39hfef4731_101.tar.bz2"
+}
