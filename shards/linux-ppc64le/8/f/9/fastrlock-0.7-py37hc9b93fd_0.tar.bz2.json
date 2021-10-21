@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This is a C-level implementation of a fast, re-entrant, optimistic lock for CPython. It is a drop-in replacement for threading.RLock. FastRLock is implemented in Cython and also provides a C-API for direct use from Cython code via from fastrlock cimport rlock.  Under normal conditions, it is about 10x faster than threading.RLock in Python 2.7 because it avoids all locking unless two or more threads try to acquire it at the same time. Under congestion, it is still about 10% faster than RLock due to being implemented in Cython.  This is mostly equivalent to the revised RLock implementation in Python 3.2, but still faster due to being implemented in Cython. Note that the threading.RLock implementation in Python 3.4 and later tends to be as fast or even faster than the lock provided by this package, when called through the Python API. FastRLock is still faster also on these systems when called through its Cython API.",
+    "dev_url": "https://github.com/scoder/fastrlock",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/scoder/fastrlock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fastrlock/fastrlock-0.7.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "This is a C-level implementation of a fast, re-entrant, optimistic lock for CPython",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634859533,
+    "version": "0.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fastrlock-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fastrlock-0.7-py37hc9b93fd_0.tar.bz2",
+  "repodata": {
+    "build": "py37hc9b93fd_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "bb1a0ad80e8e3920be610073c19bb198",
+    "name": "fastrlock",
+    "sha256": "c08dadb5c2d03baca17c7bb6249d8acf3bbbe1dffe20fc38a3493a749f391f15",
+    "size": 32959,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1634859533982,
+    "version": "0.7"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/fastrlock-0.7-py37hc9b93fd_0.tar.bz2/fastrlock-0.7-py37hc9b93fd_0.tar.bz2"
+}
