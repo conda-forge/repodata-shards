@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "MAD is a high-quality MPEG audio decoder. It currently supports MPEG-1 and the MPEG-2 extension to lower sampling frequencies, as well as the de facto MPEG 2.5 format. All three audio layers \u2014 Layer I, Layer II, and Layer III (i.e. MP3) \u2014 are fully implemented. MAD does not yet support MPEG-2 multichannel audio (although it should be backward compatible with such streams) nor does it currently support AAC.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.underbit.com/products/mad/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.15.1b": {
+        "weak": [
+          "mad >=0.15.1b,<0.16.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://downloads.sourceforge.net/project/mad/libmad/0.15.1b/libmad-0.15.1b.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "High quality MPEG Audio Layer III (MP3) decoder",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634874393,
+    "version": "0.15.1b"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mad-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mad-0.15.1b-h9c3ff4c_1.tar.bz2",
+  "repodata": {
+    "build": "h9c3ff4c_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "GPL",
+    "md5": "b263b8f33e08b7f866b5bb0b877ba559",
+    "name": "mad",
+    "sha256": "55a8c3bc156fac8aad1f9ff64a9829fb0f38d2f8db63c0f77a9c5944e8ca1b92",
+    "size": 116187,
+    "subdir": "linux-64",
+    "timestamp": 1634874393412,
+    "version": "0.15.1b"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/mad-0.15.1b-h9c3ff4c_1.tar.bz2/mad-0.15.1b-h9c3ff4c_1.tar.bz2"
+}
