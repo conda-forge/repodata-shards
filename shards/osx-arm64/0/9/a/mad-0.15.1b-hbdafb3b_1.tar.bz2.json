@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MAD is a high-quality MPEG audio decoder. It currently supports MPEG-1 and the MPEG-2 extension to lower sampling frequencies, as well as the de facto MPEG 2.5 format. All three audio layers \u2014 Layer I, Layer II, and Layer III (i.e. MP3) \u2014 are fully implemented. MAD does not yet support MPEG-2 multichannel audio (although it should be backward compatible with such streams) nor does it currently support AAC.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.underbit.com/products/mad/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.15.1b": {
+        "weak": [
+          "mad >=0.15.1b,<0.16.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://downloads.sourceforge.net/project/mad/libmad/0.15.1b/libmad-0.15.1b.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "High quality MPEG Audio Layer III (MP3) decoder",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1634874637,
+    "version": "0.15.1b"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mad-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mad-0.15.1b-hbdafb3b_1.tar.bz2",
+  "repodata": {
+    "build": "hbdafb3b_1",
+    "build_number": 1,
+    "depends": [
+      "libcxx >=11.1.0"
+    ],
+    "license": "GPL",
+    "md5": "46a153c1745089c144c0f7e447b6e501",
+    "name": "mad",
+    "sha256": "87d111b866f8f45bdccd8da9085f5047a08e0cd7c30f4bfc9c60200d9c3fbd33",
+    "size": 115002,
+    "subdir": "osx-arm64",
+    "timestamp": 1634874637646,
+    "version": "0.15.1b"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/mad-0.15.1b-hbdafb3b_1.tar.bz2/mad-0.15.1b-hbdafb3b_1.tar.bz2"
+}
