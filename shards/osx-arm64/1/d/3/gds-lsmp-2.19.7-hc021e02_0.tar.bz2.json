@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "LSMP libraries required by the rest of the GDS packages",
+    "dev_url": "https://git.ligo.org/gds/gds.git",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.lsc-group.phys.uwm.edu/daswg/projects/dmt.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.19.7": {
+        "weak": [
+          "gds-lsmp >=2.19.7,<2.20.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://software.igwn.org/sources/source/gds-lsmp-2.19.7.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "GDS package lsmp libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1634917372,
+    "version": "2.19.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gds-lsmp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gds-lsmp-2.19.7-hc021e02_0.tar.bz2",
+  "repodata": {
+    "build": "hc021e02_0",
+    "build_number": 0,
+    "depends": [
+      "gds-base >=2.19.5",
+      "gds-base >=2.19.7,<2.20.0a0",
+      "libcxx >=11.1.0"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL",
+    "md5": "ba79d85390cc314d3d62510c509e02f1",
+    "name": "gds-lsmp",
+    "sha256": "3817231b746e9eb22c40924d3870152a2fbaee3e8d0ce2d20fc4c417ae4579fd",
+    "size": 89676,
+    "subdir": "osx-arm64",
+    "timestamp": 1634917372149,
+    "version": "2.19.7"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/gds-lsmp-2.19.7-hc021e02_0.tar.bz2/gds-lsmp-2.19.7-hc021e02_0.tar.bz2"
+}
