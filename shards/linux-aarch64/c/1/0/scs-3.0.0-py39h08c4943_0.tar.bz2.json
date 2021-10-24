@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Solves convex cone programs via operator splitting. Can solve: linear programs (LPs), second-order cone programs (SOCPs), semidefinite programs (SDPs), exponential cone programs (ECPs), and power cone programs (PCPs), or problems with any combination of those cones.",
+    "dev_url": "https://github.com/bodono/scs-python",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/bodono/scs-python",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Python interface for SCS, which solves convex cone problems",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1635046159,
+    "version": "3.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "scs-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "scs-3.0.0-py39h08c4943_0.tar.bz2",
+  "repodata": {
+    "build": "py39h08c4943_0",
+    "build_number": 0,
+    "constrains": [
+      "cvxpy >1.1.15"
+    ],
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "scipy >=0.13.2"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "bb72427302265636975bdb0d1ab95a97",
+    "name": "scs",
+    "sha256": "ba6ad68830d4f8d76acc8023c285f767b372a8ba35eb887b598aff6ee21c1c65",
+    "size": 90006,
+    "subdir": "linux-aarch64",
+    "timestamp": 1635046159917,
+    "version": "3.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/scs-3.0.0-py39h08c4943_0.tar.bz2/scs-3.0.0-py39h08c4943_0.tar.bz2"
+}
