@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The XROOTD project aims at giving high performance, scalable fault tolerant access to data repositories of many kinds. The typical usage is to give access to file-based ones. It is based on a scalable architecture, a communication protocol, and a set of plugins and tools based on those. The freedom to configure it and to make it scale (for size and performance) allows the deployment of data access clusters of virtually any size, which can include sophisticated features, like authentication/authorization, integrations with other systems, WAN data distribution, etc.",
+    "dev_url": "https://github.com/xrootd/xrootd",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://xrootd.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.3.2": {
+        "weak": [
+          "xrootd >=5.3.2,<6.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xrootd/xrootd/archive/v5.3.2.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "High performance, scalable fault tolerant access to data",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1635163992,
+    "version": "5.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "xrootd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "xrootd-5.3.2-py38hd0dea64_0.tar.bz2",
+  "repodata": {
+    "build": "py38hd0dea64_0",
+    "build_number": 0,
+    "depends": [
+      "krb5 >=1.19.2,<1.20.0a0",
+      "libcurl >=7.79.1,<8.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libuuid >=2.32.1,<3.0a0",
+      "libxml2 >=2.9.12,<2.10.0a0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "openssl >=1.1.1l,<1.1.2a",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "readline >=8.1,<9.0a0",
+      "scitokens-cpp >=0.6.2,<1.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "md5": "77fa50ab35a4cf7443ec3c0b913b2d1f",
+    "name": "xrootd",
+    "sha256": "ab9e379b7e04c281d2ccd56be08dc2aa69e69427abc892c1bcf3da7ab024314e",
+    "size": 5234766,
+    "subdir": "linux-aarch64",
+    "timestamp": 1635163992026,
+    "version": "5.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/xrootd-5.3.2-py38hd0dea64_0.tar.bz2/xrootd-5.3.2-py38hd0dea64_0.tar.bz2"
+}
