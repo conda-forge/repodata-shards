@@ -26,7 +26,7 @@
     "summary": "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1635085861,
+    "timestamp": 1635077747,
     "version": "1.10.0"
   },
   "channeldata_version": 1,
@@ -34,20 +34,20 @@
   "labels": [
     "main"
   ],
-  "package": "pytorch-1.10.0-cuda111py39hb4a4491_0.tar.bz2",
+  "package": "pytorch-1.10.0-cuda112py39h4e14dd4_0.tar.bz2",
   "repodata": {
-    "build": "cuda111py39hb4a4491_0",
+    "build": "cuda112py39h4e14dd4_0",
     "build_number": 0,
     "constrains": [
-      "pytorch-gpu = 1.10.0",
-      "pytorch-cpu = 99999999"
+      "pytorch-cpu = 99999999",
+      "pytorch-gpu = 1.10.0"
     ],
     "depends": [
       "__glibc >=2.17",
       "__glibc >=2.17,<3.0.a0",
       "_openmp_mutex >=4.5",
       "cffi",
-      "cudatoolkit 11.1|11.1.*",
+      "cudatoolkit >=11.2,<12",
       "cudnn >=8.2.1.32,<9.0a0",
       "future",
       "libblas * *_mkl",
@@ -69,15 +69,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "fdea3568cdf79eb13fddaa42318e5f21",
+    "md5": "470eb8ed9f9399d68cd8e7662ca981c9",
     "name": "pytorch",
-    "sha256": "671c35bc7c06d05300a0a7f20be8f4c270e0fc0e25d320a63a598d80a4032282",
-    "size": 868887095,
+    "sha256": "56327c790ca24a7f64367a7b07930ecd397ab097d975716e17fc2cc1b48beab8",
+    "size": 657949658,
     "subdir": "linux-64",
-    "timestamp": 1635085861272,
+    "timestamp": 1635077747461,
     "version": "1.10.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pytorch-1.10.0-cuda111py39hb4a4491_0.tar.bz2/pytorch-1.10.0-cuda111py39hb4a4491_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pytorch-1.10.0-cuda112py39h4e14dd4_0.tar.bz2/pytorch-1.10.0-cuda112py39h4e14dd4_0.tar.bz2"
 }
