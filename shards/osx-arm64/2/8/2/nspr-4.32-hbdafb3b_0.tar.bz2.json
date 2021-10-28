@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NetScape Portable Runtime (NSPR) provides platform independence for non-GUI operating system facilities. These facilities include threads, thread synchronization, normal file and network I/O, interval timing and calendar time, basic memory management (malloc and free) and shared library linking.",
+    "dev_url": "https://developer.mozilla.org/en-US/docs/MDN",
+    "doc_source_url": null,
+    "doc_url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR",
+    "home": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.32": {
+        "weak": [
+          "nspr >=4.32,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://ftp.mozilla.org/pub/nspr/releases/v4.32/src/nspr-4.32.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "A platform-neutral API for system level and libc-like functions.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1635444654,
+    "version": "4.32"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nspr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nspr-4.32-hbdafb3b_0.tar.bz2",
+  "repodata": {
+    "build": "hbdafb3b_0",
+    "build_number": 0,
+    "constrains": [
+      "__osx >=11.0"
+    ],
+    "depends": [
+      "libcxx >=11.1.0"
+    ],
+    "license": "MPL-2.0",
+    "md5": "d01224935a76a9fcb6254943ecd548e0",
+    "name": "nspr",
+    "sha256": "90d93b0d3b96853cd1699b4a374ebf85b51c2e13cf848413111a3b2340a4ca8a",
+    "size": 243569,
+    "subdir": "osx-arm64",
+    "timestamp": 1635444654025,
+    "version": "4.32"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/nspr-4.32-hbdafb3b_0.tar.bz2/nspr-4.32-hbdafb3b_0.tar.bz2"
+}
