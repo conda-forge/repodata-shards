@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NetScape Portable Runtime (NSPR) provides platform independence for non-GUI operating system facilities. These facilities include threads, thread synchronization, normal file and network I/O, interval timing and calendar time, basic memory management (malloc and free) and shared library linking.",
+    "dev_url": "https://developer.mozilla.org/en-US/docs/MDN",
+    "doc_source_url": null,
+    "doc_url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR",
+    "home": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.32": {
+        "weak": [
+          "nspr >=4.32,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://ftp.mozilla.org/pub/nspr/releases/v4.32/src/nspr-4.32.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A platform-neutral API for system level and libc-like functions.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1635444527,
+    "version": "4.32"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nspr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nspr-4.32-h3b9df90_0.tar.bz2",
+  "repodata": {
+    "build": "h3b9df90_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "MPL-2.0",
+    "md5": "8ba8d34635b55081f8acef76f783df4e",
+    "name": "nspr",
+    "sha256": "2ac1f832bec0a3999744b74f08e8c96c9b8c2862fc4ab9c3fee2418af4baddd2",
+    "size": 252303,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1635444527882,
+    "version": "4.32"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/nspr-4.32-h3b9df90_0.tar.bz2/nspr-4.32-h3b9df90_0.tar.bz2"
+}
