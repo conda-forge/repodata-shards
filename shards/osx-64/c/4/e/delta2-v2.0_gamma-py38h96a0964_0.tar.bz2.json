@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "DeLTA can process movies of rod-shaped bacteria growing in 2D setups such as agarose pads, as well as movies of E. coli cells trapped in a microfluidic device known as a mother machine. The pipeline is centered around two U-Net neural networks that are used for binary segmnetation and tracking cells frame to frame.",
+    "dev_url": "https://gitlab.com/dunloplab/delta",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gitlab.com/dunloplab/delta",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://gitlab.com/dunloplab/delta/-/archive/v2.0_gamma/delta-v2.0_gamma.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "DeLTA (Deep Learning for Time-lapse Analysis) is a deep learning-based image processing pipeline for segmenting and tracking single cells in time-lapse microscopy movies",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1635397228,
+    "version": "v2.0_gamma"
+  },
+  "channeldata_version": 1,
+  "feedstock": "delta2-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "delta2-v2.0_gamma-py38h96a0964_0.tar.bz2",
+  "repodata": {
+    "build": "py38h96a0964_0",
+    "build_number": 0,
+    "depends": [
+      "ffmpeg-python",
+      "opencv >=4.1",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "scikit-image >=0.18",
+      "tensorflow >=2",
+      "tifffile >=2021"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "4ebcaddb540a9e98f78a49e54e975b13",
+    "name": "delta2",
+    "sha256": "c6b8cd5769542f280b86ea6fda12f939b79946b5c28c987825c4741c748d76e9",
+    "size": 85571,
+    "subdir": "osx-64",
+    "timestamp": 1635397228219,
+    "version": "v2.0_gamma"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/delta2-v2.0_gamma-py38h96a0964_0.tar.bz2/delta2-v2.0_gamma-py38h96a0964_0.tar.bz2"
+}
