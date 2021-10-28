@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "OpenSSH is the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options.",
+    "dev_url": "https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.bin/ssh/",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.openssh.com/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "SSH-OpenSSH",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-8.8p1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A suite of secure networking utilities based on the SSH protocol",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1635417828,
+    "version": "8.8p1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openssh-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openssh-8.8p1-h4b68de1_1.tar.bz2",
+  "repodata": {
+    "build": "h4b68de1_1",
+    "build_number": 1,
+    "depends": [
+      "__glibc >=2.17,<3.0.a0",
+      "krb5 >=1.19.2,<1.20.0a0",
+      "libedit >=3.1.20191231,<3.2.0a0",
+      "libfido2 >=1.9.0,<2.0a0",
+      "libgcc-ng >=9.4.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "openssl >=3.0.0,<4.0a0"
+    ],
+    "license": "SSH-OpenSSH",
+    "md5": "69e680fc5b1a557f4f4c6837e74a2265",
+    "name": "openssh",
+    "sha256": "d2b7c2426cc058b453d35e836f39696d04133977e1ba1c22c90b3363db850ed1",
+    "size": 1604738,
+    "subdir": "linux-64",
+    "timestamp": 1635417828599,
+    "version": "8.8p1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openssh-8.8p1-h4b68de1_1.tar.bz2/openssh-8.8p1-h4b68de1_1.tar.bz2"
+}
