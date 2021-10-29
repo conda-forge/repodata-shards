@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "matplotlib is a python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. matplotlib can be used in Python scripts, the Python and IPython shell (ala MATLAB or Mathematica), web application servers, and six graphical user interface toolkits.",
     "dev_url": "https://github.com/matplotlib/matplotlib/",
@@ -26,34 +26,46 @@
     "summary": "Publication quality figures in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1635548738,
+    "timestamp": 1635548712,
     "version": "3.5.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "matplotlib-feedstock",
   "labels": [
     "matplotlib_rc"
   ],
-  "package": "matplotlib-3.5.0rc1-py39h3a0d1b5_0.tar.bz2",
+  "package": "matplotlib-base-3.5.0rc1-py39haa33180_0.tar.bz2",
   "repodata": {
-    "build": "py39h3a0d1b5_0",
+    "build": "py39haa33180_0",
     "build_number": 0,
     "depends": [
-      "matplotlib-base >=3.5.0rc.1,<3.5.1a",
+      "certifi >=2020.06.20",
+      "cycler >=0.10",
+      "fonttools >=4.22.0",
+      "freetype >=2.10.4,<3.0a0",
+      "kiwisolver >=1.0.1",
+      "libcxx >=11.1.0",
+      "numpy >=1.17",
+      "numpy >=1.19.5,<2.0a0",
+      "packaging >=20.0",
+      "pillow >=6.2.0",
+      "pyparsing >=2.2.1",
       "python >=3.9,<3.10.0a0",
+      "python >=3.9,<3.10.0a0 *_cpython",
+      "python-dateutil >=2.7",
       "python_abi 3.9.* *_cp39"
     ],
     "license": "LicenseRef-PSF-based",
     "license_family": "PSF",
-    "md5": "29218cbd0760df8140f34a175d5d0bd4",
-    "name": "matplotlib",
-    "sha256": "c7a986f4ebee799c53c0df7ee4a61571d8856168b279e5a5343d88fb15d90706",
-    "size": 6810,
+    "md5": "5b9300eaa5ce9999a105db5d11729ad1",
+    "name": "matplotlib-base",
+    "sha256": "3df728d44198fb266921ec435353b1e78624254e02654851f14ec47681ab0da6",
+    "size": 7671664,
     "subdir": "osx-arm64",
-    "timestamp": 1635548738164,
+    "timestamp": 1635548712811,
     "version": "3.5.0rc1"
   },
   "repodata_version": 1,
   "subdir": "osx-arm64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/matplotlib-3.5.0rc1-py39h3a0d1b5_0.tar.bz2/matplotlib-3.5.0rc1-py39h3a0d1b5_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/matplotlib-base-3.5.0rc1-py39haa33180_0.tar.bz2/matplotlib-base-3.5.0rc1-py39haa33180_0.tar.bz2"
 }
