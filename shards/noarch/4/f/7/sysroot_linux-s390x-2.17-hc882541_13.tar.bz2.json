@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The glibc package contains standard libraries which are used by multiple programs on the system. In order to save disk space and memory, as well as to make upgrading easier, common system code is kept in one place and shared between programs. This particular package contains the most important sets of shared libraries: the standard C library and the standard math library. Without these two libraries, a Linux system will not function.  Kernel-headers includes the C header files that specify the interface between the Linux kernel and userspace libraries and programs.  The header files define structures and constants that are needed for building most standard programs and are also needed for rebuilding the glibc package.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://sources.redhat.com/glibc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "(CDT) The GNU libc libraries and header files for the Linux kernel for use by glibc",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1635519360,
+    "version": "2.17"
+  },
+  "channeldata_version": 1,
+  "feedstock": "linux-sysroot-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "sysroot_linux-s390x-2.17-hc882541_13.tar.bz2",
+  "repodata": {
+    "build": "hc882541_13",
+    "build_number": 13,
+    "depends": [
+      "kernel-headers_linux-s390x 3.10.0 h406d98a_13"
+    ],
+    "license": "LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
+    "license_family": "GPL",
+    "md5": "8a20b482a8376b8d3063db73184320bc",
+    "name": "sysroot_linux-s390x",
+    "noarch": "generic",
+    "sha256": "b94fcdca3fab73d8a41cb0353f11bb97fc12b0933f7415fbd139590a4a0a38b2",
+    "size": 35080677,
+    "subdir": "noarch",
+    "timestamp": 1635519360832,
+    "version": "2.17"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/sysroot_linux-s390x-2.17-hc882541_13.tar.bz2/sysroot_linux-s390x-2.17-hc882541_13.tar.bz2"
+}
