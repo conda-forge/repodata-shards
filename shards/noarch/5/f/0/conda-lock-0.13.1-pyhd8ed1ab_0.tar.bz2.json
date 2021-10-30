@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Conda lock is a lightweight library that can be used to generate fully reproducible lock files for conda environments. It does this by performing multiple solves for conda targeting a set of platforms you desire lockfiles for. This also has the added benefit of acting as an external presolve for conda as the lockfiles it generates results in the conda solver not being invoked when installing the packages from the generated lockfile.",
+    "dev_url": "https://github.com/conda-incubator/conda-lock",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/conda-incubator/conda-lock/blob/master/README.md",
+    "home": "https://github.com/conda-incubator/conda-lock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/c/conda_lock/conda_lock-0.13.1.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Lightweight lockfile for conda environments",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1635615575,
+    "version": "0.13.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "conda-lock-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "conda-lock-0.13.1-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "click",
+      "click-default-group",
+      "ensureconda",
+      "jinja2",
+      "pydantic >=1.8.1",
+      "python >=3.6",
+      "pyyaml",
+      "requests",
+      "setuptools",
+      "toml"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "2e3e581b9c7d493191d08ed88c18f7c0",
+    "name": "conda-lock",
+    "noarch": "python",
+    "sha256": "61522702bef27260115bbf7c68a248015415ef6f9b898eba01f0ef722c02d121",
+    "size": 25679,
+    "subdir": "noarch",
+    "timestamp": 1635615575606,
+    "version": "0.13.1"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/conda-lock-0.13.1-pyhd8ed1ab_0.tar.bz2/conda-lock-0.13.1-pyhd8ed1ab_0.tar.bz2"
+}
