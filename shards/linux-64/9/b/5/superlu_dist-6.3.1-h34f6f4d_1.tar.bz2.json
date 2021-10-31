@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/xiaoyeli/superlu_dist/",
+    "doc_source_url": null,
+    "doc_url": "https://portal.nersc.gov/project/sparse/superlu/superlu_dist_code_html/index.html",
+    "home": "https://portal.nersc.gov/project/sparse/superlu/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://portal.nersc.gov/project/sparse/superlu/superlu_dist_6.3.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Supernodal LU, solvers for large, sparse, nonsymmetric systems of linear equations. SuperLU_DIST is a parallel extension to the serial SuperLU library.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1635677250,
+    "version": "6.3.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "superlu_dist-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "superlu_dist-6.3.1-h34f6f4d_1.tar.bz2",
+  "repodata": {
+    "build": "h34f6f4d_1",
+    "build_number": 1,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "openmpi >=4.1.1,<5.0a0",
+      "parmetis >=4.0.3,<4.1.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "c098e5d2ee11d0275748a9ecd3a5b701",
+    "name": "superlu_dist",
+    "sha256": "88df036a6cc8a08d30c873a70c11cfb07d623a5d4c63cca0a4ffbb477b1ace40",
+    "size": 900589,
+    "subdir": "linux-64",
+    "timestamp": 1635677250972,
+    "version": "6.3.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/superlu_dist-6.3.1-h34f6f4d_1.tar.bz2/superlu_dist-6.3.1-h34f6f4d_1.tar.bz2"
+}
