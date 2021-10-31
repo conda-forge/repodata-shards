@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Open source density functional tight binding molecular dynamics.",
+    "dev_url": "https://github.com/lanl/LATTE",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/lanl/LATTE",
+    "home": "https://github.com/lanl/LATTE",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.2.2": {
+        "weak": [
+          "latte * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/lanl/LATTE/archive/refs/tags/v1.2.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Open source density functional tight binding molecular dynamics.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1635689522,
+    "version": "1.2.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "latte-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "latte-1.2.2-mpi_openmpi_h4fb355c_3.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h4fb355c_3",
+    "build_number": 3,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "openmpi >=4.1.1,<5.0a0"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL",
+    "md5": "cb1bd38d2a27175212f0757a9f673876",
+    "name": "latte",
+    "sha256": "e3247b9f8f3513f839da7ce53c58e9b2e38552838b3b4de1c695b7a7ff0ea066",
+    "size": 858462,
+    "subdir": "linux-64",
+    "timestamp": 1635689522133,
+    "version": "1.2.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/latte-1.2.2-mpi_openmpi_h4fb355c_3.tar.bz2/latte-1.2.2-mpi_openmpi_h4fb355c_3.tar.bz2"
+}
