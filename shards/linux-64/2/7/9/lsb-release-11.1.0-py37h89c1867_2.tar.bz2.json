@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Intro -----  This conda package provides the `lsb_release` command for Debian-based Linux distributions such as Debian and Ubuntu. It provides a simple command-line interface for accessing metadata about the installed Linux distribution.  Motivation ----------  Installation instructions for many Linux programs rely on the `lsb_release` command to detect the release number and/or codename of the installed Linux distribution. For example, as of the time of writing, [PostgreSQL](https://www.postgresql.org/download/linux/ubuntu/) uses the `lsb_release -cs` command to detect the proper codename for the apt repository.  The Debian-based [lsb-release package](https://packages.debian.org/stable/lsb-release) unfortunately depends on a system-wide installation of `python3`. This conda package avoids the need for a system-wide installation of `python3` when a conda environment is already available. The distribution-specific data is comes from a tiny system package named [distro-info-data](https://packages.debian.org/stable/distro-info-data), which can be installed with `apt-get install -y distro-info-data`.  Examples --------  Bash: ```bash sudo apt-get install -y distro-info-data mamba install -y lsb-release lsb_release -a ```  (Substitute `conda` for `mamba` above in case you use that instead.)  Docker: ```dockerfile FROM condaforge/mambaforge:4.10.1-0  RUN : \\     && apt-get update \\     && apt-get install -y distro-info-data \\     && rm -rf /var/lib/apt/lists/* \\     && mamba install -y lsb-release \\     && conda clean -afy \\ ;  RUN lsb_release -a ```",
+    "dev_url": "https://salsa.debian.org/debian/lsb",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wiki.linuxfoundation.org/lsb/start",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://salsa.debian.org/debian/lsb/-/archive/debian/11.1.0/lsb-release-11.1.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSB release detection module for Debian",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1635778043,
+    "version": "11.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lsb-release-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lsb-release-11.1.0-py37h89c1867_2.tar.bz2",
+  "repodata": {
+    "build": "py37h89c1867_2",
+    "build_number": 2,
+    "depends": [
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "2f2bd817cd0bd54df0721c037ba9cd96",
+    "name": "lsb-release",
+    "sha256": "7eb0ff3a06b8af63c9268f568dced21b0051e95c86d3ad8d4632df9ac1d590c3",
+    "size": 23642,
+    "subdir": "linux-64",
+    "timestamp": 1635778043716,
+    "version": "11.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/lsb-release-11.1.0-py37h89c1867_2.tar.bz2/lsb-release-11.1.0-py37h89c1867_2.tar.bz2"
+}
