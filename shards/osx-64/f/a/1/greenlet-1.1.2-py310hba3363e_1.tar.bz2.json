@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The greenlet package is a spin-off of Stackless, a version of CPython that supports micro-threads called \"tasklets\". Tasklets run pseudo-concurrently (typically in a single or a few OS-level threads) and are synchronized with data exchanges on \"channels\".  A \"greenlet\", on the other hand, is a still more primitive notion of micro-thread with no implicit scheduling; coroutines, in other words. This is useful when you want to control exactly when your code runs. You can build custom scheduled micro-threads on top of greenlet; however, it seems that greenlets are useful on their own as a way to make advanced control flow structures. For example, we can recreate generators; the difference with Python's own generators is that our generators can call nested functions and the nested functions can yield values too. Additionally, you don't need a \"yield\" keyword. See the example in tests/test_generator.py.  Greenlets are provided as a C extension module for the regular unmodified interpreter.  Greenlets are lightweight coroutines for in-process concurrent programming.",
+    "dev_url": "https://github.com/python-greenlet/greenlet",
+    "doc_source_url": null,
+    "doc_url": "https://greenlet.readthedocs.io",
+    "home": "https://github.com/python-greenlet/greenlet",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/g/greenlet/greenlet-1.1.2.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Lightweight in-process concurrent programming",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1635837293,
+    "version": "1.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "greenlet-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "greenlet-1.1.2-py310hba3363e_1.tar.bz2",
+  "repodata": {
+    "build": "py310hba3363e_1",
+    "build_number": 1,
+    "depends": [
+      "libcxx >=11.1.0",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "94d2bff7b317373190067fbe52f2eeec",
+    "name": "greenlet",
+    "sha256": "c360120e1ae43b836136a1c0f5895084a4264717969cd71183fc3cdfca67d75e",
+    "size": 89788,
+    "subdir": "osx-64",
+    "timestamp": 1635837293710,
+    "version": "1.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/greenlet-1.1.2-py310hba3363e_1.tar.bz2/greenlet-1.1.2-py310hba3363e_1.tar.bz2"
+}
