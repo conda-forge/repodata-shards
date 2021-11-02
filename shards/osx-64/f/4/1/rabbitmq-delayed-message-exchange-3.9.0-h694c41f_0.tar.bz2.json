@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This plugin adds delayed-messaging (or scheduled-messaging) to RabbitMQ.  A user can declare an exchange with the type x-delayed-message and then publish messages with the custom header x-delay expressing in milliseconds a delay time for the message. The message will be delivered to the respective queues after x-delay milliseconds.",
+    "dev_url": "https://github.com/rabbitmq/rabbitmq-delayed-message-exchange",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/rabbitmq/rabbitmq-delayed-message-exchange",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases/download/3.9.0/rabbitmq_delayed_message_exchange-3.9.0.ez",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Delayed Messaging for RabbitMQ",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1635872405,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "rabbitmq-delayed-message-exchange-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "rabbitmq-delayed-message-exchange-3.9.0-h694c41f_0.tar.bz2",
+  "repodata": {
+    "build": "h694c41f_0",
+    "build_number": 0,
+    "depends": [
+      "rabbitmq-server >=3.8.16"
+    ],
+    "license": "MPL-2.0",
+    "license_family": "MOZILLA",
+    "md5": "a799b70518f27c2a710f699cce58e32d",
+    "name": "rabbitmq-delayed-message-exchange",
+    "sha256": "4684e4a01255d62f95e256904dc1736ae662e3216975ec450286f869513c10e9",
+    "size": 46765,
+    "subdir": "osx-64",
+    "timestamp": 1635872405872,
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/rabbitmq-delayed-message-exchange-3.9.0-h694c41f_0.tar.bz2/rabbitmq-delayed-message-exchange-3.9.0-h694c41f_0.tar.bz2"
+}
