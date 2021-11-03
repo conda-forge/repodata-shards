@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "\"Libxslt is the XSLT C library developed for the GNOME project. XSLT itself is a an XML language to define transformation for XML. Libxslt is based on libxml2 the XML C library developed for the GNOME project. It also implements most of the EXSLT set of processor-portable extensions functions and some of Saxon's evaluate and expressions extensions.\"",
+    "dev_url": null,
+    "doc_source_url": "https://github.com/GNOME/libxslt/tree/master/doc",
+    "doc_url": "http://xmlsoft.org/XSLT/",
+    "home": "http://xmlsoft.org/XSLT/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.1.33": {
+        "weak": [
+          "libxslt >=1.1.33,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "ftp://xmlsoft.org/libxml2/libxslt-1.1.33.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "The XSLT C library developed for the GNOME project",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1635957681,
+    "version": "1.1.33"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libxslt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libxslt-1.1.33-hecd09c7_3.tar.bz2",
+  "repodata": {
+    "build": "hecd09c7_3",
+    "build_number": 3,
+    "depends": [
+      "icu >=69.1,<70.0a0",
+      "libiconv >=1.16,<2.0a0",
+      "libxml2 >=2.9.12,<2.10.0a0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "xz >=5.2.5,<6.0a0"
+    ],
+    "license": "MIT",
+    "md5": "39412b9fa071b5491fdc239a9fd82728",
+    "name": "libxslt",
+    "sha256": "14be4400e251a50ba7da55797d0e4bfa6d008488ea1c6fffa57922c32e88cdd4",
+    "size": 518573,
+    "subdir": "osx-arm64",
+    "timestamp": 1635957681527,
+    "version": "1.1.33"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libxslt-1.1.33-hecd09c7_3.tar.bz2/libxslt-1.1.33-hecd09c7_3.tar.bz2"
+}
