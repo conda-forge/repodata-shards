@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Cbc (Coin-or branch and cut) is an open-source mixed integer linear programming solver written in C++. It can be used as a callable library or using a stand-alone executable. It can be called through AIMMS (through the AIMMSlinks project), AMPL (natively), CMPL, GAMS (through the GAMSlinks project), JuMP, Mathematica, MiniZinc, MPL (through the CoinMP project), PuLP, Python (e.g., cbcpy), and OpenSolver for Excel, among others.",
+    "dev_url": "https://github.com/coin-or/Cbc",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://projects.coin-or.org/Cbc",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "EPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.10.5": {
+        "weak": [
+          "coin-or-cbc >=2.10,<2.11.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/coin-or/Cbc/archive/releases/2.10.5.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "COIN-OR branch and cut (Cbc)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1635982057,
+    "version": "2.10.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "coin-or-cbc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "coin-or-cbc-2.10.5-h9c3ff4c_6.tar.bz2",
+  "repodata": {
+    "build": "h9c3ff4c_6",
+    "build_number": 6,
+    "constrains": [
+      "coincbc * *_metapackage"
+    ],
+    "depends": [
+      "coin-or-cgl >=0.60,<0.61.0a0",
+      "coin-or-clp >=1.17,<1.18.0a0",
+      "coin-or-osi >=0.108,<0.109.0a0",
+      "coin-or-utils >=2.11,<2.12.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "EPL-2.0",
+    "license_family": "OTHER",
+    "md5": "afc0dca8d931321abb0705b8b5bb7139",
+    "name": "coin-or-cbc",
+    "sha256": "f0cdf8c5a41394d54cb76abc64ca1c964eb7aed42331c2aed1a44364fd4ccc40",
+    "size": 1077945,
+    "subdir": "linux-64",
+    "timestamp": 1635982057666,
+    "version": "2.10.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/coin-or-cbc-2.10.5-h9c3ff4c_6.tar.bz2/coin-or-cbc-2.10.5-h9c3ff4c_6.tar.bz2"
+}
