@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=cytometree",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/cytometree/cytometree_2.0.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/cytometree_2.0.2.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Given the hypothesis of a bi-modal distribution of cells for each marker, the algorithm constructs a binary tree, the nodes of which are subpopulations of cells. At each node, observed cells and markers are modeled by both a family of normal distributions and a family of bi-modal normal mixture distributions. Splitting is done according to a normalized difference of AIC between the two families. Method is detailed in: Commenges, Alkhassim, Gottardo, Hejblum & Thiebaut (2018) <doi: 10.1002/cyto.a.23601>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1636232197,
+    "version": "2.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-cytometree-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-cytometree-2.0.2-r41h03ef668_0.tar.bz2",
+  "repodata": {
+    "build": "r41h03ef668_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "r-base >=4.1,<4.2.0a0",
+      "r-cowplot",
+      "r-ggplot2",
+      "r-gofkernel",
+      "r-igraph",
+      "r-mclust",
+      "r-rcpp >=0.12.11",
+      "r-rcpparmadillo"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "LGPL",
+    "md5": "d7fb206b04cbf065913b7c9ad64ad8bf",
+    "name": "r-cytometree",
+    "sha256": "2c38f9a455474a54b4469e3a80381899658f30159a57df7b8915f593ae252d0b",
+    "size": 2578499,
+    "subdir": "linux-64",
+    "timestamp": 1636232197680,
+    "version": "2.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-cytometree-2.0.2-r41h03ef668_0.tar.bz2/r-cytometree-2.0.2-r41h03ef668_0.tar.bz2"
+}
