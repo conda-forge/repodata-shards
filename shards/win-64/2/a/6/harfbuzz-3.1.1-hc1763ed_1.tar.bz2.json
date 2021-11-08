@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "HarfBuzz is a text shaping library. New Harbuzz targets various font technologies while Old HarfBuzz targets only OpenType fonts.",
+    "dev_url": "https://github.com/behdad/harfbuzz",
+    "doc_source_url": null,
+    "doc_url": "https://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "home": "http://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.1.1": {
+        "weak": [
+          "harfbuzz >=3.1.1,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/harfbuzz/harfbuzz/archive/3.1.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "An OpenType text shaping engine.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1636383412,
+    "version": "3.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "harfbuzz-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "harfbuzz-3.1.1-hc1763ed_1.tar.bz2",
+  "repodata": {
+    "build": "hc1763ed_1",
+    "build_number": 1,
+    "depends": [
+      "cairo >=1.16.0,<1.17.0a0",
+      "freetype >=2.10.4,<3.0a0",
+      "graphite2",
+      "icu >=69.1,<70.0a0",
+      "libglib >=2.70.0,<3.0a0",
+      "vc >=14.2,<15",
+      "vs2015_runtime >=14.29.30037"
+    ],
+    "license": "MIT",
+    "md5": "88d2262ed5d183b7f9b6c32f9f0d960a",
+    "name": "harfbuzz",
+    "sha256": "ea0c9366163eb0935f30a2bedcd2aec2c41d1efc0b9926b33c43d735c5e4e7cf",
+    "size": 941019,
+    "subdir": "win-64",
+    "timestamp": 1636383412018,
+    "version": "3.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/harfbuzz-3.1.1-hc1763ed_1.tar.bz2/harfbuzz-3.1.1-hc1763ed_1.tar.bz2"
+}
