@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NetScape Portable Runtime (NSPR) provides platform independence for non-GUI operating system facilities. These facilities include threads, thread synchronization, normal file and network I/O, interval timing and calendar time, basic memory management (malloc and free) and shared library linking.",
+    "dev_url": "https://developer.mozilla.org/en-US/docs/MDN",
+    "doc_source_url": null,
+    "doc_url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR",
+    "home": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.32": {
+        "weak": [
+          "nspr >=4.32,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://ftp.mozilla.org/pub/nspr/releases/v4.32/src/nspr-4.32.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A platform-neutral API for system level and libc-like functions.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1636390953,
+    "version": "4.32"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nspr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nspr-4.32-hcd9eead_1.tar.bz2",
+  "repodata": {
+    "build": "hcd9eead_1",
+    "build_number": 1,
+    "depends": [
+      "libcxx >=11.1.0"
+    ],
+    "license": "MPL-2.0",
+    "md5": "8d7d6d0d86b10bd80e2096058c240a45",
+    "name": "nspr",
+    "sha256": "0384690469af309024db6daebc3008419808f378c58c1ab773df86b761ffb5ca",
+    "size": 252905,
+    "subdir": "osx-64",
+    "timestamp": 1636390953593,
+    "version": "4.32"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/nspr-4.32-hcd9eead_1.tar.bz2/nspr-4.32-hcd9eead_1.tar.bz2"
+}
