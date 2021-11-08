@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "PyCA (Python Channel Access) is a module that offers lightweight bindings for Python applications to access EPICS PVs. It acts as a channel access client, much like pyepics. The intention of the module is to provide better performance for embedded applications, rather than to provide an interactive interface. The most significant gains will be found when monitoring large waveforms that need to be processed before exposing them the Python layer.",
+    "dev_url": "https://github.com/slaclab/pyca",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/slaclab/pyca",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-BSD-3-Clause-SLAC",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/slaclab/pyca/archive/3.1.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "PyCA - lightweight bindings for Python applications to access EPICS PVs.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1636389346,
+    "version": "3.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyca-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyca-3.1.1-py38ha53d530_3.tar.bz2",
+  "repodata": {
+    "build": "py38ha53d530_3",
+    "build_number": 3,
+    "depends": [
+      "epicscorelibs",
+      "libcxx >=11.1.0",
+      "numpy >=1.18.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
+    ],
+    "license": "LicenseRef-BSD-3-Clause-SLAC",
+    "license_family": "BSD",
+    "md5": "118112713c8c1d7e4f189856a6fd6c26",
+    "name": "pyca",
+    "sha256": "97b754d162006eb27c3d619ea4f7d7410f8387f6559f94a65edba457b33268b7",
+    "size": 53220,
+    "subdir": "osx-64",
+    "timestamp": 1636389346094,
+    "version": "3.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pyca-3.1.1-py38ha53d530_3.tar.bz2/pyca-3.1.1-py38ha53d530_3.tar.bz2"
+}
