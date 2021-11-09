@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Solves convex cone programs via operator splitting. Can solve: linear programs (LPs), second-order cone programs (SOCPs), semidefinite programs (SDPs), exponential cone programs (ECPs), and power cone programs (PCPs), or problems with any combination of those cones.",
+    "dev_url": "https://github.com/bodono/scs-python",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/bodono/scs-python",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Python interface for SCS, which solves convex cone problems",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1636439288,
+    "version": "3.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "scs-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "scs-3.0.0-py310h9b8aba4_1.tar.bz2",
+  "repodata": {
+    "build": "py310h9b8aba4_1",
+    "build_number": 1,
+    "constrains": [
+      "cvxpy >1.1.15"
+    ],
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "numpy >=1.21.4,<2.0a0",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "scipy >=0.13.2",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "fdba2264d59b25fb58e31b6b681d5234",
+    "name": "scs",
+    "sha256": "097f1185d583af3e2230d0ed14a590c0a873fd0f5fb9f56a0dc61e8cbe5055fd",
+    "size": 95238,
+    "subdir": "win-64",
+    "timestamp": 1636439288729,
+    "version": "3.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/scs-3.0.0-py310h9b8aba4_1.tar.bz2/scs-3.0.0-py310h9b8aba4_1.tar.bz2"
+}
