@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Solves convex cone programs via operator splitting. Can solve: linear programs (LPs), second-order cone programs (SOCPs), semidefinite programs (SDPs), exponential cone programs (ECPs), and power cone programs (PCPs), or problems with any combination of those cones.",
+    "dev_url": "https://github.com/bodono/scs-python",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/bodono/scs-python",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Python interface for SCS, which solves convex cone problems",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1636439134,
+    "version": "3.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "scs-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "scs-3.0.0-py38h15f2a14_1.tar.bz2",
+  "repodata": {
+    "build": "py38h15f2a14_1",
+    "build_number": 1,
+    "constrains": [
+      "cvxpy >1.1.15"
+    ],
+    "depends": [
+      "libblas >=3.9.0,<4.0a0",
+      "liblapack >=3.9.0,<4.0a0",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python >=3.8,<3.9.0a0 *_cpython",
+      "python_abi 3.8.* *_cp38",
+      "scipy >=0.13.2"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "b9f6ca8eea1c0d9af55d61d5ad6fc217",
+    "name": "scs",
+    "sha256": "53f32a0d6dfbfea74ffdbe99c4c219bbc53144e6668ccfe582cda4588cf43e1f",
+    "size": 81582,
+    "subdir": "osx-arm64",
+    "timestamp": 1636439134803,
+    "version": "3.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/scs-3.0.0-py38h15f2a14_1.tar.bz2/scs-3.0.0-py38h15f2a14_1.tar.bz2"
+}
