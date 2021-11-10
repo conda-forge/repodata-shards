@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Just the HTCondor libcondor_utils shared object library.",
+    "dev_url": "https://github.com/htcondor/htcondor",
+    "doc_source_url": null,
+    "doc_url": "https://htcondor.readthedocs.io/",
+    "home": "http://htcondor.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "9.2.0": {
+        "weak": [
+          "libcondor_utils >=9.2.0,<9.2.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/htcondor/htcondor/archive/V9_2_0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "HTCondor utilities library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1636564323,
+    "version": "9.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "htcondor-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libcondor_utils-9.2.0-hdf7f04e_2.tar.bz2",
+  "repodata": {
+    "build": "hdf7f04e_2",
+    "build_number": 2,
+    "depends": [
+      "htcondor-classads 9.2.0 hce5123c_2",
+      "krb5 >=1.19.2,<1.20.0a0",
+      "libcxx >=11.1.0",
+      "llvm-openmp >=11.1.0",
+      "openssl >=1.1.1l,<1.1.2a",
+      "pcre >=8.45,<9.0a0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "3774ca19ed0b8f475f6cdbb78529bb81",
+    "name": "libcondor_utils",
+    "sha256": "1c9aceb91b17ff039cb42d078f542fe5fb8b4e324ab67e0ef1dacdd24799a0ca",
+    "size": 2039025,
+    "subdir": "osx-64",
+    "timestamp": 1636564323330,
+    "version": "9.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libcondor_utils-9.2.0-hdf7f04e_2.tar.bz2/libcondor_utils-9.2.0-hdf7f04e_2.tar.bz2"
+}
