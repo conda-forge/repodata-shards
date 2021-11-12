@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Just the HTCondor libcondor_utils shared object library.",
+    "dev_url": "https://github.com/htcondor/htcondor",
+    "doc_source_url": null,
+    "doc_url": "https://htcondor.readthedocs.io/",
+    "home": "http://htcondor.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "9.0.7": {
+        "weak": [
+          "libcondor_utils >=9.0.7,<9.0.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://research.cs.wisc.edu/htcondor/tarball/9.0/9.0.7/release/condor-9.0.7-src.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "HTCondor utilities library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1636733199,
+    "version": "9.0.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "htcondor-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libcondor_utils-9.0.7-h6cc8cf0_0.tar.bz2",
+  "repodata": {
+    "build": "h6cc8cf0_0",
+    "build_number": 0,
+    "depends": [
+      "htcondor-classads 9.0.7 h44c5b22_0",
+      "krb5 >=1.19.2,<1.20.0a0",
+      "libcxx >=11.1.0",
+      "llvm-openmp >=11.1.0",
+      "openssl >=1.1.1l,<1.1.2a",
+      "pcre >=8.45,<9.0a0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "f10006ace5889410d168466eb4481e2c",
+    "name": "libcondor_utils",
+    "sha256": "1645d25dc52e7120c40ec3a6f6293fc4d2c2ffe65c047ca951ca35eed9914e35",
+    "size": 1892219,
+    "subdir": "osx-arm64",
+    "timestamp": 1636733199029,
+    "version": "9.0.7"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libcondor_utils-9.0.7-h6cc8cf0_0.tar.bz2/libcondor_utils-9.0.7-h6cc8cf0_0.tar.bz2"
+}

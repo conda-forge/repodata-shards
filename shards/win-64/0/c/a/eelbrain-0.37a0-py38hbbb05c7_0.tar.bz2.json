@@ -21,22 +21,22 @@
     "source_git_url": null,
     "source_url": "https://pypi.io/packages/source/e/eelbrain/eelbrain-0.37a0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "MEG/EEG analysis tools",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1636732795,
+    "timestamp": 1636733003,
     "version": "0.37a0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "eelbrain-feedstock",
   "labels": [
     "eelbrain_dev"
   ],
-  "package": "eelbrain-0.37a0-py39he46a4f1_0.tar.bz2",
+  "package": "eelbrain-0.37a0-py38hbbb05c7_0.tar.bz2",
   "repodata": {
-    "build": "py39he46a4f1_0",
+    "build": "py38hbbb05c7_0",
     "build_number": 0,
     "depends": [
       "colormath >=2.1",
@@ -44,8 +44,6 @@
       "keyring >=5",
       "libblas >=3.8.0,<4.0a0",
       "libcblas >=3.8.0,<4.0a0",
-      "libgcc-ng >=9.4.0",
-      "libstdcxx-ng >=9.4.0",
       "matplotlib-base >=3.4",
       "mayavi >=4.6.2",
       "mne >=0.19",
@@ -53,28 +51,29 @@
       "nilearn",
       "numba",
       "numpy >=1.20,<2.0a0",
-      "olefile",
       "packaging",
       "pillow",
       "pyface !=7.2.0",
       "pysurfer >=0.9",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "scipy >=1.5",
       "tqdm >=4.40",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
       "wxpython >=4.0.3,!=4.1.0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "6ce674968ec18030e2b9e34e7409399f",
+    "md5": "6365df005a7be94a63ed1ebf863166f0",
     "name": "eelbrain",
-    "sha256": "2595340b65cbfccd667d1aabac599eed87d9e262cf061a093bcd89afa4bb18ca",
-    "size": 2473481,
-    "subdir": "linux-64",
-    "timestamp": 1636732795236,
+    "sha256": "e0d7a5e2ab337629df38bcbed249463cf17f50f8dd90090aee46ac66f149c89b",
+    "size": 2355990,
+    "subdir": "win-64",
+    "timestamp": 1636733003029,
     "version": "0.37a0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/eelbrain-0.37a0-py39he46a4f1_0.tar.bz2/eelbrain-0.37a0-py39he46a4f1_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/eelbrain-0.37a0-py38hbbb05c7_0.tar.bz2/eelbrain-0.37a0-py38hbbb05c7_0.tar.bz2"
 }
