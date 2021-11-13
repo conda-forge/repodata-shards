@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GTK is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK is suitable for projects ranging from small one-off projects to complete application suites.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/gtk",
+    "doc_source_url": null,
+    "doc_url": "https://developer.gnome.org/gtk4/",
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.4.1": {
+        "weak": [
+          "gtk4 >=4.4.1,<5.0a0",
+          "adwaita-icon-theme"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/gtk/4.4/gtk-4.4.1.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Version 4 of the Gtk+ graphical toolkit",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1636806515,
+    "version": "4.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gtk4-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gtk4-4.4.1-hcbccd91_0.tar.bz2",
+  "repodata": {
+    "build": "hcbccd91_0",
+    "build_number": 0,
+    "depends": [
+      "__osx >=10.12",
+      "cairo >=1.16.0,<1.17.0a0",
+      "epoxy >=1.5.9,<1.6.0a0",
+      "fontconfig",
+      "freetype >=2.10.4,<3.0a0",
+      "fribidi",
+      "gdk-pixbuf >=2.42.6,<3.0a0",
+      "gettext >=0.19.8.1,<1.0a0",
+      "glib-tools",
+      "harfbuzz >=3.1.1,<4.0a0",
+      "hicolor-icon-theme",
+      "libglib >=2.70.0,<3.0a0",
+      "libgraphene",
+      "pango >=1.48.10,<1.49.0a0"
+    ],
+    "license": "LGPL-2.0-or-later",
+    "license_family": "LGPL",
+    "md5": "fe4f53b21d98aa631e268c8dd396eac7",
+    "name": "gtk4",
+    "sha256": "f83f155149801b9677b978c4836b8b6c6fa043e7e4002ef1fc73ec9d35823d85",
+    "size": 28423885,
+    "subdir": "osx-64",
+    "timestamp": 1636806515466,
+    "version": "4.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gtk4-4.4.1-hcbccd91_0.tar.bz2/gtk4-4.4.1-hcbccd91_0.tar.bz2"
+}
