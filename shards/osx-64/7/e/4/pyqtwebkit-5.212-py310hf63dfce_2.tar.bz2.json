@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "\"PyQt is a set of Python v2 and v3 bindings for The Qt Company's Qt application framework and runs on all platforms supported by Qt including Windows, MacOS/X and Linux. PyQt5 supports Qt v5. PyQt4 supports Qt v4 and will build against Qt v5. The bindings are implemented as a set of Python modules and contain over 1,000 classes.\"",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://www.riverbankcomputing.com/software/pyqt/",
+    "home": "http://www.riverbankcomputing.co.uk/software/pyqt",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-Commercial or GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.212": {
+        "weak": [
+          "pyqtwebkit >=5.212,<5.213.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Python binding of the cross-platform GUI toolkit Qt. QtWebKit only.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1636933966,
+    "version": "5.212"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyqtwebkit-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyqtwebkit-5.212-py310hf63dfce_2.tar.bz2",
+  "repodata": {
+    "build": "py310hf63dfce_2",
+    "build_number": 2,
+    "constrains": [
+      "__osx >=10.12"
+    ],
+    "depends": [
+      "dbus >=1.13.6,<2.0a0",
+      "libcxx >=11.1.0",
+      "pyqt >=5.12.3,<5.13.0a0",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "qt >=5.12.9,<5.13.0a0",
+      "qtwebkit 5.212.*"
+    ],
+    "license": "LicenseRef-Commercial or GPL-3.0-only",
+    "license_family": "GPL",
+    "md5": "b917e9cbf9753cef12367734c58dac6b",
+    "name": "pyqtwebkit",
+    "sha256": "01e3bb83c8cd835cb2c11ce639803e2c01500451b7eb41930d332ce02aee872f",
+    "size": 136729,
+    "subdir": "osx-64",
+    "timestamp": 1636933966582,
+    "version": "5.212"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pyqtwebkit-5.212-py310hf63dfce_2.tar.bz2/pyqtwebkit-5.212-py310hf63dfce_2.tar.bz2"
+}
