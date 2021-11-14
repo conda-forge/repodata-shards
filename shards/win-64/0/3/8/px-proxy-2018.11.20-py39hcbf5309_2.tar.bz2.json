@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Px is a HTTP(s) proxy server that allows applications to authenticate through an NTLM or Windows Kerberos authenticated proxy server, typically used in corporate deployments, without having to deal with the actual handshake. It is primarily designed to run on Windows systems and authenticates on behalf of the application using the currently logged in Windows user account.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/genotrance/px",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/genotrance/px/archive/2018-11-20.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "An HTTP proxy server to automatically authenticate through an NTLM proxy",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1636895715,
+    "version": "2018.11.20"
+  },
+  "channeldata_version": 1,
+  "feedstock": "px-proxy-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "px-proxy-2018.11.20-py39hcbf5309_2.tar.bz2",
+  "repodata": {
+    "build": "py39hcbf5309_2",
+    "build_number": 2,
+    "depends": [
+      "keyring",
+      "netaddr",
+      "ntlm-auth",
+      "psutil",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "pywin32",
+      "winkerberos"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "744f851c453e3ef52f45a7634b7f2cdf",
+    "name": "px-proxy",
+    "sha256": "8e9017d378666355d7149460575a4e508d7bb0da0e353e2287dd1291dc324ff3",
+    "size": 65179,
+    "subdir": "win-64",
+    "timestamp": 1636895715053,
+    "version": "2018.11.20"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/px-proxy-2018.11.20-py39hcbf5309_2.tar.bz2/px-proxy-2018.11.20-py39hcbf5309_2.tar.bz2"
+}
