@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "UHD is the free & open-source software driver and API for the Universal Software Radio Peripheral (USRP(TM)) SDR platform, created and sold by Ettus Research. UHD supports all Ettus Research USRP(TM) hardware, including all motherboards and daughterboards, and the combinations thereof.",
+    "dev_url": "https://github.com/EttusResearch/uhd",
+    "doc_source_url": null,
+    "doc_url": "https://files.ettus.com/manual/",
+    "home": "httsp://github.com/EttusResearch/uhd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.15.0.0": {
+        "weak": [
+          "uhd >=3.15.0,<3.15.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/EttusResearch/uhd/archive/v3.15.0.0.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Software driver and API for the Ettus Research USRP SDR platform",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637001337,
+    "version": "3.15.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "uhd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "uhd-3.15.0.0-py37he765b72_7.tar.bz2",
+  "repodata": {
+    "build": "py37he765b72_7",
+    "build_number": 7,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libusb >=1.0.24,<2.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "numpy >=1.18.5,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python >=3.7,<3.8.0a0 *_cpython",
+      "python_abi 3.7.* *_cp37m",
+      "requests"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL",
+    "md5": "03422d706167c22b4330f0ba0a55095d",
+    "name": "uhd",
+    "sha256": "8a899297e06f86bee73d33c46fbab4f919f5582035f93ff2c4676921ff0f53c1",
+    "size": 8505395,
+    "subdir": "linux-aarch64",
+    "timestamp": 1637001337758,
+    "version": "3.15.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/uhd-3.15.0.0-py37he765b72_7.tar.bz2/uhd-3.15.0.0-py37he765b72_7.tar.bz2"
+}
