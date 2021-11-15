@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "UHD is the free & open-source software driver and API for the Universal Software Radio Peripheral (USRP(TM)) SDR platform, created and sold by Ettus Research. UHD supports all Ettus Research USRP(TM) hardware, including all motherboards and daughterboards, and the combinations thereof.",
+    "dev_url": "https://github.com/EttusResearch/uhd",
+    "doc_source_url": null,
+    "doc_url": "https://files.ettus.com/manual/",
+    "home": "httsp://github.com/EttusResearch/uhd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.1.0.4": {
+        "weak": [
+          "uhd >=4.1.0,<4.1.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/EttusResearch/uhd/archive/v4.1.0.4.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Software driver and API for the Ettus Research USRP SDR platform",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637002088,
+    "version": "4.1.0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "uhd-4.1.0.4-py37h6405744_1.tar.bz2",
+  "repodata": {
+    "build": "py37h6405744_1",
+    "build_number": 1,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libusb >=1.0.24,<2.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "numpy >=1.19.5,<2.0a0",
+      "pypy3.7 >=7.3.7",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7 *_pypy37_pp73",
+      "pyyaml",
+      "requests",
+      "ruamel.yaml"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "83f3c83e7807eb250d7e1317a7ef351a",
+    "name": "uhd",
+    "sha256": "9f324718962ce3f5b3adf340e8cdbce134515df5ae2b1642bb4380e795dbd633",
+    "size": 8056667,
+    "subdir": "linux-64",
+    "timestamp": 1637002088921,
+    "version": "4.1.0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/uhd-4.1.0.4-py37h6405744_1.tar.bz2"
+}
