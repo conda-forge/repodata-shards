@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This is the MeteoSwiss Pyrad. Pyrad is an open source Python module for weather radar data processing. The module controls the data flow. The inputs and outputs are specified using config files. Most of the core data processing is performed using Py-ART, originally developed in the framework of the Atmospheric Radiation Measurement (ARM) Climate Research Facility for working with data from a number of precipitation and cloud radars. This package is provided for convenience to the Py-ART comunity. If you would like to get the full functionality of Pyrad please use pyrad_mch, which runs with the MeteoSwiss version of Py-ART.",
+    "dev_url": "https://github.com/MeteoSwiss/pyrad",
+    "doc_source_url": null,
+    "doc_url": "https://pyrad-mch.readthedocs.io/en/stable/",
+    "home": "https://pyrad-mch.readthedocs.io/en/stable/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pyrad_mch/pyrad_mch-0.5.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "MeteoSwiss Pyrad, Python tool for radar data processing.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637093355,
+    "version": "0.5.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyrad_arm-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyrad_arm-0.5.0-py310h81f86ea_1.tar.bz2",
+  "repodata": {
+    "build": "py310h81f86ea_1",
+    "build_number": 1,
+    "depends": [
+      "arm_pyart",
+      "numpy >=1.21.4,<2.0a0",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "7f5f1261f8ccfc7024d4433cfd28f7f0",
+    "name": "pyrad_arm",
+    "sha256": "622f9033dd53e5c943ee4360f30198973925477fb3a218ac9012ad7ac45bb061",
+    "size": 580850,
+    "subdir": "osx-64",
+    "timestamp": 1637093355699,
+    "version": "0.5.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pyrad_arm-0.5.0-py310h81f86ea_1.tar.bz2/pyrad_arm-0.5.0-py310h81f86ea_1.tar.bz2"
+}
