@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/RobinHankin/disordR",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/disordR/disordR_0.0-8.tar.gz",
+      "https://cran.r-project.org/src/contrib/disordR_0.0-8.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Functionality for manipulating values of associative maps.  Ordinary R vectors are unsuitable for working with values of associative maps because elements of an R vector may be accessed by reference to their location in the vector, but associative maps are stored in arbitrary order.  However, when associating keys with values one needs both parts to be in 1-1 correspondence, so one cannot dispense with the order entirely.  The 'disordR' package includes a single S4 class, disord.  This class allows one to perform only those operations appropriate for manipulating values of associative maps and prevents any other operation (such as accessing an element at a particular location).  A useful heuristic is that one is only allowed to access or modify a disord object using a python list comprehension.  The idea is to prevent ill-defined operations on values (or keys) of associative maps, whose order is undefined or at best implementation-specific, while allowing and facilitating sensible operations.  The package is needed for development versions of 'mvp', 'hyper2', 'spray', 'clifford', and 'freealg'.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637145883,
+    "version": "0.0_8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-disordr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-disordr-0.0_8-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-digest"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "d65c72c45797eb9ed5646e9eb075b3fd",
+    "name": "r-disordr",
+    "noarch": "generic",
+    "sha256": "15591c8380162947325d5baa4341a17a84ee39cc441e2028a4d4adee203d86dd",
+    "size": 530819,
+    "subdir": "noarch",
+    "timestamp": 1637145883297,
+    "version": "0.0_8"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-disordr-0.0_8-r41hc72bb7e_0.tar.bz2/r-disordr-0.0_8-r41hc72bb7e_0.tar.bz2"
+}
