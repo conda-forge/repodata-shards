@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://gitlab.com/elsi_project/elsi_interface",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wordpress.elsi-interchange.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.8.0": {
+        "weak": [
+          "elsi * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gitlab.com/elsi_project/elsi_interface/-/archive/v2.8.0/elsi_interface-v2.8.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637154375,
+    "version": "2.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "elsi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "elsi-2.8.0-mpi_openmpi_h1a97a04_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h1a97a04_0",
+    "build_number": 0,
+    "depends": [
+      "elpa * mpi_openmpi_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libomm * mpi_openmpi_*",
+      "libomm * mpi_openmpi_*",
+      "llvm-openmp >=11.1.0",
+      "llvm-openmp >=12.0.1",
+      "matrixswitch * mpi_openmpi_*",
+      "matrixswitch * mpi_openmpi_*",
+      "ntpoly * mpi_openmpi_*",
+      "openmpi >=4.1.1,<5.0a0",
+      "scalapack"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "92d834c70e67f783584beb9fc96246a6",
+    "name": "elsi",
+    "sha256": "23ee91639820460c5e720f206f7b764b4ce3b003b98879d9570c1a851b09ee71",
+    "size": 902246,
+    "subdir": "osx-64",
+    "timestamp": 1637154375127,
+    "version": "2.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/elsi-2.8.0-mpi_openmpi_h1a97a04_0.tar.bz2/elsi-2.8.0-mpi_openmpi_h1a97a04_0.tar.bz2"
+}
