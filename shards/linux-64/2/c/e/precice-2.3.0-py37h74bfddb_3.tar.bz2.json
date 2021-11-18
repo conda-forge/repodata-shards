@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "preCICE stands for Precise Code Interaction Coupling Environment. Its main component is a library that can be used by simulation programs to be coupled together in a partitioned way, enabling multi-physics simulations, such as fluid-structure interaction.",
+    "dev_url": "https://github.com/precice/precice",
+    "doc_source_url": null,
+    "doc_url": "https://precice.org/docs.html",
+    "home": "https://precice.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.0": {
+        "weak": [
+          "precice >=2.3.0,<2.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/precice/precice/archive/refs/tags/v2.3.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637243793,
+    "version": "2.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "precice-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "precice-2.3.0-py37h74bfddb_3.tar.bz2",
+  "repodata": {
+    "build": "py37h74bfddb_3",
+    "build_number": 3,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "fmt >=8.0.1,<9.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libxml2 >=2.9.12,<2.10.0a0",
+      "mpich >=3.4.2,<4.0a0",
+      "petsc >=3.16.1,<3.17.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "superlu_dist >=7.1.1,<8.0a0"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "117e0b5d856570aee9888b63895db0ac",
+    "name": "precice",
+    "sha256": "c82eec18792f268229f8f12341596faaa4e06ab375ff979d1357877347ce5288",
+    "size": 74848575,
+    "subdir": "linux-64",
+    "timestamp": 1637243793915,
+    "version": "2.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/precice-2.3.0-py37h74bfddb_3.tar.bz2/precice-2.3.0-py37h74bfddb_3.tar.bz2"
+}
