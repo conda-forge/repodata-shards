@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "You define particle initial conditions and interactions in a high-level python script. Then tell HOOMD-blue how you want to execute the job and it takes care of the rest. Python job scripts give you unlimited flexibility to create custom initialization routines, control simulation parameters, and perform in situ analysis.",
+    "dev_url": "https://github.com/glotzerlab/hoomd-blue/",
+    "doc_source_url": null,
+    "doc_url": "https://hoomd-blue.readthedocs.io",
+    "home": "https://glotzerlab.engin.umich.edu/hoomd-blue/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/glotzerlab/hoomd-blue/releases/download/v3.0.0-beta.11/hoomd-v3.0.0-beta.11.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "HOOMD-blue is a general-purpose particle simulation toolkit.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637243336,
+    "version": "3.0.0dev11"
+  },
+  "channeldata_version": 1,
+  "feedstock": "hoomd-feedstock",
+  "labels": [
+    "hoomd_dev"
+  ],
+  "package": "hoomd-3.0.0dev11-gpu_py37h14533ee_0.tar.bz2",
+  "repodata": {
+    "build": "gpu_py37h14533ee_0",
+    "build_number": 0,
+    "depends": [
+      "__cuda >=10.2",
+      "cudatoolkit 10.2|10.2.*",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
+      "numpy",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "tbb >=2021.4.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "0cfd8149d48656d1d2410e3031c53598",
+    "name": "hoomd",
+    "sha256": "c0113f12ae5aeb6546c167535b554d4aa457115ac0d8fda2a9da8e549beea71a",
+    "size": 61089918,
+    "subdir": "linux-64",
+    "timestamp": 1637243336573,
+    "version": "3.0.0dev11"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/hoomd-3.0.0dev11-gpu_py37h14533ee_0.tar.bz2/hoomd-3.0.0dev11-gpu_py37h14533ee_0.tar.bz2"
+}
