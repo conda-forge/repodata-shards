@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://gitlab.com/elsi_project/elsi_interface",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wordpress.elsi-interchange.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.8.2": {
+        "weak": [
+          "elsi * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gitlab.com/elsi_project/elsi_interface/-/archive/v2.8.2/elsi_interface-v2.8.2.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637239037,
+    "version": "2.8.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "elsi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "elsi-2.8.2-mpi_mpich_hb27407b_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hb27407b_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "elpa * mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libomm * mpi_mpich_*",
+      "libomm * mpi_mpich_*",
+      "matrixswitch * mpi_mpich_*",
+      "matrixswitch * mpi_mpich_*",
+      "mpich >=3.4.2,<4.0a0",
+      "ntpoly * mpi_mpich_*",
+      "scalapack"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "59482b6ff61d35840aeaf5c6d1195c7c",
+    "name": "elsi",
+    "sha256": "f271b684db3246318c5d6ff0a02af76ba4dceffac2945230691c878fa6948ec8",
+    "size": 884570,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1637239037648,
+    "version": "2.8.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/elsi-2.8.2-mpi_mpich_hb27407b_0.tar.bz2/elsi-2.8.2-mpi_mpich_hb27407b_0.tar.bz2"
+}
