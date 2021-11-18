@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://gitlab.com/elsi_project/elsi_interface",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wordpress.elsi-interchange.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.8.2": {
+        "weak": [
+          "elsi * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gitlab.com/elsi_project/elsi_interface/-/archive/v2.8.2/elsi_interface-v2.8.2.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637239372,
+    "version": "2.8.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "elsi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "elsi-2.8.2-mpi_openmpi_h152c2b8_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h152c2b8_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "elpa * mpi_openmpi_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libomm * mpi_openmpi_*",
+      "libomm * mpi_openmpi_*",
+      "matrixswitch * mpi_openmpi_*",
+      "matrixswitch * mpi_openmpi_*",
+      "ntpoly * mpi_openmpi_*",
+      "openmpi >=4.1.1,<5.0a0",
+      "scalapack"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "5498eeb522143f09ded212a448e00d2a",
+    "name": "elsi",
+    "sha256": "146586e72a0697a911d1ec5b4bd4fce9e0a2d134cf04cb65aa1e74e10dabb45d",
+    "size": 894237,
+    "subdir": "linux-aarch64",
+    "timestamp": 1637239372838,
+    "version": "2.8.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/elsi-2.8.2-mpi_openmpi_h152c2b8_0.tar.bz2/elsi-2.8.2-mpi_openmpi_h152c2b8_0.tar.bz2"
+}
