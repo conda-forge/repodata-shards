@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Dicomifier is a set of tools to convert Bruker data to DICOM files, and DICOM files to NIfTI. It retains meta-data (e.g. MR parameters such as echo time or subject parameters such as weight or height) throughout the conversion process, storing them in JSON format, allowing easy access in multiple environments. The meta-data from Bruker is aligned on the DICOM dictionary for unified human and animal processing pipelines.",
+    "dev_url": "https://github.com/lamyj/dicomifier",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/lamyj/dicomifier",
+    "home": "https://github.com/lamyj/dicomifier",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CECILL-B",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/lamyj/dicomifier/archive/v2.2.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Convert data from Bruker to DICOM and from DICOM to NIfTI",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637263193,
+    "version": "2.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dicomifier-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dicomifier-2.2.1-py37hb3716ce_1.tar.bz2",
+  "repodata": {
+    "build": "py37hb3716ce_1",
+    "build_number": 1,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "nibabel",
+      "numpy",
+      "odil >=0.12",
+      "python >=3.7,<3.8.0a0",
+      "python-dateutil",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "CECILL-B",
+    "license_family": "OTHER",
+    "md5": "a6e2934eeb149323d2bbdda4aea01339",
+    "name": "dicomifier",
+    "sha256": "2ccf87668be9ea669211fb719470eba8a7bb689645ce6cae4c6106efd10fa1f1",
+    "size": 290720,
+    "subdir": "linux-64",
+    "timestamp": 1637263193743,
+    "version": "2.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/dicomifier-2.2.1-py37hb3716ce_1.tar.bz2/dicomifier-2.2.1-py37hb3716ce_1.tar.bz2"
+}
