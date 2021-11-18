@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": "You define particle initial conditions and interactions in a high-level python script. Then tell HOOMD-blue how you want to execute the job and it takes care of the rest. Python job scripts give you unlimited flexibility to create custom initialization routines, control simulation parameters, and perform in situ analysis.",
     "dev_url": "https://github.com/glotzerlab/hoomd-blue/",
@@ -21,41 +21,42 @@
     "source_git_url": null,
     "source_url": "https://github.com/glotzerlab/hoomd-blue/releases/download/v3.0.0-beta.11/hoomd-v3.0.0-beta.11.tar.gz",
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "HOOMD-blue is a general-purpose particle simulation toolkit.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1637241904,
+    "timestamp": 1637241369,
     "version": "3.0.0dev11"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "hoomd-feedstock",
   "labels": [
     "hoomd_dev"
   ],
-  "package": "hoomd-3.0.0dev11-cpu_py37hc99a739_0.tar.bz2",
+  "package": "hoomd-3.0.0dev11-cpu_py39h85fc912_0.tar.bz2",
   "repodata": {
-    "build": "cpu_py37hc99a739_0",
+    "build": "cpu_py39h85fc912_0",
     "build_number": 0,
     "depends": [
-      "libcxx >=11.1.0",
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
       "numpy",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "tbb >=2021.4.0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "33b7a21f9812f2d1911e99dbebab9792",
+    "md5": "852004f8da2a30cdab0d82c00e1f1d35",
     "name": "hoomd",
-    "sha256": "3d99369821fcd529dba2634231ee4328ebb213d5b2caa5677320fe6da55b0387",
-    "size": 7437675,
-    "subdir": "osx-64",
-    "timestamp": 1637241904293,
+    "sha256": "bfb0723ec3211ca429757ccab5fbe13ab2e4fce8f445040ab3fce308bec15fb2",
+    "size": 7967929,
+    "subdir": "linux-64",
+    "timestamp": 1637241369205,
     "version": "3.0.0dev11"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/hoomd-3.0.0dev11-cpu_py37hc99a739_0.tar.bz2/hoomd-3.0.0dev11-cpu_py37hc99a739_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/hoomd-3.0.0dev11-cpu_py39h85fc912_0.tar.bz2/hoomd-3.0.0dev11-cpu_py39h85fc912_0.tar.bz2"
 }

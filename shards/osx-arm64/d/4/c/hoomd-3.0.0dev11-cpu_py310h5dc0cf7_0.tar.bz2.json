@@ -21,41 +21,42 @@
     "source_git_url": null,
     "source_url": "https://github.com/glotzerlab/hoomd-blue/releases/download/v3.0.0-beta.11/hoomd-v3.0.0-beta.11.tar.gz",
     "subdirs": [
-      "osx-64"
+      "osx-arm64"
     ],
     "summary": "HOOMD-blue is a general-purpose particle simulation toolkit.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1637241904,
+    "timestamp": 1637241937,
     "version": "3.0.0dev11"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "hoomd-feedstock",
   "labels": [
     "hoomd_dev"
   ],
-  "package": "hoomd-3.0.0dev11-cpu_py37hc99a739_0.tar.bz2",
+  "package": "hoomd-3.0.0dev11-cpu_py310h5dc0cf7_0.tar.bz2",
   "repodata": {
-    "build": "cpu_py37hc99a739_0",
+    "build": "cpu_py310h5dc0cf7_0",
     "build_number": 0,
     "depends": [
       "libcxx >=11.1.0",
       "numpy",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.10,<3.11.0a0",
+      "python >=3.10,<3.11.0a0 *_cpython",
+      "python_abi 3.10.* *_cp310",
       "tbb >=2021.4.0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "33b7a21f9812f2d1911e99dbebab9792",
+    "md5": "c76960d1818668f3646780d06217b146",
     "name": "hoomd",
-    "sha256": "3d99369821fcd529dba2634231ee4328ebb213d5b2caa5677320fe6da55b0387",
-    "size": 7437675,
-    "subdir": "osx-64",
-    "timestamp": 1637241904293,
+    "sha256": "fd995a58428cfd72d0bb870f08150cadf256a169aa2dd636756c206646bcda66",
+    "size": 7301174,
+    "subdir": "osx-arm64",
+    "timestamp": 1637241937273,
     "version": "3.0.0dev11"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/hoomd-3.0.0dev11-cpu_py37hc99a739_0.tar.bz2/hoomd-3.0.0dev11-cpu_py37hc99a739_0.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/hoomd-3.0.0dev11-cpu_py310h5dc0cf7_0.tar.bz2/hoomd-3.0.0dev11-cpu_py310h5dc0cf7_0.tar.bz2"
 }
