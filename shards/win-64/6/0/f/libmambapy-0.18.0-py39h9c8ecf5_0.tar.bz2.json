@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "dev_url": "https://github.com/mamba-org/mamba",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mamba-org/mamba",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.18.0": {
+        "weak": [
+          "libmambapy >=0.18.0,<0.19.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mamba-org/mamba/archive/2021.11.17.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637253484,
+    "version": "0.18.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mamba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmambapy-0.18.0-py39h9c8ecf5_0.tar.bz2",
+  "repodata": {
+    "build": "py39h9c8ecf5_0",
+    "build_number": 0,
+    "depends": [
+      "libmamba 0.18.0 h44daa3b_0",
+      "openssl >=1.1.1l,<1.1.2a",
+      "pybind11-abi 4",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "yaml-cpp >=0.6.3,<0.7.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "fdb3094666c7e12765eb889297a4a684",
+    "name": "libmambapy",
+    "sha256": "2b30a40f5c60b3c581833b5441cc4bed6bcab5ef415be059d946e96f6c476b77",
+    "size": 560690,
+    "subdir": "win-64",
+    "timestamp": 1637253484924,
+    "version": "0.18.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/libmambapy-0.18.0-py39h9c8ecf5_0.tar.bz2/libmambapy-0.18.0-py39h9c8ecf5_0.tar.bz2"
+}
