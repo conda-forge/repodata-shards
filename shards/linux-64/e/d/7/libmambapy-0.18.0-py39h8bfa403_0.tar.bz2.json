@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "dev_url": "https://github.com/mamba-org/mamba",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mamba-org/mamba",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.18.0": {
+        "weak": [
+          "libmambapy >=0.18.0,<0.19.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mamba-org/mamba/archive/2021.11.17.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637252697,
+    "version": "0.18.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mamba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmambapy-0.18.0-py39h8bfa403_0.tar.bz2",
+  "repodata": {
+    "build": "py39h8bfa403_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libmamba 0.18.0 h3985d26_0",
+      "libstdcxx-ng >=9.4.0",
+      "openssl >=1.1.1l,<1.1.2a",
+      "pybind11-abi 4",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "yaml-cpp >=0.6.3,<0.7.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "3d33002ad870a1afb1be507922efe521",
+    "name": "libmambapy",
+    "sha256": "30f5085c10e3d70ecfebff25405a62f16d222bea27c4e5348f799dc8fcd31219",
+    "size": 317485,
+    "subdir": "linux-64",
+    "timestamp": 1637252697366,
+    "version": "0.18.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libmambapy-0.18.0-py39h8bfa403_0.tar.bz2/libmambapy-0.18.0-py39h8bfa403_0.tar.bz2"
+}
