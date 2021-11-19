@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "dev_url": "https://github.com/mamba-org/mamba",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mamba-org/mamba",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.18.0": {
+        "weak": [
+          "libmambapy >=0.18.0,<0.19.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mamba-org/mamba/archive/2021.11.17.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637283092,
+    "version": "0.18.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mamba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmambapy-0.18.0-py37ha07342c_1.tar.bz2",
+  "repodata": {
+    "build": "py37ha07342c_1",
+    "build_number": 1,
+    "depends": [
+      "libmamba 0.18.0 h44daa3b_1",
+      "openssl >=1.1.1l,<1.1.2a",
+      "pybind11-abi 4",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "yaml-cpp >=0.6.3,<0.7.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "881098d8ce4ddaac5be7a57864077596",
+    "name": "libmambapy",
+    "sha256": "e9ec778aac013237152b5e94de79becc3efa89ff03d2747df9b80e9cdf31a6db",
+    "size": 560524,
+    "subdir": "win-64",
+    "timestamp": 1637283092282,
+    "version": "0.18.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/libmambapy-0.18.0-py37ha07342c_1.tar.bz2/libmambapy-0.18.0-py37ha07342c_1.tar.bz2"
+}
