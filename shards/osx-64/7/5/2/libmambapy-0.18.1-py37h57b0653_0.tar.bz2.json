@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "dev_url": "https://github.com/mamba-org/mamba",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mamba-org/mamba",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.18.1": {
+        "weak": [
+          "libmambapy >=0.18.1,<0.19.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mamba-org/mamba/archive/2021.11.19.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637349720,
+    "version": "0.18.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mamba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmambapy-0.18.1-py37h57b0653_0.tar.bz2",
+  "repodata": {
+    "build": "py37h57b0653_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.1.0",
+      "libmamba 0.18.1 h9ce2d19_0",
+      "openssl >=1.1.1l,<1.1.2a",
+      "pybind11-abi 4",
+      "pypy3.7 >=7.3.7",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7 *_pypy37_pp73",
+      "yaml-cpp >=0.6.3,<0.7.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "f429d9fbba36623bbbccd4ff282f3bed",
+    "name": "libmambapy",
+    "sha256": "7eddbc4d8bdec19695edd81769f8cd812c3a9c3ef75285b6e2a76595627ec517",
+    "size": 236328,
+    "subdir": "osx-64",
+    "timestamp": 1637349720022,
+    "version": "0.18.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libmambapy-0.18.1-py37h57b0653_0.tar.bz2/libmambapy-0.18.1-py37h57b0653_0.tar.bz2"
+}
