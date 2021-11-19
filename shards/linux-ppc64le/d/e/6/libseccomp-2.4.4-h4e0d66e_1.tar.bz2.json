@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The libseccomp library provides an easy to use, platform independent, interface to the Linux Kernel's syscall filtering mechanism. The libseccomp API is designed to abstract away the underlying BPF based syscall filter language and present a more conventional function-call based filtering interface that should be familiar to, and easily adopted by, application developers.",
+    "dev_url": "https://github.com/seccomp/libseccomp",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/seccomp/libseccomp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.4": {
+        "weak": [
+          "libseccomp >=2.4.4,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/seccomp/libseccomp/releases/download/v2.4.4/libseccomp-2.4.4.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "libseccomp provides an easy to use, platform independent, interface to the Linux syscall filtering mechanism.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637282204,
+    "version": "2.4.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "seccomp-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libseccomp-2.4.4-h4e0d66e_1.tar.bz2",
+  "repodata": {
+    "build": "h4e0d66e_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.4.0"
+    ],
+    "license": "LGPL-2.1-only",
+    "md5": "9c4e84486ebb05eaeb1366d3aa942ea4",
+    "name": "libseccomp",
+    "sha256": "fc89d8dbdef925b3d527e3b06980c28345b2f576870dc07dba241b4548ff75f1",
+    "size": 117763,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1637282204985,
+    "version": "2.4.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libseccomp-2.4.4-h4e0d66e_1.tar.bz2/libseccomp-2.4.4-h4e0d66e_1.tar.bz2"
+}
