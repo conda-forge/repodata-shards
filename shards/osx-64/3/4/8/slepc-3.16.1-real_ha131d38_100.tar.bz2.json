@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://slepc.upv.es/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.16.1": {
+        "weak": [
+          "slepc >=3.16.1,<3.17.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://slepc.upv.es/download/distrib/slepc-3.16.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "SLEPc: Scalable Library for Eigenvalue Problem Computations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637345070,
+    "version": "3.16.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "slepc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "slepc-3.16.1-real_ha131d38_100.tar.bz2",
+  "repodata": {
+    "build": "real_ha131d38_100",
+    "build_number": 100,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "mpich >=3.4,<3.5.0a0",
+      "petsc >=3.16.1,<3.17.0a0",
+      "petsc >=3.16.1,<3.17.0a0 *real*",
+      "suitesparse >=5.10.1,<5.10.2.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "220a1011b43d867833d84566e21f1ff9",
+    "name": "slepc",
+    "sha256": "21ddae77deb3fac14db8071abe872caab03393f3c2d8d71f5fa60ab97e85a37e",
+    "size": 3704848,
+    "subdir": "osx-64",
+    "timestamp": 1637345070013,
+    "version": "3.16.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/slepc-3.16.1-real_ha131d38_100.tar.bz2/slepc-3.16.1-real_ha131d38_100.tar.bz2"
+}
