@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Library for gravitational wave data analysis. This package contains the Python bindings of the LAL C libraries and additional Python modules.  Note: this package only provides the importable Python libraries. All command-line interfaces, scripts, and executables are part of the `lal` package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lal/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lal-7.1.4.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Library Python bindings",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637328334,
+    "version": "7.1.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lal-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-lal-7.1.4-fftw_py39h4fa004c_100.tar.bz2",
+  "repodata": {
+    "build": "fftw_py39h4fa004c_100",
+    "build_number": 100,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "liblal 7.1.4 fftw_hace999c_100",
+      "ligo-segments",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python-dateutil",
+      "python_abi 3.9.* *_cp39",
+      "scipy",
+      "six"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "ea9fa01c7b9a56ac020d6897be2bc384",
+    "name": "python-lal",
+    "sha256": "9757d5261adf531baf01c6dcd86da991cfca1b79765615cc308d66f9bfd10497",
+    "size": 1016186,
+    "subdir": "linux-64",
+    "timestamp": 1637328334741,
+    "version": "7.1.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/python-lal-7.1.4-fftw_py39h4fa004c_100.tar.bz2/python-lal-7.1.4-fftw_py39h4fa004c_100.tar.bz2"
+}
