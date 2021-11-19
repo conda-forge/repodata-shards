@@ -1,0 +1,83 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.mcs.anl.gov/petsc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.16.1": {
+        "weak": [
+          "petsc >=3.16.1,<3.17.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.16.1.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637339759,
+    "version": "3.16.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "petsc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "petsc-3.16.1-real_hf1eb5f5_101.tar.bz2",
+  "repodata": {
+    "build": "real_hf1eb5f5_101",
+    "build_number": 101,
+    "depends": [
+      "fftw * mpi_openmpi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+      "hypre >=2.23.0,<2.23.1.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mumps-mpi >=5.2.1,<5.2.2.0a0",
+      "openmpi >=4.1.1,<5.0a0",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "ptscotch >=6.0.9,<6.0.10.0a0",
+      "scalapack >=2.0.2,<2.1.0a0",
+      "scotch >=6.0.9,<6.0.10.0a0",
+      "suitesparse >=5.10.1,<5.11.0a0",
+      "superlu",
+      "superlu_dist >=7.1.1,<8.0a0",
+      "yaml >=0.2.5,<0.3.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "fd4dcb074f8ddd2ff34e3a773a070b82",
+    "name": "petsc",
+    "sha256": "34d32298523a4a0450da3a4fa412b314f963d71fbdee2f4c04b2693995000c8b",
+    "size": 13456446,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1637339759758,
+    "version": "3.16.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/petsc-3.16.1-real_hf1eb5f5_101.tar.bz2/petsc-3.16.1-real_hf1eb5f5_101.tar.bz2"
+}
