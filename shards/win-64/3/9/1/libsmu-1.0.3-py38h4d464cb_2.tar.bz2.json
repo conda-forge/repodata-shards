@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libsmu contains abstractions for streaming data to and from USB-connected analog interface devices, currently supporting the Analog Devices' ADALM1000. Building off of LibUSB for cross-platform operation, it offers the sourcing of repeated waveforms, configuration of hardware, and measuring of signals.",
+    "dev_url": "https://github.com/analogdevicesinc/libsmu",
+    "doc_source_url": null,
+    "doc_url": "https://analogdevicesinc.github.io/libsmu/",
+    "home": "https://github.com/analogdevicesinc/libsmu",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.3": {
+        "weak": [
+          "libsmu >=1.0.3,<1.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/analogdevicesinc/libsmu/archive/v1.0.3.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Software abstractions for the analog signal exploration tools",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637343605,
+    "version": "1.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libsmu-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libsmu-1.0.3-py38h4d464cb_2.tar.bz2",
+  "repodata": {
+    "build": "py38h4d464cb_2",
+    "build_number": 2,
+    "depends": [
+      "libusb >=1.0.24,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "c3c6e5b7b3255331f87eabf26cb03df1",
+    "name": "libsmu",
+    "sha256": "3a3269a99b8baa8ccf634f3f8f223757fb5b25fb25d102bd449bd9d1a2d1ef2a",
+    "size": 369993,
+    "subdir": "win-64",
+    "timestamp": 1637343605638,
+    "version": "1.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/libsmu-1.0.3-py38h4d464cb_2.tar.bz2/libsmu-1.0.3-py38h4d464cb_2.tar.bz2"
+}
