@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The davix project aims to make file management over HTTP-based protocols simple. The focus is on high-performance remote I/O and data management of large collections of files. Currently, there is support for the WebDav, Amazon S3, Microsoft Azure, and HTTP protocols.",
+    "dev_url": "https://github.com/cern-it-sdc-id/davix",
+    "doc_source_url": null,
+    "doc_url": "https://dmc-docs.web.cern.ch/dmc-docs/versions/docs/davix-epel/html/",
+    "home": "https://dmc.web.cern.ch/projects/davix/home",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.8.0": {
+        "weak": [
+          "davix >=0.8.0,<0.9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/cern-fts/davix/releases/download/R_0_8_0/davix-0.8.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "High-performance data access client for HTTP-based protocols. (WebDAV / S3 / Microsoft Azure / HTTP)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637314858,
+    "version": "0.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "davix-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "davix-0.8.0-h085017f_2.tar.bz2",
+  "repodata": {
+    "build": "h085017f_2",
+    "build_number": 2,
+    "depends": [
+      "gsoap >=2.8.117,<2.8.118.0a0",
+      "libcurl",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libxml2 >=2.9.12,<2.10.0a0",
+      "openssl >=1.1.1l,<1.1.2a"
+    ],
+    "license": "LGPL-2.1-only",
+    "md5": "a7ac55b1a2dd949a99d1554c0ab6f3a5",
+    "name": "davix",
+    "sha256": "ee0faa15f600568e4d109a7beeb9e7322f52dfb0dbce0c3363442573acc727fa",
+    "size": 1417201,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1637314858204,
+    "version": "0.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/davix-0.8.0-h085017f_2.tar.bz2/davix-0.8.0-h085017f_2.tar.bz2"
+}
