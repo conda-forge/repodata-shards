@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Digital RF project encompasses a standardized HDF5 format for reading and writing of radio frequency data and the software for doing so. The format is designed to be self-documenting for data archive and to allow rapid random access for data processing. For details on the format, refer to the documentation.  This suite of software includes libraries for reading and writing data in the Digital RF HDF5 format in C (``libdigital_rf``), Python (``digital_rf``) with blocks for GNU Radio (``gr_digital_rf``), and MATLAB. It also contains the `thor` UHD radio recorder script, Python tools for managing and processing Digital RF data, example scripts that demonstrate basic usage, and example applications that encompass a complete data recording and processing chain for various use cases.",
+    "dev_url": "https://github.com/MITHaystack/digital_rf",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/MITHaystack/digital_rf/tree/master/docs",
+    "home": "https://github.com/MITHaystack/digital_rf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.6.7": {
+        "weak": [
+          "digital_rf >=2.6.7,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/MITHaystack/digital_rf/releases/download/2.6.7/digital_rf-2.6.7.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Work with data in the Digital RF and Digital Metadata formats.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637340462,
+    "version": "2.6.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "digital_rf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "digital_rf-2.6.7-py39he237d91_2.tar.bz2",
+  "repodata": {
+    "build": "py39he237d91_2",
+    "build_number": 2,
+    "depends": [
+      "h5py",
+      "hdf5 >=1.12.1,<1.12.2.0a0",
+      "numpy >=1.19.5,<2.0a0",
+      "packaging",
+      "python >=3.9,<3.10.0a0",
+      "python-dateutil",
+      "python_abi 3.9.* *_cp39",
+      "pytz",
+      "six",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "watchdog"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "410435d9ddb9148f7fe9db867d280301",
+    "name": "digital_rf",
+    "sha256": "eb4c90d723958bbac28e9719f6cf95f3dd02a7c3a9c20b5410bf594ed651ec16",
+    "size": 530691,
+    "subdir": "win-64",
+    "timestamp": 1637340462895,
+    "version": "2.6.7"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/digital_rf-2.6.7-py39he237d91_2.tar.bz2/digital_rf-2.6.7-py39he237d91_2.tar.bz2"
+}
