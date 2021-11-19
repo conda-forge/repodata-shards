@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "libsmu contains abstractions for streaming data to and from USB-connected analog interface devices, currently supporting the Analog Devices' ADALM1000. Building off of LibUSB for cross-platform operation, it offers the sourcing of repeated waveforms, configuration of hardware, and measuring of signals.",
+    "dev_url": "https://github.com/analogdevicesinc/libsmu",
+    "doc_source_url": null,
+    "doc_url": "https://analogdevicesinc.github.io/libsmu/",
+    "home": "https://github.com/analogdevicesinc/libsmu",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.3": {
+        "weak": [
+          "libsmu >=1.0.3,<1.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/analogdevicesinc/libsmu/archive/v1.0.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Software abstractions for the analog signal exploration tools",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637344983,
+    "version": "1.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libsmu-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libsmu-1.0.3-py36h7744d9d_2.tar.bz2",
+  "repodata": {
+    "build": "py36h7744d9d_2",
+    "build_number": 2,
+    "depends": [
+      "libcxx >=10.0.1",
+      "libusb >=1.0.24,<2.0a0",
+      "python >=3.6,<3.7.0a0",
+      "python_abi 3.6.* *_cp36m"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "87772477d51b70d47b32b8735f218167",
+    "name": "libsmu",
+    "sha256": "2d7f1cb7335cb48241d0268a76dd50bb5ef61c32c625f81bf76c49bf8d70ed02",
+    "size": 187142,
+    "subdir": "osx-64",
+    "timestamp": 1637344983414,
+    "version": "1.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libsmu-1.0.3-py36h7744d9d_2.tar.bz2/libsmu-1.0.3-py36h7744d9d_2.tar.bz2"
+}
