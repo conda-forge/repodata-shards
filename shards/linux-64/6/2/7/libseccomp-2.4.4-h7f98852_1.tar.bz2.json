@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The libseccomp library provides an easy to use, platform independent, interface to the Linux Kernel's syscall filtering mechanism. The libseccomp API is designed to abstract away the underlying BPF based syscall filter language and present a more conventional function-call based filtering interface that should be familiar to, and easily adopted by, application developers.",
+    "dev_url": "https://github.com/seccomp/libseccomp",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/seccomp/libseccomp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.4": {
+        "weak": [
+          "libseccomp >=2.4.4,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/seccomp/libseccomp/releases/download/v2.4.4/libseccomp-2.4.4.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "libseccomp provides an easy to use, platform independent, interface to the Linux syscall filtering mechanism.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637281032,
+    "version": "2.4.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "seccomp-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libseccomp-2.4.4-h7f98852_1.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.4.0"
+    ],
+    "license": "LGPL-2.1-only",
+    "md5": "2109c96a317cb1938190be9c7600f848",
+    "name": "libseccomp",
+    "sha256": "6eee70d8e323d934ede2a5ac7f64cb3db625318782aed47630d89eb0b03e56f9",
+    "size": 106735,
+    "subdir": "linux-64",
+    "timestamp": 1637281032297,
+    "version": "2.4.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libseccomp-2.4.4-h7f98852_1.tar.bz2/libseccomp-2.4.4-h7f98852_1.tar.bz2"
+}
