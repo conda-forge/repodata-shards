@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The libseccomp library provides an easy to use, platform independent, interface to the Linux Kernel's syscall filtering mechanism. The libseccomp API is designed to abstract away the underlying BPF based syscall filter language and present a more conventional function-call based filtering interface that should be familiar to, and easily adopted by, application developers.",
+    "dev_url": "https://github.com/seccomp/libseccomp",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/seccomp/libseccomp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/seccomp/libseccomp/releases/download/v2.4.4/libseccomp-2.4.4.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "libseccomp provides an easy to use, platform independent, interface to the Linux syscall filtering mechanism.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637282341,
+    "version": "2.4.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "seccomp-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "seccomp-2.4.4-py310h7cee911_1.tar.bz2",
+  "repodata": {
+    "build": "py310h7cee911_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libseccomp 2.4.4 hf897c2e_1",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310"
+    ],
+    "license": "LGPL-2.1-only",
+    "md5": "549cc7de363a66a061171816c06e6187",
+    "name": "seccomp",
+    "sha256": "859dd85a3c5d95795d12ffe6c18b9183cabfb6c0d99019b4ba587d9d25550979",
+    "size": 305257,
+    "subdir": "linux-aarch64",
+    "timestamp": 1637282341151,
+    "version": "2.4.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/seccomp-2.4.4-py310h7cee911_1.tar.bz2/seccomp-2.4.4-py310h7cee911_1.tar.bz2"
+}
