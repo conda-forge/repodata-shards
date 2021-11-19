@@ -21,41 +21,50 @@
     "source_git_url": null,
     "source_url": "https://github.com/matplotlib/matplotlib/archive/v3.5.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Publication quality figures in Python",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1637314631,
+    "timestamp": 1637314965,
     "version": "3.5.0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "matplotlib-feedstock",
   "labels": [
     "testing"
   ],
-  "package": "matplotlib-3.5.0-py310h8278b81_200.tar.bz2",
+  "package": "matplotlib-base-3.5.0-py37ha5b12b9_200.tar.bz2",
   "repodata": {
-    "build": "py310h8278b81_200",
+    "build": "py37ha5b12b9_200",
     "build_number": 200,
     "depends": [
-      "matplotlib-base >=3.5.0,<3.5.1.0a0",
-      "pyqt",
-      "python >=3.10,<3.11.0a0",
-      "python_abi 3.10.* *_cp310",
-      "tornado"
+      "certifi >=2020.06.20",
+      "cycler >=0.10",
+      "fonttools >=4.22.0",
+      "kiwisolver >=1.0.1",
+      "numpy >=1.17",
+      "numpy >=1.18.5,<2.0a0",
+      "packaging >=20.0",
+      "pillow >=6.2.0",
+      "pyparsing >=2.2.1",
+      "python >=3.7,<3.8.0a0",
+      "python-dateutil >=2.7",
+      "python_abi 3.7.* *_cp37m",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "LicenseRef-PSF-based",
     "license_family": "PSF",
-    "md5": "950320d6c15f004a1efaab5c60d8b875",
-    "name": "matplotlib",
-    "sha256": "44bb42c0890a632a66052536920af4d701dd2ce4ab3094af962a713cb3b34711",
-    "size": 1764336,
-    "subdir": "linux-64",
-    "timestamp": 1637314631002,
+    "md5": "04d4192a24db368cf0107df646aa6a43",
+    "name": "matplotlib-base",
+    "sha256": "96f66f6f5771a22828d5d164ad8726b4e6a58ed4d4e70c354aacdce8d41e1e21",
+    "size": 9760118,
+    "subdir": "win-64",
+    "timestamp": 1637314965110,
     "version": "3.5.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/matplotlib-3.5.0-py310h8278b81_200.tar.bz2/matplotlib-3.5.0-py310h8278b81_200.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/matplotlib-base-3.5.0-py37ha5b12b9_200.tar.bz2/matplotlib-base-3.5.0-py37ha5b12b9_200.tar.bz2"
 }
