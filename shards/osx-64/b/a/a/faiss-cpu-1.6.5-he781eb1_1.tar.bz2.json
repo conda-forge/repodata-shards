@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. It is developed by [Facebook AI Research](https://research.fb.com/category/facebook-ai-research-fair/).  For best performance, the maintainers of the package [recommend](https://github.com/conda-forge/staged-recipes/pull/11337#issuecomment-623718460) using the MKL implementation of blas/lapack. You can ensure that this is installed by adding \"libblas =*=*mkl\" to your dependencies.",
+    "dev_url": "https://github.com/facebookresearch/faiss",
+    "doc_source_url": null,
+    "doc_url": "https://rawgit.com/facebookresearch/faiss/master/docs/html/annotated.html",
+    "home": "https://github.com/facebookresearch/faiss",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/facebookresearch/faiss/archive/v1.6.5.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A library for efficient similarity search and clustering of dense vectors.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637391681,
+    "version": "1.6.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "faiss-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "faiss-cpu-1.6.5-he781eb1_1.tar.bz2",
+  "repodata": {
+    "build": "he781eb1_1",
+    "build_number": 1,
+    "depends": [
+      "faiss 1.6.5 *_cpu"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "cd2a443109318bb3d44b8fd4e82708b2",
+    "name": "faiss-cpu",
+    "sha256": "0d41b0c1d3c82233a07a05e0080c3eaf56ec00bdf16a1b287ad4117611ef829e",
+    "size": 10455,
+    "subdir": "osx-64",
+    "timestamp": 1637391681146,
+    "version": "1.6.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/faiss-cpu-1.6.5-he781eb1_1.tar.bz2/faiss-cpu-1.6.5-he781eb1_1.tar.bz2"
+}
