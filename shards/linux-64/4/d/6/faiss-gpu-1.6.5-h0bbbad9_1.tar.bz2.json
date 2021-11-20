@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. It is developed by [Facebook AI Research](https://research.fb.com/category/facebook-ai-research-fair/).  For best performance, the maintainers of the package [recommend](https://github.com/conda-forge/staged-recipes/pull/11337#issuecomment-623718460) using the MKL implementation of blas/lapack. You can ensure that this is installed by adding \"libblas =*=*mkl\" to your dependencies.",
+    "dev_url": "https://github.com/facebookresearch/faiss",
+    "doc_source_url": null,
+    "doc_url": "https://rawgit.com/facebookresearch/faiss/master/docs/html/annotated.html",
+    "home": "https://github.com/facebookresearch/faiss",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/facebookresearch/faiss/archive/v1.6.5.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A library for efficient similarity search and clustering of dense vectors.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637394610,
+    "version": "1.6.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "faiss-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "faiss-gpu-1.6.5-h0bbbad9_1.tar.bz2",
+  "repodata": {
+    "build": "h0bbbad9_1",
+    "build_number": 1,
+    "depends": [
+      "faiss 1.6.5 *_cuda"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "7da2c44c29f2de8c802ef1b70c9c5773",
+    "name": "faiss-gpu",
+    "sha256": "6363a5a0f4dedbab00a1bf299d9ee0db2422721868b937b0ef3dd4eada7b6ba2",
+    "size": 10401,
+    "subdir": "linux-64",
+    "timestamp": 1637394610310,
+    "version": "1.6.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/faiss-gpu-1.6.5-h0bbbad9_1.tar.bz2/faiss-gpu-1.6.5-h0bbbad9_1.tar.bz2"
+}
