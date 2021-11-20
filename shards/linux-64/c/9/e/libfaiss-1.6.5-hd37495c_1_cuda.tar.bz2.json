@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. It is developed by [Facebook AI Research](https://research.fb.com/category/facebook-ai-research-fair/).  For best performance, the maintainers of the package [recommend](https://github.com/conda-forge/staged-recipes/pull/11337#issuecomment-623718460) using the MKL implementation of blas/lapack. You can ensure that this is installed by adding \"libblas =*=*mkl\" to your dependencies.",
+    "dev_url": "https://github.com/facebookresearch/faiss",
+    "doc_source_url": null,
+    "doc_url": "https://rawgit.com/facebookresearch/faiss/master/docs/html/annotated.html",
+    "home": "https://github.com/facebookresearch/faiss",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.6.5": {
+        "weak": [
+          "libfaiss",
+          "libfaiss =*=*_cuda"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/facebookresearch/faiss/archive/v1.6.5.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A library for efficient similarity search and clustering of dense vectors.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637394286,
+    "version": "1.6.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "faiss-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libfaiss-1.6.5-hd37495c_1_cuda.tar.bz2",
+  "repodata": {
+    "build": "hd37495c_1_cuda",
+    "build_number": 1,
+    "constrains": [
+      "faiss-proc * cuda"
+    ],
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "cudatoolkit 10.2|10.2.*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=7.5.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=7.5.0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "8cdd6cde908551ca9d7b74c6f8c732bb",
+    "name": "libfaiss",
+    "sha256": "09664ccafeea2d701c07c8dfcfbeb17f9cc46f434906a22b669cc92452820b08",
+    "size": 31006493,
+    "subdir": "linux-64",
+    "timestamp": 1637394286324,
+    "version": "1.6.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libfaiss-1.6.5-hd37495c_1_cuda.tar.bz2/libfaiss-1.6.5-hd37495c_1_cuda.tar.bz2"
+}
