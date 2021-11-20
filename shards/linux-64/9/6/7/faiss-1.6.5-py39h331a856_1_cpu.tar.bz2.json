@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. It is developed by [Facebook AI Research](https://research.fb.com/category/facebook-ai-research-fair/).  For best performance, the maintainers of the package [recommend](https://github.com/conda-forge/staged-recipes/pull/11337#issuecomment-623718460) using the MKL implementation of blas/lapack. You can ensure that this is installed by adding \"libblas =*=*mkl\" to your dependencies.",
+    "dev_url": "https://github.com/facebookresearch/faiss",
+    "doc_source_url": null,
+    "doc_url": "https://rawgit.com/facebookresearch/faiss/master/docs/html/annotated.html",
+    "home": "https://github.com/facebookresearch/faiss",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/facebookresearch/faiss/archive/v1.6.5.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A library for efficient similarity search and clustering of dense vectors.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637391003,
+    "version": "1.6.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "faiss-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "faiss-1.6.5-py39h331a856_1_cpu.tar.bz2",
+  "repodata": {
+    "build": "py39h331a856_1_cpu",
+    "build_number": 1,
+    "constrains": [
+      "faiss-proc * cpu"
+    ],
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libfaiss 1.6.5 *_cpu",
+      "libgcc-ng >=7.5.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=7.5.0",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "cc9e795d952d4e828edd88d169cf1145",
+    "name": "faiss",
+    "sha256": "d6b1dc7922932a5d22c3d79a02219b19e521e3c5e094e18c1664552dc064da60",
+    "size": 820697,
+    "subdir": "linux-64",
+    "timestamp": 1637391003045,
+    "version": "1.6.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/faiss-1.6.5-py39h331a856_1_cpu.tar.bz2/faiss-1.6.5-py39h331a856_1_cpu.tar.bz2"
+}
