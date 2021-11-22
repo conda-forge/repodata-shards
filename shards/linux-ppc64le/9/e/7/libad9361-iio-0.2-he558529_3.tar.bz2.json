@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This is a simple library used for userspace which manages multi-chip sync (on platforms [FMCOMMS5] where multiple AD9361 devices are use) and can create AD9361 specific FIR filters on the fly",
+    "dev_url": "https://github.com/analogdevicesinc/libad9361-iio",
+    "doc_source_url": null,
+    "doc_url": "https://analogdevicesinc.github.io/libad9361-iio",
+    "home": "https://github.com/analogdevicesinc/libad9361-iio",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.2": {
+        "weak": [
+          "libad9361-iio >=0.2,<0.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/analogdevicesinc/libad9361-iio/archive/v0.2.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "IIO AD9361 library for filter design and handling, multi-chip sync, etc.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637620169,
+    "version": "0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libad9361-iio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libad9361-iio-0.2-he558529_3.tar.bz2",
+  "repodata": {
+    "build": "he558529_3",
+    "build_number": 3,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libiio-c >=0.23,<1.0a0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "LGPL",
+    "md5": "1a66d8b7ffafa266f9ccc9e4f5afcd6e",
+    "name": "libad9361-iio",
+    "sha256": "9f6633741e8e9693aebd6a12c699e85c3d3c92ac4f842a13f86f4be5c51dfcd5",
+    "size": 129864,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1637620169278,
+    "version": "0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libad9361-iio-0.2-he558529_3.tar.bz2/libad9361-iio-0.2-he558529_3.tar.bz2"
+}
