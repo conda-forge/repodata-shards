@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "analisi is a framework for analyzing molecular dynamics simulations. It can read lammps's binary format (other formats can be converted) and evaluate averages over the ergodic and equilibrated trajectory. Very heavy calculation can be performed in a parallel way using MPI, while multithreading is implemented also in the python interface.",
+    "dev_url": "https://github.com/rikigigi/analisi",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/rikigigi/analisi",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/rikigigi/analisi/archive/v0.3.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "analisi: your Swiss Army Knife of molecular dynamics analysis",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1637586968,
+    "version": "0.3.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "analisi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "analisi-0.3.3-py37h2586e18_mpich_0.tar.bz2",
+  "repodata": {
+    "build": "py37h2586e18_mpich_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "fftw >=3.3.10,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "matplotlib-base",
+      "mpich >=3.4.2,<4.0a0",
+      "numpy",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "scipy",
+      "xdrfile >=1.1.4,<1.1.5.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "e03cf1416b3e6ac64de87594b46f819c",
+    "name": "analisi",
+    "sha256": "b6c1e4dce6a38982f396e10718b0272030e4f3fa322825bc022ef9e0cb04f16d",
+    "size": 92412266,
+    "subdir": "linux-64",
+    "timestamp": 1637586968969,
+    "version": "0.3.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/analisi-0.3.3-py37h2586e18_mpich_0.tar.bz2/analisi-0.3.3-py37h2586e18_mpich_0.tar.bz2"
+}
