@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Use law to build complex and large-scale task workflows. It is build on top of luigi and adds abstractions for run locations, storage locations and software environments. Law strictly disentangles these building blocks and ensures they remain interchangeable and resource-opportunistic.  Key features: - CLI with auto-completion and interactive status and dependency inspection. - Remote targets with automatic retries and local caching: WebDAV, HTTP, Dropbox, SFTP, all WLCG   protocols (srm, xrootd, rfio, dcap, gsiftp, ...) - Automatic submission to batch systems from within tasks: HTCondor, LSF, gLite, ARC - Environment sandboxing, configurable on task level: Docker, Singularity, Sub-Shells",
+    "dev_url": "https://github.com/riga/law",
+    "doc_source_url": null,
+    "doc_url": "https://law.readthedocs.io",
+    "home": "https://github.com/riga/law",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/law/law-0.1.5.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Use law to build complex and large-scale task workflows.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637687277,
+    "version": "0.1.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "law-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "law-0.1.5-py38h50d1736_0.tar.bz2",
+  "repodata": {
+    "build": "py38h50d1736_0",
+    "build_number": 0,
+    "depends": [
+      "luigi >=2.8.2",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "six >=1.10"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "bb4a7c1228733849959747499a015996",
+    "name": "law",
+    "sha256": "6eb757c28a2b415429235018d886592d1e5b1fa77f3cceb664c69e9975cda286",
+    "size": 340309,
+    "subdir": "osx-64",
+    "timestamp": 1637687277515,
+    "version": "0.1.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/law-0.1.5-py38h50d1736_0.tar.bz2/law-0.1.5-py38h50d1736_0.tar.bz2"
+}
