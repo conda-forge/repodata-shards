@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A Bayesian algorithm designed to robustly distinguish gravitational wave signals from noise and instrumental glitches without relying on any prior assumptions of waveform morphology. BayesWave produces posterior probability distributions directly on gravitational wave signals and instrumental glitches, allowing robust, morphology-independent waveform reconstruction.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://git.ligo.org/lscsoft/bayeswave",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/bayeswave-1.0.9.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python utilities for BayesWave",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1637757622,
+    "version": "1.0.9"
+  },
+  "channeldata_version": 1,
+  "feedstock": "bayeswave-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "bayeswaveutils-1.0.9-py39hf3d152e_1.tar.bz2",
+  "repodata": {
+    "build": "py39hf3d152e_1",
+    "build_number": 1,
+    "depends": [
+      "astropy",
+      "healpy",
+      "lalapps",
+      "ligo-gracedb",
+      "ligo-segments",
+      "ligo.skymap",
+      "lscsoft-glue",
+      "matplotlib-base <3.5.0a0",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python-lal",
+      "python-ligo-lw",
+      "python_abi 3.9.* *_cp39",
+      "scipy",
+      "setuptools"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "686f3eecbf310d2a8f87e1a7f7389938",
+    "name": "bayeswaveutils",
+    "sha256": "a5410a4728c76495be39e9b695a9fd908fe512587059cf5d6c552f47f14e503d",
+    "size": 133079,
+    "subdir": "linux-64",
+    "timestamp": 1637757622985,
+    "version": "1.0.9"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/bayeswaveutils-1.0.9-py39hf3d152e_1.tar.bz2/bayeswaveutils-1.0.9-py39hf3d152e_1.tar.bz2"
+}
