@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Watchtower is a log handler for Amazon Web Services CloudWatch Logs. CloudWatch Logs is a log management service built into AWS. It is conceptually similar to services like Splunk and Loggly, but is more lightweight, cheaper, and tightly integrated with the rest of AWS.  Watchtower, in turn, is a lightweight adapter between the Python logging system and CloudWatch Logs. It uses the boto3 AWS SDK, and lets you plug your application logging directly into CloudWatch without the need to install a system-wide log collector. It aggregates logs into batches to avoid sending an API request per each log message, while guaranteeing a delivery deadline (60 seconds by default).",
+    "dev_url": "https://github.com/kislyuk/watchtower",
+    "doc_source_url": null,
+    "doc_url": "https://watchtower.readthedocs.io/",
+    "home": "http://github.com/kislyuk/watchtower",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/kislyuk/watchtower/archive/v2.0.1.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Python CloudWatch Logging: Log Analytics and Application Intelligence",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638226653,
+    "version": "2.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "watchtower-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "watchtower-2.0.1-pyh6c4a22f_0.tar.bz2",
+  "repodata": {
+    "build": "pyh6c4a22f_0",
+    "build_number": 0,
+    "depends": [
+      "boto3 >=1.9.253,<2",
+      "python >=3.6"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "2872130b1d42add04bdcefcf19915887",
+    "name": "watchtower",
+    "noarch": "python",
+    "sha256": "225bac264336600e66b7ceeb54c4f5b3b25078143afbe9303c0c9311ad87662f",
+    "size": 19656,
+    "subdir": "noarch",
+    "timestamp": 1638226653049,
+    "version": "2.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/watchtower-2.0.1-pyh6c4a22f_0.tar.bz2/watchtower-2.0.1-pyh6c4a22f_0.tar.bz2"
+}
