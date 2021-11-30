@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Lightning is a way to organize your PyTorch code to decouple the science code from the engineering.  It's more of a style-guide than a framework.  In Lightning, you organize your code into 3 distinct categories:  1. Research code (goes in the LightningModule). 2. Engineering code (you delete, and is handled by the Trainer). 3. Non-essential research code (logging, etc. this goes in Callbacks).  Although your research/production project might start simple, once you add things like GPU AND TPU training,  16-bit precision, etc, you end up spending more time engineering than researching.  Lightning automates AND rigorously tests those parts for you.  Overall, Lightning guarantees rigorously tested, correct, modern best practices for the automated parts.  Documentation ------------- - https://pytorch-lightning.readthedocs.io/en/latest - https://pytorch-lightning.readthedocs.io/en/stable",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pypi.org/project/pytorch-lightning/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pytorch-lightning/pytorch-lightning-1.5.4.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638308989,
+    "version": "1.5.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pytorch-lightning-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pytorch-lightning-1.5.4-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "fsspec >=2021.05.0,!=2021.06.0",
+      "future",
+      "numpy >=1.17.2",
+      "packaging",
+      "pydeprecate 0.3.1",
+      "python >=3.6",
+      "pytorch >=1.6",
+      "pyyaml >=5.1",
+      "tensorboard >=2.2.0",
+      "torchmetrics >=0.4.1",
+      "tqdm >=4.41.0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "3e6e23a451d6c3371cb11736c9a00a28",
+    "name": "pytorch-lightning",
+    "noarch": "python",
+    "sha256": "ce10c0db6ec451304bc15b13a74985a89fce2b58005c76b16269cacb4108e6a2",
+    "size": 303457,
+    "subdir": "noarch",
+    "timestamp": 1638308989571,
+    "version": "1.5.4"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/pytorch-lightning-1.5.4-pyhd8ed1ab_0.tar.bz2/pytorch-lightning-1.5.4-pyhd8ed1ab_0.tar.bz2"
+}
