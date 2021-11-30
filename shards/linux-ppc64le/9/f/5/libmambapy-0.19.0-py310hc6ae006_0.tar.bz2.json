@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "dev_url": "https://github.com/mamba-org/mamba",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mamba-org/mamba",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.19.0": {
+        "weak": [
+          "libmambapy >=0.19.0,<0.20.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mamba-org/mamba/archive/2021.11.30.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638295978,
+    "version": "0.19.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mamba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmambapy-0.19.0-py310hc6ae006_0.tar.bz2",
+  "repodata": {
+    "build": "py310hc6ae006_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libmamba 0.19.0 hd0e580a_0",
+      "libstdcxx-ng >=9.4.0",
+      "openssl >=1.1.1l,<1.1.2a",
+      "pybind11-abi 4",
+      "python >=3.10,<3.11.0a0",
+      "python >=3.10,<3.11.0a0 *_cpython",
+      "python_abi 3.10.* *_cp310",
+      "yaml-cpp >=0.6.3,<0.7.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "9c3bf2e12b83b713cd417bd666b7fcb3",
+    "name": "libmambapy",
+    "sha256": "c42a3d4a670b6def6ff8e95f3546474b9996fadc02eeff8f76841a8fa710e6e2",
+    "size": 301112,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1638295978820,
+    "version": "0.19.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libmambapy-0.19.0-py310hc6ae006_0.tar.bz2/libmambapy-0.19.0-py310hc6ae006_0.tar.bz2"
+}
