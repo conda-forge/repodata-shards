@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Pyhull is a Python wrapper to Qhull (http://www.qhull.org/) for the computation of the convex hull, Delaunay triangulation and Voronoi diagram. It is written as a Python C extension, with both high-level and low-level interfaces to qhull. Pyhull has been tested to scale to 10,000 7D points for convex hull calculations (results in ~ 10 seconds), and 10,000 6D points for Delaunay triangulations and Voronoi tesselations (~ 100 seconds). Higher number of points and higher dimensions should be accessible depending on your machine, but may take a significant amount of time.",
+    "dev_url": "https://github.com/materialsvirtuallab/pyhull",
+    "doc_source_url": null,
+    "doc_url": "http://packages.python.org/pyhull/",
+    "home": "https://github.com/materialsvirtuallab/pyhull",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pyhull/pyhull-2015.2.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Pyhull is a Python wrapper to Qhull (http://www.qhull.org/) for the computation of the convex hull",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638236533,
+    "version": "2015.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyhull-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyhull-2015.2.1-py37h796e4cb_3.tar.bz2",
+  "repodata": {
+    "build": "py37h796e4cb_3",
+    "build_number": 3,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "numpy",
+      "pip",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "qhull >=2020.2,<2020.3.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "29af48844110aebed2ad3f710786c4fe",
+    "name": "pyhull",
+    "sha256": "55a175542cb05078cecc7b7d87f8f25d5cd598b99bc1e8f9f110777eacf9b72a",
+    "size": 215103,
+    "subdir": "linux-64",
+    "timestamp": 1638236533745,
+    "version": "2015.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyhull-2015.2.1-py37h796e4cb_3.tar.bz2/pyhull-2015.2.1-py37h796e4cb_3.tar.bz2"
+}
