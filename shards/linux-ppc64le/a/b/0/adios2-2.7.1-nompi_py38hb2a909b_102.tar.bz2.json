@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "ADIOS2 is the latest implementation of the ADaptable Input Output System, ADIOS. This brand new architecture was designed to continue supporting the performance legacy of ADIOS, and extend its current capabilities to address current and future input/output (IO) challenges in the scientific data lifecycle through effective research and development (R&D) activities.",
+    "dev_url": "https://github.com/ornladios/ADIOS2",
+    "doc_source_url": null,
+    "doc_url": "https://adios2.readthedocs.io",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.1": {
+        "weak": [
+          "adios2 * nompi_*",
+          "adios2 >=2.7.1,<2.7.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ornladios/ADIOS2/archive/v2.7.1.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Next generation of ADIOS developed in the Exascale Computing Program",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1638398909,
+    "version": "2.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "adios2-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "adios2-2.7.1-nompi_py38hb2a909b_102.tar.bz2",
+  "repodata": {
+    "build": "nompi_py38hb2a909b_102",
+    "build_number": 102,
+    "depends": [
+      "blosc >=1.21.0,<2.0a0",
+      "bzip2 >=1.0.8,<2.0a0",
+      "hdf5 >=1.12.1,<1.12.2.0a0",
+      "libffi >=3.4.2,<3.5.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "numpy >=1.18.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "zeromq >=4.3.4,<4.4.0a0",
+      "zfp >=0.5.5,<1.0a0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "e5738bf6c0ecc1a538ee640726f79441",
+    "name": "adios2",
+    "sha256": "e213c7b97e4daa5c673011f01587c79cf6b41954ff0afe55c4d214c48f370a8a",
+    "size": 4206201,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1638398909099,
+    "version": "2.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/adios2-2.7.1-nompi_py38hb2a909b_102.tar.bz2/adios2-2.7.1-nompi_py38hb2a909b_102.tar.bz2"
+}
