@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines.",
+    "dev_url": "https://github.com/plumed/plumed2",
+    "doc_source_url": null,
+    "doc_url": "https://www.plumed.org/doc",
+    "home": "http://www.plumed.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.3": {
+        "weak": [
+          "plumed * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/plumed/plumed2/archive/v2.7.3.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Free energy calculations in molecular systems",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1638364023,
+    "version": "2.7.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "plumed-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "plumed-2.7.3-mpi_mpich_h85f196e_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h85f196e_0",
+    "build_number": 0,
+    "depends": [
+      "fftw >=3.3.10,<4.0a0",
+      "gawk",
+      "gsl >=2.7,<2.8.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "mpich >=3.4.2,<4.0a0",
+      "xdrfile >=1.1.4,<1.1.5.0a0"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "GPL",
+    "md5": "7c1a8fee3333210a18cf8609170b1459",
+    "name": "plumed",
+    "sha256": "3ae582c51683767afb82311114bb71cca7aa4063877b2b08ace69c9b6af2bbd9",
+    "size": 3516979,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1638364023259,
+    "version": "2.7.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/plumed-2.7.3-mpi_mpich_h85f196e_0.tar.bz2/plumed-2.7.3-mpi_mpich_h85f196e_0.tar.bz2"
+}
