@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Molecular dynamics is a workhorse of modern computational condensed matter physics. It is frequently used to simulate materials to observe how small scale interactions can give rise to complex large-scale phenomenology. Most molecular dynamics packages (e.g. HOOMD Blue or LAMMPS) are complicated, specialized pieces of code that are many thousands of lines long. They typically involve significant code duplication to allow for running simulations on CPU and GPU. Additionally, large amounts of code is often devoted to taking derivatives of quantities to compute functions of interest (e.g. gradients of energies to compute forces).",
+    "dev_url": "https://github.com/google/jax-md",
+    "doc_source_url": null,
+    "doc_url": "https://jax-md.readthedocs.io/en/latest/",
+    "home": "https://github.com/google/jax-md",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/j/jax-md/jax-md-0.1.22.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Accelerated, Differentiable, Molecular Dynamics",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638391036,
+    "version": "0.1.22"
+  },
+  "channeldata_version": 1,
+  "feedstock": "jax-md-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "jax-md-0.1.22-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "absl-py",
+      "dataclasses",
+      "dm-haiku >=0.0.2",
+      "google-colab",
+      "jax >=0.1.73",
+      "jaxlib >=0.1.52",
+      "jraph",
+      "numpy",
+      "python >3.5"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "OTHER",
+    "md5": "d4ef420bbd607cc8efdd9bd964230e1c",
+    "name": "jax-md",
+    "noarch": "python",
+    "sha256": "8d92864c9b5a722c5d63d0b13b7d801f3a62e78d3bf8789fdbba8e4c49cbae81",
+    "size": 67067,
+    "subdir": "noarch",
+    "timestamp": 1638391036630,
+    "version": "0.1.22"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/jax-md-0.1.22-pyhd8ed1ab_0.tar.bz2/jax-md-0.1.22-pyhd8ed1ab_0.tar.bz2"
+}
