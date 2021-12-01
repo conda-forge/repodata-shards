@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "ADIOS2 is the latest implementation of the ADaptable Input Output System, ADIOS. This brand new architecture was designed to continue supporting the performance legacy of ADIOS, and extend its current capabilities to address current and future input/output (IO) challenges in the scientific data lifecycle through effective research and development (R&D) activities.",
+    "dev_url": "https://github.com/ornladios/ADIOS2",
+    "doc_source_url": null,
+    "doc_url": "https://adios2.readthedocs.io",
+    "home": "https://www.olcf.ornl.gov/center-projects/adios/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.1": {
+        "weak": [
+          "adios2 * mpi_openmpi_*",
+          "adios2 >=2.7.1,<2.7.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ornladios/ADIOS2/archive/v2.7.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Next generation of ADIOS developed in the Exascale Computing Program",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1638390502,
+    "version": "2.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "adios2-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "adios2-2.7.1-mpi_openmpi_py37h0f272e2_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_py37h0f272e2_2",
+    "build_number": 2,
+    "depends": [
+      "blosc >=1.21.0,<2.0a0",
+      "bzip2 >=1.0.8,<2.0a0",
+      "hdf5 >=1.12.1,<1.12.2.0a0 mpi_openmpi_*",
+      "libcxx >=11.1.0",
+      "libffi >=3.4.2,<3.5.0a0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "mpi4py",
+      "numpy >=1.18.5,<2.0a0",
+      "openmpi >=4.1,<4.2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "zeromq >=4.3.4,<4.4.0a0",
+      "zfp >=0.5.5,<1.0a0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "01056f73fc3b177ac596e4da18449e2d",
+    "name": "adios2",
+    "sha256": "20b48506ba15f27b3d2d47dd38a70ed12ea43106c2bef414a27e787d1fcbe2e9",
+    "size": 3704795,
+    "subdir": "osx-64",
+    "timestamp": 1638390502890,
+    "version": "2.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/adios2-2.7.1-mpi_openmpi_py37h0f272e2_2.tar.bz2/adios2-2.7.1-mpi_openmpi_py37h0f272e2_2.tar.bz2"
+}
