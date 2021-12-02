@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "StitchM stitches together mosaic images taken in Cockpit (Micron) into a universally readable format, currently .ome.tiff. The current output is an 16bit greyscale image when stitching the mosaic. Markers exported from Cockpit can be added as rectangular ROIs within the OME metadata stored in the image header. ROIs can be imported and displayed using bioformats in FIJI/ImageJ. Mainly for command-line use.",
+    "dev_url": "https://github.com/DiamondLightSource/StitchM",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/DiamondLightSource/StitchM/blob/master/README.md",
+    "home": "https://github.com/DiamondLightSource/StitchM",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/DiamondLightSource/StitchM/archive/v1.5.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Stitches mosaic images from Cockpit (Micron)",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638470039,
+    "version": "1.5.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "stitchm-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "stitchm-1.5.0-py38haa244fe_0.tar.bz2",
+  "repodata": {
+    "build": "py38haa244fe_0",
+    "build_number": 0,
+    "depends": [
+      "mrcfile >=1.1.2",
+      "numpy >=1.21.1",
+      "omexml-dls >=1.1.0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "pywin32",
+      "tifffile >=2020.9.30"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "b3a2dbce66af28c941ce7f13a43a7222",
+    "name": "stitchm",
+    "sha256": "52e4c576518153ad3e575114fe5d7717cf7b846ae2f51d892f4961697f4dc145",
+    "size": 57674,
+    "subdir": "win-64",
+    "timestamp": 1638470039234,
+    "version": "1.5.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/stitchm-1.5.0-py38haa244fe_0.tar.bz2/stitchm-1.5.0-py38haa244fe_0.tar.bz2"
+}
