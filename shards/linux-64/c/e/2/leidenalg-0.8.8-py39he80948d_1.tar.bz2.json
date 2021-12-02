@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package implements the Leiden algorithm in C++ and exposes it to python. It relies on (python-)igraph for it to function. Besides the relative flexibility of the implementation, it also scales well, and can be run on graphs of millions of nodes (as long as they can fit in memory). The core function is find_partition which is able to optimize a variety of quality functions using the Leiden algorithm.",
+    "dev_url": "https://github.com/vtraag/leidenalg",
+    "doc_source_url": null,
+    "doc_url": "http://leidenalg.readthedocs.io/",
+    "home": "https://github.com/vtraag/leidenalg",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.8.8": {
+        "weak": [
+          "leidenalg >=0.8.8,<0.9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/leidenalg/leidenalg-0.8.8.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Implementation of the Leiden algorithm for various methods for use with igraph in python.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638475488,
+    "version": "0.8.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "leidenalg-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "leidenalg-0.8.8-py39he80948d_1.tar.bz2",
+  "repodata": {
+    "build": "py39he80948d_1",
+    "build_number": 1,
+    "depends": [
+      "igraph >=0.9.5,<0.10.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "pip",
+      "python >=3.9,<3.10.0a0",
+      "python-igraph",
+      "python_abi 3.9.* *_cp39"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "1233e895294895f4160bbd7b67eb212c",
+    "name": "leidenalg",
+    "sha256": "f9f0cc718800aaa2e20d4158a705a9fcb6fdbb19f6d03958ac3419c27b395bda",
+    "size": 141816,
+    "subdir": "linux-64",
+    "timestamp": 1638475488309,
+    "version": "0.8.8"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/leidenalg-0.8.8-py39he80948d_1.tar.bz2/leidenalg-0.8.8-py39he80948d_1.tar.bz2"
+}
