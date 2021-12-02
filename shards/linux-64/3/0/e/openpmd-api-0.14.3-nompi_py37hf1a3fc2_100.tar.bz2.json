@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This library provides a common high-level API for openPMD writing and reading. It provides a common interface to I/O libraries and file formats such as HDF5, ADIOS1, ADIOS2, and JSON. Language bindings are provided for C++11 (or newer) and Python 3. This conda-forge package provides serial and MPI-parallel I/O. Windows support is limited to serial versions of HDF5, ADIOS2 and JSON.",
+    "dev_url": "https://github.com/openPMD/openPMD-api",
+    "doc_source_url": null,
+    "doc_url": "https://openpmd-api.readthedocs.io",
+    "home": "https://www.openPMD.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.14.3": {
+        "weak": [
+          "openpmd-api * nompi_*",
+          "adios2 >=2.7.1,<2.7.2.0a0",
+          "openpmd-api 0.14.3"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/openPMD/openPMD-api/archive/0.14.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "C++ & Python API for writing & reading (.h5, .bp, .json, ...), serial & MPI parallel openPMD files.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1638428644,
+    "version": "0.14.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openpmd-api-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openpmd-api-0.14.3-nompi_py37hf1a3fc2_100.tar.bz2",
+  "repodata": {
+    "build": "nompi_py37hf1a3fc2_100",
+    "build_number": 100,
+    "depends": [
+      "adios * nompi_*",
+      "adios2 * nompi_*",
+      "adios2 >=2.7.1,<2.7.2.0a0",
+      "blosc",
+      "bzip2",
+      "hdf5 >=1.12.1,<1.12.2.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "numpy >=1.15.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "zlib"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "211a4dc88c17d9abd26ef3c0cc258b8f",
+    "name": "openpmd-api",
+    "sha256": "08094e521fb95e03b11b6bd908785ba94e9101273694b7c9df1b1cce2a405f09",
+    "size": 1930312,
+    "subdir": "linux-64",
+    "timestamp": 1638428644173,
+    "version": "0.14.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openpmd-api-0.14.3-nompi_py37hf1a3fc2_100.tar.bz2/openpmd-api-0.14.3-nompi_py37hf1a3fc2_100.tar.bz2"
+}
