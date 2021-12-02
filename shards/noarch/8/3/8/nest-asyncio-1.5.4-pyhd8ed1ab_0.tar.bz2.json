@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "By design asyncio does not allow its event loop to be nested. This presents a practical problem - when in an environment where the event loop is already running it's impossible to run tasks and wait for the result. Trying to do so will give the error RuntimeError - This event loop is already running. The issue pops up in various environments, such as web servers, GUI applications and in Jupyter notebooks. This module patches asyncio to allow nested use of asyncio.run and loop.run_until_complete.",
+    "dev_url": "https://github.com/erdewit/nest_asyncio",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/erdewit/nest_asyncio",
+    "home": "https://github.com/erdewit/nest_asyncio",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/n/nest_asyncio/nest_asyncio-1.5.4.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Patch asyncio to allow nested event loops",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638419405,
+    "version": "1.5.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nest-asyncio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nest-asyncio-1.5.4-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "python >=3.5"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "0d86e4e6ac78912f3f47e0453b124aca",
+    "name": "nest-asyncio",
+    "noarch": "python",
+    "sha256": "cdcf52e689fbdb3e272b20037e733b15c4c5bc6d4530357dd7122a0fe240755b",
+    "size": 9378,
+    "subdir": "noarch",
+    "timestamp": 1638419405929,
+    "version": "1.5.4"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/nest-asyncio-1.5.4-pyhd8ed1ab_0.tar.bz2/nest-asyncio-1.5.4-pyhd8ed1ab_0.tar.bz2"
+}
