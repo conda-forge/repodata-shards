@@ -1,0 +1,78 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This library provides a common high-level API for openPMD writing and reading. It provides a common interface to I/O libraries and file formats such as HDF5, ADIOS1, ADIOS2, and JSON. Language bindings are provided for C++11 (or newer) and Python 3. This conda-forge package provides serial and MPI-parallel I/O. Windows support is limited to serial versions of HDF5, ADIOS2 and JSON.",
+    "dev_url": "https://github.com/openPMD/openPMD-api",
+    "doc_source_url": null,
+    "doc_url": "https://openpmd-api.readthedocs.io",
+    "home": "https://www.openPMD.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.14.3": {
+        "weak": [
+          "openpmd-api * mpi_openmpi_*",
+          "adios2 >=2.7.1,<2.7.2.0a0",
+          "openpmd-api 0.14.3"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/openPMD/openPMD-api/archive/0.14.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "C++ & Python API for writing & reading (.h5, .bp, .json, ...), serial & MPI parallel openPMD files.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1638428741,
+    "version": "0.14.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openpmd-api-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openpmd-api-0.14.3-mpi_openmpi_py38hcc2d29a_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_py38hcc2d29a_0",
+    "build_number": 0,
+    "depends": [
+      "adios * mpi_openmpi_*",
+      "adios2 * mpi_openmpi_*",
+      "adios2 >=2.7.1,<2.7.2.0a0",
+      "blosc",
+      "bzip2",
+      "hdf5 >=1.12.1,<1.12.2.0a0 mpi_openmpi_*",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "mpi4py",
+      "numpy >=1.15.0",
+      "openmpi >=4.1,<4.2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "zlib"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "d0ff16597e5d51d380339ad8220dfc97",
+    "name": "openpmd-api",
+    "sha256": "b7d4f0c102ac0efbb98e9078f73f1eabdb66f6e3fb00117fa2c42abb9abf72ba",
+    "size": 2290023,
+    "subdir": "linux-64",
+    "timestamp": 1638428741626,
+    "version": "0.14.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openpmd-api-0.14.3-mpi_openmpi_py38hcc2d29a_0.tar.bz2/openpmd-api-0.14.3-mpi_openmpi_py38hcc2d29a_0.tar.bz2"
+}
