@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/conda-forge/clang-compiler-activation-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "11.1.0": {
+        "strong": [
+          "libcxx >=11.1.0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.1.0/llvm-project-11.1.0.src.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "clang compilers for conda-build 3",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638479157,
+    "version": "11.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "clang-compiler-activation-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "clangxx_osx-arm64-11.1.0-h862bf99_5.tar.bz2",
+  "repodata": {
+    "build": "h862bf99_5",
+    "build_number": 5,
+    "depends": [
+      "clang_osx-arm64 11.1.0 h7730a26_5",
+      "clangxx 11.1.0.*",
+      "libcxx >=11.1.0",
+      "libllvm11 >=11.1.0,<11.2.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "2b43dcbabae7fee9d3255219388dc058",
+    "name": "clangxx_osx-arm64",
+    "sha256": "dd5dac561c25ac465bd8e505fbd7d8ca134fe4e4087b2cb4c396b50e9f025e42",
+    "size": 16241,
+    "subdir": "osx-64",
+    "timestamp": 1638479157236,
+    "version": "11.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/clangxx_osx-arm64-11.1.0-h862bf99_5.tar.bz2/clangxx_osx-arm64-11.1.0-h862bf99_5.tar.bz2"
+}
