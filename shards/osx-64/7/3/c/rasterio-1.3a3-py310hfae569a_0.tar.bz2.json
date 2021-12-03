@@ -21,22 +21,22 @@
     "source_git_url": null,
     "source_url": "https://github.com/mapbox/rasterio/archive/d26743c4b3192af201932724a9c883e9f7f28a1d.tar.gz",
     "subdirs": [
-      "win-64"
+      "osx-64"
     ],
     "summary": "Rasterio reads and writes geospatial raster datasets",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1638497618,
+    "text_prefix": true,
+    "timestamp": 1638497110,
     "version": "1.3a3"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "rasterio-feedstock",
   "labels": [
     "h5py_dev"
   ],
-  "package": "rasterio-1.3a3-py37ha3d381d_0.tar.bz2",
+  "package": "rasterio-1.3a3-py310hfae569a_0.tar.bz2",
   "repodata": {
-    "build": "py37ha3d381d_0",
+    "build": "py310hfae569a_0",
     "build_number": 0,
     "depends": [
       "affine",
@@ -45,26 +45,25 @@
       "click >=4",
       "click-plugins",
       "cligj >=0.5",
+      "libcxx >=11.1.0",
       "libgdal >=3.4.0,<3.5.0a0",
-      "numpy >=1.18.5,<2.0a0",
+      "numpy >=1.21.4,<2.0a0",
       "proj >=8.2.0,<8.2.1.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
       "setuptools >=0.9.8",
-      "snuggs >=1.4.1",
-      "vc >=14.1,<15.0a0",
-      "vs2015_runtime >=14.16.27012"
+      "snuggs >=1.4.1"
     ],
     "license": "BSD-3-Clause",
-    "md5": "7dde7964b44fe998f257059bff465161",
+    "md5": "23a6c744f8b12d68298a18ee761e0db3",
     "name": "rasterio",
-    "sha256": "7e301200130196e177c697995f81f1ac1a40b4d56ee1b685d3330455cc186771",
-    "size": 8251113,
-    "subdir": "win-64",
-    "timestamp": 1638497618591,
+    "sha256": "5b1bdf55aaec0392263be9a0a8acb91a4cc7f671658413e07fdbc06723926a9c",
+    "size": 8468333,
+    "subdir": "osx-64",
+    "timestamp": 1638497110599,
     "version": "1.3a3"
   },
   "repodata_version": 1,
-  "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/rasterio-1.3a3-py37ha3d381d_0.tar.bz2/rasterio-1.3a3-py37ha3d381d_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/rasterio-1.3a3-py310hfae569a_0.tar.bz2/rasterio-1.3a3-py310hfae569a_0.tar.bz2"
 }
