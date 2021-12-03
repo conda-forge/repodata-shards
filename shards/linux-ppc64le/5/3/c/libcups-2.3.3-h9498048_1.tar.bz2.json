@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "CUPS is the standards-based, open source printing system developed by Apple Inc. for macOS\u00AE and other UNIX\u00AE-like operating systems. CUPS uses the Internet Printing Protocol (IPP) to support printing to local and network printers.",
+    "dev_url": "https://github.com/apple/cups",
+    "doc_source_url": null,
+    "doc_url": "https://www.cups.org/documentation.html",
+    "home": "https://www.cups.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.3": {
+        "weak": [
+          "libcups >=2.3.3,<2.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/apple/cups/releases/download/v2.3.3/cups-2.3.3-source.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "CUPS is the standards-based, open source printing system",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1638494163,
+    "version": "2.3.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libcups-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libcups-2.3.3-h9498048_1.tar.bz2",
+  "repodata": {
+    "build": "h9498048_1",
+    "build_number": 1,
+    "depends": [
+      "krb5 >=1.19.2,<1.20.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "4fa4b5b64d90ab857ac06c16006acd06",
+    "name": "libcups",
+    "sha256": "77730589a6d9da926d55f350a7a18a9066ed255009aa97cd3f9197ccba274307",
+    "size": 4857445,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1638494163437,
+    "version": "2.3.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libcups-2.3.3-h9498048_1.tar.bz2/libcups-2.3.3-h9498048_1.tar.bz2"
+}
