@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.",
+    "dev_url": "https://wiki.mpich.org/mpich/index.php/Main_Page",
+    "doc_source_url": null,
+    "doc_url": "http://www.mpich.org/documentation/guides",
+    "home": "http://www.mpich.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-MPICH",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.4.2": {
+        "weak": [
+          "mpich >=3.4.2,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.mpich.org/static/downloads/3.4.2/mpich-3.4.2.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A high performance widely portable implementation of the MPI standard.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1638563033,
+    "version": "3.4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mpich-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mpich-3.4.2-hb1f5ef7_101.tar.bz2",
+  "repodata": {
+    "build": "hb1f5ef7_101",
+    "build_number": 101,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "mpi 1.0 mpich"
+    ],
+    "license": "LicenseRef-MPICH",
+    "license_family": "Other",
+    "md5": "99004c0d5d7400217d5ebe6395fc03e0",
+    "name": "mpich",
+    "sha256": "b7f568fe82ebfd78824bd8967f3ac6fa58ac3c80194690a78284e09243a34c05",
+    "size": 11826675,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1638563033980,
+    "version": "3.4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/mpich-3.4.2-hb1f5ef7_101.tar.bz2/mpich-3.4.2-hb1f5ef7_101.tar.bz2"
+}
