@@ -21,22 +21,22 @@
     "source_git_url": null,
     "source_url": "https://github.com/mapbox/rasterio/archive/d26743c4b3192af201932724a9c883e9f7f28a1d.tar.gz",
     "subdirs": [
-      "win-64"
+      "linux-aarch64"
     ],
     "summary": "Rasterio reads and writes geospatial raster datasets",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1638549568,
+    "text_prefix": true,
+    "timestamp": 1638551110,
     "version": "1.3a3"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "rasterio-feedstock",
   "labels": [
     "rasterio_dev"
   ],
-  "package": "rasterio-1.3a3-py37haa25dd2_0.tar.bz2",
+  "package": "rasterio-1.3a3-py38hd57ced6_0.tar.bz2",
   "repodata": {
-    "build": "py37haa25dd2_0",
+    "build": "py38hd57ced6_0",
     "build_number": 0,
     "depends": [
       "affine",
@@ -45,26 +45,26 @@
       "click >=4",
       "click-plugins",
       "cligj >=0.5",
+      "libgcc-ng >=9.4.0",
       "libgdal >=3.4.0,<3.5.0a0",
+      "libstdcxx-ng >=9.4.0",
       "numpy >=1.18.5,<2.0a0",
       "proj >=8.2.0,<8.2.1.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
       "setuptools >=0.9.8",
-      "snuggs >=1.4.1",
-      "vc >=14.1,<15.0a0",
-      "vs2015_runtime >=14.16.27012"
+      "snuggs >=1.4.1"
     ],
     "license": "BSD-3-Clause",
-    "md5": "f5b192dd18cfdd247d675a681fdd3446",
+    "md5": "6b5005fa7ad2d9a0610fcf13c2422fbd",
     "name": "rasterio",
-    "sha256": "de6bf77728201a0e64b83f6feee0c6438d1d38c16fa95613f84db8d3b8a15ff4",
-    "size": 8249424,
-    "subdir": "win-64",
-    "timestamp": 1638549568407,
+    "sha256": "ee32f184c8ae31f0d02f378aeeda3dd59eaa2876e7ce46382ce5110a7f0598dd",
+    "size": 8609802,
+    "subdir": "linux-aarch64",
+    "timestamp": 1638551110901,
     "version": "1.3a3"
   },
   "repodata_version": 1,
-  "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/rasterio-1.3a3-py37haa25dd2_0.tar.bz2/rasterio-1.3a3-py37haa25dd2_0.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/rasterio-1.3a3-py38hd57ced6_0.tar.bz2/rasterio-1.3a3-py38hd57ced6_0.tar.bz2"
 }
