@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/Legana/ampir",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/ampir/ampir_1.1.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/ampir_1.1.0.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A toolkit to predict antimicrobial peptides from protein sequences on a genome-wide scale. It incorporates two support vector machine models (\"precursor\" and \"mature\") trained on publicly available antimicrobial peptide data using calculated physico-chemical and compositional sequence properties described in Meher et al. (2017) <doi:10.1038/srep42362>. In order to support genome-wide analyses, these models are designed to accept any type of protein as input and calculation of compositional properties has been optimised for high-throughput use. For best results it is important to select the model that accurately represents your sequence type: for full length proteins, it is recommended to use the default \"precursor\" model. The alternative, \"mature\", model is best suited for mature peptide sequences that represent the final antimicrobial peptide sequence after post-translational processing. For details see Fingerhut et al. (2020) <doi:10.1093/bioinformatics/btaa653>. The 'ampir' package is also available via a Shiny based GUI at <https://ampir.marine-omics.net/>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638696918,
+    "version": "1.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-ampir-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-ampir-1.1.0-r40ha856d6a_0.tar.bz2",
+  "repodata": {
+    "build": "r40ha856d6a_0",
+    "build_number": 0,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=4.0,<4.1.0a0",
+      "r-caret >=6.0.0",
+      "r-kernlab",
+      "r-peptides",
+      "r-rcpp"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "3725a50872237d65c96397739f916047",
+    "name": "r-ampir",
+    "sha256": "1393938afaa2fb5ae1b90af84102f1bfd28775f6dc874c30f9084af7b7ef7be4",
+    "size": 1797441,
+    "subdir": "win-64",
+    "timestamp": 1638696918126,
+    "version": "1.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/r-ampir-1.1.0-r40ha856d6a_0.tar.bz2/r-ampir-1.1.0-r40ha856d6a_0.tar.bz2"
+}
