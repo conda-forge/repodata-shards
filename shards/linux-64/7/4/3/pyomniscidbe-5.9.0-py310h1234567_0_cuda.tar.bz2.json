@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OmniSciDB is an in-memory, column store, SQL relational database that was designed from the ground up to run on GPUs.",
+    "dev_url": "https://github.com/omnisci/omniscidb",
+    "doc_source_url": null,
+    "doc_url": "https://www.omnisci.com/docs/latest/",
+    "home": "https://www.omnisci.com/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.9.0": {
+        "weak": [
+          "pyomniscidbe >=5.9.0,<5.9.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/omnisci/omniscidb/archive/v5.9.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The OmniSci database",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638690237,
+    "version": "5.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "omniscidb-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyomniscidbe-5.9.0-py310h1234567_0_cuda.tar.bz2",
+  "repodata": {
+    "build": "py310h1234567_0_cuda",
+    "build_number": 0,
+    "depends": [
+      "__glibc >=2.17",
+      "arrow-cpp >=6.0.1,<6.0.2.0a0",
+      "arrow-cpp-proc 3.* cuda",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libthrift >=0.15.0,<0.15.1.0a0",
+      "omniscidbe 5.9.0 h1234567_0_cuda",
+      "pyarrow 6.* *cuda",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "tbb4py"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "bc8662da64e55142ab18e46f581eec4f",
+    "name": "pyomniscidbe",
+    "sha256": "5544e54def6593c44d78aac3a332a8339d80419fb3a132fb9e7ebae5a531e927",
+    "size": 861389,
+    "subdir": "linux-64",
+    "timestamp": 1638690237335,
+    "track_features": "arrow-cuda",
+    "version": "5.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyomniscidbe-5.9.0-py310h1234567_0_cuda.tar.bz2/pyomniscidbe-5.9.0-py310h1234567_0_cuda.tar.bz2"
+}
