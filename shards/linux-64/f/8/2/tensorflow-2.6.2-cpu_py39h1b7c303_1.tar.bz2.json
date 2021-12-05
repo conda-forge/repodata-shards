@@ -26,7 +26,7 @@
     "summary": "TensorFlow is an open source machine learning framework for everyone.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1637960286,
+    "timestamp": 1637964888,
     "version": "2.6.2"
   },
   "channeldata_version": 1,
@@ -34,30 +34,31 @@
   "labels": [
     "main"
   ],
-  "package": "tensorflow-estimator-2.6.2-cuda102py37h80be449_1.tar.bz2",
+  "package": "tensorflow-2.6.2-cpu_py39h1b7c303_1.tar.bz2",
   "repodata": {
-    "build": "cuda102py37h80be449_1",
+    "build": "cpu_py39h1b7c303_1",
     "build_number": 1,
     "depends": [
-      "cudatoolkit 10.2|10.2.*",
       "libgcc-ng >=7.5.0",
       "libstdcxx-ng >=7.5.0",
       "openssl >=1.1.1l,<1.1.2a",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
-      "tensorflow-base 2.6.2 cuda102py37h9af999e_1"
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "tensorflow-base 2.6.2 cpu_py39h73312ee_1",
+      "tensorflow-estimator 2.6.2 cpu_py39h1b7c303_1"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "69d8f1aaf16c94bee2d409bd92ea4197",
-    "name": "tensorflow-estimator",
-    "sha256": "2a7095187a0710742144554ea3c462b3805f6fb6f09e7a5a6afa6519cd087a0a",
-    "size": 667814,
+    "md5": "65b964c320b398eda5c8413e4952505d",
+    "name": "tensorflow",
+    "sha256": "7f918b473af75c6761ab43f180f8d6675c67a243ef1a38d36ea3adffa96343cf",
+    "size": 30056,
     "subdir": "linux-64",
-    "timestamp": 1637960286926,
+    "timestamp": 1637964888027,
+    "track_features": "tensorflow-cpu",
     "version": "2.6.2"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/tensorflow-estimator-2.6.2-cuda102py37h80be449_1.tar.bz2/tensorflow-estimator-2.6.2-cuda102py37h80be449_1.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/tensorflow-2.6.2-cpu_py39h1b7c303_1.tar.bz2/tensorflow-2.6.2-cpu_py39h1b7c303_1.tar.bz2"
 }
