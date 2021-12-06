@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "runc is a command line client for running applications packaged according to the Open Container Initiative (OCI) format and is a compliant implementation of the Open Container Initiative specification.  runc integrates well with existing process supervisors to provide a production container runtime environment for applications. It can be used with your existing process monitoring tools and the container will be spawned as a direct child of the process supervisor.  Containers are configured using bundles. A bundle for a container is a directory that includes a specification file named \"config.json\" and a root filesystem. The root filesystem contains the contents of the container.  To start a new instance of a container:  > runc start [ -b bundle ] <container-id>  Where \"<container-id>\" is your name for the instance of the container that you are starting. The name you provide for the container instance must be unique on your host. Providing the bundle directory using \"-b\" is optional. The default value for \"bundle\" is the current directory.",
+    "dev_url": "https://github.com/opencontainers/runc",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/opencontainers/runc",
+    "home": "https://github.com/opencontainers/runc",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "CLI tool for spawning and running containers according to the OCI specification",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638775203,
+    "version": "1.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "runc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "runc-1.0.3-h77c71de_0.tar.bz2",
+  "repodata": {
+    "build": "h77c71de_0",
+    "build_number": 0,
+    "depends": [
+      "__glibc >=2.17,<3.0.a0",
+      "libgcc-ng >=9.4.0",
+      "libseccomp >=2.4.4,<3.0a0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "c958e76518b5cfade7e1948914c0a40a",
+    "name": "runc",
+    "sha256": "f6bb2a4cf96ada55fe8b0ea536a35eaaa3f3be3fd1c6c736c0092d42c9f0ebb0",
+    "size": 6079996,
+    "subdir": "linux-64",
+    "timestamp": 1638775203090,
+    "version": "1.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/runc-1.0.3-h77c71de_0.tar.bz2/runc-1.0.3-h77c71de_0.tar.bz2"
+}
