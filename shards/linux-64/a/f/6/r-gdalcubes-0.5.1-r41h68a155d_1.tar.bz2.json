@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/appelmar/gdalcubes_R",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/gdalcubes/gdalcubes_0.5.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/gdalcubes_0.5.1.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Processing collections of Earth observation images as on-demand multispectral, multitemporal raster data cubes. Users define cubes by spatiotemporal extent, resolution, and spatial reference system and let 'gdalcubes' automatically apply cropping, reprojection, and resampling using the 'Geospatial Data Abstraction Library' ('GDAL'). Implemented functions on data cubes include reduction over space and time, applying arithmetic expressions on pixel band values, moving window aggregates over time, filtering by space, time, bands, and predicates on pixel values, exporting data cubes as 'netCDF' or 'GeoTIFF' files, and plotting.  The package implements lazy evaluation and multithreading. All computational parts are implemented in C++, linking to the 'GDAL', 'netCDF', 'CURL', and 'SQLite' libraries. See Appel and Pebesma (2019) <doi:10.3390/data4030092> for further details.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638819288,
+    "version": "0.5.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-gdalcubes-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-gdalcubes-0.5.1-r41h68a155d_1.tar.bz2",
+  "repodata": {
+    "build": "r41h68a155d_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libgdal >=3.4.0,<3.5.0a0",
+      "libnetcdf >=4.8.1,<4.8.2.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "proj >=8.2.0,<8.2.1.0a0",
+      "r-base >=4.1,<4.2.0a0",
+      "r-jsonlite",
+      "r-ncdf4",
+      "r-rcpp",
+      "r-rcppprogress",
+      "tiledb >=2.3.4,<2.4.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "30ca6c918ecc986a63f1877a5684ce23",
+    "name": "r-gdalcubes",
+    "sha256": "2baf2d51069f0bda5461acc4a9cbc392ffb599f0e2fbeb88960b62765cd11f18",
+    "size": 4003912,
+    "subdir": "linux-64",
+    "timestamp": 1638819288279,
+    "version": "0.5.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-gdalcubes-0.5.1-r41h68a155d_1.tar.bz2/r-gdalcubes-0.5.1-r41h68a155d_1.tar.bz2"
+}
