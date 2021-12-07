@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -20,19 +20,19 @@
     "run_exports": {
       "13.5": {
         "weak": [
-          "postgresql-plpython >=13.5,<14.0a0"
+          "libpq >=13.5,<14.0a0"
         ]
       }
     },
     "source_git_url": null,
     "source_url": "https://ftp.postgresql.org/pub/source/v13.5/postgresql-13.5.tar.bz2",
     "subdirs": [
-      "linux-aarch64"
+      "linux-ppc64le"
     ],
-    "summary": "The plpythonu postgresql extension",
+    "summary": "PostgreSQL is a powerful, open source object-relational database system.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1638895441,
+    "timestamp": 1638895499,
     "version": "13.5"
   },
   "channeldata_version": 1,
@@ -40,34 +40,31 @@
   "labels": [
     "main"
   ],
-  "package": "postgresql-plpython-13.5-py310h0cf528d_1.tar.bz2",
+  "package": "postgresql-13.5-h90e3369_1.tar.bz2",
   "repodata": {
-    "build": "py310h0cf528d_1",
+    "build": "h90e3369_1",
     "build_number": 1,
     "depends": [
       "krb5 >=1.19.2,<1.20.0a0",
       "libgcc-ng >=9.4.0",
-      "libuuid >=2.32.1,<3.0a0",
+      "libpq 13.5 he9d5e3e_1",
       "libxml2 >=2.9.12,<2.10.0a0",
-      "libxslt >=1.1.33,<2.0a0",
       "libzlib >=1.2.11,<1.3.0a0",
       "openssl >=1.1.1l,<1.1.2a",
-      "postgresql 13.5 hc7eaa15_1",
-      "python >=3.10,<3.11.0a0",
-      "python >=3.10,<3.11.0a0 *_cpython",
-      "python_abi 3.10.* *_cp310",
       "readline >=8.1,<9.0a0",
+      "tzcode",
+      "tzdata",
       "zlib >=1.2.11,<1.3.0a0"
     ],
-    "md5": "9e0c4752480b8cacf71df608da76034b",
-    "name": "postgresql-plpython",
-    "sha256": "dceb25fcf1c9f7b480afb8260bac9ab8f71d7f5f5608b6b38575c7f5c236c215",
-    "size": 70234,
-    "subdir": "linux-aarch64",
-    "timestamp": 1638895441649,
+    "md5": "e9c81d4e187bb9709447f999bc964a13",
+    "name": "postgresql",
+    "sha256": "8c9dade0819f18eb81dd41643fda975b6e2c5c9fdaff77e02db0cbbe6a6949a0",
+    "size": 5975981,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1638895499655,
     "version": "13.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-aarch64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/postgresql-plpython-13.5-py310h0cf528d_1.tar.bz2/postgresql-plpython-13.5-py310h0cf528d_1.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/postgresql-13.5-h90e3369_1.tar.bz2/postgresql-13.5-h90e3369_1.tar.bz2"
 }
