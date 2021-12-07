@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Basic Linear Algebra Subprograms (BLAS) have been around for many decades and serve as the de facto standard for performance-portable and numerically robust implementation of essential linear algebra functionality. Originally, they were written in Fortran, and later furnished with a C API (CBLAS). The objective of BLAS++ is to provide a convenient, performance oriented API for development in the C++ language, that, for the most part, preserves established conventions, while, at the same time, takes advantages of modern C++ features, such as: namespaces, templates, exceptions, etc. BLAS++ is part of the SLATE project (Software for Linear Algebra Targeting Exascale), which is funded by the Department of Energy as part of its Exascale Computing Initiative (ECP). Closely related to BLAS++ is the LAPACK++ project, which provides a C++ API for LAPACK.",
+    "dev_url": "https://bitbucket.org/icl/blaspp",
+    "doc_source_url": null,
+    "doc_url": "https://icl.bitbucket.io/blaspp/",
+    "home": "https://icl.utk.edu/slate/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2021.04.01": {
+        "weak": [
+          "blaspp 2021.04.01"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://bitbucket.org/icl/blaspp/downloads/blaspp-2021.04.01.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "C++ API for the Basic Linear Algebra Subroutines",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638860433,
+    "version": "2021.04.01"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blaspp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blaspp-2021.04.01-hbac4c18_0.tar.bz2",
+  "repodata": {
+    "build": "hbac4c18_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "llvm-openmp >=11.1.0",
+      "llvm-openmp >=12.0.1"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "cef5d432e7b9b39e575c659cf3722c31",
+    "name": "blaspp",
+    "sha256": "77d1867a43741711c804d333564bb6a0021cd261271855ca59ce95f66a4a9995",
+    "size": 160396,
+    "subdir": "osx-64",
+    "timestamp": 1638860433140,
+    "version": "2021.04.01"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/blaspp-2021.04.01-hbac4c18_0.tar.bz2/blaspp-2021.04.01-hbac4c18_0.tar.bz2"
+}
