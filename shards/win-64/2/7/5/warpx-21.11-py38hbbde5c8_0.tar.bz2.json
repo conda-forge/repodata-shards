@@ -1,0 +1,81 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports many features including: Perfectly-Matched Layers (PML), Boosted-frame simulations, particle collisions, mesh refinement.",
+    "dev_url": "https://github.com/ECP-WarpX/WarpX",
+    "doc_source_url": null,
+    "doc_url": "https://warpx.readthedocs.io",
+    "home": "https://ecp-warpx.github.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause-LBNL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "21.11": {
+        "weak": [
+          "warpx 21.11"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ECP-WarpX/WarpX/archive/21.11.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "WarpX is an advanced electromagnetic Particle-In-Cell code.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638837763,
+    "version": "21.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": "warpx-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "warpx-21.11-py38hbbde5c8_0.tar.bz2",
+  "repodata": {
+    "build": "py38hbbde5c8_0",
+    "build_number": 0,
+    "depends": [
+      "adios2 >=2.7.1,<2.7.2.0a0",
+      "blaspp 2020.10.02.*",
+      "fftw >=3.3.10,<4.0a0",
+      "lapackpp 2020.10.02.*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "liblapacke >=3.8.0,<4.0a0",
+      "llvm-openmp >=12.0.1",
+      "numpy",
+      "openpmd-api * nompi_*",
+      "openpmd-api 0.14.3.*",
+      "periodictable",
+      "picmistandard 0.0.14",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "scipy",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "BSD-3-Clause-LBNL",
+    "license_family": "BSD",
+    "md5": "0329eca627efebd34879ba907c22f2c9",
+    "name": "warpx",
+    "sha256": "47cd3a59e03cbfb54d1cf7c5621a0e6926c81f7c793d6f850a073dbf809ccfed",
+    "size": 24766013,
+    "subdir": "win-64",
+    "timestamp": 1638837763634,
+    "version": "21.11"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/warpx-21.11-py38hbbde5c8_0.tar.bz2/warpx-21.11-py38hbbde5c8_0.tar.bz2"
+}
