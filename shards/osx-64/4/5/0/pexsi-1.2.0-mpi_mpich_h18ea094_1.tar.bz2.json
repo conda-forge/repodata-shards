@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://bitbucket.org/berkeleylab/pexsi",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pexsi.readthedocs.io/en/latest/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.2.0": {
+        "weak": [
+          "pexsi * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://bitbucket.org/berkeleylab/pexsi/downloads/pexsi_v1.2.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Pole expansion and selected inversion",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638910037,
+    "version": "1.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pexsi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pexsi-1.2.0-mpi_mpich_h18ea094_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h18ea094_1",
+    "build_number": 1,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "llvm-openmp >=11.1.0",
+      "llvm-openmp >=12.0.1",
+      "mpich >=3.4.2,<4.0a0",
+      "parmetis",
+      "superlu_dist 6.2.0.*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "1d682237b4ac77a893715b7674c71ea9",
+    "name": "pexsi",
+    "sha256": "2357df9fb81486ba47001600ca4bb67e4d8d1db4aeffd855e1e4148651255fa7",
+    "size": 828592,
+    "subdir": "osx-64",
+    "timestamp": 1638910037483,
+    "version": "1.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pexsi-1.2.0-mpi_mpich_h18ea094_1.tar.bz2/pexsi-1.2.0-mpi_mpich_h18ea094_1.tar.bz2"
+}
