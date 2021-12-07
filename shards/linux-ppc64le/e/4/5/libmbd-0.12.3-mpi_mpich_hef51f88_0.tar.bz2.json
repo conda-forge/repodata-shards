@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://libmbd.github.io",
+    "home": "https://github.com/libmbd/libmbd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.12.3": {
+        "weak": [
+          "libmbd * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/libmbd/libmbd/releases/download/0.12.3/libmbd-0.12.3.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Many-body dispersion library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638888329,
+    "version": "0.12.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libmbd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmbd-0.12.3-mpi_mpich_hef51f88_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hef51f88_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "elsi * mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "mpich >=3.4.2,<4.0a0",
+      "scalapack"
+    ],
+    "license": "MPL-2.0",
+    "md5": "b33bb0059e6dbeea997e622aa11d7ba0",
+    "name": "libmbd",
+    "sha256": "8007d91727551e8aca8a65654740052fbc522a3076b48a1e1ebeb7777e9673d8",
+    "size": 309130,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1638888329760,
+    "version": "0.12.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libmbd-0.12.3-mpi_mpich_hef51f88_0.tar.bz2/libmbd-0.12.3-mpi_mpich_hef51f88_0.tar.bz2"
+}
