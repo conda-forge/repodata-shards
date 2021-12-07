@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://libmbd.github.io",
+    "home": "https://github.com/libmbd/libmbd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.12.3": {
+        "weak": [
+          "libmbd * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/libmbd/libmbd/releases/download/0.12.3/libmbd-0.12.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Many-body dispersion library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638888051,
+    "version": "0.12.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libmbd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmbd-0.12.3-mpi_openmpi_h1a97a04_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h1a97a04_0",
+    "build_number": 0,
+    "depends": [
+      "elsi * mpi_openmpi_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "llvm-openmp >=11.1.0",
+      "llvm-openmp >=12.0.1",
+      "openmpi >=4.1.2,<5.0a0",
+      "scalapack"
+    ],
+    "license": "MPL-2.0",
+    "md5": "11d5f1ce8e6101f77935e6c00f08a0eb",
+    "name": "libmbd",
+    "sha256": "c1ac7d4b77b68de124d4eb5f9720adc937d6c086728e7c22c0ba0fb4cd1e0d1c",
+    "size": 301062,
+    "subdir": "osx-64",
+    "timestamp": 1638888051182,
+    "version": "0.12.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libmbd-0.12.3-mpi_openmpi_h1a97a04_0.tar.bz2/libmbd-0.12.3-mpi_openmpi_h1a97a04_0.tar.bz2"
+}
