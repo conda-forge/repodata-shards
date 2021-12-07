@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports many features including: Perfectly-Matched Layers (PML), Boosted-frame simulations, particle collisions, mesh refinement.",
+    "dev_url": "https://github.com/ECP-WarpX/WarpX",
+    "doc_source_url": null,
+    "doc_url": "https://warpx.readthedocs.io",
+    "home": "https://ecp-warpx.github.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause-LBNL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "21.12": {
+        "weak": [
+          "warpx 21.12"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ECP-WarpX/WarpX/archive/21.12.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "WarpX is an advanced electromagnetic Particle-In-Cell code.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638843704,
+    "version": "21.12"
+  },
+  "channeldata_version": 1,
+  "feedstock": "warpx-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "warpx-21.12-py37h335414b_0.tar.bz2",
+  "repodata": {
+    "build": "py37h335414b_0",
+    "build_number": 0,
+    "depends": [
+      "blaspp 2020.10.02.*",
+      "fftw >=3.3.10,<4.0a0",
+      "lapackpp 2020.10.02.*",
+      "libcxx >=11.1.0",
+      "llvm-openmp >=11.1.0",
+      "llvm-openmp >=12.0.1",
+      "numpy",
+      "openpmd-api * nompi_*",
+      "openpmd-api 0.14.3.*",
+      "periodictable",
+      "picmistandard 0.0.14",
+      "pypy3.7 >=7.3.7",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7 *_pypy37_pp73",
+      "scipy"
+    ],
+    "license": "BSD-3-Clause-LBNL",
+    "license_family": "BSD",
+    "md5": "5fcdfbddb6aa07c5eb0c1d922023eddb",
+    "name": "warpx",
+    "sha256": "d7f97f6e522b5772cdda5349e41a9ba08789f420d8524069cc46247979138876",
+    "size": 27839268,
+    "subdir": "osx-64",
+    "timestamp": 1638843704971,
+    "version": "21.12"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/warpx-21.12-py37h335414b_0.tar.bz2/warpx-21.12-py37h335414b_0.tar.bz2"
+}
