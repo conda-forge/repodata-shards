@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Simulation Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Simulation library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite.git",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalsimulation/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.0.0": {
+        "weak": [
+          "liblalsimulation >=3.0.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://software.ligo.org/lscsoft/source/lalsuite/lalsimulation-3.0.0.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Simulation Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1638960604,
+    "version": "3.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalsimulation-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalsimulation-3.0.0-h04b0b92_3.tar.bz2",
+  "repodata": {
+    "build": "h04b0b92_3",
+    "build_number": 3,
+    "constrains": [
+      "python-lalsimulation >=2.5.0",
+      "lalsimulation >=2.5.0"
+    ],
+    "depends": [
+      "gsl >=2.7,<2.8.0a0",
+      "liblal >=7.1.0a0",
+      "liblal >=7.1.4,<8.0a0",
+      "llvm-openmp >=11.1.0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "d1192f5d1f2f059beed7367899063ef6",
+    "name": "liblalsimulation",
+    "sha256": "7816d2d481825ff9f330195819118198a9396b03b56353c7509fb93232717a47",
+    "size": 16867147,
+    "subdir": "osx-64",
+    "timestamp": 1638960604752,
+    "version": "3.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/liblalsimulation-3.0.0-h04b0b92_3.tar.bz2/liblalsimulation-3.0.0-h04b0b92_3.tar.bz2"
+}
