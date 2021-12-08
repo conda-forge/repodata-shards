@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Burst Library for gravitational wave data analysis. This package contains the Python bindings of the LALBurst C libraries and additional Python modules.  Note: this package only provides the importable Python libraries. All command-line interfaces, scripts, and executables are part of the `lalburst` package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalburst/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalburst-1.5.9.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Burst Library Python bindings",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1638971007,
+    "version": "1.5.9"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalburst-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-lalburst-1.5.9-py310h429aaae_2.tar.bz2",
+  "repodata": {
+    "build": "py310h429aaae_2",
+    "build_number": 2,
+    "depends": [
+      "gsl >=2.7,<2.8.0a0",
+      "libgcc-ng >=9.4.0",
+      "liblalburst 1.5.9 h43a23d0_2",
+      "ligo-segments",
+      "lscsoft-glue",
+      "matplotlib-base",
+      "numpy >=1.21.4,<2.0a0",
+      "python >=3.10,<3.11.0a0",
+      "python-lal >=7.1.0",
+      "python-lalmetaio >=2.0.0",
+      "python-lalsimulation >=3.0.0",
+      "python-ligo-lw >=1.7.0",
+      "python_abi 3.10.* *_cp310",
+      "scipy",
+      "tqdm"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "9e2f2c90292f47271757870e954cc6d2",
+    "name": "python-lalburst",
+    "sha256": "b8f23f6be97bd67fc8d1e531be8c29d522b85da0c1b81939b6b7f2e4dcf8b403",
+    "size": 423435,
+    "subdir": "linux-64",
+    "timestamp": 1638971007930,
+    "version": "1.5.9"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/python-lalburst-1.5.9-py310h429aaae_2.tar.bz2/python-lalburst-1.5.9-py310h429aaae_2.tar.bz2"
+}
