@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm MetaIO Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL MetaIO library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite.git",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalmetaio/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.3": {
+        "weak": [
+          "liblalmetaio >=2.0.3,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://software.ligo.org/lscsoft/source/lalsuite/lalmetaio-2.0.3.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm MetaIO Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1638960157,
+    "version": "2.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalmetaio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalmetaio-2.0.3-h7f98852_1.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_1",
+    "build_number": 1,
+    "constrains": [
+      "lalmetaio >=2.0.1",
+      "python-lalmetaio >=2.0.1"
+    ],
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "liblal >=7.1.0",
+      "liblal >=7.1.4,<8.0a0",
+      "metaio >=8.4.0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "e1e149874e96cf34f1c3f780ed7745dd",
+    "name": "liblalmetaio",
+    "sha256": "6549f0f32a57f0a73d489d4e920960e187b095c454ef360e169dce5143b49be8",
+    "size": 268385,
+    "subdir": "linux-64",
+    "timestamp": 1638960157350,
+    "version": "2.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/liblalmetaio-2.0.3-h7f98852_1.tar.bz2/liblalmetaio-2.0.3-h7f98852_1.tar.bz2"
+}
