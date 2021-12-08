@@ -1,0 +1,78 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "SIRIUS is a domain specific library for electronic structure calculations. It implements pseudopotential plane wave (PP-PW) and full potential linearized augmented plane wave (FP-LAPW) methods and is designed for GPU acceleration of popular community codes such as Exciting, Elk and Quantum ESPRESSO.",
+    "dev_url": "https://github.com/electronic-structure/SIRIUS",
+    "doc_source_url": null,
+    "doc_url": "https://electronic-structure.github.io/SIRIUS-doc/",
+    "home": "https://github.com/electronic-structure/SIRIUS",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "7.2.8": {
+        "weak": [
+          "sirius"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/electronic-structure/SIRIUS/archive/refs/tags/v7.2.8.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Domain specific library for electronic structure calculations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1638998683,
+    "version": "7.2.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "sirius-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "sirius-7.2.8-heece617_0.tar.bz2",
+  "repodata": {
+    "build": "heece617_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "gsl >=2.7,<2.8.0a0",
+      "hdf5 >=1.12.1,<1.12.2.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libxc >=5.1.7,<6.0a0",
+      "llvm-openmp >=11.1.0",
+      "llvm-openmp >=12.0.1",
+      "openmpi >=4.1.2,<5.0a0",
+      "scalapack",
+      "spfft",
+      "spglib",
+      "spla"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "4f7341e822ab5dad9bd8c9ea8a2e5fb3",
+    "name": "sirius",
+    "sha256": "48aca21b66c18bef3ae35b290e6f9e65b406b5ddb82bac7a5e117157f0865ea0",
+    "size": 3222759,
+    "subdir": "osx-64",
+    "timestamp": 1638998683034,
+    "version": "7.2.8"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/sirius-7.2.8-heece617_0.tar.bz2/sirius-7.2.8-heece617_0.tar.bz2"
+}
