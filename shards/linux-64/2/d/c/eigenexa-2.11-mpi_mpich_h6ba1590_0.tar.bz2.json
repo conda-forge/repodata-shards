@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.r-ccs.riken.jp/labs/lpnctrt/projects/eigenexa/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.11": {
+        "weak": [
+          "eigenexa * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.r-ccs.riken.jp/labs/lpnctrt/projects/eigenexa/EigenExa-2.11.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Massively parallel implementations of direct, dense eigensolver",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1639126792,
+    "version": "2.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": "eigenexa-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "eigenexa-2.11-mpi_mpich_h6ba1590_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h6ba1590_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "mpich >=3.4.2,<4.0a0",
+      "scalapack"
+    ],
+    "license": "BSD-2-Clause",
+    "md5": "c7222504daed0e2c3b458f93c884543d",
+    "name": "eigenexa",
+    "sha256": "db40447f3186f5f7aa3d1e79b6ae98d4536f885f2e3b3fbe9c5edc205d998d08",
+    "size": 683270,
+    "subdir": "linux-64",
+    "timestamp": 1639126792941,
+    "version": "2.11"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/eigenexa-2.11-mpi_mpich_h6ba1590_0.tar.bz2/eigenexa-2.11-mpi_mpich_h6ba1590_0.tar.bz2"
+}
