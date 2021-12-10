@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/gnuradio/gnuradio",
@@ -9,7 +9,7 @@
     "doc_url": "https://gnuradio.org/doc/doxygen/",
     "home": "https://gnuradio.org/",
     "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
-    "icon_url": "icons/gnuradio-qtgui.png",
+    "icon_url": "icons/gnuradio-uhd.png",
     "identifiers": null,
     "keywords": null,
     "license": "GPL-3.0-or-later",
@@ -21,49 +21,48 @@
     "source_git_url": null,
     "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.10.0.0-rc1.tar.gz",
     "subdirs": [
-      "osx-64"
+      "win-64"
     ],
     "summary": "GNU Radio Companion",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1639153717,
+    "timestamp": 1639153672,
     "version": "3.10.0.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "gnuradio-feedstock",
   "labels": [
     "gnuradio_rc"
   ],
-  "package": "gnuradio-qtgui-3.10.0.0rc1-py37h6524635_0.tar.bz2",
+  "package": "gnuradio-uhd-3.10.0.0rc1-py37h3ad572a_0.tar.bz2",
   "repodata": {
     "app_entry": "gnuradio-companion",
-    "build": "py37h6524635_0",
+    "build": "py37h3ad572a_0",
     "build_number": 0,
     "depends": [
-      "gnuradio-core 3.10.0.0rc1 py37h30aca8d_0",
-      "libcxx >=11.1.0",
-      "pyqt >=5.12.3,<5.13.0a0",
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "gnuradio-core 3.10.0.0rc1 py37h881fd52_0",
       "python >=3.7,<3.8.0a0",
       "python_abi 3.7.* *_cp37m",
-      "qt >=5.12.9,<5.13.0a0",
-      "qwt >=6.2.0,<6.3.0a0",
       "spdlog >=1.9.2,<1.10.0a0",
-      "volk >=2.5.0,<2.6.0a0"
+      "uhd >=4.1.0,<4.1.1.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "b188db2803642d5d5bf3a5f58cf2d608",
-    "name": "gnuradio-qtgui",
-    "sha256": "8898282d17dba03dd40267901ca92da30c97d93dbd827659f6aacf07da852169",
-    "size": 1121938,
-    "subdir": "osx-64",
+    "md5": "ecf7a58cef85a76e27dbda815462d553",
+    "name": "gnuradio-uhd",
+    "sha256": "5bb2436f9d80c63f6b6df81b54c9ec67ecd449814433e1668296e95971118ed8",
+    "size": 631239,
+    "subdir": "win-64",
     "summary": "GNU Radio Companion",
-    "timestamp": 1639153717791,
+    "timestamp": 1639153672423,
     "type": "app",
     "version": "3.10.0.0rc1"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gnuradio-qtgui-3.10.0.0rc1-py37h6524635_0.tar.bz2/gnuradio-qtgui-3.10.0.0rc1-py37h6524635_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/gnuradio-uhd-3.10.0.0rc1-py37h3ad572a_0.tar.bz2/gnuradio-uhd-3.10.0.0rc1-py37h3ad572a_0.tar.bz2"
 }
