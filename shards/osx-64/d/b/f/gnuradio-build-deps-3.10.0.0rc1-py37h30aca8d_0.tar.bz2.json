@@ -21,33 +21,32 @@
     "source_git_url": null,
     "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.10.0.0-rc1.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "GNU Radio Companion",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1639151925,
+    "timestamp": 1639153343,
     "version": "3.10.0.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "gnuradio-feedstock",
   "labels": [
     "gnuradio_rc"
   ],
-  "package": "gnuradio-build-deps-3.10.0.0rc1-py38h7bcb12a_0.tar.bz2",
+  "package": "gnuradio-build-deps-3.10.0.0rc1-py37h30aca8d_0.tar.bz2",
   "repodata": {
     "app_entry": "gnuradio-companion",
-    "build": "py38h7bcb12a_0",
+    "build": "py37h30aca8d_0",
     "build_number": 0,
     "constrains": [
-      "gnuradio-core 3.10.0.0rc1 py38h7bcb12a_0"
+      "gnuradio-core 3.10.0.0rc1 py37h30aca8d_0"
     ],
     "depends": [
+      "clang_osx-64 11.*",
+      "clangxx_osx-64 11.*",
       "cmake",
-      "gcc_linux-64 9.*",
-      "gxx_linux-64 9.*",
-      "libgcc-ng >=9.4.0",
-      "libstdcxx-ng >=9.4.0",
+      "libcxx >=11.1.0",
       "ninja",
       "numpy 1.18.*",
       "pkg-config",
@@ -57,17 +56,17 @@
     "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "a0326b93052bae26017f70f8b1f3a7bb",
+    "md5": "fb524799a77a82b272b6a7f7fdc1ccca",
     "name": "gnuradio-build-deps",
-    "sha256": "940eb6d1bc17bd0c285b03ce7d5ccbeafe14208090af22b98132a0d8e8557852",
-    "size": 57536,
-    "subdir": "linux-64",
+    "sha256": "a3e1ec9372a6fddee5de2ff4e555967579b42f739cf89041b7c3061d0b4a2655",
+    "size": 57401,
+    "subdir": "osx-64",
     "summary": "GNU Radio Companion",
-    "timestamp": 1639151925306,
+    "timestamp": 1639153343334,
     "type": "app",
     "version": "3.10.0.0rc1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gnuradio-build-deps-3.10.0.0rc1-py38h7bcb12a_0.tar.bz2/gnuradio-build-deps-3.10.0.0rc1-py38h7bcb12a_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gnuradio-build-deps-3.10.0.0rc1-py37h30aca8d_0.tar.bz2/gnuradio-build-deps-3.10.0.0rc1-py37h30aca8d_0.tar.bz2"
 }
