@@ -1,15 +1,15 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
-    "description": "This module provides GNU Radio source and sink blocks for a variety of SDR devices using SoapySDR, a generalized C/C++ library which provides abstraction in interfacing with different SDR devices and vendors.",
+    "description": null,
     "dev_url": "https://github.com/gnuradio/gnuradio",
     "doc_source_url": null,
     "doc_url": "https://gnuradio.org/doc/doxygen/",
     "home": "https://gnuradio.org/",
     "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
-    "icon_url": "icons/gnuradio-soapy.png",
+    "icon_url": "icons/gnuradio-qtgui.png",
     "identifiers": null,
     "keywords": null,
     "license": "GPL-3.0-or-later",
@@ -26,41 +26,44 @@
     "summary": "GNU Radio Companion",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1639153462,
+    "timestamp": 1639153340,
     "version": "3.10.0.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "gnuradio-feedstock",
   "labels": [
     "gnuradio_rc"
   ],
-  "package": "gnuradio-soapy-3.10.0.0rc1-py39h019ad4b_0.tar.bz2",
+  "package": "gnuradio-qtgui-3.10.0.0rc1-py39h1a1e182_0.tar.bz2",
   "repodata": {
     "app_entry": "gnuradio-companion",
-    "build": "py39h019ad4b_0",
+    "build": "py39h1a1e182_0",
     "build_number": 0,
     "depends": [
       "gnuradio-core 3.10.0.0rc1 py39hfdeaf3a_0",
       "libcxx >=11.1.0",
+      "pyqt >=5.12.3,<5.13.0a0",
       "python >=3.9,<3.10.0a0",
       "python_abi 3.9.* *_cp39",
-      "soapysdr >=0.8.1,<0.9.0a0",
-      "spdlog >=1.9.2,<1.10.0a0"
+      "qt >=5.12.9,<5.13.0a0",
+      "qwt >=6.2.0,<6.3.0a0",
+      "spdlog >=1.9.2,<1.10.0a0",
+      "volk >=2.5.0,<2.6.0a0"
     ],
     "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "f46f0dc50585ddeb8ad97d2adf6b09d0",
-    "name": "gnuradio-soapy",
-    "sha256": "1d9ecdfda71d8464c16a2f80c2f72a188bc73b361515fc423fbc081dcb28fd18",
-    "size": 311199,
+    "md5": "8ab697977fe872fb682401230da7268f",
+    "name": "gnuradio-qtgui",
+    "sha256": "17ae9feffe6e6907b3680949c1bfd5b43c5b8a4b555a245f312a628e46c4dd32",
+    "size": 1133467,
     "subdir": "osx-64",
     "summary": "GNU Radio Companion",
-    "timestamp": 1639153462599,
+    "timestamp": 1639153340792,
     "type": "app",
     "version": "3.10.0.0rc1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gnuradio-soapy-3.10.0.0rc1-py39h019ad4b_0.tar.bz2/gnuradio-soapy-3.10.0.0rc1-py39h019ad4b_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gnuradio-qtgui-3.10.0.0rc1-py39h1a1e182_0.tar.bz2/gnuradio-qtgui-3.10.0.0rc1-py39h1a1e182_0.tar.bz2"
 }

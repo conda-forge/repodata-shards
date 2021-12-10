@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/gnuradio/gnuradio",
@@ -27,38 +27,37 @@
     "source_git_url": null,
     "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.10.0.0-rc1.tar.gz",
     "subdirs": [
-      "osx-64"
+      "win-64"
     ],
     "summary": "GNU Radio Companion",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1639153259,
+    "timestamp": 1639152290,
     "version": "3.10.0.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "gnuradio-feedstock",
   "labels": [
     "gnuradio_rc"
   ],
-  "package": "gnuradio-core-3.10.0.0rc1-py37h30aca8d_0.tar.bz2",
+  "package": "gnuradio-core-3.10.0.0rc1-py37h881fd52_0.tar.bz2",
   "repodata": {
     "app_entry": "gnuradio-companion",
-    "build": "py37h30aca8d_0",
+    "build": "py37h881fd52_0",
     "build_number": 0,
     "depends": [
-      "__osx >=10.15",
       "boost-cpp >=1.74.0,<1.74.1.0a0",
       "click",
       "click-plugins",
       "fftw >=3.3.10,<4.0a0",
-      "gmp >=6.2.1,<7.0a0",
       "gsl >=2.7,<2.8.0a0",
       "libcodec2 >=1.0.0,<1.1.0a0",
-      "libcxx >=11.1.0",
       "libsndfile >=1.0.31,<1.1.0a0",
-      "libthrift >=0.15.0,<0.15.1.0a0",
       "mako",
+      "menuinst",
+      "mpir >=3.0.0,<4.0a0",
       "numpy",
+      "portaudio >=19.6.0,<19.7.0a0",
       "portaudio >=19.6.0,<20.0a0",
       "pybind11-abi 4",
       "python >=3.7,<3.8.0a0",
@@ -66,23 +65,24 @@
       "pyyaml",
       "setuptools",
       "spdlog >=1.9.2,<1.10.0a0",
-      "thrift",
-      "volk >=2.5.0,<2.6.0a0"
+      "vc >=14.1,<15.0a0",
+      "volk >=2.5.0,<2.6.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "28fd8ee88587aa6da4542495c86ef457",
+    "md5": "32f9956bd16b85f5704a7b4fc46e13f4",
     "name": "gnuradio-core",
-    "sha256": "89a1b79f5247fb37645d4a54a60c2101cc51c64133e45d91e43ce09cb9459241",
-    "size": 7365719,
-    "subdir": "osx-64",
+    "sha256": "0d83e5c0eb6b5fe5266a80edd5fb4f8f80e1406209f12e8bf8a49a2759e97315",
+    "size": 7036366,
+    "subdir": "win-64",
     "summary": "GNU Radio Companion",
-    "timestamp": 1639153259609,
+    "timestamp": 1639152290132,
     "type": "app",
     "version": "3.10.0.0rc1"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gnuradio-core-3.10.0.0rc1-py37h30aca8d_0.tar.bz2/gnuradio-core-3.10.0.0rc1-py37h30aca8d_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/gnuradio-core-3.10.0.0rc1-py37h881fd52_0.tar.bz2/gnuradio-core-3.10.0.0rc1-py37h881fd52_0.tar.bz2"
 }
