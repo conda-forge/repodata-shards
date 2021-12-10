@@ -19,31 +19,30 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "https://github.com/NOAA-PMEL/PyFerret/archive/refs/tags/v7.6.5-beta.tar.gz",
+    "source_url": "https://github.com/NOAA-PMEL/PyFerret/archive/v7.6.3.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "An Analysis Tool for Gridded and Non-Gridded Data.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1639103587,
-    "version": "7.6.5"
+    "timestamp": 1639103742,
+    "version": "7.6.3"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "pyferret-feedstock",
   "labels": [
-    "pyferret_dev"
+    "main"
   ],
-  "package": "pyferret-7.6.5-py39h4cff056_4.tar.bz2",
+  "package": "pyferret-7.6.3-py39h6a4b76a_4.tar.bz2",
   "repodata": {
-    "build": "py39h4cff056_4",
+    "build": "py39h6a4b76a_4",
     "build_number": 4,
     "depends": [
       "cairo >=1.16.0,<1.17.0a0",
       "glib",
-      "libgcc-ng >=9.4.0",
-      "libgfortran-ng",
-      "libgfortran5 >=9.4.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
       "libglib >=2.70.2,<3.0a0",
       "libnetcdf >=4.8.1,<4.8.2.0a0",
       "netcdf-fortran >=4.5.3,<4.6.0a0",
@@ -55,15 +54,15 @@
       "python_abi 3.9.* *_cp39"
     ],
     "license": "MIT",
-    "md5": "84d1d07c07744b4371820bb2d73ef571",
+    "md5": "2be1d4bf5d997ebff68df412571eeb25",
     "name": "pyferret",
-    "sha256": "8c7b7cb4fd538597d25a3277653711831e1a0e4e2776d7e25cab6a10658cb0bb",
-    "size": 10783259,
-    "subdir": "linux-64",
-    "timestamp": 1639103587625,
-    "version": "7.6.5"
+    "sha256": "2195a062cb21436a7f1a426a24e665cd92af684766b200860a9c6363d4bc0e7e",
+    "size": 10687661,
+    "subdir": "osx-64",
+    "timestamp": 1639103742710,
+    "version": "7.6.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyferret-7.6.5-py39h4cff056_4.tar.bz2/pyferret-7.6.5-py39h4cff056_4.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pyferret-7.6.3-py39h6a4b76a_4.tar.bz2/pyferret-7.6.3-py39h6a4b76a_4.tar.bz2"
 }
