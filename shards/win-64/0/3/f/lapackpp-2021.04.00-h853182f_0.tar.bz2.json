@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Linear Algebra PACKage (LAPACK) is a standard software library for numerical linear algebra. It provides routines for solving systems of linear equations and linear least squares problems, eigenvalue problems, and singular value decomposition. It also includes routines to implement the associated matrix factorizations such as LU, QR, Cholesky, etc. LAPACK was originally written in FORTRAN 77, and moved to Fortran 90 in version 3.2 (2008). LAPACK provides routines for handling both real and complex matrices in both single and double precision. The objective of LAPACK++ is to provide a convenient, performance oriented API for development in the C++ language, that, for the most part, preserves established conventions, while, at the same time, takes advantages of modern C++ features, such as: namespaces, templates, exceptions, etc. LAPACK++ is part of the SLATE project (Software for Linear Algebra Targeting Exascale), which is funded by the Department of Energy as part of its Exascale Computing Initiative (ECP). Closely related to LAPACK++ is the BLAS++ project, which provides a C++ API for BLAS and Batch BLAS.",
+    "dev_url": "https://bitbucket.org/icl/lapackpp",
+    "doc_source_url": null,
+    "doc_url": "https://icl.bitbucket.io/lapackpp/",
+    "home": "https://icl.utk.edu/slate/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2021.04.00": {
+        "weak": [
+          "lapackpp 2021.04.00"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://bitbucket.org/icl/lapackpp/downloads/lapackpp-2021.04.00.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "C++ API for the Linear Algebra PACKage",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1639188496,
+    "version": "2021.04.00"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lapackpp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lapackpp-2021.04.00-h853182f_0.tar.bz2",
+  "repodata": {
+    "build": "h853182f_0",
+    "build_number": 0,
+    "depends": [
+      "blaspp 2021.04.01.*",
+      "libblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "liblapacke >=3.8.0,<4.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "0075b99162fc075b805a8558abe852b3",
+    "name": "lapackpp",
+    "sha256": "6c312be90e0bcd4967144bbc3082681ecf4317399defb751e573256fcf521ed4",
+    "size": 356914,
+    "subdir": "win-64",
+    "timestamp": 1639188496284,
+    "version": "2021.04.00"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/lapackpp-2021.04.00-h853182f_0.tar.bz2/lapackpp-2021.04.00-h853182f_0.tar.bz2"
+}
