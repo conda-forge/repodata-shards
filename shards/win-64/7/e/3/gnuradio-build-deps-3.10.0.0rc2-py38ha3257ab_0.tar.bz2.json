@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Install this meta-package into an environment with `gnuradio` or `gnuradio-core` in order to be able to build out-of-tree modules manually. DO NOT USE THIS IN CONDA RECIPES.",
+    "dev_url": "https://github.com/gnuradio/gnuradio",
+    "doc_source_url": null,
+    "doc_url": "https://gnuradio.org/doc/doxygen/",
+    "home": "https://gnuradio.org/",
+    "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
+    "icon_url": "icons/gnuradio-build-deps.png",
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.10.0.0-rc2.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "GNU Radio Companion",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1639258201,
+    "version": "3.10.0.0rc2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gnuradio-feedstock",
+  "labels": [
+    "gnuradio_rc"
+  ],
+  "package": "gnuradio-build-deps-3.10.0.0rc2-py38ha3257ab_0.tar.bz2",
+  "repodata": {
+    "app_entry": "gnuradio-companion",
+    "build": "py38ha3257ab_0",
+    "build_number": 0,
+    "constrains": [
+      "gnuradio-core 3.10.0.0rc2 py38ha3257ab_0"
+    ],
+    "depends": [
+      "cmake",
+      "ninja",
+      "numpy 1.18.*",
+      "pip",
+      "pkg-config",
+      "pybind11",
+      "spdlog",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012",
+      "vs2017_win-64"
+    ],
+    "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "07d61d279685742a6b2e604416a22202",
+    "name": "gnuradio-build-deps",
+    "sha256": "c4e689e85a5d02b8a70929cd2dd0342dcf009d6172702064e9cf6a3eb87ee2bc",
+    "size": 56174,
+    "subdir": "win-64",
+    "summary": "GNU Radio Companion",
+    "timestamp": 1639258201491,
+    "type": "app",
+    "version": "3.10.0.0rc2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/gnuradio-build-deps-3.10.0.0rc2-py38ha3257ab_0.tar.bz2/gnuradio-build-deps-3.10.0.0rc2-py38ha3257ab_0.tar.bz2"
+}
