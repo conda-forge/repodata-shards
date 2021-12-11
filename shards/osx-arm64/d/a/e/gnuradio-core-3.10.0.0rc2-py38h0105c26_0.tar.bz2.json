@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": "https://github.com/gnuradio/gnuradio",
@@ -9,7 +9,7 @@
     "doc_url": "https://gnuradio.org/doc/doxygen/",
     "home": "https://gnuradio.org/",
     "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
-    "icon_url": "icons/gnuradio-video-sdl.png",
+    "icon_url": "icons/gnuradio-core.png",
     "identifiers": null,
     "keywords": null,
     "license": "GPL-3.0-or-later",
@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "3.10.0.0rc2": {
+        "weak": [
+          "gnuradio-core >=3.10.0.0rc.2,<3.10.1.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.10.0.0-rc2.tar.gz",
     "subdirs": [
@@ -26,41 +32,57 @@
     "summary": "GNU Radio Companion",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1639257527,
+    "timestamp": 1639257048,
     "version": "3.10.0.0rc2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "gnuradio-feedstock",
   "labels": [
     "gnuradio_rc"
   ],
-  "package": "gnuradio-video-sdl-3.10.0.0rc2-py38h7973823_0.tar.bz2",
+  "package": "gnuradio-core-3.10.0.0rc2-py38h0105c26_0.tar.bz2",
   "repodata": {
     "app_entry": "gnuradio-companion",
-    "build": "py38h7973823_0",
+    "build": "py38h0105c26_0",
     "build_number": 0,
     "depends": [
-      "gnuradio-core 3.10.0.0rc2 py38h0105c26_0",
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "click",
+      "click-plugins",
+      "fftw >=3.3.10,<4.0a0",
+      "gmp >=6.2.1,<7.0a0",
+      "gsl >=2.7,<2.8.0a0",
+      "libcodec2 >=1.0.0,<1.1.0a0",
       "libcxx >=11.1.0",
+      "libsndfile >=1.0.31,<1.1.0a0",
+      "libthrift >=0.15.0,<0.15.1.0a0",
+      "mako",
+      "numpy",
+      "portaudio >=19.6.0,<19.7.0a0",
+      "portaudio >=19.6.0,<20.0a0",
+      "pybind11-abi 4",
       "python >=3.8,<3.9.0a0",
       "python_abi 3.8.* *_cp38",
-      "sdl >=1.2.15,<1.3.0a0",
-      "spdlog >=1.9.2,<1.10.0a0"
+      "pyyaml",
+      "setuptools",
+      "spdlog >=1.9.2,<1.10.0a0",
+      "thrift",
+      "volk >=2.5.0,<2.6.0a0"
     ],
     "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "568262c50447a42947e27a23de1b6ae8",
-    "name": "gnuradio-video-sdl",
-    "sha256": "7fd04be1deefadbcbc1c82600dc9424cc5f0d422a22b9eefd723389c16407215",
-    "size": 184794,
+    "md5": "622b5b8246536e2ffed07ce825d9e0ee",
+    "name": "gnuradio-core",
+    "sha256": "3894d8124a20aa97eb2725b2b421910daf2fdb9f2ce7127da373cdfc85ce9174",
+    "size": 7301235,
     "subdir": "osx-arm64",
     "summary": "GNU Radio Companion",
-    "timestamp": 1639257527385,
+    "timestamp": 1639257048528,
     "type": "app",
     "version": "3.10.0.0rc2"
   },
   "repodata_version": 1,
   "subdir": "osx-arm64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/gnuradio-video-sdl-3.10.0.0rc2-py38h7973823_0.tar.bz2/gnuradio-video-sdl-3.10.0.0rc2-py38h7973823_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/gnuradio-core-3.10.0.0rc2-py38h0105c26_0.tar.bz2/gnuradio-core-3.10.0.0rc2-py38h0105c26_0.tar.bz2"
 }

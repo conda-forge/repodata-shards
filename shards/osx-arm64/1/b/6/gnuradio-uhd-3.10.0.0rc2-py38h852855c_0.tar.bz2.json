@@ -9,7 +9,7 @@
     "doc_url": "https://gnuradio.org/doc/doxygen/",
     "home": "https://gnuradio.org/",
     "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
-    "icon_url": "icons/gnuradio-grc.png",
+    "icon_url": "icons/gnuradio-uhd.png",
     "identifiers": null,
     "keywords": null,
     "license": "GPL-3.0-or-later",
@@ -21,52 +21,47 @@
     "source_git_url": null,
     "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.10.0.0-rc2.tar.gz",
     "subdirs": [
-      "linux-ppc64le"
+      "osx-arm64"
     ],
     "summary": "GNU Radio Companion",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1639256487,
+    "text_prefix": true,
+    "timestamp": 1639257451,
     "version": "3.10.0.0rc2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "gnuradio-feedstock",
   "labels": [
     "gnuradio_rc"
   ],
-  "package": "gnuradio-grc-3.10.0.0rc2-py37h7ffcc5c_0.tar.bz2",
+  "package": "gnuradio-uhd-3.10.0.0rc2-py38h852855c_0.tar.bz2",
   "repodata": {
     "app_entry": "gnuradio-companion",
-    "build": "py37h7ffcc5c_0",
+    "build": "py38h852855c_0",
     "build_number": 0,
     "depends": [
-      "adwaita-icon-theme",
       "boost-cpp >=1.74.0,<1.74.1.0a0",
-      "gnuradio-core 3.10.0.0rc2 py37h261ae52_0",
-      "gtk3 >=3.24.29,<4.0a0",
-      "libgcc-ng >=9.4.0",
-      "libstdcxx-ng >=9.4.0",
-      "lxml",
-      "pygobject",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
-      "pyyaml",
-      "spdlog >=1.9.2,<1.10.0a0"
+      "gnuradio-core 3.10.0.0rc2 py38h0105c26_0",
+      "libcxx >=11.1.0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "spdlog >=1.9.2,<1.10.0a0",
+      "uhd >=4.1.0,<4.1.1.0a0"
     ],
     "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "f4eea9858add7fd5d2b87c8abd394b0d",
-    "name": "gnuradio-grc",
-    "sha256": "9e3dd073c1341b15227bfceec23f45b3bbddb3a32164acf76b22014fa49ba448",
-    "size": 367629,
-    "subdir": "linux-ppc64le",
+    "md5": "19ff9876b6fb2cde247b7e3e5a949283",
+    "name": "gnuradio-uhd",
+    "sha256": "933ac06ab6ec3b28bbe1c950bfa99c88a31fe451539fd4e1f1c518b8a213879a",
+    "size": 561583,
+    "subdir": "osx-arm64",
     "summary": "GNU Radio Companion",
-    "timestamp": 1639256487175,
+    "timestamp": 1639257451196,
     "type": "app",
     "version": "3.10.0.0rc2"
   },
   "repodata_version": 1,
-  "subdir": "linux-ppc64le",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/gnuradio-grc-3.10.0.0rc2-py37h7ffcc5c_0.tar.bz2/gnuradio-grc-3.10.0.0rc2-py37h7ffcc5c_0.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/gnuradio-uhd-3.10.0.0rc2-py38h852855c_0.tar.bz2/gnuradio-uhd-3.10.0.0rc2-py38h852855c_0.tar.bz2"
 }
