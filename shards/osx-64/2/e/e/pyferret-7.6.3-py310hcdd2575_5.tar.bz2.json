@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": true,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": true,
     "description": "The PyFerret program and Python module from NOAA/PMEL. See https://ferret.pmel.noaa.gov/Ferret/ for more information about Ferret and PyFerret.  This repository is regularly synchronized with PyFerret repository at PMEL (the pyferret branch of the ferret project in the subversion repository at PMEL) using git-svn.",
     "dev_url": "https://github.com/NOAA-PMEL/PyFerret",
@@ -26,17 +26,17 @@
     "summary": "An Analysis Tool for Gridded and Non-Gridded Data.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1639338842,
+    "timestamp": 1639338818,
     "version": "7.6.3"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "pyferret-feedstock",
   "labels": [
     "pyferret_dev"
   ],
-  "package": "pyferret-7.6.3-py37hf453cac_5.tar.bz2",
+  "package": "pyferret-7.6.3-py310hcdd2575_5.tar.bz2",
   "repodata": {
-    "build": "py37hf453cac_5",
+    "build": "py310hcdd2575_5",
     "build_number": 5,
     "depends": [
       "cairo >=1.16.0,<1.17.0a0",
@@ -50,19 +50,19 @@
       "pango >=1.48.10,<1.49.0a0",
       "pixman >=0.40.0,<1.0a0",
       "pyqt",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310"
     ],
     "license": "MIT",
-    "md5": "ad0a6bce73eb5fe5554a3f796db66d66",
+    "md5": "42839af13efab7796548c41fff6063d1",
     "name": "pyferret",
-    "sha256": "38b1b8aab286371576192e4ef8963514b527e16ab47e34f6d8739f388c1bf313",
-    "size": 10713344,
+    "sha256": "6fbae58c67b177bb22bc242d0d43bfbb97a1134d7748b5d496c6aa642abbb06d",
+    "size": 10756313,
     "subdir": "osx-64",
-    "timestamp": 1639338842047,
+    "timestamp": 1639338818771,
     "version": "7.6.3"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pyferret-7.6.3-py37hf453cac_5.tar.bz2/pyferret-7.6.3-py37hf453cac_5.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pyferret-7.6.3-py310hcdd2575_5.tar.bz2/pyferret-7.6.3-py310hcdd2575_5.tar.bz2"
 }

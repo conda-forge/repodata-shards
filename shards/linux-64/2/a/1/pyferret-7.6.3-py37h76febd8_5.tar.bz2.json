@@ -21,28 +21,29 @@
     "source_git_url": null,
     "source_url": "https://github.com/NOAA-PMEL/PyFerret/archive/refs/tags/v7.6.3.tar.gz",
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "An Analysis Tool for Gridded and Non-Gridded Data.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1639338842,
+    "timestamp": 1639338562,
     "version": "7.6.3"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "pyferret-feedstock",
   "labels": [
     "pyferret_dev"
   ],
-  "package": "pyferret-7.6.3-py37hf453cac_5.tar.bz2",
+  "package": "pyferret-7.6.3-py37h76febd8_5.tar.bz2",
   "repodata": {
-    "build": "py37hf453cac_5",
+    "build": "py37h76febd8_5",
     "build_number": 5,
     "depends": [
       "cairo >=1.16.0,<1.17.0a0",
       "glib",
-      "libgfortran 5.*",
-      "libgfortran5 >=9.3.0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
       "libglib >=2.70.2,<3.0a0",
       "libnetcdf >=4.8.1,<4.8.2.0a0",
       "netcdf-fortran >=4.5.3,<4.6.0a0",
@@ -54,15 +55,15 @@
       "python_abi 3.7.* *_cp37m"
     ],
     "license": "MIT",
-    "md5": "ad0a6bce73eb5fe5554a3f796db66d66",
+    "md5": "cee13f1578a5533c2c8dbbc745e15842",
     "name": "pyferret",
-    "sha256": "38b1b8aab286371576192e4ef8963514b527e16ab47e34f6d8739f388c1bf313",
-    "size": 10713344,
-    "subdir": "osx-64",
-    "timestamp": 1639338842047,
+    "sha256": "9a4e70fb8b3a00450aebee09883452a474a9882cde427cf5e8314f0fc3c11e50",
+    "size": 10732785,
+    "subdir": "linux-64",
+    "timestamp": 1639338562991,
     "version": "7.6.3"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pyferret-7.6.3-py37hf453cac_5.tar.bz2/pyferret-7.6.3-py37hf453cac_5.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyferret-7.6.3-py37h76febd8_5.tar.bz2/pyferret-7.6.3-py37h76febd8_5.tar.bz2"
 }
