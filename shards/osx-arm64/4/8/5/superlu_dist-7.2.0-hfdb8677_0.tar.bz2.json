@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/xiaoyeli/superlu_dist/",
+    "doc_source_url": null,
+    "doc_url": "https://portal.nersc.gov/project/sparse/superlu/superlu_dist_code_html/index.html",
+    "home": "https://portal.nersc.gov/project/sparse/superlu/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "7.2.0": {
+        "weak": [
+          "superlu_dist >=7.2.0,<8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xiaoyeli/superlu_dist/archive/refs/tags/v7.2.0.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Supernodal LU, solvers for large, sparse, nonsymmetric systems of linear equations. SuperLU_DIST is a parallel extension to the serial SuperLU library.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1639430130,
+    "version": "7.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "superlu_dist-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "superlu_dist-7.2.0-hfdb8677_0.tar.bz2",
+  "repodata": {
+    "build": "hfdb8677_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.9.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.1.dev0",
+      "liblapack >=3.9.0,<4.0a0",
+      "llvm-openmp >=11.1.0",
+      "llvm-openmp >=12.0.1",
+      "metis >=5.1.0,<5.2.0a0",
+      "openmpi >=4.1.2,<5.0a0",
+      "parmetis >=4.0.3,<4.1.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "c0494f680f281c921d9baa9bf0da4f89",
+    "name": "superlu_dist",
+    "sha256": "4ef231739110f8d3cc04b9b6e82ad51acfa70e541f772f18cbbff51115306678",
+    "size": 1017496,
+    "subdir": "osx-arm64",
+    "timestamp": 1639430130582,
+    "version": "7.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/superlu_dist-7.2.0-hfdb8677_0.tar.bz2/superlu_dist-7.2.0-hfdb8677_0.tar.bz2"
+}
