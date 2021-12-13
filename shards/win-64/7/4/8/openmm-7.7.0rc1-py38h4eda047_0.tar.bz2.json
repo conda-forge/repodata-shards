@@ -21,46 +21,44 @@
     "source_git_url": "https://github.com/openmm/openmm.git",
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "A high performance toolkit for molecular simulation.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1639429786,
+    "timestamp": 1639432160,
     "version": "7.7.0rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "openmm-feedstock",
   "labels": [
     "openmm_rc"
   ],
-  "package": "openmm-7.7.0rc1-py38h733ab37_0.tar.bz2",
+  "package": "openmm-7.7.0rc1-py38h4eda047_0.tar.bz2",
   "repodata": {
-    "build": "py38h733ab37_0",
+    "build": "py38h4eda047_0",
     "build_number": 0,
     "depends": [
-      "__glibc >=2.17",
-      "cudatoolkit 11.0|11.0.*",
+      "cudatoolkit >=11.2,<12",
       "fftw >=3.3.10,<4.0a0",
-      "libgcc-ng >=9.4.0",
-      "libstdcxx-ng >=9.4.0",
+      "khronos-opencl-icd-loader >=2021.6.30",
       "numpy",
-      "ocl-icd >=2.3.1,<3.0a0",
-      "ocl-icd-system",
       "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38"
+      "python_abi 3.8.* *_cp38",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "LGPL-3.0-or-later",
     "license_family": "LGPL",
-    "md5": "75e063133f41b8d23a9085d8ed512a53",
+    "md5": "32a77e628ecdae4e8ee41e6a66e1d776",
     "name": "openmm",
-    "sha256": "23c831fe88e2213486516c02ee29783f27ef8133e8b7b5055421e5ce0ab6c7bf",
-    "size": 11776804,
-    "subdir": "linux-64",
-    "timestamp": 1639429786726,
+    "sha256": "8b3414c3f48adb283b4da62bf38a8144ddb7fd38e18f9b863339f89f8e485921",
+    "size": 11232392,
+    "subdir": "win-64",
+    "timestamp": 1639432160411,
     "version": "7.7.0rc1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openmm-7.7.0rc1-py38h733ab37_0.tar.bz2/openmm-7.7.0rc1-py38h733ab37_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/openmm-7.7.0rc1-py38h4eda047_0.tar.bz2/openmm-7.7.0rc1-py38h4eda047_0.tar.bz2"
 }
