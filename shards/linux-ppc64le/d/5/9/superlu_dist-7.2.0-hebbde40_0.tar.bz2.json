@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/xiaoyeli/superlu_dist/",
+    "doc_source_url": null,
+    "doc_url": "https://portal.nersc.gov/project/sparse/superlu/superlu_dist_code_html/index.html",
+    "home": "https://portal.nersc.gov/project/sparse/superlu/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "7.2.0": {
+        "weak": [
+          "superlu_dist >=7.2.0,<8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xiaoyeli/superlu_dist/archive/refs/tags/v7.2.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Supernodal LU, solvers for large, sparse, nonsymmetric systems of linear equations. SuperLU_DIST is a parallel extension to the serial SuperLU library.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1639430041,
+    "version": "7.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "superlu_dist-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "superlu_dist-7.2.0-hebbde40_0.tar.bz2",
+  "repodata": {
+    "build": "hebbde40_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=3.4.2,<4.0a0",
+      "parmetis >=4.0.3,<4.1.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "900552a1e15d51b1c6855b2f5a24121e",
+    "name": "superlu_dist",
+    "sha256": "3365174f1b921dd96274059af857ea598ea40b04f02f6fd4b246940e61b221b4",
+    "size": 1394608,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1639430041381,
+    "version": "7.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/superlu_dist-7.2.0-hebbde40_0.tar.bz2/superlu_dist-7.2.0-hebbde40_0.tar.bz2"
+}
