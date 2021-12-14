@@ -17,13 +17,7 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {
-      "3.5.0": {
-        "weak": [
-          "gcg >=3.5.0,<4.0a0"
-        ]
-      }
-    },
+    "run_exports": {},
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
@@ -31,35 +25,40 @@
     ],
     "summary": "Mixed Integer Programming (MIP) solver and Branch-and-Cut-and-Price Framework",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1639488847,
-    "version": "3.5.0"
+    "text_prefix": true,
+    "timestamp": 1639488886,
+    "version": "6.0.0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "scipoptsuite-feedstock",
   "labels": [
     "scipoptsuite_rc"
   ],
-  "package": "gcg-3.5.0-h43d6033_0.tar.bz2",
+  "package": "soplex-6.0.0-h1239cf1_0.tar.bz2",
   "repodata": {
-    "build": "h43d6033_0",
+    "build": "h1239cf1_0",
     "build_number": 0,
     "depends": [
-      "cliquer",
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
       "gmp >=6.2.1,<7.0a0",
+      "libblas >=3.8.0,<4.0a0",
       "libcxx >=11.1.0",
-      "scip >=8.0.0,<9.0a0"
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "papilo 2.0.0 h185e5cc_0",
+      "tbb >=2021.4.0"
     ],
     "license": "ZIB-Academic AND LGPL-3.0-or-later",
-    "md5": "a05396799c4222e2cd37c0f57d51f637",
-    "name": "gcg",
-    "sha256": "64428d776df6ad66b285e2e6f6e4f027a4dfd4e6098b92f25f950b3418f1052f",
-    "size": 1735523,
+    "md5": "f8f2e2e1f43bc56af9305be27c7ba281",
+    "name": "soplex",
+    "sha256": "ae0e0548164ae65d90cb8bfd1b0f7960dbe9083d0b1b07e713af961c0fc8f074",
+    "size": 5360789,
     "subdir": "osx-64",
-    "timestamp": 1639488847769,
-    "version": "3.5.0"
+    "timestamp": 1639488886051,
+    "version": "6.0.0"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gcg-3.5.0-h43d6033_0.tar.bz2/gcg-3.5.0-h43d6033_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/soplex-6.0.0-h1239cf1_0.tar.bz2/soplex-6.0.0-h1239cf1_0.tar.bz2"
 }
