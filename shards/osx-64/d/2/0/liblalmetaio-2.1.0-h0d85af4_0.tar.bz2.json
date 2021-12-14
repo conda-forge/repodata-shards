@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm MetaIO Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL MetaIO library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite.git",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalmetaio/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.1.0": {
+        "weak": [
+          "liblalmetaio >=2.1.0,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://software.ligo.org/lscsoft/source/lalsuite/lalmetaio-2.1.0.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm MetaIO Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1639465673,
+    "version": "2.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalmetaio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalmetaio-2.1.0-h0d85af4_0.tar.bz2",
+  "repodata": {
+    "build": "h0d85af4_0",
+    "build_number": 0,
+    "constrains": [
+      "python-lalmetaio >=2.0.1",
+      "lalmetaio >=2.0.1"
+    ],
+    "depends": [
+      "liblal >=7.1.0",
+      "liblal >=7.1.4,<8.0a0",
+      "metaio >=8.4.0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "a839013727e6e533970f8f4f85b06af4",
+    "name": "liblalmetaio",
+    "sha256": "bc5363f6c3dc1e0554a0b293276758ee31cca84f2a375b433abd35f78067b4b0",
+    "size": 123276,
+    "subdir": "osx-64",
+    "timestamp": 1639465673850,
+    "version": "2.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/liblalmetaio-2.1.0-h0d85af4_0.tar.bz2/liblalmetaio-2.1.0-h0d85af4_0.tar.bz2"
+}
