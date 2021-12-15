@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": true,
-    "binary_prefix": true,
+    "binary_prefix": false,
     "deactivate.d": true,
     "description": "The PyFerret program and Python module from NOAA/PMEL. See https://ferret.pmel.noaa.gov/Ferret/ for more information about Ferret and PyFerret.  This repository is regularly synchronized with PyFerret repository at PMEL (the pyferret branch of the ferret project in the subversion repository at PMEL) using git-svn.",
     "dev_url": "https://github.com/NOAA-PMEL/PyFerret",
@@ -21,29 +21,28 @@
     "source_git_url": null,
     "source_url": "https://github.com/NOAA-PMEL/PyFerret/archive/refs/tags/v7.6.5.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "An Analysis Tool for Gridded and Non-Gridded Data.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1639529333,
+    "timestamp": 1639529763,
     "version": "7.6.5"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "pyferret-feedstock",
   "labels": [
     "pyferret_dev"
   ],
-  "package": "pyferret-7.6.5-py310hee0ddb9_0.tar.bz2",
+  "package": "pyferret-7.6.5-py37hf453cac_0.tar.bz2",
   "repodata": {
-    "build": "py310hee0ddb9_0",
+    "build": "py37hf453cac_0",
     "build_number": 0,
     "depends": [
       "cairo >=1.16.0,<1.17.0a0",
       "glib",
-      "libgcc-ng >=9.4.0",
-      "libgfortran-ng",
-      "libgfortran5 >=9.4.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
       "libglib >=2.70.2,<3.0a0",
       "libnetcdf >=4.8.1,<4.8.2.0a0",
       "netcdf-fortran >=4.5.3,<4.6.0a0",
@@ -51,19 +50,19 @@
       "pango >=1.48.10,<1.49.0a0",
       "pixman >=0.40.0,<1.0a0",
       "pyqt",
-      "python >=3.10,<3.11.0a0",
-      "python_abi 3.10.* *_cp310"
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
     ],
     "license": "MIT",
-    "md5": "a2d7b70608a2cdc2df04659c7578a439",
+    "md5": "0f5f706156af4a3366c4c620885a61c7",
     "name": "pyferret",
-    "sha256": "c4a0f045c83d1ed412ab141d08a8a35eae9b7ab8d77cc863088793825774efa6",
-    "size": 11017885,
-    "subdir": "linux-64",
-    "timestamp": 1639529333175,
+    "sha256": "516f529f1482b60746b520929288527ebdaf5900443d8acdc22868601d7528ea",
+    "size": 10699084,
+    "subdir": "osx-64",
+    "timestamp": 1639529763715,
     "version": "7.6.5"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyferret-7.6.5-py310hee0ddb9_0.tar.bz2/pyferret-7.6.5-py310hee0ddb9_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pyferret-7.6.5-py37hf453cac_0.tar.bz2/pyferret-7.6.5-py37hf453cac_0.tar.bz2"
 }
