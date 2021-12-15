@@ -21,42 +21,41 @@
     "source_git_url": null,
     "source_url": "https://github.com/glotzerlab/hoomd-blue/releases/download/v3.0.0-beta.12/hoomd-v3.0.0-beta.12.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "HOOMD-blue is a general-purpose particle simulation toolkit.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1639593362,
+    "timestamp": 1639594007,
     "version": "3.0.0dev12"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "hoomd-feedstock",
   "labels": [
     "hoomd_dev"
   ],
-  "package": "hoomd-3.0.0dev12-cpu_py37h4cd969e_0.tar.bz2",
+  "package": "hoomd-3.0.0dev12-cpu_py310h01caecf_0.tar.bz2",
   "repodata": {
-    "build": "cpu_py37h4cd969e_0",
+    "build": "cpu_py310h01caecf_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.4.0",
-      "libstdcxx-ng >=9.4.0",
+      "libcxx >=11.1.0",
       "numpy",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
       "tbb >=2021.4.0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "a0761583eebc9685180ed1cb7470cecb",
+    "md5": "3ccb070d6f8e2fa7efd1f9c58998f16b",
     "name": "hoomd",
-    "sha256": "d89e2aa8888843014ea5d9bcd436e376971b7f4fbc1e0596fb5ec1e1cc09fd5e",
-    "size": 8314267,
-    "subdir": "linux-64",
-    "timestamp": 1639593362197,
+    "sha256": "38c5614b74962db36f22c90d5fde0659e337ba9211d393108a91a4787a59304c",
+    "size": 7540805,
+    "subdir": "osx-64",
+    "timestamp": 1639594007071,
     "version": "3.0.0dev12"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/hoomd-3.0.0dev12-cpu_py37h4cd969e_0.tar.bz2/hoomd-3.0.0dev12-cpu_py37h4cd969e_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/hoomd-3.0.0dev12-cpu_py310h01caecf_0.tar.bz2/hoomd-3.0.0dev12-cpu_py310h01caecf_0.tar.bz2"
 }
