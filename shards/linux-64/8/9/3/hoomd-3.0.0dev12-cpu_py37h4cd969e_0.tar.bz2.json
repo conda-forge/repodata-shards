@@ -21,42 +21,42 @@
     "source_git_url": null,
     "source_url": "https://github.com/glotzerlab/hoomd-blue/releases/download/v3.0.0-beta.12/hoomd-v3.0.0-beta.12.tar.gz",
     "subdirs": [
-      "osx-arm64"
+      "linux-64"
     ],
     "summary": "HOOMD-blue is a general-purpose particle simulation toolkit.",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1639593801,
+    "timestamp": 1639593362,
     "version": "3.0.0dev12"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "hoomd-feedstock",
   "labels": [
     "hoomd_dev"
   ],
-  "package": "hoomd-3.0.0dev12-cpu_py38h8b63431_0.tar.bz2",
+  "package": "hoomd-3.0.0dev12-cpu_py37h4cd969e_0.tar.bz2",
   "repodata": {
-    "build": "cpu_py38h8b63431_0",
+    "build": "cpu_py37h4cd969e_0",
     "build_number": 0,
     "depends": [
-      "libcxx >=11.1.0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
       "numpy",
-      "python >=3.8,<3.9.0a0",
-      "python >=3.8,<3.9.0a0 *_cpython",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "tbb >=2021.4.0"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "538149b00e290324fc2f3ee021b4570c",
+    "md5": "a0761583eebc9685180ed1cb7470cecb",
     "name": "hoomd",
-    "sha256": "d143db70019fc098308c31e0308c3477a8d5531b17cf219ea8debebee9b810ba",
-    "size": 7367975,
-    "subdir": "osx-arm64",
-    "timestamp": 1639593801661,
+    "sha256": "d89e2aa8888843014ea5d9bcd436e376971b7f4fbc1e0596fb5ec1e1cc09fd5e",
+    "size": 8314267,
+    "subdir": "linux-64",
+    "timestamp": 1639593362197,
     "version": "3.0.0dev12"
   },
   "repodata_version": 1,
-  "subdir": "osx-arm64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/hoomd-3.0.0dev12-cpu_py38h8b63431_0.tar.bz2/hoomd-3.0.0dev12-cpu_py38h8b63431_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/hoomd-3.0.0dev12-cpu_py37h4cd969e_0.tar.bz2/hoomd-3.0.0dev12-cpu_py37h4cd969e_0.tar.bz2"
 }
