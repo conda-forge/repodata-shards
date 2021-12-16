@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": null,
     "dev_url": null,
@@ -26,33 +26,40 @@
     "summary": "Mixed Integer Programming (MIP) solver and Branch-and-Cut-and-Price Framework",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1639655139,
-    "version": "3.5.0"
+    "timestamp": 1639655234,
+    "version": "6.0.0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "scipoptsuite-feedstock",
   "labels": [
     "scipoptsuite_rc"
   ],
-  "package": "zimpl-3.5.0-ha53174b_2.tar.bz2",
+  "package": "soplex-6.0.0-h99705c5_2.tar.bz2",
   "repodata": {
-    "build": "ha53174b_2",
+    "build": "h99705c5_2",
     "build_number": 2,
     "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
       "gmp >=6.2.1,<7.0a0",
+      "libblas >=3.8.0,<4.0a0",
       "libgcc-ng >=9.4.0",
-      "libzlib >=1.2.11,<1.3.0a0"
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "papilo 2.0.0 h8d31ef3_2",
+      "tbb >=2021.4.0"
     ],
     "license": "ZIB-Academic AND LGPL-3.0-or-later",
-    "md5": "bb00537fce862401f249441c3e7cd17c",
-    "name": "zimpl",
-    "sha256": "d8f6351285b025b47e0316c09662359c3f50721ce2febd9385bbb770f7a91b09",
-    "size": 418753,
+    "md5": "fcea8cc91f0dde48440739c9e8252a32",
+    "name": "soplex",
+    "sha256": "c98aeafe6dd55e7ac6889cc8aa87ca710542690634006771c65220ac1e4d82de",
+    "size": 6396584,
     "subdir": "linux-64",
-    "timestamp": 1639655139466,
-    "version": "3.5.0"
+    "timestamp": 1639655234584,
+    "version": "6.0.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/zimpl-3.5.0-ha53174b_2.tar.bz2/zimpl-3.5.0-ha53174b_2.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/soplex-6.0.0-h99705c5_2.tar.bz2/soplex-6.0.0-h99705c5_2.tar.bz2"
 }
