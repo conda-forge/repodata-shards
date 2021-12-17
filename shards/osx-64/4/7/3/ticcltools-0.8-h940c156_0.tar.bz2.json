@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "TicclTools is a collection of programs to process datafiles, together they constitute the bulk of TICCL: Text Induced Corpus-Cleanup. The main programs in this colection are: * TICCL-indexer and TICCL-indexerNT:   a tool to create an exhaustive index to all lexical variants given a particular Levenshtein or edit distance in a corpus. * TICCL-anahash:   a tool to create anagram hashes form a word frequency file. Also creates ab 'alphabet' file of the unicode characters that are present in the corpus. * TICCL-LDcalc:   a proprocessing tool for TICCL-rank. Gathers the info from TICC-anahash, TICCL-indexer, TICCL-lexstat and TICCL-unk * TICCL-rank:   ranks a word varian list according to al lot of criteria * TICCL-unk:   a cleanup tool for word frequency lists. creates a 'clean' file with desirable words, an 'unk' file with uncorrectable words and a 'punct' file with words that would be clean after removing puncuation. * TICCL-lexstat:   convert an 'alphabet' file (from TICCL-anahash) into a frequency list of hashes and optionally a list of confusions.",
+    "dev_url": "https://github.com/LanguageMachines/ticcltools",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/LanguageMachines/ticcltools",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.8": {
+        "weak": [
+          "ticcltools"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/LanguageMachines/ticcltools/releases/download/v0.8/ticcltools-0.8.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Tools for TICCL: Text Induced Corpus-Cleanup",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1639768044,
+    "version": "0.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ticcltools-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ticcltools-0.8-h940c156_0.tar.bz2",
+  "repodata": {
+    "build": "h940c156_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.1.0",
+      "ticcutils >=0.28"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL",
+    "md5": "aae6ca7695fadeb98d55771e1c7e1de1",
+    "name": "ticcltools",
+    "sha256": "f4385512b94e394875636364bfb918d12f8be57d7548e930b6ffb41fa92c456f",
+    "size": 580089,
+    "subdir": "osx-64",
+    "timestamp": 1639768044111,
+    "version": "0.8"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/ticcltools-0.8-h940c156_0.tar.bz2/ticcltools-0.8-h940c156_0.tar.bz2"
+}
