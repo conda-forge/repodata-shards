@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Heaptrack traces all memory allocations and annotates these events with stack traces. Dedicated analysis tools then allow you to interpret the heap memory profile to:   find hotspots that need to be optimized to reduce the memory footprint of your application   find memory leaks, i.e. locations that allocate memory which is never deallocated   find allocation hotspots, i.e. code locations that trigger a lot of memory allocation calls   find temporary allocations, which are allocations that are directly followed by their deallocation",
+    "dev_url": "https://github.com/KDE/heaptrack",
+    "doc_source_url": null,
+    "doc_url": "https://userbase.kde.org/Heaptrack",
+    "home": "https://github.com/KDE/heaptrack",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/KDE/heaptrack/archive/v1.2.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "heaptrack - a heap memory profiler for Linux",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1639898902,
+    "version": "1.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "heaptrack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "heaptrack-1.2.0-hbac2c6c_2.tar.bz2",
+  "repodata": {
+    "build": "hbac2c6c_2",
+    "build_number": 2,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "elfutils",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libunwind >=1.6.2,<1.7.0a0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "md5": "d29694af82ddc3e401396f919cfa0e83",
+    "name": "heaptrack",
+    "sha256": "ee935770702ef434bbe9e61624e7030ff4e604dbac30f0413d5633a8051d83e1",
+    "size": 2639123,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1639898902376,
+    "version": "1.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/heaptrack-1.2.0-hbac2c6c_2.tar.bz2/heaptrack-1.2.0-hbac2c6c_2.tar.bz2"
+}
