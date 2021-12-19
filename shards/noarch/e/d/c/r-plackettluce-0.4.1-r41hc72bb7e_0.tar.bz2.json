@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://hturner.github.io/PlackettLuce/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/PlackettLuce/PlackettLuce_0.4.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/PlackettLuce_0.4.1.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Functions to prepare rankings data and fit the Plackett-Luce model jointly attributed to Plackett (1975) <doi:10.2307/2346567> and Luce (1959, ISBN:0486441369). The standard Plackett-Luce model is generalized to accommodate ties of any order in the ranking. Partial rankings, in which only a subset of items are ranked in each ranking, are also accommodated in the implementation. Disconnected/weakly connected networks implied by the rankings may be handled by adding pseudo-rankings with a hypothetical item. Optionally, a multivariate normal prior may be set on the log-worth parameters and ranker reliabilities may be incorporated as proposed by Raman and Joachims (2014) <doi:10.1145/2623330.2623654>. Maximum a posteriori estimation is used when priors are set. Methods are provided to estimate standard errors or quasi-standard errors for inference as well as to fit Plackett-Luce trees. See the package website or vignette for further details.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1639945962,
+    "version": "0.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-plackettluce-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-plackettluce-0.4.1-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-cvxr",
+      "r-igraph",
+      "r-matrix",
+      "r-matrixstats",
+      "r-partykit",
+      "r-psychotools",
+      "r-psychotree",
+      "r-qvcalc",
+      "r-r6",
+      "r-rspectra",
+      "r-sandwich"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "041eaaeb5ed0307290afe4a0c87d22e2",
+    "name": "r-plackettluce",
+    "noarch": "generic",
+    "sha256": "4735a742ed4618a0808c291a5f844a0438b30dee20d158ba898a5e78854f53bc",
+    "size": 1029028,
+    "subdir": "noarch",
+    "timestamp": 1639945962650,
+    "version": "0.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-plackettluce-0.4.1-r41hc72bb7e_0.tar.bz2/r-plackettluce-0.4.1-r41hc72bb7e_0.tar.bz2"
+}
