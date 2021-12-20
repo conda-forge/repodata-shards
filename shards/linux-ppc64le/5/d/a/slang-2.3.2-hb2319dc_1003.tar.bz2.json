@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "S-Lang is a multi-platform programmer's library designed to allow a developer to create robust multi-platform software. It provides facilities required by interactive applications such as display/screen management, keyboard input, keymaps, and so on. The most exciting feature of the library is the slang interpreter that may be easily embedded into a program to make it extensible. While the emphasis has always been on the embedded nature of the interpreter, it may also be used in a stand-alone fashion through the use of slsh, which is part of the S-Lang distribution.",
+    "dev_url": "git://git.jedsoft.org/git/slang.git",
+    "doc_source_url": null,
+    "doc_url": "http://www.jedsoft.org/slang/docs.html",
+    "home": "http://www.jedsoft.org/slang",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.2": {
+        "weak": [
+          "slang >=2.3.2,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.jedsoft.org/releases/slang/slang-2.3.2.tar.bz2",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "S-Lang allows developers to create robust multi-platform software",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1640027853,
+    "version": "2.3.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "slang-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "slang-2.3.2-hb2319dc_1003.tar.bz2",
+  "repodata": {
+    "build": "hb2319dc_1003",
+    "build_number": 1003,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libiconv >=1.16,<1.17.0a0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "oniguruma 6.9.*",
+      "oniguruma >=6.9.7.1,<6.10.0a0",
+      "pcre >=8.45,<9.0a0",
+      "readline >=8.1,<9.0a0"
+    ],
+    "license": "GPL-2.0",
+    "license_family": "GPL",
+    "md5": "3cfac71f9f6c3a8847b9e2d3e24f7af3",
+    "name": "slang",
+    "sha256": "8eadcf27cba88e826b73e463c3f9362c369a003cad6bbe2360df670ca640f110",
+    "size": 1012974,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1640027853494,
+    "version": "2.3.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/slang-2.3.2-hb2319dc_1003.tar.bz2/slang-2.3.2-hb2319dc_1003.tar.bz2"
+}
