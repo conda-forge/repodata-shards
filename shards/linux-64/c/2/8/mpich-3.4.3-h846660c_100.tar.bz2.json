@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.",
+    "dev_url": "https://wiki.mpich.org/mpich/index.php/Main_Page",
+    "doc_source_url": null,
+    "doc_url": "http://www.mpich.org/documentation/guides",
+    "home": "http://www.mpich.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-MPICH",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.4.3": {
+        "weak": [
+          "mpich >=3.4.3,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.mpich.org/static/downloads/3.4.3/mpich-3.4.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A high performance widely portable implementation of the MPI standard.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1640028964,
+    "version": "3.4.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mpich-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mpich-3.4.3-h846660c_100.tar.bz2",
+  "repodata": {
+    "build": "h846660c_100",
+    "build_number": 100,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "mpi 1.0 mpich"
+    ],
+    "license": "LicenseRef-MPICH",
+    "license_family": "Other",
+    "md5": "1bb747e2de717cb9a6501d72539d6556",
+    "name": "mpich",
+    "sha256": "2b3f7afbd697f1848d73a2c366a350f9532d3ecf5632b7d5773f8d3b4b9fd396",
+    "size": 10891244,
+    "subdir": "linux-64",
+    "timestamp": 1640028964573,
+    "version": "3.4.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/mpich-3.4.3-h846660c_100.tar.bz2/mpich-3.4.3-h846660c_100.tar.bz2"
+}
