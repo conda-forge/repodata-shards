@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \"single instance\" application or daemon, and to launch applications and daemons on demand when their services are needed.",
+    "dev_url": "git://anongit.freedesktop.org/dbus/dbus",
+    "doc_source_url": "https://cgit.freedesktop.org/dbus/dbus/tree/doc",
+    "doc_url": "https://www.freedesktop.org/wiki/IntroductionToDBus/",
+    "home": "http://www.freedesktop.org/wiki/Software/dbus/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.13.6": {
+        "weak": [
+          "dbus >=1.13.6,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://dbus.freedesktop.org/releases/dbus/dbus-1.13.6.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Simple message bus system for applications to talk to one another",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1640112246,
+    "version": "1.13.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dbus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dbus-1.13.6-h3818c69_3.tar.bz2",
+  "repodata": {
+    "build": "h3818c69_3",
+    "build_number": 3,
+    "depends": [
+      "expat >=2.4.2,<3.0a0",
+      "libglib >=2.70.2,<3.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "23730a06679644276233a5894eb2ef00",
+    "name": "dbus",
+    "sha256": "fb21c1e677b43f5de8462f15bfbd0dce271cfe60cf1e6df50bc057b11feb52e1",
+    "size": 574595,
+    "subdir": "osx-arm64",
+    "timestamp": 1640112246560,
+    "version": "1.13.6"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/dbus-1.13.6-h3818c69_3.tar.bz2/dbus-1.13.6-h3818c69_3.tar.bz2"
+}
