@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "If you're in the situation that you have an authenticated Django view that returns files for download, you may have noticed that Safari 9.x doesn't play audio files properly when returning audio-files. The reason is that Safari sends a HTTP_RANGE request header and expects a proper Content-Range response header in return. The original suggested fix applies the code to Django's static view. This is a packaged version of that fix, but uses a modified FileResponse, instead of applying it to Django's static view.",
+    "dev_url": "https://github.com/wearespindle/django-ranged-fileresponse",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/wearespindle/django-ranged-fileresponse",
+    "home": "https://github.com/wearespindle/django-ranged-fileresponse",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/d/django-ranged-response/django-ranged-response-0.2.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Adds support for HTTP_RANGE requests in Django.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1640132703,
+    "version": "0.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "django-ranged-response-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "django-ranged-response-0.2.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "django >=1.8.0,<4",
+      "python >=3.6"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "32a131cf4d7b575c3d8481f0344f9a05",
+    "name": "django-ranged-response",
+    "noarch": "python",
+    "sha256": "800fdb410ea64ea1e59e87c242e62bc05368544688f251345b89786138514917",
+    "size": 8099,
+    "subdir": "noarch",
+    "timestamp": 1640132703322,
+    "version": "0.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/django-ranged-response-0.2.0-pyhd8ed1ab_0.tar.bz2/django-ranged-response-0.2.0-pyhd8ed1ab_0.tar.bz2"
+}
