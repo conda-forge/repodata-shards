@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Intel Math Kernel Library is a BLAS implementation tuned for high performance on Intel CPUs. This package is a repackaged set of binaries obtained directly from Intel\\'s anaconda.org channel.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://software.intel.com/en-us/mkl/documentation",
+    "home": "https://software.intel.com/en-us/mkl",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-ProprietaryIntel",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Math library for Intel and compatible processors",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1640250319,
+    "version": "2022.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "intel_repack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mkl-2022.0.1-h8d4b97c_803.tar.bz2",
+  "repodata": {
+    "build": "h8d4b97c_803",
+    "build_number": 803,
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "llvm-openmp >=12.0.1",
+      "tbb 2021.*"
+    ],
+    "license": "LicenseRef-ProprietaryIntel",
+    "license_family": "Proprietary",
+    "md5": "11eb515b8a4a00ce88f3bfadbdf93fb3",
+    "name": "mkl",
+    "sha256": "28a3daac0896c3848049bf2336323934b93da0090ad808543186a3b0d398a99d",
+    "size": 208973520,
+    "subdir": "linux-64",
+    "timestamp": 1640250319221,
+    "version": "2022.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/mkl-2022.0.1-h8d4b97c_803.tar.bz2/mkl-2022.0.1-h8d4b97c_803.tar.bz2"
+}
