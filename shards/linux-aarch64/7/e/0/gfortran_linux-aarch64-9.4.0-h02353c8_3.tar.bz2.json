@@ -20,7 +20,8 @@
     "run_exports": {
       "9.4.0": {
         "strong": [
-          "libstdcxx-ng >=9.4.0",
+          "libgfortran5 >=9.4.0",
+          "libgfortran-ng",
           "libgcc-ng >=9.4.0"
         ]
       }
@@ -28,12 +29,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-ppc64le"
+      "linux-aarch64"
     ],
-    "summary": "GNU C++ Compiler (activation scripts)",
+    "summary": "GNU Fortran Compiler (activation scripts)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1640546502,
+    "timestamp": 1640546499,
     "version": "9.4.0"
   },
   "channeldata_version": 1,
@@ -41,26 +42,26 @@
   "labels": [
     "main"
   ],
-  "package": "gxx_linux-ppc64le-9.4.0-h64afa7a_3.tar.bz2",
+  "package": "gfortran_linux-aarch64-9.4.0-h02353c8_3.tar.bz2",
   "repodata": {
-    "build": "h64afa7a_3",
+    "build": "h02353c8_3",
     "build_number": 3,
     "depends": [
-      "binutils_linux-ppc64le 2.36 he035471_3",
-      "gcc_linux-ppc64le 9.4.0 h2449294_3",
-      "gxx_impl_linux-ppc64le 9.4.0.*",
-      "sysroot_linux-ppc64le"
+      "binutils_linux-aarch64 2.36 h7854541_3",
+      "gcc_linux-aarch64 9.4.0 h9fa865e_3",
+      "gfortran_impl_linux-aarch64 9.4.0.*",
+      "sysroot_linux-aarch64"
     ],
     "license": "BSD-3-Clause",
-    "md5": "5876915a413b782d8cf4f727416814e7",
-    "name": "gxx_linux-ppc64le",
-    "sha256": "fbd87876eccdae3e21ebaa89c0ac84e1f938eb4ebd5aa5894cf00e57af0c4df9",
-    "size": 24332,
-    "subdir": "linux-ppc64le",
-    "timestamp": 1640546502302,
+    "md5": "846dc629896b0cda3d3192cf935f573f",
+    "name": "gfortran_linux-aarch64",
+    "sha256": "7837851057fd1aa9af4045526a66259ca4eb5de07646f185c5a9ebf0af2ab141",
+    "size": 24282,
+    "subdir": "linux-aarch64",
+    "timestamp": 1640546499392,
     "version": "9.4.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-ppc64le",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/gxx_linux-ppc64le-9.4.0-h64afa7a_3.tar.bz2/gxx_linux-ppc64le-9.4.0-h64afa7a_3.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/gfortran_linux-aarch64-9.4.0-h02353c8_3.tar.bz2/gfortran_linux-aarch64-9.4.0-h02353c8_3.tar.bz2"
 }

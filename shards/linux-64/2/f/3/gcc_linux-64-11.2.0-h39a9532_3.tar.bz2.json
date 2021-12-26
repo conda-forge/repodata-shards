@@ -20,8 +20,6 @@
     "run_exports": {
       "11.2.0": {
         "strong": [
-          "libgfortran5 >=11.2.0",
-          "libgfortran-ng",
           "libgcc-ng >=11.2.0"
         ]
       }
@@ -29,12 +27,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-aarch64"
+      "linux-64"
     ],
-    "summary": "GNU Fortran Compiler (activation scripts)",
+    "summary": "GNU C Compiler (activation scripts)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1640546582,
+    "timestamp": 1640546347,
     "version": "11.2.0"
   },
   "channeldata_version": 1,
@@ -42,26 +40,25 @@
   "labels": [
     "main"
   ],
-  "package": "gfortran_linux-aarch64-11.2.0-h90f5561_3.tar.bz2",
+  "package": "gcc_linux-64-11.2.0-h39a9532_3.tar.bz2",
   "repodata": {
-    "build": "h90f5561_3",
+    "build": "h39a9532_3",
     "build_number": 3,
     "depends": [
-      "binutils_linux-aarch64 2.36 h7854541_3",
-      "gcc_linux-aarch64 11.2.0 h248a1cf_3",
-      "gfortran_impl_linux-aarch64 11.2.0.*",
-      "sysroot_linux-aarch64"
+      "binutils_linux-64 2.36 hf3e587d_3",
+      "gcc_impl_linux-64 11.2.0.*",
+      "sysroot_linux-64"
     ],
     "license": "BSD-3-Clause",
-    "md5": "aa83890f101404e40349d9ce42d4df36",
-    "name": "gfortran_linux-aarch64",
-    "sha256": "97edefd493dbaf9f93f2392fbcff4d9dcd09bce8d77faa260cb2a0fed18e6ac4",
-    "size": 24261,
-    "subdir": "linux-aarch64",
-    "timestamp": 1640546582722,
+    "md5": "22b3cd39c97833893792cd7f77556ace",
+    "name": "gcc_linux-64",
+    "sha256": "f32a2c0eb6bdc85e5d8250654e468ab5c79064c52a187316cae9a4e43d8631db",
+    "size": 24617,
+    "subdir": "linux-64",
+    "timestamp": 1640546347663,
     "version": "11.2.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-aarch64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/gfortran_linux-aarch64-11.2.0-h90f5561_3.tar.bz2/gfortran_linux-aarch64-11.2.0-h90f5561_3.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gcc_linux-64-11.2.0-h39a9532_3.tar.bz2/gcc_linux-64-11.2.0-h39a9532_3.tar.bz2"
 }

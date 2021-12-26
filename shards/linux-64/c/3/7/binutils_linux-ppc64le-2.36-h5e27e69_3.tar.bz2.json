@@ -1,8 +1,8 @@
 {
   "channeldata": {
-    "activate.d": false,
+    "activate.d": true,
     "binary_prefix": false,
-    "deactivate.d": false,
+    "deactivate.d": true,
     "description": null,
     "dev_url": null,
     "doc_source_url": null,
@@ -23,34 +23,36 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": "GNU C native compiler (symlinks)",
+    "summary": "The GNU Binutils are a collection of binary tools (activation scripts)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1640546149,
-    "version": "9.4.0"
+    "timestamp": 1640546315,
+    "version": "2.36"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "gcc-9.4.0-h192d537_3.tar.bz2",
+  "package": "binutils_linux-ppc64le-2.36-h5e27e69_3.tar.bz2",
   "repodata": {
-    "build": "h192d537_3",
+    "build": "h5e27e69_3",
     "build_number": 3,
     "depends": [
-      "gcc_impl_linux-64 9.4.0.*"
+      "binutils_impl_linux-ppc64le 2.36.*",
+      "sysroot_linux-64",
+      "sysroot_linux-ppc64le"
     ],
     "license": "BSD-3-Clause",
-    "md5": "3a84f34a81db03ac6d14ea2cfa5afa15",
-    "name": "gcc",
-    "sha256": "adad05f1acb7dc7ab787f49dd4c19452e5dd7fa56d332c77b3d3580d04665d83",
-    "size": 24234,
+    "md5": "029614e70ed5321868dbb4b7e74e8138",
+    "name": "binutils_linux-ppc64le",
+    "sha256": "c8d9b8fc62e666e64558579a0e9704a09a76ac224178c6dc1e6fcaf14cb3f508",
+    "size": 24024,
     "subdir": "linux-64",
-    "timestamp": 1640546149027,
-    "version": "9.4.0"
+    "timestamp": 1640546315525,
+    "version": "2.36"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gcc-9.4.0-h192d537_3.tar.bz2/gcc-9.4.0-h192d537_3.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/binutils_linux-ppc64le-2.36-h5e27e69_3.tar.bz2/binutils_linux-ppc64le-2.36-h5e27e69_3.tar.bz2"
 }

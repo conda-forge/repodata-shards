@@ -23,10 +23,10 @@
     "subdirs": [
       "linux-64"
     ],
-    "summary": "GNU C native compiler (symlinks)",
+    "summary": "GNU C++ native compiler (symlinks)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1640546149,
+    "timestamp": 1640546304,
     "version": "9.4.0"
   },
   "channeldata_version": 1,
@@ -34,23 +34,24 @@
   "labels": [
     "main"
   ],
-  "package": "gcc-9.4.0-h192d537_3.tar.bz2",
+  "package": "gxx-9.4.0-h192d537_3.tar.bz2",
   "repodata": {
     "build": "h192d537_3",
     "build_number": 3,
     "depends": [
-      "gcc_impl_linux-64 9.4.0.*"
+      "gcc 9.4.0.*",
+      "gxx_impl_linux-64 9.4.0.*"
     ],
     "license": "BSD-3-Clause",
-    "md5": "3a84f34a81db03ac6d14ea2cfa5afa15",
-    "name": "gcc",
-    "sha256": "adad05f1acb7dc7ab787f49dd4c19452e5dd7fa56d332c77b3d3580d04665d83",
-    "size": 24234,
+    "md5": "ead7ffb92bc19c82e4c8a2d603ee778d",
+    "name": "gxx",
+    "sha256": "20eab552acb2e32e516f105dce4cbc23daf6faab88119c17bef2d39b41953c9b",
+    "size": 23715,
     "subdir": "linux-64",
-    "timestamp": 1640546149027,
+    "timestamp": 1640546304861,
     "version": "9.4.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gcc-9.4.0-h192d537_3.tar.bz2/gcc-9.4.0-h192d537_3.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gxx-9.4.0-h192d537_3.tar.bz2/gxx-9.4.0-h192d537_3.tar.bz2"
 }

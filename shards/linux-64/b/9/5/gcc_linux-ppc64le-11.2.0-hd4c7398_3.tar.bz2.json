@@ -18,49 +18,49 @@
     "pre_unlink": false,
     "recipe_origin": null,
     "run_exports": {
-      "9.4.0": {
+      "11.2.0": {
         "strong": [
-          "libstdcxx-ng >=9.4.0",
-          "libgcc-ng >=9.4.0"
+          "libgcc-ng >=11.2.0"
         ]
       }
     },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-ppc64le"
+      "linux-64"
     ],
-    "summary": "GNU C++ Compiler (activation scripts)",
+    "summary": "GNU C Compiler (activation scripts)",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1640546502,
-    "version": "9.4.0"
+    "timestamp": 1640546704,
+    "version": "11.2.0"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "gxx_linux-ppc64le-9.4.0-h64afa7a_3.tar.bz2",
+  "package": "gcc_linux-ppc64le-11.2.0-hd4c7398_3.tar.bz2",
   "repodata": {
-    "build": "h64afa7a_3",
+    "build": "hd4c7398_3",
     "build_number": 3,
     "depends": [
-      "binutils_linux-ppc64le 2.36 he035471_3",
-      "gcc_linux-ppc64le 9.4.0 h2449294_3",
-      "gxx_impl_linux-ppc64le 9.4.0.*",
+      "binutils_linux-ppc64le 2.36 h5e27e69_3",
+      "gcc_impl_linux-64 11.2.0.*",
+      "gcc_impl_linux-ppc64le 11.2.0.*",
+      "sysroot_linux-64",
       "sysroot_linux-ppc64le"
     ],
     "license": "BSD-3-Clause",
-    "md5": "5876915a413b782d8cf4f727416814e7",
-    "name": "gxx_linux-ppc64le",
-    "sha256": "fbd87876eccdae3e21ebaa89c0ac84e1f938eb4ebd5aa5894cf00e57af0c4df9",
-    "size": 24332,
-    "subdir": "linux-ppc64le",
-    "timestamp": 1640546502302,
-    "version": "9.4.0"
+    "md5": "280dbbe30d54837d0396657cbe0be5a5",
+    "name": "gcc_linux-ppc64le",
+    "sha256": "c258959d1f331bd007d2db5d8261efd30fb6049b22bf51a942a3ec24960f4fc5",
+    "size": 24630,
+    "subdir": "linux-64",
+    "timestamp": 1640546704249,
+    "version": "11.2.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-ppc64le",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/gxx_linux-ppc64le-9.4.0-h64afa7a_3.tar.bz2/gxx_linux-ppc64le-9.4.0-h64afa7a_3.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gcc_linux-ppc64le-11.2.0-hd4c7398_3.tar.bz2/gcc_linux-ppc64le-11.2.0-hd4c7398_3.tar.bz2"
 }
