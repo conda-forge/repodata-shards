@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=stratifyR",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/stratifyR/stratifyR_1.0-3.tar.gz",
+      "https://cran.r-project.org/src/contrib/stratifyR_1.0-3.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "The stratification of univariate populations under stratified sampling designs is implemented according to Khan et al. (2002) <doi:10.1177/0008068320020518> and Khan et al. (2015) <doi:10.1080/02664763.2015.1018674> in this library. It determines the Optimum Strata Boundaries (OSB) and Optimum Sample Sizes (OSS) for the study variable, y, using the best-fit frequency distribution of a survey variable (if data is available) or a hypothetical distribution (if data is not available). The method formulates the problem of determining the OSB as mathematical programming problem which is solved by using a dynamic programming technique. If a dataset of the population is available to the surveyor, the method estimates its best-fit distribution and determines the OSB and OSS under Neyman allocation directly. When the dataset is not available, stratification is made based on the assumption that the values of the study variable, y, are available as hypothetical realizations of proxy values of y from recent surveys. Thus, it requires certain distributional assumptions about the study variable. At present, it handles stratification for the populations where the study variable follows a continuous distribution, namely, Pareto, Triangular, Right-triangular, Weibull, Gamma, Exponential, Uniform, Normal, Log-normal and Cauchy distributions.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1640788194,
+    "version": "1.0_3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-stratifyr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-stratifyr-1.0_3-r40hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-actuar",
+      "r-base >=4.0,<4.1.0a0",
+      "r-fitdistrplus",
+      "r-mc2d",
+      "r-triangle",
+      "r-zipfr"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "c1b894e45ab7a5eea0a61dfbea73be8c",
+    "name": "r-stratifyr",
+    "noarch": "generic",
+    "sha256": "0eb7a65216b59c22a11414c051b376bac02960b52def794dfef8f0715943147c",
+    "size": 1017530,
+    "subdir": "noarch",
+    "timestamp": 1640788194866,
+    "version": "1.0_3"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-stratifyr-1.0_3-r40hc72bb7e_0.tar.bz2/r-stratifyr-1.0_3-r40hc72bb7e_0.tar.bz2"
+}
