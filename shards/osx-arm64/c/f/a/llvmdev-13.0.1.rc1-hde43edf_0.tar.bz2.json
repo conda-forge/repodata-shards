@@ -21,41 +21,40 @@
     "source_git_url": null,
     "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.1-rc1/llvm-13.0.1rc1.src.tar.xz",
     "subdirs": [
-      "linux-64"
+      "osx-arm64"
     ],
     "summary": "Development headers and libraries for LLVM",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1640737736,
+    "timestamp": 1640737789,
     "version": "13.0.1.rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "llvmdev-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "llvmdev-13.0.1.rc1-he6d0cff_0.tar.bz2",
+  "package": "llvmdev-13.0.1.rc1-hde43edf_0.tar.bz2",
   "repodata": {
-    "build": "he6d0cff_0",
+    "build": "hde43edf_0",
     "build_number": 0,
     "depends": [
-      "libgcc-ng >=9.4.0",
-      "libllvm13 13.0.1.rc1 he6d0cff_0",
-      "libstdcxx-ng >=9.4.0",
+      "libcxx >=11.a0",
+      "libllvm13 13.0.1.rc1 hde43edf_0",
       "libzlib >=1.2.11,<1.3.0a0",
-      "llvm-tools 13.0.1.rc1 he6d0cff_0"
+      "llvm-tools 13.0.1.rc1 hde43edf_0"
     ],
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
-    "md5": "b848d78deac1e7a57f6ed2c4cb5e3cbd",
+    "md5": "f72dc04b6b16b44b48a91af788b8ec94",
     "name": "llvmdev",
-    "sha256": "45932940e60ab7fe6a833979b0fcbbae3a8b76909f29dc3d224dea1541f4678e",
-    "size": 58010381,
-    "subdir": "linux-64",
-    "timestamp": 1640737736199,
+    "sha256": "717d314be17565dbb0c221ec26925f6ed459d4b6688c6534787de0e6d3d647ac",
+    "size": 43143087,
+    "subdir": "osx-arm64",
+    "timestamp": 1640737789566,
     "version": "13.0.1.rc1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/llvmdev-13.0.1.rc1-he6d0cff_0.tar.bz2/llvmdev-13.0.1.rc1-he6d0cff_0.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/llvmdev-13.0.1.rc1-hde43edf_0.tar.bz2/llvmdev-13.0.1.rc1-hde43edf_0.tar.bz2"
 }
