@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "AppArmor protects systems from insecure or untrusted processes by running them in restricted confinement, while still allowing processes to share files, exercise privilege and communicate with other processes. AppArmor is a Mandatory Access Control (MAC) mechanism which uses the Linux Security Module (LSM) framework. The confinement's restrictions are mandatory and are not bound to identity, group membership, or object ownership. The protections provided are in addition to the kernel's regular access control mechanisms (including DAC) and can be used to restrict the superuser.",
+    "dev_url": "https://gitlab.com/apparmor",
+    "doc_source_url": null,
+    "doc_url": "https://gitlab.com/apparmor/apparmor/-/wikis/Documentation",
+    "home": "https://apparmor.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://gitlab.com/apparmor/apparmor/-/archive/v3.0.3/apparmor-v3.0.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Linux kernel security module",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641185141,
+    "version": "3.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libapparmor-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libapparmor-3.0.3-h2cc385e_1.tar.bz2",
+  "repodata": {
+    "build": "h2cc385e_1",
+    "build_number": 1,
+    "depends": [
+      "__glibc >=2.17,<3.0.a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "b8c2faa94b6c3c1ec9b09d664d448ca7",
+    "name": "libapparmor",
+    "sha256": "df4414148d13d40445f709203084260d778590829ce46486af5657319e9e21f5",
+    "size": 92230,
+    "subdir": "linux-64",
+    "timestamp": 1641185141939,
+    "version": "3.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libapparmor-3.0.3-h2cc385e_1.tar.bz2/libapparmor-3.0.3-h2cc385e_1.tar.bz2"
+}
