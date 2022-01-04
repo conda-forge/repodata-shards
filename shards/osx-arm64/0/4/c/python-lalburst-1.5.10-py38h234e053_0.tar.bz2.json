@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Burst Library for gravitational wave data analysis. This package contains the Python bindings of the LALBurst C libraries and additional Python modules.  Note: this package only provides the importable Python libraries. All command-line interfaces, scripts, and executables are part of the `lalburst` package.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalburst/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalburst-1.5.10.tar.xz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "LSC Algorithm Burst Library Python bindings",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641287042,
+    "version": "1.5.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalburst-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-lalburst-1.5.10-py38h234e053_0.tar.bz2",
+  "repodata": {
+    "build": "py38h234e053_0",
+    "build_number": 0,
+    "depends": [
+      "gsl >=2.7,<2.8.0a0",
+      "liblalburst 1.5.10 hfde5a22_0",
+      "ligo-segments",
+      "lscsoft-glue",
+      "matplotlib-base",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python-lal >=7.1.0",
+      "python-lalmetaio >=2.1.0",
+      "python-lalsimulation >=3.1.0",
+      "python-ligo-lw >=1.7.0",
+      "python_abi 3.8.* *_cp38",
+      "scipy",
+      "tqdm"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "2b35f53a566ac137f6955a8190068bd3",
+    "name": "python-lalburst",
+    "sha256": "05149474254ce60d667d983d89750889be82e603e11d995414becc29470c98b9",
+    "size": 250246,
+    "subdir": "osx-arm64",
+    "timestamp": 1641287042955,
+    "version": "1.5.10"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/python-lalburst-1.5.10-py38h234e053_0.tar.bz2/python-lalburst-1.5.10-py38h234e053_0.tar.bz2"
+}
