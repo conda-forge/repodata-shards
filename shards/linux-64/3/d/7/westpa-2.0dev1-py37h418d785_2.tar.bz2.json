@@ -21,34 +21,35 @@
     "source_git_url": null,
     "source_url": "https://github.com/westpa/westpa/archive/refs/tags/v2.0dev1.tar.gz",
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "Interoperable, highly-scalable software for weighted ensemble simulation.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1641488142,
+    "timestamp": 1641487792,
     "version": "2.0dev1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "westpa-feedstock",
   "labels": [
     "westpa_dev"
   ],
-  "package": "westpa-2.0dev1-py38h6606fc2_2.tar.bz2",
+  "package": "westpa-2.0dev1-py37h418d785_2.tar.bz2",
   "repodata": {
-    "build": "py38h6606fc2_2",
+    "build": "py37h418d785_2",
     "build_number": 2,
     "depends": [
       "blessings 1.7.*",
       "h5py >=2.10",
       "ipykernel",
+      "libgcc-ng >=9.4.0",
       "matplotlib-base",
       "mdtraj >=1.9.5",
-      "numpy >=1.22.0,<2.0a0",
+      "numpy >=1.21.5,<2.0a0",
       "pandas",
       "pytables",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
       "pyyaml >=5.3.*",
       "pyzmq >=19.0.*",
       "scipy >=0.19.1",
@@ -56,15 +57,15 @@
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "69c6ff6fa68970908ca8e928d0de7ad9",
+    "md5": "7ac1846117ea10f9b33f7295dd0fa96c",
     "name": "westpa",
-    "sha256": "ebd9ef5e8a8ed2795d69d35d880b350e024c6d1027284571d86e0f3a3c47bc1d",
-    "size": 938777,
-    "subdir": "osx-64",
-    "timestamp": 1641488142383,
+    "sha256": "f2c69e26bd77e41e1743f6300837dd0f8a82853a464ced2174e371102549f846",
+    "size": 1070074,
+    "subdir": "linux-64",
+    "timestamp": 1641487792848,
     "version": "2.0dev1"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/westpa-2.0dev1-py38h6606fc2_2.tar.bz2/westpa-2.0dev1-py38h6606fc2_2.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/westpa-2.0dev1-py37h418d785_2.tar.bz2/westpa-2.0dev1-py37h418d785_2.tar.bz2"
 }
