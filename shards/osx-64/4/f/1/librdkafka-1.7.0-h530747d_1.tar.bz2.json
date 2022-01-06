@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "librdkafka is a C library implementation of the Apache Kafka protocol, containing both Producer and Consumer support. It was designed with message delivery reliability and high performance in mind, current figures exceed 1 million msgs/second for the producer and 3 million msgs/second for the consumer.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/edenhill/librdkafka",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.7.0": {
+        "weak": [
+          "librdkafka >=1.7.0,<1.8.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/edenhill/librdkafka/archive/v1.7.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The Apache Kafka C/C++ client library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641438091,
+    "version": "1.7.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "librdkafka-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "librdkafka-1.7.0-h530747d_1.tar.bz2",
+  "repodata": {
+    "build": "h530747d_1",
+    "build_number": 1,
+    "depends": [
+      "cyrus-sasl >=2.1.27,<3.0a0",
+      "libcxx >=11.1.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "lz4-c >=1.9.3,<1.9.4.0a0",
+      "openssl >=3.0.0,<4.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "2de37b74e37afc13a75344f635efd3a8",
+    "name": "librdkafka",
+    "sha256": "f8a5b18a04f731acd410a8aec1c593bbcbe5b4187fb82ba11926537e8fd6fcca",
+    "size": 1410920,
+    "subdir": "osx-64",
+    "timestamp": 1641438091436,
+    "version": "1.7.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/librdkafka-1.7.0-h530747d_1.tar.bz2/librdkafka-1.7.0-h530747d_1.tar.bz2"
+}
