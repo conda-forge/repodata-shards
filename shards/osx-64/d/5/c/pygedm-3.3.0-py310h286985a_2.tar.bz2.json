@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a Python interface to the YMW16 and NE2001 electron density models, and YT2020 halo model. The Yao, Manchester and Wang (2017, Astrophys. J., 835, 29; arXiv:1610.09448) YMW16 electron density model, is written in C++, and the Cordes and Lazio (2001, arXiv:0207156) NE2001 model is written in FORTRAN. This package, PyGEDM, wraps these two codes using pybind11 and f2py.",
+    "dev_url": "https://github.com/FRBs/pygedm",
+    "doc_source_url": null,
+    "doc_url": "https://pygedm.readthedocs.io",
+    "home": "https://github.com/FRBs/pygedm",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pygedm/pygedm-3.3.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Python bindings for the YMW16, NE2001 and YT2020 electron density models",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641465345,
+    "version": "3.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pygedm-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pygedm-3.3.0-py310h286985a_2.tar.bz2",
+  "repodata": {
+    "build": "py310h286985a_2",
+    "build_number": 2,
+    "depends": [
+      "astropy",
+      "healpy",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "matplotlib-base",
+      "numpy >=1.21.5,<2.0a0",
+      "pybind11 >=2.2",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "scipy"
+    ],
+    "license": "LGPL-3.0-only",
+    "md5": "d55ba36509d4abbe331d9384fa5ff10d",
+    "name": "pygedm",
+    "sha256": "c1c90064c22a95bf920bd5c338b37fdab52a91027a1c48f134c1d027b0727a11",
+    "size": 179683,
+    "subdir": "osx-64",
+    "timestamp": 1641465345238,
+    "version": "3.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pygedm-3.3.0-py310h286985a_2.tar.bz2/pygedm-3.3.0-py310h286985a_2.tar.bz2"
+}
