@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "SIRIUS is a domain specific library for electronic structure calculations. It implements pseudopotential plane wave (PP-PW) and full potential linearized augmented plane wave (FP-LAPW) methods and is designed for GPU acceleration of popular community codes such as Exciting, Elk and Quantum ESPRESSO.",
+    "dev_url": "https://github.com/electronic-structure/SIRIUS",
+    "doc_source_url": null,
+    "doc_url": "https://electronic-structure.github.io/SIRIUS-doc/",
+    "home": "https://github.com/electronic-structure/SIRIUS",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "7.3.1": {
+        "weak": [
+          "sirius"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/electronic-structure/SIRIUS/archive/refs/tags/v7.3.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Domain specific library for electronic structure calculations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641591934,
+    "version": "7.3.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "sirius-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "sirius-7.3.1-h37d9aff_0.tar.bz2",
+  "repodata": {
+    "build": "h37d9aff_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "gsl >=2.7,<2.8.0a0",
+      "hdf5 >=1.12.1,<1.12.2.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "libxc >=5.1.7,<6.0a0",
+      "mpich >=3.4.3,<4.0a0",
+      "scalapack",
+      "spfft",
+      "spglib",
+      "spla"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "92d0a43a94f6d3596b54e4d9bbe9bbf8",
+    "name": "sirius",
+    "sha256": "b96dbb19da1b702d0c1635c5a89d2170e664212e5c92acf4bc6ab1bc3ccb53d7",
+    "size": 3676505,
+    "subdir": "linux-64",
+    "timestamp": 1641591934935,
+    "version": "7.3.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/sirius-7.3.1-h37d9aff_0.tar.bz2/sirius-7.3.1-h37d9aff_0.tar.bz2"
+}
