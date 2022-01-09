@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "13.0.1.rc1": {
+        "weak": [
+          "libclang 13.*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Development headers and libraries for Clang",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641771610,
+    "version": "13.0.1.rc1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "clangdev-feedstock",
+  "labels": [
+    "llvm_rc"
+  ],
+  "package": "libclang-13.0.1.rc1-default_haeb2ba7_0.tar.bz2",
+  "repodata": {
+    "build": "default_haeb2ba7_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=11.0.0.0rc.1",
+      "libllvm13 >=13.0.1.0rc.1,<13.1.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "eb5481fce7b0b42a313e651f34e3e617",
+    "name": "libclang",
+    "sha256": "6e0d429536f8b7028404512f0cf412a7836d78902fb4893b7d3b82d46280ef8d",
+    "size": 8312443,
+    "subdir": "osx-64",
+    "timestamp": 1641771610475,
+    "version": "13.0.1.rc1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libclang-13.0.1.rc1-default_haeb2ba7_0.tar.bz2/libclang-13.0.1.rc1-default_haeb2ba7_0.tar.bz2"
+}
