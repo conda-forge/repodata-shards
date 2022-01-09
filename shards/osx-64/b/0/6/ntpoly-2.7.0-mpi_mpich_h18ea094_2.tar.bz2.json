@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/william-dawson/NTPoly/tree/ntpoly-v2.7.0",
+    "doc_source_url": null,
+    "doc_url": "https://william-dawson.github.io/NTPoly/documentation/",
+    "home": "https://william-dawson.github.io/NTPoly/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.0": {
+        "weak": [
+          "ntpoly * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/william-dawson/NTPoly/archive/refs/tags/ntpoly-v2.7.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A massively parallel library for computing the functions of sparse matrices.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641751553,
+    "version": "2.7.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ntpoly-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ntpoly-2.7.0-mpi_mpich_h18ea094_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h18ea094_2",
+    "build_number": 2,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "llvm-openmp >=11.1.0",
+      "llvm-openmp >=12.0.1",
+      "mpich >=3.4.3,<4.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "78cde19f5103edb5e072f58eb29b062e",
+    "name": "ntpoly",
+    "sha256": "7d7777f041c6c2ae85b632111b668491c90eac3dd6756b02ef47134859568f1b",
+    "size": 837168,
+    "subdir": "osx-64",
+    "timestamp": 1641751553967,
+    "version": "2.7.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/ntpoly-2.7.0-mpi_mpich_h18ea094_2.tar.bz2/ntpoly-2.7.0-mpi_mpich_h18ea094_2.tar.bz2"
+}
