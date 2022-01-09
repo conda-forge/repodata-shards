@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/william-dawson/NTPoly/tree/ntpoly-v2.7.0",
+    "doc_source_url": null,
+    "doc_url": "https://william-dawson.github.io/NTPoly/documentation/",
+    "home": "https://william-dawson.github.io/NTPoly/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.0": {
+        "weak": [
+          "ntpoly * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/william-dawson/NTPoly/archive/refs/tags/ntpoly-v2.7.0.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "A massively parallel library for computing the functions of sparse matrices.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641752364,
+    "version": "2.7.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ntpoly-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ntpoly-2.7.0-mpi_openmpi_h187d6b8_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h187d6b8_2",
+    "build_number": 2,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "openmpi >=4.1.2,<5.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "c4b8485f2daeebca2b1436a98cb0f959",
+    "name": "ntpoly",
+    "sha256": "e2ad2aed8e2fe7b719b4d101195a48dc5e8c2c36afc9eaf16da04ce7cd0935b9",
+    "size": 754162,
+    "subdir": "linux-aarch64",
+    "timestamp": 1641752364510,
+    "version": "2.7.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/ntpoly-2.7.0-mpi_openmpi_h187d6b8_2.tar.bz2/ntpoly-2.7.0-mpi_openmpi_h187d6b8_2.tar.bz2"
+}
