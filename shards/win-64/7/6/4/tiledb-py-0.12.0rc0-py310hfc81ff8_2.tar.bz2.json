@@ -21,41 +21,42 @@
     "source_git_url": "https://github.com/TileDB-Inc/TileDB-Py",
     "source_url": null,
     "subdirs": [
-      "osx-64"
+      "win-64"
     ],
     "summary": "Python interface to the TileDB sparse and dense multi-dimensional array storage manager",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1641755487,
+    "timestamp": 1641756324,
     "version": "0.12.0rc0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "tiledb-py-feedstock",
   "labels": [
     "tiledb_rc"
   ],
-  "package": "tiledb-py-0.12.0rc0-py310h1e5db6b_2.tar.bz2",
+  "package": "tiledb-py-0.12.0rc0-py310hfc81ff8_2.tar.bz2",
   "repodata": {
-    "build": "py310h1e5db6b_2",
+    "build": "py310hfc81ff8_2",
     "build_number": 2,
     "depends": [
-      "libcxx >=11.1.0",
       "numpy >=1.21.5,<2.0a0",
       "python >=3.10,<3.11.0a0",
       "python_abi 3.10.* *_cp310",
-      "tiledb >=2.6.0rc.1,<2.7.0a0"
+      "tiledb >=2.6.0rc.1,<2.7.0a0",
+      "vc >=14.1,<15.0a0",
+      "vs2015_runtime >=14.16.27012"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "df3e479a7cbdc3dd3129fd97950c48de",
+    "md5": "1d169451661ef1b5374fce9fca124df6",
     "name": "tiledb-py",
-    "sha256": "bfbd62a5d13483a342eecb68ba81b7b5f30e749ec911ff3fe703c92787ae8aea",
-    "size": 1152546,
-    "subdir": "osx-64",
-    "timestamp": 1641755487808,
+    "sha256": "4f52866e64c03e1c636bcaa70c1b9dc256fd2b4f5d4f79ce937c7a213222065a",
+    "size": 897873,
+    "subdir": "win-64",
+    "timestamp": 1641756324899,
     "version": "0.12.0rc0"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/tiledb-py-0.12.0rc0-py310h1e5db6b_2.tar.bz2/tiledb-py-0.12.0rc0-py310h1e5db6b_2.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/tiledb-py-0.12.0rc0-py310hfc81ff8_2.tar.bz2/tiledb-py-0.12.0rc0-py310hfc81ff8_2.tar.bz2"
 }

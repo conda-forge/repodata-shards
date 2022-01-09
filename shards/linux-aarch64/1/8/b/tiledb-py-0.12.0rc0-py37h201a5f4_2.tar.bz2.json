@@ -21,41 +21,44 @@
     "source_git_url": "https://github.com/TileDB-Inc/TileDB-Py",
     "source_url": null,
     "subdirs": [
-      "osx-64"
+      "linux-aarch64"
     ],
     "summary": "Python interface to the TileDB sparse and dense multi-dimensional array storage manager",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1641755487,
+    "timestamp": 1641755474,
     "version": "0.12.0rc0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "tiledb-py-feedstock",
   "labels": [
     "tiledb_rc"
   ],
-  "package": "tiledb-py-0.12.0rc0-py310h1e5db6b_2.tar.bz2",
+  "package": "tiledb-py-0.12.0rc0-py37h201a5f4_2.tar.bz2",
   "repodata": {
-    "build": "py310h1e5db6b_2",
+    "build": "py37h201a5f4_2",
     "build_number": 2,
     "depends": [
-      "libcxx >=11.1.0",
-      "numpy >=1.21.5,<2.0a0",
-      "python >=3.10,<3.11.0a0",
-      "python_abi 3.10.* *_cp310",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "numpy >=1.19.5,<2.0a0",
+      "pypy3.7 >=7.3.7",
+      "python >=3.7,<3.8.0a0",
+      "python >=3.7,<3.8.0a0 *_73_pypy",
+      "python_abi 3.7 *_pypy37_pp73",
       "tiledb >=2.6.0rc.1,<2.7.0a0"
     ],
     "license": "MIT",
     "license_family": "MIT",
-    "md5": "df3e479a7cbdc3dd3129fd97950c48de",
+    "md5": "991e4e29b02ac640cca4ed512c74b9b8",
     "name": "tiledb-py",
-    "sha256": "bfbd62a5d13483a342eecb68ba81b7b5f30e749ec911ff3fe703c92787ae8aea",
-    "size": 1152546,
-    "subdir": "osx-64",
-    "timestamp": 1641755487808,
+    "sha256": "ade3ff369b7379556940845ef49a92e3f820ccd9ff3e5e659590db3897ff0205",
+    "size": 990811,
+    "subdir": "linux-aarch64",
+    "timestamp": 1641755474700,
     "version": "0.12.0rc0"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/tiledb-py-0.12.0rc0-py310h1e5db6b_2.tar.bz2/tiledb-py-0.12.0rc0-py310h1e5db6b_2.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/tiledb-py-0.12.0rc0-py37h201a5f4_2.tar.bz2/tiledb-py-0.12.0rc0-py37h201a5f4_2.tar.bz2"
 }
