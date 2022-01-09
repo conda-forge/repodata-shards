@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://gitlab.com/ElectronicStructureLibrary/omm-bundle/-/tree/master/MatrixSwitch",
+    "doc_source_url": null,
+    "doc_url": "https://esl.cecam.org/software/matrixswitch/",
+    "home": "https://gitlab.com/ElectronicStructureLibrary/omm-bundle",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.0": {
+        "weak": [
+          "MatrixSwitch * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gitlab.com/ElectronicStructureLibrary/omm-bundle/-/archive/v1.0.0/omm-bundle-v1.0.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Intermediary interface layer between high-level routines for physics-related algorithms and low-level routines dealing with matrix storage and manipulation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641751723,
+    "version": "1.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "matrixswitch-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "matrixswitch-1.0.0-mpi_mpich_hb27407b_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hb27407b_2",
+    "build_number": 2,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "mpich >=3.4.3,<4.0a0",
+      "scalapack"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "fbb126ed27133cab5ef637a0c58040a3",
+    "name": "matrixswitch",
+    "sha256": "0dd0009d192ecf60274da0ce747803ca05cb089dd0e9f58b1016ff8c5ccb63e6",
+    "size": 310689,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1641751723575,
+    "version": "1.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/matrixswitch-1.0.0-mpi_mpich_hb27407b_2.tar.bz2/matrixswitch-1.0.0-mpi_mpich_hb27407b_2.tar.bz2"
+}
