@@ -21,37 +21,43 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "osx-64"
+      "osx-arm64"
     ],
     "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1641771545,
+    "timestamp": 1641771460,
     "version": "13.0.1.rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "clangdev-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "clang-13.0.1.rc1-h9d310f0_0.tar.bz2",
+  "package": "clangdev-13.0.1.rc1-default_h52952be_0.tar.bz2",
   "repodata": {
-    "build": "h9d310f0_0",
+    "build": "default_h52952be_0",
     "build_number": 0,
     "depends": [
-      "clang-13 13.0.1.rc1 default_haeb2ba7_0"
+      "clang 13.0.1.rc1 h6c176a3_0",
+      "clang-tools 13.0.1.rc1 default_h52952be_0",
+      "clangxx 13.0.1.rc1 default_hc0091ba_0",
+      "libclang 13.0.1.rc1 default_h52952be_0",
+      "libclang-cpp 13.0.1.rc1 default_h52952be_0",
+      "libcxx >=11.0.0.0rc.1",
+      "llvmdev 13.0.1.rc1"
     ],
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
-    "md5": "10fc276afb90f92bbb0fdd2eeaac2133",
-    "name": "clang",
-    "sha256": "53288b06243784ee044081b606dbbc1b5073b4ca4d15d45feba45b582bc40d10",
-    "size": 128384,
-    "subdir": "osx-64",
-    "timestamp": 1641771545430,
+    "md5": "d7749983c9469f7d00ad6244c5b01b97",
+    "name": "clangdev",
+    "sha256": "01c20503fb8707d7d3427c2a4d78013dab3c206db0da4e5fdde4b3f42e211efd",
+    "size": 28767048,
+    "subdir": "osx-arm64",
+    "timestamp": 1641771460845,
     "version": "13.0.1.rc1"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/clang-13.0.1.rc1-h9d310f0_0.tar.bz2/clang-13.0.1.rc1-h9d310f0_0.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/clangdev-13.0.1.rc1-default_h52952be_0.tar.bz2/clangdev-13.0.1.rc1-default_h52952be_0.tar.bz2"
 }

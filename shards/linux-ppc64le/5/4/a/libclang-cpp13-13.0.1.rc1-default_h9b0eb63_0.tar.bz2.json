@@ -17,41 +17,50 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "13.0.1.rc1": {
+        "weak": [
+          "libclang-cpp13 >=13.0.1.0rc.1,<13.1.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "osx-64"
+      "linux-ppc64le"
     ],
     "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1641771545,
+    "timestamp": 1641770278,
     "version": "13.0.1.rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "clangdev-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "clang-13.0.1.rc1-h9d310f0_0.tar.bz2",
+  "package": "libclang-cpp13-13.0.1.rc1-default_h9b0eb63_0.tar.bz2",
   "repodata": {
-    "build": "h9d310f0_0",
+    "build": "default_h9b0eb63_0",
     "build_number": 0,
     "depends": [
-      "clang-13 13.0.1.rc1 default_haeb2ba7_0"
+      "libgcc-ng >=8.5.0",
+      "libllvm13 >=13.0.1.0rc.1,<13.1.0a0",
+      "libstdcxx-ng >=8.5.0",
+      "libzlib >=1.2.11,<1.3.0a0"
     ],
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
-    "md5": "10fc276afb90f92bbb0fdd2eeaac2133",
-    "name": "clang",
-    "sha256": "53288b06243784ee044081b606dbbc1b5073b4ca4d15d45feba45b582bc40d10",
-    "size": 128384,
-    "subdir": "osx-64",
-    "timestamp": 1641771545430,
+    "md5": "8e655c4af7e5a5b2dc4152a7029ac228",
+    "name": "libclang-cpp13",
+    "sha256": "ddb56cf8051ca8705680a21cb5d339f7d729e20a45d28321dedd2b7e81523205",
+    "size": 20929120,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1641770278038,
     "version": "13.0.1.rc1"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/clang-13.0.1.rc1-h9d310f0_0.tar.bz2/clang-13.0.1.rc1-h9d310f0_0.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libclang-cpp13-13.0.1.rc1-default_h9b0eb63_0.tar.bz2/libclang-cpp13-13.0.1.rc1-default_h9b0eb63_0.tar.bz2"
 }

@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "13.0.1.rc1": {
+        "weak": [
+          "libclang 13.*"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
@@ -26,32 +32,33 @@
     "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1641771545,
+    "timestamp": 1641771610,
     "version": "13.0.1.rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "clangdev-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "clang-13.0.1.rc1-h9d310f0_0.tar.bz2",
+  "package": "libclang-13.0.1.rc1-default_haeb2ba7_0.tar.bz2",
   "repodata": {
-    "build": "h9d310f0_0",
+    "build": "default_haeb2ba7_0",
     "build_number": 0,
     "depends": [
-      "clang-13 13.0.1.rc1 default_haeb2ba7_0"
+      "libcxx >=11.0.0.0rc.1",
+      "libllvm13 >=13.0.1.0rc.1,<13.1.0a0"
     ],
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
-    "md5": "10fc276afb90f92bbb0fdd2eeaac2133",
-    "name": "clang",
-    "sha256": "53288b06243784ee044081b606dbbc1b5073b4ca4d15d45feba45b582bc40d10",
-    "size": 128384,
+    "md5": "eb5481fce7b0b42a313e651f34e3e617",
+    "name": "libclang",
+    "sha256": "6e0d429536f8b7028404512f0cf412a7836d78902fb4893b7d3b82d46280ef8d",
+    "size": 8312443,
     "subdir": "osx-64",
-    "timestamp": 1641771545430,
+    "timestamp": 1641771610475,
     "version": "13.0.1.rc1"
   },
   "repodata_version": 1,
   "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/clang-13.0.1.rc1-h9d310f0_0.tar.bz2/clang-13.0.1.rc1-h9d310f0_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libclang-13.0.1.rc1-default_haeb2ba7_0.tar.bz2/libclang-13.0.1.rc1-default_haeb2ba7_0.tar.bz2"
 }
