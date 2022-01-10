@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Minuit2 library is a new object-oriented implementation, written in C++, of the popular MINUIT minimization package. These new version provides basically all the functionality present in the old Fortran version, with almost equivalent numerical accuracy and computational performances. Furthermore, it contains new functionality, like the possibility to set single side parameter limits or the FUMILI algorithm, which is an optimized method for least square and log likelihood minimizations. The package has been originally developed by M. Winkler and F. James. More information on the new C++ version can be found on the MINUIT Web Site. This is not a Python frontend to Minuit2, which is provided by the iminuit package.",
+    "dev_url": "https://github.com/root-project/root/",
+    "doc_source_url": null,
+    "doc_url": "https://root.cern.ch/root/htmldoc/guides/users-guide/ROOTUsersGuide.html#minuit2-package",
+    "home": "https://root.cern.ch/doc/master/Minuit2Page.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "6.22.06": {
+        "weak": [
+          "minuit2 >=6.22.6,<6.23.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/root-project/root/archive/v6-22-06.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "This is the C++ Minuit2 fitter standalone edition, from the ROOT toolkit. For information about the Minuit2 fitter, please see the documentation in ROOT. This is not a Python frontend to Minuit2, which is provided by the iminuit package.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641855801,
+    "version": "6.22.06"
+  },
+  "channeldata_version": 1,
+  "feedstock": "minuit2-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "minuit2-6.22.06-root.tar.bz2",
+  "repodata": {
+    "build": "root",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "root 6.22.06.*"
+    ],
+    "license": "LGPL-2.1-only",
+    "license_family": "LGPL",
+    "md5": "61e62f8c24a0e6c57214a41a2c460b17",
+    "name": "minuit2",
+    "sha256": "9457da7b7c990b1be2e0bc12bd22078dd62f931681d7f2f11c801c5898cee688",
+    "size": 6418,
+    "subdir": "linux-aarch64",
+    "timestamp": 1641855801032,
+    "track_features": "non_standalone_minuit2",
+    "version": "6.22.06"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/minuit2-6.22.06-root.tar.bz2/minuit2-6.22.06-root.tar.bz2"
+}
