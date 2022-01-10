@@ -21,32 +21,31 @@
     "source_git_url": null,
     "source_url": "https://github.com/TileDB-Inc/TileDB-MariaDB/archive/0.11.2.tar.gz",
     "subdirs": [
-      "linux-64"
+      "osx-64"
     ],
     "summary": "libtiledb-sql is a SQL interface for TileDB arrays using the MyTile storage engine",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1641835199,
+    "timestamp": 1641836431,
     "version": "0.12.0rc0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "libtiledb-sql-feedstock",
   "labels": [
     "tiledb_rc"
   ],
-  "package": "libtiledb-sql-0.12.0rc0-h83f816e_0.tar.bz2",
+  "package": "libtiledb-sql-0.12.0rc0-hfcee9e6_0.tar.bz2",
   "repodata": {
-    "build": "h83f816e_0",
+    "build": "hfcee9e6_0",
     "build_number": 0,
     "depends": [
       "bison",
       "bzip2 >=1.0.8,<2.0a0",
       "curl >=7.81.0,<8.0a0",
       "krb5 >=1.19.2,<1.20.0a0",
-      "libaio >=0.3.112,<0.4.0a0",
+      "libcxx >=11.1.0",
       "libedit >=3.1.20191231,<3.2.0a0",
-      "libgcc-ng >=9.4.0",
-      "libstdcxx-ng >=9.4.0",
+      "libiconv >=1.16,<1.17.0a0",
       "libzlib >=1.2.11,<1.3.0a0",
       "lz4-c >=1.9.3,<1.9.4.0a0",
       "ncurses >=6.2,<6.3.0a0",
@@ -60,15 +59,15 @@
     ],
     "license": "GPL-2.0-only",
     "license_family": "GPL",
-    "md5": "d06255f074918fe1dbdbd5d0b4549420",
+    "md5": "ec201b12f39a6db199fffcaa64f153bb",
     "name": "libtiledb-sql",
-    "sha256": "d5d5e4ff97832cdf8a1cc7c4a14f4d2830f0e9e774dba49947c891897ed1f879",
-    "size": 60698347,
-    "subdir": "linux-64",
-    "timestamp": 1641835199115,
+    "sha256": "658ae035d743b31b4d3ccba5042de5aaa27931690c88dfda02f8f10441fced1d",
+    "size": 65557252,
+    "subdir": "osx-64",
+    "timestamp": 1641836431163,
     "version": "0.12.0rc0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libtiledb-sql-0.12.0rc0-h83f816e_0.tar.bz2/libtiledb-sql-0.12.0rc0-h83f816e_0.tar.bz2"
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libtiledb-sql-0.12.0rc0-hfcee9e6_0.tar.bz2/libtiledb-sql-0.12.0rc0-hfcee9e6_0.tar.bz2"
 }
