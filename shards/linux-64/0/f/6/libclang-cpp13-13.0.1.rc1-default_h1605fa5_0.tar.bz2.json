@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "13.0.1.rc1": {
+        "weak": [
+          "libclang-cpp13 >=13.0.1.0rc.1,<13.1.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
@@ -26,26 +32,19 @@
     "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1641772031,
+    "timestamp": 1641771970,
     "version": "13.0.1.rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "clangdev-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "clang-13-13.0.1.rc1-default_h1605fa5_0.tar.bz2",
+  "package": "libclang-cpp13-13.0.1.rc1-default_h1605fa5_0.tar.bz2",
   "repodata": {
     "build": "default_h1605fa5_0",
     "build_number": 0,
-    "constrains": [
-      "clangxx 13.0.1.rc1",
-      "clang-tools 13.0.1.rc1",
-      "clangdev 13.0.1.rc1",
-      "llvm-tools 13.0.1.rc1"
-    ],
     "depends": [
-      "libclang-cpp13 13.0.1.rc1.*",
       "libgcc-ng >=9.4.0",
       "libllvm13 >=13.0.1.0rc.1,<13.1.0a0",
       "libstdcxx-ng >=9.4.0",
@@ -53,15 +52,15 @@
     ],
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
-    "md5": "f212e3054cbdb029d993a098c581d61f",
-    "name": "clang-13",
-    "sha256": "775f0c0b575cf58a8d3466776b9425e8f6426d424f0dec1bc3a8d2b4953a34e8",
-    "size": 1030340,
+    "md5": "ed49b4f2d480938e5d6572005b34c091",
+    "name": "libclang-cpp13",
+    "sha256": "32391d4b0f6fe9199ebce6fb484764e3002cb667edc620e3cc5c523b79dcba88",
+    "size": 20784239,
     "subdir": "linux-64",
-    "timestamp": 1641772031540,
+    "timestamp": 1641771970744,
     "version": "13.0.1.rc1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/clang-13-13.0.1.rc1-default_h1605fa5_0.tar.bz2/clang-13-13.0.1.rc1-default_h1605fa5_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libclang-cpp13-13.0.1.rc1-default_h1605fa5_0.tar.bz2/libclang-cpp13-13.0.1.rc1-default_h1605fa5_0.tar.bz2"
 }

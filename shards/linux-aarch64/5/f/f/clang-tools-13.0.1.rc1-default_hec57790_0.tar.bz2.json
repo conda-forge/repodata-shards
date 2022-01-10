@@ -21,31 +21,30 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1641772031,
+    "timestamp": 1641771058,
     "version": "13.0.1.rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "clangdev-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "clang-13-13.0.1.rc1-default_h1605fa5_0.tar.bz2",
+  "package": "clang-tools-13.0.1.rc1-default_hec57790_0.tar.bz2",
   "repodata": {
-    "build": "default_h1605fa5_0",
+    "build": "default_hec57790_0",
     "build_number": 0,
     "constrains": [
-      "clangxx 13.0.1.rc1",
-      "clang-tools 13.0.1.rc1",
-      "clangdev 13.0.1.rc1",
-      "llvm-tools 13.0.1.rc1"
+      "clangdev 13.0.1.rc1"
     ],
     "depends": [
-      "libclang-cpp13 13.0.1.rc1.*",
+      "clang-format 13.0.1.rc1 default_hec57790_0",
+      "libclang 13.*",
+      "libclang-cpp13 >=13.0.1.0rc.1,<13.1.0a0",
       "libgcc-ng >=9.4.0",
       "libllvm13 >=13.0.1.0rc.1,<13.1.0a0",
       "libstdcxx-ng >=9.4.0",
@@ -53,15 +52,15 @@
     ],
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
-    "md5": "f212e3054cbdb029d993a098c581d61f",
-    "name": "clang-13",
-    "sha256": "775f0c0b575cf58a8d3466776b9425e8f6426d424f0dec1bc3a8d2b4953a34e8",
-    "size": 1030340,
-    "subdir": "linux-64",
-    "timestamp": 1641772031540,
+    "md5": "2475ca63e0cdaf72a828f44b1f69c22a",
+    "name": "clang-tools",
+    "sha256": "1118ee619e8d6176647243472e79fb00cb071eb6eeb74c2dcf50928e6666d28d",
+    "size": 20764444,
+    "subdir": "linux-aarch64",
+    "timestamp": 1641771058669,
     "version": "13.0.1.rc1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/clang-13-13.0.1.rc1-default_h1605fa5_0.tar.bz2/clang-13-13.0.1.rc1-default_h1605fa5_0.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/clang-tools-13.0.1.rc1-default_hec57790_0.tar.bz2/clang-tools-13.0.1.rc1-default_hec57790_0.tar.bz2"
 }

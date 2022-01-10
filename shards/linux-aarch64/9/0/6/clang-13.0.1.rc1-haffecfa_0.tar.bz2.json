@@ -21,47 +21,38 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "Development headers and libraries for Clang",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1641772031,
+    "timestamp": 1641770742,
     "version": "13.0.1.rc1"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "clangdev-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "clang-13-13.0.1.rc1-default_h1605fa5_0.tar.bz2",
+  "package": "clang-13.0.1.rc1-haffecfa_0.tar.bz2",
   "repodata": {
-    "build": "default_h1605fa5_0",
+    "build": "haffecfa_0",
     "build_number": 0,
-    "constrains": [
-      "clangxx 13.0.1.rc1",
-      "clang-tools 13.0.1.rc1",
-      "clangdev 13.0.1.rc1",
-      "llvm-tools 13.0.1.rc1"
-    ],
     "depends": [
-      "libclang-cpp13 13.0.1.rc1.*",
-      "libgcc-ng >=9.4.0",
-      "libllvm13 >=13.0.1.0rc.1,<13.1.0a0",
-      "libstdcxx-ng >=9.4.0",
-      "libzlib >=1.2.11,<1.3.0a0"
+      "clang-13 13.0.1.rc1 default_hec57790_0",
+      "gcc_impl_linux-aarch64"
     ],
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
-    "md5": "f212e3054cbdb029d993a098c581d61f",
-    "name": "clang-13",
-    "sha256": "775f0c0b575cf58a8d3466776b9425e8f6426d424f0dec1bc3a8d2b4953a34e8",
-    "size": 1030340,
-    "subdir": "linux-64",
-    "timestamp": 1641772031540,
+    "md5": "76b6241210eb3b90bcbd2ea23270d731",
+    "name": "clang",
+    "sha256": "9712974f667820aacd3855bbf776b3cf6d8f3c52a90c6837c053bff57dffe96b",
+    "size": 128428,
+    "subdir": "linux-aarch64",
+    "timestamp": 1641770742259,
     "version": "13.0.1.rc1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/clang-13-13.0.1.rc1-default_h1605fa5_0.tar.bz2/clang-13-13.0.1.rc1-default_h1605fa5_0.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/clang-13.0.1.rc1-haffecfa_0.tar.bz2/clang-13.0.1.rc1-haffecfa_0.tar.bz2"
 }
