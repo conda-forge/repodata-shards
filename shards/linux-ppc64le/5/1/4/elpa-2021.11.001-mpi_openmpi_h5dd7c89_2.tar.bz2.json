@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The computation of selected or all eigenvalues and eigenvectors of a symmetric (Hermitian) matrix has high relevance for various scientific disciplines. For the calculation of a significant part of the eigensystem typically direct eigensolvers are used. For large problems, the eigensystem calculations with existing solvers can become the computational bottleneck.",
+    "dev_url": "https://gitlab.mpcdf.mpg.de/elpa/elpa",
+    "doc_source_url": null,
+    "doc_url": "https://elpa.mpcdf.mpg.de/documentation/doxygen/ELPA_DOXYGEN_PAGES/ELPA-2021.11.001/html/index.html",
+    "home": "https://elpa.mpcdf.mpg.de/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2021.11.001": {
+        "weak": [
+          "elpa * mpi_openmpi_*",
+          "elpa >=2021.11.1,<2021.11.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://elpa.mpcdf.mpg.de/software/tarball-archive/Releases/2021.11.001/elpa-2021.11.001.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Eigenvalue Solvers for Petaflop-Applications",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641911702,
+    "version": "2021.11.001"
+  },
+  "channeldata_version": 1,
+  "feedstock": "elpa-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "elpa-2021.11.001-mpi_openmpi_h5dd7c89_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h5dd7c89_2",
+    "build_number": 2,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "openmpi >=4.1.2,<5.0a0",
+      "scalapack"
+    ],
+    "license": "LGPL-3.0-only",
+    "md5": "eaa1b45be56c98a9f2b477c0019fa91b",
+    "name": "elpa",
+    "sha256": "4929810d5f4d540d1e05c78c853af95fed467b8d812e65d9d96da6aa5cff1158",
+    "size": 5562880,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1641911702043,
+    "version": "2021.11.001"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/elpa-2021.11.001-mpi_openmpi_h5dd7c89_2.tar.bz2/elpa-2021.11.001-mpi_openmpi_h5dd7c89_2.tar.bz2"
+}
