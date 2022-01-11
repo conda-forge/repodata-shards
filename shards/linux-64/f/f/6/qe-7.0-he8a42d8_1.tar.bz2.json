@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "QUANTUM ESPRESSO is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density-functional theory, plane waves, and pseudopotentials.",
+    "dev_url": "https://github.com/QEF/q-e",
+    "doc_source_url": null,
+    "doc_url": "http://www.quantum-espresso.org/Doc/user_guide/",
+    "home": "http://www.quantum-espresso.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/QEF/q-e/archive/qe-7.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "QUANTUM ESPRESSO (opEn-Source Package for Research in Electronic Structure, Simulation, and Optimization)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641858996,
+    "version": "7.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "qe-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "qe-7.0-he8a42d8_1.tar.bz2",
+  "repodata": {
+    "build": "he8a42d8_1",
+    "build_number": 1,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "fftw >=3.3.10,<4.0a0",
+      "hdf5 >=1.12.1,<1.12.2.0a0 mpi_openmpi_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "liblapacke >=3.8.0,<4.0a0",
+      "openmpi >=4.1.2,<5.0a0",
+      "scalapack"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL",
+    "md5": "8d71fd8581d83b0880aa087c375252db",
+    "name": "qe",
+    "sha256": "cb0962ecc0d0c3d2a1b4dc13bf078fc6654d9cbaf3c26af56832ac26f44e13f9",
+    "size": 95911503,
+    "subdir": "linux-64",
+    "timestamp": 1641858996978,
+    "version": "7.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/qe-7.0-he8a42d8_1.tar.bz2/qe-7.0-he8a42d8_1.tar.bz2"
+}
