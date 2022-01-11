@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "This package enables the CONDA_GO_COMPILER environment variable. This variable is used by conda-forge's patched GoLang compiler to set conda-aware GOBIN and GOPATH default values. These default values are ignored if GOBIN and GOPATH environment variables are set independently by the user.  Futhermore, this package set the correct GOARCH and GOOS environment variables to enable cross-compilation.",
+    "dev_url": "https://go.googlesource.com/go",
+    "doc_source_url": null,
+    "doc_url": "https://golang.org/doc",
+    "home": "http://golang.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The Go (nocgo) compiler activation scripts for conda-build.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641919372,
+    "version": "1.17.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "go-activation-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "go-nocgo_linux-ppc64le-1.17.6-h1b5cc07_1.tar.bz2",
+  "repodata": {
+    "build": "h1b5cc07_1",
+    "build_number": 1,
+    "depends": [
+      "_go_select ==2.2.0 nocgo",
+      "go 1.17.6.*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "3df2c59c9a33b767c7df5692eaf7d43e",
+    "name": "go-nocgo_linux-ppc64le",
+    "sha256": "0ad7cff4e576888d82dba90f1bf8ff40c58b91ff658c4dda1791552e9978f404",
+    "size": 6389,
+    "subdir": "linux-64",
+    "timestamp": 1641919372174,
+    "version": "1.17.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/go-nocgo_linux-ppc64le-1.17.6-h1b5cc07_1.tar.bz2/go-nocgo_linux-ppc64le-1.17.6-h1b5cc07_1.tar.bz2"
+}
