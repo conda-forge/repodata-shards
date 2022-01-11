@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "OmniSciDB is an in-memory, column store, SQL relational database that was designed from the ground up to run on GPUs.",
+    "dev_url": "https://github.com/omnisci/omniscidb",
+    "doc_source_url": null,
+    "doc_url": "https://www.omnisci.com/docs/latest/",
+    "home": "https://www.omnisci.com/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.10.0": {
+        "weak": [
+          "pyomniscidbe >=5.10.0,<5.10.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/omnisci/omniscidb/archive/v5.10.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The OmniSci database",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641944638,
+    "version": "5.10.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "omniscidb-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyomniscidbe-5.10.0-py38h1234567_0_cpu.tar.bz2",
+  "repodata": {
+    "build": "py38h1234567_0_cpu",
+    "build_number": 0,
+    "depends": [
+      "arrow-cpp >=6.0.1,<6.0.2.0a0",
+      "arrow-cpp-proc 3.* cpu",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libthrift >=0.15.0,<0.15.1.0a0",
+      "omniscidbe 5.10.0 h1234567_0_cpu",
+      "pyarrow 6.* *cpu",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "tbb4py"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "b46b5329ee62e3df4444d1d643f8050b",
+    "name": "pyomniscidbe",
+    "sha256": "a911463aeac9aa93e7ada75b89fa943f817633eab0b9294c28c407d411f1f6a1",
+    "size": 795930,
+    "subdir": "linux-64",
+    "timestamp": 1641944638525,
+    "version": "5.10.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyomniscidbe-5.10.0-py38h1234567_0_cpu.tar.bz2/pyomniscidbe-5.10.0-py38h1234567_0_cpu.tar.bz2"
+}
