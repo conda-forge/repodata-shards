@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-9.0.1/llvm-9.0.1.src.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641904745,
+    "version": "9.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "llvm-tools-9.0.1-cling_v0.9_h38e9fbe_5.tar.bz2",
+  "repodata": {
+    "build": "cling_v0.9_h38e9fbe_5",
+    "build_number": 5,
+    "constrains": [
+      "llvmdev   9.0.1 cling_v0.9*"
+    ],
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libllvm9 9.0.1 cling_v0.9_h38e9fbe_5",
+      "libstdcxx-ng >=9.4.0",
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "a4fcdb1ab5ae3959d751264844490316",
+    "name": "llvm-tools",
+    "sha256": "47a97c7b315fdf6dd1ac1a1bd15a28c61d3b97a0964d6562297c05997ccd527e",
+    "size": 5828556,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1641904745583,
+    "track_features": "cling",
+    "version": "9.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/llvm-tools-9.0.1-cling_v0.9_h38e9fbe_5.tar.bz2/llvm-tools-9.0.1-cling_v0.9_h38e9fbe_5.tar.bz2"
+}
