@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "This package enables the CONDA_GO_COMPILER environment variable. This variable is used by conda-forge's patched GoLang compiler to set conda-aware GOBIN and GOPATH default values. These default values are ignored if GOBIN and GOPATH environment variables are set independently by the user.  Futhermore, this package set the correct GOARCH and GOOS environment variables to enable cross-compilation.",
+    "dev_url": "https://go.googlesource.com/go",
+    "doc_source_url": null,
+    "doc_url": "https://golang.org/doc",
+    "home": "http://golang.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "The Go (nocgo) compiler activation scripts for conda-build.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641919369,
+    "version": "1.17.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "go-activation-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "go-nocgo_osx-arm64-1.17.6-hddc29dd_1.tar.bz2",
+  "repodata": {
+    "build": "hddc29dd_1",
+    "build_number": 1,
+    "depends": [
+      "_go_select ==2.2.0 nocgo",
+      "go 1.17.6.*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "42ab0ccd6ddb5ab107b7fa6c6cd870d5",
+    "name": "go-nocgo_osx-arm64",
+    "sha256": "2aa62a58431280a2b2f3dae1069cab64acf4df96138ca6f92259f6719a868098",
+    "size": 6414,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1641919369636,
+    "version": "1.17.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/go-nocgo_osx-arm64-1.17.6-hddc29dd_1.tar.bz2/go-nocgo_osx-arm64-1.17.6-hddc29dd_1.tar.bz2"
+}
