@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "This package enables the CONDA_GO_COMPILER environment variable. This variable is used by conda-forge's patched GoLang compiler to set conda-aware GOBIN and GOPATH default values. These default values are ignored if GOBIN and GOPATH environment variables are set independently by the user.  Futhermore, this package set the correct GOARCH and GOOS environment variables to enable cross-compilation.",
+    "dev_url": "https://go.googlesource.com/go",
+    "doc_source_url": null,
+    "doc_url": "https://golang.org/doc",
+    "home": "http://golang.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.17.6": {
+        "strong_constrains": [
+          "__osx>=10.12"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "The Go (cgo) compiler activation scripts for conda-build.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641919345,
+    "version": "1.17.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "go-activation-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "go-cgo_osx-64-1.17.6-h22d902d_1.tar.bz2",
+  "repodata": {
+    "build": "h22d902d_1",
+    "build_number": 1,
+    "depends": [
+      "_go_select ==2.3.0 cgo",
+      "go 1.17.6.*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "ad1a47e3c22d9e364945f6451e89b61a",
+    "name": "go-cgo_osx-64",
+    "sha256": "af6e7730d2e0bce8159869a08c072f24de1935c1bd0eb7a96196d0ecac107949",
+    "size": 6467,
+    "subdir": "linux-aarch64",
+    "timestamp": 1641919345319,
+    "version": "1.17.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/go-cgo_osx-64-1.17.6-h22d902d_1.tar.bz2/go-cgo_osx-64-1.17.6-h22d902d_1.tar.bz2"
+}
