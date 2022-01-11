@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "CUDA Toolkit - Including CUDA runtime",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1641899606,
+    "timestamp": 1641900402,
     "version": "11.5.1"
   },
   "channeldata_version": 1,
@@ -34,29 +34,28 @@
   "labels": [
     "main"
   ],
-  "package": "cudatoolkit-11.5.1-hcf5317a_9.tar.bz2",
+  "package": "cudatoolkit-11.5.1-h506b3e9_9.tar.bz2",
   "repodata": {
-    "build": "hcf5317a_9",
+    "build": "h506b3e9_9",
     "build_number": 9,
     "constrains": [
-      "__cuda >=11.5.1"
+      "__cuda >=11.5.1",
+      "arm-variant * sbsa"
     ],
     "depends": [
-      "__glibc >=2.17,<3.0.a0",
       "libgcc-ng >=9.4.0",
       "libstdcxx-ng >=9.4.0"
     ],
     "license": "LicenseRef-NVIDIA-End-User-License-Agreement",
-    "md5": "cba8f073087596d11b3c96064cd3b90c",
+    "md5": "9f1caa77d98612e0e2dc06671691a732",
     "name": "cudatoolkit",
-    "sha256": "35a88ff7d5a141365e0abe83ad58799e5c2c123705db255967206c49cf1f4f11",
-    "size": 837187169,
-    "subdir": "linux-64",
-    "timestamp": 1641899606547,
+    "sha256": "fff5b4495075ea083191603e7036f9e3e0ce7e1ed4a3b403d3f3745f935fbe57",
+    "size": 841745296,
+    "subdir": "linux-aarch64",
+    "timestamp": 1641900402466,
     "version": "11.5.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "undistributable_hash": "14dbaf",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cudatoolkit-11.5.1-hcf5317a_9.tar.bz2"
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/cf-staging/linux-aarch64/cudatoolkit-11.5.1-h506b3e9_9.tar.bz2"
 }
