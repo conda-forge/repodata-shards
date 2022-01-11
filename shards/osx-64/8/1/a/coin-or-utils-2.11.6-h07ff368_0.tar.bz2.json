@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "CoinUtils (Coin-OR Utilities) is an open-source collection of classes and functions that are generally useful to more than one COIN-OR project. These utilities include:    - classes for storing and manipulating sparse matrices and vectors,   - performing matrix factorization,   - parsing input files in standard formats, e.g. MPS,   - building representations of mathematical programs,   - performing simple presolve operations,   - warm starting algorithms for mathematical programs, and   - comparing floating point numbers with a tolerance, among others.",
+    "dev_url": "https://github.com/coin-or/CoinUtils",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://projects.coin-or.org/CoinUtils",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "EPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.11.6": {
+        "weak": [
+          "coin-or-utils >=2.11,<2.12.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/coin-or/CoinUtils/archive/releases/2.11.6.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "COIN-OR Utilities (CoinUtils)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641889910,
+    "version": "2.11.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "coin-or-utils-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "coin-or-utils-2.11.6-h07ff368_0.tar.bz2",
+  "repodata": {
+    "build": "h07ff368_0",
+    "build_number": 0,
+    "constrains": [
+      "coincbc * *_metapackage"
+    ],
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "liblapacke >=3.8.0,<4.0a0",
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "EPL-2.0",
+    "license_family": "OTHER",
+    "md5": "13c6d4c5ea547f49e393625675f9375d",
+    "name": "coin-or-utils",
+    "sha256": "7a3f345ceec0ca1ef4d626dd2ee345bd2bfa3bfcd7985b54fe03aea71484b2f9",
+    "size": 685186,
+    "subdir": "osx-64",
+    "timestamp": 1641889910110,
+    "version": "2.11.6"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/coin-or-utils-2.11.6-h07ff368_0.tar.bz2/coin-or-utils-2.11.6-h07ff368_0.tar.bz2"
+}
