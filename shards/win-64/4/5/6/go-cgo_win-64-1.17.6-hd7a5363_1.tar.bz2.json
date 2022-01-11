@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "This package enables the CONDA_GO_COMPILER environment variable. This variable is used by conda-forge's patched GoLang compiler to set conda-aware GOBIN and GOPATH default values. These default values are ignored if GOBIN and GOPATH environment variables are set independently by the user.  Futhermore, this package set the correct GOARCH and GOOS environment variables to enable cross-compilation.",
+    "dev_url": "https://go.googlesource.com/go",
+    "doc_source_url": null,
+    "doc_url": "https://golang.org/doc",
+    "home": "http://golang.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "The Go (cgo) compiler activation scripts for conda-build.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641919544,
+    "version": "1.17.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "go-activation-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "go-cgo_win-64-1.17.6-hd7a5363_1.tar.bz2",
+  "repodata": {
+    "build": "hd7a5363_1",
+    "build_number": 1,
+    "depends": [
+      "_go_select ==2.3.0 cgo",
+      "go 1.17.6.*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "4350e9135c9721a6beb0c2eb8b8ba3df",
+    "name": "go-cgo_win-64",
+    "sha256": "14c124d8520c483031c27a8d37c558ad6e73caa0a5977b2178c8a05a0bbf3bff",
+    "size": 6337,
+    "subdir": "win-64",
+    "timestamp": 1641919544072,
+    "version": "1.17.6"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/go-cgo_win-64-1.17.6-hd7a5363_1.tar.bz2/go-cgo_win-64-1.17.6-hd7a5363_1.tar.bz2"
+}
