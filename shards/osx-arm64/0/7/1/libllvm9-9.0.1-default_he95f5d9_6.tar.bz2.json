@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "9.0.1": {
+        "weak": [
+          "libllvm9 9.0.1 default_h1234567_6"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-9.0.1/llvm-9.0.1.src.tar.xz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1641925058,
+    "version": "9.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libllvm9-9.0.1-default_he95f5d9_6.tar.bz2",
+  "repodata": {
+    "build": "default_he95f5d9_6",
+    "build_number": 6,
+    "depends": [
+      "libcxx >=11",
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "981aa720e64fe75867e77f07b8234538",
+    "name": "libllvm9",
+    "sha256": "47298f8edaf9653d837b29984e537275dc2a13e1738b254773bc2ba5633ed9c1",
+    "size": 18982961,
+    "subdir": "osx-arm64",
+    "timestamp": 1641925058960,
+    "version": "9.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libllvm9-9.0.1-default_he95f5d9_6.tar.bz2/libllvm9-9.0.1-default_he95f5d9_6.tar.bz2"
+}
