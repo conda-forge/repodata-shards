@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "UHD is the free & open-source software driver and API for the Universal Software Radio Peripheral (USRP(TM)) SDR platform, created and sold by Ettus Research. UHD supports all Ettus Research USRP(TM) hardware, including all motherboards and daughterboards, and the combinations thereof.",
+    "dev_url": "https://github.com/EttusResearch/uhd",
+    "doc_source_url": null,
+    "doc_url": "https://files.ettus.com/manual/",
+    "home": "httsp://github.com/EttusResearch/uhd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.1.0.5": {
+        "weak": [
+          "uhd >=4.1.0,<4.1.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/EttusResearch/uhd/archive/v4.1.0.5.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Software driver and API for the Ettus Research USRP SDR platform",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642005152,
+    "version": "4.1.0.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "uhd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "uhd-4.1.0.5-py39h664ebfd_0.tar.bz2",
+  "repodata": {
+    "build": "py39h664ebfd_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "libcxx >=11.1.0",
+      "libusb >=1.0.24,<2.0a0",
+      "ncurses >=6.2,<6.3.0a0",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python >=3.9,<3.10.0a0 *_cpython",
+      "python_abi 3.9.* *_cp39",
+      "pyyaml",
+      "requests",
+      "ruamel.yaml"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "2bd1b1d916f961e160cc8596b8af535e",
+    "name": "uhd",
+    "sha256": "5078d5b4c924dd62ed7b440a1b85bbf4249900dd4354b36fa8f055dc9c778f66",
+    "size": 7276289,
+    "subdir": "osx-arm64",
+    "timestamp": 1642005152325,
+    "version": "4.1.0.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/uhd-4.1.0.5-py39h664ebfd_0.tar.bz2/uhd-4.1.0.5-py39h664ebfd_0.tar.bz2"
+}
