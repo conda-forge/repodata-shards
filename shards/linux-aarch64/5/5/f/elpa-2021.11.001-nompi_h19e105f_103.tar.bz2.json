@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The computation of selected or all eigenvalues and eigenvectors of a symmetric (Hermitian) matrix has high relevance for various scientific disciplines. For the calculation of a significant part of the eigensystem typically direct eigensolvers are used. For large problems, the eigensystem calculations with existing solvers can become the computational bottleneck.",
+    "dev_url": "https://gitlab.mpcdf.mpg.de/elpa/elpa",
+    "doc_source_url": null,
+    "doc_url": "https://elpa.mpcdf.mpg.de/documentation/doxygen/ELPA_DOXYGEN_PAGES/ELPA-2021.11.001/html/index.html",
+    "home": "https://elpa.mpcdf.mpg.de/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2021.11.001": {
+        "weak": [
+          "elpa >=2021.11.1,<2021.11.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://elpa.mpcdf.mpg.de/software/tarball-archive/Releases/2021.11.001/elpa-2021.11.001.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Eigenvalue Solvers for Petaflop-Applications",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641989611,
+    "version": "2021.11.001"
+  },
+  "channeldata_version": 1,
+  "feedstock": "elpa-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "elpa-2021.11.001-nompi_h19e105f_103.tar.bz2",
+  "repodata": {
+    "build": "nompi_h19e105f_103",
+    "build_number": 103,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "LGPL-3.0-only",
+    "md5": "4e687e361e9be84d805dbcf6f11fe14b",
+    "name": "elpa",
+    "sha256": "ce0ea462972a8c57d9b46da981ea8699471f16d35968d71257fab121f93d1901",
+    "size": 4939589,
+    "subdir": "linux-aarch64",
+    "timestamp": 1641989611918,
+    "version": "2021.11.001"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/elpa-2021.11.001-nompi_h19e105f_103.tar.bz2/elpa-2021.11.001-nompi_h19e105f_103.tar.bz2"
+}
