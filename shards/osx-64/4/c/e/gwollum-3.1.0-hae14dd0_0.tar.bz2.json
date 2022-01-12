@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The GWOLLUM package contains a set of software tools designed to perform GW analyses.  Most of the code source is written with the C++ language and it also heavily relies on the CERN ROOT libraries (also C++).",
+    "dev_url": "https://git.ligo.org/virgo/virgoapp/gwollum.git",
+    "doc_source_url": null,
+    "doc_url": "https://virgo.docs.ligo.org/virgoapp/gwollum/",
+    "home": "https://virgo.docs.ligo.org/virgoapp/gwollum/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.1.0": {
+        "weak": [
+          "gwollum >=3.1.0,<3.1.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://git.ligo.org/virgo/virgoapp/gwollum/-/archive/3.1.0/gwollum-3.1.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Tools for gravitational-wave analyses",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642001482,
+    "version": "3.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gwollum-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gwollum-3.1.0-hae14dd0_0.tar.bz2",
+  "repodata": {
+    "build": "hae14dd0_0",
+    "build_number": 0,
+    "constrains": [
+      "__osx >=10.13"
+    ],
+    "depends": [
+      "fftw >=3.3.10,<4.0a0",
+      "hdf5 >=1.12.1,<1.12.2.0a0",
+      "libcxx >=11.1.0",
+      "libframel >=8.41.3,<9.0a0",
+      "root_base >=6.24.6,<6.24.7.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "93988ffec975edf64280625e2d616db4",
+    "name": "gwollum",
+    "sha256": "7cbc0f99d94a1ee54dd96cda8f916a2448b7fd2fdc543c9247d8c7c20015ebb6",
+    "size": 430826,
+    "subdir": "osx-64",
+    "timestamp": 1642001482159,
+    "version": "3.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gwollum-3.1.0-hae14dd0_0.tar.bz2/gwollum-3.1.0-hae14dd0_0.tar.bz2"
+}
