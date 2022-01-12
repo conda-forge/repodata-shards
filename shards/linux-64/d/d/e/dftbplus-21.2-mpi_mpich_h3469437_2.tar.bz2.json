@@ -1,0 +1,87 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/dftbplus/dftbplus",
+    "doc_source_url": null,
+    "doc_url": "https://dftbplus-recipes.readthedocs.io",
+    "home": "https://dftbplus.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "21.2": {
+        "weak": [
+          "dftbplus * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/dftbplus/dftbplus/releases/download/21.2/dftbplus-21.2.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "DFTB+ general package for performing fast atomistic simulations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1641998452,
+    "version": "21.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dftbplus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dftbplus-21.2-mpi_mpich_h3469437_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h3469437_2",
+    "build_number": 2,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "chimes-calculator >=1.0.0,<1.1.0a0",
+      "elsi * mpi_mpich_*",
+      "elsi >=2.8.2,<2.9.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libmbd * mpi_mpich_*",
+      "libmbd >=0.12.4,<0.13.0a0 mpi_mpich_*",
+      "libnegf * mpi_mpich_*",
+      "libnegf >=1.0.3,<1.1.0a0 mpi_mpich_*",
+      "libstdcxx-ng >=9.4.0",
+      "mctc-lib >=0.2.3,<0.3.0a0",
+      "mpich >=3.4.3,<4.0a0",
+      "mpifx * mpi_mpich_*",
+      "mpifx >=1.2,<1.3.0a0 mpi_mpich_*",
+      "plumed * mpi_mpich_*",
+      "plumed >=2.7.3,<2.8.0a0 mpi_mpich_*",
+      "scalapack",
+      "scalapackfx * mpi_mpich_*",
+      "scalapackfx >=1.0.2,<1.1.0a0 mpi_mpich_*",
+      "simple-dftd3 >=0.4.2,<0.5.0a0",
+      "tblite >=0.1.0,<0.2.0a0"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "540f8f9e7d92cddf82eedee409eed98d",
+    "name": "dftbplus",
+    "sha256": "2ea4fc5813dcecab7bc73cc095458ae6e7519135a00b4e0accf425f4977a6223",
+    "size": 18131350,
+    "subdir": "linux-64",
+    "timestamp": 1641998452048,
+    "version": "21.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/dftbplus-21.2-mpi_mpich_h3469437_2.tar.bz2/dftbplus-21.2-mpi_mpich_h3469437_2.tar.bz2"
+}
