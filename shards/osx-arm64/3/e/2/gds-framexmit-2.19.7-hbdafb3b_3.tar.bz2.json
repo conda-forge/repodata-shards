@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Low-latency libraries implement the gds shared memory and interconnects",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://computing.docs.ligo.org/daswgweb/projects/dmt.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.19.7": {
+        "weak": [
+          "gds-framexmit >=2.19.7,<2.20.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://software.igwn.org/lscsoft/source/gds-2.19.7.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "GDS package low-latency libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642099628,
+    "version": "2.19.7"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gds-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gds-framexmit-2.19.7-hbdafb3b_3.tar.bz2",
+  "repodata": {
+    "build": "hbdafb3b_3",
+    "build_number": 3,
+    "depends": [
+      "gds-base 2.19.7 h7a27528_3",
+      "libcxx >=11.1.0"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL",
+    "md5": "d211e51294f23f3a2007017722ce2cd9",
+    "name": "gds-framexmit",
+    "sha256": "7b4c3834605e1fb89c34c49a66fee5f787b68565db98158bff137f67da4a52b8",
+    "size": 71297,
+    "subdir": "osx-arm64",
+    "timestamp": 1642099628772,
+    "version": "2.19.7"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/gds-framexmit-2.19.7-hbdafb3b_3.tar.bz2/gds-framexmit-2.19.7-hbdafb3b_3.tar.bz2"
+}
