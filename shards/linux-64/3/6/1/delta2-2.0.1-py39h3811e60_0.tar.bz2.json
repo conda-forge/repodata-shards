@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "DeLTA can process movies of rod-shaped bacteria growing in 2D setups such as agarose pads, as well as movies of E. coli cells trapped in a microfluidic device known as a mother machine. The pipeline is centered around two U-Net neural networks that are used for binary segmnetation and tracking cells frame to frame.",
+    "dev_url": "https://gitlab.com/dunloplab/delta",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gitlab.com/dunloplab/delta",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://gitlab.com/dunloplab/delta/-/archive/2.0.1/delta-2.0.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "DeLTA (Deep Learning for Time-lapse Analysis) is a deep learning-based image processing pipeline for segmenting and tracking single cells in time-lapse microscopy movies",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642041048,
+    "version": "2.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "delta2-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "delta2-2.0.1-py39h3811e60_0.tar.bz2",
+  "repodata": {
+    "build": "py39h3811e60_0",
+    "build_number": 0,
+    "depends": [
+      "ffmpeg-python",
+      "libgcc-ng >=9.4.0",
+      "numpy >=1.20",
+      "opencv >=4.1",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "requests",
+      "scikit-image >=0.18",
+      "tensorflow >=2",
+      "tifffile >=2020"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "3e91d6ad8200dd576d9282e959508b79",
+    "name": "delta2",
+    "sha256": "5ad9210b0c00e48b770c6ee0bd7588864bb798568824c9aac287d753a3b7bb86",
+    "size": 91613,
+    "subdir": "linux-64",
+    "timestamp": 1642041048598,
+    "version": "2.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/delta2-2.0.1-py39h3811e60_0.tar.bz2/delta2-2.0.1-py39h3811e60_0.tar.bz2"
+}
