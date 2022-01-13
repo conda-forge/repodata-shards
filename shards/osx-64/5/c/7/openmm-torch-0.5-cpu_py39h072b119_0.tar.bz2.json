@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This is a plugin for OpenMM that allows neural networks to be used for defining forces. It is implemented with PyTorch. To use it, you create a PyTorch model that takes particle positions as input and produces energy as output. This plugin uses the model to apply forces to particles during a simulation.",
+    "dev_url": "https://github.com/openmm/openmm-torch",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/openmm/openmm-torch",
+    "home": "https://github.com/openmm/openmm-torch",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": "https://github.com/openmm/openmm-torch.git",
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "OpenMM plugin to define forces with neural networks",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642098699,
+    "version": "0.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmm-torch-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmm-torch-0.5-cpu_py39h072b119_0.tar.bz2",
+  "repodata": {
+    "build": "cpu_py39h072b119_0",
+    "build_number": 0,
+    "depends": [
+      "khronos-opencl-icd-loader >=2022.1.4",
+      "libcxx >=11.1.0",
+      "ocl_icd_wrapper_apple",
+      "openmm >=7.7.0,<7.8.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "pytorch",
+      "pytorch-cpu >=1.10.0,<1.10.1.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "3d90ce6d6ca6602a69aa7231a5b073dc",
+    "name": "openmm-torch",
+    "sha256": "56266255d7c62309da13c2f6e95a47dea3f92d570b87f2b26b8fd7525dcb697f",
+    "size": 119996,
+    "subdir": "osx-64",
+    "timestamp": 1642098699814,
+    "version": "0.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/openmm-torch-0.5-cpu_py39h072b119_0.tar.bz2/openmm-torch-0.5-cpu_py39h072b119_0.tar.bz2"
+}
