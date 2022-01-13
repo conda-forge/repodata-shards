@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "liblapacke >=3.9.0,<3.10.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642046028,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblapacke-3.9.0-12_osxarm64_accelerate.tar.bz2",
+  "repodata": {
+    "build": "12_osxarm64_accelerate",
+    "build_number": 12,
+    "constrains": [
+      "blas * accelerate"
+    ],
+    "depends": [
+      "libblas 3.9.0 12_osxarm64_accelerate",
+      "libcblas 3.9.0 12_osxarm64_accelerate",
+      "liblapack 3.9.0 12_osxarm64_accelerate"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "5473f2e75f1ee20a70f45b910150cf26",
+    "name": "liblapacke",
+    "sha256": "429c11a49f2fafd638f3b58853a37aee6c86d9a1ab41c984d7481cc910f8baeb",
+    "size": 12668,
+    "subdir": "osx-arm64",
+    "timestamp": 1642046028842,
+    "track_features": "blas_accelerate",
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/liblapacke-3.9.0-12_osxarm64_accelerate.tar.bz2/liblapacke-3.9.0-12_osxarm64_accelerate.tar.bz2"
+}
