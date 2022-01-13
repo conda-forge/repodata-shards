@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This is a plugin for OpenMM that allows neural networks to be used for defining forces. It is implemented with PyTorch. To use it, you create a PyTorch model that takes particle positions as input and produces energy as output. This plugin uses the model to apply forces to particles during a simulation.",
+    "dev_url": "https://github.com/openmm/openmm-torch",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/openmm/openmm-torch",
+    "home": "https://github.com/openmm/openmm-torch",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": "https://github.com/openmm/openmm-torch.git",
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "OpenMM plugin to define forces with neural networks",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642096819,
+    "version": "0.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmm-torch-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmm-torch-0.5-cuda111py38h5752a48_0.tar.bz2",
+  "repodata": {
+    "build": "cuda111py38h5752a48_0",
+    "build_number": 0,
+    "depends": [
+      "__glibc >=2.17",
+      "cudatoolkit 11.1|11.1.*",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "ocl-icd >=2.3.1,<3.0a0",
+      "ocl-icd-system",
+      "openmm >=7.7.0,<7.8.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "pytorch",
+      "pytorch-gpu >=1.9.1,<1.9.2.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "b158c4da25f68632c3e1b204b5298383",
+    "name": "openmm-torch",
+    "sha256": "121a6ef1f6157f32da88030fab04b680d266d597055237dac8616d6f548bf9c4",
+    "size": 144011,
+    "subdir": "linux-64",
+    "timestamp": 1642096819735,
+    "version": "0.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openmm-torch-0.5-cuda111py38h5752a48_0.tar.bz2/openmm-torch-0.5-cuda111py38h5752a48_0.tar.bz2"
+}
