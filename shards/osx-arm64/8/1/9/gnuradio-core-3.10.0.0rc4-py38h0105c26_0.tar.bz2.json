@@ -1,15 +1,15 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
-    "description": "This module provides GNU Radio blocks for using IIO devices, including the PlutoSDR.",
+    "description": null,
     "dev_url": "https://github.com/gnuradio/gnuradio",
     "doc_source_url": null,
     "doc_url": "https://gnuradio.org/doc/doxygen/",
     "home": "https://gnuradio.org/",
     "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
-    "icon_url": "icons/gnuradio-iio.png",
+    "icon_url": "icons/gnuradio-core.png",
     "identifiers": null,
     "keywords": null,
     "license": "GPL-3.0-or-later",
@@ -17,7 +17,13 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "3.10.0.0rc4": {
+        "weak": [
+          "gnuradio-core >=3.10.0.0rc.4,<3.10.1.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.10.0.0-rc4.tar.gz",
     "subdirs": [
@@ -26,44 +32,58 @@
     "summary": "GNU Radio Companion",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1642054780,
+    "timestamp": 1642053499,
     "version": "3.10.0.0rc4"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "gnuradio-feedstock",
   "labels": [
     "gnuradio_rc"
   ],
-  "package": "gnuradio-iio-3.10.0.0rc4-py39h77b0630_0.tar.bz2",
+  "package": "gnuradio-core-3.10.0.0rc4-py38h0105c26_0.tar.bz2",
   "repodata": {
     "app_entry": "gnuradio-companion",
-    "build": "py39h77b0630_0",
+    "build": "py38h0105c26_0",
     "build_number": 0,
     "depends": [
       "boost-cpp >=1.74.0,<1.74.1.0a0",
-      "gnuradio-core 3.10.0.0rc4 py39haf63f8c_0",
-      "libad9361-iio >=0.2,<0.3.0a0",
+      "click",
+      "click-plugins",
+      "fftw >=3.3.10,<4.0a0",
+      "gmp >=6.2.1,<7.0a0",
+      "gsl >=2.7,<2.8.0a0",
+      "libcodec2 >=1.0.0,<1.1.0a0",
       "libcxx >=11.1.0",
-      "libiio-c >=0.23,<1.0a0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
+      "libsndfile >=1.0.31,<1.1.0a0",
+      "libthrift >=0.15.0,<0.15.1.0a0",
+      "mako",
+      "numpy",
+      "packaging",
+      "portaudio >=19.6.0,<19.7.0a0",
+      "portaudio >=19.6.0,<20.0a0",
+      "pybind11-abi 4",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "pyyaml",
+      "setuptools",
       "spdlog >=1.9.2,<1.10.0a0",
+      "thrift",
       "volk >=2.5.0,<2.6.0a0"
     ],
     "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
     "license": "GPL-3.0-or-later",
     "license_family": "GPL",
-    "md5": "b7b497a5eb1d953ffa167663e24daa44",
-    "name": "gnuradio-iio",
-    "sha256": "317302dd5143074b0985439ae8a93a3af178a95e3d5f0a0fff203d6b5d189671",
-    "size": 332913,
+    "md5": "6da7f52fe25b63a689b8d81435e127f5",
+    "name": "gnuradio-core",
+    "sha256": "245b2a001d88c0d07a3f1cb2d494e92b083d4fc4df3e833874b6dc84168151ad",
+    "size": 7331607,
     "subdir": "osx-arm64",
     "summary": "GNU Radio Companion",
-    "timestamp": 1642054780343,
+    "timestamp": 1642053499030,
     "type": "app",
     "version": "3.10.0.0rc4"
   },
   "repodata_version": 1,
   "subdir": "osx-arm64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/gnuradio-iio-3.10.0.0rc4-py39h77b0630_0.tar.bz2/gnuradio-iio-3.10.0.0rc4-py39h77b0630_0.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/gnuradio-core-3.10.0.0rc4-py38h0105c26_0.tar.bz2/gnuradio-core-3.10.0.0rc4-py38h0105c26_0.tar.bz2"
 }
