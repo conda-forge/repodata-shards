@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Solves convex cone programs via operator splitting. Can solve: linear programs (LPs), second-order cone programs (SOCPs), semidefinite programs (SDPs), exponential cone programs (ECPs), and power cone programs (PCPs), or problems with any combination of those cones.",
+    "dev_url": "https://github.com/bodono/scs-python",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/bodono/scs-python",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Python interface for SCS, which solves convex cone problems",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642198270,
+    "version": "3.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "scs-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "scs-3.1.0-py310hde16d0a_0.tar.bz2",
+  "repodata": {
+    "build": "py310hde16d0a_0",
+    "build_number": 0,
+    "constrains": [
+      "cvxpy >1.1.15"
+    ],
+    "depends": [
+      "libblas >=3.9.0,<4.0a0",
+      "liblapack >=3.9.0,<4.0a0",
+      "numpy >=1.21.5,<2.0a0",
+      "python >=3.10,<3.11.0a0",
+      "python >=3.10,<3.11.0a0 *_cpython",
+      "python_abi 3.10.* *_cp310",
+      "scipy >=0.13.2"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "c175195e1c9fd5db004353760ce0a596",
+    "name": "scs",
+    "sha256": "45443b4be0dd9080c010390530c4cad74187d6bcbd59d7f294bc39e8f6785c23",
+    "size": 84914,
+    "subdir": "osx-arm64",
+    "timestamp": 1642198270902,
+    "version": "3.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/scs-3.1.0-py310hde16d0a_0.tar.bz2/scs-3.1.0-py310hde16d0a_0.tar.bz2"
+}
