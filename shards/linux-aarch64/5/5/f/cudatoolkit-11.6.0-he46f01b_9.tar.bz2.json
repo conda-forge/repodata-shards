@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "CUDA is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs). With CUDA, developers can dramatically speed up computing applications by harnessing the power of GPUs.  The CUDA Toolkit from NVIDIA provides everything you need to develop GPU-accelerated applications. This CUDA Toolkit includes GPU-accelerated libraries, and the CUDA runtime for the Conda ecosystem. For the full CUDA Toolkit with a compiler and development tools visit https://developer.nvidia.com/cuda-downloads  License Agreements The packages are governed by the CUDA Toolkit End User License Agreement (EULA). By downloading and using the packages, you accept the terms and conditions of the CUDA EULA - https://docs.nvidia.com/cuda/eula/index.html",
+    "dev_url": "https://developer.nvidia.com/cuda-downloads",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/cuda/",
+    "home": "https://developer.nvidia.com/cuda-toolkit",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-NVIDIA-End-User-License-Agreement",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "CUDA Toolkit - Including CUDA runtime",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642129581,
+    "version": "11.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cudatoolkit-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cudatoolkit-11.6.0-he46f01b_9.tar.bz2",
+  "repodata": {
+    "build": "he46f01b_9",
+    "build_number": 9,
+    "constrains": [
+      "arm-variant * sbsa",
+      "__cuda >=11.6.0"
+    ],
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "LicenseRef-NVIDIA-End-User-License-Agreement",
+    "md5": "76eec5faefd0076ccab6a2208ab44fd0",
+    "name": "cudatoolkit",
+    "sha256": "ad47b735174a4663359bf08a913665656cdcbceed14bbde28f06097573dd84b9",
+    "size": 863717840,
+    "subdir": "linux-aarch64",
+    "timestamp": 1642129581899,
+    "version": "11.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/cf-staging/linux-aarch64/cudatoolkit-11.6.0-he46f01b_9.tar.bz2"
+}
