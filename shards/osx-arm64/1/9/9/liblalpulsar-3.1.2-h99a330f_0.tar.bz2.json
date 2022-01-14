@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Pulsar Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Pulsar library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite.git",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalpulsar/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.1.2": {
+        "weak": [
+          "liblalpulsar >=3.1.2,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalpulsar-3.1.2.tar.xz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "LSC Algorithm Pulsar Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642169104,
+    "version": "3.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalpulsar-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalpulsar-3.1.2-h99a330f_0.tar.bz2",
+  "repodata": {
+    "build": "h99a330f_0",
+    "build_number": 0,
+    "constrains": [
+      "python-lalpulsar >=3.0.0",
+      "lalpulsar >=3.0.0"
+    ],
+    "depends": [
+      "cfitsio >=4.0.0,<4.0.1.0a0",
+      "fftw >=3.3.10,<4.0a0",
+      "gsl >=2.7,<2.8.0a0",
+      "liblal >=7.1.5",
+      "liblal >=7.1.5,<8.0a0",
+      "liblalframe >=1.6.0",
+      "liblalframe >=1.6.0,<2.0a0",
+      "llvm-openmp >=11.1.0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "c36405802a4d15de69efcf1211e444e5",
+    "name": "liblalpulsar",
+    "sha256": "a94bd8b30985281c99fa657aeb9fbd5b173201bf67fa506060ccb44901dc5927",
+    "size": 93068164,
+    "subdir": "osx-arm64",
+    "timestamp": 1642169104541,
+    "version": "3.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/liblalpulsar-3.1.2-h99a330f_0.tar.bz2/liblalpulsar-3.1.2-h99a330f_0.tar.bz2"
+}
