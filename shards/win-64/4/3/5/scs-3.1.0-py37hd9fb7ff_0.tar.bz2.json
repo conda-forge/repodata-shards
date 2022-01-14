@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Solves convex cone programs via operator splitting. Can solve: linear programs (LPs), second-order cone programs (SOCPs), semidefinite programs (SDPs), exponential cone programs (ECPs), and power cone programs (PCPs), or problems with any combination of those cones.",
+    "dev_url": "https://github.com/bodono/scs-python",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/bodono/scs-python",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Python interface for SCS, which solves convex cone problems",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642199241,
+    "version": "3.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "scs-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "scs-3.1.0-py37hd9fb7ff_0.tar.bz2",
+  "repodata": {
+    "build": "py37hd9fb7ff_0",
+    "build_number": 0,
+    "constrains": [
+      "cvxpy >1.1.15"
+    ],
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "numpy >=1.18.5,<2.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "scipy >=0.13.2",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "552fb43b9f1e59fd652f8443340026af",
+    "name": "scs",
+    "sha256": "83a99bc43a813a87d9fd56d38687aef20fcde53e79e543f401a363edacce16fa",
+    "size": 84411,
+    "subdir": "win-64",
+    "timestamp": 1642199241058,
+    "version": "3.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/scs-3.1.0-py37hd9fb7ff_0.tar.bz2/scs-3.1.0-py37hd9fb7ff_0.tar.bz2"
+}
