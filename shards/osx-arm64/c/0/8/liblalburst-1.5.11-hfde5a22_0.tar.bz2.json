@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Burst Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Burst library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalburst/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.11": {
+        "weak": [
+          "liblalburst >=1.5.11,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalburst-1.5.11.tar.xz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "LSC Algorithm Burst Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642169110,
+    "version": "1.5.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalburst-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalburst-1.5.11-hfde5a22_0.tar.bz2",
+  "repodata": {
+    "build": "hfde5a22_0",
+    "build_number": 0,
+    "constrains": [
+      "lalburst >=1.5.7",
+      "python-lalburst >=1.5.7"
+    ],
+    "depends": [
+      "gsl >=2.7,<2.8.0a0",
+      "liblal >=7.1.0",
+      "liblal >=7.1.5,<8.0a0",
+      "liblalmetaio >=2.1.0",
+      "liblalmetaio >=2.1.0,<3.0a0",
+      "liblalsimulation >=3.1.0",
+      "liblalsimulation >=3.1.0,<4.0a0",
+      "metaio"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "42f3413aca4b127e0f30ccddb35f01ed",
+    "name": "liblalburst",
+    "sha256": "5fc8f0a46a68dac32339092857afa2668f4aab93b3a6c22cf3509e4d0023927c",
+    "size": 102058,
+    "subdir": "osx-arm64",
+    "timestamp": 1642169110025,
+    "version": "1.5.11"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/liblalburst-1.5.11-hfde5a22_0.tar.bz2/liblalburst-1.5.11-hfde5a22_0.tar.bz2"
+}
