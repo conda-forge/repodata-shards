@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Frame Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Frame library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite.git",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalframe/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.6.1": {
+        "weak": [
+          "liblalframe >=1.6.1,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalframe-1.6.1.tar.xz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "LSC Algorithm Frame Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642169602,
+    "version": "1.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalframe-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalframe-1.6.1-h3422bc3_0.tar.bz2",
+  "repodata": {
+    "build": "h3422bc3_0",
+    "build_number": 0,
+    "constrains": [
+      "lalframe >=1.5.3",
+      "python-lalframe >=1.5.3"
+    ],
+    "depends": [
+      "ldas-tools-framecpp >=2.5.5",
+      "ldas-tools-framecpp >=2.8.1,<2.9.0a0",
+      "libframel >=8.39.2",
+      "libframel >=8.41.3,<9.0a0",
+      "liblal >=7.1.0",
+      "liblal >=7.1.5,<8.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "d3b6f9ee88f4d8f41db125f7cd16996e",
+    "name": "liblalframe",
+    "sha256": "f8b98602186204df2f5a08d8ba472c4027a506655f39c14f53dd2e9f6e44458b",
+    "size": 485581,
+    "subdir": "osx-arm64",
+    "timestamp": 1642169602278,
+    "version": "1.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/liblalframe-1.6.1-h3422bc3_0.tar.bz2/liblalframe-1.6.1-h3422bc3_0.tar.bz2"
+}
