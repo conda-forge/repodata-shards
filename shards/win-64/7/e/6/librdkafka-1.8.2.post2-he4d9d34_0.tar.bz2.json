@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "librdkafka is a C library implementation of the Apache Kafka protocol, containing both Producer and Consumer support. It was designed with message delivery reliability and high performance in mind, current figures exceed 1 million msgs/second for the producer and 3 million msgs/second for the consumer.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/edenhill/librdkafka",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.8.2.post2": {
+        "weak": [
+          "librdkafka >=1.8.2.0inf.2,<1.9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/edenhill/librdkafka/archive/v1.8.2-POST2.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "The Apache Kafka C/C++ client library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642185525,
+    "version": "1.8.2.post2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "librdkafka-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "librdkafka-1.8.2.post2-he4d9d34_0.tar.bz2",
+  "repodata": {
+    "build": "he4d9d34_0",
+    "build_number": 0,
+    "depends": [
+      "cyrus-sasl >=2.1.27,<3.0a0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "lz4-c >=1.9.3,<1.9.4.0a0",
+      "openssl >=3.0.0,<4.0a0",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "b9fdb7dcd27ea764c2e1525b3a7e858e",
+    "name": "librdkafka",
+    "sha256": "d9e42f1c5155f96e27b3b03b11d16efdd53f82d1ad905e4801645e97e94f005f",
+    "size": 663208,
+    "subdir": "win-64",
+    "timestamp": 1642185525363,
+    "version": "1.8.2.post2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/librdkafka-1.8.2.post2-he4d9d34_0.tar.bz2/librdkafka-1.8.2.post2-he4d9d34_0.tar.bz2"
+}
