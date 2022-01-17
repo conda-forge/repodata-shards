@@ -21,36 +21,39 @@
     "source_git_url": "https://github.com/JuliaLang/julia.git",
     "source_url": null,
     "subdirs": [
-      "osx-64"
+      "linux-64"
     ],
     "summary": "A high-performance dynamic programming language for data science",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1642382732,
+    "timestamp": 1642381911,
     "version": "1.8.0.dev.1328"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "julia-feedstock",
   "labels": [
     "julia_dev"
   ],
-  "package": "julia-1.8.0.dev.1328-h8742b08_0.tar.bz2",
+  "package": "julia-1.8.0.dev.1328-h0563ae0_0.tar.bz2",
   "repodata": {
-    "build": "h8742b08_0",
+    "build": "h0563ae0_0",
     "build_number": 0,
     "depends": [
       "arpack >=3.7.0,<3.7.1.0a0",
       "curl >=7.81.0,<8.0a0",
       "git",
       "gmp >=6.2.1,<7.0a0",
-      "libcxx >=11.1.0",
-      "libgfortran 5.*",
-      "libgfortran5 >=9.3.0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "libgit2 >=1.3.0,<1.4.0a0",
       "libnghttp2 >=1.43.0,<2.0a0",
-      "libosxunwind",
       "libssh2 >=1.10.0,<2.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "libunwind >=1.5.0,<1.6.0a0",
       "libutf8proc >=2.7.0,<3.0a0",
       "libzlib >=1.2.11,<1.3.0a0",
+      "mbedtls",
       "mpfr >=4.1.0,<5.0a0",
       "openblas-ilp64",
       "openlibm <0.8.0",
@@ -60,15 +63,15 @@
       "zlib >=1.2.11,<1.3.0a0"
     ],
     "license": "MIT",
-    "md5": "c52875970ae7926428bae7ae96703668",
+    "md5": "ed0849b5f90ed00bd1c3b3a2f95429b3",
     "name": "julia",
-    "sha256": "33f40fc5bdadd2730bba24ab7a348ae9a9c6120f4539ec0be1b98c3b8e77b4f4",
-    "size": 88670120,
-    "subdir": "osx-64",
-    "timestamp": 1642382732695,
+    "sha256": "6a18ae26e4727df9394231be14da7ae46a3b72a98b1b05af917a9cd7a1180fb5",
+    "size": 114387879,
+    "subdir": "linux-64",
+    "timestamp": 1642381911663,
     "version": "1.8.0.dev.1328"
   },
   "repodata_version": 1,
-  "subdir": "osx-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/julia-1.8.0.dev.1328-h8742b08_0.tar.bz2/julia-1.8.0.dev.1328-h8742b08_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/julia-1.8.0.dev.1328-h0563ae0_0.tar.bz2/julia-1.8.0.dev.1328-h0563ae0_0.tar.bz2"
 }
