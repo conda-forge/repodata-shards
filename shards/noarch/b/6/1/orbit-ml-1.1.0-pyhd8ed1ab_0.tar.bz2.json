@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "<a href=\"https://github.com/uber/orbit\">   <img src=\"https://raw.githubusercontent.com/uber/orbit/dev/docs/img/orbit-banner.png\" alt=\"Orbit banner\" /> </a>  Orbit is a Python package for Bayesian time series forecasting and inference. It provides a familiar and intuitive initialize-fit-predict interface for time series tasks, while utilizing probabilistic programming languages under the hood.  For details, check out our documentation and tutorials: - HTML (stable): https://orbit-ml.readthedocs.io/en/stable/ - HTML (latest): https://orbit-ml.readthedocs.io/en/latest/  Currently, it supports concrete implementations for the following models:  -  Exponential Smoothing (ETS) -  Local Global Trend (LGT) -  Damped Local Trend (DLT) -  Kernel Time-based Regression (KTR)  It also supports the following sampling/optimization methods for model estimation/inferences:  -  Markov-Chain Monte Carlo (MCMC) as a full sampling method -  Maximum a Posteriori (MAP) as a point estimate method -  Variational Inference (VI) as a hybrid-sampling method on approximate   distribution   PyPI: [https://pypi.org/project/orbit-ml/](https://pypi.org/project/orbit-ml/)",
+    "dev_url": "https://github.com/uber/orbit",
+    "doc_source_url": null,
+    "doc_url": "https://orbit-ml.readthedocs.io/en/stable/",
+    "home": "https://orbit-ml.readthedocs.io/en/stable/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/o/orbit-ml/orbit-ml-1.1.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Orbit is a package for bayesian time series modeling and inference.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642545424,
+    "version": "1.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "orbit-ml-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "orbit-ml-1.1.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "arviz",
+      "matplotlib-base >=3.3.2",
+      "numpy >=1.18.2",
+      "pandas >=1.0.3",
+      "pyro-ppl >=1.4.0",
+      "pystan 2.19.1.1",
+      "python >=3.6",
+      "pytorch",
+      "scipy >=1.4.1",
+      "seaborn >=0.10.0",
+      "statsmodels >=0.11.1",
+      "tqdm"
+    ],
+    "license": "Apache-2.0",
+    "md5": "e00f348fa7cdb6a47a1866a160df8f6b",
+    "name": "orbit-ml",
+    "noarch": "python",
+    "sha256": "c70d546aeb75a7a17cec1a07b3615ae4c1c26310bc643d0f0f0a4d83ee8adfab",
+    "size": 355944,
+    "subdir": "noarch",
+    "timestamp": 1642545424317,
+    "version": "1.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/orbit-ml-1.1.0-pyhd8ed1ab_0.tar.bz2/orbit-ml-1.1.0-pyhd8ed1ab_0.tar.bz2"
+}
