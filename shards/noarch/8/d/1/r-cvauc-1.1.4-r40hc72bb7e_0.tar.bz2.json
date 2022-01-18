@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/ledell/cvAUC",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/cvAUC/cvAUC_1.1.4.tar.gz",
+      "https://cran.r-project.org/src/contrib/cvAUC_1.1.4.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "This package contains various tools for working with and evaluating cross-validated area under the ROC curve (AUC) estimators.  The primary functions of the package are ci.cvAUC and ci.pooled.cvAUC, which report cross-validated AUC and compute confidence intervals for cross-validated AUC estimates based on influence curves for i.i.d. and pooled repeated measures data, respectively.  One benefit to using influence curve based confidence intervals is that they require much less computation time than bootstrapping methods.  The utility functions, AUC and cvAUC, are simple wrappers for functions from the ROCR package.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642498692,
+    "version": "1.1.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-cvauc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-cvauc-1.1.4-r40hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-data.table",
+      "r-rocr"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "a5dedf2046736e18dd88857fd34eb40c",
+    "name": "r-cvauc",
+    "noarch": "generic",
+    "sha256": "d5d516ff43505627690fe489d6b7710f7f1dc756a3b7d86f8b935ec2fc4f3526",
+    "size": 134839,
+    "subdir": "noarch",
+    "timestamp": 1642498692372,
+    "version": "1.1.4"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-cvauc-1.1.4-r40hc72bb7e_0.tar.bz2/r-cvauc-1.1.4-r40hc72bb7e_0.tar.bz2"
+}
