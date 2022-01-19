@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642633707,
+    "version": "2.113"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.113-openblas.tar.bz2",
+  "repodata": {
+    "build": "openblas",
+    "build_number": 13,
+    "depends": [
+      "blas-devel 3.9.0 13_osxarm64_openblas",
+      "libblas 3.9.0 13_osxarm64_openblas",
+      "libcblas 3.9.0 13_osxarm64_openblas",
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.1.dev0",
+      "liblapack 3.9.0 13_osxarm64_openblas",
+      "liblapacke 3.9.0 13_osxarm64_openblas"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "c4b692addfc8c25acdfc8ca0a03d50b4",
+    "name": "blas",
+    "sha256": "d2805e8e9b5f6fc0b56efcebc4a927f3bb7ea65d13eabb87b138031d5f14c3d4",
+    "size": 13242,
+    "subdir": "osx-arm64",
+    "timestamp": 1642633707672,
+    "version": "2.113"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/blas-2.113-openblas.tar.bz2/blas-2.113-openblas.tar.bz2"
+}
