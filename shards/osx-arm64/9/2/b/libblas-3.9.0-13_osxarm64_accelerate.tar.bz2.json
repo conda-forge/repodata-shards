@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "libblas >=3.9.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642633551,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libblas-3.9.0-13_osxarm64_accelerate.tar.bz2",
+  "repodata": {
+    "build": "13_osxarm64_accelerate",
+    "build_number": 13,
+    "constrains": [
+      "blas * accelerate",
+      "libcblas 3.9.0 13_osxarm64_accelerate",
+      "liblapacke 3.9.0 13_osxarm64_accelerate",
+      "liblapack 3.9.0 13_osxarm64_accelerate"
+    ],
+    "depends": [
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.1.dev0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "daf6bae739e269141ce4fe2910137c9d",
+    "name": "libblas",
+    "sha256": "9298d3e737a6d94a39282c64d21b5a5c40f9d298e22574601069c5c91afd8358",
+    "size": 3347257,
+    "subdir": "osx-arm64",
+    "timestamp": 1642633551799,
+    "track_features": "blas_accelerate",
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libblas-3.9.0-13_osxarm64_accelerate.tar.bz2/libblas-3.9.0-13_osxarm64_accelerate.tar.bz2"
+}
