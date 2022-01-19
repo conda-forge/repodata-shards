@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642633402,
+    "version": "2.113"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.113-mkl.tar.bz2",
+  "repodata": {
+    "build": "mkl",
+    "build_number": 13,
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "blas-devel 3.9.0 13_linux64_mkl",
+      "libblas 3.9.0 13_linux64_mkl",
+      "libcblas 3.9.0 13_linux64_mkl",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack 3.9.0 13_linux64_mkl",
+      "liblapacke 3.9.0 13_linux64_mkl",
+      "llvm-openmp >=12.0.1"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "8d65eab66f3c8a2531d5bde6690e4647",
+    "name": "blas",
+    "sha256": "9b2ae4ad18f431ed19ba2c4fa94c79a92b2d360e0489c1a4a0d2d2fe3e1e9c85",
+    "size": 13085,
+    "subdir": "linux-64",
+    "timestamp": 1642633402079,
+    "version": "2.113"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/blas-2.113-mkl.tar.bz2/blas-2.113-mkl.tar.bz2"
+}
