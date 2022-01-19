@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.9.0": {
+        "weak": [
+          "liblapacke >=3.9.0,<3.10.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642633529,
+    "version": "3.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblapacke-3.9.0-13_osx64_mkl.tar.bz2",
+  "repodata": {
+    "build": "13_osx64_mkl",
+    "build_number": 13,
+    "constrains": [
+      "blas * mkl"
+    ],
+    "depends": [
+      "libblas 3.9.0 13_osx64_mkl",
+      "libcblas 3.9.0 13_osx64_mkl",
+      "liblapack 3.9.0 13_osx64_mkl"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "c5f0478ccdd45bf8ce6e631ceea1287c",
+    "name": "liblapacke",
+    "sha256": "4d6b0e9a274387025099e9cdcb068279317bb4055d51efb17f335aade4e4bcb9",
+    "size": 12632,
+    "subdir": "osx-64",
+    "timestamp": 1642633529776,
+    "track_features": "blas_mkl",
+    "version": "3.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/liblapacke-3.9.0-13_osx64_mkl.tar.bz2/liblapacke-3.9.0-13_osx64_mkl.tar.bz2"
+}
