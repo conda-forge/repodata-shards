@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://www.openldap.org/software/repo.html",
+    "doc_source_url": null,
+    "doc_url": "https://www.openldap.org/doc/",
+    "home": "https://www.openldap.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "OLDAP-2.8",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.6.1": {
+        "weak": [
+          "openldap >=2.6.1,<2.7.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.1.tgz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642709339,
+    "version": "2.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openldap-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openldap-2.6.1-h43732ee_0.tar.bz2",
+  "repodata": {
+    "build": "h43732ee_0",
+    "build_number": 0,
+    "depends": [
+      "cyrus-sasl >=2.1.27,<3.0a0",
+      "krb5 >=1.19.2,<1.20.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "openssl >=1.1.1l,<1.1.2a"
+    ],
+    "license": "OLDAP-2.8",
+    "license_family": "BSD",
+    "md5": "277142d65e08db58386a59e6b4fdb029",
+    "name": "openldap",
+    "sha256": "15207915bf6b1791dae2e01ad0097fd66c035eb04b4943360aa95d827f95b375",
+    "size": 1394212,
+    "subdir": "linux-64",
+    "timestamp": 1642709339558,
+    "version": "2.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openldap-2.6.1-h43732ee_0.tar.bz2/openldap-2.6.1-h43732ee_0.tar.bz2"
+}
