@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Tools for interpolating geo-referenced data used in the field of geosciences. There are other libraries that cover this problem, but written entirely in Python, the performance of these projects was not quite sufficient for our needs. That is why this project was created.",
+    "dev_url": "https://github.com/CNES/pangeo-pyinterp",
+    "doc_source_url": null,
+    "doc_url": "https://pangeo-pyinterp.readthedocs.io/",
+    "home": "https://github.com/CNES/pangeo-pyinterp",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/CNES/pangeo-pyinterp/releases/download/0.11.0/pyinterp-0.11.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python library for optimized geo-referenced interpolation",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1642707778,
+    "version": "0.11.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyinterp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyinterp-0.11.0-openblas_py310h27780ff_101.tar.bz2",
+  "repodata": {
+    "build": "openblas_py310h27780ff_101",
+    "build_number": 101,
+    "depends": [
+      "dask",
+      "fsspec",
+      "gsl >=2.7,<2.8.0a0",
+      "libblas * *openblas",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "numcodecs",
+      "numpy >=1.21.5,<2.0a0",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "xarray"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "b8a401eb83c0bf3f420e8c847bad2ff9",
+    "name": "pyinterp",
+    "sha256": "a76402390067f649ae66d24e200646baee9e1849380fde664bf68c50824ba974",
+    "size": 4422110,
+    "subdir": "linux-64",
+    "timestamp": 1642707778597,
+    "version": "0.11.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyinterp-0.11.0-openblas_py310h27780ff_101.tar.bz2/pyinterp-0.11.0-openblas_py310h27780ff_101.tar.bz2"
+}
