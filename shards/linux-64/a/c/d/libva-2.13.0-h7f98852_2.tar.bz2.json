@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "VA-API is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and driver-specific acceleration backends for each supported hardware vendor.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/intel/libva",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.13.0": {
+        "weak": [
+          "libva >=2.13.0,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/intel/libva/archive/2.13.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Libva is an implementation for VA-API (Video Acceleration API)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642677236,
+    "version": "2.13.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libva-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libva-2.13.0-h7f98852_2.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_2",
+    "build_number": 2,
+    "depends": [
+      "libdrm >=2.4.109,<2.5.0a0",
+      "libgcc-ng >=9.4.0",
+      "xorg-libx11",
+      "xorg-libxext",
+      "xorg-libxfixes"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "93cc1426657c6b3153a00181cd808c63",
+    "name": "libva",
+    "sha256": "38becca94a28cf39768017ac098fc99dc9514e6cf503a69e0061537b83f17bf5",
+    "size": 180546,
+    "subdir": "linux-64",
+    "timestamp": 1642677236458,
+    "version": "2.13.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libva-2.13.0-h7f98852_2.tar.bz2/libva-2.13.0-h7f98852_2.tar.bz2"
+}
