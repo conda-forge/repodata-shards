@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "ngspice is the open source spice simulator for electric and electronic circuits.  Such a circuit may comprise of JFETs, bipolar and MOS transistors, passive elements like R, L, or C, diodes, transmission lines and other devices, all interconnected in a netlist. Digital circuits are simulated as well, event driven and fast, from single gates to complex circuits. And you may enter the combination of both analog and digital as a mixed-signal circuit.  ngspice offers a wealth of device models for active, passive, analog, and digital elements. Model parameters are provided by the semiconductor manufacturers. The user add her circuits as a netlist, and the output is one or more graphs of currents, voltages and other electrical quantities or is saved in a data file.  Note:   This build was configured with `--enable-xspice --enable-cider --enable=openmp`   See the [build script](https://git.io/JfVZX) for more specifics.",
+    "dev_url": "http://ngspice.sourceforge.net/devel.html",
+    "doc_source_url": null,
+    "doc_url": "http://ngspice.sourceforge.net/docs.html",
+    "home": "http://ngspice.sourceforge.net",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/36/ngspice-36.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The open source spice simulator for electric and electronic circuits",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642717510,
+    "version": "36"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ngspice-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ngspice-lib-36-hf248978_6.tar.bz2",
+  "repodata": {
+    "build": "hf248978_6",
+    "build_number": 6,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=9.4.0",
+      "libgomp",
+      "libstdcxx-ng >=9.4.0",
+      "ncurses >=6.3,<7.0a0",
+      "readline >=8.1,<9.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "16398c66c681456743955b5ac669e135",
+    "name": "ngspice-lib",
+    "sha256": "d29d1d9d7bea4280e101f4ad12caf2ff4fc7ebc1c13418241b545b42315d797f",
+    "size": 3084753,
+    "subdir": "linux-64",
+    "timestamp": 1642717510203,
+    "version": "36"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ngspice-lib-36-hf248978_6.tar.bz2/ngspice-lib-36-hf248978_6.tar.bz2"
+}
