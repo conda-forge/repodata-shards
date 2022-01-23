@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "ngspice is the open source spice simulator for electric and electronic circuits.  Such a circuit may comprise of JFETs, bipolar and MOS transistors, passive elements like R, L, or C, diodes, transmission lines and other devices, all interconnected in a netlist. Digital circuits are simulated as well, event driven and fast, from single gates to complex circuits. And you may enter the combination of both analog and digital as a mixed-signal circuit.  ngspice offers a wealth of device models for active, passive, analog, and digital elements. Model parameters are provided by the semiconductor manufacturers. The user add her circuits as a netlist, and the output is one or more graphs of currents, voltages and other electrical quantities or is saved in a data file.  Note:   This build was configured with `--enable-xspice --enable-cider --enable=openmp`   See the [build script](https://git.io/JfVZX) for more specifics.",
+    "dev_url": "http://ngspice.sourceforge.net/devel.html",
+    "doc_source_url": null,
+    "doc_url": "http://ngspice.sourceforge.net/docs.html",
+    "home": "http://ngspice.sourceforge.net",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/36/ngspice-36.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The open source spice simulator for electric and electronic circuits",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1642913233,
+    "version": "36"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ngspice-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ngspice-exe-36-h32b66fc_7.tar.bz2",
+  "repodata": {
+    "build": "h32b66fc_7",
+    "build_number": 7,
+    "depends": [
+      "libcxx >=11.1.0",
+      "llvm-openmp >=11.1.0",
+      "ncurses >=6.3,<7.0a0",
+      "readline >=8.1,<9.0a0",
+      "xorg-libx11",
+      "xorg-libxaw",
+      "xorg-libxt"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "8665f80b37dd9bb8f89453b4562e3e84",
+    "name": "ngspice-exe",
+    "sha256": "90508bfe5a1e9960c42d339ccc17f89f19818679ff267d068af6b0d7c08f5751",
+    "size": 2396912,
+    "subdir": "osx-64",
+    "timestamp": 1642913233228,
+    "version": "36"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/ngspice-exe-36-h32b66fc_7.tar.bz2/ngspice-exe-36-h32b66fc_7.tar.bz2"
+}
