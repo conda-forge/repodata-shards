@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://gitlab.com/elsi_project/elsi_interface",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wordpress.elsi-interchange.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.9.0": {
+        "weak": [
+          "elsi >=2.9.0,<2.10.0a0 mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gitlab.com/elsi_project/elsi_interface/-/archive/v2.9.0/elsi_interface-v2.9.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1643147970,
+    "version": "2.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "elsi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "elsi-2.9.0-mpi_mpich_h6ba1590_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h6ba1590_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "elpa * mpi_mpich_*",
+      "elpa >=2021.11.1,<2021.11.2.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libomm * mpi_mpich_*",
+      "libomm * mpi_mpich_*",
+      "matrixswitch * mpi_mpich_*",
+      "matrixswitch * mpi_mpich_*",
+      "mpich >=3.4.3,<4.0a0",
+      "ntpoly * mpi_mpich_*",
+      "scalapack"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "fec0b6436b703ca5605af8238f4ae053",
+    "name": "elsi",
+    "sha256": "892054076f93a7210bbf6274cae08707dfc0f207a68e717831b227be00ba8e24",
+    "size": 966806,
+    "subdir": "linux-64",
+    "timestamp": 1643147970575,
+    "version": "2.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/elsi-2.9.0-mpi_mpich_h6ba1590_0.tar.bz2/elsi-2.9.0-mpi_mpich_h6ba1590_0.tar.bz2"
+}
