@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://gitlab.com/elsi_project/elsi_interface",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wordpress.elsi-interchange.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.9.0": {
+        "weak": [
+          "elsi >=2.9.0,<2.10.0a0 mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gitlab.com/elsi_project/elsi_interface/-/archive/v2.9.0/elsi_interface-v2.9.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1643148153,
+    "version": "2.9.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "elsi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "elsi-2.9.0-mpi_openmpi_h11bec1d_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h11bec1d_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "elpa * mpi_openmpi_*",
+      "elpa >=2021.11.1,<2021.11.2.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libomm * mpi_openmpi_*",
+      "libomm * mpi_openmpi_*",
+      "matrixswitch * mpi_openmpi_*",
+      "matrixswitch * mpi_openmpi_*",
+      "ntpoly * mpi_openmpi_*",
+      "openmpi >=4.1.2,<5.0a0",
+      "scalapack"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "b96e48a0c5083aefdfc6a577897389d2",
+    "name": "elsi",
+    "sha256": "b072aa17a8646886549ffbbd355f2589d23aae60497ae28292670173f2130c1e",
+    "size": 915010,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1643148153208,
+    "version": "2.9.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/elsi-2.9.0-mpi_openmpi_h11bec1d_0.tar.bz2/elsi-2.9.0-mpi_openmpi_h11bec1d_0.tar.bz2"
+}
