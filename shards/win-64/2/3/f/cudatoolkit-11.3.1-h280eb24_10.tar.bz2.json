@@ -21,42 +21,40 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "CUDA Toolkit - Including CUDA runtime",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1643163019,
-    "version": "11.2.2"
+    "timestamp": 1643165127,
+    "version": "11.3.1"
   },
   "channeldata_version": 1,
   "feedstock": "cudatoolkit-feedstock",
   "labels": [
     "main"
   ],
-  "package": "cudatoolkit-11.2.2-he111cf0_10.tar.bz2",
+  "package": "cudatoolkit-11.3.1-h280eb24_10.tar.bz2",
   "repodata": {
-    "build": "he111cf0_10",
+    "build": "h280eb24_10",
     "build_number": 10,
     "constrains": [
       "__cuda >=11"
     ],
     "depends": [
-      "__glibc >=2.17,<3.0.a0",
-      "libgcc-ng >=9.4.0",
-      "libstdcxx-ng >=9.4.0"
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
     ],
     "license": "LicenseRef-NVIDIA-End-User-License-Agreement",
-    "md5": "541db34581adeae2fbc766db7f6c7654",
+    "md5": "8dfd454f5c3bc03f7e06e2aa4ef5d814",
     "name": "cudatoolkit",
-    "sha256": "463418be2600d2883f0a0417a4c2fffd70c1686d10e3094967a13007f6a8749d",
-    "size": 919953519,
-    "subdir": "linux-64",
-    "timestamp": 1643163019523,
-    "version": "11.2.2"
+    "sha256": "2a68442e4ae9e0131aa86b30b2303c983386f88718772f643a5cf497d3595468",
+    "size": 860652424,
+    "subdir": "win-64",
+    "timestamp": 1643165127784,
+    "version": "11.3.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "undistributable_hash": "f123ce",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cudatoolkit-11.2.2-he111cf0_10.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/cf-staging/win-64/cudatoolkit-11.3.1-h280eb24_10.tar.bz2"
 }
