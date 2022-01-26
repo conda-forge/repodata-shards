@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "HackRF One from Great Scott Gadgets is a Software Defined Radio peripheral capable of transmission or reception of radio signals from 1 MHz to 6 GHz. Designed to enable test and development of modern and next generation radio technologies, HackRF One is an open source hardware platform that can be used as a USB peripheral or programmed for stand-alone operation. The `libhackrf0` package contains the library for HackRF devices, the `libhackrf` contains the development files for compiling against the HackRF library, and the `hackrf` package contains command line tools for using the devices. For Linux users of `hackrf`, you will likely want to link the provided udev rule into your system installation in order for the hardware to have the correct permissions:      sudo ln -s $CONDA_PREFIX/lib/udev/rules.d/53-hackrf.rules /etc/udev/rules.d/     sudo udevadm control --reload     sudo udevadm trigger  Then, make sure your user account belongs to the plugdev group in order to be able to access your device:      sudo usermod -a -G plugdev <user>  You may have to restart for this change to take effect.",
+    "dev_url": "https://github.com/greatscottgadgets/hackrf",
+    "doc_source_url": null,
+    "doc_url": "https://hackrf.readthedocs.io/en/latest/",
+    "home": "https://greatscottgadgets.com/hackrf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2021.03.1": {
+        "weak": [
+          "libhackrf0 >=2021.3.1"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/greatscottgadgets/hackrf/releases/download/v2021.03.1/hackrf-2021.03.1.tar.xz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Host software for HackRF, a low cost, open source software radio platform.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1643222234,
+    "version": "2021.03.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "hackrf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libhackrf-2021.03.1-h8ffe710_0.tar.bz2",
+  "repodata": {
+    "build": "h8ffe710_0",
+    "build_number": 0,
+    "depends": [
+      "libhackrf0 2021.03.1 h8ffe710_0",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "40fa382b6fbbf96179721874bbabb19f",
+    "name": "libhackrf",
+    "sha256": "f01419683bd5906430d7809572f996e92ffe19bfa97360e1a675c433696a4087",
+    "size": 19774,
+    "subdir": "win-64",
+    "timestamp": 1643222234656,
+    "version": "2021.03.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/libhackrf-2021.03.1-h8ffe710_0.tar.bz2/libhackrf-2021.03.1-h8ffe710_0.tar.bz2"
+}
