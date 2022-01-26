@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package provides GPS time conversion utilities, including a gpstime subclass of the built-in datetime class with the addition of GPS time parsing and conversion methods.  Leap second data, necessary for GPS time conversion, is expected to be provided by the core libc Time Zone Database tzdata.  If for some reason the tzdata leapsecond file is not available, a local cache of the IETF leap second record will be maintained:    https://www.ietf.org/timezones/data/leap-seconds.list  The package can be executed as a command-line GPS conversion utility. that uses the gpstime module is also included.  It is a rough work-alike to LIGO 'tconvert' utility.",
+    "dev_url": "https://git.ligo.org/cds/gpstime",
+    "doc_source_url": null,
+    "doc_url": "https://cds.docs.ligo.org/gpstime/",
+    "home": "https://git.ligo.org/cds/gpstime",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://git.ligo.org/cds/gpstime/-/archive/0.5.4/gpstime-0.5.4.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "GPS-aware datetime module",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1643157724,
+    "version": "0.5.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gpstime-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gpstime-0.5.4-py310hff52083_0.tar.bz2",
+  "repodata": {
+    "build": "py310hff52083_0",
+    "build_number": 0,
+    "depends": [
+      "coreutils",
+      "python >=3.10,<3.11.0a0",
+      "python-dateutil",
+      "python_abi 3.10.* *_cp310",
+      "requests"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "5614772604dc2d20f2d66146d32f1465",
+    "name": "gpstime",
+    "sha256": "0154b3e88e287d48614bf8506b9cd73070d58e5e539a3f171399001eae1ac029",
+    "size": 34618,
+    "subdir": "linux-64",
+    "timestamp": 1643157724112,
+    "version": "0.5.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gpstime-0.5.4-py310hff52083_0.tar.bz2/gpstime-0.5.4-py310hff52083_0.tar.bz2"
+}
