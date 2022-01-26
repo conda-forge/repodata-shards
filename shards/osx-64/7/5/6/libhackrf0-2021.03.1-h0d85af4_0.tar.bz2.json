@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "HackRF One from Great Scott Gadgets is a Software Defined Radio peripheral capable of transmission or reception of radio signals from 1 MHz to 6 GHz. Designed to enable test and development of modern and next generation radio technologies, HackRF One is an open source hardware platform that can be used as a USB peripheral or programmed for stand-alone operation. The `libhackrf0` package contains the library for HackRF devices, the `libhackrf` contains the development files for compiling against the HackRF library, and the `hackrf` package contains command line tools for using the devices. For Linux users of `hackrf`, you will likely want to link the provided udev rule into your system installation in order for the hardware to have the correct permissions:      sudo ln -s $CONDA_PREFIX/lib/udev/rules.d/53-hackrf.rules /etc/udev/rules.d/     sudo udevadm control --reload     sudo udevadm trigger  Then, make sure your user account belongs to the plugdev group in order to be able to access your device:      sudo usermod -a -G plugdev <user>  You may have to restart for this change to take effect.",
+    "dev_url": "https://github.com/greatscottgadgets/hackrf",
+    "doc_source_url": null,
+    "doc_url": "https://hackrf.readthedocs.io/en/latest/",
+    "home": "https://greatscottgadgets.com/hackrf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/greatscottgadgets/hackrf/releases/download/v2021.03.1/hackrf-2021.03.1.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Host software for HackRF, a low cost, open source software radio platform.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1643221516,
+    "version": "2021.03.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "hackrf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libhackrf0-2021.03.1-h0d85af4_0.tar.bz2",
+  "repodata": {
+    "build": "h0d85af4_0",
+    "build_number": 0,
+    "depends": [
+      "libusb >=1.0.24,<2.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "a9b5ee562c587793dbb63d65cfe16adf",
+    "name": "libhackrf0",
+    "sha256": "226a5d6891d49debc690552003164031c5163e7c2ef0f14deea5620b34c92f03",
+    "size": 25008,
+    "subdir": "osx-64",
+    "timestamp": 1643221516872,
+    "version": "2021.03.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libhackrf0-2021.03.1-h0d85af4_0.tar.bz2/libhackrf0-2021.03.1-h0d85af4_0.tar.bz2"
+}
