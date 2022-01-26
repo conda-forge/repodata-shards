@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OmniSciDB is an in-memory, column store, SQL relational database that was designed from the ground up to run on GPUs.  This recipe provides the following packages:   omniscidb-commong   CUDA-enabled omniscidb, cpu and cuda builds   pyomniscdb   omniscidb embedding library, cpu and cuda builds   omniscidb-embedded Python extension module",
+    "dev_url": "https://github.com/omnisci/omniscidb",
+    "doc_source_url": null,
+    "doc_url": "https://www.omnisci.com/docs/latest/",
+    "home": "https://www.omnisci.com/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.10.1": {
+        "weak": [
+          "omniscidb-common >=5.10.1,<5.10.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/omnisci/omniscidb/archive/v5.10.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The OmniSci database",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1643196936,
+    "version": "5.10.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "omniscidb-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "omniscidb-common-5.10.1-h1234567_0.tar.bz2",
+  "repodata": {
+    "build": "h1234567_0",
+    "build_number": 0,
+    "depends": [
+      "arrow-cpp >=6.0.1,<6.0.2.0a0",
+      "libgcc-ng >=9.4.0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "260f840e955c16e0602b1c6722f19fd6",
+    "name": "omniscidb-common",
+    "sha256": "91c7c146381e7a8d866c23ad6d2834844922c2d5e78b5c873a0c7b5e7acbc571",
+    "size": 74360317,
+    "subdir": "linux-64",
+    "timestamp": 1643196936518,
+    "version": "5.10.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/omniscidb-common-5.10.1-h1234567_0.tar.bz2/omniscidb-common-5.10.1-h1234567_0.tar.bz2"
+}
