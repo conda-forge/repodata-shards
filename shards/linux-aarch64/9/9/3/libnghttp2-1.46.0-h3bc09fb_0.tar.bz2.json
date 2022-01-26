@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This is an implementation of the Hypertext Transfer Protocol version 2 in C.  The framing layer of HTTP/2 is implemented as a reusable C library. On top of that, we have implemented an HTTP/2 client, server and proxy. We have also developed load test and benchmarking tools for HTTP/2.",
+    "dev_url": "https://github.com/nghttp2/nghttp2",
+    "doc_source_url": null,
+    "doc_url": "https://nghttp2.org/documentation/",
+    "home": "http://github.com/nghttp2/nghttp2",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.46.0": {
+        "weak": [
+          "libnghttp2 >=1.46.0,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/nghttp2/nghttp2/releases/download/v1.46.0/nghttp2-1.46.0.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "This is an implementation of Hypertext Transfer Protocol version 2.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1643222039,
+    "version": "1.46.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nghttp2-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libnghttp2-1.46.0-h3bc09fb_0.tar.bz2",
+  "repodata": {
+    "build": "h3bc09fb_0",
+    "build_number": 0,
+    "depends": [
+      "c-ares >=1.18.1,<2.0a0",
+      "c-ares >=1.7.5",
+      "libev >=4.11",
+      "libev >=4.33,<4.34.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "openssl >=3.0.0,<4.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "51566bb3ff1204252f65120142df33c6",
+    "name": "libnghttp2",
+    "sha256": "07f296ea48ce175405d43ae76ac3a77b74d4268b728ea923ce2cf70bb757feb3",
+    "size": 970212,
+    "subdir": "linux-aarch64",
+    "timestamp": 1643222039183,
+    "version": "1.46.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libnghttp2-1.46.0-h3bc09fb_0.tar.bz2/libnghttp2-1.46.0-h3bc09fb_0.tar.bz2"
+}
