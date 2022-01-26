@@ -26,37 +26,38 @@
     "summary": "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1641655245,
-    "version": "1.10.0"
+    "timestamp": 1643100301,
+    "version": "1.10.1"
   },
   "channeldata_version": 1,
   "feedstock": null,
   "labels": [
     "main"
   ],
-  "package": "pytorch-1.10.0-cuda102py37h689c94d_1.tar.bz2",
+  "package": "pytorch-1.10.1-cuda112py37hc1ee5ce_0.tar.bz2",
   "repodata": {
-    "build": "cuda102py37h689c94d_1",
-    "build_number": 1,
+    "build": "cuda112py37hc1ee5ce_0",
+    "build_number": 0,
     "constrains": [
-      "pytorch-cpu = 99999999",
-      "pytorch-gpu = 1.10.0"
+      "pytorch-gpu = 1.10.1",
+      "pytorch-cpu = 99999999"
     ],
     "depends": [
+      "__glibc >=2.17",
       "__glibc >=2.17,<3.0.a0",
       "_openmp_mutex >=4.5",
       "cffi",
-      "cudatoolkit 10.2|10.2.*",
-      "cudnn >=7.6.5.32,<8.0a0",
+      "cudatoolkit >=11.2,<12",
+      "cudnn >=8.2.1.32,<9.0a0",
       "future",
       "libblas * *_mkl",
       "libblas >=3.9.0,<4.0a0",
-      "libgcc-ng >=7.5.0",
-      "libprotobuf >=3.19.2,<3.20.0a0",
-      "libstdcxx-ng >=7.5.0",
+      "libgcc-ng >=9.4.0",
+      "libprotobuf >=3.19.3,<3.20.0a0",
+      "libstdcxx-ng >=9.4.0",
       "magma >=2.5.4,<2.5.5.0a0",
-      "mkl 2021.*",
-      "mkl >=2021.4.0,<2022.0a0",
+      "mkl 2022.*",
+      "mkl >=2022.0.1,<2023.0a0",
       "nccl >=2.11.4.1,<3.0a0",
       "ninja",
       "numpy >=1.18.5,<2.0a0",
@@ -68,15 +69,15 @@
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "c63cae95ccf799ccae53cdfb5c40783d",
+    "md5": "59316acbb971dfd36a3ec658427fb9d1",
     "name": "pytorch",
-    "sha256": "64ca0da883abc6100801f216f8fdd38ee949fdda8f173d5d23aa7619d1c8ec90",
-    "size": 544168163,
+    "sha256": "a8eb48eda1c6b0fddfc0a16ac5a7f3a032faba8d5612295fdedb64a3a40c38bb",
+    "size": 667182620,
     "subdir": "linux-64",
-    "timestamp": 1641655245488,
-    "version": "1.10.0"
+    "timestamp": 1643100301783,
+    "version": "1.10.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pytorch-1.10.0-cuda102py37h689c94d_1.tar.bz2/pytorch-1.10.0-cuda102py37h689c94d_1.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytorch-1.10.1-cuda112py37hc1ee5ce_0.tar.bz2"
 }
