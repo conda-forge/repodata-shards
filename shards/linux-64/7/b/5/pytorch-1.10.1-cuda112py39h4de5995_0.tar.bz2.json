@@ -26,7 +26,7 @@
     "summary": "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1643131018,
+    "timestamp": 1643092859,
     "version": "1.10.1"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "pytorch-1.10.1-cuda110py38hf0a79ac_0.tar.bz2",
+  "package": "pytorch-1.10.1-cuda112py39h4de5995_0.tar.bz2",
   "repodata": {
-    "build": "cuda110py38hf0a79ac_0",
+    "build": "cuda112py39h4de5995_0",
     "build_number": 0,
     "constrains": [
       "pytorch-gpu = 1.10.1",
@@ -47,7 +47,7 @@
       "__glibc >=2.17,<3.0.a0",
       "_openmp_mutex >=4.5",
       "cffi",
-      "cudatoolkit 11.0|11.0.*",
+      "cudatoolkit >=11.2,<12",
       "cudnn >=8.2.1.32,<9.0a0",
       "future",
       "libblas * *_mkl",
@@ -60,24 +60,24 @@
       "mkl >=2022.0.1,<2023.0a0",
       "nccl >=2.11.4.1,<3.0a0",
       "ninja",
-      "numpy >=1.18.5,<2.0a0",
-      "python >=3.8,<3.9.0a0",
-      "python_abi 3.8.* *_cp38",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "setuptools",
       "sleef >=3.5.1,<4.0a0",
       "typing_extensions"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "b537f977b4bb3fee07e41061ae978cc9",
+    "md5": "1da33f41a383924297cf7bb43c20e800",
     "name": "pytorch",
-    "sha256": "ad5aa7e6da8886940a567dd2662ab3fed4311508c585f0141829f82aee6eda64",
-    "size": 618537435,
+    "sha256": "c74cf341433509c0bf00eeb254221e6644477831fb6f21d176c6902101ffa3a9",
+    "size": 668026132,
     "subdir": "linux-64",
-    "timestamp": 1643131018073,
+    "timestamp": 1643092859277,
     "version": "1.10.1"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pytorch-1.10.1-cuda110py38hf0a79ac_0.tar.bz2/pytorch-1.10.1-cuda110py38hf0a79ac_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytorch-1.10.1-cuda112py39h4de5995_0.tar.bz2"
 }
