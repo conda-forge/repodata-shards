@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "lintegrate provides Python functions for numerical integration of functions in log-space. This is useful for functions that have a very large dynamic range, or intrinsically would include very large or small numbers, and therefore it is more practical to work with the natural logarithm of the function. In these cases it is useful to also stay within log-space when integrating the function, which is what this package enables.  The functions provided by lintegrate are equivalent to, and based on, several numerical integration routines provided within the GNU Scientific Library (GSL).",
+    "dev_url": "https://github.com/mattpitkin/lintegrate.git",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/mattpitkin/lintegrate",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/l/lintegrate/lintegrate-0.1.11.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python functions implementing numerical integration of functions in log-space.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1643383232,
+    "version": "0.1.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lintegrate-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "lintegrate-0.1.11-py37h4b91f09_0.tar.bz2",
+  "repodata": {
+    "build": "py37h4b91f09_0",
+    "build_number": 0,
+    "depends": [
+      "gsl >=2.7,<2.8.0a0",
+      "libgcc-ng >=9.4.0",
+      "numpy >=1.19.5,<2.0a0",
+      "pypy3.7 >=7.3.7",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7 *_pypy37_pp73"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "52d6de3fda6e363bfeeb6a3edec38eb7",
+    "name": "lintegrate",
+    "sha256": "4662ced40a751a33f8badd78804d624b22bea58b6b2f7690d8d684e8cc7d9c8a",
+    "size": 112603,
+    "subdir": "linux-64",
+    "timestamp": 1643383232159,
+    "version": "0.1.11"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/lintegrate-0.1.11-py37h4b91f09_0.tar.bz2/lintegrate-0.1.11-py37h4b91f09_0.tar.bz2"
+}
