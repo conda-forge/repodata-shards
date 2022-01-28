@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/RevolutionAnalytics/checkpoint",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/checkpoint/checkpoint_1.0.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/checkpoint_1.0.2.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "The goal of checkpoint is to solve the problem of package reproducibility in R. Specifically, checkpoint allows you to install packages as they existed on CRAN on a specific snapshot date as if you had a CRAN time machine. To achieve reproducibility, the checkpoint() function installs the packages required or called by your project and scripts to a local library exactly as they existed at the specified point in time. Only those packages are available to your project, thereby avoiding any package updates that came later and may have altered your results. In this way, anyone using checkpoint's checkpoint() can ensure the reproducibility of your scripts or projects at any time. To create the snapshot archives, once a day (at midnight UTC) Microsoft refreshes the Austria CRAN mirror on the \"Microsoft R Archived Network\" server (<https://mran.microsoft.com/>). Immediately after completion of the rsync mirror process, the process takes a snapshot, thus creating the archive. Snapshot archives exist starting from 2014-09-17.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1643404492,
+    "version": "1.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-checkpoint-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-checkpoint-1.0.2-r40hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-jsonlite",
+      "r-pkgdepends",
+      "r-withr",
+      "r-yaml"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "521dc66723f033e689ab5504fed55452",
+    "name": "r-checkpoint",
+    "noarch": "generic",
+    "sha256": "c77d1d9157a3dc705d5120fbfb3537269351c0b9edfa984ac48a46fe0ed4b1e8",
+    "size": 140045,
+    "subdir": "noarch",
+    "timestamp": 1643404492158,
+    "version": "1.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-checkpoint-1.0.2-r40hc72bb7e_0.tar.bz2/r-checkpoint-1.0.2-r40hc72bb7e_0.tar.bz2"
+}
