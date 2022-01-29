@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/NVIDIA/cuQuantum/archive/refs/tags/v0.1.0.0.tar.gz",
     "subdirs": [
-      "linux-64"
+      "linux-aarch64"
     ],
     "summary": "cuQuantum Python: Python APIs for NVIDIA cuQuantum SDK",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1643465716,
+    "timestamp": 1643467373,
     "version": "0.1.0.0"
   },
   "channeldata_version": 1,
@@ -34,16 +34,15 @@
   "labels": [
     "main"
   ],
-  "package": "cuquantum-python-0.1.0.0-py310h013f86e_3.tar.bz2",
+  "package": "cuquantum-python-0.1.0.0-py38hf66a1ca_3.tar.bz2",
   "repodata": {
-    "build": "py310h013f86e_3",
+    "build": "py38hf66a1ca_3",
     "build_number": 3,
     "constrains": [
       "pytorch >=1.10"
     ],
     "depends": [
       "__glibc >=2.17",
-      "__glibc >=2.17,<3.0.a0",
       "cudatoolkit >=11.2,<12",
       "cupy >=9.5",
       "cuquantum 0.1.0.*",
@@ -51,20 +50,20 @@
       "libgcc-ng >=9.4.0",
       "libstdcxx-ng >=9.4.0",
       "numpy >=1.17",
-      "python >=3.10,<3.11.0a0",
-      "python_abi 3.10.* *_cp310"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "BSD-3-Clause",
-    "md5": "f5c9812675cce8b21384d9797c9cdb19",
+    "md5": "a8c68c57b7dd5b5174e72e523f835557",
     "name": "cuquantum-python",
-    "sha256": "8b9ab91bcfdd59f9b5958ace6624b8611b381398965ee7a24562c40f713a8f7a",
-    "size": 214390,
-    "subdir": "linux-64",
-    "timestamp": 1643465716639,
+    "sha256": "d8b39c6718ecc40c69e923c243ee127664d1afb4b187e94cbf1c22f1d072a056",
+    "size": 200280,
+    "subdir": "linux-aarch64",
+    "timestamp": 1643467373629,
     "version": "0.1.0.0"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
+  "subdir": "linux-aarch64",
   "undistributable_hash": "f123ce",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cuquantum-python-0.1.0.0-py310h013f86e_3.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/cuquantum-python-0.1.0.0-py38hf66a1ca_3.tar.bz2"
 }
