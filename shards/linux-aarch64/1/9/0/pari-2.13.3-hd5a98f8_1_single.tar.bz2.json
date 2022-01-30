@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "http://pari.math.u-bordeaux.fr/cgi-bin/gitweb.cgi",
+    "doc_source_url": null,
+    "doc_url": "http://pari.math.u-bordeaux.fr/dochtml/html-stable/",
+    "home": "http://pari.math.u-bordeaux.fr",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.13.3": {
+        "weak": [
+          "pari >=2.13.3,<2.14.0a0",
+          "pari * *_single"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": [
+      "http://pari.math.u-bordeaux.fr/pub/pari/OLD/2.13/pari-2.13.3.tar.gz",
+      "http://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.13.3.tar.gz"
+    ],
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "PARI/GP is a widely used computer algebra system designed for fast computations in number theory",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1643580862,
+    "version": "2.13.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pari-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pari-2.13.3-hd5a98f8_1_single.tar.bz2",
+  "repodata": {
+    "build": "hd5a98f8_1_single",
+    "build_number": 1,
+    "depends": [
+      "gmp >=6.2.1,<7.0a0",
+      "libgcc-ng >=9.4.0",
+      "openssl >=1.1.1l,<1.1.2a",
+      "pari-galdata",
+      "pari-seadata-small",
+      "perl 5.*",
+      "readline >=8.1,<9.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "727c5566dfb44797db56d024c5dfec7a",
+    "name": "pari",
+    "sha256": "65d92fd8f7c0eb3aafba022944f72a683bf4ca411940d86e8cf7f64bc0c4a274",
+    "size": 51531023,
+    "subdir": "linux-aarch64",
+    "timestamp": 1643580862896,
+    "version": "2.13.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/pari-2.13.3-hd5a98f8_1_single.tar.bz2/pari-2.13.3-hd5a98f8_1_single.tar.bz2"
+}
