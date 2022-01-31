@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://libmbd.github.io",
+    "home": "https://github.com/libmbd/libmbd",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.12.5": {
+        "weak": [
+          "libmbd * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/libmbd/libmbd/releases/download/0.12.5/libmbd-0.12.5.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Many-body dispersion library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1643625842,
+    "version": "0.12.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libmbd-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmbd-0.12.5-mpi_openmpi_hc35d2c3_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_hc35d2c3_1",
+    "build_number": 1,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "elsi >=2.9.0,<2.10.0a0 mpi_openmpi_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "openmpi >=4.1.2,<5.0a0",
+      "scalapack"
+    ],
+    "license": "MPL-2.0",
+    "md5": "6352b85fc96ba07185f0405c3250d96a",
+    "name": "libmbd",
+    "sha256": "883aa5f9a158a74a219340169dfeaff901a69f6c6069dd698549608328c48995",
+    "size": 848507,
+    "subdir": "linux-aarch64",
+    "timestamp": 1643625842917,
+    "version": "0.12.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libmbd-0.12.5-mpi_openmpi_hc35d2c3_1.tar.bz2/libmbd-0.12.5-mpi_openmpi_hc35d2c3_1.tar.bz2"
+}
