@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "`pip2conda` is a tool to translate `pip`-style requirements into `conda` requirements.  `pip2conda` parses build requirements from ``pyproject.toml`` files, then runtime and extra requirements from ``setup.cfg``, including unpackging extras and evaluating environment markers, before matching translating each requirement into a conda-forge requirement suitable for installation with `conda/mamba`.",
+    "dev_url": "https://github.com/duncanmmacleod/pip2conda.git",
+    "doc_source_url": null,
+    "doc_url": "https://pip2conda.readthedocs.io/",
+    "home": "https://github.com/duncanmmacleod/pip2conda/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pip2conda/pip2conda-0.1.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Translate pip requirements into conda requirements",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1643760955,
+    "version": "0.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pip2conda-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pip2conda-0.1.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "grayskull >=1.0.0",
+      "python >=3.7",
+      "requests",
+      "setuptools",
+      "tomli"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "58a8811cc88f871f292ee8687513a2c3",
+    "name": "pip2conda",
+    "noarch": "python",
+    "sha256": "f86b9f8e7692b62984263ed4826751750eb20e5ab1f4a4f66b12ff62d229834c",
+    "size": 26812,
+    "subdir": "noarch",
+    "timestamp": 1643760955289,
+    "version": "0.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/pip2conda-0.1.0-pyhd8ed1ab_0.tar.bz2/pip2conda-0.1.0-pyhd8ed1ab_0.tar.bz2"
+}
