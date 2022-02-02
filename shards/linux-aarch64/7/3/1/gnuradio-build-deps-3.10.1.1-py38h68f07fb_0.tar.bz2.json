@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Install this meta-package into an environment with `gnuradio` or `gnuradio-core` in order to be able to build out-of-tree modules manually. DO NOT USE THIS IN CONDA RECIPES.",
+    "dev_url": "https://github.com/gnuradio/gnuradio",
+    "doc_source_url": null,
+    "doc_url": "https://gnuradio.org/doc/doxygen/",
+    "home": "https://gnuradio.org/",
+    "icon_hash": "md5:4d0abfd9f53d2b1bada8a24578229831:9762",
+    "icon_url": "icons/gnuradio-build-deps.png",
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.10.1.1.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "GNU Radio Companion",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1643792958,
+    "version": "3.10.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gnuradio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gnuradio-build-deps-3.10.1.1-py38h68f07fb_0.tar.bz2",
+  "repodata": {
+    "app_entry": "gnuradio-companion",
+    "build": "py38h68f07fb_0",
+    "build_number": 0,
+    "constrains": [
+      "gnuradio-core 3.10.1.1 py38h68f07fb_0"
+    ],
+    "depends": [
+      "cmake",
+      "gcc_linux-aarch64 9.*",
+      "gxx_linux-aarch64 9.*",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "ninja",
+      "numpy 1.18.*",
+      "pkg-config",
+      "pybind11",
+      "spdlog"
+    ],
+    "icon": "4d0abfd9f53d2b1bada8a24578229831.png",
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "497d1a62958e363d55578a9c9af7ac65",
+    "name": "gnuradio-build-deps",
+    "sha256": "c8dc0b5da7db1fb32db1e1c4d8acabc5553036bfbca8e0fb7373ec16e5a45995",
+    "size": 57350,
+    "subdir": "linux-aarch64",
+    "summary": "GNU Radio Companion",
+    "timestamp": 1643792958981,
+    "type": "app",
+    "version": "3.10.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/gnuradio-build-deps-3.10.1.1-py38h68f07fb_0.tar.bz2/gnuradio-build-deps-3.10.1.1-py38h68f07fb_0.tar.bz2"
+}
