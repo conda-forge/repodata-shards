@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Unicorn is a lightweight, multi-platform, multi-architecture CPU emulator framework based on [QEMU](http://qemu.org).  Unicorn offers some unparalleled features:  - Multi-architecture: ARM, ARM64 (ARMv8), M68K, MIPS, SPARC, and X86 (16, 32, 64-bit) - Clean/simple/lightweight/intuitive architecture-neutral API - Implemented in pure C language, with bindings for Crystal, Clojure, Visual Basic, Perl,   Rust, Ruby, Python, Java, .NET, Go, Delphi/Free Pascal, Haskell, Pharo, and Lua. - Native support for Windows & *nix (with Mac OSX, Linux, *BSD & Solaris confirmed) - High performance via Just-In-Time compilation - Support for fine-grained instrumentation at various levels - Thread-safety by design - Distributed under free software license GPLv2",
+    "dev_url": "https://github.com/unicorn-engine/unicorn",
+    "doc_source_url": null,
+    "doc_url": "https://www.unicorn-engine.org/docs/",
+    "home": "https://www.unicorn-engine.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-only AND GPL-2.0-only AND GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.0.3": {
+        "weak": [
+          "unicorn >=1.0.3,<1.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/unicorn-engine/unicorn/archive/1.0.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, X86)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1643886196,
+    "version": "1.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "unicorn-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "unicorn-1.0.3-h7f98852_1.tar.bz2",
+  "repodata": {
+    "build": "h7f98852_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=9.4.0"
+    ],
+    "license": "LGPL-2.0-only AND GPL-2.0-only AND GPL-2.0-or-later",
+    "md5": "95739dd9dfd3ffb3b99ce7aafd8f3da7",
+    "name": "unicorn",
+    "sha256": "ca36f8300ee56eeaa8e2235a0f7ca2cefbf4484dfafd2d22555155321194307b",
+    "size": 2862127,
+    "subdir": "linux-64",
+    "timestamp": 1643886196267,
+    "version": "1.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/unicorn-1.0.3-h7f98852_1.tar.bz2/unicorn-1.0.3-h7f98852_1.tar.bz2"
+}
