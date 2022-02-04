@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Numba is an Open Source NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the remarkable LLVM compiler infrastructure to compile Python syntax to machine code.\"",
+    "dev_url": "https://github.com/numba/numba",
+    "doc_source_url": null,
+    "doc_url": "http://numba.pydata.org/",
+    "home": "http://numba.pydata.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/numba/numba/archive/0.55.1.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "NumPy aware dynamic Python compiler using LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644005038,
+    "version": "0.55.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "numba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "numba-0.55.1-py39hb8cd55e_0.tar.bz2",
+  "repodata": {
+    "build": "py39hb8cd55e_0",
+    "build_number": 0,
+    "constrains": [
+      "scipy >=1.0",
+      "numpy >=1.18,<1.22",
+      "libopenblas !=0.3.6",
+      "cudatoolkit >=9.2",
+      "tbb  >=2021.0"
+    ],
+    "depends": [
+      "llvmlite >=0.38.0,<0.39.0a0",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "setuptools",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "897a1efad2a22204730a735aa5da1428",
+    "name": "numba",
+    "sha256": "323a0f2bdc6d24b2bbc597eac6da725e96a21f228b6653289b099c89ad23937b",
+    "size": 3995086,
+    "subdir": "win-64",
+    "timestamp": 1644005038843,
+    "version": "0.55.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/numba-0.55.1-py39hb8cd55e_0.tar.bz2/numba-0.55.1-py39hb8cd55e_0.tar.bz2"
+}
