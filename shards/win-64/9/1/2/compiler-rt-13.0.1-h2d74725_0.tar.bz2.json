@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.1/compiler-rt-13.0.1.src.tar.xz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644125935,
+    "version": "13.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compiler-rt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compiler-rt-13.0.1-h2d74725_0.tar.bz2",
+  "repodata": {
+    "build": "h2d74725_0",
+    "build_number": 0,
+    "depends": [
+      "clang 13.0.1.*",
+      "clangxx 13.0.1.*",
+      "compiler-rt_win-64 13.0.1.*",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "NCSA",
+    "md5": "51c1ed9710a63769c9037c37b9bdc556",
+    "name": "compiler-rt",
+    "sha256": "43ebd133cf23023388e7d7fd0e5ccd88ca1d16b4051b7b49b47b81bc0a4592d5",
+    "size": 6815290,
+    "subdir": "win-64",
+    "timestamp": 1644125935926,
+    "version": "13.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/compiler-rt-13.0.1-h2d74725_0.tar.bz2/compiler-rt-13.0.1-h2d74725_0.tar.bz2"
+}
