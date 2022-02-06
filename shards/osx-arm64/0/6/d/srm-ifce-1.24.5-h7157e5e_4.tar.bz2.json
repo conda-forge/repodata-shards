@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "srm-ifce is a client side implementation of the [SRMv2 specification](https://sdm.lbl.gov/srm-wg/doc/SRM.v2.2.html) for GFAL and FTS. SRM means Storage Resource Manager Interface, it is a specification of a SOAP interface providing a generic way to manage distributed storage systems.",
+    "dev_url": "https://gitlab.cern.ch/dmc/srm-ifce",
+    "doc_source_url": null,
+    "doc_url": "https://dmc-docs.web.cern.ch/dmc-docs/srm-ifce.html",
+    "home": "https://dmc.web.cern.ch/projects-tags/srm-ifce",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.24.5": {
+        "weak": [
+          "srm-ifce"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gitlab.cern.ch/dmc/srm-ifce/-/archive/v1.24.5/srm-ifce-v1.24.5.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Storage Resource Manager Interface",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1644161895,
+    "version": "1.24.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "srm-ifce-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "srm-ifce-1.24.5-h7157e5e_4.tar.bz2",
+  "repodata": {
+    "build": "h7157e5e_4",
+    "build_number": 4,
+    "depends": [
+      "gct >=6.2.1629922860,<6.2.1629922861.0a0",
+      "gsoap >=2.8.119,<2.8.120.0a0",
+      "libcxx >=11.1.0",
+      "libglib >=2.70.2,<3.0a0",
+      "openssl >=1.1.1l,<1.1.2a"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "1201d3ecc625ad9b017fb4cc12057130",
+    "name": "srm-ifce",
+    "sha256": "828127deb6127f844adebbca6b7bfdbaa799ebfee5dac41b7fc21252add36215",
+    "size": 237647,
+    "subdir": "osx-arm64",
+    "timestamp": 1644161895955,
+    "version": "1.24.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/srm-ifce-1.24.5-h7157e5e_4.tar.bz2/srm-ifce-1.24.5-h7157e5e_4.tar.bz2"
+}
