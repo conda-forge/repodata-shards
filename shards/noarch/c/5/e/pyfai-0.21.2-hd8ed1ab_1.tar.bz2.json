@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "pyFAI is an azimuthal integration library that tries to be fast (as fast as C and even more using OpenCL and GPU). It is based on histogramming of the 2theta/Q positions of each (center of) pixel weighted by the intensity of each pixel, but parallel version uses a SparseMatrix-DenseVector multiplication. Neighboring output bins get also a contribution of pixels next to the border thanks to pixel splitting. Finally pyFAI provides also tools to calibrate the experimental setup using Debye-Scherrer rings of a reference compound.",
+    "dev_url": "https://github.com/silx-kit/pyFAI/",
+    "doc_source_url": null,
+    "doc_url": "http://www.silx.org/doc/pyFAI/latest/",
+    "home": "https://github.com/silx-kit/pyFAI/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pyFAI/pyFAI-0.21.2.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Python implementation of fast azimuthal integration",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644176538,
+    "version": "0.21.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyfai-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyfai-0.21.2-hd8ed1ab_1.tar.bz2",
+  "repodata": {
+    "build": "hd8ed1ab_1",
+    "build_number": 1,
+    "depends": [
+      "hdf5plugin",
+      "matplotlib",
+      "pyfai-base >=0.21.2,<0.21.3.0a0",
+      "silx"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "f8db27c5459e6d31dbd8efa08b1aafbe",
+    "name": "pyfai",
+    "noarch": "generic",
+    "sha256": "096a340b8bf6111d22cdf6a13b85bf01a0977c320afa0700de68a05eef422cb4",
+    "size": 6557,
+    "subdir": "noarch",
+    "timestamp": 1644176538368,
+    "version": "0.21.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/pyfai-0.21.2-hd8ed1ab_1.tar.bz2/pyfai-0.21.2-hd8ed1ab_1.tar.bz2"
+}
