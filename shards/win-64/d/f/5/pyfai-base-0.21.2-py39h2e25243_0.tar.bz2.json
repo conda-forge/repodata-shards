@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "pyFAI is an azimuthal integration library that tries to be fast (as fast as C and even more using OpenCL and GPU). It is based on histogramming of the 2theta/Q positions of each (center of) pixel weighted by the intensity of each pixel, but parallel version uses a SparseMatrix-DenseVector multiplication. Neighboring output bins get also a contribution of pixels next to the border thanks to pixel splitting. Finally pyFAI provides also tools to calibrate the experimental setup using Debye-Scherrer rings of a reference compound.",
+    "dev_url": "https://github.com/silx-kit/pyFAI/",
+    "doc_source_url": null,
+    "doc_url": "http://www.silx.org/doc/pyFAI/latest/",
+    "home": "https://github.com/silx-kit/pyFAI/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pyFAI/pyFAI-0.21.2.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Python implementation of fast azimuthal integration",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644165301,
+    "version": "0.21.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyfai-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyfai-base-0.21.2-py39h2e25243_0.tar.bz2",
+  "repodata": {
+    "build": "py39h2e25243_0",
+    "build_number": 0,
+    "depends": [
+      "fabio",
+      "h5py",
+      "matplotlib-base",
+      "numexpr",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "scipy",
+      "setuptools",
+      "silx-base",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "bb839c447d6eb3b37f085208e25e330c",
+    "name": "pyfai-base",
+    "sha256": "fc34b85b3d7fba62abce43bb13f33c26ec8f025868dc496a11dcc4049a81deda",
+    "size": 3843536,
+    "subdir": "win-64",
+    "timestamp": 1644165301327,
+    "version": "0.21.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/pyfai-base-0.21.2-py39h2e25243_0.tar.bz2/pyfai-base-0.21.2-py39h2e25243_0.tar.bz2"
+}
