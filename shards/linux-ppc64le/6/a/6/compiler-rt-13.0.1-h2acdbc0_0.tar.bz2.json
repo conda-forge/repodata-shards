@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.1/compiler-rt-13.0.1.src.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644128039,
+    "version": "13.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compiler-rt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compiler-rt-13.0.1-h2acdbc0_0.tar.bz2",
+  "repodata": {
+    "build": "h2acdbc0_0",
+    "build_number": 0,
+    "depends": [
+      "clang 13.0.1.*",
+      "clangxx 13.0.1.*",
+      "compiler-rt_linux-ppc64le 13.0.1.*",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "NCSA",
+    "md5": "1bce5ce605e2c819757020770f04b931",
+    "name": "compiler-rt",
+    "sha256": "4bb0eeace5720de976b2e2904c5aea177c9f886439abe9bb8e6f0bf294208b38",
+    "size": 83273,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1644128039523,
+    "version": "13.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/compiler-rt-13.0.1-h2acdbc0_0.tar.bz2/compiler-rt-13.0.1-h2acdbc0_0.tar.bz2"
+}
