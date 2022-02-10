@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Beartype is an open-source pure-Python runtime type checker emphasizing efficiency, portability, and thrilling puns. Unlike comparable static type checkers operating at the coarse-grained application level (e.g., Pyre, mypy, pyright, pytype), beartype operates exclusively at the fine-grained callable level of pure-Python functions and methods via the standard decorator design pattern. This renders beartype natively compatible with all interpreters and compilers targeting the Python language \u2013 including CPython, PyPy, and Numba. Unlike comparable runtime type checkers (e.g., pytypes, typeguard), beartype wraps each decorated callable with a dynamically generated wrapper efficiently type-checking that specific callable. Since \"performance by default\" is our first-class concern, all wrappers are guaranteed to exhibit O(1) time complexity with negligible constant factors and be either more efficient (in the common case) or exactly as efficient minus the cost of an additional stack frame (in the worst case) as equivalent type-checking implemented by hand. Beartype thus brings Rust- and C++-inspired zero-cost abstractions into the deliciously lawless world of pure Python.",
+    "dev_url": "https://github.com/beartype/beartype",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/beartype/beartype/blob/main/README.rst",
+    "home": "https://github.com/beartype/beartype",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.org/packages/source/b/beartype/beartype-0.10.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Unbearably fast runtime type checking in pure Python.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644498519,
+    "version": "0.10.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "beartype-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "beartype-0.10.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "python >=3.6"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "e93408469fed49b1cd35c5e8b2d8b446",
+    "name": "beartype",
+    "noarch": "python",
+    "sha256": "82bcf69528b245310d7d3bcf0833f0abffc676046ec4f0ffa6468cff7a72ee1c",
+    "size": 495838,
+    "subdir": "noarch",
+    "timestamp": 1644498519148,
+    "version": "0.10.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/beartype-0.10.0-pyhd8ed1ab_0.tar.bz2/beartype-0.10.0-pyhd8ed1ab_0.tar.bz2"
+}
