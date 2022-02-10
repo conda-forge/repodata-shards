@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "AppArmor protects systems from insecure or untrusted processes by running them in restricted confinement, while still allowing processes to share files, exercise privilege and communicate with other processes. AppArmor is a Mandatory Access Control (MAC) mechanism which uses the Linux Security Module (LSM) framework. The confinement's restrictions are mandatory and are not bound to identity, group membership, or object ownership. The protections provided are in addition to the kernel's regular access control mechanisms (including DAC) and can be used to restrict the superuser.",
+    "dev_url": "https://gitlab.com/apparmor",
+    "doc_source_url": null,
+    "doc_url": "https://gitlab.com/apparmor/apparmor/-/wikis/Documentation",
+    "home": "https://apparmor.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://gitlab.com/apparmor/apparmor/-/archive/v3.0.4/apparmor-v3.0.4.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Linux kernel security module",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1644523036,
+    "version": "3.0.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libapparmor-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libapparmor-3.0.4-hbc21c25_0.tar.bz2",
+  "repodata": {
+    "build": "hbc21c25_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "0563c0ae3848f68214537278506828bf",
+    "name": "libapparmor",
+    "sha256": "7934f309c759940859bfa4e4ea9f3fb932ae1e653526d0bc09fb897b401456c3",
+    "size": 104701,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1644523036356,
+    "version": "3.0.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libapparmor-3.0.4-hbc21c25_0.tar.bz2/libapparmor-3.0.4-hbc21c25_0.tar.bz2"
+}
