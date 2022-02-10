@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "intervalxt is a C++/Python library which implements algorithms on Interval Exchange Transformations (IETs). In particular, we implement the Boshernitzan Algorithm and Rauzy Induction on IETs. Our principal application is the decomposition of a measured foliation into periodic and minimal components. We certify that a component is minimal with the Boshernitzan Algorithm or by certifying that the Rauzy Induction will be looping infinitely. Note that presently the algorithm is probably incomplete; in rare cases no further decomposition of a component seems to be possible, nevertheless, our criteria fail to certify minimality of the component.",
+    "dev_url": "https://github.com/flatsurf/intervalxt",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/flatsurf/intervalxt",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/flatsurf/intervalxt/releases/download/3.2.0/intervalxt-3.2.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Interval Exchange Transformations",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1644497442,
+    "version": "3.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "intervalxt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyintervalxt-3.2.0-py39he9dc634_3.tar.bz2",
+  "repodata": {
+    "build": "py39he9dc634_3",
+    "build_number": 3,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "cppyy",
+      "cppyythonizations",
+      "gmpxxyy",
+      "libgcc-ng >=9.4.0",
+      "libintervalxt >=3.2.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "8ab2ac94df4f28f27b4c180eadfd69c3",
+    "name": "pyintervalxt",
+    "sha256": "9d31182481bc90959cb1366a2a6ab8e8ea76930d57d4e58f205040e890b1721a",
+    "size": 25139,
+    "subdir": "linux-64",
+    "timestamp": 1644497442015,
+    "version": "3.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyintervalxt-3.2.0-py39he9dc634_3.tar.bz2/pyintervalxt-3.2.0-py39he9dc634_3.tar.bz2"
+}
