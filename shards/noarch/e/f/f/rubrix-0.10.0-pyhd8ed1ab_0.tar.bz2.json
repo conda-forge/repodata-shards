@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Rubrix is a **production-ready Python framework for exploring, annotating, and managing data** in NLP projects.  Key features:    - **Open**: Rubrix is free, open-source, and 100% compatible with major NLP     libraries (Hugging Face transformers, spaCy, Stanford Stanza, Flair, etc.).     In fact, you can use and combine your preferred libraries without implementing     any specific interface.    - **End-to-end**: Most annotation tools treat data collection as a one-off     activity at the beginning of each project. In real-world projects, data     collection is a key activity of the iterative process of ML model development.     Once a model goes into production, you want to monitor and analyze its     predictions, and collect more data to improve your model over time. Rubrix     is designed to close this gap, enabling you to iterate as much as you need.    - **User and Developer Experience**: The key to sustainable NLP solutions is to     make it easier for everyone to contribute to projects. Domain experts should     feel comfortable interpreting and annotating data. Data scientists should feel     free to experiment and iterate. Engineers should feel in control of data     pipelines. Rubrix optimizes the experience for these core users to make your     teams more productive.    - **Beyond hand-labeling**: Classical hand labeling workflows are costly and     inefficient, but having humans-in-the-loop is essential. Easily combine     hand-labeling with active learning, bulk-labeling, zero-shot models, and     weak-supervision in novel data annotation workflows.  PyPI: [https://pypi.org/project/rubrix](https://pypi.org/project/rubrix)",
+    "dev_url": "https://github.com/recognai/rubrix",
+    "doc_source_url": null,
+    "doc_url": "https://rubrix.readthedocs.io/en/stable/",
+    "home": "https://recogn.ai",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/r/rubrix/rubrix-0.10.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Open-source tool for exploring, labeling, and monitoring data for NLP projects.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644701364,
+    "version": "0.10.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "rubrix-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "rubrix-0.10.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "httpx >=0.15.0,<0.16.0",
+      "numpy",
+      "pandas >=1.0.0,<2.0.0",
+      "pydantic >=1.7.1",
+      "python >=3.7",
+      "starlette >=0.13.0,<1.0.0",
+      "tqdm >=4.27.0",
+      "wrapt >=1.13.0,<1.14.0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "5245762920bbfb07f7998f71decb50cd",
+    "name": "rubrix",
+    "noarch": "python",
+    "sha256": "7967f47106bcb71c2cf372c6821a373311ed3b445ab217849ea3cf3102fce805",
+    "size": 1110377,
+    "subdir": "noarch",
+    "timestamp": 1644701364657,
+    "version": "0.10.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/rubrix-0.10.0-pyhd8ed1ab_0.tar.bz2/rubrix-0.10.0-pyhd8ed1ab_0.tar.bz2"
+}
