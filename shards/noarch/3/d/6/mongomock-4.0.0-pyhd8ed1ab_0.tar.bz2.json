@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Mongomock is a small library to help testing Python code that interacts with MongoDB via Pymongo.  MongoDB is complex. This library aims at a reasonably complete mock of MongoDB for testing purposes, not a perfect replica. This means some features are not likely to make it in any time soon.  Also, since many corner cases are encountered along the way, our goal is to try and TDD our way into completeness. This means that every time we encounter a missing or broken (incompatible) feature, we write a test for it and fix it. There are probably lots of such issues hiding around lurking, so feel free to open issues and/or pull requests and help the project out!  NOTE: We don't include pymongo functionality as \"stubs\" or \"placeholders\". Since this library is used to validate production code, it is unacceptable to behave differently than the real pymongo implementation. In such cases it is better to throw NotImplementedError than implement a modified version of the original behavior.",
+    "dev_url": "https://github.com/mongomock/mongomock",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/mongomock/mongomock",
+    "home": "https://github.com/mongomock/mongomock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/m/mongomock/mongomock-4.0.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Small library for mocking pymongo collection objects for testing purposes",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644681949,
+    "version": "4.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mongomock-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mongomock-4.0.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "packaging",
+      "python >=3.6",
+      "sentinels",
+      "setuptools",
+      "six"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "3b42a497889def3dff80304135a95825",
+    "name": "mongomock",
+    "noarch": "python",
+    "sha256": "90dd04ba0ff395f103d8a263427f0e9508259874b268c96669b0da6af871ab7d",
+    "size": 49726,
+    "subdir": "noarch",
+    "timestamp": 1644681949667,
+    "version": "4.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/mongomock-4.0.0-pyhd8ed1ab_0.tar.bz2/mongomock-4.0.0-pyhd8ed1ab_0.tar.bz2"
+}
