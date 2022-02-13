@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Activation for Intel\u00AE oneAPI DPC++/C++ Compiler. This package is a repackaged set of binaries obtained directly from Intel's Anaconda.org channel.",
+    "dev_url": "https://software.intel.com/content/www/us/en/develop/documentation/oneapi-dpcpp-cpp-compiler-dev-guide-and-reference/top.html",
+    "doc_source_url": null,
+    "doc_url": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/dpc-compiler.html",
+    "home": "https://software.intel.com/content/www/us/en/develop/tools.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-Proprietary-Intel-End-User-License-Agreement-for-Developer-Tools",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2022.0.0": {
+        "strong": [
+          "dpcpp-cpp-rt >=2022.0.0,<2023.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Implementation for Intel\u00AE oneAPI DPC++/C++ Compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644740404,
+    "version": "2022.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "intel-compiler-repack-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dpcpp_win-64-2022.0.0-h57928b3_3663.tar.bz2",
+  "repodata": {
+    "build": "h57928b3_3663",
+    "build_number": 3663,
+    "depends": [
+      "dpcpp_impl_win-64 2022.0.0 hc818a6f_3663"
+    ],
+    "license": "LicenseRef-Proprietary-Intel-End-User-License-Agreement-for-Developer-Tools",
+    "license_family": "Proprietary",
+    "md5": "12b9044db8ad787fabd8d65c93778d9b",
+    "name": "dpcpp_win-64",
+    "sha256": "9b9c450dc689364aa11c0bae542f75863d40cfc491d98eef8e72312bade3b946",
+    "size": 26364,
+    "subdir": "win-64",
+    "timestamp": 1644740404408,
+    "version": "2022.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/dpcpp_win-64-2022.0.0-h57928b3_3663.tar.bz2/dpcpp_win-64-2022.0.0-h57928b3_3663.tar.bz2"
+}
