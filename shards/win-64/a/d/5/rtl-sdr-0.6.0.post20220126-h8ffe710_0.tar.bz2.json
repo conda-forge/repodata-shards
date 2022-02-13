@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "DVB-T dongles based on the Realtek RTL2832U can be used as a cheap SDR, since the chip allows transferring the raw I/Q samples to the host, which is officially used for DAB/DAB+/FM demodulation. The possibility of this has been discovered by Eric Fry (http://rtlsdr.org/#history_and_discovery_of_rtlsdr).",
+    "dev_url": "https://osmocom.org/projects/rtl-sdr/repository",
+    "doc_source_url": null,
+    "doc_url": "https://osmocom.org/projects/rtl-sdr/wiki",
+    "home": "https://osmocom.org/projects/rtl-sdr/wiki",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.6.0.post20220126": {
+        "weak": [
+          "rtl-sdr >=0.6.0.0inf.20220126,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/osmocom/rtl-sdr/archive/0.6.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Library for using an Realtek RTL2832-based DVB dongle as an SDR receiver",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1644730580,
+    "version": "0.6.0.post20220126"
+  },
+  "channeldata_version": 1,
+  "feedstock": "rtl-sdr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "rtl-sdr-0.6.0.post20220126-h8ffe710_0.tar.bz2",
+  "repodata": {
+    "build": "h8ffe710_0",
+    "build_number": 0,
+    "depends": [
+      "libusb >=1.0.25,<2.0a0",
+      "pthreads-win32",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "license_family": "GPL",
+    "md5": "bb28d818c9e00e375b642554c2dd6335",
+    "name": "rtl-sdr",
+    "sha256": "242b61308416a167ee899281ebe98682aca8e3c417af7bdedf2d40feece5de51",
+    "size": 128152,
+    "subdir": "win-64",
+    "timestamp": 1644730580638,
+    "version": "0.6.0.post20220126"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/rtl-sdr-0.6.0.post20220126-h8ffe710_0.tar.bz2/rtl-sdr-0.6.0.post20220126-h8ffe710_0.tar.bz2"
+}
