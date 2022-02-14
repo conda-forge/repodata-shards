@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/andrie/miniCRAN",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/miniCRAN/miniCRAN_0.2.16.tar.gz",
+      "https://cran.r-project.org/src/contrib/miniCRAN_0.2.16.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Makes it possible to create an internally consistent repository consisting of selected packages from CRAN-like repositories. The user specifies a set of desired packages, and 'miniCRAN' recursively reads the dependency tree for these packages, then downloads only this subset. The user can then install packages from this repository directly, rather than from CRAN.  This is useful in production settings, e.g. server behind a firewall, or remote locations with slow (or zero) Internet access.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644838161,
+    "version": "0.2.16"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-minicran-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-minicran-0.2.16-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-assertthat",
+      "r-base >=4.1,<4.2.0a0",
+      "r-httr",
+      "r-igraph",
+      "r-xml"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "cdc49896668f67c80af825615217bbf2",
+    "name": "r-minicran",
+    "noarch": "generic",
+    "sha256": "779ac19ae88223b19169f6693ad5a00c290b5d41fe4bb0fee5fdc175c8ce3ec5",
+    "size": 441040,
+    "subdir": "noarch",
+    "timestamp": 1644838161521,
+    "version": "0.2.16"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-minicran-0.2.16-r41hc72bb7e_0.tar.bz2/r-minicran-0.2.16-r41hc72bb7e_0.tar.bz2"
+}
