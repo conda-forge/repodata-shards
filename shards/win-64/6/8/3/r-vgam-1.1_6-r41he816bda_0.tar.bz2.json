@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.stat.auckland.ac.nz/~yee/VGAM",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/VGAM/VGAM_1.1-6.tar.gz",
+      "https://cran.r-project.org/src/contrib/VGAM_1.1-6.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "An implementation of about 6 major classes of statistical regression models. The central algorithm is Fisher scoring and iterative reweighted least squares. At the heart of this package are the vector generalized linear and additive model (VGLM/VGAM) classes. VGLMs can be loosely thought of as multivariate GLMs. VGAMs are data-driven VGLMs that use smoothing. The book \"Vector Generalized Linear and Additive Models: With an Implementation in R\" (Yee, 2015) <DOI:10.1007/978-1-4939-2818-7> gives details of the statistical framework and the package. Currently only fixed-effects models are implemented. Many (150+) models and distributions are estimated by maximum likelihood estimation (MLE) or penalized MLE. The other classes are RR-VGLMs (reduced-rank VGLMs), quadratic RR-VGLMs, reduced-rank VGAMs, RCIMs (row-column interaction models)---these classes perform constrained and unconstrained quadratic ordination (CQO/UQO) models in ecology, as well as constrained additive ordination (CAO). Note that these functions are subject to change; see the NEWS and ChangeLog files for latest changes.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644847858,
+    "version": "1.1_6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-vgam-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-vgam-1.1_6-r41he816bda_0.tar.bz2",
+  "repodata": {
+    "build": "r41he816bda_0",
+    "build_number": 0,
+    "depends": [
+      "m2w64-gcc-libs",
+      "r-base >=4.1,<4.2.0a0"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "6f2774a5f4844bb483e1daefd58a7fc5",
+    "name": "r-vgam",
+    "sha256": "208696923520a9a66f888c1a39b77b5943d60377c51b13273a9dafee450ad022",
+    "size": 7439758,
+    "subdir": "win-64",
+    "timestamp": 1644847858347,
+    "version": "1.1_6"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/r-vgam-1.1_6-r41he816bda_0.tar.bz2/r-vgam-1.1_6-r41he816bda_0.tar.bz2"
+}
