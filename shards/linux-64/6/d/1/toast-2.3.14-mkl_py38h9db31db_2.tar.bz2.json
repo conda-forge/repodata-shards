@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "TOAST is a software framework for simulating and processing timestream data collected by microwave telescopes.",
+    "dev_url": "https://github.com/hpc4cmb/toast",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/hpc4cmb/toast",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.3.14": {
+        "weak": [
+          "toast * mkl_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/hpc4cmb/toast/archive/2.3.14.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Time Ordered Astrophysics Scalable Tools",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644802341,
+    "version": "2.3.14"
+  },
+  "channeldata_version": 1,
+  "feedstock": "toast-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "toast-2.3.14-mkl_py38h9db31db_2.tar.bz2",
+  "repodata": {
+    "build": "mkl_py38h9db31db_2",
+    "build_number": 2,
+    "depends": [
+      "astropy",
+      "ephem",
+      "h5py",
+      "healpy",
+      "libaatm >=1.0.9,<2.0a0",
+      "libgcc-ng >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "mkl >=2022.0.1,<2023.0a0",
+      "numpy",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "scipy",
+      "suitesparse >=5.10.1,<6.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "4615080808868814e3810d306acdd82a",
+    "name": "toast",
+    "sha256": "fdf05bcd3b8bd92161c1c73fecea9f952b0b1f1bf8686f9b51abf98e401e1bb9",
+    "size": 1497107,
+    "subdir": "linux-64",
+    "timestamp": 1644802341358,
+    "version": "2.3.14"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/toast-2.3.14-mkl_py38h9db31db_2.tar.bz2/toast-2.3.14-mkl_py38h9db31db_2.tar.bz2"
+}
