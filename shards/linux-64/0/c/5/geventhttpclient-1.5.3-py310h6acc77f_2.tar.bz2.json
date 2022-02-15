@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "gevent.httplib support was removed in gevent 1.0, geventhttpclient now provides that missing functionality.  geventhttpclient uses a fast http parser, written in C, originating from nginx, extracted and modified by Joyent.  geventhttpclient has been specifically designed for high concurrency, streaming and support HTTP 1.1 persistent connections. More generally it is designed for efficiently pulling from REST APIs and streaming APIs like Twitter's.  Safe SSL support is provided by default. geventhttpclient depends on the certifi CA Bundle. This is the same CA Bundle which ships with the Requests codebase, and is derived from Mozilla Firefox's canonical set. As of 1.5, only Python 3.6+ is fully supported (with prebuilt wheels), but Python 2.7 and 3.5 *should* work too.  Use of SSL/TLS with python 2.7.9 is not recommended and may be broken.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/gwik/geventhttpclient",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A high performance, concurrent http client library for python with gevent",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1644964171,
+    "version": "1.5.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "geventhttpclient-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "geventhttpclient-1.5.3-py310h6acc77f_2.tar.bz2",
+  "repodata": {
+    "build": "py310h6acc77f_2",
+    "build_number": 2,
+    "depends": [
+      "brotli-python",
+      "certifi",
+      "gevent >=0.13",
+      "libgcc-ng >=9.4.0",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "six"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "c66e87a46a1f7b97fbf6830953c0b056",
+    "name": "geventhttpclient",
+    "sha256": "75f2c0c7100f37f6b0d1fd70b02102763e0676ddc5c7dddfb5f4a699070e2383",
+    "size": 60079,
+    "subdir": "linux-64",
+    "timestamp": 1644964171270,
+    "version": "1.5.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/geventhttpclient-1.5.3-py310h6acc77f_2.tar.bz2/geventhttpclient-1.5.3-py310h6acc77f_2.tar.bz2"
+}
