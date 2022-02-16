@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "**GCM-Filters** is a python package that performs spatial filtering analysis in a flexible and efficient way. The GCM-Filters algorithm applies a discrete Laplacian to smooth a field through an iterative process that resembles diffusion ([Grooms et al., 2021](https://doi.org/10.1029/2021MS002552)). The package can be used for either gridded observational data or gridded data that is produced by General Circulation Models (GCMs) of ocean, weather, and climate. Such GCM data come on complex curvilinear grids, whose geometry is respected by the GCM-Filters Laplacians. Through integration with [dask](https://dask.org/), GCM-Filters enables parallel, out-of-core filter analysis on both CPUs and GPUs.",
+    "dev_url": "https://github.com/ocean-eddy-cpt/gcm-filters",
+    "doc_source_url": null,
+    "doc_url": "https://gcm-filters.readthedocs.io/en/latest/",
+    "home": "https://github.com/ocean-eddy-cpt/gcm-filters",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/g/gcm_filters/gcm_filters-0.2.3.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Diffusion-based Spatial Filtering of Gridded Data",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645024777,
+    "version": "0.2.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gcm_filters-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gcm_filters-0.2.3-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "dask",
+      "python >=3.6",
+      "scipy",
+      "xarray"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "LGPL",
+    "md5": "0f00cd075f032e01c8b81f348f59ac9e",
+    "name": "gcm_filters",
+    "noarch": "python",
+    "sha256": "c57d86962cd589830f84d4a268583960da79960c828b213e735d00d32b30fc7a",
+    "size": 23570,
+    "subdir": "noarch",
+    "timestamp": 1645024777158,
+    "version": "0.2.3"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/gcm_filters-0.2.3-pyhd8ed1ab_0.tar.bz2/gcm_filters-0.2.3-pyhd8ed1ab_0.tar.bz2"
+}
