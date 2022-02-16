@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://gitlab.com/libvdwxc/libvdwxc",
+    "doc_source_url": null,
+    "doc_url": "https://libvdwxc.org/index.html",
+    "home": "https://libvdwxc.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.4.0": {
+        "weak": [
+          "libvdwxc * mpi_mpich_*",
+          "libvdwxc >=0.4.0,<0.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://launchpad.net/libvdwxc/stable/0.4.0/+download/libvdwxc-0.4.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Portable C library of density functionals with van der Waals interactions for density functional theory",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1645043734,
+    "version": "0.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libvdwxc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libvdwxc-0.4.0-mpi_mpich_hbf7a678_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hbf7a678_0",
+    "build_number": 0,
+    "depends": [
+      "fftw * mpi_mpich_*",
+      "libgfortran 5.*",
+      "mpich >=3.4.3,<4.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "Other",
+    "md5": "db8b80417b020a0326a9a6423a8b95ec",
+    "name": "libvdwxc",
+    "sha256": "855ff4a6acbb13a781b1a5bd0be821c280e8f1272c0f46de0acfc5bc371d82a8",
+    "size": 2424119,
+    "subdir": "osx-64",
+    "timestamp": 1645043734670,
+    "version": "0.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libvdwxc-0.4.0-mpi_mpich_hbf7a678_0.tar.bz2/libvdwxc-0.4.0-mpi_mpich_hbf7a678_0.tar.bz2"
+}
