@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/william-dawson/NTPoly/tree/ntpoly-v2.7.0",
+    "doc_source_url": null,
+    "doc_url": "https://william-dawson.github.io/NTPoly/documentation/",
+    "home": "https://william-dawson.github.io/NTPoly/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.7.1": {
+        "weak": [
+          "ntpoly * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/william-dawson/NTPoly/archive/refs/tags/ntpoly-v2.7.1.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A massively parallel library for computing the functions of sparse matrices.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1644996262,
+    "version": "2.7.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ntpoly-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ntpoly-2.7.1-mpi_mpich_hfe5d17c_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hfe5d17c_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "libgfortran5 >=9.4.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=9.4.0",
+      "mpich >=3.4.3,<4.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "4146e9a5ea435d580017ae92e034dc26",
+    "name": "ntpoly",
+    "sha256": "633e0196a38a6e9d31f6755de32f36728295c298bb8f07cabef629f92a4bbe01",
+    "size": 849966,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1644996262379,
+    "version": "2.7.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/ntpoly-2.7.1-mpi_mpich_hfe5d17c_0.tar.bz2/ntpoly-2.7.1-mpi_mpich_hfe5d17c_0.tar.bz2"
+}
