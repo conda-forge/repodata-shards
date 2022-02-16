@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://gitlab.com/libvdwxc/libvdwxc",
+    "doc_source_url": null,
+    "doc_url": "https://libvdwxc.org/index.html",
+    "home": "https://libvdwxc.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.4.0": {
+        "weak": [
+          "libvdwxc * mpi_openmpi_*",
+          "libvdwxc >=0.4.0,<0.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://launchpad.net/libvdwxc/stable/0.4.0/+download/libvdwxc-0.4.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Portable C library of density functionals with van der Waals interactions for density functional theory",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1645043192,
+    "version": "0.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libvdwxc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libvdwxc-0.4.0-mpi_openmpi_h36312d9_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h36312d9_0",
+    "build_number": 0,
+    "depends": [
+      "fftw * mpi_openmpi_*",
+      "libgcc-ng >=9.4.0",
+      "libgfortran-ng",
+      "openmpi >=4.1.2,<5.0a0"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "Other",
+    "md5": "ce7babf59f07031e3995840290969179",
+    "name": "libvdwxc",
+    "sha256": "1bce7fe2deda5702dc0f1e805f42f393ac7626a7349185d39ec85f7d37497a3e",
+    "size": 2418653,
+    "subdir": "linux-64",
+    "timestamp": 1645043192237,
+    "version": "0.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libvdwxc-0.4.0-mpi_openmpi_h36312d9_0.tar.bz2/libvdwxc-0.4.0-mpi_openmpi_h36312d9_0.tar.bz2"
+}
