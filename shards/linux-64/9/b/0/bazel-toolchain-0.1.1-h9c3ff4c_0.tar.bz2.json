@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package generates a crosstool toolchain for Bazel that uses the currently activated compilers / linker as defined by the environment variables. It does take various conda(-forge) specifics into account for this. In addition to generating a toolchain, it also sets various environment variables that need to be set for the toolchain to work. Especially you will need to pass in the correct ${TARGET_CPU} to ensure that cross-compiling also works.  In build.sh    source gen-bazel-toolchain   bazel build --crosstool_top=//bazel_toolchain:toolchain --cpu ${TARGET_CPU} \u2026",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/bazel-toolchain-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause AND Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Helper script to generate a crosscompile toolchain for Bazel with the currently activated compiler settings.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645015777,
+    "version": "0.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "bazel-toolchain-0.1.1-h9c3ff4c_0.tar.bz2",
+  "repodata": {
+    "build": "h9c3ff4c_0",
+    "build_number": 0,
+    "constrains": [
+      "bazel >=4"
+    ],
+    "depends": [],
+    "license": "BSD-3-Clause AND Apache-2.0",
+    "md5": "bddb0ac975e7f78a2a85b6864cf7d5f4",
+    "name": "bazel-toolchain",
+    "sha256": "843df92b7ea25a544e03593a07bfc3aa5db3da015f12cf1ac9a7dfc9b50312e6",
+    "size": 16249,
+    "subdir": "linux-64",
+    "timestamp": 1645015777518,
+    "version": "0.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/bazel-toolchain-0.1.1-h9c3ff4c_0.tar.bz2"
+}
