@@ -1,0 +1,57 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package generates a crosstool toolchain for Bazel that uses the currently activated compilers / linker as defined by the environment variables. It does take various conda(-forge) specifics into account for this. In addition to generating a toolchain, it also sets various environment variables that need to be set for the toolchain to work. Especially you will need to pass in the correct ${TARGET_CPU} to ensure that cross-compiling also works.  In build.sh    source gen-bazel-toolchain   bazel build --crosstool_top=//bazel_toolchain:toolchain --cpu ${TARGET_CPU} \u2026",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/bazel-toolchain-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause AND Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Helper script to generate a crosscompile toolchain for Bazel with the currently activated compiler settings.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645044079,
+    "version": "0.1.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "bazel-toolchain-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "bazel-toolchain-0.1.2-h01db608_0.tar.bz2",
+  "repodata": {
+    "build": "h01db608_0",
+    "build_number": 0,
+    "constrains": [
+      "bazel >=4"
+    ],
+    "depends": [],
+    "license": "BSD-3-Clause AND Apache-2.0",
+    "md5": "c8fa1d6ba2e6146c7fb0a879609cf7d0",
+    "name": "bazel-toolchain",
+    "sha256": "85c0fa1bb6dd1c177b64a98ef8bf01850241c22c66e94dd297bd756991afbf85",
+    "size": 16282,
+    "subdir": "linux-aarch64",
+    "timestamp": 1645044079875,
+    "version": "0.1.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/bazel-toolchain-0.1.2-h01db608_0.tar.bz2/bazel-toolchain-0.1.2-h01db608_0.tar.bz2"
+}
