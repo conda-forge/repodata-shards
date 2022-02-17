@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The same code runs on major distributed environment (Hadoop, SGE, MPI) and can solve problems beyond billions of examples.",
+    "dev_url": "https://github.com/dmlc/xgboost/",
+    "doc_source_url": null,
+    "doc_url": "https://xgboost.readthedocs.io/",
+    "home": "https://github.com/dmlc/xgboost",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": "https://github.com/dmlc/xgboost",
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645122313,
+    "version": "1.5.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "xgboost-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "py-xgboost-gpu-1.5.1-py310h5096daf_2.tar.bz2",
+  "repodata": {
+    "build": "py310h5096daf_2",
+    "build_number": 2,
+    "depends": [
+      "__cuda",
+      "py-xgboost 1.5.1 cuda110py310h5096daf_2",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310"
+    ],
+    "license": "Apache-2.0",
+    "md5": "95f3213d584722ec606371d3c50b2803",
+    "name": "py-xgboost-gpu",
+    "sha256": "0dbaa4eeedb96cb41d6c19cb926a7281fa2f77cc30296a8de434496bfc7389f5",
+    "size": 12585,
+    "subdir": "linux-64",
+    "timestamp": 1645122313843,
+    "version": "1.5.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/py-xgboost-gpu-1.5.1-py310h5096daf_2.tar.bz2/py-xgboost-gpu-1.5.1-py310h5096daf_2.tar.bz2"
+}
