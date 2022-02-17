@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The same code runs on major distributed environment (Hadoop, SGE, MPI) and can solve problems beyond billions of examples.",
+    "dev_url": "https://github.com/dmlc/xgboost/",
+    "doc_source_url": null,
+    "doc_url": "https://xgboost.readthedocs.io/",
+    "home": "https://github.com/dmlc/xgboost",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": "https://github.com/dmlc/xgboost",
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645121397,
+    "version": "1.5.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "xgboost-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-xgboost-1.5.1-cuda111_r40hb0f85a9_2.tar.bz2",
+  "repodata": {
+    "build": "cuda111_r40hb0f85a9_2",
+    "build_number": 2,
+    "depends": [
+      "__cuda",
+      "__glibc >=2.17",
+      "_r-xgboost-mutex 2.0 gpu_0",
+      "cudatoolkit 11.1|11.1.*",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "libxgboost 1.5.1 cuda111hb0f85a9_2",
+      "nccl >=2.11.4.1,<3.0a0",
+      "r-base >=4.0,<4.1.0a0",
+      "r-data.table",
+      "r-jsonlite",
+      "r-magrittr",
+      "r-matrix"
+    ],
+    "license": "Apache-2.0",
+    "md5": "7c46f62853178e7d708f3dc84596a1f5",
+    "name": "r-xgboost",
+    "sha256": "2e021a83b0d628b5a962fe61b223b0dd876fab4963ec6f3704db9a2e5de2fbb3",
+    "size": 1622492,
+    "subdir": "linux-64",
+    "timestamp": 1645121397988,
+    "version": "1.5.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-xgboost-1.5.1-cuda111_r40hb0f85a9_2.tar.bz2/r-xgboost-1.5.1-cuda111_r40hb0f85a9_2.tar.bz2"
+}
