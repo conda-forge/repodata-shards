@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Code for Anisotropies in the Microwave Background by Antony Lewis and Anthony Challinor  Features:   - Support for closed, open and flat models   - Scalar, vector and tensor modes including polarization   - Output Cl, matter transfer functions, matter power spectrum and \u03C38   - Fast computation to ~0.3-0.1% accuracy, with controllable accuracy level   - Relatively structured and easily extendable Fortran 90 code   - Efficient support for massive neutrinos   - Absolute computations from correctly normalized initial power spectra   - Computation of lensed CMB power spectra and lensing potential power spectrum   - Internally parallelized for fast execution on multi-processor machines   - Use CAMB with CosmoMC for Monte-Carlo parameter estimation   - Constant equation of state quintessence (or variable PPF)   - Support for general correlated adiabatic/isocurvature initial conditions   - Accurate full-sky calculation of lensed power spectra (astro-ph/0502425)   - Integrated interface to HALOFIT for non-linear fitting   - support for arbitrary neutrino mass splittings   - For 21cm, lensing and number count power spectra see this extension   - For perturbed recombination and effect on small-scale baryons see this extension   - Calculation of local primordial and CMB lensing bispectra   - Easy-to-use Python wrapper",
+    "dev_url": "https://github.com/cmbant/CAMB",
+    "doc_source_url": null,
+    "doc_url": "https://camb.info/readme.html",
+    "home": "https://camb.info/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "modified LGPL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/cmbant/CAMB/archive/1.3.5.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Code for Anisotropies in the Microwave Background",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1645103238,
+    "version": "1.3.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "camb-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "camb-1.3.5-py39h5c3af23_0.tar.bz2",
+  "repodata": {
+    "build": "py39h5c3af23_0",
+    "build_number": 0,
+    "depends": [
+      "gfortran_osx-64 9.*",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "mock",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "scipy >=1.0",
+      "setuptools",
+      "six",
+      "sympy >=1.0"
+    ],
+    "license": "modified LGPL",
+    "license_family": "LGPL",
+    "md5": "774d38259fb63e14c16bae33cb0ac852",
+    "name": "camb",
+    "sha256": "f6a6c25b13b671be33b84323a035403c409b85cb5304e39ae97819a0cf35327d",
+    "size": 975246,
+    "subdir": "osx-64",
+    "timestamp": 1645103238007,
+    "version": "1.3.5"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/camb-1.3.5-py39h5c3af23_0.tar.bz2/camb-1.3.5-py39h5c3af23_0.tar.bz2"
+}
