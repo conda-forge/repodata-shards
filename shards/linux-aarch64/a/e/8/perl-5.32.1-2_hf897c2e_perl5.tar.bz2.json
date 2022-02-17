@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Perl 5 is a highly capable, feature-rich programming language with over 29 years of development. Perl 5 runs on over 100 platforms from portables to mainframes and is suitable for both rapid prototyping and large scale development projects.",
+    "dev_url": "https://perl5.git.perl.org/perl.git",
+    "doc_source_url": null,
+    "doc_url": "https://www.perl.org/docs.html",
+    "home": "http://www.perl.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-1.0-or-later OR Artistic-1.0-Perl",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.32.1": {
+        "noarch": [
+          "perl >=5.32.1,<6.0a0 *_perl5"
+        ],
+        "weak": [
+          "perl >=5.32.1,<5.33.0a0 *_perl5"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "The Perl programming language interpreter.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1645068995,
+    "version": "5.32.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "perl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "perl-5.32.1-2_hf897c2e_perl5.tar.bz2",
+  "repodata": {
+    "build": "2_hf897c2e_perl5",
+    "build_number": 2,
+    "depends": [
+      "libgcc-ng >=9.4.0",
+      "libnsl >=2.0.0,<2.1.0a0"
+    ],
+    "license": "GPL-1.0-or-later OR Artistic-1.0-Perl",
+    "md5": "c11dc444de8ccebd8ff4b15f459e49f6",
+    "name": "perl",
+    "sha256": "b26f7dacd7d7911c2301724818b2baf9957eda80bd7454155cc1eed5a8c47cb0",
+    "size": 15193531,
+    "subdir": "linux-aarch64",
+    "timestamp": 1645068995235,
+    "version": "5.32.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/perl-5.32.1-2_hf897c2e_perl5.tar.bz2/perl-5.32.1-2_hf897c2e_perl5.tar.bz2"
+}
