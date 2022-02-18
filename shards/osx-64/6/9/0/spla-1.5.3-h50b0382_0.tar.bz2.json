@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "SPLA provides specialized functions for distributed matrix multiplication, as required in some computational material science codes. It aims for maximum computation and communication overlap when possible and allows any combination of host and device pointers if compiled with GPU support. C++, C  and Fortran interfaces are available.",
+    "dev_url": "https://github.com/eth-cscs/spla",
+    "doc_source_url": null,
+    "doc_url": "https://spla.readthedocs.io/en/latest/?badge=latest",
+    "home": "https://github.com/AdhocMan/spla",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.3": {
+        "weak": [
+          "spla"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/eth-cscs/spla/archive/refs/tags/v1.5.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Specialized linear algebra library, tailored for computational material science codes.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1645172271,
+    "version": "1.5.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "spla-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "spla-1.5.3-h50b0382_0.tar.bz2",
+  "repodata": {
+    "build": "h50b0382_0",
+    "build_number": 0,
+    "depends": [
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=11.1.0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "mpich >=3.4.3,<4.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "304844919671aa7b70f5dde1c2f0edea",
+    "name": "spla",
+    "sha256": "13a2ae570cc250b34404743536b955674ebf9907cc02f5deb3fedc95314c35e4",
+    "size": 132391,
+    "subdir": "osx-64",
+    "timestamp": 1645172271887,
+    "version": "1.5.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/spla-1.5.3-h50b0382_0.tar.bz2/spla-1.5.3-h50b0382_0.tar.bz2"
+}
