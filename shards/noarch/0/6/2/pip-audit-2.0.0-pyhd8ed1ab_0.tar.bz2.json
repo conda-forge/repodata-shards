@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "`pip-audit` is a tool for scanning Python environments for packages with known vulnerabilities. It uses the Python Packaging Advisory Database (https://github.com/pypa/advisory-db) via the [PyPI JSON API](https://warehouse.pypa.io/api-reference/json.html) as a source of vulnerability reports.  This project is developed by [Trail of Bits](https://www.trailofbits.com/) with support from Google. This is not an official Google product.  **Features**  - Support for auditing local environments and requirements-style files - Support for multiple vulnerability services   ([PyPI](https://warehouse.pypa.io/api-reference/json.html#known-vulnerabilities),   [OSV](https://osv.dev/docs/)) - Support for emitting   [SBOMs](https://en.wikipedia.org/wiki/Software_bill_of_materials) in   [CycloneDX](https://cyclonedx.org/) XML or JSON - Human and machine-readable output formats (columnar, JSON) - Seamlessly reuses your existing local `pip` caches",
+    "dev_url": "https://github.com/trailofbits/pip-audit",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/trailofbits/pip-audit",
+    "home": "https://github.com/trailofbits/pip-audit",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pip-audit/pip-audit-2.0.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A tool for scanning Python environments for known vulnerabilities",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645209610,
+    "version": "2.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pip-audit-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pip-audit-2.0.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "cachecontrol >=0.12.10",
+      "cyclonedx-python-lib >=0.11.1",
+      "dataclasses >=0.6",
+      "html5lib >=1.1",
+      "lockfile >=0.12.2",
+      "packaging >=21.0.0",
+      "pip-api >=0.0.26",
+      "progress >=1.6",
+      "python >=3.6",
+      "resolvelib >=0.8.0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "0538efec28f8f416d52c602568fed44e",
+    "name": "pip-audit",
+    "noarch": "python",
+    "sha256": "84a6d541c4c385e7c48898fe307fd079c54c692724810918081f201ae283a193",
+    "size": 51732,
+    "subdir": "noarch",
+    "timestamp": 1645209610999,
+    "version": "2.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/pip-audit-2.0.0-pyhd8ed1ab_0.tar.bz2/pip-audit-2.0.0-pyhd8ed1ab_0.tar.bz2"
+}
