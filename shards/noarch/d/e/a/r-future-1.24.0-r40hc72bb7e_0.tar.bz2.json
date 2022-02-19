@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/HenrikBengtsson/future",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/future/future_1.24.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/future_1.24.0.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "The purpose of this package is to provide a lightweight and unified Future API for sequential and parallel processing of R expression via futures.  The simplest way to evaluate an expression in parallel is to use `x %<-% { expression }` with `plan(multiprocess)`. This package implements sequential, multicore, multisession, and cluster futures.  With these, R expressions can be evaluated on the local machine, in parallel a set of local machines, or distributed on a mix of local and remote machines. Extensions to this package implement additional backends for processing futures via compute cluster schedulers etc. Because of its unified API, there is no need to modify any code in order switch from sequential on the local machine to, say, distributed processing on a remote compute cluster. Another strength of this package is that global variables and functions are automatically identified and exported as needed, making it straightforward to tweak existing code to make use of futures.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645310823,
+    "version": "1.24.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-future-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-future-1.24.0-r40hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-digest",
+      "r-globals >=0.13.1",
+      "r-listenv >=0.8.0",
+      "r-parallelly >=1.21.0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "LGPL",
+    "md5": "36b17243d3c647a8e2283a63a30d4082",
+    "name": "r-future",
+    "noarch": "generic",
+    "sha256": "c84a15cdadff07d44945af28c6bc6ce2201b3bd96d026cbeadc0bb2ddafe127a",
+    "size": 653419,
+    "subdir": "noarch",
+    "timestamp": 1645310823796,
+    "version": "1.24.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-future-1.24.0-r40hc72bb7e_0.tar.bz2/r-future-1.24.0-r40hc72bb7e_0.tar.bz2"
+}
