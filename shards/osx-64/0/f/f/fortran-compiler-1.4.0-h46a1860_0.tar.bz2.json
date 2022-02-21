@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the Fortran compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('fortran') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A metapackage to obtain a Fortran compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645461140,
+    "version": "1.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fortran-compiler-1.4.0-h46a1860_0.tar.bz2",
+  "repodata": {
+    "build": "h46a1860_0",
+    "build_number": 0,
+    "depends": [
+      "cctools >=949.0.1",
+      "gfortran",
+      "gfortran_osx-64 9.*",
+      "ld64 >=530",
+      "llvm-openmp"
+    ],
+    "license": "BSD",
+    "md5": "c33510fcb7eff985fcdeed567eb88945",
+    "name": "fortran-compiler",
+    "sha256": "3d6004a4e15262497d764868471dd4af2656f95fa8a26d127cac79087eeeb656",
+    "size": 5110,
+    "subdir": "osx-64",
+    "timestamp": 1645461140460,
+    "version": "1.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/fortran-compiler-1.4.0-h46a1860_0.tar.bz2/fortran-compiler-1.4.0-h46a1860_0.tar.bz2"
+}
