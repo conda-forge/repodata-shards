@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "14.0.0.rc1": {
+        "weak": [
+          "libllvm14 >=14.0.0.0rc.1,<14.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645527964,
+    "version": "14.0.0.rc1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "llvm_rc"
+  ],
+  "package": "llvm-14.0.0.rc1-h4e05f63_0.tar.bz2",
+  "repodata": {
+    "build": "h4e05f63_0",
+    "build_number": 0,
+    "constrains": [
+      "llvmdev   14.0.0.rc1"
+    ],
+    "depends": [
+      "libllvm14 14.0.0.rc1 hb998da7_0",
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "c0ee53696317909114ff8ca81ccaeda7",
+    "name": "llvm",
+    "sha256": "0c94de330f0656664acb4f635fe1f1bb4ae0f59e8236a7679ee47f79f57d1bef",
+    "size": 51545,
+    "subdir": "linux-aarch64",
+    "timestamp": 1645527964184,
+    "version": "14.0.0.rc1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/llvm-14.0.0.rc1-h4e05f63_0.tar.bz2/llvm-14.0.0.rc1-h4e05f63_0.tar.bz2"
+}
