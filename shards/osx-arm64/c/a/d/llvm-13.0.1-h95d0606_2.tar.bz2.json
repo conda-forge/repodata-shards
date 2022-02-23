@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "13.0.1": {
+        "weak": [
+          "libllvm13 >=13.0.1,<13.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.1/llvm-13.0.1.src.tar.xz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645606627,
+    "version": "13.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "llvm-13.0.1-h95d0606_2.tar.bz2",
+  "repodata": {
+    "build": "h95d0606_2",
+    "build_number": 2,
+    "constrains": [
+      "llvmdev   13.0.1"
+    ],
+    "depends": [
+      "libllvm13 13.0.1 hfd59cb2_2",
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "947cc521952a5106ecbfc2686890a44a",
+    "name": "llvm",
+    "sha256": "6f8527bf999e9898b01c858b4b2fca5f2a81aac106783b602beb93509c246cbf",
+    "size": 51208,
+    "subdir": "osx-arm64",
+    "timestamp": 1645606627824,
+    "version": "13.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/llvm-13.0.1-h95d0606_2.tar.bz2/llvm-13.0.1-h95d0606_2.tar.bz2"
+}
