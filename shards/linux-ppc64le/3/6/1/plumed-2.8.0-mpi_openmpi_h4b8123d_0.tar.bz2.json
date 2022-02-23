@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines.",
+    "dev_url": "https://github.com/plumed/plumed2",
+    "doc_source_url": null,
+    "doc_url": "https://www.plumed.org/doc",
+    "home": "http://www.plumed.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.8.0": {
+        "weak": [
+          "plumed * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/plumed/plumed2/archive/v2.8.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Free energy calculations in molecular systems",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1645614520,
+    "version": "2.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "plumed-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "plumed-2.8.0-mpi_openmpi_h4b8123d_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h4b8123d_0",
+    "build_number": 0,
+    "depends": [
+      "fftw >=3.3.10,<4.0a0",
+      "gawk",
+      "gsl >=2.7,<2.8.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=10.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=10.3.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "openmpi >=4.1.2,<5.0a0"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "GPL",
+    "md5": "8c2fa9a88b3fa72014fc9314be109d9e",
+    "name": "plumed",
+    "sha256": "48f035272e1bfa875fb7c9b2610b214fadffab43197f6c73d071ecd7e5f868de",
+    "size": 3742264,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1645614520550,
+    "version": "2.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/plumed-2.8.0-mpi_openmpi_h4b8123d_0.tar.bz2/plumed-2.8.0-mpi_openmpi_h4b8123d_0.tar.bz2"
+}
