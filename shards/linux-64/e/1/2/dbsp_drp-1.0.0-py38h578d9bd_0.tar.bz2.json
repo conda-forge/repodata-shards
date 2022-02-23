@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "DBSP_DRP is a Data Reduction Pipeline for Palomar's workhorse spectrograph DBSP. It is built on top of PypeIt. DBSP_DRP automates the reduction, fluxing, telluric correction, and combining of the red and blue sides of one night's data.  It adds several GUIs to allow for easier control of your reduction:   - select which data to reduce, and verify the correctness of your FITS headers in an editable table GUI   - manually place traces for a sort of manually \"forced\" spectroscopy with the `-m` option   - after manually placing traces, manually select sky regions and tweak the FWHM of your manual traces",
+    "dev_url": "https://github.com/finagle29/DBSP_DRP",
+    "doc_source_url": null,
+    "doc_url": "https://dbsp-drp.readthedocs.io/",
+    "home": "https://github.com/finagle29/DBSP_DRP",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/d/dbsp-drp/DBSP_DRP-1.0.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Automated Data Reduction Pipeline for Palomar's Double Spectrograph",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1645648194,
+    "version": "1.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dbsp_drp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dbsp_drp-1.0.0-py38h578d9bd_0.tar.bz2",
+  "repodata": {
+    "build": "py38h578d9bd_0",
+    "build_number": 0,
+    "depends": [
+      "astropy >=4.0",
+      "configobj >=5",
+      "matplotlib-base >=3.1,<3.5",
+      "numpy >=1.16.0",
+      "pypeit 1.6.0",
+      "pyside2 >=5.12",
+      "pytest >=3.0.7",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "scipy >=1.4",
+      "tqdm >=4.52",
+      "yattag >=1.13"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "192f81b816da865931eec9030f4b2167",
+    "name": "dbsp_drp",
+    "sha256": "d96933b0945648e79b99f637ae7548d59f3467881fab30667b084a158711e90c",
+    "size": 9792956,
+    "subdir": "linux-64",
+    "timestamp": 1645648194247,
+    "version": "1.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/dbsp_drp-1.0.0-py38h578d9bd_0.tar.bz2/dbsp_drp-1.0.0-py38h578d9bd_0.tar.bz2"
+}
