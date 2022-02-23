@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm-mirror/llvm",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "13.0.1": {
+        "weak": [
+          "libllvm13 >=13.0.1,<13.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.1/llvm-13.0.1.src.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1645603011,
+    "version": "13.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libllvm13-13.0.1-hb2805f8_2.tar.bz2",
+  "repodata": {
+    "build": "hb2805f8_2",
+    "build_number": 2,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "a4c151e9903824232085e8b6e70ec83e",
+    "name": "libllvm13",
+    "sha256": "590173d724a3b1e920dd62d8e14f59bae20f8587c9a2c89251b30d323c453a43",
+    "size": 35115195,
+    "subdir": "linux-aarch64",
+    "timestamp": 1645603011139,
+    "version": "13.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libllvm13-13.0.1-hb2805f8_2.tar.bz2/libllvm13-13.0.1-hb2805f8_2.tar.bz2"
+}
