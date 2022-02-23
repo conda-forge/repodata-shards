@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines.",
+    "dev_url": "https://github.com/plumed/plumed2",
+    "doc_source_url": null,
+    "doc_url": "https://www.plumed.org/doc",
+    "home": "http://www.plumed.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.8.0": {
+        "weak": [
+          "plumed * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/plumed/plumed2/archive/v2.8.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Free energy calculations in molecular systems",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1645611255,
+    "version": "2.8.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "plumed-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "plumed-2.8.0-mpi_mpich_h2957eff_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h2957eff_0",
+    "build_number": 0,
+    "depends": [
+      "fftw >=3.3.10,<4.0a0",
+      "gawk",
+      "gsl >=2.7,<2.8.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=12.0.1",
+      "liblapack >=3.8.0,<4.0a0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "llvm-openmp >=12.0.1",
+      "mpich >=3.4.3,<4.0a0"
+    ],
+    "license": "LGPL-3.0-only",
+    "license_family": "GPL",
+    "md5": "4f861f1e3e269f54a3ef823ff9a9e791",
+    "name": "plumed",
+    "sha256": "061d58985bfb196e736ea0f344fc59a18646ea621577e5b1a05d7a73471a8cc3",
+    "size": 3397936,
+    "subdir": "osx-64",
+    "timestamp": 1645611255107,
+    "version": "2.8.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/plumed-2.8.0-mpi_mpich_h2957eff_0.tar.bz2/plumed-2.8.0-mpi_mpich_h2957eff_0.tar.bz2"
+}
