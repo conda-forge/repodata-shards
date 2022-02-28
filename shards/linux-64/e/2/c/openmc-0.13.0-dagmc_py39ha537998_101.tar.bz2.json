@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OpenMC is a community-developed Monte Carlo neutron and photon transport simulation code. It is capable of performing fixed source, k-eigenvalue, and subcritical multiplication calculations on models built using either a constructive solid geometry or CAD representation. OpenMC supports both continuous-energy and multigroup transport. The continuous-energy particle interaction data is based on a native HDF5 format that can be generated from ACE files produced by NJOY. Parallelism is enabled via a hybrid MPI and OpenMP programming model.",
+    "dev_url": "https://github.com/openmc-dev/openmc",
+    "doc_source_url": null,
+    "doc_url": "https://docs.openmc.org",
+    "home": "https://openmc.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "OpenMC Monte Carlo Code",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1646066570,
+    "version": "0.13.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmc-0.13.0-dagmc_py39ha537998_101.tar.bz2",
+  "repodata": {
+    "build": "dagmc_py39ha537998_101",
+    "build_number": 101,
+    "depends": [
+      "dagmc 3.2.1.*",
+      "h5py",
+      "hdf5 >=1.12.1,<1.12.2.0a0",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "lxml",
+      "matplotlib-base",
+      "numpy >=1.19.5,<2.0a0",
+      "pandas",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "scipy",
+      "setuptools",
+      "uncertainties"
+    ],
+    "license": "MIT",
+    "md5": "518bdd7c0cb94926eee9d1fcd8d4f3a4",
+    "name": "openmc",
+    "sha256": "3d7c9f91b247b42b075a3baf7fca708fbd37dd9cee6ab459acdccccedb69b6bb",
+    "size": 4955345,
+    "subdir": "linux-64",
+    "timestamp": 1646066570622,
+    "version": "0.13.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openmc-0.13.0-dagmc_py39ha537998_101.tar.bz2/openmc-0.13.0-dagmc_py39ha537998_101.tar.bz2"
+}
