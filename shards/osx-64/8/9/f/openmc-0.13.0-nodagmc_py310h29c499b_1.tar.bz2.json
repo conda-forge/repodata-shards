@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OpenMC is a community-developed Monte Carlo neutron and photon transport simulation code. It is capable of performing fixed source, k-eigenvalue, and subcritical multiplication calculations on models built using either a constructive solid geometry or CAD representation. OpenMC supports both continuous-energy and multigroup transport. The continuous-energy particle interaction data is based on a native HDF5 format that can be generated from ACE files produced by NJOY. Parallelism is enabled via a hybrid MPI and OpenMP programming model.",
+    "dev_url": "https://github.com/openmc-dev/openmc",
+    "doc_source_url": null,
+    "doc_url": "https://docs.openmc.org",
+    "home": "https://openmc.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "OpenMC Monte Carlo Code",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1646066979,
+    "version": "0.13.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmc-0.13.0-nodagmc_py310h29c499b_1.tar.bz2",
+  "repodata": {
+    "build": "nodagmc_py310h29c499b_1",
+    "build_number": 1,
+    "depends": [
+      "h5py",
+      "hdf5 >=1.12.1,<1.12.2.0a0",
+      "libcxx >=12.0.1",
+      "lxml",
+      "matplotlib-base",
+      "numpy >=1.21.5,<2.0a0",
+      "pandas",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "scipy",
+      "setuptools",
+      "uncertainties"
+    ],
+    "license": "MIT",
+    "md5": "c8e7574668b9ff51f39bfd7534ede5e9",
+    "name": "openmc",
+    "sha256": "65f671e42d286d98a45d93e39766910cb44c1e7166fd4485b1747d835568913a",
+    "size": 4196092,
+    "subdir": "osx-64",
+    "timestamp": 1646066979891,
+    "version": "0.13.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/openmc-0.13.0-nodagmc_py310h29c499b_1.tar.bz2/openmc-0.13.0-nodagmc_py310h29c499b_1.tar.bz2"
+}
