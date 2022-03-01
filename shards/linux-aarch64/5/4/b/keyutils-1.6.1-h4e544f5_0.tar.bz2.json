@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Keyutils is a set of utilities for managing the key retention facility in the kernel, which can be used by filesystems, block devices and more to gain and retain the authorization and encryption keys required to perform secure operations.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://people.redhat.com/~dhowells/keyutils/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.6.1": {
+        "weak": [
+          "keyutils >=1.6.1,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://people.redhat.com/~dhowells/keyutils/keyutils-1.6.1.tar.bz2",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Linux Key Management Utilities",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646166857,
+    "version": "1.6.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "keyutils-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "keyutils-1.6.1-h4e544f5_0.tar.bz2",
+  "repodata": {
+    "build": "h4e544f5_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=10.3.0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "md5": "1f24853e59c68892452ef94ddd8afd4b",
+    "name": "keyutils",
+    "sha256": "6d4233d97a9b38acbb26e1268bcf8c10a8e79c2aed7e5a385ec3769967e3e65b",
+    "size": 112327,
+    "subdir": "linux-aarch64",
+    "timestamp": 1646166857935,
+    "version": "1.6.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/keyutils-1.6.1-h4e544f5_0.tar.bz2/keyutils-1.6.1-h4e544f5_0.tar.bz2"
+}
