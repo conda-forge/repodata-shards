@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "dev_url": "https://github.com/mamba-org/mamba",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mamba-org/mamba",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.22.1": {
+        "weak": [
+          "libmambapy >=0.22.1,<0.23.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mamba-org/mamba/archive/refs/tags/2022.02.28.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646093213,
+    "version": "0.22.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mamba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmambapy-0.22.1-py38h68958cb_0.tar.bz2",
+  "repodata": {
+    "build": "py38h68958cb_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libmamba 0.22.1 hdb87969_0",
+      "libstdcxx-ng >=10.3.0",
+      "openssl >=1.1.1l,<1.1.2a",
+      "pybind11-abi 4",
+      "python >=3.8,<3.9.0a0",
+      "python >=3.8,<3.9.0a0 *_cpython",
+      "python_abi 3.8.* *_cp38",
+      "yaml-cpp >=0.6.3,<0.7.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "401e469565da9bf3bf4d9109cb0c768f",
+    "name": "libmambapy",
+    "sha256": "851aecf85123394f77696398341f8f9d04b3fce8feb197bda49d80fc67b3a1c0",
+    "size": 311528,
+    "subdir": "linux-aarch64",
+    "timestamp": 1646093213779,
+    "version": "0.22.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libmambapy-0.22.1-py38h68958cb_0.tar.bz2/libmambapy-0.22.1-py38h68958cb_0.tar.bz2"
+}
