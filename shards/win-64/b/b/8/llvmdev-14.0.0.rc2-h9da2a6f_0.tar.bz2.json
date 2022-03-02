@@ -17,48 +17,45 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {
-      "14.0.0.rc2": {
-        "weak": [
-          "libllvm14 >=14.0.0.0rc.2,<14.1.0a0"
-        ]
-      }
-    },
+    "run_exports": {},
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "osx-arm64"
+      "win-64"
     ],
     "summary": "Development headers and libraries for LLVM",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1646224125,
+    "timestamp": 1646222778,
     "version": "14.0.0.rc2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "llvmdev-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "libllvm14-14.0.0.rc2-h27db136_0.tar.bz2",
+  "package": "llvmdev-14.0.0.rc2-h9da2a6f_0.tar.bz2",
   "repodata": {
-    "build": "h27db136_0",
+    "build": "h9da2a6f_0",
     "build_number": 0,
     "depends": [
-      "libcxx >=12.a0",
-      "libzlib >=1.2.11,<1.3.0a0"
+      "libllvm14 14.0.0.rc2 h9da2a6f_0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "llvm-tools 14.0.0.rc2 h69765f7_0",
+      "vc >=14.2,<15",
+      "vs2015_runtime >=14.29.30037"
     ],
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
-    "md5": "b9f94e237ffc087b88c0aedb90da6861",
-    "name": "libllvm14",
-    "sha256": "84b74c6ae00326a7a3ba72b3bfa9da2f9dff20b7e5f4ee024cba8b6a17a2b16c",
-    "size": 25893357,
-    "subdir": "osx-arm64",
-    "timestamp": 1646224125700,
+    "md5": "03acbc851efbec35f6b2c108de7349ed",
+    "name": "llvmdev",
+    "sha256": "6423d297aa5c0f1d962cd2b096b0c4aa63f48c1a56fdfd7ed5e138ffda25154b",
+    "size": 117467217,
+    "subdir": "win-64",
+    "timestamp": 1646222778596,
     "version": "14.0.0.rc2"
   },
   "repodata_version": 1,
-  "subdir": "osx-arm64",
-  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libllvm14-14.0.0.rc2-h27db136_0.tar.bz2/libllvm14-14.0.0.rc2-h27db136_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/llvmdev-14.0.0.rc2-h9da2a6f_0.tar.bz2/llvmdev-14.0.0.rc2-h9da2a6f_0.tar.bz2"
 }
