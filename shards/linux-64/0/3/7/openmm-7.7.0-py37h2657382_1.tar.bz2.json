@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OpenMM is a toolkit for molecular simulation. It can be used either as a stand-alone application for running simulations, or as a library you call from your own code. It provides a combination of extreme flexibility (through custom forces and integrators), openness, and high performance (especially on recent GPUs) that make it truly unique among simulation codes. OpenMM is MIT licensed with some LGPL portions (CUDA and OpenCL platforms).",
+    "dev_url": "https://github.com/openmm/openmm",
+    "doc_source_url": null,
+    "doc_url": "http://docs.openmm.org",
+    "home": "http://openmm.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": "https://github.com/openmm/openmm.git",
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A high performance toolkit for molecular simulation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1646185598,
+    "version": "7.7.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmm-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmm-7.7.0-py37h2657382_1.tar.bz2",
+  "repodata": {
+    "build": "py37h2657382_1",
+    "build_number": 1,
+    "depends": [
+      "__glibc >=2.17",
+      "cudatoolkit 11.0|11.0.*",
+      "fftw >=3.3.10,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "numpy",
+      "ocl-icd >=2.3.1,<3.0a0",
+      "ocl-icd-system",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "1b85775888a03cb7189edebe876ad297",
+    "name": "openmm",
+    "sha256": "78ccc667e509165306b0948f8fac84a464b28013e54a62c95f4ad28d2e385c20",
+    "size": 11696431,
+    "subdir": "linux-64",
+    "timestamp": 1646185598899,
+    "version": "7.7.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openmm-7.7.0-py37h2657382_1.tar.bz2/openmm-7.7.0-py37h2657382_1.tar.bz2"
+}
