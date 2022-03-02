@@ -17,42 +17,49 @@
     "pre_link": false,
     "pre_unlink": false,
     "recipe_origin": null,
-    "run_exports": {},
+    "run_exports": {
+      "14.0.0.rc2": {
+        "weak": [
+          "libllvm14 >=14.0.0.0rc.2,<14.1.0a0"
+        ]
+      }
+    },
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "noarch"
+      "linux-64"
     ],
     "summary": "Development headers and libraries for LLVM",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1646226916,
+    "timestamp": 1646226808,
     "version": "14.0.0.rc2"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "llvmdev-feedstock",
   "labels": [
     "llvm_rc"
   ],
-  "package": "lit-14.0.0.rc2-pyh565ca59_0.tar.bz2",
+  "package": "libllvm14-14.0.0.rc2-h4eb4472_0.tar.bz2",
   "repodata": {
-    "build": "pyh565ca59_0",
+    "build": "h4eb4472_0",
     "build_number": 0,
     "depends": [
-      "python"
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "libzlib >=1.2.11,<1.3.0a0"
     ],
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
-    "md5": "b153dbf35210a4c3190513ad20f92815",
-    "name": "lit",
-    "noarch": "python",
-    "sha256": "133d4fba80ef098e52da07178aeab2b392345998f22cc5425ff0315413b9acc0",
-    "size": 117600,
-    "subdir": "noarch",
-    "timestamp": 1646226916681,
+    "md5": "24af4e393ab13f35f4e2447a93ff70b9",
+    "name": "libllvm14",
+    "sha256": "fd3c488c740a0dbde8eb7bc4443d83574b05d67cfd4de60ec460c5fb22297f9e",
+    "size": 36941881,
+    "subdir": "linux-64",
+    "timestamp": 1646226808992,
     "version": "14.0.0.rc2"
   },
   "repodata_version": 1,
-  "subdir": "noarch",
-  "url": "https://github.com/conda-forge/releases/releases/download/noarch/lit-14.0.0.rc2-pyh565ca59_0.tar.bz2/lit-14.0.0.rc2-pyh565ca59_0.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libllvm14-14.0.0.rc2-h4eb4472_0.tar.bz2/libllvm14-14.0.0.rc2-h4eb4472_0.tar.bz2"
 }
