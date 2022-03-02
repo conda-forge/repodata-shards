@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "http://pari.math.u-bordeaux.fr/cgi-bin/gitweb.cgi",
+    "doc_source_url": null,
+    "doc_url": "http://pari.math.u-bordeaux.fr/dochtml/html-stable/",
+    "home": "http://pari.math.u-bordeaux.fr",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.13.3": {
+        "weak": [
+          "pari >=2.13.3,<2.14.0a0",
+          "pari * *_pthread"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": [
+      "http://pari.math.u-bordeaux.fr/pub/pari/OLD/2.13/pari-2.13.3.tar.gz",
+      "http://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.13.3.tar.gz"
+    ],
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "PARI/GP is a widely used computer algebra system designed for fast computations in number theory",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1646246745,
+    "version": "2.13.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "pari-2.13.3-hb7e482d_1_pthread.tar.bz2",
+  "repodata": {
+    "build": "hb7e482d_1_pthread",
+    "build_number": 1,
+    "depends": [
+      "gmp >=6.2.1,<7.0a0",
+      "openssl >=3.0.0,<4.0a0",
+      "pari-galdata",
+      "pari-seadata-small",
+      "perl 5.*",
+      "readline >=8.1,<9.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "21c8dc486ae127482d19fbcede7de2dc",
+    "name": "pari",
+    "sha256": "d589bf0b3347de7367e71455346cae6c13b1ebfc1f115310508d6af4a00e6f14",
+    "size": 21763913,
+    "subdir": "osx-arm64",
+    "timestamp": 1646246745121,
+    "version": "2.13.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pari-2.13.3-hb7e482d_1_pthread.tar.bz2"
+}
