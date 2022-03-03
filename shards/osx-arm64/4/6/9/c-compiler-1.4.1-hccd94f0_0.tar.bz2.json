@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the C compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('c') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "A metapackage to obtain a C compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646332398,
+    "version": "1.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "c-compiler-1.4.1-hccd94f0_0.tar.bz2",
+  "repodata": {
+    "build": "hccd94f0_0",
+    "build_number": 0,
+    "depends": [
+      "cctools >=949.0.1",
+      "clang_osx-arm64 12.*",
+      "ld64 >=530",
+      "llvm-openmp"
+    ],
+    "license": "BSD",
+    "md5": "efec6aa070bc1eb2c8a430f164d52db2",
+    "name": "c-compiler",
+    "sha256": "9f10c1729ee7c3c1ccb3d116de14136805450d0e5439f4d76977f18349942941",
+    "size": 5151,
+    "subdir": "osx-arm64",
+    "timestamp": 1646332398708,
+    "version": "1.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/c-compiler-1.4.1-hccd94f0_0.tar.bz2/c-compiler-1.4.1-hccd94f0_0.tar.bz2"
+}

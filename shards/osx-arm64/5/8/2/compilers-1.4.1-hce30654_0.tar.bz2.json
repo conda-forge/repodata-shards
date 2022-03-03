@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the compilers for your system that conda-forge used to compile its ecosystem. These compilers are, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  These compiler metapackages are a convenience ONLY for users. Do NOT use these packages as a build or host dependencies in other recipes.  Use the compiler Jinja template function instead. For C++ for example, use compiler('cxx') as usual.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "A metapackage to obtain compilers",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646332413,
+    "version": "1.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compilers-1.4.1-hce30654_0.tar.bz2",
+  "repodata": {
+    "build": "hce30654_0",
+    "build_number": 0,
+    "depends": [
+      "c-compiler 1.4.1 hccd94f0_0",
+      "cxx-compiler 1.4.1 h3e96240_0",
+      "fortran-compiler 1.4.1 haab47bd_0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "9f0f5bf360d93ba75cc0151732e5e82f",
+    "name": "compilers",
+    "sha256": "67e510bf7509b6d7cef44997974d5c2f9deb9095ca91f414a74826e27590ff99",
+    "size": 5366,
+    "subdir": "osx-arm64",
+    "timestamp": 1646332413021,
+    "version": "1.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/compilers-1.4.1-hce30654_0.tar.bz2/compilers-1.4.1-hce30654_0.tar.bz2"
+}
