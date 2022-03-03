@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the C++ compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('cxx') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A metapackage to obtain a C++ compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646332784,
+    "version": "1.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cxx-compiler-1.4.1-h06f31f1_0.tar.bz2",
+  "repodata": {
+    "build": "h06f31f1_0",
+    "build_number": 0,
+    "depends": [
+      "c-compiler 1.4.1 hb283c62_0",
+      "gxx",
+      "gxx_linux-ppc64le 10.*"
+    ],
+    "license": "BSD",
+    "md5": "501b23204286e9ea00747b613a6741dd",
+    "name": "cxx-compiler",
+    "sha256": "9a0ea24a49a358ff82e951aaaef3b19410b82bac17b513ab1269bf30455dacd3",
+    "size": 5088,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1646332784715,
+    "version": "1.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/cxx-compiler-1.4.1-h06f31f1_0.tar.bz2/cxx-compiler-1.4.1-h06f31f1_0.tar.bz2"
+}
