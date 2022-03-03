@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the Fortran compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('fortran') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A metapackage to obtain a Fortran compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646332269,
+    "version": "1.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fortran-compiler-1.4.1-h2a4ca65_0.tar.bz2",
+  "repodata": {
+    "build": "h2a4ca65_0",
+    "build_number": 0,
+    "depends": [
+      "binutils",
+      "c-compiler 1.4.1 h166bdaf_0",
+      "gfortran",
+      "gfortran_linux-64 10.*"
+    ],
+    "license": "BSD",
+    "md5": "5ce3102bc8a8bb59972aa3e47ece83a1",
+    "name": "fortran-compiler",
+    "sha256": "c01c0b636c1e369b55cbb537252c6a7996f0f68fb019653dc2cf8f4e9674e2b0",
+    "size": 5058,
+    "subdir": "linux-64",
+    "timestamp": 1646332269599,
+    "version": "1.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/fortran-compiler-1.4.1-h2a4ca65_0.tar.bz2/fortran-compiler-1.4.1-h2a4ca65_0.tar.bz2"
+}
