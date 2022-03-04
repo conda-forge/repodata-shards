@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/kharchenkolab/leidenAlg",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/leidenAlg/leidenAlg_1.0.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/leidenAlg_1.0.2.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "An R interface to the Leiden algorithm, an iterative community detection algorithm on networks. The algorithm is designed to converge to a partition in which all subsets of all communities are locally optimally assigned, yielding communities guaranteed to be connected. The implementation proves to be fast, scales well, and can be run on graphs of millions of nodes (as long as they can fit in memory). The original implementation was constructed as a python interface \"leidenalg\" found here: <https://github.com/vtraag/leidenalg>. The algorithm was originally described in Traag, V.A., Waltman, L. & van Eck, N.J. \"From Louvain to Leiden: guaranteeing well-connected communities\". Sci Rep 9, 5233 (2019) <doi:10.1038/s41598-019-41695-z>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646387478,
+    "version": "1.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-leidenalg-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-leidenalg-1.0.2-r40hc4bb905_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc4bb905_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=12.0.1",
+      "r-base >=4.0,<4.1.0a0",
+      "r-igraph",
+      "r-matrix",
+      "r-matrix.utils",
+      "r-rcpp >=1.0.5",
+      "r-rcpparmadillo",
+      "r-rcppeigen",
+      "r-sccore"
+    ],
+    "license": "GPL-3.0-or-later",
+    "md5": "4be9576ae346dc2464ba1cd3ebc674fc",
+    "name": "r-leidenalg",
+    "sha256": "d385ebcbddf365b22b2b4c3385e9beedc9231f45f924c52a02e17d5055840528",
+    "size": 137976,
+    "subdir": "osx-64",
+    "timestamp": 1646387478719,
+    "version": "1.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/r-leidenalg-1.0.2-r40hc4bb905_0.tar.bz2/r-leidenalg-1.0.2-r40hc4bb905_0.tar.bz2"
+}
