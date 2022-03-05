@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm/llvm-project",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "14.0.0.rc2": {
+        "weak": [
+          "libclang-cpp14 >=14.0.0.0rc.2,<14.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Development headers and libraries for Clang",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646522361,
+    "version": "14.0.0.rc2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "clangdev-feedstock",
+  "labels": [
+    "llvm_rc"
+  ],
+  "package": "libclang-cpp14-14.0.0.rc2-default_hdf20005_0.tar.bz2",
+  "repodata": {
+    "build": "default_hdf20005_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libllvm14 >=14.0.0.0rc.2,<14.1.0a0",
+      "libstdcxx-ng >=10.3.0",
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "bfeefcec8b97dfff40017f5eada17509",
+    "name": "libclang-cpp14",
+    "sha256": "f03c4fb2cd3ef49acb1aa6eea6e60ba7c7b21ed255217a867b8957f5b01037d0",
+    "size": 19932004,
+    "subdir": "linux-aarch64",
+    "timestamp": 1646522361801,
+    "version": "14.0.0.rc2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libclang-cpp14-14.0.0.rc2-default_hdf20005_0.tar.bz2/libclang-cpp14-14.0.0.rc2-default_hdf20005_0.tar.bz2"
+}
