@@ -32,6 +32,7 @@ jobs:
           import os
           import sys
           import requests
+          import datetime
           
           gh = github.Github(os.environ['GITHUB_TOKEN'])
           r = gh.get_repo('conda-forge/repodata-shards')
@@ -40,7 +41,12 @@ jobs:
               for _ in range(10):
                   skip_one = True
                   for rn in w.get_runs():
-                      if rn.status == 'completed' and (rn.conclusion in ['success', 'cancelled'] or w.name.startswith('update-') or w.name.startswith('delete-')):
+                      if rn.status == 'completed' and (
+                          rn.conclusion in ['success', 'cancelled'] 
+                          or w.name.startswith('update-') 
+                          or w.name.startswith('delete-')
+                          or datetime.datetime.utcnow() - rn.updated_at > datetime.timedelta(days=1)
+                      ):
                           if skip_one:
                               skip_one = False
                               continue
