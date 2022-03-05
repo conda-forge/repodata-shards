@@ -17,13 +17,6 @@ jobs:
           abort-after-seconds: 10
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: generate token
-        id: generate_token
-        uses: tibdex/github-app-token@v1
-        with:
-          app_id: ${{ secrets.CF_CURATOR_APP_ID }}
-          private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
-
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
@@ -36,11 +29,36 @@ jobs:
       - name: install micromamba
         uses: mamba-org/provision-with-micromamba@main
 
+      - name: generate token shards
+        id: generate_token_shards
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.CF_CURATOR_APP_ID }}
+          private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
+
       - name: get repodata shards
         shell: bash -l {0}
         run: |
           export RANK=3
+          export SYNC_STEP=shards
           source index_shards.sh
         env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          GITHUB_TOKEN: ${{ steps.generate_token_shards.outputs.token }}
+          BINSTAR_TOKEN: ${{ secrets.PROD_BINSTAR_TOKEN }}
+
+      - name: generate token releases
+        id: generate_token_releases
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.CF_CURATOR_APP_ID }}
+          private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
+
+      - name: sync releases
+        shell: bash -l {0}
+        run: |
+          export RANK=3
+          export SYNC_STEP=releases
+          source index_shards.sh
+        env:
+          GITHUB_TOKEN: ${{ steps.generate_token_releases.outputs.token }}
           BINSTAR_TOKEN: ${{ secrets.PROD_BINSTAR_TOKEN }}
