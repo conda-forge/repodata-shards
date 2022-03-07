@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm/llvm-project",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "14.0.0.rc2": {
+        "weak": [
+          "libclang-cpp14 >=14.0.0.0rc.2,<14.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Development headers and libraries for Clang",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646637532,
+    "version": "14.0.0.rc2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "clangdev-feedstock",
+  "labels": [
+    "llvm_rc"
+  ],
+  "package": "libclang-cpp14-14.0.0.rc2-default_hbcb6871_0.tar.bz2",
+  "repodata": {
+    "build": "default_hbcb6871_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=12.0.1",
+      "libllvm14 >=14.0.0.0rc.2,<14.1.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "760b3f81f5ada0d664970d41fb56b736",
+    "name": "libclang-cpp14",
+    "sha256": "26f8110739745a87a0254a28445044967b670f4d9899173c562e13dddee3e549",
+    "size": 14564271,
+    "subdir": "osx-64",
+    "timestamp": 1646637532642,
+    "version": "14.0.0.rc2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libclang-cpp14-14.0.0.rc2-default_hbcb6871_0.tar.bz2/libclang-cpp14-14.0.0.rc2-default_hbcb6871_0.tar.bz2"
+}
