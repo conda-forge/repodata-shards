@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Fontconfig is a library designed to provide system-wide font configuration, customization and application access.",
+    "dev_url": "https://cgit.freedesktop.org/fontconfig/",
+    "doc_source_url": null,
+    "doc_url": "https://www.freedesktop.org/software/fontconfig/fontconfig-user.html",
+    "home": "http://www.freedesktop.org/wiki/Software/fontconfig/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.13.96": {
+        "weak": [
+          "fontconfig >=2.13.96,<3.0a0",
+          "fonts-conda-ecosystem"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.freedesktop.org/software/fontconfig/release/fontconfig-2.13.96.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A library for configuring and customizing font access",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1646775781,
+    "version": "2.13.96"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fontconfig-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fontconfig-2.13.96-hce3cb01_1.tar.bz2",
+  "repodata": {
+    "build": "hce3cb01_1",
+    "build_number": 1,
+    "depends": [
+      "expat >=2.4.6,<3.0a0",
+      "freetype >=2.10.4,<3.0a0",
+      "libiconv >=1.16,<1.17.0a0",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "MIT",
+    "md5": "b34c9a9cff65848414e278217daaa210",
+    "name": "fontconfig",
+    "sha256": "01e0d2db5a1b75cfcdc20828759ccb06fb39755c90218be2f13ef0f3025c3ba3",
+    "size": 205406,
+    "subdir": "win-64",
+    "timestamp": 1646775781560,
+    "version": "2.13.96"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/fontconfig-2.13.96-hce3cb01_1.tar.bz2/fontconfig-2.13.96-hce3cb01_1.tar.bz2"
+}
