@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "analisi is a framework for analyzing molecular dynamics simulations. It can read lammps's binary format (other formats can be converted) and evaluate averages over the ergodic and equilibrated trajectory. Very heavy calculation can be performed in a parallel way using MPI, while multithreading is implemented also in the python interface.",
+    "dev_url": "https://github.com/rikigigi/analisi",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/rikigigi/analisi",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/rikigigi/analisi/archive/v0.4.1.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "analisi: your Swiss Army Knife of molecular dynamics analysis",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646735724,
+    "version": "0.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "analisi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "analisi-0.4.1-py38hec4f5df_openmpi_0.tar.bz2",
+  "repodata": {
+    "build": "py38hec4f5df_openmpi_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "fftw >=3.3.10,<4.0a0",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "matplotlib-base",
+      "numpy",
+      "openmpi >=4.1.2,<5.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python >=3.8,<3.9.0a0 *_cpython",
+      "python_abi 3.8.* *_cp38",
+      "scipy",
+      "xdrfile >=1.1.4,<1.1.5.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "ac7d473944cda99fc792a1f46540d848",
+    "name": "analisi",
+    "sha256": "2c3fee2734d42a92d0a5690fcd2121ab98a223f9f3127a8a62962e5f4f3fd73d",
+    "size": 93576832,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1646735724532,
+    "version": "0.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/analisi-0.4.1-py38hec4f5df_openmpi_0.tar.bz2/analisi-0.4.1-py38hec4f5df_openmpi_0.tar.bz2"
+}
