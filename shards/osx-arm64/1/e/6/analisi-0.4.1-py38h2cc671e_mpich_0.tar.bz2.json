@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "analisi is a framework for analyzing molecular dynamics simulations. It can read lammps's binary format (other formats can be converted) and evaluate averages over the ergodic and equilibrated trajectory. Very heavy calculation can be performed in a parallel way using MPI, while multithreading is implemented also in the python interface.",
+    "dev_url": "https://github.com/rikigigi/analisi",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/rikigigi/analisi",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/rikigigi/analisi/archive/v0.4.1.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "analisi: your Swiss Army Knife of molecular dynamics analysis",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646736021,
+    "version": "0.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "analisi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "analisi-0.4.1-py38h2cc671e_mpich_0.tar.bz2",
+  "repodata": {
+    "build": "py38h2cc671e_mpich_0",
+    "build_number": 0,
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "fftw >=3.3.10,<4.0a0",
+      "libcxx >=11.1.0",
+      "matplotlib-base",
+      "mpich >=4.0.1,<5.0a0",
+      "numpy",
+      "python >=3.8,<3.9.0a0",
+      "python >=3.8,<3.9.0a0 *_cpython",
+      "python_abi 3.8.* *_cp38",
+      "scipy",
+      "xdrfile >=1.1.4,<1.1.5.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "md5": "15591e47c63ffa1b4616be46a9401060",
+    "name": "analisi",
+    "sha256": "03ddc75c7ffea3364cccbcaa03a8139fb50e4567666868e823f53a730fbb2e91",
+    "size": 93430644,
+    "subdir": "osx-arm64",
+    "timestamp": 1646736021941,
+    "version": "0.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/analisi-0.4.1-py38h2cc671e_mpich_0.tar.bz2/analisi-0.4.1-py38h2cc671e_mpich_0.tar.bz2"
+}
