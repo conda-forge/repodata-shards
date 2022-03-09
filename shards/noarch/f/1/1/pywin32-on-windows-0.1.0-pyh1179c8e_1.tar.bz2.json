@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package exists so other packages can depend on `pywin32`, often the only platform specific dependency, while remaining `noarch: python`. On non-Windows platforms, installing it is a no-op.  A specific version constraint for `pywin32` itself can be specified at build time with `run_constrained`.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/maybe-pywin32-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A virtual package for pywin32... but only on windows",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1646840485,
+    "version": "0.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pywin32-on-windows-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pywin32-on-windows-0.1.0-pyh1179c8e_1.tar.bz2",
+  "repodata": {
+    "build": "pyh1179c8e_1",
+    "build_number": 1,
+    "depends": [
+      "__unix",
+      "python >=2.7"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "985a16f6e1abf7b317f26a24b9c82036",
+    "name": "pywin32-on-windows",
+    "noarch": "python",
+    "sha256": "d858eb5359060441cfd6858a600284ec6ec5ad6b95cfbeec68132d1a1451f04a",
+    "size": 4854,
+    "subdir": "noarch",
+    "timestamp": 1646840485634,
+    "version": "0.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/pywin32-on-windows-0.1.0-pyh1179c8e_1.tar.bz2/pywin32-on-windows-0.1.0-pyh1179c8e_1.tar.bz2"
+}
