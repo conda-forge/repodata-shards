@@ -21,23 +21,22 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "A package installed by conda-forge each time a build is run on CI. This package has side-effects to your conda config.",
     "tags": null,
-    "text_prefix": true,
-    "timestamp": 1647006831,
-    "version": "3.19.0"
+    "text_prefix": false,
+    "timestamp": 1647023488,
+    "version": "3.19.1"
   },
   "channeldata_version": 1,
   "feedstock": "conda-forge-ci-setup-feedstock",
   "labels": [
-    "main",
-    "broken"
+    "main"
   ],
-  "package": "conda-forge-ci-setup-3.19.0-py37h76dd096_0.tar.bz2",
+  "package": "conda-forge-ci-setup-3.19.1-py39h1969157_0.tar.bz2",
   "repodata": {
-    "build": "py37h76dd096_0",
+    "build": "py39h1969157_0",
     "build_number": 0,
     "constrains": [
       "boa >=0.8,<0.9"
@@ -48,27 +47,27 @@
       "conda >=4.3",
       "conda-build 3.*",
       "conda-env",
-      "git",
       "jinja2",
-      "jq",
+      "m2-git",
       "pip",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "pyyaml",
       "requests",
       "ruamel_yaml",
-      "shyaml"
+      "shyaml",
+      "vs2008_express_vc_python_patch"
     ],
     "license": "BSD-3-Clause",
-    "md5": "c12a491be2850fb4c5510f069330335f",
+    "md5": "ca08ce3fe3ce81cd3904dd1760301d37",
     "name": "conda-forge-ci-setup",
-    "sha256": "95c3109847284cefd1fda428e8bf0b9723fecb71b96e067a08ed948857a75c7f",
-    "size": 43706,
-    "subdir": "linux-64",
-    "timestamp": 1647006831848,
-    "version": "3.19.0"
+    "sha256": "4cf8490afa5a17fbca593e05f22d38b74f704dae5efa62d738c11ab724874487",
+    "size": 72800,
+    "subdir": "win-64",
+    "timestamp": 1647023488191,
+    "version": "3.19.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/conda-forge-ci-setup-3.19.0-py37h76dd096_0.tar.bz2/conda-forge-ci-setup-3.19.0-py37h76dd096_0.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/conda-forge-ci-setup-3.19.1-py39h1969157_0.tar.bz2/conda-forge-ci-setup-3.19.1-py39h1969157_0.tar.bz2"
 }

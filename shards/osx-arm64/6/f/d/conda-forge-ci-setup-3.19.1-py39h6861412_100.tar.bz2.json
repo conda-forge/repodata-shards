@@ -21,29 +21,29 @@
     "source_git_url": null,
     "source_url": null,
     "subdirs": [
-      "linux-64"
+      "osx-arm64"
     ],
     "summary": "A package installed by conda-forge each time a build is run on CI. This package has side-effects to your conda config.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1647006831,
-    "version": "3.19.0"
+    "timestamp": 1647022880,
+    "version": "3.19.1"
   },
   "channeldata_version": 1,
   "feedstock": "conda-forge-ci-setup-feedstock",
   "labels": [
-    "main",
-    "broken"
+    "main"
   ],
-  "package": "conda-forge-ci-setup-3.19.0-py37h76dd096_0.tar.bz2",
+  "package": "conda-forge-ci-setup-3.19.1-py39h6861412_100.tar.bz2",
   "repodata": {
-    "build": "py37h76dd096_0",
-    "build_number": 0,
+    "build": "py39h6861412_100",
+    "build_number": 100,
     "constrains": [
       "boa >=0.8,<0.9"
     ],
     "depends": [
       "anaconda-client",
+      "cctools 949.*",
       "click",
       "conda >=4.3",
       "conda-build 3.*",
@@ -52,23 +52,24 @@
       "jinja2",
       "jq",
       "pip",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.9,<3.10.0a0",
+      "python >=3.9,<3.10.0a0 *_cpython",
+      "python_abi 3.9.* *_cp39",
       "pyyaml",
       "requests",
       "ruamel_yaml",
       "shyaml"
     ],
     "license": "BSD-3-Clause",
-    "md5": "c12a491be2850fb4c5510f069330335f",
+    "md5": "e3b9e4845f951154e0dd4b9fb34f1897",
     "name": "conda-forge-ci-setup",
-    "sha256": "95c3109847284cefd1fda428e8bf0b9723fecb71b96e067a08ed948857a75c7f",
-    "size": 43706,
-    "subdir": "linux-64",
-    "timestamp": 1647006831848,
-    "version": "3.19.0"
+    "sha256": "8b7d3bcbd00f2c0535731322946006b3e8f8fc57ab1d0b7bfdb867103d38c003",
+    "size": 43931,
+    "subdir": "osx-arm64",
+    "timestamp": 1647022880960,
+    "version": "3.19.1"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/conda-forge-ci-setup-3.19.0-py37h76dd096_0.tar.bz2/conda-forge-ci-setup-3.19.0-py37h76dd096_0.tar.bz2"
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/conda-forge-ci-setup-3.19.1-py39h6861412_100.tar.bz2/conda-forge-ci-setup-3.19.1-py39h6861412_100.tar.bz2"
 }
