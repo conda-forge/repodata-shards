@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The Common Pipeline Library (CPL) comprises a set of ISO-C libraries that provide a comprehensive, efficient and robust software toolkit to develop astronomical data-reduction tasks (known as \"recipes\"). These data-reduction tasks can then be executed manually by a user, or can be triggered in an automated data-reduction framework (known as \"pipelines\") which are used at ESO to monitor the health status of VLT instruments, for quick-look data processing at the observatory, and the creation of data products available from the ESO archive facility.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://www.eso.org/sci/software/cpl/documentation.html",
+    "home": "https://www.eso.org/sci/software/cpl/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "7.2.1": {
+        "weak": [
+          "cpl"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://ftp.eso.org/pub/dfs/pipelines/libraries//cpl/cpl-7.2.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A software toolkit to develop astronomical data-reduction tasks",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1646986462,
+    "version": "7.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cpl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cpl-7.2.1-h1e67e2f_0.tar.bz2",
+  "repodata": {
+    "build": "h1e67e2f_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "cfitsio >=4.0.0,<4.0.1.0a0",
+      "fftw >=3.3.10,<4.0a0",
+      "libcurl",
+      "libgcc-ng >=10.3.0",
+      "wcslib"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "42144226317c6b1cf13ce493266fbfd0",
+    "name": "cpl",
+    "sha256": "f0514cd1d7b394a66430c02b7ea183f4456e670c048bc86207c6ec3b5659cc59",
+    "size": 866911,
+    "subdir": "linux-64",
+    "timestamp": 1646986462706,
+    "version": "7.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/cpl-7.2.1-h1e67e2f_0.tar.bz2/cpl-7.2.1-h1e67e2f_0.tar.bz2"
+}
