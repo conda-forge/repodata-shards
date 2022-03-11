@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Frame Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Frame library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite.git",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalframe/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.0": {
+        "weak": [
+          "liblalframe >=2.0.0,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalframe-2.0.0.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Frame Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1646999474,
+    "version": "2.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalframe-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalframe-2.0.0-h166bdaf_0.tar.bz2",
+  "repodata": {
+    "build": "h166bdaf_0",
+    "build_number": 0,
+    "constrains": [
+      "lalframe >=1.5.3",
+      "python-lalframe >=1.5.3"
+    ],
+    "depends": [
+      "ldas-tools-framecpp >=2.5.5",
+      "ldas-tools-framecpp >=2.8.1,<2.9.0a0",
+      "libframel >=8.39.2",
+      "libframel >=8.41.3,<9.0a0",
+      "libgcc-ng >=10.3.0",
+      "liblal >=7.1.0",
+      "liblal >=7.1.6,<8.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "a8b912ee1a2d565b44011b6728683ee2",
+    "name": "liblalframe",
+    "sha256": "716ae1ffc9be210f35a1bd7aaaf5ce7f384d208449e16e634a7afba0ceef834d",
+    "size": 866104,
+    "subdir": "linux-64",
+    "timestamp": 1646999474340,
+    "version": "2.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/liblalframe-2.0.0-h166bdaf_0.tar.bz2/liblalframe-2.0.0-h166bdaf_0.tar.bz2"
+}
