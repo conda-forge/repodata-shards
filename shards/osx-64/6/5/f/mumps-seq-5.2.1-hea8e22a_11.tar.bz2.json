@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "MUMPS (MUltifrontal Massively Parallel Solver) is a package for solving systems of linear equations of the form Ax = b, where A is a square sparse matrix that can be either unsymmetric, symmetric positive definite, or general symmetric, on distributed memory computers. MUMPS implements a direct method based on a multifrontal approach which performs a Gaussian factorization.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "http://mumps.enseeiht.fr/index.php?page=doc",
+    "home": "http://mumps.enseeiht.fr/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CECILL-C",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.2.1": {
+        "weak": [
+          "mumps-seq >=5.2.1,<5.2.2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://mumps.enseeiht.fr/MUMPS_5.2.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "MUMPS: a parallel sparse direct solver",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647025460,
+    "version": "5.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mumps-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mumps-seq-5.2.1-hea8e22a_11.tar.bz2",
+  "repodata": {
+    "build": "hea8e22a_11",
+    "build_number": 11,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mumps-include >=5.2.1,<5.2.2.0a0",
+      "scotch >=6.0.9,<6.0.10.0a0"
+    ],
+    "license": "CECILL-C",
+    "md5": "f30e069ff6dc110963e4a9f297ac3712",
+    "name": "mumps-seq",
+    "sha256": "6d7bec6ec620f03955b4cb7a30ca687bbb8dceeae15d0f6a1664395e20e4a4a9",
+    "size": 3340355,
+    "subdir": "osx-64",
+    "timestamp": 1647025460822,
+    "version": "5.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/mumps-seq-5.2.1-hea8e22a_11.tar.bz2/mumps-seq-5.2.1-hea8e22a_11.tar.bz2"
+}
