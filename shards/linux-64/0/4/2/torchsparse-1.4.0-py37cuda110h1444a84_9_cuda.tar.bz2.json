@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "A high-performance computing library for efficient 3D sparse convolution.",
+    "dev_url": "https://github.com/mit-han-lab/torchsparse",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mit-han-lab/torchsparse",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.4.0": {
+        "weak": [
+          "torchvision =*=*_cuda"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mit-han-lab/torchsparse/archive/v1.4.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A high-performance computing library for efficient 3D sparse convolution.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647060675,
+    "version": "1.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "torchsparse-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "torchsparse-1.4.0-py37cuda110h1444a84_9_cuda.tar.bz2",
+  "repodata": {
+    "build": "py37cuda110h1444a84_9_cuda",
+    "build_number": 9,
+    "constrains": [
+      "pytorch =*=cuda*"
+    ],
+    "depends": [
+      "__glibc >=2.17",
+      "__glibc >=2.17,<3.0.a0",
+      "cudatoolkit 11.0|11.0.*",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "pytorch >=1.10.2,<1.11.0a0"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "e318585d02672569eabf7fdc832baaad",
+    "name": "torchsparse",
+    "sha256": "ed5f5d5e742450d6924fa78d941a7a724a0e6660e938c2c89afd9df60f3e73b3",
+    "size": 9167609,
+    "subdir": "linux-64",
+    "timestamp": 1647060675331,
+    "version": "1.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/torchsparse-1.4.0-py37cuda110h1444a84_9_cuda.tar.bz2/torchsparse-1.4.0-py37cuda110h1444a84_9_cuda.tar.bz2"
+}
