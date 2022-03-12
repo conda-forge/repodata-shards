@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The TREXIO library defines a standard format for storing wave functions, together with an C-compatible API such that it can be easily used in any programming language.",
+    "dev_url": "https://github.com/TREX-CoE/trexio",
+    "doc_source_url": null,
+    "doc_url": "https://trex-coe.github.io/trexio/",
+    "home": "https://github.com/TREX-CoE/trexio",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.1.0": {
+        "weak": [
+          "trexio >=2.1.0,<2.1.1.0a0 mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/TREX-CoE/trexio/releases/download/v2.1.0/trexio-2.1.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "TREX library for efficient I/O",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647097484,
+    "version": "2.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "trexio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "trexio-2.1.0-mpi_openmpi_he05bc30_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_he05bc30_0",
+    "build_number": 0,
+    "depends": [
+      "hdf5 >=1.12.1,<1.12.2.0a0 mpi_openmpi_*",
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "309350f6d927e5c8b6a12a6445561d80",
+    "name": "trexio",
+    "sha256": "f0c52054fe91b0b2a6c543971913229f735cad391405664a3bc255696306713f",
+    "size": 145838,
+    "subdir": "linux-64",
+    "timestamp": 1647097484242,
+    "version": "2.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/trexio-2.1.0-mpi_openmpi_he05bc30_0.tar.bz2/trexio-2.1.0-mpi_openmpi_he05bc30_0.tar.bz2"
+}
