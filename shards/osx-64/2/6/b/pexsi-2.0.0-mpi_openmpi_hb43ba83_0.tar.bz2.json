@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://bitbucket.org/berkeleylab/pexsi",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pexsi.readthedocs.io/en/latest/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.0": {
+        "weak": [
+          "pexsi >=2.0.0,<2.1.0a0 mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://bitbucket.org/berkeleylab/pexsi/downloads/pexsi_v2.0.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Pole expansion and selected inversion",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647180732,
+    "version": "2.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pexsi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pexsi-2.0.0-mpi_openmpi_hb43ba83_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_hb43ba83_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=12.0.1",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "llvm-openmp >=12.0.1",
+      "llvm-openmp >=13.0.1",
+      "openmpi >=4.1.2,<5.0a0",
+      "parmetis",
+      "superlu_dist >=7.1.1,<8.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "b64c8c5dad79c90e725209570646ae41",
+    "name": "pexsi",
+    "sha256": "e688b6df216417062adbcddae7fd39871049d44487eff441a60b091b74553f8a",
+    "size": 1822524,
+    "subdir": "osx-64",
+    "timestamp": 1647180732017,
+    "version": "2.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/pexsi-2.0.0-mpi_openmpi_hb43ba83_0.tar.bz2/pexsi-2.0.0-mpi_openmpi_hb43ba83_0.tar.bz2"
+}
