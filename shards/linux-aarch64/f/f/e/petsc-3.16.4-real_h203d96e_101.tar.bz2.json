@@ -1,0 +1,83 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.mcs.anl.gov/petsc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.16.4": {
+        "weak": [
+          "petsc >=3.16.4,<3.17.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-3.16.4.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647165949,
+    "version": "3.16.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "petsc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "petsc-3.16.4-real_h203d96e_101.tar.bz2",
+  "repodata": {
+    "build": "real_h203d96e_101",
+    "build_number": 101,
+    "depends": [
+      "fftw * mpi_mpich_*",
+      "hdf5 >=1.12.1,<1.12.2.0a0",
+      "hypre >=2.24.0,<2.24.1.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=10.3.0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=4.0.1,<5.0a0",
+      "mumps-mpi >=5.2.1,<5.2.2.0a0",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "ptscotch >=6.0.9,<6.0.10.0a0",
+      "scalapack >=2.2.0,<2.3.0a0",
+      "scotch >=6.0.9,<6.0.10.0a0",
+      "suitesparse >=5.10.1,<5.11.0a0",
+      "superlu",
+      "superlu_dist >=7.1.1,<8.0a0",
+      "yaml >=0.2.5,<0.3.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "fd3eda0050936eec9b7264f084d917ff",
+    "name": "petsc",
+    "sha256": "65d4aebdd470d547f24b8dfefb887d9c9a13112043be64241a92ccf63c336ca1",
+    "size": 10042655,
+    "subdir": "linux-aarch64",
+    "timestamp": 1647165949587,
+    "version": "3.16.4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/petsc-3.16.4-real_h203d96e_101.tar.bz2/petsc-3.16.4-real_h203d96e_101.tar.bz2"
+}

@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://bitbucket.org/berkeleylab/pexsi",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pexsi.readthedocs.io/en/latest/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.2.0": {
+        "weak": [
+          "pexsi >=1.2.0,<1.3.0a0 mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://bitbucket.org/berkeleylab/pexsi/downloads/pexsi_v1.2.0.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Pole expansion and selected inversion",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647168555,
+    "version": "1.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pexsi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pexsi-1.2.0-mpi_mpich_h8134e42_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h8134e42_1",
+    "build_number": 1,
+    "depends": [
+      "libblas >=3.9.0,<4.0a0",
+      "libcxx >=12.0.1",
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.1.dev0",
+      "liblapack >=3.9.0,<4.0a0",
+      "llvm-openmp >=12.0.1",
+      "llvm-openmp >=13.0.1",
+      "mpich >=4.0.1,<5.0a0",
+      "parmetis",
+      "superlu_dist 6.2.0.*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "2eace05bb0ffaff8e6411b99d6ff06b2",
+    "name": "pexsi",
+    "sha256": "3b2f2e978f4b957d4e0cac8d266792554ecf476c32dab63240aecbada1d6ef99",
+    "size": 812067,
+    "subdir": "osx-arm64",
+    "timestamp": 1647168555774,
+    "version": "1.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/pexsi-1.2.0-mpi_mpich_h8134e42_1.tar.bz2/pexsi-1.2.0-mpi_mpich_h8134e42_1.tar.bz2"
+}
