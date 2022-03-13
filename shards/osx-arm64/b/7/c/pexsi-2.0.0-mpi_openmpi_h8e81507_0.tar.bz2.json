@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://bitbucket.org/berkeleylab/pexsi",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pexsi.readthedocs.io/en/latest/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.0": {
+        "weak": [
+          "pexsi >=2.0.0,<2.1.0a0 mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://bitbucket.org/berkeleylab/pexsi/downloads/pexsi_v2.0.0.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Pole expansion and selected inversion",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647180742,
+    "version": "2.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pexsi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pexsi-2.0.0-mpi_openmpi_h8e81507_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_h8e81507_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.9.0,<4.0a0",
+      "libcxx >=12.0.1",
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.1.dev0",
+      "liblapack >=3.9.0,<4.0a0",
+      "llvm-openmp >=12.0.1",
+      "llvm-openmp >=13.0.1",
+      "openmpi >=4.1.2,<5.0a0",
+      "parmetis",
+      "superlu_dist >=7.1.1,<8.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "516bacdf6ce6e7009c96dd67d053c570",
+    "name": "pexsi",
+    "sha256": "424f77213932e92e697e10c0c994c36793c6cf6d233c1dc93603184fe1487999",
+    "size": 1779856,
+    "subdir": "osx-arm64",
+    "timestamp": 1647180742217,
+    "version": "2.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/pexsi-2.0.0-mpi_openmpi_h8e81507_0.tar.bz2/pexsi-2.0.0-mpi_openmpi_h8e81507_0.tar.bz2"
+}
