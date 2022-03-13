@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm/llvm-project/",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://openmp.llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "14.0.0.rc4": {
+        "strong": [
+          "llvm-openmp >=14.0.0.0rc.4",
+          "_openmp_mutex >=4.5",
+          "_openmp_mutex * *_llvm"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.0-rc4/openmp-14.0.0rc4.src.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "The OpenMP API supports multi-platform shared-memory parallel programming in C/C++ and Fortran.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647172468,
+    "version": "14.0.0.rc4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmp-feedstock",
+  "labels": [
+    "llvm_rc"
+  ],
+  "package": "llvm-openmp-14.0.0.rc4-hb998da7_0.tar.bz2",
+  "repodata": {
+    "build": "hb998da7_0",
+    "build_number": 0,
+    "constrains": [
+      "openmp 14.0.0.rc4|14.0.0.rc4.*"
+    ],
+    "depends": [
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "NCSA",
+    "md5": "1295a66652b0c2b2251b592855c06d03",
+    "name": "llvm-openmp",
+    "sha256": "dc984e26a0cf4167f713817e5498d1745f7d86163b7deb95e4c72360c5d53dff",
+    "size": 6618492,
+    "subdir": "linux-aarch64",
+    "timestamp": 1647172468162,
+    "version": "14.0.0.rc4"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/llvm-openmp-14.0.0.rc4-hb998da7_0.tar.bz2/llvm-openmp-14.0.0.rc4-hb998da7_0.tar.bz2"
+}
