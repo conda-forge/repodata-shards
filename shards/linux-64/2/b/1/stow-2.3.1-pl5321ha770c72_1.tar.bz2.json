@@ -1,0 +1,56 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "GNU Stow is a symlink farm manager which takes distinct packages of software and/or data located in separate directories on the filesystem, and makes them appear to be installed in the same place. For example, /usr/local/bin could contain symlinks to files within /usr/local/stow/emacs/bin, /usr/local/stow/perl/bin etc., and likewise recursively for any other subdirectories such as .../share, .../man, and so on. This is particularly useful for keeping track of system-wide and per-user installations of software built from source, but can also facilitate a more controlled approach to management of configuration files in the user's home directory, especially when coupled with version control systems.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://www.gnu.org/software/stow/manual/",
+    "home": "https://www.gnu.org/software/stow/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://ftp.gnu.org/gnu/stow/stow-2.3.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "software package installation manager",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647221765,
+    "version": "2.3.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "stow-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "stow-2.3.1-pl5321ha770c72_1.tar.bz2",
+  "repodata": {
+    "build": "pl5321ha770c72_1",
+    "build_number": 1,
+    "depends": [
+      "perl >=5.32.1,<5.33.0a0 *_perl5"
+    ],
+    "license": "GPL-3.0-or-later",
+    "md5": "5db5c7cb828fb5f3cf8f0d43afb1165d",
+    "name": "stow",
+    "sha256": "68b4753f68629a1e179e48078e4f6c8db81d77536f1f33603d39839df01ee23c",
+    "size": 411590,
+    "subdir": "linux-64",
+    "timestamp": 1647221765333,
+    "version": "2.3.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/stow-2.3.1-pl5321ha770c72_1.tar.bz2/stow-2.3.1-pl5321ha770c72_1.tar.bz2"
+}
