@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "The LSC Algorithm Inspiral Library for gravitational wave data analysis. This package contains the shared object libraries needed to run applications that use the LAL Inspiral library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalinspiral/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.6": {
+        "weak": [
+          "liblalinspiral >=2.0.6,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalinspiral-2.0.6.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Inspiral Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647265432,
+    "version": "2.0.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalinspiral-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalinspiral-2.0.6-hc09d588_0.tar.bz2",
+  "repodata": {
+    "build": "hc09d588_0",
+    "build_number": 0,
+    "constrains": [
+      "python-lalinspiral >=2.0.1",
+      "lalinspiral >=2.0.1"
+    ],
+    "depends": [
+      "gsl >=2.7,<2.8.0a0",
+      "libgcc-ng >=10.3.0",
+      "liblal >=7.1.0",
+      "liblal >=7.1.6,<8.0a0",
+      "liblalframe >=2.0.0",
+      "liblalframe >=2.0.0,<3.0a0",
+      "liblalmetaio >=2.1.0",
+      "liblalmetaio >=2.1.2,<3.0a0",
+      "liblalsimulation >=3.1.0",
+      "liblalsimulation >=3.1.2,<4.0a0",
+      "metaio"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "2602dc9f06d62b84f8fe809860c9c9de",
+    "name": "liblalinspiral",
+    "sha256": "29b50e3284e763add1707041e54e63234608d993a2346cda348eba8f4129e437",
+    "size": 3676164,
+    "subdir": "linux-64",
+    "timestamp": 1647265432666,
+    "version": "2.0.6"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/liblalinspiral-2.0.6-hc09d588_0.tar.bz2/liblalinspiral-2.0.6-hc09d588_0.tar.bz2"
+}
