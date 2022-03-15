@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This library wraps pyarrow to provide some tools to easily convert JSON data into Parquet format. It is mostly in Python. It iterates over files. It copies the data several times in memory. It is not meant to be the fastest thing available. However, it is convenient for smaller data sets, or people who don't have a huge issue with speed.",
+    "dev_url": "https://github.com/andrewgross/json2parquet",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/andrewgross/json2parquet",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/j/json2parquet/json2parquet-2.0.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A simple Parquet converter for JSON/python data",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647358698,
+    "version": "2.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "json2parquet-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "json2parquet-2.0.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "ciso8601",
+      "numpy >=1.14.0",
+      "pandas <2.0.0",
+      "pyarrow <6.0.0",
+      "python >=3.6"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "edb245fd64601b55ef646bc7acc3d2a2",
+    "name": "json2parquet",
+    "noarch": "python",
+    "sha256": "1ca4ffa8ad8ba8164d1ed30b1e9ea9ad175d7e69b11308709649ad10e1cc4cf5",
+    "size": 11340,
+    "subdir": "noarch",
+    "timestamp": 1647358698882,
+    "version": "2.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/json2parquet-2.0.0-pyhd8ed1ab_0.tar.bz2/json2parquet-2.0.0-pyhd8ed1ab_0.tar.bz2"
+}
