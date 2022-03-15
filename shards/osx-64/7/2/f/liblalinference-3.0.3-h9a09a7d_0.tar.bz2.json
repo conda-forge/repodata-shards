@@ -1,0 +1,83 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Inference Library for gravitational wave data analysis.  This package contains the shared object libraries needed to run applications that use the LAL Inspiral library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite/",
+    "doc_source_url": null,
+    "doc_url": "https://docs.ligo.org/lscsoft/lalsuite/lalinference/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.0.3": {
+        "weak": [
+          "liblalinference >=3.0.3,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/lalsuite/lalinference-3.0.3.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LSC Algorithm Inference Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647299951,
+    "version": "3.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalinference-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalinference-3.0.3-h9a09a7d_0.tar.bz2",
+  "repodata": {
+    "build": "h9a09a7d_0",
+    "build_number": 0,
+    "constrains": [
+      "lalinference >=2.0.6",
+      "python-lalinference >=2.0.6"
+    ],
+    "depends": [
+      "gsl >=2.7,<2.8.0a0",
+      "lalinference-data 3.0.3 h694c41f_0",
+      "liblal >=7.1.0 fftw*",
+      "liblal >=7.1.6,<8.0a0",
+      "liblalburst >=1.5.12,<2.0a0",
+      "liblalburst >=1.5.3",
+      "liblalframe >=2.0.0",
+      "liblalframe >=2.0.0,<3.0a0",
+      "liblalinspiral >=2.0.0",
+      "liblalinspiral >=2.0.6,<3.0a0",
+      "liblalmetaio >=2.1.0",
+      "liblalmetaio >=2.1.2,<3.0a0",
+      "liblalpulsar >=4.0.0",
+      "liblalpulsar >=4.0.0,<5.0a0",
+      "liblalsimulation >=3.1.0",
+      "liblalsimulation >=3.1.2,<4.0a0",
+      "llvm-openmp >=12.0.1"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "2c2114af92ad4ff427fee80901454bdf",
+    "name": "liblalinference",
+    "sha256": "3bda8992a91ce1ec21cf2aeca2a88db5d8c5d7ed09c81bbdc2d70cb8563e7242",
+    "size": 1196891,
+    "subdir": "osx-64",
+    "timestamp": 1647299951235,
+    "version": "3.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/liblalinference-3.0.3-h9a09a7d_0.tar.bz2/liblalinference-3.0.3-h9a09a7d_0.tar.bz2"
+}
