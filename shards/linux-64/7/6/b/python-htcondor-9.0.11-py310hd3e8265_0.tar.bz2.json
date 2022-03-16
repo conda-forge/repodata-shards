@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The HTCondor Python bindings aim to expose a high-quality, Pythonic interface to the HTCondor client libraries. They utilize the same C++ libraries as HTCondor itself, meaning they have nearly the same behavior as the command line tools.",
+    "dev_url": "https://github.com/htcondor/htcondor",
+    "doc_source_url": null,
+    "doc_url": "https://htcondor.readthedocs.io/",
+    "home": "http://htcondor.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://research.cs.wisc.edu/htcondor/tarball/9.0/9.0.11/release/condor-9.0.11-src.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python bindings for HTCondor",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647438657,
+    "version": "9.0.11"
+  },
+  "channeldata_version": 1,
+  "feedstock": "htcondor-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-htcondor-9.0.11-py310hd3e8265_0.tar.bz2",
+  "repodata": {
+    "build": "py310hd3e8265_0",
+    "build_number": 0,
+    "depends": [
+      "boost >=1.74.0,<1.74.1.0a0",
+      "htcondor-classads 9.0.11 h9d75d03_0",
+      "libcondor_utils 9.0.11 hd2a20c0_0",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "80d822defc719c78114d8683b37b2e0d",
+    "name": "python-htcondor",
+    "sha256": "8c6c2e570bb257d0884c69e574b0e12660da3cdf39762ba7e25e085d19f2567d",
+    "size": 8965336,
+    "subdir": "linux-64",
+    "timestamp": 1647438657778,
+    "version": "9.0.11"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/python-htcondor-9.0.11-py310hd3e8265_0.tar.bz2/python-htcondor-9.0.11-py310hd3e8265_0.tar.bz2"
+}
