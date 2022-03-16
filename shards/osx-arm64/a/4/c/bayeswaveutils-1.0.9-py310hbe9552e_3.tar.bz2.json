@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A Bayesian algorithm designed to robustly distinguish gravitational wave signals from noise and instrumental glitches without relying on any prior assumptions of waveform morphology. BayesWave produces posterior probability distributions directly on gravitational wave signals and instrumental glitches, allowing robust, morphology-independent waveform reconstruction.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://git.ligo.org/lscsoft/bayeswave",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://software.ligo.org/lscsoft/source/bayeswave-1.0.9.tar.xz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Python utilities for BayesWave",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647454994,
+    "version": "1.0.9"
+  },
+  "channeldata_version": 1,
+  "feedstock": "bayeswave-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "bayeswaveutils-1.0.9-py310hbe9552e_3.tar.bz2",
+  "repodata": {
+    "build": "py310hbe9552e_3",
+    "build_number": 3,
+    "depends": [
+      "astropy",
+      "healpy",
+      "lalapps",
+      "ligo-gracedb",
+      "ligo-segments",
+      "ligo.skymap",
+      "lscsoft-glue",
+      "matplotlib-base <3.5.0a0",
+      "numpy",
+      "python >=3.10,<3.11.0a0",
+      "python >=3.10,<3.11.0a0 *_cpython",
+      "python-lal",
+      "python-ligo-lw",
+      "python_abi 3.10.* *_cp310",
+      "scipy",
+      "setuptools"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "ed30202a6efd446b385af7386170d0f8",
+    "name": "bayeswaveutils",
+    "sha256": "11315518157e6b1087bbef4855ddefe59aeea6dd9fc55d099758ca954737a98d",
+    "size": 133711,
+    "subdir": "osx-arm64",
+    "timestamp": 1647454994050,
+    "version": "1.0.9"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/bayeswaveutils-1.0.9-py310hbe9552e_3.tar.bz2/bayeswaveutils-1.0.9-py310hbe9552e_3.tar.bz2"
+}
