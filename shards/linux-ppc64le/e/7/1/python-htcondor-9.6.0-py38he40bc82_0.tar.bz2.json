@@ -1,7 +1,7 @@
 {
   "channeldata": {
     "activate.d": false,
-    "binary_prefix": false,
+    "binary_prefix": true,
     "deactivate.d": false,
     "description": "The HTCondor Python bindings aim to expose a high-quality, Pythonic interface to the HTCondor client libraries. They utilize the same C++ libraries as HTCondor itself, meaning they have nearly the same behavior as the command line tools.",
     "dev_url": "https://github.com/htcondor/htcondor",
@@ -26,7 +26,7 @@
     "summary": "Python bindings for HTCondor",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1647447162,
+    "timestamp": 1647449032,
     "version": "9.6.0"
   },
   "channeldata_version": 1,
@@ -34,9 +34,9 @@
   "labels": [
     "main"
   ],
-  "package": "python-htcondor-9.6.0-py37h482960c_0.tar.bz2",
+  "package": "python-htcondor-9.6.0-py38he40bc82_0.tar.bz2",
   "repodata": {
-    "build": "py37h482960c_0",
+    "build": "py38he40bc82_0",
     "build_number": 0,
     "depends": [
       "boost >=1.74.0,<1.74.1.0a0",
@@ -44,20 +44,20 @@
       "libcondor_utils 9.6.0 h8a95666_0",
       "libgcc-ng >=10.3.0",
       "libstdcxx-ng >=10.3.0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m"
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "Apache-2.0",
     "license_family": "APACHE",
-    "md5": "3edfc0a45fbd678d5390efe81d66e9b0",
+    "md5": "620a27faf704fd40f2364eee9b69e34a",
     "name": "python-htcondor",
-    "sha256": "aa6ee8c88695883997d51e115057c603aa4ae93fd6dbe6f4ba4bac48df5fa7c5",
-    "size": 8878808,
+    "sha256": "7da2566b3b6b716c5cbdb0904facdbc650a0e99ef79d8cddd8f0f85874c26309",
+    "size": 9099017,
     "subdir": "linux-ppc64le",
-    "timestamp": 1647447162110,
+    "timestamp": 1647449032238,
     "version": "9.6.0"
   },
   "repodata_version": 1,
   "subdir": "linux-ppc64le",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/python-htcondor-9.6.0-py37h482960c_0.tar.bz2/python-htcondor-9.6.0-py37h482960c_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/python-htcondor-9.6.0-py38he40bc82_0.tar.bz2"
 }
