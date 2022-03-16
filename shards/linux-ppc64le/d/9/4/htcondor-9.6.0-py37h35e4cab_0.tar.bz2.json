@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "HTCondor is a workload management system for high-throughput and high-performance jobs. Like other full-featured batch systems, HTCondor provides a job queuing mechanism, scheduling policy, priority scheme, resource monitoring, and resource management. Users submit their serial or parallel jobs to HTCondor, HTCondor places them into a queue, chooses when and where to run the jobs based upon a policy, carefully monitors their progress, and ultimately informs the user upon completion.",
+    "dev_url": "https://github.com/htcondor/htcondor",
+    "doc_source_url": null,
+    "doc_url": "https://htcondor.readthedocs.io/",
+    "home": "http://htcondor.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://research.cs.wisc.edu/htcondor/tarball/feature/9.6.0/release/condor-9.6.0-src.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "HTCondor: High Throughput Computing",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647452799,
+    "version": "9.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "htcondor-9.6.0-py37h35e4cab_0.tar.bz2",
+  "repodata": {
+    "build": "py37h35e4cab_0",
+    "build_number": 0,
+    "depends": [
+      "htcondor-classads 9.6.0 h4ad5111_0",
+      "htcondor-utils 9.6.0 hd7ba6de_0",
+      "libcondor_utils 9.6.0 h8a95666_0",
+      "python >=3.7,<3.8.0a0",
+      "python-htcondor 9.6.0 py37h482960c_0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "640460b2c3aac0d3ea61c37cdd56ed4a",
+    "name": "htcondor",
+    "sha256": "23fbaf9156dc571e17e14a85d85a2ca47e31a36c75873027b3f3f87241c88964",
+    "size": 17650,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1647452799648,
+    "version": "9.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/conda-forge/linux-ppc64le/htcondor-9.6.0-py37h35e4cab_0.tar.bz2"
+}
