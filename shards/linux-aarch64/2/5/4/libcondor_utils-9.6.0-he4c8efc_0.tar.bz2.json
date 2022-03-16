@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Just the HTCondor libcondor_utils shared object library.",
+    "dev_url": "https://github.com/htcondor/htcondor",
+    "doc_source_url": null,
+    "doc_url": "https://htcondor.readthedocs.io/",
+    "home": "http://htcondor.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "9.6.0": {
+        "weak": [
+          "libcondor_utils >=9.6.0,<9.6.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://research.cs.wisc.edu/htcondor/tarball/feature/9.6.0/release/condor-9.6.0-src.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "HTCondor utilities library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647445720,
+    "version": "9.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "htcondor-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libcondor_utils-9.6.0-he4c8efc_0.tar.bz2",
+  "repodata": {
+    "build": "he4c8efc_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "htcondor-classads 9.6.0 h584bf5a_0",
+      "krb5 >=1.19.3,<1.20.0a0",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "libuuid >=2.32.1,<3.0a0",
+      "munge",
+      "openssl >=1.1.1l,<1.1.2a",
+      "pcre >=8.45,<9.0a0",
+      "scitokens-cpp >=0.6.3,<1.0a0",
+      "voms"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "ea0b5cf6591d5fc1747678aa0135d422",
+    "name": "libcondor_utils",
+    "sha256": "2e50f9d637ba3be1d97488223268814ba7d688f923147357b6973c2a2ab26daa",
+    "size": 23951054,
+    "subdir": "linux-aarch64",
+    "timestamp": 1647445720831,
+    "version": "9.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libcondor_utils-9.6.0-he4c8efc_0.tar.bz2/libcondor_utils-9.6.0-he4c8efc_0.tar.bz2"
+}
