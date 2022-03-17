@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Change point detection tries to identify times when the probability distribution of a stochastic process or time series changes. Existing methods either assume a parametric model for within-segment distributions or a based on ranks or distances, and thus fail in scenarios with reasonably large dimensionality. `changeforest` implements a classifier based algorithm that consistently estimates change points without any parametric assumptions even in high-dimensional scenarios. See [1] for details.  [1] M. Londschien, S. Kov\u00E1cs and P. B\u00FChlmann (2021), \"Random Forests and other nonparametric classifiers for multivariate change point detection\", working paper.",
+    "dev_url": "https://github.com/mlondschien/changeforest",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mlondschien/changeforest",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/mlondschien/changeforest/archive/refs/tags/0.5.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Classifier based non-parametric change point detection",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647498384,
+    "version": "0.5.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-changeforest-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-changeforest-0.5.1-r40h166bdaf_0.tar.bz2",
+  "repodata": {
+    "build": "r40h166bdaf_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "r-base >=4.0,<4.1.0a0",
+      "r-r6"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "fa86e2814d4444e2fbab3d2f5618dd60",
+    "name": "r-changeforest",
+    "sha256": "08be97f5a38d72428864bae19c5ca2a8cf9af3b92bd668a0011e1f7bbbc4f894",
+    "size": 1908577,
+    "subdir": "linux-64",
+    "timestamp": 1647498384558,
+    "version": "0.5.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-changeforest-0.5.1-r40h166bdaf_0.tar.bz2/r-changeforest-0.5.1-r40h166bdaf_0.tar.bz2"
+}
