@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "This package includes the protocol definitions for the new D-Bus at-spi.  Also included is the daemon necessary for forwarding device events and registering accessible applicaitions.",
+    "dev_url": "https://gitlab.gnome.org/GNOME/at-spi2-core",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.gtk.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.44.0": {
+        "weak": [
+          "at-spi2-core >=2.44.0,<2.45.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://download.gnome.org/sources/at-spi2-core/2.44/at-spi2-core-2.44.0.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "D-Bus-based implementation of AT-SPI accessibility framework",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647622515,
+    "version": "2.44.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "at-spi2-core-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "at-spi2-core-2.44.0-h419b415_0.tar.bz2",
+  "repodata": {
+    "build": "h419b415_0",
+    "build_number": 0,
+    "depends": [
+      "dbus >=1.13.6,<2.0a0",
+      "libgcc-ng >=10.3.0",
+      "libglib >=2.70.2,<3.0a0",
+      "xorg-libx11",
+      "xorg-libxi",
+      "xorg-libxtst"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "LGPL",
+    "md5": "cc8f2c83552d4c3d0f9843c4f7d6602e",
+    "name": "at-spi2-core",
+    "sha256": "8430a2b68d89f376d8383f188c9055b406cf126869b17aebc5c9a129ccf8ceef",
+    "size": 627813,
+    "subdir": "linux-64",
+    "timestamp": 1647622515163,
+    "version": "2.44.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/at-spi2-core-2.44.0-h419b415_0.tar.bz2/at-spi2-core-2.44.0-h419b415_0.tar.bz2"
+}
