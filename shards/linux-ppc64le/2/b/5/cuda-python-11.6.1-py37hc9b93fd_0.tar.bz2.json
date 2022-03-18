@@ -21,12 +21,12 @@
     "source_git_url": null,
     "source_url": "https://github.com/NVIDIA/cuda-python/archive/refs/tags/v11.6.1.tar.gz",
     "subdirs": [
-      "win-64"
+      "linux-ppc64le"
     ],
     "summary": "CUDA Python Low-level Bindings",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1647632815,
+    "timestamp": 1647636148,
     "version": "11.6.1"
   },
   "channeldata_version": 1,
@@ -34,29 +34,30 @@
   "labels": [
     "main"
   ],
-  "package": "cuda-python-11.6.1-py39h415ef7b_0.tar.bz2",
+  "package": "cuda-python-11.6.1-py37hc9b93fd_0.tar.bz2",
   "repodata": {
-    "build": "py39h415ef7b_0",
+    "build": "py37hc9b93fd_0",
     "build_number": 0,
+    "constrains": [
+      "__glibc >=2.17"
+    ],
     "depends": [
       "cudatoolkit >=11,<12.0a0",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
-      "pywin32",
-      "vc >=14.1,<15",
-      "vs2015_runtime >=14.16.27033"
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
     ],
     "license": "LicenseRef-NVIDIA-SOFTWARE-LICENSE",
-    "md5": "6ddd05fcad21ddbc38b1f91ecc58fe88",
+    "md5": "0b26b7693addeda8df12774437c20ee0",
     "name": "cuda-python",
-    "sha256": "140b9621b72062288cf47808cbeaad97b2e43f625cb51a9fe9e1e6608cabcc80",
-    "size": 5092869,
-    "subdir": "win-64",
-    "timestamp": 1647632815066,
+    "sha256": "6767dbb4348401094de34bc5a331251f3dbee21081f7c4fe599cb7fe5dcd44ea",
+    "size": 5092299,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1647636148065,
     "version": "11.6.1"
   },
   "repodata_version": 1,
-  "subdir": "win-64",
-  "undistributable_hash": "f123ce",
-  "url": "https://conda.anaconda.org/conda-forge/win-64/cuda-python-11.6.1-py39h415ef7b_0.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/cf-staging/linux-ppc64le/cuda-python-11.6.1-py37hc9b93fd_0.tar.bz2"
 }
