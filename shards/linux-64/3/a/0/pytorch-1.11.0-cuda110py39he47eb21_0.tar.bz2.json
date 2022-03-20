@@ -32,7 +32,7 @@
     "summary": "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
     "tags": null,
     "text_prefix": true,
-    "timestamp": 1647378184,
+    "timestamp": 1647390565,
     "version": "1.11.0"
   },
   "channeldata_version": 1,
@@ -40,49 +40,49 @@
   "labels": [
     "main"
   ],
-  "package": "pytorch-1.11.0-cuda111py37h2eaf6d3_0.tar.bz2",
+  "package": "pytorch-1.11.0-cuda110py39he47eb21_0.tar.bz2",
   "repodata": {
-    "build": "cuda111py37h2eaf6d3_0",
+    "build": "cuda110py39he47eb21_0",
     "build_number": 0,
     "constrains": [
-      "pytorch-cpu = 99999999",
-      "pytorch-gpu = 1.11.0"
+      "pytorch-gpu = 1.11.0",
+      "pytorch-cpu = 99999999"
     ],
     "depends": [
       "__glibc >=2.17",
       "__glibc >=2.17,<3.0.a0",
       "_openmp_mutex >=4.5",
       "cffi",
-      "cudatoolkit 11.1|11.1.*",
+      "cudatoolkit 11.0|11.0.*",
       "cudnn >=8.2.1.32,<9.0a0",
       "libblas * *_mkl",
       "libblas >=3.9.0,<4.0a0",
-      "libgcc-ng >=10.3.0",
+      "libgcc-ng >=9.4.0",
       "libprotobuf >=3.19.4,<3.20.0a0",
-      "libstdcxx-ng >=10.3.0",
+      "libstdcxx-ng >=9.4.0",
       "magma >=2.5.4,<2.5.5.0a0",
       "mkl 2022.*",
       "mkl >=2022.0.1,<2023.0a0",
       "nccl >=2.12.7.1,<3.0a0",
       "ninja",
       "numpy >=1.19.5,<2.0a0",
-      "python >=3.7,<3.8.0a0",
-      "python_abi 3.7.* *_cp37m",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
       "setuptools",
       "sleef >=3.5.1,<4.0a0",
       "typing_extensions"
     ],
     "license": "BSD-3-Clause",
     "license_family": "BSD",
-    "md5": "8149d4c2e775b1dd7b8ffd6fac97407d",
+    "md5": "9fc502de0dc8e0a1522fb249718fafe2",
     "name": "pytorch",
-    "sha256": "46f61b289de58a9585b06b1ff8fc28b46c2be1f63fbbbd114dc5c753fd6b9667",
-    "size": 661352177,
+    "sha256": "a42b0ec8ce885b59099e5f8ba0d61f8ed21c9f5ff495633f4fbb68d4e868a539",
+    "size": 476501594,
     "subdir": "linux-64",
-    "timestamp": 1647378184680,
+    "timestamp": 1647390565527,
     "version": "1.11.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pytorch-1.11.0-cuda111py37h2eaf6d3_0.tar.bz2/pytorch-1.11.0-cuda111py37h2eaf6d3_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pytorch-1.11.0-cuda110py39he47eb21_0.tar.bz2"
 }
