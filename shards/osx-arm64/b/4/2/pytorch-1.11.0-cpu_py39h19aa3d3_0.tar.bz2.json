@@ -1,0 +1,82 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pytorch.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.11.0": {
+        "weak": [
+          "pytorch >=1.11.0,<1.12.0a0"
+        ]
+      }
+    },
+    "source_git_url": "https://github.com/pytorch/pytorch.git",
+    "source_url": null,
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647810405,
+    "version": "1.11.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pytorch-cpu-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pytorch-1.11.0-cpu_py39h19aa3d3_0.tar.bz2",
+  "repodata": {
+    "build": "cpu_py39h19aa3d3_0",
+    "build_number": 0,
+    "constrains": [
+      "pytorch-cpu = 1.11.0",
+      "pytorch-gpu = 99999999"
+    ],
+    "depends": [
+      "cffi",
+      "libblas >=3.9.0,<4.0a0",
+      "libcblas",
+      "libcxx >=12.0.1",
+      "liblapack >=3.9.0,<4.0a0",
+      "libprotobuf >=3.19.4,<3.20.0a0",
+      "llvm-openmp >=12.0.1",
+      "llvm-openmp >=13.0.1",
+      "ninja",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python >=3.9,<3.10.0a0 *_cpython",
+      "python_abi 3.9.* *_cp39",
+      "setuptools",
+      "sleef >=3.5.1,<4.0a0",
+      "typing_extensions"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "4c0238f2ad671970bba325f8be653ba2",
+    "name": "pytorch",
+    "sha256": "656acdbf15de4772bd9c17e253777e5cae81d17a79fa32e09441dbda6ffec4f5",
+    "size": 35568896,
+    "subdir": "osx-arm64",
+    "timestamp": 1647810405594,
+    "version": "1.11.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/pytorch-1.11.0-cpu_py39h19aa3d3_0.tar.bz2/pytorch-1.11.0-cpu_py39h19aa3d3_0.tar.bz2"
+}
