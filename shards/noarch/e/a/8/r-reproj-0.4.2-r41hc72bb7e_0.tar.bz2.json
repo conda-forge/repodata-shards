@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/hypertidy/reproj/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/reproj/reproj_0.4.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/reproj_0.4.2.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Transform coordinates from a specified source to a specified target map projection. This uses the 'PROJ' library directly, by wrapping the 'PROJ' package (if functional), otherwise the 'proj4' package. The 'reproj()' function is generic, methods may be added to remove the need for an explicit source definition. If 'proj4' is in use 'reproj()' handles the requirement for conversion of angular units where necessary. This is for use primarily to transform generic data formats and direct leverage of the underlying 'PROJ' library. (There are transformations that aren't possible with 'PROJ' and that are provided by the 'GDAL' library, a limitation which users of this package should be aware of.) The 'PROJ' library is available at <https://proj.org/>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647940519,
+    "version": "0.4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-reproj-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-reproj-0.4.2-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "proj >=4.4.6",
+      "r-base >=4.1,<4.2.0a0",
+      "r-crsmeta >=0.3.0",
+      "r-proj >=0.1.6",
+      "r-proj4"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "ba9bd430543e8f5209e5f5e85f104249",
+    "name": "r-reproj",
+    "noarch": "generic",
+    "sha256": "6528f1f9c2d897aaf36b515d99d08328b129011c9d81caf631a58ae341799f08",
+    "size": 317205,
+    "subdir": "noarch",
+    "timestamp": 1647940519245,
+    "version": "0.4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-reproj-0.4.2-r41hc72bb7e_0.tar.bz2/r-reproj-0.4.2-r41hc72bb7e_0.tar.bz2"
+}
