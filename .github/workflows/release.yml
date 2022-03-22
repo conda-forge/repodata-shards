@@ -27,7 +27,7 @@ jobs:
         shell: bash -l {0}
         run: |
           git config --global user.email "79913779+conda-forge-curator[bot]@users.noreply.github.com"
-          git config --global user.name "conda-forge-curator"
+          git config --global user.name "conda-forge-curator[bot]"
           git config --global pull.rebase false
 
           git clone --no-tags https://github.com/conda-forge/releases.git
