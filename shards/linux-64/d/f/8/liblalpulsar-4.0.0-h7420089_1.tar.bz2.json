@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The LSC Algorithm Pulsar Library for gravitational wave data analysis. This package contains the shared-object libraries needed to run applications that use the LAL Pulsar library.",
+    "dev_url": "https://git.ligo.org/lscsoft/lalsuite.git",
+    "doc_source_url": null,
+    "doc_url": "https://lscsoft.docs.ligo.org/lalsuite/lalpulsar/",
+    "home": "https://wiki.ligo.org/Computing/LALSuite",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.0.0": {
+        "weak": [
+          "liblalpulsar >=4.0.0,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://software.igwn.org/sources/source/lalsuite/lalpulsar-4.0.0.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "LSC Algorithm Pulsar Library shared object libraries",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647952435,
+    "version": "4.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "lalpulsar-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "liblalpulsar-4.0.0-h7420089_1.tar.bz2",
+  "repodata": {
+    "build": "h7420089_1",
+    "build_number": 1,
+    "constrains": [
+      "python-lalpulsar >=3.0.0",
+      "lalpulsar >=3.0.0"
+    ],
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "cfitsio >=4.1.0,<4.1.1.0a0",
+      "fftw >=3.3.10,<4.0a0",
+      "gsl >=2.7,<2.8.0a0",
+      "lalpulsar-data 4.0.0 ha770c72_1",
+      "libgcc-ng >=10.3.0",
+      "liblal >=7.1.5",
+      "liblal >=7.1.7,<8.0a0",
+      "liblalframe >=2.0.0",
+      "liblalframe >=2.0.0,<3.0a0"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "848314557d79a7ba7302252ddccf0808",
+    "name": "liblalpulsar",
+    "sha256": "04431f245f1de62b24dd5263fb8359560361d86c779caec18ddf22b25746dcba",
+    "size": 4783294,
+    "subdir": "linux-64",
+    "timestamp": 1647952435903,
+    "version": "4.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/liblalpulsar-4.0.0-h7420089_1.tar.bz2/liblalpulsar-4.0.0-h7420089_1.tar.bz2"
+}
