@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "MFEM is a modular parallel C++ library for finite element methods. Its goal is to enable high-performance scalable finite element discretization research and application development on a wide variety of platforms, ranging from laptops to supercomputers.",
+    "dev_url": "https://github.com/mfem/mfem",
+    "doc_source_url": null,
+    "doc_url": "https://mfem.org/serial-tutorial/",
+    "home": "https://mfem.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.4": {
+        "weak": [
+          "mfem >=4.4,<4.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mfem/mfem/archive/refs/tags/v4.4.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Lightweight, general, scalable C++ library for finite element methods",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1647921944,
+    "version": "4.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mfem-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mfem-4.4-mpi_mpich_h692dfba_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_h692dfba_0",
+    "build_number": 0,
+    "depends": [
+      "hypre",
+      "libcxx >=12.0.1",
+      "metis >=5.1.0,<5.2.0a0",
+      "mpich >=4.0.1,<5.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "03169c3df566622da781b57851d3d601",
+    "name": "mfem",
+    "sha256": "84382e3167582f10f05e228d7a8aa2fc18b25110afc3b8d9541d621a9b00583d",
+    "size": 3872689,
+    "subdir": "osx-arm64",
+    "timestamp": 1647921944308,
+    "version": "4.4"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/mfem-4.4-mpi_mpich_h692dfba_0.tar.bz2/mfem-4.4-mpi_mpich_h692dfba_0.tar.bz2"
+}
