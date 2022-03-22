@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The cuTENSOR Library is a first-of-its-kind GPU-accelerated tensor linear algebra library providing tensor contraction, reduction and elementwise operations. cuTENSOR is used to accelerate applications in the areas of deep learning training and inference, computer vision, quantum chemistry and computational physics.  License Agreements:- The packages are governed by the NVIDIA cuTENSOR Software License Agreement (EULA). By downloading and using the packages, you accept the terms and conditions of the NVIDIA cuTENSOR EULA - https://docs.nvidia.com/cuda/cutensor/license.html",
+    "dev_url": "https://developer.nvidia.com/cutensor/downloads",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/cuda/cutensor/index.html",
+    "home": "https://developer.nvidia.com/cutensor",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-cuTENSOR-Software-License-Agreement",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.5.0.3": {
+        "weak": [
+          "cutensor >=1.5.0.3,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.5.0.3-archive.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "Tensor Linear Algebra on NVIDIA GPUs",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1647916763,
+    "version": "1.5.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cutensor-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cutensor-1.5.0.3-headfab1_0.tar.bz2",
+  "repodata": {
+    "build": "headfab1_0",
+    "build_number": 0,
+    "constrains": [
+      "__glibc >=2.17"
+    ],
+    "depends": [
+      "__glibc >=2.17",
+      "cudatoolkit 11.1|11.1.*",
+      "cudatoolkit >=11.1,<12",
+      "libgcc-ng >=9.4.0"
+    ],
+    "license": "LicenseRef-cuTENSOR-Software-License-Agreement",
+    "md5": "6d6fe924b800ce99d2b02ae43ac183f5",
+    "name": "cutensor",
+    "sha256": "3c6af79403242ae5181989f0a46396e6fade8340bdd2518788718892ec78f455",
+    "size": 57807829,
+    "subdir": "linux-aarch64",
+    "timestamp": 1647916763904,
+    "version": "1.5.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/cf-staging/linux-aarch64/cutensor-1.5.0.3-headfab1_0.tar.bz2"
+}
