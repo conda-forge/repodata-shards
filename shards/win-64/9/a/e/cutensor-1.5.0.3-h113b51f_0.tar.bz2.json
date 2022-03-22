@@ -25,14 +25,14 @@
       }
     },
     "source_git_url": null,
-    "source_url": "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.5.0.3-archive.tar.xz",
+    "source_url": "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.5.0.3-archive.zip",
     "subdirs": [
-      "linux-aarch64"
+      "win-64"
     ],
     "summary": "Tensor Linear Algebra on NVIDIA GPUs",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1647916763,
+    "timestamp": 1647917893,
     "version": "1.5.0.3"
   },
   "channeldata_version": 1,
@@ -40,30 +40,27 @@
   "labels": [
     "main"
   ],
-  "package": "cutensor-1.5.0.3-headfab1_0.tar.bz2",
+  "package": "cutensor-1.5.0.3-h113b51f_0.tar.bz2",
   "repodata": {
-    "build": "headfab1_0",
+    "build": "h113b51f_0",
     "build_number": 0,
-    "constrains": [
-      "__glibc >=2.17"
-    ],
     "depends": [
-      "__glibc >=2.17",
       "cudatoolkit 11.1|11.1.*",
       "cudatoolkit >=11.1,<12",
-      "libgcc-ng >=9.4.0"
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
     ],
     "license": "LicenseRef-cuTENSOR-Software-License-Agreement",
-    "md5": "6d6fe924b800ce99d2b02ae43ac183f5",
+    "md5": "6f52454b9e42cf4baa894bacfc1b150f",
     "name": "cutensor",
-    "sha256": "3c6af79403242ae5181989f0a46396e6fade8340bdd2518788718892ec78f455",
-    "size": 57807829,
-    "subdir": "linux-aarch64",
-    "timestamp": 1647916763904,
+    "sha256": "c30106820ad5eb0d91a6cd51e66f4490786d03393448a6596f49a5e62806bb62",
+    "size": 55089046,
+    "subdir": "win-64",
+    "timestamp": 1647917893922,
     "version": "1.5.0.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-aarch64",
+  "subdir": "win-64",
   "undistributable_hash": "f123ce",
-  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/cutensor-1.5.0.3-headfab1_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cutensor-1.5.0.3-h113b51f_0.tar.bz2"
 }

@@ -25,14 +25,14 @@
       }
     },
     "source_git_url": null,
-    "source_url": "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.5.0.3-archive.tar.xz",
+    "source_url": "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.5.0.3-archive.zip",
     "subdirs": [
-      "linux-aarch64"
+      "win-64"
     ],
     "summary": "Tensor Linear Algebra on NVIDIA GPUs",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1647916763,
+    "timestamp": 1647918308,
     "version": "1.5.0.3"
   },
   "channeldata_version": 1,
@@ -40,30 +40,27 @@
   "labels": [
     "main"
   ],
-  "package": "cutensor-1.5.0.3-headfab1_0.tar.bz2",
+  "package": "cutensor-1.5.0.3-h5987435_0.tar.bz2",
   "repodata": {
-    "build": "headfab1_0",
+    "build": "h5987435_0",
     "build_number": 0,
-    "constrains": [
-      "__glibc >=2.17"
-    ],
     "depends": [
-      "__glibc >=2.17",
-      "cudatoolkit 11.1|11.1.*",
-      "cudatoolkit >=11.1,<12",
-      "libgcc-ng >=9.4.0"
+      "cudatoolkit 11.0.*",
+      "cudatoolkit 11.0|11.0.*",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
     ],
     "license": "LicenseRef-cuTENSOR-Software-License-Agreement",
-    "md5": "6d6fe924b800ce99d2b02ae43ac183f5",
+    "md5": "d6e29d96799b2f79f71104fc99c04330",
     "name": "cutensor",
-    "sha256": "3c6af79403242ae5181989f0a46396e6fade8340bdd2518788718892ec78f455",
-    "size": 57807829,
-    "subdir": "linux-aarch64",
-    "timestamp": 1647916763904,
+    "sha256": "263e4668e735cf30cc7223b06d64cce9463c96fc2204467486d0fe5ad99fe394",
+    "size": 54441138,
+    "subdir": "win-64",
+    "timestamp": 1647918308791,
     "version": "1.5.0.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-aarch64",
+  "subdir": "win-64",
   "undistributable_hash": "f123ce",
-  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/cutensor-1.5.0.3-headfab1_0.tar.bz2"
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cutensor-1.5.0.3-h5987435_0.tar.bz2"
 }
