@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/RobinHankin/emulator",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/emulator/emulator_1.2-21.tar.gz",
+      "https://cran.r-project.org/src/contrib/emulator_1.2-21.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Allows one to estimate the output of a computer program, as a function of the input parameters, without actually running it. The computer program is assumed to be a Gaussian process, whose parameters are estimated using Bayesian techniques that give a PDF of expected program output.  This PDF is conditional on a training set of runs, each consisting of a point in parameter space and the model output at that point.  The emphasis is on complex codes that take weeks or months to run, and that have a large number of undetermined input parameters; many climate prediction models fall into this class.  The emulator essentially determines Bayesian posterior estimates of the PDF of the output of a model, conditioned on results from previous runs and a user-specified prior linear model.  The package includes functionality to evaluate quadratic forms efficiently.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648032223,
+    "version": "1.2_21"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-emulator-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-emulator-1.2_21-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-mvtnorm"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL3",
+    "md5": "984f0d71dcb0b2d090f5b1bdbba31631",
+    "name": "r-emulator",
+    "noarch": "generic",
+    "sha256": "b0eaec352eb8ebcfbf87f1dbf4ad6e60b359f44c28ce99dd792a098f85f122b3",
+    "size": 489453,
+    "subdir": "noarch",
+    "timestamp": 1648032223200,
+    "version": "1.2_21"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-emulator-1.2_21-r41hc72bb7e_0.tar.bz2/r-emulator-1.2_21-r41hc72bb7e_0.tar.bz2"
+}
