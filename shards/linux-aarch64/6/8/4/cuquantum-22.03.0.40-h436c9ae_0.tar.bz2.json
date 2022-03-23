@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NVIDIA cuQuantum is an SDK of optimized libraries and tools for accelerating quantum computing workflows. Using NVIDIA GPU Tensor Core GPUs, developers can use cuQuantum to speed up quantum circuit simulations based on state vector and tensor network methods by orders of magnitude. Two major components of the SDK are    - cuStateVec: a high-performance library for state vector computations   - cuTensorNet: a high-performance library for tensor network computations  License Agreements:- The packages are governed by the NVIDIA cuQuantum Software License Agreement (EULA). By downloading and using the packages, you accept the terms and conditions of the NVIDIA cuQuantum EULA - https://docs.nvidia.com/cuda/cuquantum/license.html",
+    "dev_url": "https://developer.nvidia.com/cuquantum-downloads",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/cuda/cuquantum/index.html",
+    "home": "https://developer.nvidia.com/cuquantum-sdk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-cuQuantum-Software-License-Agreement",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "22.03.0.40": {
+        "weak": [
+          "cuquantum >=22.3.0.40,<22.4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://developer.download.nvidia.com/compute/cuquantum/redist/cuquantum/linux-sbsa/cuquantum-linux-sbsa-22.03.0.40-archive.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "cuQuantum SDK: A High-Performance Library for Accelerating Quantum Information Science",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648059427,
+    "version": "22.03.0.40"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cuquantum-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cuquantum-22.03.0.40-h436c9ae_0.tar.bz2",
+  "repodata": {
+    "build": "h436c9ae_0",
+    "build_number": 0,
+    "depends": [
+      "_openmp_mutex",
+      "cudatoolkit >=11.0,<12",
+      "cutensor >=1.5,<2",
+      "libgcc-ng >=9.4.0",
+      "libgomp"
+    ],
+    "license": "LicenseRef-cuQuantum-Software-License-Agreement",
+    "md5": "8bbd84535153ad09bd180a95cc72ce7d",
+    "name": "cuquantum",
+    "sha256": "4d04a8e4af48f0d3218b57046625e003945de5699c460d5ee36ce7bafd1e6e28",
+    "size": 16043360,
+    "subdir": "linux-aarch64",
+    "timestamp": 1648059427018,
+    "version": "22.03.0.40"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/cf-staging/linux-aarch64/cuquantum-22.03.0.40-h436c9ae_0.tar.bz2"
+}
