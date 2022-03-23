@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "omniORB is an Object Request Broker (ORB) which implements specification 2.6 of the Common Object Request Broker Architecture (CORBA).",
+    "dev_url": "https://sourceforge.net/projects/omniorb/",
+    "doc_source_url": null,
+    "doc_url": "http://omniorb.sourceforge.net/docs.html",
+    "home": "http://omniorb.sourceforge.net/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later OR LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.2.5": {
+        "weak": [
+          "omniorb-libs >=4.2.5,<4.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://sourceforge.net/projects/omniorb/files/omniORB/omniORB-4.2.5/omniORB-4.2.5.tar.bz2",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Robust high performance CORBA ORB for C++ and Python",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1648032489,
+    "version": "4.2.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "omniorb-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "omniorb-4.2.5-py37h0327239_1.tar.bz2",
+  "repodata": {
+    "build": "py37h0327239_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "omniorb-libs 4.2.5 he49606f_1",
+      "openssl >=3.0.0,<4.0a0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "GPL-2.0-or-later OR LGPL-2.1-or-later",
+    "md5": "19b27998fcf3c403791c35ca7805aba4",
+    "name": "omniorb",
+    "sha256": "76c45a04decb210533d89e6816934fa71031c047b0c5f272ebadb15871687eb1",
+    "size": 3058107,
+    "subdir": "linux-64",
+    "timestamp": 1648032489920,
+    "version": "4.2.5"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/omniorb-4.2.5-py37h0327239_1.tar.bz2/omniorb-4.2.5-py37h0327239_1.tar.bz2"
+}
