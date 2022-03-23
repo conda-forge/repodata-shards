@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "NVIDIA cuQuantum Python provides Python bindings and high-level object-oriented models for accessing the full functionalities of NVIDIA cuQuantum SDK from Python.",
+    "dev_url": "https://github.com/NVIDIA/cuQuantum",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/cuda/cuquantum/python/index.html",
+    "home": "https://developer.nvidia.com/cuquantum-sdk",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/cuQuantum/archive/refs/tags/v22.03.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "cuQuantum Python: Python APIs for NVIDIA cuQuantum SDK",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648069596,
+    "version": "22.03.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cuquantum-python-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cuquantum-python-22.03.0-py39hcf40d7a_0.tar.bz2",
+  "repodata": {
+    "build": "py39hcf40d7a_0",
+    "build_number": 0,
+    "constrains": [
+      "pytorch >=1.10"
+    ],
+    "depends": [
+      "__glibc >=2.17,<3.0.a0",
+      "cupy >=9.5",
+      "cuquantum 22.03.*",
+      "cuquantum >=22.3.0.40,<22.4.0a0",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "numpy >=1.17",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "typing_extensions"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "fb522a9c4074a3581aa95a6568b67d46",
+    "name": "cuquantum-python",
+    "sha256": "afc4b3ef638b49d2007966a6c0239b61ba9f4e61413044c7654757a56616cfe7",
+    "size": 269201,
+    "subdir": "linux-64",
+    "timestamp": 1648069596138,
+    "version": "22.03.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/cf-staging/linux-64/cuquantum-python-22.03.0-py39hcf40d7a_0.tar.bz2"
+}
