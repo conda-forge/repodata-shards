@@ -25,14 +25,14 @@
       }
     },
     "source_git_url": null,
-    "source_url": "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-x86_64/libcutensor-linux-x86_64-1.5.0.3-archive.tar.xz",
+    "source_url": "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.5.0.3-archive.zip",
     "subdirs": [
-      "linux-64"
+      "win-64"
     ],
     "summary": "Tensor Linear Algebra on NVIDIA GPUs",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1648043689,
+    "timestamp": 1648044638,
     "version": "1.5.0.3"
   },
   "channeldata_version": 1,
@@ -40,30 +40,25 @@
   "labels": [
     "main"
   ],
-  "package": "cutensor-1.5.0.3-h12f7317_2.tar.bz2",
+  "package": "cutensor-1.5.0.3-h5987435_2.tar.bz2",
   "repodata": {
-    "build": "h12f7317_2",
+    "build": "h5987435_2",
     "build_number": 2,
-    "constrains": [
-      "__glibc >=2.17"
-    ],
     "depends": [
-      "__glibc >=2.17",
-      "__glibc >=2.17,<3.0.a0",
-      "cudatoolkit >=11.1,<12",
-      "libgcc-ng >=10.3.0"
+      "cudatoolkit 11.0.*",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
     ],
     "license": "LicenseRef-cuTENSOR-Software-License-Agreement",
-    "md5": "e5ecad91b9314f319560aa45c4b343f1",
+    "md5": "4038b6b293bcba8112d2dae48995e531",
     "name": "cutensor",
-    "sha256": "da47f159763c6246a9bada7eb1fa377dd3ce3958c5af191cc059a9c7cbd3aadc",
-    "size": 57576622,
-    "subdir": "linux-64",
-    "timestamp": 1648043689358,
+    "sha256": "5b760a979f2f0ad31fa71011d0ed371e1dbadafa6250cc8b4c3f4c7578461ed9",
+    "size": 54456549,
+    "subdir": "win-64",
+    "timestamp": 1648044638704,
     "version": "1.5.0.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "undistributable_hash": "f123ce",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cutensor-1.5.0.3-h12f7317_2.tar.bz2"
+  "subdir": "win-64",
+  "url": "https://conda.anaconda.org/cf-staging/win-64/cutensor-1.5.0.3-h5987435_2.tar.bz2"
 }
