@@ -25,14 +25,14 @@
       }
     },
     "source_git_url": null,
-    "source_url": "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-x86_64/libcutensor-linux-x86_64-1.5.0.3-archive.tar.xz",
+    "source_url": "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.5.0.3-archive.tar.xz",
     "subdirs": [
-      "linux-64"
+      "linux-ppc64le"
     ],
     "summary": "Tensor Linear Algebra on NVIDIA GPUs",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1648043689,
+    "timestamp": 1648044282,
     "version": "1.5.0.3"
   },
   "channeldata_version": 1,
@@ -40,30 +40,28 @@
   "labels": [
     "main"
   ],
-  "package": "cutensor-1.5.0.3-h12f7317_2.tar.bz2",
+  "package": "cutensor-1.5.0.3-h3e206fc_2.tar.bz2",
   "repodata": {
-    "build": "h12f7317_2",
+    "build": "h3e206fc_2",
     "build_number": 2,
     "constrains": [
       "__glibc >=2.17"
     ],
     "depends": [
       "__glibc >=2.17",
-      "__glibc >=2.17,<3.0.a0",
-      "cudatoolkit >=11.1,<12",
-      "libgcc-ng >=10.3.0"
+      "cudatoolkit 11.0.*",
+      "libgcc-ng >=9.4.0"
     ],
     "license": "LicenseRef-cuTENSOR-Software-License-Agreement",
-    "md5": "e5ecad91b9314f319560aa45c4b343f1",
+    "md5": "fca9fb6d4e5ce74dd1c1ac80e495b0c8",
     "name": "cutensor",
-    "sha256": "da47f159763c6246a9bada7eb1fa377dd3ce3958c5af191cc059a9c7cbd3aadc",
-    "size": 57576622,
-    "subdir": "linux-64",
-    "timestamp": 1648043689358,
+    "sha256": "64cbb89ab88b794ab72bc791649a2a597c9b98e922a3fe917688a8b9a93b52db",
+    "size": 57561613,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1648044282928,
     "version": "1.5.0.3"
   },
   "repodata_version": 1,
-  "subdir": "linux-64",
-  "undistributable_hash": "f123ce",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/cutensor-1.5.0.3-h12f7317_2.tar.bz2"
+  "subdir": "linux-ppc64le",
+  "url": "https://conda.anaconda.org/cf-staging/linux-ppc64le/cutensor-1.5.0.3-h3e206fc_2.tar.bz2"
 }
