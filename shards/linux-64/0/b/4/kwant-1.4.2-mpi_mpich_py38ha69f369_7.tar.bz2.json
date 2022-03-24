@@ -1,0 +1,80 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Kwant is a free (open source) Python package for numerical calculations on tight-binding models with a strong focus on quantum transport. It is designed to be flexible and easy to use. Thanks to the use of innovative algorithms, Kwant is often faster than other available codes, even those entirely written in the low level FORTRAN and C/C++ languages.",
+    "dev_url": "https://gitlab.kwant-project.org/kwant/kwant/",
+    "doc_source_url": null,
+    "doc_url": "https://kwant-project.org/doc/1/",
+    "home": "http://kwant-project.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.4.2": {
+        "weak": [
+          "kwant * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/k/kwant/kwant-1.4.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Package for numerical quantum transport calculations.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648161670,
+    "version": "1.4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "kwant-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "kwant-1.4.2-mpi_mpich_py38ha69f369_7.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py38ha69f369_7",
+    "build_number": 7,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "matplotlib-base <3.4",
+      "mpi4py",
+      "mpich >=4.0.1,<4.1.0a0",
+      "mumps-mpi >=5.2.1,<5.2.2.0a0",
+      "numpy >=1.19.5,<2.0a0",
+      "pytest",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "qsymm",
+      "scipy",
+      "sympy <1.7",
+      "tinyarray"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "f170c6f18c647b0251317f7bdb8b413f",
+    "name": "kwant",
+    "sha256": "d22bd522ac59abbc590f0baf9af62c16d0959d6e1992d798e5c082d92f2e4d61",
+    "size": 1332445,
+    "subdir": "linux-64",
+    "timestamp": 1648161670919,
+    "version": "1.4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/kwant-1.4.2-mpi_mpich_py38ha69f369_7.tar.bz2/kwant-1.4.2-mpi_mpich_py38ha69f369_7.tar.bz2"
+}
