@@ -26,37 +26,45 @@
     "summary": "Open Deep Learning Compiler Stack",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1646960444,
+    "timestamp": 1648138222,
     "version": "0.8.0"
   },
   "channeldata_version": 1,
   "feedstock": "libtvm-feedstock",
   "labels": [
-    "main",
-    "broken"
+    "main"
   ],
-  "package": "libtvm-0.8.0-py39ha3b9936_0_cpu.tar.bz2",
+  "package": "libtvm-0.8.0-h1162d21_4_cuda112.tar.bz2",
   "repodata": {
-    "build": "py39ha3b9936_0_cpu",
-    "build_number": 0,
+    "build": "h1162d21_4_cuda112",
+    "build_number": 4,
     "depends": [
+      "__cuda",
+      "__glibc >=2.17",
+      "cudatoolkit >=11.2,<12",
+      "cudnn >=8.2.1.32,<9.0a0",
+      "cutensor >=1.5.0.3,<2.0a0",
+      "cutlass >=2.8.0,<2.9.0a0",
+      "cutlass >=2.8.0,<3.0a0",
       "dlpack >0.2",
       "dmlc >=0.4",
       "libgcc-ng >=10.3.0",
       "libstdcxx-ng >=10.3.0",
+      "llvmdev >=13.0.1,<14.0a0",
+      "nccl >=2.12.7.1,<3.0a0",
       "rang >=3.1.0"
     ],
     "license": "Apache-2.0",
     "license_family": "Apache",
-    "md5": "182456d0f173091328ce8fdf9bae123c",
+    "md5": "dcad377297e8bfeaf8029e4018d749d8",
     "name": "libtvm",
-    "sha256": "c315aabfe2122c3e3088e1658b73101e17cd922e13e3caeb32092b2458ac85e0",
-    "size": 11634435,
+    "sha256": "eddcff6ecb3e4183b38cebab4ab7f90deac12071d0d487eae50b1e9f144b9d64",
+    "size": 11851288,
     "subdir": "linux-64",
-    "timestamp": 1646960444991,
+    "timestamp": 1648138222404,
     "version": "0.8.0"
   },
   "repodata_version": 1,
   "subdir": "linux-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libtvm-0.8.0-py39ha3b9936_0_cpu.tar.bz2/libtvm-0.8.0-py39ha3b9936_0_cpu.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libtvm-0.8.0-h1162d21_4_cuda112.tar.bz2/libtvm-0.8.0-h1162d21_4_cuda112.tar.bz2"
 }
