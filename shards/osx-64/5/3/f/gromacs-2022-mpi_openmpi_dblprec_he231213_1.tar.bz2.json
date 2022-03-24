@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles. It is primarily designed for biochemical molecules like proteins, lipids and nucleic acids that have a lot of complicated bonded interactions, but since GROMACS is extremely fast at calculating the nonbonded interactions (that usually dominate simulations) many groups are also using it for research on non-biological systems, e.g. polymers.",
+    "dev_url": "https://github.com/gromacs/gromacs",
+    "doc_source_url": null,
+    "doc_url": "https://www.gromacs.org",
+    "home": "https://www.gromacs.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://ftp.gromacs.org/gromacs/gromacs-2022.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "GROMACS is a versatile package to perform molecular dynamics.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1648116649,
+    "version": "2022"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gromacs-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gromacs-2022-mpi_openmpi_dblprec_he231213_1.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_dblprec_he231213_1",
+    "build_number": 1,
+    "depends": [
+      "fftw >=3.3.10,<4.0a0",
+      "khronos-opencl-icd-loader >=2022.1.4",
+      "libcxx >=12.0.1",
+      "libhwloc 2.*",
+      "libhwloc >=2.7.0,<2.7.1.0a0",
+      "llvm-openmp >=12.0.1",
+      "llvm-openmp >=13.0.1",
+      "ocl_icd_wrapper_apple",
+      "openmpi >=4.1.2,<5.0a0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "GPL",
+    "md5": "01c8e6a4a3351f67f8caf3e9dbe4badf",
+    "name": "gromacs",
+    "sha256": "2781dc3d2968c0850d35d1dc040ad1f8158d28bf279208af673194627f78a53e",
+    "size": 18011737,
+    "subdir": "osx-64",
+    "timestamp": 1648116649014,
+    "version": "2022"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gromacs-2022-mpi_openmpi_dblprec_he231213_1.tar.bz2/gromacs-2022-mpi_openmpi_dblprec_he231213_1.tar.bz2"
+}
