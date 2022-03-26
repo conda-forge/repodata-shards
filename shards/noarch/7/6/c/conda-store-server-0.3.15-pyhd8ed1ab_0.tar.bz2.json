@@ -1,0 +1,76 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "End users think in terms of environments not packages. The core philosophy of conda-store is to serve identical conda environments in as many ways as possible. Conda Store controls the environment lifecycle: management, builds, and serving of environments.",
+    "dev_url": "https://github.com/Quansight/conda-store",
+    "doc_source_url": null,
+    "doc_url": "https://conda-store.readthedocs.io/",
+    "home": "https://github.com/Quansight/conda-store",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Conda Environment Management, Builds, and Serve",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1648260593,
+    "version": "0.3.15"
+  },
+  "channeldata_version": 1,
+  "feedstock": "conda-store-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "conda-store-server-0.3.15-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "constrains": [
+      "conda-store >=0.3.15,<0.3.16.0a0"
+    ],
+    "depends": [
+      "celery",
+      "conda-docker",
+      "conda-pack",
+      "filelock",
+      "flask",
+      "flask-cors",
+      "flower",
+      "minio",
+      "pydantic",
+      "pyjwt",
+      "python >=3.6",
+      "pyyaml",
+      "requests",
+      "sqlalchemy",
+      "traitlets",
+      "yarl"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "53b2841548e70045802d10d3b99722ec",
+    "name": "conda-store-server",
+    "noarch": "python",
+    "sha256": "655bada384bc20cd9ec5eb3b607a2342e2ac93e8b9f3cd57f84f55fed2a7caf3",
+    "size": 42699,
+    "subdir": "noarch",
+    "timestamp": 1648260593737,
+    "version": "0.3.15"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/conda-store-server-0.3.15-pyhd8ed1ab_0.tar.bz2/conda-store-server-0.3.15-pyhd8ed1ab_0.tar.bz2"
+}
