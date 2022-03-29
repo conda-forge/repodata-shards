@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/openucx/ucx",
+    "doc_source_url": null,
+    "doc_url": "https://openucx.readthedocs.io/",
+    "home": "https://openucx.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.12.1": {
+        "weak": [
+          "ucx >=1.12.1,<1.13.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/openucx/ucx/archive/v1.12.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Unified Communication X.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1648575835,
+    "version": "1.12.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ucx-split-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ucx-1.12.1-h7a399c7_0.tar.bz2",
+  "repodata": {
+    "build": "h7a399c7_0",
+    "build_number": 0,
+    "constrains": [
+      "ucx-proc * gpu"
+    ],
+    "depends": [
+      "__glibc >=2.17",
+      "cudatoolkit >=11.2,<12",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "83882a888f24be4b14b1161fac301f0d",
+    "name": "ucx",
+    "sha256": "86c7b3e1b51128646af3a7e018c6286b35b1f9bab93dcaa2472dddaeeaa3a087",
+    "size": 20123245,
+    "subdir": "linux-64",
+    "timestamp": 1648575835443,
+    "version": "1.12.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ucx-1.12.1-h7a399c7_0.tar.bz2/ucx-1.12.1-h7a399c7_0.tar.bz2"
+}
