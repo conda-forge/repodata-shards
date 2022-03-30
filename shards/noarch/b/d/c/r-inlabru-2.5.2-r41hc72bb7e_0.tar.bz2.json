@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.inlabru.org, https://inlabru-org.github.io/inlabru/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/inlabru/inlabru_2.5.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/inlabru_2.5.2.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Facilitates spatial and general latent Gaussian modeling using integrated nested Laplace approximation via the INLA package (<https://www.r-inla.org>). Additionally, extends the GAM-like model class to more general nonlinear predictor expressions, and implements a log Gaussian Cox process likelihood for modeling univariate and spatial point processes based on ecological survey data. Model components are specified with general inputs and mapping methods to the latent variables, and the predictors are specified via general R expressions, with separate expressions for each observation likelihood model in multi-likelihood models. A prediction method based on fast Monte Carlo sampling allows posterior prediction of general expressions of the latent variables. Ecology-focused introduction in Bachl, Lindgren, Borchers, and Illian (2019) <doi:10.1111/2041-210X.13168>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648676921,
+    "version": "2.5.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-inlabru-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-inlabru-2.5.2-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-magrittr",
+      "r-matrix",
+      "r-matrixmodels",
+      "r-plyr",
+      "r-rgdal >=1.5.8",
+      "r-rgeos",
+      "r-rlang",
+      "r-sp >=1.4_5",
+      "r-withr"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "44281162d327ce2dda2edb4487e88313",
+    "name": "r-inlabru",
+    "noarch": "generic",
+    "sha256": "2951a3afdb54c8a7aa9cb6b1312ff88e0fce514630ed8ddcc92c4cbcaa7372f2",
+    "size": 3789994,
+    "subdir": "noarch",
+    "timestamp": 1648676921212,
+    "version": "2.5.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-inlabru-2.5.2-r41hc72bb7e_0.tar.bz2/r-inlabru-2.5.2-r41hc72bb7e_0.tar.bz2"
+}
