@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A tool to generate gridded ascii tables and station files needed by hydrological models for weather and climate inputs. The package assumes that users have already set up a registration account(s) with Earthdata login as well as authorizing NASA GES DISC data access. Please refer to  <https://disc.gsfc.nasa.gov/data-access> for further details. The package relies on 'curl' <https://curl.se/> commands and library to access NASA remote sensing servers. Users should make sure that their local machines have 'curl' installed properly.  Instructions on creating the \".netrc\" and \".urs_cookies\" files can be accessed at <https://wiki.earthdata.nasa.gov/display/EL/How+To+Access+Data+With+cURL+And+Wget>. Creating the \".netrc\" file at the user machine 'Home' directory and storing the NASA GES DISC user logging information in it is needed to execute the package commands.",
+    "dev_url": "https://github.com/imohamme/NASAaccess",
+    "doc_source_url": null,
+    "doc_url": "https://imohamme.github.io/NASAaccess/",
+    "home": "https://github.com/nasa/NASAaccess",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NASA-1.3",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/nasa/NASAaccess/archive/v3.0.3.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A tool to generate gridded ascii tables and station files needed by hydrological models for weather and climate inputs. The package assumes that users have already set up a registration account(s) with Earthdata login as well as authorizing NASA GES DISC data access. Please refer to  <https://disc.gsfc.nasa.gov/data-access> for further details. The package relies on 'curl' <https://curl.se/> commands and library to access NASA remote sensing servers. Users should make sure that their local machines have 'curl' installed properly.  Instructions on creating the \".netrc\" and \".urs_cookies\" files can be accessed at <https://wiki.earthdata.nasa.gov/display/EL/How+To+Access+Data+With+cURL+And+Wget>. Creating the \".netrc\" file at the user machine 'Home' directory and storing the NASA GES DISC user logging information in it is needed to execute the package commands.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648806882,
+    "version": "3.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-nasaaccess-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-nasaaccess-3.0.3-r40hd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "r40hd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-ggmap",
+      "r-ggplot2",
+      "r-httr",
+      "r-maptools",
+      "r-ncdf4",
+      "r-raster",
+      "r-rgdal",
+      "r-rgeos",
+      "r-sf",
+      "r-shapefiles",
+      "r-sp",
+      "r-stringr",
+      "r-xml"
+    ],
+    "license": "NASA-1.3",
+    "license_family": "OTHER",
+    "md5": "f702f97ea892b0a5eb395c7dcdbaee29",
+    "name": "r-nasaaccess",
+    "noarch": "generic",
+    "sha256": "4e460177a15b90a20bbd579ef1a645af870a51b8cae05b41ddd5b1b84e3e231b",
+    "size": 1537714,
+    "subdir": "noarch",
+    "timestamp": 1648806882001,
+    "version": "3.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-nasaaccess-3.0.3-r40hd8ed1ab_0.tar.bz2/r-nasaaccess-3.0.3-r40hd8ed1ab_0.tar.bz2"
+}
