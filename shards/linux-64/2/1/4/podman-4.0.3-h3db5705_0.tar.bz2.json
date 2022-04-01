@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Podman (the POD MANager) is a tool for managing containers and images, volumes mounted into those containers, and pods made from groups of containers. Podman is based on libpod, a library for container lifecycle management that is also contained in this repository. The libpod library provides APIs for managing containers, pods, container images, and volumes.",
+    "dev_url": "https://github.com/containers/podman",
+    "doc_source_url": null,
+    "doc_url": "https://docs.podman.io/en/latest/",
+    "home": "https://podman.io/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/containers/podman/archive/v4.0.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Podman: A tool for managing OCI containers and pods.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648846769,
+    "version": "4.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "podman-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "podman-4.0.3-h3db5705_0.tar.bz2",
+  "repodata": {
+    "build": "h3db5705_0",
+    "build_number": 0,
+    "depends": [
+      "__glibc >=2.17,<3.0.a0",
+      "cni-plugins",
+      "conmon >=2.0.30",
+      "containers-common",
+      "gpgme >=1.17.1,<1.18.0a0",
+      "libassuan >=2.5.5,<3.0a0",
+      "libglib >=2.70.2,<3.0a0",
+      "libgpg-error >=1.44,<2.0a0",
+      "libseccomp >=2.4.4,<3.0a0",
+      "runc",
+      "slirp4netns"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "0599cc17a5e0df5ef36ccd73f336b794",
+    "name": "podman",
+    "sha256": "8a261a1566b1933d98f9950a09fb345bae7e9732030dbe9efa9e19eebcd2a3f2",
+    "size": 40639568,
+    "subdir": "linux-64",
+    "timestamp": 1648846769680,
+    "version": "4.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/podman-4.0.3-h3db5705_0.tar.bz2/podman-4.0.3-h3db5705_0.tar.bz2"
+}
