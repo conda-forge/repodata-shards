@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners.",
+    "dev_url": "https://github.com/open-mpi/ompi",
+    "doc_source_url": null,
+    "doc_url": "https://www.open-mpi.org/doc/",
+    "home": "https://www.open-mpi.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.1.3": {
+        "weak": [
+          "openmpi >=4.1.3,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.open-mpi.org/software/ompi/v4.1/downloads/openmpi-4.1.3.tar.bz2",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "An open source Message Passing Interface implementation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1648796000,
+    "version": "4.1.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmpi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmpi-4.1.3-h7728b8d_0.tar.bz2",
+  "repodata": {
+    "build": "h7728b8d_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "mpi 1.0 openmpi",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "fe84841f712bc1be07a1a8cad4cd7c38",
+    "name": "openmpi",
+    "sha256": "75e028f7f59d1ec6008b4181647a8ec274083225684dfda85a1e277372f0e3f8",
+    "size": 4056063,
+    "subdir": "linux-aarch64",
+    "timestamp": 1648796000755,
+    "version": "4.1.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/openmpi-4.1.3-h7728b8d_0.tar.bz2/openmpi-4.1.3-h7728b8d_0.tar.bz2"
+}
