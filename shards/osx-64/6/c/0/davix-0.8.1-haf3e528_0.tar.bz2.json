@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The davix project aims to make file management over HTTP-based protocols simple. The focus is on high-performance remote I/O and data management of large collections of files. Currently, there is support for the WebDav, Amazon S3, Microsoft Azure, and HTTP protocols.",
+    "dev_url": "https://github.com/cern-it-sdc-id/davix",
+    "doc_source_url": null,
+    "doc_url": "https://dmc-docs.web.cern.ch/dmc-docs/versions/docs/davix-epel/html/",
+    "home": "https://dmc.web.cern.ch/projects/davix/home",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.8.1": {
+        "weak": [
+          "davix >=0.8.1,<0.9.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/cern-fts/davix/releases/download/R_0_8_1/davix-0.8.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "High-performance data access client for HTTP-based protocols. (WebDAV / S3 / Microsoft Azure / HTTP)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1648815735,
+    "version": "0.8.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "davix-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "davix-0.8.1-haf3e528_0.tar.bz2",
+  "repodata": {
+    "build": "haf3e528_0",
+    "build_number": 0,
+    "depends": [
+      "gsoap >=2.8.119,<2.8.120.0a0",
+      "libcurl",
+      "libcxx >=12.0.1",
+      "libxml2 >=2.9.12,<2.10.0a0",
+      "openssl >=3.0.2,<4.0a0"
+    ],
+    "license": "LGPL-2.1-only",
+    "md5": "988495810389c91ba6dd72b45f51e65b",
+    "name": "davix",
+    "sha256": "f857c74a3c4e63d291843db433e49959b4fc5651f5d3ebb1efa9c1c894e72dd7",
+    "size": 1329301,
+    "subdir": "osx-64",
+    "timestamp": 1648815735995,
+    "version": "0.8.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/davix-0.8.1-haf3e528_0.tar.bz2/davix-0.8.1-haf3e528_0.tar.bz2"
+}
