@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "mint regrids edge centred fields from a source to a destination grid. The grid is stored as a collection of grid cells, each having four vertices (i.e., the cells are quadrilaterals) in longitude-latitude space. The edge field is stored as integrals of a vector field along each edge. The regridding method is mimetic in the sense that Stokes's theorem is satisfied to near machine precision. In particular, the loop integrals of an interpolated vector field deriving from a gradient is zero.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/pletzer/mint",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "0BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/pletzer/mint/archive/v1.23.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Mimetic INTerpolation on the Sphere.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648775388,
+    "version": "1.23.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "python-mint-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-mint-1.23.0-py37hf2489ee_2.tar.bz2",
+  "repodata": {
+    "build": "py37hf2489ee_2",
+    "build_number": 2,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libnetcdf >=4.8.1,<4.8.2.0a0",
+      "libstdcxx-ng >=10.3.0",
+      "netcdf4",
+      "numpy",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "tbb >=2020.2,<2021.0.0a0",
+      "vtk >=9.1.0,<9.1.1.0a0"
+    ],
+    "license": "0BSD",
+    "license_family": "BSD",
+    "md5": "bdc770f62a33b33571ed111101d5b98b",
+    "name": "python-mint",
+    "sha256": "915898a82dc89d01dfefbf74f0e8de57f57398d66a397a9f373f2ca374357035",
+    "size": 223971,
+    "subdir": "linux-64",
+    "timestamp": 1648775388647,
+    "version": "1.23.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/python-mint-1.23.0-py37hf2489ee_2.tar.bz2/python-mint-1.23.0-py37hf2489ee_2.tar.bz2"
+}
