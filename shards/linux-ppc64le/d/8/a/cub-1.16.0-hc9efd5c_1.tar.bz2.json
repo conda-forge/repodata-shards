@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "CUB provides state-of-the-art, reusable software components for every layer of the CUDA programming model: - Parallel primitives   - Warp-wide \"collective\" primitives     - Cooperative warp-wide prefix scan, reduction, etc.     - Safely specialized for each underlying CUDA architecture   - Block-wide \"collective\" primitives     - Cooperative I/O, sort, scan, reduction, histogram, etc.     - Compatible with arbitrary thread block sizes and types   - Device-wide primitives     - Parallel sort, prefix scan, reduction, histogram, etc.     - Compatible with CUDA dynamic parallelism - Utilities   - Fancy iterators   - Thread and thread block I/O   - PTX intrinsics   - Device, kernel, and storage management",
+    "dev_url": "https://github.com/thrust/cub",
+    "doc_source_url": null,
+    "doc_url": "http://nvlabs.github.io/cub/",
+    "home": "https://github.com/NVIDIA/cub",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/cub/archive/1.16.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "CUB is a flexible library of cooperative threadblock primitives and other utilities for CUDA kernel programming.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648869173,
+    "version": "1.16.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "cub-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "cub-1.16.0-hc9efd5c_1.tar.bz2",
+  "repodata": {
+    "build": "hc9efd5c_1",
+    "build_number": 1,
+    "constrains": [
+      "thrust 1.16.0.*"
+    ],
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "7a2449ef66363a3d2ed7bb28cd079a8f",
+    "name": "cub",
+    "sha256": "de667704aa56d106ba1d2c3094092a990752850600f53c0ae640f2d09dd3c5e5",
+    "size": 260185,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1648869173070,
+    "version": "1.16.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/cub-1.16.0-hc9efd5c_1.tar.bz2/cub-1.16.0-hc9efd5c_1.tar.bz2"
+}
