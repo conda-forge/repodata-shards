@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/gdemin/maditr",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/maditr/maditr_0.8.3.tar.gz",
+      "https://cran.r-project.org/src/contrib/maditr_0.8.3.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Provides pipe-style interface for 'data.table'. Package preserves all 'data.table' features without significant impact on performance. 'let' and 'take' functions are simplified interfaces for most common data manipulation tasks. For example, you can write 'take(mtcars, mean(mpg), by = am)' for aggregation or 'let(mtcars, hp_wt = hp/wt, hp_wt_mpg = hp_wt/mpg)' for modification. Use 'take_if/let_if' for conditional aggregation/modification. Additionally there are some conveniences such as automatic 'data.frame' conversion to 'data.table'.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648925932,
+    "version": "0.8.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-maditr-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-maditr-0.8.3-r40hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r40hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.0,<4.1.0a0",
+      "r-data.table >=1.12.6",
+      "r-magrittr >=1.5"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "c4c29b72c24fb78fcab9965d506bbd5d",
+    "name": "r-maditr",
+    "noarch": "generic",
+    "sha256": "e7c1b38171d67116c87031ae97409d8cb7e9e5e5aad66ca7f6e1d7b2beec2d2a",
+    "size": 437625,
+    "subdir": "noarch",
+    "timestamp": 1648925932058,
+    "version": "0.8.3"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-maditr-0.8.3-r40hc72bb7e_0.tar.bz2/r-maditr-0.8.3-r40hc72bb7e_0.tar.bz2"
+}
