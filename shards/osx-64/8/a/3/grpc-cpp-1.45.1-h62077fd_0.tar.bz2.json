@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "gRPC is a modern, open source, high-performance remote procedure call (RPC) framework that can run anywhere. gRPC enables client and server applications to communicate transparently, and simplifies the building of connected systems.  This package contains the gRPC C++ libraries and header files, as well as the code generation plugins.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://grpc.io/docs/",
+    "home": "https://grpc.io/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.45.1": {
+        "weak": [
+          "grpc-cpp >=1.45.1,<1.46.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/grpc/grpc/archive/v1.45.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "gRPC - A high-performance, open-source universal RPC framework",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1648889201,
+    "version": "1.45.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "grpc-cpp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "grpc-cpp-1.45.1-h62077fd_0.tar.bz2",
+  "repodata": {
+    "build": "h62077fd_0",
+    "build_number": 0,
+    "depends": [
+      "abseil-cpp >=20211102.0,<20211102.1.0a0",
+      "c-ares >=1.18.1,<2.0a0",
+      "libcxx >=12.0.1",
+      "libprotobuf >=3.19.4,<3.20.0a0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "openssl >=1.1.1n,<1.1.2a",
+      "re2 >=2022.2.1,<2022.2.2.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "52b63c97f29db9af812ddfb6e649eee2",
+    "name": "grpc-cpp",
+    "sha256": "6293b30d93cc5e04fecc43a615c8a5c6fd5a75f6c7037c70f37dea88fc876388",
+    "size": 3677902,
+    "subdir": "osx-64",
+    "timestamp": 1648889201024,
+    "version": "1.45.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/grpc-cpp-1.45.1-h62077fd_0.tar.bz2/grpc-cpp-1.45.1-h62077fd_0.tar.bz2"
+}
