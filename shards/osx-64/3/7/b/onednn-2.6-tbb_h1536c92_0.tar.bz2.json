@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/oneapi-src/oneDNN",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.6": {
+        "weak": [
+          "onednn >=2.6,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/oneapi-src/oneDNN/archive/v2.6.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "oneAPI Deep Neural Network Library (oneDNN)",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1648969329,
+    "version": "2.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "onednn-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "onednn-2.6-tbb_h1536c92_0.tar.bz2",
+  "repodata": {
+    "build": "tbb_h1536c92_0",
+    "build_number": 0,
+    "depends": [
+      "libcxx >=12.0.1",
+      "llvm-openmp >=12.0.1",
+      "llvm-openmp >=13.0.1",
+      "tbb >=2021.5.0"
+    ],
+    "license": "Apache-2.0",
+    "md5": "2bd723a3de8c41c40bbc103387753dae",
+    "name": "onednn",
+    "sha256": "d96368f0a2fec06143c664ad7b09421d539ce2f2978269c34829244dedb0fe24",
+    "size": 7942628,
+    "subdir": "osx-64",
+    "timestamp": 1648969329619,
+    "track_features": "onednn-tbb",
+    "version": "2.6"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/onednn-2.6-tbb_h1536c92_0.tar.bz2/onednn-2.6-tbb_h1536c92_0.tar.bz2"
+}
