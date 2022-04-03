@@ -1,0 +1,82 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://gitlab.com/petsc/petsc",
+    "doc_source_url": null,
+    "doc_url": "https://petsc.org/release/docs/manual/",
+    "home": "https://www.mcs.anl.gov/petsc/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.16.6": {
+        "weak": [
+          "petsc >=3.16.6,<3.17.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-3.16.6.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1649008866,
+    "version": "3.16.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "petsc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "petsc-3.16.6-real_h5afc2d5_100.tar.bz2",
+  "repodata": {
+    "build": "real_h5afc2d5_100",
+    "build_number": 100,
+    "depends": [
+      "fftw * mpi_openmpi_*",
+      "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+      "hypre >=2.24.0,<2.24.1.0a0",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=12.0.1",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "metis >=5.1.0,<5.2.0a0",
+      "mumps-mpi >=5.2.1,<5.2.2.0a0",
+      "openmpi >=4.1.2,<5.0a0",
+      "parmetis >=4.0.3,<4.1.0a0",
+      "ptscotch >=6.0.9,<6.0.10.0a0",
+      "scalapack >=2.2.0,<2.3.0a0",
+      "scotch >=6.0.9,<6.0.10.0a0",
+      "suitesparse >=5.10.1,<5.10.2.0a0",
+      "superlu",
+      "superlu_dist >=7.1.1,<8.0a0",
+      "yaml >=0.2.5,<0.3.0a0"
+    ],
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "98b63513fd880e1462fa0ecb3a551181",
+    "name": "petsc",
+    "sha256": "ffcb11be1a227d96b306e206b886d1a6cce4c2489770ddb2b8e45577342587e5",
+    "size": 14282354,
+    "subdir": "osx-64",
+    "timestamp": 1649008866329,
+    "version": "3.16.6"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/petsc-3.16.6-real_h5afc2d5_100.tar.bz2/petsc-3.16.6-real_h5afc2d5_100.tar.bz2"
+}
