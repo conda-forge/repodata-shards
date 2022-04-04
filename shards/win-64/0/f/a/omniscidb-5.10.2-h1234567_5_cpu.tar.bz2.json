@@ -1,0 +1,88 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OmniSciDB is an in-memory, column store, SQL relational database that was designed from the ground up to run on GPUs.  This recipe provides both CUDA enabled and CUDA disabled omniscidb packages.",
+    "dev_url": "https://github.com/omnisci/omniscidb",
+    "doc_source_url": null,
+    "doc_url": "https://www.omnisci.com/docs/latest/",
+    "home": "https://www.omnisci.com/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.10.2": {
+        "weak": [
+          "omniscidb >=5.10.2,<5.10.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/omnisci/omniscidb/archive/v5.10.2.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "The OmniSci database",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649087111,
+    "version": "5.10.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "omniscidb-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "omniscidb-5.10.2-h1234567_5_cpu.tar.bz2",
+  "repodata": {
+    "build": "h1234567_5_cpu",
+    "build_number": 5,
+    "constrains": [
+      "arrow-cpp-proc 3.* cpu"
+    ],
+    "depends": [
+      "arrow-cpp >=6.0.1,<6.0.2.0a0",
+      "arrow-cpp-proc 3.* cpu",
+      "blosc >=1.21.0,<2.0a0",
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "bzip2",
+      "double-conversion >=3.2.0,<3.3.0a0",
+      "libarchive >=3.5.2,<3.6.0a0",
+      "libclang-cpp 11.*",
+      "libevent >=2.1.10,<2.1.11.0a0",
+      "libgdal >=3.4.2,<3.5.0a0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "librdkafka >=1.7.0,<1.8.0a0",
+      "libthrift >=0.16.0,<0.16.1.0a0",
+      "omniscidb-common >=5.10.2,<5.10.3.0a0",
+      "openjdk 8.*",
+      "openssl >=1.1.1n,<1.1.2a",
+      "snappy >=1.1.8,<2.0a0",
+      "tbb >=2021.5.0",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033",
+      "winflexbison >=2.5.22,<2.6.0a0",
+      "xz",
+      "zlib"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "3250badd306908f3bef81e912a3703a4",
+    "name": "omniscidb",
+    "sha256": "2bb7dc4e351c623b940068d18fa15faa63e9fc10bb3f0fa1ca9aebb0db75cd5b",
+    "size": 79961336,
+    "subdir": "win-64",
+    "timestamp": 1649087111643,
+    "version": "5.10.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/omniscidb-5.10.2-h1234567_5_cpu.tar.bz2/omniscidb-5.10.2-h1234567_5_cpu.tar.bz2"
+}
