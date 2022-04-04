@@ -1,0 +1,82 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "FEniCS is a collection of free software for automated, efficient solution of differential equations (<http://fenicsproject.org>). It provides C++ and Python interfaces, and creates effecient solvers via expression of finite variational statements in a domain-specific language that are transformed and just-in-time compiled into efficient implementations.",
+    "dev_url": "https://bitbucket.org/fenics-project/",
+    "doc_source_url": null,
+    "doc_url": "http://fenics.readthedocs.io/",
+    "home": "http://www.fenicsproject.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL 3.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "FEniCS is a collection of free software for automated, efficient solution of differential equations",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649074011,
+    "version": "2019.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fenics-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fenics-dolfin-2019.1.0-py310h40fa32b_28.tar.bz2",
+  "repodata": {
+    "build": "py310h40fa32b_28",
+    "build_number": 28,
+    "constrains": [
+      "fenics ==2019.1.0"
+    ],
+    "depends": [
+      "boost-cpp >=1.74.0,<1.74.1.0a0",
+      "fenics-dijitso 2019.1.0",
+      "fenics-ffc 2019.1.0",
+      "fenics-fiat 2019.1.0",
+      "fenics-libdolfin 2019.1.0 h8b70391_28",
+      "fenics-ufl 2019.1.0",
+      "hdf5 >=1.12.1,<1.12.2.0a0 mpi_mpich_*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libcxx >=12.0.1",
+      "mpi4py",
+      "mpich >=4.0.1,<5.0a0",
+      "numpy >=1.21.5",
+      "petsc",
+      "petsc4py",
+      "pkgconfig",
+      "pybind11 >=2.9.2,<2.9.3.0a0",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "setuptools",
+      "six",
+      "slepc",
+      "slepc4py",
+      "sympy >=1"
+    ],
+    "license": "LGPL 3.0",
+    "md5": "7bdbb89b2bb22c2ca6aaa33de5881499",
+    "name": "fenics-dolfin",
+    "sha256": "ffbb9d94c8df634e4e4a081887ab1ec88cf14ef8edb6add9b6b20ed90d611086",
+    "size": 1242491,
+    "subdir": "osx-64",
+    "timestamp": 1649074011873,
+    "version": "2019.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/fenics-dolfin-2019.1.0-py310h40fa32b_28.tar.bz2/fenics-dolfin-2019.1.0-py310h40fa32b_28.tar.bz2"
+}
