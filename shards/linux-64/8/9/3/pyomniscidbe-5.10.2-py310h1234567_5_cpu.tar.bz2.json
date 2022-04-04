@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OmniSciDB is an in-memory, column store, SQL relational database that was designed from the ground up to run on GPUs.",
+    "dev_url": "https://github.com/omnisci/omniscidb",
+    "doc_source_url": null,
+    "doc_url": "https://www.omnisci.com/docs/latest/",
+    "home": "https://www.omnisci.com/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.10.2": {
+        "weak": [
+          "pyomniscidbe >=5.10.2,<5.10.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/omnisci/omniscidb/archive/v5.10.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "The OmniSci database",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649087401,
+    "version": "5.10.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "omniscidb-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyomniscidbe-5.10.2-py310h1234567_5_cpu.tar.bz2",
+  "repodata": {
+    "build": "py310h1234567_5_cpu",
+    "build_number": 5,
+    "depends": [
+      "arrow-cpp >=6.0.1,<6.0.2.0a0",
+      "arrow-cpp-proc 3.* cpu",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "libthrift >=0.16.0,<0.16.1.0a0",
+      "omniscidbe 5.10.2 h1234567_5_cpu",
+      "pyarrow 6.* *cpu",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "tbb4py"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "87992c5f6f57a4de969ad5e54a954ab2",
+    "name": "pyomniscidbe",
+    "sha256": "70409a9ae4344759618e93fef34168b9124dede9e5f37a7440c1326c328e3a12",
+    "size": 595017,
+    "subdir": "linux-64",
+    "timestamp": 1649087401151,
+    "version": "5.10.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyomniscidbe-5.10.2-py310h1234567_5_cpu.tar.bz2/pyomniscidbe-5.10.2-py310h1234567_5_cpu.tar.bz2"
+}
