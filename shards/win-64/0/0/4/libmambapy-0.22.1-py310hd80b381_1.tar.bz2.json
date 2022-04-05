@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "dev_url": "https://github.com/mamba-org/mamba",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mamba-org/mamba",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.22.1": {
+        "weak": [
+          "libmambapy >=0.22.1,<0.23.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mamba-org/mamba/archive/refs/tags/2022.02.28.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649139769,
+    "version": "0.22.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mamba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmambapy-0.22.1-py310hd80b381_1.tar.bz2",
+  "repodata": {
+    "build": "py310hd80b381_1",
+    "build_number": 1,
+    "depends": [
+      "libmamba 0.22.1 h81a967f_1",
+      "openssl >=1.1.1n,<1.1.2a",
+      "pybind11-abi 4",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033",
+      "yaml-cpp >=0.6.3,<0.7.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "8a7041045603676c2e2fcc66b1acb24a",
+    "name": "libmambapy",
+    "sha256": "0e0e3fbeb959f92ab3c8b43a2c277b05dde7a1e3ff0399054a2b83c6fe074c7c",
+    "size": 229817,
+    "subdir": "win-64",
+    "timestamp": 1649139769253,
+    "version": "0.22.1"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/libmambapy-0.22.1-py310hd80b381_1.tar.bz2/libmambapy-0.22.1-py310hd80b381_1.tar.bz2"
+}
