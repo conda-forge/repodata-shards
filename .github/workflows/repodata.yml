@@ -1,12 +1,9 @@
 name: repodata
 
 on:
-  push:
-    branches:
-      - never-run-this-workflow
   workflow_dispatch: null
-#   schedule:
-#     - cron:  '0 * * * *'
+  schedule:
+    - cron:  '0 * * * *'
 
 jobs:
   repodata:
@@ -17,8 +14,8 @@ jobs:
         id: turnstyle
         uses: beckermr/turnstyle-python@v1
         with:
-          poll-interval-seconds: 5
-          continue-after-seconds: 60
+          poll-interval-seconds: 10
+          continue-after-seconds: 600
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: get env file
