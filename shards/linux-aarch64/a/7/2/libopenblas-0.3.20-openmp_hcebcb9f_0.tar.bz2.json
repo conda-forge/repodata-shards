@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.20": {
+        "weak": [
+          "libopenblas >=0.3.20,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.20.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "An optimized BLAS library based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649197775,
+    "version": "0.3.20"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openblas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libopenblas-0.3.20-openmp_hcebcb9f_0.tar.bz2",
+  "repodata": {
+    "build": "openmp_hcebcb9f_0",
+    "build_number": 0,
+    "constrains": [
+      "openblas >=0.3.20,<0.3.21.0a0"
+    ],
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0",
+      "llvm-openmp >=13.0.1"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "7c82371e5d5cf88bda9aeadf8f0d3d49",
+    "name": "libopenblas",
+    "sha256": "371828e8bad17f4fe8854de19b171c5daeb159350f7706dfb0af9982532fe3f9",
+    "size": 7449484,
+    "subdir": "linux-aarch64",
+    "timestamp": 1649197775665,
+    "track_features": "openblas_threading_openmp",
+    "version": "0.3.20"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/libopenblas-0.3.20-openmp_hcebcb9f_0.tar.bz2/libopenblas-0.3.20-openmp_hcebcb9f_0.tar.bz2"
+}

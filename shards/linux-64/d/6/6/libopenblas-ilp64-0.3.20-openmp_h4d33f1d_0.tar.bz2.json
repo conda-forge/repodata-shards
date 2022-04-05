@@ -1,0 +1,71 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.openblas.net/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.20": {
+        "weak": [
+          "libopenblas-ilp64 >=0.3.20,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.20.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "An optimized BLAS library (ILP64 interface) based on GotoBLAS2 1.13 BSD version",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649198469,
+    "version": "0.3.20"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openblas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libopenblas-ilp64-0.3.20-openmp_h4d33f1d_0.tar.bz2",
+  "repodata": {
+    "build": "openmp_h4d33f1d_0",
+    "build_number": 0,
+    "constrains": [
+      "openblas-ilp64 >=0.3.20,<0.3.21.0a0"
+    ],
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0",
+      "llvm-openmp >=13.0.1"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "98c29df6bfc5180d56f7948300534c69",
+    "name": "libopenblas-ilp64",
+    "sha256": "ad2376005892540789147cc057bac0fdbacb413892cbc2c02ee21850e4175721",
+    "size": 10395928,
+    "subdir": "linux-64",
+    "timestamp": 1649198469968,
+    "track_features": "openblas_threading_openmp",
+    "version": "0.3.20"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libopenblas-ilp64-0.3.20-openmp_h4d33f1d_0.tar.bz2/libopenblas-ilp64-0.3.20-openmp_h4d33f1d_0.tar.bz2"
+}
