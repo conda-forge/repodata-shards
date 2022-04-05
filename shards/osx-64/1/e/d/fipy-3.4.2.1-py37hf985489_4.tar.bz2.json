@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "FiPy is an object oriented, partial differential equation (PDE) solver, written in Python, based on a standard finite volume (FV) approach. The framework has been developed in the Materials Science and Engineering Division (MSED) and Center for Theoretical and Computational Materials Science (CTCMS), in the Material Measurement Laboratory (MML) at the National Institute of Standards and Technology (NIST). The solution of coupled sets of PDEs is ubiquitous to the numerical simulation of science problems. | Numerous PDE solvers exist, using a variety of languages and numerical approaches. Many are proprietary, expensive and difficult to customize. As a result, scientists spend considerable resources repeatedly developing limited tools for specific problems. Our approach, combining the FV method and Python, provides a tool that is extensible, powerful and freely available. A significant advantage to Python is the existing suite of tools for array calculations, sparse matrices and data rendering. | The FiPy framework includes terms for transient diffusion, convection and standard sources, enabling the solution of arbitrary combinations of coupled elliptic, hyperbolic and parabolic PDEs. Currently implemented models include phase field treatments of polycrystalline, dendritic, and electrochemical phase transformations as well as a level set treatment of the electrodeposition process.",
+    "dev_url": "https://github.com/usnistgov/fipy",
+    "doc_source_url": null,
+    "doc_url": "http://www.ctcms.nist.gov/fipy",
+    "home": "http://www.ctcms.nist.gov/fipy",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NIST-PD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/usnistgov/FiPy/archive/3.4.2.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A finite volume partial differential equation solver using Python",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649183768,
+    "version": "3.4.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fipy-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fipy-3.4.2.1-py37hf985489_4.tar.bz2",
+  "repodata": {
+    "build": "py37hf985489_4",
+    "build_number": 4,
+    "constrains": [
+      "gmsh <4.0|>=4.5.2"
+    ],
+    "depends": [
+      "future",
+      "matplotlib-base",
+      "mayavi",
+      "mpi4py",
+      "mpich",
+      "numpy",
+      "packaging",
+      "petsc4py",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "scipy"
+    ],
+    "license": "NIST-PD",
+    "md5": "d89e44f06970ac42f26998728b269075",
+    "name": "fipy",
+    "sha256": "94acfd07fbd39471c6c46f026366a3ce62b0e6b93c00c90d2d26fa65bde409af",
+    "size": 558936,
+    "subdir": "osx-64",
+    "timestamp": 1649183768386,
+    "version": "3.4.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/fipy-3.4.2.1-py37hf985489_4.tar.bz2/fipy-3.4.2.1-py37hf985489_4.tar.bz2"
+}
