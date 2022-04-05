@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OmniSciDB is an in-memory, column store, SQL relational database that was designed from the ground up to run on GPUs.  This recipe provides the following packages:   omniscidb-commong   CUDA-enabled omniscidb, cpu and cuda builds   pyomniscdb   omniscidb embedding library, cpu and cuda builds   omniscidb-embedded Python extension module",
+    "dev_url": "https://github.com/omnisci/omniscidb",
+    "doc_source_url": null,
+    "doc_url": "https://www.omnisci.com/docs/latest/",
+    "home": "https://www.omnisci.com/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.10.2": {
+        "weak": [
+          "omniscidb-common >=5.10.2,<5.10.3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/omnisci/omniscidb/archive/v5.10.2.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "The OmniSci database",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649163022,
+    "version": "5.10.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "omniscidb-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "omniscidb-common-5.10.2-h1234567_6.tar.bz2",
+  "repodata": {
+    "build": "h1234567_6",
+    "build_number": 6,
+    "depends": [
+      "arrow-cpp >=7.0.0,<7.0.1.0a0",
+      "libevent >=2.1.10,<2.1.11.0a0",
+      "tbb >=2021.5.0",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033",
+      "winflexbison >=2.5.22,<2.6.0a0"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "11af79ffddefa25dcd69b4bd4325f1af",
+    "name": "omniscidb-common",
+    "sha256": "ffcd4b7eba98366221dba65420e650e8e29f0c57fb737a0b6730581a512d958a",
+    "size": 75684607,
+    "subdir": "win-64",
+    "timestamp": 1649163022806,
+    "version": "5.10.2"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/omniscidb-common-5.10.2-h1234567_6.tar.bz2/omniscidb-common-5.10.2-h1234567_6.tar.bz2"
+}
