@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649213718,
+    "version": "2.114"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.114-openblas.tar.bz2",
+  "repodata": {
+    "build": "openblas",
+    "build_number": 14,
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "blas-devel 3.9.0 14_linux64_openblas",
+      "libblas 3.9.0 14_linux64_openblas",
+      "libcblas 3.9.0 14_linux64_openblas",
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0",
+      "liblapack 3.9.0 14_linux64_openblas",
+      "liblapacke 3.9.0 14_linux64_openblas",
+      "llvm-openmp >=13.0.1"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "67d004f09ee490c1d02718927955d821",
+    "name": "blas",
+    "sha256": "5f44a81ea739e3b265984b28899b01349b34cc037e870b9d1ac786dd82eb876b",
+    "size": 13091,
+    "subdir": "linux-64",
+    "timestamp": 1649213718020,
+    "version": "2.114"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/blas-2.114-openblas.tar.bz2/blas-2.114-openblas.tar.bz2"
+}
