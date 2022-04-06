@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "xeus is a library meant to facilitate the implementation of kernels for Jupyter. It takes the burden of implementing the Jupyter Kernel protocol so developers can focus on implementing the interpreter part of the Kernel.",
+    "dev_url": "https://github.com/jupyter-xeus/xeus",
+    "doc_source_url": null,
+    "doc_url": "https://xeus.readthedocs.io",
+    "home": "https://github.com/jupyter-xeus/xeus",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.4.1": {
+        "weak": [
+          "xeus >=2.4.1,<2.5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/jupyter-xeus/xeus/archive/2.4.1.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "C++ implementation of the Jupyter Kernel protocol",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649282984,
+    "version": "2.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "xeus-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "xeus-2.4.1-h5f17a77_0.tar.bz2",
+  "repodata": {
+    "build": "h5f17a77_0",
+    "build_number": 0,
+    "constrains": [
+      "nlohmann_json >=3.9.1,<3.10.0a0",
+      "cppzmq >=4.8.1,<4.9.0a0",
+      "xtl >=0.7.4,<0.8.0a0"
+    ],
+    "depends": [
+      "libcxx >=12.0.1",
+      "openssl >=1.1.1n,<1.1.2a",
+      "zeromq >=4.3.4,<4.4.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "285035a55f6cf6e1f6349ecd4ce8d29d",
+    "name": "xeus",
+    "sha256": "b40776b966ffb75688ad6e1f7d2af4325f29b3092481cecbc09e314b0c47df33",
+    "size": 717117,
+    "subdir": "osx-arm64",
+    "timestamp": 1649282984233,
+    "version": "2.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/xeus-2.4.1-h5f17a77_0.tar.bz2/xeus-2.4.1-h5f17a77_0.tar.bz2"
+}
