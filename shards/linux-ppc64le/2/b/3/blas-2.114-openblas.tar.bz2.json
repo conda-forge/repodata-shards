@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649214377,
+    "version": "2.114"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.114-openblas.tar.bz2",
+  "repodata": {
+    "build": "openblas",
+    "build_number": 14,
+    "depends": [
+      "_openmp_mutex * *_llvm",
+      "_openmp_mutex >=4.5",
+      "blas-devel 3.9.0 14_linuxppc64le_openblas",
+      "libblas 3.9.0 14_linuxppc64le_openblas",
+      "libcblas 3.9.0 14_linuxppc64le_openblas",
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0",
+      "liblapack 3.9.0 14_linuxppc64le_openblas",
+      "liblapacke 3.9.0 14_linuxppc64le_openblas",
+      "llvm-openmp >=13.0.1"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "93b522cc75853e3901d0fa6371581356",
+    "name": "blas",
+    "sha256": "0be331146362e895263b5c647763d5f298ed6dc64aa97736589bef9e35af6e5a",
+    "size": 13142,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1649214377562,
+    "version": "2.114"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/blas-2.114-openblas.tar.bz2/blas-2.114-openblas.tar.bz2"
+}
