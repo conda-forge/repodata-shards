@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/NVIDIA/apex",
+    "doc_source_url": null,
+    "doc_url": "https://nvidia.github.io/apex/",
+    "home": "https://nvidia.github.io/apex/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/apex/archive/088985936518be7e25795a30d8ab33affa9db6ed.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "a Pytorch extension with NVIDIA-maintained utilities to streamline mixed precision and distributed training.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649214195,
+    "version": "0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nvidia-apex-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nvidia-apex-0.1-py39h51b4244_6.tar.bz2",
+  "repodata": {
+    "build": "py39h51b4244_6",
+    "build_number": 6,
+    "constrains": [
+      "nvidia-apex-proc * gpu",
+      "pytorch =*=cuda*"
+    ],
+    "depends": [
+      "__glibc >=2.17",
+      "cudatoolkit 11.0|11.0.*",
+      "cxxfilt",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0",
+      "numpy",
+      "pytest",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "pytorch >=1.11.0,<1.12.0a0",
+      "pyyaml",
+      "tqdm"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "de0045417a398d13ba9738e897954aaf",
+    "name": "nvidia-apex",
+    "sha256": "1738c949d1d11f57a2f3d1a761a53e284b2626e69b09d41b745d5ed153683cc8",
+    "size": 190772,
+    "subdir": "linux-64",
+    "timestamp": 1649214195839,
+    "version": "0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/nvidia-apex-0.1-py39h51b4244_6.tar.bz2/nvidia-apex-0.1-py39h51b4244_6.tar.bz2"
+}
