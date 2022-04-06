@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649214873,
+    "version": "2.114"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.114-mkl.tar.bz2",
+  "repodata": {
+    "build": "mkl",
+    "build_number": 14,
+    "depends": [
+      "blas-devel 3.9.0 14_win64_mkl",
+      "libblas 3.9.0 14_win64_mkl",
+      "libcblas 3.9.0 14_win64_mkl",
+      "liblapack 3.9.0 14_win64_mkl",
+      "liblapacke 3.9.0 14_win64_mkl",
+      "m2w64-gcc-libs"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "df41b867954336603ad9c8d21a829867",
+    "name": "blas",
+    "sha256": "f63e9a89cdf005d142bc056f207a22b42160842c133559fc7570c74d014689fd",
+    "size": 14055,
+    "subdir": "win-64",
+    "timestamp": 1649214873690,
+    "version": "2.114"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/blas-2.114-mkl.tar.bz2/blas-2.114-mkl.tar.bz2"
+}

@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/blas-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1649213879,
+    "version": "2.114"
+  },
+  "channeldata_version": 1,
+  "feedstock": "blas-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "blas-2.114-blis.tar.bz2",
+  "repodata": {
+    "build": "blis",
+    "build_number": 14,
+    "depends": [
+      "blas-devel 3.9.0 14_osx64_blis",
+      "libblas 3.9.0 14_osx64_blis",
+      "libcblas 3.9.0 14_osx64_blis",
+      "libgfortran 5.*",
+      "libgfortran5 >=9.3.0",
+      "liblapack 3.9.0 *netlib",
+      "liblapacke 3.9.0 *netlib"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "33175fe1607c7114dc003b8deeeaa535",
+    "name": "blas",
+    "sha256": "2ee4b320e3844251a6b629f47d60f0767778eeb9a2d1562dd81c1ad4c13705b6",
+    "size": 3463377,
+    "subdir": "osx-64",
+    "timestamp": 1649213879522,
+    "version": "2.114"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/blas-2.114-blis.tar.bz2/blas-2.114-blis.tar.bz2"
+}
