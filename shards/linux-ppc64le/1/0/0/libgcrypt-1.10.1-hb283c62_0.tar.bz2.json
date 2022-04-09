@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gnupg.org/software/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.10.1": {
+        "weak": [
+          "libgcrypt >=1.10.1,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.10.1.tar.bz2",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "a general purpose cryptographic library originally based on code from GnuPG.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1649520521,
+    "version": "1.10.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libgcrypt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libgcrypt-1.10.1-hb283c62_0.tar.bz2",
+  "repodata": {
+    "build": "hb283c62_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libgpg-error >=1.44,<2.0a0"
+    ],
+    "license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+    "license_family": "GPL",
+    "md5": "ee64659ba8f614edc91ba757bc292430",
+    "name": "libgcrypt",
+    "sha256": "13eb24e703b6fdd50db2b24893e93bae5f3b242dce7d867584f8add90c219e84",
+    "size": 844051,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1649520521157,
+    "version": "1.10.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libgcrypt-1.10.1-hb283c62_0.tar.bz2/libgcrypt-1.10.1-hb283c62_0.tar.bz2"
+}
