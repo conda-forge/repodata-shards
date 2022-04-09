@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Gqrx is an open source software defined radio (SDR) receiver implemented using GNU Radio and the Qt GUI toolkit. Currently it works on Linux and Mac with hardware supported by gr-osmosdr, including Funcube Dongle, RTL-SDR, Airspy, HackRF, BladeRF, RFSpace, USRP and SoapySDR.  Gqrx can operate as an AM/FM/SSB receiver with audio output or as an FFT-only instrument. There are also various hooks for interacting with external application using network sockets.",
+    "dev_url": "https://github.com/gqrx-sdr/gqrx",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://gqrx.dk/",
+    "icon_hash": "md5:1e1b7d10b5d114704e32aeba22b826e2:43486",
+    "icon_url": "icons/gqrx.png",
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/gqrx-sdr/gqrx/archive/v2.15.9.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "gqrx",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649541583,
+    "version": "2.15.9"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gqrx-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gqrx-2.15.9-h92d841a_0.tar.bz2",
+  "repodata": {
+    "app_entry": "gqrx --edit",
+    "app_type": "desk",
+    "build": "h92d841a_0",
+    "build_number": 0,
+    "depends": [
+      "gnuradio-core >=3.10.1.1,<3.10.2.0a0",
+      "gnuradio-osmosdr >=0.2.3,<0.3.0a0",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "pulseaudio >=14.0,<14.1.0a0",
+      "qt >=5.12.9,<5.13.0a0",
+      "volk >=2.5.1,<2.6.0a0"
+    ],
+    "icon": "1e1b7d10b5d114704e32aeba22b826e2.png",
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "license_family": "GPL",
+    "md5": "0fd6e91cd71ba005ce43a2f5992c989d",
+    "name": "gqrx",
+    "sha256": "e46c556232fabc5942579b6163b42571e73dba30319a217e8257b6cc28c94f89",
+    "size": 987019,
+    "subdir": "linux-64",
+    "summary": "gqrx",
+    "timestamp": 1649541583118,
+    "type": "app",
+    "version": "2.15.9"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gqrx-2.15.9-h92d841a_0.tar.bz2/gqrx-2.15.9-h92d841a_0.tar.bz2"
+}
