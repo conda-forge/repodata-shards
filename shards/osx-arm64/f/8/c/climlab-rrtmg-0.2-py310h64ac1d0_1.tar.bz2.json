@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "climlab-rrtmg makes the RRTMG_LW and RRTMG_SW radiation codes callable from Python by wrapping using f2py. This is a lightweight wrapper that emulates the Fortran interface as closely as possible. The primary use case is to drive the RRTMG radiation processes in climlab, but it can be used as a standalone driver if you are familiar with the RRTMG Fortran interface.",
+    "dev_url": "https://github.com/climlab/climlab-rrtmg",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/climlab/climlab-rrtmg",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/climlab/climlab-rrtmg/archive/refs/tags/v0.2.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "Standalone Python wrapper for the RRTMG radiation modules",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649474923,
+    "version": "0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "climlab-rrtmg-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "climlab-rrtmg-0.2-py310h64ac1d0_1.tar.bz2",
+  "repodata": {
+    "build": "py310h64ac1d0_1",
+    "build_number": 1,
+    "depends": [
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.1.dev0",
+      "numpy >=1.21.5,<2.0a0",
+      "python >=3.10,<3.11.0a0",
+      "python >=3.10,<3.11.0a0 *_cpython",
+      "python_abi 3.10.* *_cp310"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "993d438edbe083173f1fdffadcc2cee7",
+    "name": "climlab-rrtmg",
+    "sha256": "3885ddd9233be84cd418fc54d22212e1b508a091c2f21ae07d3f10dd7e43b06f",
+    "size": 4021929,
+    "subdir": "osx-arm64",
+    "timestamp": 1649474923428,
+    "version": "0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/climlab-rrtmg-0.2-py310h64ac1d0_1.tar.bz2/climlab-rrtmg-0.2-py310h64ac1d0_1.tar.bz2"
+}
