@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Proxies are special objects which serve as mostly-transparent wrappers around another object, intervening in the apparent behavior of the wrapped bject only when necessary to apply the policy (e.g., access checking, location brokering, etc.) for which the proxy is responsible. zope.proxy is implemented via a C extension module, which lets it do things like lie about its own __class__ that are difficult in pure Python (and were completely impossible before metaclasses). It also proxies all the internal slots (such as __int__/__str__/__add__).",
+    "dev_url": "https://github.com/zopefoundation/zope.proxy",
+    "doc_source_url": null,
+    "doc_url": "https://zopeproxy.readthedocs.io/en/latest/",
+    "home": "https://github.com/zopefoundation/zope.proxy",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "ZPL 2.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/z/zope.proxy/zope.proxy-4.3.5.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "special objects which serve as mostly-transparent wrappers around another object",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649506537,
+    "version": "4.3.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "zope.proxy-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "zope.proxy-4.3.5-py38h70947bb_3.tar.bz2",
+  "repodata": {
+    "build": "py38h70947bb_3",
+    "build_number": 3,
+    "depends": [
+      "pypy3.8 >=7.3.8",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8 *_pypy38_pp73",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033",
+      "zope.interface"
+    ],
+    "license": "ZPL 2.1",
+    "license_family": "OTHER",
+    "md5": "49779769b3337720001b17de40b49aa4",
+    "name": "zope.proxy",
+    "sha256": "760f605ca94bccff49bc5ef7afcf355ccd9e6901a44801dcac01dcf41452dd83",
+    "size": 51158,
+    "subdir": "win-64",
+    "timestamp": 1649506537976,
+    "version": "4.3.5"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/zope.proxy-4.3.5-py38h70947bb_3.tar.bz2/zope.proxy-4.3.5-py38h70947bb_3.tar.bz2"
+}
