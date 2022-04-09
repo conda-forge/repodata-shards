@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "By using libcf, a data producer can produce files that conform to the CF standards, without having to write netCDF code to create and decode all the attributes that the CF convention uses to store meta-data. A data consumer can use libcf to read any file which conforms to the CF conventions; the file does not need to be created with libcf to be read by libcf",
+    "dev_url": "https://sourceforge.net/projects/libcf/",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.unidata.ucar.edu/software/libcf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "UCAR/UNIDATA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/CDAT/libcf/archive/1.0.3.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "LibCF library access data files in accordance with the CF Conventions.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1649513307,
+    "version": "1.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libcf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libcf-1.0.3-py37h2584cfe_114.tar.bz2",
+  "repodata": {
+    "build": "py37h2584cfe_114",
+    "build_number": 114,
+    "depends": [
+      "curl >=7.82.0,<8.0a0",
+      "libblas * *openblas",
+      "libcblas * *openblas",
+      "libnetcdf >=4.8.1,<4.8.2.0a0",
+      "libuuid >=2.32.1,<3.0a0",
+      "openblas",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m"
+    ],
+    "license": "UCAR/UNIDATA",
+    "md5": "27c3506dec5a7168c70512961a0d579a",
+    "name": "libcf",
+    "sha256": "927930abb4f267721a16b7eb6dd9193af4f680cc4edebfa2ec846289d7e99e85",
+    "size": 269288,
+    "subdir": "osx-64",
+    "timestamp": 1649513307251,
+    "version": "1.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libcf-1.0.3-py37h2584cfe_114.tar.bz2/libcf-1.0.3-py37h2584cfe_114.tar.bz2"
+}
