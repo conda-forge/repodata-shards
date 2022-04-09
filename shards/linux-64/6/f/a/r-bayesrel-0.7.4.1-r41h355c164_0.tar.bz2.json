@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/juliuspf/Bayesrel",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/Bayesrel/Bayesrel_0.7.4.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/Bayesrel_0.7.4.1.tar.gz"
+    ],
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Functionality for the most common single test reliability estimates: Coefficient alpha, 'Guttman's' lambda-2/-4/-6, the Greatest lower bound and coefficient omega. The Bayesian estimates are provided with credible intervals. The frequentist estimates are provided with bootstrapped confidence intervals The method for the Bayesian estimates, except for omega, is sampling from the posterior inverse 'Wishart' for the covariance matrix based measures (see 'Murphy', 2007, <https://www.seas.harvard.edu/courses/cs281/papers/murphy-2007.pdf>. In the case of omega it is 'Gibbs' Sampling from the joint conditional distributions of a single factor model ('Lee', 2007, <doi:10.1002/9780470024737>). The glb method uses adjusted code from the 'Rcsdp' package by 'Hector Corrada Bravo', <https://CRAN.R-project.org/package=Rcsdp>. This process applies a slightly adjusted solving algorithm from the 'CSDP' library by 'Brian Borchers' <https://github.com/coin-or/Csdp/wiki>, <doi:10.1080/10556789908805765>, but is wrapped in 'RcppArmadillo'. Guttman's Lambda-4 is from 'Benton' (2015) <doi:10.1007/978-3-319-07503-7_19>. The principal factor analysis for a version of frequentist omega is from 'Schlegel' (2017) <https://www.r-bloggers.com/2017/03/iterated-principal-factor-method-of-factor-analysis-with-r/>. The analytic confidence interval of alpha is from 'Bonett' and 'Wright' (2015) <doi:10.1002/job.1960>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649489316,
+    "version": "0.7.4.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-bayesrel-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-bayesrel-0.7.4.1-r41h355c164_0.tar.bz2",
+  "repodata": {
+    "build": "r41h355c164_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=10.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "libstdcxx-ng >=10.3.0",
+      "r-base >=4.1,<4.2.0a0",
+      "r-coda",
+      "r-laplacesdemon",
+      "r-lavaan",
+      "r-mass",
+      "r-progress",
+      "r-rcpp >=1.0.4.6",
+      "r-rcpparmadillo",
+      "r-rdpack"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL3",
+    "md5": "fe5e9f812499f3b11a467ae4469ffef7",
+    "name": "r-bayesrel",
+    "sha256": "f4e4632ddf52450a94843f401427e64c0062785fae04b4fa3b6228f5f6eadad4",
+    "size": 406311,
+    "subdir": "linux-64",
+    "timestamp": 1649489316256,
+    "version": "0.7.4.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/r-bayesrel-0.7.4.1-r41h355c164_0.tar.bz2/r-bayesrel-0.7.4.1-r41h355c164_0.tar.bz2"
+}
