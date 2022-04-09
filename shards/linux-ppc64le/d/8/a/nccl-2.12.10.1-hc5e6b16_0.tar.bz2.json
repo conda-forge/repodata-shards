@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The NVIDIA Collective Communications Library (NCCL) implements multi-GPU and multi-node collective communication primitives that are performance optimized for NVIDIA GPUs. NCCL provides routines such as all-gather, all-reduce, broadcast, reduce, reduce-scatter, that are optimized to achieve high bandwidth over PCIe and NVLink high-speed interconnect.",
+    "dev_url": "https://github.com/NVIDIA/nccl",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/docs/index.html",
+    "home": "https://developer.nvidia.com/nccl",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.12.10.1": {
+        "weak": [
+          "nccl >=2.12.10.1,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/nccl/archive/v2.12.10-1.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Optimized primitives for collective multi-GPU communication",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1649500351,
+    "version": "2.12.10.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nccl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nccl-2.12.10.1-hc5e6b16_0.tar.bz2",
+  "repodata": {
+    "build": "hc5e6b16_0",
+    "build_number": 0,
+    "depends": [
+      "__glibc >=2.17",
+      "cudatoolkit 11.1|11.1.*",
+      "libgcc-ng >=9.4.0",
+      "libstdcxx-ng >=9.4.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "0181eb1563993588c60850fcff47e43d",
+    "name": "nccl",
+    "sha256": "f99c57cdfa9f4e3bb6999327e28494f6ea5b8ad7ad855e44b59f56d1db78c66b",
+    "size": 132657172,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1649500351259,
+    "version": "2.12.10.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/nccl-2.12.10.1-hc5e6b16_0.tar.bz2/nccl-2.12.10.1-hc5e6b16_0.tar.bz2"
+}
