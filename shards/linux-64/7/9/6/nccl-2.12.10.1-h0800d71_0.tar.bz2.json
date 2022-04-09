@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The NVIDIA Collective Communications Library (NCCL) implements multi-GPU and multi-node collective communication primitives that are performance optimized for NVIDIA GPUs. NCCL provides routines such as all-gather, all-reduce, broadcast, reduce, reduce-scatter, that are optimized to achieve high bandwidth over PCIe and NVLink high-speed interconnect.",
+    "dev_url": "https://github.com/NVIDIA/nccl",
+    "doc_source_url": null,
+    "doc_url": "https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/docs/index.html",
+    "home": "https://developer.nvidia.com/nccl",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.12.10.1": {
+        "weak": [
+          "nccl >=2.12.10.1,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/NVIDIA/nccl/archive/v2.12.10-1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Optimized primitives for collective multi-GPU communication",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1649483859,
+    "version": "2.12.10.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nccl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nccl-2.12.10.1-h0800d71_0.tar.bz2",
+  "repodata": {
+    "build": "h0800d71_0",
+    "build_number": 0,
+    "depends": [
+      "__glibc >=2.17",
+      "cudatoolkit >=11.2,<12",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "46df082932eb99ec75ae4ea15854d219",
+    "name": "nccl",
+    "sha256": "98c02c5cc325637a76ac51baf25e69ba62f96055ee35a201a0529038d2677481",
+    "size": 141918542,
+    "subdir": "linux-64",
+    "timestamp": 1649483859598,
+    "version": "2.12.10.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/nccl-2.12.10.1-h0800d71_0.tar.bz2/nccl-2.12.10.1-h0800d71_0.tar.bz2"
+}
