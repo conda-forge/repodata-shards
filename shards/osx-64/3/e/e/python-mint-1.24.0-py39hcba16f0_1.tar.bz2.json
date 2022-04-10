@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "mint regrids edge centred fields from a source to a destination grid. The grid is stored as a collection of grid cells, each having four vertices (i.e., the cells are quadrilaterals) in longitude-latitude space. The edge field is stored as integrals of a vector field along each edge. The regridding method is mimetic in the sense that Stokes's theorem is satisfied to near machine precision. In particular, the loop integrals of an interpolated vector field deriving from a gradient is zero.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/pletzer/mint",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "0BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/pletzer/mint/archive/v1.24.0.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Mimetic INTerpolation on the Sphere.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649570623,
+    "version": "1.24.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "python-mint-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-mint-1.24.0-py39hcba16f0_1.tar.bz2",
+  "repodata": {
+    "build": "py39hcba16f0_1",
+    "build_number": 1,
+    "depends": [
+      "libcxx >=12.0.1",
+      "libnetcdf >=4.8.1,<4.8.2.0a0",
+      "netcdf4",
+      "numpy",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "tbb >=2020.2,<2021.0.0a0",
+      "vtk >=9.1.0,<9.1.1.0a0"
+    ],
+    "license": "0BSD",
+    "license_family": "BSD",
+    "md5": "837b0c68086860dacfd0ea0d39a7ec66",
+    "name": "python-mint",
+    "sha256": "445a188efeed019efcfb041936feb5a9c964ec3fd77ccb10d27f335b20fb3d1b",
+    "size": 199939,
+    "subdir": "osx-64",
+    "timestamp": 1649570623602,
+    "version": "1.24.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/python-mint-1.24.0-py39hcba16f0_1.tar.bz2/python-mint-1.24.0-py39hcba16f0_1.tar.bz2"
+}
