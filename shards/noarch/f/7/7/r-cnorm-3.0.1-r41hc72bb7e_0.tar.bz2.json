@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.psychometrica.de/cNorm_en.html, https://github.com/WLenhard/cNORM",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "AGPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/cNORM/cNORM_3.0.1.tar.gz",
+      "https://cran.r-project.org/src/contrib/cNORM_3.0.1.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Conventional methods for producing standard scores in psychometrics or biometrics are often plagued with \"jumps\" or \"gaps\" (i.e., discontinuities) in norm tables and low confidence for assessing extreme scores. The continuous norming method introduced by A. Lenhard et al. (2016, <doi:10.1177/1073191116656437>; 2019, <doi:10.1371/journal.pone.0222279>) and generates continuous test norm scores on the basis of the raw data from standardization samples, without requiring assumptions about the distribution of the raw data: Norm scores are directly established from raw data by modeling the latter ones as a function of both percentile scores and an explanatory variable (e.g., age). The method minimizes bias arising from sampling and measurement error, while handling marked deviations from normality, addressing bottom or ceiling effects and capturing almost all of the variance in the original norm data sample. An online demonstration is available via <https://cnorm.shinyapps.io/cNORM/>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649684706,
+    "version": "3.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-cnorm-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-cnorm-3.0.1-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-lattice >=0.20",
+      "r-latticeextra >=0.6",
+      "r-leaps >=3.0"
+    ],
+    "license": "AGPL-3.0-only",
+    "license_family": "AGPL",
+    "md5": "4476fc8a0e44069f4c1f229b4957d441",
+    "name": "r-cnorm",
+    "noarch": "generic",
+    "sha256": "a51240f4ebe9309f80948844fc33bb454d2e33b92b766be519ff8b242b5255cd",
+    "size": 1459536,
+    "subdir": "noarch",
+    "timestamp": 1649684706663,
+    "version": "3.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-cnorm-3.0.1-r41hc72bb7e_0.tar.bz2/r-cnorm-3.0.1-r41hc72bb7e_0.tar.bz2"
+}
