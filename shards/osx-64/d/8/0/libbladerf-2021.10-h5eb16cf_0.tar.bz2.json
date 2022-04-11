@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This software supports the Nuand bladeRF and bladeRF Micro USB 3.0 Software Defined Radio (SDR) devices:    - `libbladerf2` contains the library for bladeRF devices   - `libbladerf` contains the development files for compiling against the bladeRF library   - `libbladerf-python` contains the Python bindings for the bladeRF library   - `bladerf` package contains command line tools for using the devices  For Linux users of `bladerf`, you will likely want to link the provided udev rule into your system installation in order for the hardware to have the correct permissions:      sudo ln -s $CONDA_PREFIX/lib/udev/rules.d/88-nuand-bladerf1.rules /etc/udev/rules.d/     sudo ln -s $CONDA_PREFIX/lib/udev/rules.d/88-nuand-bladerf2.rules /etc/udev/rules.d/     sudo ln -s $CONDA_PREFIX/lib/udev/rules.d/88-nuand-bootloader.rules /etc/udev/rules.d/     sudo udevadm control --reload     sudo udevadm trigger  Then, make sure your user account belongs to the plugdev group in order to be able to access your device:      sudo usermod -a -G plugdev <user>  You may have to restart for this change to take effect.",
+    "dev_url": "https://github.com/Nuand/bladeRF",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/Nuand/bladeRF/wiki",
+    "home": "https://www.nuand.com/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2021.10": {
+        "weak": [
+          "libbladerf2 >=2021.10"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Nuand/bladeRF/archive/refs/tags/2021.10.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Host software for bladeRF source software radio devices.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1649716705,
+    "version": "2021.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": "bladerf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libbladerf-2021.10-h5eb16cf_0.tar.bz2",
+  "repodata": {
+    "build": "h5eb16cf_0",
+    "build_number": 0,
+    "depends": [
+      "libbladerf2 2021.10 h5eb16cf_0"
+    ],
+    "license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+    "license_family": "LGPL",
+    "md5": "6d366bf0dd84da34367acb6927d7691b",
+    "name": "libbladerf",
+    "sha256": "4934813d0b5c0142e2b6af42a25d00e25c660c6eecf9ad38bfb0e04b144f733f",
+    "size": 139571,
+    "subdir": "osx-64",
+    "timestamp": 1649716705286,
+    "version": "2021.10"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libbladerf-2021.10-h5eb16cf_0.tar.bz2/libbladerf-2021.10-h5eb16cf_0.tar.bz2"
+}
