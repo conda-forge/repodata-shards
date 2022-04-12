@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Given a byte stream with a minimum length of 50 bytes TLSH generates a hash value which can be used for similarity comparisons. Similar objects will have similar hash values which allows for the detection of similar objects by comparing their hash values. Note that the byte stream should have a sufficient amount of complexity. For example, a byte stream of identical bytes will not generate a hash value.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/trendmicro/tlsh",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.11.0": {
+        "weak": [
+          "python-tlsh >=4.11.0,<4.12.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/trendmicro/tlsh/archive/4.11.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "TLSH is a fuzzy matching library.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649776465,
+    "version": "4.11.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "tlsh-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-tlsh-4.11.0-py39h0e26352_1.tar.bz2",
+  "repodata": {
+    "build": "py39h0e26352_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "libtlsh 4.11.0 h27087fc_1",
+      "pypy3.9 >=7.3.9",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9 *_pypy39_pp73"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "69a928d10b019ef6e74b6b798e0aebef",
+    "name": "python-tlsh",
+    "sha256": "685dd860190d0c8091d144007777ec7c65b53c9aa2fc37d40cfaf525debb4543",
+    "size": 36110,
+    "subdir": "linux-64",
+    "timestamp": 1649776465435,
+    "version": "4.11.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/python-tlsh-4.11.0-py39h0e26352_1.tar.bz2/python-tlsh-4.11.0-py39h0e26352_1.tar.bz2"
+}
