@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/MathsCell/nlsic",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/nlsic/nlsic_1.0.2.tar.gz",
+      "https://cran.r-project.org/src/contrib/nlsic_1.0.2.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "We solve non linear least squares problems with optional equality and/or inequality constraints. Non linear iterations are globalized with back-tracking method. Linear problems are solved by dense QR decomposition from 'LAPACK' which can limit the size of treated problems. On the other side, we avoid condition number degradation which happens in classical quadratic programming approach. Inequality constraints treatment on each non linear iteration is based on 'NNLS' method (by Lawson and Hanson). We provide an original function 'lsi_ln' for solving linear least squares problem with inequality constraints in least norm sens. Thus if Jacobian of the problem is rank deficient a solution still can be provided. However, truncation errors are probable in this case. Equality constraints are treated by using a basis of Null-space. User defined function calculating residuals must return a list having residual vector (not their squared sum) and Jacobian. If Jacobian is not in the returned list, package 'numDeriv' is used to calculated finite difference version of Jacobian. The 'NLSIC' method was fist published in Sokol et al. (2012) <doi:10.1093/bioinformatics/btr716>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649791432,
+    "version": "1.0.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-nlsic-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-nlsic-1.0.2-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-nnls"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "58ebc5a0b0b430aa7bc3dbef4e202f76",
+    "name": "r-nlsic",
+    "noarch": "generic",
+    "sha256": "fd07525a8869abeab51249d843a3ae45bfb7e548f9f360fde9202c6aec6a7310",
+    "size": 104913,
+    "subdir": "noarch",
+    "timestamp": 1649791432935,
+    "version": "1.0.2"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-nlsic-1.0.2-r41hc72bb7e_0.tar.bz2/r-nlsic-1.0.2-r41hc72bb7e_0.tar.bz2"
+}
