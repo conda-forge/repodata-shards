@@ -39,7 +39,7 @@ jobs:
           done = 0
           for w in r.get_workflows():
               for _ in range(10):
-                  skip_one = True
+                  skipped = 0
                   for rn in w.get_runs():
                       if rn.status == 'completed' and (
                           rn.conclusion in ['success', 'cancelled'] 
@@ -47,8 +47,8 @@ jobs:
                           or w.name.startswith('delete-')
                           or datetime.datetime.utcnow() - rn.updated_at > datetime.timedelta(days=1)
                       ):
-                          if skip_one:
-                              skip_one = False
+                          if skipped < 2:
+                              skipped += 1
                               continue
                           requests.delete(
                               rn.url, 
