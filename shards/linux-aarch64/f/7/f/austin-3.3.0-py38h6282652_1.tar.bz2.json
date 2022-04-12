@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Austin is a Python frame stack sampler for CPython written in pure C. Samples are collected by reading the CPython interpreter virtual memory space in order to retrieve information about the currently running threads along with the stack of the frames that are being executed. Hence, one can use Austin to easily make powerful statistical profilers that have minimal impact on the target application and that don't require any instrumentation.",
+    "dev_url": "https://github.com/P403n1x87/austin",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/P403n1x87/austin",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/P403n1x87/austin/archive/v3.3.0.tar.gz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "A Frame Stack Sampler for CPython",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649783472,
+    "version": "3.3.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "austin-3.3.0-py38h6282652_1.tar.bz2",
+  "repodata": {
+    "build": "py38h6282652_1",
+    "build_number": 1,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "pypy3.8 >=7.3.9",
+      "python >=3.8,<3.9.0a0",
+      "python >=3.8,<3.9.0a0 *_73_pypy",
+      "python_abi 3.8 *_pypy38_pp73"
+    ],
+    "license": "GPL-3.0-or-later",
+    "license_family": "GPL",
+    "md5": "cb3b452f458e061df29d54e4bebe0699",
+    "name": "austin",
+    "sha256": "71a1b5aed4e72770ac4ab010767eb0404a5164799b9d701ec7872da7808ab052",
+    "size": 46014,
+    "subdir": "linux-aarch64",
+    "timestamp": 1649783472049,
+    "version": "3.3.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/austin-3.3.0-py38h6282652_1.tar.bz2"
+}
