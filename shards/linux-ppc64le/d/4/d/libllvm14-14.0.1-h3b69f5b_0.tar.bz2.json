@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": "https://github.com/llvm/llvm-project",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "14.0.1": {
+        "weak": [
+          "libllvm14 >=14.0.1,<14.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.1/llvm-project-14.0.1.src.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Development headers and libraries for LLVM",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649860841,
+    "version": "14.0.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "llvmdev-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libllvm14-14.0.1-h3b69f5b_0.tar.bz2",
+  "repodata": {
+    "build": "h3b69f5b_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "license_family": "Apache",
+    "md5": "a5273e2c5e4e1ab29a276dcee236b1c2",
+    "name": "libllvm14",
+    "sha256": "bae558f4a871088ef2f91be4f9a67717f032d58fc44a552ac2e6f52ed3b279f4",
+    "size": 40775813,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1649860841640,
+    "version": "14.0.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libllvm14-14.0.1-h3b69f5b_0.tar.bz2/libllvm14-14.0.1-h3b69f5b_0.tar.bz2"
+}
