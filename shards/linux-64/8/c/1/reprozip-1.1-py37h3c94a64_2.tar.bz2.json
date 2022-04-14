@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "ReproZip is a tool aimed at simplifying the process of creating reproducible experiments from command-line executions, a frequently-used common denominator in computational science. It tracks operating system calls and creates a package that contains all the binaries, files and dependencies required to run a given command on the author's computational environment (packing step). A reviewer can then extract the experiment in his environment to reproduce the results (unpacking step).",
+    "dev_url": "https://github.com/VIDA-NYU/reprozip",
+    "doc_source_url": null,
+    "doc_url": "https://docs.reprozip.org/",
+    "home": "http://github.com/VIDA-NYU/reprozip",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/r/reprozip/reprozip-1.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Linux tool enabling reproducible experiments (packer)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1649941155,
+    "version": "1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "reprozip-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "reprozip-1.1-py37h3c94a64_2.tar.bz2",
+  "repodata": {
+    "build": "py37h3c94a64_2",
+    "build_number": 2,
+    "depends": [
+      "distro",
+      "libgcc-ng >=10.3.0",
+      "python >=3.7,<3.8.0a0",
+      "python_abi 3.7.* *_cp37m",
+      "pyyaml",
+      "requests",
+      "rpaths >=0.8",
+      "setuptools",
+      "sqlite >=3.38.2,<4.0a0",
+      "usagestats >=0.3"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "04d301ab7f80695662d215aa9a1054be",
+    "name": "reprozip",
+    "sha256": "5e87d012fe4d845686306bad18c6dad2de5033df29615336667b47fe1e125105",
+    "size": 86871,
+    "subdir": "linux-64",
+    "timestamp": 1649941155149,
+    "version": "1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/reprozip-1.1-py37h3c94a64_2.tar.bz2/reprozip-1.1-py37h3c94a64_2.tar.bz2"
+}
