@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This library is a thin wrapper around Embree 3. As much as possible, it tries to emulate the C API usage. The main point of this is to avoid creating a new API which would obfuscate the usage of the C API. Ideally, it should be easy to read the Embree documentation or examples, and translate things straightforwardly to equivalent Python code. A secondary goal is to provide easy interoperability with numpy.",
+    "dev_url": "https://github.com/sampotter/python-embree",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/sampotter/python-embree",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/sampotter/python-embree/archive/refs/tags/v0.1.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python bindings for Embree 3",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1649960520,
+    "version": "v0.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "python-embree-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "python-embree-v0.1.0-py310h5764c6d_2.tar.bz2",
+  "repodata": {
+    "build": "py310h5764c6d_2",
+    "build_number": 2,
+    "depends": [
+      "embree3",
+      "libgcc-ng >=10.3.0",
+      "numpy",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "ea2fdccae813c17b602a6f249365191f",
+    "name": "python-embree",
+    "sha256": "816746fe062721d9b71a804bcb8c4dde6b8331a9ed84c791eb49b6954e76b618",
+    "size": 144477,
+    "subdir": "linux-64",
+    "timestamp": 1649960520898,
+    "version": "v0.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/python-embree-v0.1.0-py310h5764c6d_2.tar.bz2/python-embree-v0.1.0-py310h5764c6d_2.tar.bz2"
+}
