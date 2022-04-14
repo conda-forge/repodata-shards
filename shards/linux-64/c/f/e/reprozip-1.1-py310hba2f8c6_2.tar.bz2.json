@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "ReproZip is a tool aimed at simplifying the process of creating reproducible experiments from command-line executions, a frequently-used common denominator in computational science. It tracks operating system calls and creates a package that contains all the binaries, files and dependencies required to run a given command on the author's computational environment (packing step). A reviewer can then extract the experiment in his environment to reproduce the results (unpacking step).",
+    "dev_url": "https://github.com/VIDA-NYU/reprozip",
+    "doc_source_url": null,
+    "doc_url": "https://docs.reprozip.org/",
+    "home": "http://github.com/VIDA-NYU/reprozip",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/r/reprozip/reprozip-1.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Linux tool enabling reproducible experiments (packer)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1649941151,
+    "version": "1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "reprozip-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "reprozip-1.1-py310hba2f8c6_2.tar.bz2",
+  "repodata": {
+    "build": "py310hba2f8c6_2",
+    "build_number": 2,
+    "depends": [
+      "distro",
+      "libgcc-ng >=10.3.0",
+      "python >=3.10,<3.11.0a0",
+      "python_abi 3.10.* *_cp310",
+      "pyyaml",
+      "requests",
+      "rpaths >=0.8",
+      "setuptools",
+      "sqlite >=3.38.2,<4.0a0",
+      "usagestats >=0.3"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "77ba2b698e1b8ed9ead97ff36bfc0c17",
+    "name": "reprozip",
+    "sha256": "c15482ecd9376da007d535e0e608e1dde32ea6729752754fd224983afd958123",
+    "size": 87491,
+    "subdir": "linux-64",
+    "timestamp": 1649941151908,
+    "version": "1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/reprozip-1.1-py310hba2f8c6_2.tar.bz2/reprozip-1.1-py310hba2f8c6_2.tar.bz2"
+}
