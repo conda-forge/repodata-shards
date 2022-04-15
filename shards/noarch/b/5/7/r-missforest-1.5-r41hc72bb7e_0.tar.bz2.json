@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.r-project.org, https://github.com/stekhoven/missForest",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/missForest/missForest_1.5.tar.gz",
+      "https://cran.r-project.org/src/contrib/missForest_1.5.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "The function 'missForest' in this package is used to impute missing values particularly in the case of mixed-type data. It uses a random forest trained on the observed values of a data matrix to predict the missing values. It can be used to impute continuous and/or categorical data including complex interactions and non-linear relations. It yields an out-of-bag (OOB) imputation error estimate without the need of a test set or elaborate cross-validation. It can be run in parallel to  save computation time.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1650018985,
+    "version": "1.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-missforest-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-missforest-1.5-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-dorng",
+      "r-foreach",
+      "r-iterators",
+      "r-itertools",
+      "r-randomforest"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL3",
+    "md5": "178b784b28bc9cce6153a5b7eeb0c23f",
+    "name": "r-missforest",
+    "noarch": "generic",
+    "sha256": "0197b4a171ba4507caa8e8cd0d3a93a40cd2657c3faec3a402bd17a0416d1906",
+    "size": 366777,
+    "subdir": "noarch",
+    "timestamp": 1650018985840,
+    "version": "1.5"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-missforest-1.5-r41hc72bb7e_0.tar.bz2/r-missforest-1.5-r41hc72bb7e_0.tar.bz2"
+}
