@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The libnl suite is a collection of libraries providing APIs to netlink protocol based Linux kernel interfaces. Netlink is a IPC mechanism primarly between the kernel and user space processes. It was designed to be a more flexible successor to ioctl to provide mainly networking related kernel configuration and monitoring interfaces.",
+    "dev_url": "https://github.com/tgraf/libnl-1.1-stable",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.infradead.org/~tgr/libnl/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.6.0": {
+        "weak": [
+          "libnl >=3.6.0,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/thom311/libnl/releases/download/libnl3_6_0/libnl-3.6.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "Netlink Library Suite",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1650219299,
+    "version": "3.6.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libnl-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libnl-3.6.0-hb283c62_0.tar.bz2",
+  "repodata": {
+    "build": "hb283c62_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=10.3.0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "LGPL",
+    "md5": "954f376cca12edb1f119e7d9ed624c1b",
+    "name": "libnl",
+    "sha256": "64a806da860869470fe32d5694dafcbf60d8299ea10df1eb4ca7f2ff1ae4708e",
+    "size": 1082893,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1650219299202,
+    "version": "3.6.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libnl-3.6.0-hb283c62_0.tar.bz2/libnl-3.6.0-hb283c62_0.tar.bz2"
+}
