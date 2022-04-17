@@ -1,0 +1,75 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/",
+    "home": "https://www.freedesktop.org/wiki/Software/PulseAudio/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "14.0": {
+        "weak": [
+          "pulseaudio >=14.0,<14.1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-14.0.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "A networked sound server",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1650237885,
+    "version": "14.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pulseaudio-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pulseaudio-14.0-h04155f4_5.tar.bz2",
+  "repodata": {
+    "build": "h04155f4_5",
+    "build_number": 5,
+    "depends": [
+      "alsa-lib >=1.2.3,<1.2.4.0a0",
+      "dbus >=1.13.6,<2.0a0",
+      "fftw",
+      "gettext >=0.19.8.1,<1.0a0",
+      "jack >=1.9.18,<1.10.0a0",
+      "json-c >=0.16,<0.17.0a0",
+      "libcap >=2.64,<2.65.0a0",
+      "libgcc-ng >=10.3.0",
+      "libglib >=2.70.2,<3.0a0",
+      "libiconv >=1.16,<1.17.0a0",
+      "libsndfile >=1.0.31,<1.1.0a0",
+      "libstdcxx-ng >=10.3.0",
+      "libtool >=2.4"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "GPL",
+    "md5": "cb9902fcad79c6bec134ff174e7c505d",
+    "name": "pulseaudio",
+    "sha256": "13f5f1761a874d505b0c5ca4bc30e297554a50f85bf1f1ac4ef6b53e68701f8a",
+    "size": 1792079,
+    "subdir": "linux-aarch64",
+    "timestamp": 1650237885039,
+    "version": "14.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/pulseaudio-14.0-h04155f4_5.tar.bz2/pulseaudio-14.0-h04155f4_5.tar.bz2"
+}
