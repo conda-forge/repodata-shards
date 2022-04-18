@@ -1,0 +1,67 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.",
+    "dev_url": "https://wiki.mpich.org/mpich/index.php/Main_Page",
+    "doc_source_url": null,
+    "doc_url": "http://www.mpich.org/documentation/guides",
+    "home": "http://www.mpich.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-MPICH",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.4.3": {
+        "weak": [
+          "mpich >=3.4.3,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://www.mpich.org/static/downloads/3.4.3/mpich-3.4.3.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A high performance widely portable implementation of the MPI standard.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1650314680,
+    "version": "3.4.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mpich-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mpich-3.4.3-h846660c_101.tar.bz2",
+  "repodata": {
+    "build": "h846660c_101",
+    "build_number": 101,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "mpi 1.0 mpich"
+    ],
+    "license": "LicenseRef-MPICH",
+    "license_family": "Other",
+    "md5": "0221a4924130dd0d3fdc4a5d6239a131",
+    "name": "mpich",
+    "sha256": "3baf6ba1110a706e2e0905076727bceef6b296f6863f64aa202a65a3fecb8efe",
+    "size": 11219378,
+    "subdir": "linux-64",
+    "timestamp": 1650314680283,
+    "version": "3.4.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/mpich-3.4.3-h846660c_101.tar.bz2/mpich-3.4.3-h846660c_101.tar.bz2"
+}
