@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "nPth is a library to provide the GNU Pth API and thus a non-preemptive threads implementation.  In contrast to GNU Pth is is based on the system's standard threads implementation. This allows the use of libraries which are not compatible to GNU Pth. Experience with a Windows Pth emulation showed that this is a solid way to provide a co-routine based framework.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://www.gnupg.org/software/ntbtls/index.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.6": {
+        "weak": [
+          "npth >=1.6,<2.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "The New GNU Portable Threads Library",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1650313895,
+    "version": "1.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "npth-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "npth-1.6-h96cf925_1001.tar.bz2",
+  "repodata": {
+    "build": "h96cf925_1001",
+    "build_number": 1001,
+    "depends": [
+      "libcxx >=12.0.1",
+      "libgpg-error >=1.44,<2.0a0"
+    ],
+    "license": "LGPL-2.0-only",
+    "license_family": "GPL",
+    "md5": "c44bf691ca1976d0896c1926eecd363a",
+    "name": "npth",
+    "sha256": "4212fde5418c7e6f0c862d6c6fa5bbb993ee23b5a39c79ae1d6e5c71bf871e17",
+    "size": 24525,
+    "subdir": "osx-64",
+    "timestamp": 1650313895431,
+    "version": "1.6"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/npth-1.6-h96cf925_1001.tar.bz2/npth-1.6-h96cf925_1001.tar.bz2"
+}
