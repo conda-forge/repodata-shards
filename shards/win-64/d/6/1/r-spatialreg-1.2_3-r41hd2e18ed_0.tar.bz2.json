@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/r-spatial/spatialreg/, https://r-spatial.github.io/spatialreg/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/spatialreg/spatialreg_1.2-3.tar.gz",
+      "https://cran.r-project.org/src/contrib/spatialreg_1.2-3.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A collection of all the estimation functions for spatial cross-sectional models (on lattice/areal data using spatial weights matrices) contained up to now in 'spdep', 'sphet' and 'spse'. These model fitting functions include maximum likelihood methods for cross-sectional models proposed by 'Cliff' and 'Ord' (1973, ISBN:0850860369) and (1981, ISBN:0850860814), fitting methods initially described by 'Ord' (1975) <doi:10.1080/01621459.1975.10480272>. The models are further described by 'Anselin' (1988) <doi:10.1007/978-94-015-7799-1>. Spatial two stage least squares and spatial general method of moment models initially proposed by 'Kelejian' and 'Prucha' (1998) <doi:10.1023/A:1007707430416> and (1999) <doi:10.1111/1468-2354.00027> are provided. Impact methods and MCMC fitting methods proposed by 'LeSage' and 'Pace' (2009) <doi:10.1201/9781420064254> are implemented for the family of cross-sectional spatial regression models. Methods for fitting the log determinant term in maximum likelihood and MCMC fitting are compared by 'Bivand et al.' (2013) <doi:10.1111/gean.12008>, and model fitting methods by 'Bivand' and 'Piras' (2015) <doi:10.18637/jss.v063.i18>; both of these articles include extensive lists of references. 'spatialreg' >= 1.1-* correspond to 'spdep' >= 1.1-1, in which the model fitting functions are deprecated and pass through to 'spatialreg', but will mask those in 'spatialreg'. From versions 1.2-*, the functions will be made defunct in 'spdep'.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1650315367,
+    "version": "1.2_3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-spatialreg-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-spatialreg-1.2_3-r41hd2e18ed_0.tar.bz2",
+  "repodata": {
+    "build": "r41hd2e18ed_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "m2w64-gcc-libs",
+      "r-base >=4.1,<4.2.0a0",
+      "r-boot",
+      "r-coda",
+      "r-expm",
+      "r-gmodels",
+      "r-learnbayes",
+      "r-mass",
+      "r-matrix",
+      "r-nlme",
+      "r-sf >=1.0_4",
+      "r-spdata",
+      "r-spdep"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "05222be1860b25e14dbd0af8a8b2f971",
+    "name": "r-spatialreg",
+    "sha256": "bb36c3dd1cc592b697213c473420d787b2aac83514763e29e5d451542b047f61",
+    "size": 2109234,
+    "subdir": "win-64",
+    "timestamp": 1650315367884,
+    "version": "1.2_3"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/r-spatialreg-1.2_3-r41hd2e18ed_0.tar.bz2/r-spatialreg-1.2_3-r41hd2e18ed_0.tar.bz2"
+}
