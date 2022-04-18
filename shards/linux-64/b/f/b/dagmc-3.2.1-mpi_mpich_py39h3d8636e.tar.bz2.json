@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Direct Accelerated Geometry Monte Carlo (DAGMC) is a software package that allows users to perform Monte Carlo radiation transport directly on CAD models.",
+    "dev_url": "https://github.com/svalinn/DAGMC",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://svalinn.github.io/DAGMC/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.2.1": {
+        "weak": [
+          "dagmc * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": "https://github.com/svalinn/DAGMC.git",
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Direct Accelerated Geometry Toolkit",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1650305536,
+    "version": "3.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dagmc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dagmc-3.2.1-mpi_mpich_py39h3d8636e.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py39h3d8636e",
+    "build_number": 5,
+    "depends": [
+      "eigen",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "moab * mpi_mpich_*",
+      "moab * mpi_mpich_tempest*",
+      "mpich >=4.0.2,<5.0a0",
+      "zlib"
+    ],
+    "license": "BSD-2-Clause",
+    "md5": "f18bf71d82172be450d948c7d8d6b86d",
+    "name": "dagmc",
+    "sha256": "c637c25234ba6eb9244677a77068318a981ec111c3a5bbef82a2490eceafd33d",
+    "size": 18218549,
+    "subdir": "linux-64",
+    "timestamp": 1650305536646,
+    "version": "3.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/dagmc-3.2.1-mpi_mpich_py39h3d8636e.tar.bz2/dagmc-3.2.1-mpi_mpich_py39h3d8636e.tar.bz2"
+}
