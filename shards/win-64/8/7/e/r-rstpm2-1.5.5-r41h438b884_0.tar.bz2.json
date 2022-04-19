@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/mclements/rstpm2",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/rstpm2/rstpm2_1.5.5.tar.gz",
+      "https://cran.r-project.org/src/contrib/rstpm2_1.5.5.tar.gz"
+    ],
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "R implementation of generalized survival models (GSMs), smooth accelerated failure time (AFT) models and Markov multi-state models. For the GSMs, g(S(t|x))=eta(t,x) for a link function g, survival S at time t with covariates x and a linear predictor eta(t,x). The main assumption is that the time effect(s) are smooth <doi:10.1177/0962280216664760>. For fully parametric models with natural splines, this re-implements Stata's 'stpm2' function, which are flexible parametric survival models developed by Royston and colleagues. We have extended the parametric models to include any smooth parametric smoothers for time. We have also extended the model to include any smooth penalized smoothers from the 'mgcv' package, using penalized likelihood. These models include left truncation, right censoring, interval censoring, gamma frailties and normal random effects <doi:10.1002/sim.7451>. For the smooth AFTs, S(t|x) = S_0(t*eta(t,x)), where the baseline survival function S_0(t)=exp(-exp(eta_0(t))) is modelled for natural splines for eta_0, and the time-dependent cumulative acceleration factor eta(t,x)=\\int_0^t exp(eta_1(u,x)) du for log acceleration factor eta_1(u,x). The Markov multi-state models allow for a range of models with smooth transitions to predict transition probabilities, length of stay, utilities and costs, with differences, ratios and standardisation.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1650376464,
+    "version": "1.5.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-rstpm2-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-rstpm2-1.5.5-r41h438b884_0.tar.bz2",
+  "repodata": {
+    "build": "r41h438b884_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "m2w64-gcc-libs",
+      "r-base >=4.1,<4.2.0a0",
+      "r-bbmle >=1.0.20",
+      "r-desolve",
+      "r-fastghquad",
+      "r-mgcv",
+      "r-rcpp >=0.10.2",
+      "r-rcpparmadillo",
+      "r-survival"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL3",
+    "md5": "cb882f5d0cd63ab671cf0a82c5d6b244",
+    "name": "r-rstpm2",
+    "sha256": "45fade35bbc82a5ec5c24caff03c0807789709ee4639869aced5352b28abb2a4",
+    "size": 2447122,
+    "subdir": "win-64",
+    "timestamp": 1650376464707,
+    "version": "1.5.5"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/r-rstpm2-1.5.5-r41h438b884_0.tar.bz2/r-rstpm2-1.5.5-r41h438b884_0.tar.bz2"
+}
