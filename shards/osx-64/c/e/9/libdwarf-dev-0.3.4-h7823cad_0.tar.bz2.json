@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The DWARF Debugging Information Format is of interest to programmers working on compilers and debuggers (and anyone interested in reading or writing DWARF information). It was developed by a committee (known as the PLSIG at the time) starting around 1991. Starting around 1991 SGI got involved with the committee and then developed the libdwarf and dwarfdump tools for SGI-internal use and as part of SGI IRIX developer tools. From around 1993 dwarfdump and libdwarf were shipped (as an executable and archive respectively, not source) with every release of the SGI MIPS/IRIX C compiler. In 1994 (I think the correct year) SGI agreed (at my request) to open-source libdwarf (and in 1999 to open-source dwarfdump) so anyone could use them.",
+    "dev_url": "https://github.com/davea42/libdwarf-code",
+    "doc_source_url": null,
+    "doc_url": "https://www.prevanders.net/libdwarfdoc/",
+    "home": "https://www.prevanders.net/dwarf.html",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.3.4": {
+        "weak": [
+          "libdwarf >=0.3.4,<1.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/davea42/libdwarf-code/releases/download/v0.3.4/libdwarf-0.3.4.tar.xz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "a library for manipulating DWARF Debugging Information Format (headers & dev stuff)",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1650479095,
+    "version": "0.3.4"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libdwarf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libdwarf-dev-0.3.4-h7823cad_0.tar.bz2",
+  "repodata": {
+    "build": "h7823cad_0",
+    "build_number": 0,
+    "depends": [
+      "libdwarf 0.3.4 h7823cad_0",
+      "libzlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-2.1-only",
+    "license_family": "GPL",
+    "md5": "902a09f44d397a43bc976d751944d327",
+    "name": "libdwarf-dev",
+    "sha256": "c9dd98c43f46237db4737628956b2fef1c473c457887ca7fd08733c765dff490",
+    "size": 76937,
+    "subdir": "osx-64",
+    "timestamp": 1650479095105,
+    "version": "0.3.4"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libdwarf-dev-0.3.4-h7823cad_0.tar.bz2/libdwarf-dev-0.3.4-h7823cad_0.tar.bz2"
+}
