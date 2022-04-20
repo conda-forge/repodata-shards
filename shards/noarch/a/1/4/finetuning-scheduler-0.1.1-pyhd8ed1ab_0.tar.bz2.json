@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The FinetuningScheduler callback accelerates and enhances foundational model experimentation with flexible finetuning schedules. Training with the FinetuningScheduler callback is simple and confers a host of benefits:  - it dramatically increases finetuning flexibility - expedites and facilitates exploration of model tuning dynamics - enables marginal performance improvements of finetuned models  Fundamentally, the FinetuningScheduler callback enables multi-phase, scheduled finetuning of foundational models. Gradual unfreezing (i.e. thawing) can help maximize foundational model knowledge retention while allowing (typically upper layers of) the model to optimally adapt to new tasks during transfer learning.  FinetuningScheduler orchestrates the gradual unfreezing of models via a finetuning schedule that is either implicitly generated (the default) or explicitly provided by the user (more computationally efficient). Finetuning phase transitions are driven by FTSEarlyStopping criteria (a multi-phase extension of EarlyStopping), user-specified epoch transitions or a composition of the two (the default mode). A FinetuningScheduler training session completes when the final phase of the schedule has its stopping criteria met.  Documentation ------------- - https://finetuning-scheduler.readthedocs.io/en/latest/ - https://finetuning-scheduler.readthedocs.io/en/0.1.1/",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/speediedan/finetuning-scheduler",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/finetuning-scheduler/finetuning-scheduler-0.1.1.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "A PyTorch Lightning extension that enhances model experimentation with flexible finetuning schedules.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1650474161,
+    "version": "0.1.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "finetuning-scheduler-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "finetuning-scheduler-0.1.1-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "python >=3.7",
+      "pytorch >=1.8",
+      "pytorch-lightning >=1.6.0,<=1.6.1",
+      "setuptools <59.6"
+    ],
+    "license": "Apache-2.0",
+    "md5": "7b1373ea09f88bc7d577029f239a8c79",
+    "name": "finetuning-scheduler",
+    "noarch": "python",
+    "sha256": "4dc976ae4fd7ec60f332043a0bd103e1566a92b415f56f8c68eef99d65cd357e",
+    "size": 37494,
+    "subdir": "noarch",
+    "timestamp": 1650474161820,
+    "version": "0.1.1"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/finetuning-scheduler-0.1.1-pyhd8ed1ab_0.tar.bz2/finetuning-scheduler-0.1.1-pyhd8ed1ab_0.tar.bz2"
+}
