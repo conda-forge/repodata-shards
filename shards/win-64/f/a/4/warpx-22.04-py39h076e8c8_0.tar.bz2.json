@@ -1,0 +1,81 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports many features including: Perfectly-Matched Layers (PML), Boosted-frame simulations, particle collisions, mesh refinement.",
+    "dev_url": "https://github.com/ECP-WarpX/WarpX",
+    "doc_source_url": null,
+    "doc_url": "https://warpx.readthedocs.io",
+    "home": "https://ecp-warpx.github.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause-LBNL",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "22.04": {
+        "weak": [
+          "warpx 22.04"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ECP-WarpX/WarpX/archive/22.04.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "WarpX is an advanced electromagnetic Particle-In-Cell code.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1650447484,
+    "version": "22.04"
+  },
+  "channeldata_version": 1,
+  "feedstock": "warpx-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "warpx-22.04-py39h076e8c8_0.tar.bz2",
+  "repodata": {
+    "build": "py39h076e8c8_0",
+    "build_number": 0,
+    "depends": [
+      "adios2 >=2.7.1,<2.7.2.0a0",
+      "blaspp 2021.04.01.*",
+      "fftw >=3.3.10,<4.0a0",
+      "lapackpp 2021.04.00.*",
+      "libblas >=3.8.0,<4.0a0",
+      "libcblas >=3.8.0,<4.0a0",
+      "liblapack >=3.8.0,<4.0a0",
+      "liblapacke >=3.8.0,<4.0a0",
+      "llvm-openmp >=13.0.1",
+      "numpy",
+      "openpmd-api * nompi_*",
+      "openpmd-api 0.14.4.*",
+      "periodictable",
+      "picmistandard 0.0.19",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "scipy",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "BSD-3-Clause-LBNL",
+    "license_family": "BSD",
+    "md5": "da74ee429e4af41cc64ae633e659a6f6",
+    "name": "warpx",
+    "sha256": "21464042bb3f8ba705aea265b159309a288dd53a6dbfe0e3f8381176e12072c8",
+    "size": 33748933,
+    "subdir": "win-64",
+    "timestamp": 1650447484745,
+    "version": "22.04"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/warpx-22.04-py39h076e8c8_0.tar.bz2/warpx-22.04-py39h076e8c8_0.tar.bz2"
+}
