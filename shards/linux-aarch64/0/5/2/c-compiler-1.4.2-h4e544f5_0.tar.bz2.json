@@ -1,0 +1,58 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "This package is a generic way to obtain the C compiler for your system that conda-forge used to compile its ecosystem.  This compiler is, therefore, guaranteed to be ABI compatible with the conda packages you have installed.  This compiler metapackage is a convenience ONLY for users. Do NOT use this package as a build or host dependency in other recipes.  Use the Jinja template function compiler('c') instead.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://conda-forge.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "A metapackage to obtain a C compiler",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1650579345,
+    "version": "1.4.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "c-compiler-1.4.2-h4e544f5_0.tar.bz2",
+  "repodata": {
+    "build": "h4e544f5_0",
+    "build_number": 0,
+    "depends": [
+      "binutils",
+      "gcc",
+      "gcc_linux-aarch64 10.*"
+    ],
+    "license": "BSD",
+    "md5": "2bf97bdb0ce9be00135deae0fc21f21b",
+    "name": "c-compiler",
+    "sha256": "b525c634524c88524d26d1825f647752bdb6372ee0265b653951c9a7479c8c0b",
+    "size": 5121,
+    "subdir": "linux-aarch64",
+    "timestamp": 1650579345110,
+    "version": "1.4.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/c-compiler-1.4.2-h4e544f5_0.tar.bz2/c-compiler-1.4.2-h4e544f5_0.tar.bz2"
+}
