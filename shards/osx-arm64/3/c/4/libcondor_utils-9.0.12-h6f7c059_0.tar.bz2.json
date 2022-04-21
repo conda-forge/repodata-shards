@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Just the HTCondor libcondor_utils shared object library.",
+    "dev_url": "https://github.com/htcondor/htcondor",
+    "doc_source_url": null,
+    "doc_url": "https://htcondor.readthedocs.io/",
+    "home": "http://htcondor.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "9.0.12": {
+        "weak": [
+          "libcondor_utils >=9.0.12,<9.0.13.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://research.cs.wisc.edu/htcondor/tarball/9.0/9.0.12/release/condor-9.0.12-src.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "HTCondor utilities library",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1650536758,
+    "version": "9.0.12"
+  },
+  "channeldata_version": 1,
+  "feedstock": "htcondor-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libcondor_utils-9.0.12-h6f7c059_0.tar.bz2",
+  "repodata": {
+    "build": "h6f7c059_0",
+    "build_number": 0,
+    "depends": [
+      "htcondor-classads 9.0.12 h9e2cdb2_0",
+      "krb5 >=1.19.3,<1.20.0a0",
+      "libcxx >=12.0.1",
+      "llvm-openmp >=12.0.1",
+      "openssl >=1.1.1n,<1.1.2a",
+      "pcre >=8.45,<9.0a0",
+      "voms"
+    ],
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "5790371eae23c8814f3d930ddd379c2c",
+    "name": "libcondor_utils",
+    "sha256": "c027e40e827de8b014f86f0a9770a2b50cea1e900ee25f92e1a073e64c7b3c1f",
+    "size": 1886571,
+    "subdir": "osx-arm64",
+    "timestamp": 1650536758101,
+    "version": "9.0.12"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libcondor_utils-9.0.12-h6f7c059_0.tar.bz2/libcondor_utils-9.0.12-h6f7c059_0.tar.bz2"
+}
