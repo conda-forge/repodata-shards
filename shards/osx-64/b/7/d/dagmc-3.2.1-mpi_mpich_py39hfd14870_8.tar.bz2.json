@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Direct Accelerated Geometry Monte Carlo (DAGMC) is a software package that allows users to perform Monte Carlo radiation transport directly on CAD models.",
+    "dev_url": "https://github.com/svalinn/DAGMC",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://svalinn.github.io/DAGMC/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-2-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.2.1": {
+        "weak": [
+          "dagmc * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": "https://github.com/svalinn/DAGMC.git",
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Direct Accelerated Geometry Toolkit",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1650655173,
+    "version": "3.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "dagmc-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "dagmc-3.2.1-mpi_mpich_py39hfd14870_8.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_py39hfd14870_8",
+    "build_number": 8,
+    "depends": [
+      "eigen",
+      "libcxx >=13.0.1",
+      "moab * mpi_mpich_tempest_*",
+      "mpich >=4.0.2,<5.0a0",
+      "zlib"
+    ],
+    "license": "BSD-2-Clause",
+    "md5": "7f88d5c00d168d3b81a828401cbd11a9",
+    "name": "dagmc",
+    "sha256": "51abdb6923f40e51965e9f8bc9be6ef576285c770c63d06a86d4feb9ca8615bf",
+    "size": 17585341,
+    "subdir": "osx-64",
+    "timestamp": 1650655173886,
+    "version": "3.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/dagmc-3.2.1-mpi_mpich_py39hfd14870_8.tar.bz2/dagmc-3.2.1-mpi_mpich_py39hfd14870_8.tar.bz2"
+}
