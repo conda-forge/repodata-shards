@@ -1,0 +1,56 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "When installed, this optional package provides a specfile that directs gcc (and g++ or gfortran) to automatically:   * search for includes in $PREFIX/include   * link libraries in $PREFIX/lib   * set RPATH to $PREFIX/lib   * use RPATH instead of the newer RUNPATH This package is intended to aid usability of the compiler toolchain as a replacement for system-installed compilers. It should not be used in recipes.  Use the 'compiler(<lang>)' jinja function as described on https://conda-forge.org/docs/maintainer/knowledge_base.html#dep-compilers",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://gcc.gnu.org/onlinedocs/gcc/Spec-Files.html",
+    "home": "https://gcc.gnu.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "conda-specific specfile for GNU C/C++ Compiler",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1650671404,
+    "version": "9.4.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": null,
+  "labels": [
+    "main"
+  ],
+  "package": "conda-gcc-specs-9.4.0-heec7805_16.tar.bz2",
+  "repodata": {
+    "build": "heec7805_16",
+    "build_number": 16,
+    "depends": [
+      "gcc_impl_linux-ppc64le >=9.4.0,<9.4.1.0a0"
+    ],
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "md5": "6ad1420b8ab2fb890016e8ab42f56766",
+    "name": "conda-gcc-specs",
+    "sha256": "f3b9a864d7e0147a6c2f641d78f068135eba004636c00d07673c60849d10a3a6",
+    "size": 29051,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1650671404477,
+    "version": "9.4.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/conda-gcc-specs-9.4.0-heec7805_16.tar.bz2/conda-gcc-specs-9.4.0-heec7805_16.tar.bz2"
+}
