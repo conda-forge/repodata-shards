@@ -19,48 +19,48 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://archive.apache.org/dist/arrow/arrow-6.0.1/apache-arrow-6.0.1.tar.gz",
+    "source_url": "https://archive.apache.org/dist/arrow/arrow-3.0.0/apache-arrow-3.0.0.tar.gz",
     "subdirs": [
       "win-64"
     ],
-    "summary": "Python test files for Apache Arrow",
+    "summary": "Python libraries for Apache Arrow",
     "tags": null,
-    "text_prefix": false,
-    "timestamp": 1650878267,
-    "version": "6.0.1"
+    "text_prefix": true,
+    "timestamp": 1650892575,
+    "version": "3.0.0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "arrow-cpp-feedstock",
   "labels": [
     "main"
   ],
-  "package": "pyarrow-tests-6.0.1-py39h82ae67f_15_cuda.tar.bz2",
+  "package": "pyarrow-3.0.0-py39ha05331a_49_cpu.tar.bz2",
   "repodata": {
-    "build": "py39h82ae67f_15_cuda",
-    "build_number": 15,
+    "build": "py39ha05331a_49_cpu",
+    "build_number": 49,
     "constrains": [
-      "arrow-cpp-proc * cuda",
-      "cudatoolkit >=9.2"
+      "arrow-cpp-proc * cpu"
     ],
     "depends": [
+      "arrow-cpp 3.0.0 py39h1a1e958_49_cpu",
+      "numpy >=1.16,<2.0a0",
       "numpy >=1.19.5,<2.0a0",
-      "pyarrow 6.0.1 py39h82ae67f_15_cuda",
+      "parquet-cpp 1.5.1.*",
       "python >=3.9,<3.10.0a0",
       "python_abi 3.9.* *_cp39",
       "vc >=14.1,<15",
       "vs2015_runtime >=14.16.27033"
     ],
     "license": "Apache-2.0",
-    "md5": "d9359d6b23ef5db9697de75491029676",
-    "name": "pyarrow-tests",
-    "sha256": "2d5801ce2b9c7feeeb2fe0201e4e82ac1a09807253461d61c64735219bc09910",
-    "size": 690019,
+    "md5": "1646512ddc99bcba752a82f1364a01d8",
+    "name": "pyarrow",
+    "sha256": "a7b3d6f3c824340ec3129fd5e5b26a76099e9e374f92442fac58f33cbbe31836",
+    "size": 2182566,
     "subdir": "win-64",
-    "timestamp": 1650878267908,
-    "track_features": "arrow-cuda",
-    "version": "6.0.1"
+    "timestamp": 1650892575788,
+    "version": "3.0.0"
   },
   "repodata_version": 1,
   "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/pyarrow-tests-6.0.1-py39h82ae67f_15_cuda.tar.bz2/pyarrow-tests-6.0.1-py39h82ae67f_15_cuda.tar.bz2"
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/pyarrow-3.0.0-py39ha05331a_49_cpu.tar.bz2/pyarrow-3.0.0-py39ha05331a_49_cpu.tar.bz2"
 }

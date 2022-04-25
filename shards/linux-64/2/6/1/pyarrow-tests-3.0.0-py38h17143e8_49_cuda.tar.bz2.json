@@ -19,48 +19,48 @@
     "recipe_origin": null,
     "run_exports": {},
     "source_git_url": null,
-    "source_url": "http://archive.apache.org/dist/arrow/arrow-6.0.1/apache-arrow-6.0.1.tar.gz",
+    "source_url": "https://archive.apache.org/dist/arrow/arrow-3.0.0/apache-arrow-3.0.0.tar.gz",
     "subdirs": [
-      "win-64"
+      "linux-64"
     ],
     "summary": "Python test files for Apache Arrow",
     "tags": null,
     "text_prefix": false,
-    "timestamp": 1650878267,
-    "version": "6.0.1"
+    "timestamp": 1650891591,
+    "version": "3.0.0"
   },
   "channeldata_version": 1,
-  "feedstock": null,
+  "feedstock": "arrow-cpp-feedstock",
   "labels": [
     "main"
   ],
-  "package": "pyarrow-tests-6.0.1-py39h82ae67f_15_cuda.tar.bz2",
+  "package": "pyarrow-tests-3.0.0-py38h17143e8_49_cuda.tar.bz2",
   "repodata": {
-    "build": "py39h82ae67f_15_cuda",
-    "build_number": 15,
+    "build": "py38h17143e8_49_cuda",
+    "build_number": 49,
     "constrains": [
       "arrow-cpp-proc * cuda",
       "cudatoolkit >=9.2"
     ],
     "depends": [
+      "libgcc-ng >=7.5.0",
+      "libstdcxx-ng >=7.5.0",
       "numpy >=1.19.5,<2.0a0",
-      "pyarrow 6.0.1 py39h82ae67f_15_cuda",
-      "python >=3.9,<3.10.0a0",
-      "python_abi 3.9.* *_cp39",
-      "vc >=14.1,<15",
-      "vs2015_runtime >=14.16.27033"
+      "pyarrow 3.0.0 py38h17143e8_49_cuda",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
     ],
     "license": "Apache-2.0",
-    "md5": "d9359d6b23ef5db9697de75491029676",
+    "md5": "3e31c790b868245bb10826df4f79be8e",
     "name": "pyarrow-tests",
-    "sha256": "2d5801ce2b9c7feeeb2fe0201e4e82ac1a09807253461d61c64735219bc09910",
-    "size": 690019,
-    "subdir": "win-64",
-    "timestamp": 1650878267908,
+    "sha256": "d40c46a0169975dcaa91fb808526684622a57417452636429dcfe49090303dd2",
+    "size": 619397,
+    "subdir": "linux-64",
+    "timestamp": 1650891591763,
     "track_features": "arrow-cuda",
-    "version": "6.0.1"
+    "version": "3.0.0"
   },
   "repodata_version": 1,
-  "subdir": "win-64",
-  "url": "https://github.com/conda-forge/releases/releases/download/win-64/pyarrow-tests-6.0.1-py39h82ae67f_15_cuda.tar.bz2/pyarrow-tests-6.0.1-py39h82ae67f_15_cuda.tar.bz2"
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyarrow-tests-3.0.0-py38h17143e8_49_cuda.tar.bz2/pyarrow-tests-3.0.0-py38h17143e8_49_cuda.tar.bz2"
 }
