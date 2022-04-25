@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://www.unidata.ucar.edu/software/netcdf/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.8.1": {
+        "weak": [
+          "libnetcdf >=4.8.1,<4.8.2.0a0 mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Unidata/netcdf-c/archive/v4.8.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Libraries and data formats that support array-oriented scientific data",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1650909250,
+    "version": "4.8.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libnetcdf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libnetcdf-4.8.1-mpi_mpich_hcdf9059_2.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hcdf9059_2",
+    "build_number": 2,
+    "depends": [
+      "bzip2 >=1.0.8,<2.0a0",
+      "curl >=7.82.0,<8.0a0",
+      "hdf4 >=4.2.15,<4.3.0a0",
+      "hdf5 * mpi_mpich_*",
+      "hdf5 >=1.12.1,<1.12.2.0a0 mpi_mpich_*",
+      "jpeg >=9e,<10a",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "libzip >=1.8.0,<2.0a0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "mpich >=4.0.2,<4.1.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "MIT",
+    "md5": "7c035ca8a06010c4d9730c428d1a5969",
+    "name": "libnetcdf",
+    "sha256": "99ac5063ef3250f8356a5013da9302c9fca64654db26a0ff26acafb2f9d7798f",
+    "size": 1555752,
+    "subdir": "linux-64",
+    "timestamp": 1650909250877,
+    "version": "4.8.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/libnetcdf-4.8.1-mpi_mpich_hcdf9059_2.tar.bz2/libnetcdf-4.8.1-mpi_mpich_hcdf9059_2.tar.bz2"
+}
