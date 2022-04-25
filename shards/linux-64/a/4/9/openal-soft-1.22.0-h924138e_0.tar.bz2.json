@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API. It's forked from the open-sourced Windows version available originally from openal.org's SVN repository (now defunct). OpenAL provides capabilities for playing audio in a virtual 3D environment. Distance attenuation, doppler shift, and directional sound emitters are among the features handled by the API. More advanced effects, including air absorption, occlusion, and environmental reverb, are available through the EFX extension. It also facilitates streaming audio, multi-channel buffers, and audio capture.",
+    "dev_url": "https://github.com/kcat/openal-soft",
+    "doc_source_url": null,
+    "doc_url": "https://openal-soft.org",
+    "home": "https://github.com/kcat/openal-soft",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.22.0": {
+        "weak": [
+          "openal-soft >=1.22.0,<1.23.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/kcat/openal-soft/archive/refs/tags/1.22.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "OpenAL Soft is a software implementation of the OpenAL 3D audio API.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1650850785,
+    "version": "1.22.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openal-soft-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openal-soft-1.22.0-h924138e_0.tar.bz2",
+  "repodata": {
+    "build": "h924138e_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0"
+    ],
+    "license": "LGPL-2.0-or-later",
+    "license_family": "LGPL",
+    "md5": "9387f77ef937d1b593346ba05cdc8d6a",
+    "name": "openal-soft",
+    "sha256": "c5aa0e2b484c9be8303877758a699f4b1f6edb0009e0c278dfc870b6370b6de2",
+    "size": 607355,
+    "subdir": "linux-64",
+    "timestamp": 1650850785030,
+    "version": "1.22.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/openal-soft-1.22.0-h924138e_0.tar.bz2/openal-soft-1.22.0-h924138e_0.tar.bz2"
+}
