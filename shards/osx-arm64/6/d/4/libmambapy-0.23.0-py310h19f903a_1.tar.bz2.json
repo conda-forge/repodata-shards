@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "dev_url": "https://github.com/mamba-org/mamba",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mamba-org/mamba",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.23.0": {
+        "weak": [
+          "libmambapy >=0.23.0,<0.24.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/mamba-org/mamba/archive/refs/tags/2022.04.21.tar.gz",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "A fast drop-in alternative to conda, using libsolv for dependency resolution",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1650981077,
+    "version": "0.23.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mamba-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libmambapy-0.23.0-py310h19f903a_1.tar.bz2",
+  "repodata": {
+    "build": "py310h19f903a_1",
+    "build_number": 1,
+    "depends": [
+      "libcxx >=13.0.1",
+      "libmamba 0.23.0 h1c735bf_1",
+      "openssl >=1.1.1n,<1.1.2a",
+      "pybind11-abi 4",
+      "python >=3.10,<3.11.0a0",
+      "python >=3.10,<3.11.0a0 *_cpython",
+      "python_abi 3.10.* *_cp310",
+      "yaml-cpp >=0.6.3,<0.7.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "4eb1c5b171a15f77ed25178eddbcc7ed",
+    "name": "libmambapy",
+    "sha256": "63c818495c59925101a82a883d5a2414876b02193ca904596f6b3a31194ceca7",
+    "size": 210696,
+    "subdir": "osx-arm64",
+    "timestamp": 1650981077816,
+    "version": "0.23.0"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/libmambapy-0.23.0-py310h19f903a_1.tar.bz2/libmambapy-0.23.0-py310h19f903a_1.tar.bz2"
+}
