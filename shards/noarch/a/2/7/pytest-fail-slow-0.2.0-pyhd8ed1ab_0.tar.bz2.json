@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "`pytest-fail-slow` is a pytest plugin for making tests fail that take too long to run.  It adds a `--fail-slow DURATION` command-line option to pytest that causes any & all otherwise-passing tests that run for longer than the given duration to be marked as failures, and it adds a `@pytest.mark.fail_slow(DURATION)` marker for making an individual test fail if it runs for longer than the given duration.  If `--fail-slow` is given and a test has the `@fail_slow()` marker, the duration given by the marker takes precedence for that test.",
+    "dev_url": "https://github.com/jwodder/pytest-fail-slow",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/jwodder/pytest-fail-slow",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/p/pytest-fail-slow/pytest-fail-slow-0.2.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Fail tests that take too long to run",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1651052911,
+    "version": "0.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pytest-fail-slow-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pytest-fail-slow-0.2.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "pytest >=6.0",
+      "python >=3.6"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "7d45d7fb3991fc86a606de5c9b04a931",
+    "name": "pytest-fail-slow",
+    "noarch": "python",
+    "sha256": "c38700d4aaabd09303d0981ef58420c04cbf02a0992242bdc56717c1b52f3338",
+    "size": 10894,
+    "subdir": "noarch",
+    "timestamp": 1651052911869,
+    "version": "0.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/pytest-fail-slow-0.2.0-pyhd8ed1ab_0.tar.bz2/pytest-fail-slow-0.2.0-pyhd8ed1ab_0.tar.bz2"
+}
