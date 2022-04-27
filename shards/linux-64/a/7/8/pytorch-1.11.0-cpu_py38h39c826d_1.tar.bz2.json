@@ -1,0 +1,83 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://pytorch.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.11.0": {
+        "weak": [
+          "pytorch >=1.11.0,<1.12.0a0"
+        ]
+      }
+    },
+    "source_git_url": "https://github.com/pytorch/pytorch.git",
+    "source_url": null,
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1651030223,
+    "version": "1.11.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pytorch-cpu-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pytorch-1.11.0-cpu_py38h39c826d_1.tar.bz2",
+  "repodata": {
+    "build": "cpu_py38h39c826d_1",
+    "build_number": 1,
+    "constrains": [
+      "pytorch-cpu = 1.11.0",
+      "pytorch-gpu = 99999999"
+    ],
+    "depends": [
+      "__glibc >=2.17,<3.0.a0",
+      "_openmp_mutex >=4.5",
+      "cffi",
+      "libblas * *_mkl",
+      "libblas >=3.9.0,<4.0a0",
+      "libgcc-ng >=10.3.0",
+      "libprotobuf >=3.20.1,<3.21.0a0",
+      "libstdcxx-ng >=10.3.0",
+      "mkl 2022.*",
+      "mkl >=2022.0.1,<2023.0a0",
+      "ninja",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "setuptools",
+      "sleef >=3.5.1,<4.0a0",
+      "typing_extensions"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "5f43546bdd17efc2cda0bca06a5a5528",
+    "name": "pytorch",
+    "sha256": "fd7a6a4d85efccd7fba501d1dbe2f2cc687fb6d3ec28ff128a7c46b044dd96af",
+    "size": 51918850,
+    "subdir": "linux-64",
+    "timestamp": 1651030223810,
+    "version": "1.11.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pytorch-1.11.0-cpu_py38h39c826d_1.tar.bz2/pytorch-1.11.0-cpu_py38h39c826d_1.tar.bz2"
+}
