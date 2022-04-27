@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners.",
+    "dev_url": "https://github.com/open-mpi/ompi",
+    "doc_source_url": null,
+    "doc_url": "https://www.open-mpi.org/doc/",
+    "home": "https://www.open-mpi.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "4.1.3": {
+        "weak": [
+          "openmpi >=4.1.3,<5.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://www.open-mpi.org/software/ompi/v4.1/downloads/openmpi-4.1.3.tar.bz2",
+    "subdirs": [
+      "osx-arm64"
+    ],
+    "summary": "An open source Message Passing Interface implementation.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1651051450,
+    "version": "4.1.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "openmpi-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "openmpi-4.1.3-hd4b5bf3_103.tar.bz2",
+  "repodata": {
+    "build": "hd4b5bf3_103",
+    "build_number": 103,
+    "depends": [
+      "libcxx >=13.0.1",
+      "libgfortran 5.*",
+      "libgfortran5 >=11.0.1.dev0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "mpi 1.0 openmpi",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "8a3e686d56dbcfdd6ead25df41fce882",
+    "name": "openmpi",
+    "sha256": "f65564a2bb6260b1ca13e63441db1ef8fa5e9869627615f15cbc67df3ee5db7f",
+    "size": 3155202,
+    "subdir": "osx-arm64",
+    "timestamp": 1651051450675,
+    "version": "4.1.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-arm64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-arm64/openmpi-4.1.3-hd4b5bf3_103.tar.bz2/openmpi-4.1.3-hd4b5bf3_103.tar.bz2"
+}
