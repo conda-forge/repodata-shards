@@ -1,0 +1,72 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Ledger is a powerful, double-entry accounting system that is accessed from the UNIX command-line. Ledger, begun in 2003, is written by John Wiegley and released under the BSD license. It has also inspired several ports to other languages.",
+    "dev_url": "https://github.com/ledger/ledger",
+    "doc_source_url": null,
+    "doc_url": "https://www.ledger-cli.org/docs.html",
+    "home": "https://www.ledger-cli.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "3.2.1": {
+        "weak": [
+          "ledger >=3.2.1,<4.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/ledger/ledger/archive/v3.2.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Double-entry accounting system with a command-line reporting interface",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1651116641,
+    "version": "3.2.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ledger-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ledger-3.2.1-py39h5725ca2_1.tar.bz2",
+  "repodata": {
+    "build": "py39h5725ca2_1",
+    "build_number": 1,
+    "depends": [
+      "boost >=1.74.0,<1.74.1.0a0",
+      "gettext >=0.19.8.1,<1.0a0",
+      "gmp >=6.2.1,<7.0a0",
+      "libedit >=3.1.20191231,<3.2.0a0",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "mpfr >=4.1.0,<5.0a0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "utfcpp"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "b1faddf5c22e70e6c649cc5e6a302682",
+    "name": "ledger",
+    "sha256": "29a6f893cf69b08fa18537b88a6e1fb5c43ff8c644c3551e6b14a42bf2513ece",
+    "size": 3467082,
+    "subdir": "linux-64",
+    "timestamp": 1651116641955,
+    "version": "3.2.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/ledger-3.2.1-py39h5725ca2_1.tar.bz2/ledger-3.2.1-py39h5725ca2_1.tar.bz2"
+}
