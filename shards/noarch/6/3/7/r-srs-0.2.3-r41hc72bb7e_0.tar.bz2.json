@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=SRS",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "CC-BY-SA-4.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/SRS/SRS_0.2.3.tar.gz",
+      "https://cran.r-project.org/src/contrib/SRS_0.2.3.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Analysis of species count data in ecology often requires normalization to an identical sample size. Rarefying (random subsampling without replacement), which is a popular method for normalization, has been widely criticized for its poor reproducibility and potential distortion of the community structure. In the context of microbiome count data, researchers explicitly advised against the use of rarefying. An alternative to rarefying is scaling with ranked subsampling (SRS). SRS consists of two steps. In the first step, the total counts for all OTUs (operational taxonomic units) or species in each sample are divided by a scaling factor chosen in such a way that the sum of the scaled counts Cscaled equals Cmin. In the second step, the non-integer Cscaled values are converted into integers by an algorithm that we dub ranked subsampling. The Cscaled value for each OTU or species is split into the integer part Cint  (Cint = floor(Cscaled)) and the fractional part Cfrac (Cfrac = Cscaled - Cints). Since the sum of Cint is smaller or equal to Cmin, additional  delta C = Cmin - the sum of Cint counts have to be added to the library to reach the total count of Cmin. This is achieved as follows. OTUs are ranked in the descending order of their Cfrac values. Beginning with the OTU of the highest rank, single count per OTU is added to the normalized library until the total number of added counts reaches delta C and the sum of all counts in the normalized library equals Cmin. When the lowest Cfrag involved in picking delta C counts is shared by several OTUs, the OTUs used for adding a single count to the library are selected in the order of their Cint values. This selection minimizes the effect of normalization on the relative frequencies of OTUs. OTUs with identical Cfrag as well as Cint are sampled randomly without replacement. See Beule & Karlovsky (2020) <doi:10.7717/peerj.9593> for details.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1651217547,
+    "version": "0.2.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-srs-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-srs-0.2.3-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-dt >=0.16",
+      "r-shiny >=1.5.0",
+      "r-shinybusy >=0.2.2",
+      "r-shinycssloaders >=1.0.0",
+      "r-vegan >=2.5_6"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "license_family": "CC",
+    "md5": "041e44648a3a17e4a84bbf3f9471d377",
+    "name": "r-srs",
+    "noarch": "generic",
+    "sha256": "242caadba2a3a07a315530e6e3a8d81315d54b9d9ee627bd0c3161314045ea21",
+    "size": 67502,
+    "subdir": "noarch",
+    "timestamp": 1651217547275,
+    "version": "0.2.3"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-srs-0.2.3-r41hc72bb7e_0.tar.bz2/r-srs-0.2.3-r41hc72bb7e_0.tar.bz2"
+}
