@@ -1,0 +1,59 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The original goal of this project was to have a very fast, efficient, and accurate SQL parser I could use for building data lineage graphs across large code bases (think hundreds of auto-generated .sql files). Most existing sql parsing approaches for python are either very slow or not accurate (especially in regards to deeply nested queries, sub-selects and/or table aliases). Looking to the rust community for support, I found the excellent sqlparser-rs crate which is quite easy to wrap in python code.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/wseaton/sqloxide",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/wseaton/sqloxide/archive/refs/tags/v0.1.15.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Python bindings for sqlparser-rs",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1651600859,
+    "version": "0.1.15"
+  },
+  "channeldata_version": 1,
+  "feedstock": "sqloxide-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "sqloxide-0.1.15-py39h4ef89ea_2.tar.bz2",
+  "repodata": {
+    "build": "py39h4ef89ea_2",
+    "build_number": 2,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "234a420cedcd6f1b2c7539333a1caf69",
+    "name": "sqloxide",
+    "sha256": "b1a2370ba37906d773d50d25b2a97c9de260fdc197139a9ca824a7cdac0edb85",
+    "size": 1096141,
+    "subdir": "linux-64",
+    "timestamp": 1651600859071,
+    "version": "0.1.15"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/sqloxide-0.1.15-py39h4ef89ea_2.tar.bz2/sqloxide-0.1.15-py39h4ef89ea_2.tar.bz2"
+}
