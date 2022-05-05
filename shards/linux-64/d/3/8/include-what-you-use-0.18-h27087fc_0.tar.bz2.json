@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "\"Include what you use\" means this: for every symbol (type, function, variable, or macro) that you use in foo.cc (or foo.cpp), either foo.cc or foo.h should include a .h file that exports the declaration of that symbol. (Similarly, for foo_test.cc, either foo_test.cc or foo.h should do the including.) Obviously symbols defined in foo.cc itself are excluded from this requirement.",
+    "dev_url": "https://github.com/include-what-you-use/include-what-you-use",
+    "doc_source_url": null,
+    "doc_url": "https://include-what-you-use.org",
+    "home": "https://include-what-you-use.org",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "NCSA",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/include-what-you-use/include-what-you-use/archive/refs/tags/0.18.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "A tool for use with clang to analyze #includes in C and C++ source files",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1651758395,
+    "version": "0.18"
+  },
+  "channeldata_version": 1,
+  "feedstock": "include-what-you-use-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "include-what-you-use-0.18-h27087fc_0.tar.bz2",
+  "repodata": {
+    "build": "h27087fc_0",
+    "build_number": 0,
+    "depends": [
+      "libclang-cpp14 >=14.0.0,<14.1.0a0",
+      "libgcc-ng >=10.3.0",
+      "libllvm14 >=14.0.0,<14.1.0a0",
+      "libstdcxx-ng >=10.3.0"
+    ],
+    "license": "NCSA",
+    "license_family": "OTHER",
+    "md5": "4a57902d67f7669842660836e7316601",
+    "name": "include-what-you-use",
+    "sha256": "d9ae07719039773cf893aeb0cf07f0b92c07632fb215725ad54a3b89d3b4f8ba",
+    "size": 858768,
+    "subdir": "linux-64",
+    "timestamp": 1651758395508,
+    "version": "0.18"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/include-what-you-use-0.18-h27087fc_0.tar.bz2/include-what-you-use-0.18-h27087fc_0.tar.bz2"
+}
