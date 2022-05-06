@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The `covseisnet` package provides tools for array signal processing, with a focus on data from seismic networks. The central analyzed mathematical construction is the array covariance matrix (sometimes called network covariance matrix). The core signal detection algorithms are based on the analysis of the eigenvalues of this matrix. Eigenvector decomposition provides a basis for a blind source separation. In addition, the covariance matrix can be used as input for classical array processing tools such as beamforming and inter-station cross-correlations. Covseisnet objects are mostly inherited from obspy (seismology-oriented python package) and `numpy`.",
+    "dev_url": "https://github.com/covseisnet/covseisnet",
+    "doc_source_url": null,
+    "doc_url": "https://covseisnet.gricad-pages.univ-grenoble-alpes.fr/covseisnet",
+    "home": "https://covseisnet.gricad-pages.univ-grenoble-alpes.fr/covseisnet",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/c/covseisnet/covseisnet-1.0.0.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Covariance matrix analysis of network seismic data",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1651836510,
+    "version": "1.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "covseisnet-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "covseisnet-1.0.0-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "numpy >=1.22.0",
+      "obspy >=1.3.0",
+      "python >=3.7",
+      "scipy"
+    ],
+    "license": "LGPL-2.0-only",
+    "md5": "334c41c5d5173759ddb5aa3bd060e40f",
+    "name": "covseisnet",
+    "noarch": "python",
+    "sha256": "72b71b6b23c7f452e0a1ab781d0f8a3808dc75fada96e65694a5119001cfd4dd",
+    "size": 21051,
+    "subdir": "noarch",
+    "timestamp": 1651836510340,
+    "version": "1.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/covseisnet-1.0.0-pyhd8ed1ab_0.tar.bz2/covseisnet-1.0.0-pyhd8ed1ab_0.tar.bz2"
+}
