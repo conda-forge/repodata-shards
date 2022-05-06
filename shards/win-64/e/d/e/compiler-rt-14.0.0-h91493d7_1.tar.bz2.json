@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": "https://github.com/llvm/llvm-project",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.0/llvm-project-14.0.0.src.tar.xz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1651799687,
+    "version": "14.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compiler-rt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compiler-rt-14.0.0-h91493d7_1.tar.bz2",
+  "repodata": {
+    "build": "h91493d7_1",
+    "build_number": 1,
+    "depends": [
+      "clang 14.0.0.*",
+      "clangxx 14.0.0.*",
+      "compiler-rt_win-64 14.0.0.*",
+      "vc >=14.2,<15",
+      "vs2015_runtime >=14.29.30037"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "md5": "dc2fe1f907722aba4031b7c6303e9026",
+    "name": "compiler-rt",
+    "sha256": "e1c027775616a0bc215d2b62a25c55ba29fc58b94a2eadec0f0a6416bc91cbb2",
+    "size": 7068035,
+    "subdir": "win-64",
+    "timestamp": 1651799687044,
+    "version": "14.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/compiler-rt-14.0.0-h91493d7_1.tar.bz2/compiler-rt-14.0.0-h91493d7_1.tar.bz2"
+}
