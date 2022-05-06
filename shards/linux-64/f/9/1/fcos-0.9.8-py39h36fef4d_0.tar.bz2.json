@@ -1,0 +1,73 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "Fully convolutional one-stage object detection (FCOS) is a framework for per-pixel prediction of objects in images. FCOS doesn't rely on expensive anchor box calculations and their hyper-parameters, which is in contrast to state-of-the-art object detectors like RetinaNet, YOLOv3, and Faster R-CNN. It includes a Python API, & scripts for command line usage.",
+    "dev_url": "https://github.com/best-of-acrv/fcos",
+    "doc_source_url": null,
+    "doc_url": "https://github.com/best-of-acrv/fcos",
+    "home": "https://github.com/best-of-acrv/fcos",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/f/fcos/fcos-0.9.8.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "FCOS is a detector for efficiently predicting objects in images",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1651826446,
+    "version": "0.9.8"
+  },
+  "channeldata_version": 1,
+  "feedstock": "fcos-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "fcos-0.9.8-py39h36fef4d_0.tar.bz2",
+  "repodata": {
+    "build": "py39h36fef4d_0",
+    "build_number": 0,
+    "constrains": [
+      "pytorch *=cuda*"
+    ],
+    "depends": [
+      "__glibc >=2.17",
+      "__glibc >=2.17,<3.0.a0",
+      "acrv_datasets",
+      "cudatoolkit 11.1|11.1.*",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "numpy >=1.19.5,<2.0a0",
+      "py-opencv",
+      "pycocotools",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "pytorch >=1.11.0,<1.12.0a0",
+      "torchvision",
+      "yacs"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "e51f9d88d02ac86f2bf4617793fc06f8",
+    "name": "fcos",
+    "sha256": "75983de786dfc992282e22e83e2192b7fd8f4064ac40b97c7ca26285d98090bc",
+    "size": 1407076,
+    "subdir": "linux-64",
+    "timestamp": 1651826446807,
+    "version": "0.9.8"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/fcos-0.9.8-py39h36fef4d_0.tar.bz2/fcos-0.9.8-py39h36fef4d_0.tar.bz2"
+}
