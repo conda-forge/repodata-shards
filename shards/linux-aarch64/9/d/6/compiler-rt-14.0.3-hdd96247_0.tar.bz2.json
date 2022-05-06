@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": "https://github.com/llvm/llvm-project",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.3/llvm-project-14.0.3.src.tar.xz",
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1651842868,
+    "version": "14.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compiler-rt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compiler-rt-14.0.3-hdd96247_0.tar.bz2",
+  "repodata": {
+    "build": "hdd96247_0",
+    "build_number": 0,
+    "depends": [
+      "clang 14.0.3.*",
+      "clangxx 14.0.3.*",
+      "compiler-rt_linux-aarch64 14.0.3.*",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "md5": "1d4b02b0901b98ebeaaeb9ad15f12234",
+    "name": "compiler-rt",
+    "sha256": "c58d9954c7629ecd22ae57723fcdf2fb0cab34b9fbe749d16f9f47ddd9147a2b",
+    "size": 101378,
+    "subdir": "linux-aarch64",
+    "timestamp": 1651842868037,
+    "version": "14.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/compiler-rt-14.0.3-hdd96247_0.tar.bz2/compiler-rt-14.0.3-hdd96247_0.tar.bz2"
+}
