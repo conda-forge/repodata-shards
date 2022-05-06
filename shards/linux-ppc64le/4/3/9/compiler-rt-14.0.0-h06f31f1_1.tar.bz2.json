@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "builtins - low-level target-specific hooks required by code generation and other   runtime components sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,   MemorySanitizer, LeakSanitizer, DataFlowSanitizer profile - library which is used to collect coverage information BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime   interfaces",
+    "dev_url": "https://github.com/llvm/llvm-project",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://llvm.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.0/llvm-project-14.0.0.src.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "compiler-rt runtime libraries",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1651799208,
+    "version": "14.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "compiler-rt-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "compiler-rt-14.0.0-h06f31f1_1.tar.bz2",
+  "repodata": {
+    "build": "h06f31f1_1",
+    "build_number": 1,
+    "depends": [
+      "clang 14.0.0.*",
+      "clangxx 14.0.0.*",
+      "compiler-rt_linux-ppc64le 14.0.0.*",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0"
+    ],
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "md5": "9ad2243e84364ea2fd35cf32ca658f2a",
+    "name": "compiler-rt",
+    "sha256": "55084efc3b2fda6cef247eecca1a83c9139381700c2b02926ad918d422617f85",
+    "size": 84950,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1651799208359,
+    "version": "14.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/compiler-rt-14.0.0-h06f31f1_1.tar.bz2/compiler-rt-14.0.0-h06f31f1_1.tar.bz2"
+}
