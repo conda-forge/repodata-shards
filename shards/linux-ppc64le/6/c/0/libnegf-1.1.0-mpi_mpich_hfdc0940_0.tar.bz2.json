@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/libnegf/libnegf",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-3.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "1.1.0": {
+        "weak": [
+          "libnegf >=1.1.0,<1.2.0a0",
+          "libnegf * mpi_mpich_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/libnegf/libnegf/archive/v1.1.0.tar.gz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "A general library for Non Equilibrium Green's Functions",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1651955189,
+    "version": "1.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libnegf-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libnegf-1.1.0-mpi_mpich_hfdc0940_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_mpich_hfdc0940_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0",
+      "liblapack >=3.8.0,<4.0a0",
+      "mpich >=4.0.2,<5.0a0",
+      "mpifx * mpi_mpich_*",
+      "mpifx >=1.3,<2.0a0 mpi_mpich_*"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "md5": "7ce659779b9b2f6642494d4688417b82",
+    "name": "libnegf",
+    "sha256": "b6d19ac82442ab80596878e726142d45fc6b0396d6df6e17a1312ee07f81d8e0",
+    "size": 308231,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1651955189706,
+    "version": "1.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/libnegf-1.1.0-mpi_mpich_hfdc0940_0.tar.bz2/libnegf-1.1.0-mpi_mpich_hfdc0940_0.tar.bz2"
+}
