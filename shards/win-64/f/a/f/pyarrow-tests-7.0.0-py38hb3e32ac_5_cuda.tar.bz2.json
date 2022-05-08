@@ -1,0 +1,66 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "http://github.com/apache/arrow",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "Apache-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://dist.apache.org/repos/dist/release/arrow/arrow-7.0.0/apache-arrow-7.0.0.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Python test files for Apache Arrow",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1652032793,
+    "version": "7.0.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "arrow-cpp-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyarrow-tests-7.0.0-py38hb3e32ac_5_cuda.tar.bz2",
+  "repodata": {
+    "build": "py38hb3e32ac_5_cuda",
+    "build_number": 5,
+    "constrains": [
+      "arrow-cpp-proc * cuda",
+      "cudatoolkit >=9.2"
+    ],
+    "depends": [
+      "numpy >=1.19.5,<2.0a0",
+      "pyarrow 7.0.0 py38hb3e32ac_5_cuda",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "Apache-2.0",
+    "md5": "f30ecc55ab99ed1e6c4f4f5f4dfe4b10",
+    "name": "pyarrow-tests",
+    "sha256": "1802ad22b4d66f5d846b54e2191271a865bb989d50e7d7d505a63a71e9a2e4fb",
+    "size": 730158,
+    "subdir": "win-64",
+    "timestamp": 1652032793863,
+    "track_features": "arrow-cuda",
+    "version": "7.0.0"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/pyarrow-tests-7.0.0-py38hb3e32ac_5_cuda.tar.bz2/pyarrow-tests-7.0.0-py38hb3e32ac_5_cuda.tar.bz2"
+}
