@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles. It is primarily designed for biochemical molecules like proteins, lipids and nucleic acids that have a lot of complicated bonded interactions, but since GROMACS is extremely fast at calculating the nonbonded interactions (that usually dominate simulations) many groups are also using it for research on non-biological systems, e.g. polymers.",
+    "dev_url": "https://github.com/gromacs/gromacs",
+    "doc_source_url": null,
+    "doc_url": "https://www.gromacs.org",
+    "home": "https://www.gromacs.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://ftp.gromacs.org/gromacs/gromacs-2022.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "GROMACS is a versatile package to perform molecular dynamics.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1652043441,
+    "version": "2022.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gromacs-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gromacs-2022.1-nompi_dblprec_hbb8e964_0.tar.bz2",
+  "repodata": {
+    "build": "nompi_dblprec_hbb8e964_0",
+    "build_number": 0,
+    "depends": [
+      "fftw >=3.3.10,<4.0a0",
+      "khronos-opencl-icd-loader >=2022.1.4",
+      "libcxx >=13.0.1",
+      "libhwloc 2.*",
+      "libhwloc >=2.7.1,<2.7.2.0a0",
+      "llvm-openmp >=13.0.1",
+      "llvm-openmp >=14.0.3",
+      "ocl_icd_wrapper_apple"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "GPL",
+    "md5": "7055ca8ce508382da54cb83471c23b06",
+    "name": "gromacs",
+    "sha256": "4ab9cf5c7ecf510b40c74958ff4b513675daee5a00cb8cf3ccd308a0ebf5a194",
+    "size": 18083819,
+    "subdir": "osx-64",
+    "timestamp": 1652043441392,
+    "version": "2022.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/gromacs-2022.1-nompi_dblprec_hbb8e964_0.tar.bz2/gromacs-2022.1-nompi_dblprec_hbb8e964_0.tar.bz2"
+}
