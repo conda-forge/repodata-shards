@@ -1,0 +1,60 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Change point detection tries to identify times when the probability distribution of a stochastic process or time series changes. Existing methods either assume a parametric model for within-segment distributions or a based on ranks or distances, and thus fail in scenarios with reasonably large dimensionality.  `changeforest` implements a classifier based algorithm that consistently estimates change points without any parametric assumptions even in high-dimensional scenarios. See [1] for details.  [1] M. Londschien, S. Kov\u00E1cs and P. B\u00FChlmann (2021), \"Random Forests and other nonparametric classifiers for multivariate change point detection\", working paper.",
+    "dev_url": "https://github.com/mlondschien/changeforest",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/mlondschien/changeforest",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/c/changeforest/changeforest-0.7.2.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "Classifier based non-parametric change point detection",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1652168766,
+    "version": "0.7.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "changeforest-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "changeforest-0.7.2-py38h539be59_0.tar.bz2",
+  "repodata": {
+    "build": "py38h539be59_0",
+    "build_number": 0,
+    "depends": [
+      "libgcc-ng >=10.3.0",
+      "numpy",
+      "pypy3.8 >=7.3.9",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8 *_pypy38_pp73"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "bedfcb910c34cbd2949369c2d5567b91",
+    "name": "changeforest",
+    "sha256": "e67cb81948910f9bf3e81a6e92ca09aa047e67c3ff060f7a2214b4b031a5ddf6",
+    "size": 1084138,
+    "subdir": "linux-64",
+    "timestamp": 1652168766152,
+    "version": "0.7.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/changeforest-0.7.2-py38h539be59_0.tar.bz2/changeforest-0.7.2-py38h539be59_0.tar.bz2"
+}
