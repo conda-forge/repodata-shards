@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://CRAN.R-project.org/package=wTO",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/wTO/wTO_2.0.tar.gz",
+      "https://cran.r-project.org/src/contrib/wTO_2.0.tar.gz"
+    ],
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Computes the Weighted Topological Overlap with positive and negative signs (wTO) networks given a data frame containing the mRNA count/ expression/ abundance per sample, and a vector containing the interested nodes of interaction (a subset of the elements of the full data frame). It also computes the cut-off threshold or p-value based on the individuals bootstrap or the values reshuffle per individual. It also allows the construction of a consensus network, based on multiple wTO networks. The package includes a visualization tool for the networks.  More about the methodology can be found at <arXiv:1711.04702>.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1652249377,
+    "version": "2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-wto-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-wto-2.0-r41hc72bb7e_0.tar.bz2",
+  "repodata": {
+    "build": "r41hc72bb7e_0",
+    "build_number": 0,
+    "depends": [
+      "r-base >=4.1,<4.2.0a0",
+      "r-data.table",
+      "r-hiclimr",
+      "r-igraph",
+      "r-magrittr",
+      "r-plyr",
+      "r-reshape2",
+      "r-rfast",
+      "r-som",
+      "r-visnetwork"
+    ],
+    "license": "GPL-2.0-only",
+    "license_family": "GPL2",
+    "md5": "0a7f3e1d438b9389f7a8208f5c05be83",
+    "name": "r-wto",
+    "noarch": "generic",
+    "sha256": "d21b4089d43000b25bb0d1721f249909b96a83db9aaff4e67888cea3888fe600",
+    "size": 219146,
+    "subdir": "noarch",
+    "timestamp": 1652249377625,
+    "version": "2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/r-wto-2.0-r41hc72bb7e_0.tar.bz2/r-wto-2.0-r41hc72bb7e_0.tar.bz2"
+}
