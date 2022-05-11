@@ -1,0 +1,62 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "PyCA (Python Channel Access) is a module that offers lightweight bindings for Python applications to access EPICS PVs. It acts as a channel access client, much like pyepics. The intention of the module is to provide better performance for embedded applications, rather than to provide an interactive interface. The most significant gains will be found when monitoring large waveforms that need to be processed before exposing them the Python layer.",
+    "dev_url": "https://github.com/slaclab/pyca",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/slaclab/pyca",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LicenseRef-BSD-3-Clause-SLAC",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/slaclab/pyca/archive/3.2.0.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "PyCA - lightweight bindings for Python applications to access EPICS PVs.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1652227456,
+    "version": "3.2.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "pyca-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "pyca-3.2.0-py38h47df419_0.tar.bz2",
+  "repodata": {
+    "build": "py38h47df419_0",
+    "build_number": 0,
+    "depends": [
+      "epicscorelibs",
+      "libgcc-ng >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "numpy >=1.19.5,<2.0a0",
+      "python >=3.8,<3.9.0a0",
+      "python_abi 3.8.* *_cp38"
+    ],
+    "license": "LicenseRef-BSD-3-Clause-SLAC",
+    "license_family": "BSD",
+    "md5": "6377f9afc7245f6a53f65de854d634d3",
+    "name": "pyca",
+    "sha256": "586a638f8815c3a112ed37d34219f4ca2694785af7993d1e5428ba7442b4cae8",
+    "size": 55448,
+    "subdir": "linux-64",
+    "timestamp": 1652227456993,
+    "version": "3.2.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/pyca-3.2.0-py38h47df419_0.tar.bz2/pyca-3.2.0-py38h47df419_0.tar.bz2"
+}
