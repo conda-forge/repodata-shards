@@ -1,0 +1,70 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": true,
+    "deactivate.d": false,
+    "description": "GDB, the GNU Project debugger, allows you to see what is going on `inside' another program while it executes -- or what another program was doing at the moment it crashed. The program being debugged can be written in Ada, C, C++, Objective-C, Pascal (and many other languages). Those programs might be executing on the same machine as GDB (native) or on another machine (remote). GDB can run on most popular UNIX and Microsoft Windows variants.",
+    "dev_url": "git://sourceware.org/git/binutils-gdb.git",
+    "doc_source_url": null,
+    "doc_url": "https://sourceware.org/gdb/current/onlinedocs/gdb/",
+    "home": "https://www.gnu.org/software/gdb/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": true,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "http://ftp.gnu.org/gnu/gdb/gdb-11.2.tar.xz",
+    "subdirs": [
+      "linux-ppc64le"
+    ],
+    "summary": "GDB, the GNU Project debugger, allows you to see what is going on inside another program while it executes -- or what another program was doing at the moment it crashed.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1652310629,
+    "version": "11.2"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gdb-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gdb-11.2-py39h8cc400a_0.tar.bz2",
+  "repodata": {
+    "build": "py39h8cc400a_0",
+    "build_number": 0,
+    "depends": [
+      "gmp >=6.2.1,<7.0a0",
+      "libgcc-ng >=10.3.0",
+      "libgfortran-ng",
+      "libgfortran5 >=10.3.0",
+      "libstdcxx-ng >=10.3.0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "ncurses >=6.3,<7.0a0",
+      "pygments",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "readline >=8.1,<9.0a0",
+      "six",
+      "xz >=5.2.5,<5.3.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL",
+    "md5": "a48b09ae09913ef5acb226723a7d2de8",
+    "name": "gdb",
+    "sha256": "7d8539117b847554f7487be695f9a84980a86d150523932df7a7e68cc8eb2801",
+    "size": 8821814,
+    "subdir": "linux-ppc64le",
+    "timestamp": 1652310629311,
+    "version": "11.2"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-ppc64le",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-ppc64le/gdb-11.2-py39h8cc400a_0.tar.bz2/gdb-11.2-py39h8cc400a_0.tar.bz2"
+}
