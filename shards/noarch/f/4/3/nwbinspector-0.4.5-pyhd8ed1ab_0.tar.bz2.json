@@ -1,0 +1,64 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Inspect NWB files for compliance with NWB Best Practices.  This inspector is meant as a companion to the pynwb validator, which checks for strict schema compliance.  In contrast, this tool attempts to apply some common sense to find components of the file that are technically compliant, but probably incorrect, or suboptimal, or deviate from best practices.  This tool is meant simply as a data review aid.  It does not catch all best practice violations, and any warnings it does produce should be checked by a knowledgeable reviewer.",
+    "dev_url": "https://github.com/NeurodataWithoutBorders/nwbinspector",
+    "doc_source_url": null,
+    "doc_url": "https://nwbinspector.readthedocs.io",
+    "home": "https://github.com/NeurodataWithoutBorders/nwbinspector",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://pypi.io/packages/source/n/nwbinspector/nwbinspector-0.4.5.tar.gz",
+    "subdirs": [
+      "noarch"
+    ],
+    "summary": "Tool to inspect NWB files for best practices compliance",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1652293218,
+    "version": "0.4.5"
+  },
+  "channeldata_version": 1,
+  "feedstock": "nwbinspector-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "nwbinspector-0.4.5-pyhd8ed1ab_0.tar.bz2",
+  "repodata": {
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "depends": [
+      "click",
+      "jsonschema",
+      "natsort",
+      "pynwb",
+      "python >=3.7",
+      "pyyaml",
+      "tqdm"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "f7b58b286eb57b42aa863128d9c9c862",
+    "name": "nwbinspector",
+    "noarch": "python",
+    "sha256": "2343f096c653aa426cf63beba3a5049662e8f7f7e19e17e6b9c8fcd98f11940c",
+    "size": 40693,
+    "subdir": "noarch",
+    "timestamp": 1652293218142,
+    "version": "0.4.5"
+  },
+  "repodata_version": 1,
+  "subdir": "noarch",
+  "url": "https://github.com/conda-forge/releases/releases/download/noarch/nwbinspector-0.4.5-pyhd8ed1ab_0.tar.bz2/nwbinspector-0.4.5-pyhd8ed1ab_0.tar.bz2"
+}
