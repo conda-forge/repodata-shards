@@ -1,0 +1,74 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "libEnsemble is a Python library to coordinate the concurrent evaluation of dynamic ensembles of calculations. The library is developed to use massively parallel resources to accelerate the solution of design, decision, and inference problems and to expand the class of problems that can benefit from increased concurrency levels. libEnsemble aims for: Extreme scaling, Resilience/fault tolerance, Monitoring/killing jobs (and recovering resources), Portability and flexibility, Exploitation of persistent data/control flow.",
+    "dev_url": "https://github.com/Libensemble/libensemble",
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://libensemble.readthedocs.io",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "0.9.1": {
+        "weak": [
+          "libensemble * mpi_openmpi_*"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://github.com/Libensemble/libensemble/archive/v0.9.1.tar.gz",
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "A library to coordinate the concurrent evaluation of dynamic ensembles of calculations",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1652322502,
+    "version": "0.9.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "libensemble-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "libensemble-0.9.1-mpi_openmpi_py39h4ae0ab9_0.tar.bz2",
+  "repodata": {
+    "build": "mpi_openmpi_py39h4ae0ab9_0",
+    "build_number": 0,
+    "depends": [
+      "mpi4py",
+      "mpmath",
+      "nlopt",
+      "numpy",
+      "openmpi",
+      "petsc4py",
+      "psutil",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9.* *_cp39",
+      "pyyaml",
+      "scipy",
+      "setuptools"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "e27845b87770630d476cc2c3178cd001",
+    "name": "libensemble",
+    "sha256": "4c8b1ee0b92c52b78baaf0aebf1d2cfb62f51e1eb2130e4ce49a454eed56811c",
+    "size": 459354,
+    "subdir": "osx-64",
+    "timestamp": 1652322502279,
+    "version": "0.9.1"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/libensemble-0.9.1-mpi_openmpi_py39h4ae0ab9_0.tar.bz2/libensemble-0.9.1-mpi_openmpi_py39h4ae0ab9_0.tar.bz2"
+}
