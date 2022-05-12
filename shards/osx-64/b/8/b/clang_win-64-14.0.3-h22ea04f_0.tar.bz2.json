@@ -1,0 +1,69 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": false,
+    "deactivate.d": true,
+    "description": "To use this package in a normal conda environment, do the following     export CONDA_BUILD_WINSDK=/opt  To use this package in a conda-build environment, add the following     CONDA_BUILD_WINSDK:      - \"/opt\"  in $HOME/conda_build_config.yaml and use `clang_win-64` as the compiler.  By setting this variable, you are agreeing to the terms and conditions of the Windows SDK and the MSVC headers. If the Windows SDK and MSVC headers are not inside CONDA_BUILD_WINSDK, they would be automatically downloaded.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/conda-forge/clang-win-activation-feedstock",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "BSD-3-Clause",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "14.0.3": {
+        "strong": [
+          "vc >=14.1",
+          "vs2015_runtime >=14.16.27023"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "clang (cross) compiler for windows with MSVC ABI compatbility",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1652380318,
+    "version": "14.0.3"
+  },
+  "channeldata_version": 1,
+  "feedstock": "clang-win-activation-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "clang_win-64-14.0.3-h22ea04f_0.tar.bz2",
+  "repodata": {
+    "build": "h22ea04f_0",
+    "build_number": 0,
+    "depends": [
+      "clangxx 14.0.3.*",
+      "compiler-rt 14.0.3.*",
+      "compiler-rt_win-64 14.0.3.*",
+      "lld 14.0.3.*",
+      "llvm-tools 14.0.3.*",
+      "msvc-headers-libs >=14.16.27023,<14.16.27024.0a0",
+      "winsdk >=10.0.17763.0,<10.0.17764.0a0"
+    ],
+    "license": "BSD-3-Clause",
+    "md5": "a9ae573387f11735830814a27fe188ee",
+    "name": "clang_win-64",
+    "sha256": "b14310a2ed14d5e66cc151c3b0e43c2cf36bd8f311b827ba69291498a356a9d0",
+    "size": 24197,
+    "subdir": "osx-64",
+    "timestamp": 1652380318771,
+    "version": "14.0.3"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/clang_win-64-14.0.3-h22ea04f_0.tar.bz2/clang_win-64-14.0.3-h22ea04f_0.tar.bz2"
+}
