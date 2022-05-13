@@ -1,0 +1,77 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Qt WebKit is the port of WebKit on top of Qt. QtWebKit relies on the public APIs of Qt and can theoretically be used on any platform supported by Qt (theoretically because WebKit also requires a recent/good compiler).",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://wiki.qt.io/Qt_WebKit",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "5.212": {
+        "weak": [
+          "qtwebkit"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "http://download.qt.io/snapshots/ci/qtwebkit/5.212/1600955993/src/submodules/qtwebkit-opensource-src-5.212.tar.xz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "WebKit is one of the major engine to render webpages and execute JavaScript code",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1652405808,
+    "version": "5.212"
+  },
+  "channeldata_version": 1,
+  "feedstock": "qtwebkit-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "qtwebkit-5.212-h7e02eee_5.tar.bz2",
+  "repodata": {
+    "build": "h7e02eee_5",
+    "build_number": 5,
+    "depends": [
+      "__glibc >=2.17,<3.0.a0",
+      "glib",
+      "icu >=69.1,<70.0a0",
+      "jpeg >=9e,<10a",
+      "libgcc-ng >=10.3.0",
+      "libglib >=2.70.2,<3.0a0",
+      "libpng >=1.6.37,<1.7.0a0",
+      "libstdcxx-ng >=10.3.0",
+      "libwebp",
+      "libwebp-base >=1.2.2,<2.0a0",
+      "libxml2 >=2.9.12,<2.10.0a0",
+      "libxslt >=1.1.33,<2.0a0",
+      "libzlib >=1.2.11,<1.3.0a0",
+      "qt-main >=5.15.2,<5.16.0a0",
+      "sqlite >=3.38.5,<4.0a0",
+      "zlib >=1.2.11,<1.3.0a0"
+    ],
+    "license": "LGPL-2.1-only",
+    "md5": "bebff33e9dea59f8347de3734f49f208",
+    "name": "qtwebkit",
+    "sha256": "176d2ee25c667aa1c6e61718a5834e246fa21bc7b01ba8537e32a4edd4f3526b",
+    "size": 17985846,
+    "subdir": "linux-64",
+    "timestamp": 1652405808955,
+    "version": "5.212"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/qtwebkit-5.212-h7e02eee_5.tar.bz2/qtwebkit-5.212-h7e02eee_5.tar.bz2"
+}
