@@ -1,0 +1,65 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.  The MQTT protocol provides a lightweight method of carrying out messaging using a publish/subscribe model. This makes it suitable for Internet of Things messaging such as with low power sensors or mobile devices such as phones, embedded computers or microcontrollers.  The Mosquitto project also provides a C library for implementing MQTT clients, and the very popular mosquitto_pub and mosquitto_sub command line MQTT clients.  Mosquitto is part of the Eclipse Foundation, is an iot.eclipse.org project and is sponsored by cedalo.com.",
+    "dev_url": "https://github.com/eclipse/mosquitto",
+    "doc_source_url": null,
+    "doc_url": "https://mosquitto.org/documentation/",
+    "home": "https://mosquitto.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "EPL-2.0",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {
+      "2.0.14": {
+        "weak": [
+          "mosquitto >=2.0.14,<3.0a0"
+        ]
+      }
+    },
+    "source_git_url": null,
+    "source_url": "https://mosquitto.org/files/source/mosquitto-2.0.14.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "An open source message broker that implements the MQTT protocol.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1652569140,
+    "version": "2.0.14"
+  },
+  "channeldata_version": 1,
+  "feedstock": "mosquitto-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "mosquitto-2.0.14-hc8ab02b_1.tar.bz2",
+  "repodata": {
+    "build": "hc8ab02b_1",
+    "build_number": 1,
+    "depends": [
+      "openssl >=3.0.3,<4.0a0",
+      "ucrt",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "EPL-2.0",
+    "md5": "9347028cc0f2f582ba7ef306e938ccb8",
+    "name": "mosquitto",
+    "sha256": "ad91702f32c84d8e181c845a39d790247a2274ff377c015e45665c31b0a9098b",
+    "size": 297875,
+    "subdir": "win-64",
+    "timestamp": 1652569140527,
+    "version": "2.0.14"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/mosquitto-2.0.14-hc8ab02b_1.tar.bz2/mosquitto-2.0.14-hc8ab02b_1.tar.bz2"
+}
