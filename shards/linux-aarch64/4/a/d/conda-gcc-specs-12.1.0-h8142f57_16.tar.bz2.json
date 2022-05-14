@@ -1,0 +1,56 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "When installed, this optional package provides a specfile that directs gcc (and g++ or gfortran) to automatically:   * search for includes in $PREFIX/include   * link libraries in $PREFIX/lib   * set RPATH to $PREFIX/lib   * use RPATH instead of the newer RUNPATH This package is intended to aid usability of the compiler toolchain as a replacement for system-installed compilers. It should not be used in recipes.  Use the 'compiler(<lang>)' jinja function as described on https://conda-forge.org/docs/maintainer/knowledge_base.html#dep-compilers",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": "https://gcc.gnu.org/onlinedocs/gcc/Spec-Files.html",
+    "home": "https://gcc.gnu.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": null,
+    "subdirs": [
+      "linux-aarch64"
+    ],
+    "summary": "conda-specific specfile for GNU C/C++ Compiler",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1652486367,
+    "version": "12.1.0"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ctng-compilers-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "conda-gcc-specs-12.1.0-h8142f57_16.tar.bz2",
+  "repodata": {
+    "build": "h8142f57_16",
+    "build_number": 16,
+    "depends": [
+      "gcc_impl_linux-aarch64 >=12.1.0,<12.1.1.0a0"
+    ],
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "md5": "734adbbaba61571d3b677f633d852a29",
+    "name": "conda-gcc-specs",
+    "sha256": "e1e424865e7e0ae32635e0539bb5e67c276e8e03a7d39da223aa9c27603ac092",
+    "size": 27160,
+    "subdir": "linux-aarch64",
+    "timestamp": 1652486367601,
+    "version": "12.1.0"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-aarch64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-aarch64/conda-gcc-specs-12.1.0-h8142f57_16.tar.bz2/conda-gcc-specs-12.1.0-h8142f57_16.tar.bz2"
+}
