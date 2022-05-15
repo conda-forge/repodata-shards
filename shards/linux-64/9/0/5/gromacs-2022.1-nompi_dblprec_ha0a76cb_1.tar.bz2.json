@@ -1,0 +1,63 @@
+{
+  "channeldata": {
+    "activate.d": true,
+    "binary_prefix": true,
+    "deactivate.d": true,
+    "description": "GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles. It is primarily designed for biochemical molecules like proteins, lipids and nucleic acids that have a lot of complicated bonded interactions, but since GROMACS is extremely fast at calculating the nonbonded interactions (that usually dominate simulations) many groups are also using it for research on non-biological systems, e.g. polymers.",
+    "dev_url": "https://github.com/gromacs/gromacs",
+    "doc_source_url": null,
+    "doc_url": "https://www.gromacs.org",
+    "home": "https://www.gromacs.org/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "LGPL-2.1-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://ftp.gromacs.org/gromacs/gromacs-2022.1.tar.gz",
+    "subdirs": [
+      "linux-64"
+    ],
+    "summary": "GROMACS is a versatile package to perform molecular dynamics.",
+    "tags": null,
+    "text_prefix": true,
+    "timestamp": 1652641366,
+    "version": "2022.1"
+  },
+  "channeldata_version": 1,
+  "feedstock": "gromacs-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "gromacs-2022.1-nompi_dblprec_ha0a76cb_1.tar.bz2",
+  "repodata": {
+    "build": "nompi_dblprec_ha0a76cb_1",
+    "build_number": 1,
+    "depends": [
+      "_openmp_mutex >=4.5",
+      "fftw >=3.3.10,<4.0a0",
+      "libgcc-ng >=10.3.0",
+      "libhwloc 2.*",
+      "libhwloc >=2.7.1,<2.7.2.0a0",
+      "libstdcxx-ng >=10.3.0",
+      "ocl-icd >=2.3.1,<3.0a0"
+    ],
+    "license": "LGPL-2.1-or-later",
+    "license_family": "GPL",
+    "md5": "6e33b4f300276cd3ab67d9a25c409704",
+    "name": "gromacs",
+    "sha256": "cd2b5c4db1f948e3ced61268607d80209214af8e43cf4ff2225aced6440d8416",
+    "size": 27885329,
+    "subdir": "linux-64",
+    "timestamp": 1652641366184,
+    "version": "2022.1"
+  },
+  "repodata_version": 1,
+  "subdir": "linux-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/linux-64/gromacs-2022.1-nompi_dblprec_ha0a76cb_1.tar.bz2/gromacs-2022.1-nompi_dblprec_ha0a76cb_1.tar.bz2"
+}
