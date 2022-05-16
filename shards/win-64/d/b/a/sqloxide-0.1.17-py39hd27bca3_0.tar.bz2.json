@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "The original goal of this project was to have a very fast, efficient, and accurate SQL parser I could use for building data lineage graphs across large code bases (think hundreds of auto-generated .sql files). Most existing sql parsing approaches for python are either very slow or not accurate (especially in regards to deeply nested queries, sub-selects and/or table aliases). Looking to the rust community for support, I found the excellent sqlparser-rs crate which is quite easy to wrap in python code.",
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/wseaton/sqloxide",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "MIT",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/wseaton/sqloxide/archive/refs/tags/v0.1.17.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "Python bindings for sqlparser-rs",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1652724292,
+    "version": "0.1.17"
+  },
+  "channeldata_version": 1,
+  "feedstock": "sqloxide-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "sqloxide-0.1.17-py39hd27bca3_0.tar.bz2",
+  "repodata": {
+    "build": "py39hd27bca3_0",
+    "build_number": 0,
+    "depends": [
+      "pypy3.9 >=7.3.9",
+      "python >=3.9,<3.10.0a0",
+      "python_abi 3.9 *_pypy39_pp73",
+      "vc >=14.1,<15",
+      "vs2015_runtime >=14.16.27033"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "b2a9baecd897ff740cb34eb121fe2340",
+    "name": "sqloxide",
+    "sha256": "d3f714810a37d8a9eaae4c2c85e47d72d864676f27484f4d5437b7d1885cc92a",
+    "size": 355366,
+    "subdir": "win-64",
+    "timestamp": 1652724292300,
+    "version": "0.1.17"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/sqloxide-0.1.17-py39hd27bca3_0.tar.bz2/sqloxide-0.1.17-py39hd27bca3_0.tar.bz2"
+}
