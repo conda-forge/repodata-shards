@@ -1,0 +1,68 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": null,
+    "dev_url": null,
+    "doc_source_url": null,
+    "doc_url": null,
+    "home": "https://github.com/david-cortes/MatrixExtra",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-2.0-or-later",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": [
+      "https://cran.r-project.org/src/contrib/Archive/MatrixExtra/MatrixExtra_0.1.10.tar.gz",
+      "https://cran.r-project.org/src/contrib/MatrixExtra_0.1.10.tar.gz"
+    ],
+    "subdirs": [
+      "osx-64"
+    ],
+    "summary": "Extends sparse matrix and vector classes from the 'Matrix' package by providing: (a) Methods and operators that work natively on CSR formats (compressed sparse row, a.k.a. 'RsparseMatrix') such as slicing/sub-setting, assignment, rbind(), mathematical operators for CSR and COO such as addition (\"+\") or sqrt(), and methods such as diag(); (b) Multi-threaded matrix multiplication and cross-product for many <sparse, dense> types, including the 'float32' type from 'float'; (c) Coercion methods between pairs of classes which are not present in 'Matrix', such as 'dgCMatrix' -> 'ngRMatrix', as well as convenience conversion functions; (d) Utility functions for sparse matrices such as sorting the indices or removing zero-valued entries; (e) Fast transposes that work by outputting in the opposite storage format; (f) Faster replacements for many 'Matrix' methods for all sparse types, such as slicing and elementwise multiplication. (g) Convenience functions for sparse objects, such as 'mapSparse' or a shorter 'show' method.",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1652685979,
+    "version": "0.1.10"
+  },
+  "channeldata_version": 1,
+  "feedstock": "r-matrixextra-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "r-matrixextra-0.1.10-r41h4b78155_0.tar.bz2",
+  "repodata": {
+    "build": "r41h4b78155_0",
+    "build_number": 0,
+    "depends": [
+      "libblas >=3.8.0,<4.0a0",
+      "libcxx >=13.0.1",
+      "llvm-openmp >=13.0.1",
+      "llvm-openmp >=14.0.3",
+      "r-base >=4.1,<4.2.0a0",
+      "r-float",
+      "r-matrix >=1.3",
+      "r-rcpp",
+      "r-rhpcblasctl"
+    ],
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL2",
+    "md5": "73a010c360d2b9da0992309b1eeec81f",
+    "name": "r-matrixextra",
+    "sha256": "8dc02c8f4ff036b9c7c18daeb157e3ba955803e241f8632271156f0f1ca9c6f4",
+    "size": 1509481,
+    "subdir": "osx-64",
+    "timestamp": 1652685979070,
+    "version": "0.1.10"
+  },
+  "repodata_version": 1,
+  "subdir": "osx-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/osx-64/r-matrixextra-0.1.10-r41h4b78155_0.tar.bz2/r-matrixextra-0.1.10-r41h4b78155_0.tar.bz2"
+}
