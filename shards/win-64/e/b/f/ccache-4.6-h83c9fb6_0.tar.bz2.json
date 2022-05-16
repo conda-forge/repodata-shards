@@ -1,0 +1,61 @@
+{
+  "channeldata": {
+    "activate.d": false,
+    "binary_prefix": false,
+    "deactivate.d": false,
+    "description": "ccache is a compiler cache. It speeds up recompilation by caching previous compilations and detecting when the same compilation is being done again. Supported languages are C, C++, Objective-C and Objective-C++.",
+    "dev_url": "https://github.com/ccache/ccache",
+    "doc_source_url": null,
+    "doc_url": "https://ccache.dev/manual/latest.html",
+    "home": "https://ccache.dev/",
+    "icon_hash": null,
+    "icon_url": null,
+    "identifiers": null,
+    "keywords": null,
+    "license": "GPL-3.0-only",
+    "post_link": false,
+    "pre_link": false,
+    "pre_unlink": false,
+    "recipe_origin": null,
+    "run_exports": {},
+    "source_git_url": null,
+    "source_url": "https://github.com/ccache/ccache/releases/download/v4.6/ccache-4.6.tar.gz",
+    "subdirs": [
+      "win-64"
+    ],
+    "summary": "A compiler cache",
+    "tags": null,
+    "text_prefix": false,
+    "timestamp": 1652692085,
+    "version": "4.6"
+  },
+  "channeldata_version": 1,
+  "feedstock": "ccache-feedstock",
+  "labels": [
+    "main"
+  ],
+  "package": "ccache-4.6-h83c9fb6_0.tar.bz2",
+  "repodata": {
+    "build": "h83c9fb6_0",
+    "build_number": 0,
+    "depends": [
+      "libhiredis >=1.0.2,<1.1.0a0",
+      "ucrt",
+      "vc >=14.2,<15",
+      "vs2015_runtime >=14.29.30037",
+      "zstd >=1.5.2,<1.6.0a0"
+    ],
+    "license": "GPL-3.0-only",
+    "license_family": "GPL",
+    "md5": "82ddbaa944fff9522cc073d2f8127d70",
+    "name": "ccache",
+    "sha256": "22952d7a12c9f4500ff7ed0e7db09374149a47dfccf3e5e01964fb1a09a671a3",
+    "size": 420436,
+    "subdir": "win-64",
+    "timestamp": 1652692085981,
+    "version": "4.6"
+  },
+  "repodata_version": 1,
+  "subdir": "win-64",
+  "url": "https://github.com/conda-forge/releases/releases/download/win-64/ccache-4.6-h83c9fb6_0.tar.bz2/ccache-4.6-h83c9fb6_0.tar.bz2"
+}
